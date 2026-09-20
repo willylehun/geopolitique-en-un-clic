@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:55:52.497162+02:00",
+  "generated_at": "2026-09-20T20:56:57.246512+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 06h30 ce jour-là à 06h29 le lendemain.",
   "target_per_region_per_day": 10,
@@ -801,6 +801,21 @@
       "bucket": "16 septembre 2026",
       "score": 5,
       "category": "Géopolitique",
+      "summary": "EU chief backs plan for Canada to become 'associate member'",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fLUNwOEZkV0NFQ09NNE1qZ244UWlxWDJkQm9DWUg0bENDSllNajdYbDdMVWZwaVc2VGhEUnV1RzBDdGlOdVpWZnNqcXdFMDA1N2Y4N2FndGJuX3c?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
       "summary": "European Union invites Canada to become first ever ‘associate member’",
       "sources": [
         "The Guardian"
@@ -851,6 +866,21 @@
         "Al Jazeera"
       ],
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcDNSdWU2Z3NCQWhfNU03dG5CcTc1bmxlZnZmaUdCbmRPRTRER19GTGQwWHIxUnppa0lVZkRhY2RqWDkwcnc5d1puMzc5Z2JYTzJNYUFfREp1VUdTd1VoN0Z4M3oyankwYzR4Y1hXV01BZ3ExdVY4VXNqS3J1ZDd2VHhic1A0dTNX0gGOAUFVX3lxTE80ZjJiVEE5MzRaWldZYmFjNU5iNkNmbFc5M1J2bUhySUQ3ME1MNDF1UGhqUS05aUMzNW9DZE5FdTlpNDdGLUNjdGZLbEIxUzdaQWFGSHA1SEFjeTdqTzJkZHliRUZxMEpwRkdISmFJZ3VOeEdqYmFRN2YyaEhoZ04tSW1vVVByamJ6VGhyR2c?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "The Fed raises interest rates. And, EU proposes Canada become an 'associate member'",
+      "sources": [
+        "NPR"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd19NTHRCcDhsUVEzSWxfZXZTUFVQMVppQnNybjA4OGhxMTduN21mZkRHdkc5TFZtUUMwRzVBNk5IYUh1U3hqc2hzX2hpZ1ZJUU1sdFZOcFFsUTN1YUYxNzRGc3d0SEdWY1dHSkdFRTJOU0ZwLThvVVFIV0NiRGh3cm9tcFJhdUdEVXhKQnpnVlpFc1V4WTZQaHJ0ZXhTNDEzWE1ZcUhCY2xXU0JXd3VrOVY5OXNvRGkyMzgybUxJS3E5blM3TzhnM3dB?oc=5",
       "origin": "rss"
     },
     {
@@ -1916,6 +1946,21 @@
         "ABC News - Breaking News, Latest News and Videos"
       ],
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONWl0LTF4VFkxaGI4MzQ0SGRBR3A2S2lzR2RtdE95ZU5sRnd2QnRnYkhZakFCa29naWtLclZnT2NJUk14aldwY3oza1VBZFhHUWZLNFduSXd6QU96U1VuWVF3bE5RR3NRX3ZGVHVJdGhUNXhJZjVyWHlGTWpWM2c2VDR3VkxERnpNSDJQVTdZLUxlcUE1SERTVTc1blpOUFdHR0xXT3BBbWJZWFFmOHJWU0NpRDNuc0HSAbwBQVVfeXFMUGpvaEpjVlp0UW00M2ZfUjJPQ1hPX1JaQmlrSzNMYmhTMkdrWXZIeUxNWmpLWmVBbm9DYldPU25zS0xoLW1odHI0TEN3ZFl3SXhvNGtQOGY0MzRsWElYVFg4STFWcEJ0RXNkRWtYWThWaDc4dWRodEE5cHRZZUpKNVBSQUF6Zld5Y0hlZGZ5cXRHcDEtalFUZWREeEtnZ3VfQjlSTGtvb2JzalNPMWdHUFlUa0VUb0RBMFByUy0?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Venezuela, opposition faction weighing deal to move $4 bln in gold to US from UK, sources say",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc3dvbGU4T1FKcENxN3pUZHFoTFdsTktCbTJIeFFtNWtVcnJINzl2V0V6ZFhuSEJ0OUJLY05zYjItLTg2S0loUDlGd1ItMXVtamRzZTlOVk12dldUNktteldQSUFMVGlPZ29acG9uLUQ1QUczS2xWRWY1MldrTUxWZUxXdjE0LWtKNHFNblplbVlVdExDWndKN0thbUsyRGR5WjRwX2E4N0M1MFhlWVAxNS1Cdkw5aDA?oc=5",
       "origin": "rss"
     },
     {
@@ -3275,10 +3320,10 @@
       "period": "week",
       "bucket": "14–20 septembre 2026",
       "score": 8,
-      "category": "Politique",
-      "summary": "Why Russia Holds Elections, and How the Kremlin Gets the Results It Wants",
+      "category": "Économie",
+      "summary": "The Fed raises interest rates. And, EU proposes Canada become an 'associate member'",
       "sources": [
-        "The New York Times"
+        "NPR"
       ],
       "origin": "rss"
     },
@@ -3541,6 +3586,20 @@
       "period": "month",
       "bucket": "Septembre 2026",
       "score": 8,
+      "category": "Économie",
+      "summary": "The Fed raises interest rates. And, EU proposes Canada become an 'associate member'",
+      "sources": [
+        "NPR"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
       "category": "Politique",
       "summary": "Why Russia Holds Elections, and How the Kremlin Gets the Results It Wants",
       "sources": [
@@ -3685,20 +3744,6 @@
       "summary": "La France prévoit une dette record à 119,3 % du PIB en 2026, sur fond de déficit élevé et de tensions sur les coûts d’emprunt.",
       "sources": [
         "Reuters"
-      ],
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "month",
-      "bucket": "Septembre 2026",
-      "score": 7,
-      "category": "Économie",
-      "summary": "Canada won't pay directly into EU budget under Carney's plan: ambassador-designate",
-      "sources": [
-        "CBC"
       ],
       "origin": "rss"
     },
@@ -5030,6 +5075,20 @@
       "bucket": "Septembre 2026",
       "score": 5,
       "category": "Géopolitique",
+      "summary": "Venezuela, opposition faction weighing deal to move $4 bln in gold to US from UK, sources say",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
       "summary": "How to Make More Cars in America? Rivian’s C.E.O. Has Some Ideas.",
       "sources": [
         "The New York Times"
@@ -5047,20 +5106,6 @@
       "summary": "Trump's proposed Washington arch to become sniper, drone facility",
       "sources": [
         "Axios"
-      ],
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "month",
-      "bucket": "Septembre 2026",
-      "score": 5,
-      "category": "Géopolitique",
-      "summary": "What’s behind Iranian authorities’ push for a mass mobilisation campaign?",
-      "sources": [
-        "Al Jazeera"
       ],
       "origin": "rss"
     },
