@@ -375,3 +375,13 @@ footer strong {
   .region-card:first-child { grid-column: span 3; }
   .app-logo { width: 132px; height: 132px; }
 }
+
+.origin-region {
+  color: #8fe7df;
+  font-size: .68rem;
+  font-weight: 750;
+  border: 1px solid rgba(77,228,220,.22);
+  background: rgba(77,228,220,.07);
+  border-radius: 999px;
+  padding: 4px 7px;
+}
