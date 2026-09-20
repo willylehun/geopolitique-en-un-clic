@@ -1,18 +1,10 @@
 {
-  "generated_at": "2026-09-20T23:50:00+02:00",
-  "items": [
-    {"regions":["Europe"],"period":"day","bucket":"20 septembre 2026","score":9,"category":"Ukraine–Russie","summary":"Une attaque ukrainienne massive de drones frappe la région de Moscou, fait trois morts et endommage une raffinerie ; la Russie affirme avoir intercepté plus de 1 600 drones depuis samedi.","sources":["Reuters"],"language":"fr"},
-    {"regions":["Europe"],"period":"day","bucket":"20 septembre 2026","score":9,"category":"Ukraine–Russie","summary":"Des frappes russes de drones dans la région de Kyiv tuent quatre personnes, dont trois enfants ; la Moldavie dénonce aussi une nouvelle intrusion de drone dans son espace aérien.","sources":["Reuters"],"language":"fr"},
-    {"regions":["Europe"],"period":"day","bucket":"20 septembre 2026","score":8,"category":"Allemagne","summary":"L’AfD arrive en tête dans le Mecklembourg-Poméranie-Occidentale avec environ 38 %, tandis que la CDU de Friedrich Merz tombe autour de 5 %, son pire résultat régional depuis l’après-guerre.","sources":["Reuters"],"language":"fr"},
-    {"regions":["Europe"],"period":"day","bucket":"20 septembre 2026","score":8,"category":"Russie","summary":"Russie unie, le parti soutenant Vladimir Poutine, se dirige vers une large victoire aux législatives avec environ 57,5 % des voix selon les premiers résultats officiels.","sources":["Reuters"],"language":"fr"},
-    {"regions":["Europe"],"period":"day","bucket":"20 septembre 2026","score":7,"category":"UE–Israël","summary":"L’UE et Israël discutent de leurs relations, de la stabilité régionale et de la reconstruction précoce de Gaza, alors que les États membres européens restent divisés sur Israël.","sources":["Reuters"],"language":"fr"},
-    {"regions":["Asie"],"period":"day","bucket":"20 septembre 2026","score":9,"category":"Corée du Nord","summary":"La Corée du Nord tire deux missiles balistiques présumés à courte portée en moins de trois heures ; Séoul et Tokyo condamnent de nouvelles violations des résolutions de l’ONU.","sources":["Reuters"],"language":"fr"},
-    {"regions":["Asie"],"period":"day","bucket":"20 septembre 2026","score":9,"category":"Iran–États-Unis","summary":"L’Iran et les États-Unis échangent de nouvelles menaces après l’escalade des attaques houthies, tandis que les détroits d’Ormuz et de Bab el-Mandeb restent au cœur des tensions énergétiques.","sources":["Reuters"],"language":"fr"},
-    {"regions":["Asie"],"period":"day","bucket":"20 septembre 2026","score":8,"category":"Semi-conducteurs","summary":"Le chinois CXMT annonce la production de masse de sa nouvelle plateforme de mémoires DRAM, une avancée stratégique pour réduire la dépendance technologique de la Chine.","sources":["Reuters"],"language":"fr"},
-    {"regions":["Amérique du Nord"],"period":"day","bucket":"20 septembre 2026","score":9,"category":"USA–Chine","summary":"Scott Bessent et He Lifeng ouvrent à New York des discussions sur le commerce, l’intelligence artificielle et les minerais critiques avant le sommet Trump–Xi.","sources":["Reuters"],"language":"fr"},
-    {"regions":["Amérique du Nord"],"period":"day","bucket":"20 septembre 2026","score":8,"category":"Ukraine","summary":"Volodymyr Zelensky annonce avoir convenu d’une rencontre avec Donald Trump à New York pendant l’Assemblée générale de l’ONU afin de discuter de la guerre en Ukraine.","sources":["Reuters"],"language":"fr"},
-    {"regions":["Amérique du Nord","Europe"],"period":"day","bucket":"20 septembre 2026","score":7,"category":"France–Canada","summary":"Emmanuel Macron et Mark Carney annoncent un rapprochement stratégique France–Canada, notamment dans l’espace et la défense, sur fond de tensions avec Washington.","sources":["Reuters"],"language":"fr"},
-    {"regions":["Océanie"],"period":"day","bucket":"20 septembre 2026","score":7,"category":"Numérique","summary":"Anthony Albanese défend un cadre mondial de régulation de l’IA et affirme que Tim Cook considère les restrictions australiennes sur les réseaux sociaux comme pionnières.","sources":["Reuters"],"language":"fr"},
-    {"regions":["International"],"period":"day","bucket":"20 septembre 2026","score":9,"category":"ONU","summary":"Les dirigeants mondiaux convergent vers New York pour l’Assemblée générale de l’ONU, dominée par les guerres au Moyen-Orient et en Ukraine ainsi que par la régulation de l’intelligence artificielle.","sources":["Reuters"],"language":"fr"}
-  ]
+  "generated_at": "2026-09-21T00:52:00+02:00",
+  "buckets": {
+    "day": ["21 septembre 2026"]
+  },
+  "coverage": {
+    "day:21 septembre 2026": "Journée civile : 21 septembre 2026 • 00h00 → 23h59"
+  },
+  "items": []
 }
