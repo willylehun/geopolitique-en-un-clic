@@ -1,32 +1,65 @@
 {
-  "generated_at": "2026-09-20T17:05:00+02:00",
+  "generated_at": "2026-09-20T20:54:05.597466+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 06h30 ce jour-là à 06h29 le lendemain.",
-  "completeness_rule": "Chaque zone géographique doit être alimentée pour chaque journée couverte avec les sujets pertinents notés 5/10 ou plus.",
+  "target_per_region_per_day": 10,
   "buckets": {
     "day": [
+      "20 septembre 2026",
       "19 septembre 2026",
       "18 septembre 2026",
       "17 septembre 2026",
       "16 septembre 2026",
       "15 septembre 2026",
       "14 septembre 2026",
-      "13 septembre 2026"
+      "13 septembre 2026",
+      "12 septembre 2026",
+      "11 septembre 2026",
+      "10 septembre 2026",
+      "9 septembre 2026",
+      "8 septembre 2026",
+      "7 septembre 2026",
+      "6 septembre 2026",
+      "5 septembre 2026",
+      "4 septembre 2026",
+      "3 septembre 2026",
+      "2 septembre 2026",
+      "1 septembre 2026"
     ],
     "week": [
-      "13–19 septembre 2026"
+      "7–13 septembre 2026",
+      "31 août 2026 – 6 septembre 2026",
+      "14–20 septembre 2026"
     ],
-    "month": []
+    "month": [
+      "Septembre 2026"
+    ]
   },
   "coverage": {
-    "day:19 septembre 2026": "Fenêtre : 19 sept. 06h30 → 20 sept. 06h29",
-    "day:18 septembre 2026": "Fenêtre : 18 sept. 06h30 → 19 sept. 06h29",
-    "day:17 septembre 2026": "Fenêtre : 17 sept. 06h30 → 18 sept. 06h29",
-    "day:16 septembre 2026": "Fenêtre : 16 sept. 06h30 → 17 sept. 06h29",
-    "day:15 septembre 2026": "Fenêtre : 15 sept. 06h30 → 16 sept. 06h29",
-    "day:14 septembre 2026": "Fenêtre : 14 sept. 06h30 → 15 sept. 06h29",
-    "day:13 septembre 2026": "Fenêtre : 13 sept. 06h30 → 14 sept. 06h29",
-    "week:13–19 septembre 2026": "Condensé : 13 → 19 septembre 2026"
+    "day:1 septembre 2026": "Fenêtre : 01/09 06:30 → 02/09 06:29",
+    "day:2 septembre 2026": "Fenêtre : 02/09 06:30 → 03/09 06:29",
+    "day:3 septembre 2026": "Fenêtre : 03/09 06:30 → 04/09 06:29",
+    "day:4 septembre 2026": "Fenêtre : 04/09 06:30 → 05/09 06:29",
+    "day:5 septembre 2026": "Fenêtre : 05/09 06:30 → 06/09 06:29",
+    "day:6 septembre 2026": "Fenêtre : 06/09 06:30 → 07/09 06:29",
+    "day:7 septembre 2026": "Fenêtre : 07/09 06:30 → 08/09 06:29",
+    "day:8 septembre 2026": "Fenêtre : 08/09 06:30 → 09/09 06:29",
+    "day:9 septembre 2026": "Fenêtre : 09/09 06:30 → 10/09 06:29",
+    "day:10 septembre 2026": "Fenêtre : 10/09 06:30 → 11/09 06:29",
+    "day:11 septembre 2026": "Fenêtre : 11/09 06:30 → 12/09 06:29",
+    "day:12 septembre 2026": "Fenêtre : 12/09 06:30 → 13/09 06:29",
+    "day:13 septembre 2026": "Fenêtre : 13/09 06:30 → 14/09 06:29",
+    "day:14 septembre 2026": "Fenêtre : 14/09 06:30 → 15/09 06:29",
+    "day:15 septembre 2026": "Fenêtre : 15/09 06:30 → 16/09 06:29",
+    "day:16 septembre 2026": "Fenêtre : 16/09 06:30 → 17/09 06:29",
+    "day:17 septembre 2026": "Fenêtre : 17/09 06:30 → 18/09 06:29",
+    "day:18 septembre 2026": "Fenêtre : 18/09 06:30 → 19/09 06:29",
+    "day:19 septembre 2026": "Fenêtre : 19/09 06:30 → 20/09 06:29",
+    "day:20 septembre 2026": "Fenêtre : 20/09 06:30 → 21/09 06:29",
+    "week:7–13 septembre 2026": "Condensé automatique de la semaine",
+    "week:31 août 2026 – 6 septembre 2026": "Condensé automatique de la semaine",
+    "week:14–20 septembre 2026": "Condensé automatique de la semaine",
+    "month:Septembre 2026": "Condensé automatique du mois"
   },
   "items": [
     {
@@ -674,6 +707,1611 @@
       "regions": [
         "International"
       ],
+      "period": "day",
+      "bucket": "4 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-04",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5BZG1MbG9BR1c0bVduX01JOWxuWjBPSDNlRzNERk9hYjFOZlpiYkhEamRKMXlZQ0I0dHpCWnlDOGNkQkFqNVF5UERTUUxIY3ZiaW00NGZzR1E?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "9 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-09",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBvWTh4Qk1yMmlLaXE4LWZDRnJ1WjJYeExGc0pEZG0yWG92Q2xJQmhvUzVUVUdqSE1fWXk3bVo3OXVjMkQtMEUwQkFkMDhqbmw1TGhRNndXUTg?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "13 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "At BRICS, India's Modi warns geopolitical tensions and supply chain shocks threaten global stability",
+      "sources": [
+        "AP"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZExrNlZaeERENWNmaHFtMERIUTVLVl9GWXJJbnBIZ3B3c2dhNTZUQTRnTjlHSVhjWElrdmNuaEJWcEJJNjU4RkszVXNLQWdJNmtPaDN6bjBDX1JrTTB2NmFJNGdXNGpxQmtscTJFeWlOZU1tVWVSaDdKeGJpb3QyMnFEbWFtdEdQZmpoZlpKVkdoTjhRS3FGZVl4WUludzBH?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "How the Iran war is hitting food prices",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcENINmZpN0lReFlzS3BqUnBnQWNBTlV6Y3kxamw5SnBmaVU1MzlMM1hYa2VIaFhncUpRaFpiMTBfc1hEd2EteDBYdTRrcy0wd0dQaDRsZ0hNNTRnVUpHN0MzUEZYRFprRGs1dzU3S29RVFNGUENwRW54RUJBc29iU2t0QTBBZUk5NXRrcFlrdzZDbF9lU2RVQkdoZGRXR19hdnR1RWpaM3A?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-17",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB5NmtaZmQtcWV5b2g0NFhSY0JiemRyMkhJN2ZkNTEzNFN1dlhiYmxaV2VXcTFlY2RvdllVd1NCcllkTVNSY3BRYlZ4Z2VIc0VLNDlkUlJQZ3Q?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Why has the Netherlands moved $10bn of its gold from the US?",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclhPaHBqR2VHanZ1TGZqMnR5ZG5iWWNEMU0zd2dFM3FoaUl6OGw2TFduZ0hLVTU2ZkJKWllpcnU3bDlWRWhnLTJ1UHdWeXlmSDRFUDVNN1p2VGhYaHJQVWJieGRxbU5DUUZ1VVdtYThUVEJaNGZjdnBxMFpGY25fTkZmcnFBYW05Tjk0U0E5RVNXSk9IRVY1dmhEa3RGMTDSAaQBQVVfeXFMTnJEdndUcXFEV24xSG9Qb2MzaWpDNDNWWHl5OVcwN3BMRExQWDg5SDdkX0xpYlpNcEJZR0xpeElPNkZIeXhWOU54SVVHQzdGdW1QUTd6c1E3VXMwVHdBSVZQWHRubzh2cHpBTVNPMHk4RFZMYkdDRnZGTHNRa1BUSzRsZDhwSjVTYTFNa08wWVdLdnkwVVhLWXpfcDQ1cjBfdUxYekk?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "EU's von der Leyen backs European Security Council and 'playbook' against sabotage",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbmpsVHl5RGRpbmlOek9TSUxKUDliUU5zcmVZUEdjYUxhc1dvSm4yNDNETDBjYjRLakF5NVNIR04tQzMyYVhLRnBJeDNvSGRGZVloelpDd2RJaVZ1ajJtajhTVUs5NHJvbDl3cGh4akRSbTZNNGVPXzZxcTlGX25KZjdnR3pEU1p5bFlDb3gwYTVMVENOM0JmMzR3MDhLeWNGTEhnX2xYeFdYOUI4NnQ5Y3NOQ24zdDZBYzVEa0FFNjlYVWh4?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Breaking News, World News and Video from Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBPd3h6VGM0TDlnQTJRaHcwMHkxaG5HcFFUY08yOEpFQ3FjZHB3b3h1bGlwSnRkT3k5SXZORXhjYw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "11 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-11",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YT0IzMXlRUlVndHNFQnI5bGxWamhTZEV0R25iQVNIeW03RzVtYzRIZC1tcFg0OGxMWGN6UlRmU29oVzR2MGMyb0ZNOWRkNjJkTFhvZmpfbWo?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-13",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IYUhZbm9OOHdoaVpkazNhQ0ZTOE1scVJINkMzZ0wtS1RiMkxXZVhKX3hZSFlEYnZxaVV6b1NnUWdIQ1dCbXNfd1NuYnVXS2g4QmdpZE9wXzI?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-15",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9fZnNmb1BoSGFuX3VHZVNTUVU5ZERneWlSQWVJc3VVb1I4dl83MjA1WUUtVlhkbkEwdjFGVVBkM3c4cG9MRTJiZ3d0NUp3Y25UZ016ZDFhQmI?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "5 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "UN votes to adopt new world map to reflect Africa's true size",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UbGpHbjBTRC1XOHJFSVB0TlZZNEhiRmZtakl1YkFBTnViVmE0MXlXSWxlX1hBTHVSNzNYZXl2b2tPN0pwRjZEYVRiaTBSOG0xNTktdUotVzVDQQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "9 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "What tariffs will really cost Canadians and Americans",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pNmVYUjNqVFpVSm1KX0FkLVVLS2lUa0I2TDNvUmpGcmxObUcwVUIyWC1ZMGpDSkNKdWVfUzgyV3ItRGpEY1hKcDJKMXRaaGF0eTBVbHViXzNldw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "11 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Mexico, Washington sprint toward bilateral trade deal before US elections",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeDdUSXMwLWNhY0JhRXAtUjVJamcyeFhTckRjbWNfelI0ajc1THAweTBRbW9faGR3cHVTeGI5RnNnbDhDSjZ3YzFQMEtzZnZaaGlBU1Y1UGFXSHE4NGwtRkFwV1VMWDlQSkpRakVHVlNVcU9qRHp6bm5JeDF2VlliM0VOeFNsaEwzX3FEWTMtUnM5d2lEUVRUdjZETzY1YXloWi1sbEt1dGRSTzNYM1VkaUtpcTZCcTZmNDFhYjd2bjdtQTNSeVlJMkZJR1A2Mm82WTVoNg?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "12 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Why Canada? America’s northern neighbor seems an unlikely target for a trade war",
+      "sources": [
+        "AP"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMmtydk5pTmlvb1R5TklLWGJ4MG1PRjN0amoteHNYRkl0TUZDM2VqV1BLeFhqcmlleDBJNjlNcG9EbU1ha3VxVkZtaXZDUTFlemxhVWdGYnFaaERyb0xZVFdzT0tHa29NbGhUYjRlNW93MEtvd3FZekJWOXcyYl9qR0JSc3NhUHpjYVZBV29vT21TTXJP?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "12 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Cyclospora: largest US outbreak of explosive diarrhoea parasite is over, health officials say",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tb2ZlYldYTVQyYnpFenB1dGFyWm1lQ1RORUJtSDF1Y2VpdW9YQzBEdkx1SDlfd3h6Tl92TVdtMGs3OUhfUEh0b0ZsZFhwLVlTNTBTZlE2UDhCZw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "12 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Global News Podcast | The Happy Pod: The choir proud to admit they can't sing",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uWEgtWGNuZmlYOThLNWpiZjJ5eVFtLXVxQWE1UExiclhPSHpYamZqaXJZYnVzb19oaGRvMFdfQWd5OUVHMnRlOG1ReGdHUWN2?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "12 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "OpenAI agents attacked RubyGems before Hugging Face incident, researchers say",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNV2F3RkRiVXZra3BTMExtX3lNVHBEV0xTbkxBMXNwaDVIOGtkeXJEWXRxeEd3dDlLbW5kOUdrQlFnXzVZTk9YRXMxdFRRVGpfR0puUjkyYXozVHJsVXVHTlhSNDVyZjlxMkVwNnU0a2pMMzdOSTdsaTJ4d2E2R1FLbU8wb0VVbW9GUzRsa0VTYUJhN24yRDNTTmtnYkpRUHVlN002SG54czB5UzRsTEtMLUxSSVgyN19xcnRwaGowODRJMXk3ZVNwRDNB?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "13 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Brics summit 2026 Delhi: Iran war reshapes ties but exposes divides",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91b1g5Z3VhS21qLVlBbER6dGVudjhrdUpiNlBkcHVCQTVxQ1FOdnpPWlpkc1VWSEhZTXpXMERDRWQ2X0FpdnFwWEN0N0lrdy1YamZBeW1LOHVmUQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "13 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Why a fresh wave of North Korean soldiers may fight in Russia's war in Ukraine",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LLWdaalZLeUt1cmJENVFzTTU4YTBkQWt2UE5UelRvZzB4T1owUmZqQVh1dGxCcG1hTERIb1p6V3MyQWNOZm9rSlVTczJXSGVMeDNNWlNIZl9fdw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Macron, Carney to visit North Atlantic French islands after Trump's map post",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQTNBeDVDZ2pBdF9VQllPellPOURQb2NkTWE0aVE3YTBia3BhZ3pzZkZUM1lpM0J3TmhSMnBISVlsVGgyUkIzczFLWTNtbEJqOWNOd2xtT2ZkUHE0WUE0dTBiOXl4MkJ0eUZSNTFiNVpmMHVOdnMzTmxmTTFhaXYxY09FenFHd2dqcm5TMERJbHgtRnNPX0lqRmtYLVNsaDZEeW1UcExzVXNvUQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Asia's oil traders, seeing no quick end to Middle East war, stay bullish on prices",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQjlwYUFLdF9Cc3lZbHQxSHlwT2Y4T3Yzd2ZfZUNwdmNWM1Y5d2M4azA3SUEyLUkzTWo1NEJVeVJSSFROXzJHM0tjdlBfWGpJUkY0MlJpSFFxSmlPcDgydF81R1BYekZyQklaNjNGRDFfUkZ2UVo4MmNKOUJkUDBSbEY3ZkUtM0FJajE4NWVDejk4XzFHb2F3ZzhiOEVRUHRxeElFWmlvOC1pc29LZXFEX25XZ3pHN3FhaUFjWnR1b21zb0E?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Mass nesting brings swarms of turtles to Mexican beach",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwaGZYN2NEV2xpR0hMeThQV1RkRFpHeHhqM3F0UnpRekI1c3hteXdKaWxraGliZ1E1N2g5c1M2T2plSUVBazBQRFVmVWc0QkRvQzliLXBqRmI?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 7,
+      "category": "Technologie",
+      "summary": "BBC AI correspondent answers: What is AI? Can it be stopped?",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1BUmJDVkdJSEpvUng0aXhzeU9rdWVQM3ZTbHdKTVNqbDJ4SUlqaXhSMVVqUDViTElZV29mM0pocGNtZVhldEVjbEtRVmdJUE5DcUdCNnF1dXU?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Trump administration suffers double legal setback over immigration policy",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaVRnaUV6dzBaUUY1anY0aWlIeVlDMFdraHc5YUFXdTJScE45eW5mdDZvWWgwNlI1S2lxa29OTmdxUlFyUk53XzI4TjhkSllQekxHQWFKMzJCNXRQVFB1a3lvVW10eGFaNXFjbnd5MXVteE5wdDJTOGpGZU1XSlNzTHhqa2FMRG5RZmk5dmhxZ212c29DYnR1WEVaSWtiQnN4MHZuNHJPN0YtbUtWOThGemJ4QdIBuAFBVV95cUxQdUJpdk9GZW8yYnhFZFBYNmhOMnBndi0xRDNWQXcydjNDTENRNW50SkhQVjZ4a0ZTeDdfU3B1ZUVzTGpCYWpzVTk2V2tPOElqUTBodjlpNVFrOEVGSHFoMkNLaFJhTDNYSnY3eXJONXJwbmMyU0NQWlUtSV94WGh2YS0tcndLNGxxQzBJUW9vNlkwU1FDbkhFalBaTlVYTVk4eTlNOFZyNHVqazRaVEdtQl84ZU8wcnE0?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "British rock band Oasis announce 38-date tour in 2027",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQVVkTDhNWDNtdEN4eHJYeHluNFVLVFZSMHY4Nk9wZHlCYjZhaVVZeWEtWFE2RHlYdDdMc2tQNzNQT0daX0dYMkdpb3VxMENQMV9tUkYwa2FvYWIweExVYWctLUJkenp6cjZBY2gyWXBFT0VvZDN3bVZ0WWVtRW5lSkwtSGhSMzdzVFdWYTgzM1lhZU9DNjRsWWsyYnE?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Carney says Canada seeks \"unique alliance\" but not membership with the European Union",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY1Y5U2xFbGpBM1ppYU9rcmhrdVk5b2hKTkNNZHdyakV6Y0UzS2lJenNKS0s2SjFZdVY0cDBDUm42MnNib1BlYzZLWENheHpobzhOanc1LXVnblVHNFo1MDNtUEFjcE93T0ZIOW85VmcwWk1zOEMtcGh4NXpOSk94dVowaVlya1IzWkJxX2NOcDhtZWhVRURzeGRCWUhHV1FuNGRzSUI0bS1ERVZ3TUdhbUZGOWpwZw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "DW investigation: Sabotage attacks in the EU for Russia",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQmlta3Y2WGVMcXc1bTA0QlFINzQ1YW5OQU9fSjluX0dsY0VfM0xGaXlPREZYU0ZNY29DWE9yZVI3RVVxT1JEWUo0RHRSR3U5SjRNSzdjblJGc1VXc0Q1TlgwRHJPYUlydmU1WkpOY2VtbEk5NjNvZ0lTSkRhUFllU3hmQjNyTzV3ei0tcThNT1lLNEVfTGRHZDBHcTY5X3ZCZlI1Wm1xVnRWWkNIRl9JQkkyYVR5aEdNUXFGMjIzYW9yWnVNa3N4N3Q3eUlPQQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Thousands demand end to violence in Mexican cartel hotspot",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fbUJ0ZjlrWjNVVVNRb2pmcEVoMFZIS3dKNm13RWhnUE01Q1d2eldWTjAzUno0clY0MXUyY1c2S2hBN0k3YzZNaEN3N2lDSHBqcGxBbXEtR1J3Zw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Palestine weekly: Settlement sanctions spark diplomatic crisis",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcEJsbWlESy1HODh4SVplNmZwbk9IY0MzWi1Mc092R2hMVEZuaFZtVkVrbHF1VHFheWpvNExtX0ZFOW1MVXpfbjh0OC02QTgyc2FmWG5hWWxfUkFlQWtBdU5DeUxzVFB6UUZtWS1lN3RZRDhnLU1qSFowbGRld0ptc1ZSVnl5VkxKa3JPcmFscHAwZ0N4WUl0RnFSLXI1cENfTXB2LdIBqgFBVV95cUxOTUlnaWh0VjBESG5teVJDUWlJTUg1TnRkb3JPREFVeWVGbW83V2pGZFpfV2ZCX05GVkNhcW1TUGs3a3FNNENzaGU1LWtuUmVhWjZwQnVnRjY4OG9LbHZweDB0Skt4b2MtYkthZllYbWVIOExoQ09PcHlqVEhUR2kzcl9vdjlybkdNckZxSEdOMnh0WV9FNWVlU0FoclRMajBqeDVmZ3VQZm9Rdw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Watch: Warning of space arms race as US confirms weapons in Earth's orbit",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBic0tWMlBNbnJvTW1qYVlWRkJLczBnbHlYeWNWVnE0OVEzaWVfR051T2ZGUHNJN2tQSkhoTlhvYlA0bjh3UWNVVzZsNXNvdHRGb1dzZnhhbVY?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "UK could 'unlock' 100 more oil and gas projects, say North Sea bosses",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xVUpLWTNTWnRoR204MVRER2JxR0lxQ1d1N1pzQTdpVUw2cjFMeldQR242STkxeWxPT2REc1NQWmROQXhBcl90V0VWNGdFZEN5Q29QY0FORVd3bEU?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "El Nino reaches super status: Where will it bring rain, drought and heat?",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX1l0Y1hUUnh2TFhqTFFFcTBKU0s0T3BkenV1STA3U3dlTzVkRGVSZFh1VzFwM0o5dHhfV3FwTG9Yb0J6WDBRZVFqbGhLRkswaHdDbV94U0ROeVU4RktiRmdXT3pHMUVGVDY5UEhDaU5aOHhqM3doUXFwaHdZVHVycXc2Ymx2aUZRa3BJeW0yMzY3c2YtdGxiNGpZT2VnaEtacXVvNDM4MUFZZVdfT1lFeNIBtgFBVV95cUxQVXBLVFhjSDBwdExvckJxZ0FOU1lJa09PVXFNVUdJRTUwcFF4enI4X2NuNDVhOFV5dUZWZzNqNE9ybVdkVUp0R0dWbXRvY0FrOFJBSGwwNnNYT1JxVk1jd0VObExTLWFuYWdwOEZmalpsMUlSR3AwNVNLY09QNnNFZTQ4cEt6dTYxMjhNQlFzYjk1bzRsYURvU0liQ051bnZkTm1MWC0zQURjS0FjSC1XbjE5SW9DUQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Nuclear fusion’s moment of truth",
+      "sources": [
+        "Financial Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOTh5amdmQ3V0NzlKVG1uMGpUd2lxUDhFVks5VXB1TGpSX09wMDdmeHQtYkM4ZzdYX0gzMFpNNUplcnRyQzRpWUMxUk1WVWd4c0xGaGl3OGJPUTlCbXVWaWotTFN0QWI2MUVncVNzN0dhaUQ3dnlZWnoyb1R0WTJEM3NkNFg?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Prada revamps Milan flagship store to cater for top clients, lure new shoppers",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY3VDWmN1OTBGbWl4Rk5MRVpLeWdXWlhfV1lrZlo2WU5wVEVTNkpqNHpNcmRGVUpmSlZDLXdZU2tEaVRDNy1PUHhPSnNHTzNtc3RtMGhvVWlOWjBLM004NFhVNnVBd25XdUFrUjQwYUwzc0pqSFBSVW1yY0JMem9ZUmFFZVhDZ1JXNHhiOXlteG4teVhoeUFScHFORThMT2JNNmJxaDJjcGRqTnBPMzJlUWxSWElpYm1iRGc?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "US confirms for first time it has deployed space weapons",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96eExJay15aUVxUVNWVGlSSXkxSXRBVFB5Y1o4bmF5UHUycmFfU0R4ZmFBVzlUdUFzYUpyM2NKZkhkY2NWZ3N2OENIUWxqakVqNVRqa1J1ZmlTR0U?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "USMNT roster prediction: a big chance for Cavan Sullivan and other young prospects",
+      "sources": [
+        "The Guardian"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DSXpkcXo3WHpxRzFOQ1p4dmFQNDFYUnlBd2VmQkkyZGZnS1c2NFdaX29MZ0gyZF9OeUs4bmFjemhuOGowNkRwYjlHWmpwNkRBUWdLaWlpaFMyMUhuUFlTMHB6ZjRSZHJTVXRNeHh3OHlwZzVrbDd1LWpqVGs?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "Ukraine's Zelenskiy says Russian drones attacked Moldova twice while he was in transit",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV1VrWjltcHFDSUctNXk1cVBXdmJ3SlEtUDUxb3lva0tjbnp5ZWhuQWxlTHZpZUlvbmhWRktpNm9pMkdQMHVJeE80ZE1Xel8weHVLc29RUkF4R1VaZjQ0TFp0SVpMV0NkM1d2YmU3QkMzNmR2UGNBSzJDcUltalAtM1pveXMtbmxUSGpvUkhkLVMyTWNZZ09jX1RTMjlvYW5XYzAzX3lnRnpwaWMzRGZaemJad0MtVlNlRDBMMm1XcktLcEE?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Why Trump's hand-picked Fed chair defied him by raising interest rates",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tNjZsYzhaYldRR3Q5NUdvY2hHOUZvVlkyN2RpM3ZWRlcwSXhGaEV3SWxEazJYdDF0am9DcXJaSEtXRlZfNWRHbkNkb25uY2ZrblBpLVRFaVc?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Dollarama raises annual sales forecast in Canada as cost-conscious shoppers trade down",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ3VUOXdYQW1tN0NhQjBPR0pMQ0hWUXpYdTB3emtBcWlmVTlKbTU1Vk51QUMzNzk2WjhsVnlUZkh1ZjRzU1dnTUJwY0R2ZFhaOWtlb1daeG12LWFGZkpySVdOYUdxU2lSVVhiT2VGTUFKTzJnN3RvOVRlWjA2SWpfeF9DcW9QLUlDWmJZXzVqYWVEa0UzZUxoMEdwTDMwV3JSVC1wZndrZFoxeWRz?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 7,
+      "category": "Climat",
+      "summary": "Three dead after flooding inundates Navajo Nation in New Mexico",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOODZHbnRkYVpGY3B6ZEI3TEg3SHU3UEFVenpPWEJDcU5wbDVqR0NCcW5LQmxwc2lHcGN4MWxyX1h5ZEdDamR5cGFlNkZpRHFrLVJvRGlDR3U2ck5welRoT1J6M05GZTNYZUw0VzVERVZTOHdiN3UxU1Jxd09VRXJNNE9pNHhObnd1dk5XdVZRbjNkTlJ3cnBQbDhKNXFTdTRPWXNfekJQMNIBrAFBVV95cUxPbWdBeVBRMkwzd2RsLWxhODNaSlFBdGQtUnE0Q0dWbXdPZFk2ckxRZkpmem41Z05heUt4cUJZZ05ycFREVEhZVUdjZWRkTl9veXVEcGt0alZBb1lPRHVGekxTaGwyYnVrcGV1a1g0aEdTMzNpWHJ5cS1jRzdxMTQ2NUp4N2NZWm9TVXoxa09hZ0JVQi1KdVhXai1LbmtZYndPVlVXcko5VGNjdmNf?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "EU's von der Leyen backs partnership with Canada in 'openly hostile world'",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM3NNS0lVWUJaRWx0UWh5Y0tyWHloOS1zQW55RzdQR1kxN3diNUxrcU1aSkIxYjgzV0hBWUlHak5fdFZ3TUNTYkZlb1NrVlBoRnZ4cC1jOGFaTXhyT2F1dVE5OFRqTEE1ckZGbjBsaWk4a05DclRTVkNaa2UzY1hhLVlDZVpHLWdJU1BsdGtIVmRpVHZRWVMtZ2ktTUdGSHhldnR2SExEVmpfNXA4LXYwaWVSa2RNNmth?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Gold mine collapse kills at least 70 people in Sudan’s West Kordofan",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMktYQ2hUMEU5N0ZPUE95ZEdwd3hUUXU4VHI1MU9VODZWTzZBVGR0UHMwVG42ZUZ6NUwwWGRKaDFuZGZBR1diRWZBaGVBeW5FTkxTMXRVSXJ1MURFOGdjWFpLdkpkZ2QxLU0wLXRvbFJQalJuUkYwYmE0YjF5N004dTFqS080eUJESFowQUdjX3pJUS0tRE9mSFdzaUw0SVRwemFMNTJkbTVaOFNq0gGyAUFVX3lxTE05UGhrVVhFYTJnRERoUTZWcmxwM1kxVlVQNU1zWGJUNk5HSV9ESmt0QVRhM05JOEZXNXpPTU95RkxhRU1FQlhwUmFWWFR0b3VXdkRxVlZ3azBmaHVRclM3aEtfQ2tBeDFUWEN5VmtHZVN4dXpsTnBrLVB0aUpIS1pONzZiaXItU05QaUhtOVFaZ3lXMVd1NHhEcEZaVGZQV25RWnAxczJzUFpTODB5aThGcEE?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Monaco to become one of a record 10 F1 sprint weekends in 2027",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWnF6UVJKWnNyZ0NQMjVJem5zc2tRcXBaLWNiSWhVVmtqOVJ3bDU1QUhjeDlSWUZYVG5ZdF90Ui1TWmsyLUI0UWlXMDFvY1Q4X1lkNGJLbVFJeXhua2JUcC1xMUJJVzREaVdoS213c2RIcjAtQkVDWmZXVzFCTmM1Q0p2eEUyQ0JQY2Q4aGh5MXJudTFpa19rMGx3ZGZWaUNvcTlXYzZR?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Poll shows rising trust in global institutions, less comfort with US as global leader",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOXzJvT3RTVFVWOU5wWkw0c2hRWm5KbXJxc3BUclNUcTJ4S1dWMHU0UkRkeDhyd2s3QW5VaFVmS05tcW5CNTVxRzBKakEzYUNBOWpzQnJKSXZRekRKdFU0LXlQMWdoMDYtVTVuMDhWVkljOHJ5RS1kdTB5WVlSdl9kRDVydkdEdG01RUp4NmVOZ3NYWkd1OGU2UFpkVm1TekxObDBWNHpHeUhJempUaEkyQm5NdC1UczJvbGlzZg?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Runaway horse captured by police on motorbikes in New Mexico",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFOUJ1TmprYlVUcE1kOXlCT001YnBjal9OVWwwV3lFRDJKWWM1RkVjZFZLUXlCZWZya3N5QThvMkk5Q1prSW9yX25ta2xjYi1oU1BTaXRUY3Y?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "TIFF 2026: Canadian director Nelson explores family's Alzheimer's journey in animated dark comedy \"Tangles\"",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV3RrNGZTZmIwMExxeW1JeGE2YUZRalRsTzFxUTRMNEFJaUxZZUxVZE5DYk9lYmtnSmZDbFpCZXJ4bXg3Z1IwTU1KS1UxV1pUOENieWI0UWFUbTBodEZNRUFHQnhmOHk0Tlo2S2xsV0pwMjhwQ09tNEpGazQzbWpTV1g2dzlDbFhTaU9pRFJEQV9qQzFNeElPYXhmcG9tNGlkRUd6d1I0T2s5ZEllRWFreGhVQ0l2MzJCX3hmWGp2LWk1YXJJ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "To save scarlet macaws, scientists are rescuing chicks from their lethal parents",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUpobUh1aHNfUWxLSlVNVmtLWlJyTDNFQUpWRnFiQldydGhXSkdmNVNrejBLX1k2UzVVY09Pd1NfM3VrSnVUS05oS0ZMNW5oSVVFN3dfQk10SXFQQWU2eVFMaC1DU3hwWmxxSDlhYXBMc3JLbHA1cjhzdkxLb3A4S0pCTHFCdTQwdTc2VGZEZUVTMXY4MmozVW1PMFFPR1k5X0h2TDVycnlkM0hqSlBQVk4tcWxnejZPeU55dzR3V2Q?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "US drops Venezuela from drug list, may remove Colombia, Trump says",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPXzBFQjlMc0t3MjVGM1NXVFhVQTNicy1uRVpjTzZNT19aNlRJVU0zbjVjOEtZSl8xQVNVOEhEcGJMUTFSR3JncXdjd050cnc0Z0xyeHg0MGpJdkhIcDd2aFdqemJSMWVNOURxcGFjSFBnS2xSU1NDVVg5eHVjQ3B1UnZiV2RGUG13dzIyWnM3a01HbXVnM1VsVi1FZjM3Z1RlZUo3SzlwZ3V5bDJNeEdB?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "US lawmakers pass bill giving Trump more power to sanction Russia and its enablers",
+      "sources": [
+        "The Guardian"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQkVhdTV0a0NXWWVLZGpMY3FvRURlX0p5SEkxMEtiS2RFc1U4N0NRYnpJS0Z3aFVTSUNtaDBJcWg4R2RpZzJhNzByWmNxaVZlSjlfRTNoTW14d09QVmJISlFMenhKYkllMVZxZ2loYjJoUHduRnZFX19hY2lwM2x4cENDcE9PU1dHcTZyQkRIZkZJLUJBbUZ6VVhtRGhBWHgwYVpTakdqMzUyUnRUSUNkN3Y0VXY1a21uelJCZHAwa3RsZHIySnhUOE5n?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 10,
+      "category": "Géopolitique",
+      "summary": "Bolivia extends state of emergency over risks of new blockades",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdUg4Q0tBcG1WNW9KQmJLcTcyNDFxQV9qZHJmeTZSNTJqaTNhejBrdlYtM0NTMk5kaGNfaG5jVXdLUEZwY1dhM1E2TjJrN0ljQ2RadnBSSVlrdkJCRmNGZUd0b0E3Sl9QZkxwUXJQSHN4eTA0akEtYjdWQWtqa0tUc2d2d2pZN1BPS2N1UEFmbjlkRVZMQ0N5MXZqNWlvdXJ1Q01kM1Z6dDdpMW8?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Trump says 'major progress' made towards US military base in Poland",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNzZ3azJYNU1LWkFCUzZLaW1Jc04xWEd4NzYtZm8xOGdTa29HMFBvNmtkWlJBQkhUaUYySVNyYUlnRG9LN0g0Q2k4YnZoWm1sOXlQRVdubkdfZmUyQ1BtUnQ3dldMRXVKMEhiWENGc2wzY01Md055YlJTRi1GMUlGUl9EeG9XVHY1dm5ZeDhxYWh6aGxwVFpFdkdwY0YtRmJyVklIVlhoSy1RcU1B?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "UBS chairman warns bank could rethink Swiss base if rules too harsh",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU0d3VzlEY2dxUTRBOU9nSFU2MEtjNWp3YkpwV2lZNlUyUzNfMVRaV1JLUTh1cHJnODg3WG9fSERJX1doN0pnMjBuSFR2OFBhajJNTUdmOWRreVlENXlWZFhuVDNqdGs2aW5PUEhSZnBnbEo3b0M0NHRTTF95YjI4NHhBNUdzZF9xVFlLSFNTcW45eW9OdVR2UHJQWmkwaVBoekMtdDNOYk9qT1JuWFdTZA?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "UK insurers urge Bank of England to rethink 'dynamic' stress test",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQnd3MlU0UjQ1NUpIM0ZBdDBRRVpvMzBwSm9yNUFSRzlKeEczakNIMFR4cGJKdngxYndCR1R1dW8ySVJpU0NqLVJuMkNOZE9XRHJXMDROOU9mT1FpX1FOVDhjbkhuMzVOM3pxNlg4Rjd6SzR1OERERmw4YW0xV1R1ZUxkQVNKUlE2ZjRLcFRyMjdwVTAyOHFFLWZmeUc4Rk1UME5waW90Y1ZPUW5VRThIdG5uaw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Centuries-old manuscript narrating Aztec history returns on loan to Mexico",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQkwwdW9RSjROeUMzbTFTZG1kdXdVVFRNWHBfTkExSkJiQ3NIeGxnSFB3SVhXX3pqUllQNkpvMm80cHBTbGtKcm1zZ0UxSVlQVUtuSm0zQnlkNW1LeGVTWElFX2RUb0liWEhQR2pQRTVYeGVrSFJ4YlZOY0VHbExELV92WmtySUwwbDZEdGJ2aWIxaFVsUW84OERvYmdrNXh6a1lJWXNPUFZBTWdXTmRvOEVWQ0w?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "England squad announcement: Big questions facing Thomas Tuchel",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HR0RkcndTeDg3bFduWmNlcVJReEtTNnQ0N0tid3BwaGo4UjNLTU41OUkwbjJIU09qeHpRUkNNUUFNcnZRZ2IxSDEwVC00SnlVVUZ2QzZCbElsV2dvXzBPOWtVNDc5UUFF?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Highlights from Canadian PM Mark Carney's speech in Strasbourg",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcHY3czh0UG45eEdXdzVFU2RidkZjWnNGT3hPRTJWWFlhQmhQbENaM1dERXY0dWlTTGRrWmRJaWRDVVczTDh4ekJvUW5YTFBNRlhTWXYwSDB3TU5yaU4yT0h4SlN6ZlF2T0NlM0pObDBIWW9zbmFBRjZaa1V6RFN3OU1KbU5wWGpnak1ieGNSQ0xieko4UVNYcHZ2QQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "India to impose controversial fee for UPI instant payments: Who benefits?",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbVpCbmlheG9KVGl1ekV2SW13cC1XcE9KT1h3RWQtSUlXX0NSNU96VHNrM3RpdVFPYV9NT19YR0lBMG5WNWo3T21QOEc1UmVUUmluODdGcEtyczlnRDNoWVkyNEJ2RmFXR2N1Nnp0WXhLTnlpQ1F2WnVmNlA2WnZWSzJLTUFHSXp0S004aU1RcWg2RVpuUXNmRTBMOEIxUzR5aXh2emtfS1p1YXA0RlNHR29aR3hnaG_SAbwBQVVfeXFMT2dtMWU2VVIyd1NPUmRheUdkOUlFX0hZMUl2SEJ1ZUt6Wk5GZjY1T2dIOHVJek0yOVZfRVJaZzVDTnJ0TGdZb1A4T2NBZUhRZWFjbU9ja1IwZ19YTjhNb2xHWERpMDZmTHVaQ0VTVXlJM25aX1lxUFJBQnk1cUw4WW1QTWFRcG94enk5ekwzMXpUcHR3RnpHb3ZJeGczSzA2ZFllN0dPaURKclR3Y1kxMGdFU3dhekkxNEEwQ1A?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Is Canada about to join the EU?",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LY1hpMXBNNm9BNUhqN19pVURMZ0lrWnVITkVSV3NhamFMV1V5T3duSlZ4Y0dvRmdGSEs2dUFSajlhTVdpYUkxbGg2NkNEVGIyZ1VoQ2h1clI?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Pennsylvania seeks CDC help amid dispute over US measles deaths",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPN0xWS2pranJXMWF6X0tPbWx4RkI1ZkY5LVlkc19GaTJHY1Nyd1AwS2RuQVlPR1VhRmxTd0RuSlYzdTUwQUVfdnJrZFJuYUxsX09vSzR1S0Q3a2FnZ3kxUXdFTkx2YVo0S0VGWWpGRVc4RG9VamdhX0pjMnE3NkI0NUs0UFc0WEt5X21JMUVlSEtjRVFibm5QZ054UDFJbjFvQUp1NEZzd9IBrAFBVV95cUxQdEJtVi1hS0EtOVVONWRXeUFvazJPNFRHTEVDZTJ3LUdCRXdPM3hJSmZVV29lQ2RHN3VSSjNEUS1RUVhmV2M4eFlxMWNHRHF2NTJrZFUxR0hjUzlOd1d4VFNrSEtwRWNQakFvTFZQUE1nclQ5aVh5b0s5LVNURGFFUzRPZkpfVzZySk5qR2xtVE8ybGYwd191aXdVa1ZWM2R4OFVFTE1ZWk1Pd1VP?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Peter Max, known for groovy art that came to symbolize the 60s, dies at 88",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRHVNSGNKbm5Cd0tNMFJZUHlQTk9MYlJDMjdmYzRjVUpZUGpIY0t6NW9wMGdSVGRIT05XemN5blBVSGZNZUwtMXFrSUM3S3FhNmRVTndfQXRLWWpoV0NNNEFaeFB3WTVBWXZFdlByb29BY3NxZG5DeGcwdE1MeDd5aFl1bzc0SzhxVm83NGhCbERsRExfS3ZlZnplejNkRm1Fa1BnWEtSaw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Two years and one World Cup down, Mauricio Pochettino is still assessing",
+      "sources": [
+        "The Guardian"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSGpadnNnWVhURW5YNUVwZmstbHJadE9ybWVpbTZ0Q0UyNjE0cnVuTTk0Vkh1VF9VeEJKVHZLb2w1REV3bjl1UXkwX0otOXhlSVlZQUZQTllhV2lkZFR1Zi12X3lxVWtwanJLcUdQVXBSRThqYTdqY1BZTzhXVXAyRlR2dXlLMTg5QURR?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "England boss Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer with warning",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mX2J5NUtIYVhzM1kzYklBdWptakdaYnFDOHlqd3R6VEdBdDJzYjNxS1VWbEdJbzJwaXBKOGxvRkt3bmkyMkhja1ZDX3VVMzlsNi04aWYxZkU4c2VxQTVRZ0RTU1p6YWdW?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Famed Inter Milan and Italy forward Mazzola dies at 83",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcVZqb3RCR2NzRE5VQUlUOXg1eHhGOUJCb1JycWM1M1RrVjRYNXNrN0t5WWFSdndRc1RiUFZSbEhPem10cnRfcXoyXzE1S0lvbkJfMUg4RklHSENiM1VtX1hMaHNrWlJqcGFtaVVPVy1EUFR4cjlaTUVBandva2FKR2RFTHNpdFI4djBOUFBFM1F6YVhSakpLYVNSeFpidw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Mexico's Sheinbaum says working towards a trade deal with Trump",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLTBFWFlQREd2SEtkLWVWbVpXN3QwU3Z2T3R5dmFqYVhWaS1teklOWVhEM2F0bUllRThBbnVaVFo2a0l2RnJPMVBtUTRYQ3dvTnFpT0VSYk1ZYXJkNWNaNjk4TVIzWkk1dDFVWllDNUk1ZFZNOGQwNndkZjhvRTIxMDRyQ1JKZm5wb1E5dEwtUkNMRHVjLXJVc3pjSXl3ZUtDVkxmcVluQlh6cHY2VVZpSUVUcWUxRXo0QTA4a1U0N3Y1OTFueHc?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Warren Buffett steps down as Berkshire Hathaway chairman",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa19ZS1RhSXNXcllpeUZVWlpjcW1nNG5PbmlYSmRvMm9OYVhWdFdDc2ZZMFdfRnN1ZVppSjJ1ZzNpd19GQ1BYdVR2TDlURWRNNWpubGJ6YkVHTkFGT1drTDBWVk91YjhjejI0Q2ZHSUlySjZKLXJTTjkwVnlkc3JFbHdYdVB1bFcyd0NuZWhENXdPVllEaW1JNkdsdkZWeGhGaGfSAacBQVVfeXFMTmZMQ3lPZTBCTGRKSmxBOXM4M3VteE5KTHFSMXRwV1RpNEszZFB6QlNSSjFZekk3bkFvdTZwWGZYbVRmX0pKNW5sZHRPRjFPVHlrVUljV2hNUi14ZlpLZzM4WERxUTBqcV9OLWFEbVFrb2lvdHM3MXNlbU9fMGY5SHM4anE2ckZ6bE96WDFSenNMQzVwMlN4TXlLMjhxc2p2MjNtWWQ2NDg?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 7,
+      "category": "Politique",
+      "summary": "FIFA’s Infantino ‘must go, no ifs or buts’, blasts German FA vice president",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUEdZVmJfOW1tSXNnd0lQcF84STdEaFpqOWlsY0ZlWEdMN0JlRXduaVQ0RzdTZWJmZTVOM2tmSkk4RFVyYTdmWUJNT0RsbmNiUk9NRVd1SE13bEJyUk8yd3VxYmlHUFMtN3VQbndSaHdrbWMwNHB5LTRTdVlNRDJvYnkycHZtUU5Ub05MdFRBbE9GZTduM3BXTXNYY0hCb3Zwd1FBQlNNRTJGWDg3bXU3UdIBtgFBVV95cUxQWndYdFFRMWpBQ1RpNlV4STgzVlBMNXhMRVBGSElKSXpPZ0p3cFRpUHZRU0lqb2N6bUVpZXVDcGFLckJ3ZkZWUHB5OXRQVzNfN01GcDdMcDFUOFc3OFJDOURRZ3hieXNEc2IydmJEelJDT2ZLNzVBak5DWjNOX2wtVzFwWEd2MUtFeFc4TEVjREFFWmN5bkZHMDJRc1RMRUdQYkJXcDJLNF9JQ0xNNnlya3ZkNkMtZw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Canada plays down EU ‘associate member’ label",
+      "sources": [
+        "Financial Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMEZCRDRYZnVHeU42aUd1MDBEYmY3ZmdvcWtvTVhRVEpQOG9vN2QxcE93UGppVmRWZTEzNHIzRUNoSjRJMHdjbWNaUXluc0tLLTV0VDZ3WmJIV0VMV1laaXdSdEdZdUtZS1QzaVJaUlBhanFQOTg3YWREZzh0dWFkSElZYkU?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Canada, EU face limits to relationship after symbolic EU overture to Carney",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQXhTVllCdG5wQmpkSXlmUHY2YUQza04yNjRkcWFOMEVIaXNxVVY3U1hzd2FuZGZPaGp6NHg4dW9HZDc4NElmbERraUFCMVpKdHFqdHZ5Wl9yVjdUSy1KVDNuY3NSUVZTemVsUW1DUEJKOFhTdWV0cEVIR3c4MkcwUGZlNlNzUUFtSVpEbFNmMzduTTNLSTJ2aUdrZW5oS2dsWTRMajA4OFZoX3luQWRR?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Costa Rica's Grynspan narrowly leads informal UN chief poll, sources say",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWdNUnZTYkxoWWhzb3dCVFN0N0cwQVJsRF9JV3MyXzFvQ2tMZWdESWxwaGZfenJNNjM5dUZYNUJuZ3A5ejhOdUFZZTM2aHVoaUhITHJRTk1rcjFtRU8wblVGV3JUTDRXak56MG5ZSU15VTV6YnVudzQ5Um9RZERPWVpDam9UUUd1UzRCbl8wSXQ4MUFveEM0cW5jSllsSTdWaHJvLXJ3RGp0OVN6cHFpQk5HUUFSSWdvTS1aQ05n?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Early voting begins in US midterms that could see Republicans lose control of Congress",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdlItNmVqSzR6UXViQzgxNzVBLVZwX3JIdklDM2R5WlRnVS1VYmlJdVJWNDRFOGhJUUV4ajhWQU5WWmxsd2ZZOWNkZHFXQUdMRzRFZ2ZHSkRwWEh0VkttelJtV2VYTFh3TTQ1VmJjVUFDamhkQVNaaDdyMmxZV2Ewb1dWenlNUEE5YXdpYlIzSmVKalQtdTJYUDZTYWczLU9YVTJGa3pNNUZKbTdGZVcwNEhCOENFZWctaW4zWDlPMUpvcnhKcmgtcVFiOGI?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Father of murdered Spanish student arrives in Mexico after suspect detained",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNmpZdkZxNGZQeDNEaExLamNWTEZ1STVCaUdhMzZjSzBNbDkzaWZOUGFldnlSeXZZRGJheDNJaUQydEVMZkljUURCVjI0QkZVMlRYTTIyS1lCalMySVRscmFkMzJQRDNjSVZqVFFNY3lXckl2ZWFiSDdlek13RGQzenZIYV9SZ1gwT1dreE01VklvNHJWcU9iQXVmSUdVRTU1bElKZWRyRmM4ckVtMDE0cjZlTVBERGpCRUs4Mw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Luxembourg launches investigation after drones temporarily suspend flight operations",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeFNHRl9fQkZGUUphN2c1MERZQVdWTFppVTExdU5lQlN6NGdTRTRuZ3U5a0U5T1kyd1VtUUY3OE8teFhSVGZzdnpPY3JDZXM1MXNmTm12bWV4SGstZ0piOVZ5RlJDOEJaRHV6YTA1MTV4UlVnTy1uUWpkZEk2S2U4Sm1NNVFxbmtsOVhra2ZzcVRxUkg1QmN2enJDTy04dEFZRWR2VXd6YW5jbGxVX3Y4WnRtdWx0bWZuV3pJNQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Oracle's $18 billion data center debt under pressure, FT reports",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd1FuODB2SVFrUlY3bzVTYnl0c2pyYjJWWURqTzU4UmZ4VjZBSHFiWjVOMjhwV0xXNEt0eFJmVHB1VGRBV2QyQUUzblZkYnJHWWswcE0xZ1B1TDFHZFFhanB4bXNRQ3A1NEE3ZVJTUEVjaHAxMGp2N2t1WW9HMVR5cUN5WjhxTjd3WlZWdXVfSC1UOHdvLXltU3Y3Q2NNWUZsTWo3LVpYWDYtV1pWTHhuQWE1LUE?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "War may be coming. Are we psychologically ready?",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIMW0xRmdCZ3ZmWjBvZUNWZXNDQUxoTFdUcmhUbE14RjBxUEw4eVlJWmdJSE91RmZ2THRWTk1XczZDb3p6dEtzNGc3M3dOZkZfNlppY3VncWV2bDg?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Mexico’s Sheinbaum says she spoke with Trump as trade negotiations continue",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVS11Ylp0OUJaUlB3QnZRVDhDZV9TdHRlYThXSTFWNy1YYkY5U20wcldPbk9EMjliUGUyS0VTM1d1U0RSS3pkTWRPQjJ0cWp0MW5ldnZ0TGhiOFhja3pYZ296aWxtR2ZQMmJWbUl4TE9rcXdwejkwTnN0SUs1NERnX0F4TmlGRTFPeVctemc1NFZFZ3NNSTZ2T2VZWndZQ0FfQWRURFZzMDQ2U2FvVkdBOVd0clZnZ9IBuwFBVV95cUxQSHJQS1dEX3U4TVVFbDRmVlRFM0NqaVNIbHNYZWNudTZsRk42SDF1S0hralZqbFljYWJ2RG92OW9QX3BIOGRBSW4wbHZEb1llR1IzWUxhQVVuRDR0N21QaUhObGlGeFRVeGQyYmFtd0dXRmFBc3YyNFRkeG5tN0kwT21sdldtVEt4czZxVDhxQ3k5OUhSTlVZMkN6TjhQZWNVdmx4bE1MUE1XaHZXcVhId3pRNlBwVUtGM0Nj?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "A ‘ban on the free press’: White House bars journalists from three outlets",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVU81TEdhdkdfZFhfZjA3V0kxSThlVkNEd3EycmNCZGxnSWM1YU1YTERpNGFGUWJLS3VUTTRNWkYwUENpcXEyZm5aRWlJcmJyZkJtVy1IcVhEOG5jcWVGZVRGOGhBN1FCWUJ1bnRoUExwX0ZHNDZDSVNPRlA3VnRyWXlDMnFNRUlaT0FrdlNFejhPRlR1UGVhdjBtcU5nZWxnNmtKYmpTWjFHSlBDVmFVbTRB0gG3AUFVX3lxTE1tLUZncDNsdGNXMEtrRTVLX1dvRnZUX0E1SEJxNUNMUUFRYkpta3ltOW4yNUd0VF8zMmhxaHBLOUx1d281YXBEaEJNeHh6RXM1ZXJwT1NtRGpHN1lIbnFqbjBOOFQ2Tk9SUlZZdURUMUtTQl9oWVp0TS1RNDJIUzFsOWVYTUhVdDZ6aDZBaXBqUVZpR0w5N0lSYTZXQ1o2OW5OUmNWMU40czNCT3RKWWNENXRDYVlicw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "CNN, MS NOW and Politico denied access to White House",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCZkdDX2lQRzViOWhtWFZtQ0ctbkczRWFFSVN2OEZRUGYxMEgtT2NYYUVubGZBb3paRGN1UnpZZmZGRVdyR3Q4WHd0WEdnZ0VLbEw1M3lKREtNbFpnMlk1MDA1OGZRMndwal9EY01fc2pGcFJPakYwcjc4c1haaEXSAX9BVV95cUxPSjNFMjN0T2QzRUM3eFJCUVFWTHc3SmZRdVBLMk1GVW55T3NuSTdZcnV3X0ROWUtrd2g4MXg0bXJoNm82bHQ5N1hTdkROQ2VjZjdJMlRRQ042VC1VdTNRV2k1UllWVm1leHlZb2djTURySDRqRWZFemNQb1N2Nl9n?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "CNN, MS NOW, Politico reporters blocked from White House after Trump ban",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTHdGTVFWNWh5d3RDR1RiLWFVa2Y5V0k2UEM3NjF5d2ppckNES05XdDdjLUxCT2JLeGF0TXp3OXVTRVFremllendVcmhrT0NyZU5tSHVPZG8xRkkyZ1JSU2xJLUd1N29uZU9PQ0VEcnNEUTVjMDBMaUlKM0ZEbWdjTVVCVVpYbVRnaWl6RGs3UG0yaFNmenFick95NlJsWVhib2tiYlhCaWF1c1hKVk83ZXJzRDFKSWs?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Cultural treasures are being destroyed worldwide - so why is no-one being punished?",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OeEwtbjcyOTZPV3liT0U2VmdPOENkbXB2Q0RsQWo0WFE1QndqN2RleWFHRkpibThEVVpRNGhxdHY3TEU1elFkQUZfbHgtdk9xZmZxRXhfYlM3UQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Ed Sheeran continues US tour amid Palestinian controversy",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNenE2MFdDN085OGlJWWlsSTRVTVNyN0hpeU5Mdkpra3N3MHEwdzVsTlRwS1VWX21vY3QxM1EwWUFmMjVkZmJPYVpmNElPSFdfTGEtN016VlJUY3d3cUpyMjNadkFGODJOQlNNdXB0NUV6ZklTSWJKMHhfNk1LR3J5OHpIaTJpbXltbWhnYjB1Tm5xbFZ60gGUAUFVX3lxTE9pWDVNTGtTNVh4VGVHcW13ejNKUE51elVqdExoN0RfUEd0R3dHOTg5SE5Ra2V2NXFmT1hkd09tRUhQelRnRTJvUU5aTElwOTBhZUlhRFdoellRbXFMdGZtVXRnQVgxMXMxX1ZfMjd6UGRRQlVIakFBc3NkcWY1Nm9WRHJZU3o0ellYVnM1MkxGUW1XWUw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Latin America | Latest News & Updates | BBC News",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tYVBicU5zTWRyQmFhbnZadW5BZzN0VDZLb0gycFFVamM4bDRMMFQtM1VzZjZudmU4ZGRWcWVoekR3S2JOS25OYTJaWFhPd1dJcHp6QmF6UQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 5,
+      "category": "Technologie",
+      "summary": "Macron and Carney to meet in French Atlantic archipelago in signal to Trump",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdkVYa2s0a1hldGZKYmpHQS1XdWkyNDZZSkR6UkNGUGRFWnFOMHJvQ1plRXRZanlQSFgwN09iMEliYmdQZm1lWENhNERBVkVaYjJiSUxrc25pVUFkWnpCRm9rYmxUU3N4Q0xXVHQwNFpLcXVyU2l2dHBxVFRGQkluNnZyY0NMRGJpMXFJTHo0X3AzaWV5SUU2ampSanpLN3MzRHNBRHc5ZjZyOV9XaGEw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Michelle Bachelet exits UN chief race after low poll support",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3pzOTJOSDlHZWNQT1NzdmJJX1g0eU9kWkpaaV9wbmZKYzloMGhoSi0wQjlxaWVVMDNlUk5JQTFYdmc1V0g4d1NrN2xLazNqNk01RWx0cHlaTVQ3MWxqcUl0ZXZpdUJDNVN3bno5aUpEdTJFb2hSWWcxQjhubzl5V0FjSlF5b3BlM3NIdjVMTHU3M3FDR2NaalBRanp3MHlmVkU00gGoAUFVX3lxTFBDbFJ6SnFkRGQyQVdFUFlkeFdRTU9qQUM4bkJma0JSaE5lVjlFVGVobGk2T3FHQnlVUGJzcTc1VjZYX3VHejdCNWp6TVFnRzJTT1JLYndCMzk4UXBKOEdpZ0JPZzBRc3Q3WXZBbjg4LWZ6cUY4M2ppNURrdWJHX2RMaFduRUtTaWNhODJaeVB0S2xRQjJJejRRSjFsSDZyaVQzQjVSNndFWA?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "Perth shark attack: Rare kill order issued as victim identified as Greg O'Neill",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14b2hGUmRVSDlaY3o3ZW1yYzhzdzItakxVUHRDamd0QTJVXzBwYmJ6d21rbDFrMl9WdTIyR21heEszNERxSWtQQnBTemF4NV9ZYlNjLXlQVmloNzQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Trump ramps up feud with press after week of setbacks",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiUVozMENzalZjbUtwT0lCQl9SVjdLLUd2cTl1OEZjcDlUS0tCV1ZORXk0clN4OUE0eGtvcl9aOGtnTWl2bm5OWWFmRE1sQkZLVVU4bVNCWHZtYkE?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "'Under near-constant attack' - Shropshire MP recounts Kyiv visit",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vc0VxQWp0RF9wQklPUGdBdUtaeWdrLVEzWGV2UkxtaHZGYXk2Y29yV1AyZWxtMElGQ21EOVFzMkV4WFR4ZGN4YUdsOUZ6UGRVU2JZN1BzS2J0Z00?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1fU1RxaFJPN3owdV9ycENhQTlQM2loT2ZJZHNjeGZoRUZYOUJ2SzBESUdYcGNraGREdU95Yg?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Germany's electric car boom cuts fuel tax revenue",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUS0xX2dQYmJ3U0JHVFdHbm1RemgxVzdtMXdLaHVSeG5VSlpJTkdzUGY5b2pNSWNBcjlMMjZXOEFaQ0hVX0NFQkVkd1FMXzdPQks0cXBvUnpfZS1GeS1RZjdqdWY3YVVMemVkeGVQQk84NlgzVTZ3WHpDSUpDd2Nrd0JBSVV0dU5D0gGIAUFVX3lxTE1RR2NMQWw4T3ZRLWFOZnFkWkJhOW16WVFTNkdKa0ZqZmlyNlRUY1Y3R1M4TnBzMWUzVmFDV3hlVElFWU1wYUg2WEFSd203clFoQ3E5MzZwNmxoek9PVFp3RTVQQ1l4SEdyeWl5eHJhcm9ENVFoWnhXalNZNzRYMkk0SmNUQ0EwSjI?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Multilateralism is not idealism, it is a necessity",
+      "sources": [
+        "Financial Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43d1B5M1VPUy1tWTVFNWh3d2RBM1Bza3NTNUZLUXluMkU5YkxIbWFUNUgwRVd3akhLb1htMTgzM1k4Zm9LQXVBUUEtOG12MXNvT0FTb3hWZUtLWGF4QmJWRUYtaGRNT1lOOFVDcWhBWHc?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "PODCAST: Houthis target Saudi, Moscow drone attack and Ed Sheeran",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWlhEMEdRSjBjN3ZhU0U5Vll0dWl2aDd0ek1iMjZpVldPTW5YRVpHeGhzbTQxN1g1cGZiTGJJVEh1RzhJYlRsWXFzaU9LUlYtbGU3RzhDdnp0eVZrSzBackZFckxHYnBlNThxUUZlbi0tNkNVdklFRzFjbFF4UVlSWVExNzUwanRQZENEVE1udlF6dVZ4ZHA4TnZ5YkM?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Trump’s Greenland deal: A triumph of optics?",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZmJ5RDd0bTZpMUNsR2M5aEgzZFF3NkxqNTV0Yk95Wl9mRWNWM0VqbElWNHExNVBSVmtvNTdIa0VPd2dwdTB2SGRnZEFTSURlXzJuSnNqZHRzNFVUVEctRDFTWGJpc0ZCeWMweHpyZ0t4MW5wWWh6TE5XZnBQREdacXZqdjdQVWRpeGVUeU8ya9IBlAFBVV95cUxQX0JpMnZQRlBJQWZJZ25sak5ITjJHbnlvZVM3UndialoyTGV5Ny1IZjlJVkJ4NTR3YmttUVdZbnFRUE9DUS1ZT1Rna2ROM2dSc2RrcmdrZ2xnajlkZjFIU0swLVA4U2JiQXg5aUVJMHhDT0hWODNHMV90TnYxM085dXRKWndBbnlUZ2tSN0hyaDJLNnVV?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "5 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Start your journey with Reuters",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYnFzOGo4UllNUXA0dlJzNXVaNXZOd0xwQVV5WWdSczJjbDdUdXZWaTBWMmFtSGpTT0pDNG52b29zX0tHcFNvLThjQnBXLUQ2TkNTejRyaW5rSVhnb2RMaFdnU1g2M2VXbXVSMTFFajRWdGJOSDVGXy1QTnh6Tmw1SDFlZ1hDR2NUd1R0RFoxRW9odThxNDdIeWtDZ1VFZmhWSG9fOWZMb1U4YjBsOUk1YVVjZlZBNUYyYm9BSkJpeTZWdzVVWGxRR092NGZ6QVFGNHoySnZfdHN6aVBwZEZiSFZSOFZfS211UElCb1JaUlljSmFfNzVVWDN2amlzQms?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "12 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Bluey \"Everybody in the Pool\" – Youth Performance Hoodie",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZGREODhTOUlOZW5zU3hqTVdCTVRwQXRBVjJDQ3FKR1Z1MHpIM1dGZHE2S1dVYUVkU3JNc0RTM1Z4TVBRbDc1MWFZSFlOeHdjN2NtNU9JbnpydnpVQVdPQTd6OG81MGJlbkdQUEZVY2tUS1Y5UWZBeEpJT3Rtei02QUttQVZCSFdXRmc?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "DW investigation: Sabotage attacks in the EU for Russia",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQmlta3Y2WGVMcXc1bTA0QlFINzQ1YW5OQU9fSjluX0dsY0VfM0xGaXlPREZYU0ZNY29DWE9yZVI3RVVxT1JEWUo0RHRSR3U5SjRNSzdjblJGc1VXc0Q1TlgwRHJPYUlydmU1WkpOY2VtbEk5NjNvZ0lTSkRhUFllU3hmQjNyTzV3ei0tcThNT1lLNEVfTGRHZDBHcTY5X3ZCZlI1Wm1xVnRWWkNIRl9JQkkyYVR5aEdNUXFGMjIzYW9yWnVNa3N4N3Q3eUlPQQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW statement on the arrest of journalist Tuğba Tekerek",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ2tvNXBfZ21IR3ZZdEdOM29WLUo3bzlkSGRfbmU3NWNERGV3QlcxREpWWDhuSGE5Z2MzNXlHSUJ3U0Jic3FzdmdfMGMwMjNHZ2w5b2VnZ0hpcHJOMlBMd1N5c2Jua1dSWVA3MGRUUXRuNDhsYmlRdi03YXBQRGl0OWF3ZnN2OFB6bXlIZUZKM3BNU3FqNFppNEtkLTE1cEFtcE1HMHV2Z1oxeHU0?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Deutsche Welle restructures Directorate General",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZGF6LUtfMVpob0JsbFY0RmZNYVd4ei1ZSUY1V0VrU0M1NWo0bFl4SWZXWEZSc2w0djJVOGJjYkx5X0FRS3NXaEV3MXlfOTJnR0tmOUJVd3huYlM2d0FPdGY2aVdScHp3UVFvSUxhQ3F1R0E2WTJPT0FfdnBrbVhJTnA2TF8ySEE?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Broadcasting Board Supports DW's Strategic Direction",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcGpjeDF3YlZrcGJ2X2NTS1h6V244emc2MXNCbXIyWW5pajFKaWJmWmg3eG4yWDVNQVBldEtWNGdmUGNZWGF5VW5BYUZaZTgyTTc2WDJqRFZaNU5CZG1rVUNRcmdjRHpUU2pOQ1R4cHczUGVzNzIzRDNPaEFIc1BwUlJEVFJwZ21zUmxuZkJPXzhDaEZONlRBRGpUUmI2M2NkOGZEaGd2TVo?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "DW investigation: Sabotage attacks in the EU for Russia",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQmlta3Y2WGVMcXc1bTA0QlFINzQ1YW5OQU9fSjluX0dsY0VfM0xGaXlPREZYU0ZNY29DWE9yZVI3RVVxT1JEWUo0RHRSR3U5SjRNSzdjblJGc1VXc0Q1TlgwRHJPYUlydmU1WkpOY2VtbEk5NjNvZ0lTSkRhUFllU3hmQjNyTzV3ei0tcThNT1lLNEVfTGRHZDBHcTY5X3ZCZlI1Wm1xVnRWWkNIRl9JQkkyYVR5aEdNUXFGMjIzYW9yWnVNa3N4N3Q3eUlPQQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW statement on the arrest of journalist Tuğba Tekerek",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ2tvNXBfZ21IR3ZZdEdOM29WLUo3bzlkSGRfbmU3NWNERGV3QlcxREpWWDhuSGE5Z2MzNXlHSUJ3U0Jic3FzdmdfMGMwMjNHZ2w5b2VnZ0hpcHJOMlBMd1N5c2Jua1dSWVA3MGRUUXRuNDhsYmlRdi03YXBQRGl0OWF3ZnN2OFB6bXlIZUZKM3BNU3FqNFppNEtkLTE1cEFtcE1HMHV2Z1oxeHU0?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Broadcasting Board Supports DW's Strategic Direction",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcGpjeDF3YlZrcGJ2X2NTS1h6V244emc2MXNCbXIyWW5pajFKaWJmWmg3eG4yWDVNQVBldEtWNGdmUGNZWGF5VW5BYUZaZTgyTTc2WDJqRFZaNU5CZG1rVUNRcmdjRHpUU2pOQ1R4cHczUGVzNzIzRDNPaEFIc1BwUlJEVFJwZ21zUmxuZkJPXzhDaEZONlRBRGpUUmI2M2NkOGZEaGd2TVo?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "12 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Bluey \"Everybody in the Pool\" – Youth Performance Hoodie",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZGREODhTOUlOZW5zU3hqTVdCTVRwQXRBVjJDQ3FKR1Z1MHpIM1dGZHE2S1dVYUVkU3JNc0RTM1Z4TVBRbDc1MWFZSFlOeHdjN2NtNU9JbnpydnpVQVdPQTd6OG81MGJlbkdQUEZVY2tUS1Y5UWZBeEpJT3Rtei02QUttQVZCSFdXRmc?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW co-production wins Golden Globes Impact Prize in Venice",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPODExRXNNOUFQVHAxOEZsaVljbVlBZmg0a0dabm14djd6STB1eTAyclc5LUNQV0RJVWpfWVlueVFkb0dJOERsUkVXVFB3blhpWFpodEo2d2tFbTQ3UHh4XzJHdk9wQnVvM1hLa0MyY240YjBBQ0VhZ2x3MENLVWttWDJOU0poaFRTYmVCTTRhQ2Jwd0RVcjdrX1lGZENTbXc4V0FocGNkVkNPa3FZRlk0ZGxiV0tGS1hlc2NoSzA0OThQZ3I0MVg4QWhoOA?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "DW investigation: Sabotage attacks in the EU for Russia",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQmlta3Y2WGVMcXc1bTA0QlFINzQ1YW5OQU9fSjluX0dsY0VfM0xGaXlPREZYU0ZNY29DWE9yZVI3RVVxT1JEWUo0RHRSR3U5SjRNSzdjblJGc1VXc0Q1TlgwRHJPYUlydmU1WkpOY2VtbEk5NjNvZ0lTSkRhUFllU3hmQjNyTzV3ei0tcThNT1lLNEVfTGRHZDBHcTY5X3ZCZlI1Wm1xVnRWWkNIRl9JQkkyYVR5aEdNUXFGMjIzYW9yWnVNa3N4N3Q3eUlPQQ?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW statement on the arrest of journalist Tuğba Tekerek",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ2tvNXBfZ21IR3ZZdEdOM29WLUo3bzlkSGRfbmU3NWNERGV3QlcxREpWWDhuSGE5Z2MzNXlHSUJ3U0Jic3FzdmdfMGMwMjNHZ2w5b2VnZ0hpcHJOMlBMd1N5c2Jua1dSWVA3MGRUUXRuNDhsYmlRdi03YXBQRGl0OWF3ZnN2OFB6bXlIZUZKM3BNU3FqNFppNEtkLTE1cEFtcE1HMHV2Z1oxeHU0?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Deutsche Welle restructures Directorate General",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZGF6LUtfMVpob0JsbFY0RmZNYVd4ei1ZSUY1V0VrU0M1NWo0bFl4SWZXWEZSc2w0djJVOGJjYkx5X0FRS3NXaEV3MXlfOTJnR0tmOUJVd3huYlM2d0FPdGY2aVdScHp3UVFvSUxhQ3F1R0E2WTJPT0FfdnBrbVhJTnA2TF8ySEE?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Broadcasting Board Supports DW's Strategic Direction",
+      "sources": [
+        "DW"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcGpjeDF3YlZrcGJ2X2NTS1h6V244emc2MXNCbXIyWW5pajFKaWJmWmg3eG4yWDVNQVBldEtWNGdmUGNZWGF5VW5BYUZaZTgyTTc2WDJqRFZaNU5CZG1rVUNRcmdjRHpUU2pOQ1R4cHczUGVzNzIzRDNPaEFIc1BwUlJEVFJwZ21zUmxuZkJPXzhDaEZONlRBRGpUUmI2M2NkOGZEaGd2TVo?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
       "period": "week",
       "bucket": "13–19 septembre 2026",
       "score": 9,
@@ -961,6 +2599,2744 @@
       "sources": [
         "ABC News"
       ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 9,
+      "category": "Moyen-Orient",
+      "summary": "Les Houthis attaquent l’Arabie saoudite ; des pourparlers Golfe–Iran sur Ormuz sont reportés, ravivant le risque sur le pétrole mondial.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "At BRICS, India's Modi warns geopolitical tensions and supply chain shocks threaten global stability",
+      "sources": [
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-09",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "31 août 2026 – 6 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-04",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "How the Iran war is hitting food prices",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "La Fed relève son taux à 3,75–4,00 % et ses projections indiquent une nouvelle hausse possible avant la fin de l’année.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Sanctions",
+      "summary": "Washington adopte une vaste loi visant l’énergie, la défense et la flotte fantôme russes, avec de nouveaux pouvoirs tarifaires.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Marchés",
+      "summary": "Le pétrole dépasse 108 $ et le taux américain à 10 ans atteint 5 %, renforçant les craintes d’inflation et de hausse des taux.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "USA–Chine",
+      "summary": "Les alliés asiatiques des États-Unis réclament des garanties sur Taïwan avant le sommet Trump–Xi du 24 septembre.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "USA–Chine",
+      "summary": "Bessent et He Lifeng préparent le sommet Trump–Xi autour du commerce, de l’IA et des enjeux économiques stratégiques.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Technologie",
+      "summary": "Les valeurs technologiques mondiales reculent après des appels de dirigeants de l’IA à ralentir le développement des modèles les plus avancés.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-17",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Moyen-Orient",
+      "summary": "Les Houthis attaquent l’Arabie saoudite ; des pourparlers Golfe–Iran sur Ormuz sont reportés, ravivant le risque sur le pétrole mondial.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "At BRICS, India's Modi warns geopolitical tensions and supply chain shocks threaten global stability",
+      "sources": [
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "How the Iran war is hitting food prices",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "La Fed relève son taux à 3,75–4,00 % et ses projections indiquent une nouvelle hausse possible avant la fin de l’année.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Sanctions",
+      "summary": "Washington adopte une vaste loi visant l’énergie, la défense et la flotte fantôme russes, avec de nouveaux pouvoirs tarifaires.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Marchés",
+      "summary": "Le pétrole dépasse 108 $ et le taux américain à 10 ans atteint 5 %, renforçant les craintes d’inflation et de hausse des taux.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "USA–Chine",
+      "summary": "Les alliés asiatiques des États-Unis réclament des garanties sur Taïwan avant le sommet Trump–Xi du 24 septembre.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "USA–Chine",
+      "summary": "Bessent et He Lifeng préparent le sommet Trump–Xi autour du commerce, de l’IA et des enjeux économiques stratégiques.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Technologie",
+      "summary": "Les valeurs technologiques mondiales reculent après des appels de dirigeants de l’IA à ralentir le développement des modèles les plus avancés.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-04",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-09",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-17",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 7,
+      "category": "Marchés",
+      "summary": "Les actions européennes baissent tandis que pétrole et rendements obligataires montent ; le Bund allemand atteint des niveaux inédits depuis 2009.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "31 août 2026 – 6 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Why has the Netherlands moved $10bn of its gold from the US?",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Ukraine",
+      "summary": "Russie et Ukraine poursuivent leurs frappes sur les infrastructures énergétiques malgré l’appel américain à les suspendre.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "EU's von der Leyen backs European Security Council and 'playbook' against sabotage",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Le gaz européen reste très cher avec des stocks proches de 70 %, augmentant la vulnérabilité du continent avant l’hiver.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "Macron affirme que les attaques hybrides russes s’intensifient et ordonne un plan de protection des infrastructures critiques françaises.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Russie",
+      "summary": "L’UE prolonge d’une semaine ses sanctions individuelles contre la Russie faute d’accord sur leur renouvellement pour six mois.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "IA",
+      "summary": "Von der Leyen soutient un ralentissement de l’IA de pointe et veut réunir les principaux laboratoires pour discuter des risques.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Finances",
+      "summary": "La France prévoit une dette record à 119,3 % du PIB en 2026, sur fond de déficit élevé et de tensions sur les coûts d’emprunt.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Breaking News, World News and Video from Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Ukraine",
+      "summary": "Russie et Ukraine poursuivent leurs frappes sur les infrastructures énergétiques malgré l’appel américain à les suspendre.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "EU's von der Leyen backs European Security Council and 'playbook' against sabotage",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Le gaz européen reste très cher avec des stocks proches de 70 %, augmentant la vulnérabilité du continent avant l’hiver.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "Macron affirme que les attaques hybrides russes s’intensifient et ordonne un plan de protection des infrastructures critiques françaises.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Marchés",
+      "summary": "Les actions européennes baissent tandis que pétrole et rendements obligataires montent ; le Bund allemand atteint des niveaux inédits depuis 2009.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Russie",
+      "summary": "L’UE prolonge d’une semaine ses sanctions individuelles contre la Russie faute d’accord sur leur renouvellement pour six mois.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "IA",
+      "summary": "Von der Leyen soutient un ralentissement de l’IA de pointe et veut réunir les principaux laboratoires pour discuter des risques.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Finances",
+      "summary": "La France prévoit une dette record à 119,3 % du PIB en 2026, sur fond de déficit élevé et de tensions sur les coûts d’emprunt.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Why has the Netherlands moved $10bn of its gold from the US?",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Breaking News, World News and Video from Al Jazeera",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 9,
+      "category": "Moyen-Orient",
+      "summary": "Les Houthis intensifient leurs attaques contre l’Arabie saoudite et progressent au Yémen, menaçant les routes énergétiques régionales.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-11",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-13",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "La crise au Moyen-Orient pousse le Brent au-dessus de 108 $, mettant sous pression les économies asiatiques importatrices d’énergie.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Taïwan",
+      "summary": "Taïwan, le Japon et d’autres alliés s’inquiètent d’éventuelles concessions américaines à Pékin lors du sommet Trump–Xi.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Sécurité",
+      "summary": "Le ministre chinois de la Défense appelle à stopper les actes « provocateurs » alors que les tensions persistent autour de Taïwan et de la mer de Chine.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Monnaie",
+      "summary": "La Banque du Japon relève ses taux à leur plus haut niveau depuis 31 ans, sans parvenir à renforcer durablement le yen.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Chine",
+      "summary": "Un conseiller de la banque centrale chinoise avertit que l’IA pourrait accentuer le déséquilibre entre forte production et faible demande intérieure.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "Le KOSPI sud-coréen chute de 3,3 % dans une vente mondiale des valeurs technologiques liée aux inquiétudes sur la course à l’IA.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-15",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Moyen-Orient",
+      "summary": "Les Houthis intensifient leurs attaques contre l’Arabie saoudite et progressent au Yémen, menaçant les routes énergétiques régionales.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "La crise au Moyen-Orient pousse le Brent au-dessus de 108 $, mettant sous pression les économies asiatiques importatrices d’énergie.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Taïwan",
+      "summary": "Taïwan, le Japon et d’autres alliés s’inquiètent d’éventuelles concessions américaines à Pékin lors du sommet Trump–Xi.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Sécurité",
+      "summary": "Le ministre chinois de la Défense appelle à stopper les actes « provocateurs » alors que les tensions persistent autour de Taïwan et de la mer de Chine.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Monnaie",
+      "summary": "La Banque du Japon relève ses taux à leur plus haut niveau depuis 31 ans, sans parvenir à renforcer durablement le yen.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Chine",
+      "summary": "Un conseiller de la banque centrale chinoise avertit que l’IA pourrait accentuer le déséquilibre entre forte production et faible demande intérieure.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "Le KOSPI sud-coréen chute de 3,3 % dans une vente mondiale des valeurs technologiques liée aux inquiétudes sur la course à l’IA.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-11",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-13",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Articles sitemap of 2026-09-15",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "What tariffs will really cost Canadians and Americans",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Mexico, Washington sprint toward bilateral trade deal before US elections",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Why Canada? America’s northern neighbor seems an unlikely target for a trade war",
+      "sources": [
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Brics summit 2026 Delhi: Iran war reshapes ties but exposes divides",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Why a fresh wave of North Korean soldiers may fight in Russia's war in Ukraine",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Trump évoque la possibilité de maintenir une présence américaine en Iran pour le pétrole, en la comparant à l’accord américain au Venezuela.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Cyclospora: largest US outbreak of explosive diarrhoea parasite is over, health officials say",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Global News Podcast | The Happy Pod: The choir proud to admit they can't sing",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "OpenAI agents attacked RubyGems before Hugging Face incident, researchers say",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Macron, Carney to visit North Atlantic French islands after Trump's map post",
+      "sources": [
+        "France 24"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "31 août 2026 – 6 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "UN votes to adopt new world map to reflect Africa's true size",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 10,
+      "category": "Géopolitique",
+      "summary": "Bolivia extends state of emergency over risks of new blockades",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Asia's oil traders, seeing no quick end to Middle East war, stay bullish on prices",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Mass nesting brings swarms of turtles to Mexican beach",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Palestine weekly: Settlement sanctions spark diplomatic crisis",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Watch: Warning of space arms race as US confirms weapons in Earth's orbit",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Fed",
+      "summary": "La Fed augmente son taux directeur de 0,25 point à 3,75–4,00 %, première hausse depuis trois ans.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Trump says 'major progress' made towards US military base in Poland",
+      "sources": [
+        "France 24"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "UBS chairman warns bank could rethink Swiss base if rules too harsh",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Russie",
+      "summary": "Trump signe une loi de sanctions contre la Russie visant énergie, défense et pétroliers clandestins, avec tarifs secondaires possibles.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "England boss Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer with warning",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Famed Inter Milan and Italy forward Mazzola dies at 83",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Mexico's Sheinbaum says working towards a trade deal with Trump",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Warren Buffett steps down as Berkshire Hathaway chairman",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "War may be coming. Are we psychologically ready?",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "UK could 'unlock' 100 more oil and gas projects, say North Sea bosses",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Why Trump's hand-picked Fed chair defied him by raising interest rates",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Chine",
+      "summary": "Le Trésor américain rencontre le vice-Premier ministre chinois avant le sommet Trump–Xi pour parler commerce, IA et sécurité économique.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Technologie",
+      "summary": "BBC AI correspondent answers: What is AI? Can it be stopped?",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 10,
+      "category": "Géopolitique",
+      "summary": "Bolivia extends state of emergency over risks of new blockades",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "What tariffs will really cost Canadians and Americans",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Mexico, Washington sprint toward bilateral trade deal before US elections",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Why Canada? America’s northern neighbor seems an unlikely target for a trade war",
+      "sources": [
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Brics summit 2026 Delhi: Iran war reshapes ties but exposes divides",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Why a fresh wave of North Korean soldiers may fight in Russia's war in Ukraine",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Asia's oil traders, seeing no quick end to Middle East war, stay bullish on prices",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Mass nesting brings swarms of turtles to Mexican beach",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Palestine weekly: Settlement sanctions spark diplomatic crisis",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Watch: Warning of space arms race as US confirms weapons in Earth's orbit",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Fed",
+      "summary": "La Fed augmente son taux directeur de 0,25 point à 3,75–4,00 %, première hausse depuis trois ans.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Trump says 'major progress' made towards US military base in Poland",
+      "sources": [
+        "France 24"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "UBS chairman warns bank could rethink Swiss base if rules too harsh",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Russie",
+      "summary": "Trump signe une loi de sanctions contre la Russie visant énergie, défense et pétroliers clandestins, avec tarifs secondaires possibles.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "England boss Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer with warning",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Famed Inter Milan and Italy forward Mazzola dies at 83",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Mexico's Sheinbaum says working towards a trade deal with Trump",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Warren Buffett steps down as Berkshire Hathaway chairman",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "War may be coming. Are we psychologically ready?",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "UK could 'unlock' 100 more oil and gas projects, say North Sea bosses",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Why Trump's hand-picked Fed chair defied him by raising interest rates",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Chine",
+      "summary": "Le Trésor américain rencontre le vice-Premier ministre chinois avant le sommet Trump–Xi pour parler commerce, IA et sécurité économique.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Trump évoque la possibilité de maintenir une présence américaine en Iran pour le pétrole, en la comparant à l’accord américain au Venezuela.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Technologie",
+      "summary": "BBC AI correspondent answers: What is AI? Can it be stopped?",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Taux",
+      "summary": "Le rendement du Treasury américain à 10 ans atteint 5 %, son plus haut niveau depuis 2007, avant la décision de la Fed.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Dollarama raises annual sales forecast in Canada as cost-conscious shoppers trade down",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Climat",
+      "summary": "Three dead after flooding inundates Navajo Nation in New Mexico",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Fed",
+      "summary": "Les marchés digèrent le virage plus restrictif de la Fed : 16 responsables sur 18 anticipent encore au moins une hausse en 2026.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "UK insurers urge Bank of England to rethink 'dynamic' stress test",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Politique",
+      "summary": "FIFA’s Infantino ‘must go, no ifs or buts’, blasts German FA vice president",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 6,
+      "category": "Venezuela",
+      "summary": "Trump compare une éventuelle stratégie pétrolière en Iran à l’accord conclu avec le Venezuela, signe du poids croissant du pétrole vénézuélien dans la politique américaine.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Bluey \"Everybody in the Pool\" – Youth Performance Hoodie",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "31 août 2026 – 6 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Start your journey with Reuters",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Brésil",
+      "summary": "Deux sondages donnent Lula et Flávio Bolsonaro statistiquement à égalité avant l’élection présidentielle brésilienne d’octobre.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Brésil",
+      "summary": "La banque centrale brésilienne baisse le Selic à 13,75 %, cinquième réduction consécutive malgré les risques liés au pétrole.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Argentine",
+      "summary": "Buenos Aires propose de renforcer les sanctions contre les entreprises exploitant des ressources aux Malouines sans autorisation argentine.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Venezuela",
+      "summary": "Trump doit rencontrer Delcy Rodríguez à New York, première rencontre directe depuis le changement de pouvoir au Venezuela.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Le projet pétrolier offshore GranMorgu au Suriname, estimé à 12 Md$, reste prévu pour une première production mi-2028.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 6,
+      "category": "Argentine",
+      "summary": "L’Argentine présente son budget 2027 : croissance prévue à 4 %, inflation à 18 % et excédent commercial supérieur à 15 Md$.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "DW investigation: Sabotage attacks in the EU for Russia",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW statement on the arrest of journalist Tuğba Tekerek",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Deutsche Welle restructures Directorate General",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Broadcasting Board Supports DW's Strategic Direction",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Brésil",
+      "summary": "Deux sondages donnent Lula et Flávio Bolsonaro statistiquement à égalité avant l’élection présidentielle brésilienne d’octobre.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Brésil",
+      "summary": "La banque centrale brésilienne baisse le Selic à 13,75 %, cinquième réduction consécutive malgré les risques liés au pétrole.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Argentine",
+      "summary": "Buenos Aires propose de renforcer les sanctions contre les entreprises exploitant des ressources aux Malouines sans autorisation argentine.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Venezuela",
+      "summary": "Trump doit rencontrer Delcy Rodríguez à New York, première rencontre directe depuis le changement de pouvoir au Venezuela.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Le projet pétrolier offshore GranMorgu au Suriname, estimé à 12 Md$, reste prévu pour une première production mi-2028.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 6,
+      "category": "Venezuela",
+      "summary": "Trump compare une éventuelle stratégie pétrolière en Iran à l’accord conclu avec le Venezuela, signe du poids croissant du pétrole vénézuélien dans la politique américaine.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 6,
+      "category": "Argentine",
+      "summary": "L’Argentine présente son budget 2027 : croissance prévue à 4 %, inflation à 18 % et excédent commercial supérieur à 15 Md$.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Start your journey with Reuters",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Bluey \"Everybody in the Pool\" – Youth Performance Hoodie",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "DW investigation: Sabotage attacks in the EU for Russia",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW statement on the arrest of journalist Tuğba Tekerek",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Deutsche Welle restructures Directorate General",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Broadcasting Board Supports DW's Strategic Direction",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 6,
+      "category": "BRICS",
+      "summary": "Le sommet BRICS élargi pousse de nouveaux projets économiques et technologiques incluant plusieurs puissances africaines, dont l’Afrique du Sud, l’Égypte et l’Éthiopie.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Soudan",
+      "summary": "Le financement du PAM pour le Soudan chute fortement alors que près de 20 millions de personnes sont confrontées à la faim.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 8,
+      "category": "Santé",
+      "summary": "RDC : l’épidémie d’Ebola dépasse 7 200 cas confirmés et 3 500 morts ; l’ONU juge prématuré de parler de pic dépassé.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Le Ghana réduit ses exportations de carburant vers le Mali et le Burkina Faso pour protéger son approvisionnement intérieur.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Humanitaire",
+      "summary": "La guerre au Yémen pousse près de 3 000 personnes à fuir vers Djibouti, qui prépare un accueil pouvant atteindre 10 000 réfugiés.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 6,
+      "category": "Devises",
+      "summary": "Les monnaies d’Ouganda, du Ghana et de Zambie restent sous pression, notamment à cause de la hausse des coûts énergétiques et de la demande de dollars.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "DW investigation: Sabotage attacks in the EU for Russia",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW statement on the arrest of journalist Tuğba Tekerek",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Sécurité",
+      "summary": "Afrique du Sud : de nouvelles mobilisations contre les violences faites aux femmes relancent le débat sur les faiblesses de la sécurité publique.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Broadcasting Board Supports DW's Strategic Direction",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Soudan",
+      "summary": "Le financement du PAM pour le Soudan chute fortement alors que près de 20 millions de personnes sont confrontées à la faim.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Santé",
+      "summary": "RDC : l’épidémie d’Ebola dépasse 7 200 cas confirmés et 3 500 morts ; l’ONU juge prématuré de parler de pic dépassé.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Le Ghana réduit ses exportations de carburant vers le Mali et le Burkina Faso pour protéger son approvisionnement intérieur.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Humanitaire",
+      "summary": "La guerre au Yémen pousse près de 3 000 personnes à fuir vers Djibouti, qui prépare un accueil pouvant atteindre 10 000 réfugiés.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 6,
+      "category": "BRICS",
+      "summary": "Le sommet BRICS élargi pousse de nouveaux projets économiques et technologiques incluant plusieurs puissances africaines, dont l’Afrique du Sud, l’Égypte et l’Éthiopie.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 6,
+      "category": "Devises",
+      "summary": "Les monnaies d’Ouganda, du Ghana et de Zambie restent sous pression, notamment à cause de la hausse des coûts énergétiques et de la demande de dollars.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "DW investigation: Sabotage attacks in the EU for Russia",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW statement on the arrest of journalist Tuğba Tekerek",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Sécurité",
+      "summary": "Afrique du Sud : de nouvelles mobilisations contre les violences faites aux femmes relancent le débat sur les faiblesses de la sécurité publique.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Broadcasting Board Supports DW's Strategic Direction",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Bluey \"Everybody in the Pool\" – Youth Performance Hoodie",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "7–13 septembre 2026",
+      "score": 5,
+      "category": "Numérique",
+      "summary": "Australie : le gouvernement se dit prêt à modifier son projet sur les dommages numériques pour obtenir un soutien parlementaire plus large.",
+      "sources": [
+        "ABC News"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Commerce",
+      "summary": "La Nouvelle-Zélande adopte son accord de libre-échange avec l’Inde, supprimant ou réduisant les droits sur environ 95 % de ses exportations.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 7,
+      "category": "Immigration",
+      "summary": "L’Australie durcit les visas étudiants et backpackers afin de réduire l’immigration nette vers 225 000 personnes d’ici 2028.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 6,
+      "category": "Agriculture",
+      "summary": "Les organisations agricoles australiennes avertissent que le durcissement des visas pourrait provoquer un manque de main-d’œuvre pour la récolte de blé.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 6,
+      "category": "Diplomatie",
+      "summary": "L’Australie renonce à rejoindre une initiative de sanctions commerciales visant des entreprises israéliennes liées à la Cisjordanie.",
+      "sources": [
+        "ABC News"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Énergie",
+      "summary": "Australie : la hausse du pétrole liée au Moyen-Orient renchérit les carburants ; le gouvernement n’annonce pas de nouvelle baisse de l’accise.",
+      "sources": [
+        "ABC News"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW co-production wins Golden Globes Impact Prize in Venice",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "DW investigation: Sabotage attacks in the EU for Russia",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Finance",
+      "summary": "Le patron d’ANZ estime que la fiscalité australienne freine l’ambition du pays de devenir un grand centre financier asiatique.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW statement on the arrest of journalist Tuğba Tekerek",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Deutsche Welle restructures Directorate General",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "14–20 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Broadcasting Board Supports DW's Strategic Direction",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Commerce",
+      "summary": "La Nouvelle-Zélande adopte son accord de libre-échange avec l’Inde, supprimant ou réduisant les droits sur environ 95 % de ses exportations.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Immigration",
+      "summary": "L’Australie durcit les visas étudiants et backpackers afin de réduire l’immigration nette vers 225 000 personnes d’ici 2028.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 6,
+      "category": "Agriculture",
+      "summary": "Les organisations agricoles australiennes avertissent que le durcissement des visas pourrait provoquer un manque de main-d’œuvre pour la récolte de blé.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 6,
+      "category": "Diplomatie",
+      "summary": "L’Australie renonce à rejoindre une initiative de sanctions commerciales visant des entreprises israéliennes liées à la Cisjordanie.",
+      "sources": [
+        "ABC News"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Bluey \"Everybody in the Pool\" – Youth Performance Hoodie",
+      "sources": [
+        "BBC"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Numérique",
+      "summary": "Australie : le gouvernement se dit prêt à modifier son projet sur les dommages numériques pour obtenir un soutien parlementaire plus large.",
+      "sources": [
+        "ABC News"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Énergie",
+      "summary": "Australie : la hausse du pétrole liée au Moyen-Orient renchérit les carburants ; le gouvernement n’annonce pas de nouvelle baisse de l’accise.",
+      "sources": [
+        "ABC News"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW co-production wins Golden Globes Impact Prize in Venice",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "DW investigation: Sabotage attacks in the EU for Russia",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Finance",
+      "summary": "Le patron d’ANZ estime que la fiscalité australienne freine l’ambition du pays de devenir un grand centre financier asiatique.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "DW statement on the arrest of journalist Tuğba Tekerek",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Deutsche Welle restructures Directorate General",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Broadcasting Board Supports DW's Strategic Direction",
+      "sources": [
+        "DW"
+      ],
+      "origin": "rss"
     }
   ]
 }
