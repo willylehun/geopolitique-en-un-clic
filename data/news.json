@@ -1,7 +1,746 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-09-20T16:45:00+02:00",
   "timezone": "Europe/Paris",
-  "window_rule": "Chaque édition quotidienne couvre 06:30 (J-1) à 06:29 (J).",
-  "initial_backfill": "Prévu pour la semaine précédente : jour par jour + condensé hebdomadaire.",
-  "items": []
+  "window_rule": "Une date couvre de 06h30 ce jour-là à 06h29 le lendemain.",
+  "buckets": {
+    "day": [
+      "19 septembre 2026",
+      "18 septembre 2026",
+      "17 septembre 2026",
+      "16 septembre 2026",
+      "15 septembre 2026",
+      "14 septembre 2026",
+      "13 septembre 2026"
+    ],
+    "week": [
+      "13–19 septembre 2026"
+    ],
+    "month": []
+  },
+  "coverage": {
+    "day:19 septembre 2026": "Fenêtre : 19 sept. 06h30 → 20 sept. 06h29",
+    "day:18 septembre 2026": "Fenêtre : 18 sept. 06h30 → 19 sept. 06h29",
+    "day:17 septembre 2026": "Fenêtre : 17 sept. 06h30 → 18 sept. 06h29",
+    "day:16 septembre 2026": "Fenêtre : 16 sept. 06h30 → 17 sept. 06h29",
+    "day:15 septembre 2026": "Fenêtre : 15 sept. 06h30 → 16 sept. 06h29",
+    "day:14 septembre 2026": "Fenêtre : 14 sept. 06h30 → 15 sept. 06h29",
+    "day:13 septembre 2026": "Fenêtre : 13 sept. 06h30 → 14 sept. 06h29",
+    "week:13–19 septembre 2026": "Condensé de la semaine du 13 au 19 septembre"
+  },
+  "items": [
+    {
+      "regions": [
+        "International",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "13 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les Houthis contrôlent davantage la côte yéménite et menacent Bab el-Mandeb, deuxième axe pétrolier stratégique après Ormuz.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "13 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Le Brent dépasse 105 $ après de nouvelles attaques contre des infrastructures saoudiennes ; jusqu’à 4 % de l’offre mondiale est exposée.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "13 septembre 2026",
+      "score": 7,
+      "category": "Marchés",
+      "summary": "Actions mondiales en baisse ; pétrole et rendements obligataires montent, le taux américain à 10 ans touche environ 5 %.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "La BCE juge que de nouvelles hausses de taux pourraient être nécessaires si le choc énergétique continue d’alimenter l’inflation.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "Chine : production industrielle +5,2 %, mais ventes au détail +0,4 % et investissement immobilier -19,9 %.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Le GNL asiatique approche 30 $/MMBtu : Chine, Inde et Pakistan réduisent leur demande face aux perturbations du Golfe.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 6,
+      "category": "Politique",
+      "summary": "Brésil : deux sondages placent Lula et Flávio Bolsonaro au coude-à-coude avant l’élection d’octobre.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 8,
+      "category": "Conflit",
+      "summary": "Les Houthis frappent une base saoudienne ; le trafic dans le détroit d’Ormuz recule et les marchés du Golfe chutent.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Chine : raffinage +11,2 % sur un mois, soutenu par les exportations ; Pékin puise fortement dans ses stocks de brut.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Argentine : budget 2027 présenté avec 4 % de croissance, 18 % d’inflation et plus de 15 Md$ d’excédent commercial visés.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 6,
+      "category": "Politique",
+      "summary": "RDC : la police disperse des manifestations contre des réformes constitutionnelles pouvant modifier les règles de mandat présidentiel.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Amérique du Nord",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 6,
+      "category": "Diplomatie",
+      "summary": "Washington prépare de nouveaux échanges avec Pékin sur l’Iran, la finance, le commerce et la sécurité de l’IA.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "La Fed relève ses taux de 0,25 point à 3,75–4,00 %, première hausse depuis 2023, et signale qu’un nouveau tour reste possible.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 6,
+      "category": "Diplomatie",
+      "summary": "Les États-Unis versent 725 M$ au budget de l’ONU et 102 M$ au maintien de la paix, écartant le risque de perdre leur vote.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "Brésil : cinquième baisse de taux consécutive ; le Selic descend à 13,75 % sur fond de ralentissement de l’activité.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 6,
+      "category": "Sanctions",
+      "summary": "Le renouvellement de sanctions européennes contre la Russie est repoussé, Paris et Bratislava demandant le retrait d’Alisher Usmanov.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "Le FMI estime que l’Australie pourrait devoir relever encore ses taux si les pressions inflationnistes persistent.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Les stocks de gaz européens ne sont remplis qu’à 69 % contre 85 % en moyenne ; le gaz coûte environ 150 % de plus sur un an.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 8,
+      "category": "Diplomatie",
+      "summary": "La Chine demande à l’Iran de contenir les Houthis après un appel saoudien, pour protéger les routes énergétiques régionales.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 7,
+      "category": "Sécurité",
+      "summary": "Pyongyang menace d’une réponse renforcée aux exercices militaires menés par les États-Unis et leurs alliés dans le Pacifique.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Taïwan et des alliés asiatiques cherchent des garanties américaines avant le sommet Trump–Xi, sur fond de tensions militaires.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "17 septembre 2026",
+      "score": 6,
+      "category": "Politique",
+      "summary": "Maroc : chômage des jeunes à 27 % et forte désaffection électorale à quelques jours des législatives.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 9,
+      "category": "Sanctions",
+      "summary": "Trump signe une vaste loi de sanctions visant l’énergie, la défense et la flotte fantôme russes, avec possibilité de tarifs secondaires.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Macron annonce une réunion du G7 consacrée à la crise énergétique et à d’éventuelles libérations de réserves stratégiques.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 8,
+      "category": "Conflit",
+      "summary": "La Russie emploie massivement des missiles d’entraînement RM48U reconvertis pour maintenir la cadence de ses frappes sur l’Ukraine.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 7,
+      "category": "Arctique",
+      "summary": "Washington, Copenhague et Nuuk concluent un accord renforçant durablement le rôle sécuritaire américain au Groenland.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 7,
+      "category": "Sécurité",
+      "summary": "Somalie : Washington accorde un an de plus au soutien logistique de l’ONU à la force africaine, avant son retrait programmé.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Australie : des organisations agricoles avertissent que le durcissement migratoire menace la main-d’œuvre de la prochaine récolte de blé.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Amérique du Nord",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 8,
+      "category": "Diplomatie",
+      "summary": "Bessent et He Lifeng préparent le sommet Trump–Xi avec des discussions sur commerce, IA et minerais critiques.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 8,
+      "category": "Conflit",
+      "summary": "L’Arabie saoudite confirme une tentative d’attaque houthie par missile balistique contre Riyad ; le projectile est intercepté.",
+      "sources": [
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "International",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "Trump annonce la création d’une nouvelle fonction de conseiller à l’IA et d’une « AI force », sans détailler leur mandat.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Énergie",
+      "summary": "Ormuz et Bab el-Mandeb sous forte pression : les combats Houthis–Arabie saoudite maintiennent le pétrole au-dessus de 100 $ et alimentent l’inflation mondiale.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "La Fed recommence à relever ses taux ; les rendements américains proches de 5 % renforcent le durcissement financier mondial.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Sanctions",
+      "summary": "Les États-Unis adoptent une nouvelle vague de sanctions contre la Russie, visant notamment énergie, défense et flotte fantôme.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 8,
+      "category": "USA–Chine",
+      "summary": "Le sommet Trump–Xi se prépare autour du commerce, de Taïwan, de l’IA et des minerais critiques.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "L’Europe aborde l’hiver avec des stocks de gaz faibles et des prix très élevés, renforçant les risques d’inflation et de nouvelles hausses de taux.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Russie–Ukraine",
+      "summary": "Nouvelles sanctions américaines contre Moscou et intensification des frappes russes avec des missiles RM48U reconvertis.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Arctique",
+      "summary": "Le nouvel accord sur le Groenland renforce le rôle militaire américain dans l’Arctique tout en maintenant la souveraineté danoise.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Moyen-Orient",
+      "summary": "Les Houthis gagnent du terrain au Yémen et frappent l’Arabie saoudite, menaçant deux routes essentielles au commerce énergétique mondial.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 8,
+      "category": "Chine",
+      "summary": "L’industrie chinoise accélère mais consommation et immobilier restent faibles ; la reprise demeure déséquilibrée.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 8,
+      "category": "Taïwan",
+      "summary": "Les alliés asiatiques de Washington cherchent des garanties sur Taïwan avant le sommet Trump–Xi.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Corée",
+      "summary": "La Corée du Nord menace de durcir sa réponse aux exercices militaires américains et alliés dans le Pacifique.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "La Fed relève son taux à 3,75–4,00 %, première hausse depuis 2023, avec possibilité d’une nouvelle hausse cette année.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Russie",
+      "summary": "Washington durcit fortement les sanctions contre l’économie russe et ouvre la voie à des tarifs sur certains partenaires de Moscou.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 8,
+      "category": "Chine",
+      "summary": "Les États-Unis préparent la visite de Xi avec des négociations sur commerce, IA, terres rares et Taïwan.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Brésil",
+      "summary": "La banque centrale brésilienne abaisse encore le Selic à 13,75 % alors que l’économie ralentit et que l’élection approche.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 6,
+      "category": "Argentine",
+      "summary": "Buenos Aires présente son budget 2027 avec une cible de 4 % de croissance et 18 % d’inflation.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Somalie",
+      "summary": "Le soutien logistique de l’ONU aux forces africaines en Somalie obtient un sursis d’un an, mais son retrait reste programmé.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 6,
+      "category": "RDC",
+      "summary": "Des manifestations sont dispersées en RDC contre des changements constitutionnels contestés par l’opposition.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 6,
+      "category": "Maroc",
+      "summary": "La forte désaffection des jeunes et un chômage de 27 % pèsent sur la campagne électorale marocaine.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Australie",
+      "summary": "Le FMI avertit que la banque centrale australienne pourrait devoir relever encore les taux pour ramener l’inflation sous contrôle.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 6,
+      "category": "Australie",
+      "summary": "Le durcissement de l’immigration inquiète l’agriculture australienne, qui redoute un manque de main-d’œuvre pour le blé.",
+      "sources": [
+        "Reuters"
+      ]
+    }
+  ]
 }
