@@ -12,16 +12,12 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="topbar">
-    <button id="backBtn" class="icon-btn" aria-label="Retour" hidden>‹</button>
-    <div class="brand-wrap">
-      <img src="assets/logo.png" alt="" class="app-logo" />
-      <div class="brand-copy">
-        <h1>Géopolitique en un Clic</h1>
-        <p id="subtitle">L'essentiel mondial, en quelques secondes</p>
-      </div>
+  <header id="brandHome" class="brand-hero" title="Retour aux zones">
+    <img src="assets/logo.png" alt="Logo Géopolitique en un Clic" class="app-logo" />
+    <div class="brand-copy">
+      <h1>Géopolitique en un Clic</h1>
+      <p>L'essentiel géopolitique et économique, zone par zone</p>
     </div>
-    <button id="installBtn" class="install-btn" hidden>Installer</button>
   </header>
 
   <main>
@@ -29,7 +25,7 @@
       <div class="hero">
         <span class="eyebrow">VEILLE MONDIALE</span>
         <h2>Choisissez une zone</h2>
-        <p>Accédez aux faits majeurs qui peuvent peser sur la géopolitique, l'économie ou la sécurité.</p>
+        <p>International ou continent : ouvrez ensuite la veille par jour, semaine ou mois.</p>
       </div>
       <div id="regionGrid" class="region-grid"></div>
     </section>
@@ -49,7 +45,7 @@
           <button data-period="week" class="period-tab">Semaine</button>
           <button data-period="month" class="period-tab">Mois</button>
         </div>
-        <select id="historySelect" aria-label="Choisir une date"></select>
+        <select id="historySelect" aria-label="Choisir une date ou période"></select>
         <p id="coverageText" class="coverage"></p>
       </section>
 
