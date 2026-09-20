@@ -3,41 +3,66 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#101216" />
+  <meta name="theme-color" content="#071525" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="GéoClic" />
   <title>Géopolitique en un Clic</title>
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="topbar">
+    <button id="backBtn" class="icon-btn" aria-label="Retour" hidden>‹</button>
     <div class="brand-wrap">
-      <img src="assets/logo.png" alt="Logo Géopolitique en un Clic" class="app-logo" />
-      <div>
+      <img src="assets/logo.png" alt="" class="app-logo" />
+      <div class="brand-copy">
         <h1>Géopolitique en un Clic</h1>
-        <p id="subtitle">Veille 5/10 à 10/10 • fenêtre éditoriale 06h30 → 06h29</p>
+        <p id="subtitle">L'essentiel mondial, en quelques secondes</p>
       </div>
     </div>
-    <button id="installBtn" class="ghost" hidden>Installer</button>
+    <button id="installBtn" class="install-btn" hidden>Installer</button>
   </header>
+
   <main>
-    <nav id="regionNav" class="region-nav" aria-label="Zones géographiques"></nav>
-    <section class="toolbar">
-      <div class="period-tabs" role="tablist" aria-label="Période">
-        <button data-period="day" class="period-tab active">Jour</button>
-        <button data-period="week" class="period-tab">Semaine</button>
-        <button data-period="month" class="period-tab">Mois</button>
+    <section id="regionPage" class="page">
+      <div class="hero">
+        <span class="eyebrow">VEILLE MONDIALE</span>
+        <h2>Choisissez une zone</h2>
+        <p>Accédez aux faits majeurs qui peuvent peser sur la géopolitique, l'économie ou la sécurité.</p>
       </div>
-      <select id="historySelect" aria-label="Historique"></select>
+      <div id="regionGrid" class="region-grid"></div>
     </section>
-    <section class="rules-card">
-      <strong>Règle :</strong> uniquement les infos notées de 5 à 10, résumées très brièvement, avec les sources entre parenthèses.
+
+    <section id="newsPage" class="page" hidden>
+      <div class="section-heading">
+        <span id="regionIcon" class="region-icon"></span>
+        <div>
+          <span class="eyebrow">CONDENSÉ</span>
+          <h2 id="regionTitle">International</h2>
+        </div>
+      </div>
+
+      <section class="period-panel">
+        <div class="period-tabs" role="tablist" aria-label="Période">
+          <button data-period="day" class="period-tab active">Jour</button>
+          <button data-period="week" class="period-tab">Semaine</button>
+          <button data-period="month" class="period-tab">Mois</button>
+        </div>
+        <select id="historySelect" aria-label="Choisir une date"></select>
+        <p id="coverageText" class="coverage"></p>
+      </section>
+
+      <section id="summaryHeader" class="summary-header"></section>
+      <section id="newsList" class="news-list"></section>
     </section>
-    <section id="summaryHeader" class="summary-header"></section>
-    <section id="newsList" class="news-list"></section>
   </main>
+
   <footer>
-    <span>Sources entre parenthèses • doublons regroupés • mise à jour quotidienne à 06h30</span>
+    <span class="footer-note">Mise à jour quotidienne • 06h30</span>
+    <strong>By W</strong>
   </footer>
+
   <script src="app.js" defer></script>
 </body>
 </html>
