@@ -8,6 +8,8 @@ const REGIONS = [
   { name: 'Océanie', icon: '🌊', desc: 'Australie, Nouvelle-Zélande et Pacifique' }
 ];
 
+const CONTINENT_NAMES = ['Europe', 'Asie', 'Amérique du Nord', 'Amérique du Sud', 'Afrique', 'Océanie'];
+
 const state = {
   region: null,
   period: 'day',
@@ -83,9 +85,56 @@ function goHome() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function itemMatchesRegion(item) {
-  if (Array.isArray(item.regions)) return item.regions.includes(state.region);
-  return item.region === state.region;
+function itemMatchesRegion(item, region = state.region) {
+  if (Array.isArray(item.regions)) return item.regions.includes(region);
+  return item.region === region;
+}
+
+function normalizedKey(item) {
+  return String(item.summary || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9 ]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function getInternationalDigest() {
+  const selected = [];
+  const seen = new Set();
+  const base = state.data.filter(x =>
+    x.period === state.period &&
+    x.bucket === state.bucket &&
+    x.score >= 5
+  );
+
+  for (const continent of CONTINENT_NAMES) {
+    const top = sortItems(base.filter(x => itemMatchesRegion(x, continent))).slice(0, 2);
+    for (const item of top) {
+      const key = normalizedKey(item);
+      if (!key || seen.has(key)) continue;
+      selected.push({ ...item, originRegion: continent });
+      seen.add(key);
+    }
+  }
+
+  if (selected.length < 10) {
+    const pool = sortItems(base.filter(x =>
+      CONTINENT_NAMES.some(continent => itemMatchesRegion(x, continent))
+    ));
+    for (const item of pool) {
+      if (selected.length >= 10) break;
+      const key = normalizedKey(item);
+      if (!key || seen.has(key)) continue;
+      selected.push({
+        ...item,
+        originRegion: CONTINENT_NAMES.find(continent => itemMatchesRegion(item, continent)) || ''
+      });
+      seen.add(key);
+    }
+  }
+  return sortItems(selected);
 }
 
 function renderPeriods() {
@@ -140,12 +189,14 @@ function updateCoverage() {
 function renderNews() {
   updateCoverage();
 
-  const items = sortItems(state.data.filter(x =>
-    itemMatchesRegion(x) &&
-    x.period === state.period &&
-    x.bucket === state.bucket &&
-    x.score >= 5
-  ));
+  const items = state.region === 'International'
+    ? getInternationalDigest()
+    : sortItems(state.data.filter(x =>
+        itemMatchesRegion(x) &&
+        x.period === state.period &&
+        x.bucket === state.bucket &&
+        x.score >= 5
+      ));
 
   const header = $('#summaryHeader');
   const list = $('#newsList');
@@ -167,6 +218,7 @@ function renderNews() {
       <div class="meta">
         <span class="score score-${item.score}">${item.score}/10</span>
         <span class="stars" aria-label="${item.score} étoiles sur 10">${stars(item.score)}</span>
+        ${state.region === 'International' && item.originRegion ? `<span class="origin-region">${escapeHtml(item.originRegion)}</span>` : ''}
         ${item.category ? `<span class="tag">${escapeHtml(item.category)}</span>` : ''}
       </div>
       <p class="news-summary">${escapeHtml(item.summary)}</p>
