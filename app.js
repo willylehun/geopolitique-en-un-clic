@@ -1,7 +1,7 @@
 const REGIONS = [
   { name: 'International', icon: '🌐', desc: 'Grandes crises, marchés mondiaux et diplomatie' },
   { name: 'Europe', icon: '🇪🇺', desc: 'UE, Russie, Ukraine et voisinage européen' },
-  { name: 'Asie', icon: '🌏', desc: 'Chine, Inde, Moyen-Orient et Asie-Pacifique' },
+  { name: 'Asie', icon: '🌏', desc: 'Asie, Moyen-Orient et Indo-Pacifique' },
   { name: 'Amérique du Nord', icon: '🌎', desc: 'États-Unis, Canada et Mexique' },
   { name: 'Amérique du Sud', icon: '🧭', desc: 'Brésil, Argentine et continent sud-américain' },
   { name: 'Afrique', icon: '🌍', desc: 'Politique, sécurité et économies africaines' },
@@ -67,7 +67,6 @@ function openRegion(region) {
   state.bucket = null;
   $('#regionPage').hidden = true;
   $('#newsPage').hidden = false;
-  $('#backBtn').hidden = false;
   const meta = regionMeta(region);
   $('#regionTitle').textContent = region;
   $('#regionIcon').textContent = meta.icon;
@@ -76,10 +75,11 @@ function openRegion(region) {
 }
 
 function goHome() {
+  if (!state.region) return;
   state.region = null;
+  state.bucket = null;
   $('#newsPage').hidden = true;
   $('#regionPage').hidden = false;
-  $('#backBtn').hidden = true;
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -152,16 +152,13 @@ function renderNews() {
 
   header.innerHTML = `
     <div>
-      <span class="result-count">${items.length} sujet${items.length > 1 ? 's' : ''}</span>
+      <span class="result-count">${items.length} information${items.length > 1 ? 's' : ''}</span>
       <span class="result-date">${state.bucket ? escapeHtml(state.bucket) : ''}</span>
     </div>
   `;
 
   if (!items.length) {
-    const message = state.period === 'month'
-      ? 'Le condensé mensuel se construira au fil des prochaines veilles.'
-      : 'Aucun événement majeur retenu pour cette zone et cette période.';
-    list.innerHTML = `<div class="empty"><span>◎</span><p>${message}</p></div>`;
+    list.innerHTML = '<div class="empty"><span>◎</span><p>Aucune information majeure disponible pour cette période.</p></div>';
     return;
   }
 
@@ -199,20 +196,7 @@ async function loadData() {
   renderRegionGrid();
 }
 
-$('#backBtn').onclick = goHome;
-
-let deferredPrompt;
-window.addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault();
-  deferredPrompt = e;
-  const btn = $('#installBtn');
-  btn.hidden = false;
-  btn.onclick = async () => {
-    deferredPrompt.prompt();
-    await deferredPrompt.userChoice;
-    btn.hidden = true;
-  };
-});
+$('#brandHome').onclick = goHome;
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
