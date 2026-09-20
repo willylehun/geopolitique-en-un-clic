@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#101216" />
+  <title>Géopolitique en un Clic</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-wrap">
+      <img src="assets/logo.png" alt="Logo Géopolitique en un Clic" class="app-logo" />
+      <div>
+        <h1>Géopolitique en un Clic</h1>
+        <p id="subtitle">Veille 5/10 à 10/10 • fenêtre éditoriale 06h30 → 06h29</p>
+      </div>
+    </div>
+    <button id="installBtn" class="ghost" hidden>Installer</button>
+  </header>
+  <main>
+    <nav id="regionNav" class="region-nav" aria-label="Zones géographiques"></nav>
+    <section class="toolbar">
+      <div class="period-tabs" role="tablist" aria-label="Période">
+        <button data-period="day" class="period-tab active">Jour</button>
+        <button data-period="week" class="period-tab">Semaine</button>
+        <button data-period="month" class="period-tab">Mois</button>
+      </div>
+      <select id="historySelect" aria-label="Historique"></select>
+    </section>
+    <section class="rules-card">
+      <strong>Règle :</strong> uniquement les infos notées de 5 à 10, résumées très brièvement, avec les sources entre parenthèses.
+    </section>
+    <section id="summaryHeader" class="summary-header"></section>
+    <section id="newsList" class="news-list"></section>
+  </main>
+  <footer>
+    <span>Sources entre parenthèses • doublons regroupés • mise à jour quotidienne à 06h30</span>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
