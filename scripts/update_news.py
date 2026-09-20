@@ -10,30 +10,31 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"/"news.json"
 PARIS=ZoneInfo("Europe/Paris")
 UTC=ZoneInfo("UTC")
+FR_MONTHS=["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
 
 REGIONS={
- "International":"geopolitics sanctions diplomacy war conflict oil gas inflation trade tariffs security central bank election",
- "Europe":"Europe EU Ukraine Russia France Germany Britain UK Italy Spain Poland Balkans",
- "Asie":"Asia China Japan India Pakistan Korea Taiwan Iran Israel Gaza Saudi Yemen Indonesia Philippines",
- "Amérique du Nord":"United States USA Canada Mexico",
- "Amérique du Sud":"Brazil Argentina Colombia Chile Peru Venezuela Ecuador Bolivia Paraguay Uruguay Suriname Guyana",
- "Afrique":"Africa Nigeria South Africa Kenya Sudan Congo Ethiopia Somalia Morocco Algeria Egypt Ghana Mali Niger",
- "Océanie":"Australia New Zealand Pacific Fiji Papua New Guinea Samoa Tonga"
+ "International":"geopolitics OR diplomacy OR sanctions OR global economy OR world trade OR energy crisis OR security",
+ "Europe":"Europe OR European Union OR EU OR Ukraine OR Russia OR France OR Germany OR Britain OR UK OR Italy OR Spain OR Poland",
+ "Asie":"Asia OR China OR Japan OR India OR Korea OR Taiwan OR Iran OR Israel OR Gaza OR Saudi OR Yemen OR Indonesia",
+ "Amérique du Nord":"United States OR USA OR Canada OR Mexico",
+ "Amérique du Sud":"Brazil OR Argentina OR Colombia OR Chile OR Peru OR Venezuela OR Ecuador OR Bolivia OR Uruguay OR Paraguay",
+ "Afrique":"Africa OR Nigeria OR South Africa OR Kenya OR Sudan OR Congo OR Ethiopia OR Somalia OR Morocco OR Algeria OR Egypt OR Ghana",
+ "Océanie":"Australia OR New Zealand OR Pacific OR Fiji OR Papua New Guinea OR Samoa OR Tonga"
 }
+IMPACT_QUERY="war OR conflict OR sanctions OR election OR inflation OR oil OR gas OR trade OR tariffs OR security OR central bank OR diplomacy OR military OR government OR economy OR climate OR energy OR technology OR migration"
 
-SITES=[
- "reuters.com","apnews.com","bbc.com","france24.com","dw.com","aljazeera.com",
- "ft.com","theguardian.com","euronews.com","channelnewsasia.com","cbc.ca",
- "abc.net.au","rnz.co.nz","news24.com","nation.africa"
+SOURCE_LABELS=[
+ "Reuters","Associated Press","AP News","BBC","France 24","DW","Al Jazeera","Financial Times","The Economist",
+ "The Guardian","Euronews","POLITICO","Le Monde","AFP","NHK","Japan Times","Nikkei Asia","CNA","Channel NewsAsia",
+ "The Straits Times","Yonhap","The Korea Herald","The Hindu","The Indian Express","Dawn","The Jakarta Post","Kompas",
+ "Tempo","Bangkok Post","Focus Taiwan","Taipei Times","Rappler","The New York Times","The Washington Post",
+ "The Wall Street Journal","NPR","PBS NewsHour","ProPublica","Axios","Los Angeles Times","CBS News","CBC",
+ "The Globe and Mail","CTV News","El Universal","Folha","O Globo","Estadão","Agência Brasil","La Nación","Clarín",
+ "El Tiempo","El Espectador","El Comercio","La Tercera","News24","Daily Maverick","Mail & Guardian","SABC News",
+ "Nation Africa","The EastAfrican","Premium Times","Channels Television","Jeune Afrique","Africa Check",
+ "ABC News","ABC Australia","SBS News","Sydney Morning Herald","The Age","Australian Financial Review","RNZ",
+ "New Zealand Herald","Stuff","Newsroom"
 ]
-SOURCE_NAMES={
- "Reuters":"Reuters","Associated Press":"AP","AP News":"AP","BBC":"BBC","France 24":"France 24",
- "DW":"DW","Al Jazeera":"Al Jazeera","Financial Times":"Financial Times",
- "The Guardian":"The Guardian","Euronews":"Euronews","CNA":"CNA","CBC":"CBC",
- "ABC News":"ABC Australia","ABC Australia":"ABC Australia","RNZ":"RNZ",
- "News24":"News24","Nation":"Nation Africa"
-}
-FR_MONTHS=["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
 
 IMPACT={
  10:["nuclear war","world war","invasion","state of emergency","coup attempt"],
@@ -54,13 +55,11 @@ CATEGORIES=[
 ]
 
 def fr_date(d): return f"{d.day} {FR_MONTHS[d.month-1]} {d.year}"
-
+def month_bucket(d): return f"{FR_MONTHS[d.month-1].capitalize()} {d.year}"
 def week_bucket(d):
     mon=d-timedelta(days=d.weekday()); sun=mon+timedelta(days=6)
     if mon.month==sun.month:return f"{mon.day}–{sun.day} {FR_MONTHS[mon.month-1]} {sun.year}"
     return f"{fr_date(mon)} – {fr_date(sun)}"
-
-def month_bucket(d): return f"{FR_MONTHS[d.month-1].capitalize()} {d.year}"
 
 def score(title):
     t=" "+title.lower()+" "
@@ -81,37 +80,38 @@ def key_title(title):
 
 def clean_title(raw):
     raw=re.sub(r"\s+"," ",raw or "").strip()
-    # Google News often appends " - Source"
     parts=raw.rsplit(" - ",1)
-    if len(parts)==2 and len(parts[1])<50:
-        return parts[0].strip(), parts[1].strip()
-    return raw,""
+    return (parts[0].strip(),parts[1].strip()) if len(parts)==2 and len(parts[1])<70 else (raw,"")
+
+def trusted_source(label):
+    l=(label or "").lower()
+    return any(s.lower() in l for s in SOURCE_LABELS)
 
 def source_name(label):
-    for k,v in SOURCE_NAMES.items():
-        if k.lower() in (label or "").lower(): return v
-    return label or "Source"
+    l=(label or "").strip()
+    if "associated press" in l.lower() or l.lower()=="ap news": return "AP"
+    if "abc.net.au" in l.lower(): return "ABC Australia"
+    return l or "Source"
 
-def editorial_day(dt):
-    return (dt.astimezone(PARIS)-timedelta(hours=6,minutes=30)).date()
+def editorial_day(dt): return (dt.astimezone(PARIS)-timedelta(hours=6,minutes=30)).date()
 
 def google_rss(region,start_date,end_date):
-    # end_date is inclusive in our logic; Google before: is exclusive, so add one day.
-    siteq=" OR ".join(f"site:{s}" for s in SITES)
-    q=f'({REGIONS[region]}) ({siteq}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
+    q=f'({REGIONS[region]}) ({IMPACT_QUERY}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
     params={"q":q,"hl":"en-US","gl":"US","ceid":"US:en"}
     url="https://news.google.com/rss/search?"+urllib.parse.urlencode(params)
-    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/1.2"})
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/1.3"})
     with urllib.request.urlopen(req,timeout=30) as r:
         root=ET.fromstring(r.read())
     out=[]
     for item in root.findall(".//item"):
-        title_el=item.find("title"); link_el=item.find("link"); date_el=item.find("pubDate")
+        title_el=item.find("title"); link_el=item.find("link"); date_el=item.find("pubDate"); src_el=item.find("source")
         if title_el is None or date_el is None: continue
         try: dt=parsedate_to_datetime(date_el.text)
         except: continue
         if dt.tzinfo is None: dt=dt.replace(tzinfo=UTC)
-        title,src=clean_title(title_el.text or "")
+        title,fallback=clean_title(title_el.text or "")
+        src=(src_el.text if src_el is not None else fallback) or fallback
+        if not trusted_source(src): continue
         out.append({"title":title,"source":src,"date":dt,"url":link_el.text if link_el is not None else ""})
     return out
 
@@ -124,18 +124,13 @@ def parse_bucket_date(bucket):
 def build_generated(start_date,end_date):
     generated=[]
     for region in REGIONS:
-        # Split month in halves to increase result depth.
-        ranges=[]
+        articles=[]
         cur=start_date
         while cur<=end_date:
-            stop=min(cur+timedelta(days=9),end_date)
-            ranges.append((cur,stop))
+            stop=min(cur+timedelta(days=4),end_date)
+            try: articles.extend(google_rss(region,cur,stop))
+            except Exception as e: print("RSS",region,cur,stop,e,file=sys.stderr)
             cur=stop+timedelta(days=1)
-
-        articles=[]
-        for a,b in ranges:
-            try: articles.extend(google_rss(region,a,b))
-            except Exception as e: print("RSS",region,a,b,e,file=sys.stderr)
 
         grouped=defaultdict(list); seen=set()
         for a in articles:
@@ -152,7 +147,8 @@ def build_generated(start_date,end_date):
               "url":a["url"],"origin":"rss"
             })
 
-        for d in (start_date+timedelta(days=i) for i in range((end_date-start_date).days+1)):
+        for i in range((end_date-start_date).days+1):
+            d=start_date+timedelta(days=i)
             rows=sorted(grouped.get(d,[]),key=lambda x:(-x["score"],x["summary"]))
             generated.extend(rows[:12])
     return generated
@@ -161,19 +157,13 @@ def main():
     now=datetime.now(PARIS)
     backfill=os.getenv("BACKFILL_MONTH","0")=="1"
     old=json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {"items":[]}
-
-    if backfill:
-        start_date=now.date().replace(day=1)
-        end_date=now.date()
-    else:
-        start_date=(now-timedelta(days=1)).date()
-        end_date=start_date
+    start_date=now.date().replace(day=1) if backfill else (now-timedelta(days=1)).date()
+    end_date=now.date() if backfill else start_date
 
     generated=build_generated(start_date,end_date)
     rebuilt={fr_date(start_date+timedelta(days=i)) for i in range((end_date-start_date).days+1)}
 
     preserved=[x for x in old.get("items",[]) if not (x.get("origin")=="rss" and x.get("period")=="day" and x.get("bucket") in rebuilt)]
-    # Preserve curated/manual daily entries and generated entries from dates outside current rebuild.
     day_items=[x for x in preserved if x.get("period")=="day"]+generated
     non_daily_manual=[x for x in old.get("items",[]) if x.get("period")!="day" and x.get("origin") not in ("rss","gdelt")]
 
@@ -185,8 +175,7 @@ def main():
 
     week_names=sorted({week_bucket(d) for rows in by_region.values() for d,_ in rows},reverse=True)
     month_names=sorted({month_bucket(d) for rows in by_region.values() for d,_ in rows},reverse=True)
-    summary=[]
-
+    summaries=[]
     for region,rows in by_region.items():
         for period,names,limit in (("week",week_names,18),("month",month_names,30)):
             for name in names:
@@ -201,20 +190,14 @@ def main():
                     y["period"]=period; y["bucket"]=name; y["origin"]="rss"
                     picked.append(y)
                     if len(picked)>=limit: break
-                summary.extend(picked)
+                summaries.extend(picked)
 
-    if backfill:
-        day_buckets=[fr_date(end_date-timedelta(days=i)) for i in range((end_date-start_date).days+1)]
-    else:
-        all_days=sorted({d for rows in by_region.values() for d,_ in rows},reverse=True)
-        day_buckets=[fr_date(d) for d in all_days]
-
+    day_buckets=[fr_date(end_date-timedelta(days=i)) for i in range((end_date-start_date).days+1)] if backfill else [fr_date(start_date)]
     coverage={}
-    all_dates=[start_date+timedelta(days=i) for i in range((end_date-start_date).days+1)]
-    for d in all_dates:
-        start=datetime.combine(d,dtime(6,30),PARIS)
-        end=start+timedelta(days=1)-timedelta(minutes=1)
-        coverage[f"day:{fr_date(d)}"]=f"Fenêtre : {start.strftime('%d/%m %H:%M')} → {end.strftime('%d/%m %H:%M')}"
+    for i in range((end_date-start_date).days+1):
+        d=start_date+timedelta(days=i)
+        s=datetime.combine(d,dtime(6,30),PARIS); e=s+timedelta(days=1)-timedelta(minutes=1)
+        coverage[f"day:{fr_date(d)}"]=f"Fenêtre : {s.strftime('%d/%m %H:%M')} → {e.strftime('%d/%m %H:%M')}"
     for w in week_names: coverage[f"week:{w}"]="Condensé automatique de la semaine"
     for m in month_names: coverage[f"month:{m}"]="Condensé automatique du mois"
 
@@ -224,7 +207,7 @@ def main():
       "target_per_region_per_day":10,
       "buckets":{"day":day_buckets,"week":week_names,"month":month_names},
       "coverage":coverage,
-      "items":day_items+non_daily_manual+summary
+      "items":day_items+non_daily_manual+summaries
     }
     DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
     print("generated",len(generated),"daily items; total",len(out["items"]))
