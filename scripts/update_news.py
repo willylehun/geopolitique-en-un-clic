@@ -124,28 +124,36 @@ def parse_bucket_date(bucket):
 def build_generated(start_date,end_date):
     generated=[]
     for region in REGIONS:
-        articles=[]
-        cur=start_date
-        while cur<=end_date:
-            stop=min(cur+timedelta(days=4),end_date)
-            try: articles.extend(google_rss(region,cur,stop))
-            except Exception as e: print("RSS",region,cur,stop,e,file=sys.stderr)
-            cur=stop+timedelta(days=1)
-
         grouped=defaultdict(list); seen=set()
-        for a in articles:
-            d=editorial_day(a["date"])
-            if d<start_date or d>end_date: continue
-            title=a["title"]
-            if len(title)<22: continue
-            k=(d,key_title(title))
-            if not k[1] or k in seen: continue
-            seen.add(k)
-            grouped[d].append({
-              "regions":[region],"period":"day","bucket":fr_date(d),"score":score(title),
-              "category":category(title),"summary":title,"sources":[source_name(a["source"])],
-              "url":a["url"],"origin":"rss"
-            })
+
+        # Le backfill historique interroge chaque journée séparément pour éviter
+        # que les résultats récents n'écrasent les jours plus anciens.
+        if os.getenv("BACKFILL_MONTH","0")=="1":
+            ranges=[(start_date+timedelta(days=i),start_date+timedelta(days=i))
+                    for i in range((end_date-start_date).days+1)]
+        else:
+            ranges=[(start_date,end_date)]
+
+        for a,b in ranges:
+            try:
+                articles=google_rss(region,a,b)
+            except Exception as e:
+                print("RSS",region,a,b,e,file=sys.stderr)
+                articles=[]
+
+            for art in articles:
+                d=editorial_day(art["date"])
+                if d<start_date or d>end_date: continue
+                title=art["title"]
+                if len(title)<22: continue
+                k=(d,key_title(title))
+                if not k[1] or k in seen: continue
+                seen.add(k)
+                grouped[d].append({
+                  "regions":[region],"period":"day","bucket":fr_date(d),"score":score(title),
+                  "category":category(title),"summary":title,"sources":[source_name(art["source"])],
+                  "url":art["url"],"origin":"rss"
+                })
 
         for i in range((end_date-start_date).days+1):
             d=start_date+timedelta(days=i)
