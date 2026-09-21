@@ -1,10 +1,38 @@
 {
-  "generated_at": "2026-09-21T00:52:00+02:00",
+  "generated_at": "2026-09-21T02:52:49+02:00",
   "buckets": {
     "day": ["21 septembre 2026"]
   },
   "coverage": {
     "day:21 septembre 2026": "Journée civile : 21 septembre 2026 • 00h00 → 23h59"
   },
-  "items": []
+  "items": [
+    {
+      "regions": ["Europe"],
+      "period": "day",
+      "bucket": "21 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "L’Europe devrait manquer d’environ 510 000 barils par jour de carburéacteur au quatrième trimestre ; ses stocks sont au plus bas depuis sept ans et les importations sud-coréennes atteignent un sommet de quatre ans.",
+      "sources": ["Reuters"]
+    },
+    {
+      "regions": ["Asie"],
+      "period": "day",
+      "bucket": "21 septembre 2026",
+      "score": 6,
+      "category": "Marchés",
+      "summary": "Les marchés asiatiques progressent, portés par les semi-conducteurs et la demande liée à l’IA, tandis que le pétrole reflue légèrement avec l’espoir d’une reprise des exportations saoudiennes.",
+      "sources": ["Reuters"]
+    },
+    {
+      "regions": ["Asie"],
+      "period": "day",
+      "bucket": "21 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Les exportations pétrolières saoudiennes se redressent malgré les attaques houthies : Riyad réoriente davantage de cargaisons par le détroit d’Ormuz, ce qui détend légèrement les cours mondiaux.",
+      "sources": ["Reuters"]
+    }
+  ]
 }
