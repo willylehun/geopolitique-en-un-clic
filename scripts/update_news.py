@@ -18,7 +18,7 @@ REGIONS={
  "Asie":"Asia OR China OR Japan OR India OR Korea OR Taiwan OR Iran OR Israel OR Gaza OR Saudi OR Yemen OR Indonesia",
  "Amérique du Nord":"United States OR USA OR Canada OR Mexico",
  "Amérique du Sud":"Brazil OR Argentina OR Colombia OR Chile OR Peru OR Venezuela OR Ecuador OR Bolivia OR Uruguay OR Paraguay",
- "Afrique":"Africa OR Nigeria OR South Africa OR Kenya OR Sudan OR Congo OR Ethiopia OR Somalia OR Morocco OR Algeria OR Egypt OR Ghana",
+ "Afrique":"Africa OR Afrique OR Nigeria OR South Africa OR Kenya OR Sudan OR South Sudan OR Congo OR DRC OR Ethiopia OR Somalia OR Morocco OR Algeria OR Egypt OR Ghana OR Mali OR Burkina Faso OR Niger OR Chad OR Cameroon OR Senegal OR Ivory Coast OR Côte d’Ivoire OR Uganda OR Tanzania OR Rwanda OR Mozambique OR Angola OR Zambia OR Zimbabwe OR Libya OR Tunisia",
  "Océanie":"Australia OR New Zealand OR Pacific OR Fiji OR Papua New Guinea OR Samoa OR Tonga"
 }
 IMPACT_QUERY="war OR conflict OR sanctions OR election OR inflation OR oil OR gas OR trade OR tariffs OR security OR central bank OR diplomacy OR military OR government OR economy OR climate OR energy OR technology OR migration"
@@ -93,11 +93,11 @@ def source_name(label):
     if "abc.net.au" in l.lower(): return "ABC Australia"
     return l or "Source"
 
-def editorial_day(dt): return (dt.astimezone(PARIS)-timedelta(hours=6,minutes=30)).date()
+def editorial_day(dt): return dt.astimezone(PARIS).date()
 
 def google_rss(region,start_date,end_date):
     q=f'({REGIONS[region]}) ({IMPACT_QUERY}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
-    params={"q":q,"hl":"en-US","gl":"US","ceid":"US:en"}
+    params={"q":q,"hl":"fr","gl":"FR","ceid":"FR:fr"}
     url="https://news.google.com/rss/search?"+urllib.parse.urlencode(params)
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/1.3"})
     with urllib.request.urlopen(req,timeout=30) as r:
@@ -158,21 +158,28 @@ def build_generated(start_date,end_date):
         for i in range((end_date-start_date).days+1):
             d=start_date+timedelta(days=i)
             rows=sorted(grouped.get(d,[]),key=lambda x:(-x["score"],x["summary"]))
-            generated.extend(rows[:12])
+            generated.extend(rows[:20])
     return generated
 
 def main():
     now=datetime.now(PARIS)
     backfill=os.getenv("BACKFILL_MONTH","0")=="1"
     old=json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {"items":[]}
-    start_date=now.date().replace(day=1) if backfill else (now-timedelta(days=1)).date()
-    end_date=now.date() if backfill else start_date
+    start_date=now.date().replace(day=1) if backfill else now.date()
+    end_date=now.date()
 
     generated=build_generated(start_date,end_date)
     rebuilt={fr_date(start_date+timedelta(days=i)) for i in range((end_date-start_date).days+1)}
 
-    preserved=[x for x in old.get("items",[]) if not (x.get("origin")=="rss" and x.get("period")=="day" and x.get("bucket") in rebuilt)]
-    day_items=[x for x in preserved if x.get("period")=="day"]+generated
+    preserved=list(old.get("items",[]))
+    old_daily=[x for x in preserved if x.get("period")=="day"]
+    existing={(x.get("bucket"), tuple(x.get("regions",[])), key_title(x.get("summary",""))) for x in old_daily}
+    fresh=[]
+    for x in generated:
+        k=(x.get("bucket"), tuple(x.get("regions",[])), key_title(x.get("summary","")))
+        if k not in existing:
+            fresh.append(x); existing.add(k)
+    day_items=old_daily+fresh
     non_daily_manual=[x for x in old.get("items",[]) if x.get("period")!="day" and x.get("origin") not in ("rss","gdelt")]
 
     by_region=defaultdict(list)
@@ -194,7 +201,7 @@ def main():
                     k=key_title(x["summary"])
                     if k in used: continue
                     used.add(k)
-                    y={kk:vv for kk,vv in x.items() if kk!="url"}
+                    y=dict(x)
                     y["period"]=period; y["bucket"]=name; y["origin"]="rss"
                     picked.append(y)
                     if len(picked)>=limit: break
@@ -204,15 +211,15 @@ def main():
     coverage={}
     for i in range((end_date-start_date).days+1):
         d=start_date+timedelta(days=i)
-        s=datetime.combine(d,dtime(6,30),PARIS); e=s+timedelta(days=1)-timedelta(minutes=1)
-        coverage[f"day:{fr_date(d)}"]=f"Fenêtre : {s.strftime('%d/%m %H:%M')} → {e.strftime('%d/%m %H:%M')}"
+        s=datetime.combine(d,dtime(0,0),PARIS); e=datetime.combine(d,dtime(23,59),PARIS)
+        coverage[f"day:{fr_date(d)}"]=f"Journée civile : {s.strftime('%d/%m %H:%M')} → {e.strftime('%d/%m %H:%M')}"
     for w in week_names: coverage[f"week:{w}"]="Condensé automatique de la semaine"
     for m in month_names: coverage[f"month:{m}"]="Condensé automatique du mois"
 
     out={
       "generated_at":now.isoformat(),"timezone":"Europe/Paris",
-      "window_rule":"Une date couvre de 06h30 ce jour-là à 06h29 le lendemain.",
-      "target_per_region_per_day":10,
+      "window_rule":"Une date couvre de 00h00 à 23h59 heure de Paris.",
+      "target_per_region_per_day":15,
       "buckets":{"day":day_buckets,"week":week_names,"month":month_names},
       "coverage":coverage,
       "items":day_items+non_daily_manual+summaries
