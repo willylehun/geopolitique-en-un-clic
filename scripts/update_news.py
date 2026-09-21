@@ -17,9 +17,9 @@ REGIONS={
  "Europe":"Europe OR European Union OR EU OR Ukraine OR Russia OR France OR Germany OR Britain OR UK OR Italy OR Spain OR Poland",
  "Asie":"Asia OR China OR Japan OR India OR Korea OR Taiwan OR Iran OR Israel OR Gaza OR Saudi OR Yemen OR Indonesia",
  "Amérique du Nord":"United States OR USA OR Canada OR Mexico",
- "Amérique du Sud":"Brazil OR Argentina OR Colombia OR Chile OR Peru OR Venezuela OR Ecuador OR Bolivia OR Uruguay OR Paraguay",
+ "Amérique du Sud":"South America OR Latin America OR Brazil OR Brasil OR Argentina OR Colombia OR Chile OR Peru OR Venezuela OR Ecuador OR Bolivia OR Uruguay OR Paraguay OR Guyana OR Suriname OR Mercosur OR Amazon",
  "Afrique":"Africa OR Afrique OR Nigeria OR South Africa OR Kenya OR Sudan OR South Sudan OR Congo OR DRC OR Ethiopia OR Somalia OR Morocco OR Algeria OR Egypt OR Ghana OR Mali OR Burkina Faso OR Niger OR Chad OR Cameroon OR Senegal OR Ivory Coast OR Côte d’Ivoire OR Uganda OR Tanzania OR Rwanda OR Mozambique OR Angola OR Zambia OR Zimbabwe OR Libya OR Tunisia",
- "Océanie":"Australia OR New Zealand OR Pacific OR Fiji OR Papua New Guinea OR Samoa OR Tonga"
+ "Océanie":"Oceania OR Australia OR New Zealand OR Pacific Islands OR Pacific Forum OR Fiji OR Papua New Guinea OR PNG OR Samoa OR Tonga OR Vanuatu OR Solomon Islands OR Kiribati OR Tuvalu OR Palau OR Micronesia OR Marshall Islands OR Nauru OR New Caledonia"
 }
 IMPACT_QUERY="war OR conflict OR sanctions OR election OR inflation OR oil OR gas OR trade OR tariffs OR security OR central bank OR diplomacy OR military OR government OR economy OR climate OR energy OR technology OR migration"
 
@@ -96,7 +96,12 @@ def source_name(label):
 def editorial_day(dt): return dt.astimezone(PARIS).date()
 
 def google_rss(region,start_date,end_date):
-    q=f'({REGIONS[region]}) ({IMPACT_QUERY}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
+    # Les régions structurellement moins couvertes utilisent une requête plus large :
+    # on cherche d'abord les pays/organisations, puis le filtre d'impact est fait localement.
+    if region in ("Afrique","Amérique du Sud","Océanie"):
+        q=f'({REGIONS[region]}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
+    else:
+        q=f'({REGIONS[region]}) ({IMPACT_QUERY}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
     params={"q":q,"hl":"fr","gl":"FR","ceid":"FR:fr"}
     url="https://news.google.com/rss/search?"+urllib.parse.urlencode(params)
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/1.3"})
@@ -152,13 +157,14 @@ def build_generated(start_date,end_date):
                 grouped[d].append({
                   "regions":[region],"period":"day","bucket":fr_date(d),"score":score(title),
                   "category":category(title),"summary":title,"sources":[source_name(art["source"])],
-                  "url":art["url"],"origin":"rss"
+                  "url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"
                 })
 
         for i in range((end_date-start_date).days+1):
             d=start_date+timedelta(days=i)
-            rows=sorted(grouped.get(d,[]),key=lambda x:(-x["score"],x["summary"]))
-            generated.extend(rows[:20])
+            rows=sorted(grouped.get(d,[]),key=lambda x:x.get("published_at",""),reverse=True)
+            # Objectif de couverture : jusqu’à 25 sujets/jour/région, sans inventer de sujets.
+            generated.extend(rows[:25])
     return generated
 
 def main():
