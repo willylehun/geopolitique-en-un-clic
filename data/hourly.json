@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T03:51:41+02:00",
+  "generated_at": "2026-09-21T04:50:39+02:00",
   "buckets": {
     "day": ["21 septembre 2026"],
     "week": ["21–27 septembre 2026"],
@@ -11,140 +11,28 @@
     "month:Septembre 2026": "Condensé automatique du mois"
   },
   "items": [
-    {
-      "regions": ["Europe"],
-      "period": "day",
-      "bucket": "21 septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "L’Europe devrait manquer d’environ 510 000 barils par jour de carburéacteur au quatrième trimestre ; ses stocks sont au plus bas depuis sept ans et les importations sud-coréennes atteignent un sommet de quatre ans.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Asie"],
-      "period": "day",
-      "bucket": "21 septembre 2026",
-      "score": 6,
-      "category": "Marchés",
-      "summary": "Les marchés asiatiques progressent, portés par les semi-conducteurs et la demande liée à l’IA, tandis que le pétrole reflue légèrement avec l’espoir d’une reprise des exportations saoudiennes.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Asie"],
-      "period": "day",
-      "bucket": "21 septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "Les exportations pétrolières saoudiennes se redressent malgré les attaques houthies : Riyad réoriente davantage de cargaisons par le détroit d’Ormuz, ce qui détend légèrement les cours mondiaux.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Asie"],
-      "period": "day",
-      "bucket": "21 septembre 2026",
-      "score": 7,
-      "category": "Monnaie",
-      "summary": "Le yen reste sous forte pression malgré le relèvement du taux directeur japonais à 1,25 %, son plus haut niveau depuis 31 ans ; les marchés surveillent désormais une possible intervention de Tokyo sur le marché des changes.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Océanie"],
-      "period": "day",
-      "bucket": "21 septembre 2026",
-      "score": 7,
-      "category": "Diplomatie",
-      "summary": "L’Australie annonce sa candidature à un siège non permanent au Conseil de sécurité de l’ONU pour 2029-2030, avec l’ambition de peser davantage sur le climat, l’IA et la sécurité internationale.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Europe"],
-      "period": "week",
-      "bucket": "21–27 septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "L’Europe devrait manquer d’environ 510 000 barils par jour de carburéacteur au quatrième trimestre ; ses stocks sont au plus bas depuis sept ans et les importations sud-coréennes atteignent un sommet de quatre ans.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Asie"],
-      "period": "week",
-      "bucket": "21–27 septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "Les exportations pétrolières saoudiennes se redressent malgré les attaques houthies : Riyad réoriente davantage de cargaisons par le détroit d’Ormuz, ce qui détend légèrement les cours mondiaux.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Asie"],
-      "period": "week",
-      "bucket": "21–27 septembre 2026",
-      "score": 7,
-      "category": "Monnaie",
-      "summary": "Le yen reste sous forte pression malgré le relèvement du taux directeur japonais à 1,25 %, son plus haut niveau depuis 31 ans ; les marchés surveillent désormais une possible intervention de Tokyo sur le marché des changes.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Asie"],
-      "period": "week",
-      "bucket": "21–27 septembre 2026",
-      "score": 6,
-      "category": "Marchés",
-      "summary": "Les marchés asiatiques progressent, portés par les semi-conducteurs et la demande liée à l’IA, tandis que le pétrole reflue légèrement avec l’espoir d’une reprise des exportations saoudiennes.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Océanie"],
-      "period": "week",
-      "bucket": "21–27 septembre 2026",
-      "score": 7,
-      "category": "Diplomatie",
-      "summary": "L’Australie annonce sa candidature à un siège non permanent au Conseil de sécurité de l’ONU pour 2029-2030, avec l’ambition de peser davantage sur le climat, l’IA et la sécurité internationale.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Europe"],
-      "period": "month",
-      "bucket": "Septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "L’Europe devrait manquer d’environ 510 000 barils par jour de carburéacteur au quatrième trimestre ; ses stocks sont au plus bas depuis sept ans et les importations sud-coréennes atteignent un sommet de quatre ans.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Asie"],
-      "period": "month",
-      "bucket": "Septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "Les exportations pétrolières saoudiennes se redressent malgré les attaques houthies : Riyad réoriente davantage de cargaisons par le détroit d’Ormuz, ce qui détend légèrement les cours mondiaux.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Asie"],
-      "period": "month",
-      "bucket": "Septembre 2026",
-      "score": 7,
-      "category": "Monnaie",
-      "summary": "Le yen reste sous forte pression malgré le relèvement du taux directeur japonais à 1,25 %, son plus haut niveau depuis 31 ans ; les marchés surveillent désormais une possible intervention de Tokyo sur le marché des changes.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Asie"],
-      "period": "month",
-      "bucket": "Septembre 2026",
-      "score": 6,
-      "category": "Marchés",
-      "summary": "Les marchés asiatiques progressent, portés par les semi-conducteurs et la demande liée à l’IA, tandis que le pétrole reflue légèrement avec l’espoir d’une reprise des exportations saoudiennes.",
-      "sources": ["Reuters"]
-    },
-    {
-      "regions": ["Océanie"],
-      "period": "month",
-      "bucket": "Septembre 2026",
-      "score": 7,
-      "category": "Diplomatie",
-      "summary": "L’Australie annonce sa candidature à un siège non permanent au Conseil de sécurité de l’ONU pour 2029-2030, avec l’ambition de peser davantage sur le climat, l’IA et la sécurité internationale.",
-      "sources": ["Reuters"]
-    }
+    {"regions":["Europe"],"period":"day","bucket":"21 septembre 2026","score":8,"category":"Énergie","summary":"L’Europe devrait manquer d’environ 510 000 barils par jour de carburéacteur au quatrième trimestre ; ses stocks sont au plus bas depuis sept ans et les importations sud-coréennes atteignent un sommet de quatre ans.","sources":["Reuters"]},
+    {"regions":["Asie"],"period":"day","bucket":"21 septembre 2026","score":6,"category":"Marchés","summary":"Les marchés asiatiques progressent, portés par les semi-conducteurs et la demande liée à l’IA, tandis que le pétrole reflue légèrement avec l’espoir d’une reprise des exportations saoudiennes.","sources":["Reuters"]},
+    {"regions":["Asie"],"period":"day","bucket":"21 septembre 2026","score":8,"category":"Énergie","summary":"Les exportations pétrolières saoudiennes se redressent malgré les attaques houthies : Riyad réoriente davantage de cargaisons par le détroit d’Ormuz, ce qui détend légèrement les cours mondiaux.","sources":["Reuters"]},
+    {"regions":["Asie"],"period":"day","bucket":"21 septembre 2026","score":7,"category":"Monnaie","summary":"Le yen reste sous forte pression malgré le relèvement du taux directeur japonais à 1,25 %, son plus haut niveau depuis 31 ans ; les marchés surveillent désormais une possible intervention de Tokyo sur le marché des changes.","sources":["Reuters"]},
+    {"regions":["Asie","Amérique du Nord"],"period":"day","bucket":"21 septembre 2026","score":7,"category":"Diplomatie","summary":"Le président sud-coréen Lee Jae Myung se rend à l’ONU puis au Mexique pour un sommet avec Claudia Sheinbaum ; Séoul veut approfondir la coopération commerciale, énergétique, aérospatiale et de défense avec Mexico, tout en poursuivant ses négociations économiques avec Washington.","sources":["Reuters"]},
+    {"regions":["Océanie"],"period":"day","bucket":"21 septembre 2026","score":7,"category":"Diplomatie","summary":"L’Australie annonce sa candidature à un siège non permanent au Conseil de sécurité de l’ONU pour 2029-2030, avec l’ambition de peser davantage sur le climat, l’IA et la sécurité internationale.","sources":["Reuters"]},
+    {"regions":["Océanie"],"period":"day","bucket":"21 septembre 2026","score":7,"category":"Démographie","summary":"Le Trésor australien prévoit que les décès dépasseront les naissances dans les années 2060 ; vieillissement, baisse de la fécondité et ralentissement migratoire devraient ramener la croissance démographique à environ 0,9 % par an sur quarante ans.","sources":["Reuters"]},
+
+    {"regions":["Europe"],"period":"week","bucket":"21–27 septembre 2026","score":8,"category":"Énergie","summary":"L’Europe devrait manquer d’environ 510 000 barils par jour de carburéacteur au quatrième trimestre ; ses stocks sont au plus bas depuis sept ans et les importations sud-coréennes atteignent un sommet de quatre ans.","sources":["Reuters"]},
+    {"regions":["Asie"],"period":"week","bucket":"21–27 septembre 2026","score":8,"category":"Énergie","summary":"Les exportations pétrolières saoudiennes se redressent malgré les attaques houthies : Riyad réoriente davantage de cargaisons par le détroit d’Ormuz, ce qui détend légèrement les cours mondiaux.","sources":["Reuters"]},
+    {"regions":["Asie"],"period":"week","bucket":"21–27 septembre 2026","score":7,"category":"Monnaie","summary":"Le yen reste sous forte pression malgré le relèvement du taux directeur japonais à 1,25 %, son plus haut niveau depuis 31 ans ; les marchés surveillent désormais une possible intervention de Tokyo sur le marché des changes.","sources":["Reuters"]},
+    {"regions":["Asie","Amérique du Nord"],"period":"week","bucket":"21–27 septembre 2026","score":7,"category":"Diplomatie","summary":"Le président sud-coréen Lee Jae Myung se rend à l’ONU puis au Mexique pour un sommet avec Claudia Sheinbaum ; Séoul veut approfondir la coopération commerciale, énergétique, aérospatiale et de défense avec Mexico, tout en poursuivant ses négociations économiques avec Washington.","sources":["Reuters"]},
+    {"regions":["Asie"],"period":"week","bucket":"21–27 septembre 2026","score":6,"category":"Marchés","summary":"Les marchés asiatiques progressent, portés par les semi-conducteurs et la demande liée à l’IA, tandis que le pétrole reflue légèrement avec l’espoir d’une reprise des exportations saoudiennes.","sources":["Reuters"]},
+    {"regions":["Océanie"],"period":"week","bucket":"21–27 septembre 2026","score":7,"category":"Diplomatie","summary":"L’Australie annonce sa candidature à un siège non permanent au Conseil de sécurité de l’ONU pour 2029-2030, avec l’ambition de peser davantage sur le climat, l’IA et la sécurité internationale.","sources":["Reuters"]},
+    {"regions":["Océanie"],"period":"week","bucket":"21–27 septembre 2026","score":7,"category":"Démographie","summary":"Le Trésor australien prévoit que les décès dépasseront les naissances dans les années 2060 ; vieillissement, baisse de la fécondité et ralentissement migratoire devraient ramener la croissance démographique à environ 0,9 % par an sur quarante ans.","sources":["Reuters"]},
+
+    {"regions":["Europe"],"period":"month","bucket":"Septembre 2026","score":8,"category":"Énergie","summary":"L’Europe devrait manquer d’environ 510 000 barils par jour de carburéacteur au quatrième trimestre ; ses stocks sont au plus bas depuis sept ans et les importations sud-coréennes atteignent un sommet de quatre ans.","sources":["Reuters"]},
+    {"regions":["Asie"],"period":"month","bucket":"Septembre 2026","score":8,"category":"Énergie","summary":"Les exportations pétrolières saoudiennes se redressent malgré les attaques houthies : Riyad réoriente davantage de cargaisons par le détroit d’Ormuz, ce qui détend légèrement les cours mondiaux.","sources":["Reuters"]},
+    {"regions":["Asie"],"period":"month","bucket":"Septembre 2026","score":7,"category":"Monnaie","summary":"Le yen reste sous forte pression malgré le relèvement du taux directeur japonais à 1,25 %, son plus haut niveau depuis 31 ans ; les marchés surveillent désormais une possible intervention de Tokyo sur le marché des changes.","sources":["Reuters"]},
+    {"regions":["Asie","Amérique du Nord"],"period":"month","bucket":"Septembre 2026","score":7,"category":"Diplomatie","summary":"Le président sud-coréen Lee Jae Myung se rend à l’ONU puis au Mexique pour un sommet avec Claudia Sheinbaum ; Séoul veut approfondir la coopération commerciale, énergétique, aérospatiale et de défense avec Mexico, tout en poursuivant ses négociations économiques avec Washington.","sources":["Reuters"]},
+    {"regions":["Asie"],"period":"month","bucket":"Septembre 2026","score":6,"category":"Marchés","summary":"Les marchés asiatiques progressent, portés par les semi-conducteurs et la demande liée à l’IA, tandis que le pétrole reflue légèrement avec l’espoir d’une reprise des exportations saoudiennes.","sources":["Reuters"]},
+    {"regions":["Océanie"],"period":"month","bucket":"Septembre 2026","score":7,"category":"Diplomatie","summary":"L’Australie annonce sa candidature à un siège non permanent au Conseil de sécurité de l’ONU pour 2029-2030, avec l’ambition de peser davantage sur le climat, l’IA et la sécurité internationale.","sources":["Reuters"]},
+    {"regions":["Océanie"],"period":"month","bucket":"Septembre 2026","score":7,"category":"Démographie","summary":"Le Trésor australien prévoit que les décès dépasseront les naissances dans les années 2060 ; vieillissement, baisse de la fécondité et ralentissement migratoire devraient ramener la croissance démographique à environ 0,9 % par an sur quarante ans.","sources":["Reuters"]}
   ]
 }
