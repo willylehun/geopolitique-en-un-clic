@@ -129,6 +129,7 @@ function renderRegionGrid() {
 }
 
 function openRegion(region) {
+  $('#brandHome').classList.remove('home-mode');
   state.mode = 'region';
   state.region = region;
   state.country = null;
@@ -148,6 +149,7 @@ function openRegion(region) {
 }
 
 function openCountryPicker() {
+  $('#brandHome').classList.remove('home-mode');
   state.mode = 'country';
   state.region = null;
   state.country = null;
@@ -208,6 +210,7 @@ function selectCountry(country) {
 }
 
 function goHome() {
+  $('#brandHome').classList.add('home-mode');
   state.mode = 'region';
   state.region = null;
   state.country = null;
@@ -339,6 +342,7 @@ function getCountryFeed() {
 
 
 function openElectionPicker() {
+  $('#brandHome').classList.remove('home-mode');
   state.mode = 'election';
   state.region = null;
   state.country = null;
