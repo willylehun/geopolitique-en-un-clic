@@ -12,11 +12,11 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header id="brandHome" class="brand-hero" title="Retour aux zones">
+  <header id="brandHome" class="brand-hero" title="Retour au menu">
     <img src="assets/logo.png" alt="Logo Géopolitique en un Clic" class="app-logo" />
     <div class="brand-copy">
       <h1>Géopolitique en un Clic</h1>
-      <p>L'essentiel géopolitique et économique, zone par zone</p>
+      <p>L'essentiel géopolitique et économique, par continent ou par pays</p>
     </div>
   </header>
 
@@ -25,16 +25,38 @@
       <div class="hero">
         <span class="eyebrow">VEILLE MONDIALE</span>
         <h2>Choisissez une zone</h2>
-        <p>International ou continent : ouvrez ensuite la veille par jour, semaine ou mois.</p>
+        <p>International, continent ou pays : consultez ensuite la veille par jour, semaine ou mois.</p>
       </div>
       <div id="regionGrid" class="region-grid"></div>
+    </section>
+
+    <section id="countryPage" class="page" hidden>
+      <div class="hero compact-hero">
+        <span class="eyebrow">VEILLE PAR PAYS</span>
+        <h2>Choisissez un pays</h2>
+        <p>195 pays disponibles. Recherchez un pays puis sélectionnez-le dans la liste.</p>
+      </div>
+
+      <section class="country-picker-card">
+        <button id="countryPickerButton" class="country-picker-button" type="button" aria-expanded="false">
+          <span id="countryPickerLabel">Choisir un pays</span>
+          <span>⌄</span>
+        </button>
+        <div id="countryDropdown" class="country-dropdown" hidden>
+          <div class="country-search-wrap">
+            <span>⌕</span>
+            <input id="countrySearch" type="search" placeholder="Rechercher un pays…" autocomplete="off" />
+          </div>
+          <div id="countryList" class="country-list" role="listbox" aria-label="Liste des pays"></div>
+        </div>
+      </section>
     </section>
 
     <section id="newsPage" class="page" hidden>
       <div class="section-heading">
         <span id="regionIcon" class="region-icon"></span>
         <div>
-          <span class="eyebrow">CONDENSÉ</span>
+          <span id="sectionEyebrow" class="eyebrow">CONDENSÉ</span>
           <h2 id="regionTitle">International</h2>
         </div>
       </div>
@@ -55,10 +77,11 @@
   </main>
 
   <footer>
-    <span class="footer-note">Mise à jour quotidienne • 06h30</span>
+    <span class="footer-note">Mise à jour toutes les heures</span>
     <strong>By W</strong>
   </footer>
 
+  <script src="countries.js" defer></script>
   <script src="app.js" defer></script>
 </body>
 </html>
