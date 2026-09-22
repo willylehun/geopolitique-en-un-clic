@@ -1,4 +1,4 @@
-const CACHE = 'geo-clic-v9';
+const CACHE = 'geo-clic-v10';
 const ASSETS = [
   './',
   './index.html',
