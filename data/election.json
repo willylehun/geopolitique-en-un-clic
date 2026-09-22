@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T20:13:00+02:00",
+  "generated_at": "2026-09-22T21:10:00+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -671,6 +671,30 @@
         "Le Monde — 21 juin 2026"
       ],
       "last_checked_at": "2026-09-22T13:50:00+02:00"
+    },
+    {
+      "id": "nicolas-dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "party": "Debout la France",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Économie": "Propose un protectionnisme destiné à relocaliser la production et les emplois, avec un objectif annoncé de deux millions d’emplois relocalisés, une baisse du prix de l’énergie, des impôts de production et des normes, ainsi qu’un fonds d’aide à la relocalisation.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Propose la défiscalisation des heures supplémentaires et le maintien de l’indexation des retraites sur l’inflation.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Place la sortie de l’Union européenne au cœur de son projet 2027. Il défend aussi le retrait du commandement intégré de l’OTAN et la recherche d’un plan de paix négocié en Ukraine.",
+        "Institutions & démocratie": "Propose une démocratie directe inspirée du modèle suisse, avec référendum d’initiative citoyenne à partir d’un million de signatures, RIC constituant et reconnaissance du vote blanc."
+      },
+      "sources": [
+        "Site officiel Dupont-Aignan 2027 — discours de rentrée du 19 septembre 2026",
+        "Le Monde — 19 septembre 2026"
+      ],
+      "last_checked_at": "2026-09-22T21:10:00+02:00"
     }
   ],
   "news": [
@@ -749,6 +773,19 @@
         "Le Monde"
       ],
       "url": "https://www.lemonde.fr/election-presidentielle-2027/2"
+    },
+    {
+      "id": "2026-09-19-dupont-aignan-candidature",
+      "date": "2026-09-19",
+      "candidate_ids": [
+        "nicolas-dupont-aignan"
+      ],
+      "summary": "Nicolas Dupont-Aignan a officialisé à Yerres sa candidature à l’élection présidentielle de 2027. Il place notamment la sortie de l’Union européenne, le protectionnisme économique et la démocratie directe parmi les axes de son projet.",
+      "sources": [
+        "Site officiel Dupont-Aignan 2027",
+        "Le Monde"
+      ],
+      "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
     }
   ],
   "withdrawal_retention_days": 7,
