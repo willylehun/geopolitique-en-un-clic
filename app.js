@@ -108,23 +108,13 @@ function renderRegionGrid() {
     </button>
   `;
 
-  const electionCard = `
-    <button class="region-card election-entry-card" id="electionEntry">
-      <span class="region-card-icon">🗳️</span>
-      <span class="region-card-copy">
-        <strong>Élection française</strong>
-        <small>Présidentielle 2027 : candidats, actualités et programmes</small>
-      </span>
-      <span class="region-arrow">›</span>
-    </button>
-  `;
-
-  grid.innerHTML = regionCards + countryCard + electionCard;
+  grid.innerHTML = regionCards + countryCard;
   grid.querySelectorAll('[data-region]').forEach(btn => {
     btn.onclick = () => openRegion(btn.dataset.region);
   });
   $('#countryEntry').onclick = openCountryPicker;
-  $('#electionEntry').onclick = openElectionPicker;
+  const electionEntry = $('#electionEntry');
+  if (electionEntry) electionEntry.onclick = openElectionPicker;
 }
 
 function openRegion(region) {
