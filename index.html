@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-title" content="GéoClic" />
   <title>Géopolitique en un Clic</title>
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="stylesheet" href="styles.css?v=11" />
+  <link rel="stylesheet" href="styles.css?v=12" />
 </head>
 <body>
   <header id="brandHome" class="brand-hero home-mode" title="Retour au menu">
@@ -145,7 +145,7 @@
           <div id="partyDropdown" class="country-dropdown" hidden><div class="country-search-wrap"><span>⌕</span><input id="partySearch" type="search" placeholder="Rechercher un parti…" autocomplete="off" /></div><div id="partyList" class="country-list"></div></div>
         </section>
         <section id="partyContent" hidden>
-          <div class="candidate-profile"><div><span class="candidate-status">PARTI POLITIQUE</span><h2 id="partyName"></h2></div></div>
+          <div class="candidate-profile"><div><span class="candidate-status">PARTI POLITIQUE</span><h2 id="partyName"></h2></div></div><section class="party-candidates-section"><div class="program-heading"><span class="eyebrow">CANDIDATS RELIÉS</span><h3>Personnalités suivies pour 2027</h3></div><div id="partyCandidates" class="country-list party-candidates-list"></div></section>
           <div class="period-tabs party-detail-tabs"><button data-party-tab="news" class="party-detail-tab active">Actualités</button><button data-party-tab="controversies" class="party-detail-tab">Controverses</button><button data-party-tab="program" class="party-detail-tab">Programme</button></div>
           <section id="partyNewsPanel"><section class="period-panel"><div class="period-tabs"><button data-election-period="day" class="election-period-tab active">Jour</button><button data-election-period="week" class="election-period-tab">Semaine</button><button data-election-period="month" class="election-period-tab">Mois</button></div><select id="electionHistorySelectParty" aria-label="Période parti"></select></section><section id="partyNewsList" class="news-list"></section></section>
           <section id="partyControversyPanel" class="program-section" hidden><div id="partyControversies" class="program-grid"></div></section>
@@ -184,6 +184,6 @@
   </footer>
 
   <script src="countries.js?v=11" defer></script>
-  <script src="app.js?v=11" defer></script>
+  <script src="app.js?v=12" defer></script>
 </body>
 </html>
