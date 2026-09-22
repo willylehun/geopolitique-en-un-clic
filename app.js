@@ -592,7 +592,7 @@ function renderElectionPeriods() {
 }
 
 function renderElectionHistory() {
-  const select = $('#electionHistorySelect');
+  const select = state.electionView === 'parties' ? $('#electionHistorySelectParty') : $('#electionHistorySelect');
   const buckets = electionBuckets();
   if (!state.electionBucket || !buckets.includes(state.electionBucket)) {
     state.electionBucket = buckets[0] || null;
