@@ -1,1 +1,260 @@
-{"generated_at":"2026-09-22T13:30:00+02:00","buckets":{"day":["22 septembre 2026"],"week":["21–27 septembre 2026"],"month":["Septembre 2026"]},"coverage":{"day:22 septembre 2026":"Journée civile : 22 septembre 2026 • 00h00 → 23h59","week:21–27 septembre 2026":"Condensé recalculé à partir des journées civiles","month:Septembre 2026":"Condensé recalculé à partir des journées civiles"},"items":[{"regions":["Amérique du Sud"],"countries":["Brésil"],"period":"day","bucket":"22 septembre 2026","score":7,"category":"Brésil / Élections et crime organisé","summary":"À l’approche des élections d’octobre, la justice électorale brésilienne écarte des candidats soupçonnés de liens avec le crime organisé, une stratégie inédite dans la région qui suscite aussi un débat sur les garanties judiciaires.","sources":["Reuters"],"url":"https://www.reuters.com/world/americas/gangs-gain-influence-brazil-seeks-shield-election-candidates-with-criminal-ties-2026-09-22/","published_at":"2026-09-22T12:05:01+02:00"},{"regions":["Afrique"],"countries":["Nigeria"],"period":"day","bucket":"22 septembre 2026","score":8,"category":"Nigeria / Droits humains et sécurité","summary":"Au moins 37 détenus, dont de jeunes mineurs artisanaux, sont morts dans un centre de détention de Minna après une opération contre l’orpaillage illégal ; le gouvernement a ordonné une enquête et suspendu plusieurs responsables de la sécurité civile.","sources":["Reuters"],"url":"https://www.reuters.com/world/africa/one-after-another-they-started-dying-survivors-recount-deaths-detention-nigeria-2026-09-22/","published_at":"2026-09-22T12:15:00+02:00"},{"regions":["Europe"],"countries":["Suisse"],"period":"day","bucket":"22 septembre 2026","score":6,"category":"Suisse / Régulation bancaire","summary":"UBS conteste le projet suisse imposant de couvrir à 90 % en fonds propres CET1 ses filiales étrangères, à la veille d’un vote parlementaire sur le durcissement prudentiel conçu après l’effondrement de Credit Suisse.","sources":["Reuters"],"url":"https://www.reuters.com/business/finance/ubs-ceo-ermotti-says-90-cet1-capital-proposal-is-no-real-compromise-2026-09-22/","published_at":"2026-09-22T09:35:40+02:00"},{"regions":["Amérique du Sud"],"countries":["Brésil"],"period":"week","bucket":"21–27 septembre 2026","score":7,"category":"Brésil / Élections et crime organisé","summary":"Le Brésil durcit le filtrage électoral de candidats soupçonnés de liens avec le crime organisé avant les élections d’octobre.","sources":["Reuters"],"url":"https://www.reuters.com/world/americas/gangs-gain-influence-brazil-seeks-shield-election-candidates-with-criminal-ties-2026-09-22/"},{"regions":["Afrique"],"countries":["Nigeria"],"period":"week","bucket":"21–27 septembre 2026","score":8,"category":"Nigeria / Droits humains et sécurité","summary":"La mort d’au moins 37 détenus à Minna déclenche une enquête gouvernementale et de nouvelles interrogations sur les pratiques des forces de sécurité nigérianes.","sources":["Reuters"],"url":"https://www.reuters.com/world/africa/one-after-another-they-started-dying-survivors-recount-deaths-detention-nigeria-2026-09-22/"},{"regions":["Europe"],"countries":["Suisse"],"period":"week","bucket":"21–27 septembre 2026","score":6,"category":"Suisse / Régulation bancaire","summary":"Le débat suisse sur le renforcement des exigences de fonds propres d’UBS entre dans une phase parlementaire décisive.","sources":["Reuters"],"url":"https://www.reuters.com/business/finance/ubs-ceo-ermotti-says-90-cet1-capital-proposal-is-no-real-compromise-2026-09-22/"},{"regions":["Amérique du Sud"],"countries":["Brésil"],"period":"month","bucket":"Septembre 2026","score":7,"category":"Brésil / Élections et crime organisé","summary":"La lutte contre l’influence du crime organisé devient un enjeu institutionnel majeur de la campagne électorale brésilienne.","sources":["Reuters"],"url":"https://www.reuters.com/world/americas/gangs-gain-influence-brazil-seeks-shield-election-candidates-with-criminal-ties-2026-09-22/"},{"regions":["Afrique"],"countries":["Nigeria"],"period":"month","bucket":"Septembre 2026","score":8,"category":"Nigeria / Droits humains et sécurité","summary":"La mort d’au moins 37 détenus après une opération contre l’orpaillage illégal accentue les préoccupations sur les droits humains et la sécurité au Nigeria.","sources":["Reuters"],"url":"https://www.reuters.com/world/africa/one-after-another-they-started-dying-survivors-recount-deaths-detention-nigeria-2026-09-22/"},{"regions":["Europe"],"countries":["Suisse"],"period":"month","bucket":"Septembre 2026","score":6,"category":"Suisse / Régulation bancaire","summary":"La Suisse poursuit le durcissement de son cadre prudentiel pour UBS après la crise de Credit Suisse, malgré l’opposition de la banque.","sources":["Reuters"],"url":"https://www.reuters.com/business/finance/ubs-ceo-ermotti-says-90-cet1-capital-proposal-is-no-real-compromise-2026-09-22/"}]}
+{
+  "generated_at": "2026-09-22T13:30:00+02:00",
+  "buckets": {
+    "day": [
+      "22 septembre 2026"
+    ],
+    "week": [
+      "21–27 septembre 2026"
+    ],
+    "month": [
+      "Septembre 2026"
+    ]
+  },
+  "coverage": {
+    "day:22 septembre 2026": "Journée civile : 22 septembre 2026 • 00h00 → 23h59",
+    "week:21–27 septembre 2026": "Condensé recalculé à partir des journées civiles",
+    "month:Septembre 2026": "Condensé recalculé à partir des journées civiles"
+  },
+  "items": [
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "day",
+      "bucket": "22 septembre 2026",
+      "score": 7,
+      "category": "Brésil / Élections et crime organisé",
+      "summary": "À l’approche des élections d’octobre, la justice électorale brésilienne écarte des candidats soupçonnés de liens avec le crime organisé, une stratégie inédite dans la région qui suscite aussi un débat sur les garanties judiciaires.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/world/americas/gangs-gain-influence-brazil-seeks-shield-election-candidates-with-criminal-ties-2026-09-22/",
+      "published_at": "2026-09-22T12:05:01+02:00"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "22 septembre 2026",
+      "score": 8,
+      "category": "Nigeria / Droits humains et sécurité",
+      "summary": "Au moins 37 détenus, dont de jeunes mineurs artisanaux, sont morts dans un centre de détention de Minna après une opération contre l’orpaillage illégal ; le gouvernement a ordonné une enquête et suspendu plusieurs responsables de la sécurité civile.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/world/africa/one-after-another-they-started-dying-survivors-recount-deaths-detention-nigeria-2026-09-22/",
+      "published_at": "2026-09-22T12:15:00+02:00"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "22 septembre 2026",
+      "score": 6,
+      "category": "Suisse / Régulation bancaire",
+      "summary": "UBS conteste le projet suisse imposant de couvrir à 90 % en fonds propres CET1 ses filiales étrangères, à la veille d’un vote parlementaire sur le durcissement prudentiel conçu après l’effondrement de Credit Suisse.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/business/finance/ubs-ceo-ermotti-says-90-cet1-capital-proposal-is-no-real-compromise-2026-09-22/",
+      "published_at": "2026-09-22T09:35:40+02:00"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "week",
+      "bucket": "21–27 septembre 2026",
+      "score": 7,
+      "category": "Brésil / Élections et crime organisé",
+      "summary": "Le Brésil durcit le filtrage électoral de candidats soupçonnés de liens avec le crime organisé avant les élections d’octobre.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/world/americas/gangs-gain-influence-brazil-seeks-shield-election-candidates-with-criminal-ties-2026-09-22/"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "week",
+      "bucket": "21–27 septembre 2026",
+      "score": 8,
+      "category": "Nigeria / Droits humains et sécurité",
+      "summary": "La mort d’au moins 37 détenus à Minna déclenche une enquête gouvernementale et de nouvelles interrogations sur les pratiques des forces de sécurité nigérianes.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/world/africa/one-after-another-they-started-dying-survivors-recount-deaths-detention-nigeria-2026-09-22/"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "week",
+      "bucket": "21–27 septembre 2026",
+      "score": 6,
+      "category": "Suisse / Régulation bancaire",
+      "summary": "Le débat suisse sur le renforcement des exigences de fonds propres d’UBS entre dans une phase parlementaire décisive.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/business/finance/ubs-ceo-ermotti-says-90-cet1-capital-proposal-is-no-real-compromise-2026-09-22/"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Brésil / Élections et crime organisé",
+      "summary": "La lutte contre l’influence du crime organisé devient un enjeu institutionnel majeur de la campagne électorale brésilienne.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/world/americas/gangs-gain-influence-brazil-seeks-shield-election-candidates-with-criminal-ties-2026-09-22/"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Nigeria / Droits humains et sécurité",
+      "summary": "La mort d’au moins 37 détenus après une opération contre l’orpaillage illégal accentue les préoccupations sur les droits humains et la sécurité au Nigeria.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/world/africa/one-after-another-they-started-dying-survivors-recount-deaths-detention-nigeria-2026-09-22/"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 6,
+      "category": "Suisse / Régulation bancaire",
+      "summary": "La Suisse poursuit le durcissement de son cadre prudentiel pour UBS après la crise de Credit Suisse, malgré l’opposition de la banque.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/business/finance/ubs-ceo-ermotti-says-90-cet1-capital-proposal-is-no-real-compromise-2026-09-22/"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "period": "day",
+      "bucket": "22 septembre 2026",
+      "score": 7,
+      "category": "Climat",
+      "summary": "Le typhon Dujuan provoque des pluies torrentielles dans l’est du Japon : au moins quatre morts, six disparus, des glissements de terrain et des dizaines de milliers de foyers privés d’électricité.",
+      "sources": [
+        "Reuters",
+        "NHK"
+      ],
+      "url": "https://www.reuters.com/business/environment/torrential-rains-brought-by-japan-typhoon-kill-two-nhk-says-2026-09-22/",
+      "published_at": "2026-09-22T10:30:00+02:00",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "period": "day",
+      "bucket": "22 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Le yen poursuit sa baisse face au dollar malgré la récente hausse des taux de la Banque du Japon, les marchés doutant du rythme des prochains relèvements.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/world/asia-pacific/yen-squeezed-hawkish-turn-grips-central-banks-2026-09-22/",
+      "published_at": "2026-09-22T09:45:00+02:00",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Japon",
+        "Corée du Sud",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "22 septembre 2026",
+      "score": 7,
+      "category": "Diplomatie",
+      "summary": "Le Japon, la Corée du Sud et les États-Unis réaffirment leur soutien à Taïwan lors d’une réunion trilatérale, à quelques jours du sommet entre Washington et Pékin.",
+      "sources": [
+        "The Japan Times"
+      ],
+      "url": "https://www.japantimes.co.jp/latest-news/",
+      "published_at": "2026-09-22T11:00:00+02:00",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Japon",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "22 septembre 2026",
+      "score": 6,
+      "category": "Diplomatie",
+      "summary": "La Première ministre japonaise Sanae Takaichi est à New York pour l’Assemblée générale de l’ONU et doit rencontrer Donald Trump, notamment sur la Chine et la sécurité énergétique.",
+      "sources": [
+        "The Japan Times",
+        "Jiji"
+      ],
+      "url": "https://www.japantimes.co.jp/news/2026/09/22/japan/japan-takaichi-new-york-un/",
+      "published_at": "2026-09-22T08:30:00+02:00",
+      "language": "fr"
+    }
+  ]
+}
