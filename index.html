@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-title" content="GéoClic" />
   <title>Géopolitique en un Clic</title>
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=8" />
 </head>
 <body>
   <header id="brandHome" class="brand-hero" title="Retour au menu">
@@ -28,6 +28,16 @@
         <p>International, continent ou pays : consultez ensuite la veille par jour, semaine ou mois.</p>
       </div>
       <div id="regionGrid" class="region-grid"></div>
+      <div class="static-menu-wrap">
+        <button class="region-card election-entry-card election-static-card" id="electionEntry" type="button">
+          <span class="region-card-icon">🗳️</span>
+          <span class="region-card-copy">
+            <strong>Élection française</strong>
+            <small>Présidentielle 2027 : candidats, actualités et programmes</small>
+          </span>
+          <span class="region-arrow">›</span>
+        </button>
+      </div>
     </section>
 
     <section id="countryPage" class="page" hidden>
@@ -135,7 +145,7 @@
     <strong>By W</strong>
   </footer>
 
-  <script src="countries.js" defer></script>
-  <script src="app.js" defer></script>
+  <script src="countries.js?v=8" defer></script>
+  <script src="app.js?v=8" defer></script>
 </body>
 </html>
