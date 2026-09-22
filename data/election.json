@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:55:00+02:00",
+  "generated_at": "2026-09-22T13:50:00+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -401,114 +401,6 @@
       "sources": [
         "Le Monde — 21 juin 2026"
       ]
-    },
-    {
-      "id": "philippe-brun",
-      "name": "Philippe Brun",
-      "party": "Parti socialiste",
-      "status": "withdrawn",
-      "status_label": "Retiré",
-      "withdrawn_at": "2026-09-15",
-      "program": {},
-      "sources": [
-        "Le Monde — retrait le 15 septembre 2026"
-      ]
-    },
-    {
-      "id": "fabien-verdier",
-      "name": "Fabien Verdier",
-      "party": "Sans étiquette",
-      "status": "withdrawn",
-      "status_label": "Retiré",
-      "withdrawn_at": "2026-09-15",
-      "program": {},
-      "sources": [
-        "Le Monde — retrait le 15 septembre 2026"
-      ]
-    },
-    {
-      "id": "benjamin-lucas",
-      "name": "Benjamin Lucas",
-      "party": "Génération.s",
-      "status": "withdrawn",
-      "status_label": "Retiré",
-      "withdrawn_at": "2026-07-08",
-      "program": {},
-      "sources": [
-        "Le Monde — retrait le 8 juillet 2026"
-      ]
-    },
-    {
-      "id": "clementine-autain",
-      "name": "Clémentine Autain",
-      "party": "L’Après",
-      "status": "withdrawn",
-      "status_label": "Retirée",
-      "withdrawn_at": "2026-07-14",
-      "program": {},
-      "sources": [
-        "Le Monde — retrait le 14 juillet 2026"
-      ]
-    },
-    {
-      "id": "sarah-knafo",
-      "name": "Sarah Knafo",
-      "party": "Reconquête !",
-      "status": "withdrawn",
-      "status_label": "Ne se présente plus",
-      "withdrawn_at": "2026-05-21",
-      "program": {},
-      "sources": [
-        "Le Monde — retrait le 21 mai 2026"
-      ]
-    },
-    {
-      "id": "laurent-wauquiez",
-      "name": "Laurent Wauquiez",
-      "party": "Les Républicains",
-      "status": "withdrawn",
-      "status_label": "Ne se présente plus",
-      "withdrawn_at": "2026-05-21",
-      "program": {},
-      "sources": [
-        "Le Monde — retrait le 21 mai 2026"
-      ]
-    },
-    {
-      "id": "gerald-darmanin",
-      "name": "Gérald Darmanin",
-      "party": "Renaissance",
-      "status": "withdrawn",
-      "status_label": "Candidature potentielle retirée",
-      "withdrawn_at": "2026-08-18",
-      "program": {},
-      "sources": [
-        "Le Monde — retrait le 18 août 2026"
-      ]
-    },
-    {
-      "id": "boris-vallaud",
-      "name": "Boris Vallaud",
-      "party": "Parti socialiste",
-      "status": "withdrawn",
-      "status_label": "Candidature potentielle retirée",
-      "withdrawn_at": "2026-08-28",
-      "program": {},
-      "sources": [
-        "Le Monde — retrait le 28 août 2026"
-      ]
-    },
-    {
-      "id": "matthieu-pigasse",
-      "name": "Matthieu Pigasse",
-      "party": "Sans étiquette",
-      "status": "withdrawn",
-      "status_label": "Retiré de la primaire social-démocrate",
-      "withdrawn_at": "2026-09-15",
-      "program": {},
-      "sources": [
-        "Le Monde — 15 septembre 2026"
-      ]
     }
   ],
   "news": [
@@ -546,18 +438,6 @@
       "url": "https://www.lemonde.fr/politique/article/2026/09/16/presidentielle-2027-six-candidats-sur-la-ligne-de-depart-de-la-primaire-a-gauche_6774514_823448.html"
     },
     {
-      "id": "2026-09-16-brun-withdrawal",
-      "date": "2026-09-16",
-      "candidate_ids": [
-        "philippe-brun"
-      ],
-      "summary": "Philippe Brun ne participera pas à la primaire social-démocrate après sa suspension conservatoire du Parti socialiste.",
-      "sources": [
-        "Le Monde"
-      ],
-      "url": "https://www.lemonde.fr/politique/article/2026/09/16/presidentielle-2027-philippe-brun-suspendu-a-titre-conservatoire-du-ps-ne-participera-pas-a-la-primaire-a-gauche_6775146_823448.html"
-    },
-    {
       "id": "2026-09-15-centre-right",
       "date": "2026-09-15",
       "candidate_ids": [
@@ -570,18 +450,6 @@
         "Le Monde"
       ],
       "url": "https://www.lemonde.fr/politique/article/2026/09/15/presidentielle-2027-face-a-marine-le-pen-et-jean-luc-melenchon-les-candidats-de-la-droite-et-du-centre-persistent-dans-la-fragmentation_6774332_823448.html"
-    },
-    {
-      "id": "2026-09-15-pigasse",
-      "date": "2026-09-15",
-      "candidate_ids": [
-        "matthieu-pigasse"
-      ],
-      "summary": "Matthieu Pigasse renonce à participer à la primaire social-démocrate après l’échec de sa tentative d’intégrer le processus.",
-      "sources": [
-        "Le Monde"
-      ],
-      "url": "https://www.lemonde.fr/politique/article/2026/09/15/matthieu-pigasse-candidature-primaire-socialiste-presidentielle-2027_6774378_823448.html"
     },
     {
       "id": "2026-09-12-humanite",
@@ -612,5 +480,7 @@
       ],
       "url": "https://www.lemonde.fr/election-presidentielle-2027/2"
     }
-  ]
+  ],
+  "withdrawal_retention_days": 7,
+  "withdrawal_rule": "À partir du 22 septembre 2026, un candidat qui se retire reste barré et consultable pendant 7 jours, puis son profil est supprimé de la liste. Les actualités partagées avec d’autres candidats restent conservées."
 }
