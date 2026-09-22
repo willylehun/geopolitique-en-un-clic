@@ -450,20 +450,18 @@ function renderNewsPage() {
 async function loadData() {
   try {
     const stamp = Date.now();
+    const hourlyFiles = Array.from({ length: 24 }, (_, hour) =>
+      'data/hourly-' + String(hour).padStart(2, '0') + '.json'
+    );
+    const legacyHourlyFiles = Array.from({ length: 24 }, (_, hour) =>
+      'data/hourly-' + hour + '.json'
+    );
     const urls = [
       'data/news.json',
       'data/hourly.json',
       'data/hourly-archive-2026-09-21.json',
-      'data/hourly-10.json',
-      'data/hourly-11.json',
-      'data/hourly-12.json',
-      'data/hourly-13.json',
-      'data/hourly-14.json',
-      'data/hourly-15.json',
-      'data/hourly-16.json',
-      'data/hourly-17.json',
-      'data/hourly-18.json',
-      'data/hourly-19.json',
+      ...hourlyFiles,
+      ...legacyHourlyFiles,
       'data/hourly-latest.json'
     ];
 
