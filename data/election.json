@@ -1,0 +1,616 @@
+{
+  "generated_at": "2026-09-22T13:55:00+02:00",
+  "timezone": "Europe/Paris",
+  "election": "Présidentielle française 2027",
+  "official_list": false,
+  "official_note": "La liste officielle des candidats n’est pas encore établie. Cette rubrique suit les candidatures déclarées, annoncées, les candidats de primaires et les retraits. La candidature définitive reste soumise notamment aux 500 parrainages.",
+  "first_round": "2027-04-18",
+  "second_round": "2027-05-02",
+  "sectors": [
+    "Économie",
+    "Santé",
+    "Éducation",
+    "Travail & retraites",
+    "Sécurité & justice",
+    "Immigration",
+    "Écologie & énergie",
+    "Agriculture",
+    "Europe & international",
+    "Institutions & démocratie"
+  ],
+  "program_fallback": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+  "candidates": [
+    {
+      "id": "marine-le-pen",
+      "name": "Marine Le Pen",
+      "party": "Rassemblement national",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Immigration": "Le RN défend la priorité nationale et Marine Le Pen rejette l’idée de recourir davantage à l’immigration pour répondre aux besoins de main-d’œuvre du grand âge.",
+        "Europe & international": "La campagne a récemment cherché à préciser sa position sur la Russie et l’Ukraine ; les propositions détaillées restent en cours d’actualisation."
+      },
+      "sources": [
+        "Le Monde — suivi Présidentielle 2027",
+        "Le Monde — 18 septembre 2026"
+      ]
+    },
+    {
+      "id": "eric-zemmour",
+      "name": "Éric Zemmour",
+      "party": "Reconquête !",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {},
+      "sources": [
+        "Le Monde — suivi Présidentielle 2027, mise à jour du 18 septembre 2026"
+      ]
+    },
+    {
+      "id": "bruno-retailleau",
+      "name": "Bruno Retailleau",
+      "party": "Les Républicains",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Économie": "Met l’accent sur le pouvoir d’achat, la progression des salaires et la baisse des prix de l’énergie et des carburants ; les mesures détaillées évoluent encore pendant la campagne."
+      },
+      "sources": [
+        "Le Monde — candidature officialisée le 20 avril 2026",
+        "Le Monde — Bruno Retailleau, pouvoir d’achat"
+      ]
+    },
+    {
+      "id": "gabriel-attal",
+      "name": "Gabriel Attal",
+      "party": "Renaissance",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Santé": "Sur le grand âge, il estime nécessaire de répondre aux pénuries de personnel, notamment par une immigration de travail encadrée.",
+        "Immigration": "Propose des quotas d’immigration de travail par secteur, origine géographique et nationalité.",
+        "Europe & international": "Défend un approfondissement de l’intégration européenne."
+      },
+      "sources": [
+        "Le Monde — candidature officialisée le 22 mai 2026",
+        "Le Monde — grand âge, 17 septembre 2026"
+      ]
+    },
+    {
+      "id": "edouard-philippe",
+      "name": "Édouard Philippe",
+      "party": "Horizons",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Écologie & énergie": "Défend une « politique de sécurité climatique » et une adaptation climatique s’appuyant sur l’économie de marché.",
+        "Institutions & démocratie": "S’est opposé à l’élargissement du champ du référendum de l’article 11 à des sujets comme l’immigration et insiste sur le respect des décisions du Conseil constitutionnel.",
+        "Europe & international": "Défend le maintien du soutien français à l’Ukraine."
+      },
+      "sources": [
+        "Le Monde — 8 et 16 septembre 2026"
+      ]
+    },
+    {
+      "id": "xavier-bertrand",
+      "name": "Xavier Bertrand",
+      "party": "Les Républicains",
+      "status": "announced",
+      "status_label": "Candidature annoncée, déclaration formelle à venir",
+      "program": {},
+      "sources": [
+        "Le Monde — 27 août 2026"
+      ]
+    },
+    {
+      "id": "david-lisnard",
+      "name": "David Lisnard",
+      "party": "Nouvelle Énergie",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Économie": "Porte une ligne libérale et pro-entreprise ; son programme détaillé est encore en cours de campagne."
+      },
+      "sources": [
+        "Le Monde — 25 et 30 août 2026"
+      ]
+    },
+    {
+      "id": "jean-luc-melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "party": "La France insoumise",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Économie": "Défend notamment l’indexation régulière des salaires sur l’inflation afin de protéger le pouvoir d’achat."
+      },
+      "sources": [
+        "Le Monde — campagne lancée le 4 mai 2026",
+        "Le Monde — Fête de l’Humanité, 12 septembre 2026"
+      ]
+    },
+    {
+      "id": "fabien-roussel",
+      "name": "Fabien Roussel",
+      "party": "Parti communiste français",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Économie": "Met en avant des nationalisations et une critique de la dette comme contrainte pesant sur les politiques publiques."
+      },
+      "sources": [
+        "Le Monde — 12 septembre 2026"
+      ]
+    },
+    {
+      "id": "marine-tondelier",
+      "name": "Marine Tondelier",
+      "party": "Les Écologistes",
+      "status": "declared",
+      "status_label": "Candidature autonome",
+      "program": {
+        "Écologie & énergie": "Place la transition écologique au cœur de sa candidature ; le programme sectoriel détaillé continue d’être élaboré.",
+        "Immigration": "Défend une régulation plus humaine et la régularisation de travailleurs déjà présents dans des secteurs en tension."
+      },
+      "sources": [
+        "Le Monde — juillet 2026",
+        "Le Monde — grand âge, 17 septembre 2026"
+      ]
+    },
+    {
+      "id": "francois-ruffin",
+      "name": "François Ruffin",
+      "party": "Debout !",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Santé": "Place le vieillissement et le grand âge parmi les défis majeurs du prochain quinquennat.",
+        "Économie": "Met en avant la relance de l’appareil productif comme priorité structurelle.",
+        "Écologie & énergie": "Présente le changement climatique comme l’un des grands défis de long terme."
+      },
+      "sources": [
+        "Le Monde — 17 septembre 2026"
+      ]
+    },
+    {
+      "id": "delphine-batho",
+      "name": "Delphine Batho",
+      "party": "Génération Écologie",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Écologie & énergie": "Veut replacer l’écologie dans un projet positif et populaire, autour d’une « politique de la beauté » ; le programme détaillé reste en construction."
+      },
+      "sources": [
+        "Le Monde — 17 juin 2026"
+      ]
+    },
+    {
+      "id": "karim-bouamrane",
+      "name": "Karim Bouamrane",
+      "party": "Parti socialiste",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Économie": "Met en avant le pouvoir d’achat, la lutte contre les inégalités sociales et la souveraineté économique.",
+        "Santé": "Affirme vouloir garantir à chacun la possibilité de se soigner.",
+        "Sécurité & justice": "Met l’accent sur la sécurité et la protection, notamment celle des enfants."
+      },
+      "sources": [
+        "Le Monde — 9 juin 2026"
+      ]
+    },
+    {
+      "id": "bernard-cazeneuve",
+      "name": "Bernard Cazeneuve",
+      "party": "La Convention",
+      "status": "announced",
+      "status_label": "Candidature annoncée",
+      "program": {
+        "Institutions & démocratie": "Se présente comme social-démocrate et républicain de gauche, en dehors des primaires partisanes ; le programme détaillé reste en cours de publication."
+      },
+      "sources": [
+        "Le Monde — 16 juillet 2026"
+      ]
+    },
+    {
+      "id": "olivier-faure",
+      "name": "Olivier Faure",
+      "party": "Parti socialiste",
+      "status": "primary",
+      "status_label": "Candidat à la primaire social-démocrate",
+      "program": {},
+      "sources": [
+        "Le Monde — 16 septembre 2026"
+      ]
+    },
+    {
+      "id": "jerome-guedj",
+      "name": "Jérôme Guedj",
+      "party": "Parti socialiste",
+      "status": "primary",
+      "status_label": "Candidat à la primaire social-démocrate",
+      "program": {
+        "Santé": "Propose une « sécurité sociale intégrale », qui supprimerait le rôle actuel des mutuelles dans la couverture complémentaire.",
+        "Institutions & démocratie": "Met aussi en avant les thèmes de la laïcité, de l’identité et de la souveraineté."
+      },
+      "sources": [
+        "Le Monde — 16 septembre 2026"
+      ]
+    },
+    {
+      "id": "segolene-royal",
+      "name": "Ségolène Royal",
+      "party": "Parti socialiste",
+      "status": "primary",
+      "status_label": "Candidate à la primaire social-démocrate",
+      "program": {
+        "Sécurité & justice": "Met en avant l’idée d’« ordre juste ».",
+        "Institutions & démocratie": "Promet une « France tranquille », mais n’a pas encore publié de programme 2027 complet."
+      },
+      "sources": [
+        "Le Monde — 16 septembre 2026"
+      ]
+    },
+    {
+      "id": "raphael-glucksmann",
+      "name": "Raphaël Glucksmann",
+      "party": "Place publique",
+      "status": "primary",
+      "status_label": "Candidat à la primaire social-démocrate",
+      "program": {
+        "Santé": "Propose une stratégie du grand âge inscrite sur au moins dix ans dès le début du quinquennat.",
+        "Immigration": "Assume des régularisations encadrées dans les secteurs de soin et d’aide à domicile en tension.",
+        "Écologie & énergie": "A demandé un plan des cent premiers jours d’une « révolution écologique » pour préciser son offre environnementale."
+      },
+      "sources": [
+        "Le Monde — 16 et 17 septembre 2026"
+      ]
+    },
+    {
+      "id": "emmanuel-maurel",
+      "name": "Emmanuel Maurel",
+      "party": "Gauche républicaine et socialiste",
+      "status": "primary",
+      "status_label": "Candidat à la primaire social-démocrate",
+      "program": {
+        "Économie": "Défend une rupture avec la mondialisation actuelle et une logique de « démarchandisation » de certains secteurs.",
+        "Institutions & démocratie": "Veut renforcer la participation directe des citoyens et le pouvoir des salariés."
+      },
+      "sources": [
+        "Le Monde — 16 septembre 2026"
+      ]
+    },
+    {
+      "id": "anasse-kazib",
+      "name": "Anasse Kazib",
+      "party": "Révolution permanente",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Économie": "Défend l’augmentation des salaires, l’indexation sur l’inflation et l’expropriation de grands groupes dans des secteurs stratégiques.",
+        "Travail & retraites": "Défend la retraite à 60 ans, ou 55 ans pour les métiers pénibles.",
+        "Santé": "Défend des services publics de santé renforcés et gratuits.",
+        "Immigration": "Défend la régularisation des travailleurs sans papiers.",
+        "Europe & international": "Porte une ligne anti-impérialiste, avec fermeture des bases militaires françaises à l’étranger et démantèlement/reconversion de l’industrie d’armement."
+      },
+      "sources": [
+        "Site de campagne Anasse Kazib 2027",
+        "Le Monde — 21 juin 2026"
+      ]
+    },
+    {
+      "id": "selma-labib",
+      "name": "Selma Labib",
+      "party": "NPA-Révolutionnaires",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Économie": "Met en avant des revendications d’urgence sur les salaires.",
+        "Travail & retraites": "Défend des mesures sur les retraites et les conditions de travail.",
+        "Santé": "Défend le renforcement des services publics ; aucun programme gouvernemental complet n’est encore publié."
+      },
+      "sources": [
+        "NPA-Révolutionnaires — candidature 2026"
+      ]
+    },
+    {
+      "id": "florian-philippot",
+      "name": "Florian Philippot",
+      "party": "Les Patriotes",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {},
+      "sources": [
+        "Le Monde — suivi Présidentielle 2027"
+      ]
+    },
+    {
+      "id": "jean-lassalle",
+      "name": "Jean Lassalle",
+      "party": "Résistons !",
+      "status": "preparing",
+      "status_label": "Candidature en préparation",
+      "program": {},
+      "sources": [
+        "Le Monde — suivi Présidentielle 2027"
+      ]
+    },
+    {
+      "id": "benoit-mathieu",
+      "name": "Benoît Mathieu",
+      "party": "Sans étiquette",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Institutions & démocratie": "Propose un référendum d’initiative citoyenne, des conventions citoyennes tirées au sort et une assemblée chargée de réécrire la Constitution."
+      },
+      "sources": [
+        "Le Monde — 14 juin 2026",
+        "France 3 — campagne 2026"
+      ]
+    },
+    {
+      "id": "juan-branco",
+      "name": "Juan Branco",
+      "party": "Les Ruches",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {},
+      "sources": [
+        "Le Monde — suivi Présidentielle 2027, mise à jour du 14 septembre 2026"
+      ]
+    },
+    {
+      "id": "francis-lalanne",
+      "name": "Francis Lalanne",
+      "party": "France Libre",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Économie": "Défend le retour à une monnaie nationale et un rôle central de la Banque de France.",
+        "Agriculture": "Met en avant la souveraineté alimentaire et un soutien prioritaire aux petits exploitants.",
+        "Europe & international": "Défend une sortie de l’Union européenne et de l’OTAN.",
+        "Institutions & démocratie": "Défend le référendum d’initiative citoyenne et une assemblée constituante."
+      },
+      "sources": [
+        "Site officiel Lalanne 2027",
+        "Programme publié en septembre 2026"
+      ]
+    },
+    {
+      "id": "lydie-massard",
+      "name": "Lydie Massard",
+      "party": "Union démocratique bretonne",
+      "status": "announced",
+      "status_label": "Candidature issue d’un processus unitaire désormais interrompu",
+      "program": {
+        "Institutions & démocratie": "Porte principalement une transformation fédérale de la République et une décentralisation accrue."
+      },
+      "sources": [
+        "Suivi Présidentielle 2027 — candidature déclarée en avril 2026"
+      ]
+    },
+    {
+      "id": "nathalie-arthaud",
+      "name": "Nathalie Arthaud",
+      "party": "Lutte ouvrière",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {},
+      "sources": [
+        "Le Monde — 21 juin 2026"
+      ]
+    },
+    {
+      "id": "philippe-brun",
+      "name": "Philippe Brun",
+      "party": "Parti socialiste",
+      "status": "withdrawn",
+      "status_label": "Retiré",
+      "withdrawn_at": "2026-09-15",
+      "program": {},
+      "sources": [
+        "Le Monde — retrait le 15 septembre 2026"
+      ]
+    },
+    {
+      "id": "fabien-verdier",
+      "name": "Fabien Verdier",
+      "party": "Sans étiquette",
+      "status": "withdrawn",
+      "status_label": "Retiré",
+      "withdrawn_at": "2026-09-15",
+      "program": {},
+      "sources": [
+        "Le Monde — retrait le 15 septembre 2026"
+      ]
+    },
+    {
+      "id": "benjamin-lucas",
+      "name": "Benjamin Lucas",
+      "party": "Génération.s",
+      "status": "withdrawn",
+      "status_label": "Retiré",
+      "withdrawn_at": "2026-07-08",
+      "program": {},
+      "sources": [
+        "Le Monde — retrait le 8 juillet 2026"
+      ]
+    },
+    {
+      "id": "clementine-autain",
+      "name": "Clémentine Autain",
+      "party": "L’Après",
+      "status": "withdrawn",
+      "status_label": "Retirée",
+      "withdrawn_at": "2026-07-14",
+      "program": {},
+      "sources": [
+        "Le Monde — retrait le 14 juillet 2026"
+      ]
+    },
+    {
+      "id": "sarah-knafo",
+      "name": "Sarah Knafo",
+      "party": "Reconquête !",
+      "status": "withdrawn",
+      "status_label": "Ne se présente plus",
+      "withdrawn_at": "2026-05-21",
+      "program": {},
+      "sources": [
+        "Le Monde — retrait le 21 mai 2026"
+      ]
+    },
+    {
+      "id": "laurent-wauquiez",
+      "name": "Laurent Wauquiez",
+      "party": "Les Républicains",
+      "status": "withdrawn",
+      "status_label": "Ne se présente plus",
+      "withdrawn_at": "2026-05-21",
+      "program": {},
+      "sources": [
+        "Le Monde — retrait le 21 mai 2026"
+      ]
+    },
+    {
+      "id": "gerald-darmanin",
+      "name": "Gérald Darmanin",
+      "party": "Renaissance",
+      "status": "withdrawn",
+      "status_label": "Candidature potentielle retirée",
+      "withdrawn_at": "2026-08-18",
+      "program": {},
+      "sources": [
+        "Le Monde — retrait le 18 août 2026"
+      ]
+    },
+    {
+      "id": "boris-vallaud",
+      "name": "Boris Vallaud",
+      "party": "Parti socialiste",
+      "status": "withdrawn",
+      "status_label": "Candidature potentielle retirée",
+      "withdrawn_at": "2026-08-28",
+      "program": {},
+      "sources": [
+        "Le Monde — retrait le 28 août 2026"
+      ]
+    },
+    {
+      "id": "matthieu-pigasse",
+      "name": "Matthieu Pigasse",
+      "party": "Sans étiquette",
+      "status": "withdrawn",
+      "status_label": "Retiré de la primaire social-démocrate",
+      "withdrawn_at": "2026-09-15",
+      "program": {},
+      "sources": [
+        "Le Monde — 15 septembre 2026"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": "2026-09-18-foreign-policy",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "marine-le-pen",
+        "gabriel-attal",
+        "edouard-philippe",
+        "bruno-retailleau",
+        "raphael-glucksmann",
+        "jean-luc-melenchon"
+      ],
+      "summary": "La politique étrangère et la place de la France en Europe deviennent un axe de confrontation de la campagne, plusieurs adversaires de Marine Le Pen concentrant leurs critiques sur ses positions internationales.",
+      "sources": [
+        "Le Monde"
+      ],
+      "url": "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-la-politique-etrangere-angle-d-attaque-des-opposants-a-marine-le-pen_6777192_823448.html"
+    },
+    {
+      "id": "2026-09-16-primary-five",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "olivier-faure",
+        "jerome-guedj",
+        "segolene-royal",
+        "raphael-glucksmann",
+        "emmanuel-maurel"
+      ],
+      "summary": "Cinq candidats sont retenus pour la primaire social-démocrate d’octobre : Olivier Faure, Jérôme Guedj, Ségolène Royal, Raphaël Glucksmann et Emmanuel Maurel.",
+      "sources": [
+        "Le Monde"
+      ],
+      "url": "https://www.lemonde.fr/politique/article/2026/09/16/presidentielle-2027-six-candidats-sur-la-ligne-de-depart-de-la-primaire-a-gauche_6774514_823448.html"
+    },
+    {
+      "id": "2026-09-16-brun-withdrawal",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "philippe-brun"
+      ],
+      "summary": "Philippe Brun ne participera pas à la primaire social-démocrate après sa suspension conservatoire du Parti socialiste.",
+      "sources": [
+        "Le Monde"
+      ],
+      "url": "https://www.lemonde.fr/politique/article/2026/09/16/presidentielle-2027-philippe-brun-suspendu-a-titre-conservatoire-du-ps-ne-participera-pas-a-la-primaire-a-gauche_6775146_823448.html"
+    },
+    {
+      "id": "2026-09-15-centre-right",
+      "date": "2026-09-15",
+      "candidate_ids": [
+        "edouard-philippe",
+        "gabriel-attal",
+        "bruno-retailleau"
+      ],
+      "summary": "Édouard Philippe, Gabriel Attal et Bruno Retailleau poursuivent chacun leur stratégie présidentielle, alors que la droite et le centre restent fragmentés.",
+      "sources": [
+        "Le Monde"
+      ],
+      "url": "https://www.lemonde.fr/politique/article/2026/09/15/presidentielle-2027-face-a-marine-le-pen-et-jean-luc-melenchon-les-candidats-de-la-droite-et-du-centre-persistent-dans-la-fragmentation_6774332_823448.html"
+    },
+    {
+      "id": "2026-09-15-pigasse",
+      "date": "2026-09-15",
+      "candidate_ids": [
+        "matthieu-pigasse"
+      ],
+      "summary": "Matthieu Pigasse renonce à participer à la primaire social-démocrate après l’échec de sa tentative d’intégrer le processus.",
+      "sources": [
+        "Le Monde"
+      ],
+      "url": "https://www.lemonde.fr/politique/article/2026/09/15/matthieu-pigasse-candidature-primaire-socialiste-presidentielle-2027_6774378_823448.html"
+    },
+    {
+      "id": "2026-09-12-humanite",
+      "date": "2026-09-12",
+      "candidate_ids": [
+        "fabien-roussel",
+        "jean-luc-melenchon",
+        "francois-ruffin",
+        "marine-tondelier"
+      ],
+      "summary": "À la Fête de l’Humanité, plusieurs candidats de gauche exposent leurs priorités : Fabien Roussel insiste sur les nationalisations, Jean-Luc Mélenchon sur l’indexation des salaires, François Ruffin sur le rassemblement et Marine Tondelier sur la stratégie d’union.",
+      "sources": [
+        "Le Monde"
+      ],
+      "url": "https://www.lemonde.fr/politique/live/2026/09/12/en-direct-presidentielle-2027-jean-luc-melenchon-plaide-pour-une-echelle-mobile-des-salaires-a-la-fete-de-l-huma-gabriel-attal-critique-edouard-philippe_6770586_823448.html"
+    },
+    {
+      "id": "2026-09-09-primary-left",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "francois-ruffin",
+        "marine-tondelier",
+        "raphael-glucksmann"
+      ],
+      "summary": "François Ruffin et Marine Tondelier contestent le périmètre restreint de la primaire social-démocrate, tandis que Raphaël Glucksmann refuse de modifier les règles du processus en cours.",
+      "sources": [
+        "Le Monde"
+      ],
+      "url": "https://www.lemonde.fr/election-presidentielle-2027/2"
+    }
+  ]
+}
