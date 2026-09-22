@@ -706,3 +706,103 @@ footer strong {
 
 
 
+
+
+/* Accueil immersif : le logo devient l'élément principal de la page de lancement */
+.brand-hero.home-mode {
+  position: relative;
+  width: min(100%, 980px);
+  padding: max(34px, env(safe-area-inset-top)) 18px 18px;
+  min-height: 330px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.brand-hero.home-mode::before {
+  content: "";
+  position: absolute;
+  width: min(78vw, 430px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, rgba(77,228,220,.13) 0%, rgba(87,185,255,.08) 38%, rgba(6,17,29,0) 72%);
+  filter: blur(8px);
+  pointer-events: none;
+}
+
+.brand-hero.home-mode .app-logo {
+  position: relative;
+  width: clamp(220px, 58vw, 330px);
+  height: clamp(220px, 58vw, 330px);
+  max-width: 82vw;
+  object-fit: contain;
+  filter:
+    drop-shadow(0 26px 42px rgba(0,0,0,.40))
+    drop-shadow(0 0 28px rgba(77,228,220,.10));
+  transform: translateZ(0);
+}
+
+.brand-hero.home-mode .brand-copy {
+  position: relative;
+  margin-top: -12px;
+  max-width: 720px;
+}
+
+.brand-hero.home-mode .brand-copy h1 {
+  font-size: clamp(2.05rem, 8vw, 3.35rem);
+  letter-spacing: -.055em;
+  text-wrap: balance;
+  text-shadow: 0 8px 24px rgba(0,0,0,.32);
+}
+
+.brand-hero.home-mode .brand-copy p {
+  max-width: 620px;
+  margin-top: 11px;
+  font-size: clamp(.9rem, 2.8vw, 1.02rem);
+  color: #a8bfd0;
+}
+
+/* Pages internes : en-tête volontairement compact */
+.brand-hero:not(.home-mode) {
+  padding-top: max(18px, env(safe-area-inset-top));
+  padding-bottom: 2px;
+}
+
+.brand-hero:not(.home-mode) .app-logo {
+  width: 82px;
+  height: 82px;
+}
+
+.brand-hero:not(.home-mode) .brand-copy h1 {
+  font-size: clamp(1.35rem, 5vw, 1.9rem);
+}
+
+.brand-hero:not(.home-mode) .brand-copy p {
+  display: none;
+}
+
+@media (max-width: 520px) {
+  .brand-hero.home-mode {
+    min-height: 315px;
+    padding-top: max(24px, env(safe-area-inset-top));
+    padding-bottom: 8px;
+  }
+
+  .brand-hero.home-mode .app-logo {
+    width: min(72vw, 285px);
+    height: min(72vw, 285px);
+  }
+
+  .brand-hero.home-mode .brand-copy {
+    margin-top: -10px;
+  }
+
+  .brand-hero.home-mode .brand-copy h1 {
+    font-size: clamp(1.9rem, 9vw, 2.65rem);
+  }
+
+  .brand-hero:not(.home-mode) .app-logo {
+    width: 70px;
+    height: 70px;
+  }
+}
