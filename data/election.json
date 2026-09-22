@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:50:00+02:00",
+  "generated_at": "2026-09-22T20:13:00+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -28,12 +28,21 @@
       "status_label": "Candidature déclarée",
       "program": {
         "Immigration": "Le RN défend la priorité nationale et Marine Le Pen rejette l’idée de recourir davantage à l’immigration pour répondre aux besoins de main-d’œuvre du grand âge.",
-        "Europe & international": "La campagne a récemment cherché à préciser sa position sur la Russie et l’Ukraine ; les propositions détaillées restent en cours d’actualisation."
+        "Europe & international": "La campagne a récemment cherché à préciser sa position sur la Russie et l’Ukraine ; les propositions détaillées restent en cours d’actualisation.",
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — suivi Présidentielle 2027",
         "Le Monde — 18 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "eric-zemmour",
@@ -41,10 +50,22 @@
       "party": "Reconquête !",
       "status": "declared",
       "status_label": "Candidature déclarée",
-      "program": {},
+      "program": {
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+      },
       "sources": [
         "Le Monde — suivi Présidentielle 2027, mise à jour du 18 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "bruno-retailleau",
@@ -53,12 +74,22 @@
       "status": "declared",
       "status_label": "Candidature déclarée",
       "program": {
-        "Économie": "Met l’accent sur le pouvoir d’achat, la progression des salaires et la baisse des prix de l’énergie et des carburants ; les mesures détaillées évoluent encore pendant la campagne."
+        "Économie": "Met l’accent sur le pouvoir d’achat, la progression des salaires et la baisse des prix de l’énergie et des carburants ; les mesures détaillées évoluent encore pendant la campagne.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — candidature officialisée le 20 avril 2026",
         "Le Monde — Bruno Retailleau, pouvoir d’achat"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "gabriel-attal",
@@ -69,12 +100,20 @@
       "program": {
         "Santé": "Sur le grand âge, il estime nécessaire de répondre aux pénuries de personnel, notamment par une immigration de travail encadrée.",
         "Immigration": "Propose des quotas d’immigration de travail par secteur, origine géographique et nationalité.",
-        "Europe & international": "Défend un approfondissement de l’intégration européenne."
+        "Europe & international": "Défend un approfondissement de l’intégration européenne.",
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — candidature officialisée le 22 mai 2026",
         "Le Monde — grand âge, 17 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "edouard-philippe",
@@ -85,11 +124,19 @@
       "program": {
         "Écologie & énergie": "Défend une « politique de sécurité climatique » et une adaptation climatique s’appuyant sur l’économie de marché.",
         "Institutions & démocratie": "S’est opposé à l’élargissement du champ du référendum de l’article 11 à des sujets comme l’immigration et insiste sur le respect des décisions du Conseil constitutionnel.",
-        "Europe & international": "Défend le maintien du soutien français à l’Ukraine."
+        "Europe & international": "Défend le maintien du soutien français à l’Ukraine.",
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 8 et 16 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "xavier-bertrand",
@@ -97,10 +144,22 @@
       "party": "Les Républicains",
       "status": "announced",
       "status_label": "Candidature annoncée, déclaration formelle à venir",
-      "program": {},
+      "program": {
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+      },
       "sources": [
         "Le Monde — 27 août 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "david-lisnard",
@@ -109,11 +168,21 @@
       "status": "declared",
       "status_label": "Candidature déclarée",
       "program": {
-        "Économie": "Porte une ligne libérale et pro-entreprise ; son programme détaillé est encore en cours de campagne."
+        "Économie": "Porte une ligne libérale et pro-entreprise ; son programme détaillé est encore en cours de campagne.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 25 et 30 août 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "jean-luc-melenchon",
@@ -122,12 +191,22 @@
       "status": "declared",
       "status_label": "Candidature déclarée",
       "program": {
-        "Économie": "Défend notamment l’indexation régulière des salaires sur l’inflation afin de protéger le pouvoir d’achat."
+        "Économie": "Défend notamment l’indexation régulière des salaires sur l’inflation afin de protéger le pouvoir d’achat.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — campagne lancée le 4 mai 2026",
         "Le Monde — Fête de l’Humanité, 12 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "fabien-roussel",
@@ -136,11 +215,21 @@
       "status": "declared",
       "status_label": "Candidature déclarée",
       "program": {
-        "Économie": "Met en avant des nationalisations et une critique de la dette comme contrainte pesant sur les politiques publiques."
+        "Économie": "Met en avant des nationalisations et une critique de la dette comme contrainte pesant sur les politiques publiques.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 12 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "marine-tondelier",
@@ -150,12 +239,21 @@
       "status_label": "Candidature autonome",
       "program": {
         "Écologie & énergie": "Place la transition écologique au cœur de sa candidature ; le programme sectoriel détaillé continue d’être élaboré.",
-        "Immigration": "Défend une régulation plus humaine et la régularisation de travailleurs déjà présents dans des secteurs en tension."
+        "Immigration": "Défend une régulation plus humaine et la régularisation de travailleurs déjà présents dans des secteurs en tension.",
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — juillet 2026",
         "Le Monde — grand âge, 17 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "francois-ruffin",
@@ -166,11 +264,19 @@
       "program": {
         "Santé": "Place le vieillissement et le grand âge parmi les défis majeurs du prochain quinquennat.",
         "Économie": "Met en avant la relance de l’appareil productif comme priorité structurelle.",
-        "Écologie & énergie": "Présente le changement climatique comme l’un des grands défis de long terme."
+        "Écologie & énergie": "Présente le changement climatique comme l’un des grands défis de long terme.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 17 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "delphine-batho",
@@ -179,11 +285,21 @@
       "status": "declared",
       "status_label": "Candidature déclarée",
       "program": {
-        "Écologie & énergie": "Veut replacer l’écologie dans un projet positif et populaire, autour d’une « politique de la beauté » ; le programme détaillé reste en construction."
+        "Écologie & énergie": "Veut replacer l’écologie dans un projet positif et populaire, autour d’une « politique de la beauté » ; le programme détaillé reste en construction.",
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 17 juin 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "karim-bouamrane",
@@ -194,11 +310,19 @@
       "program": {
         "Économie": "Met en avant le pouvoir d’achat, la lutte contre les inégalités sociales et la souveraineté économique.",
         "Santé": "Affirme vouloir garantir à chacun la possibilité de se soigner.",
-        "Sécurité & justice": "Met l’accent sur la sécurité et la protection, notamment celle des enfants."
+        "Sécurité & justice": "Met l’accent sur la sécurité et la protection, notamment celle des enfants.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 9 juin 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "bernard-cazeneuve",
@@ -207,11 +331,21 @@
       "status": "announced",
       "status_label": "Candidature annoncée",
       "program": {
-        "Institutions & démocratie": "Se présente comme social-démocrate et républicain de gauche, en dehors des primaires partisanes ; le programme détaillé reste en cours de publication."
+        "Institutions & démocratie": "Se présente comme social-démocrate et républicain de gauche, en dehors des primaires partisanes ; le programme détaillé reste en cours de publication.",
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 16 juillet 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "olivier-faure",
@@ -219,10 +353,22 @@
       "party": "Parti socialiste",
       "status": "primary",
       "status_label": "Candidat à la primaire social-démocrate",
-      "program": {},
+      "program": {
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+      },
       "sources": [
         "Le Monde — 16 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "jerome-guedj",
@@ -232,11 +378,20 @@
       "status_label": "Candidat à la primaire social-démocrate",
       "program": {
         "Santé": "Propose une « sécurité sociale intégrale », qui supprimerait le rôle actuel des mutuelles dans la couverture complémentaire.",
-        "Institutions & démocratie": "Met aussi en avant les thèmes de la laïcité, de l’identité et de la souveraineté."
+        "Institutions & démocratie": "Met aussi en avant les thèmes de la laïcité, de l’identité et de la souveraineté.",
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 16 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "segolene-royal",
@@ -246,11 +401,20 @@
       "status_label": "Candidate à la primaire social-démocrate",
       "program": {
         "Sécurité & justice": "Met en avant l’idée d’« ordre juste ».",
-        "Institutions & démocratie": "Promet une « France tranquille », mais n’a pas encore publié de programme 2027 complet."
+        "Institutions & démocratie": "Promet une « France tranquille », mais n’a pas encore publié de programme 2027 complet.",
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 16 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "raphael-glucksmann",
@@ -261,11 +425,19 @@
       "program": {
         "Santé": "Propose une stratégie du grand âge inscrite sur au moins dix ans dès le début du quinquennat.",
         "Immigration": "Assume des régularisations encadrées dans les secteurs de soin et d’aide à domicile en tension.",
-        "Écologie & énergie": "A demandé un plan des cent premiers jours d’une « révolution écologique » pour préciser son offre environnementale."
+        "Écologie & énergie": "A demandé un plan des cent premiers jours d’une « révolution écologique » pour préciser son offre environnementale.",
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 16 et 17 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "emmanuel-maurel",
@@ -275,11 +447,20 @@
       "status_label": "Candidat à la primaire social-démocrate",
       "program": {
         "Économie": "Défend une rupture avec la mondialisation actuelle et une logique de « démarchandisation » de certains secteurs.",
-        "Institutions & démocratie": "Veut renforcer la participation directe des citoyens et le pouvoir des salariés."
+        "Institutions & démocratie": "Veut renforcer la participation directe des citoyens et le pouvoir des salariés.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 16 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "anasse-kazib",
@@ -292,12 +473,18 @@
         "Travail & retraites": "Défend la retraite à 60 ans, ou 55 ans pour les métiers pénibles.",
         "Santé": "Défend des services publics de santé renforcés et gratuits.",
         "Immigration": "Défend la régularisation des travailleurs sans papiers.",
-        "Europe & international": "Porte une ligne anti-impérialiste, avec fermeture des bases militaires françaises à l’étranger et démantèlement/reconversion de l’industrie d’armement."
+        "Europe & international": "Porte une ligne anti-impérialiste, avec fermeture des bases militaires françaises à l’étranger et démantèlement/reconversion de l’industrie d’armement.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Site de campagne Anasse Kazib 2027",
         "Le Monde — 21 juin 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "selma-labib",
@@ -308,11 +495,19 @@
       "program": {
         "Économie": "Met en avant des revendications d’urgence sur les salaires.",
         "Travail & retraites": "Défend des mesures sur les retraites et les conditions de travail.",
-        "Santé": "Défend le renforcement des services publics ; aucun programme gouvernemental complet n’est encore publié."
+        "Santé": "Défend le renforcement des services publics ; aucun programme gouvernemental complet n’est encore publié.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "NPA-Révolutionnaires — candidature 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "florian-philippot",
@@ -320,10 +515,22 @@
       "party": "Les Patriotes",
       "status": "declared",
       "status_label": "Candidature déclarée",
-      "program": {},
+      "program": {
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+      },
       "sources": [
         "Le Monde — suivi Présidentielle 2027"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "jean-lassalle",
@@ -331,10 +538,22 @@
       "party": "Résistons !",
       "status": "preparing",
       "status_label": "Candidature en préparation",
-      "program": {},
+      "program": {
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+      },
       "sources": [
         "Le Monde — suivi Présidentielle 2027"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "benoit-mathieu",
@@ -343,12 +562,22 @@
       "status": "declared",
       "status_label": "Candidature déclarée",
       "program": {
-        "Institutions & démocratie": "Propose un référendum d’initiative citoyenne, des conventions citoyennes tirées au sort et une assemblée chargée de réécrire la Constitution."
+        "Institutions & démocratie": "Propose un référendum d’initiative citoyenne, des conventions citoyennes tirées au sort et une assemblée chargée de réécrire la Constitution.",
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Le Monde — 14 juin 2026",
         "France 3 — campagne 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "juan-branco",
@@ -356,10 +585,22 @@
       "party": "Les Ruches",
       "status": "declared",
       "status_label": "Candidature déclarée",
-      "program": {},
+      "program": {
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+      },
       "sources": [
         "Le Monde — suivi Présidentielle 2027, mise à jour du 14 septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "francis-lalanne",
@@ -371,12 +612,19 @@
         "Économie": "Défend le retour à une monnaie nationale et un rôle central de la Banque de France.",
         "Agriculture": "Met en avant la souveraineté alimentaire et un soutien prioritaire aux petits exploitants.",
         "Europe & international": "Défend une sortie de l’Union européenne et de l’OTAN.",
-        "Institutions & démocratie": "Défend le référendum d’initiative citoyenne et une assemblée constituante."
+        "Institutions & démocratie": "Défend le référendum d’initiative citoyenne et une assemblée constituante.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Site officiel Lalanne 2027",
         "Programme publié en septembre 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "lydie-massard",
@@ -385,11 +633,21 @@
       "status": "announced",
       "status_label": "Candidature issue d’un processus unitaire désormais interrompu",
       "program": {
-        "Institutions & démocratie": "Porte principalement une transformation fédérale de la République et une décentralisation accrue."
+        "Institutions & démocratie": "Porte principalement une transformation fédérale de la République et une décentralisation accrue.",
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
         "Suivi Présidentielle 2027 — candidature déclarée en avril 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     },
     {
       "id": "nathalie-arthaud",
@@ -397,10 +655,22 @@
       "party": "Lutte ouvrière",
       "status": "declared",
       "status_label": "Candidature déclarée",
-      "program": {},
+      "program": {
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+      },
       "sources": [
         "Le Monde — 21 juin 2026"
-      ]
+      ],
+      "last_checked_at": "2026-09-22T13:50:00+02:00"
     }
   ],
   "news": [
@@ -482,5 +752,8 @@
     }
   ],
   "withdrawal_retention_days": 7,
-  "withdrawal_rule": "À partir du 22 septembre 2026, un candidat qui se retire reste barré et consultable pendant 7 jours, puis son profil est supprimé de la liste. Les actualités partagées avec d’autres candidats restent conservées."
+  "withdrawal_rule": "À partir du 22 septembre 2026, un candidat qui se retire reste barré et consultable pendant 7 jours, puis son profil est supprimé de la liste. Les actualités partagées avec d’autres candidats restent conservées.",
+  "schema_version": 2,
+  "day_timezone": "Europe/Paris",
+  "day_rule": "00:00:00–23:59:59 Europe/Paris"
 }
