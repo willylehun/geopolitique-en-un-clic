@@ -52,6 +52,60 @@
       </section>
     </section>
 
+
+    <section id="electionPage" class="page" hidden>
+      <div class="hero compact-hero">
+        <span class="eyebrow">PRÉSIDENTIELLE FRANÇAISE 2027</span>
+        <h2>Suivi des candidatures</h2>
+        <p id="electionOfficialNote">Candidatures déclarées, annoncées, primaires et retraits.</p>
+      </div>
+
+      <section class="candidate-picker-card">
+        <button id="candidatePickerButton" class="country-picker-button" type="button" aria-expanded="false">
+          <span id="candidatePickerLabel">Choisir un candidat</span>
+          <span>⌄</span>
+        </button>
+        <div id="candidateDropdown" class="country-dropdown" hidden>
+          <div class="country-search-wrap">
+            <span>⌕</span>
+            <input id="candidateSearch" type="search" placeholder="Rechercher un candidat…" autocomplete="off" />
+          </div>
+          <div id="candidateList" class="country-list" role="listbox" aria-label="Liste des candidats"></div>
+        </div>
+      </section>
+
+      <section id="candidateContent" hidden>
+        <div class="candidate-profile">
+          <div>
+            <span id="candidateStatus" class="candidate-status"></span>
+            <h2 id="candidateName"></h2>
+            <p id="candidateParty"></p>
+          </div>
+        </div>
+
+        <section class="period-panel">
+          <div class="period-tabs" role="tablist" aria-label="Période électorale">
+            <button data-election-period="day" class="election-period-tab active">Jour</button>
+            <button data-election-period="week" class="election-period-tab">Semaine</button>
+            <button data-election-period="month" class="election-period-tab">Mois</button>
+          </div>
+          <select id="electionHistorySelect" aria-label="Choisir une période"></select>
+        </section>
+
+        <section id="electionNewsHeader" class="summary-header"></section>
+        <section id="electionNewsList" class="news-list"></section>
+
+        <section class="program-section">
+          <div class="program-heading">
+            <span class="eyebrow">PROGRAMME</span>
+            <h3>Résumé par secteur</h3>
+          </div>
+          <div id="programGrid" class="program-grid"></div>
+          <div id="candidateSources" class="candidate-sources"></div>
+        </section>
+      </section>
+    </section>
+
     <section id="newsPage" class="page" hidden>
       <div class="section-heading">
         <span id="regionIcon" class="region-icon"></span>
