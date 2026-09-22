@@ -1,4 +1,4 @@
-const CACHE = 'geo-clic-v6';
+const CACHE = 'geo-clic-v7';
 const ASSETS = [
   './',
   './index.html',
@@ -7,6 +7,7 @@ const ASSETS = [
   './countries.js',
   './manifest.webmanifest',
   './data/news.json',
+  './data/election.json',
   './assets/logo.png',
   './icons/icon-192.png'
 ];
