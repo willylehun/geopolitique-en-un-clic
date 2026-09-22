@@ -703,3 +703,13 @@ footer strong {
   .candidate-option { grid-template-columns: 1fr; gap: 4px; }
   .candidate-option-status { text-align: left; }
 }
+
+
+.static-menu-wrap {
+  margin-top: 12px;
+}
+
+.election-static-card {
+  width: 100%;
+  min-height: 132px;
+}
