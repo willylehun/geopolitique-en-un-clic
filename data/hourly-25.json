@@ -1,0 +1,91 @@
+{
+  "date": "22 septembre 2026",
+  "timezone": "Europe/Paris",
+  "generated_at": "2026-09-22T19:16:00+02:00",
+  "events": [
+    {
+      "id": "2026-09-22-vietnam-us-trade-talks",
+      "summary": "Le dirigeant vietnamien To Lam affirme que les négociations commerciales avec les États-Unis ont progressé et qu'un accord bilatéral pourrait être proche, après une rencontre à New York avec le représentant américain au Commerce.",
+      "importance": 8,
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/world/asia-pacific/vietnam-leader-lam-says-positive-negotiations-with-us-trade-deal-2026-09-22/",
+      "countries": ["Vietnam", "États-Unis"],
+      "regions": ["Asie", "Amérique du Nord"],
+      "period": "Jour",
+      "bucket": "2026-09-22",
+      "published_at": "2026-09-22"
+    },
+    {
+      "id": "2026-09-22-colombie-incendies-312-municipalites",
+      "summary": "La Colombie a placé 312 municipalités en alerte incendie dans un contexte de sécheresse ; un feu près de Villa de Leyva a déjà ravagé plus de 200 hectares de forêt andine.",
+      "importance": 6,
+      "sources": ["Reuters Connect"],
+      "url": "https://www.reutersconnect.com/item/colombia-colombia-issues-wildfire-alerts-for-312-municipalities-amid-dry-conditions/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XU0hCQzExODc3NDE",
+      "countries": ["Colombie"],
+      "regions": ["Amérique du Sud"],
+      "period": "Jour",
+      "bucket": "2026-09-22",
+      "published_at": "2026-09-22"
+    },
+    {
+      "id": "2026-09-22-uruguay-greve-ports",
+      "summary": "Un conflit social au terminal à conteneurs de Montevideo s'est étendu à une grève nationale de 24 heures dans les ports uruguayens, sur fond de négociations concernant l'emploi et les services minimums.",
+      "importance": 5,
+      "sources": ["Splash247"],
+      "url": "https://splash247.com/uruguay-port-dispute-escalates-into-nationwide-strike/",
+      "countries": ["Uruguay"],
+      "regions": ["Amérique du Sud"],
+      "period": "Jour",
+      "bucket": "2026-09-22",
+      "published_at": "2026-09-22"
+    },
+    {
+      "id": "2026-09-22-bolivie-blocages-diesel",
+      "summary": "Des producteurs agricoles et transporteurs boliviens annoncent des barrages routiers contre la suppression des subventions au diesel décidée par le gouvernement pour réduire les pénuries de carburant.",
+      "importance": 6,
+      "sources": ["Telesur", "Reuters"],
+      "url": "https://www.telesurenglish.net/bolivia-workers-roadblocks-diesel-hike/",
+      "countries": ["Bolivie"],
+      "regions": ["Amérique du Sud"],
+      "period": "Jour",
+      "bucket": "2026-09-22",
+      "published_at": "2026-09-22"
+    },
+    {
+      "id": "2026-09-22-malaisie-budget-developpement-petrole",
+      "summary": "La Malaisie maintiendra ses dépenses de développement prévues pour 2027 malgré la hausse des prix du pétrole, qui accroît la pression sur le coût budgétaire des subventions énergétiques.",
+      "importance": 5,
+      "sources": ["The Edge Malaysia", "The Vibes"],
+      "url": "https://www.theedgemarkets.com/node/818857",
+      "countries": ["Malaisie"],
+      "regions": ["Asie"],
+      "period": "Jour",
+      "bucket": "2026-09-22",
+      "published_at": "2026-09-22"
+    },
+    {
+      "id": "2026-09-22-ghana-iles-salomon-relations-diplomatiques",
+      "summary": "Le Ghana et les Îles Salomon ont officiellement établi des relations diplomatiques par la signature d'un communiqué conjoint.",
+      "importance": 4,
+      "sources": ["Solomon Star"],
+      "url": "https://www.solomonstarnews.com/si-forges-new-diplomatic-partnership-with-ghana/",
+      "countries": ["Ghana", "Îles Salomon"],
+      "regions": ["Afrique", "Océanie"],
+      "period": "Jour",
+      "bucket": "2026-09-22",
+      "published_at": "2026-09-22"
+    },
+    {
+      "id": "2026-09-22-norvege-canada-defense",
+      "summary": "Le Canada et la Norvège ont signé une lettre d'intention pour renforcer leur coopération en matière d'acquisitions de défense selon un modèle d'accord gouvernement à gouvernement.",
+      "importance": 5,
+      "sources": ["Canadian Commercial Corporation / GlobeNewswire"],
+      "url": "https://www.manilatimes.net/2026/09/22/tmt-newswire/globenewswire/canada-and-norway-strengthen-defence-cooperation-through-government-to-government-procurement-model/2430461",
+      "countries": ["Norvège", "Canada"],
+      "regions": ["Europe", "Amérique du Nord"],
+      "period": "Jour",
+      "bucket": "2026-09-22",
+      "published_at": "2026-09-22"
+    }
+  ]
+}
