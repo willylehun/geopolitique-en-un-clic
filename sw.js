@@ -1,9 +1,10 @@
-const CACHE = 'geo-clic-v5';
+const CACHE = 'geo-clic-v6';
 const ASSETS = [
   './',
   './index.html',
   './styles.css',
   './app.js',
+  './countries.js',
   './manifest.webmanifest',
   './data/news.json',
   './assets/logo.png',
