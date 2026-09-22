@@ -20,7 +20,12 @@ const state = {
   buckets: { day: [], week: [], month: [] },
   coverage: {},
   visibleCount: 10,
-  countryThreshold: 5
+  countryThreshold: 5,
+  electionData: null,
+  candidateId: null,
+  electionPeriod: 'day',
+  electionBucket: null,
+  electionVisibleCount: 10
 };
 
 const $ = q => document.querySelector(q);
@@ -103,11 +108,23 @@ function renderRegionGrid() {
     </button>
   `;
 
-  grid.innerHTML = regionCards + countryCard;
+  const electionCard = `
+    <button class="region-card election-entry-card" id="electionEntry">
+      <span class="region-card-icon">🗳️</span>
+      <span class="region-card-copy">
+        <strong>Élection française</strong>
+        <small>Présidentielle 2027 : candidats, actualités et programmes</small>
+      </span>
+      <span class="region-arrow">›</span>
+    </button>
+  `;
+
+  grid.innerHTML = regionCards + countryCard + electionCard;
   grid.querySelectorAll('[data-region]').forEach(btn => {
     btn.onclick = () => openRegion(btn.dataset.region);
   });
   $('#countryEntry').onclick = openCountryPicker;
+  $('#electionEntry').onclick = openElectionPicker;
 }
 
 function openRegion(region) {
@@ -119,6 +136,7 @@ function openRegion(region) {
   state.visibleCount = 10;
   $('#regionPage').hidden = true;
   $('#countryPage').hidden = true;
+  $('#electionPage').hidden = true;
   $('#newsPage').hidden = false;
   const meta = regionMeta(region);
   $('#regionTitle').textContent = region;
@@ -135,6 +153,7 @@ function openCountryPicker() {
   state.bucket = null;
   $('#regionPage').hidden = true;
   $('#newsPage').hidden = true;
+  $('#electionPage').hidden = true;
   $('#countryPage').hidden = false;
   $('#countryPickerLabel').textContent = 'Choisir un pays';
   $('#countryDropdown').hidden = false;
@@ -193,6 +212,7 @@ function goHome() {
   state.country = null;
   state.bucket = null;
   $('#countryPage').hidden = true;
+  $('#electionPage').hidden = true;
   $('#newsPage').hidden = true;
   $('#regionPage').hidden = false;
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -314,6 +334,256 @@ function getCountryFeed() {
 
   state.countryThreshold = 1;
   return [];
+}
+
+
+function openElectionPicker() {
+  state.mode = 'election';
+  state.region = null;
+  state.country = null;
+  state.candidateId = null;
+  state.electionPeriod = 'day';
+  state.electionBucket = null;
+  state.electionVisibleCount = 10;
+  $('#regionPage').hidden = true;
+  $('#countryPage').hidden = true;
+  $('#newsPage').hidden = true;
+  $('#electionPage').hidden = false;
+  $('#candidateContent').hidden = true;
+  $('#candidatePickerLabel').textContent = 'Choisir un candidat';
+  $('#candidateDropdown').hidden = false;
+  $('#candidatePickerButton').setAttribute('aria-expanded', 'true');
+  $('#candidateSearch').value = '';
+  if (state.electionData) {
+    $('#electionOfficialNote').textContent = state.electionData.official_note || '';
+  }
+  renderCandidateList('');
+  setTimeout(() => $('#candidateSearch').focus(), 50);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function candidateLabel(candidate) {
+  return `${candidate.name} (${candidate.party})`;
+}
+
+function renderCandidateList(query = '') {
+  const list = $('#candidateList');
+  const data = state.electionData;
+  if (!data) {
+    list.innerHTML = '<div class="country-no-result">Chargement des candidatures…</div>';
+    return;
+  }
+  const q = normalizeText(query);
+  const candidates = [...(data.candidates || [])]
+    .filter(c => normalizeText(candidateLabel(c)).includes(q))
+    .sort((a, b) => {
+      if ((a.status === 'withdrawn') !== (b.status === 'withdrawn')) return a.status === 'withdrawn' ? 1 : -1;
+      return a.name.localeCompare(b.name, 'fr');
+    });
+
+  if (!candidates.length) {
+    list.innerHTML = '<div class="country-no-result">Aucun candidat trouvé</div>';
+    return;
+  }
+
+  list.innerHTML = candidates.map(candidate => `
+    <button type="button" class="candidate-option ${candidate.status === 'withdrawn' ? 'withdrawn' : ''}" data-candidate="${escapeHtml(candidate.id)}">
+      <span class="candidate-option-name">${escapeHtml(candidate.name)} <small>(${escapeHtml(candidate.party)})</small></span>
+      <span class="candidate-option-status">${escapeHtml(candidate.status_label || '')}</span>
+    </button>
+  `).join('');
+
+  list.querySelectorAll('.candidate-option').forEach(btn => {
+    btn.onclick = () => selectCandidate(btn.dataset.candidate);
+  });
+}
+
+function selectCandidate(candidateId) {
+  const candidate = (state.electionData?.candidates || []).find(c => c.id === candidateId);
+  if (!candidate) return;
+
+  state.mode = 'election';
+  state.candidateId = candidateId;
+  state.electionPeriod = 'day';
+  state.electionBucket = null;
+  state.electionVisibleCount = 10;
+
+  $('#candidatePickerLabel').textContent = candidateLabel(candidate);
+  $('#candidateDropdown').hidden = true;
+  $('#candidatePickerButton').setAttribute('aria-expanded', 'false');
+  $('#candidateContent').hidden = false;
+  $('#candidateName').textContent = candidate.name;
+  $('#candidateParty').textContent = candidate.party;
+  $('#candidateStatus').textContent = candidate.status_label || '';
+  $('#candidateStatus').className = 'candidate-status status-' + (candidate.status || 'unknown');
+
+  renderElectionPage();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function parisTodayISO() {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).formatToParts(new Date());
+  const map = Object.fromEntries(parts.map(p => [p.type, p.value]));
+  return `${map.year}-${map.month}-${map.day}`;
+}
+
+function formatIsoDateFr(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return new Intl.DateTimeFormat('fr-FR', {
+    day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Paris'
+  }).format(new Date(Date.UTC(y, m - 1, d, 12, 0, 0)));
+}
+
+function weekBucket(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  const date = new Date(Date.UTC(y, m - 1, d, 12));
+  const day = (date.getUTCDay() + 6) % 7;
+  const monday = new Date(date);
+  monday.setUTCDate(date.getUTCDate() - day);
+  const sunday = new Date(monday);
+  sunday.setUTCDate(monday.getUTCDate() + 6);
+  const toIso = dt => dt.toISOString().slice(0, 10);
+  return `${toIso(monday)}|${toIso(sunday)}`;
+}
+
+function monthBucket(iso) {
+  return iso.slice(0, 7);
+}
+
+function electionBuckets() {
+  const news = state.electionData?.news || [];
+  const today = parisTodayISO();
+  const dates = [...new Set([today, ...news.map(n => n.date).filter(Boolean)])].sort().reverse();
+
+  if (state.electionPeriod === 'day') return dates;
+  if (state.electionPeriod === 'week') {
+    return [...new Set(dates.map(weekBucket))].sort().reverse();
+  }
+  return [...new Set(dates.map(monthBucket))].sort().reverse();
+}
+
+function electionBucketLabel(bucket) {
+  if (state.electionPeriod === 'day') return formatIsoDateFr(bucket);
+  if (state.electionPeriod === 'week') {
+    const [start, end] = bucket.split('|');
+    return `${formatIsoDateFr(start)} – ${formatIsoDateFr(end)}`;
+  }
+  const [y, m] = bucket.split('-').map(Number);
+  return new Intl.DateTimeFormat('fr-FR', {
+    month: 'long', year: 'numeric', timeZone: 'Europe/Paris'
+  }).format(new Date(Date.UTC(y, m - 1, 1, 12)));
+}
+
+function electionItemInBucket(item) {
+  if (!item?.date || !state.electionBucket) return false;
+  if (state.electionPeriod === 'day') return item.date === state.electionBucket;
+  if (state.electionPeriod === 'week') return weekBucket(item.date) === state.electionBucket;
+  return monthBucket(item.date) === state.electionBucket;
+}
+
+function renderElectionPeriods() {
+  document.querySelectorAll('.election-period-tab').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.electionPeriod === state.electionPeriod);
+    btn.onclick = () => {
+      state.electionPeriod = btn.dataset.electionPeriod;
+      state.electionBucket = null;
+      state.electionVisibleCount = 10;
+      renderElectionPage();
+    };
+  });
+}
+
+function renderElectionHistory() {
+  const select = $('#electionHistorySelect');
+  const buckets = electionBuckets();
+  if (!state.electionBucket || !buckets.includes(state.electionBucket)) {
+    state.electionBucket = buckets[0] || null;
+  }
+  if (!buckets.length) {
+    select.innerHTML = '<option>Aucun historique</option>';
+    select.disabled = true;
+    return;
+  }
+  select.disabled = false;
+  select.innerHTML = buckets.map(bucket =>
+    `<option value="${escapeHtml(bucket)}" ${bucket === state.electionBucket ? 'selected' : ''}>${escapeHtml(electionBucketLabel(bucket))}</option>`
+  ).join('');
+  select.onchange = e => {
+    state.electionBucket = e.target.value;
+    state.electionVisibleCount = 10;
+    renderElectionNews();
+  };
+}
+
+function renderElectionNews() {
+  const candidateId = state.candidateId;
+  const candidate = (state.electionData?.candidates || []).find(c => c.id === candidateId);
+  const items = (state.electionData?.news || [])
+    .filter(item => (item.candidate_ids || []).includes(candidateId) && electionItemInBucket(item))
+    .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+
+  $('#electionNewsHeader').innerHTML = `
+    <div>
+      <span class="result-count">${items.length} actualité${items.length > 1 ? 's' : ''}</span>
+      <span class="result-date">${state.electionBucket ? escapeHtml(electionBucketLabel(state.electionBucket)) : ''}</span>
+    </div>
+  `;
+
+  const list = $('#electionNewsList');
+  if (!items.length) {
+    list.innerHTML = `<div class="empty"><span>◎</span><p>Aucune actualité enregistrée pour ${escapeHtml(candidate?.name || 'ce candidat')} sur cette période.</p></div>`;
+    return;
+  }
+
+  const shown = items.slice(0, state.electionVisibleCount);
+  list.innerHTML = shown.map(item => `
+    <article class="news-item election-news-item">
+      <div class="meta">
+        <span class="tag">Présidentielle 2027</span>
+        <span class="election-date">${escapeHtml(formatIsoDateFr(item.date))}</span>
+      </div>
+      ${item.url
+        ? `<a class="news-summary news-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.summary)}<span class="link-mark">↗</span></a>`
+        : `<p class="news-summary">${escapeHtml(item.summary)}</p>`
+      }
+      <div class="sources">(${(item.sources || []).map(escapeHtml).join(' • ')})</div>
+    </article>
+  `).join('');
+
+  if (items.length > shown.length) {
+    list.insertAdjacentHTML('beforeend', `<button class="more-button" id="electionMoreButton">Suite (${items.length - shown.length})</button>`);
+    $('#electionMoreButton').onclick = () => {
+      state.electionVisibleCount += 10;
+      renderElectionNews();
+    };
+  }
+}
+
+function renderCandidateProgram() {
+  const data = state.electionData;
+  const candidate = (data?.candidates || []).find(c => c.id === state.candidateId);
+  if (!candidate) return;
+
+  const fallback = data.program_fallback || 'Aucune proposition suffisamment documentée à ce stade.';
+  $('#programGrid').innerHTML = (data.sectors || []).map(sector => `
+    <article class="program-card">
+      <h4>${escapeHtml(sector)}</h4>
+      <p class="${candidate.program?.[sector] ? '' : 'program-missing'}">${escapeHtml(candidate.program?.[sector] || fallback)}</p>
+    </article>
+  `).join('');
+
+  $('#candidateSources').innerHTML = candidate.sources?.length
+    ? `<strong>Sources de synthèse :</strong> ${candidate.sources.map(escapeHtml).join(' • ')}`
+    : '';
+}
+
+function renderElectionPage() {
+  renderElectionPeriods();
+  renderElectionHistory();
+  renderElectionNews();
+  renderCandidateProgram();
 }
 
 function renderPeriods() {
@@ -465,9 +735,13 @@ async function loadData() {
       'data/hourly-latest.json'
     ];
 
-    const results = await Promise.all(
-      urls.map(url => fetch(url + '?v=' + stamp, { cache: 'no-store' }).catch(() => null))
-    );
+    const [results, electionRes] = await Promise.all([
+      Promise.all(urls.map(url => fetch(url + '?v=' + stamp, { cache: 'no-store' }).catch(() => null))),
+      fetch('data/election.json?v=' + stamp, { cache: 'no-store' }).catch(() => null)
+    ]);
+    if (electionRes && electionRes.ok) {
+      state.electionData = await electionRes.json();
+    }
 
     if (!results[0] || !results[0].ok) throw new Error('data load failed');
 
@@ -512,6 +786,15 @@ $('#countryPickerButton').onclick = () => {
 };
 
 $('#countrySearch').addEventListener('input', e => renderCountryList(e.target.value));
+
+$('#candidatePickerButton').onclick = () => {
+  const dropdown = $('#candidateDropdown');
+  dropdown.hidden = !dropdown.hidden;
+  $('#candidatePickerButton').setAttribute('aria-expanded', String(!dropdown.hidden));
+  if (!dropdown.hidden) $('#candidateSearch').focus();
+};
+
+$('#candidateSearch').addEventListener('input', e => renderCandidateList(e.target.value));
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
