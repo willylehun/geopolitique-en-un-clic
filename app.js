@@ -414,6 +414,7 @@ function selectParty(name) {
   state.partyName=name; state.partyTab='news'; state.electionPeriod='day'; state.electionBucket=null;
   $('#partyPickerLabel').textContent=name; $('#partyDropdown').hidden=true; $('#partyContent').hidden=false;
   $('#partyName').textContent=name;
+  renderPartyCandidates();
   renderPartyPage();
 }
 
@@ -435,6 +436,21 @@ function partyNews() {
   const p=getParties().find(x=>x.name===state.partyName); if(!p)return[];
   const ids=p.candidate_ids||[];
   return (state.electionData?.news||[]).filter(n=>(n.party_names||[]).includes(p.name)||(n.candidate_ids||[]).some(id=>ids.includes(id))).filter(electionItemInBucket);
+}
+
+function renderPartyCandidates() {
+  const p=getParties().find(x=>x.name===state.partyName);
+  const box=$('#partyCandidates');
+  if(!p || !box) return;
+  const candidates=(state.electionData?.candidates||[]).filter(c=>(p.candidate_ids||[]).includes(c.id));
+  box.innerHTML=candidates.length ? candidates.map(c=>`
+    <button type="button" class="candidate-option party-candidate-link ${c.status==='withdrawn'?'withdrawn':''}" data-party-candidate="${escapeHtml(c.id)}">
+      <span class="candidate-option-name">${escapeHtml(c.name)}</span>
+      <span class="candidate-option-status">${escapeHtml(c.status_label||'')} · ${escapeHtml(c.party||'')}</span>
+    </button>`).join('') : '<div class="country-no-result">Aucun candidat relié actuellement.</div>';
+  box.querySelectorAll('[data-party-candidate]').forEach(b=>b.onclick=()=>{
+    state.electionView='candidates'; renderElectionMode(); selectCandidate(b.dataset.partyCandidate);
+  });
 }
 
 function renderPartyPage() {
