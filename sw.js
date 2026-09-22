@@ -1,4 +1,4 @@
-const CACHE = 'geo-clic-v10';
+const CACHE = 'geo-clic-v11';
 const ASSETS = [
   './',
   './index.html',
@@ -26,7 +26,7 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  if (event.request.url.includes('/data/news.json')) {
+  if (event.request.url.includes('/data/news.json') || event.request.url.includes('/data/election.json')) {
     event.respondWith(fetch(event.request, { cache: 'no-store' }).catch(() => caches.match(event.request)));
     return;
   }
