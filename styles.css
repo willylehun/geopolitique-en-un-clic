@@ -535,3 +535,171 @@ footer strong {
 @media (max-width: 520px) {
   .country-list { max-height: 52vh; }
 }
+
+
+.election-entry-card {
+  border-color: rgba(242,196,92,.28);
+  background:
+    radial-gradient(circle at 88% 8%, rgba(242,196,92,.14), transparent 42%),
+    linear-gradient(145deg, rgba(55,47,31,.96), rgba(21,29,38,.94));
+}
+
+.candidate-picker-card {
+  position: relative;
+  z-index: 8;
+  margin-bottom: 18px;
+}
+
+.candidate-option {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 10px;
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.candidate-option:hover,
+.candidate-option:focus {
+  background: rgba(87,185,255,.10);
+}
+
+.candidate-option-name {
+  font-weight: 800;
+}
+
+.candidate-option-name small {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.candidate-option-status {
+  color: var(--muted);
+  font-size: .66rem;
+  text-align: right;
+}
+
+.candidate-option.withdrawn .candidate-option-name,
+.candidate-option.withdrawn .candidate-option-name small {
+  text-decoration: line-through;
+  opacity: .58;
+}
+
+.candidate-profile {
+  padding: 16px 3px 14px;
+}
+
+.candidate-profile h2 {
+  margin: 6px 0 2px;
+  font-size: clamp(1.65rem, 6vw, 2.25rem);
+  letter-spacing: -.04em;
+}
+
+.candidate-profile p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.candidate-status {
+  display: inline-block;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 8px;
+  color: var(--muted);
+  background: rgba(255,255,255,.03);
+  font-size: .68rem;
+  font-weight: 800;
+}
+
+.status-declared { color: #8fe7df; border-color: rgba(77,228,220,.24); }
+.status-primary { color: #bfe6ff; border-color: rgba(87,185,255,.24); }
+.status-announced, .status-preparing { color: #ffe4a3; border-color: rgba(242,196,92,.25); }
+.status-withdrawn { color: #b8a7a7; border-color: rgba(210,160,160,.20); text-decoration: line-through; }
+
+.election-period-tab {
+  border: 0;
+  border-radius: 12px;
+  padding: 11px 9px;
+  color: var(--muted);
+  background: transparent;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.election-period-tab.active {
+  color: #04101a;
+  background: linear-gradient(135deg, var(--cyan), var(--blue));
+  box-shadow: 0 8px 24px rgba(50,169,232,.22);
+}
+
+.election-date {
+  color: var(--muted);
+  font-size: .72rem;
+}
+
+.program-section {
+  margin-top: 26px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.program-heading h3 {
+  margin: 5px 0 14px;
+  font-size: 1.35rem;
+}
+
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 10px;
+}
+
+.program-card {
+  min-height: 130px;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  padding: 13px;
+  background: linear-gradient(145deg, rgba(16,38,58,.90), rgba(9,25,39,.88));
+}
+
+.program-card h4 {
+  margin: 0 0 8px;
+  color: #d8eefc;
+  font-size: .88rem;
+}
+
+.program-card p {
+  margin: 0;
+  color: #b9cbd8;
+  font-size: .82rem;
+  line-height: 1.42;
+}
+
+.program-card p.program-missing {
+  color: #718a9c;
+  font-style: italic;
+}
+
+.candidate-sources {
+  margin-top: 12px;
+  color: #7894a8;
+  font-size: .72rem;
+  line-height: 1.5;
+}
+
+#electionOfficialNote {
+  max-width: 700px;
+}
+
+@media (max-width: 620px) {
+  .program-grid { grid-template-columns: 1fr; }
+  .candidate-option { grid-template-columns: 1fr; gap: 4px; }
+  .candidate-option-status { text-align: left; }
+}
