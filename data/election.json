@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T21:10:00+02:00",
+  "generated_at": "2026-09-22T23:27:00+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -42,7 +42,19 @@
         "Le Monde — suivi Présidentielle 2027",
         "Le Monde — 18 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Députée du Pas-de-Calais et ancienne présidente du Front national puis du Rassemblement national. Candidate aux présidentielles de 2012, 2017 et 2022, elle porte une ligne nationaliste axée notamment sur l’immigration, la sécurité, la souveraineté et le pouvoir d’achat.",
+      "controversies": [
+        {
+          "date": "2026-07-07",
+          "summary": "La cour d’appel de Paris a confirmé sa condamnation dans l’affaire des assistants parlementaires européens du FN, avec une peine aménagée et une inéligibilité dont la partie ferme était considérée comme purgée. Marine Le Pen a annoncé un pourvoi en cassation.",
+          "sources": [
+            "Le Monde",
+            "Public Sénat"
+          ],
+          "url": "https://www.lemonde.fr/politique/article/2026/07/07/marine-le-pen-condamnee-en-appel-retrouvez-les-reponses-a-vos-questions-sur-la-decision-de-la-cour-et-ses-consequences_6721519_823448.html"
+        }
+      ]
     },
     {
       "id": "eric-zemmour",
@@ -65,7 +77,9 @@
       "sources": [
         "Le Monde — suivi Présidentielle 2027, mise à jour du 18 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Ancien journaliste et éditorialiste, candidat à la présidentielle de 2022 puis fondateur et président de Reconquête !. Sa ligne politique est nationaliste et identitaire, avec l’immigration, l’assimilation, la sécurité et la souveraineté au centre de ses prises de position.",
+      "controversies": []
     },
     {
       "id": "bruno-retailleau",
@@ -89,7 +103,9 @@
         "Le Monde — candidature officialisée le 20 avril 2026",
         "Le Monde — Bruno Retailleau, pouvoir d’achat"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Ancien président du groupe Les Républicains au Sénat, ancien président du conseil régional des Pays de la Loire et ancien ministre de l’Intérieur. Président de LR, il défend une ligne de droite conservatrice, notamment sur l’autorité, la sécurité, l’immigration et les finances publiques.",
+      "controversies": []
     },
     {
       "id": "gabriel-attal",
@@ -113,7 +129,9 @@
         "Le Monde — candidature officialisée le 22 mai 2026",
         "Le Monde — grand âge, 17 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Député des Hauts-de-Seine, ancien ministre de l’Éducation nationale et Premier ministre en 2024. Secrétaire général de Renaissance, il se situe dans le bloc central et met notamment en avant l’école, le travail, les finances publiques et l’intégration européenne.",
+      "controversies": []
     },
     {
       "id": "edouard-philippe",
@@ -136,7 +154,19 @@
       "sources": [
         "Le Monde — 8 et 16 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Maire du Havre, ancien député et Premier ministre de 2017 à 2020. Fondateur d’Horizons, il vient de la droite modérée et construit une offre de centre droit autour de l’autorité, des finances publiques, du travail et de l’adaptation climatique.",
+      "controversies": [
+        {
+          "date": "2026-09-07",
+          "summary": "Sa proposition de repousser à septembre la prise de fonctions du président élu en mai a suscité une polémique et des critiques de plusieurs adversaires politiques.",
+          "sources": [
+            "RTL",
+            "Le Monde"
+          ],
+          "url": "https://www.rtl.fr/actu/politique/se-reposer-decompresser-mais-pas-que-pourquoi-edouard-philippe-aimerait-repousser-la-prise-de-fonctions-du-president-de-la-republique-de-mai-a-septembre-7900671274"
+        }
+      ]
     },
     {
       "id": "xavier-bertrand",
@@ -159,7 +189,9 @@
       "sources": [
         "Le Monde — 27 août 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Président des Hauts-de-France, ancien député et ancien ministre de la Santé puis du Travail. Issu de la droite républicaine, il met régulièrement en avant le travail, l’industrie, la sécurité et les territoires.",
+      "controversies": []
     },
     {
       "id": "david-lisnard",
@@ -182,7 +214,9 @@
       "sources": [
         "Le Monde — 25 et 30 août 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Maire de Cannes, président de l’Association des maires de France et fondateur de Nouvelle Énergie. Issu de la droite libérale, il défend notamment la baisse de la dépense publique, la liberté économique, la décentralisation et l’autorité.",
+      "controversies": []
     },
     {
       "id": "jean-luc-melenchon",
@@ -206,7 +240,9 @@
         "Le Monde — campagne lancée le 4 mai 2026",
         "Le Monde — Fête de l’Humanité, 12 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Ancien sénateur, ancien ministre délégué à l’Enseignement professionnel, ancien député européen et député. Fondateur de La France insoumise et candidat en 2012, 2017 et 2022, il défend une ligne de gauche radicale fondée notamment sur la VIe République, la redistribution, la planification écologique et une diplomatie non alignée.",
+      "controversies": []
     },
     {
       "id": "fabien-roussel",
@@ -229,7 +265,9 @@
       "sources": [
         "Le Monde — 12 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Député du Nord et secrétaire national du Parti communiste français, candidat à la présidentielle de 2022. Il défend une ligne communiste mettant en avant salaires, industrie, services publics, énergie et souveraineté productive.",
+      "controversies": []
     },
     {
       "id": "marine-tondelier",
@@ -253,7 +291,9 @@
         "Le Monde — juillet 2026",
         "Le Monde — grand âge, 17 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Secrétaire nationale des Écologistes et conseillère régionale des Hauts-de-France. Elle porte une ligne écologiste axée sur la transition climatique, la justice sociale, les services publics et la coopération des forces de gauche.",
+      "controversies": []
     },
     {
       "id": "francois-ruffin",
@@ -276,7 +316,9 @@
       "sources": [
         "Le Monde — 17 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Député de la Somme, journaliste et réalisateur, fondateur du mouvement Debout ! et ancien membre du groupe LFI. Il défend une gauche sociale centrée sur les salaires, les services publics, l’industrie, les classes populaires et la transition écologique.",
+      "controversies": []
     },
     {
       "id": "delphine-batho",
@@ -299,7 +341,9 @@
       "sources": [
         "Le Monde — 17 juin 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Députée des Deux-Sèvres, ancienne ministre de l’Écologie et présidente de Génération Écologie. Elle défend une ligne écologiste structurée notamment autour de la sobriété, de la transformation écologique et des institutions.",
+      "controversies": []
     },
     {
       "id": "karim-bouamrane",
@@ -322,7 +366,9 @@
       "sources": [
         "Le Monde — 9 juin 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Maire de Saint-Ouen-sur-Seine et membre du Parti socialiste. Il se situe dans la social-démocratie et met en avant les services publics, l’égalité des chances, la sécurité du quotidien et le développement économique local.",
+      "controversies": []
     },
     {
       "id": "bernard-cazeneuve",
@@ -345,7 +391,9 @@
       "sources": [
         "Le Monde — 16 juillet 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Ancien député, ancien ministre de l’Intérieur et Premier ministre de 2016 à 2017. Fondateur de La Convention après avoir quitté le Parti socialiste, il défend une ligne social-démocrate républicaine attachée à la laïcité, à l’ordre républicain et à la construction européenne.",
+      "controversies": []
     },
     {
       "id": "olivier-faure",
@@ -368,7 +416,9 @@
       "sources": [
         "Le Monde — 16 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Député de Seine-et-Marne et premier secrétaire du Parti socialiste. Il représente une ligne socialiste favorable au rassemblement de la gauche, à la redistribution, aux services publics et à la transition écologique.",
+      "controversies": []
     },
     {
       "id": "jerome-guedj",
@@ -391,7 +441,9 @@
       "sources": [
         "Le Monde — 16 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Député de l’Essonne et ancien président du conseil général de l’Essonne. Membre du Parti socialiste, il travaille notamment sur les questions sociales, le vieillissement, les services publics et la lutte contre les inégalités.",
+      "controversies": []
     },
     {
       "id": "segolene-royal",
@@ -414,7 +466,9 @@
       "sources": [
         "Le Monde — 16 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Ancienne députée, ancienne ministre, ancienne présidente de Poitou-Charentes et candidate socialiste à la présidentielle de 2007. Elle a également été ministre de l’Écologie et se rattache à la famille socialiste, avec des thèmes récurrents liés à l’écologie, la démocratie participative et la justice sociale.",
+      "controversies": []
     },
     {
       "id": "raphael-glucksmann",
@@ -437,7 +491,9 @@
       "sources": [
         "Le Monde — 16 et 17 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Député européen, essayiste et cofondateur de Place publique. Il se situe dans la social-démocratie pro-européenne et met notamment en avant la justice fiscale, l’écologie, l’école, la défense européenne et le soutien à l’Ukraine.",
+      "controversies": []
     },
     {
       "id": "emmanuel-maurel",
@@ -460,7 +516,9 @@
       "sources": [
         "Le Monde — 16 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Député européen, ancien vice-président de la région Île-de-France et fondateur de la Gauche républicaine et socialiste après son départ du PS. Il défend une gauche républicaine critique du libéralisme économique et attachée à la souveraineté.",
+      "controversies": []
     },
     {
       "id": "anasse-kazib",
@@ -484,7 +542,9 @@
         "Site de campagne Anasse Kazib 2027",
         "Le Monde — 21 juin 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Cheminot, syndicaliste SUD-Rail et porte-parole de Révolution permanente, après un passage au NPA. Il se réclame du trotskisme et met en avant les salaires, les luttes sociales, l’expropriation des grands groupes et l’organisation des travailleurs.",
+      "controversies": []
     },
     {
       "id": "selma-labib",
@@ -507,7 +567,9 @@
       "sources": [
         "NPA-Révolutionnaires — candidature 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Militante du NPA-Révolutionnaires engagée dans la campagne présidentielle de son organisation. Elle se situe dans l’extrême gauche révolutionnaire, avec une orientation centrée sur les luttes sociales, les travailleurs et l’anticapitalisme.",
+      "controversies": []
     },
     {
       "id": "florian-philippot",
@@ -530,7 +592,9 @@
       "sources": [
         "Le Monde — suivi Présidentielle 2027"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Ancien député européen, ancien vice-président du Front national et fondateur des Patriotes. Il défend une ligne souverainiste mettant notamment en avant la sortie de l’Union européenne, l’indépendance nationale et le référendum.",
+      "controversies": []
     },
     {
       "id": "jean-lassalle",
@@ -553,7 +617,9 @@
       "sources": [
         "Le Monde — suivi Présidentielle 2027"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Ancien député des Pyrénées-Atlantiques, ancien maire de Lourdios-Ichère et candidat aux présidentielles de 2017 et 2022. Fondateur de Résistons !, il met en avant les territoires ruraux, les services publics de proximité et la souveraineté.",
+      "controversies": []
     },
     {
       "id": "benoit-mathieu",
@@ -577,7 +643,9 @@
         "Le Monde — 14 juin 2026",
         "France 3 — campagne 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Enseignant contractuel en mathématiques et diplômé en ingénierie agroalimentaire, sans parcours partisan antérieur revendiqué. Sa candidature citoyenne est centrée sur la démocratie directe, les référendums, les conventions citoyennes et une assemblée constituante.",
+      "controversies": []
     },
     {
       "id": "juan-branco",
@@ -600,7 +668,9 @@
       "sources": [
         "Le Monde — suivi Présidentielle 2027, mise à jour du 14 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Avocat et essayiste, fondateur du mouvement Les Ruches pour sa démarche présidentielle. Il présente un projet institutionnel et politique centré sur une transformation du fonctionnement démocratique et la participation citoyenne.",
+      "controversies": []
     },
     {
       "id": "francis-lalanne",
@@ -624,7 +694,9 @@
         "Site officiel Lalanne 2027",
         "Programme publié en septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Auteur-compositeur-interprète engagé dans plusieurs campagnes politiques et électorales avant sa candidature de 2027. Sa démarche met notamment en avant le référendum d’initiative citoyenne, la souveraineté nationale et une critique des institutions européennes.",
+      "controversies": []
     },
     {
       "id": "lydie-massard",
@@ -647,7 +719,9 @@
       "sources": [
         "Suivi Présidentielle 2027 — candidature déclarée en avril 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Députée européenne élue en 2023 et membre de l’Union démocratique bretonne. Issue du mouvement autonomiste breton, elle défend notamment le fédéralisme, la décentralisation et une autonomie accrue des territoires.",
+      "controversies": []
     },
     {
       "id": "nathalie-arthaud",
@@ -670,7 +744,9 @@
       "sources": [
         "Le Monde — 21 juin 2026"
       ],
-      "last_checked_at": "2026-09-22T13:50:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Enseignante d’économie-gestion, porte-parole de Lutte ouvrière et candidate aux présidentielles de 2012, 2017 et 2022. Elle défend un programme communiste révolutionnaire centré sur les travailleurs, les salaires, l’emploi et la contestation de la propriété capitaliste.",
+      "controversies": []
     },
     {
       "id": "nicolas-dupont-aignan",
@@ -694,7 +770,60 @@
         "Site officiel Dupont-Aignan 2027 — discours de rentrée du 19 septembre 2026",
         "Le Monde — 19 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T21:10:00+02:00"
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "bio": "Député de l’Essonne, ancien maire de Yerres et fondateur de Debout la France après avoir quitté l’UMP. Candidat en 2012, 2017 et 2022, il défend une ligne souverainiste autour de l’indépendance nationale, du protectionnisme, de la démocratie directe et de la sortie de l’Union européenne.",
+      "controversies": []
+    },
+    {
+      "id": "francois-asselineau",
+      "name": "François Asselineau",
+      "party": "Union populaire républicaine",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "bio": "Inspecteur général des finances, ancien haut fonctionnaire et ancien membre de cabinets ministériels, fondateur et président de l’Union populaire républicaine. Candidat en 2017, il défend une ligne souverainiste dont l’axe central est la sortie de la France de l’Union européenne, de l’euro et de l’OTAN.",
+      "program": {
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+      },
+      "controversies": [],
+      "sources": [
+        "UPR — lancement de campagne présidentielle 2027, 21 mars 2026",
+        "Le Monde — suivi Présidentielle 2027"
+      ],
+      "last_checked_at": "2026-09-22T23:27:00+02:00"
+    },
+    {
+      "id": "clara-egger",
+      "name": "Clara Egger",
+      "party": "Solution démocratique",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "bio": "Enseignante-chercheuse en relations internationales et cofondatrice de Solution démocratique. Déjà engagée dans la recherche de parrainages en 2022, elle présente en 2027 une candidature transpartisane centrée sur la démocratie directe et le référendum d’initiative citoyenne.",
+      "program": {
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Candidature mono-thématique centrée sur l’instauration du référendum d’initiative citoyenne (RIC), avec un calendrier de mise en œuvre présenté par Solution démocratique."
+      },
+      "controversies": [],
+      "sources": [
+        "Solution démocratique — annonce de candidature, 19 avril 2026"
+      ],
+      "last_checked_at": "2026-09-22T23:27:00+02:00"
     }
   ],
   "news": [
@@ -786,11 +915,830 @@
         "Le Monde"
       ],
       "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+    },
+    {
+      "id": "2026-08-24-glucksmann-programme",
+      "date": "2026-08-24",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Raphaël Glucksmann a confirmé sa candidature à la présidentielle et à la primaire du pôle social-démocrate, en présentant notamment des propositions sur la fiscalité, le travail, l’école et l’immigration.",
+      "sources": [
+        "Public Sénat"
+      ],
+      "url": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
+    },
+    {
+      "id": "2026-08-25-ecole-philippe-attal",
+      "date": "2026-08-25",
+      "candidate_ids": [
+        "edouard-philippe",
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Horizons",
+        "Renaissance"
+      ],
+      "summary": "Édouard Philippe et Gabriel Attal ont détaillé des propositions distinctes sur l’école, notamment sur l’autorité, le recrutement et la rémunération des enseignants.",
+      "sources": [
+        "Public Sénat"
+      ],
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-philippe-et-attal-font-de-lecole-un-nouveau-terrain-de-bataille-au-risque-dereinter-le-bilan-macron"
+    },
+    {
+      "id": "2026-08-30-lisnard-primaire-droite",
+      "date": "2026-08-30",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "David Lisnard a poursuivi sa campagne en défendant l’organisation d’une grande primaire de la droite et du centre.",
+      "sources": [
+        "Le Monde"
+      ],
+      "url": "https://www.lemonde.fr/politique/article/2026/08/30/presidentielle-2027-a-cannes-david-lisnard-bat-la-campagne-pour-une-grande-primaire-de-la-droite_6760742_823448.html"
+    },
+    {
+      "id": "2026-08-30-faure-primaire",
+      "date": "2026-08-30",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Olivier Faure a annoncé sa candidature à la primaire organisée par le Parti socialiste et Place publique pour la présidentielle de 2027.",
+      "sources": [
+        "La Tribune"
+      ],
+      "url": "https://www.latribune.fr/article/economie/29410693142792/presidentielle-2027-olivier-faure-candidat-a-la-primaire-de-la-gauche"
+    },
+    {
+      "id": "2026-09-06-roussel-candidature",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Fabien Roussel a annoncé sa candidature à l’élection présidentielle et dévoilé son affiche de campagne au journal de 20 heures de TF1.",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://www.tf1info.fr/politique/presidentielle-2027-fabien-roussel-devoile-son-affiche-de-campagne-en-exclusivite-au-20h-de-tf1-2462638.html"
+    },
+    {
+      "id": "2026-09-07-philippe-calendrier",
+      "date": "2026-09-07",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Édouard Philippe a proposé de dissocier l’élection présidentielle de la prise de fonctions en repoussant celle-ci à septembre, proposition qui a suscité des critiques de ses adversaires.",
+      "sources": [
+        "RTL",
+        "Le Monde"
+      ],
+      "url": "https://www.rtl.fr/actu/politique/se-reposer-decompresser-mais-pas-que-pourquoi-edouard-philippe-aimerait-repousser-la-prise-de-fonctions-du-president-de-la-republique-de-mai-a-septembre-7900671274"
+    },
+    {
+      "id": "2026-09-16-primaire-socialdemocrate",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "olivier-faure",
+        "jerome-guedj",
+        "segolene-royal",
+        "raphael-glucksmann",
+        "emmanuel-maurel"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique",
+        "Gauche républicaine et socialiste"
+      ],
+      "summary": "Le Parti socialiste a confirmé cinq candidatures à la primaire du pôle social-démocrate : Olivier Faure, Jérôme Guedj, Ségolène Royal, Raphaël Glucksmann et Emmanuel Maurel.",
+      "sources": [
+        "RTL",
+        "TF1 Info"
+      ],
+      "url": "https://www.rtl.fr/actu/politique/primaire-de-la-gauche-cinq-candidats-participeront-sans-le-depute-philippe-brun-suspendu-a-titre-conservatoire-du-ps-7900673034"
+    },
+    {
+      "id": "2026-09-17-zemmour-attal-philippe",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "eric-zemmour",
+        "gabriel-attal",
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Reconquête !",
+        "Renaissance",
+        "Horizons"
+      ],
+      "summary": "Éric Zemmour a confirmé son intention de concourir en 2027 et avancé une proposition sur l’expulsion de certains étrangers au chômage ; Gabriel Attal a défendu des « États-Unis d’Europe » ; Édouard Philippe a présenté un volet d’adaptation climatique.",
+      "sources": [
+        "TF1 Info",
+        "RTL"
+      ],
+      "url": "https://www.tf1info.fr/politique/en-direct-election-presidentielle-2027-zemmour-officialise-sa-candidature-attal-plaide-pour-des-etats-unis-d-europe-les-informations-vendredi-18-septembre-2026-2464869.html"
+    },
+    {
+      "id": "2026-09-20-ecologistes-strategie",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Les Écologistes ont débattu de leur stratégie présidentielle, entre maintien d’une candidature autonome de Marine Tondelier et rapprochement avec d’autres forces de gauche.",
+      "sources": [
+        "Le Monde"
+      ],
+      "url": "https://www.lemonde.fr/politique/article/2026/09/20/presidentielle-2027-chez-les-ecologistes-un-malaise-nourri-par-les-doutes-sur-leur-strategie-et-un-audit-interne_6778377_823448.html"
+    },
+    {
+      "id": "2026-09-21-attal-equipe",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "Gabriel Attal a présenté une partie de son équipe de campagne ; Agnès Pannier-Runacher et Paul Midy ont été désignés co-responsables de son programme présidentiel.",
+      "sources": [
+        "LCP"
+      ],
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ces-deputes-qui-vont-faire-la-campagne-de-gabriel-attal-442222"
     }
   ],
   "withdrawal_retention_days": 7,
   "withdrawal_rule": "À partir du 22 septembre 2026, un candidat qui se retire reste barré et consultable pendant 7 jours, puis son profil est supprimé de la liste. Les actualités partagées avec d’autres candidats restent conservées.",
-  "schema_version": 2,
+  "schema_version": 3,
   "day_timezone": "Europe/Paris",
-  "day_rule": "00:00:00–23:59:59 Europe/Paris"
+  "day_rule": "00:00:00–23:59:59 Europe/Paris",
+  "parties": [
+    {
+      "name": "Rassemblement national",
+      "candidate_ids": [
+        "marine-le-pen"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Reconquête !",
+      "candidate_ids": [
+        "eric-zemmour"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [
+        "TF1 Info",
+        "RTL"
+      ],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": [
+        "2026-09-17-zemmour-attal-philippe"
+      ]
+    },
+    {
+      "name": "Les Républicains",
+      "candidate_ids": [
+        "bruno-retailleau",
+        "xavier-bertrand"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Renaissance",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [
+        "Public Sénat",
+        "TF1 Info",
+        "RTL",
+        "LCP"
+      ],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": [
+        "2026-08-25-ecole-philippe-attal",
+        "2026-09-17-zemmour-attal-philippe",
+        "2026-09-21-attal-equipe"
+      ]
+    },
+    {
+      "name": "Horizons",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [
+        "Public Sénat",
+        "RTL",
+        "Le Monde",
+        "TF1 Info"
+      ],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": [
+        "2026-08-25-ecole-philippe-attal",
+        "2026-09-07-philippe-calendrier",
+        "2026-09-17-zemmour-attal-philippe"
+      ]
+    },
+    {
+      "name": "Nouvelle Énergie",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [
+        "Le Monde"
+      ],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": [
+        "2026-08-30-lisnard-primaire-droite"
+      ]
+    },
+    {
+      "name": "La France insoumise",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Parti communiste français",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [
+        "TF1 Info"
+      ],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": [
+        "2026-09-06-roussel-candidature"
+      ]
+    },
+    {
+      "name": "Les Écologistes",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [
+        "Le Monde"
+      ],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": [
+        "2026-09-20-ecologistes-strategie"
+      ]
+    },
+    {
+      "name": "Debout !",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Génération Écologie",
+      "candidate_ids": [
+        "delphine-batho"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Parti socialiste",
+      "candidate_ids": [
+        "karim-bouamrane",
+        "olivier-faure",
+        "jerome-guedj",
+        "segolene-royal"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [
+        "La Tribune",
+        "RTL",
+        "TF1 Info"
+      ],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": [
+        "2026-08-30-faure-primaire",
+        "2026-09-16-primaire-socialdemocrate"
+      ]
+    },
+    {
+      "name": "La Convention",
+      "candidate_ids": [
+        "bernard-cazeneuve"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Place publique",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [
+        "Public Sénat",
+        "RTL",
+        "TF1 Info"
+      ],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": [
+        "2026-08-24-glucksmann-programme",
+        "2026-09-16-primaire-socialdemocrate"
+      ]
+    },
+    {
+      "name": "Gauche républicaine et socialiste",
+      "candidate_ids": [
+        "emmanuel-maurel"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [
+        "RTL",
+        "TF1 Info"
+      ],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": [
+        "2026-09-16-primaire-socialdemocrate"
+      ]
+    },
+    {
+      "name": "Révolution permanente",
+      "candidate_ids": [
+        "anasse-kazib"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "NPA-Révolutionnaires",
+      "candidate_ids": [
+        "selma-labib"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Les Patriotes",
+      "candidate_ids": [
+        "florian-philippot"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Résistons !",
+      "candidate_ids": [
+        "jean-lassalle"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Sans étiquette",
+      "candidate_ids": [
+        "benoit-mathieu"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Les Ruches",
+      "candidate_ids": [
+        "juan-branco"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "France Libre",
+      "candidate_ids": [
+        "francis-lalanne"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Union démocratique bretonne",
+      "candidate_ids": [
+        "lydie-massard"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Lutte ouvrière",
+      "candidate_ids": [
+        "nathalie-arthaud"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Debout la France",
+      "candidate_ids": [
+        "nicolas-dupont-aignan"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Union populaire républicaine",
+      "candidate_ids": [
+        "francois-asselineau"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    },
+    {
+      "name": "Solution démocratique",
+      "candidate_ids": [
+        "clara-egger"
+      ],
+      "program": {
+        "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Agriculture": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
+      },
+      "controversies": [],
+      "sources": [],
+      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "news": []
+    }
+  ]
 }
