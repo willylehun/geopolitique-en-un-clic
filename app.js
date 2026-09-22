@@ -25,7 +25,11 @@ const state = {
   candidateId: null,
   electionPeriod: 'day',
   electionBucket: null,
-  electionVisibleCount: 10
+  electionVisibleCount: 10,
+  electionView: 'candidates',
+  candidateTab: 'news',
+  partyName: null,
+  partyTab: 'news'
 };
 
 const $ = q => document.querySelector(q);
@@ -350,11 +354,16 @@ function openElectionPicker() {
   state.electionPeriod = 'day';
   state.electionBucket = null;
   state.electionVisibleCount = 10;
+  state.electionView = 'candidates';
+  state.candidateTab = 'news';
+  state.partyName = null;
   $('#regionPage').hidden = true;
   $('#countryPage').hidden = true;
   $('#newsPage').hidden = true;
   $('#electionPage').hidden = false;
   $('#candidateContent').hidden = true;
+  $('#partyContent').hidden = true;
+  renderElectionMode();
   $('#candidatePickerLabel').textContent = 'Choisir un candidat';
   $('#candidateDropdown').hidden = false;
   $('#candidatePickerButton').setAttribute('aria-expanded', 'true');
@@ -365,6 +374,77 @@ function openElectionPicker() {
   renderCandidateList('');
   setTimeout(() => $('#candidateSearch').focus(), 50);
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderElectionMode() {
+  document.querySelectorAll('.election-mode-tab').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.electionView === state.electionView);
+    btn.onclick = () => {
+      state.electionView = btn.dataset.electionView;
+      $('#candidateArea').hidden = state.electionView !== 'candidates';
+      $('#partyArea').hidden = state.electionView !== 'parties';
+      $('#candidateContent').hidden = true;
+      $('#partyContent').hidden = true;
+      if (state.electionView === 'parties') renderPartyList('');
+    };
+  });
+  $('#candidateArea').hidden = state.electionView !== 'candidates';
+  $('#partyArea').hidden = state.electionView !== 'parties';
+}
+
+function getParties() {
+  const map = new Map();
+  for (const c of state.electionData?.candidates || []) {
+    if (!c.party) continue;
+    if (!map.has(c.party)) map.set(c.party, { name:c.party, candidate_ids:[], ...(state.electionData?.parties || []).find(p => p.name === c.party) });
+    map.get(c.party).candidate_ids = [...new Set([...(map.get(c.party).candidate_ids || []), c.id])];
+  }
+  for (const p of state.electionData?.parties || []) if (!map.has(p.name)) map.set(p.name, p);
+  return [...map.values()].sort((x,y)=>x.name.localeCompare(y.name,'fr'));
+}
+
+function renderPartyList(query='') {
+  const q=normalizeText(query), list=$('#partyList');
+  const parties=getParties().filter(p=>normalizeText(p.name).includes(q));
+  list.innerHTML=parties.length ? parties.map(p=>`<button type="button" class="candidate-option" data-party="${escapeHtml(p.name)}"><span class="candidate-option-name">${escapeHtml(p.name)}</span><span class="candidate-option-status">${(p.candidate_ids||[]).length} candidat(s) suivi(s)</span></button>`).join('') : '<div class="country-no-result">Aucun parti trouvé</div>';
+  list.querySelectorAll('[data-party]').forEach(b=>b.onclick=()=>selectParty(b.dataset.party));
+}
+
+function selectParty(name) {
+  state.partyName=name; state.partyTab='news'; state.electionPeriod='day'; state.electionBucket=null;
+  $('#partyPickerLabel').textContent=name; $('#partyDropdown').hidden=true; $('#partyContent').hidden=false;
+  $('#partyName').textContent=name;
+  renderPartyPage();
+}
+
+function renderInfoCards(items, emptyText) {
+  if (!items?.length) return `<div class="empty"><span>◎</span><p>${escapeHtml(emptyText)}</p></div>`;
+  return items.map(x=>`<article class="program-card"><p>${escapeHtml(typeof x==='string'?x:(x.summary||x.text||''))}</p>${x.sources?.length?`<div class="sources">(${x.sources.map(escapeHtml).join(' • ')})</div>`:''}</article>`).join('');
+}
+
+function renderCandidateTab() {
+  const c=(state.electionData?.candidates||[]).find(x=>x.id===state.candidateId); if(!c)return;
+  document.querySelectorAll('.candidate-detail-tab').forEach(b=>{b.classList.toggle('active',b.dataset.candidateTab===state.candidateTab);b.onclick=()=>{state.candidateTab=b.dataset.candidateTab;renderCandidateTab();};});
+  $('#candidateNewsPanel').hidden=state.candidateTab!=='news'; $('#candidateProgramPanel').hidden=state.candidateTab!=='program';
+  $('#candidateBioPanel').hidden=state.candidateTab!=='bio'; $('#candidateControversyPanel').hidden=state.candidateTab!=='controversies';
+  if(state.candidateTab==='bio') $('#candidateBio').innerHTML=c.bio? `<article class="program-card"><p>${escapeHtml(c.bio)}</p></article>` : renderInfoCards([], 'Parcours en cours de documentation par la veille.');
+  if(state.candidateTab==='controversies') $('#candidateControversies').innerHTML=renderInfoCards(c.controversies, 'Aucune controverse suffisamment documentée dans les sources suivies.');
+}
+
+function partyNews() {
+  const p=getParties().find(x=>x.name===state.partyName); if(!p)return[];
+  const ids=p.candidate_ids||[];
+  return (state.electionData?.news||[]).filter(n=>(n.party_names||[]).includes(p.name)||(n.candidate_ids||[]).some(id=>ids.includes(id))).filter(electionItemInBucket);
+}
+
+function renderPartyPage() {
+  renderElectionPeriods(); renderElectionHistory();
+  const p=getParties().find(x=>x.name===state.partyName); if(!p)return;
+  document.querySelectorAll('.party-detail-tab').forEach(b=>{b.classList.toggle('active',b.dataset.partyTab===state.partyTab);b.onclick=()=>{state.partyTab=b.dataset.partyTab;renderPartyPage();};});
+  $('#partyNewsPanel').hidden=state.partyTab!=='news'; $('#partyProgramPanel').hidden=state.partyTab!=='program'; $('#partyControversyPanel').hidden=state.partyTab!=='controversies';
+  if(state.partyTab==='news'){const items=partyNews();$('#partyNewsList').innerHTML=items.length?items.map(i=>`<article class="news-item"><div class="meta"><span class="tag">${escapeHtml(formatIsoDateFr(i.date))}</span></div><p class="news-summary">${escapeHtml(i.summary)}</p><div class="sources">(${(i.sources||[]).map(escapeHtml).join(' • ')})</div></article>`).join(''):'<div class="empty"><span>◎</span><p>Aucune actualité enregistrée pour ce parti sur cette période.</p></div>';}
+  $('#partyProgram').innerHTML=p.program?Object.entries(p.program).map(([k,v])=>`<article class="program-card"><h4>${escapeHtml(k)}</h4><p>${escapeHtml(v)}</p></article>`).join(''):renderInfoCards([], 'Programme du parti en cours de documentation par la veille.');
+  $('#partyControversies').innerHTML=renderInfoCards(p.controversies, 'Aucune controverse suffisamment documentée dans les sources suivies.');
 }
 
 function candidateLabel(candidate) {
@@ -432,6 +512,7 @@ function selectCandidate(candidateId) {
   $('#candidateStatus').textContent = candidate.status_label || '';
   $('#candidateStatus').className = 'candidate-status status-' + (candidate.status || 'unknown');
 
+  state.candidateTab = 'news';
   renderElectionPage();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -528,7 +609,7 @@ function renderElectionHistory() {
   select.onchange = e => {
     state.electionBucket = e.target.value;
     state.electionVisibleCount = 10;
-    renderElectionNews();
+    if (state.electionView === 'parties') renderPartyPage(); else renderElectionNews();
   };
 }
 
@@ -599,6 +680,7 @@ function renderElectionPage() {
   renderElectionHistory();
   renderElectionNews();
   renderCandidateProgram();
+  renderCandidateTab();
 }
 
 function renderPeriods() {
@@ -810,6 +892,8 @@ $('#candidatePickerButton').onclick = () => {
 };
 
 $('#candidateSearch').addEventListener('input', e => renderCandidateList(e.target.value));
+$('#partyPickerButton').onclick = () => { const d=$('#partyDropdown'); d.hidden=!d.hidden; $('#partyPickerButton').setAttribute('aria-expanded',String(!d.hidden)); if(!d.hidden) $('#partySearch').focus(); };
+$('#partySearch').addEventListener('input', e => renderPartyList(e.target.value));
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
