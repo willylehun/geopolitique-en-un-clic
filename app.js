@@ -108,7 +108,18 @@ function renderRegionGrid() {
     </button>
   `;
 
-  grid.innerHTML = regionCards + countryCard;
+  const electionCard = `
+    <button class="region-card election-entry-card" id="electionEntry">
+      <span class="region-card-icon">🗳️</span>
+      <span class="region-card-copy">
+        <strong>Élection française</strong>
+        <small>Présidentielle 2027 : candidats, actualités et programmes</small>
+      </span>
+      <span class="region-arrow">›</span>
+    </button>
+  `;
+
+  grid.innerHTML = regionCards + countryCard + electionCard;
   grid.querySelectorAll('[data-region]').forEach(btn => {
     btn.onclick = () => openRegion(btn.dataset.region);
   });
@@ -356,6 +367,16 @@ function candidateLabel(candidate) {
   return `${candidate.name} (${candidate.party})`;
 }
 
+function isCandidateVisible(candidate) {
+  if (candidate.status !== 'withdrawn') return true;
+  if (!candidate.withdrawn_at) return true;
+  const today = parisTodayISO();
+  const start = new Date(candidate.withdrawn_at + 'T12:00:00Z');
+  const end = new Date(today + 'T12:00:00Z');
+  const ageDays = Math.floor((end - start) / 86400000);
+  return ageDays < 7;
+}
+
 function renderCandidateList(query = '') {
   const list = $('#candidateList');
   const data = state.electionData;
@@ -365,7 +386,7 @@ function renderCandidateList(query = '') {
   }
   const q = normalizeText(query);
   const candidates = [...(data.candidates || [])]
-    .filter(c => normalizeText(candidateLabel(c)).includes(q))
+    .filter(c => isCandidateVisible(c) && normalizeText(candidateLabel(c)).includes(q))
     .sort((a, b) => {
       if ((a.status === 'withdrawn') !== (b.status === 'withdrawn')) return a.status === 'withdrawn' ? 1 : -1;
       return a.name.localeCompare(b.name, 'fr');
