@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-title" content="GéoClic" />
   <title>Géopolitique en un Clic</title>
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="stylesheet" href="styles.css?v=10" />
+  <link rel="stylesheet" href="styles.css?v=11" />
 </head>
 <body>
   <header id="brandHome" class="brand-hero home-mode" title="Retour au menu">
@@ -77,6 +77,12 @@
         <p id="electionOfficialNote">Candidatures déclarées, annoncées, primaires et retraits.</p>
       </div>
 
+      <div class="period-tabs election-mode-tabs" role="tablist" aria-label="Rubrique électorale">
+        <button data-election-view="candidates" class="election-mode-tab active">Candidats</button>
+        <button data-election-view="parties" class="election-mode-tab">Partis politiques</button>
+      </div>
+
+      <div id="candidateArea">
       <section class="candidate-picker-card">
         <button id="candidatePickerButton" class="country-picker-button" type="button" aria-expanded="false">
           <span id="candidatePickerLabel">Choisir un candidat</span>
@@ -100,6 +106,13 @@
           </div>
         </div>
 
+        <div class="period-tabs candidate-detail-tabs" role="tablist" aria-label="Informations candidat">
+          <button data-candidate-tab="news" class="candidate-detail-tab active">Actualités</button>
+          <button data-candidate-tab="bio" class="candidate-detail-tab">Parcours</button>
+          <button data-candidate-tab="controversies" class="candidate-detail-tab">Controverses</button>
+          <button data-candidate-tab="program" class="candidate-detail-tab">Programme</button>
+        </div>
+        <section id="candidateNewsPanel">
         <section class="period-panel">
           <div class="period-tabs" role="tablist" aria-label="Période électorale">
             <button data-election-period="day" class="election-period-tab active">Jour</button>
@@ -111,8 +124,11 @@
 
         <section id="electionNewsHeader" class="summary-header"></section>
         <section id="electionNewsList" class="news-list"></section>
+        </section>
+        <section id="candidateBioPanel" class="program-section" hidden><div class="program-heading"><span class="eyebrow">PARCOURS</span><h3>Postes, mouvance et idées</h3></div><div id="candidateBio" class="program-grid"></div></section>
+        <section id="candidateControversyPanel" class="program-section" hidden><div class="program-heading"><span class="eyebrow">CONTROVERSES</span><h3>Faits et controverses documentés</h3></div><div id="candidateControversies" class="program-grid"></div></section>
 
-        <section class="program-section">
+        <section id="candidateProgramPanel" class="program-section" hidden>
           <div class="program-heading">
             <span class="eyebrow">PROGRAMME</span>
             <h3>Résumé par secteur</h3>
@@ -121,6 +137,21 @@
           <div id="candidateSources" class="candidate-sources"></div>
         </section>
       </section>
+      </div>
+
+      <div id="partyArea" hidden>
+        <section class="candidate-picker-card">
+          <button id="partyPickerButton" class="country-picker-button" type="button" aria-expanded="false"><span id="partyPickerLabel">Choisir un parti politique</span><span>⌄</span></button>
+          <div id="partyDropdown" class="country-dropdown" hidden><div class="country-search-wrap"><span>⌕</span><input id="partySearch" type="search" placeholder="Rechercher un parti…" autocomplete="off" /></div><div id="partyList" class="country-list"></div></div>
+        </section>
+        <section id="partyContent" hidden>
+          <div class="candidate-profile"><div><span class="candidate-status">PARTI POLITIQUE</span><h2 id="partyName"></h2></div></div>
+          <div class="period-tabs party-detail-tabs"><button data-party-tab="news" class="party-detail-tab active">Actualités</button><button data-party-tab="controversies" class="party-detail-tab">Controverses</button><button data-party-tab="program" class="party-detail-tab">Programme</button></div>
+          <section id="partyNewsPanel"><section class="period-panel"><div class="period-tabs"><button data-election-period="day" class="election-period-tab active">Jour</button><button data-election-period="week" class="election-period-tab">Semaine</button><button data-election-period="month" class="election-period-tab">Mois</button></div><select id="electionHistorySelectParty" aria-label="Période parti"></select></section><section id="partyNewsList" class="news-list"></section></section>
+          <section id="partyControversyPanel" class="program-section" hidden><div id="partyControversies" class="program-grid"></div></section>
+          <section id="partyProgramPanel" class="program-section" hidden><div id="partyProgram" class="program-grid"></div></section>
+        </section>
+      </div>
     </section>
 
     <section id="newsPage" class="page" hidden>
@@ -152,7 +183,7 @@
     <strong>By W</strong>
   </footer>
 
-  <script src="countries.js?v=10" defer></script>
-  <script src="app.js?v=10" defer></script>
+  <script src="countries.js?v=11" defer></script>
+  <script src="app.js?v=11" defer></script>
 </body>
 </html>
