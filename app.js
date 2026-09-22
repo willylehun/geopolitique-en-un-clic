@@ -445,8 +445,8 @@ function renderPartyCandidates() {
   const candidates=(state.electionData?.candidates||[]).filter(c=>(p.candidate_ids||[]).includes(c.id));
   box.innerHTML=candidates.length ? candidates.map(c=>`
     <button type="button" class="candidate-option party-candidate-link ${c.status==='withdrawn'?'withdrawn':''}" data-party-candidate="${escapeHtml(c.id)}">
-      <span class="candidate-option-name">${escapeHtml(c.name)}</span>
-      <span class="candidate-option-status">${escapeHtml(c.status_label||'')} · ${escapeHtml(c.party||'')}</span>
+      <span class="candidate-option-name"><strong>${escapeHtml(c.name)}</strong></span>
+      <span class="candidate-option-status">${escapeHtml(c.status_label||'')}</span>
     </button>`).join('') : '<div class="country-no-result">Aucun candidat relié actuellement.</div>';
   box.querySelectorAll('[data-party-candidate]').forEach(b=>b.onclick=()=>{
     state.electionView='candidates'; renderElectionMode(); selectCandidate(b.dataset.partyCandidate);
@@ -454,6 +454,7 @@ function renderPartyCandidates() {
 }
 
 function renderPartyPage() {
+  renderPartyCandidates();
   renderElectionPeriods(); renderElectionHistory();
   const p=getParties().find(x=>x.name===state.partyName); if(!p)return;
   document.querySelectorAll('.party-detail-tab').forEach(b=>{b.classList.toggle('active',b.dataset.partyTab===state.partyTab);b.onclick=()=>{state.partyTab=b.dataset.partyTab;renderPartyPage();};});
