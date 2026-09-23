@@ -108,9 +108,18 @@ function getBuckets() {
     ...state.data.filter(x => x.period === state.period).map(x => x.bucket)
   ].filter(Boolean))];
   if (state.period === 'day') {
-    return all
-      .filter(x => bucketDateValue(x) > 0 && !/^\d{4}-\d{2}-\d{2}$/.test(String(x)))
-      .sort((x,y) => bucketDateValue(y) - bucketDateValue(x));
+    const byDate = new Map();
+    for (const raw of all) {
+      const ts = bucketDateValue(raw);
+      if (!ts) continue;
+      const iso = new Date(ts).toISOString().slice(0,10);
+      byDate.set(iso, formatIsoDateFr(iso));
+    }
+    const today = parisTodayISO();
+    if (!byDate.has(today)) byDate.set(today, formatIsoDateFr(today));
+    return [...byDate.entries()]
+      .sort((a,b) => b[0].localeCompare(a[0]))
+      .map(([,label]) => label);
   }
   if (state.period === 'week') {
     const current = currentWeekLabel();
@@ -924,7 +933,7 @@ async function loadData() {
     state.data = [...uniqueItems.values()];
 
     state.buckets = {
-      day: [...new Set(payloads.flatMap(p => (p.buckets && p.buckets.day) || []))].sort((x,y) => bucketDateValue(x) - bucketDateValue(y)),
+      day: [...new Set(payloads.flatMap(p => (p.buckets && p.buckets.day) || []))],
       week: [...new Set(payloads.flatMap(p => (p.buckets && p.buckets.week) || []))],
       month: [...new Set(payloads.flatMap(p => (p.buckets && p.buckets.month) || []))]
     };
