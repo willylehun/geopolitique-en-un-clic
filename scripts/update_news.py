@@ -92,12 +92,16 @@ def load_missing_countries():
 
 def country_backfill(start_date,end_date):
     rows=[]; found=set()
-    multiplier=max(1,min(int(os.getenv("FETCH_MULTIPLIER","1") or "1"),4))
+    multiplier=max(1,min(int(os.getenv("FETCH_MULTIPLIER","1") or "1"),8))
     themes=[
         IMPACT_QUERY,
         "politique diplomatie gouvernement élection relations internationales",
         "économie commerce énergie sanctions investissement",
         "sécurité conflit défense migration climat technologie",
+        "santé société droits humains justice éducation",
+        "environnement catastrophe agriculture alimentation eau",
+        "industrie infrastructures transports numérique innovation",
+        "ONU Union européenne sommet accord coopération aide humanitaire",
     ][:multiplier]
     for country in load_missing_countries():
         articles=[]
