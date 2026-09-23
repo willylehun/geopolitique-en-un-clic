@@ -78,11 +78,24 @@
       </div>
 
       <div class="period-tabs election-mode-tabs" role="tablist" aria-label="Rubrique électorale">
-        <button data-election-view="candidates" class="election-mode-tab active">Candidats</button>
+        <button data-election-view="news" class="election-mode-tab active">Actualités</button>
+        <button data-election-view="candidates" class="election-mode-tab">Candidats</button>
         <button data-election-view="parties" class="election-mode-tab">Partis politiques</button>
       </div>
 
-      <div id="candidateArea">
+      <div id="electionUnifiedNewsArea">
+        <section class="period-panel">
+          <div class="period-tabs" role="tablist" aria-label="Période actualités présidentielle">
+            <button data-unified-election-period="day" class="unified-election-period-tab active">Jour</button>
+            <button data-unified-election-period="week" class="unified-election-period-tab">Semaine</button>
+            <button data-unified-election-period="month" class="unified-election-period-tab">Mois</button>
+          </div>
+          <select id="unifiedElectionHistorySelect" aria-label="Choisir une période"></select>
+        </section>
+        <section id="unifiedElectionNewsList" class="news-list"></section>
+      </div>
+
+      <div id="candidateArea" hidden>
       <section class="candidate-picker-card">
         <button id="candidatePickerButton" class="country-picker-button" type="button" aria-expanded="false">
           <span id="candidatePickerLabel">Choisir un candidat</span>
