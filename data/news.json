@@ -1,11 +1,13 @@
 {
-  "generated_at": "2026-09-23T12:51:37.124458+02:00",
+  "generated_at": "2026-09-23T13:17:08.862631+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
   "buckets": {
     "day": [
       "23 septembre 2026",
+      "22 septembre 2026",
+      "21 septembre 2026",
       "20 septembre 2026",
       "19 septembre 2026",
       "18 septembre 2026",
@@ -2797,6 +2799,310 @@
       "regions": [
         "International"
       ],
+      "countries": [
+        "Argentine"
+      ],
+      "period": "day",
+      "bucket": "4 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Milei, dopé par Trump, durcit le ton sur la revendication argentine sur les Malouines",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ScXc0VTd6cGVudFdTVHNPaWJJQTd4ZTZQVFVhbFFPLXQzUDNZX2U4dnoxSkx5OUJPYXpDb3libWUzNVVZcEl5Y3psRQ?oc=5",
+      "published_at": "2026-09-04T04:59:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Bosnie-Herzégovine"
+      ],
+      "period": "day",
+      "bucket": "2 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Bosnie : plusieurs milliers de personnes rendent hommage à l’ex-chef militaire serbe bosnien Ratko Mladic, condamné pour génocide",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQVjg1czQ3bUFfX0dGbjdKcndhcUNYVWZjNkRNVXVON1NZWFF1SjJYdG56X1Zqc2szSHl6SW1uanVfWURmelkyeVN3djk4QnFrSGVfeG13ZmdoQ1VqNVhZUHVwR0FKSFRSZmd0RUFKbkdyWTVheGZGenpjX1NyRnE5Y2ZpQWlTUDlQWjRwR2Z6dXBWa19LdnZXNHhmRjQxVldSNFZ6c25kOEpCeG1kbnE5TnpIcVJCdVcwSzNZYXBmcjVMOWwzYklkRGE2TDJIQ3RNRnBRNVNhNjMtSk12VlBsalRBb2JGci1PWHNYYjN4dlhyYzllRXpXYnlvRFZ4VDhYcHJiNWs0WnM?oc=5",
+      "published_at": "2026-09-02T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Au Brésil, les craintes d’une instrumentalisation politique du scandale de la Banque Master",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSmZtTkJ0cEtjY1NwQmp1bHRaY1dkZExOX0NMQmdZb0ZFY3Z2UFFKcWhfbGxOcWI4NGlYQ0lHdnVCeGVaSWR2Qk9TRlJrdmlLck9IUEFid0Jkb0o4ZUNuTWtOSF83bHZ0YzlPSzIybklNZDV2ZWhUX3RhU0ZnSEZ3cWNEaG1PN1c2UHVWNU1CcjEzUTFFQWVvSzVERTM0UVkwODROLWxqMDJCQmpvTHhfSDduS3lfUlpGN21LNTNXdlYzQkhNdU5DMVk5T1Z2VURWbjRHQmczcjd4T2hQX0VHQjlPbGNrTnl5MkFYa0J6WnZqZDU5Mk1V?oc=5",
+      "published_at": "2026-09-16T11:30:22+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "period": "day",
+      "bucket": "8 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Onze pays européens et le Canada sanctionnent la politique d’Israël en Cisjordanie qui menace de « détruire la solution à deux Etats »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPQjlTc2NCYjN3a3Y4WFR3S2xSY3pjZkJmbXFyRExYSG00ckVGTGRzbFprTktscVJTaDFINFdNN05LRXBUbGo0YVo5NXRWOUtHVnlfbnNQY2N4SjZDNU44NW1RTUxrVDlFZk1mMGxncUYtSnhpU3RwaXh4VHgyQ2lQN3NNcVBsdENVRXFRZ0NPRUNSZW5WT29Hc0tZU1N0WW9BX0dCT3A1YWt2T2N0SE9SZGhvRnZnczNCVWlkdF83WGljbFVPU0pfbFpOajNUYWs2enhVaDNTUmQ5R29KdlV5Q0NmZFY1QnNoMjc3S1d2eFlWQmpQQVNHb3NVeFNJQk5XemNnUjFTcnhWQjBmb2JoT0NCMFlOSllMSWNWdQ?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord"
+      ],
+      "period": "day",
+      "bucket": "21 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Selon un rapport, des ouvriers nord-coréens fabriquent des drones militaires en Russie",
+      "sources": [
+        "nhk.or.jp"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85emRibFFuYkFJdlh5S2pmZ3ZiV3E1eDNZeWlMU1lHcVlMblk2V0tTWlUxdGdfTGR2UXI4QzB3VUFzNzFWVjFCMmRWZzBLaVF3WnBNbnNCSFpVODJtWUlWUzV4eGpVNWM?oc=5",
+      "published_at": "2026-09-21T16:39:53+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Émirats arabes unis"
+      ],
+      "period": "day",
+      "bucket": "5 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis sanctionnent une banque turque pour avoir prétendument facilité l'envoi de fonds à l'Iran",
+      "sources": [
+        "nhk.or.jp"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85SHlMRkpBQWhOem10Z0VRZS1QbkVTWTNBSWUxdEhOMnhQU3k4RUFhNkFleWd0YUJTZHhOZFpObERmQmxXNUFFaWNVMm1GSW5weGtiWUh0RVRjalQxbHdIcGJQU2JpYW8?oc=5",
+      "published_at": "2026-09-05T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "10 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "Licensable picture: FRANCE-CLERMONT-FERRAND-CENTRAL-BANK",
+      "sources": [
+        "reutersconnect.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdm9ac29QdXpxUWg4OGY5eUhwOHJYUU1WSVl4QmZVNVVFU1kyQ0VfRjYySlU1WFVVOEEwcmhodWJlV3k0QW5IWGt0WHpDMVB5ZngwMkY5RGFyam1QM3B0S0hKdzZ2ZUxmektVa3lUSTduWU5GR1pUakE4Q1ZnUkxiMEdTVXNqZzFXaFVUWUlKYzM0RHEwSl9nLWtfa3pQWGhGRmRyZVBsV1hfTmNBdmRadndhck13X3pWXzhKSnRUOWR5R2tEbU0tY2NNUGdReXB3?oc=5",
+      "published_at": "2026-09-10T05:24:09+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Gabon"
+      ],
+      "period": "day",
+      "bucket": "21 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Pétrole au Gabon : Assala Energy, le pari gagnant d’Oligui Nguema",
+      "sources": [
+        "Jeune Afrique"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVDhFMTlVYVNHUGV5NDRUYUNUNl9RcVhjRXR0SG5wT1ZvUTE3U0hDWWtYNEN5bElnMFEyVW52RUZNTnVfdk9HUENKMVVRLUdJc3ZDR3dwVHMzQmxVNVo5d3RpN3V3MnR2SmNqdDhFa1QzY0ZZX29DUzBGcENZYW1Fay1iNEdEMmMxbjNaVl8zU3BKcFdmZGlaTUZ0V3ltYW9pbTRTN0IweE41dV85TjhKOU5mXzFjc0ZtYmJPMA?oc=5",
+      "published_at": "2026-09-21T18:32:26+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "US touts its power, avoids Iran war at G20 Energy meeting",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Pd2VzTDJEcnFsOFF6MS1nc2g0T3FuOW9KUFV1OXJBT0RfSmZFcjZDTVo1RWYxUEdSU3Znc2U1Q3lmR0NTM053RlJZWQ?oc=5",
+      "published_at": "2026-09-20T21:38:49+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Liban"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Depuis le Liban, Carlos Ghosn échoue à faire dérailler son procès pour corruption avec Rachida Dati",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCbzJsQnEwazFwSkc3Z0xJNnJiSnZPZC1oMmp2VVZCdWhsWU1nNW5CU1hrX3phd2lna3ptalNKMDE1dktSaGJqNmpONA?oc=5",
+      "published_at": "2026-09-16T21:56:34+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Slovaquie"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La France pose son veto et bloque la prolongation des sanctions contre un oligarque russo-ouzbek",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNX2tqc2ZYV3JtZUdidS1EWUhTSWFieExqRWdHNDQwWmJXOC1TdUJUVGJUVHRWbk5BS1BrejJpU3BBcnczUXlkZ1VZZDdTYVFYemtUeXdnVEU3S2ZIbjQwV0Z6RlR1TXlsZVZ4Q3pRR2VHXzFTQU5pX0ZwQ0ttQzdubk95Z2pfcTlxUlp0bWh6NUlrRmY5a0RUM1hkTVBGMXFtNUtvX1NtM0EwbVdKN1l5TFJYNG0wM1lxY1N2OWFaS3pLMms?oc=5",
+      "published_at": "2026-09-15T17:18:30+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Soudan du Sud"
+      ],
+      "period": "day",
+      "bucket": "23 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Soudan du Sud : le président dissout le gouvernement à trois mois d’élections toujours incertaines",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZ01uMGNVY0JZYXRrQzZGbm92MVFIdWY5dzlicHlZRjd4Q3QyNHFuRVpNM3U3bnliTWg5QV9zaXFkbmdPRGJNSzV1MkhtYlo0cTlUMWVublpfcDdISHBsZ2RPbkpubUlFX1VBQ0tZM18zcGNhQW5Rb1pkakRGYWxsOHBKTFhnR0ZralB2TkxlYTR6cU9tT3hmVGJBdFNKT2NPaGgwSEIyRUo3aloxd2JNNEFudnA1UzFzSEtCdkRndWlycmNjQ1pPQ3hzMFFzZ0lBc1lEdzNoNENMTTBJMXRkRk02cWUyV2lEMnBtUDd1X0RlRjZlMDhV?oc=5",
+      "published_at": "2026-09-23T03:03:03+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Tadjikistan"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Vidéo. Le Tadjikistan célèbre le 35e anniversaire de son indépendance",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWkk1SmVWVkE4dFBlVFFpempJbjlJZ0dhZW1kV1JKb3F2RlYxQ28yckdlaGgxRXJWNEhoRUVPUi10cmtJYkpjOVUxTHU0aU5BNWg5QmhUMmhkVkJTV3VCbVdGbGlSd29wa1I4OEpTV1IxM0s1MUtIU2lJVEktcnpTOFhtdC1ZYTdwWTdrVVI1QzFzTHBRSzB4S3prbGp4ZTlOR2d4OXJn?oc=5",
+      "published_at": "2026-09-18T15:00:40+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Tchéquie"
+      ],
+      "period": "day",
+      "bucket": "22 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Tchéquie plafonne les marges sur le carburant et réduit la taxe sur le diesel",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTFZmbXZ2SjRydDlZdzV6RktlczNETGxpd0YzaVlpcG93THZ3ckVCaHU5WHFjeEh2RktNQVBVdnJCOEJORy1LM0FraXNpYnRoRzlGLWNOWFZBNTZzZzZlNWhKRmxNRmRoNEFMbExkWjZ3MnZ3cUo3QWNrRzNURUI4ZVE0aXE3emZTOG0zQmlMYmJ5Mk5uTWlqZUJ2eVgwQWZpOXB5eHdPNWFpdXhhcVpEUXdadFBSdw?oc=5",
+      "published_at": "2026-09-22T11:37:50+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "US invites Venezuela to G20 energy summit",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBOMHNjQXk5dWVxZV9wLWV0bll0V2xQMEYzb3F5X1dzUDU0dlhnZG9WYXIwNVF3eDhXaTFTVXdPZ3FjdHlnU2V2a01nbw?oc=5",
+      "published_at": "2026-09-14T22:11:39+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "day",
+      "bucket": "5 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "US energy firms dominate Venezuela deals worth billions",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9nNlI3SkhmUHQzWHNJay1Wa2RoT0p4aGRSSUpyYXBGOUhoaFNkcXZTdWRoM1pUUm01QVZyZ3FfNnZ2LUI2RHhQZnF5UQ?oc=5",
+      "published_at": "2026-09-05T04:23:25+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
       "period": "week",
       "bucket": "13–19 septembre 2026",
       "score": 9,
@@ -3089,6 +3395,101 @@
       "regions": [
         "International"
       ],
+      "countries": [
+        "Gabon"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 21 septembre 2026 au 27 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Pétrole au Gabon : Assala Energy, le pari gagnant d’Oligui Nguema",
+      "sources": [
+        "Jeune Afrique"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVDhFMTlVYVNHUGV5NDRUYUNUNl9RcVhjRXR0SG5wT1ZvUTE3U0hDWWtYNEN5bElnMFEyVW52RUZNTnVfdk9HUENKMVVRLUdJc3ZDR3dwVHMzQmxVNVo5d3RpN3V3MnR2SmNqdDhFa1QzY0ZZX29DUzBGcENZYW1Fay1iNEdEMmMxbjNaVl8zU3BKcFdmZGlaTUZ0V3ltYW9pbTRTN0IweE41dV85TjhKOU5mXzFjc0ZtYmJPMA?oc=5",
+      "published_at": "2026-09-21T18:32:26+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 21 septembre 2026 au 27 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Selon un rapport, des ouvriers nord-coréens fabriquent des drones militaires en Russie",
+      "sources": [
+        "nhk.or.jp"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85emRibFFuYkFJdlh5S2pmZ3ZiV3E1eDNZeWlMU1lHcVlMblk2V0tTWlUxdGdfTGR2UXI4QzB3VUFzNzFWVjFCMmRWZzBLaVF3WnBNbnNCSFpVODJtWUlWUzV4eGpVNWM?oc=5",
+      "published_at": "2026-09-21T16:39:53+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Tchéquie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 21 septembre 2026 au 27 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Tchéquie plafonne les marges sur le carburant et réduit la taxe sur le diesel",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTFZmbXZ2SjRydDlZdzV6RktlczNETGxpd0YzaVlpcG93THZ3ckVCaHU5WHFjeEh2RktNQVBVdnJCOEJORy1LM0FraXNpYnRoRzlGLWNOWFZBNTZzZzZlNWhKRmxNRmRoNEFMbExkWjZ3MnZ3cUo3QWNrRzNURUI4ZVE0aXE3emZTOG0zQmlMYmJ5Mk5uTWlqZUJ2eVgwQWZpOXB5eHdPNWFpdXhhcVpEUXdadFBSdw?oc=5",
+      "published_at": "2026-09-22T11:37:50+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Soudan du Sud"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 21 septembre 2026 au 27 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Soudan du Sud : le président dissout le gouvernement à trois mois d’élections toujours incertaines",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZ01uMGNVY0JZYXRrQzZGbm92MVFIdWY5dzlicHlZRjd4Q3QyNHFuRVpNM3U3bnliTWg5QV9zaXFkbmdPRGJNSzV1MkhtYlo0cTlUMWVublpfcDdISHBsZ2RPbkpubUlFX1VBQ0tZM18zcGNhQW5Rb1pkakRGYWxsOHBKTFhnR0ZralB2TkxlYTR6cU9tT3hmVGJBdFNKT2NPaGgwSEIyRUo3aloxd2JNNEFudnA1UzFzSEtCdkRndWlycmNjQ1pPQ3hzMFFzZ0lBc1lEdzNoNENMTTBJMXRkRk02cWUyV2lEMnBtUDd1X0RlRjZlMDhV?oc=5",
+      "published_at": "2026-09-23T03:03:03+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Slovaquie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La France pose son veto et bloque la prolongation des sanctions contre un oligarque russo-ouzbek",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNX2tqc2ZYV3JtZUdidS1EWUhTSWFieExqRWdHNDQwWmJXOC1TdUJUVGJUVHRWbk5BS1BrejJpU3BBcnczUXlkZ1VZZDdTYVFYemtUeXdnVEU3S2ZIbjQwV0Z6RlR1TXlsZVZ4Q3pRR2VHXzFTQU5pX0ZwQ0ttQzdubk95Z2pfcTlxUlp0bWh6NUlrRmY5a0RUM1hkTVBGMXFtNUtvX1NtM0EwbVdKN1l5TFJYNG0wM1lxY1N2OWFaS3pLMms?oc=5",
+      "published_at": "2026-09-15T17:18:30+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
       "period": "week",
       "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
@@ -3167,6 +3568,44 @@
       "regions": [
         "International"
       ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "US touts its power, avoids Iran war at G20 Energy meeting",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Pd2VzTDJEcnFsOFF6MS1nc2g0T3FuOW9KUFV1OXJBT0RfSmZFcjZDTVo1RWYxUEdSU3Znc2U1Q3lmR0NTM053RlJZWQ?oc=5",
+      "published_at": "2026-09-20T21:38:49+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "US invites Venezuela to G20 energy summit",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBOMHNjQXk5dWVxZV9wLWV0bll0V2xQMEYzb3F5X1dzUDU0dlhnZG9WYXIwNVF3eDhXaTFTVXdPZ3FjdHlnU2V2a01nbw?oc=5",
+      "published_at": "2026-09-14T22:11:39+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
       "period": "week",
       "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
@@ -3234,6 +3673,63 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNEdrb1pvbmdKdUhOQWNBVkZQUjNXNVNnU1J0OExhaGNiS1hyZGJ2V2NQdGJ3Y0wzYmpBZE5UUk51cVc0MFl2Qk9YSFcweklEakhtYWtxeDVMUTg0RHliVWVrRUQ2dXNaaFMwUThBaTM0enk4ekxTV1hKbHdrRzJ5SnM3N1U?oc=5",
       "origin": "rss",
       "language": "fr"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Au Brésil, les craintes d’une instrumentalisation politique du scandale de la Banque Master",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSmZtTkJ0cEtjY1NwQmp1bHRaY1dkZExOX0NMQmdZb0ZFY3Z2UFFKcWhfbGxOcWI4NGlYQ0lHdnVCeGVaSWR2Qk9TRlJrdmlLck9IUEFid0Jkb0o4ZUNuTWtOSF83bHZ0YzlPSzIybklNZDV2ZWhUX3RhU0ZnSEZ3cWNEaG1PN1c2UHVWNU1CcjEzUTFFQWVvSzVERTM0UVkwODROLWxqMDJCQmpvTHhfSDduS3lfUlpGN21LNTNXdlYzQkhNdU5DMVk5T1Z2VURWbjRHQmczcjd4T2hQX0VHQjlPbGNrTnl5MkFYa0J6WnZqZDU5Mk1V?oc=5",
+      "published_at": "2026-09-16T11:30:22+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Liban"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Depuis le Liban, Carlos Ghosn échoue à faire dérailler son procès pour corruption avec Rachida Dati",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCbzJsQnEwazFwSkc3Z0xJNnJiSnZPZC1oMmp2VVZCdWhsWU1nNW5CU1hrX3phd2lna3ptalNKMDE1dktSaGJqNmpONA?oc=5",
+      "published_at": "2026-09-16T21:56:34+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Tadjikistan"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Vidéo. Le Tadjikistan célèbre le 35e anniversaire de son indépendance",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWkk1SmVWVkE4dFBlVFFpempJbjlJZ0dhZW1kV1JKb3F2RlYxQ28yckdlaGgxRXJWNEhoRUVPUi10cmtJYkpjOVUxTHU0aU5BNWg5QmhUMmhkVkJTV3VCbVdGbGlSd29wa1I4OEpTV1IxM0s1MUtIU2lJVEktcnpTOFhtdC1ZYTdwWTdrVVI1QzFzTHBRSzB4S3prbGp4ZTlOR2d4OXJn?oc=5",
+      "published_at": "2026-09-18T15:00:40+02:00",
+      "origin": "rss"
     },
     {
       "regions": [
@@ -3253,6 +3749,120 @@
       "regions": [
         "International"
       ],
+      "countries": [
+        "France"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "Licensable picture: FRANCE-CLERMONT-FERRAND-CENTRAL-BANK",
+      "sources": [
+        "reutersconnect.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdm9ac29QdXpxUWg4OGY5eUhwOHJYUU1WSVl4QmZVNVVFU1kyQ0VfRjYySlU1WFVVOEEwcmhodWJlV3k0QW5IWGt0WHpDMVB5ZngwMkY5RGFyam1QM3B0S0hKdzZ2ZUxmektVa3lUSTduWU5GR1pUakE4Q1ZnUkxiMEdTVXNqZzFXaFVUWUlKYzM0RHEwSl9nLWtfa3pQWGhGRmRyZVBsV1hfTmNBdmRadndhck13X3pWXzhKSnRUOWR5R2tEbU0tY2NNUGdReXB3?oc=5",
+      "published_at": "2026-09-10T05:24:09+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Onze pays européens et le Canada sanctionnent la politique d’Israël en Cisjordanie qui menace de « détruire la solution à deux Etats »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPQjlTc2NCYjN3a3Y4WFR3S2xSY3pjZkJmbXFyRExYSG00ckVGTGRzbFprTktscVJTaDFINFdNN05LRXBUbGo0YVo5NXRWOUtHVnlfbnNQY2N4SjZDNU44NW1RTUxrVDlFZk1mMGxncUYtSnhpU3RwaXh4VHgyQ2lQN3NNcVBsdENVRXFRZ0NPRUNSZW5WT29Hc0tZU1N0WW9BX0dCT3A1YWt2T2N0SE9SZGhvRnZnczNCVWlkdF83WGljbFVPU0pfbFpOajNUYWs2enhVaDNTUmQ5R29KdlV5Q0NmZFY1QnNoMjc3S1d2eFlWQmpQQVNHb3NVeFNJQk5XemNnUjFTcnhWQjBmb2JoT0NCMFlOSllMSWNWdQ?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "US energy firms dominate Venezuela deals worth billions",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9nNlI3SkhmUHQzWHNJay1Wa2RoT0p4aGRSSUpyYXBGOUhoaFNkcXZTdWRoM1pUUm01QVZyZ3FfNnZ2LUI2RHhQZnF5UQ?oc=5",
+      "published_at": "2026-09-05T04:23:25+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Bosnie-Herzégovine"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Bosnie : plusieurs milliers de personnes rendent hommage à l’ex-chef militaire serbe bosnien Ratko Mladic, condamné pour génocide",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQVjg1czQ3bUFfX0dGbjdKcndhcUNYVWZjNkRNVXVON1NZWFF1SjJYdG56X1Zqc2szSHl6SW1uanVfWURmelkyeVN3djk4QnFrSGVfeG13ZmdoQ1VqNVhZUHVwR0FKSFRSZmd0RUFKbkdyWTVheGZGenpjX1NyRnE5Y2ZpQWlTUDlQWjRwR2Z6dXBWa19LdnZXNHhmRjQxVldSNFZ6c25kOEpCeG1kbnE5TnpIcVJCdVcwSzNZYXBmcjVMOWwzYklkRGE2TDJIQ3RNRnBRNVNhNjMtSk12VlBsalRBb2JGci1PWHNYYjN4dlhyYzllRXpXYnlvRFZ4VDhYcHJiNWs0WnM?oc=5",
+      "published_at": "2026-09-02T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Argentine"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Milei, dopé par Trump, durcit le ton sur la revendication argentine sur les Malouines",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ScXc0VTd6cGVudFdTVHNPaWJJQTd4ZTZQVFVhbFFPLXQzUDNZX2U4dnoxSkx5OUJPYXpDb3libWUzNVVZcEl5Y3psRQ?oc=5",
+      "published_at": "2026-09-04T04:59:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Émirats arabes unis"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis sanctionnent une banque turque pour avoir prétendument facilité l'envoi de fonds à l'Iran",
+      "sources": [
+        "nhk.or.jp"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85SHlMRkpBQWhOem10Z0VRZS1QbkVTWTNBSWUxdEhOMnhQU3k4RUFhNkFleWd0YUJTZHhOZFpObERmQmxXNUFFaWNVMm1GSW5weGtiWUh0RVRjalQxbHdIcGJQU2JpYW8?oc=5",
+      "published_at": "2026-09-05T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
       "period": "month",
       "bucket": "Septembre 2026",
       "score": 9,
@@ -3261,6 +3871,25 @@
       "sources": [
         "Reuters"
       ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Slovaquie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La France pose son veto et bloque la prolongation des sanctions contre un oligarque russo-ouzbek",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNX2tqc2ZYV3JtZUdidS1EWUhTSWFieExqRWdHNDQwWmJXOC1TdUJUVGJUVHRWbk5BS1BrejJpU3BBcnczUXlkZ1VZZDdTYVFYemtUeXdnVEU3S2ZIbjQwV0Z6RlR1TXlsZVZ4Q3pRR2VHXzFTQU5pX0ZwQ0ttQzdubk95Z2pfcTlxUlp0bWh6NUlrRmY5a0RUM1hkTVBGMXFtNUtvX1NtM0EwbVdKN1l5TFJYNG0wM1lxY1N2OWFaS3pLMms?oc=5",
+      "published_at": "2026-09-15T17:18:30+02:00",
       "origin": "rss"
     },
     {
@@ -3345,6 +3974,44 @@
       "regions": [
         "International"
       ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "US touts its power, avoids Iran war at G20 Energy meeting",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Pd2VzTDJEcnFsOFF6MS1nc2g0T3FuOW9KUFV1OXJBT0RfSmZFcjZDTVo1RWYxUEdSU3Znc2U1Q3lmR0NTM053RlJZWQ?oc=5",
+      "published_at": "2026-09-20T21:38:49+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "US invites Venezuela to G20 energy summit",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBOMHNjQXk5dWVxZV9wLWV0bll0V2xQMEYzb3F5X1dzUDU0dlhnZG9WYXIwNVF3eDhXaTFTVXdPZ3FjdHlnU2V2a01nbw?oc=5",
+      "published_at": "2026-09-14T22:11:39+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
       "period": "month",
       "bucket": "Septembre 2026",
       "score": 8,
@@ -3387,6 +4054,44 @@
       "regions": [
         "International"
       ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "US energy firms dominate Venezuela deals worth billions",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9nNlI3SkhmUHQzWHNJay1Wa2RoT0p4aGRSSUpyYXBGOUhoaFNkcXZTdWRoM1pUUm01QVZyZ3FfNnZ2LUI2RHhQZnF5UQ?oc=5",
+      "published_at": "2026-09-05T04:23:25+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "Licensable picture: FRANCE-CLERMONT-FERRAND-CENTRAL-BANK",
+      "sources": [
+        "reutersconnect.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdm9ac29QdXpxUWg4OGY5eUhwOHJYUU1WSVl4QmZVNVVFU1kyQ0VfRjYySlU1WFVVOEEwcmhodWJlV3k0QW5IWGt0WHpDMVB5ZngwMkY5RGFyam1QM3B0S0hKdzZ2ZUxmektVa3lUSTduWU5GR1pUakE4Q1ZnUkxiMEdTVXNqZzFXaFVUWUlKYzM0RHEwSl9nLWtfa3pQWGhGRmRyZVBsV1hfTmNBdmRadndhck13X3pWXzhKSnRUOWR5R2tEbU0tY2NNUGdReXB3?oc=5",
+      "published_at": "2026-09-10T05:24:09+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
       "period": "month",
       "bucket": "Septembre 2026",
       "score": 7,
@@ -3412,6 +4117,215 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNEdrb1pvbmdKdUhOQWNBVkZQUjNXNVNnU1J0OExhaGNiS1hyZGJ2V2NQdGJ3Y0wzYmpBZE5UUk51cVc0MFl2Qk9YSFcweklEakhtYWtxeDVMUTg0RHliVWVrRUQ2dXNaaFMwUThBaTM0enk4ekxTV1hKbHdrRzJ5SnM3N1U?oc=5",
       "origin": "rss",
       "language": "fr"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Gabon"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Pétrole au Gabon : Assala Energy, le pari gagnant d’Oligui Nguema",
+      "sources": [
+        "Jeune Afrique"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVDhFMTlVYVNHUGV5NDRUYUNUNl9RcVhjRXR0SG5wT1ZvUTE3U0hDWWtYNEN5bElnMFEyVW52RUZNTnVfdk9HUENKMVVRLUdJc3ZDR3dwVHMzQmxVNVo5d3RpN3V3MnR2SmNqdDhFa1QzY0ZZX29DUzBGcENZYW1Fay1iNEdEMmMxbjNaVl8zU3BKcFdmZGlaTUZ0V3ltYW9pbTRTN0IweE41dV85TjhKOU5mXzFjc0ZtYmJPMA?oc=5",
+      "published_at": "2026-09-21T18:32:26+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Bosnie-Herzégovine"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Bosnie : plusieurs milliers de personnes rendent hommage à l’ex-chef militaire serbe bosnien Ratko Mladic, condamné pour génocide",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQVjg1czQ3bUFfX0dGbjdKcndhcUNYVWZjNkRNVXVON1NZWFF1SjJYdG56X1Zqc2szSHl6SW1uanVfWURmelkyeVN3djk4QnFrSGVfeG13ZmdoQ1VqNVhZUHVwR0FKSFRSZmd0RUFKbkdyWTVheGZGenpjX1NyRnE5Y2ZpQWlTUDlQWjRwR2Z6dXBWa19LdnZXNHhmRjQxVldSNFZ6c25kOEpCeG1kbnE5TnpIcVJCdVcwSzNZYXBmcjVMOWwzYklkRGE2TDJIQ3RNRnBRNVNhNjMtSk12VlBsalRBb2JGci1PWHNYYjN4dlhyYzllRXpXYnlvRFZ4VDhYcHJiNWs0WnM?oc=5",
+      "published_at": "2026-09-02T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Argentine"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Milei, dopé par Trump, durcit le ton sur la revendication argentine sur les Malouines",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ScXc0VTd6cGVudFdTVHNPaWJJQTd4ZTZQVFVhbFFPLXQzUDNZX2U4dnoxSkx5OUJPYXpDb3libWUzNVVZcEl5Y3psRQ?oc=5",
+      "published_at": "2026-09-04T04:59:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Émirats arabes unis"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis sanctionnent une banque turque pour avoir prétendument facilité l'envoi de fonds à l'Iran",
+      "sources": [
+        "nhk.or.jp"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85SHlMRkpBQWhOem10Z0VRZS1QbkVTWTNBSWUxdEhOMnhQU3k4RUFhNkFleWd0YUJTZHhOZFpObERmQmxXNUFFaWNVMm1GSW5weGtiWUh0RVRjalQxbHdIcGJQU2JpYW8?oc=5",
+      "published_at": "2026-09-05T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Onze pays européens et le Canada sanctionnent la politique d’Israël en Cisjordanie qui menace de « détruire la solution à deux Etats »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPQjlTc2NCYjN3a3Y4WFR3S2xSY3pjZkJmbXFyRExYSG00ckVGTGRzbFprTktscVJTaDFINFdNN05LRXBUbGo0YVo5NXRWOUtHVnlfbnNQY2N4SjZDNU44NW1RTUxrVDlFZk1mMGxncUYtSnhpU3RwaXh4VHgyQ2lQN3NNcVBsdENVRXFRZ0NPRUNSZW5WT29Hc0tZU1N0WW9BX0dCT3A1YWt2T2N0SE9SZGhvRnZnczNCVWlkdF83WGljbFVPU0pfbFpOajNUYWs2enhVaDNTUmQ5R29KdlV5Q0NmZFY1QnNoMjc3S1d2eFlWQmpQQVNHb3NVeFNJQk5XemNnUjFTcnhWQjBmb2JoT0NCMFlOSllMSWNWdQ?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Au Brésil, les craintes d’une instrumentalisation politique du scandale de la Banque Master",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSmZtTkJ0cEtjY1NwQmp1bHRaY1dkZExOX0NMQmdZb0ZFY3Z2UFFKcWhfbGxOcWI4NGlYQ0lHdnVCeGVaSWR2Qk9TRlJrdmlLck9IUEFid0Jkb0o4ZUNuTWtOSF83bHZ0YzlPSzIybklNZDV2ZWhUX3RhU0ZnSEZ3cWNEaG1PN1c2UHVWNU1CcjEzUTFFQWVvSzVERTM0UVkwODROLWxqMDJCQmpvTHhfSDduS3lfUlpGN21LNTNXdlYzQkhNdU5DMVk5T1Z2VURWbjRHQmczcjd4T2hQX0VHQjlPbGNrTnl5MkFYa0J6WnZqZDU5Mk1V?oc=5",
+      "published_at": "2026-09-16T11:30:22+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Liban"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Depuis le Liban, Carlos Ghosn échoue à faire dérailler son procès pour corruption avec Rachida Dati",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCbzJsQnEwazFwSkc3Z0xJNnJiSnZPZC1oMmp2VVZCdWhsWU1nNW5CU1hrX3phd2lna3ptalNKMDE1dktSaGJqNmpONA?oc=5",
+      "published_at": "2026-09-16T21:56:34+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Tadjikistan"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Vidéo. Le Tadjikistan célèbre le 35e anniversaire de son indépendance",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWkk1SmVWVkE4dFBlVFFpempJbjlJZ0dhZW1kV1JKb3F2RlYxQ28yckdlaGgxRXJWNEhoRUVPUi10cmtJYkpjOVUxTHU0aU5BNWg5QmhUMmhkVkJTV3VCbVdGbGlSd29wa1I4OEpTV1IxM0s1MUtIU2lJVEktcnpTOFhtdC1ZYTdwWTdrVVI1QzFzTHBRSzB4S3prbGp4ZTlOR2d4OXJn?oc=5",
+      "published_at": "2026-09-18T15:00:40+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Selon un rapport, des ouvriers nord-coréens fabriquent des drones militaires en Russie",
+      "sources": [
+        "nhk.or.jp"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85emRibFFuYkFJdlh5S2pmZ3ZiV3E1eDNZeWlMU1lHcVlMblk2V0tTWlUxdGdfTGR2UXI4QzB3VUFzNzFWVjFCMmRWZzBLaVF3WnBNbnNCSFpVODJtWUlWUzV4eGpVNWM?oc=5",
+      "published_at": "2026-09-21T16:39:53+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Tchéquie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Tchéquie plafonne les marges sur le carburant et réduit la taxe sur le diesel",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTFZmbXZ2SjRydDlZdzV6RktlczNETGxpd0YzaVlpcG93THZ3ckVCaHU5WHFjeEh2RktNQVBVdnJCOEJORy1LM0FraXNpYnRoRzlGLWNOWFZBNTZzZzZlNWhKRmxNRmRoNEFMbExkWjZ3MnZ3cUo3QWNrRzNURUI4ZVE0aXE3emZTOG0zQmlMYmJ5Mk5uTWlqZUJ2eVgwQWZpOXB5eHdPNWFpdXhhcVpEUXdadFBSdw?oc=5",
+      "published_at": "2026-09-22T11:37:50+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Soudan du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Soudan du Sud : le président dissout le gouvernement à trois mois d’élections toujours incertaines",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZ01uMGNVY0JZYXRrQzZGbm92MVFIdWY5dzlicHlZRjd4Q3QyNHFuRVpNM3U3bnliTWg5QV9zaXFkbmdPRGJNSzV1MkhtYlo0cTlUMWVublpfcDdISHBsZ2RPbkpubUlFX1VBQ0tZM18zcGNhQW5Rb1pkakRGYWxsOHBKTFhnR0ZralB2TkxlYTR6cU9tT3hmVGJBdFNKT2NPaGgwSEIyRUo3aloxd2JNNEFudnA1UzFzSEtCdkRndWlycmNjQ1pPQ3hzMFFzZ0lBc1lEdzNoNENMTTBJMXRkRk02cWUyV2lEMnBtUDd1X0RlRjZlMDhV?oc=5",
+      "published_at": "2026-09-23T03:03:03+02:00",
+      "origin": "rss"
     },
     {
       "regions": [
