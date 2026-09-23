@@ -144,8 +144,8 @@ def parse_bucket_date(bucket):
 
 def build_generated(start_date,end_date):
     generated=[]
-    multiplier=max(1,min(int(os.getenv("FETCH_MULTIPLIER","1") or "1"),8))
     multiplier=max(1,min(int(os.getenv("REGION_FETCH_MULTIPLIER",os.getenv("FETCH_MULTIPLIER","1")) or "1"),8))
+    themes=[
         None,
         "politique diplomatie gouvernement élection relations internationales",
         "économie commerce énergie sanctions investissement",
