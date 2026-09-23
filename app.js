@@ -94,9 +94,18 @@ function bucketDateValue(bucket) {
 }
 
 function currentWeekLabel() {
-  const today = parisTodayISO();
-  const [y,m,d] = today.split('-').map(Number);
-  return weekBucket(today);
+  return weekBucket(parisTodayISO());
+}
+
+function weekLabelFr(bucket) {
+  const raw = String(bucket || '');
+  if (raw.includes('|')) {
+    const [start,end] = raw.split('|');
+    return `Semaine du ${formatIsoDateFr(start)} au ${formatIsoDateFr(end)}`;
+  }
+  const isoDates = raw.match(/\d{4}-\d{2}-\d{2}/g);
+  if (isoDates && isoDates.length >= 2) return `Semaine du ${formatIsoDateFr(isoDates[0])} au ${formatIsoDateFr(isoDates[1])}`;
+  return raw;
 }
 
 function currentMonthLabel() {
@@ -123,7 +132,13 @@ function getBuckets() {
   }
   if (state.period === 'week') {
     const current = currentWeekLabel();
-    return all.filter(x => normalizeText(x) === normalizeText(current));
+    const currentStart = current.split('|')[0];
+    const matches = all.filter(x => {
+      if (String(x).includes('|')) return x === current;
+      const dates = String(x).match(/\d{4}-\d{2}-\d{2}/g);
+      return dates ? dates[0] === currentStart : false;
+    });
+    return matches.length ? matches : [current];
   }
   if (state.period === 'month') {
     const current = currentMonthLabel();
@@ -770,16 +785,16 @@ function renderHistory() {
   }
 
   if (state.period === 'day') {
-    const todayTs = bucketDateValue(formatIsoDateFr(parisTodayISO()));
-    state.bucket = buckets.find(b => bucketDateValue(b) === todayTs) || buckets[0];
+    state.bucket = buckets[0];
   } else if (!state.bucket || !buckets.includes(state.bucket)) {
     state.bucket = buckets[0];
   }
 
   select.disabled = false;
-  select.innerHTML = buckets.map(b =>
-    `<option value="${escapeHtml(b)}" ${b === state.bucket ? 'selected' : ''}>${escapeHtml(b)}</option>`
-  ).join('');
+  select.innerHTML = buckets.map(b => {
+    const label = state.period === 'week' ? weekLabelFr(b) : b;
+    return `<option value="${escapeHtml(b)}" ${b === state.bucket ? 'selected' : ''}>${escapeHtml(label)}</option>`;
+  }).join('');
   select.value = state.bucket;
 
   select.onchange = e => {
