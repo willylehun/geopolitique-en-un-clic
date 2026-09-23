@@ -40,7 +40,8 @@ jobs:
           fi
       - name: Construire la veille
         env:
-          BACKFILL_MONTH: ${{ steps.mode.outputs.backfill }}\n          FETCH_MULTIPLIER: "4"
+          BACKFILL_MONTH: ${{ steps.mode.outputs.backfill }}
+          FETCH_MULTIPLIER: "4"
         run: python scripts/update_news.py
       - name: Enregistrer les nouvelles données
         shell: bash
