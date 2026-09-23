@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T22:22:16.234420+02:00",
+  "generated_at": "2026-09-24T00:16:38.995327+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -20,6 +20,7 @@
       "10 septembre 2026",
       "9 septembre 2026",
       "8 septembre 2026",
+      "7 septembre 2026",
       "5 septembre 2026",
       "4 septembre 2026",
       "3 septembre 2026",
@@ -60,6 +61,7 @@
     "day:21 septembre 2026": "Journée civile : 21/09 00:00 → 21/09 23:59",
     "day:22 septembre 2026": "Journée civile : 22/09 00:00 → 22/09 23:59",
     "day:23 septembre 2026": "Journée civile : 23/09 00:00 → 23/09 23:59",
+    "day:24 septembre 2026": "Journée civile : 24/09 00:00 → 24/09 23:59",
     "week:Semaine du 21 septembre 2026 au 27 septembre 2026": "Toutes les actualités conservées de cette semaine",
     "week:Semaine du 14 septembre 2026 au 20 septembre 2026": "Toutes les actualités conservées de cette semaine",
     "week:Semaine du 7 septembre 2026 au 13 septembre 2026": "Toutes les actualités conservées de cette semaine",
@@ -3151,6 +3153,73 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWGtURFVMemdyeUpaRXdraE1DZ0lDcVQ2dnEtRTdzUlMyendfRmFHQ1M0ajNSNTVveWVYUUIyTlNtUUx5YjJQbk5SNGdPTkJJbTRKWmRMOGMwRDlqdkRLV1lhcGxjVHBVWUhGY2Z1Vk9VMDFlVkpmNHhlX2ZIZ2ZPamlkTWtGSE5mMkVZRWVocnhCQnljTEZjc2VjT2RZelhyN0tkdnBMdmtLZll5aXJCLWc1MXMteVNhUWotSzhtcUNTWE5JU09CbE5lWGE?oc=5",
       "published_at": "2026-09-23T16:56:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "7 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "En Israël, les risques inédits des élections législatives du 27 octobre",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZkFhbzBic0ZMTEhYMHFDbEEyODNCZjlCSUkzUW5hWEczUENGUmV0eXBRR3d6TXpodm1KQ0xHMzlpa1Bpa2FXLXZjWkJoYThoR3hXOUtkcFRUd3NiVWZUTlN4T01TZV9lUXFlbmFfU0x0QzVpblh4em04Y2JZaGR6SG5zNVFoOVhsUU9tVjEtbjBwcG16eFdvaFhpSzYxM2E1UktPSllfaXpFVy10UU1pdjhtS2Y2Slh6LTRjS0xKa01lam15S09qdjJtbkhiSzEwLUE?oc=5",
+      "published_at": "2026-09-07T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "8 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Cisjordanie occupée : 12 pays, dont la France, veulent sanctionner le commerce avec les colonies",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaGJfcmMzMHYtR3JHOUxOQWNONkVod2hHcS0zam00TkgydnpKSk1fVk1YTUxMam5NVVI2dDhwX1QyZ2VNZ2Z6Rjg5SERESm1TYVpYWVVtUFF4TmhLQlpwVzdLelNGWnQweVhkXzl2SlZxdGI5VVA3a0lQVjN1S2IwX25TQ0dHLTVsMVczUFBVOUFBMG90Nm8wN3RhWHV0WlM5c05CdEdoNWRMWFQ4VHdGWXVZWHhrdU01aWR2bVkxSW15OUV3RXFvNjBlQVFtQ2pmWkdkNERn?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "7 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Tentative de coup d'État au Niger : la Russie se montre-t-elle plus efficace pour protéger ses alliés que pour combattre ses ennemis en Afrique de l'Ouest ?",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0WEFROVZyem9hcmNzNHZ3R3JaN0haWURHZlAwbUNIVTNPQ0xPYkxkaWdUa1ZiMV9WTnYxU180b3NDTzVOSW45TEhOZ09LRjVkdUpjMEQ4S0hybUpsTUHSAWNBVV95cUxPUTRwUE9WYTM0Umh3UDNKZzItbDE2c2JNUnZ2NWNFdVVpakNZRzdVU2g0ME5kbHl5MXM4djIxNW5vdnJianViNEtPUDRpUkJtU1ZOanE1NmtuUU1ySWxwMEdQN2s?oc=5",
+      "published_at": "2026-09-07T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Lituanie"
+      ],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le drone abattu par l'Otan en Lituanie provenait \"très probablement\" de Russie",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORmtYcGVGZ0RjQ2pySVVxOEFSX2ZmMUh5UEE0bFpMOVprMG93aGJDdTJLWWhlMjJCMDJld2I5bmdTUlZvaF90X09TSU05XzdRTEc5QzJjcU9ZcU5Jb1l6c1RjcnNvNlVRNXo2N0l2bFplbUk5Z1YxbFN3dHd3dzM1a3M2Z2MtQVJFdkg0QXFlMkJNY0FYeEVVRUM0TE5lQjRZVjlrbkl3aUFnZnlGOWgxb2pCV1hYUmN1SHQ3SHdhb2k?oc=5",
+      "published_at": "2026-09-15T09:00:00+02:00",
       "origin": "rss"
     },
     {
