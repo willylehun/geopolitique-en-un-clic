@@ -57,9 +57,9 @@ CATEGORIES=[
 def fr_date(d): return f"{d.day} {FR_MONTHS[d.month-1]} {d.year}"
 def month_bucket(d): return f"{FR_MONTHS[d.month-1].capitalize()} {d.year}"
 def week_bucket(d):
-    mon=d-timedelta(days=d.weekday()); sun=mon+timedelta(days=6)
-    if mon.month==sun.month:return f"{mon.day}–{sun.day} {FR_MONTHS[mon.month-1]} {sun.year}"
-    return f"{fr_date(mon)} – {fr_date(sun)}"
+    mon=d-timedelta(days=d.weekday())
+    sun=mon+timedelta(days=6)
+    return f"Semaine du {fr_date(mon)} au {fr_date(sun)}"
 
 def score(title):
     t=" "+title.lower()+" "
@@ -219,8 +219,8 @@ def main():
         d=start_date+timedelta(days=i)
         s=datetime.combine(d,dtime(0,0),PARIS); e=datetime.combine(d,dtime(23,59),PARIS)
         coverage[f"day:{fr_date(d)}"]=f"Journée civile : {s.strftime('%d/%m %H:%M')} → {e.strftime('%d/%m %H:%M')}"
-    for w in week_names: coverage[f"week:{w}"]="Condensé automatique de la semaine"
-    for m in month_names: coverage[f"month:{m}"]="Condensé automatique du mois"
+    for w in week_names: coverage[f"week:{w}"]="Toutes les actualités conservées de cette semaine"
+    for m in month_names: coverage[f"month:{m}"]="Toutes les actualités conservées de ce mois"
 
     out={
       "generated_at":now.isoformat(),"timezone":"Europe/Paris",
