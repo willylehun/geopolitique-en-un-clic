@@ -83,10 +83,12 @@ function clickableSummary(item) {
 }
 
 function bucketDateValue(bucket) {
-  const months = {janvier:0,février:1,mars:2,avril:3,mai:4,juin:5,juillet:6,août:7,septembre:8,octobre:9,novembre:10,décembre:11};
-  const m = String(bucket || '').toLowerCase().match(/^(\d{1,2})\s+([a-zéûôîàèùç]+)\s+(\d{4})$/);
-  if (m && months[m[2]] !== undefined) return Date.UTC(Number(m[3]), months[m[2]], Number(m[1]));
-  const iso = String(bucket || '').match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const raw = String(bucket || '').trim().toLowerCase();
+  const normalized = raw.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const months = {janvier:0,fevrier:1,mars:2,avril:3,mai:4,juin:5,juillet:6,aout:7,septembre:8,octobre:9,novembre:10,decembre:11};
+  const fr = normalized.match(/^(\d{1,2})\s+([a-z]+)\s+(\d{4})$/);
+  if (fr && months[fr[2]] !== undefined) return Date.UTC(Number(fr[3]), months[fr[2]], Number(fr[1]));
+  const iso = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);
   if (iso) return Date.UTC(Number(iso[1]), Number(iso[2])-1, Number(iso[3]));
   return 0;
 }
@@ -116,10 +118,8 @@ function getBuckets() {
       byDate.set(iso, formatIsoDateFr(iso));
     }
     const today = parisTodayISO();
-    if (!byDate.has(today)) byDate.set(today, formatIsoDateFr(today));
-    return [...byDate.entries()]
-      .sort((a,b) => b[0].localeCompare(a[0]))
-      .map(([,label]) => label);
+    byDate.set(today, formatIsoDateFr(today));
+    return [...byDate.keys()].sort((a,b) => b.localeCompare(a)).map(iso => byDate.get(iso));
   }
   if (state.period === 'week') {
     const current = currentWeekLabel();
@@ -761,30 +761,26 @@ function renderHistory() {
   const select = $('#historySelect');
   const buckets = getBuckets();
 
-  if (!state.bucket || !buckets.includes(state.bucket)) {
-    if (state.period === 'day') {
-      const today = parisTodayISO();
-      state.bucket = buckets.find(b => {
-        const t = bucketDateValue(b);
-        const [y,m,d] = today.split('-').map(Number);
-        return t === Date.UTC(y,m-1,d);
-      }) || buckets[0] || null;
-    } else {
-      state.bucket = buckets[0] || null;
-    }
-  }
-
   if (!buckets.length) {
+    state.bucket = null;
     select.innerHTML = '<option>Aucun historique</option>';
     select.disabled = true;
     $('#coverageText').textContent = '';
     return;
   }
 
+  if (state.period === 'day') {
+    const todayTs = bucketDateValue(formatIsoDateFr(parisTodayISO()));
+    state.bucket = buckets.find(b => bucketDateValue(b) === todayTs) || buckets[0];
+  } else if (!state.bucket || !buckets.includes(state.bucket)) {
+    state.bucket = buckets[0];
+  }
+
   select.disabled = false;
   select.innerHTML = buckets.map(b =>
     `<option value="${escapeHtml(b)}" ${b === state.bucket ? 'selected' : ''}>${escapeHtml(b)}</option>`
   ).join('');
+  select.value = state.bucket;
 
   select.onchange = e => {
     state.bucket = e.target.value;
@@ -792,7 +788,6 @@ function renderHistory() {
     state.countryThreshold = 5;
     renderNews();
   };
-
   updateCoverage();
 }
 
