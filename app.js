@@ -131,14 +131,27 @@ function getBuckets() {
     return [...byDate.keys()].sort((a,b) => b.localeCompare(a)).map(iso => byDate.get(iso));
   }
   if (state.period === 'week') {
+    const canonical = new Map();
+    for (const raw of all) {
+      const text = String(raw);
+      if (text.includes('|')) {
+        canonical.set(text, text);
+        continue;
+      }
+      const dates = text.match(/\d{4}-\d{2}-\d{2}/g);
+      if (dates && dates.length) canonical.set(weekBucket(dates[0]), text);
+      else {
+        const m = normalizeText(text).match(/^semaine du (\d{1,2}) ([a-z]+) (\d{4}) au /);
+        if (m) {
+          const monthMap={janvier:1,fevrier:2,mars:3,avril:4,mai:5,juin:6,juillet:7,aout:8,septembre:9,octobre:10,novembre:11,decembre:12};
+          const mm=monthMap[m[2]];
+          if (mm) canonical.set(weekBucket(`${m[3]}-${String(mm).padStart(2,'0')}-${String(Number(m[1])).padStart(2,'0')}`), text);
+        }
+      }
+    }
     const current = currentWeekLabel();
-    const currentStart = current.split('|')[0];
-    const matches = all.filter(x => {
-      if (String(x).includes('|')) return x === current;
-      const dates = String(x).match(/\d{4}-\d{2}-\d{2}/g);
-      return dates ? dates[0] === currentStart : false;
-    });
-    return matches.length ? matches : [current];
+    if (!canonical.has(current)) canonical.set(current, current);
+    return [...canonical.keys()].sort((a,b) => b.localeCompare(a));
   }
   if (state.period === 'month') {
     const current = currentMonthLabel();
@@ -624,6 +637,11 @@ function monthBucket(iso) {
   return iso.slice(0, 7);
 }
 
+function monthBucketLabel(iso) {
+  const [y,m] = iso.split('-').map(Number);
+  return new Intl.DateTimeFormat('fr-FR',{month:'long',year:'numeric',timeZone:'Europe/Paris'}).format(new Date(Date.UTC(y,m-1,1,12)));
+}
+
 function electionBuckets() {
   const news = state.electionData?.news || [];
   const today = parisTodayISO();
@@ -824,12 +842,29 @@ function renderNews() {
   } else if (state.region === 'International') {
     raw = getInternationalDigest();
   } else {
-    raw = sortItems(state.data.filter(x =>
-      itemMatchesRegion(x) &&
-      x.period === state.period &&
-      x.bucket === state.bucket &&
-      x.score >= 5
-    ));
+    raw = sortItems(state.data.filter(x => {
+      if (!itemMatchesRegion(x) || x.score < 5) return false;
+      if (state.period === 'week') {
+        if (x.period === 'day') {
+          const ts=bucketDateValue(x.bucket);
+          if (!ts) return false;
+          return weekBucket(new Date(ts).toISOString().slice(0,10)) === state.bucket;
+        }
+        if (x.period !== 'week') return false;
+        if (x.bucket === state.bucket) return true;
+        const dates=String(x.bucket||'').match(/\d{4}-\d{2}-\d{2}/g);
+        return dates ? weekBucket(dates[0]) === state.bucket : weekLabelFr(state.bucket) === x.bucket;
+      }
+      if (state.period === 'month') {
+        if (x.period === 'day') {
+          const ts=bucketDateValue(x.bucket);
+          if (!ts) return false;
+          const iso=new Date(ts).toISOString().slice(0,10);
+          return normalizeText(monthBucketLabel(iso)) === normalizeText(state.bucket);
+        }
+      }
+      return x.period === state.period && x.bucket === state.bucket;
+    }));
   }
 
   const seen = new Set();
