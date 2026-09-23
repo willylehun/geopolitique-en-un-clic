@@ -19,7 +19,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
@@ -40,7 +40,7 @@ jobs:
           fi
       - name: Construire la veille
         env:
-          BACKFILL_MONTH: ${{ steps.mode.outputs.backfill }}
+          BACKFILL_MONTH: ${{ steps.mode.outputs.backfill }}\n          FETCH_MULTIPLIER: "4"
         run: python scripts/update_news.py
       - name: Enregistrer les nouvelles données
         shell: bash
