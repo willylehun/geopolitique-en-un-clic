@@ -145,7 +145,7 @@ def parse_bucket_date(bucket):
 def build_generated(start_date,end_date):
     generated=[]
     multiplier=max(1,min(int(os.getenv("FETCH_MULTIPLIER","1") or "1"),8))
-    themes=[
+    multiplier=max(1,min(int(os.getenv("REGION_FETCH_MULTIPLIER",os.getenv("FETCH_MULTIPLIER","1")) or "1"),8))
         None,
         "politique diplomatie gouvernement élection relations internationales",
         "économie commerce énergie sanctions investissement",
@@ -212,16 +212,6 @@ def main():
         for region in x.get("regions",[]): by_region[region].append((d,x))
     week_names=sorted({week_bucket(d) for rows in by_region.values() for d,_ in rows},key=lambda w: parse_bucket_date(w.replace("Semaine du ","")) or datetime.min.date(),reverse=True)
     month_names=sorted({month_bucket(d) for rows in by_region.values() for d,_ in rows},reverse=True)
-    summaries=[]
-    for region,rows in by_region.items():
-        for period,names in (("week",week_names),("month",month_names)):
-            for name in names:
-                subset=[(d,x) for d,x in rows if (week_bucket(d) if period=="week" else month_bucket(d))==name]; subset.sort(key=lambda z:(-z[1]["score"],z[0]))
-                used=set()
-                for _,x in subset:
-                    k=key_title(x["summary"])
-                    if k in used: continue
-                    used.add(k); y=dict(x); y["period"]=period; y["bucket"]=name; y["origin"]="rss"; summaries.append(y)
     all_days=sorted({d for rows in by_region.values() for d,_ in rows},reverse=True); day_buckets=[fr_date(d) for d in all_days]
     coverage={}
     for i in range((end_date-start_date).days+1):
@@ -229,7 +219,7 @@ def main():
         coverage[f"day:{fr_date(d)}"]=f"Journée civile : {s.strftime('%d/%m %H:%M')} → {e.strftime('%d/%m %H:%M')}"
     for w in week_names: coverage[f"week:{w}"]="Toutes les actualités conservées de cette semaine"
     for m in month_names: coverage[f"month:{m}"]="Toutes les actualités conservées de ce mois"
-    out={"generated_at":now.isoformat(),"timezone":"Europe/Paris","window_rule":"Une date couvre de 00h00 à 23h59 heure de Paris.","target_per_region_per_day":60,"buckets":{"day":day_buckets,"week":week_names,"month":month_names},"coverage":coverage,"items":day_items+non_daily_manual+summaries}
+    out={"generated_at":now.isoformat(),"timezone":"Europe/Paris","window_rule":"Une date couvre de 00h00 à 23h59 heure de Paris.","target_per_region_per_day":60,"buckets":{"day":day_buckets,"week":week_names,"month":month_names},"coverage":coverage,"items":day_items+non_daily_manual}
     DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
     update_country_coverage(found,now)
     print("generated",len(generated),"daily items; countries found",len(found),"total",len(out["items"]))
