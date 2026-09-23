@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-09-23T11:05:53.894842+02:00",
+  "generated_at": "2026-09-23T12:48:24.882630+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
   "buckets": {
     "day": [
+      "23 septembre 2026",
       "20 septembre 2026",
       "19 septembre 2026",
       "18 septembre 2026",
@@ -24,6 +25,7 @@
       "1 septembre 2026"
     ],
     "week": [
+      "Semaine du 21 septembre 2026 au 27 septembre 2026",
       "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "Semaine du 7 septembre 2026 au 13 septembre 2026",
       "Semaine du 31 août 2026 au 6 septembre 2026"
@@ -56,6 +58,7 @@
     "day:21 septembre 2026": "Journée civile : 21/09 00:00 → 21/09 23:59",
     "day:22 septembre 2026": "Journée civile : 22/09 00:00 → 22/09 23:59",
     "day:23 septembre 2026": "Journée civile : 23/09 00:00 → 23/09 23:59",
+    "week:Semaine du 21 septembre 2026 au 27 septembre 2026": "Toutes les actualités conservées de cette semaine",
     "week:Semaine du 14 septembre 2026 au 20 septembre 2026": "Toutes les actualités conservées de cette semaine",
     "week:Semaine du 7 septembre 2026 au 13 septembre 2026": "Toutes les actualités conservées de cette semaine",
     "week:Semaine du 31 août 2026 au 6 septembre 2026": "Toutes les actualités conservées de cette semaine",
@@ -2776,6 +2779,22 @@
     },
     {
       "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "23 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Info éco - Sanctions américaines : l’Iran menacé de blocus aérien",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWWs5S0Jna2s1VkdlcU9wUDdsc0tzNHBmYjhLZFVJX0xoLUluTmlsZVBjTWZOWGdVcFJxaXIzWWlBendZUGREWFlEeUkyd1E4U1NJeWNEaTlzTWM0NGM2d1EwaVpGT0wxYVVORmFFWEhnUi1sbmFab0xqWThwTnFSVFRSeXk4YVd6MDdPRTJhQjFMcHhYY19rWi1iRld5X2VqX2hZb05nd0FjNHYtSW0zWXppQk1qSXNVeGptXzMyYXp6amFzeGxvcXpIcUtBdw?oc=5",
+      "published_at": "2026-09-23T11:48:36+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
         "International"
       ],
       "period": "week",
@@ -4899,6 +4918,22 @@
         "Asie"
       ],
       "period": "week",
+      "bucket": "Semaine du 21 septembre 2026 au 27 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Info éco - Sanctions américaines : l’Iran menacé de blocus aérien",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWWs5S0Jna2s1VkdlcU9wUDdsc0tzNHBmYjhLZFVJX0xoLUluTmlsZVBjTWZOWGdVcFJxaXIzWWlBendZUGREWFlEeUkyd1E4U1NJeWNEaTlzTWM0NGM2d1EwaVpGT0wxYVVORmFFWEhnUi1sbmFab0xqWThwTnFSVFRSeXk4YVd6MDdPRTJhQjFMcHhYY19rWi1iRld5X2VqX2hZb05nd0FjNHYtSW0zWXppQk1qSXNVeGptXzMyYXp6amFzeGxvcXpIcUtBdw?oc=5",
+      "published_at": "2026-09-23T11:48:36+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
       "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
@@ -5899,6 +5934,22 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTXlIb3YxTktUQTlDd0JLTUlzNWhFS0Y4bk5DSnJiMlRINzFQWGRUNjZ5bi1UV3g0V0xfR3NHTjJhVXpHMGhIY0U5UHBNaDlFdnZBU0JWRDhBSElMN0gwY2s5M1hvb1hHVHZrdldWbWVRUWJubk1oV0lERG9pNUtlbXdsT0RmbkFvZHVYMzNWeG1yVFpCU051RE96M3Y4QdIBowFBVV95cUxQRjdic3M2Y1pJTEtTeTF6T2JVdm9IX1lmeHRkelZSWVlwNVhRc3RlUl8tRTBvb2lFMHBiZXY4a3dCZjRiY0d2MWlyR0NBWXVjajVhR19uYkVVTW9JSVdSMF9CTlp1MF9taWxHQ0VXREt2M21oTkFmTy0yLTZOOTFwcDg2VmQwWmQzbWNMd2dDbW91R0g4by1WWTBHWkxGMHcteW1N?oc=5",
       "origin": "rss",
       "language": "fr"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Info éco - Sanctions américaines : l’Iran menacé de blocus aérien",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWWs5S0Jna2s1VkdlcU9wUDdsc0tzNHBmYjhLZFVJX0xoLUluTmlsZVBjTWZOWGdVcFJxaXIzWWlBendZUGREWFlEeUkyd1E4U1NJeWNEaTlzTWM0NGM2d1EwaVpGT0wxYVVORmFFWEhnUi1sbmFab0xqWThwTnFSVFRSeXk4YVd6MDdPRTJhQjFMcHhYY19rWi1iRld5X2VqX2hZb05nd0FjNHYtSW0zWXppQk1qSXNVeGptXzMyYXp6amFzeGxvcXpIcUtBdw?oc=5",
+      "published_at": "2026-09-23T11:48:36+02:00",
+      "origin": "rss"
     },
     {
       "regions": [
