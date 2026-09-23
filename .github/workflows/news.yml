@@ -44,6 +44,8 @@ jobs:
         env:
           BACKFILL_MONTH: ${{ steps.mode.outputs.backfill }}
           FETCH_MULTIPLIER: "8"
+          COUNTRY_BATCH_SIZE: "12"
+          DAY_BATCH_SIZE: "3"
         run: python scripts/update_news.py
       - name: Enregistrer les nouvelles données
         shell: bash
