@@ -8,6 +8,7 @@ from zoneinfo import ZoneInfo
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"/"news.json"
+COUNTRY_COVERAGE=ROOT/"data"/"country-coverage.json"
 PARIS=ZoneInfo("Europe/Paris")
 UTC=ZoneInfo("UTC")
 FR_MONTHS=["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
@@ -62,11 +63,9 @@ def looks_english(text):
     en=sum(w in EN_WORDS for w in words); fr=sum(w in FR_WORDS for w in words)
     return en>=2 and en>fr
 
-def google_rss(region,start_date,end_date):
-    base=REGIONS[region]
-    q=f'({base}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}' if region in ("Afrique","Amérique du Sud","Océanie") else f'({base}) ({IMPACT_QUERY}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
-    params={"q":q,"hl":"fr","gl":"FR","ceid":"FR:fr"}; url="https://news.google.com/rss/search?"+urllib.parse.urlencode(params)
-    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/1.5"})
+def google_rss_query(query):
+    params={"q":query,"hl":"fr","gl":"FR","ceid":"FR:fr"}; url="https://news.google.com/rss/search?"+urllib.parse.urlencode(params)
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/1.6"})
     with urllib.request.urlopen(req,timeout=30) as r: root=ET.fromstring(r.read())
     out=[]
     for item in root.findall(".//item"):
@@ -79,6 +78,45 @@ def google_rss(region,start_date,end_date):
         if not trusted_source(src) or looks_english(title): continue
         out.append({"title":title,"source":src,"date":dt,"url":link_el.text if link_el is not None else ""})
     return out
+
+def google_rss(region,start_date,end_date):
+    base=REGIONS[region]
+    q=f'({base}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}' if region in ("Afrique","Amérique du Sud","Océanie") else f'({base}) ({IMPACT_QUERY}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
+    return google_rss_query(q)
+
+def load_missing_countries():
+    if not COUNTRY_COVERAGE.exists(): return []
+    try: return json.loads(COUNTRY_COVERAGE.read_text(encoding="utf-8")).get("missing_countries",[])
+    except Exception as e:
+        print("coverage",e,file=sys.stderr); return []
+
+def country_backfill(start_date,end_date):
+    rows=[]; found=set()
+    for country in load_missing_countries():
+        q=f'"{country}" ({IMPACT_QUERY}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
+        try: articles=google_rss_query(q)
+        except Exception as e:
+            print("COUNTRY",country,e,file=sys.stderr); continue
+        seen=set()
+        for art in articles:
+            d=editorial_day(art["date"]); title=art["title"]
+            if d<start_date or d>end_date or len(title)<22: continue
+            k=(d,key_title(title))
+            if not k[1] or k in seen: continue
+            seen.add(k); found.add(country)
+            rows.append({"regions":["International"],"countries":[country],"period":"day","bucket":fr_date(d),"score":score(title),"category":category(title),"summary":title,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
+            if len(seen)>=10: break
+    return rows,found
+
+def update_country_coverage(found,now):
+    if not COUNTRY_COVERAGE.exists() or not found: return
+    try: data=json.loads(COUNTRY_COVERAGE.read_text(encoding="utf-8"))
+    except Exception: return
+    covered=set(data.get("covered_countries",[])); covered.update(found)
+    missing=[c for c in data.get("missing_countries",[]) if c not in covered]
+    data["date"]=fr_date(now.date()); data["covered_countries"]=sorted(covered); data["missing_countries"]=missing
+    data["covered_count"]=len(covered); data["missing_count"]=len(missing); data["updated_at"]=now.isoformat()
+    COUNTRY_COVERAGE.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
 
 def parse_bucket_date(bucket):
     months={m:i+1 for i,m in enumerate(FR_MONTHS)}; m=re.match(r"(\d+)\s+(\w+)\s+(\d{4})",bucket or "")
@@ -110,9 +148,10 @@ def main():
     old=json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {"items":[]}
     start_date=now.date().replace(day=1) if backfill else now.date(); end_date=now.date()
     generated=build_generated(start_date,end_date)
+    country_rows,found=country_backfill(start_date,end_date) if backfill else ([],set())
+    generated.extend(country_rows)
     old_daily=[x for x in old.get("items",[]) if x.get("period")=="day"]
-    # Ne jamais réintroduire automatiquement un résumé manifestement anglais.
-    old_daily=[x for x in old_daily if not (x.get("origin") in ("rss","gdelt") and looks_english(x.get("summary","")))]
+    # Conserver tout l'historique valide : les éléments existants ne sont jamais supprimés par la veille.
     existing={(x.get("bucket"),tuple(x.get("regions",[])),key_title(x.get("summary",""))) for x in old_daily}; fresh=[]
     for x in generated:
         k=(x.get("bucket"),tuple(x.get("regions",[])),key_title(x.get("summary","")))
@@ -144,6 +183,8 @@ def main():
     for w in week_names: coverage[f"week:{w}"]="Toutes les actualités conservées de cette semaine"
     for m in month_names: coverage[f"month:{m}"]="Toutes les actualités conservées de ce mois"
     out={"generated_at":now.isoformat(),"timezone":"Europe/Paris","window_rule":"Une date couvre de 00h00 à 23h59 heure de Paris.","target_per_region_per_day":60,"buckets":{"day":day_buckets,"week":week_names,"month":month_names},"coverage":coverage,"items":day_items+non_daily_manual+summaries}
-    DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8"); print("generated",len(generated),"daily items; total",len(out["items"]))
+    DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
+    update_country_coverage(found,now)
+    print("generated",len(generated),"daily items; countries found",len(found),"total",len(out["items"]))
 
 if __name__=="__main__": main()
