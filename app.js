@@ -310,11 +310,39 @@ function normalizedKey(item) {
 function getInternationalDigest() {
   const selected = [];
   const seen = new Set();
-  const base = state.data.filter(x =>
-    x.period === state.period &&
-    x.bucket === state.bucket &&
-    x.score >= 5
-  );
+
+  // International agrège les actualités des continents. Pour semaine/mois,
+  // on repart aussi des événements Jour afin qu'ils restent visibles sans
+  // devoir dupliquer physiquement chaque événement dans les données.
+  const base = state.data.filter(x => {
+    if (Number(x.score) < 5) return false;
+    if (state.period === 'day') return x.period === 'day' && x.bucket === state.bucket;
+    if (state.period === 'week') {
+      if (x.period === 'day') {
+        const ts = bucketDateValue(x.bucket);
+        return ts && weekBucket(new Date(ts).toISOString().slice(0,10)) === state.bucket;
+      }
+      if (x.period !== 'week') return false;
+      if (x.bucket === state.bucket) return true;
+      return weekLabelFr(state.bucket) === x.bucket;
+    }
+    if (state.period === 'month') {
+      if (x.period === 'day') {
+        const ts = bucketDateValue(x.bucket);
+        return ts && normalizeText(monthBucketLabel(new Date(ts).toISOString().slice(0,10))) === normalizeText(state.bucket);
+      }
+      return x.period === 'month' && normalizeText(x.bucket) === normalizeText(state.bucket);
+    }
+    return false;
+  });
+
+  // Les éléments explicitement classés International restent disponibles.
+  for (const item of sortItems(base.filter(x => itemMatchesRegion(x, 'International')))) {
+    const key = normalizedKey(item);
+    if (!key || seen.has(key)) continue;
+    selected.push({ ...item, originRegion: 'International' });
+    seen.add(key);
+  }
 
   for (const continent of CONTINENT_NAMES) {
     const top = sortItems(base.filter(x => itemMatchesRegion(x, continent))).slice(0, 2);
@@ -326,20 +354,18 @@ function getInternationalDigest() {
     }
   }
 
-  if (selected.length < 10) {
-    const pool = sortItems(base.filter(x =>
-      CONTINENT_NAMES.some(continent => itemMatchesRegion(x, continent))
-    ));
-    for (const item of pool) {
-      if (selected.length >= 10) break;
-      const key = normalizedKey(item);
-      if (!key || seen.has(key)) continue;
-      selected.push({
-        ...item,
-        originRegion: CONTINENT_NAMES.find(continent => itemMatchesRegion(item, continent)) || ''
-      });
-      seen.add(key);
-    }
+  // On conserve toutes les informations disponibles : l'interface les
+  // pagine ensuite 10 par 10.
+  for (const item of sortItems(base.filter(x =>
+    CONTINENT_NAMES.some(continent => itemMatchesRegion(x, continent))
+  ))) {
+    const key = normalizedKey(item);
+    if (!key || seen.has(key)) continue;
+    selected.push({
+      ...item,
+      originRegion: CONTINENT_NAMES.find(continent => itemMatchesRegion(item, continent)) || 'International'
+    });
+    seen.add(key);
   }
 
   return sortItems(selected);
