@@ -19,6 +19,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
@@ -28,8 +29,12 @@ jobs:
         id: mode
         shell: bash
         run: |
-          if [[ "${{ github.event_name }}" == "push" ]]; then
-            echo "backfill=0" >> "$GITHUB_OUTPUT"
+          # Rattrapage exceptionnel de septembre : chaque journée est interrogée séparément.
+          # À partir d'octobre, le script repassera automatiquement au seul jour courant.
+          MONTH=$(TZ=Europe/Paris date +%m)
+          YEAR=$(TZ=Europe/Paris date +%Y)
+          if [[ "$YEAR" == "2026" && "$MONTH" == "09" ]]; then
+            echo "backfill=1" >> "$GITHUB_OUTPUT"
           else
             echo "backfill=0" >> "$GITHUB_OUTPUT"
           fi
