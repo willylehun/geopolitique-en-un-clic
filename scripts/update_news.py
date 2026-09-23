@@ -102,7 +102,7 @@ def build_generated(start_date,end_date):
                 seen.add(k); grouped[d].append({"regions":[region],"period":"day","bucket":fr_date(d),"score":score(title),"category":category(title),"summary":title,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
         for i in range((end_date-start_date).days+1):
             d=start_date+timedelta(days=i); rows=sorted(grouped.get(d,[]),key=lambda x:x.get("published_at",""),reverse=True)
-            generated.extend(rows[:25])
+            generated.extend(rows[:100])
     return generated
 
 def main():
@@ -143,7 +143,7 @@ def main():
         coverage[f"day:{fr_date(d)}"]=f"Journée civile : {s.strftime('%d/%m %H:%M')} → {e.strftime('%d/%m %H:%M')}"
     for w in week_names: coverage[f"week:{w}"]="Toutes les actualités conservées de cette semaine"
     for m in month_names: coverage[f"month:{m}"]="Toutes les actualités conservées de ce mois"
-    out={"generated_at":now.isoformat(),"timezone":"Europe/Paris","window_rule":"Une date couvre de 00h00 à 23h59 heure de Paris.","target_per_region_per_day":15,"buckets":{"day":day_buckets,"week":week_names,"month":month_names},"coverage":coverage,"items":day_items+non_daily_manual+summaries}
+    out={"generated_at":now.isoformat(),"timezone":"Europe/Paris","window_rule":"Une date couvre de 00h00 à 23h59 heure de Paris.","target_per_region_per_day":60,"buckets":{"day":day_buckets,"week":week_names,"month":month_names},"coverage":coverage,"items":day_items+non_daily_manual+summaries}
     DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8"); print("generated",len(generated),"daily items; total",len(out["items"]))
 
 if __name__=="__main__": main()
