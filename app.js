@@ -107,7 +107,11 @@ function getBuckets() {
     ...(state.buckets[state.period] || []),
     ...state.data.filter(x => x.period === state.period).map(x => x.bucket)
   ].filter(Boolean))];
-  if (state.period === 'day') return all.sort((x,y) => bucketDateValue(x) - bucketDateValue(y));
+  if (state.period === 'day') {
+    return all
+      .filter(x => bucketDateValue(x) > 0 && !/^\d{4}-\d{2}-\d{2}$/.test(String(x)))
+      .sort((x,y) => bucketDateValue(y) - bucketDateValue(x));
+  }
   if (state.period === 'week') {
     const current = currentWeekLabel();
     return all.filter(x => normalizeText(x) === normalizeText(current));
@@ -749,7 +753,16 @@ function renderHistory() {
   const buckets = getBuckets();
 
   if (!state.bucket || !buckets.includes(state.bucket)) {
-    state.bucket = buckets[0] || null;
+    if (state.period === 'day') {
+      const today = parisTodayISO();
+      state.bucket = buckets.find(b => {
+        const t = bucketDateValue(b);
+        const [y,m,d] = today.split('-').map(Number);
+        return t === Date.UTC(y,m-1,d);
+      }) || buckets[0] || null;
+    } else {
+      state.bucket = buckets[0] || null;
+    }
   }
 
   if (!buckets.length) {
