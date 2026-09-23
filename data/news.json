@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T08:19:52.899614+02:00",
+  "generated_at": "2026-09-23T11:05:53.894842+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
-  "target_per_region_per_day": 15,
+  "target_per_region_per_day": 60,
   "buckets": {
     "day": [
       "20 septembre 2026",
