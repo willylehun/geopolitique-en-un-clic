@@ -6,7 +6,9 @@ on:
       - "scripts/update_news.py"
       - ".github/workflows/news.yml"
   schedule:
-    - cron: "*/10 * * * *"
+    # Décalé du début de l’heure : GitHub indique que les cron à forte charge peuvent être retardés/supprimés.
+    # Pendant le rattrapage : 6 passages/heure, aux minutes 3,13,23,33,43,53.
+    - cron: "3,13,23,33,43,53 * * * *"
   workflow_dispatch:
 
 permissions:
