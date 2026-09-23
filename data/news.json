@@ -1,27 +1,65 @@
 {
-  "generated_at": "2026-09-23T02:23:17.821823+02:00",
+  "generated_at": "2026-09-23T08:19:52.899614+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 15,
   "buckets": {
     "day": [
-      "23 septembre 2026"
+      "20 septembre 2026",
+      "19 septembre 2026",
+      "18 septembre 2026",
+      "17 septembre 2026",
+      "16 septembre 2026",
+      "15 septembre 2026",
+      "14 septembre 2026",
+      "13 septembre 2026",
+      "11 septembre 2026",
+      "10 septembre 2026",
+      "9 septembre 2026",
+      "8 septembre 2026",
+      "5 septembre 2026",
+      "4 septembre 2026",
+      "3 septembre 2026",
+      "2 septembre 2026",
+      "1 septembre 2026"
     ],
     "week": [
-      "7–13 septembre 2026",
-      "31 août 2026 – 6 septembre 2026",
-      "14–20 septembre 2026"
+      "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "Semaine du 31 août 2026 au 6 septembre 2026"
     ],
     "month": [
       "Septembre 2026"
     ]
   },
   "coverage": {
+    "day:1 septembre 2026": "Journée civile : 01/09 00:00 → 01/09 23:59",
+    "day:2 septembre 2026": "Journée civile : 02/09 00:00 → 02/09 23:59",
+    "day:3 septembre 2026": "Journée civile : 03/09 00:00 → 03/09 23:59",
+    "day:4 septembre 2026": "Journée civile : 04/09 00:00 → 04/09 23:59",
+    "day:5 septembre 2026": "Journée civile : 05/09 00:00 → 05/09 23:59",
+    "day:6 septembre 2026": "Journée civile : 06/09 00:00 → 06/09 23:59",
+    "day:7 septembre 2026": "Journée civile : 07/09 00:00 → 07/09 23:59",
+    "day:8 septembre 2026": "Journée civile : 08/09 00:00 → 08/09 23:59",
+    "day:9 septembre 2026": "Journée civile : 09/09 00:00 → 09/09 23:59",
+    "day:10 septembre 2026": "Journée civile : 10/09 00:00 → 10/09 23:59",
+    "day:11 septembre 2026": "Journée civile : 11/09 00:00 → 11/09 23:59",
+    "day:12 septembre 2026": "Journée civile : 12/09 00:00 → 12/09 23:59",
+    "day:13 septembre 2026": "Journée civile : 13/09 00:00 → 13/09 23:59",
+    "day:14 septembre 2026": "Journée civile : 14/09 00:00 → 14/09 23:59",
+    "day:15 septembre 2026": "Journée civile : 15/09 00:00 → 15/09 23:59",
+    "day:16 septembre 2026": "Journée civile : 16/09 00:00 → 16/09 23:59",
+    "day:17 septembre 2026": "Journée civile : 17/09 00:00 → 17/09 23:59",
+    "day:18 septembre 2026": "Journée civile : 18/09 00:00 → 18/09 23:59",
+    "day:19 septembre 2026": "Journée civile : 19/09 00:00 → 19/09 23:59",
+    "day:20 septembre 2026": "Journée civile : 20/09 00:00 → 20/09 23:59",
+    "day:21 septembre 2026": "Journée civile : 21/09 00:00 → 21/09 23:59",
+    "day:22 septembre 2026": "Journée civile : 22/09 00:00 → 22/09 23:59",
     "day:23 septembre 2026": "Journée civile : 23/09 00:00 → 23/09 23:59",
-    "week:7–13 septembre 2026": "Condensé automatique de la semaine",
-    "week:31 août 2026 – 6 septembre 2026": "Condensé automatique de la semaine",
-    "week:14–20 septembre 2026": "Condensé automatique de la semaine",
-    "month:Septembre 2026": "Condensé automatique du mois"
+    "week:Semaine du 14 septembre 2026 au 20 septembre 2026": "Toutes les actualités conservées de cette semaine",
+    "week:Semaine du 7 septembre 2026 au 13 septembre 2026": "Toutes les actualités conservées de cette semaine",
+    "week:Semaine du 31 août 2026 au 6 septembre 2026": "Toutes les actualités conservées de cette semaine",
+    "month:Septembre 2026": "Toutes les actualités conservées de ce mois"
   },
   "items": [
     {
@@ -2514,6 +2552,230 @@
     },
     {
       "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "4 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Washington affirme que l'UE rejoint ses sanctions contre l'Iran, Bruxelles parle d'un soutien",
+      "sources": [
+        "Euronews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnJMVGxIUU81YUljRERtdzg0elgwOENIRTE2RHREV2JyWFFYQW9WX0JNT2tTRFhNS2JmMGFrTjhBSFRLbXpCM0FvRFJWZHRmVF9RRWpURjh4OXpCaDVHdDd1NkpUcU5nN3puanpVMlRQVXZ2YVZ5M1VSMFFjYlR2NnlZdFRfbzdCSlhhQlJZaDR5ZU54WnlhdlhKWXFvSE1DUW45TXhlWjBBa2xLQXlqUHA2ems5MFBkVXpCRHFublJ2UQ?oc=5",
+      "published_at": "2026-09-04T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "8 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Onze pays européens et le Canada sanctionnent la politique d’Israël en Cisjordanie qui menace de « détruire la solution à deux Etats »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPQjlTc2NCYjN3a3Y4WFR3S2xSY3pjZkJmbXFyRExYSG00ckVGTGRzbFprTktscVJTaDFINFdNN05LRXBUbGo0YVo5NXRWOUtHVnlfbnNQY2N4SjZDNU44NW1RTUxrVDlFZk1mMGxncUYtSnhpU3RwaXh4VHgyQ2lQN3NNcVBsdENVRXFRZ0NPRUNSZW5WT29Hc0tZU1N0WW9BX0dCT3A1YWt2T2N0SE9SZGhvRnZnczNCVWlkdF83WGljbFVPU0pfbFpOajNUYWs2enhVaDNTUmQ5R29KdlV5Q0NmZFY1QnNoMjc3S1d2eFlWQmpQQVNHb3NVeFNJQk5XemNnUjFTcnhWQjBmb2JoT0NCMFlOSllMSWNWdQ?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "8 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Consulat du Royaume-Uni fermé, Jeremy Corbyn interdit d’entrée : Israël répond à l’annonce de sanctions contre ses colonies en Cisjordanie",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPRVlST3FzZm9qYl80RVpocTVnUGtwZUVtbzZWeVM0UVMtcHhQQk5yY3FMd05vT1dUWlNqTFBKOXJqdlFXSmpJWjdMT0h1VHFYQXl2cnVrSkxGWVpPVGRRM1dIQWdxcXEtOFFjX0NjZFA3RXI1cUtWUFJzdmpuTjlMMURxbEFGMlFXX3dYRmpabm50bG1xWkhHSy1kNjJNbFFlbGh5R3ZFMUdSM2RBZS1qelptVzV2UXhnTXVRTmhRYkRFeHZWT2xveGpianNtbVJFVGhYTnZjWkdrMlJZbXBVNjA4ZFlUa2c4OWg1MjBTcC1hUzd0UGZvVHBSOHdTS2doeDNfNWVabVVZRFJEMVNjM1BjSjNZWTFpZW9CaG5KVmxITFlvOEJkdlA5a25tdmtIVWc0?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "8 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "VIDÉO | Israël : le discours d’Ed Miliband sur les sanctions britanniques à Westminster",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQVWVSNjd0X2Fsal8wdmIyYV9qV0hXc05zXzU0NmgyTGttQnRVQjY1STlSOGhpSElTM2QzWlIwbDFNa05qZ3pPMkZ1ekJUZTcwcUpLYTZxZWFJQkZsVjFFUjRlWnF2TUdnaUZub0RiaHJYNWkxc3Bvd1RGbzZ2b2VBc0VnUFNBTHQySXIwVzYxNm9fTHY3NnVySHp1M3NZLUpVaFpWcnozZzJqLWtnYTRXZW9fSkNOZ1BEcjJLLTg0cTZ0RmdEQWJqV3NucHowQ05vdV94Nll2Qk1JLWFfVW1vLWpKa3dHNFVDX1NLWktLSlhEaHZMcG1lTUQ5QUNjMDF1TkVwcVRGSzNCQ1pIdjJKUTNzWk4yNGs3N3BINXJjQnV0Xzg4ektvTEhvYVprUQ?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "8 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Israël va fermer le consulat britannique à Jérusalem après des sanctions contre les colonies",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQUkg5S1JZV3hWU2tFQjZ6YlJkbGxZSDhOSXY3T0ktdlp1blBURWhEY1JEQjlQeWhZOTA2c2RJelRla19BUG52X0gzVlVmc2hWMDZJVnl2Rmk3dzItejVGbldqNFlUMVBmdkVBNXh5TE5lN3hjSHY4YWtrV1YzUW1NSHlJejkycU1lM0J2bXpnbWVjcnppVlZjUWJKLXV1X0JGblN5cHR1QlFwMXU3b2ptd2F3eEhjRUkwZmFFbjNJX2dwVlgxOWx1WklrVW11WlVfTndNMF8tWFNYTFgtSGJQblB5OE1JREhGMk9lWFdJVUZjV1ZWYWRTOXJmbUMwZ1pXcGk0TlpBUHhhb3l2V0ZLaU15Smg4cURvZFlfMTh3?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "9 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Israël cible le Royaume-Uni en riposte aux sanctions sur la Cisjordanie",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNLTItRDdFdjhCenJURVhPa0Flb1FvdExEQ2dmNVI4T0djZUF3SzByUVRPRE15cnBrTGwxOTNQRWZXUnB3TFpzMUlTd1lDNE8yVTIzYXhXVkc2NlRkaWZ5UFYwczI0MVIzQndIMnFaend2Vnk1Y1FzbzZpTFdDRkJCWGplT1BtRmdFc1JKUFlWU2dKMkVoR19aNjlJOVVLOW5zZW9LeFZXdFlISUN0OC1fRHdQdHhIQ3NhWHJWXzBwLXQ1TmRfOXdQNTFGZ1FpaVFRNFV0aExTcmU3dC1nbGc?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "9 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions contre Israël, \"une action concrète et sincère\" contre la colonisation israélienne",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcjd1QnJiaGtEMm1vMmtlWVljQzdLdFZDMHVWdFlPeTZpUFpMUXhzMmpOUHU0SzBablJteWM0eUx4MFBBSTBPbTM0b0YwRTd0em1OVkMwTzZtRWpoVW9fZ01SZTlZWVBmMlphc2F5RXgzRVFwU2toMVU4RFNYOEliUWZfQy1wZU12NWpWNW44aUdjZzd1N25IMFNYektDdjA2cUNiWGEwM0lmTUlLOU02NlpFZzZrQjJBak82SFBEZTZVUkhLeUpicTl3empJUlRidjRWbm5jdDNBZ3VQUFktdlVzZVl3TDBoalVXVURGRUp3UFRyZ29v?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "9 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions contre les colons : Londres condamne les représailles d’Israël",
+      "sources": [
+        "Euronews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjR0WTJJTHNVb1M4dHN5ZS1DTW9KUTNCVW0xVllqUktTckE5T19udmtkekJad0kxZHBRVTJBR202Sk8xcFM5X1dTN3p4RXJKV1dRQXNhR1BnaXZmX3p3MHYzak9ZLVRQYmJuNU9JNnJ6aWQzbDFBWEl6LVJKYUR1bkdPaUFBZG9QaXVlYm5yLTEwcnU1c1lXeVBVYlM5YU1YWElqOXRuUQ?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "10 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "\"Les prix montent chaque heure\" en Iran : l'économie est asphyxiée, les manifestations reprennent",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeW5OUWQwdlRqTkdidVNjUTl2T3BESlpMQVNWR29CRW5hM1JyOHNYUWc5OXZRbHcyYWVfQXltaTdGLVo4bzljUnRpVEp2bnl2cHlzR2VsRkxTa2FOT0NyM2otNDlkRU5tbnVfMjY4M2lFb2JGTjFydktuN25WTFBjTy1QdkY5bUN0RXJaMG9OLVYtQllkam5DUWRQdEFsdGdXMjduU29FUXdsYWlYbzljbUtpVXB1aHBXYU84TDJUMnlNT0FBYVRaNm53MzM?oc=5",
+      "published_at": "2026-09-10T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "11 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions britanniques : Israël peut dormir tranquille",
+      "sources": [
+        "Le Monde diplomatique"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPemEtWXNiYlNCQl9JQWRGaWVaNHgwaHQwMGMyS250Sl85X2I5VE9uZ0dPZkk5VGgwb1AzakctUmhoRmdfc0N0d3c4NmVHanNSUmtYY3ByOFZGWWgzeUFFcGVfbUZMM04tT3ZWN1MzQ0JLelRfYXRtNHV4YlJ3bS1wNFRxbjlVZmNZ?oc=5",
+      "published_at": "2026-09-11T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Israël continue d’avancer son projet de colonisation près de Jérusalem, malgré les sanctions",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPUUE5VUxOSGpMTWpNNkttSW9YV0lJNnY2ZTVlR2dtbHJYX3NUWmcyVUVvYVIxSEh0dTZMb2w0QzgxbEZPSDJVUDR3dENObEZuMnBsSUJScHMyTm94dVFuLW1IcjdCYi1mUVhteVYtUzRreU54cnVuOXV5N2dQODVEVGMzSlN5RzVOdXozZURFaVd6QVpVSGhEM0I5dGxDblF2NXhEZUJOOG5BQ3pKNTFQc0F4YkNjaVc2ZjU4a3pUQlFYWWJrRTJqRzFpaUhzSlRRRWhlV0dFUkZobjlEMExfUXpobmU3STFnMXdIbl9KY2VUMFZyZ0NGMg?oc=5",
+      "published_at": "2026-09-16T21:31:15+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "9 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "« South Park » rebaptisé « South America » : la série satirique raille les changements de noms voulus par Donald Trump",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPcDhzazZwdVUxM2o0Z1Atb0FNYTNGZG9MZlN4d29xS3FCTGRCMi1XWERjN0U2QUhVNUlOQmlncTBEZXVQQmg0a204cFJFN25OdnRELUliNEZ3aUhzMTFOcDRsWDBucVRxTkhtYXFaeHloSjZlbHdsTU9sRkdqc2RCTlJSMXloQlVFdlpMVldJNHFVUnVTUFpzUFNsNXdmeWdXeG5uNzlGOGZFOVljLURNdHBITk5PQXFVQUZ3QWdJWkI1WXlfN1R1eVA1UkF4OTNqX21OX1JneHpPa0IzcWdRaFZJMGMtVlBtTm0xVFFwanpXNkQ5YU54X3RrOW8yZG9iMkVER21UcmFueHR1Y19wTEt3?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "9 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les créateurs de South Park se moquent de Trump en rebaptisant la série \"South America\"",
+      "sources": [
+        "Euronews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcm1qWkZjSWY2NF96Sk9GQkNaYTQxcWR2QjR3dzg3eThqVlM2WnBQYko3YXlvUXZmNTVJalhpZHJXZ2VqVkFqbHNOUzZtOGZHMGlGUS1BNDAxX0ZjY2VCUHpPeFZvVmN1amc4cTcxd1hwVndqLUFqamh0ajVKUm5vNDdUMldZWXlBX3JMMjltcUU3WGgwdjdfd25uYXYySl9zU3RfZ25pYlVZZXdDcjMtMUxvdkZmN21iQmFEQw?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "1 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Face aux mutineries, les juntes africaines s'en remettent à la Russie et à l'Africa Corps",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYkloTEw5UW5ZMVJSdHQ2TlRQRXY2bkhiSjAwV0tFaHF0VnV3TDJMd1VJcVV4eERGOHZyYXh6T0JoSGliWEZuQzNlSVQ2anVFWVh4bHp5NTF0cTRKZkNDSkxlbElQcEtqTjdtTUM3YkJhN2ZWem9adkdZOWgtRWp5TUNDRzEwdi1mdU9YdXVibTNwRXdWOXNFbFNuMUJFbnhnS29DZlg2RmExT2tlZEVpY2paNDd3NXpmQTBrODVMVk43VlVwd3ZlVWIzcXEtZlE3TEJXQ3VB?oc=5",
+      "published_at": "2026-09-01T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
         "International"
       ],
       "period": "week",
@@ -2809,21 +3071,7 @@
         "International"
       ],
       "period": "week",
-      "bucket": "7–13 septembre 2026",
-      "score": 9,
-      "category": "Moyen-Orient",
-      "summary": "Les Houthis attaquent l’Arabie saoudite ; des pourparlers Golfe–Iran sur Ormuz sont reportés, ravivant le risque sur le pétrole mondial.",
-      "sources": [
-        "Reuters"
-      ],
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "International"
-      ],
-      "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Économie",
       "summary": "La Fed relève son taux à 3,75–4,00 % et ses projections indiquent une nouvelle hausse possible avant la fin de l’année.",
@@ -2838,7 +3086,7 @@
         "International"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Énergie",
       "summary": "L’Inde risque des droits de douane américains de 100 % en raison de ses achats de pétrole russe après un vote à la Chambre.",
@@ -2854,7 +3102,7 @@
         "International"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "L’Italie prévoit de déployer des navires de guerre pour sécuriser la navigation dans le détroit de Bab el-Mandeb.",
@@ -2870,7 +3118,7 @@
         "International"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Énergie",
       "summary": "Les États-Unis approuvent des droits visant les acheteurs de pétrole russe, avec des conséquences majeures pour la Chine et l’Inde.",
@@ -2886,7 +3134,7 @@
         "International"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Sanctions",
       "summary": "Washington adopte une vaste loi visant l’énergie, la défense et la flotte fantôme russes, avec de nouveaux pouvoirs tarifaires.",
@@ -2901,7 +3149,7 @@
         "International"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Marchés",
       "summary": "Le pétrole dépasse 108 $ et le taux américain à 10 ans atteint 5 %, renforçant les craintes d’inflation et de hausse des taux.",
@@ -2915,7 +3163,7 @@
         "International"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "USA–Chine",
       "summary": "Les alliés asiatiques des États-Unis réclament des garanties sur Taïwan avant le sommet Trump–Xi du 24 septembre.",
@@ -2929,7 +3177,7 @@
         "International"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "USA–Chine",
       "summary": "Bessent et He Lifeng préparent le sommet Trump–Xi autour du commerce, de l’IA et des enjeux économiques stratégiques.",
@@ -2943,7 +3191,7 @@
         "International"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Technologie",
       "summary": "Les valeurs technologiques mondiales reculent après des appels de dirigeants de l’IA à ralentir le développement des modèles les plus avancés.",
@@ -2957,7 +3205,7 @@
         "International"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Énergie",
       "summary": "Le choc énergétique lié à l’Iran perturbe les marchés mondiaux, les prix du carburant et les chaînes d’approvisionnement.",
@@ -2967,6 +3215,20 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNEdrb1pvbmdKdUhOQWNBVkZQUjNXNVNnU1J0OExhaGNiS1hyZGJ2V2NQdGJ3Y0wzYmpBZE5UUk51cVc0MFl2Qk9YSFcweklEakhtYWtxeDVMUTg0RHliVWVrRUQ2dXNaaFMwUThBaTM0enk4ekxTV1hKbHdrRzJ5SnM3N1U?oc=5",
       "origin": "rss",
       "language": "fr"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 9,
+      "category": "Moyen-Orient",
+      "summary": "Les Houthis attaquent l’Arabie saoudite ; des pourparlers Golfe–Iran sur Ormuz sont reportés, ravivant le risque sur le pétrole mondial.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
     },
     {
       "regions": [
@@ -3137,37 +3399,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "7–13 septembre 2026",
-      "score": 7,
-      "category": "Marchés",
-      "summary": "Les actions européennes baissent tandis que pétrole et rendements obligataires montent ; le Bund allemand atteint des niveaux inédits depuis 2009.",
-      "sources": [
-        "Reuters"
-      ],
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "week",
-      "bucket": "31 août 2026 – 6 septembre 2026",
-      "score": 9,
-      "category": "Diplomatie",
-      "summary": "L’UE reste divisée sur des sanctions commerciales visant les colonies israéliennes considérées illégales.",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNEZGZFdYdDJLLUtfdmRjeVdzOGx2MnRzQVJ5bDNmR2VQMTYwQlZNU05tanhHWWQ0X0Fvb2lMTm51czRXMlRVaVYyTklxbzhDLXFvdXFDOV9hSnowN3ZJTnNQYU1ndEVQZzdYODVHQ0ZGSDh1WDdzUV9pQnBVMzVFS0VvdnMwX0k5X045Z3I0dlYtcXItcVRvVUwtNUR0Qm9zU3EwenVRWTFKMkZ6Y1dB0gG0AUFVX3lxTE9GdTBjczN1Q3ZTaHU5a2htUFdZcWp4SHJad19lZEpCWjY1XzNfUi1zMXF1ZDhoRGJkeE1hOEx6NU40OTd6M1M0bW5ucmVFRl9jX2tYd3lKZjBuWXM4NjMyRmsyUzR3RE5STHV1bUphb09YTkszMXcyWTdlS25LWFAtcmlkVEd3RWNvekFhUllvNm1waGN5MWxBNmR4Y1J4cWVYYXdsRUtydkNwUXpoRlZ4Tk5BVg?oc=5",
-      "origin": "rss",
-      "language": "fr"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Un sénateur républicain met en garde Mark Carney contre un rapprochement accru du Canada avec l’Union européenne.",
@@ -3183,7 +3415,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Donald Tusk se rend à Kyiv après avoir averti que la Russie pourrait viser des alliés de l’Ukraine.",
@@ -3199,7 +3431,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
       "summary": "L’Iran reste soumis à de multiples régimes de sanctions touchant notamment l’énergie, la finance et la défense.",
@@ -3215,7 +3447,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Les élections russes s’accompagnent de nouveaux avertissements européens sur la menace sécuritaire venant de Moscou.",
@@ -3231,7 +3463,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Le président letton estime que l’Europe accuse un retard dans la guerre des drones et la défense aérienne observées en Ukraine.",
@@ -3247,7 +3479,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Énergie",
       "summary": "Trump vise le secteur énergétique russe avec une nouvelle loi de sanctions.",
@@ -3263,7 +3495,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Zelensky cherche à créer un nouveau partenariat commercial et sécuritaire avec plusieurs pays d’Europe orientale.",
@@ -3279,7 +3511,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Canadians warm to EU ‘associate membership’ proposal",
@@ -3294,7 +3526,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Poutine affirme que l’Europe se « prépare à la guerre », dans un contexte de fortes tensions avec l’OTAN.",
@@ -3310,7 +3542,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Moscou affirme que les nouvelles sanctions américaines pourraient compromettre les efforts de négociation de Trump.",
@@ -3326,7 +3558,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "La Pologne et la France alertent sur une hausse des menaces hybrides russes contre les pays de l’OTAN.",
@@ -3342,7 +3574,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
       "summary": "Trump signe la loi Graham imposant de nouvelles sanctions contre la Russie.",
@@ -3358,7 +3590,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Kyiv dénonce l’intégration des territoires ukrainiens annexés dans les élections parlementaires russes.",
@@ -3374,7 +3606,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Le débat sur la préparation des sociétés européennes à un conflit majeur s’intensifie face aux tensions avec la Russie.",
@@ -3390,7 +3622,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Des chefs du renseignement européen avertissent que Moscou pourrait préparer des actions plus directes contre l’OTAN.",
@@ -3406,7 +3638,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Ukraine",
       "summary": "Russie et Ukraine poursuivent leurs frappes sur les infrastructures énergétiques malgré l’appel américain à les suspendre.",
@@ -3420,7 +3652,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Énergie",
       "summary": "Le gaz européen reste très cher avec des stocks proches de 70 %, augmentant la vulnérabilité du continent avant l’hiver.",
@@ -3434,7 +3666,7 @@
         "Europe"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Économie",
       "summary": "La Fed relève ses taux tandis que l’UE propose au Canada un statut de membre associé.",
@@ -3442,6 +3674,473 @@
         "NPR"
       ],
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd19NTHRCcDhsUVEzSWxfZXZTUFVQMVppQnNybjA4OGhxMTduN21mZkRHdkc5TFZtUUMwRzVBNk5IYUh1U3hqc2hzX2hpZ1ZJUU1sdFZOcFFsUTN1YUYxNzRGc3d0SEdWY1dHSkdFRTJOU0ZwLThvVVFIV0NiRGh3cm9tcFJhdUdEVXhKQnpnVlpFc1V4WTZQaHJ0ZXhTNDEzWE1ZcUhCY2xXU0JXd3VrOVY5OXNvRGkyMzgybUxJS3E5blM3TzhnM3dB?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 8,
+      "category": "Politique",
+      "summary": "La Russie organise des élections fortement encadrées, avec un système politique donnant un avantage structurel au Kremlin.",
+      "sources": [
+        "The New York Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1jeGVHMmFTalFmTkdycnVQM3FxN2pjbW5sbDVNUmFmSUVBSUJmc1YtcDViOFNBY2NsYXVVbWdsVUc1Zm8tZGd6MVM2QzQ4RlAwMDkxWDRjNmtqenBfMnJvN3lOTS1NN1FIQThGeHo1WjFtNWVMWk9xZ0JtcEJ5dw?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "Macron affirme que les attaques hybrides russes s’intensifient et ordonne un plan de protection des infrastructures critiques françaises.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Un émissaire de Poutine et des responsables de l’AfD préparent des discussions sur un éventuel retour du gaz russe en Allemagne.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYW1YaE5VZXdZbXVmcVlIMVBDRVFZNC1BRjlmSmplVHdSbXJuX0c0eTJPTkVVeWZZME1kODNrVkV4Wi1ZVmRDd1lTV1h1WDJoYmFKVzhtZDRrRmpub0hPV3RuZDduM29Bb2o3QkhnRmJBZ0tydnNrZGFTLVppWFlBNk9TdHc1QnNRd2h4X3c0U2hyWnNXa2dJdkVTU0FsZ0doNjVFb0NOZHNaT05KaFc3SVpWRGptcUZXTVE2Nlcxdw?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 8,
+      "category": "Politique",
+      "summary": "La dirigeante suédoise de centre gauche Magdalena Andersson est chargée de former un gouvernement après les élections.",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObWh4TGZyR3QwOHRZYTBKbUJjZFB0dTNnRzZqR2Q5aXFLYmk4RkhHa1EtZlNfdzhPNWRUdnJySW4tdThDeTJfQ2NYRDVsTG1DbUNWME1FSWN2a2lPemdWUlQ1dldhdEhqdnY2MTRlS1pWLThSV0syQm9rYkNkWGZHNV9wemQxNGkwak9GOUpLM0E2S21qN2lCcHJ5OGVjTXdIUU04Vm9ETDZubXNDVXg3MDJqLS1FdmxvU2t3SVFkdnh2bVZTZ3c?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 8,
+      "category": "Conflit",
+      "summary": "Le Canada cherche à rejoindre la force militaire européenne JEF afin de renforcer sa coopération de défense avec l’Europe du Nord.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY2JTb1RjX2UtNDVQOUNUOEdEeWZzSFFsRFRHTFdWV2E5UHRWVjBqaVdabWRYdEVTblNEX0dINWw2WTV1MjdXeTEzNktQSlJ1Rk9HMXdMMmVVRVNqTVVSUHJFU3JkcmVXVkkxdE83eW1FR3JhdDRqTWJoaEtKVkRDSmE0bHRpWnlUNW80NG54OWtwNElKUTluSEJZYXNmVk1Wd0ZILVF3UUttTUhVOEHSAbMBQVVfeXFMT3V2ZUQ0X0ZwZUFUX1JfSUdJb045SGV2cmFxNWVJZldBZlRXUnloZnlBUDYtNzVOMVBaY1VjS2taZGFKdzJNYWRBUl8tZ0pfUU1TbmpvWkM2UW5hdzFJcGdDSHV0OWpWQnRmbHFkaDhXWWJ6cXlPYkF6VERGbFR0MHNKUDlnMHNpaW4yVlhKa21mZ205a043bExzUS10eDVJRFh5NS1xRFdTM3JJVGVqTE5TTE0?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "Zelensky lance l’initiative « Carpathian Eight » pour renforcer commerce et sécurité en Europe centrale et orientale.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa0pJYVZLX3poanZqbVNDbGl2SXkycG9MYVhKNVNpU1g0YTlKaTZieUNCbm5rLTkzMGpfc29fb0FfY3lKUVEyZXFwbXhwSzRLeV82dGVtSFpsby1uUDRsYW4zSjF3VHBYLUd1Z25JdEdONUpxN0tuejhVSGJnSl9ucFNxZURkTnhyNkptV3ZlcnlsYkoxQ3FRbzlSMzF3Q1d0TkZZMk44bnhFME5uY1hJ?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Russie",
+      "summary": "L’UE prolonge d’une semaine ses sanctions individuelles contre la Russie faute d’accord sur leur renouvellement pour six mois.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "IA",
+      "summary": "Von der Leyen soutient un ralentissement de l’IA de pointe et veut réunir les principaux laboratoires pour discuter des risques.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le Canada appelle à resserrer ses liens avec l’UE dans un contexte de tensions commerciales avec Trump.",
+      "sources": [
+        "news24.com.au"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZXYtSEsyR1ZOa3QtekZleTJKc0hFTFZfTWE3QmxtS1ZPYk9DU0h4NHVvMjdabGVUdWVpWVQ5TGtRanNmN3Rqb2tPLUhmTFR5U3k0QWhURGZMMG9Kc2FhbFUwSEFvUmdfUmdnU0dPWlRMSzR6cUU4YTBDMlU0N2YtNGI2MjNWeHJZYTNpd19wNGU1R1E4OEQ1OWlJWm5GWEQ4T0gwQUYwdjdMSUpFb0Q1VlZSaWlUc3hwRmtvTk9lbUFOOXIzeXltZ1F2RTRDMHhKLUZ0cHZublhxOGJBaXdpZUlXNy1oWTQ1amF0NGpWQ2RDc2dGMlZYbjFsbkNXUdIBgwJBVV95cUxNSjE5YnVHSkV5dHNneFloNEJWQzM1ck80Q20yUDlZRmItcXVNcEVFOWtsc25sMFpvR3ZQQndDUmwtb3R0LTFjMnZyWkFPNVFMS2FjWTNjenR0VGMxTzBQRzBlcF9QdWlyazVZYzdubTAxSjUtMFVQYnpYTjN5TklrWDJRV0hLWWRhTVl0dG9jTE1DLS0zYUxuRVh4b0RuZzAzSFdkaEFJdXcyN3otTjlMMXNaWk1EU015TGc5ZjJPMmxqM0tlbFJWVUxGNEdwUzZiV3BwU0htRzFOdG1mTmQzdk02ZmU2am9KTWc3Skd2cEV4dUNBMngyWFU5WGRTaFdTOVpZ?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Finances",
+      "summary": "La France prévoit une dette record à 119,3 % du PIB en 2026, sur fond de déficit élevé et de tensions sur les coûts d’emprunt.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "Le projet de rapprochement de Carney avec l’UE ne prévoit pas de contribution directe du Canada au budget européen.",
+      "sources": [
+        "CBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNalB0N1ZNeUE4Sk1Xd3QwWk1CcDNHb0I2TU93RDJFdUtlMWlDaldDM21PNVFiTFM0X3ZYWmM0cGlWcGxuQ216c3NkT3c5VENIVG1ZcGJKRzNBem5VaDJmOGN0SGhFV2hmWjBvbGlrUFl1RVVMTXNzNnFGbGlTNE9DaFFSUVdlLXJ1bURPWEhwNUhKYlEyTG1nR05jMVQxNmg0WkE?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "Les relations entre Londres et Israël se dégradent autour de la question des colonies en Cisjordanie.",
+      "sources": [
+        "The New York Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMmRhNmVVVFpMNXJvUk85YkdDbkRfSmhKTVYzeGc4Z2hFRVF6MmhrZnNoVlgzdmxaVGdEdEVVaTdxNHJmV3RLcXBtZjBlcXV1YlJDVFVEZmhqTXZWakNEX201R0t0RF9IeTNKdi1RWVZ5QWp3d1NPR3pYNUFIVmtTQU5TVEZXV205enc?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La présidence de l’UE soutient l’idée d’un statut de membre associé pour le Canada.",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fLUNwOEZkV0NFQ09NNE1qZ244UWlxWDJkQm9DWUg0bENDSllNajdYbDdMVWZwaVc2VGhEUnV1RzBDdGlOdVpWZnNqcXdFMDA1N2Y4N2FndGJuX3c?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "European Union invites Canada to become first ever ‘associate member’",
+      "sources": [
+        "The Guardian"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSDFQdU5wY3NNUUlNcXJHd1NDTkpQNnh1Y0hVUzNaOXdYWHJBMzQ2RGlVMW9VdU5zdnZIQzg2ZzV5ZHNPQ1ZTMXZRT2hES1c1c0JKazJ0Snl6REhFYTFvNnR3SDNLV19za05TcVQ3ZFZTTEEySkMyM1Bxb1JZZHl6WjcwUG5SbWJqSGtXemhmM1dXdTJBbkZOYjNfbDY4eU55Rng1ZTJmaw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Trump menace de réduire les échanges avec l’UE après sa proposition de statut associé au Canada.",
+      "sources": [
+        "The Guardian"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbTQ4OUZjQjh4R1BmSXZTU1dGMUR2RHBoalZPTFVnYmJaMGtudTdZWDlxZWVoQXluQkVBN2xMMmJXWHlmZ2VUUXcyMFRTeVpvNHcwaXNNcFgxang0bUJCdWwxUWYxWU1fS19SYVdCUUNhMHhHallCbGh0SGJyWXlraV9jNDlJWTBkTlNQSVhDZ0ZWTmNINEprVy1kQzZLekF6MlRsSFgzYXlEdjVrbWtoNDFweTZTVzBxdnhNMktKNnNybjA?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Mark Carney défend une alliance renforcée Canada–UE pour protéger les démocraties malgré l’opposition de Trump.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWUNDUDhTVm9zSHU1TGloUjMzQV9KVW5NMU9QQzcyV01UcGM1dkRWTDBEd01YdEtqbHFWLU0yNUI0V3FSUWQtVjYxb005MEVTTTNNbmxMb29heDlwaVRWcTcyMnJlNG1PSVZHcGJhMGFHLWNOTVBzYzRXbkFmUWNJTGxJR0VnaTQ5OFR1d2d3dHppRU9nenJ6VUpJWXZnd19XN01iUy1WbVEyb1lZQVp3QkZFUlpPZUI2clBLaFhWR0IxOUJP?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le rapprochement Canada–UE s’accélère alors que leurs économies cherchent à réduire leur dépendance aux États-Unis.",
+      "sources": [
+        "CBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YSFlMSzgwbnRaVkxlMXR5My1hU0dqbEhBSnFEZXlIeElzYkxsdUtGOU9YdGNfQU5lR0hUWExWQ2dRLS05RmZqdjhOSk8wd2MwMjkxQkw5LTBxR3F4WllNQ05jSHcwWWJkdXl5UnJYMmRNYVg5bnNIM3F6LXRlZEE?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Trump rejette fermement l’idée d’un rapprochement institutionnel entre le Canada et l’Union européenne.",
+      "sources": [
+        "Politico"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdDMwQUZHNmtFeWFRYnMzdFVkWUlSamhKR3daeXlqc2doVmd5Nll0TjZhUEZaYVdhbXE1dDJSME94WVVUYlJnNHE2NFVyQU80OE1KUElsZ3ZLZmQ0enREQWZ6YmJvRVpjalktd3lNdXNzdXFXRzdUQUtuQUtTVXZ2S1dlUWVLdEpNN1pFODQ5TTdZZ3hGQ2tyaUhxVXg2d3psUUZBVVEzQ2dWX1d2S3F4SzJON1hvUGJM?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Canada’s Carney welcomes EU’s associated membership proposal",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR0p4N293OVFSaHlMSkFnX001Z3FrUWp0NW9TV1ZOYk1UTDgyTVZYRGJqTENmbkpqU3VWcnZRSWp2djhHYzdtX3Y4N0lsQXVhbWJPN2JGQ3NIbUVTcFNZemVFTEUtb25ZMUs5SnM0TDZYZjdZSWtZWU40QUt4TmRpeHgwc09YSTFtdGstUVdFei1GcmZjWDZPMUJhc2RMbzFr0gGmAUFVX3lxTE5FRDRjbnZhY3BibExMTTlVaEpmQmVLWDNaSUlmRFJ3ZlJXZkdHUXJBWnJBVm5TTHNXa2lLX0RHbmJLbDBKVS1oZVNmQnQtTV9lSm9hdFQzVFFFcHJZamthcWRmRG5tcHJwUU9uQ0xRbE9Dc3RUZGpuYVlTZnd1NC1sei1DUzJmeUpOWThTNHZ0QklhVnlHbkliSExFZUxzczJJRm1HaWc?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Canada étudie un rapprochement inédit avec l’UE, incluant à terme davantage de mobilité pour travailler et vivre en Europe.",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaSy1xMGhrNUxsaG1ENmcxampSeS11eE13WjJ2Z2JlcHRiSXJCUXB4Nm5ZWElMc3RWMWxSU3Nzd3MwMXJQM0ZBMjI2WlUycWk5V0VpdlBzTkgyTTA?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’UE dispose de plusieurs formes d’association avec des pays tiers, un modèle que le Canada pourrait explorer.",
+      "sources": [
+        "CTV News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNnloTDY3VTdDUXFWR0czYVU0Z0JkVXFUcXYyRWtyUk9JMFhjcEg3RENTaER2NDJMQzNOUGJvbC05ZWgteDViWWEyZ29veEd2S0hfQTgtUjBqNzZoQlh4RmRKcThsaHUtZzBQNm9MVktmSWFub1BIY3NlWUhIOFVOUkVPSXFnSlVON3hNSmN2ZlREZ2FuV0FUanM0dEZiNzRGUExkb25OVVNVUDUxVFNlY1hQVWRiR2dXM3NtYkZLcGRtOW1FaGFqVlpEd2lZUQ?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Canada ne s’apprête pas à rejoindre l’UE, mais discute d’une formule d’association renforcée.",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LY1hpMXBNNm9BNUhqN19pVURMZ0lrWnVITkVSV3NhamFMV1V5T3duSlZ4Y0dvRmdGSEs2dUFSajlhTVdpYUkxbGg2NkNEVGIyZ1VoQ2h1clI?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La flambée record des carburants dans l’UE relance les appels à taxer les bénéfices exceptionnels des entreprises énergétiques.",
+      "sources": [
+        "The Guardian"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOVZqSzFRbDA5RGtzcEpxZkMwa3ktZ181N2FIaUNXdllyYjN3dEU0UXZJak42OHp6S29KOFBndXBrWjBQRzlpV25oazk1QzVIZzlMLWlydEZQTnYzNVdqWVpVQ2VXdkxJdlM0MF81SGpGbkNZMHlKVnYybUVaWkhsblFsdXNSWmlBR3hGczI0eGhZM0VqSGhIQjZOQ09tdUVo?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Russie saisit des actifs d’entreprises françaises et convoque un diplomate britannique sur le soutien occidental à l’Ukraine.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeEhZTmo1SEJEei1veGlxd2pPbWVOdmFJWHREVzlfTDdoaG1DWV9iWWJyVGVvcXZVd3h5aGIzZkVmMUlKV21hOUZRQzN2T1pPSGo0RkphdDdMX0JnUWZSaDhFOTVsN2hvRVhRY1B5UkFxQjlkQ2JVMW1iZjlLYWNfTXlOSjlzbDhyNUJNMXNFTlVBRWRCN3VBSzZuaHVTZE5pNkNlUmdMYkNmRHlJVTRpbTQzNHRvQdIBuwFBVV95cUxOelNWNFk3WjdsSFprb1VRaVpxRHBHVjkxdnlEWG00MjBVMmExblo2Rm4tY2NmdEVhSUJtcEloVzlZekVyRmxxTWhfU3FUTlJReG9tcmZXZ1U4TENPbWZYUW1rR2RNcmhnMGV6dlUwZHJGX2QxR0c5bkhuZnpDZzJmdy1ZM1FSWnNEQnhoLXFOT1d6ZzV4dFFIZDJjTklYTHl0MGx6YlBSTWdsbUd0Uk9DUDh1Y3ZobVVlUXZZ?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Why Europe Really, Really Needs a Mild Winter",
+      "sources": [
+        "The New York Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PWXRUZUM5UzFUSGtveEpnd0U4QlFRbmpwNUE1RkZqZUFmNU9ZLVFDNFF4ZEJ5a2RlcDJtWXBpQzNQTW5SemRoaXh2UTN6a29Za05sWnlIZGp1NDEzSWE0RjBVYXBkaWhfV3NmbklwclVwclU1T0Y0OE1rOWJFR1U?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Un éventuel retrait d’une partie des troupes américaines d’Europe relance les inquiétudes sur la défense du continent.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTlNZjh5WUxyRmw0a1ZyNGlmWjF5b2xablNUTTNRRDdyYXpYb2JtZ1dIcFZKTjVfX2JKSXo1UGJiUjE1RVF1U2VuSkdtQzhUMU9BQnJmNklIY1F2czVnbjJEMklNSlhHSkNoSVNwVVl2VnJscTM2THE2ZFNvb2JrMFloeVplRHFxdzFVeU1wMC1GLW5CYmhBQ3BRRDROX21TR01LLTZLMlNDUkXSAbABQVVfeXFMTVloYmZDZUcza3pMRW9qWWFmNTBQS3NvRzRyNUpudEQ4em1OaGlQeDBfUHlWRnlDZ0wxeG9hUDRoV2JvQ2lQc0F4WTRVdERtTHh1djdGVWl2Wk1YY3RFQ3h6ak9ERldQRVJwTFNEZEVVRV80XzBBNll6SzgtRHVHWXUwMFczQkRqUkR3SktCdU5RdVZBU1pyRm10Ym9FNmRJeHJJZDVzazI1VEJuVFI0V2U?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Kremlin présente de nombreux vétérans comme candidats, une stratégie qui pourrait aussi révéler des tensions politiques internes.",
+      "sources": [
+        "The New York Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGVJUUJHZFlzOGtFbVE2QnRWTjkxY3NUbG5kYXZmeFVwdllCN2hNZkZjVkR1S3pWSDZPYWh2d2NFa0pYUjhOVVROVWVSeTdYYnlncFRlNTBGdmYwREVDVG92M2FLbjh6NEtha2E0RUJzWC1DQ2pKa0N2T2RTMnc2OWJwdEZFYkhKRnotNzFR?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "À Berlin, Die Linke devance la CDU de Friedrich Merz dans le scrutin régional.",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQy1aaWJsQUQ5ekFjZ0JaLTVZT1lhdUxBcHRkVmhFdWZoLWhldkd1bkRhUHQ4RjJuZ2tzalM1cDNxRGVOU0RraVZreFUwQkQ4Xy1xS2tIZUpOOUlNbkZwY1FrM0dvajJWSllmeWllQ3libHZwdHB1c0FtZEl4amstMTZaeWpMZEhlbzR5T2xTekNuX2FkRXdvWHZjWXBZQ2JSNHJHTDM1SnVERjFWbzNkZzNyU2ItNDVmNWNkX2JYUUFKSzUwX2VGcEJ1ZGM1RkNYRFE?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 7,
+      "category": "Marchés",
+      "summary": "Les actions européennes baissent tandis que pétrole et rendements obligataires montent ; le Bund allemand atteint des niveaux inédits depuis 2009.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L’UE reste divisée sur des sanctions commerciales visant les colonies israéliennes considérées illégales.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNEZGZFdYdDJLLUtfdmRjeVdzOGx2MnRzQVJ5bDNmR2VQMTYwQlZNU05tanhHWWQ0X0Fvb2lMTm51czRXMlRVaVYyTklxbzhDLXFvdXFDOV9hSnowN3ZJTnNQYU1ndEVQZzdYODVHQ0ZGSDh1WDdzUV9pQnBVMzVFS0VvdnMwX0k5X045Z3I0dlYtcXItcVRvVUwtNUR0Qm9zU3EwenVRWTFKMkZ6Y1dB0gG0AUFVX3lxTE9GdTBjczN1Q3ZTaHU5a2htUFdZcWp4SHJad19lZEpCWjY1XzNfUi1zMXF1ZDhoRGJkeE1hOEx6NU40OTd6M1M0bW5ucmVFRl9jX2tYd3lKZjBuWXM4NjMyRmsyUzR3RE5STHV1bUphb09YTkszMXcyWTdlS25LWFAtcmlkVEd3RWNvekFhUllvNm1waGN5MWxBNmR4Y1J4cWVYYXdsRUtydkNwUXpoRlZ4Tk5BVg?oc=5",
       "origin": "rss",
       "language": "fr"
     },
@@ -3912,24 +4611,295 @@
     },
     {
       "regions": [
-        "Asie"
+        "Europe"
       ],
-      "period": "week",
-      "bucket": "7–13 septembre 2026",
-      "score": 9,
-      "category": "Moyen-Orient",
-      "summary": "Les Houthis intensifient leurs attaques contre l’Arabie saoudite et progressent au Yémen, menaçant les routes énergétiques régionales.",
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "Le projet de rapprochement de Carney avec l’UE ne prévoit pas de contribution directe du Canada au budget européen.",
+      "sources": [
+        "CBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNalB0N1ZNeUE4Sk1Xd3QwWk1CcDNHb0I2TU93RDJFdUtlMWlDaldDM21PNVFiTFM0X3ZYWmM0cGlWcGxuQ216c3NkT3c5VENIVG1ZcGJKRzNBem5VaDJmOGN0SGhFV2hmWjBvbGlrUFl1RVVMTXNzNnFGbGlTNE9DaFFSUVdlLXJ1bURPWEhwNUhKYlEyTG1nR05jMVQxNmg0WkE?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "Les relations entre Londres et Israël se dégradent autour de la question des colonies en Cisjordanie.",
+      "sources": [
+        "The New York Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMmRhNmVVVFpMNXJvUk85YkdDbkRfSmhKTVYzeGc4Z2hFRVF6MmhrZnNoVlgzdmxaVGdEdEVVaTdxNHJmV3RLcXBtZjBlcXV1YlJDVFVEZmhqTXZWakNEX201R0t0RF9IeTNKdi1RWVZ5QWp3d1NPR3pYNUFIVmtTQU5TVEZXV205enc?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La présidence de l’UE soutient l’idée d’un statut de membre associé pour le Canada.",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fLUNwOEZkV0NFQ09NNE1qZ244UWlxWDJkQm9DWUg0bENDSllNajdYbDdMVWZwaVc2VGhEUnV1RzBDdGlOdVpWZnNqcXdFMDA1N2Y4N2FndGJuX3c?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "European Union invites Canada to become first ever ‘associate member’",
+      "sources": [
+        "The Guardian"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSDFQdU5wY3NNUUlNcXJHd1NDTkpQNnh1Y0hVUzNaOXdYWHJBMzQ2RGlVMW9VdU5zdnZIQzg2ZzV5ZHNPQ1ZTMXZRT2hES1c1c0JKazJ0Snl6REhFYTFvNnR3SDNLV19za05TcVQ3ZFZTTEEySkMyM1Bxb1JZZHl6WjcwUG5SbWJqSGtXemhmM1dXdTJBbkZOYjNfbDY4eU55Rng1ZTJmaw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Trump menace de réduire les échanges avec l’UE après sa proposition de statut associé au Canada.",
+      "sources": [
+        "The Guardian"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbTQ4OUZjQjh4R1BmSXZTU1dGMUR2RHBoalZPTFVnYmJaMGtudTdZWDlxZWVoQXluQkVBN2xMMmJXWHlmZ2VUUXcyMFRTeVpvNHcwaXNNcFgxang0bUJCdWwxUWYxWU1fS19SYVdCUUNhMHhHallCbGh0SGJyWXlraV9jNDlJWTBkTlNQSVhDZ0ZWTmNINEprVy1kQzZLekF6MlRsSFgzYXlEdjVrbWtoNDFweTZTVzBxdnhNMktKNnNybjA?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Mark Carney défend une alliance renforcée Canada–UE pour protéger les démocraties malgré l’opposition de Trump.",
       "sources": [
         "Reuters"
       ],
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWUNDUDhTVm9zSHU1TGloUjMzQV9KVW5NMU9QQzcyV01UcGM1dkRWTDBEd01YdEtqbHFWLU0yNUI0V3FSUWQtVjYxb005MEVTTTNNbmxMb29heDlwaVRWcTcyMnJlNG1PSVZHcGJhMGFHLWNOTVBzYzRXbkFmUWNJTGxJR0VnaTQ5OFR1d2d3dHppRU9nenJ6VUpJWXZnd19XN01iUy1WbVEyb1lZQVp3QkZFUlpPZUI2clBLaFhWR0IxOUJP?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le rapprochement Canada–UE s’accélère alors que leurs économies cherchent à réduire leur dépendance aux États-Unis.",
+      "sources": [
+        "CBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YSFlMSzgwbnRaVkxlMXR5My1hU0dqbEhBSnFEZXlIeElzYkxsdUtGOU9YdGNfQU5lR0hUWExWQ2dRLS05RmZqdjhOSk8wd2MwMjkxQkw5LTBxR3F4WllNQ05jSHcwWWJkdXl5UnJYMmRNYVg5bnNIM3F6LXRlZEE?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Trump rejette fermement l’idée d’un rapprochement institutionnel entre le Canada et l’Union européenne.",
+      "sources": [
+        "Politico"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdDMwQUZHNmtFeWFRYnMzdFVkWUlSamhKR3daeXlqc2doVmd5Nll0TjZhUEZaYVdhbXE1dDJSME94WVVUYlJnNHE2NFVyQU80OE1KUElsZ3ZLZmQ0enREQWZ6YmJvRVpjalktd3lNdXNzdXFXRzdUQUtuQUtTVXZ2S1dlUWVLdEpNN1pFODQ5TTdZZ3hGQ2tyaUhxVXg2d3psUUZBVVEzQ2dWX1d2S3F4SzJON1hvUGJM?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Canada’s Carney welcomes EU’s associated membership proposal",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR0p4N293OVFSaHlMSkFnX001Z3FrUWp0NW9TV1ZOYk1UTDgyTVZYRGJqTENmbkpqU3VWcnZRSWp2djhHYzdtX3Y4N0lsQXVhbWJPN2JGQ3NIbUVTcFNZemVFTEUtb25ZMUs5SnM0TDZYZjdZSWtZWU40QUt4TmRpeHgwc09YSTFtdGstUVdFei1GcmZjWDZPMUJhc2RMbzFr0gGmAUFVX3lxTE5FRDRjbnZhY3BibExMTTlVaEpmQmVLWDNaSUlmRFJ3ZlJXZkdHUXJBWnJBVm5TTHNXa2lLX0RHbmJLbDBKVS1oZVNmQnQtTV9lSm9hdFQzVFFFcHJZamthcWRmRG5tcHJwUU9uQ0xRbE9Dc3RUZGpuYVlTZnd1NC1sei1DUzJmeUpOWThTNHZ0QklhVnlHbkliSExFZUxzczJJRm1HaWc?oc=5",
       "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Canada étudie un rapprochement inédit avec l’UE, incluant à terme davantage de mobilité pour travailler et vivre en Europe.",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaSy1xMGhrNUxsaG1ENmcxampSeS11eE13WjJ2Z2JlcHRiSXJCUXB4Nm5ZWElMc3RWMWxSU3Nzd3MwMXJQM0ZBMjI2WlUycWk5V0VpdlBzTkgyTTA?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’UE dispose de plusieurs formes d’association avec des pays tiers, un modèle que le Canada pourrait explorer.",
+      "sources": [
+        "CTV News"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNnloTDY3VTdDUXFWR0czYVU0Z0JkVXFUcXYyRWtyUk9JMFhjcEg3RENTaER2NDJMQzNOUGJvbC05ZWgteDViWWEyZ29veEd2S0hfQTgtUjBqNzZoQlh4RmRKcThsaHUtZzBQNm9MVktmSWFub1BIY3NlWUhIOFVOUkVPSXFnSlVON3hNSmN2ZlREZ2FuV0FUanM0dEZiNzRGUExkb25OVVNVUDUxVFNlY1hQVWRiR2dXM3NtYkZLcGRtOW1FaGFqVlpEd2lZUQ?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Canada ne s’apprête pas à rejoindre l’UE, mais discute d’une formule d’association renforcée.",
+      "sources": [
+        "BBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LY1hpMXBNNm9BNUhqN19pVURMZ0lrWnVITkVSV3NhamFMV1V5T3duSlZ4Y0dvRmdGSEs2dUFSajlhTVdpYUkxbGg2NkNEVGIyZ1VoQ2h1clI?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La flambée record des carburants dans l’UE relance les appels à taxer les bénéfices exceptionnels des entreprises énergétiques.",
+      "sources": [
+        "The Guardian"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOVZqSzFRbDA5RGtzcEpxZkMwa3ktZ181N2FIaUNXdllyYjN3dEU0UXZJak42OHp6S29KOFBndXBrWjBQRzlpV25oazk1QzVIZzlMLWlydEZQTnYzNVdqWVpVQ2VXdkxJdlM0MF81SGpGbkNZMHlKVnYybUVaWkhsblFsdXNSWmlBR3hGczI0eGhZM0VqSGhIQjZOQ09tdUVo?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Russie saisit des actifs d’entreprises françaises et convoque un diplomate britannique sur le soutien occidental à l’Ukraine.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeEhZTmo1SEJEei1veGlxd2pPbWVOdmFJWHREVzlfTDdoaG1DWV9iWWJyVGVvcXZVd3h5aGIzZkVmMUlKV21hOUZRQzN2T1pPSGo0RkphdDdMX0JnUWZSaDhFOTVsN2hvRVhRY1B5UkFxQjlkQ2JVMW1iZjlLYWNfTXlOSjlzbDhyNUJNMXNFTlVBRWRCN3VBSzZuaHVTZE5pNkNlUmdMYkNmRHlJVTRpbTQzNHRvQdIBuwFBVV95cUxOelNWNFk3WjdsSFprb1VRaVpxRHBHVjkxdnlEWG00MjBVMmExblo2Rm4tY2NmdEVhSUJtcEloVzlZekVyRmxxTWhfU3FUTlJReG9tcmZXZ1U4TENPbWZYUW1rR2RNcmhnMGV6dlUwZHJGX2QxR0c5bkhuZnpDZzJmdy1ZM1FSWnNEQnhoLXFOT1d6ZzV4dFFIZDJjTklYTHl0MGx6YlBSTWdsbUd0Uk9DUDh1Y3ZobVVlUXZZ?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Why Europe Really, Really Needs a Mild Winter",
+      "sources": [
+        "The New York Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PWXRUZUM5UzFUSGtveEpnd0U4QlFRbmpwNUE1RkZqZUFmNU9ZLVFDNFF4ZEJ5a2RlcDJtWXBpQzNQTW5SemRoaXh2UTN6a29Za05sWnlIZGp1NDEzSWE0RjBVYXBkaWhfV3NmbklwclVwclU1T0Y0OE1rOWJFR1U?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Un éventuel retrait d’une partie des troupes américaines d’Europe relance les inquiétudes sur la défense du continent.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTlNZjh5WUxyRmw0a1ZyNGlmWjF5b2xablNUTTNRRDdyYXpYb2JtZ1dIcFZKTjVfX2JKSXo1UGJiUjE1RVF1U2VuSkdtQzhUMU9BQnJmNklIY1F2czVnbjJEMklNSlhHSkNoSVNwVVl2VnJscTM2THE2ZFNvb2JrMFloeVplRHFxdzFVeU1wMC1GLW5CYmhBQ3BRRDROX21TR01LLTZLMlNDUkXSAbABQVVfeXFMTVloYmZDZUcza3pMRW9qWWFmNTBQS3NvRzRyNUpudEQ4em1OaGlQeDBfUHlWRnlDZ0wxeG9hUDRoV2JvQ2lQc0F4WTRVdERtTHh1djdGVWl2Wk1YY3RFQ3h6ak9ERldQRVJwTFNEZEVVRV80XzBBNll6SzgtRHVHWXUwMFczQkRqUkR3SktCdU5RdVZBU1pyRm10Ym9FNmRJeHJJZDVzazI1VEJuVFI0V2U?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Kremlin présente de nombreux vétérans comme candidats, une stratégie qui pourrait aussi révéler des tensions politiques internes.",
+      "sources": [
+        "The New York Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGVJUUJHZFlzOGtFbVE2QnRWTjkxY3NUbG5kYXZmeFVwdllCN2hNZkZjVkR1S3pWSDZPYWh2d2NFa0pYUjhOVVROVWVSeTdYYnlncFRlNTBGdmYwREVDVG92M2FLbjh6NEtha2E0RUJzWC1DQ2pKa0N2T2RTMnc2OWJwdEZFYkhKRnotNzFR?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "À Berlin, Die Linke devance la CDU de Friedrich Merz dans le scrutin régional.",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQy1aaWJsQUQ5ekFjZ0JaLTVZT1lhdUxBcHRkVmhFdWZoLWhldkd1bkRhUHQ4RjJuZ2tzalM1cDNxRGVOU0RraVZreFUwQkQ4Xy1xS2tIZUpOOUlNbkZwY1FrM0dvajJWSllmeWllQ3libHZwdHB1c0FtZEl4amstMTZaeWpMZEhlbzR5T2xTekNuX2FkRXdvWHZjWXBZQ2JSNHJHTDM1SnVERjFWbzNkZzNyU2ItNDVmNWNkX2JYUUFKSzUwX2VGcEJ1ZGM1RkNYRFE?oc=5",
+      "origin": "rss",
+      "language": "fr"
     },
     {
       "regions": [
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Des informations font état d’un accord discret entre Washington et les Houthis concernant la guerre au Yémen.",
@@ -3945,7 +4915,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Les Houthis ont renforcé leur poids militaire et politique au Yémen après des années de guerre.",
@@ -3961,7 +4931,23 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Israël continue d’avancer son projet de colonisation près de Jérusalem, malgré les sanctions",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPUUE5VUxOSGpMTWpNNkttSW9YV0lJNnY2ZTVlR2dtbHJYX3NUWmcyVUVvYVIxSEh0dTZMb2w0QzgxbEZPSDJVUDR3dENObEZuMnBsSUJScHMyTm94dVFuLW1IcjdCYi1mUVhteVYtUzRreU54cnVuOXV5N2dQODVEVGMzSlN5RzVOdXozZURFaVd6QVpVSGhEM0I5dGxDblF2NXhEZUJOOG5BQ3pKNTFQc0F4YkNjaVc2ZjU4a3pUQlFYWWJrRTJqRzFpaUhzSlRRRWhlV0dFUkZobjlEMExfUXpobmU3STFnMXdIbl9KY2VUMFZyZ0NGMg?oc=5",
+      "published_at": "2026-09-16T21:31:15+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Pete Hegseth lance une tournée politique alors que la guerre avec l’Iran suscite des critiques aux États-Unis.",
@@ -3977,7 +4963,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Énergie",
       "summary": "L’Inde est prise entre la menace de nouveaux droits américains et sa dépendance au pétrole russe.",
@@ -3993,7 +4979,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "L’Iran dit avoir transmis via le Qatar ses conditions pour reprendre les négociations et mettre fin au conflit avec les États-Unis.",
@@ -4009,7 +4995,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Ed Sheeran prend position sur la guerre à Gaza après l’exclusion de Macklemore de sa tournée.",
@@ -4025,7 +5011,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Économie",
       "summary": "La hausse des taux de la Fed traduit une inflation persistante et une croissance américaine plus robuste qu’attendu.",
@@ -4041,7 +5027,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "La guerre avec l’Iran provoque une hausse mondiale des prix des carburants.",
@@ -4057,7 +5043,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "En Iran, guerre et inflation retardent les mariages et modifient profondément les projets familiaux.",
@@ -4073,7 +5059,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "La hausse de l’essence mécontente les électeurs américains ; Trump estime que ce coût reste limité au regard de la guerre avec l’Iran.",
@@ -4089,7 +5075,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Saudi-led coalition says defence intercepted Houthi missile fired at Riyadh",
@@ -4104,7 +5090,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
       "summary": "Les nouveaux droits américains pénalisent les producteurs laitiers canadiens et freinent leurs ventes aux États-Unis.",
@@ -4120,7 +5106,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Les Houthis visent Riyad pour la première fois depuis le début de la guerre avec l’Iran.",
@@ -4136,7 +5122,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "Selon Waltz, le cessez-le-feu s’est effondré après de nouveaux échanges de tirs entre les États-Unis et l’Iran.",
@@ -4152,7 +5138,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "L’Iran pose de nouvelles conditions diplomatiques et sécuritaires pour mettre fin à sa guerre avec les États-Unis.",
@@ -4168,7 +5154,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Énergie",
       "summary": "La crise au Moyen-Orient pousse le Brent au-dessus de 108 $, mettant sous pression les économies asiatiques importatrices d’énergie.",
@@ -4182,7 +5168,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Taïwan",
       "summary": "Taïwan, le Japon et d’autres alliés s’inquiètent d’éventuelles concessions américaines à Pékin lors du sommet Trump–Xi.",
@@ -4196,7 +5182,7 @@
         "Asie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Énergie",
       "summary": "Ed Sheeran qualifie la situation à Gaza d’« injustifiable » lors de son premier concert depuis la controverse entourant sa tournée.",
@@ -4206,6 +5192,444 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMnRQUDUwUVktZU85Y196R2IyMGVJVVVFbWtRem9rQnhBT3NsZGJIa0NMSlY5RHpIel9GUmJsUDVKZ1E0ZlM1YjV4d2pDVnpTS2F1bnNfTW02T3hIb2x0MHI3S1d3N3VwTHVaRHdXYkFFMXB6WXlvR2tnUS14MWZqNG5BRnhsT2xEUHJ4MTNVVEFtdjRMUDNQcFRPRDVNaDk3dnBtd0dTbllRcGdtZVpvcEZNc3RWQzVBWGtacC12X0dUTW5PU3N6WA?oc=5",
       "origin": "rss",
       "language": "fr"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le pacte avec l’Arabie saoudite pourrait accroître le risque d’implication du Pakistan dans le conflit au Moyen-Orient.",
+      "sources": [
+        "The Guardian"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa2daUnZ1cVlwMDN4bEt1Q2dNR1FlXzJlRjBONV9nbjlIR1ZLNHNOLXF2Y3ZpZDg3ZTRjU2Z6aWRDU1BlS0JSdm1VcVlqaVBNNmxQeDF5X1dsbUFYN3RIc2ViR0hMR3BSbjlUY3ltQnY0UHBlYk43bEExM2xQWGIzWkREa09qNE9kNE5RTklEbkVxd3pTRGJqeV9DeHJFdjM1Sy1ibFQ2amNLVEZBYURrM2hiMVZBdlVNcFpITVRJXzVFMUE?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 8,
+      "category": "Conflit",
+      "summary": "L’Iran et les États-Unis échangent de nouvelles menaces après l’escalade des attaques houthies dans la région.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdWJkS01sRHBUcXZGZVVoTy1zVU04amJ0VUc3WnZ4UkVZd25TTTR6RGY1ZkV5OUtGZzFULVNDcEo4MzlZMmNkamt0VjR5VHg3YzRDaWhEOFAtZklDbFpGSXpCeE9BeGR3UWp3aFN1MVp2aUMyZE93ZnFUN0VTdzdkZGJnMDdrOFNtc1lhZC1UQlNDWFl3dGRWdjZwYkc2SHJGelBn?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La Turquie se dit prête à répondre aux besoins de défense saoudiens, signe d’un rapprochement sécuritaire régional.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUlU5UVJ5NTRKb21LaXQxN2w4MHZNSVhQM3c5NFZ4aGU1R2JWbVI3Y2UxX1lwSmlwa095d2dITnFqV25QZnhUQlZVanFlY1JReG9VeXBLNlZGOG42NGdBRmtzVm1DMUNJNC1GVU1EM3hQYkdBREhJNlRrY0hJWjBoSHhRWGJSME13YmlOZkZIODUyYmpqTFVWaklGRWtFbEdBWkhjcWprNXA5dW9aZXVN0gG0AUFVX3lxTE1IXy04ZHl6Q21uTVlLMGRPWEJ0MGdUODZKVjUzaDZSUU9WMkZxRTVkVEI5R0t6Sl9PX2FCUXRhalZ4d0RFNWJFWnFaczlzV0hGNjJFeHRfZjBuQVlUdlJhOEJuV3ZuZlB3Zk9qMHpCTVlXY0tybG15RmMteDRib1o1cXkwemdlUHREeThmUHFabk1CaUczY3pmQk9uUVZncU9zRDRPdnYtWlRUQWFhMEMzMl9feg?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Sécurité",
+      "summary": "Le ministre chinois de la Défense appelle à stopper les actes « provocateurs » alors que les tensions persistent autour de Taïwan et de la mer de Chine.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Monnaie",
+      "summary": "La Banque du Japon relève ses taux à leur plus haut niveau depuis 31 ans, sans parvenir à renforcer durablement le yen.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Chine",
+      "summary": "Un conseiller de la banque centrale chinoise avertit que l’IA pourrait accentuer le déséquilibre entre forte production et faible demande intérieure.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le trafic de fret dans le Golfe s’effondre sous l’effet du conflit et des risques pesant sur les routes maritimes.",
+      "sources": [
+        "Financial Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS0hpOTZFeDJsNGl3ZHIyd0g3NWtJbGJIME0taDFHbFNjZ0JWRHprSGhJNTJVUVoycHRVWHJuVXNtNS1HMk5qTl9MdDI1RVdfU0RibnFCd01nam5pWWZkQkpaaV9TUy1KbHZjVFVRQ1M0V29FOE5MN3hqSnRjcW96WG9RWmg?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "Le KOSPI sud-coréen chute de 3,3 % dans une vente mondiale des valeurs technologiques liée aux inquiétudes sur la course à l’IA.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Conflit",
+      "summary": "L’Arabie saoudite affirme que les Houthis ont tenté de frapper Riyad.",
+      "sources": [
+        "NPR"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdy1oY2xxNXBPVE0yN3NaRWxKX1lTZzlZRHhRMzZFOGxmSWo2ZkU3SzhNUmc3WFdDVGdwYVdjc1dfc2RqV3ItbjViMnF0NUlTT2RiMDMxaHVRVzFXNW9TRUtOeW5UcWJkbDlDcVVmT0V5cFVqYml5R0t4aFNwZHlCRW10SUN5ZVliNERfb09OTmg3SFV2?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Consulat du Royaume-Uni fermé, Jeremy Corbyn interdit d’entrée : Israël répond à l’annonce de sanctions contre ses colonies en Cisjordanie",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPRVlST3FzZm9qYl80RVpocTVnUGtwZUVtbzZWeVM0UVMtcHhQQk5yY3FMd05vT1dUWlNqTFBKOXJqdlFXSmpJWjdMT0h1VHFYQXl2cnVrSkxGWVpPVGRRM1dIQWdxcXEtOFFjX0NjZFA3RXI1cUtWUFJzdmpuTjlMMURxbEFGMlFXX3dYRmpabm50bG1xWkhHSy1kNjJNbFFlbGh5R3ZFMUdSM2RBZS1qelptVzV2UXhnTXVRTmhRYkRFeHZWT2xveGpianNtbVJFVGhYTnZjWkdrMlJZbXBVNjA4ZFlUa2c4OWg1MjBTcC1hUzd0UGZvVHBSOHdTS2doeDNfNWVabVVZRFJEMVNjM1BjSjNZWTFpZW9CaG5KVmxITFlvOEJkdlA5a25tdmtIVWc0?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "VIDÉO | Israël : le discours d’Ed Miliband sur les sanctions britanniques à Westminster",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQVWVSNjd0X2Fsal8wdmIyYV9qV0hXc05zXzU0NmgyTGttQnRVQjY1STlSOGhpSElTM2QzWlIwbDFNa05qZ3pPMkZ1ekJUZTcwcUpLYTZxZWFJQkZsVjFFUjRlWnF2TUdnaUZub0RiaHJYNWkxc3Bvd1RGbzZ2b2VBc0VnUFNBTHQySXIwVzYxNm9fTHY3NnVySHp1M3NZLUpVaFpWcnozZzJqLWtnYTRXZW9fSkNOZ1BEcjJLLTg0cTZ0RmdEQWJqV3NucHowQ05vdV94Nll2Qk1JLWFfVW1vLWpKa3dHNFVDX1NLWktLSlhEaHZMcG1lTUQ5QUNjMDF1TkVwcVRGSzNCQ1pIdjJKUTNzWk4yNGs3N3BINXJjQnV0Xzg4ektvTEhvYVprUQ?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Israël va fermer le consulat britannique à Jérusalem après des sanctions contre les colonies",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQUkg5S1JZV3hWU2tFQjZ6YlJkbGxZSDhOSXY3T0ktdlp1blBURWhEY1JEQjlQeWhZOTA2c2RJelRla19BUG52X0gzVlVmc2hWMDZJVnl2Rmk3dzItejVGbldqNFlUMVBmdkVBNXh5TE5lN3hjSHY4YWtrV1YzUW1NSHlJejkycU1lM0J2bXpnbWVjcnppVlZjUWJKLXV1X0JGblN5cHR1QlFwMXU3b2ptd2F3eEhjRUkwZmFFbjNJX2dwVlgxOWx1WklrVW11WlVfTndNMF8tWFNYTFgtSGJQblB5OE1JREhGMk9lWFdJVUZjV1ZWYWRTOXJmbUMwZ1pXcGk0TlpBUHhhb3l2V0ZLaU15Smg4cURvZFlfMTh3?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Israël cible le Royaume-Uni en riposte aux sanctions sur la Cisjordanie",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNLTItRDdFdjhCenJURVhPa0Flb1FvdExEQ2dmNVI4T0djZUF3SzByUVRPRE15cnBrTGwxOTNQRWZXUnB3TFpzMUlTd1lDNE8yVTIzYXhXVkc2NlRkaWZ5UFYwczI0MVIzQndIMnFaend2Vnk1Y1FzbzZpTFdDRkJCWGplT1BtRmdFc1JKUFlWU2dKMkVoR19aNjlJOVVLOW5zZW9LeFZXdFlISUN0OC1fRHdQdHhIQ3NhWHJWXzBwLXQ1TmRfOXdQNTFGZ1FpaVFRNFV0aExTcmU3dC1nbGc?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions contre Israël, \"une action concrète et sincère\" contre la colonisation israélienne",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcjd1QnJiaGtEMm1vMmtlWVljQzdLdFZDMHVWdFlPeTZpUFpMUXhzMmpOUHU0SzBablJteWM0eUx4MFBBSTBPbTM0b0YwRTd0em1OVkMwTzZtRWpoVW9fZ01SZTlZWVBmMlphc2F5RXgzRVFwU2toMVU4RFNYOEliUWZfQy1wZU12NWpWNW44aUdjZzd1N25IMFNYektDdjA2cUNiWGEwM0lmTUlLOU02NlpFZzZrQjJBak82SFBEZTZVUkhLeUpicTl3empJUlRidjRWbm5jdDNBZ3VQUFktdlVzZVl3TDBoalVXVURGRUp3UFRyZ29v?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions contre les colons : Londres condamne les représailles d’Israël",
+      "sources": [
+        "Euronews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjR0WTJJTHNVb1M4dHN5ZS1DTW9KUTNCVW0xVllqUktTckE5T19udmtkekJad0kxZHBRVTJBR202Sk8xcFM5X1dTN3p4RXJKV1dRQXNhR1BnaXZmX3p3MHYzak9ZLVRQYmJuNU9JNnJ6aWQzbDFBWEl6LVJKYUR1bkdPaUFBZG9QaXVlYm5yLTEwcnU1c1lXeVBVYlM5YU1YWElqOXRuUQ?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions britanniques : Israël peut dormir tranquille",
+      "sources": [
+        "Le Monde diplomatique"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPemEtWXNiYlNCQl9JQWRGaWVaNHgwaHQwMGMyS250Sl85X2I5VE9uZ0dPZkk5VGgwb1AzakctUmhoRmdfc0N0d3c4NmVHanNSUmtYY3ByOFZGWWgzeUFFcGVfbUZMM04tT3ZWN1MzQ0JLelRfYXRtNHV4YlJ3bS1wNFRxbjlVZmNZ?oc=5",
+      "published_at": "2026-09-11T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 9,
+      "category": "Moyen-Orient",
+      "summary": "Les Houthis intensifient leurs attaques contre l’Arabie saoudite et progressent au Yémen, menaçant les routes énergétiques régionales.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Onze pays européens et le Canada sanctionnent la politique d’Israël en Cisjordanie qui menace de « détruire la solution à deux Etats »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPQjlTc2NCYjN3a3Y4WFR3S2xSY3pjZkJmbXFyRExYSG00ckVGTGRzbFprTktscVJTaDFINFdNN05LRXBUbGo0YVo5NXRWOUtHVnlfbnNQY2N4SjZDNU44NW1RTUxrVDlFZk1mMGxncUYtSnhpU3RwaXh4VHgyQ2lQN3NNcVBsdENVRXFRZ0NPRUNSZW5WT29Hc0tZU1N0WW9BX0dCT3A1YWt2T2N0SE9SZGhvRnZnczNCVWlkdF83WGljbFVPU0pfbFpOajNUYWs2enhVaDNTUmQ5R29KdlV5Q0NmZFY1QnNoMjc3S1d2eFlWQmpQQVNHb3NVeFNJQk5XemNnUjFTcnhWQjBmb2JoT0NCMFlOSllMSWNWdQ?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "\"Les prix montent chaque heure\" en Iran : l'économie est asphyxiée, les manifestations reprennent",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeW5OUWQwdlRqTkdidVNjUTl2T3BESlpMQVNWR29CRW5hM1JyOHNYUWc5OXZRbHcyYWVfQXltaTdGLVo4bzljUnRpVEp2bnl2cHlzR2VsRkxTa2FOT0NyM2otNDlkRU5tbnVfMjY4M2lFb2JGTjFydktuN25WTFBjTy1QdkY5bUN0RXJaMG9OLVYtQllkam5DUWRQdEFsdGdXMjduU29FUXdsYWlYbzljbUtpVXB1aHBXYU84TDJUMnlNT0FBYVRaNm53MzM?oc=5",
+      "published_at": "2026-09-10T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Washington affirme que l'UE rejoint ses sanctions contre l'Iran, Bruxelles parle d'un soutien",
+      "sources": [
+        "Euronews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnJMVGxIUU81YUljRERtdzg0elgwOENIRTE2RHREV2JyWFFYQW9WX0JNT2tTRFhNS2JmMGFrTjhBSFRLbXpCM0FvRFJWZHRmVF9RRWpURjh4OXpCaDVHdDd1NkpUcU5nN3puanpVMlRQVXZ2YVZ5M1VSMFFjYlR2NnlZdFRfbzdCSlhhQlJZaDR5ZU54WnlhdlhKWXFvSE1DUW45TXhlWjBBa2xLQXlqUHA2ems5MFBkVXpCRHFublJ2UQ?oc=5",
+      "published_at": "2026-09-04T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Washington affirme que l'UE rejoint ses sanctions contre l'Iran, Bruxelles parle d'un soutien",
+      "sources": [
+        "Euronews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnJMVGxIUU81YUljRERtdzg0elgwOENIRTE2RHREV2JyWFFYQW9WX0JNT2tTRFhNS2JmMGFrTjhBSFRLbXpCM0FvRFJWZHRmVF9RRWpURjh4OXpCaDVHdDd1NkpUcU5nN3puanpVMlRQVXZ2YVZ5M1VSMFFjYlR2NnlZdFRfbzdCSlhhQlJZaDR5ZU54WnlhdlhKWXFvSE1DUW45TXhlWjBBa2xLQXlqUHA2ems5MFBkVXpCRHFublJ2UQ?oc=5",
+      "published_at": "2026-09-04T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Consulat du Royaume-Uni fermé, Jeremy Corbyn interdit d’entrée : Israël répond à l’annonce de sanctions contre ses colonies en Cisjordanie",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPRVlST3FzZm9qYl80RVpocTVnUGtwZUVtbzZWeVM0UVMtcHhQQk5yY3FMd05vT1dUWlNqTFBKOXJqdlFXSmpJWjdMT0h1VHFYQXl2cnVrSkxGWVpPVGRRM1dIQWdxcXEtOFFjX0NjZFA3RXI1cUtWUFJzdmpuTjlMMURxbEFGMlFXX3dYRmpabm50bG1xWkhHSy1kNjJNbFFlbGh5R3ZFMUdSM2RBZS1qelptVzV2UXhnTXVRTmhRYkRFeHZWT2xveGpianNtbVJFVGhYTnZjWkdrMlJZbXBVNjA4ZFlUa2c4OWg1MjBTcC1hUzd0UGZvVHBSOHdTS2doeDNfNWVabVVZRFJEMVNjM1BjSjNZWTFpZW9CaG5KVmxITFlvOEJkdlA5a25tdmtIVWc0?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "VIDÉO | Israël : le discours d’Ed Miliband sur les sanctions britanniques à Westminster",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQVWVSNjd0X2Fsal8wdmIyYV9qV0hXc05zXzU0NmgyTGttQnRVQjY1STlSOGhpSElTM2QzWlIwbDFNa05qZ3pPMkZ1ekJUZTcwcUpLYTZxZWFJQkZsVjFFUjRlWnF2TUdnaUZub0RiaHJYNWkxc3Bvd1RGbzZ2b2VBc0VnUFNBTHQySXIwVzYxNm9fTHY3NnVySHp1M3NZLUpVaFpWcnozZzJqLWtnYTRXZW9fSkNOZ1BEcjJLLTg0cTZ0RmdEQWJqV3NucHowQ05vdV94Nll2Qk1JLWFfVW1vLWpKa3dHNFVDX1NLWktLSlhEaHZMcG1lTUQ5QUNjMDF1TkVwcVRGSzNCQ1pIdjJKUTNzWk4yNGs3N3BINXJjQnV0Xzg4ektvTEhvYVprUQ?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Israël va fermer le consulat britannique à Jérusalem après des sanctions contre les colonies",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQUkg5S1JZV3hWU2tFQjZ6YlJkbGxZSDhOSXY3T0ktdlp1blBURWhEY1JEQjlQeWhZOTA2c2RJelRla19BUG52X0gzVlVmc2hWMDZJVnl2Rmk3dzItejVGbldqNFlUMVBmdkVBNXh5TE5lN3hjSHY4YWtrV1YzUW1NSHlJejkycU1lM0J2bXpnbWVjcnppVlZjUWJKLXV1X0JGblN5cHR1QlFwMXU3b2ptd2F3eEhjRUkwZmFFbjNJX2dwVlgxOWx1WklrVW11WlVfTndNMF8tWFNYTFgtSGJQblB5OE1JREhGMk9lWFdJVUZjV1ZWYWRTOXJmbUMwZ1pXcGk0TlpBUHhhb3l2V0ZLaU15Smg4cURvZFlfMTh3?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Israël cible le Royaume-Uni en riposte aux sanctions sur la Cisjordanie",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNLTItRDdFdjhCenJURVhPa0Flb1FvdExEQ2dmNVI4T0djZUF3SzByUVRPRE15cnBrTGwxOTNQRWZXUnB3TFpzMUlTd1lDNE8yVTIzYXhXVkc2NlRkaWZ5UFYwczI0MVIzQndIMnFaend2Vnk1Y1FzbzZpTFdDRkJCWGplT1BtRmdFc1JKUFlWU2dKMkVoR19aNjlJOVVLOW5zZW9LeFZXdFlISUN0OC1fRHdQdHhIQ3NhWHJWXzBwLXQ1TmRfOXdQNTFGZ1FpaVFRNFV0aExTcmU3dC1nbGc?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions contre Israël, \"une action concrète et sincère\" contre la colonisation israélienne",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcjd1QnJiaGtEMm1vMmtlWVljQzdLdFZDMHVWdFlPeTZpUFpMUXhzMmpOUHU0SzBablJteWM0eUx4MFBBSTBPbTM0b0YwRTd0em1OVkMwTzZtRWpoVW9fZ01SZTlZWVBmMlphc2F5RXgzRVFwU2toMVU4RFNYOEliUWZfQy1wZU12NWpWNW44aUdjZzd1N25IMFNYektDdjA2cUNiWGEwM0lmTUlLOU02NlpFZzZrQjJBak82SFBEZTZVUkhLeUpicTl3empJUlRidjRWbm5jdDNBZ3VQUFktdlVzZVl3TDBoalVXVURGRUp3UFRyZ29v?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions contre les colons : Londres condamne les représailles d’Israël",
+      "sources": [
+        "Euronews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjR0WTJJTHNVb1M4dHN5ZS1DTW9KUTNCVW0xVllqUktTckE5T19udmtkekJad0kxZHBRVTJBR202Sk8xcFM5X1dTN3p4RXJKV1dRQXNhR1BnaXZmX3p3MHYzak9ZLVRQYmJuNU9JNnJ6aWQzbDFBWEl6LVJKYUR1bkdPaUFBZG9QaXVlYm5yLTEwcnU1c1lXeVBVYlM5YU1YWElqOXRuUQ?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions britanniques : Israël peut dormir tranquille",
+      "sources": [
+        "Le Monde diplomatique"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPemEtWXNiYlNCQl9JQWRGaWVaNHgwaHQwMGMyS250Sl85X2I5VE9uZ0dPZkk5VGgwb1AzakctUmhoRmdfc0N0d3c4NmVHanNSUmtYY3ByOFZGWWgzeUFFcGVfbUZMM04tT3ZWN1MzQ0JLelRfYXRtNHV4YlJ3bS1wNFRxbjlVZmNZ?oc=5",
+      "published_at": "2026-09-11T09:00:00+02:00",
+      "origin": "rss"
     },
     {
       "regions": [
@@ -4252,6 +5676,22 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdkdPMUYwd2NPNzdkMVBLLU5NRlRDcmFTcW13Yl83UVZldkdNWUpfMDFzeXVnV0h2aFdOa1JxTE03UjFXeE8taW50eEwtU3VGWlJoVzdRNWJTUWdDRV9ISzBwZFg2Y0t2TjBTMlJWV1JvSER5RTVvbXhyV3JucUJpZFRGemg0bzRJNGdhd0xOTXp6OUZqa0VvWHB1dk1wYjVjeUpBUmNhMllOY0U?oc=5",
       "origin": "rss",
       "language": "fr"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Israël continue d’avancer son projet de colonisation près de Jérusalem, malgré les sanctions",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPUUE5VUxOSGpMTWpNNkttSW9YV0lJNnY2ZTVlR2dtbHJYX3NUWmcyVUVvYVIxSEh0dTZMb2w0QzgxbEZPSDJVUDR3dENObEZuMnBsSUJScHMyTm94dVFuLW1IcjdCYi1mUVhteVYtUzRreU54cnVuOXV5N2dQODVEVGMzSlN5RzVOdXozZURFaVd6QVpVSGhEM0I5dGxDblF2NXhEZUJOOG5BQ3pKNTFQc0F4YkNjaVc2ZjU4a3pUQlFYWWJrRTJqRzFpaUhzSlRRRWhlV0dFUkZobjlEMExfUXpobmU3STFnMXdIbl9KY2VUMFZyZ0NGMg?oc=5",
+      "published_at": "2026-09-16T21:31:15+02:00",
+      "origin": "rss"
     },
     {
       "regions": [
@@ -4631,6 +6071,38 @@
       "period": "month",
       "bucket": "Septembre 2026",
       "score": 5,
+      "category": "Géopolitique",
+      "summary": "Onze pays européens et le Canada sanctionnent la politique d’Israël en Cisjordanie qui menace de « détruire la solution à deux Etats »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPQjlTc2NCYjN3a3Y4WFR3S2xSY3pjZkJmbXFyRExYSG00ckVGTGRzbFprTktscVJTaDFINFdNN05LRXBUbGo0YVo5NXRWOUtHVnlfbnNQY2N4SjZDNU44NW1RTUxrVDlFZk1mMGxncUYtSnhpU3RwaXh4VHgyQ2lQN3NNcVBsdENVRXFRZ0NPRUNSZW5WT29Hc0tZU1N0WW9BX0dCT3A1YWt2T2N0SE9SZGhvRnZnczNCVWlkdF83WGljbFVPU0pfbFpOajNUYWs2enhVaDNTUmQ5R29KdlV5Q0NmZFY1QnNoMjc3S1d2eFlWQmpQQVNHb3NVeFNJQk5XemNnUjFTcnhWQjBmb2JoT0NCMFlOSllMSWNWdQ?oc=5",
+      "published_at": "2026-09-08T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "\"Les prix montent chaque heure\" en Iran : l'économie est asphyxiée, les manifestations reprennent",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeW5OUWQwdlRqTkdidVNjUTl2T3BESlpMQVNWR29CRW5hM1JyOHNYUWc5OXZRbHcyYWVfQXltaTdGLVo4bzljUnRpVEp2bnl2cHlzR2VsRkxTa2FOT0NyM2otNDlkRU5tbnVfMjY4M2lFb2JGTjFydktuN25WTFBjTy1QdkY5bUN0RXJaMG9OLVYtQllkam5DUWRQdEFsdGdXMjduU29FUXdsYWlYbzljbUtpVXB1aHBXYU84TDJUMnlNT0FBYVRaNm53MzM?oc=5",
+      "published_at": "2026-09-10T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
       "category": "Conflit",
       "summary": "L’Arabie saoudite affirme que les Houthis ont tenté de frapper Riyad.",
       "sources": [
@@ -4645,37 +6117,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "7–13 septembre 2026",
-      "score": 9,
-      "category": "Géopolitique",
-      "summary": "Trump riposte au Canada avec des interdictions d’importation et de nouvelles hausses de droits de douane.",
-      "sources": [
-        "Politico"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQnJtRUpGelY0MERSSWduZmpjMnhCZ0pkUmV2VzdnMHUzcnM3VEdzMXZfdDZhX0RNRkw2enRDYk1lWE1YZkhTMFVOT3lzd3pmcFVaX1UtSVVGeFA5VjRtamY5VnRQQldjd09FRnhGeWx3VDNhNmxia0RnZ1dRaGVMNmg4YVJzYVV1ekZqVDdYNmxpdVFwRm5id01sLWs2UnFGU0lXVDBpZmpNVm1uaUN1aU8xbDJCMVZUdzhGVw?oc=5",
-      "origin": "rss",
-      "language": "fr"
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "week",
-      "bucket": "7–13 septembre 2026",
-      "score": 7,
-      "category": "Énergie",
-      "summary": "Trump évoque la possibilité de maintenir une présence américaine en Iran pour le pétrole, en la comparant à l’accord américain au Venezuela.",
-      "sources": [
-        "Reuters"
-      ],
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Fed",
       "summary": "La Fed augmente son taux directeur de 0,25 point à 3,75–4,00 %, première hausse depuis trois ans.",
@@ -4690,7 +6132,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Russie",
       "summary": "Trump signe une loi de sanctions contre la Russie visant énergie, défense et pétroliers clandestins, avec tarifs secondaires possibles.",
@@ -4705,7 +6147,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "JPMorgan juge les prix du pétrole difficiles à prévoir en raison de la guerre entre les États-Unis et l’Iran.",
@@ -4721,7 +6163,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "La maire de Toronto consulte les entreprises face aux effets de la guerre commerciale Canada–États-Unis.",
@@ -4737,7 +6179,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Économie",
       "summary": "Un conseiller de la banque centrale chinoise estime que l’IA pourrait accentuer le déséquilibre entre production et demande.",
@@ -4753,7 +6195,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Conflit",
       "summary": "L’Iran dit avoir transmis via le Qatar ses conditions pour reprendre les négociations et mettre fin au conflit avec les États-Unis.",
@@ -4769,7 +6211,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Conflit",
       "summary": "Trump annonce un accord de sécurité et de défense avec le Danemark concernant le Groenland.",
@@ -4785,7 +6227,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Sécurité",
       "summary": "Trump affirme que les États-Unis et le Danemark ont conclu un accord de sécurité sur le Groenland.",
@@ -4801,7 +6243,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Conflit",
       "summary": "Trump annonce un accord visant à renforcer la présence militaire américaine au Groenland.",
@@ -4817,7 +6259,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Sécurité",
       "summary": "Les États-Unis et le Danemark concluent un accord sur la sécurité du Groenland après plusieurs menaces de Trump.",
@@ -4833,7 +6275,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
       "summary": "Washington et Copenhague concluent un nouvel accord sur la défense et les investissements au Groenland.",
@@ -4849,7 +6291,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Sécurité",
       "summary": "Les États-Unis et le Danemark concluent un accord sécuritaire après les menaces de Trump concernant le Groenland.",
@@ -4865,7 +6307,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Chine",
       "summary": "Le Trésor américain rencontre le vice-Premier ministre chinois avant le sommet Trump–Xi pour parler commerce, IA et sécurité économique.",
@@ -4879,7 +6321,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Conflit",
       "summary": "Le Danemark et le Groenland affirment que l’accord militaire avec Washington ne remet pas en cause la souveraineté du territoire.",
@@ -4895,7 +6337,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Sécurité",
       "summary": "Trump affirme que les États-Unis disposent d’un contrôle durable sur la sécurité du Groenland, une interprétation contestée.",
@@ -4911,7 +6353,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Sécurité",
       "summary": "Le nouvel accord sur le Groenland renforce le rôle sécuritaire américain tout en maintenant la souveraineté danoise.",
@@ -4927,7 +6369,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Conflit",
       "summary": "Trump affirme que son projet d’arche monumentale à Washington intégrera des fonctions de sécurité militaire avec drones et tireurs d’élite.",
@@ -4943,7 +6385,7 @@
         "Amérique du Nord"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Conflit",
       "summary": "Trump présente son projet d’arche triomphale comme un complexe doté d’importantes fonctions militaires.",
@@ -4953,6 +6395,205 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWi1oaWpac0h1a1Z2YllaTXVYVW1TWHZUSGxMWkNxZ3IzMFFVbUtyNmljdUZuTTdzUFVxSVNkRnRqNUR3WDhVMkR4R0tGUmRlcHV3RXZDZVlZRjdIc1dEbHpCdGFKdVhGYkRzRElsUmE4Nm9IdlBQVmw5aGFZcGhRWWF2dTBDRG0tNE4xQXk3a0o?oc=5",
       "origin": "rss",
       "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 8,
+      "category": "Conflit",
+      "summary": "Trump affirme que son projet d’arche monumentale à Washington servira également de complexe militaire.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLWhlWmRoczFDS2ZTZThZOUtjd29iQXptS3NGSHpwaWlZMXR4UHlTTWdJbkxYR21zMm9JYVhrYjhhdk92X3NNcGcxVG9zV01VbnVVSDJoVkVXX3JBSHhxc0pmWUdYNEE3TjhSdDc0M2lJV0dpeFlhMnMxSERnWHNoYmFUSHJhTy1vWTBacldROUtmR082T0ZzWGdCd2VnOWFyM01kUW5GV25rOVhPWFRJUTl5QlnSAboBQVVfeXFMTXVzWGN0QUJCTHctazg1RGlkWE02OWpFeGFNMS1ZTkxVWUlCWHBKSDFWV0xrWGRIS0V2d05qeUFjUkh1M1pHbldPYnludGFnWm81YnFpR3gxdXVhZFJSelZzMTlWdnZMSWdNY0ZzV1dhWldtMUR2QjFkaTc1QjJoU2Z6X2xLSlN0b3FRMWtMYkpiREVSMDZHU01EZjluUzIxSzVQYVVDb0hEQXlzVmhVYjlITTBua2lSS21R?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Taux",
+      "summary": "Le rendement du Treasury américain à 10 ans atteint 5 %, son plus haut niveau depuis 2007, avant la décision de la Fed.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Fed",
+      "summary": "Les marchés digèrent le virage plus restrictif de la Fed : 16 responsables sur 18 anticipent encore au moins une hausse en 2026.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "La Banque du Japon relève ses taux mais reste ambiguë sur la poursuite du resserrement monétaire.",
+      "sources": [
+        "The Japan Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZDJsOHlfeENTTGhJODNZSFhQQ3V4UFBsVko3RExpZlJfd3pLLTlBZTJ5YXZaZlBfR2ZSUXZHeUIydVc2bWJrRG92UFJPNmpaNWRxVnpNdlloMks0Qlg1ckRDay00Q0pjQ2lWSklTMTB2WmhwR043ZnlXTWUzT1dnNVYwcHVCZw?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 6,
+      "category": "Marchés",
+      "summary": "Le Nasdaq recule avec les semi-conducteurs après les appels à ralentir l’IA ; les marchés américains restent sous pression des taux longs.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les sorties d’or des États-Unis alimentent les inquiétudes sur les marchés, même si leur portée reste débattue.",
+      "sources": [
+        "The Washington Post"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUDJSX09ub1REdGxmN1c0ODRSeUhnR0g1MWVKS1RuVmpfRmh2RlR2QVpEMXROSzJKbXNRNmRnNVROeFFzZ1lsNFcyMkRmYmF0VzNoSXozdzEtNEtfWWlFekZvOHZXRXV6SThTNXBPNXZ3M3I3clFaZ3l5Ynl0MldLaE1YZUYwM2xicTRR?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les dirigeants danois accueillent avec prudence l’annonce de Trump sur un accord concernant le Groenland.",
+      "sources": [
+        "ABC News - Breaking News, Latest News and Videos"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONWl0LTF4VFkxaGI4MzQ0SGRBR3A2S2lzR2RtdE95ZU5sRnd2QnRnYkhZakFCa29naWtLclZnT2NJUk14aldwY3oza1VBZFhHUWZLNFduSXd6QU96U1VuWVF3bE5RR3NRX3ZGVHVJdGhUNXhJZjVyWHlGTWpWM2c2VDR3VkxERnpNSDJQVTdZLUxlcUE1SERTVTc1blpOUFdHR0xXT3BBbWJZWFFmOHJWU0NpRDNuc0HSAbwBQVVfeXFMUGpvaEpjVlp0UW00M2ZfUjJPQ1hPX1JaQmlrSzNMYmhTMkdrWXZIeUxNWmpLWmVBbm9DYldPU25zS0xoLW1odHI0TEN3ZFl3SXhvNGtQOGY0MzRsWElYVFg4STFWcEJ0RXNkRWtYWThWaDc4dWRodEE5cHRZZUpKNVBSQUF6Zld5Y0hlZGZ5cXRHcDEtalFUZWREeEtnZ3VfQjlSTGtvb2JzalNPMWdHUFlUa0VUb0RBMFByUy0?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Venezuela et une faction de l’opposition étudient le transfert vers les États-Unis de 4 milliards de dollars d’or détenus au Royaume-Uni.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc3dvbGU4T1FKcENxN3pUZHFoTFdsTktCbTJIeFFtNWtVcnJINzl2V0V6ZFhuSEJ0OUJLY05zYjItLTg2S0loUDlGd1ItMXVtamRzZTlOVk12dldUNktteldQSUFMVGlPZ29acG9uLUQ1QUczS2xWRWY1MldrTUxWZUxXdjE0LWtKNHFNblplbVlVdExDWndKN0thbUsyRGR5WjRwX2E4N0M1MFhlWVAxNS1Cdkw5aDA?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le dirigeant de Rivian propose plusieurs pistes pour augmenter la production automobile aux États-Unis.",
+      "sources": [
+        "The New York Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3WlFwVDR1RS1PVXBuQUo3Tkd3QzQ3R3hmNWJUZnhqQlZGYnFqNW1OMElsdjB6d2l0VHVyamZFcVpZYzkzQThReGloeTBpWm9sM0JFbTlTUTRaQUVwVHpJQ1hwWXJ3eDVLM1Vaa09nN2JRd0xhOUE?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Trump's proposed Washington arch to become sniper, drone facility",
+      "sources": [
+        "Axios"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CZGRkbUVUWnlBQWpUN0NERktPOGxjd0xLNm1CMEx6eFdYYVlBSGhOMHI0UkVSMGtnbVYzbF9IM2xuZ3ZhX3JvWlFiN0tzUm93QkJZdUNFM3M4cXd1VGlyaUVOTGRXZFE5NU5neXNVd2lsWk10MXN5bw?oc=5",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les autorités iraniennes lancent une campagne de mobilisation massive sur fond de guerre et de tensions internes.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRGVXQmdlMXotRVdZclQzQ0ZKZzUzdnR1ckM1NnZzal91QUplSVd3c08zR000YnpheXdXWDhPV2hZX2EzTExRMmUxRlNZSXU1Z0Q1cmhtSmpPUXpDSk04aHZvWWN3THYxdTM4XzJHaUhlMWV4QlBsVGtsNVlpOWFJUkJIckk0UF8zQXpFU0xwUG5mYmR5NFdiVndsQnZVamhXd2FaaDF2RkY3T3FZN2pDYnItUEjSAboBQVVfeXFMT1RjM2VNM0tEWFZXWnh6QkxCYVJfcW1ocUQ2eXhyS1daeDU3TlZZc05WMW5OTmNsODdtcHEyYjlCNkhITWhwbllYMnVETE9qNlJXbzhaaDRISTcydXhhazd5Xy04eHVackQxNGZueUxWZ1B5WDNPX2ZWSkU3NGhTNFdUVEhNNHdSYXE4MTJUV1RFbEpsQWFSb3hnaWNxWDdZNF8yeXR5UEdrQV9oSV9UYmZBbnY0MUVla1JR?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump riposte au Canada avec des interdictions d’importation et de nouvelles hausses de droits de douane.",
+      "sources": [
+        "Politico"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQnJtRUpGelY0MERSSWduZmpjMnhCZ0pkUmV2VzdnMHUzcnM3VEdzMXZfdDZhX0RNRkw2enRDYk1lWE1YZkhTMFVOT3lzd3pmcFVaX1UtSVVGeFA5VjRtamY5VnRQQldjd09FRnhGeWx3VDNhNmxia0RnZ1dRaGVMNmg4YVJzYVV1ekZqVDdYNmxpdVFwRm5id01sLWs2UnFGU0lXVDBpZmpNVm1uaUN1aU8xbDJCMVZUdzhGVw?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Trump évoque la possibilité de maintenir une présence américaine en Iran pour le pétrole, en la comparant à l’accord américain au Venezuela.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
     },
     {
       "regions": [
@@ -5423,17 +7064,17 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Nord"
       ],
-      "period": "week",
-      "bucket": "7–13 septembre 2026",
-      "score": 8,
-      "category": "Politique",
-      "summary": "Flávio Bolsonaro fait face à une enquête pour corruption à quelques semaines de l’élection présidentielle brésilienne.",
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les autorités iraniennes lancent une campagne de mobilisation massive sur fond de guerre et de tensions internes.",
       "sources": [
         "Al Jazeera"
       ],
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc001NkF6U1FvZEhQd0lYSVJpajk5M1pOTVJYanlPZ3JVWExIZHllanpoSm1VSElma091UTZoLUxxbUQzZ3lacnVoMkl0S3I5aVRkb1dLMGRCLWFReEE5cC1CTWdvNEE3UnR3TmZqQkY5alMwZm9UWGZ1V19iVEdNWTlYMWdBb01ZWFJTZ0E5Qk5mMWxFQWtMVVBjVFk2ZTBXZ3F4X3ZoaC14RHRvcmfSAbMBQVVfeXFMTVJuMnR4b2xkcmVMR3VlYVExcWJMQ1U2bkUteENvMWowWlZYY1NaUHd6bXgyenc0MmdXSG5jZWozSGlTTVNzMldvUlU2TjU0Sm5zb1NHSXBUTmlicGN6aHY5SlRSMXdRcDJHYjgtSWk4YzFuOGJFc3U3MW4xSzJ5MG1lbGVqWEdRVmZaa29UN0x3WUFTSXRxYXoyRkhreEw2R2lkalBRdnpkZVJpRmVNd2tnazQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRGVXQmdlMXotRVdZclQzQ0ZKZzUzdnR1ckM1NnZzal91QUplSVd3c08zR000YnpheXdXWDhPV2hZX2EzTExRMmUxRlNZSXU1Z0Q1cmhtSmpPUXpDSk04aHZvWWN3THYxdTM4XzJHaUhlMWV4QlBsVGtsNVlpOWFJUkJIckk0UF8zQXpFU0xwUG5mYmR5NFdiVndsQnZVamhXd2FaaDF2RkY3T3FZN2pDYnItUEjSAboBQVVfeXFMT1RjM2VNM0tEWFZXWnh6QkxCYVJfcW1ocUQ2eXhyS1daeDU3TlZZc05WMW5OTmNsODdtcHEyYjlCNkhITWhwbllYMnVETE9qNlJXbzhaaDRISTcydXhhazd5Xy04eHVackQxNGZueUxWZ1B5WDNPX2ZWSkU3NGhTNFdUVEhNNHdSYXE4MTJUV1RFbEpsQWFSb3hnaWNxWDdZNF8yeXR5UEdrQV9oSV9UYmZBbnY0MUVla1JR?oc=5",
       "origin": "rss",
       "language": "fr"
     },
@@ -5442,100 +7083,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "7–13 septembre 2026",
-      "score": 6,
-      "category": "Venezuela",
-      "summary": "Trump compare une éventuelle stratégie pétrolière en Iran à l’accord conclu avec le Venezuela, signe du poids croissant du pétrole vénézuélien dans la politique américaine.",
-      "sources": [
-        "Reuters"
-      ],
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "period": "week",
-      "bucket": "31 août 2026 – 6 septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "Le secrétaire américain à l’Énergie doit se rendre au Venezuela pour présenter un nouvel accord pétrolier.",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdkRpaTlqeWdpRGhXVUt1XzhpMjg5dHlZdXpmSVI5ejhrLXBvRHJkZE1ZUWdRQnR0RnZUd1llWS1BaUdOVWpIUDBUMml0cEtUVk1zU3BLaUM4Y1JnZ1lfdXVZR0xSbFA3NXR2MEx0enJjQ2xVWkU2SGo0eVdSWHRKMXZNaHhBaDd0Ynh3LVI0bWhKLUhiS1c4bEJsUW1maThQNGhwbjh5MjN4d2k1emJ30gG0AUFVX3lxTE8zNWFZemczV1R0V21XVWZKMEIzQWxGRzl1Vm80X1Q0ZE4tSEtxYlE0V3NkOGpFRWdRQnRUWEVhYlE5d3Bwb0xpZHRQMV9JVnpFY0RQN0RGZG5Ddy1qcnVOUEFwc0NqOWM5dTB0cVdxSFp6N210SklZTHdsX0ctQ1djd2NmekFLWmx1Z2k3T25tVUZ2RlFiRXhLSHpDeDFNRVdkS0tBM2FuaEJaRHhUcWNyMUVKUw?oc=5",
-      "origin": "rss",
-      "language": "fr"
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "period": "week",
-      "bucket": "31 août 2026 – 6 septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "Chevron estime que sa stratégie de long terme au Venezuela a porté ses fruits avec le nouvel accord pétrolier.",
-      "sources": [
-        "The Japan Times"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcmRCWllKcnBaU3pVYzVsbjFTMlRXYzdtUnR0WWJ5UjRsblRjMUhCcVlwNkhUSlZ0YlpzUld2WlI5cklQUU14LUZfWGY3ME1GLWx1aGJORDZ2NFA0TllDRS0xQldzdmdVd2loMkxEMlUxQWtNa1hkUWhnYWF6VWx0Um9tSnFzVExQaWVfRFpTWUFSSVlr?oc=5",
-      "origin": "rss",
-      "language": "fr"
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "period": "week",
-      "bucket": "31 août 2026 – 6 septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "Le nouvel accord de Trump avec le Venezuela surprend une partie de l’industrie pétrolière américaine.",
-      "sources": [
-        "The Japan Times"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUjc4bUZKbW84ZElFaGNnV3NocEJ1dDk4OWwwVXZqdlhWS2szRTluLWVoRHZjRWhfODlDQkJhWTc5RjE1N0lCNk43WXU0OTh3QVM0S0ROaTRpSVVmZjVKQzVqc1U0UlJDcllzVi0wb1dEQ2ZMM0s4M2s5SzRnT081ZjF1ckNpU0JX?oc=5",
-      "origin": "rss",
-      "language": "fr"
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "period": "week",
-      "bucket": "31 août 2026 – 6 septembre 2026",
-      "score": 5,
-      "category": "Géopolitique",
-      "summary": "La politique de Trump envers le Venezuela suscite un débat sur son soutien au pouvoir en place et ses objectifs énergétiques.",
-      "sources": [
-        "The Washington Post"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYndhcTIzbmVYQk5zSEttajBnQ29zMG5tY0g5TDFfekpaMkFRZFl5dGZFNXhUMlRyV0pkZnZYOVlGem9fcnFNX0JfSXh0Q2VtNWR3S3V6MTIwMy1QWmZ5ZzhsZW1VZy0yUUF4bG9mdnZXU3o0ek9XMHRBWjhzU2o2MXlpdVR6SjhWWTlWTmpnQkpEZTFrUjZuTmdoVEh5SWhYMTJ1SUhKX2lTWGh1clE?oc=5",
-      "origin": "rss",
-      "language": "fr"
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "period": "week",
-      "bucket": "31 août 2026 – 6 septembre 2026",
-      "score": 5,
-      "category": "Géopolitique",
-      "summary": "Trump drinks Venezuela’s milkshake : Planet Money",
-      "sources": [
-        "NPR"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSlRuU3hLbndaNVpSeGFCYTNMMUg2VURLMVEybUJiV3I4YmtnNFBVYjNPcDNPUHZRQVdTWGcwQnBleF8ybDJJdXJtQjZmSllKRUc5ZWVxM21mR3I1WEVRcUNQS2hxTkltdk1Zb1pVU2FHVWNGSjZHTDlaX0F1R2s2WXM1Mzl3RnFp?oc=5",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Énergie",
       "summary": "L’Argentine intensifie son offensive juridique contre les entreprises pétrolières opérant autour des Malouines.",
@@ -5551,7 +7099,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Politique",
       "summary": "De fortes tensions éclatent au sein de la Cour suprême brésilienne à l’approche de l’élection présidentielle.",
@@ -5567,7 +7115,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Conflit",
       "summary": "Harold Hamm, allié de Trump, conclut un accord pétrolier au Venezuela.",
@@ -5583,7 +7131,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Énergie",
       "summary": "Un juge argentin ordonne la suspension d’un projet pétrolier lié aux Malouines.",
@@ -5599,7 +7147,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Politique",
       "summary": "Lula promet de défendre les intérêts brésiliens face à Trump pendant la campagne présidentielle.",
@@ -5615,7 +7163,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Politique",
       "summary": "Lula annonce une hausse des aides sociales avant l’élection présidentielle brésilienne.",
@@ -5631,7 +7179,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Politique",
       "summary": "Un candidat de droite soutenu par Trump semble remporter l’élection présidentielle colombienne.",
@@ -5647,7 +7195,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Politique",
       "summary": "Lula annonce une hausse des aides sociales et des traitements anti-obésité gratuits avant l’élection.",
@@ -5663,7 +7211,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Brésil",
       "summary": "Deux sondages donnent Lula et Flávio Bolsonaro statistiquement à égalité avant l’élection présidentielle brésilienne d’octobre.",
@@ -5677,7 +7225,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Brésil",
       "summary": "La banque centrale brésilienne baisse le Selic à 13,75 %, cinquième réduction consécutive malgré les risques liés au pétrole.",
@@ -5691,7 +7239,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Argentine",
       "summary": "Buenos Aires propose de renforcer les sanctions contre les entreprises exploitant des ressources aux Malouines sans autorisation argentine.",
@@ -5705,7 +7253,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Venezuela",
       "summary": "Trump doit rencontrer Delcy Rodríguez à New York, première rencontre directe depuis le changement de pouvoir au Venezuela.",
@@ -5719,7 +7267,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Énergie",
       "summary": "Le projet pétrolier offshore GranMorgu au Suriname, estimé à 12 Md$, reste prévu pour une première production mi-2028.",
@@ -5733,7 +7281,7 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Politique",
       "summary": "Trump doit rencontrer la présidente par intérim du Venezuela et d’autres dirigeants en marge de l’Assemblée générale de l’ONU.",
@@ -5749,13 +7297,154 @@
         "Amérique du Sud"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 6,
       "category": "Argentine",
       "summary": "L’Argentine présente son budget 2027 : croissance prévue à 4 %, inflation à 18 % et excédent commercial supérieur à 15 Md$.",
       "sources": [
         "Reuters"
       ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 8,
+      "category": "Politique",
+      "summary": "Flávio Bolsonaro fait face à une enquête pour corruption à quelques semaines de l’élection présidentielle brésilienne.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc001NkF6U1FvZEhQd0lYSVJpajk5M1pOTVJYanlPZ3JVWExIZHllanpoSm1VSElma091UTZoLUxxbUQzZ3lacnVoMkl0S3I5aVRkb1dLMGRCLWFReEE5cC1CTWdvNEE3UnR3TmZqQkY5alMwZm9UWGZ1V19iVEdNWTlYMWdBb01ZWFJTZ0E5Qk5mMWxFQWtMVVBjVFk2ZTBXZ3F4X3ZoaC14RHRvcmfSAbMBQVVfeXFMTVJuMnR4b2xkcmVMR3VlYVExcWJMQ1U2bkUteENvMWowWlZYY1NaUHd6bXgyenc0MmdXSG5jZWozSGlTTVNzMldvUlU2TjU0Sm5zb1NHSXBUTmlicGN6aHY5SlRSMXdRcDJHYjgtSWk4YzFuOGJFc3U3MW4xSzJ5MG1lbGVqWEdRVmZaa29UN0x3WUFTSXRxYXoyRkhreEw2R2lkalBRdnpkZVJpRmVNd2tnazQ?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 6,
+      "category": "Venezuela",
+      "summary": "Trump compare une éventuelle stratégie pétrolière en Iran à l’accord conclu avec le Venezuela, signe du poids croissant du pétrole vénézuélien dans la politique américaine.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "« South Park » rebaptisé « South America » : la série satirique raille les changements de noms voulus par Donald Trump",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPcDhzazZwdVUxM2o0Z1Atb0FNYTNGZG9MZlN4d29xS3FCTGRCMi1XWERjN0U2QUhVNUlOQmlncTBEZXVQQmg0a204cFJFN25OdnRELUliNEZ3aUhzMTFOcDRsWDBucVRxTkhtYXFaeHloSjZlbHdsTU9sRkdqc2RCTlJSMXloQlVFdlpMVldJNHFVUnVTUFpzUFNsNXdmeWdXeG5uNzlGOGZFOVljLURNdHBITk5PQXFVQUZ3QWdJWkI1WXlfN1R1eVA1UkF4OTNqX21OX1JneHpPa0IzcWdRaFZJMGMtVlBtTm0xVFFwanpXNkQ5YU54X3RrOW8yZG9iMkVER21UcmFueHR1Y19wTEt3?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les créateurs de South Park se moquent de Trump en rebaptisant la série \"South America\"",
+      "sources": [
+        "Euronews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcm1qWkZjSWY2NF96Sk9GQkNaYTQxcWR2QjR3dzg3eThqVlM2WnBQYko3YXlvUXZmNTVJalhpZHJXZ2VqVkFqbHNOUzZtOGZHMGlGUS1BNDAxX0ZjY2VCUHpPeFZvVmN1amc4cTcxd1hwVndqLUFqamh0ajVKUm5vNDdUMldZWXlBX3JMMjltcUU3WGgwdjdfd25uYXYySl9zU3RfZ25pYlVZZXdDcjMtMUxvdkZmN21iQmFEQw?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Le secrétaire américain à l’Énergie doit se rendre au Venezuela pour présenter un nouvel accord pétrolier.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdkRpaTlqeWdpRGhXVUt1XzhpMjg5dHlZdXpmSVI5ejhrLXBvRHJkZE1ZUWdRQnR0RnZUd1llWS1BaUdOVWpIUDBUMml0cEtUVk1zU3BLaUM4Y1JnZ1lfdXVZR0xSbFA3NXR2MEx0enJjQ2xVWkU2SGo0eVdSWHRKMXZNaHhBaDd0Ynh3LVI0bWhKLUhiS1c4bEJsUW1maThQNGhwbjh5MjN4d2k1emJ30gG0AUFVX3lxTE8zNWFZemczV1R0V21XVWZKMEIzQWxGRzl1Vm80X1Q0ZE4tSEtxYlE0V3NkOGpFRWdRQnRUWEVhYlE5d3Bwb0xpZHRQMV9JVnpFY0RQN0RGZG5Ddy1qcnVOUEFwc0NqOWM5dTB0cVdxSFp6N210SklZTHdsX0ctQ1djd2NmekFLWmx1Z2k3T25tVUZ2RlFiRXhLSHpDeDFNRVdkS0tBM2FuaEJaRHhUcWNyMUVKUw?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Chevron estime que sa stratégie de long terme au Venezuela a porté ses fruits avec le nouvel accord pétrolier.",
+      "sources": [
+        "The Japan Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcmRCWllKcnBaU3pVYzVsbjFTMlRXYzdtUnR0WWJ5UjRsblRjMUhCcVlwNkhUSlZ0YlpzUld2WlI5cklQUU14LUZfWGY3ME1GLWx1aGJORDZ2NFA0TllDRS0xQldzdmdVd2loMkxEMlUxQWtNa1hkUWhnYWF6VWx0Um9tSnFzVExQaWVfRFpTWUFSSVlr?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Le nouvel accord de Trump avec le Venezuela surprend une partie de l’industrie pétrolière américaine.",
+      "sources": [
+        "The Japan Times"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUjc4bUZKbW84ZElFaGNnV3NocEJ1dDk4OWwwVXZqdlhWS2szRTluLWVoRHZjRWhfODlDQkJhWTc5RjE1N0lCNk43WXU0OTh3QVM0S0ROaTRpSVVmZjVKQzVqc1U0UlJDcllzVi0wb1dEQ2ZMM0s4M2s5SzRnT081ZjF1ckNpU0JX?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La politique de Trump envers le Venezuela suscite un débat sur son soutien au pouvoir en place et ses objectifs énergétiques.",
+      "sources": [
+        "The Washington Post"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYndhcTIzbmVYQk5zSEttajBnQ29zMG5tY0g5TDFfekpaMkFRZFl5dGZFNXhUMlRyV0pkZnZYOVlGem9fcnFNX0JfSXh0Q2VtNWR3S3V6MTIwMy1QWmZ5ZzhsZW1VZy0yUUF4bG9mdnZXU3o0ek9XMHRBWjhzU2o2MXlpdVR6SjhWWTlWTmpnQkpEZTFrUjZuTmdoVEh5SWhYMTJ1SUhKX2lTWGh1clE?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Trump drinks Venezuela’s milkshake : Planet Money",
+      "sources": [
+        "NPR"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSlRuU3hLbndaNVpSeGFCYTNMMUg2VURLMVEybUJiV3I4YmtnNFBVYjNPcDNPUHZRQVdTWGcwQnBleF8ybDJJdXJtQjZmSllKRUc5ZWVxM21mR3I1WEVRcUNQS2hxTkltdk1Zb1pVU2FHVWNGSjZHTDlaX0F1R2s2WXM1Mzl3RnFp?oc=5",
       "origin": "rss"
     },
     {
@@ -6097,16 +7786,34 @@
     },
     {
       "regions": [
-        "Afrique"
+        "Amérique du Sud"
       ],
-      "period": "week",
-      "bucket": "7–13 septembre 2026",
-      "score": 6,
-      "category": "BRICS",
-      "summary": "Le sommet BRICS élargi pousse de nouveaux projets économiques et technologiques incluant plusieurs puissances africaines, dont l’Afrique du Sud, l’Égypte et l’Éthiopie.",
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "« South Park » rebaptisé « South America » : la série satirique raille les changements de noms voulus par Donald Trump",
       "sources": [
-        "Reuters"
+        "Le Monde.fr"
       ],
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPcDhzazZwdVUxM2o0Z1Atb0FNYTNGZG9MZlN4d29xS3FCTGRCMi1XWERjN0U2QUhVNUlOQmlncTBEZXVQQmg0a204cFJFN25OdnRELUliNEZ3aUhzMTFOcDRsWDBucVRxTkhtYXFaeHloSjZlbHdsTU9sRkdqc2RCTlJSMXloQlVFdlpMVldJNHFVUnVTUFpzUFNsNXdmeWdXeG5uNzlGOGZFOVljLURNdHBITk5PQXFVQUZ3QWdJWkI1WXlfN1R1eVA1UkF4OTNqX21OX1JneHpPa0IzcWdRaFZJMGMtVlBtTm0xVFFwanpXNkQ5YU54X3RrOW8yZG9iMkVER21UcmFueHR1Y19wTEt3?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les créateurs de South Park se moquent de Trump en rebaptisant la série \"South America\"",
+      "sources": [
+        "Euronews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcm1qWkZjSWY2NF96Sk9GQkNaYTQxcWR2QjR3dzg3eThqVlM2WnBQYko3YXlvUXZmNTVJalhpZHJXZ2VqVkFqbHNOUzZtOGZHMGlGUS1BNDAxX0ZjY2VCUHpPeFZvVmN1amc4cTcxd1hwVndqLUFqamh0ajVKUm5vNDdUMldZWXlBX3JMMjltcUU3WGgwdjdfd25uYXYySl9zU3RfZ25pYlVZZXdDcjMtMUxvdkZmN21iQmFEQw?oc=5",
+      "published_at": "2026-09-09T09:00:00+02:00",
       "origin": "rss"
     },
     {
@@ -6114,23 +7821,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "31 août 2026 – 6 septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "Chevron et Shell signent un accord préliminaire avec le Ghana pendant la révision de sa politique pétrolière et gazière.",
-      "sources": [
-        "Reuters"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNR05MS1NnSXp4VUlJcDVLdl9wdHdXWmtuUlRXdzluSDFRWkxfazF6MUszQTU2RjZ1aFJVVUJUMVZjMUhTaUVVUTBGNWd6d0pvZTRZYXlLYWpUYW9aZ25hQXdvSXZseXpWMDJLcDFpMXNEUW5jV1lESW00elRTUXJhNW55MnR3emhydXJVSXFVaGhtU1NPWElETlFwUkNOMGs1VGxSaUhFb0xzejI5V0hESzVFaldmR0lfaDZhdW9rSllQZERNaEE?oc=5",
-      "origin": "rss",
-      "language": "fr"
-    },
-    {
-      "regions": [
-        "Afrique"
-      ],
-      "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
       "summary": "L’administration Trump impose de nouvelles sanctions à l’Afrique du Sud en invoquant des discriminations présumées contre les Blancs.",
@@ -6146,7 +7837,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 9,
       "category": "Économie",
       "summary": "South Africa's rand holds steady ahead of inflation data, expected rate hike",
@@ -6161,7 +7852,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Soudan",
       "summary": "Le financement du PAM pour le Soudan chute fortement alors que près de 20 millions de personnes sont confrontées à la faim.",
@@ -6175,7 +7866,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Santé",
       "summary": "RDC : l’épidémie d’Ebola dépasse 7 200 cas confirmés et 3 500 morts ; l’ONU juge prématuré de parler de pic dépassé.",
@@ -6189,7 +7880,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Politique",
       "summary": "Le président du Soudan du Sud limoge le chef de la commission électorale à quelques mois des premières élections nationales.",
@@ -6205,7 +7896,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Énergie",
       "summary": "Au Nigeria, une vague d’achats d’actions traduit un engouement populaire pour les actifs du secteur pétrolier.",
@@ -6221,7 +7912,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Politique",
       "summary": "L’ANC sud-africain échoue à enregistrer 181 candidats pour les élections locales.",
@@ -6237,7 +7928,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Conflit",
       "summary": "Les attaques de Trump contre l’Afrique du Sud renforcent politiquement l’ANC à l’approche d’un scrutin.",
@@ -6253,7 +7944,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 8,
       "category": "Énergie",
       "summary": "Au Nigeria, 200 jeunes et personnes handicapées vont être formés aux métiers et à l’entrepreneuriat du pétrole et du gaz.",
@@ -6269,7 +7960,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Énergie",
       "summary": "Le Ghana réduit ses exportations de carburant vers le Mali et le Burkina Faso pour protéger son approvisionnement intérieur.",
@@ -6283,7 +7974,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Sécurité",
       "summary": "At least 26 killed in clashes along Sudan-South Sudan border region",
@@ -6298,7 +7989,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Humanitaire",
       "summary": "La guerre au Yémen pousse près de 3 000 personnes à fuir vers Djibouti, qui prépare un accueil pouvant atteindre 10 000 réfugiés.",
@@ -6312,7 +8003,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
       "summary": "Des femmes manifestent près de Johannesburg après une série de meurtres, relançant le débat sur les violences sexistes.",
@@ -6328,7 +8019,7 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 6,
       "category": "Devises",
       "summary": "Les monnaies d’Ouganda, du Ghana et de Zambie restent sous pression, notamment à cause de la hausse des coûts énergétiques et de la demande de dollars.",
@@ -6342,13 +8033,59 @@
         "Afrique"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 5,
       "category": "Sécurité",
       "summary": "Afrique du Sud : de nouvelles mobilisations contre les violences faites aux femmes relancent le débat sur les faiblesses de la sécurité publique.",
       "sources": [
         "Reuters"
       ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 6,
+      "category": "BRICS",
+      "summary": "Le sommet BRICS élargi pousse de nouveaux projets économiques et technologiques incluant plusieurs puissances africaines, dont l’Afrique du Sud, l’Égypte et l’Éthiopie.",
+      "sources": [
+        "Reuters"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Chevron et Shell signent un accord préliminaire avec le Ghana pendant la révision de sa politique pétrolière et gazière.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNR05MS1NnSXp4VUlJcDVLdl9wdHdXWmtuUlRXdzluSDFRWkxfazF6MUszQTU2RjZ1aFJVVUJUMVZjMUhTaUVVUTBGNWd6d0pvZTRZYXlLYWpUYW9aZ25hQXdvSXZseXpWMDJLcDFpMXNEUW5jV1lESW00elRTUXJhNW55MnR3emhydXJVSXFVaGhtU1NPWElETlFwUkNOMGs1VGxSaUhFb0xzejI5V0hESzVFaldmR0lfaDZhdW9rSllQZERNaEE?oc=5",
+      "origin": "rss",
+      "language": "fr"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Face aux mutineries, les juntes africaines s'en remettent à la Russie et à l'Africa Corps",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYkloTEw5UW5ZMVJSdHQ2TlRQRXY2bkhiSjAwV0tFaHF0VnV3TDJMd1VJcVV4eERGOHZyYXh6T0JoSGliWEZuQzNlSVQ2anVFWVh4bHp5NTF0cTRKZkNDSkxlbElQcEtqTjdtTUM3YkJhN2ZWem9adkdZOWgtRWp5TUNDRzEwdi1mdU9YdXVibTNwRXdWOXNFbFNuMUJFbnhnS29DZlg2RmExT2tlZEVpY2paNDd3NXpmQTBrODVMVk43VlVwd3ZlVWIzcXEtZlE3TEJXQ3VB?oc=5",
+      "published_at": "2026-09-01T09:00:00+02:00",
       "origin": "rss"
     },
     {
@@ -6600,6 +8337,22 @@
       "period": "month",
       "bucket": "Septembre 2026",
       "score": 5,
+      "category": "Géopolitique",
+      "summary": "Face aux mutineries, les juntes africaines s'en remettent à la Russie et à l'Africa Corps",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYkloTEw5UW5ZMVJSdHQ2TlRQRXY2bkhiSjAwV0tFaHF0VnV3TDJMd1VJcVV4eERGOHZyYXh6T0JoSGliWEZuQzNlSVQ2anVFWVh4bHp5NTF0cTRKZkNDSkxlbElQcEtqTjdtTUM3YkJhN2ZWem9adkdZOWgtRWp5TUNDRzEwdi1mdU9YdXVibTNwRXdWOXNFbFNuMUJFbnhnS29DZlg2RmExT2tlZEVpY2paNDd3NXpmQTBrODVMVk43VlVwd3ZlVWIzcXEtZlE3TEJXQ3VB?oc=5",
+      "published_at": "2026-09-01T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "month",
+      "bucket": "Septembre 2026",
+      "score": 5,
       "category": "Sécurité",
       "summary": "Afrique du Sud : de nouvelles mobilisations contre les violences faites aux femmes relancent le débat sur les faiblesses de la sécurité publique.",
       "sources": [
@@ -6612,37 +8365,7 @@
         "Océanie"
       ],
       "period": "week",
-      "bucket": "7–13 septembre 2026",
-      "score": 5,
-      "category": "Numérique",
-      "summary": "Australie : le gouvernement se dit prêt à modifier son projet sur les dommages numériques pour obtenir un soutien parlementaire plus large.",
-      "sources": [
-        "ABC News"
-      ],
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Océanie"
-      ],
-      "period": "week",
-      "bucket": "31 août 2026 – 6 septembre 2026",
-      "score": 5,
-      "category": "Géopolitique",
-      "summary": "Une bande armée commet en Papouasie-Nouvelle-Guinée l’un des plus importants braquages de l’histoire du pays.",
-      "sources": [
-        "ABC News & Headlines – Australian Broadcasting Corporation"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRWotTTNpcXpxY2VvSnp3ZkFMRDc0cjJJWHlET3NxWHh5RWZsdl9VN2d0M3Yza2Y5SXM2MnRWQjZxR2RwS1pjR1ZheWhSWmNZajBmVldSaEVvbGxlaF9pV3lwUFBBVXktQ3dyQ09FWG5TQ2FEbTE1MmVfeEpxZDZkM05oWUhCV0M0NXg2RHRDS2d2ellpY2JYejF4UQ?oc=5",
-      "origin": "rss",
-      "language": "fr"
-    },
-    {
-      "regions": [
-        "Océanie"
-      ],
-      "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Commerce",
       "summary": "La Nouvelle-Zélande adopte son accord de libre-échange avec l’Inde, supprimant ou réduisant les droits sur environ 95 % de ses exportations.",
@@ -6656,7 +8379,7 @@
         "Océanie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 7,
       "category": "Immigration",
       "summary": "L’Australie durcit les visas étudiants et backpackers afin de réduire l’immigration nette vers 225 000 personnes d’ici 2028.",
@@ -6670,7 +8393,7 @@
         "Océanie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 6,
       "category": "Agriculture",
       "summary": "Les organisations agricoles australiennes avertissent que le durcissement des visas pourrait provoquer un manque de main-d’œuvre pour la récolte de blé.",
@@ -6684,7 +8407,7 @@
         "Océanie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 6,
       "category": "Diplomatie",
       "summary": "L’Australie renonce à rejoindre une initiative de sanctions commerciales visant des entreprises israéliennes liées à la Cisjordanie.",
@@ -6698,7 +8421,7 @@
         "Océanie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 5,
       "category": "Énergie",
       "summary": "Australie : la hausse du pétrole liée au Moyen-Orient renchérit les carburants ; le gouvernement n’annonce pas de nouvelle baisse de l’accise.",
@@ -6712,7 +8435,7 @@
         "Océanie"
       ],
       "period": "week",
-      "bucket": "14–20 septembre 2026",
+      "bucket": "Semaine du 14 septembre 2026 au 20 septembre 2026",
       "score": 5,
       "category": "Finance",
       "summary": "Le patron d’ANZ estime que la fiscalité australienne freine l’ambition du pays de devenir un grand centre financier asiatique.",
@@ -6720,6 +8443,36 @@
         "Reuters"
       ],
       "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 7 septembre 2026 au 13 septembre 2026",
+      "score": 5,
+      "category": "Numérique",
+      "summary": "Australie : le gouvernement se dit prêt à modifier son projet sur les dommages numériques pour obtenir un soutien parlementaire plus large.",
+      "sources": [
+        "ABC News"
+      ],
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "Semaine du 31 août 2026 au 6 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Une bande armée commet en Papouasie-Nouvelle-Guinée l’un des plus importants braquages de l’histoire du pays.",
+      "sources": [
+        "ABC News & Headlines – Australian Broadcasting Corporation"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRWotTTNpcXpxY2VvSnp3ZkFMRDc0cjJJWHlET3NxWHh5RWZsdl9VN2d0M3Yza2Y5SXM2MnRWQjZxR2RwS1pjR1ZheWhSWmNZajBmVldSaEVvbGxlaF9pV3lwUFBBVXktQ3dyQ09FWG5TQ2FEbTE1MmVfeEpxZDZkM05oWUhCV0M0NXg2RHRDS2d2ellpY2JYejF4UQ?oc=5",
+      "origin": "rss",
+      "language": "fr"
     },
     {
       "regions": [
