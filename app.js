@@ -26,7 +26,7 @@ const state = {
   electionPeriod: 'day',
   electionBucket: null,
   electionVisibleCount: 10,
-  electionView: 'candidates',
+  electionView: 'news',
   candidateTab: 'news',
   partyName: null,
   partyTab: 'news'
@@ -443,6 +443,30 @@ function getCountryFeed() {
 }
 
 
+
+function electionMention(item) {
+  const candidates=(state.electionData?.candidates||[]).filter(c=>(item.candidate_ids||[]).includes(c.id)).map(c=>c.name);
+  const parties=[...(item.party_names||[])];
+  const names=[...new Set([...candidates,...parties])];
+  return names.length ? ` (${names.join(' • ')})` : '';
+}
+
+function renderUnifiedElectionNews() {
+  document.querySelectorAll('.unified-election-period-tab').forEach(btn=>{
+    btn.classList.toggle('active',btn.dataset.unifiedElectionPeriod===state.electionPeriod);
+    btn.onclick=()=>{state.electionPeriod=btn.dataset.unifiedElectionPeriod;state.electionBucket=null;state.electionVisibleCount=10;renderUnifiedElectionNews();};
+  });
+  const buckets=electionBuckets(), select=$('#unifiedElectionHistorySelect');
+  if(!state.electionBucket||!buckets.includes(state.electionBucket)) state.electionBucket=buckets[0]||null;
+  select.innerHTML=buckets.map(b=>`<option value="${escapeHtml(b)}" ${b===state.electionBucket?'selected':''}>${escapeHtml(electionBucketLabel(b))}</option>`).join('');
+  select.disabled=!buckets.length;
+  select.onchange=e=>{state.electionBucket=e.target.value;state.electionVisibleCount=10;renderUnifiedElectionNews();};
+  const items=(state.electionData?.news||[]).filter(electionItemInBucket).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  const shown=items.slice(0,state.electionVisibleCount), list=$('#unifiedElectionNewsList');
+  list.innerHTML=shown.length?shown.map(item=>`<article class="news-item election-news-item"><div class="meta"><span class="tag">Présidentielle 2027</span><span class="election-date">${escapeHtml(formatIsoDateFr(item.date))}</span></div>${item.url?`<a class="news-summary news-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.summary+electionMention(item))}<span class="link-mark">↗</span></a>`:`<p class="news-summary">${escapeHtml(item.summary+electionMention(item))}</p>`}<div class="sources">(${(item.sources||[]).map(escapeHtml).join(' • ')})</div></article>`).join(''):'<div class="empty"><span>◎</span><p>Aucune actualité présidentielle enregistrée sur cette période.</p></div>';
+  if(items.length>shown.length){list.insertAdjacentHTML('beforeend',`<button class="more-button" id="unifiedElectionMoreButton">Suite (${items.length-shown.length})</button>`);$('#unifiedElectionMoreButton').onclick=()=>{state.electionVisibleCount+=10;renderUnifiedElectionNews();};}
+}
+
 function openElectionPicker() {
   $('#brandHome').classList.remove('home-mode');
   state.mode = 'election';
@@ -452,7 +476,7 @@ function openElectionPicker() {
   state.electionPeriod = 'day';
   state.electionBucket = null;
   state.electionVisibleCount = 10;
-  state.electionView = 'candidates';
+  state.electionView = 'news';
   state.candidateTab = 'news';
   state.partyName = null;
   $('#regionPage').hidden = true;
@@ -479,15 +503,19 @@ function renderElectionMode() {
     btn.classList.toggle('active', btn.dataset.electionView === state.electionView);
     btn.onclick = () => {
       state.electionView = btn.dataset.electionView;
+      $('#electionUnifiedNewsArea').hidden = state.electionView !== 'news';
       $('#candidateArea').hidden = state.electionView !== 'candidates';
       $('#partyArea').hidden = state.electionView !== 'parties';
       $('#candidateContent').hidden = true;
       $('#partyContent').hidden = true;
       if (state.electionView === 'parties') renderPartyList('');
+      if (state.electionView === 'news') renderUnifiedElectionNews();
     };
   });
+  $('#electionUnifiedNewsArea').hidden = state.electionView !== 'news';
   $('#candidateArea').hidden = state.electionView !== 'candidates';
   $('#partyArea').hidden = state.electionView !== 'parties';
+  if (state.electionView === 'news') renderUnifiedElectionNews();
 }
 
 function getParties() {
