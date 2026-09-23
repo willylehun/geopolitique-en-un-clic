@@ -1,4 +1,4 @@
-const CACHE = 'geo-clic-v11';
+const CACHE = 'geo-clic-v18';
 const ASSETS = [
   './',
   './index.html',
@@ -26,7 +26,9 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  if (event.request.url.includes('/data/news.json') || event.request.url.includes('/data/election.json')) {
+  const url = new URL(event.request.url);
+  const freshAppAsset = url.pathname.endsWith('/index.html') || url.pathname.endsWith('/app.js') || url.pathname.endsWith('/styles.css') || url.pathname.endsWith('/countries.js') || url.pathname.endsWith('/') || url.pathname.includes('/data/');
+  if (freshAppAsset) {
     event.respondWith(fetch(event.request, { cache: 'no-store' }).catch(() => caches.match(event.request)));
     return;
   }
