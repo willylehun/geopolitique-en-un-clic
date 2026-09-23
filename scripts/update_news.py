@@ -198,7 +198,7 @@ def main():
     month_names=sorted({month_bucket(d) for rows in by_region.values() for d,_ in rows},reverse=True)
     summaries=[]
     for region,rows in by_region.items():
-        for period,names,limit in (("week",week_names,18),("month",month_names,30)):
+        for period,names,limit in (("week",week_names,None),("month",month_names,None)):
             for name in names:
                 subset=[(d,x) for d,x in rows if (week_bucket(d) if period=="week" else month_bucket(d))==name]
                 subset.sort(key=lambda z:(-z[1]["score"],z[0]))
@@ -210,10 +210,10 @@ def main():
                     y=dict(x)
                     y["period"]=period; y["bucket"]=name; y["origin"]="rss"
                     picked.append(y)
-                    if len(picked)>=limit: break
+                    if limit is not None and len(picked)>=limit: break
                 summaries.extend(picked)
 
-    day_buckets=[fr_date(end_date-timedelta(days=i)) for i in range((end_date-start_date).days+1)] if backfill else [fr_date(start_date)]
+    all_days=sorted({d for rows in by_region.values() for d,_ in rows})\n    day_buckets=[fr_date(d) for d in all_days]
     coverage={}
     for i in range((end_date-start_date).days+1):
         d=start_date+timedelta(days=i)
