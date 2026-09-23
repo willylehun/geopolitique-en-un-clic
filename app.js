@@ -82,10 +82,41 @@ function clickableSummary(item) {
   return `<a class="news-summary news-link" href="${escapeHtml(links[0])}" target="_blank" rel="noopener noreferrer" title="Ouvrir l’article source">${text}<span class="link-mark">↗</span></a>`;
 }
 
+function bucketDateValue(bucket) {
+  const months = {janvier:0,février:1,mars:2,avril:3,mai:4,juin:5,juillet:6,août:7,septembre:8,octobre:9,novembre:10,décembre:11};
+  const m = String(bucket || '').toLowerCase().match(/^(\d{1,2})\s+([a-zéûôîàèùç]+)\s+(\d{4})$/);
+  if (m && months[m[2]] !== undefined) return Date.UTC(Number(m[3]), months[m[2]], Number(m[1]));
+  const iso = String(bucket || '').match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (iso) return Date.UTC(Number(iso[1]), Number(iso[2])-1, Number(iso[3]));
+  return 0;
+}
+
+function currentWeekLabel() {
+  const today = parisTodayISO();
+  const [y,m,d] = today.split('-').map(Number);
+  return weekBucket(today);
+}
+
+function currentMonthLabel() {
+  const [y,m] = parisTodayISO().split('-').map(Number);
+  return new Intl.DateTimeFormat('fr-FR',{month:'long',year:'numeric',timeZone:'Europe/Paris'}).format(new Date(Date.UTC(y,m-1,1,12)));
+}
+
 function getBuckets() {
-  const configured = state.buckets[state.period] || [];
-  if (configured.length) return configured;
-  return [...new Set(state.data.filter(x => x.period === state.period).map(x => x.bucket))];
+  const all = [...new Set([
+    ...(state.buckets[state.period] || []),
+    ...state.data.filter(x => x.period === state.period).map(x => x.bucket)
+  ].filter(Boolean))];
+  if (state.period === 'day') return all.sort((x,y) => bucketDateValue(x) - bucketDateValue(y));
+  if (state.period === 'week') {
+    const current = currentWeekLabel();
+    return all.filter(x => normalizeText(x) === normalizeText(current));
+  }
+  if (state.period === 'month') {
+    const current = currentMonthLabel();
+    return all.filter(x => normalizeText(x) === normalizeText(current));
+  }
+  return all;
 }
 
 function renderRegionGrid() {
@@ -867,14 +898,20 @@ async function loadData() {
       );
     }
 
-    state.data = payloads.flatMap(p =>
+    const loaded = payloads.flatMap(p =>
       Array.isArray(p.items)
         ? p.items.map(x => ({ ...x, _loadedAt: x.published_at || p.generated_at || '' }))
         : []
     );
+    const uniqueItems = new Map();
+    for (const x of loaded) {
+      const key = [x.period || '', x.bucket || '', normalizedKey(x), (x.regions || [x.region || '']).join('|')].join('::');
+      if (!uniqueItems.has(key)) uniqueItems.set(key, x);
+    }
+    state.data = [...uniqueItems.values()];
 
     state.buckets = {
-      day: [...new Set(payloads.flatMap(p => (p.buckets && p.buckets.day) || []))],
+      day: [...new Set(payloads.flatMap(p => (p.buckets && p.buckets.day) || []))].sort((x,y) => bucketDateValue(x) - bucketDateValue(y)),
       week: [...new Set(payloads.flatMap(p => (p.buckets && p.buckets.week) || []))],
       month: [...new Set(payloads.flatMap(p => (p.buckets && p.buckets.month) || []))]
     };
