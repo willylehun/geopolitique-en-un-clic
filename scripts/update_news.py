@@ -92,11 +92,20 @@ def load_missing_countries():
 
 def country_backfill(start_date,end_date):
     rows=[]; found=set()
+    multiplier=max(1,min(int(os.getenv("FETCH_MULTIPLIER","1") or "1"),4))
+    themes=[
+        IMPACT_QUERY,
+        "politique diplomatie gouvernement élection relations internationales",
+        "économie commerce énergie sanctions investissement",
+        "sécurité conflit défense migration climat technologie",
+    ][:multiplier]
     for country in load_missing_countries():
-        q=f'"{country}" ({IMPACT_QUERY}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
-        try: articles=google_rss_query(q)
-        except Exception as e:
-            print("COUNTRY",country,e,file=sys.stderr); continue
+        articles=[]
+        for theme in themes:
+            q=f'"{country}" ({theme}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
+            try: articles.extend(google_rss_query(q))
+            except Exception as e:
+                print("COUNTRY",country,theme,e,file=sys.stderr)
         seen=set()
         for art in articles:
             d=editorial_day(art["date"]); title=art["title"]
@@ -125,13 +134,28 @@ def parse_bucket_date(bucket):
 
 def build_generated(start_date,end_date):
     generated=[]
+    multiplier=max(1,min(int(os.getenv("FETCH_MULTIPLIER","1") or "1"),4))
+    themes=[
+        None,
+        "politique diplomatie gouvernement élection relations internationales",
+        "économie commerce énergie sanctions investissement",
+        "sécurité conflit défense migration climat technologie",
+    ][:multiplier]
     for region in REGIONS:
         grouped=defaultdict(list); seen=set()
         ranges=[(start_date+timedelta(days=i),start_date+timedelta(days=i)) for i in range((end_date-start_date).days+1)] if os.getenv("BACKFILL_MONTH","0")=="1" else [(start_date,end_date)]
         for a,b in ranges:
-            try: articles=google_rss(region,a,b)
-            except Exception as e:
-                print("RSS",region,a,b,e,file=sys.stderr); articles=[]
+            articles=[]
+            for theme in themes:
+                try:
+                    if theme is None:
+                        articles.extend(google_rss(region,a,b))
+                    else:
+                        base=REGIONS[region]
+                        q=f'({base}) ({theme}) after:{a.isoformat()} before:{(b+timedelta(days=1)).isoformat()}'
+                        articles.extend(google_rss_query(q))
+                except Exception as e:
+                    print("RSS",region,a,b,theme,e,file=sys.stderr)
             for art in articles:
                 d=editorial_day(art["date"]); title=art["title"]
                 if d<start_date or d>end_date or len(title)<22: continue
