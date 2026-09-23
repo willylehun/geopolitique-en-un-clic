@@ -103,7 +103,13 @@ def country_backfill(start_date,end_date):
         "industrie infrastructures transports numérique innovation",
         "ONU Union européenne sommet accord coopération aide humanitaire",
     ][:multiplier]
-    for country in load_missing_countries():
+    countries=load_missing_countries()
+    batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","12") or "12"))
+    slot=int(datetime.now(PARIS).timestamp()//300)
+    if countries:
+        offset=(slot*batch_size)%len(countries)
+        countries=(countries+countries)[offset:offset+min(batch_size,len(countries))]
+    for country in countries:
         articles=[]
         for theme in themes:
             q=f'"{country}" ({theme}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
@@ -138,16 +144,29 @@ def parse_bucket_date(bucket):
 
 def build_generated(start_date,end_date):
     generated=[]
-    multiplier=max(1,min(int(os.getenv("FETCH_MULTIPLIER","1") or "1"),4))
+    multiplier=max(1,min(int(os.getenv("FETCH_MULTIPLIER","1") or "1"),8))
     themes=[
         None,
         "politique diplomatie gouvernement élection relations internationales",
         "économie commerce énergie sanctions investissement",
         "sécurité conflit défense migration climat technologie",
+        "santé société droits humains justice éducation",
+        "environnement catastrophe agriculture alimentation eau",
+        "industrie infrastructures transports numérique innovation",
+        "ONU Union européenne sommet accord coopération aide humanitaire",
     ][:multiplier]
+    all_dates=[start_date+timedelta(days=i) for i in range((end_date-start_date).days+1)]
+    if os.getenv("BACKFILL_MONTH","0")=="1" and all_dates:
+        batch_days=max(1,int(os.getenv("DAY_BATCH_SIZE","3") or "3"))
+        slot=int(datetime.now(PARIS).timestamp()//300)
+        offset=(slot*batch_days)%len(all_dates)
+        selected=(all_dates+all_dates)[offset:offset+min(batch_days,len(all_dates))]
+        if end_date not in selected: selected.append(end_date)
+        ranges=[(d,d) for d in dict.fromkeys(selected)]
+    else:
+        ranges=[(start_date,end_date)]
     for region in REGIONS:
         grouped=defaultdict(list); seen=set()
-        ranges=[(start_date+timedelta(days=i),start_date+timedelta(days=i)) for i in range((end_date-start_date).days+1)] if os.getenv("BACKFILL_MONTH","0")=="1" else [(start_date,end_date)]
         for a,b in ranges:
             articles=[]
             for theme in themes:
@@ -166,9 +185,9 @@ def build_generated(start_date,end_date):
                 k=(d,key_title(title))
                 if not k[1] or k in seen: continue
                 seen.add(k); grouped[d].append({"regions":[region],"period":"day","bucket":fr_date(d),"score":score(title),"category":category(title),"summary":title,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
-        for i in range((end_date-start_date).days+1):
-            d=start_date+timedelta(days=i); rows=sorted(grouped.get(d,[]),key=lambda x:x.get("published_at",""),reverse=True)
-            generated.extend(rows[:100])
+        for d in dict.fromkeys(a for a,_ in ranges):
+            rows=sorted(grouped.get(d,[]),key=lambda x:x.get("published_at",""),reverse=True)
+            generated.extend(rows)
     return generated
 
 def main():
