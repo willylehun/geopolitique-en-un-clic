@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T20:35:29.667010+02:00",
+  "generated_at": "2026-09-24T21:16:05.939760+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3846,6 +3846,25 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUEZ0SGhSUFBNM0RfOGxRUkJSTGNhVVRJeElyWmoxaTdTM1hDZGhSUTFtYkZ2OGZZZHlMWkxtZzQtQXhZcVA3SlVQM0V0NDJtMEJZLTlJaVhxS0RYOWhyTDl3cHZwRHhrclVWeTdSVEplaDBkMTBKb29nSUhlcUxzRVhiTzZOb1JhX1JuQXhGYTloZGVsUlhNM2JfYXkzdTFGNWR4Q0hKM3lsMXZEamJkRk1B?oc=5",
       "published_at": "2026-09-05T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Guinée"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Guinée interdit la diffusion de France 24 pour un commentaire sur le président",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8tblBYZ1BQWW1OUGtWU0k5U0RDc20yUHpERUN2aTJyWGVYVFRwY1lqV1dlMzRKMGsyS0JLbXlJZkdtYTc0aFRfVEcyTQ?oc=5",
+      "published_at": "2026-09-18T08:59:00+02:00",
       "origin": "rss"
     },
     {
