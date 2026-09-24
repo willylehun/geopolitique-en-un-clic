@@ -90,6 +90,38 @@ def load_missing_countries():
     except Exception as e:
         print("coverage",e,file=sys.stderr); return []
 
+# Pays dont le nom est contenu dans celui d'un autre pays : les requêtes génériques
+# sont trop ambiguës pour valider automatiquement leur couverture.
+AMBIGUOUS_COUNTRY_TERMS={
+    "Soudan","Soudan du Sud",
+    "Guinée","Guinée-Bissau","Guinée équatoriale","Papouasie-Nouvelle-Guinée",
+    "Congo","République du Congo","République démocratique du Congo",
+    "Niger","Nigeria",
+    "Corée du Nord","Corée du Sud",
+    "Dominique","République dominicaine",
+}
+COUNTRY_QUERY_HINTS={
+    "Soudan":"Khartoum OR Port-Soudan",
+    "Soudan du Sud":"Juba OR South Sudan",
+    "Guinée":"Conakry",
+    "Guinée-Bissau":"Bissau",
+    "Guinée équatoriale":"Malabo OR Equatorial Guinea",
+    "Papouasie-Nouvelle-Guinée":"Port Moresby OR Papua New Guinea",
+    "Congo":"Brazzaville OR Republic of Congo",
+    "République du Congo":"Brazzaville OR Republic of Congo",
+    "République démocratique du Congo":"Kinshasa OR DR Congo OR DRC",
+    "Niger":"Niamey",
+    "Nigeria":"Abuja OR Lagos",
+    "Corée du Nord":"Pyongyang OR North Korea",
+    "Corée du Sud":"Seoul OR South Korea",
+    "Dominique":"Roseau OR Dominica",
+    "République dominicaine":"Santo Domingo OR Dominican Republic",
+}
+
+def country_query_name(country):
+    hint=COUNTRY_QUERY_HINTS.get(country)
+    return f'("{country}" OR {hint})' if hint else f'"{country}"'
+
 def country_backfill(start_date,end_date):
     rows=[]; found=set()
     multiplier=max(1,min(int(os.getenv("FETCH_MULTIPLIER","1") or "1"),8))
@@ -112,7 +144,7 @@ def country_backfill(start_date,end_date):
     for country in countries:
         articles=[]
         for theme in themes:
-            q=f'"{country}" ({theme}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
+            q=f'{country_query_name(country)} ({theme}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
             try: articles.extend(google_rss_query(q))
             except Exception as e:
                 print("COUNTRY",country,theme,e,file=sys.stderr)
