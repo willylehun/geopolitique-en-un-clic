@@ -60,10 +60,32 @@ function regionMeta(name) {
   return REGIONS.find(r => r.name === name) || REGIONS[0];
 }
 
+function itemDateValue(item) {
+  const published = Date.parse(item?.published_at || item?._loadedAt || '');
+  if (published) return published;
+  if (item?.period === 'day') return bucketDateValue(item.bucket);
+  return 0;
+}
+
+function shortNewsDate(item) {
+  const ts = itemDateValue(item);
+  if (!ts) return '';
+  const d = new Date(ts);
+  const parts = new Intl.DateTimeFormat('fr-FR', {
+    day: '2-digit', month: '2-digit', timeZone: 'Europe/Paris'
+  }).formatToParts(d);
+  const day = parts.find(p => p.type === 'day')?.value || '';
+  const month = parts.find(p => p.type === 'month')?.value || '';
+  return day && month ? `${day}/${month}` : '';
+}
+
 function sortItems(items) {
   return [...items].sort((a, b) => {
-    const ta = Date.parse(a.published_at || a._loadedAt || 0) || 0;
-    const tb = Date.parse(b.published_at || b._loadedAt || 0) || 0;
+    const ta = itemDateValue(a);
+    const tb = itemDateValue(b);
+    if (state.period === 'week' || state.period === 'month') {
+      return (tb - ta) || (b.score - a.score) || a.summary.localeCompare(b.summary, 'fr');
+    }
     return (b.score - a.score) || (tb - ta) || a.summary.localeCompare(b.summary, 'fr');
   });
 }
@@ -154,8 +176,25 @@ function getBuckets() {
     return [...canonical.keys()].sort((a,b) => b.localeCompare(a));
   }
   if (state.period === 'month') {
-    const current = currentMonthLabel();
-    return all.filter(x => normalizeText(x) === normalizeText(current));
+    const monthKeys = new Map();
+    const monthNames={janvier:1,fevrier:2,mars:3,avril:4,mai:5,juin:6,juillet:7,aout:8,septembre:9,octobre:10,novembre:11,decembre:12};
+    for (const raw of all) {
+      const text=String(raw);
+      const m=normalizeText(text).match(/^([a-z]+)\s+(\d{4})$/);
+      if (m && monthNames[m[1]]) {
+        const key=`${m[2]}-${String(monthNames[m[1]]).padStart(2,'0')}`;
+        monthKeys.set(key,text);
+      }
+    }
+    for (const item of state.data.filter(x=>x.period==='day')) {
+      const ts=bucketDateValue(item.bucket);
+      if (!ts) continue;
+      const iso=new Date(ts).toISOString().slice(0,10);
+      monthKeys.set(iso.slice(0,7),monthBucketLabel(iso));
+    }
+    const today=parisTodayISO();
+    monthKeys.set(today.slice(0,7),monthBucketLabel(today));
+    return [...monthKeys.keys()].sort((a,b)=>b.localeCompare(a)).map(key=>monthKeys.get(key));
   }
   return all;
 }
@@ -463,7 +502,7 @@ function renderUnifiedElectionNews() {
   select.onchange=e=>{state.electionBucket=e.target.value;state.electionVisibleCount=10;renderUnifiedElectionNews();};
   const items=(state.electionData?.news||[]).filter(electionItemInBucket).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
   const shown=items.slice(0,state.electionVisibleCount), list=$('#unifiedElectionNewsList');
-  list.innerHTML=shown.length?shown.map(item=>`<article class="news-item election-news-item"><div class="meta"><span class="tag">Présidentielle 2027</span><span class="election-date">${escapeHtml(formatIsoDateFr(item.date))}</span></div>${item.url?`<a class="news-summary news-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.summary+electionMention(item))}<span class="link-mark">↗</span></a>`:`<p class="news-summary">${escapeHtml(item.summary+electionMention(item))}</p>`}<div class="sources">(${(item.sources||[]).map(escapeHtml).join(' • ')})</div></article>`).join(''):'<div class="empty"><span>◎</span><p>Aucune actualité présidentielle enregistrée sur cette période.</p></div>';
+  list.innerHTML=shown.length?shown.map(item=>`<article class="news-item election-news-item"><div class="meta"><span class="tag">Présidentielle 2027</span><span class="election-date">${escapeHtml(formatShortIsoDate(item.date))}</span></div>${item.url?`<a class="news-summary news-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.summary+electionMention(item))}<span class="link-mark">↗</span></a>`:`<p class="news-summary">${escapeHtml(item.summary+electionMention(item))}</p>`}<div class="sources">(${(item.sources||[]).map(escapeHtml).join(' • ')})</div></article>`).join(''):'<div class="empty"><span>◎</span><p>Aucune actualité présidentielle enregistrée sur cette période.</p></div>';
   if(items.length>shown.length){list.insertAdjacentHTML('beforeend',`<button class="more-button" id="unifiedElectionMoreButton">Suite (${items.length-shown.length})</button>`);$('#unifiedElectionMoreButton').onclick=()=>{state.electionVisibleCount+=10;renderUnifiedElectionNews();};}
 }
 
@@ -561,7 +600,7 @@ function renderCandidateTab() {
 function partyNews() {
   const p=getParties().find(x=>x.name===state.partyName); if(!p)return[];
   const ids=p.candidate_ids||[];
-  return (state.electionData?.news||[]).filter(n=>(n.party_names||[]).includes(p.name)||(n.candidate_ids||[]).some(id=>ids.includes(id))).filter(electionItemInBucket);
+  return (state.electionData?.news||[]).filter(n=>(n.party_names||[]).includes(p.name)||(n.candidate_ids||[]).some(id=>ids.includes(id))).filter(electionItemInBucket).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
 }
 
 function renderPartyCandidates() {
@@ -585,7 +624,7 @@ function renderPartyPage() {
   const p=getParties().find(x=>x.name===state.partyName); if(!p)return;
   document.querySelectorAll('.party-detail-tab').forEach(b=>{b.classList.toggle('active',b.dataset.partyTab===state.partyTab);b.onclick=()=>{state.partyTab=b.dataset.partyTab;renderPartyPage();};});
   $('#partyNewsPanel').hidden=state.partyTab!=='news'; $('#partyProgramPanel').hidden=state.partyTab!=='program'; $('#partyControversyPanel').hidden=state.partyTab!=='controversies';
-  if(state.partyTab==='news'){const items=partyNews();$('#partyNewsList').innerHTML=items.length?items.map(i=>`<article class="news-item"><div class="meta"><span class="tag">${escapeHtml(formatIsoDateFr(i.date))}</span></div><p class="news-summary">${escapeHtml(i.summary)}</p><div class="sources">(${(i.sources||[]).map(escapeHtml).join(' • ')})</div></article>`).join(''):'<div class="empty"><span>◎</span><p>Aucune actualité enregistrée pour ce parti sur cette période.</p></div>';}
+  if(state.partyTab==='news'){const items=partyNews();$('#partyNewsList').innerHTML=items.length?items.map(i=>`<article class="news-item"><div class="meta"><span class="tag">${escapeHtml(formatShortIsoDate(i.date))}</span></div><p class="news-summary">${escapeHtml(i.summary)}</p><div class="sources">(${(i.sources||[]).map(escapeHtml).join(' • ')})</div></article>`).join(''):'<div class="empty"><span>◎</span><p>Aucune actualité enregistrée pour ce parti sur cette période.</p></div>';}
   $('#partyProgram').innerHTML=p.program?Object.entries(p.program).map(([k,v])=>`<article class="program-card"><h4>${escapeHtml(k)}</h4><p>${escapeHtml(v)}</p></article>`).join(''):renderInfoCards([], 'Programme du parti en cours de documentation par la veille.');
   $('#partyControversies').innerHTML=renderInfoCards(p.controversies, 'Aucune controverse suffisamment documentée dans les sources suivies.');
 }
@@ -696,6 +735,11 @@ function monthBucketLabel(iso) {
   return new Intl.DateTimeFormat('fr-FR',{month:'long',year:'numeric',timeZone:'Europe/Paris'}).format(new Date(Date.UTC(y,m-1,1,12)));
 }
 
+function formatShortIsoDate(iso) {
+  const m=String(iso||'').match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  return m ? `${m[3]}/${m[2]}` : '';
+}
+
 function electionBuckets() {
   const news = state.electionData?.news || [];
   const today = parisTodayISO();
@@ -786,7 +830,7 @@ function renderElectionNews() {
     <article class="news-item election-news-item">
       <div class="meta">
         <span class="tag">Présidentielle 2027</span>
-        <span class="election-date">${escapeHtml(formatIsoDateFr(item.date))}</span>
+        <span class="election-date">${escapeHtml(formatShortIsoDate(item.date))}</span>
       </div>
       ${item.url
         ? `<a class="news-summary news-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.summary)}<span class="link-mark">↗</span></a>`
@@ -960,6 +1004,7 @@ function renderNews() {
         <span class="stars" aria-label="${item.score} étoiles sur 10">${stars(item.score)}</span>
         ${state.region === 'International' && item.originRegion ? `<span class="origin-region">${escapeHtml(item.originRegion)}</span>` : ''}
         ${item.category ? `<span class="tag">${escapeHtml(item.category)}</span>` : ''}
+        ${shortNewsDate(item) ? `<span class="news-date">${escapeHtml(shortNewsDate(item))}</span>` : ''}
       </div>
       ${clickableSummary(item)}
       <div class="sources">(${(item.sources || []).map(escapeHtml).join(' • ')})</div>
