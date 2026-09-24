@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T05:40:00+02:00",
+  "generated_at": "2026-09-24T06:34:26.614222+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3224,298 +3224,6 @@
     },
     {
       "regions": [
-        "International"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 9,
-      "category": "Énergie",
-      "summary": "Ormuz, la mer Rouge et les attaques houthies maintiennent une forte pression sur le pétrole, l’inflation et les routes commerciales mondiales.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "International"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 9,
-      "category": "Taux",
-      "summary": "La Fed recommence à relever ses taux tandis que les rendements obligataires mondiaux restent proches de sommets pluriannuels.",
-      "sources": [
-        "Reuters",
-        "AP"
-      ]
-    },
-    {
-      "regions": [
-        "International"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 9,
-      "category": "Russie",
-      "summary": "Washington durcit fortement les sanctions contre Moscou et élargit les risques tarifaires aux principaux partenaires énergétiques russes.",
-      "sources": [
-        "Reuters",
-        "AP"
-      ]
-    },
-    {
-      "regions": [
-        "International"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 8,
-      "category": "USA–Chine",
-      "summary": "Le sommet Trump–Xi se prépare autour du commerce, de Taïwan, de l’IA et des matières premières critiques.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 9,
-      "category": "Russie–Ukraine",
-      "summary": "La guerre énergétique se poursuit entre Russie et Ukraine tandis que les États-Unis renforcent leur arsenal de sanctions contre Moscou.",
-      "sources": [
-        "Reuters",
-        "AP"
-      ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "Stocks de gaz faibles, prix élevés et taux longs en hausse fragilisent la croissance européenne avant l’hiver.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 8,
-      "category": "Sécurité",
-      "summary": "La France alerte sur l’intensification des menaces hybrides russes et renforce la protection de ses infrastructures critiques.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 9,
-      "category": "Moyen-Orient",
-      "summary": "Les attaques houthies contre l’Arabie saoudite aggravent les risques énergétiques et sécuritaires de toute la région.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 8,
-      "category": "Taïwan",
-      "summary": "La question de Taïwan revient au centre des relations Washington–Pékin avant la visite de Xi aux États-Unis.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 7,
-      "category": "Monnaie",
-      "summary": "Le Japon relève ses taux à un sommet de 31 ans tandis que plusieurs économies asiatiques subissent pétrole cher et dollar fort.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 9,
-      "category": "Fed",
-      "summary": "La Fed relève ses taux pour la première fois depuis trois ans et laisse entrevoir un nouveau resserrement en 2026.",
-      "sources": [
-        "Reuters",
-        "AP"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 9,
-      "category": "Russie",
-      "summary": "Les États-Unis adoptent une loi de sanctions élargie contre la Russie, avec des pouvoirs tarifaires susceptibles de toucher des pays tiers.",
-      "sources": [
-        "Reuters",
-        "AP"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 8,
-      "category": "Chine",
-      "summary": "Washington prépare le sommet Trump–Xi sur commerce, IA, minerais critiques et sécurité régionale.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 7,
-      "category": "Brésil",
-      "summary": "Le Brésil entre dans la dernière ligne droite électorale avec Lula et Flávio Bolsonaro au coude-à-coude et un nouveau recul du Selic.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 7,
-      "category": "Venezuela",
-      "summary": "Le rapprochement Washington–Caracas se poursuit tandis que le Venezuela attire de nouveaux investissements pétroliers étrangers.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 7,
-      "category": "Argentine",
-      "summary": "L’Argentine durcit sa ligne sur les Malouines tout en présentant un budget 2027 fondé sur croissance, désinflation et excédent commercial.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Afrique"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 8,
-      "category": "Humanitaire",
-      "summary": "Le Soudan manque de financements alimentaires et la RDC reste confrontée à une épidémie d’Ebola majeure.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Afrique"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 7,
-      "category": "Énergie",
-      "summary": "La hausse des coûts énergétiques pèse sur les devises africaines et pousse le Ghana à limiter ses exportations de carburant vers le Sahel.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Afrique"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 7,
-      "category": "Corne de l’Afrique",
-      "summary": "La reprise des combats au Yémen provoque de nouveaux départs de réfugiés vers Djibouti.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Océanie"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 7,
-      "category": "Immigration",
-      "summary": "L’Australie durcit fortement sa politique migratoire, avec des effets redoutés sur les universités, l’agriculture et plusieurs secteurs en tension.",
-      "sources": [
-        "Reuters",
-        "ABC News"
-      ]
-    },
-    {
-      "regions": [
-        "Océanie"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 7,
-      "category": "Commerce",
-      "summary": "La Nouvelle-Zélande ratifie son accord commercial avec l’Inde, ouvrant davantage le marché indien à ses exportateurs.",
-      "sources": [
-        "Reuters"
-      ]
-    },
-    {
-      "regions": [
-        "Océanie"
-      ],
-      "period": "week",
-      "bucket": "13–19 septembre 2026",
-      "score": 6,
-      "category": "Diplomatie",
-      "summary": "Canberra ajuste sa position sur les sanctions liées à la Cisjordanie, illustrant les arbitrages diplomatiques de l’Australie.",
-      "sources": [
-        "ABC News"
-      ]
-    },
-    {
-      "regions": [
         "Afrique"
       ],
       "countries": [
@@ -3931,6 +3639,393 @@
       "url": "https://diplomatie.belgium.be/fr/actualites",
       "published_at": "2026-09-21T12:00:00+02:00",
       "origin": "manual_verified_official"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Énergie",
+      "summary": "Ormuz, la mer Rouge et les attaques houthies maintiennent une forte pression sur le pétrole, l’inflation et les routes commerciales mondiales.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Taux",
+      "summary": "La Fed recommence à relever ses taux tandis que les rendements obligataires mondiaux restent proches de sommets pluriannuels.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Russie",
+      "summary": "Washington durcit fortement les sanctions contre Moscou et élargit les risques tarifaires aux principaux partenaires énergétiques russes.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 8,
+      "category": "USA–Chine",
+      "summary": "Le sommet Trump–Xi se prépare autour du commerce, de Taïwan, de l’IA et des matières premières critiques.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Russie–Ukraine",
+      "summary": "La guerre énergétique se poursuit entre Russie et Ukraine tandis que les États-Unis renforcent leur arsenal de sanctions contre Moscou.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Stocks de gaz faibles, prix élevés et taux longs en hausse fragilisent la croissance européenne avant l’hiver.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "La France alerte sur l’intensification des menaces hybrides russes et renforce la protection de ses infrastructures critiques.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Moyen-Orient",
+      "summary": "Les attaques houthies contre l’Arabie saoudite aggravent les risques énergétiques et sécuritaires de toute la région.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 8,
+      "category": "Taïwan",
+      "summary": "La question de Taïwan revient au centre des relations Washington–Pékin avant la visite de Xi aux États-Unis.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Monnaie",
+      "summary": "Le Japon relève ses taux à un sommet de 31 ans tandis que plusieurs économies asiatiques subissent pétrole cher et dollar fort.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Fed",
+      "summary": "La Fed relève ses taux pour la première fois depuis trois ans et laisse entrevoir un nouveau resserrement en 2026.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 9,
+      "category": "Russie",
+      "summary": "Les États-Unis adoptent une loi de sanctions élargie contre la Russie, avec des pouvoirs tarifaires susceptibles de toucher des pays tiers.",
+      "sources": [
+        "Reuters",
+        "AP"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 8,
+      "category": "Chine",
+      "summary": "Washington prépare le sommet Trump–Xi sur commerce, IA, minerais critiques et sécurité régionale.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Brésil",
+      "summary": "Le Brésil entre dans la dernière ligne droite électorale avec Lula et Flávio Bolsonaro au coude-à-coude et un nouveau recul du Selic.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Venezuela",
+      "summary": "Le rapprochement Washington–Caracas se poursuit tandis que le Venezuela attire de nouveaux investissements pétroliers étrangers.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Argentine",
+      "summary": "L’Argentine durcit sa ligne sur les Malouines tout en présentant un budget 2027 fondé sur croissance, désinflation et excédent commercial.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 8,
+      "category": "Humanitaire",
+      "summary": "Le Soudan manque de financements alimentaires et la RDC reste confrontée à une épidémie d’Ebola majeure.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "La hausse des coûts énergétiques pèse sur les devises africaines et pousse le Ghana à limiter ses exportations de carburant vers le Sahel.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Corne de l’Afrique",
+      "summary": "La reprise des combats au Yémen provoque de nouveaux départs de réfugiés vers Djibouti.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Immigration",
+      "summary": "L’Australie durcit fortement sa politique migratoire, avec des effets redoutés sur les universités, l’agriculture et plusieurs secteurs en tension.",
+      "sources": [
+        "Reuters",
+        "ABC News"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 7,
+      "category": "Commerce",
+      "summary": "La Nouvelle-Zélande ratifie son accord commercial avec l’Inde, ouvrant davantage le marché indien à ses exportateurs.",
+      "sources": [
+        "Reuters"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "week",
+      "bucket": "13–19 septembre 2026",
+      "score": 6,
+      "category": "Diplomatie",
+      "summary": "Canberra ajuste sa position sur les sanctions liées à la Cisjordanie, illustrant les arbitrages diplomatiques de l’Australie.",
+      "sources": [
+        "ABC News"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Afrique du Sud"
+      ],
+      "period": "day",
+      "bucket": "23 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "La Banque de réserve sud-africaine relève son taux directeur de 25 points de base à 7,25 %, invoquant des risques haussiers sur l’inflation.",
+      "sources": [
+        "SAnews",
+        "South African Reserve Bank"
+      ],
+      "url": "https://www.sanews.gov.za/south-africa/mpc-raises-repo-rate-725",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Bolivie"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Le Congrès bolivien approuve un accord de prêt de 1,9 milliard de dollars avec le FMI ; le gouvernement supprime ensuite les subventions au diesel dans le cadre du programme de stabilisation.",
+      "sources": [
+        "Associated Press",
+        "FMI"
+      ],
+      "url": "https://apnews.com/article/d5ac4a2558132559e1d544807b89d528",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Bahreïn"
+      ],
+      "period": "day",
+      "bucket": "13 septembre 2026",
+      "score": 8,
+      "category": "Diplomatie",
+      "summary": "Bahreïn refuse de participer à la réunion proposée à Oman entre l’Iran et les États du Golfe sur le détroit d’Ormuz tant que ses relations diplomatiques avec Téhéran ne sont pas rétablies.",
+      "sources": [
+        "AFP",
+        "Al Jazeera"
+      ],
+      "url": "https://www.aljazeera.com/news/2026/9/12/bahrain-says-it-will-not-participate-in-irans-proposed-hormuz-meeting",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Bulgarie"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 7,
+      "category": "Sécurité",
+      "summary": "La Bulgarie décide d’équiper des infrastructures critiques de systèmes anti-drones et de renforcer les patrouilles autour des sites de production et de stockage d’armements.",
+      "sources": [
+        "Reuters",
+        "The Sofia Globe"
+      ],
+      "url": "https://www.ekathimerini.com/politics/foreign-policy/1315691/bulgaria-to-deploy-anti-drone-systems-at-critical-infrastructure-facilities/",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Birmanie"
+      ],
+      "period": "day",
+      "bucket": "11 septembre 2026",
+      "score": 7,
+      "category": "Diplomatie",
+      "summary": "Min Aung Hlaing effectue une visite d’État au Cambodge et rencontre Hun Sen et Hun Manet, dans le cadre de la reprise des contacts régionaux de la Birmanie avec l’ASEAN.",
+      "sources": [
+        "Associated Press",
+        "Agence Kampuchea Presse"
+      ],
+      "url": "https://www.akp.gov.kh/post/detail/380767",
+      "origin": "manual_verified"
     }
   ]
 }
