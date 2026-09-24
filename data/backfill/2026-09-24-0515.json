@@ -1,0 +1,83 @@
+{
+  "status": "verified_pending_merge",
+  "timezone": "Europe/Paris",
+  "items": [
+    {
+      "regions": ["Asie"],
+      "countries": ["Afghanistan", "Pakistan"],
+      "period": "day",
+      "bucket": "21 septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "Le Pakistan affirme avoir tué 28 combattants lors de frappes aériennes contre des positions militantes dans l’est de l’Afghanistan. Les autorités afghanes font état de trois civils tués et dénoncent une violation de leur souveraineté.",
+      "sources": ["Associated Press"],
+      "url": "https://apnews.com/article/95178c5833c7a6a621c9bb0f06a78915"
+    },
+    {
+      "regions": ["Afrique"],
+      "countries": ["Afrique du Sud"],
+      "period": "day",
+      "bucket": "21 septembre 2026",
+      "score": 6,
+      "category": "Société",
+      "summary": "La police sud-africaine a arrêté trois personnes dans l’enquête sur le meurtre d’une femme à l’est de Johannesburg. L’affaire intervient dans un contexte de forte mobilisation contre les violences faites aux femmes après plusieurs meurtres récents dans la municipalité d’Ekurhuleni.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/world/africa/south-african-police-arrest-three-people-over-womans-death-after-spate-killings-2026-09-21/"
+    },
+    {
+      "regions": ["Afrique"],
+      "countries": ["Algérie", "Émirats arabes unis"],
+      "period": "day",
+      "bucket": "10 septembre 2026",
+      "score": 8,
+      "category": "Diplomatie",
+      "summary": "L’Algérie a rompu ses relations diplomatiques avec les Émirats arabes unis, invoquant des actes qu’elle qualifie de provocateurs ou hostiles. Abou Dhabi a indiqué espérer que cette rupture soit temporaire.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/world/middle-east/algeria-cuts-diplomatic-ties-with-uae-algerian-state-tv-says-2026-09-10/"
+    },
+    {
+      "regions": ["Afrique"],
+      "countries": ["Angola"],
+      "period": "day",
+      "bucket": "9 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "L’Angola prépare l’ouverture de son marché intérieur de dette publique aux investisseurs étrangers et discute avec JPMorgan d’une éventuelle inclusion dans un indice consacré aux marchés frontières, afin de diversifier ses sources de financement.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/world/africa/angola-moves-open-local-bond-market-eyes-jpmorgan-debt-benchmark-2026-09-09/"
+    },
+    {
+      "regions": ["Asie"],
+      "countries": ["Arménie", "Russie", "Iran"],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 6,
+      "category": "Énergie",
+      "summary": "Les livraisons de gaz russe vers l’Arménie sont suspendues du 15 au 25 septembre pour des travaux programmés sur le gazoduc en Russie. L’Arménie doit compenser avec ses réserves et des importations supplémentaires depuis l’Iran.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/business/energy/gazprom-halts-russian-natural-gas-exports-armenia-10-day-repair-work-2026-09-14/"
+    },
+    {
+      "regions": ["Europe"],
+      "countries": ["Allemagne"],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 7,
+      "category": "Technologie",
+      "summary": "Le gouvernement allemand juge qu’un arrêt du développement de l’intelligence artificielle n’est pas une option viable et défend la poursuite de l’innovation accompagnée de règles de sécurité et d’une coopération internationale incluant les États-Unis et la Chine.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/legal/litigation/germany-says-halting-ai-development-not-viable-calls-us-china-involvement-2026-09-14/"
+    },
+    {
+      "regions": ["Océanie"],
+      "countries": ["Australie"],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 6,
+      "category": "Numérique",
+      "summary": "Le Premier ministre Anthony Albanese affirme que Tim Cook considère les mesures australiennes de protection des mineurs sur les réseaux sociaux comme une référence internationale. Canberra applique notamment une interdiction d’accès aux réseaux sociaux pour les moins de 16 ans.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/business/retail-consumer/apples-tim-cook-sees-australias-social-media-curbs-world-leading-pm-says-2026-09-20/"
+    }
+  ]
+}
