@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T23:27:00+02:00",
+  "generated_at": "2026-09-24T09:12:00+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -454,21 +454,23 @@
       "status": "primary",
       "status_label": "Candidat à la primaire social-démocrate",
       "program": {
-        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Économie": "Lors du premier débat de la primaire, il a défendu l’indexation des salaires sur l’inflation et une sécurité sociale alimentaire.",
         "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
-        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Il défend l’abrogation de la réforme des retraites portant l’âge légal à 64 ans.",
         "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
-        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
-        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+        "Europe & international": "Il soutient l’Ukraine et emploie le terme de génocide pour qualifier la situation à Gaza.",
+        "Institutions & démocratie": "Il défend le maintien de convergences parlementaires avec les autres forces de gauche, y compris LFI, sans présenter cela comme une alliance présidentielle."
       },
       "sources": [
-        "Le Monde — 16 septembre 2026"
+        "Le Monde — 16 septembre 2026",
+        "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
+        "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T09:12:00+02:00",
       "bio": "Député de Seine-et-Marne et premier secrétaire du Parti socialiste. Il représente une ligne socialiste favorable au rassemblement de la gauche, à la redistribution, aux services publics et à la transition écologique.",
       "controversies": []
     },
@@ -479,8 +481,8 @@
       "status": "primary",
       "status_label": "Candidat à la primaire social-démocrate",
       "program": {
-        "Santé": "Propose une « sécurité sociale intégrale », qui supprimerait le rôle actuel des mutuelles dans la couverture complémentaire.",
-        "Institutions & démocratie": "Met aussi en avant les thèmes de la laïcité, de l’identité et de la souveraineté.",
+        "Santé": "Il défend une « grande sécu » consistant à intégrer à la Sécurité sociale la couverture aujourd’hui assurée par les complémentaires santé.",
+        "Institutions & démocratie": "Il exclut une nouvelle alliance nationale avec La France insoumise et présente cette rupture comme un axe majeur de sa candidature à la primaire.",
         "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
@@ -491,9 +493,11 @@
         "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
-        "Le Monde — 16 septembre 2026"
+        "Le Monde — 16 septembre 2026",
+        "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
+        "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T09:12:00+02:00",
       "bio": "Député de l’Essonne et ancien président du conseil général de l’Essonne. Membre du Parti socialiste, il travaille notamment sur les questions sociales, le vieillissement, les services publics et la lutte contre les inégalités.",
       "controversies": []
     },
@@ -506,19 +510,21 @@
       "program": {
         "Sécurité & justice": "Met en avant l’idée d’« ordre juste ».",
         "Institutions & démocratie": "Promet une « France tranquille », mais n’a pas encore publié de programme 2027 complet.",
-        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Économie": "Lors du premier débat de la primaire, elle a proposé le rétablissement d’un impôt de solidarité sur la fortune financière et une réduction du train de vie de l’État avant de nouveaux prélèvements.",
         "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
-        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+        "Europe & international": "Sur l’Ukraine, elle met en avant la négociation et la médiation pour rechercher une paix durable ; sur Gaza, elle emploie le terme de génocide."
       },
       "sources": [
-        "Le Monde — 16 septembre 2026"
+        "Le Monde — 16 septembre 2026",
+        "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
+        "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T09:12:00+02:00",
       "bio": "Ancienne députée, ancienne ministre, ancienne présidente de Poitou-Charentes et candidate socialiste à la présidentielle de 2007. Elle a également été ministre de l’Écologie et se rattache à la famille socialiste, avec des thèmes récurrents liés à l’écologie, la démocratie participative et la justice sociale.",
       "controversies": []
     },
@@ -532,18 +538,20 @@
         "Santé": "Propose une stratégie du grand âge inscrite sur au moins dix ans dès le début du quinquennat.",
         "Immigration": "Assume des régularisations encadrées dans les secteurs de soin et d’aide à domicile en tension.",
         "Écologie & énergie": "A demandé un plan des cent premiers jours d’une « révolution écologique » pour préciser son offre environnementale.",
-        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Économie": "Lors du premier débat de la primaire, il a défendu une taxe sur les gros héritages destinée notamment à financer une baisse de la CSG et a proposé un statut pour les familles monoparentales.",
         "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
-        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
-        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+        "Europe & international": "Il maintient une ligne de soutien à l’Ukraine et, sur Gaza, parle de crimes contre l’humanité et de crimes de guerre sans employer le terme de génocide.",
+        "Institutions & démocratie": "Il exclut une alliance nationale avec La France insoumise aux élections législatives et défend une offre sociale-démocrate autonome."
       },
       "sources": [
-        "Le Monde — 16 et 17 septembre 2026"
+        "Le Monde — 16 et 17 septembre 2026",
+        "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
+        "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T09:12:00+02:00",
       "bio": "Député européen, essayiste et cofondateur de Place publique. Il se situe dans la social-démocratie pro-européenne et met notamment en avant la justice fiscale, l’écologie, l’école, la défense européenne et le soutien à l’Ukraine.",
       "controversies": []
     },
@@ -554,8 +562,8 @@
       "status": "primary",
       "status_label": "Candidat à la primaire social-démocrate",
       "program": {
-        "Économie": "Défend une rupture avec la mondialisation actuelle et une logique de « démarchandisation » de certains secteurs.",
-        "Institutions & démocratie": "Veut renforcer la participation directe des citoyens et le pouvoir des salariés.",
+        "Économie": "Lors du premier débat de la primaire, il a défendu l’indexation des salaires sur l’inflation et contesté l’idée d’une annulation générale de la dette.",
+        "Institutions & démocratie": "Il refuse de structurer toute la stratégie de la gauche uniquement autour de son rapport à LFI et met en avant un projet fondé sur le partage des pouvoirs, des savoirs et des richesses.",
         "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
@@ -566,9 +574,11 @@
         "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
-        "Le Monde — 16 septembre 2026"
+        "Le Monde — 16 septembre 2026",
+        "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
+        "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T09:12:00+02:00",
       "bio": "Député européen, ancien vice-président de la région Île-de-France et fondateur de la Gauche républicaine et socialiste après son départ du PS. Il défend une gauche républicaine critique du libéralisme économique et attachée à la souveraineté.",
       "controversies": []
     },
@@ -1132,6 +1142,28 @@
         "LCP"
       ],
       "url": "https://lcp.fr/actualites/presidentielle-2027-ces-deputes-qui-vont-faire-la-campagne-de-gabriel-attal-442222"
+    },
+    {
+      "id": "2026-09-23-primary-first-debate",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "raphael-glucksmann",
+        "emmanuel-maurel",
+        "segolene-royal",
+        "olivier-faure",
+        "jerome-guedj"
+      ],
+      "party_names": [
+        "Place publique",
+        "Gauche républicaine et socialiste",
+        "Parti socialiste"
+      ],
+      "summary": "Le premier débat de la primaire social-démocrate a opposé Raphaël Glucksmann, Emmanuel Maurel, Ségolène Royal, Olivier Faure et Jérôme Guedj. Les échanges ont notamment porté sur les salaires, la protection sociale, la dette, l’Ukraine, Gaza et la stratégie d’alliance avec La France insoumise.",
+      "sources": [
+        "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
+        "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
+      ],
+      "url": "https://www.lemonde.fr/politique/article/2026/09/24/primaire-a-gauche-la-situation-a-gaza-et-l-alliance-avec-lfi-electrisent-le-premier-debat-televise_6781332_823448.html"
     }
   ],
   "withdrawal_retention_days": 7,
@@ -1442,12 +1474,15 @@
       "sources": [
         "La Tribune",
         "RTL",
-        "TF1 Info"
+        "TF1 Info",
+        "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
+        "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T09:12:00+02:00",
       "news": [
         "2026-08-30-faure-primaire",
-        "2026-09-16-primaire-socialdemocrate"
+        "2026-09-16-primaire-socialdemocrate",
+        "2026-09-23-primary-first-debate"
       ]
     },
     {
@@ -1493,12 +1528,15 @@
       "sources": [
         "Public Sénat",
         "RTL",
-        "TF1 Info"
+        "TF1 Info",
+        "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
+        "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T09:12:00+02:00",
       "news": [
         "2026-08-24-glucksmann-programme",
-        "2026-09-16-primaire-socialdemocrate"
+        "2026-09-16-primaire-socialdemocrate",
+        "2026-09-23-primary-first-debate"
       ]
     },
     {
@@ -1521,11 +1559,14 @@
       "controversies": [],
       "sources": [
         "RTL",
-        "TF1 Info"
+        "TF1 Info",
+        "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
+        "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T09:12:00+02:00",
       "news": [
-        "2026-09-16-primaire-socialdemocrate"
+        "2026-09-16-primaire-socialdemocrate",
+        "2026-09-23-primary-first-debate"
       ]
     },
     {
