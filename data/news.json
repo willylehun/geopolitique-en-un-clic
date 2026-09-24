@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T03:03:04.615Z",
+  "generated_at": "2026-09-24T05:25:00+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3616,6 +3616,167 @@
       "url": "https://www.reuters.com/world/asia-pacific/iran-warns-against-new-escalation-by-us-allies-2026-09-20/",
       "published_at": "2026-09-20T15:19:05+02:00",
       "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Afghanistan",
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "21 septembre 2026",
+      "score": 9,
+      "category": "Sécurité",
+      "summary": "Le Pakistan a annoncé des frappes dans les provinces afghanes de Paktika et de Kunar contre des combattants armés. Les autorités talibanes et la mission de l’ONU en Afghanistan ont confirmé la mort de trois civils et Kaboul a convoqué le chargé d’affaires pakistanais pour protester.",
+      "sources": [
+        "Reuters",
+        "UNAMA"
+      ],
+      "url": "https://www.reuters.com/world/asia-pacific/least-three-killed-pakistani-airstrike-afghanistan-tolo-news-reports-2026-09-21/",
+      "published_at": "2026-09-21T05:27:01+02:00",
+      "origin": "manual_verified_multisource"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Albanie"
+      ],
+      "period": "day",
+      "bucket": "9 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Le gouvernement albanais et l’entreprise américaine Argent LNG ont signé un protocole d’accord non contraignant afin d’étudier un terminal terrestre de stockage et de regazéification de GNL pouvant atteindre cinq millions de tonnes par an.",
+      "sources": [
+        "Reuters",
+        "Radio Evropa e Lirë"
+      ],
+      "url": "https://www.reuters.com/business/energy/argent-lng-albania-sign-mou-evaluate-lng-import-terminal-development-2026-09-09/",
+      "published_at": "2026-09-09T20:02:14+02:00",
+      "origin": "manual_verified_multisource"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Algérie",
+        "Émirats arabes unis"
+      ],
+      "period": "day",
+      "bucket": "10 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L’Algérie a annoncé la rupture de ses relations diplomatiques avec les Émirats arabes unis après plusieurs années de tensions. Alger reproche notamment à Abou Dhabi son rôle dans plusieurs crises régionales, dont celles du Mali, de la Libye et du Soudan.",
+      "sources": [
+        "Le Monde",
+        "Algérie Presse Service"
+      ],
+      "url": "https://www.lemonde.fr/afrique/article/2026/09/10/l-algerie-annonce-la-rupture-de-ses-relations-diplomatiques-avec-les-emirats-arabes-unis-apres-des-annees-de-tension_6640362_3212.html",
+      "published_at": "2026-09-10T14:58:00+02:00",
+      "origin": "manual_verified_multisource"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "Le Conseil national de sécurité allemand a examiné les menaces hybrides visant le pays et décidé de nouvelles mesures contre l’espionnage et le sabotage ainsi que pour la protection des infrastructures critiques. Il prévoit aussi de réduire certaines dépendances stratégiques.",
+      "sources": [
+        "Gouvernement fédéral allemand"
+      ],
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/sitzung-des-nationalen-sicherheitsrates-im-september-2026-2452580",
+      "published_at": "2026-09-14T12:00:00+02:00",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Andorre"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "L’agence Fitch a maintenu la note souveraine d’Andorre à « A- » avec perspective stable. Le gouvernement souligne notamment le renforcement des mécanismes de liquidité en euros dans son environnement financier.",
+      "sources": [
+        "Gouvernement d’Andorre"
+      ],
+      "url": "https://www.govern.ad/fr/actualitat",
+      "published_at": "2026-09-18T12:00:00+02:00",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Angola"
+      ],
+      "period": "day",
+      "bucket": "7 septembre 2026",
+      "score": 7,
+      "category": "Infrastructures",
+      "summary": "L’Angola a autorisé un projet de 658 millions d’euros pour réhabiliter, moderniser et étendre le réseau d’eau potable de Luanda. Le gouvernement estime qu’environ trois millions d’habitants de zones insuffisamment desservies doivent en bénéficier.",
+      "sources": [
+        "Gouvernement de l’Angola"
+      ],
+      "url": "https://www.governo.gov.ao/noticias/3101/governo/em-luanda/rede-de-agua-sera-expandida-para-abastecer-cerca-de-tres-milhoes-de-habitantes-em-zonas-cinzentas",
+      "published_at": "2026-09-07T12:00:00+02:00",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "countries": [
+        "Arménie",
+        "Russie",
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "14 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Gazprom Armenia a annoncé l’interruption temporaire, du 15 au 25 septembre, des livraisons de gaz russe à l’Arménie pour des travaux planifiés sur un gazoduc en Russie. L’Arménie doit compenser avec ses réserves et des volumes supplémentaires importés d’Iran.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/business/energy/gazprom-halts-russian-natural-gas-exports-armenia-10-day-repair-work-2026-09-14/",
+      "published_at": "2026-09-14T09:34:55+02:00",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "countries": [
+        "Australie"
+      ],
+      "period": "day",
+      "bucket": "21 septembre 2026",
+      "score": 7,
+      "category": "Diplomatie",
+      "summary": "L’Australie a officiellement lancé sa candidature à un siège non permanent au Conseil de sécurité des Nations unies. Le gouvernement entend mettre en avant son engagement multilatéral et sa réputation internationale dans cette campagne diplomatique.",
+      "sources": [
+        "Ministère australien des Affaires étrangères",
+        "ABC News"
+      ],
+      "url": "https://www.foreignminister.gov.au/minister/penny-wong/media-releases/australia-launches-bid-united-nations-security-council-seat",
+      "published_at": "2026-09-21T12:00:00+02:00",
+      "origin": "manual_verified_multisource"
     }
   ]
 }
