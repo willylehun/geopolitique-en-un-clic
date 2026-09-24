@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "scripts/update_news.py"
+      - "scripts/manual_backfill.py"
       - ".github/workflows/news.yml"
   schedule:
     # Décalé du début de l’heure : GitHub indique que les cron à forte charge peuvent être retardés/supprimés.
@@ -48,6 +49,8 @@ jobs:
           COUNTRY_BATCH_SIZE: "16"
           DAY_BATCH_SIZE: "2"
         run: python scripts/update_news.py
+      - name: Intégrer le lot manuel vérifié
+        run: python scripts/manual_backfill.py
       - name: Enregistrer les nouvelles données
         shell: bash
         run: |
