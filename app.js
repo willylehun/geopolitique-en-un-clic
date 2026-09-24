@@ -455,10 +455,11 @@ function itemMatchesCountry(item, country = state.country) {
     if (item.countries.some(c => normalizeText(c) === normalizedCountry)) return true;
   }
 
+  // Ne jamais utiliser le nom du média pour attribuer une actualité à un pays.
+  // Exemple : « France 24 » est une source, pas une indication que l'article concerne la France.
   const haystack = normalizeText([
     item.summary || '',
-    item.category || '',
-    ...(item.sources || [])
+    item.category || ''
   ].join(' '));
 
   return countryAliases(country).some(alias => {
