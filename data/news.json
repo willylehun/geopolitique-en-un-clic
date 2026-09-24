@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T06:34:26.614222+02:00",
+  "generated_at": "2026-09-24T07:24:16.213627+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3642,6 +3642,139 @@
     },
     {
       "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Afrique du Sud"
+      ],
+      "period": "day",
+      "bucket": "23 septembre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "La Banque de réserve sud-africaine relève son taux directeur de 25 points de base à 7,25 %, invoquant des risques haussiers sur l’inflation.",
+      "sources": [
+        "SAnews",
+        "South African Reserve Bank"
+      ],
+      "url": "https://www.sanews.gov.za/south-africa/mpc-raises-repo-rate-725",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Bolivie"
+      ],
+      "period": "day",
+      "bucket": "19 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Le Congrès bolivien approuve un accord de prêt de 1,9 milliard de dollars avec le FMI ; le gouvernement supprime ensuite les subventions au diesel dans le cadre du programme de stabilisation.",
+      "sources": [
+        "Associated Press",
+        "FMI"
+      ],
+      "url": "https://apnews.com/article/d5ac4a2558132559e1d544807b89d528",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Bahreïn"
+      ],
+      "period": "day",
+      "bucket": "13 septembre 2026",
+      "score": 8,
+      "category": "Diplomatie",
+      "summary": "Bahreïn refuse de participer à la réunion proposée à Oman entre l’Iran et les États du Golfe sur le détroit d’Ormuz tant que ses relations diplomatiques avec Téhéran ne sont pas rétablies.",
+      "sources": [
+        "AFP",
+        "Al Jazeera"
+      ],
+      "url": "https://www.aljazeera.com/news/2026/9/12/bahrain-says-it-will-not-participate-in-irans-proposed-hormuz-meeting",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Bulgarie"
+      ],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 7,
+      "category": "Sécurité",
+      "summary": "La Bulgarie décide d’équiper des infrastructures critiques de systèmes anti-drones et de renforcer les patrouilles autour des sites de production et de stockage d’armements.",
+      "sources": [
+        "Reuters",
+        "The Sofia Globe"
+      ],
+      "url": "https://www.ekathimerini.com/politics/foreign-policy/1315691/bulgaria-to-deploy-anti-drone-systems-at-critical-infrastructure-facilities/",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Birmanie"
+      ],
+      "period": "day",
+      "bucket": "11 septembre 2026",
+      "score": 7,
+      "category": "Diplomatie",
+      "summary": "Min Aung Hlaing effectue une visite d’État au Cambodge et rencontre Hun Sen et Hun Manet, dans le cadre de la reprise des contacts régionaux de la Birmanie avec l’ASEAN.",
+      "sources": [
+        "Associated Press",
+        "Agence Kampuchea Presse"
+      ],
+      "url": "https://www.akp.gov.kh/post/detail/380767",
+      "origin": "manual_verified"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Soudan"
+      ],
+      "period": "day",
+      "bucket": "23 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Soudan : la guerre alimente une inflation galopante",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZklnN3dJS3pzYUtoM0VnekpucGhlYkU5LWk5SGVGdzU0NUxPUk9JcEJEdlkwNmxYU05XRWpENkMwYzAyblBIMjhYS3Z2MzlEaTZDNXk0TTRTd2R0bWxyQmo0RlVLQmdfRVlGblhUQWJHMXliZUlkSjNieFVNTVBuTFNSaHNFdnI0LWRUSW9NaFFDaTEwcTF2bWdrLXdVUQ?oc=5",
+      "published_at": "2026-09-23T14:58:24+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Tchad"
+      ],
+      "period": "day",
+      "bucket": "4 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Un ex-rebelle centrafricain devant la justice tchadienne",
+      "sources": [
+        "DW.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcW1mTlNTOUhVYmxYTXRJSTRCTW1SOUI5djRlRm5EMWVJb2p5amJsQnJ1eEt4YTA3b182RlZia1h5a21pUnEwdzJSajg1eEc0cDNoY2w3b3I3Nm5KbkVUUG41NkY4bkhybGY1SWltLURVNzZmZUdseGkwU2wySkpPLV83TVdqMldobGfSAYoBQVVfeXFMTUpIRHNiQlV5WWlvakRfcGRJTVBlTDRId0lQTmhCVnZWc0VKVjE1dkdKSDdrYVk3UlBKcEZrX2RkMmEyclUzT3c2NTM1bDllTzkydUlubVUzckZHRXBjRFpNc2Q5RjgxVXd3N1JWMlBzMjd3bnBMcXVyOThMU1cycUhTdl9EVVJGM3NB?oc=5",
+      "published_at": "2026-09-04T09:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
         "International"
       ],
       "period": "week",
@@ -3931,101 +4064,6 @@
       "sources": [
         "ABC News"
       ]
-    },
-    {
-      "regions": [
-        "Afrique"
-      ],
-      "countries": [
-        "Afrique du Sud"
-      ],
-      "period": "day",
-      "bucket": "23 septembre 2026",
-      "score": 7,
-      "category": "Économie",
-      "summary": "La Banque de réserve sud-africaine relève son taux directeur de 25 points de base à 7,25 %, invoquant des risques haussiers sur l’inflation.",
-      "sources": [
-        "SAnews",
-        "South African Reserve Bank"
-      ],
-      "url": "https://www.sanews.gov.za/south-africa/mpc-raises-repo-rate-725",
-      "origin": "manual_verified"
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "countries": [
-        "Bolivie"
-      ],
-      "period": "day",
-      "bucket": "19 septembre 2026",
-      "score": 8,
-      "category": "Économie",
-      "summary": "Le Congrès bolivien approuve un accord de prêt de 1,9 milliard de dollars avec le FMI ; le gouvernement supprime ensuite les subventions au diesel dans le cadre du programme de stabilisation.",
-      "sources": [
-        "Associated Press",
-        "FMI"
-      ],
-      "url": "https://apnews.com/article/d5ac4a2558132559e1d544807b89d528",
-      "origin": "manual_verified"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "countries": [
-        "Bahreïn"
-      ],
-      "period": "day",
-      "bucket": "13 septembre 2026",
-      "score": 8,
-      "category": "Diplomatie",
-      "summary": "Bahreïn refuse de participer à la réunion proposée à Oman entre l’Iran et les États du Golfe sur le détroit d’Ormuz tant que ses relations diplomatiques avec Téhéran ne sont pas rétablies.",
-      "sources": [
-        "AFP",
-        "Al Jazeera"
-      ],
-      "url": "https://www.aljazeera.com/news/2026/9/12/bahrain-says-it-will-not-participate-in-irans-proposed-hormuz-meeting",
-      "origin": "manual_verified"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "countries": [
-        "Bulgarie"
-      ],
-      "period": "day",
-      "bucket": "18 septembre 2026",
-      "score": 7,
-      "category": "Sécurité",
-      "summary": "La Bulgarie décide d’équiper des infrastructures critiques de systèmes anti-drones et de renforcer les patrouilles autour des sites de production et de stockage d’armements.",
-      "sources": [
-        "Reuters",
-        "The Sofia Globe"
-      ],
-      "url": "https://www.ekathimerini.com/politics/foreign-policy/1315691/bulgaria-to-deploy-anti-drone-systems-at-critical-infrastructure-facilities/",
-      "origin": "manual_verified"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "countries": [
-        "Birmanie"
-      ],
-      "period": "day",
-      "bucket": "11 septembre 2026",
-      "score": 7,
-      "category": "Diplomatie",
-      "summary": "Min Aung Hlaing effectue une visite d’État au Cambodge et rencontre Hun Sen et Hun Manet, dans le cadre de la reprise des contacts régionaux de la Birmanie avec l’ASEAN.",
-      "sources": [
-        "Associated Press",
-        "Agence Kampuchea Presse"
-      ],
-      "url": "https://www.akp.gov.kh/post/detail/380767",
-      "origin": "manual_verified"
     }
   ]
 }

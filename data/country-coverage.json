@@ -2,8 +2,8 @@
   "date": "24 septembre 2026",
   "timezone": "Europe/Paris",
   "target_countries": 195,
-  "covered_count": 56,
-  "missing_count": 139,
+  "covered_count": 58,
+  "missing_count": 137,
   "covered_countries": [
     "Afghanistan",
     "Afrique du Sud",
@@ -51,9 +51,11 @@
     "Palaos",
     "Rwanda",
     "Slovaquie",
+    "Soudan",
     "Soudan du Sud",
     "Sri Lanka",
     "Tadjikistan",
+    "Tchad",
     "Tchéquie",
     "Turquie",
     "Venezuela",
@@ -181,13 +183,11 @@
     "Singapour",
     "Slovénie",
     "Somalie",
-    "Soudan",
     "Suède",
     "Suisse",
     "Suriname",
     "Syrie",
     "Tanzanie",
-    "Tchad",
     "Thaïlande",
     "Timor oriental",
     "Togo",
@@ -204,5 +204,5 @@
     "Zimbabwe"
   ],
   "rule": "La veille horaire doit traiter en priorité les pays de missing_countries. Chercher d'abord des sujets >=5/10 puis abaisser 4,3,2,1 uniquement si aucun sujet du seuil supérieur n'existe. Ne jamais inventer.",
-  "updated_at": "2026-09-24T06:34:26.614222+02:00"
+  "updated_at": "2026-09-24T07:24:16.213627+02:00"
 }
