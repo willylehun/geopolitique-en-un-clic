@@ -1,0 +1,39 @@
+name: Intégrer la veille présidentielle vérifiée
+
+on:
+  push:
+    paths:
+      - "scripts/update_election_manual.py"
+      - ".github/workflows/election-manual.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: election-manual-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Mettre à jour et valider les données électorales
+        run: python scripts/update_election_manual.py
+      - name: Publier les données vérifiées
+        run: |
+          if git diff --quiet -- data/election.json; then
+            echo "Aucune modification électorale à publier"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/election.json
+          git commit -m "Mise à jour vérifiée de la veille présidentielle"
+          git push
