@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:12:00+02:00",
+  "generated_at": "2026-09-24T10:33:00+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -113,7 +113,7 @@
         "Économie": "Met l’accent sur le pouvoir d’achat, la progression des salaires et la baisse des prix de l’énergie et des carburants ; les mesures détaillées évoluent encore pendant la campagne.",
         "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
-        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Propose un âge minimal de départ à la retraite à 63 ans, assorti d’une décote de 7 % par année manquante, un taux plein automatique à 65 ans et l’introduction d’une part de capitalisation pour les jeunes.",
         "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
@@ -123,9 +123,10 @@
       },
       "sources": [
         "Le Monde — candidature officialisée le 20 avril 2026",
-        "Le Monde — Bruno Retailleau, pouvoir d’achat"
+        "Le Monde — Bruno Retailleau, pouvoir d’achat",
+        "LCP — retraites, 23 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T10:33:00+02:00",
       "bio": "Ancien président du groupe Les Républicains au Sénat, ancien président du conseil régional des Pays de la Loire et ancien ministre de l’Intérieur. Président de LR, il défend une ligne de droite conservatrice, notamment sur l’autorité, la sécurité, l’immigration et les finances publiques.",
       "controversies": [
         {
@@ -159,7 +160,7 @@
         "Le Monde — candidature officialisée le 22 mai 2026",
         "Le Monde — grand âge, 17 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T10:33:00+02:00",
       "bio": "Député des Hauts-de-Seine, ancien ministre de l’Éducation nationale et Premier ministre en 2024. Secrétaire général de Renaissance, il se situe dans le bloc central et met notamment en avant l’école, le travail, les finances publiques et l’intégration européenne.",
       "controversies": []
     },
@@ -184,7 +185,7 @@
       "sources": [
         "Le Monde — 8 et 16 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T10:33:00+02:00",
       "bio": "Maire du Havre, ancien député et Premier ministre de 2017 à 2020. Fondateur d’Horizons, il vient de la droite modérée et construit une offre de centre droit autour de l’autorité, des finances publiques, du travail et de l’adaptation climatique.",
       "controversies": [
         {
@@ -1164,6 +1165,38 @@
         "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
       "url": "https://www.lemonde.fr/politique/article/2026/09/24/primaire-a-gauche-la-situation-a-gaza-et-l-alliance-avec-lfi-electrisent-le-premier-debat-televise_6781332_823448.html"
+    },
+    {
+      "id": "2026-09-23-retailleau-retraites",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Bruno Retailleau a précisé son projet de réforme des retraites : un âge minimal de départ à 63 ans avec une décote de 7 % par année manquante, un taux plein automatique à 65 ans et l’introduction d’une part de capitalisation pour les jeunes.",
+      "sources": [
+        "LCP — 23 septembre 2026"
+      ],
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65"
+    },
+    {
+      "id": "2026-09-24-philippe-attal-duel",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "edouard-philippe",
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Horizons",
+        "Renaissance"
+      ],
+      "summary": "La rivalité entre Édouard Philippe et Gabriel Attal s’est durcie dans la campagne du bloc central. Les deux candidats maintiennent néanmoins l’objectif d’un rassemblement autour d’une candidature unique avant le premier tour, tandis qu’une étude de la Fondation Jean-Jaurès souligne que leurs électorats ne se reporteraient que partiellement de l’un vers l’autre.",
+      "sources": [
+        "Le Monde — 24 septembre 2026"
+      ],
+      "url": "https://www.lemonde.fr/politique/article/2026/09/24/presidentielle-2027-derriere-le-duel-de-plus-en-plus-acerbe-entre-edouard-philippe-et-gabriel-attal-des-electorats-loin-d-etre-fongibles_6781447_823448.html"
     }
   ],
   "withdrawal_retention_days": 7,
@@ -1231,7 +1264,7 @@
         "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
         "Santé": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
         "Éducation": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
-        "Travail & retraites": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
+        "Travail & retraites": "Bruno Retailleau, candidat LR, propose un âge minimal de départ à 63 ans, un taux plein automatique à 65 ans et une part de capitalisation pour les jeunes.",
         "Sécurité & justice": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
         "Immigration": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
         "Écologie & énergie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
@@ -1240,9 +1273,13 @@
         "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
       },
       "controversies": [],
-      "sources": [],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
-      "news": []
+      "sources": [
+        "LCP — retraites, 23 septembre 2026"
+      ],
+      "last_checked_at": "2026-09-24T10:33:00+02:00",
+      "news": [
+        "2026-09-23-retailleau-retraites"
+      ]
     },
     {
       "name": "Renaissance",
@@ -1268,11 +1305,12 @@
         "RTL",
         "LCP"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T10:33:00+02:00",
       "news": [
         "2026-08-25-ecole-philippe-attal",
         "2026-09-17-zemmour-attal-philippe",
-        "2026-09-21-attal-equipe"
+        "2026-09-21-attal-equipe",
+        "2026-09-24-philippe-attal-duel"
       ]
     },
     {
@@ -1299,11 +1337,12 @@
         "Le Monde",
         "TF1 Info"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-24T10:33:00+02:00",
       "news": [
         "2026-08-25-ecole-philippe-attal",
         "2026-09-07-philippe-calendrier",
-        "2026-09-17-zemmour-attal-philippe"
+        "2026-09-17-zemmour-attal-philippe",
+        "2026-09-24-philippe-attal-duel"
       ]
     },
     {
