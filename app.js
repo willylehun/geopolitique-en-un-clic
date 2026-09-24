@@ -463,11 +463,30 @@ function itemMatchesCountry(item, country = state.country) {
 }
 
 function getCountryFeed() {
-  const base = state.data.filter(x =>
-    x.period === state.period &&
-    x.bucket === state.bucket &&
-    itemMatchesCountry(x)
-  );
+  const base = state.data.filter(x => {
+    if (!itemMatchesCountry(x)) return false;
+    if (state.period === 'day') return x.period === 'day' && x.bucket === state.bucket;
+    if (state.period === 'week') {
+      if (x.period === 'day') {
+        const ts = bucketDateValue(x.bucket);
+        return ts && weekBucket(new Date(ts).toISOString().slice(0,10)) === state.bucket;
+      }
+      if (x.period !== 'week') return false;
+      if (x.bucket === state.bucket) return true;
+      const dates=String(x.bucket||'').match(/\d{4}-\d{2}-\d{2}/g);
+      return dates ? weekBucket(dates[0]) === state.bucket : weekLabelFr(state.bucket) === x.bucket;
+    }
+    if (state.period === 'month') {
+      if (x.period === 'day') {
+        const ts = bucketDateValue(x.bucket);
+        if (!ts) return false;
+        const iso = new Date(ts).toISOString().slice(0,10);
+        return normalizeText(monthBucketLabel(iso)) === normalizeText(state.bucket);
+      }
+      return x.period === 'month' && normalizeText(x.bucket) === normalizeText(state.bucket);
+    }
+    return false;
+  });
 
   for (let threshold = 5; threshold >= 1; threshold--) {
     const found = sortItems(base.filter(x => Number(x.score) >= threshold));
