@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:33:00+02:00",
+  "generated_at": "2026-09-24T14:12:57+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -887,6 +887,32 @@
         "Solution démocratique — annonce de candidature, 19 avril 2026"
       ],
       "last_checked_at": "2026-09-22T23:27:00+02:00"
+    },
+    {
+      "id": "olivier-becht",
+      "name": "Olivier Becht",
+      "party": "Sans étiquette",
+      "status": "declared",
+      "status_label": "Candidature déclarée",
+      "program": {
+        "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Écologie & énergie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Europe & international": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Institutions & démocratie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
+      },
+      "sources": [
+        "Le Monde — candidature annoncée le 24 septembre 2026",
+        "Paris Match — entretien annonçant la candidature, 24 septembre 2026"
+      ],
+      "last_checked_at": "2026-09-24T14:12:57+02:00",
+      "bio": "Député de la 5e circonscription du Haut-Rhin depuis 2017, ancien maire de Rixheim de 2008 à 2017 et ancien ministre délégué chargé du commerce extérieur, de l’attractivité et des Français de l’étranger entre 2022 et 2024. Ancien président du groupe Agir ensemble à l’Assemblée nationale, il se présente sans étiquette partisane et se revendique de l’« extrême centre ».",
+      "controversies": []
     }
   ],
   "news": [
@@ -1197,6 +1223,20 @@
         "Le Monde — 24 septembre 2026"
       ],
       "url": "https://www.lemonde.fr/politique/article/2026/09/24/presidentielle-2027-derriere-le-duel-de-plus-en-plus-acerbe-entre-edouard-philippe-et-gabriel-attal-des-electorats-loin-d-etre-fongibles_6781447_823448.html"
+    },
+    {
+      "id": "2026-09-24-becht-candidature",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "olivier-becht"
+      ],
+      "party_names": [],
+      "summary": "Olivier Becht, député du Haut-Rhin et ancien ministre du commerce extérieur, a annoncé sa candidature à l’élection présidentielle de 2027. Il affirme se présenter sans camp politique et se revendique de l’« extrême centre ».",
+      "sources": [
+        "Le Monde — 24 septembre 2026",
+        "Paris Match — 24 septembre 2026"
+      ],
+      "url": "https://www.lemonde.fr/politique/article/2026/09/24/l-ancien-ministre-olivier-becht-candidat-a-l-election-presidentielle_6781497_823448.html"
     }
   ],
   "withdrawal_retention_days": 7,
@@ -1699,7 +1739,8 @@
     {
       "name": "Sans étiquette",
       "candidate_ids": [
-        "benoit-mathieu"
+        "benoit-mathieu",
+        "olivier-becht"
       ],
       "program": {
         "Économie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
@@ -1715,8 +1756,10 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
-      "news": []
+      "last_checked_at": "2026-09-24T14:12:57+02:00",
+      "news": [
+        "2026-09-24-becht-candidature"
+      ]
     },
     {
       "name": "Les Ruches",
