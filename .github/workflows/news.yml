@@ -8,8 +8,8 @@ on:
       - ".github/workflows/news.yml"
   schedule:
     # Décalé du début de l’heure : GitHub indique que les cron à forte charge peuvent être retardés/supprimés.
-    # Pendant le rattrapage : fréquence maximale GitHub Actions, toutes les 5 minutes.
-    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
+    # Moteur incrémental : un lot différent toutes les 10 minutes.
+    - cron: "3,13,23,33,43,53 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -48,21 +48,21 @@ jobs:
           BACKFILL_MONTH: ${{ steps.mode.outputs.backfill }}
           FETCH_MULTIPLIER: "8"
           REGION_FETCH_MULTIPLIER: "6"
-          COUNTRY_BATCH_SIZE: "16"
-          DAY_BATCH_SIZE: "2"
+          COUNTRY_BATCH_SIZE: "24"
+          DAY_BATCH_SIZE: "4"
         run: python scripts/update_news.py
       - name: Intégrer le lot manuel vérifié
         run: python scripts/manual_backfill.py
       - name: Enregistrer les nouvelles données
         shell: bash
         run: |
-          if git diff --quiet -- data/news.json data/country-coverage.json; then
+          if git diff --quiet -- data/news.json data/country-coverage.json data/monitor-state.json; then
             echo "Aucun changement"
             exit 0
           fi
           git config user.name "Géopolitique en un Clic"
           git config user.email "actions@users.noreply.github.com"
-          git add data/news.json data/country-coverage.json
+          git add data/news.json data/country-coverage.json data/monitor-state.json
           git commit -m "Mise à jour automatique de la veille"
           # Une autre mise à jour (veille électorale, correction manuelle, etc.) peut
           # avoir avancé main pendant la collecte. Rejouer notre commit au-dessus de
