@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-09-24T17:14:00+02:00",
+  "timezone": "Europe/Paris",
+  "buckets": {
+    "day": ["21 septembre 2026", "8 septembre 2026", "1 septembre 2026"],
+    "week": ["Semaine du 21 septembre 2026 au 27 septembre 2026", "Semaine du 7 septembre 2026 au 13 septembre 2026", "Semaine du 31 août 2026 au 6 septembre 2026"],
+    "month": ["Septembre 2026"]
+  },
+  "items": [
+    {
+      "regions": ["Afrique", "International"],
+      "countries": ["Tunisie"],
+      "period": "day",
+      "bucket": "8 septembre 2026",
+      "score": 7,
+      "category": "Tunisie / Liberté de la presse",
+      "summary": "Des journalistes et militants tunisiens manifestent pour demander la libération de Mohamed Yousfi, rédacteur en chef du site d’investigation Al-Qatiba et critique du président Kaïs Saïed. Son arrestation pour enrichissement illicite et blanchiment est dénoncée par ses soutiens et des organisations de défense des droits comme une nouvelle pression sur la presse indépendante.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/business/media-telecom/tunisian-journalists-protest-over-media-crackdown-after-colleagues-arrest-2026-09-08/",
+      "published_at": "2026-09-08T15:47:55+02:00",
+      "language": "fr"
+    },
+    {
+      "regions": ["Asie", "International"],
+      "countries": ["Jordanie"],
+      "period": "day",
+      "bucket": "1 septembre 2026",
+      "score": 7,
+      "category": "Jordanie / Commerce et logistique",
+      "summary": "Le port jordanien d’Aqaba enregistre une forte progression du fret en transit en raison des perturbations de la navigation dans le détroit d’Ormuz. Une part croissante des marchandises destinées à l’Irak est débarquée à Aqaba puis acheminée par camion, offrant une route de remplacement aux importations passant habituellement par le golfe Persique.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/world/middle-east/jordans-aqaba-port-sees-transit-cargo-boost-amid-hormuz-disruption-2026-09-01/",
+      "published_at": "2026-09-01T12:08:39+02:00",
+      "language": "fr"
+    },
+    {
+      "regions": ["Asie", "International"],
+      "countries": ["Oman"],
+      "period": "day",
+      "bucket": "21 septembre 2026",
+      "score": 8,
+      "category": "Oman / Énergie et détroit d’Ormuz",
+      "summary": "Des transferts de pétrole de navire à navire au large d’Oman sont devenus un maillon important des exportations du Golfe face aux perturbations du détroit d’Ormuz. Environ 2,5 millions de barils par jour doivent être chargés de cette manière en septembre, mais cette adaptation s’accompagne d’une forte hausse des coûts de transport maritime.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/hormuz-shuttles-keep-oil-flowing-high-cost-2026-09-21/",
+      "published_at": "2026-09-21T08:00:36+02:00",
+      "language": "fr"
+    }
+  ]
+}
