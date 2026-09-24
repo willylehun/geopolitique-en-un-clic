@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-09-24T09:15:00+02:00",
+  "timezone": "Europe/Paris",
+  "buckets": {
+    "day": ["22 septembre 2026", "21 septembre 2026", "18 septembre 2026", "16 septembre 2026", "15 septembre 2026"],
+    "week": ["Semaine du 21 septembre 2026 au 27 septembre 2026", "Semaine du 14 septembre 2026 au 20 septembre 2026"],
+    "month": ["Septembre 2026"]
+  },
+  "items": [
+    {
+      "regions": ["Afrique"],
+      "countries": ["Éthiopie"],
+      "period": "day",
+      "bucket": "21 septembre 2026",
+      "score": 9,
+      "category": "Éthiopie / Conflit politique",
+      "summary": "Sept groupes armés éthiopiens, dont le TPLF et le Mouvement national Fano amhara, annoncent une alliance visant à renverser le gouvernement du Premier ministre Abiy Ahmed, malgré d’importantes divergences internes.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/world/africa/seven-ethiopian-armed-groups-announce-anti-government-alliance-2026-09-21/",
+      "published_at": "2026-09-21T12:30:08+02:00",
+      "language": "fr"
+    },
+    {
+      "regions": ["Europe"],
+      "countries": ["Autriche"],
+      "period": "day",
+      "bucket": "22 septembre 2026",
+      "score": 7,
+      "category": "Autriche / Justice et sanctions",
+      "summary": "Un tribunal de Vienne rend un jugement par défaut en faveur de Raiffeisen Bank International contre la société russe Rasperia, sanctionnée par l’Union européenne, et lui accorde environ 3,15 milliards d’euros de dommages-intérêts.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/business/finance/austrias-raiffeisen-bank-wins-default-judgment-against-rasperia-2026-09-22/",
+      "published_at": "2026-09-22T19:05:36+02:00",
+      "language": "fr"
+    },
+    {
+      "regions": ["Europe"],
+      "countries": ["Ukraine", "Roumanie", "Serbie", "Pologne", "Slovaquie", "Tchéquie", "Autriche", "Hongrie"],
+      "period": "day",
+      "bucket": "18 septembre 2026",
+      "score": 8,
+      "category": "Europe / Coopération régionale",
+      "summary": "Volodymyr Zelensky lance l’initiative des « Huit des Carpates » pour renforcer commerce, énergie, logistique et sécurité entre plusieurs pays d’Europe centrale et orientale ; plus de 50 accords représentant plus d’un milliard d’euros sont annoncés lors du sommet en Ukraine.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/world/europe/zelenskiy-launches-carpathian-eight-initiative-trade-security-2026-09-18/",
+      "published_at": "2026-09-18T13:11:57+02:00",
+      "language": "fr"
+    },
+    {
+      "regions": ["Asie"],
+      "countries": ["Cambodge", "Thaïlande"],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 7,
+      "category": "Asie / Diplomatie maritime",
+      "summary": "Le Cambodge et la Thaïlande ouvrent à Singapour une procédure de conciliation soutenue par les Nations unies afin de rechercher un règlement pacifique de leur différend frontalier maritime de longue date.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/world/asia-pacific/cambodia-thailand-start-compulsory-conciliation-maritime-border-dispute-2026-09-15/",
+      "published_at": "2026-09-15T03:40:06+02:00",
+      "language": "fr"
+    },
+    {
+      "regions": ["Amérique du Sud"],
+      "countries": ["Chili"],
+      "period": "day",
+      "bucket": "16 septembre 2026",
+      "score": 7,
+      "category": "Chili / Cuivre et emploi",
+      "summary": "Le groupe public chilien Codelco indique que son plan de restructuration pourrait n’être prêt qu’à la fin de 2026 ; le projet doit répondre à la stagnation de la production de cuivre et à la hausse des coûts.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/world/americas/chiles-state-owned-miner-codelco-says-restructuring-plan-may-be-delayed-until-2026-09-16/",
+      "published_at": "2026-09-16T21:40:51+02:00",
+      "language": "fr"
+    },
+    {
+      "regions": ["Afrique", "Asie"],
+      "countries": ["Égypte", "Arabie saoudite", "Yémen"],
+      "period": "day",
+      "bucket": "15 septembre 2026",
+      "score": 8,
+      "category": "Mer Rouge / Sécurité maritime",
+      "summary": "Abdel Fattah al-Sissi et Mohammed ben Salmane soulignent la nécessité de garantir la liberté et la sécurité de la navigation dans le détroit de Bab el-Mandeb et en mer Rouge, et évoquent les efforts en faveur d’un règlement politique durable au Yémen.",
+      "sources": ["Reuters"],
+      "url": "https://www.reuters.com/world/middle-east/egypts-sisi-saudi-crown-prince-stress-need-security-red-sea-navigation-2026-09-15/",
+      "published_at": "2026-09-15T15:01:00+02:00",
+      "language": "fr"
+    }
+  ]
+}
