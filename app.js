@@ -61,9 +61,15 @@ function regionMeta(name) {
 }
 
 function itemDateValue(item) {
-  const published = Date.parse(item?.published_at || item?._loadedAt || '');
+  // La date civile du bucket Jour est la référence canonique de l'événement.
+  // _loadedAt correspond seulement à la date de chargement/génération du fichier
+  // et ne doit jamais remplacer la vraie date d'une actualité historique.
+  if (item?.period === 'day') {
+    const day = bucketDateValue(item.bucket);
+    if (day) return day;
+  }
+  const published = Date.parse(item?.published_at || '');
   if (published) return published;
-  if (item?.period === 'day') return bucketDateValue(item.bucket);
   return 0;
 }
 
