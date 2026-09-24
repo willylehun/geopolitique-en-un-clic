@@ -9,6 +9,7 @@ from zoneinfo import ZoneInfo
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"/"news.json"
 COUNTRY_COVERAGE=ROOT/"data"/"country-coverage.json"
+MONITOR_STATE=ROOT/"data"/"monitor-state.json"
 PARIS=ZoneInfo("Europe/Paris")
 UTC=ZoneInfo("UTC")
 FR_MONTHS=["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
@@ -122,7 +123,42 @@ def country_query_name(country):
     hint=COUNTRY_QUERY_HINTS.get(country)
     return f'("{country}" OR {hint})' if hint else f'"{country}"'
 
-def country_backfill(start_date,end_date):
+def load_monitor_state():
+    try:
+        return json.loads(MONITOR_STATE.read_text(encoding="utf-8"))
+    except Exception:
+        return {"country_cursor":0,"day_cursor":0,"runs":0}
+
+def save_monitor_state(state, now, country_step=0, day_step=0):
+    state["country_cursor"]=int(state.get("country_cursor",0))+country_step
+    state["day_cursor"]=int(state.get("day_cursor",0))+day_step
+    state["runs"]=int(state.get("runs",0))+1
+    state["last_run_at"]=now.isoformat()
+    MONITOR_STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+
+def country_title_matches(country,title):
+    t=(title or "").lower()
+    # Empêcher les faux positifs les plus dangereux entre États aux noms proches.
+    exclusions={
+      "Soudan":["soudan du sud","south sudan"], "Niger":["nigeria","nigerian"],
+      "Guinée":["guinée-bissau","guinée équatoriale","papouasie-nouvelle-guinée","equatorial guinea","papua new guinea","guinea-bissau"],
+      "Congo (République du)":["république démocratique du congo","rdc","dr congo","drc"],
+      "Dominique":["république dominicaine","dominican republic"],
+    }
+    if any(x in t for x in exclusions.get(country,[])): return False
+    hints={
+      "Soudan":["soudan","sudan","khartoum","port-soudan"],"Soudan du Sud":["soudan du sud","south sudan","juba"],
+      "Niger":["niger","niamey"],"Nigeria":["nigeria","nigerian","abuja","lagos"],
+      "Guinée":["guinée","guinea","conakry"],"Guinée-Bissau":["guinée-bissau","guinea-bissau","bissau"],
+      "Guinée équatoriale":["guinée équatoriale","equatorial guinea","malabo"],
+      "Papouasie-Nouvelle-Guinée":["papouasie-nouvelle-guinée","papua new guinea","port moresby"],
+      "Congo (République du)":["congo-brazzaville","république du congo","republic of congo","brazzaville"],
+      "Congo (RDC)":["rdc","république démocratique du congo","dr congo","drc","kinshasa"],
+      "Dominique":["dominique","dominica","roseau"],"République dominicaine":["république dominicaine","dominican republic","santo domingo"],
+    }
+    return any(x in t for x in hints.get(country,[country.lower()]))
+
+def country_backfill(start_date,end_date,state):
     rows=[]; found=set()
     multiplier=max(1,min(int(os.getenv("FETCH_MULTIPLIER","1") or "1"),8))
     themes=[
@@ -137,9 +173,8 @@ def country_backfill(start_date,end_date):
     ][:multiplier]
     countries=load_missing_countries()
     batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","12") or "12"))
-    slot=int(datetime.now(PARIS).timestamp()//300)
     if countries:
-        offset=(slot*batch_size)%len(countries)
+        offset=int(state.get("country_cursor",0))%len(countries)
         countries=(countries+countries)[offset:offset+min(batch_size,len(countries))]
     for country in countries:
         articles=[]
@@ -151,7 +186,7 @@ def country_backfill(start_date,end_date):
         seen=set()
         for art in articles:
             d=editorial_day(art["date"]); title=art["title"]
-            if d<start_date or d>end_date or len(title)<22: continue
+            if d<start_date or d>end_date or len(title)<22 or not country_title_matches(country,title): continue
             k=(d,key_title(title))
             if not k[1] or k in seen: continue
             seen.add(k); found.add(country)
@@ -190,8 +225,8 @@ def build_generated(start_date,end_date):
     all_dates=[start_date+timedelta(days=i) for i in range((end_date-start_date).days+1)]
     if os.getenv("BACKFILL_MONTH","0")=="1" and all_dates:
         batch_days=max(1,int(os.getenv("DAY_BATCH_SIZE","3") or "3"))
-        slot=int(datetime.now(PARIS).timestamp()//300)
-        offset=(slot*batch_days)%len(all_dates)
+        state=load_monitor_state()
+        offset=int(state.get("day_cursor",0))%len(all_dates)
         selected=(all_dates+all_dates)[offset:offset+min(batch_days,len(all_dates))]
         if end_date not in selected: selected.append(end_date)
         ranges=[(d,d) for d in dict.fromkeys(selected)]
@@ -226,8 +261,9 @@ def main():
     now=datetime.now(PARIS); backfill=os.getenv("BACKFILL_MONTH","0")=="1"
     old=json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {"items":[]}
     start_date=now.date().replace(day=1) if backfill else now.date(); end_date=now.date()
+    state=load_monitor_state()
     generated=build_generated(start_date,end_date)
-    country_rows,found=country_backfill(start_date,end_date) if backfill else ([],set())
+    country_rows,found=country_backfill(start_date,end_date,state) if backfill else ([],set())
     generated.extend(country_rows)
     old_daily=[x for x in old.get("items",[]) if x.get("period")=="day"]
     # Conserver tout l'historique valide : les éléments existants ne sont jamais supprimés par la veille.
@@ -254,6 +290,10 @@ def main():
     out={"generated_at":now.isoformat(),"timezone":"Europe/Paris","window_rule":"Une date couvre de 00h00 à 23h59 heure de Paris.","target_per_region_per_day":60,"buckets":{"day":day_buckets,"week":week_names,"month":month_names},"coverage":coverage,"items":day_items+non_daily_manual}
     DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
     update_country_coverage(found,now)
-    print("generated",len(generated),"daily items; countries found",len(found),"total",len(out["items"]))
+    save_monitor_state(state,now,
+        country_step=int(os.getenv("COUNTRY_BATCH_SIZE","12")) if backfill else 0,
+        day_step=int(os.getenv("DAY_BATCH_SIZE","3")) if backfill else 0)
+    print("generated",len(generated),"daily items; countries found",len(found),"total",len(out["items"]),
+          "cursors",state.get("country_cursor"),state.get("day_cursor"))
 
 if __name__=="__main__": main()
