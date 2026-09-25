@@ -128,14 +128,17 @@ def google_rss(region,start_date,end_date):
     q=f'({base}) when:1d' if region in ("Afrique","Amérique du Sud","Océanie") else f'({base}) ({IMPACT_QUERY}) when:1d'
     return google_rss_query(q)
 
-def load_target_countries():
-    """Retourne la liste complète des 195 pays, jamais seulement les pays manquants."""
-    if not COUNTRY_COVERAGE.exists(): return []
+def load_country_coverage():
+    if not COUNTRY_COVERAGE.exists(): return {}
     try:
-        data=json.loads(COUNTRY_COVERAGE.read_text(encoding="utf-8"))
-        return list(dict.fromkeys(data.get("covered_countries",[])+data.get("missing_countries",[])))
+        return json.loads(COUNTRY_COVERAGE.read_text(encoding="utf-8"))
     except Exception as e:
-        print("coverage",e,file=sys.stderr); return []
+        print("coverage",e,file=sys.stderr); return {}
+
+def load_target_countries():
+    """Retourne les 195 pays en donnant la priorité aux pays encore manquants."""
+    data=load_country_coverage()
+    return list(dict.fromkeys(data.get("missing_countries",[])+data.get("covered_countries",[])))
 
 # Pays dont le nom est contenu dans celui d'un autre pays : les requêtes génériques
 # sont trop ambiguës pour valider automatiquement leur couverture.
@@ -212,8 +215,8 @@ def country_backfill(start_date,end_date,state):
     # Les pays encore sans actualité du jour restent prioritaires.
     batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","10") or "10"))
     if all_countries:
-        offset=int(state.get("country_cursor",0))%len(all_countries)
-        countries=(all_countries+all_countries)[offset:offset+min(batch_size,len(all_countries))]
+        # missing_countries est en tête : chaque lot s'attaque d'abord aux trous.
+        countries=all_countries[:min(batch_size,len(all_countries))]
     else:
         countries=[]
     google_budget=max(0,int(os.getenv("GOOGLE_FALLBACK_BUDGET","8") or "8"))
@@ -248,13 +251,15 @@ def update_country_coverage(found,now):
     try: data=json.loads(COUNTRY_COVERAGE.read_text(encoding="utf-8"))
     except Exception: return
     targets=list(dict.fromkeys(data.get("covered_countries",[])+data.get("missing_countries",[])))
-    # La couverture est strictement quotidienne : aucun pays d'un jour précédent n'est reporté automatiquement.
-    covered=sorted(set(found)); missing=[c for c in targets if c not in set(found)]
+    # Cumul entre les lots du même jour ; remise à zéro au changement de journée.
+    previous=set(data.get("covered_countries",[])) if data.get("date")==fr_date(now.date()) else set()
+    covered=sorted(previous|set(found)); covered_set=set(covered)
+    missing=[c for c in targets if c not in covered_set]
     data["date"]=fr_date(now.date()); data["target_countries"]=len(targets)
     data["checked_count"]=len(targets); data["checked_countries"]=targets
     data["covered_countries"]=covered; data["missing_countries"]=missing
     data["covered_count"]=len(covered); data["missing_count"]=len(missing); data["updated_at"]=now.isoformat()
-    data["rule"]="Les 195 pays sont contrôlés à chaque exécution pour la journée courante. covered = au moins une actualité du jour publiée ; missing = contrôlé mais aucune actualité publiée. Plusieurs articles distincts par pays sont autorisés."
+    data["rule"]="Couverture cumulative sur la journée civile Europe/Paris : covered = au moins une actualité du jour publiée lors d’un lot ; missing = pays restant à couvrir, traité en priorité aux lots suivants. Plusieurs articles distincts par pays sont autorisés."
     COUNTRY_COVERAGE.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
 
 def parse_bucket_date(bucket):
