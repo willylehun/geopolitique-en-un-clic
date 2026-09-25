@@ -172,21 +172,12 @@ def country_title_matches(country,title):
 
 def country_backfill(start_date,end_date,state):
     rows=[]; found=set()
-    multiplier=max(1,min(int(os.getenv("FETCH_MULTIPLIER","1") or "1"),8))
-    themes=[
-        IMPACT_QUERY,
-        "politique diplomatie gouvernement élection relations internationales",
-        "économie commerce énergie sanctions investissement",
-        "sécurité conflit défense migration climat technologie",
-        "santé société droits humains justice éducation",
-        "environnement catastrophe agriculture alimentation eau",
-        "industrie infrastructures transports numérique innovation",
-        "ONU Union européenne sommet accord coopération aide humanitaire",
-    ][:multiplier]
+    themes=["politique OR diplomatie OR gouvernement OR élection OR économie OR sécurité OR conflit OR défense OR migration OR climat OR santé OR société OR justice OR environnement OR catastrophe OR énergie OR technologie OR coopération"]
     countries=load_missing_countries()
     batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","12") or "12"))
     if countries:
-        offset=int(state.get("country_cursor",0))%len(countries)
+        slot=(datetime.now(PARIS).hour*6 + datetime.now(PARIS).minute//10)
+        offset=(slot*batch_size)%len(countries)
         countries=(countries+countries)[offset:offset+min(batch_size,len(countries))]
     for country in countries:
         articles=[]
@@ -222,17 +213,7 @@ def parse_bucket_date(bucket):
 
 def build_generated(start_date,end_date):
     generated=[]
-    multiplier=max(1,min(int(os.getenv("REGION_FETCH_MULTIPLIER",os.getenv("FETCH_MULTIPLIER","1")) or "1"),8))
-    themes=[
-        None,
-        "politique diplomatie gouvernement élection relations internationales",
-        "économie commerce énergie sanctions investissement",
-        "sécurité conflit défense migration climat technologie",
-        "santé société droits humains justice éducation",
-        "environnement catastrophe agriculture alimentation eau",
-        "industrie infrastructures transports numérique innovation",
-        "ONU Union européenne sommet accord coopération aide humanitaire",
-    ][:multiplier]
+    themes=[None,"politique OR diplomatie OR économie OR sécurité OR conflit OR élection OR climat OR énergie"]
     all_dates=[start_date+timedelta(days=i) for i in range((end_date-start_date).days+1)]
     if os.getenv("BACKFILL_MONTH","0")=="1" and all_dates:
         batch_days=max(1,int(os.getenv("DAY_BATCH_SIZE","3") or "3"))
