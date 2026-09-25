@@ -1,9 +1,9 @@
 {
-  "date": "24 septembre 2026",
+  "date": "25 septembre 2026",
   "timezone": "Europe/Paris",
   "target_countries": 195,
-  "covered_count": 111,
-  "missing_count": 84,
+  "covered_count": 112,
+  "missing_count": 83,
   "covered_countries": [
     "Afghanistan",
     "Afrique du Sud",
@@ -39,6 +39,7 @@
     "Corée du Nord",
     "Corée du Sud",
     "Croatie",
+    "Côte d’Ivoire",
     "Danemark",
     "Djibouti",
     "Espagne",
@@ -131,7 +132,6 @@
     "Congo (RDC)",
     "Congo (République du)",
     "Costa Rica",
-    "Côte d’Ivoire",
     "Cuba",
     "Dominique",
     "Érythrée",
@@ -204,5 +204,5 @@
     "Zimbabwe"
   ],
   "rule": "La veille horaire doit traiter en priorité les pays de missing_countries. Chercher d'abord des sujets >=5/10 puis abaisser 4,3,2,1 uniquement si aucun sujet du seuil supérieur n'existe. Ne jamais inventer.",
-  "updated_at": "2026-09-24T23:17:53.102112+02:00"
+  "updated_at": "2026-09-25T07:43:37.079900+02:00"
 }
