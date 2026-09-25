@@ -78,3 +78,5 @@ jobs:
           done
           echo "Impossible de publier après 3 tentatives."
           exit 1
+
+# Déclenchement manuel de la veille du 25/09/2026
