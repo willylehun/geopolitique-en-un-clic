@@ -80,8 +80,15 @@ GDELT_DOC="https://api.gdeltproject.org/api/v2/doc/doc"
 GOOGLE_503_COUNT=0
 GOOGLE_DISABLED=False
 
-def gdelt_query(query,maxrecords=250):
-    params={"query":query,"mode":"ArtList","format":"json","maxrecords":str(maxrecords),"sort":"DateDesc","timespan":"1d"}
+def gdelt_query(query,maxrecords=250,start_date=None,end_date=None):
+    params={"query":query,"mode":"ArtList","format":"json","maxrecords":str(maxrecords),"sort":"DateDesc"}
+    if start_date and end_date:
+        start_dt=datetime.combine(start_date,dtime.min,tzinfo=PARIS).astimezone(UTC)
+        end_dt=datetime.combine(end_date+timedelta(days=1),dtime.min,tzinfo=PARIS).astimezone(UTC)
+        params["startdatetime"]=start_dt.strftime("%Y%m%d%H%M%S")
+        params["enddatetime"]=end_dt.strftime("%Y%m%d%H%M%S")
+    else:
+        params["timespan"]="1d"
     url=GDELT_DOC+"?"+urllib.parse.urlencode(params)
     req=urllib.request.Request(url,headers={"User-Agent":"GeoClic/2.0 (+GitHub Actions)"})
     with urllib.request.urlopen(req,timeout=35) as r: data=json.loads(r.read().decode("utf-8","replace"))
@@ -225,7 +232,7 @@ def country_backfill(start_date,end_date,state):
     for country in countries:
         articles=[]
         q=f'{country_query_name(country)} (government OR election OR economy OR security OR conflict OR diplomacy OR climate OR energy OR health OR justice)'
-        try: articles.extend(gdelt_query(q,250))
+        try: articles.extend(gdelt_query(q,250,start_date,end_date))
         except Exception as e: print("GDELT COUNTRY",country,e,file=sys.stderr)
         # Google News n'est plus la source primaire. Il ne sert qu'aux trous, avec budget et coupe-circuit 429/503.
         usable=[a for a in articles if country_title_matches(country,a.get("title","")) and not looks_english(a.get("title",""))]
