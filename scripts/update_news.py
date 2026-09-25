@@ -136,10 +136,9 @@ def load_country_coverage():
         print("coverage",e,file=sys.stderr); return {}
 
 def load_target_countries():
-    """Retourne d'abord les pays encore manquants ; les pays couverts ne sont pas rescannés inutilement."""
+    """Retourne les 195 pays : tous restent inclus dans la rotation de veille."""
     data=load_country_coverage()
-    missing=list(dict.fromkeys(data.get("missing_countries",[])))
-    return missing if missing else list(dict.fromkeys(data.get("covered_countries",[])))
+    return list(dict.fromkeys(data.get("missing_countries",[])+data.get("covered_countries",[])))
 
 # Pays dont le nom est contenu dans celui d'un autre pays : les requêtes génériques
 # sont trop ambiguës pour valider automatiquement leur couverture.
@@ -216,8 +215,8 @@ def country_backfill(start_date,end_date,state):
     # Les pays encore sans actualité du jour restent prioritaires.
     batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","10") or "10"))
     if all_countries:
-        # Rotation uniquement dans les pays encore manquants : un pays sans résultat
-        # ne bloque pas indéfiniment les lots suivants.
+        # Rotation sur l'ensemble des 195 pays : couverts comme manquants sont
+        # contrôlés en continu au fil des lots.
         offset=int(state.get("country_cursor",0))%len(all_countries)
         countries=(all_countries+all_countries)[offset:offset+min(batch_size,len(all_countries))]
     else:
