@@ -254,14 +254,20 @@ def update_country_coverage(found,now):
     except Exception: return
     targets=list(dict.fromkeys(data.get("covered_countries",[])+data.get("missing_countries",[])))
     # Cumul entre les lots du même jour ; remise à zéro au changement de journée.
+    # Normaliser les noms pour éviter qu'une variante d'accent/casse empêche le comptage.
+    canonical={key_title(c):c for c in targets}
     previous=set(data.get("covered_countries",[])) if data.get("date")==fr_date(now.date()) else set()
-    covered=sorted(previous|set(found)); covered_set=set(covered)
-    missing=[c for c in targets if c not in covered_set]
+    normalized_found={canonical.get(key_title(c),c) for c in found}
+    covered=sorted(previous|normalized_found)
+    covered_set={key_title(c) for c in covered}
+    missing=[c for c in targets if key_title(c) not in covered_set]
     data["date"]=fr_date(now.date()); data["target_countries"]=len(targets)
-    data["checked_count"]=len(targets); data["checked_countries"]=targets
+    previous_checked=set(data.get("checked_countries",[])) if data.get("date")==fr_date(now.date()) else set()
+    checked=sorted(previous_checked|set(found))
+    data["checked_count"]=len(checked); data["checked_countries"]=checked
     data["covered_countries"]=covered; data["missing_countries"]=missing
     data["covered_count"]=len(covered); data["missing_count"]=len(missing); data["updated_at"]=now.isoformat()
-    data["rule"]="Couverture cumulative sur la journée civile Europe/Paris : covered = au moins une actualité du jour publiée lors d’un lot ; missing = pays restant à couvrir, traité en priorité aux lots suivants. Plusieurs articles distincts par pays sont autorisés."
+    data["rule"]="Couverture cumulative sur la journée civile Europe/Paris : les 195 pays restent dans la rotation ; covered = au moins une actualité du jour publiée ; missing = pays sans actualité publiée à cet instant. Plusieurs articles distincts par pays sont autorisés."
     COUNTRY_COVERAGE.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
 
 def parse_bucket_date(bucket):
