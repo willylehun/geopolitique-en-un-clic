@@ -53,11 +53,23 @@ def clean_title(raw):
     raw=re.sub(r"\s+"," ",raw or "").strip(); parts=raw.rsplit(" - ",1)
     return (parts[0].strip(),parts[1].strip()) if len(parts)==2 and len(parts[1])<70 else (raw,"")
 def trusted_source(label): return any(s.lower() in (label or "").lower() for s in SOURCE_LABELS)
+STATE_MEDIA_HINTS={
+ "CRTV":"média public / contrôlé par l’État","Cameroon Tribune":"média public / contrôlé par l’État",
+ "Agence Ivoirienne de Presse":"agence publique","Agence Nigérienne de Presse":"agence publique",
+ "Le Sahel":"média public","Inforpress":"agence publique","Seychelles News Agency":"agence publique",
+ "Seychelles Broadcasting Corporation":"média public","Fiji Broadcasting Corporation":"média public",
+ "FBC News":"média public","NBC PNG":"média public","SIBC":"média public","VBTC":"média public",
+ "UzA":"agence publique","NHK":"média public","BBC":"média public","France 24":"média public",
+ "DW":"média public","CBC":"média public","ABC Australia":"média public","RNZ":"média public",
+ "TOLOnews":"média privé","Khaama Press":"média privé",
+}
 def source_name(label):
     l=(label or "").strip()
-    if "associated press" in l.lower() or l.lower()=="ap news": return "AP"
-    if "abc.net.au" in l.lower(): return "ABC Australia"
-    return l or "Source"
+    if "associated press" in l.lower() or l.lower()=="ap news": l="AP"
+    if "abc.net.au" in l.lower(): l="ABC Australia"
+    base=l or "Source"
+    note=STATE_MEDIA_HINTS.get(base)
+    return f"{base} ({note})" if note else base
 def editorial_day(dt): return dt.astimezone(PARIS).date()
 def looks_english(text):
     words=re.findall(r"[a-zà-ÿ]+",(text or "").lower())
