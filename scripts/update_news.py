@@ -128,9 +128,12 @@ def google_rss(region,start_date,end_date):
     q=f'({base}) when:1d' if region in ("Afrique","Amérique du Sud","Océanie") else f'({base}) ({IMPACT_QUERY}) when:1d'
     return google_rss_query(q)
 
-def load_missing_countries():
+def load_target_countries():
+    """Retourne la liste complète des 195 pays, jamais seulement les pays manquants."""
     if not COUNTRY_COVERAGE.exists(): return []
-    try: return json.loads(COUNTRY_COVERAGE.read_text(encoding="utf-8")).get("missing_countries",[])
+    try:
+        data=json.loads(COUNTRY_COVERAGE.read_text(encoding="utf-8"))
+        return list(dict.fromkeys(data.get("covered_countries",[])+data.get("missing_countries",[])))
     except Exception as e:
         print("coverage",e,file=sys.stderr); return []
 
@@ -204,8 +207,8 @@ def country_title_matches(country,title):
 def country_backfill(start_date,end_date,state):
     rows=[]; found=set()
     themes=["politique OR diplomatie OR gouvernement OR élection OR économie OR sécurité OR conflit OR défense OR migration OR climat OR santé OR société OR justice OR environnement OR catastrophe OR énergie OR technologie OR coopération"]
-    countries=load_missing_countries()
-    # Tous les pays encore sans couverture sont contrôlés à chaque run via GDELT.
+    countries=load_target_countries()
+    # Les 195 pays sont contrôlés à chaque run pour la journée courante via GDELT.
     # Aucun plafond d'articles par pays : on conserve tous les événements distincts pertinents renvoyés.
     google_budget=max(0,int(os.getenv("GOOGLE_FALLBACK_BUDGET","8") or "8"))
     for country in countries:
@@ -235,14 +238,18 @@ def country_backfill(start_date,end_date,state):
     return rows,found
 
 def update_country_coverage(found,now):
-    if not COUNTRY_COVERAGE.exists() or not found: return
+    if not COUNTRY_COVERAGE.exists(): return
     try: data=json.loads(COUNTRY_COVERAGE.read_text(encoding="utf-8"))
     except Exception: return
-    covered=set(data.get("covered_countries",[])); covered.update(found)
-    missing=[c for c in data.get("missing_countries",[]) if c not in covered]
-    data["date"]=fr_date(now.date()); data["covered_countries"]=sorted(covered); data["missing_countries"]=missing
+    targets=list(dict.fromkeys(data.get("covered_countries",[])+data.get("missing_countries",[])))
+    # La couverture est strictement quotidienne : aucun pays d'un jour précédent n'est reporté automatiquement.
+    covered=sorted(set(found)); missing=[c for c in targets if c not in set(found)]
+    data["date"]=fr_date(now.date()); data["target_countries"]=len(targets)
+    data["checked_count"]=len(targets); data["checked_countries"]=targets
+    data["covered_countries"]=covered; data["missing_countries"]=missing
     data["covered_count"]=len(covered); data["missing_count"]=len(missing); data["updated_at"]=now.isoformat()
-    COUNTRY_COVERAGE.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
+    data["rule"]="Les 195 pays sont contrôlés à chaque exécution pour la journée courante. covered = au moins une actualité du jour publiée ; missing = contrôlé mais aucune actualité publiée. Plusieurs articles distincts par pays sont autorisés."
+    COUNTRY_COVERAGE.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
 
 def parse_bucket_date(bucket):
     months={m:i+1 for i,m in enumerate(FR_MONTHS)}; m=re.match(r"(\d+)\s+(\w+)\s+(\d{4})",bucket or "")
