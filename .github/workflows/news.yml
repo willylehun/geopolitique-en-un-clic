@@ -35,9 +35,9 @@ jobs:
         id: mode
         shell: bash
         run: |
-          # Rattrapage exceptionnel de septembre 2026 : chaque passage revisite
-          # septembre tout en conservant la rotation incrémentale des 195 pays.
-          echo "backfill=1" >> "$GITHUB_OUTPUT"
+          # Veille normale : uniquement la journée civile courante (Europe/Paris).
+          # La rotation couvre les 195 pays au fil des passages.
+          echo "backfill=0" >> "$GITHUB_OUTPUT"
       - name: Construire la veille
         env:
           BACKFILL_MONTH: ${{ steps.mode.outputs.backfill }}
