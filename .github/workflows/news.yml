@@ -34,22 +34,16 @@ jobs:
         id: mode
         shell: bash
         run: |
-          # Rattrapage exceptionnel de septembre : chaque journée est interrogée séparément.
-          # À partir d'octobre, le script repassera automatiquement au seul jour courant.
-          MONTH=$(TZ=Europe/Paris date +%m)
-          YEAR=$(TZ=Europe/Paris date +%Y)
-          if [[ "$YEAR" == "2026" && "$MONTH" == "09" ]]; then
-            echo "backfill=1" >> "$GITHUB_OUTPUT"
-          else
-            echo "backfill=0" >> "$GITHUB_OUTPUT"
-          fi
+          # Veille normale : uniquement la journée civile courante (Europe/Paris).
+          # Le moteur incrémental et la rotation des 195 pays restent actifs.
+          echo "backfill=0" >> "$GITHUB_OUTPUT"
       - name: Construire la veille
         env:
           BACKFILL_MONTH: ${{ steps.mode.outputs.backfill }}
           FETCH_MULTIPLIER: "8"
           REGION_FETCH_MULTIPLIER: "6"
-          COUNTRY_BATCH_SIZE: "24"
-          DAY_BATCH_SIZE: "4"
+          COUNTRY_BATCH_SIZE: "40"
+          DAY_BATCH_SIZE: "1"
         run: python scripts/update_news.py
       - name: Intégrer le lot manuel vérifié
         run: python scripts/manual_backfill.py
