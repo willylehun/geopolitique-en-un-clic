@@ -275,7 +275,7 @@ def main():
     start_date=now.date().replace(day=1) if backfill else now.date(); end_date=now.date()
     state=load_monitor_state()
     generated=build_generated(start_date,end_date)
-    country_rows,found=country_backfill(start_date,end_date,state) if backfill else ([],set())
+    country_rows,found=country_backfill(start_date,end_date,state)
     generated.extend(country_rows)
     old_daily=[x for x in old.get("items",[]) if x.get("period")=="day"]
     # Conserver tout l'historique valide : les éléments existants ne sont jamais supprimés par la veille.
@@ -303,7 +303,7 @@ def main():
     DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
     update_country_coverage(found,now)
     save_monitor_state(state,now,
-        country_step=int(os.getenv("COUNTRY_BATCH_SIZE","12")) if backfill else 0,
+        country_step=int(os.getenv("COUNTRY_BATCH_SIZE","12")),
         day_step=int(os.getenv("DAY_BATCH_SIZE","3")) if backfill else 0)
     print("generated",len(generated),"daily items; countries found",len(found),"total",len(out["items"]),
           "cursors",state.get("country_cursor"),state.get("day_cursor"))
