@@ -202,8 +202,7 @@ def country_backfill(start_date,end_date,state):
             k=(d,key_title(title))
             if not k[1] or k in seen: continue
             seen.add(k); found.add(country)
-            rows.append({"regions":["International"],"countries":[country],"period":"day","bucket":fr_date(d),"score":score(title),"category":category(title),"summary":title,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
-            if len(seen)>=10: break
+            rows.append({"regions":[],"countries":[country],"period":"day","bucket":fr_date(d),"score":score(title),"category":category(title),"summary":title,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
     return rows,found
 
 def update_country_coverage(found,now):
