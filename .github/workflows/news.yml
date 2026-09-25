@@ -7,9 +7,10 @@ on:
       - "scripts/manual_backfill.py"
       - ".github/workflows/news.yml"
   schedule:
-    # Décalé du début de l’heure : GitHub indique que les cron à forte charge peuvent être retardés/supprimés.
-    # Moteur incrémental : un lot différent toutes les 10 minutes.
-    - cron: "3,13,23,33,43,53 * * * *"
+    # Six déclenchements par heure, volontairement placés hors des minutes rondes
+    # et irrégulièrement espacés pour réduire les retards/suppressions côté GitHub Actions.
+    - cron: "7,18,29,41,52 * * * *"
+    - cron: "0 0-23/1 * * *"
   workflow_dispatch:
 
 permissions:
