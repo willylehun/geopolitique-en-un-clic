@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, os, re, sys, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import json, os, re, sys, time, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from collections import defaultdict
 from datetime import datetime, timedelta, time as dtime
 from email.utils import parsedate_to_datetime
@@ -76,10 +76,41 @@ def looks_english(text):
     en=sum(w in EN_WORDS for w in words); fr=sum(w in FR_WORDS for w in words)
     return en>=2 and en>fr
 
+GDELT_DOC="https://api.gdeltproject.org/api/v2/doc/doc"
+GOOGLE_503_COUNT=0
+GOOGLE_DISABLED=False
+
+def gdelt_query(query,maxrecords=250):
+    params={"query":query,"mode":"ArtList","format":"json","maxrecords":str(maxrecords),"sort":"DateDesc","timespan":"1d"}
+    url=GDELT_DOC+"?"+urllib.parse.urlencode(params)
+    req=urllib.request.Request(url,headers={"User-Agent":"GeoClic/2.0 (+GitHub Actions)"})
+    with urllib.request.urlopen(req,timeout=35) as r: data=json.loads(r.read().decode("utf-8","replace"))
+    out=[]
+    for art in data.get("articles",[]):
+        title=(art.get("title") or "").strip()
+        if not title: continue
+        seen=art.get("seendate") or ""
+        try: dt=datetime.strptime(seen[:14],"%Y%m%dT%H%M%S").replace(tzinfo=UTC)
+        except Exception: dt=datetime.now(UTC)
+        out.append({"title":title,"source":art.get("domain") or "GDELT","date":dt,"url":art.get("url") or ""})
+    return out
+
 def google_rss_query(query):
+    global GOOGLE_503_COUNT,GOOGLE_DISABLED
+    if GOOGLE_DISABLED: return []
     params={"q":query,"hl":"fr","gl":"FR","ceid":"FR:fr"}; url="https://news.google.com/rss/search?"+urllib.parse.urlencode(params)
-    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/1.6"})
-    with urllib.request.urlopen(req,timeout=30) as r: root=ET.fromstring(r.read())
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/2.0"})
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req,timeout=30) as r: root=ET.fromstring(r.read())
+            break
+        except urllib.error.HTTPError as e:
+            if e.code not in (429,503): raise
+            GOOGLE_503_COUNT+=1
+            if GOOGLE_503_COUNT>=3:
+                GOOGLE_DISABLED=True; print("Google News désactivé pour ce run après erreurs 429/503",file=sys.stderr); return []
+            time.sleep(2**attempt*4)
+    else: return []
     out=[]
     for item in root.findall(".//item"):
         title_el=item.find("title"); link_el=item.find("link"); date_el=item.find("pubDate"); src_el=item.find("source")
@@ -174,26 +205,33 @@ def country_backfill(start_date,end_date,state):
     rows=[]; found=set()
     themes=["politique OR diplomatie OR gouvernement OR élection OR économie OR sécurité OR conflit OR défense OR migration OR climat OR santé OR société OR justice OR environnement OR catastrophe OR énergie OR technologie OR coopération"]
     countries=load_missing_countries()
-    batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","12") or "12"))
-    if countries:
-        slot=(datetime.now(PARIS).hour*6 + datetime.now(PARIS).minute//10)
-        offset=(slot*batch_size)%len(countries)
-        countries=(countries+countries)[offset:offset+min(batch_size,len(countries))]
+    # Tous les pays encore sans couverture sont contrôlés à chaque run via GDELT.
+    # Aucun plafond d'articles par pays : on conserve tous les événements distincts pertinents renvoyés.
+    google_budget=max(0,int(os.getenv("GOOGLE_FALLBACK_BUDGET","8") or "8"))
     for country in countries:
         articles=[]
-        for theme in themes:
-            q=f'{country_query_name(country)} ({theme}) when:1d'
-            try: articles.extend(google_rss_query(q))
-            except Exception as e:
-                print("COUNTRY",country,theme,e,file=sys.stderr)
+        q=f'{country_query_name(country)} (government OR election OR economy OR security OR conflict OR diplomacy OR climate OR energy OR health OR justice)'
+        try: articles.extend(gdelt_query(q,250))
+        except Exception as e: print("GDELT COUNTRY",country,e,file=sys.stderr)
+        # Google News n'est plus la source primaire. Il ne sert qu'aux trous, avec budget et coupe-circuit 429/503.
+        usable=[a for a in articles if country_title_matches(country,a.get("title","")) and not looks_english(a.get("title",""))]
+        if not usable and google_budget>0 and not GOOGLE_DISABLED:
+            google_budget-=1
+            for theme in themes:
+                try: articles.extend(google_rss_query(f'{country_query_name(country)} ({theme}) when:1d'))
+                except Exception as e: print("GOOGLE FALLBACK",country,e,file=sys.stderr)
+                time.sleep(1.5)
         seen=set()
         for art in articles:
             d=editorial_day(art["date"]); title=art["title"]
             if d<start_date or d>end_date or len(title)<22 or not country_title_matches(country,title): continue
+            # L'application reste francophone : les titres non français de GDELT servent à détecter le pays,
+            # mais ne sont publiés que lorsqu'ils sont déjà exploitables en français.
+            if looks_english(title): continue
             k=(d,key_title(title))
             if not k[1] or k in seen: continue
             seen.add(k); found.add(country)
-            rows.append({"regions":[],"countries":[country],"period":"day","bucket":fr_date(d),"score":score(title),"category":category(title),"summary":title,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
+            rows.append({"regions":[],"countries":[country],"period":"day","bucket":fr_date(d),"score":score(title),"category":category(title),"summary":title,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"gdelt" if "GDELT" in source_name(art["source"]) else "rss"})
     return rows,found
 
 def update_country_coverage(found,now):
