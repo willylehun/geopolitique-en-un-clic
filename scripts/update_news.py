@@ -207,9 +207,15 @@ def country_title_matches(country,title):
 def country_backfill(start_date,end_date,state):
     rows=[]; found=set()
     themes=["politique OR diplomatie OR gouvernement OR élection OR économie OR sécurité OR conflit OR défense OR migration OR climat OR santé OR société OR justice OR environnement OR catastrophe OR énergie OR technologie OR coopération"]
-    countries=load_target_countries()
-    # Les 195 pays sont contrôlés à chaque run pour la journée courante via GDELT.
-    # Aucun plafond d'articles par pays : on conserve tous les événements distincts pertinents renvoyés.
+    all_countries=load_target_countries()
+    # Traitement par petits lots persistants : chaque run écrit son lot avant que le suivant ne soit traité.
+    # Les pays encore sans actualité du jour restent prioritaires.
+    batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","10") or "10"))
+    if all_countries:
+        offset=int(state.get("country_cursor",0))%len(all_countries)
+        countries=(all_countries+all_countries)[offset:offset+min(batch_size,len(all_countries))]
+    else:
+        countries=[]
     google_budget=max(0,int(os.getenv("GOOGLE_FALLBACK_BUDGET","8") or "8"))
     for country in countries:
         articles=[]
