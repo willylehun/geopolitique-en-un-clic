@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-09-25T22:49:39.319519+02:00",
+  "generated_at": "2026-09-25T23:14:52.241973+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
   "buckets": {
     "day": [
+      "25 septembre 2026",
       "23 septembre 2026",
       "22 septembre 2026",
       "21 septembre 2026",
@@ -6296,6 +6297,22 @@
       ],
       "url": "https://www.geo.tv/latest/683594-makkah-pact-pakistani-turkish-saudi-fms-discuss-security-issues-on-unga-sidelines",
       "published_at": "2026-09-25T07:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les nouvelles sanctions américaines contre l'Iran provoquent des annulations de vols",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeGhob0RnRlRoSFh4XzYtUVY1Q2VQNXJ6ZWZSdkJKdWhnazh4QUxPVXpYYTVuLWV6SVFyTU1hNFVEaGpiSDJhNU5ndTA1Zk5mZHVMNDY0Qno2Ylk4VHl6VmFueV9vdWp2M1FrU24tQU1pN2hzYkRBYW56YkdMYzNFTlR6cUZPLVUzOGJTM0J1bDVJZTQ0c1N6ZmZFVUxqVURncXY5Z1ZpZlhpemdiS3FwNUJIVE5INVQwSEE?oc=5",
+      "published_at": "2026-09-25T10:34:40+02:00",
       "origin": "rss"
     },
     {
