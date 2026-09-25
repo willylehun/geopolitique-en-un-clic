@@ -94,7 +94,7 @@ def google_rss_query(query):
 
 def google_rss(region,start_date,end_date):
     base=REGIONS[region]
-    q=f'({base}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}' if region in ("Afrique","Amérique du Sud","Océanie") else f'({base}) ({IMPACT_QUERY}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
+    q=f'({base}) when:1d' if region in ("Afrique","Amérique du Sud","Océanie") else f'({base}) ({IMPACT_QUERY}) when:1d'
     return google_rss_query(q)
 
 def load_missing_countries():
@@ -182,7 +182,7 @@ def country_backfill(start_date,end_date,state):
     for country in countries:
         articles=[]
         for theme in themes:
-            q=f'{country_query_name(country)} ({theme}) after:{start_date.isoformat()} before:{(end_date+timedelta(days=1)).isoformat()}'
+            q=f'{country_query_name(country)} ({theme}) when:1d'
             try: articles.extend(google_rss_query(q))
             except Exception as e:
                 print("COUNTRY",country,theme,e,file=sys.stderr)
@@ -234,7 +234,7 @@ def build_generated(start_date,end_date):
                         articles.extend(google_rss(region,a,b))
                     else:
                         base=REGIONS[region]
-                        q=f'({base}) ({theme}) after:{a.isoformat()} before:{(b+timedelta(days=1)).isoformat()}'
+                        q=f'({base}) ({theme}) when:1d'
                         articles.extend(google_rss_query(q))
                 except Exception as e:
                     print("RSS",region,a,b,theme,e,file=sys.stderr)
