@@ -8,10 +8,9 @@ on:
       - "data/monitor-state.json"
       - ".github/workflows/news.yml"
   schedule:
-    # Six déclenchements par heure, volontairement placés hors des minutes rondes
-    # et irrégulièrement espacés pour réduire les retards/suppressions côté GitHub Actions.
-    - cron: "7,18,29,41,52 * * * *"
-    - cron: "0 0-23/1 * * *"
+    # Six passages par heure sur une seule expression cron.
+    # Évite la minute 00, période de forte charge des planificateurs GitHub Actions.
+    - cron: "7,17,27,37,47,57 * * * *"
   workflow_dispatch:
 
 permissions:
