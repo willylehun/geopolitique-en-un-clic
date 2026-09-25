@@ -136,9 +136,10 @@ def load_country_coverage():
         print("coverage",e,file=sys.stderr); return {}
 
 def load_target_countries():
-    """Retourne les 195 pays en donnant la priorité aux pays encore manquants."""
+    """Retourne d'abord les pays encore manquants ; les pays couverts ne sont pas rescannés inutilement."""
     data=load_country_coverage()
-    return list(dict.fromkeys(data.get("missing_countries",[])+data.get("covered_countries",[])))
+    missing=list(dict.fromkeys(data.get("missing_countries",[])))
+    return missing if missing else list(dict.fromkeys(data.get("covered_countries",[])))
 
 # Pays dont le nom est contenu dans celui d'un autre pays : les requêtes génériques
 # sont trop ambiguës pour valider automatiquement leur couverture.
@@ -215,8 +216,10 @@ def country_backfill(start_date,end_date,state):
     # Les pays encore sans actualité du jour restent prioritaires.
     batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","10") or "10"))
     if all_countries:
-        # missing_countries est en tête : chaque lot s'attaque d'abord aux trous.
-        countries=all_countries[:min(batch_size,len(all_countries))]
+        # Rotation uniquement dans les pays encore manquants : un pays sans résultat
+        # ne bloque pas indéfiniment les lots suivants.
+        offset=int(state.get("country_cursor",0))%len(all_countries)
+        countries=(all_countries+all_countries)[offset:offset+min(batch_size,len(all_countries))]
     else:
         countries=[]
     google_budget=max(0,int(os.getenv("GOOGLE_FALLBACK_BUDGET","8") or "8"))
@@ -337,6 +340,12 @@ def main():
     for m in month_names: coverage[f"month:{m}"]="Toutes les actualités conservées de ce mois"
     out={"generated_at":now.isoformat(),"timezone":"Europe/Paris","window_rule":"Une date couvre de 00h00 à 23h59 heure de Paris.","target_per_region_per_day":60,"buckets":{"day":day_buckets,"week":week_names,"month":month_names},"coverage":coverage,"items":day_items+non_daily_manual}
     DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
+    # Reconstituer aussi la couverture à partir de toutes les actualités déjà
+    # conservées pour aujourd'hui : un pays trouvé par un lot précédent reste couvert.
+    today_bucket=fr_date(now.date())
+    for item in day_items:
+        if item.get("bucket")==today_bucket:
+            found.update(item.get("countries",[]))
     update_country_coverage(found,now)
     save_monitor_state(state,now,
         country_step=int(os.getenv("COUNTRY_BATCH_SIZE","12")),
