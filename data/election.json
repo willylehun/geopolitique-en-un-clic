@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T11:14:44.369831+02:00",
+  "generated_at": "2026-09-26T13:18:32.460022+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -419,7 +419,7 @@
       "sources": [
         "Le Monde — 9 juin 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-26T13:18:32.460022+02:00",
       "bio": "Maire de Saint-Ouen-sur-Seine et membre du Parti socialiste. Il se situe dans la social-démocratie et met en avant les services publics, l’égalité des chances, la sécurité du quotidien et le développement économique local.",
       "controversies": []
     },
@@ -444,7 +444,7 @@
       "sources": [
         "Le Monde — 16 juillet 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-26T13:18:32.460022+02:00",
       "bio": "Ancien député, ancien ministre de l’Intérieur et Premier ministre de 2016 à 2017. Fondateur de La Convention après avoir quitté le Parti socialiste, il défend une ligne social-démocrate républicaine attachée à la laïcité, à l’ordre républicain et à la construction européenne.",
       "controversies": []
     },
@@ -472,7 +472,7 @@
         "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026",
         "Public Sénat — synthèse détaillée du premier débat, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-24T17:22:00+02:00",
+      "last_checked_at": "2026-09-26T13:18:32.460022+02:00",
       "bio": "Député de Seine-et-Marne et premier secrétaire du Parti socialiste. Il représente une ligne socialiste favorable au rassemblement de la gauche, à la redistribution, aux services publics et à la transition écologique.",
       "controversies": []
     },
@@ -500,7 +500,7 @@
         "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026",
         "Public Sénat — synthèse détaillée du premier débat, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-24T17:22:00+02:00",
+      "last_checked_at": "2026-09-26T13:18:32.460022+02:00",
       "bio": "Député de l’Essonne et ancien président du conseil général de l’Essonne. Membre du Parti socialiste, il travaille notamment sur les questions sociales, le vieillissement, les services publics et la lutte contre les inégalités.",
       "controversies": []
     },
@@ -528,7 +528,7 @@
         "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026",
         "Public Sénat — synthèse détaillée du premier débat, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-24T17:22:00+02:00",
+      "last_checked_at": "2026-09-26T13:18:32.460022+02:00",
       "bio": "Ancienne députée, ancienne ministre, ancienne présidente de Poitou-Charentes et candidate socialiste à la présidentielle de 2007. Elle a également été ministre de l’Écologie et se rattache à la famille socialiste, avec des thèmes récurrents liés à l’écologie, la démocratie participative et la justice sociale.",
       "controversies": []
     },
@@ -556,7 +556,7 @@
         "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026",
         "Public Sénat — synthèse détaillée du premier débat, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-24T17:22:00+02:00",
+      "last_checked_at": "2026-09-26T13:18:32.460022+02:00",
       "bio": "Député européen, essayiste et cofondateur de Place publique. Il se situe dans la social-démocratie pro-européenne et met notamment en avant la justice fiscale, l’écologie, l’école, la défense européenne et le soutien à l’Ukraine.",
       "controversies": []
     },
@@ -922,6 +922,38 @@
   ],
   "news": [
     {
+      "id": "2026-09-26-s-gol-ne-royal-81606753",
+      "date": "2026-09-26",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Ségolène Royal a-t-elle « ruiné » le Poitou-Charentes ? - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLUhKeEF3S0NObnlLSk44ZWZvU1VCZzZDUU04TFFqazY4VGFsWVZTTzN2UGdiYzhRWjFTTTh4QXlQOGc2eG1kR28tb3I4RTVKN3NmY1poMDdLVUVxWGZVdHBXY0ozMk4zZGEwYVdkbHhHUFVDbmwxT2lVQzgyYTRQcXRQR1ZuSUcySjlWRmVHWTI?oc=5"
+    },
+    {
+      "id": "2026-09-26-s-gol-ne-royal-29375111",
+      "date": "2026-09-26",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "Ségolène Royal et Raphaël Glucksmann, suivez l’exemple de Pedro Sánchez - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc3pNWWNHbjFsQVBLNENJR2Z1TlRhR1p5OEd0NlZGQUxKaTJpQkY2eWM1VVN2bGYzMFp2emlxTkV6M1lxU0RhcFRzQkx1OHptelZWR1U5ZndyU0hlYWU1UVY0OFhQV0EzbEVEMENQbXYzVG9wV19nWXhLYl9QNk9TN2tjTTBqQ2p0eUx6YlJMSjV0MG5GeEJsZnBYQ3p0enVLbmpDRkV0c1JsY3JKWDdXd2FqcV9yd2JKdXNuZHJoV1gwRV96djhSek9BbWJpbDhkMEV4bFdSMG1sQQ?oc=5"
+    },
+    {
       "id": "2026-09-26-jean-luc-m-lenchon-24340379",
       "date": "2026-09-26",
       "candidate_ids": [
@@ -935,6 +967,111 @@
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWEQwd0dNdGlBUjlGVWVZQnNmejJTZHd6WlF3cDBEOFJjWUVBVkVpT2xzcnlkUGNPMDRjczYwdnktMU81dGVrNTZXS3U4REVydnFoOXkxYzZTWkR4UEhvazdoejhsT2lfaGlKaFdUR29Od2xiYWdoWHF4MlRYMTZMR3RCYUdwcS1GR1E5VzlKWkZvY096RnQzaE9tRU4xaWc0UWhyRUdSMHhXY2JLRjFXVkF4ZWdMNUJZOVpmZFdDQ0tEVHpyaUowb2pobDNtMnZ3QkUwQUVweUMwb0lMTWcw?oc=5"
+    },
+    {
+      "id": "2026-09-25-rapha-l-glucksmann-71969695",
+      "date": "2026-09-25",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Raphaël Glucksmann en campagne dans le Nord et le Pas-de-Calais : «On n’abandonnera aucune terre au RN - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbzg1dWs0SHJISWlTWUREUlFweGJ6dWFOTzZpX291ZnVSUzdjYTJ0am16Z0pPZUQxSGpOWWRRMlF0TkFFMWhBSVEtRExNZ3hDQTRVMkpTQWhEdU5uMUJMc0JrcFV1aU1iSFdQYmI4Z2RVakxBaUpNb2dBaGN2N1dSWkhUQ1JHbmh5ZVo4VVF4YU13N1V0SFRTVGEwVUN6REl0ejdoaGNRM2VsVlZnajVCMHFWdzF4aTFpMEx0VXFXQVc0VS13TVE0dHlJOGcwcW9vc3pkLVVoWjh3SWtiWW9ISW9tbVl6QUNHVHJmV3d0Wm1CVHVQOGhTMTNidWhFR0JV?oc=5"
+    },
+    {
+      "id": "2026-09-25-rapha-l-glucksmann-64408220",
+      "date": "2026-09-25",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Yannick Jadot suspendu temporairement des Ecologistes après avoir soutenu Raphaël Glucksmann pour la présidentielle - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNOUhEdnBYSXpSbjNhQXZvRXJzQTZfczF5M0VKRVhhZnhsX3ZXTi1LOEpzSGNWZ3RFUk9jYS03UUlrSmVFYXlFOTNmUXFJaFhlVDg1djFvSmtkVDBaWk1Mc1RLSzQxZXRsN2hUVkFsOXFrUGRwdkhFak56ZVBUTmZDMk5VMmdGVnVMNjE0dHVsM2U0dWNackVvbDdBREkyVk50SHNOV1l4ZDJEY3NsejhrdEV4bUFKcmIwYW45UHdTWXYwRk5mQ0xnY3dUdFJrOXUxYUFRaDFGOHhWSm15S3ZTenJER0dfdHQ5dWhuUHJkS2Z3SUk?oc=5"
+    },
+    {
+      "id": "2026-09-25-rapha-l-glucksmann-63566999",
+      "date": "2026-09-25",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Raphaël Glucksmann estime qu’Emmanuel Macron a «raison» d'envoyer des forces protéger le port pétrolier saoudien de Yanbu - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPc3BBdGtrbFZzS3RrTnpSQVpVWmdFNTBadEtrbVRMcXpoWE9jcWxQajdEXzhLdXpWQ19pNng0NDlDXzBLVGhhMWpHM1piOUdFU3FhUUtKTVZIR1VocUZ2NExBSXBOQmVsSE9nNWxNOXQ4am52VkJQX2NTbXJNejRqdDJJanhxUlNkeThfRlVFNDFIRHpWQ1V2aGRBRXpMc0xPYmU4RzMzYzlKZ092SGM3cDl1bTBLXzZsdEN0d1NTZ3lnc3JPYUNWZHcxeU5SU3RDaHlLY3p2QmVRdjJQNXVmb1ExaEhmQkd3X25tbm01QUxTNG9LMmVXOGxGMUNnUHZnNlBZVF83Y0tLeHJuUVdYSW5rQVRheGc?oc=5"
+    },
+    {
+      "id": "2026-09-25-rapha-l-glucksmann-51869369",
+      "date": "2026-09-25",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Présidentielle 2027 : Yannick Jadot suspendu à titre conservatoire par Les Ecologistes en raison de son soutien à la candidature de Raphaël Glucksmann - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOeU9hTHQ3QTAtRUlMNU13Y3YyU3hwd01BTzNVRlRKdmJiclp0S3BKUEhrZTFLWHhoWWVXTnE2dFhibUYyakxPbW9VdVN5dEYyUVQtdXlMY0c1aHk2ZGgzR3c0cjVnWnQtUDZRb29wUWRWTk1ISEZoQUpjUzRsRmRhUU02WVFrc25EUUYtLUkzYXNNeWZrNTZ2MHFtampud19BcDBRVDlSZnZEbXNmVl81Mmxrc0Vmcjc2ZU4yUG5HaHVQeTJHZ0ViNG9YbGZ4dGhwb1BnWmhpMkhWSjV2LS1qS3d0T2xqbWx2Qzdxd0dIa01yMk9GNW83YkJrYjc3OFBWM1h3SHdPS3lmcGdGbkNuWXBMRVViV2F1MVN0Zl9DU2FMQWVZbGw4VU1UZXlQRkJfUnlaZHVmM3BrMWdwWHBHMHdn?oc=5"
+    },
+    {
+      "id": "2026-09-25-rapha-l-glucksmann-38003256",
+      "date": "2026-09-25",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Yannick Jadot temporairement suspendu des Ecologistes pour son soutien à Raphaël Glucksmann - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOWjdHSlI4eXcydjJ4eWl6MEJBN0M0bHdpa1pEMTVLQUhGaHd5NWJNZEc1dlNpamswR3JobXZSNjFGM2Uzd1VVa2FYZHg1Ukh5cThoTjlXb1ExVnBxSzNUNUJ2ZVVhTGdtem9MakRQZnlWaUJMaHFmRl85VWhJY28zQXJqc1ZTWjBxWG13YWNaM214ZURDM21EOW5Sblg4Z2JIa1pJaENWTjZHSWNzYmhJdEsyQ2ZKN1YyQ3hkUWpZbmdaRk5wU3gyZnY4bVNHNlFBN0dBWWVnb2g0Z3BzVGFLNXpSVU56OXNkbG9NcUctZGotVVFxc1Vz?oc=5"
+    },
+    {
+      "id": "2026-09-25-rapha-l-glucksmann-06789354",
+      "date": "2026-09-25",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Présidentielle 2027. Yannick Jadot suspendu temporairement des Écologistes pour son soutien à Raphaël Glucksmann - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOX0FybURaUTN2VzA1R0hPLWZpQjhPaXRoVkRsd1ZpdHdUMGpMcnlPWERtb3ZHREUybU9oQTF1Szl5YjFKQmlrMFpzR0tIbTJHd3BSM3U5bmpibXJCazFFTEN6eHFSVTY4Z1hlbHVaM3VRRnZVbTg1VnBqTzVDbWdja1ZxWW1jdVpJRkxmQVhRMmhOcnh6WVVBOVRhRTdWc0ctc1B0SzdCTFpmR0ZzMUwxZC1JVk1IMVBGc1NqdmNUUnV4a21LN2t1UEYwWVh3V0xONTlDcVB3U2ZfZ3RNT2VRaWRUdWR6bWI2cV81LWxyamdLUGs1cDM3dktjbm9FeTc3QlpNNHVXblhtenR6ZFBvOUp4TDlUa0dzYUJPX1RHcERwZkhQRUx2TQ?oc=5"
+    },
+    {
+      "id": "2026-09-25-rapha-l-glucksmann-00055654",
+      "date": "2026-09-25",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Yannick Jadot suspendu des Ecologistes après son soutien à Raphaël Glucksmann - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLVBCUlR6YWlEellYWURqMXk5VEVEcG44LUdJQXJUTWljTWxiOUFZRklmcGMwaVZLaEpBT2NlZjRwRk12VHBHVUtkc3NuY1RfRURKRmNjX0RvOG5UcFViMjVaU1BkLUVHTHUyOVllcmMwX3dfWDRCa3VIejRJTk9RdWNma2syOENjLTZiZTFuNllBcW85bjUyT0N3S3U1UEpSalFrZHdfZWFhMXNNSHZMR082VnBURmktVl9oVzF1Tno1OHFRaEVURzhidm1vYjRQNzlPNkRB?oc=5"
     },
     {
       "id": "2026-09-25-bruno-retailleau-56558906",
@@ -967,6 +1104,81 @@
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPb2k5b05fei1TX1VOa29pWkZKemVxcHRGcHdzeTc5ZDRtSjQtcjlGaHZ1ak5majlOU0Roem1xNGZiNl9ScndYRk9NOVEwSC14Rnd6bjdKYk5oMlVqcTFlMGQ1ZGQwa1Y1V2xIUEVHay1ISWV4YU9lczJaMzg0Uzk5ODRKU1B2Rlo0VEpNdGc1TWtmMC0xU3c1U095MUFpVTRUb3F0cmxxNjY2MGxwS2QzVWU5XzVRaTNkeFRkdXU0T3JBbFNmQ09ScDdtZWZxQkFhdHFUZkIzb3R0cjBxSV9BekJHcnRsZE5QbWU3MDV0ZmtnRVlTd2drc09USnpYYi1u?oc=5"
     },
     {
+      "id": "2026-09-24-s-gol-ne-royal-56919280",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Primaire de la gauche : Des propos de Ségolène Royal provoquent l’indignation d’associations juives - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQczY0R2pLb1NjNEgyam8xWjlCa0UxcUR3dU9fTzBUeUg2S2lYQ1FEalVKc2ZKRW5QVmJZR2Fnb05ZWmc2bnlDYjA5Z3NmMTJHM1BVN3ZwYk1hRC0wT2JKNGtlUWRCV3NxdTNVMzRQZURLMEJoUGFIb2NGZmF3VHRPR0JfZWNWZzBOY29idzlWaUpBV0VHQWk1WUIwWEpEbFJFOWRFb2dXeTRLYWtpWUlRT19qeE5DTWdUVFBxN0pqLWlhOUt3MTVQY25DTUY?oc=5"
+    },
+    {
+      "id": "2026-09-24-s-gol-ne-royal-15055891",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Primaire socialiste : les dérives Mélenchon-compatibles de Ségolène Royal - L'Express",
+      "sources": [
+        "L'Express"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd1J3aTA4UjU3X0I4QS1IQ3BPV0NmZEVQaWY5TVR3cEY5TkRFMWlxLUdPcXdFQmJjOWdGc3l2MDF4WHNDd0ZnbjNIdjJrS0d5YjN4T2pra0RYOGRKSFVZUzd3UjFlV0ZKQ29NdXg3VHBVVjR5Q3k0djUxTG5NZHNrc1Blb1JvQUpTWnNaQWFqQWdkWGJiV0RRNzUtaVM2V2tGYVQ2X0VmMmFnQWdIaHhPcDljUWFHalBoMmVhMlkwblNYNTNYM2I2cmFqQ2hpQQ?oc=5"
+    },
+    {
+      "id": "2026-09-24-s-gol-ne-royal-10397109",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Ségolène Royal appelle les «voix juives» à dénoncer les actes de Benyamin Netanyahou, tollé des candidats à la primaire de la gauche - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNYS1TYXNSMWZRa0sxOUhubFVBcF80Nzk3RUl5V2tqRzBvcEdTd3lIcXAyRFJuYlZtRkFpMksxX0J1ZWtjQ3NqY0pwTm9xcGUwN0hTMjBESEx6UGozelNPZFNueGEwV0drTlY3TkViRlRMal9BY0FBUE5PUVRORkE4N3RrTExEeENxc2x1U2lMUER1QkJwZWNQclFpS3Q2ZWpPNW1LV0ZqS3R5SmNiVmtUMXllWjNSRHI0MzNfQzFXeDAwVGpGNEdYQVRxcFpmWFY4S0lIa04tSmYzNEw1MDduc1R2NHR1TFp6U04tZ0dibG9KRVJRMWdIZ3B5X2tEWjAtNHJzaUNob2tobWNnMnFuMlZaM3VqY0E?oc=5"
+    },
+    {
+      "id": "2026-09-24-rapha-l-glucksmann-47292898",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Le dessin de Chaunu : Raphaël Glucksmann, traité de « stagiaire » par Ségolène Royal - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNVkxwUWVFdFBnR0JuT2lQcFJJMExzTTdpSThCcDRIdlY3SEhzbjNYNzBaWnZDLW5zVnhfSEVRcE5BSzlOWEpyb25ROFFXOTRka0dmeE40ZXhWTWdrUUJMRElVamgxRS1WSFFWMGkxTllwLWU2NHgzTmtteXRfcFBUU1daU3VSa1lIMXJJbVRBUGJRckRrazlNa2FndnBtTHhacnFTY21NekpqNkh3TzJVdVQ1cWFXU3Vjb1FVWlVtckpQTUN6M080ZmcxSnZCZXdDWXg1bHBZeVJDczN1MGNVMFpNX3U5bm5mazVFX3JPdmZXbUEtbEpSaVQtSGJvdw?oc=5"
+    },
+    {
+      "id": "2026-09-24-rapha-l-glucksmann-30421020",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "VRAI OU FAUX. Raphaël Glucksmann a-t-il soutenu Nicolas Sarkozy lors de la campagne présidentielle de 2007 - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPemNBTl96d1VBVnJKY0NYeWRkZmhuNzBRY1hDS2VCV05URU5WN1RZNzI4M3d1OTJwb3dWU1dPQm4xbHRPU0dla2JSaG4wRE44NnRzTnh3MTZRNndqYUpzUlotNjczOGE4MXlxeVhsd191RXNWVmxnZ3JIYllNSktEaGpGOE9uNEdXZURuR1pzNlZhb3NBcWdmeDMwa2N3MUNOY0p4STR3ck9QWFdnQThMVFd2TDlfSk4zeDNkZG5BbkpGNHdTOERLR3pyV3pGdkFNRE9UakZwWlNEa0dqd3RkNm1ueWltVTNickJic1l3?oc=5"
+    },
+    {
       "id": "2026-09-24-philippe-attal-duel",
       "date": "2026-09-24",
       "candidate_ids": [
@@ -982,6 +1194,36 @@
         "Le Monde — 24 septembre 2026"
       ],
       "url": "https://www.lemonde.fr/politique/article/2026/09/24/presidentielle-2027-derriere-le-duel-de-plus-en-plus-acerbe-entre-edouard-philippe-et-gabriel-attal-des-electorats-loin-d-etre-fongibles_6781447_823448.html"
+    },
+    {
+      "id": "2026-09-24-olivier-faure-66918302",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "80 % des socialistes voteraient avec LFI, selon Olivier Faure ? Pas tout à fait - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWVV4SVI0R2NibC00RVhLQ1FHNjM1aXk5dHd2R0w4TXVfbXV5U0tULWxkMVh5Rmo1aWZEN0N4MjVGT1R2WVNVVU1uVHBIdU02UDMyanJLSjRQX25KN3FPNEpZeGtudkNDZTFkbWRXOFN5WnBYTzV4U0tNUm82UmdJTlFSSkd0ZEpaWWV3bkpleVBSOXh4cFJxNVRzYlhFLVF4LUpqczB1UGQta0hJTl9nWEpUTmRSOEZuNVRCMVdzNG1RRUY0OWxkdktHRQ?oc=5"
+    },
+    {
+      "id": "2026-09-24-olivier-faure-48665136",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "«C’est le seul à parler de fond» : à Paris, une soirée avec les soutiens d’Olivier Faure réunis pour une «support party» - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPRDBjU0t5UmhLU0M4TmlOeF9ta1dYeTJoUl9mSnFUU0p4Zmg5a2RCMENyVXFoYllJSER6aUxpODdZTVJSQW14b09ZYS1TcjBGX0NaSzc1TUdxdkFJSjh6Nk5peE9IN1dxWDdzaEdITXNZb3NZYzNpSVdhcmVNTmJDOUdQSS1UNURyOGlUSHRabFpSZWVxRlF0X1F1Q180RG92TWdmTVQxVU53N01ENDQ5Ylo2dEw0RnFJOXlHcTh6RU5TeVdDUzdoSHBvSVJaSW4tcWRPanN5SnhRWDduSVo1VEt5UHlqWmVvaldxQlZtbi1IZ184anp2SjcyVEhuY0ozMkZyVzZSY0NvNzlucXlKS1NR?oc=5"
     },
     {
       "id": "2026-09-24-marine-le-pen-95797328",
@@ -1057,6 +1299,22 @@
         "Le Figaro"
       ],
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOT1F5ejA0LTZRZjdnTkdpRWZWZ1ZoS096cmVBNGdGZXVQZGNBcGFteFdxQkFTTXBMRVg2SGlNdE1uZjVnR0lJbkx4QmkwYW8wU1FjVzBuNlpKTmN1cDJzMlZFYTc1TWlRVkkwOHZNMWJJRHpyc0F6cjVTOGlEYXJxQ0tOUHUzVm9fWXpMS3A0cVlRdnZVeVluVlp3am9peTZBUDRuSXV6TzFCWVZjYnBVNmFiVjU0YVF2cWNSLVo5SHd1R1ZQdnFhOTM3OTZwWUFYRXlBNVhBSGtkZkM4U2pfQTV3MA?oc=5"
+    },
+    {
+      "id": "2026-09-24-j-r-me-guedj-19111360",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "jerome-guedj",
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Débat de la primaire de gauche: Jérôme Guedj accuse Ségolène Royal d'\"essentialiser\" les Juifs de France - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWkdEUWJhbGFyNDI5Uzhad3F3WUhmOVAzZGEwNEtmZ1prSjJhbTFKdzZwTWhEdnFSNFNoa1lINVYtUUgzT29TN0VkOVo4dlNHb3g4b3hVTWgyNUVwS1V3bm9jT1FSc0pNd0hiNTd4SXhnZzNKQzcyNHNySFhRU05vZFhQdXlZNlZmRGFOV0NBYmJiVmVqc2hzNFBPZFEwQjRGOE5kNnFINXVYbjZWblFRQg?oc=5"
     },
     {
       "id": "2026-09-24-gabriel-attal-36132099",
@@ -1137,6 +1395,96 @@
       "url": "https://www.lemonde.fr/politique/article/2026/09/24/l-ancien-ministre-olivier-becht-candidat-a-l-election-presidentielle_6781497_823448.html"
     },
     {
+      "id": "2026-09-23-s-gol-ne-royal-87439770",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle : il y a 20 ans, la première primaire « semi-ouverte » du PS, et déjà Ségolène Royal - Public Sénat",
+      "sources": [
+        "Public Sénat"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNERjOUFac2pRbmJSX2laZFRkdWVHeklBSWszUzcwYWlzcXUzTzNqQkF3UWZZaTVLZ3N5Z1ozbnpMN01peldDa0Y1cFlRZUdUZkxsZmxBR0N6ZkdmZ2NHSjkxak1EYWhnU0lBY3Q2d1J0dm5SUWtCbWhrSmRmb001YmFydXd6V3M0dHhzODJOZEtTMjRGbDlKdHJnLUg5bEp2czVvdGt4a1ZwdXhGQXd5QjhZYlZ3TkVBY3ZGRzlidUpUUHNkeUMyWWt2eTVvR1Z4TGVXbExB?oc=5"
+    },
+    {
+      "id": "2026-09-23-s-gol-ne-royal-63361188",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Primaire de la gauche : Ségolène Royal ne fait pas vraiment salle comble pour son premier meeting - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSjVNb1l4MkY3M1hlbWdzaWl5QkZBdkhvNm9vTWk5WHh6NGduTmpza3A0SHJHYmdBclN0b0NXSXRlbjVoampDMENIWTZoUTRIRzU0bmlUTVZYbTVPMS1OSlJlZ0tPNzNQX0lDR1lieV8wZXM1TEVEbUtGcGNSVTRHN2V4dVRIZGJRZXpfZDVuY3Mxa0ItX0JRbm95clBzLWZhM3pQd1doOEJBaFhBYjZyU250VFdpMUFUVHQ5T2thVHptOGc?oc=5"
+    },
+    {
+      "id": "2026-09-23-s-gol-ne-royal-62802259",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "« C’est écrit par ChatGPT ? » : pour son premier meeting, Ségolène Royal ne convainc qu’à moitié - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSVk3OEl1RkFZcUhEUVFUa3RxR09fWWluYlJRNWF2cHVFemRPaVN0ai12OHZOX2VPVERyRzRDVjF0S2JheURkenktbWxxSHUwTFA2WlFKdzd1d0cwVTdndHF6LWkzTnp2dWZXX1hoVUdwbV9EaGp1ay16VFBDRXNvVy03MmVMTTFSVDFGWkJRcFBwVWxKT0NERURzTXVtSGYyamdaYUV4SS1pbHNZZGxIWjVKcktyRFpQVGl6LXVOOS1FVXBTbVN6LVM5NlA0bjdwSHM0NWR6N296ODNFcWpF?oc=5"
+    },
+    {
+      "id": "2026-09-23-s-gol-ne-royal-21846920",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Moins piquante, faible affluence: Ségolène Royal remonte sur scène pour son premier meeting 15 ans après - RMC",
+      "sources": [
+        "RMC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPWTBCQWtXaE1tNnl3VjBaS2FQVm9td0tUUmtkaUpOTklmWUw0WW1WcXlCMWJqNndWNURHYldkeW1LSzRVTEd5dk02Wml3NlRhZFhvVE1RSDc2QnpKOUQ5NG1RanRMOEw3TTdBOVJ6U202YWt5SkJROWNpSE9RVUFYUG4xc0p1VTlWNE5nQ2FuMk14R2xrRHUwNUJ0QndzdUhUMXJWeEhnQm1EV2V0anJUejFVa0tqanVlN192c3pNTE8wLU9OV0lzdUlScmJLMDFpSlpwUU82NjBaUHVmSEt4T3UxWnd2YlRMWHI1T1lwaEY?oc=5"
+    },
+    {
+      "id": "2026-09-23-s-gol-ne-royal-11720656",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Lors du premier débat de la primaire socialiste, Ségolène Royal mise en difficulté sur l'Ukraine et Israël - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPejV2dGJyODZ0bldXU3FzUXVOMEQxaDNZRW1yNUkzLTdxNU9ZQUVONXV6NW5tQldpWnZGQVRYcEtuSjZqT3FMc2dBT0Z0a0w1WEp1ck9kLWFKUkFRb3pkSzIzUGRQRkVQbUhWVjZPLTdMQlYwOVdoYkVjekpwMEFidGRySkJxOHBmR0ZUanFDMkF1U0hBcHl5Zm5iSXdCOFJNYkM5MXZKYTEtWEV3Y1JzR1NXaFV1RE5wdFFXWFVNRS1pVHRxV1VQUlEzcnVabDVRSWZfYW1vbWlTNmNZd1Z3eFJ2NjNvMWNzOTk4bGg4VmJiVXlmT2FIOGRFQUQwUQ?oc=5"
+    },
+    {
+      "id": "2026-09-23-s-gol-ne-royal-09015538",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Pour son premier meeting de campagne, Ségolène Royal peut (au moins) compter sur la nostalgie - Le HuffPost",
+      "sources": [
+        "Le HuffPost"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaEhSajZUTFBBVUh0Y2JlS1dPanBpSHJySl9ibXpRX3gwLTNSMHZ4cXVubXNPS1haWHB3ZTRQX3BYS1BBdk9pUm5aUTZObllRSkhJdVpKYlFyOVlvdGdSWjlxMDVpZXg0TU42UFp2QklRX3BnRk9ZYUJuNG9Sb05Ya1JldDA4a1M2N1lzQUQ5QlpHdWdsenp4U2xiQmJidkh2OExndTIwWjhHSW5kMWNGQUl0RWZRejdsVklBXy1meHBXcEY0VURjWW1RN0Y4NHZYdGtxd2tseENSMHFhcTdMbm9B?oc=5"
+    },
+    {
       "id": "2026-09-23-retailleau-retraites",
       "date": "2026-09-23",
       "candidate_ids": [
@@ -1150,6 +1498,36 @@
         "LCP — 23 septembre 2026"
       ],
       "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65"
+    },
+    {
+      "id": "2026-09-23-rapha-l-glucksmann-31721328",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Primaire socialiste : l’heure de vérité de Raphaël Glucksmann - L'Express",
+      "sources": [
+        "L'Express"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU3FIQVlVSlo4NkhKZFFrelUwVmwzbm5GcG9mYlRNamoyeVB4bC1OQjZ6NjNla3lMb3V2a3RVWGhabmFoTHRLMl9EMkx4YmdnX1lzLWZvZlkyMU1oNXU3c2x0Wk5fc3NUSkljZUhxUmdXUVc1UjVtaGdpeW9VSlYzX05sc0ZDU3dzcVNVVGJOczktdjd2aWFsTUlhSzlYSjN5SnM1U2lkYXRsRk1ETTZRc0lXZWZKQ0VLVmM5NA?oc=5"
+    },
+    {
+      "id": "2026-09-23-rapha-l-glucksmann-09472497",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Raphaël Glucksmann, l’homme qui fait trop parisien - La Croix",
+      "sources": [
+        "La Croix"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWnBjX1FvNkJsTGRLaENCUVNFZ09JMFJiVTUxOFgzVkpKdFBRX1dpNHgza0pUTGdjM1d5YkFuV09nZ0xuSzVHQkxXTmQ3eDVVdERoMnBVUnZrYjJxZldURFA2bWM0SHdZNmZEWWZtNFdFa0tGcXRKU1Rkb21Qa2JUTXdqNjlKNkctaUM0UXZVNTRFVTA?oc=5"
     },
     {
       "id": "2026-09-23-primary-first-debate",
@@ -1172,6 +1550,36 @@
         "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
       "url": "https://www.lemonde.fr/politique/article/2026/09/24/primaire-a-gauche-la-situation-a-gaza-et-l-alliance-avec-lfi-electrisent-le-premier-debat-televise_6781332_823448.html"
+    },
+    {
+      "id": "2026-09-23-olivier-faure-17695770",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Primaire à gauche : la valse-hésitation d’Olivier Faure - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOUROTXRMNUMyYkZ6R3B2ekk4bkhuVndYV0VRdlpZNWYxekl4ai0xX1hzNl9qN0ZYVElHdHFZUlRMSWlFdVpvbm42cWlNczN5aHZZS05EWDdlZlh4UVkwNFYtOG1Oa2tKbldLVnQ0eWZmTXlhbHFCeUNBX21wR0c4cHpxRWplRWJGRmMyU0t6dHBDMm1ORG5meWJpanVnczEyQ05sVzVRZ0o4TUlnXzlrWHYzVUJlRkJUai13MWlNWXhMaVE?oc=5"
+    },
+    {
+      "id": "2026-09-23-olivier-faure-07004549",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle : Olivier Faure a (déjà) réuni ses 500 parrainages d’élus - Le Parisien",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSjl2T0dvemVwQXNzS0VDQ1BFZEIyMFpDOVhPS2ctbHc5V1dxaVpWVFFzWjNqRVN6R3hKMTV0X1g2aGFGZjRSU0hZOXk4WG91SUJla0VvbnlzaThZckstcXlzcXlickNMdHZMVUMtWDNsZ0t0cThEZGJTenpqV2l0Xy1ZRHNMcXNnZVBXVEI4X1BCM1o3RE9JVDJkRVBYNHBleXNiY0owSWlnTUVqbWE1YkluUS1mV09BSkJIa0Y4V29aVVJNYm90Z0ZCMGNFcjRFMEwyMk5HdnRTYkJ6WnN5UlAybjV2LUhpclJjSEhiY3BtUQ?oc=5"
     },
     {
       "id": "2026-09-23-marine-tondelier-94046084",
@@ -1446,6 +1854,126 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWTMwMU9pU1hzdVdwNnB1OHhVLTVYa2ZuZ19hT20wOFotVFQyUVh4WlVqNzhuRWpFbWlfcDBoOC11LVlPdlpIem9JZS0xNDVsWjJKZTlzYmJHQjFVOTNOek1FeFJIMjNGRWJqQUoxZ2lmbFdneXpnMG8ybkxDS19wSkNTWjJ6V0YtbUpoUnA2YjJ3eDM4Vk8tako5WGhDR0xrQzhtVWlyZHVuaXcwWVc4am1KUQ?oc=5"
     },
     {
+      "id": "2026-09-22-s-gol-ne-royal-84115426",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Primaire socialiste : Ségolène Royal, la politique spectacle au service de sa revanche - L'Express",
+      "sources": [
+        "L'Express"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNFBLY0V6eU5Zd2wzNUZ2dUVxQi1ibFF6eG5ZWWU1M0RQbURXT3RMcERjWHlMSUNoVk53WFVwb2tHVTFSWkwzeXoyeDNhR2taUkQ1RkhOSl9LcnZoTHdhZDZhSDlJcW1WWEd0bmNGN3dGRnAxVzBHVW1ES2VGcVEzTkJwSFBOU1JFTUU3bk1rQ29lMnRUYUo4Z0lYVGtqelh3cHlKSXllUE54UTZzMDhIM2JEbzAzVXR3T3VCZmtDOVFYb1ZSaHRLa0RfR0hzZnQ5blhsTjlsWW9FYVF2ZFE?oc=5"
+    },
+    {
+      "id": "2026-09-22-s-gol-ne-royal-73843354",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Primaire à gauche : Ségolène Royal ressuscite son « ordre juste » - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTkFsZ3RVZnFZdS02ZzlHVm5nVDJNMUowbVNfSWFhN2JBUjhLYkVLMlhKemJmVkVRSFpUc2pHdnNFb0xfaDJ3dUNYTTQtNUJMcklBVWFuaVlSVWFaUXBDNS1BUUtxQnhjb3JXSU1lVUZfN3RuVUsxa0puLTg2cUt6MmR6bmNEa0FnNkdvTFJPNHE4dEp4amE0OHhyWFRBcDZ1dnJVemZzRzQzRXp6d2p3NHBJRWpaRU93dFRnQU90ZkhRMmJoby1jbl9MRQ?oc=5"
+    },
+    {
+      "id": "2026-09-22-s-gol-ne-royal-73343174",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Pourquoi Ségolène Royal devrait lire Glucksmann (André) - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc2Z4VHdQcFhQZnVpdUgzNjNGNThkQmMtdDRpaVpCclFqUjE0YXpGNE40aXhNU1hZQWkzU0x2SlJ0NFNXaGZyamV1cGZHVGFiME9CQ2pOR01OVWxicVVzbW1YV2JLY1ljazl6REV4WmtkWFVEMXlNYldnR1dtQnppekVVclZHck5WM1JkanJYa25qakQ5Yk9OVTFIWGl5VmdGNkIwRGlJWk9JOGJxaU5tbg?oc=5"
+    },
+    {
+      "id": "2026-09-22-s-gol-ne-royal-57107337",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle 2027 : Ségolène Royal, la candidate inattendue qui dynamite la primaire socialiste - Le HuffPost",
+      "sources": [
+        "Le HuffPost"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVFlrZXc4NUh2MFE1SW9PYjlaNDNwTGh0c1UzalZsbmo3V0JYclR6SDgtSGFueUdWZk1vTGxYLUFBWGRlMjZWWWp0aXhneE50M2lIcjFLT1p6Rk5GTTc3YVFFRVJBT1RZV2Y3WENYeE0tZ0Q5SEZmWE5kOW9iV3dsV1dNYmM1aDRhNms4aUpsckIwbEh1Z25abk1IZXpJbHJqX3g5V3RSUjRLMkFnajlJNF9KTlFfeW1sR1FtSFg2Y1dCajlFekw3QkZ5d3cwc1ZfcHdQeFBIcVNwY1hQX3dfX0c2M0JNWkUxYXc?oc=5"
+    },
+    {
+      "id": "2026-09-22-s-gol-ne-royal-33008624",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "À Alfortville, un meeting sans enthousiasme de Ségolène Royal avant le premier débat de la primaire - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNei1MckltZ3pOOTN5cUdQS01NLWw5bHBpS0hNNjdXMVptaU5fcC0yXzhlTnU4X0JicWZVeUF3cVJSalhtRkI0SVRGSXpzalluc0pfZDdidVpSelVGN00xVE81NUpZTlQ0bjdrdFYzSkNKdHh4WVpUcl8zXzQ4WHVJbU9aNmtRWDRIRndTbzlqQk5GaE9PeTIxYWhRRWczR1ZVb0Jsb3Rqd0tUbURISTNSNWRsdHZqN1VIeml3dHlab2p0aURqVDJQTVF3TTZlVlNESkRhdWlkbnJjZm90WE1kMmVLQV96c01TRWc4NzRn?oc=5"
+    },
+    {
+      "id": "2026-09-22-s-gol-ne-royal-27894417",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle 2027 : Ségolène Royal, trublion de la primaire à gauche - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUXBxcHJ4YTFjVkFQQkwyTVduUF9iaXUzR3BiREdVV2FLbzJ1bjBsYU5Rb1RqVXNOZS15eC1MZ3ltOG0yUlZnTGlRX01qY1dxYXVxNWVhMi1TcnZRS0tDOC1xUFEtalctTHZ5TXN5ZUdtUnJRLWR6cGxrZ2Z2WUNXSmREdnczMDYtVEVPOThNbk5wQmVQb0pCRTZ4QjhGY1pFa3U1RVN2Q05ldjFTMUVKVGVjb3VZcjl6SzJVWTRqWjNyU2Q1MHZ3d1djeDdkWlNJR3hIOW9R?oc=5"
+    },
+    {
+      "id": "2026-09-22-s-gol-ne-royal-26225512",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle 2027 : pourquoi le retour de Ségolène Royal pourrait secouer la primaire socialiste - La Croix",
+      "sources": [
+        "La Croix"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVGVjTkNmUGh0T0lQd0hYWDNpUG1GSFFHYlRJTkNEcDZRZFRxOVdHcXFIMGpJQUJfTXhzanNyYjV3NHQzdzhJNjNpM1pwZHFGdk9ucWJGMGVRNEhQZUVXWExMZVBIc29ucVQ5aU9PVzNfRWUtVXR0bFl6SEVlcktrZUNKS1RkZHM3NjF5ZUJwbkhzWWs1LThneFByT08zeDlTb2tVdXpoc0lsWEl0czJYcjZhbEJxU2ZTVHhia1hzRFNhdjN3S2o4dEFlTElaTGVwR0xzcWFiUQ?oc=5"
+    },
+    {
+      "id": "2026-09-22-s-gol-ne-royal-08694990",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "« Ce soir, je m’adresse aux Français » : Ségolène Royal peine à faire le plein pour son premier meeting - Le Parisien",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOWGJaejUtRy1iRUpaLS1TZ3RjQUdkd3dYdlYyNmdFMWY0b3NXTHFFUEhxUVFKbVFSN1h0NVNMRTJ6dDFIeGpTMXNadUVYUm8xc2NXNUlabDVDbFp0Q2NiWjhkSHBRSVl1c3VuVEF5Y2NwLTloRkhxVjhUR2c3cktIcXpuWlc2czhpM3dvZFRHcnQtMEg2UmFpSXlvN3N0OUZ0SWxDT1UtOWFxZlZKZi1SekgxZ1ExdTVxWmxVU0luWnN4bHIwbVNwdDVjUTZLTkw4dXI3NlRHYXJLX1Z1NEVzcHVMbUVVQWE1VXlkN05QMzRkOC1NQUpaQ2g2ZllneE9GZTJlSjJjbmZYeFRnVDhTTHRaVWJQZVE?oc=5"
+    },
+    {
       "id": "2026-09-22-jean-luc-m-lenchon-78330375",
       "date": "2026-09-22",
       "candidate_ids": [
@@ -1564,6 +2092,247 @@
         "TF1 Info"
       ],
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxONlM2VmozQXpPLTZWZ3dkaVVQaUppbnZvRTVRcmhRckUzYkhCSk5UYjc3Q0hrWjJtYXJxWHJGWEFhSDB1VmR1WTVzeWwxQU5EV0JnaWE3bmc1ZHZFWUxsX2VHamhRZmVReUZDbWlYTmJobm1CZl81VFZxZ1lKQkFJLVlURnNTMGFLVWJoNnVLLUFhSU4ybEpGNEVUclJNZFVTMWdZaUdDMllONlo4dENSY0I4VDFzVjExelRMUVplX2VndGN4VUIxQjU0aUdoa2ZIc29ORUJOZUlKQXoyMlE2Mlo5anRScGFIUERzWVI0MW5ScXRXcTAtbFlQMjVQQUpMNUxhaV9zR2h4V2FXNUstbkRnSkhtdw?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-91407287",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Glucksmann qualifié de « stagiaire » par Ségolène Royal : la primaire est-elle une machine à perdre ? - Public Sénat",
+      "sources": [
+        "Public Sénat"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVEN1anJFYkJQWUFmejhVMFpGVjktckp2b3ZrbGpVV21fV185dVY2SVNHZXFiU2czUnNWLUwxLXAzSWE2RHg4ZGpCUjBCeUNkYWhQQWtXcmhMT3RDdERQUkNxMkdjRUkyb2JqOTczQ2Q4QUZmNEVwU2d4eWNkODBmcGMxZU5qd3RsSndnNV90eklnZnJsM1dWU3V5QjJoYjdPMVNvRzkwQk9UZElGeG8yeDYwUkNNeXIxMmNObVJpVG95THliRDRsaGpPcFgtSkNEZnZRYk5nLWY?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-78176070",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "Primaire à gauche : Raphaël Glucksmann, traité de « stagiaire » par Ségolène Royal, la renvoie à des postes « quémandés pendant quarante-cinq ans » - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQakxfdWVFRXhvSk54NTBjR1BpYy11TE9KNF9QdnQ0MmxpbndoTGFfdDc3eHRnYXR3MlhObGZCdWZuYUlPd0VWWVFISFZCNU9DUGtCR1RBQWVYUVFTOG5SLXFySEpsSFJSVTd3Q09VS1ZGdWVCUXJ6S2hBWlhzZGRLaWFpTHdsN0hEYXd6SlYyd0dLMzlRaUtheTFzdGg4dEF3OEtKQjVrcnI0eG02ZGtWdnRvbEhFNDhFb0pFa2pCVDEwcWdKUHRselUyNjFXNzA2SF96WGZPUjJEbjdQbzlxaUQxc1RLMXY4ZGJNbTRmQWNSZlJKaXhRN3dGanhpRURTalQydUZKYmh6YjVSOFJoVFAxN3NnYU9KbmNtMFZhLW1idFJRTS1XY2d2SlIwQ3JY?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-73281132",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle 2027 : Ségolène Royal, le facteur X de la primaire socialiste - Les Echos",
+      "sources": [
+        "Les Echos"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR3o4RDBhcnlfdDQ3Q1NrM1loakhuNjNiOTNPWUNjVFZPRGowaWR3cURUTGszZXdGclZHZEo3OFQ0aTBIUFRUNE5pM3JRTTV2QmV5cU9wMW9NS1Zrbm9PYUprTERpVkNNN0d6N0tLbnIzeDl2NnRpdGJnem5kZGRKaV9ieUM0NUpQT0RfYlJSSG5TRXVJeWxXN0VpS2V1SVptaTdsRmZVZmRSMFRBUmFGb2JiYVdqNm1LaFM3MERyMTBMRGpnbm9WSmNn?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-65522317",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "Raphaël Glucksmann n’est pas le seul à s’indigner que Ségolène Royal l’ait traité de « stagiaire » - Le HuffPost",
+      "sources": [
+        "Le HuffPost"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNekp2QVFteUk2Tm9EZjJvNDl6R09yZHNSdHJLY2h4MUlOb0RBbGdrWmZkbTFEV3Q3dHo2blB0SUliOG5lSER4RzdHNVkyMGw1UW9XZHROUXRNSTJqbk44anVIaTlxSDJEdTNHc0xMU1JrUWo0aFluQTAyWVhZWUVXOFhiek9fV1JyalRVWHQ1X3doWTVxdmtSWnJralI4WDZXbHZXck1seDFIYnl4ZnRPQmkwdGRUbGZNV21HcGhMTXM4SWhiVXhSY0R3LVV2ei1MYTdzUTI2RVB2RTFNbWU2X3h2UERHQUdINVdOYzBmWmNDdVU2OWRvNF9n?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-51359899",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "\"Vous ne mettez pas un stagiaire à la tête d’une entreprise\": Ségolène Royal étrille Raphaël Glucksmann qui lui répond - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc1ZjUUF4dVQ4YmlsVW12S3RZZk53ZWlkTlhGU0M4N0VRclA4MkV0U3czN0JKQVc3OHBSWEp6QlMwRXRrSzRteTRhY2xvWXVmTVpfZkdtSkxQMXc0dW5UU2F0RF9PM2VHdVZ4eWVzSG5NTlhIbHVlX3BxU0FTSW5ZY0tLZG1EQnB2OW94ek9laXJvOTRIQk9UMmZTVDlRbWdrY1FmODlvUDBrZTg?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-46454861",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "« Des moqueries inadmissibles » : Ségolène Royal rappelée à l’ordre après avoir qualifié Raphaël Glucksmann de stagiaire - Le Parisien",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOempMZ2NDTklSanFlTzFxQ3Zla1d3ZmM1RmE0Qmd2ZFJPQzMxNTlQeF91ckRUZUIxSkU4ZlV6cFYzblFOaE04SUdUcVFoS3hFSDR6bGFmZHV3aEg2WlZTY3ZGSzRPWUNhOVhyU1gzaXhTUnhIN3VkZFpiQmpPajgtTUxYdTkxaEozSVAyVDU4Y0Q4cG1ucG5ac1hBbV9tQ3I4VTJod0x6U0VwaXJ5WXZRc1dUV0dGWjRlb29ONEdfbm5kYV9lMHp2em9pTEtDd0VOQXRtNThqWWpXQjJzX203YW94UEkwWXVReEhlVm9wNnNCenVfbm8yRzRfNk1MRGdxX0prTUhiOW1aMExfRVNyYUVRMkRLT2RTVkhxVFlOVUlQRXFEVmpqVjhRM1dFaDg?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-42793757",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "«Je n’ai pas quémandé des postes depuis 45 ans, moi » : traité de «stagiaire», Raphaël Glucksmann répond à Ségolène Royal - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNWE5fcjViYzVDOVJQdFJzRHpSZGxKamNGazEtdHNNRGN5d1Q2YzVuR0dHUGxHd1Z5MWFsbWdLQV9FVF9PWkJKT0tOc1hBUk9WNzgyamZqNDJjQmR0Nmt0V29NbHowcl90dksyTlMxSHU3WDdYYlZBRElYWERqRWhxRzZMdnpGbG9nb19VbmhGNVF0SEJWa0N1TkpEOVNCc3B5OGNEanJOMUpZbDZkMHVzRVJfb3pObzZNdl9DRGRoUkdrZ2w2MHdNY3BaRng3NlJSYlRFeGdrN0xIVVl3WVNZVjJCT1VEczgwQXY5eFl0QjlfaUFpLVA3TTVSNG1yWE8yX3NURVlyUjNzNks5dGhwMWVrWTdyWHd4WXJxdEtJSktjSklfbmc?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-40122938",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "Ségolène Royal rappelée à l'ordre par la commission d'organisation de la primaire socialiste après avoir comparé Raphaël Glucksmann à un \"stagiaire\" - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNaHhVOWZLZVpNSWNhaXpYR1h4T1Z4Xy1IV20zOFdJNVhDcDhuanUwaHg5dXIwaHpVdkx0OUZJeGhnSE4yZVozczVZdkFKdFJqbUY2eW41NTdlMWhyTVRzTGM3N0M2dnY5MVg2Vy12RXpRSDRzOWVhQUQ5VnpsUWgwdTF5a1BuX0VFX2JFMGhycWJ2eVZqNlZuYlk3aWZoeFExQ0FXdm5KZVM3LTFHRGl3bHlzZzlrVm85Qy1jbDU4QkhVQkhtZnlRTTBqMjRUS2lMWjFTaXRnOGxFSDcxdXBoV0pDc3JCVnVvM3dIemh3bHRKamV6N3FEdnZKQ0RyczgxVFBXZ2JzblRWeWZWUVoyQ1h4OTVPZmZCNlZrYjdqSGlGNmFv?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-39466659",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "Raphaël Glucksmann, le «stagiaire» : Ségolène Royal électrise la primaire socialiste - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPN0NXWGgxNWwzeDBsc3V0VTF2MFVOTC1URkp2T05XMlQ3RkZGNkdWZDltWDVLaXJ3eWRubU9QVDJrSTRPUGZtYl96WjRHNG5TZ1NLeUlPYmNhU2ptUEpBdUVkNkZBd3Z3UFQ0aE9SRDZGVlJYY0tqbEJjZGRteDFXZ3pLbUNxejlZVVdOcUJjS3pES29BSVJkX1hwQklBMFBkSjQ1WVNlWEUxRG5FckJTUEZpWHFoM0VLZ3g5Wmd0Rzk4LVJCb2xneU5uT1R5WExUdXg1Mg?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-39196212",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "La riposte de Raphaël Glucksmann à Ségolène Royal qui le relègue au rang de «stagiaire» : «Moi je ne quémande pas des postes depuis 45 ans» - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNNFVzUG5tMjlQZ2ZsWTZvMUM4Y2YxUTlVNjNIeXJxcG8zaDBnQmdJelRvSjlHa09NTjl5ZExhclB5UTk4M0NoYWVVTDg5MWhsUkM3ZEdXQmdpN05IdkFRdmJERzZwcUsxZ2NnZkpzZi1nQUxuaHkzQV9feEJSOHpUSmxtM19NSTB3ajhiUWlQdFpHMW1vWVFpNkFlbk56TVcyWDN0RUZFQjctMkRjbzBxRnRSZlZSQTE3cU9qZmIxYlNxdnFnaWhpdzk0anZqUXZKVVVDb3dneVhiNUlyN2NSTDVmd09MLXZ4R0FfZmdZcjd5MW9UTVdoTEJEdEVkTm5WcE8wNWY0MnBKc1ZYY3p5ODkybUNZZ0hpYVU0eFFFajdnZjNnaWpfVGRBWm13LXM?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-33843772",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "Ségolène Royal allume \"le stagiaire\" Raphaël Glucksmann: \"C’est une grenade dégoupillée, le PS sait qu'elle est un danger\" - RMC",
+      "sources": [
+        "RMC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPMjBPakxnLThiRlh4WWZFN2NYN0ZQZHJ3dDc0cG52ZjNlZ2lVLUNxVmpSX3EwNmcwenJCS1g2dTdrTUVaRHRHbkRoZDFqbkpiU1pZckhBQ3dnbUFGY2JhOXRaQmEtbXJJOTh3WUJRY21JUXh0Y3NWckx0VklCWFNvOEI4a1dadkl5NmNtU3NENkw1RnhjaUl5Vi1MV20xRDc1U1VPZm1BakNSWVhJQ0VuVF9EOU9BVm9SaVFWYUdmamZvYmZhazcwbnNfenYyZ0tFRVZpanZnSXpyR0RGWmZKYTBuUWNFdHg5V3VyVktaeXRiQWJDVzZ4a0w1MDEzQzdCWDhPWE1TUDFKckhFVmgxRHoxVDZTMzRMNS1zT1dSYnE?oc=5"
+    },
+    {
+      "id": "2026-09-21-s-gol-ne-royal-21565068",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "« Il est stagiaire en politique » : Ségolène Royal tacle le candidat Glucksmann et se fait critiquer en retour - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOX1NfcXdwSDVLSXZ6aVQtUURTM3gyOEpqM2ZKY1lRdC1RcFptdlpMZEZUa1kzSXgxMGw0RWZQa0hYckR3S3FfMlpwWUtobkpWSGZVZ045SnZvOFMwMG50andIdndCVkctWlFaN05zeTcyMHo2bFY4djZETVZnNVAyU2JRSUlLWWFRd2JJa2hNZVo5RHhtRFdURmhQVVVDbXJveWNNRzhGYzZENzdfTGZzcXRBUlhwcEJBUVNsbk02UTkxUW1rejNIRC1EdlR0NFhSVktOeEdJOVlpbnhQOTBtS3RxMGlyZVJydGUxTUxlN2E5WmR0T09sbWdVcU53dlRxakt6bjBYa0VhTU5V?oc=5"
+    },
+    {
+      "id": "2026-09-21-rapha-l-glucksmann-71871215",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Raphaël Glucksmann : \"Mme Royal ne gagnera absolument pas cette primaire\" - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbzVub0gtMm1XS2k3VUpFcDhrbWRYS1hRTExmNzRBU0JjUHZ0N3NrVklyZXlqTmZwMC1NM1kzVjdTV2N0VnhRRjI5cGh1cS0tODVnY3ZtaEZ6LWQ1T0R2QVNJVGRKN1FldUo5SDRHdzZBM2U2UnpsSmVMYkVCYUZNSWtQMGlXazNrcVlQTzduNFlhTnI3dUlzMkMzc1lDYmpSLTJFY012cEFfcUlabjJ5QUltS0puVGtGd0VyWGdJUjFhVWpxakYxeDVodk15SFV2bEZTNlhsMDg?oc=5"
+    },
+    {
+      "id": "2026-09-21-rapha-l-glucksmann-67765238",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "\"Ce type d'attaque avilit l'ensemble de la classe politique\", répond Raphaël Glucksmann, qualifié de \"stagiaire\" par Ségolène Royal - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOQ2w2SXZaSDdubVVDbXB0V0MzaTNya2h0bVNkaW12Z2o1QUJ4T1dsMVp6Z3djM0dPUzEtYUxmVy1xSHNXMVNGZ1ZiNkJnak5taDc3TXhYdWJnbzRDY0Fqb0Flbi1XcGlMYTF3U2NTU2ticVJZVTdYa2JndENMZlhmVkpjWEtUSWlDRXJ0YjlFUmZkV2dFS1hEczVQbnVON1g3RGtKalJnYU1IU3RObVNRQjc2NzZHTmNkeld3cDZ1UkwyZ2Q3UGFqbzJpTXBUQ0RyRzdxVllwM0tqS2JBNVV1OXMzMFdLajFNYi1zVC1OVG1vQnNwRmpmVjJaV21jZGRHb3ZWVmhLbzROYXNpaUZoZ2U5S2dQVHlf?oc=5"
+    },
+    {
+      "id": "2026-09-21-rapha-l-glucksmann-62824554",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Primaire à gauche : comparé à un « stagiaire » par Ségolène Royal, Raphaël Glucksmann lui répond sèchement - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNNnVxVFRoNTRXc2lTWFl6SlBHZGFoWFJJZE9LZW1zejNEdy12Q1RHN0RBTGtBVGQyRE1tbUhzeGpBVm5UczVOV3ZRMWoxcGxmQmtsdTB0UDZhQWZFODNmang3VE5QREF1TGdaam0xTUUtVENhaVBDUWZ0RXVDcW5RSGsxR2hhV2VJRDAycXhkcEhwcHBkZnJmcEI1MGFNWUE3VTZtX0h4RXJ5a250Wko5dS1HZ2k0YlViM19wNmJYQnlySXh0NlJENEFNR0x1TmRUSmxpRzgtemlVNlFHcmhMN3dYdC1XTlBXSHZHM3QtcFpFOXpHT0x2Y0dJZnQ2MGY3eGtmaXk3YnQ0bUROb1lqYUE0clVLWU9LWWx0anZZM1plZlRPdlp3X2Zwb1hkdw?oc=5"
     },
     {
       "id": "2026-09-21-marine-tondelier-39940160",
@@ -1686,6 +2455,151 @@
       "url": "https://lcp.fr/actualites/presidentielle-2027-ces-deputes-qui-vont-faire-la-campagne-de-gabriel-attal-442222"
     },
     {
+      "id": "2026-09-20-s-gol-ne-royal-85672688",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "Primaire à gauche : Ségolène Royal critique le manque d’expérience de Raphaël Glucksmann - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTmZhcUNyaFBzb3RHTFZBT0RndTdoRWt3Tk56by1tTmZnUHJnVS1NTDFPN3J2bjJ3V2NaMDZvLURIV0t2aU1ncjhHZDljdl9SdFdlR2MweHRvUTFPUUhlTFBFN29ZTVBGeUNWTEZ4elFOWHRZeWgtNno2cXpPU1h0c2g0aXhQMHgwcnRUQjcyVTdib2dWSlktSFoxMnVfVU9KTWFiV2J4NmdoTDJyVlBmU1VueWZfSHV6bUdrNXdHaHlaVEJiT3dVRmJ1ekJrZXpYSlhrakhXMjRLbG41SXZuejk0SzBxbHBfNmdPSW9WYw?oc=5"
+    },
+    {
+      "id": "2026-09-20-s-gol-ne-royal-77275727",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "Ségolène Royal dézingue Raphaël Glucksmann - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNM3MwT3p3ZkhyNVpJNWc0UWFCUlRVNDVKVVZzelpzbFJralBnWHE0UVY0dVZOSm5QSmlyUU82RTZqLWdHaE50YXFpUURmejVXdlREc3dhQnBMXzVpWVhjV3ZqdU9FNU4zNHJGZHVTSnllXzBiMjNIdWY5LWl6aDRMT0FDckp6cmw5OU80MkRuSTdUMnNQYUtnUWNtYjJkOTJfNk9ZTE1hQWV6ekdhdHU0Nmk4eEpzZVVHMGZQT1lzT0p0Y0F4YTg2Zjdoa2Y1eGM?oc=5"
+    },
+    {
+      "id": "2026-09-20-s-gol-ne-royal-68772386",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "Ségolène Royal lâche ses coups contre Raphaël Glucksmann, un « stagiaire » qui veut s’allier à la macronie - Le HuffPost",
+      "sources": [
+        "Le HuffPost"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOZk9KYWlYX2w3OXNDVzJYeHhfZkthSGlSYnpmT2RuN0lRc2w1OVF3OG9ab3JoVHR5aWpsTU5ZYy1NMkZodUN2eGxlc2x0RXBqMzJtcFZSbTZlckdDSHFpOEpFV21JVzFmQmJfcmFkTVFUQnJnaDRTcTlDSHd5ODQzT0Q2UGNtRzRyRjViQXM3dlJicE5Bdm11enFpUWsyWTBuQktXaWtsSTBoWlpjM3JCZU9ycFhHUDFGbkpFR3VmUkphOE1HNXpxZmhsWEdGRXVvVFFkekVRNDJRN0lGZkE0eXZDZm0zbTB6akpYQ0ZWY3BCTHc?oc=5"
+    },
+    {
+      "id": "2026-09-20-s-gol-ne-royal-34451861",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "Ségolène Royal : «Raphaël Glucksmann ? Vous ne mettez pas un stagiaire à la tête d’une entreprise - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTHhwczB5NGJva0p3dmpGODJFeVZhUmthaDA2NWxtaG5zMVpDaVI2N0pIaldqQTZNQ2lORkptMnlYcjFSMjJZTm04UFVBa3F3WnA3anU3Zk10TEFwVEFHQmpPMHg3VVdFeEN0LUdoWExUU2NCZFNuOUxkS2RZNHZ5YVE5YVowWnJYMExZdEZISV9fX0xIcENwdUNjbThjYmtiQ2VXa1lySkJSQmhfMllTbjNWOXZqZ0Jkc2VrVHdpdDJLVEJwLXVaTy1vUkxsM2lHQ05tWlhpVl8zZ0M4TUM4WHVzTXZ4eHlfUGo0T2RuRXR2YmVRaWRRU21aeUhIVWhCQms3RXotR1BKU0U?oc=5"
+    },
+    {
+      "id": "2026-09-20-s-gol-ne-royal-24450982",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "segolene-royal",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "«Le temps viendra pour lui quand il aura fait ses preuves» : Ségolène Royal relègue Raphaël Glucksmann au rang de «stagiaire» de la politique - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQUl9RVW9uRzNRMno1c3NRa0dkd1Z3U1plZ2p6TWlOUVVTTjhJeEpxMV9tOWlZaTZkNjdXa0VHcmYzY0xHa003dEFPWUVFTDJmdUViNnBhUWdYMWNFLXp3bFJUWWE3TnVXT2dmWDh4MnRTNWVQQURYNlVKLTl1U3lQRnplVFVwWnhVTmtjRVBZc3JyWWMwcFlwSk5VaENCb0FjUDNXU1hRelY0U1RIdnNnYVotVUJPbkJ5R2NsNmdtSm1MZlVRZ1JfUkx2TUFrVFVrNzFvTzBvdWxZZjN2OFo5V2JJTkpwTmVCRzlZVjJRVkViSnVCcGZNQmotOVZDWXVwY012THZIM2Jvbm1kdHMzZUdROGJkZ2hldGJtNldtc2FYVlJrQmxib2VPNkc?oc=5"
+    },
+    {
+      "id": "2026-09-20-rapha-l-glucksmann-40311887",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "« On va m’entendre sur la ruralité ! » : à Bram, Raphaël Glucksmann à l’assaut des campagnes - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUVhjTWhsbEwtNi01QmxheHNtVndvTTlwd1N2WUJzenh4VVFoRXRUOWNlYXdQQ0I1YzZIU1pQNVZxMFZFY2xMcTZubFlBNEhKMEp6RVhqNnFueGJ5LVN6RDd0aVBIenc1OE9uRkJKT1RwTkZjZUNFMUZ6QzFqMGtFcE5LeV9va2RsWXZ4VFU3cTBYNkwwc2oteFhhQTk2SHdQTjJnTDR6ZENDQUptNWpmbjdXLUR6NkhJdXBMaHdpYkprck1NZFY4SWxJUzRaeFZ0VFB4bElqUTJudw?oc=5"
+    },
+    {
+      "id": "2026-09-20-rapha-l-glucksmann-22703391",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Présidentielle 2027 : à Bram, Raphaël Glucksmann s’offre une cure de soutiens - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNWVvQ1dEaHplU2dVbFVuOGdhZFA3T25EclhUWU1tcW05SUY2S1EzSi1ab3hRVUhValhfaTVDT2d6b09TcE54SkxQRFVhdzc3MktMcnRQWFdLcWFkNUZLVFZtd0k4ZENqa0FZTkQ3N29sTFYxOXMzTlZST3labXpLaUZoMm1wdEc3RzI4RjBmWGZSRTNES1VXUi05SWdVSlZPNVRLRGkxZXpkZkw4U1psRWxTV0NlZUx4UTFqZ3hwZXhvcm1DSFpNUHEtNmdTUQ?oc=5"
+    },
+    {
+      "id": "2026-09-20-rapha-l-glucksmann-19080743",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "À Bram, Raphaël Glucksmann se fait adouber par la « gauche cassoulet » - Mediapart",
+      "sources": [
+        "Mediapart"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZXRXa2pYdWY3RTN4ZEdUd0J0T2dmTHlDOXlWODFEVkVYQkg1OF9aMVFqR0RNeWxRY1BZX05BQkk3ZXVlbTQzWHBmX3BER3E4TzRpQ2tFQnU0Qm5BNGpXYnl6U2VCN0dRWFlScFpXdk9tZzFjNGxuWHkwTzZEeXZHZ1YwT21zLXlsNTJqZFlWVVNRV2c0RDZwOG9lYks1eGNoVkR6c0xMeUZGdk9jZ1N6UWY0SQ?oc=5"
+    },
+    {
+      "id": "2026-09-20-rapha-l-glucksmann-00898698",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Présidentielle 2027 : Raphaël Glucksmann en campagne dans un territoire rural pour tenter de casser son image de Parisien - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPSEZSbUxVaUNFVmZaS05hOXFaX0l1ZjdYRUhVV2NqdFM3alBZTy1pMlBIeVVaM2paTnhnYUhFWklZb2JYbHhBUVNERzRGR0gxVXJBbURvaFFYSTdkaEtjMDdKdmx3LW9ZcHlwUm5hREdXVFJqU3NreE1LaEs4OU1KUS1uTzZia3B6UDlKUzlkbTdoUzVGSl81VEp2dURsMkpzRHdnQnBRNVZmbXRFXzI5MFduMFdpbTJORnVQaDRvLWluRTdzbFJQbWZRQld1Sk5kVFJDUkV1eDRXLVlGeVFVOVFURmtxV1JjNXhubFpoUHRKa213RW9OZE1KSk1fRkNz?oc=5"
+    },
+    {
       "id": "2026-09-20-marine-le-pen-64676473",
       "date": "2026-09-20",
       "candidate_ids": [
@@ -1701,6 +2615,66 @@
         "Le Parisien"
       ],
       "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPV0VyM3c0RTRVRk1GV3VpNmg2SUlCaEJlelN0RERXUzVoT2ZUSWRwaU5nWEJJNzlxaHpnSHZEcVRpUUxzeU4yT2REd3hiZ0xKaUxadVFjLWRTLXA3YmpaWExVZndtOF9HUzdlSk1JSExxV1dkbVZTWUphcnVfTlUzMHdxbHVjeTlHVmd2TFV2VVVPdWVlQ1dYdHp2RDJXb1l4YVZPd0JFT3dlemIwamRNU1RvM1lldkxSMlJlQks5cktPSjhRUHdqRFYyNDlnaEtzRHlFUUZuaDlpYzNnQ3dHWWFWTzNyUXZNanZONGV0ZmNiLUNOa3I1SDRjM1V1OTMwNmplUXdfaHY4RTZ1bDhEei1kMUNQNmltanVEYw?oc=5"
+    },
+    {
+      "id": "2026-09-20-j-r-me-guedj-60211592",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "jerome-guedj"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Philippe Brun réclame d’être réintégré dans la primaire de la gauche, Jérôme Guedj juge que le PS est allé «vite en besogne - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRGEwNmNOWlhHLXZiMVRUXzNacS16UjkwM24weDM5cGFSNzliN2lkVWZQUmY4ZUpiMUphRVU0NDVrbHM0RWFaS2FnNk8wcnVwLUVxYjc3dDVleU5kTm1RcUljSVBMamNTQURUWlI1QjVkc3NDV3FrNTBSdkZRYUc0MjFjNzlBc29JcVpUOXVsdGJFa09Sc09DMF9OTE1fUGc0c201R3lvYUlTaEFicktPdDFqWV9ocl9jcEZ1TTNWekRFMFRxaFlUMmg1N2M4NzZyMnVSSXQ2dFBCQV95VDlUd0EzOUVTSlhuZTN4eFBCazNfTS13SkoyU19wX3RWNXNCQi0tYzd3Ti1qckhYcTYteGJ2ZGp2dzRtd2xYclJ3?oc=5"
+    },
+    {
+      "id": "2026-09-20-j-r-me-guedj-59929330",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "jerome-guedj"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle 2027 : Jérôme Guedj dénonce la suspension « brutale » de Philippe Brun - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNTDRZenJlOFQ4WmRlYkd5MHdGdm9nN2dIblZQWVpBMTYzdkZHY3dxQ0VXNHJJZ0s0NGVnS0t1WVNPblpKOVV6RUxmSkRWM1hZd0JJMHVGZEpXNWZCbEpCMW56bHFnVTRGZUlJMzJUSWRNYmNuME9HTk0tRjFjZXhJMnhwV0U5TTBhMWlGd0FLem9SN3plS2QyaVJnSlVudjlsTDlBclktTW04MFdmVzNzRVdZQkRncGx0TEp0QmE5dFpBNldxSGZmb0hwUVRRb3k0LThoaUVLQ2xlT2FEdVI3bVpOdThfbnV4STVnM2Nhel9pTzdFT2NwUnZyODYyaG85?oc=5"
+    },
+    {
+      "id": "2026-09-20-j-r-me-guedj-32556270",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "jerome-guedj"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Primaire à gauche : Philippe Brun exige sa réintégration, Jérôme Guedj juge son éviction par le PS précipitée - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPVnBXNEF0VXZFdDNGVV9KTkJySEdtRmljbVRZeGpKTlRBVUZUdlNxS2s2Tll3Tk5DbUxHZVJ1enR4SlNNNmJkZ2ktaWQ5azJlQmROaG1UcEpCc1RiM2QzRHJHOEFUSE15cVowS0p0WW1RX2dyd2R2QWdmVE1JY1FLUUdOWFhzbzlZUzd5M05fSUsyX3ZuWF9MUEJ3cy1Nc3kzVTZBYmxIcG5sT1pnRTRyWEtNREo5YUZBRVlvemNUVzdyR3NCMDdIa09rTEFCeFJPTEY5VUVfY2hEamFOZlNGLUVpdzJfX1pJanVReFgxYnM1cHVVSUdlaDB0RWNoMEQ3Q3pUY1dpVS1QWFZQWFZha2MzYw?oc=5"
+    },
+    {
+      "id": "2026-09-20-j-r-me-guedj-20798171",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "jerome-guedj"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Accusations contre Philippe Brun : Jérôme Guedj juge que le PS est allé « vite en besogne » en le suspendant - Le Parisien",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPUEdIamExejh4XzZIYVdwQmV1MmotampCLVhVM1RaOFJYaFhXNFhoaU1HWUV4aDEzWFdqOUc0UlppdFlqSnZNcHpXZlZCXzg3Z0FDVWxya05NSHUyNEc4ZDFwZnN5UFVRZzEzazRsNWVhZHcwd2VQajU4X013MFVpd1o3NktvRlhhdXdRRlFSWHJacTQzeFBFOHFjSVYwYkUzNkp5ZjZFMzRLbjk5bTZ6SkRPMDdDdjBKRWpGNjFzUXBRbmpmblJSeHJCWEl5WjRJMldIa1Z1VGZqVXBITFFHY083UHp1dVp4eXlUVkdQU0hTdDlfSFNaUGV0XzdEMzQtRUx2b1Jzalh4WEVkTERCalZmbk9vdHA4QkJQWExLdEk?oc=5"
     },
     {
       "id": "2026-09-20-ecologistes-strategie",
@@ -1731,6 +2705,66 @@
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdW1GZTVWcDVKTjNzUnlQeExsLXVscFAtTVVBVjVnQnBJMzVGckEwWTZfc1M5MmZQUnpLTGlGMUhTTmFuOVJJVUJhMFlnV3JvMEh0M05ySjI5UVNaUllselVhU3F5UVVXX0F1enlMUHhoRUFyazhPMWlQeTBuOGhlV0kxUTdPdzY4NFFRUFhuY0pUdzk0dzdLd2JySzFGUXBSeUJHTUhGcjFEUjN0Rm9pcVFSWFNOc1hkdzY1eW9CeG1CTzBIWEY2bVFnY3ROdTdWb05xMW1LdjlONFdJNUZDOTJTdlJ2RmI3Zjlj?oc=5"
+    },
+    {
+      "id": "2026-09-19-rapha-l-glucksmann-49370567",
+      "date": "2026-09-19",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Présidentielle : sur les terres de Carole Delga, Raphaël Glucksmann veut «refonder la gauche - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNLVRBUGJLbDhzUnh6LVlia2dhcEw4RDcyWUZzdjNvV1EzRDlxd1ItTXc2TkpxNzAxQ2p5by1CT3poM2l5OXdTSE4xQk92aXZoQlZjRmcwY2JHdFBER2ZfbU9OTklnVElCTHZuM1RBaXNkR2w3d29YMURsVWxZMVFTQTEyUXRaZjNWQ0QzeVk2WnJOb0JLQnlFOHVHTERhQ0lTQ3M3MjJIRkZGU2Y1R0Y1RVE4QlZUdC1pR05oTzhpVWo0Z0dZZmgxMkhHSlQ4VURiS2p1TGhRQmN1M05fV2I2VEpYOG5FWTNwRDNrTmxueEVwak1mM1RqS0poUHZuYkFj?oc=5"
+    },
+    {
+      "id": "2026-09-19-rapha-l-glucksmann-36634507",
+      "date": "2026-09-19",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Présidentielle 2027. Stéphane Le Foll votera pour Raphaël Glucksmann à la primaire du PS - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQX2FYY184M1FLZzJubzZMVmRkdERwZXp0SDF4aTR3RWhWTG1yd0tqQmpGTEs0aEF4V2xCMzlpOGF0dnFieGJTR1NQbEUzY1lHc0VnRlYtSmg4RGM0MFpSbkVpTWd1cVcyTVp6OTJWWllUemlFdHVvMVVWRk5pV25mMEdHVy0wU3hKSzd1ZFdaelR4Qy0wdzJaUWZwb3VmcGU4VDU2THowWmc2RlFXVE9qTzRGYmFlVDZxRkRWWS1rM3d1Yzl1ZmdFbjNFdFBIcXQ0ODZSRWNoTFlEUWVvS3lTWDg2bV9kNVB2S0k4NlFGazZuRXo1aFVPMXlvYzZUTE5oN1NCRlczWFU?oc=5"
+    },
+    {
+      "id": "2026-09-19-rapha-l-glucksmann-09578336",
+      "date": "2026-09-19",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "En bras de chemise et savourant un cassoulet, Raphaël Glucksmann à la rencontre des militants de gauche à Bram - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOdlg2bEZKZzIyZ29mRUUzT1pkdy1UVUdGSGdnT2I3SkwwYzdsdkZIX011VUdaNF9zREMwS0hLZ05SVXNUWjhfSTJGYkxEamxMMDBhMTRTT0xiNFMzRmkxYVZsdnhmR2ZTRmdxSXhiV0dRdDRlcDBpR1lrOV9PXzdaOW5YdUJVSGlNSExXSDFDdUpmYlpKVjZKT0V3NXNkT2JsSW5iLWNxTFQtb2hFU0NDZWZVUEJIWkRjd2xRaFpCbk1IWE9ZdkVGMHc4RW1xMGt4Ykkyd0JjMVlaRzROVWlhbngwazk4NDBhTmNEMktJNEJWU2s4a1JQczJDR2VGY2dfZUs3NUpWZjFMcHpwX2ZJT2xYRFRnSFhwblh2dVRWRmxRNGNibUxzbHRtYw?oc=5"
+    },
+    {
+      "id": "2026-09-19-rapha-l-glucksmann-05981964",
+      "date": "2026-09-19",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "« Il n’est pas au PS » : rencontre avec des militants socialistes peu enclins à soutenir Raphaël Glucksmann pour la primaire à gauche - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPeDhHc3ZLWUZIMjVsU2lleUwzNjVrOVVlbklfRnJiMEZPYlVtbHZEanlPSWFhZXdfR2Y3UXlYNEZENXNYYVVrUXZuZGhhc2RvT1N2MGxaSG5hS3k5am9MMkh5bXRZRWxJOWJNWXFqc09BZTJOdXhITUxNb3c0ZUIyWm1qSF9MUmk4aDNoaWlWSHlRS2VxY0ZRYVNZZWYtVjFCcHRubVNRRFJnQzRReHNLeDVLMmVGTkVjeEV2bmlaeXk1VnAwcVo0cllSZHpoVlpZa2RyYk5zMjBULU1ZZHZQQkFRb1JiRzZpczhHSWdQRGQwQVBkMkRjb1VDaEwxaUs5NXBsNmY3bDlYa2VadmZvN1BKVHhmTGJjVi0waEhtbHFoLVYwWnc?oc=5"
     },
     {
       "id": "2026-09-19-marine-le-pen-99485707",
@@ -1821,6 +2855,36 @@
       "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
     },
     {
+      "id": "2026-09-18-s-gol-ne-royal-56021141",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Ségolène Royal l’assure : «Si je suis Présidente, il n’y aura pas de mouvements sociaux» - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdFNQR3A4cWFiV2h3S05mN0VkUnZrZ2pHLXJ0OTg3Q29ZVXhMaVRWeC1oUWtxQ2l3WlZza3hqb25fLWlkMjA5TzUtLUwzVTNwbGpxcUN5U2VNMS02QlVWQjdJY21Zc1RJWHZ4MXdJZFJwVTlmdEdCZTRkZWdwZ2JWN2ZEUzBuanFtNDZJb0NmSWFSVHN1aTFVT3o4ejFBV055RHZBOHFLT2xTZ3NtclR1R0FlZ0paNFhpdHVSZ3FqbkVDU1BqemVocGtzS3E0VEtsNmJ0aVF5d3NHUDltUEh0VkRId2pEcUt0SWc?oc=5"
+    },
+    {
+      "id": "2026-09-18-s-gol-ne-royal-16477249",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "«Si un jour je suis présidente de la République, il n’y aura pas de mouvement social», assure Ségolène Royal - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQaHpCLTlSMEgwT2phdm1yRXNjZjVKNnMxS0pmcFh4ajV0UW5ubnUxRDBUUGdLdEE4T3ppUzhJRXJlMjlxZzhYRWxLR0ljM09VTEdDcjlnWUxFWVlWX25VSUNzVmdjY0d6SVJUaUYzUzRneHdkX0pGTlRHbkQ5UmRjZnhEbDRpX2xsMWtuVDB1TTFqOTlELS10U29NNnhuc0c2b0lQYlBWVXV6M0IwSXo3MEFPOE1vb3NHS0FCMmxmUGc0MkYtM0Q0MlBFdTB4SnYyNzNrcnRKejY5OUtnYWRsZmsxdVQ1NFVqaUJaZGkxLTBWZmt5MVFUTWQtLWlnTk9oT3pWWDk4SlR3cW5n?oc=5"
+    },
+    {
       "id": "2026-09-18-ric-zemmour-27836224",
       "date": "2026-09-18",
       "candidate_ids": [
@@ -1836,13 +2900,60 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVVBxRzI2bWY3UkV3OFAxLVNhbVNxRGR4NEJta1dpNHZIM0JmcktLempZVVExNlphcmwwQzZuOEp0SDhtRl9MNnctVk51M0NWaEhxbEp1QzNRbjJjRVF3cUUzLW5zbS0wVmdWS1hiVGlydGFMSE9iUDg1ZDZ4YkNJMmU2ZFRSb2VSOFYxWHdzR2NIOWxpQjZlWUtGTXVob2FnTnpOV2Z3aFNTTVh0eXl4TGlB?oc=5"
     },
     {
+      "id": "2026-09-18-rapha-l-glucksmann-57097326",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Raphaël Glucksmann promet que la gauche peut \"transformer la vie des Français\" - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQODBXd1hpRmZONWlrNTJMZ19qMk9SNmhNVDFqZkdiT0VQaENaeHE3NDJ1U1lrUGhvWVN5YlRFZlBfbzlxTVRiTkJISlBLLWJ3d2FGUElNTVVMeVJXX3dMLVZSQnJhYm04X0dCbmtSR2NDSml4VWdWTDZyRUNTX2RCZFRzZHRRODJhanN4akFkY0FXSkRLeS1zei1ZdWNBMXd3V1dhU0p3UHpBU1NPQmFWV1BaT3VyYWxmNU5SYnJaRktsOHM5MUZJSlNfREFxb0t2SHBOZS15aw?oc=5"
+    },
+    {
+      "id": "2026-09-18-rapha-l-glucksmann-17474804",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Carole Delga : «Raphaël Glucksmann est le mieux placé d’entre nous pour gagner la présidentielle - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNV3RBMzlUbUtBQ3U0UjNvZXJRbmpSSFZfcVo2Q2dVYU1KVHdiWkdRay1ZSEd0aURSYTZZN2VOd21fb1lrQ190Y1JDcUFnSmNwb3JXVHBtM3lvZlN4cjhVR19Wak1zZlE2RlQxWmlobVZtTFYtOG8zYWVUV2hvS2x1T1ZnS3FvamlILV90ZmxrLTJpSl8td1lWX2gxampZOUJhT0l6T0pabnpwWUJuTUppZlljMWlxSUpnUVhLU2ZSa05tc0NuM29LbVRUbnQ0VmpCbzRHLVp0SVJmMVh1cGRfLVNIVU92ZFk5bEwyT0FUOHhSTWR0MlhMTw?oc=5"
+    },
+    {
+      "id": "2026-09-18-olivier-faure-88193899",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Olivier Faure : moins de 5% des voix, 20 sur 20 en langue de bois - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc3JWckhNYlJCQTkyaEotTTdGMkpjc2lRUng0OFU2UnNHcHB4bXktVmNCRF9fYkJoTndnajJJYm1OYnpvb3c0X05TY1dLcHp0WEptdWdaTXA3LVluQ2w5MTRKaC10V2xyZDRHRmo4ZWFMNmZTOE1DMEhRbGVLMWliSnFncDcyYlI2VjVIZjUteTd0LWNQd2k5RXhrMVhoczNjb2ZYY2FqdkdobnBVSmpRLUQzZURBNDF6Z3FF?oc=5"
+    },
+    {
       "id": "2026-09-18-marine-tondelier-42025274",
       "date": "2026-09-18",
       "candidate_ids": [
-        "marine-tondelier"
+        "marine-tondelier",
+        "olivier-faure"
       ],
       "party_names": [
-        "Les Écologistes"
+        "Les Écologistes",
+        "Parti socialiste"
       ],
       "summary": "Marine Tondelier et Olivier Faure portent plainte contre Maël de Calan, président du département du Finistère - Ouest-France",
       "sources": [
@@ -2111,6 +3222,126 @@
         "LCP-Assemblée nationale"
       ],
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN2FlZElLRXJDaG1DYmM2TDBaQl9GZTA3N2dGaWU2OENBNy1JZzgtQmQwblVWeDNuTzIwTDlfSUc5N0thMjcwZmZUQ25SZGN6WHJmbUxpV3VqX0lzUWJtcHluYmRSd2JGS0ZnQVBENHE1MDM5akJ2a2FQNEl6ZU1maEJMeHZpNVdxejhna21WcWhaZ1NFcXVz?oc=5"
+    },
+    {
+      "id": "2026-09-17-olivier-faure-84987983",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Smic à 1700 euros, régularisation des travailleurs sans papiers, retraites : Olivier Faure développe ses propositions en vue de la présidentielle 2027 - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPWXEzeGxwbV9PT1NNcHhOQXJFR3UwZURZOTRlbkhLZnhHZmVlZk9qQ21JUGk3Y1hSaHRIY1BhMGdyaUE1TWR3UUxHMVhHVXQ0b0owdXFoRFB2cXZCYnpYeWZXOURpRFE3MVU3THMyakNtZUV2eTdoTGtXcEkxUDJjVWxLeGJwNFBnV3QtR2JkYnAwYnVycjNHV1U4Z2UzSG9OdTAxYmJJR1oyWWhkNk4zRTN1eWtqd3NLdmMyQnJXLUJab0Y0M3JjeldPMURYVFBJa0J4Uzdua1hUOTc1N0VxQ2xPaVBCU21HXzBLUVdEWkdYUW16ajhHVGRHVUk2QWYtckFvaXJ5bXlJTFh0MjBwU2pYYlIzRGVzaEN3Y1lBX3VoRFJkdTlRaVo2SW1iM205ZjAyeF9PeEtCRHU0WmhZR1ZXY0k?oc=5"
+    },
+    {
+      "id": "2026-09-17-olivier-faure-82803133",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Olivier Faure demande \"solennellement\" au Premier ministre de doubler les aides ciblées et de maintenir la taxe sur les grandes entreprises face aux prix des carburants - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQaEhiUGtuU1UzQWNrOW5rNWd4TjhCaG93eG5iNGNhLTJMaGZJRUtoOTlZb0NLT1A0ZGlRQjVYSTlqQlBkRkc2RElzWkdVdEduSEdNS0xrZFhJVmoyVWktOFhQcXlUYUVLV3pEUkdoaGlOV3R0M1JGT0Zka2VCUks4a3o0czZDcUdlMTBjLWw4bG94eGp1X0NqMXlCbHVjMF9qX2J2TGxDMlBDcHpUVFlGUVNyRmdUT01rZWNqVlZwT3dyV1l1WHVabmowMVF6bHhOZEhaSkpNYnYwNk9sVUFUOU9Da3RsY2Y5TGF0S0tHSVQ2NXJNU2R1anY2UHhrUzJlLTN0bDZya3pBYjhmbEhWQjltZlVVWURTRFRyQUN1S0NDdnFJOHY1SDFGUlJDU3hsbXVTVUMySTRfV3BvS1lTLTROdUplWjFqV2p1Ym9Id0ROMFU?oc=5"
+    },
+    {
+      "id": "2026-09-17-olivier-faure-80311141",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle 2027 : Olivier Faure veut remporter la primaire avec un programme ancré à gauche - La Croix",
+      "sources": [
+        "La Croix"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxON3d0UmwwZVlwUDBDa1BJSnRhSkhYdkJXaU84SU4wOGZ3TGx1QUR5TlRQLXkyQTZYajNFdGhmX241RjNURUJTTi1qaENmQlFuZmFzX09sN2xpQW9KQ2VZSEp3Yk4wMWxwMWlPQTBvYlVTb1NGM3BvUHlXWE9pQXc5TF9keVJBUlJOTlhKbHkzMEpCYWlXUlhxUExDc0pFb3l0YTZuZ2plNVRwbklHdXdMbmt0WXh2eUVDejA1a0Rvc2ZYd1dCOXl5V3I1M0pWTkJfWjJZ?oc=5"
+    },
+    {
+      "id": "2026-09-17-olivier-faure-44698896",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "\"Je n'y suis pour rien\", assure Olivier Faure après l'éviction de la primaire socialiste de Philippe Brun, accusé de violences - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZWdRLWEyM0Ntck1UYkY3TEpJN1dVRE9INjl2dkV0dlVWdGFyc0lFVUZyT0ZNV2NYQlpBOV95eU9EUXQxSFF6OWV6VXA3LUM4LWRRYTRRM091d3k2RF9jQXgycnktYzg3QnFpbG5hSTE2ek9peWk5cDB5ZVNGaU42UzZiQ1ZhX1BvSjRYWGRCSUY3N2ZyVmZfNWhUVW1FanRJc0w1RUpCdWcxUFR4T0o3QW5ZdDBWSU1tZmpDcXJ4QUkxS3U1dUhHV2ZGYTdHclR6UXA5Y25zMDcyVVJNdDlqTm40cnR5LXVYTHB3QmFEcmQ5Zi1HY29aaVdyeHktRlFLSEE4Yw?oc=5"
+    },
+    {
+      "id": "2026-09-17-olivier-faure-38993080",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle 2027 : « la radicalité tranquille » ou quand le flegmatique Olivier Faure passe la seconde - Les Echos",
+      "sources": [
+        "Les Echos"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQjlBN1ZRa2NMWkhIR2dmY1BzcHlNQUE1c2tGVGZMYUoxOWpLZGR3bG5qYThDdTUxTXEyRFF6RVBJVVFpWnoyM3Y2ZF9rN1N3V0tLSkticFJtMzZkdmQ3SjhURGFKYWRQc2xRQnRwUVlOdjNLcFZaM3ExQkJ4RXh3eTBLek4tNmZ1b3VubEt0bXlhTlpYdEp2RVNlbFcxX1dvMWFkREd2ZHNCbVRrNjY2R0VXQVdqajV5Ql9qeUhMWmZqcEliZkotRnA0Tklvbzgtd240T2ZDWUtMd2hMMXR4TFhvT1hiUFc0enpWYg?oc=5"
+    },
+    {
+      "id": "2026-09-17-olivier-faure-31746305",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Olivier Faure : \"Il n'y a aucune volonté de ma part d'éliminer Philippe Brun\" - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZmo4bWV0NFlKaXlXMndTRV9UUEdZMmMtWHA0cWthVllCdGVoN2VERmZ2UDVxUVJ1UUlyNWtZMnhRM01ncGtFYTNhTUpLZHZSWkpSOHhfWHRUZDhxQTBhV2ZuNWlWOERPR0I5VmdmY3dXVWhtcElRUk9KYUtuUHozSUtOMW91Qy11X0xIYmJuNGdRMDhzM01uSFVEcXdDOVhwMXAtR2UtWURocmdSUHduc0o0TjAxNWo5NmdIQVlWRjB5Zm8?oc=5"
+    },
+    {
+      "id": "2026-09-17-olivier-faure-15357941",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "«Je n’y suis pour rien» : Olivier Faure raconte tout ce qu’il ne sait pas sur l’affaire Philippe Brun - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNWpFRkwzMl9aMjUtd0hRbHh4RG1PZElvdGw1UmRJc29pNEF2VUE1eENtVzk0bGVxR0UtSDg5ZGtHcTI2eUt4SktrckZyb1lfaDhRSG9NaW5SRkNfMEhFQ19EWlBpMTQwamJBVk9pMWp0bzNDSi1hZFA4NjVaUWZxNlFwZnBqOVBrcnlUMVNlSHNLQlRWeEhSSUVEeThNUHlteXBoT3pFQnRMRloxZm9WandfUHptdHg3RHA2MFNsLUZaWUxlNDlfRUNnOFUtX2RXc05VclV1WG0yLWJFODctYVpwVENIVHpVRTVNTnFMV28xMTktNi02c1FIWQ?oc=5"
+    },
+    {
+      "id": "2026-09-17-olivier-faure-04607442",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Immigration : À quoi correspond la proposition d'Olivier Faure de régulariser 400 000 travailleurs sans-papiers ? - Public Sénat",
+      "sources": [
+        "Public Sénat"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZzgwTzBrWjNlbGlBT3ZBLWZMc2t1SjlhS29KUzVDblpFTHdvWGtqLWhDNm9EODAyYUs1Y1hlQzQydkpnRDVNMUZQRXBTajdLaE5GNkdWRE56UjliaW1WRGR2eVpsZHRpM0NjR25DZjVhY2VEOHRrODlsZGRGY1dqM1hZeWNSZl9RRUw0X05Ma182NHJJUW9aUWwzc3FyWUpSZTdJZ0pkVlVoaGdVYThieFFNOGxVUzlvT2J3TVVadTdGbzFrdTBYVFMtSTVISEg1LXNEblVkQndLQkNGZVdTb3NRRG5LanF1ZlFSOQ?oc=5"
     },
     {
       "id": "2026-09-17-marine-tondelier-26921254",
@@ -2706,6 +3937,21 @@
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVExfRVpiVWhqUDRsM1h1WS1TcXZDWHJ6X2dOOTY3dk43ZEotS01Ud3pSaXcycG5Sc1RUQThVUS00c2h5aUlDS0lmNXV0Z3BfMW1hRldHRlhHTFRraFVnWThWWmpULWRUTDNteU1yQkZ0dXFlUlNrVG5RdmRyUlA4V3BkTEZIdWJ0UUlhWVBsY2JoajBYRmIzOE4yM29VdHd5UlZrdWdjNHFKR1E3QWtuSGFTb2xTQktTOGhvblVSWm1aWGZTWXRTUzVubTFkQVlySXJxVjl4bWh0dm9qNTYzUXFvRGJ6S1BLOTdvTm1RRl94anNnM3Nr?oc=5"
     },
     {
+      "id": "2026-09-16-karim-bouamrane-91986827",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "karim-bouamrane"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "« On ne veut pas nous voir » : crédité de 1 à 3 % dans les sondages, Karim Bouamrane, candidat « méprisé », croit en sa victoire à la présidentielle - Le Parisien",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNMzBZZENLTHFzSmY4UktxOElQR0sxQ3VsZWJxcnR5Zkh0RFBtci1Ral8xOS1YUjF6OGNNaDc5SEVYS3J1MlF2RHc2dzZGa3BQVVFPWEZZSEw4UFVvMmJ1R2QtQ0tjbGNZNVdvNktQV1o2X0lvc1NINGs0V1FyTGVMRm05LW51OHlBaVI2SUsyNkhBMDJwTGlWQi1DQzJSSnhYNkxwd254dzNRSmY4ZWZydTNqbkx1U05Lc3Q5SENFWVFJMXNWU2VET0J3ZGdEVDhYdU1uMVhOTmd0Ujh0NFZtVU1Bd2MtUDF6T3dFUHQtMi05Tll2ZVJLY2JtUW1YRDNTVlgzS2IzN1k1Z0ZnaDJrUGwyWU9uWF9ZZWVUZVpodFp0X1I1LUxVOEFxQVNJVWxHanlTTUN0TVp2Wld6V19PYm5BWm8?oc=5"
+    },
+    {
       "id": "2026-09-16-jean-luc-m-lenchon-12831013",
       "date": "2026-09-16",
       "candidate_ids": [
@@ -2873,6 +4119,51 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObFJwTDhGVnlUTVluN2hMdl81TEdLOTNNc3ZGd2NHemFNNlctUEp0dGl1dmRmOFFYM1p5bHotcElvcnZHZzl0U05KRkNxV016X2FUeXFFQWRERXduOFNBM3ByX3BVbWZQRjhma0x6Q2QwTTRyd2I5NkxNM2pJTVBiTDVqcXhnX1NYVVhENmIzWkpmcHVaZk1wZnhjT3BFcW1ZMzZxSDY0dkVmQ2RmWjRueHF5Rjlwa0ItMDhjWGNleVpVX2h2Tk1QcGVxd1BOME5rUk84?oc=5"
     },
     {
+      "id": "2026-09-15-rapha-l-glucksmann-66733234",
+      "date": "2026-09-15",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "« Il va finir en charpie » : Raphaël Glucksmann dans le piège de la primaire - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM3I4YVVyMVhlRER2WGNLWjZEQVlTQ3NQbHIxbURVTjJ6Z3RFeURjRFMxMVp4dWNwdjJYRHVacUYxTzlKOVM1Tlhhd1FwbFdjTWpFWTd5WWlRZ3hPQnhmRkF2azhBTFdYWm1xdXNVWnJDRDJSLTlwX3VqYm1TM1NhVHpTTXIwclpvTTNUNmhfRkc3R0NQV0VsbGxhR3dHNGwtLWYwc2g0czBSd1lQTHdaMndlQ1dZdjZaZHdtVmxQdDY1eGFPdldSbWNldnYyTXowN2w4bHNmYWlMOHIycTN3?oc=5"
+    },
+    {
+      "id": "2026-09-15-olivier-faure-19216786",
+      "date": "2026-09-15",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Primaire socialiste : Olivier Faure, le premier secrétaire dans la peau du challenger - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbjJ5UHB4QlRNTWJxWjZBVzBzNnNrYm40WDVuY0NsX2liM3FhSFZRZEZySE45VW01c2F1cXBnTm16QUdPZjM5RXd2blNtdjlfUUtFSVhDa3FDOU56anlSZEdWUjRRSElpZ1ZtT0dyZm50U25VbFV1X2x1THhINmk3TFlEeTBrOHZ3eHk1QlR4RmtmUkdpVFlYUTVPUUMzaUF5YjN1QmRfc19IX0JmYkxYVW1pY1NNeHo2U1pPTGY2OWxZd3FoWFhDTExCR0w0a1p4UVo3MzhOdHpvZnVIdllNQmRzcTg0RUlLemRDdU5TMA?oc=5"
+    },
+    {
+      "id": "2026-09-15-olivier-faure-03436720",
+      "date": "2026-09-15",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle: Olivier Faure veut porter le Smic à 1.690 euros net - RMC",
+      "sources": [
+        "RMC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSUlySjlYMEdBbjBXcHNzeGcwMkx0S2RPSW9iT1hsVkhRRmVlYWxIeWZHS2syZTRHam9LSHczYTNZVkIwT3I0Y25KMEFvV1pqX01nLUo0MW51Ml9kTW53dTd0Mm9CdUdqVldfYzBFSmtTenpULVROZWw2dVJoa19pWmxaTkJ0ek9MajU1NVVkOGV4R1hHTC10bkN2YjM4V1psbmIzeTFYWGdkM084dE1IUFVvNURQUEJYVG5xSUZDRHNNOUpRbWM1dFZn?oc=5"
+    },
+    {
       "id": "2026-09-15-marine-tondelier-33699701",
       "date": "2026-09-15",
       "candidate_ids": [
@@ -2916,6 +4207,21 @@
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZWkyMS0yQklWbFZOaVBBLTA0N1YtN1lxZEcxaWk5YnJxaENwTHd5bENqMkZ4cC1yeFQteFRUWHV5NERFZXJHcmtaLVdWSV90N0EtcEFrazZvckU5azFqWGoxTm1lQzZPQnNtT1pLWnRUem9iSlpEQkNMOWx4aVpUb1UyX0pXZ3lhTE04dWRIYU56RjYtT3NtWEFnX2VvTFpDc3BJSkp4cV9Lc1VjclNxMmNZeTBUUWsxTGpwU0E4TV9BV3psSlhBQ3pnTFh0WThnS3FFTVpFSllMa0FzOGZmN2M2dHB3LVhkNUJ4NkRMbHhURGRTWnJ6WVMweHFHQVFmZ2NwTG1wWQ?oc=5"
+    },
+    {
+      "id": "2026-09-15-j-r-me-guedj-95961288",
+      "date": "2026-09-15",
+      "candidate_ids": [
+        "jerome-guedj"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Après Olivier Faure et Ségolène Royal, les députés Jérôme Guedj et Philippe Brun affirment pouvoir participer à la primaire socialiste - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQREJHSVZmcjhEMmhqN0R4QUNJVmtmdWR2ai1KMjViUVhfZ1hvYlN2VDVEQTBtekdHMGpqYWVRTDFuOHNqaTBQOEg3VExWRGl5QkZoSkowUTluY1J2aGdrN2lXS1JJTWwtUVFEd2dZQjh6MXdzazFvdVM1UTBGMlRJSjJEeXlDb3lfUnc1c3dRZzhVWDBwUjNTLXk3VzJCQnB6Wmh6a0dBUTJjcVlKNzNLaGJjUklzcnJ2RFh2VUlTUlh3dW1USjFkTk5QZlFYV2ZVSVZnQURPbDR2WFJZanJRY2IxSURXMWtycFhFR2ctczNaenNyX084dER6NmxsaDR3TEhzZVhqTEpldnJDTmRELU5vZEZ4U0I1TmIzQl9BY21jbTIzQm9WdXpEdw?oc=5"
     },
     {
       "id": "2026-09-15-fran-ois-ruffin-41604225",
@@ -3022,6 +4328,21 @@
         "Ouest-France"
       ],
       "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNYXlmb2pscTJ4MGcyZDdUbnctWV9pZ0xDa09IRlJmZXl2VU5zVVhIOXRxYjRDSWJ4X1BZYmxCdllMU3Q4cDFYaEJRYWt3YzdBUDg2U0RzSjlXSTdGX2dFenRyNHhyVFRDclYxdndpblV5TFNXQ1VEU3B6V3BlZ1I2Yjd4ekRvWlNDaGd5N0U5OEFSeWstOS1mMHl3cFhISDFEOTdZWWdMS0pNRlBJc1lLaEZteHdFZUJXQko2d3h3UDJTMlRNdjdna0U4Z1NLOU5TR1YyZUNiVlNvZHU0U1NvR3QxbjM3bVhJWmtBbDktbGJzckZDNkNlUGdQQ1cwekJrYXljSjBtbEk?oc=5"
+    },
+    {
+      "id": "2026-09-14-olivier-faure-13867684",
+      "date": "2026-09-14",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "« Il se libère du costume de premier secrétaire » : pour Olivier Faure, une primaire à quitte ou double - Le Parisien",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPQ0M4T2k5SnJ1NmxsTEgzaUlwTDk1M2xRVUU2S2hSUWRzTnlZWnRScnJBekNIeFl5cVpQVHZrbzVRU2RGNk0xUDZkYm45ZE9tM2xiV2JNYXRlRHg2XzR5V2h0LXRzdUZzTktPakFMTGhVYjdLMWpfT2laRWNySXl3TkdXOHFMcW1odS1GaGRJaU9JdWdXVG5IVW41RU80b1ZmeWZScE9EOXZGZlcxWTZsTUVKbjdNN2RKSjA0T2F6UTdxMWRPVHNSdnhXTk5Bdnk1cHVXYU9CeVRNWmlDSkN6UTVsbDFUc0s4bGRJdWxGSU9pWVlhZVZLVTdqYnlYdkpJemJzX0tHeURYOXh1MVp4MHYtM2w0aGJM?oc=5"
     },
     {
       "id": "2026-09-14-marine-le-pen-98289092",
@@ -3339,6 +4660,36 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcHBrNV9GbFJQalQzdkpfMjJVNWVYRjloMEpGWm45eTljOGRfMmFhdDIwRGxuQ2lpZE5BNlhacEJKdEc3R3R3eER0TEg5SGo3ckIxbVdBd2YzTlNMZ3RUMEJUWTJrcEduZzZId3h1eXJYV3ZzX2YtbHJ4ckhOSjVISVBOcGNDWlhuSjdEaTFJc0pQNENKY0Zkcjg4Z2NGckZHV29kQ2lQS2w4WTJXQ3E0?oc=5"
     },
     {
+      "id": "2026-09-13-olivier-faure-52058865",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle 2027 : Olivier Faure reproche à Hollande et Glucksmann de se tourner vers le centre droit - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPcm8wM3dmNnd6VUpBNUJSOWhfOG52bWk2bWh6VzcwWUdBbHpDd01TQUN5OVdUUUZra1pwOVZNRTZ2T1JUOG1DX0tUYmJSaUI1Vl9FRUdyaTl4dWdYd2RmSXlZRXgwWlllVW5vNUdIZDhBTm9PSHFhOTJtOWJ5TndfQ0l6aWFzdTlGdk9DeHlKOHd2WWJDYzVyang0N3RLdzdzYnk0UUxkc3RwQWFqVEZMLTYwVV8yeDl0U0lsVnVfYmVSdGRvRkstZEJRdWJOTkpzekk4VjZHWTExWFgxeG5OWFdGZ0ZCVFEwX2JSelUwcU5RYnQwaUFzY1pkRnNoTFlBY0xnMFhR?oc=5"
+    },
+    {
+      "id": "2026-09-13-olivier-faure-27593538",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Olivier Faure (PS) sera \"aux côtés\" des Français \"s'ils se soulèvent\" contre la vie chère - afp.com",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQjhoVWhVbzQwcU1QZVM4LTVmZjRFWVNfUmc1LWpUR3VjS1g5eFJrT1RGalNrQlNHX0M5WUl4V2JQZXYwNGhoVHBEYVliRFNpSWZsM3FqdFk2V3ZRYlMtaERmbGJqYzM5cU1zaWt5dHJ6SFFKZG50emtFYkFib1NyajJheUFBYS1SbVlkVEVqdGVyRkdyVG12Z0p4WHZwYl9zVHNFTFVqM1Q?oc=5"
+    },
+    {
       "id": "2026-09-13-marine-le-pen-78361110",
       "date": "2026-09-13",
       "candidate_ids": [
@@ -3519,6 +4870,21 @@
       "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQMUt5akU5czJKNDh0R0dPWHh3bXMwcW52MnpiRkJGQzhySmhROHl5ZmN3UnBEbWEzeGxGNUhxR2dBanprUzF4eTBzd1pKZGpKaWlEVDdudDBGQ3B6VHAzYVNRNVZ6SUd3b0J2WXRZbFd1bkdDNjJpNFN6SEhRajJqUjdqWHVhQThZU1d4N2tIRWNnd0RFbkZKSzZtM2VEYWYzTVpIR3BPXzFpakJiclEtQTNTdzNPal9TX0gzRTBZZ3VmX3FIVlBjYWZPYXFyTElUTHVXYmk1UzR4Z0JrNm5WcWlURGt6S0NDY2VjZWl1bFVuM2UyMWhXNXZuRTlSVlBxMFkyVmhkVWtBcTBiSGUyTl9zNTd6eVgzUW1BSFM3WURFdGFoWFhJaTZJcw?oc=5"
     },
     {
+      "id": "2026-09-13-bernard-cazeneuve-81244480",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "bernard-cazeneuve"
+      ],
+      "party_names": [
+        "La Convention"
+      ],
+      "summary": "ENTRETIEN. Présidentielle 2027 : face au RN et à LFI, Bernard Cazeneuve en appelle à une « coalition des engagés » - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNcVNlM1A1amNOdGpSVmhJMEdlRlJ4OThFT0N5VC1XYzk1bUVvMDFGdUJhc1JPMFlwajMwMWg4eUFUU1VXVWNHdGNZUVh2MFlJWm5fa3dDUVNJQkZhSUk2MXBXYWVlYl9uTmZPY2NfNkloZENoZDNkN004WW4wVXNoZXpMekNJWFBPelNjdkJ2SkdhMVl1UWdPa0ZpMDU2WFgwUmxuM01sbVlTcDdOUjNMX3hzTnBVRVJyWUFoTzdDdmwteGFjallhRmZ0QnNaYm1UT1pjRmlvSDM5eFhnd1FZeHlXUFJGZzlkbzE4YlBrdUNDYldwa0doa0trNGdzR3ZfSG9LMUNpSi1Oclo0Q0xLNm53VWNJQWlJQmY5Ym5JWUdHc2tJMXc?oc=5"
+    },
+    {
       "id": "2026-09-12-marine-tondelier-08909034",
       "date": "2026-09-12",
       "candidate_ids": [
@@ -3622,6 +4988,21 @@
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNTXdHSmpOVEJoRG9aakNvbGVzbU51d3VpeHQzRmdBOGM5NnNBcV9VaXkycDNmZVU4WFgtUDBXekZJa3N4N3RqUWlPTFRwc0JMWTJiMTNyS295bHZveW1UOFgzUGNyTmg5WlFnWXVySV9OVTVLbmFnbHpuV01GT1RQbXJpQ09Xd1ZlLVoxSjJ2LTNIVlpzalZWWGY5UVJmRjdFOWNwdk5NWkxJYnNFWTg4MGZSaVI1WHZnLWwzMTlFRTVOajNMb2J3N18wdG85V0VqTXFzdGRzeUo0aFhCYVJ6SGZFOXFSbE1EaUdvUV9oY1Y0Z2Y3aU5aMWlNMFpzWS1tUEhSU3FSYi1IbW9vQ0I5Sw?oc=5"
+    },
+    {
+      "id": "2026-09-11-olivier-faure-72243165",
+      "date": "2026-09-11",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Primaire : Olivier Faure engagé dans un combat à l'issue plus qu'incertaine - France 24",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQei1NQ0trcDVRYXdNU3FNektrQzJrbFFrVWxySGlTS21nZzJIYzY5Q1Jyb3lzcjg5azVKdmFSMG42Z2stMEktY2llX0FGeWpMS3k2MDZKT3dHSHFmYTF6ZDFFbzJ1QUdkQWNiTzBBRjMtUXZzMHpGUXM0VWROdG5qYlFFTHFmOVNuMG5RdU4zUUY5cGwxVXFvSWFFNFVnTlRHRVpucnNWZmt5SDVIQmQ3ampRdERwVW5KbVZkOUhONXQyNnJmVDhOcGxGVzB5TnhTckE?oc=5"
     },
     {
       "id": "2026-09-11-marine-tondelier-78760440",
@@ -3806,6 +5187,36 @@
         "Public Sénat"
       ],
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxONkpoSmYyYWlaOEh0NjYwcjZadDFqbS1HVmIxOXdST3E0ZHZ0Z0ZfNGtZdkdJS1NBUUxkVGNXZnBkRmM0VThmTkFLS050RXB4eXhLLWRvM3E0b1R0SnAtZWVfQ09oSG8xdVl6WkVBUzFnRnI5b09VRHRHaUxxTFB6ZmdUNWJOQnVuTmtRZ2NrZDROMkdtQWpvUjBKRlVUVkVCaVQxdjREaF8ycS15NVM3eVpQR1RObFlTSS1PN2tyY1BqS1A4X1I5VDZua3l2NkhMY004bF96T01xMFlPUjViRENqcUFtY1hoZU1TMDQ4cHkyS0ZXZkcwX1pvYw?oc=5"
+    },
+    {
+      "id": "2026-09-10-olivier-faure-07489738",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Carole Delga demande à Olivier Faure de \"respecter le vote des militants\" en refusant d'autres candidatures pour la primaire PS-Place publique - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNQzZVdHZ5c1hMNzAwakhJY1JuVU5IMU5uaU9QYlBXYVZOUjRKYWZ5dnhzOGNzZFFDN05GamxOUTdVVlV4M2RXWTJ1cnVJN3FlRlFOZ0JDeVBXR3I1cGhHalVabDBPVlVVUzR3N1d3MW43eGJienNXVEd4dGo3cnZuWmltcEllTW1rVkZaNEs5NURLZ2RxMnVFUU9TYWlHRlRUU1B0ZWJyczhpUEdCbVZGYzBER1NxbDJ1RWVYdEgwX0lBdXFDWUs5NHBTTm40Z0hTb1hHalNYR1JQRFp6aGlGbUxkTnptM2NWUlkxdjVZaVdVdVJURGI3RjkxYXlGZldMX2ZkT3I5RVBoRXprRms5QWpDaW1US2U0c3NhaA?oc=5"
+    },
+    {
+      "id": "2026-09-10-karim-bouamrane-66286744",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "karim-bouamrane"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "JO 2024 : \"pendant longtemps, la banlieue était un lieu banni. Aujourd’hui, on change de paradigme grâce aux Jeux\", explique Karim Bouamrane, maire de Saint-Ouen - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NUzBQMG45U1NHWHl5T044QURac3BnUGh6R1pyNklzbXlRNlB6Y3F6ZEUxQkZoWG1QbFpxcXZkbUMyMWhqVlRWWHVKc045c25OXzFyd2tsQ2dFa0VJ?oc=5"
     },
     {
       "id": "2026-09-10-gabriel-attal-87815399",
@@ -4003,6 +5414,51 @@
       "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxORzlkM3FNakY3Yzl6UTcwZXhkeHZzV0NUQVdQTEdlN3JjMlZiZXYybmVNRnhqdEI1R2N5UWpWQ2dzV2hiZzBSQnhRMzd3bFdzLS1ITU1PcTVuVXNsQzlfV1lNSVdUeU1tVm1TT3R6WW9GTlNZeExyNGZXb3ZmaHpHODFnRk50eVNrd2tKaVZuM0RWWkFmUWo3U0Y1NEVxcWF4RFgyakNtX3pFVHNLeGhZbzJEN1NlQmRDTTVHdW1jMDhnNnp6d2F5VUVwQmFnU0lMcVgyMUVuWkdIMGR3dzdGZm81TWFHNVRIcTFacVJRel9FcnlURGx3bWhVcEVLR3JoLUN4cUR1ckUwR2xTU2RuR2FSODUzQzFKY0ZiVWxpN25tbEhoVlE?oc=5"
     },
     {
+      "id": "2026-09-10-bernard-cazeneuve-98025874",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "bernard-cazeneuve"
+      ],
+      "party_names": [
+        "La Convention"
+      ],
+      "summary": "\"Nous sommes dans un climat de règlement de compte, dans le cadre d'une primaire mortifère\", juge Bernard Cazeneuve - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQTVM1emJpa0owRG5XX1YtRldsNDF6ZEFSWFpvaUpTd2FueF82R2hPc1FjRFV5LTJuZGV2VC1QQWdkX2U0Y2JNY3ZzRzlnSUY4dDAtZU5nejEwNHlNTFh2ZGFvR1JSa0JoVkpNckJXWWI1TXBmZGJvOXUwZk1Pa19vMTBCZy1halVDMGI4N0FKbDk5UWhPcFo4OGkxU0FQN1doemlLcDRnREFVa19xS0pFc0dVaVRYeGpkT1dIanZfOGZWSnhwdzNudkFNYkdyWHNfM24taHUwTG5scEhPaF9VXy16NUpQQkxBMURsemY0dkNGREJoREJSMzZST3J2RDNTQWxSdWV2MXJyVV9SMjRV?oc=5"
+    },
+    {
+      "id": "2026-09-10-bernard-cazeneuve-80951405",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "bernard-cazeneuve"
+      ],
+      "party_names": [
+        "La Convention"
+      ],
+      "summary": "Propos racistes à Carcassonne : \"Il n'y a pas de place dans la police pour des individus qui ont ce type de comportement\", réagit Bernard Cazeneuve - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPbEhZWUJJRzBJa0tWU3ZWb0lDVGprcllxQjhFTUFTXzdTV2VjSkh0VGNqc256dVh3MUh5NlNzdEJVVmxvRFRNZGd1b2VkUXhlRlg4SVdFYzdUNklXX1UwTEdqXzUtY1V5YTlPeGFISW93ZjI0ejhYTlZOUGItWE1aNmI0aTltRlV2dkZfMXlCQXF0RFJhM2wtdER3cEtiYlBmbkhJYzgwRmNjTUlUWUhFWnBsZEJtRF85WjlSZ2FrTFhDVXZRM19UT1g5QWVlQUtxU0VMcDJvSFBQMzZuOWFrY0ZrMFpPcGNJNlFlZU54Rms0c0dnZFhpLUJJWThmZV9OcjNtWXM4YWllTTB3N2g2X2p1aDQ5TU8zTXAxNmxrRllGemM?oc=5"
+    },
+    {
+      "id": "2026-09-10-bernard-cazeneuve-56101052",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "bernard-cazeneuve"
+      ],
+      "party_names": [
+        "La Convention"
+      ],
+      "summary": "Bernard Cazeneuve dénonce \"un climat de règlement de comptes\" dans le cadre de la primaire \"mortifère\" du PS et de Place publique - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQMmFvMHA3M09Db0ZiRVM3QVlDUnhVLTdmdDZjVk9ydDhzVkFGdjBrY0ZTelU3Ym5pWm5aMkJkQngtNWllLVk5Z0VlMTlRbUhocmVTbHluSG5XLU5KZk8tcnRPQ211QXBZazdNVE83YUlzWXQtdUZZdmdfaE05bVRxakdjSlZaX0c3VW0yb25mdzEwMzctS2wwejFKNGRYc0xBcEZhME5BRzZXTVRrRDRrMGtWamF1aXRPcnJHeXFRZ25CY0JwR2NoSHhmUG5iN2tVWVVyNzNqek1wMW84NGR6NzFlLXE0QXE4cExLMURvX2d6TlVRVldwV2JZYTB4TXdaeGVoTVhkWHc?oc=5"
+    },
+    {
       "id": "2026-09-09-primary-left",
       "date": "2026-09-09",
       "candidate_ids": [
@@ -4015,6 +5471,23 @@
         "Le Monde"
       ],
       "url": "https://www.lemonde.fr/election-presidentielle-2027/2"
+    },
+    {
+      "id": "2026-09-09-olivier-faure-08880830",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "olivier-faure",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Parti socialiste",
+        "Place publique"
+      ],
+      "summary": "Primaire du PS : le duel entre Olivier Faure et Raphaël Glucksmann électrise la campagne - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNbXJEM0tIT0JnU21JQ1NrMk1KT3VBMldnR19OaDZyRFpOU19vNWx4TG5hV2c3MXFIU0FYWUtQS0pOYnpPNFBfSUFuMThUcjk0amM0RTRoVGY4M1ljdHZ3dlcxVUdCRnl5WTFmdFJEcGZNTi1aTGZNVUNsc0ZHcjFCV0pfbTJvZl93T2pUY0NwM3F0YUZpekJkekN1cC0zdE9sbnl4SFhxUk4xRWhPc2MybzFaQS1sSG0xY2V2QWpVUnNOQ1N0eVZCOUhTOTdGa2NvLXZXUlJnd0ItWjZKS015RGRmUmJTTWpTTVdBMnBJbEF4VXlCalhwYW04WGY3bk1kNHc?oc=5"
     },
     {
       "id": "2026-09-09-marine-tondelier-79559809",
@@ -4340,6 +5813,51 @@
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPVW9KVWVZd0ZWT2dXcHdtRkdFNkRKTk1WWlpaYVZ0TVE4MS12OXJZV0FWVWdBeGwtQ21XUWU3cWVoVEg5aVlhN2R3YTBiaW1UYUpuckVfSWNoM2FDWXVYbzlJREdLVHdpblJIN2pLZ01pemFDal9KbGlZRFM0MFJ4dGN4bk1tVExjNHMwSlN3Y1JGVDh2WS1GYms1SVFKdHRUam14OWFaazg5bnB6RTJyUEdxNXhmMjFraHM5YjJYeER0S0V5OHJJazZtMTRBdWNNT0h4SEZUNmFFMkVZSWRfcDdSc0s4Zjc1Q1lJWFdvdGFzWi1xN1pYYmpmbnRrUk5QbUE?oc=5"
     },
     {
+      "id": "2026-09-09-bernard-cazeneuve-17697275",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "bernard-cazeneuve"
+      ],
+      "party_names": [
+        "La Convention"
+      ],
+      "summary": "Bernard Cazeneuve cherche ses parrainages sans être toujours officiellement candidat - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYWdsY091WS1jWk1Ca0pGdDNFUm9iUWY3Wkd2NnlGNHNSN2wtZmhweThlT0JQYVBYa2hTWkllRFFpMWVLcHhBNERwRVBqcjdzMHBhVFRBbFA5ZzVYVVU0d3JQNVo5Qi03cjRUdnZWQzB2MmlXWk9peC1vSzZGZmF1aVZmYWZYdUhCeHVkNDBvMFk5MGNpNUl1Qm9JUGlWTGtTdDNhZWlPZTdicTFvR2ZoTXJ4MUhGN2RHTk8td1pFNTU0Zjl3OTROWE16Y1BPXzBNZ0NVS2F4TFBjN3o0alM5RktKX0pCRGtUZ0dZcnhR?oc=5"
+    },
+    {
+      "id": "2026-09-08-olivier-faure-15300245",
+      "date": "2026-09-08",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "\"On ne change pas les règles en cours de jeu\": Glucksmann ferme la porte à Ruffin et recadre Olivier Faure sur la primaire à gauche - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWXByWlp6cGd1QWg4ZmVRVHRZNmpUVEhVN0U5YzM1aFJuUzg0cWZnbG5MUGtNT3B1amVDWU5SbnVQQkdRd2JuaGhXRWdfSk4tY0czeGo2OXJtQ1otUzJFRHJJVndZZWtRRXFKajRSQWFKMTgtVlR4cGdCMFh3SjRSZGprVFB5emdvUWkyTnFpLUIzSTd4dU91V0NBaV9tM2diU0d1WkNvN1N3SlE?oc=5"
+    },
+    {
+      "id": "2026-09-08-olivier-faure-06328092",
+      "date": "2026-09-08",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Olivier Faure remet une pièce de 2 euros dans la machine à bordel de la primaire socialiste - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPU1lHTzNNczhXSkkxTDYzVVVQRzVxck43Q2NoMmF6bkZHcFpjWXZ0VGlSZ0MtLUYwcTJfRV9hY1gwazNSUDk3eUJiaHhCblVPUWIxY1pHUUFHNnU3UXZwSEJXR1cxNlhyeFk3TUViSGJVTEg2Rks2Z2R5ZVl5bHBmeVJmU3dLWWtGSDg0aS1BQWV2V1RHeGJ0Z3g1OU84ZTJ2Y19ZZFdaSUpRSDlpeGVqLTc2WWZ3S0dXdVdYMjdCeFFzV0l6akJEclIza0RjRWpldjRnS2FoTkEwTUNDdHJIU19pMWJ1dUFVMjYxNnFNNEYtZ2NWQVJN?oc=5"
+    },
+    {
       "id": "2026-09-08-fran-ois-ruffin-64771008",
       "date": "2026-09-08",
       "candidate_ids": [
@@ -4523,6 +6041,66 @@
       "url": "https://www.rtl.fr/actu/politique/se-reposer-decompresser-mais-pas-que-pourquoi-edouard-philippe-aimerait-repousser-la-prise-de-fonctions-du-president-de-la-republique-de-mai-a-septembre-7900671274"
     },
     {
+      "id": "2026-09-07-olivier-faure-62987182",
+      "date": "2026-09-07",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Olivier Faure reconnaît « une maladresse » après avoir comparé Le Porge et Oradour-sur-Glane - Le HuffPost",
+      "sources": [
+        "Le HuffPost"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWmxON1pzOFRmOGIzZ3JlWFVnYkp1ckJ6UWREQnRpTEJXMXhsVTBsNXF4bExMVTN2czVfV0p1ZUp2WERKVWJQQnpmZTE3elVLdnl5UThlRGhBVldSQ1dlLUVENkh1UG4wd3VUUDBZcGZzQnl0djc5NmppRXE4R0JTWnNUTVNHVmI2VzVMaVRNNzdCYXFJc21lWXpPZ0s4QVhIVC1xbjZhY08wcEIyWEpINHd1dHRRQkU0ZThRR2QzUENMYWlMWktiV3JTSFpUa3ZBRHZycGxyVFo2ZExwSlcwNUVR?oc=5"
+    },
+    {
+      "id": "2026-09-07-olivier-faure-51276988",
+      "date": "2026-09-07",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "« Une maladresse » : Olivier Faure « regrette » sa comparaison entre les incendies au Porge et Oradour-sur-Glane - Le Parisien",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPQ24wRzYtZ21FTjR5OWdwNUczNlhaU09meVRRbGxBcmgxN21CQ096Mk5QRFBTR3VkZGx0ZWo4czFFLTRwcFNTOE5GX1EybkVjODMwRHRuenJLU1BTMEE4M3Rhc2ZySi1LSC1aZktpdFhHLTFKcmlDODhxcWg3YnlBaGZWS2U5WFFLYUVncVU5MFVTYjcxTkRiVk52YTNmRE5rajZWMkJnajJWREFMS2N6djkyN3d4ZTktTHNCWkNQV0tqT1ozdy1GaklKN0t1NnVNY1RkUlVRaGxxbXhHcFFjZTZQbHJOelV2aVNkRlJmSEJBRXR5VWtsSTRINDF0Sm5oUWNYZmtXa2h4dlpQ?oc=5"
+    },
+    {
+      "id": "2026-09-07-karim-bouamrane-67703049",
+      "date": "2026-09-07",
+      "candidate_ids": [
+        "karim-bouamrane"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Le maire socialiste de Saint-Ouen, Karim Bouamrane, ne soutiendra pas François Hollande sans \"mea culpa\" sur la déchéance de nationalité - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQeDh5NU13MFhodFFWQmtXV3lEejBoaF9HTWVIUXpBVTFZQ0xEc0h0ekhXR3MzTnkyNC0xbG8yVmt3YkZrUjVYdmtzdk03d2JJVEozVGJXNmtMdC1KRHItQnJqcDdDaGpFeDhuUEJ0QU5GTGgzWFdFaWppZ015aW9JbkhreTZYdTg4SHNWSUF0bTBzSXd0TTVVUjlnU2NaS054LXU2YnV3RVlTRExUQVlXYXozSG1fMEVCUmRPV2x0UTYySERySEZQSWM3dzhFdm45MkFzdFB0cHROMUFoWmNLZlpycGNRRlM0elctV1FnbzNlVE93WG4wRHVpN3Yzb0tXUDFWdlZaMDVkYU9Remc?oc=5"
+    },
+    {
+      "id": "2026-09-07-karim-bouamrane-13429505",
+      "date": "2026-09-07",
+      "candidate_ids": [
+        "karim-bouamrane"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle 2027 : Karim Bouamrane refuse de soutenir François Hollande sans «mea culpa» sur la déchéance de nationalité - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPY0VHQlAwUDBqeEx3RjNIYXY2VHVzNWJWcGlleGJUcUV0TXJzMER6OG05U3cyc1BoOW1SWHhsc0FkbExFSzFNNHNzUzF5T2RsWVNET3g3cjI0ZkswV3FtdDZFSm8ySWlNYlVZMkp0Q19tT3A0TE9FaklUcjhaNVJ5MzRkV1Z2R0llenBueFBrTVpzQm1mcUpWQVJnZHJlR01PeHNTdkdCd3pzRUp1c0xhclhOaVEwWUVwUXREb0IwbF80MjVZajlWbEY4UDlpOGt0eElRSV9RUnNTWFdsNkphbVZYRWlCQVhWc0hmX0ZKMVpqaHdxekYzQzd5MzNiX3Vxa19kTUJ2dmRnZ0txdWVaUnRNbEswTjQ?oc=5"
+    },
+    {
       "id": "2026-09-07-fabien-roussel-82770407",
       "date": "2026-09-07",
       "candidate_ids": [
@@ -4596,6 +6174,36 @@
         "TF1 Info"
       ],
       "url": "https://www.tf1info.fr/politique/presidentielle-2027-fabien-roussel-devoile-son-affiche-de-campagne-en-exclusivite-au-20h-de-tf1-2462638.html"
+    },
+    {
+      "id": "2026-09-06-olivier-faure-29385060",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "\"Une insulte à la mémoire de ce village martyr\" : Olivier Faure critiqué après avoir comparé Le Porge, ravagé par les flammes, à Oradour-sur-Glane - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOSjlGeTZRemk4WHhfZ0xLUzZHb19TdHJxeGpBSnZ2dEpld3NPRlhYeWR2WUlqV01xRjRfR05vcHVnRWg4akwtODFRR0xaQ0xsOG1KUERZZDdFeFF4RFZwcjFNME85MWl0NEt4SThheGwySG5scWp2ZHJBcTE4ZDZNTWUtb2VOYVRvZGFfUHVfaGNib2JyTmlWdWdrb05FamRfdVZBUHhzeF9obzlYb0VNUS1LWFRVdlJ4b0RKWEJqRHlWM3FZZUdDTzE0Q2FFTTVzSXlzODZELU5jZ1FUZkVibTl1dmw1LXVMMVdIUWNBY3hacXdmcWF6dkI0TVhGQUxzTjVmZFE5elBWbUlveHY1Nk4xY0htcFkzYUxNS2J3?oc=5"
+    },
+    {
+      "id": "2026-09-06-olivier-faure-11798363",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Olivier Faure compare le village incendié du Porge avec Oradour-sur-Glane - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOS3BsQmtIVm1HNVVLLTV3bkdRa2xOQmF1UTVOMVlYMnpERmxWSm12NThwVDc0MXVSbXRGRVRBUGJ4Z0RoVEpNM3lDYmFJTFNySW4yZXM4aWZXc2REcFdmOEZpLWthcy0wbGlSTXJxcjNlMk02Z1dNLVA1SnlWd001ck95UExsWEhkOERGTG9jMEZhMXJCUVRCQnBNX1RUZHB3YnRmRWFoODI5Rld3RUxSVi0wa0VYYWYxYnByV3pHSDdLcnh5bGNKRFItU0Y2Tmst?oc=5"
     },
     {
       "id": "2026-09-06-jean-luc-m-lenchon-79221173",
@@ -4778,6 +6386,21 @@
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQb3F2aGZjWC1uN1B2cmdjRWhfNkdjMllrckR0TjA1Uk50cUhmNHdlbmF0bnNoNnlEWWgzb2xaOFVndlByaTdvWV9Ea3VnLUo2THpfZVZtbmgzV01QUXE4T0R3VU1RUlplbzg3VldfbVY2OU8xNF82b0ZSQXlwaHRpYlFHcC1IaG55S09ZLS11by1fQ0ItdHVlal8yQUM4cGZCZDZYcjRTc1B3Tm5Od3NVMGxkb1Q1MFcwSmRVSzFqNGpxSEstbkRPQUdfdElxZ0xKMjdUSmpJMWhjc3J2QjRSTEdUZld3aW82VWJkR3hsS005a09aWHZ6NV9NQTQyNWZOejc4?oc=5"
     },
     {
+      "id": "2026-09-05-olivier-faure-27708690",
+      "date": "2026-09-05",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "« Une insulte à la mémoire de ce village martyr » : Olivier Faure compare le Porge, détruit par les flammes cet été, à Oradour-sur-Glane - Le Parisien",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPMU05cWlLb2xiRWM3LWVHX1FfSC1UNGFXWWF1ajlld1FpOU9KZ3NzQWJ6eXRlSE9JaXRGZVdHbUlxd1pRcnQ0aE4wSHpMa2Z2WWVaYTZoaEpESWhwRmRKVDFRUW9wUFlFaEdkNkFwSjZKaU5JOERlTE96MmliNVBkZ2xUcVd6QlpVWHNpVEZjRTRNYlo4cVZ5eXFmYUtfLWNKemRiQzlQWE1xWWMwMnFzdXdIckpiY3k1aWQwUmU4ZWJhLV81bFJnTHNVSmFUQS1YczVXX2pjdTNkVzMtbmZQeGV0OW9Zb1h5QWR1eWxVU19BRnlIS1NGaXFSTnVqV1JkQXMzaGtBVGdkcm9aN1RxaHBHQTVXMzkwX2Y5dVZYWmhkVWMtYkFUeTc5dHNka00?oc=5"
+    },
+    {
       "id": "2026-09-05-marine-tondelier-80883693",
       "date": "2026-09-05",
       "candidate_ids": [
@@ -4836,6 +6459,51 @@
         "Le Parisien"
       ],
       "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOOGdMNjNIZTJoQWhnMGZOVERFeVRNWm9hZHZYamY0V1hMVGZsR0gtdkMwWEFzaEhrZjZESlN5X3VFZ0JJUW1VWGNMaC01R3lCdExydW9TVDk2SUhmaEtOemdBdlYzZldhWTZlVmhGX2x2ZVpveDBaODhlZ3JNZUphOF9jRWlQVEVkRHg1N1NKVEFubERpZDd2SElUUTZSOEc2alptbFR6NWg4V1NkS0ZPMHAteHhPR3U0R0hCZXFMeExBVmRpOF9kR1B6QzNXLVE3S19Sd0swT2NMWkZyclhJYmlMbjFleXN1SFUwQnRSZ0lWdXNJQWgzWFozZzBabnpRZE5vX19WWTlXYUQ4X3ZJVnZzNkM1UWU1WmFua0ppRFJ0eTVYYVdr?oc=5"
+    },
+    {
+      "id": "2026-09-04-olivier-faure-93833081",
+      "date": "2026-09-04",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "«Cela a un côté Oradour-sur-Glane» : Olivier Faure compare le village martyr avec les incendies de Gironde - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPc3RNY3ltellIdWpzeGR3eWx6TEZkblhOM1RTdC1MdnZ6ZjFMNjh1cDNBLUZMbXRNc1Yzb1RzcVpEMV96cVUzV1VxcEdmTnNnOTJ2R01UendKRmVtSDBjQS1xaDczWC1PN0N6ci00bHdfUVRkbUQyYlp4M3FJNGxyaEpnMlVYZjJpNHpvWWlFY0duRXFwemlJSkQyWEdiTEhpT0lOZkFRVnBndDJDTXpnNmNnaElSeDRJRDRGSjdTYmZtNmxIY1BWLV9pOE1FeTNyYS01VExlUGZEZVlVdGpwSm8zZWQtT2Y4MFN6cWljQXhYdkIyamRHTTlmVWpsVXVB?oc=5"
+    },
+    {
+      "id": "2026-09-04-olivier-faure-75021567",
+      "date": "2026-09-04",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Qu’est-ce que le \"socialisme écologique\" prôné par Olivier Faure ? - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTWkzMjZReDQ1c0R2Q3RnSXM2b21fRlczLVpuMXJzZzBEakpqbHU1by01cjR2THY0MXhBSnR2MGFvRXpnWVVZbTQ0VldvbVVJMmNWS0RQeFI1Zm0tUlI4amJVd2pFcGVCMkVCVWVheHZqWFBoVXZDcW90Vmh6bEdlYVdvWXB5NXZWMFBnVHdKOXB5ZldkczJzNC1QNmpycXBIaU40Y0NFWE42SklSUnM0ZXlORHdoZw?oc=5"
+    },
+    {
+      "id": "2026-09-04-olivier-faure-39578977",
+      "date": "2026-09-04",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "\"Le nouvel âge du socialisme, c'est le socialisme écologique\", déclare Olivier Faure qui souhaite toujours une alliance avec les Ecologistes - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOQl9kV25ud1pFbHNNeGNKbTRfMDcydE05eHFzWU03YzBZX3YxS2IyZGVocTl4a19uZDQ5dVhNS3RSWW00bkpHdkVFZ0twN2tjWWlyeFBCVTBTRGZDbXB1RXhDZGZHU1R1eFpMTl9FTk9xU28xalNqYWFIT3NpSXZZX042QksxVVJqWERwM0s5ZE5xVExOR2RmaktjM1FHZG4teU5zNWpCelNMMjNjVG14V1hnenJRUmxXaDNDNXBFQzJ5TjhMTkV6S2NoejhITEtwWGpqV1NZRHNmajBNUUxmREVTcVRSaC1hTjRFOWFpOWx3a1RLWnA1aHo2VFVSaU9uUW9pa0xySEhzcy1DOFJabzE5Qm5PcGNjT3pxdFJPcUR1ZHA4RU9Z?oc=5"
     },
     {
       "id": "2026-09-04-marine-tondelier-76170097",
@@ -4926,6 +6594,36 @@
         "Le Parisien"
       ],
       "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPUFJiMDFGdFZYeE1neGxYOFZQdnFYZGpMTm0wRFRmeHBBTjQ0RzZzTXpXMVdQbklCX29sRU1zaGppenIzVkZOWXgwanZsTGlJYnpEOXpoYVhjRVQwYVA3ZENkQ2hTR1NESDVRcDZueWwzNFNVUVp0djc1czhHWTZ0MHJPTjJNRVZ3cE1DREZqNVlDTWZPMTlBQnpwTXRqaXlqVFdoYlpZMGFER3NFRkVnM01JSVdrbDRJTEY5MkFCWjBuUEdRWEJfelRpSDZnbFczT3lXclNrNXltdjlxSEFrQ0txYjg5c3ZjNnlZN3lBRm1CQmlENzl5eTN6ZWw2ZmZ5d21zUw?oc=5"
+    },
+    {
+      "id": "2026-09-03-rapha-l-glucksmann-90300002",
+      "date": "2026-09-03",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Présidentielle 2027 : Raphaël Glucksmann se pose en figure de la « révolution écologique » à gauche - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQa3hwUUVTTkZmZjNXNlVfeU9Gck01RFZ5UlBNZGVUa0psUkdjYkZ5VnJtMlQ3cjBnYmVaNnppY1hodlZRd2dWU0FqS3JqbXpvQWN1UFlQMnJBWjVtUXV5WHlEbU5jLUgxRXRObHgxTzFhTldaVTF5ZXdFaVItSnYybGpqakZDRkZNVW9yNzhULXdjbFpTVWFyLVl2UVVCeGxVbzc4LVNHWUllOVhVajBhM0dwY0Njb2NyWTZYcXl1cm1FOTN4RDh6eGpfazllRy0xM3I4dVRUWkc2a3lYdC1kcGlyRU1RTC0xcUFuWlB5cUNKNGdTLUFGREhMSnRvTU0?oc=5"
+    },
+    {
+      "id": "2026-09-03-olivier-faure-66111623",
+      "date": "2026-09-03",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Candidat à la primaire, Olivier Faure lâche les clés du Parti socialiste à Johanna Rolland - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTG1wZmRDY0Z1dmk5N2ZBX1g1ZWsxbXRIakdUU1B0cU1OX2w1ZVlKM01YNHBjV2x1MkQ0QUhlczJETTJtQUhoczJ2LUNHWjRhNzFDa19IbnQ5TEdaR0ZEdmJhZnVYTW1vWF9yQUxEdjM2VzVYOGFiTmdURXM2TzBkbTBsdXNkLUJnSGxBdVdKc09pNXhEUzg0clp3bndJRkJZQ25ieWZvcjNJNG51bzBmbllUYWhQVjJudXpoeENuX215cUhxaVE?oc=5"
     },
     {
       "id": "2026-09-03-marine-tondelier-89803869",
@@ -5273,6 +6971,21 @@
       "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOeDZpUVhqOHZ6LTRlUUp5LXM4V2t5S3YyRDlPQ1R5R3pUMlZnZTZqa0JRTWVVdTY3RHlZM0o0b1FaNTlEZjBoc0NldEc4RXd2V0JEUXlBRldVWE8yQW5GQ0w0M3Ezdy16WlFqTXRmT2dFMjVtdDdmQ3VtR1RDRC0zV2pfWVR2aDl1d1k0eHhtbUF2aXJaZFg2SmNLSVN1V0MxOUI1dkEzUEVSYkF3RUtlVGZqZUtKRUI1WlUzbmNZT0NadkUwenE5emh5WUlOaHB3eG15U2paUXItN1piNThpOTlhYmdiaHlOa1RHZG8xZVYtUzdzMUF6MWJ2aEhwaE1SUFRGSGZFN1RaR2hwb2JmX0hoNXNVSHI5U1p4Vg?oc=5"
     },
     {
+      "id": "2026-08-31-j-r-me-guedj-85888724",
+      "date": "2026-08-31",
+      "candidate_ids": [
+        "jerome-guedj"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Un duel Le Pen-Mélenchon au second tour de la présidentielle ? \"C'est déjà perdu si on en arrive à cette situation\", assure Jérôme Guedj, candidat à la primaire du pôle socialiste - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ0lwZGplWTM1eGNNY2FPVGdhVEtwVGI5cURRWldNbmZld09Hbmd2bktPNkNOTlZKdHczMVNiS0JXcFc2N1hoN0pBVHUxTndIRkExWXlKNXBiX0l4Tzc4VmdNOU1ndjYzc0hxNDlwRnJmUmhkdHFqM2k3dllGdEpEeVc0eUxBSDRJeFZYSjZBRUxfeGhKX0l4WWduZGktM2taYXdKWDRGOWVuMWMza3dOWjNpc2J1VXlsUXEzYlJ3aXRiaUE?oc=5"
+    },
+    {
       "id": "2026-08-31-david-lisnard-00329291",
       "date": "2026-08-31",
       "candidate_ids": [
@@ -5286,6 +6999,51 @@
         "TF1 Info"
       ],
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZ2FkbjYtSFphZ0l1WU16Y2FXTWxpdnBCYUs3bnZhZlNoYWNIWnBzZGJ1VXVzUENlc2RQeHpjZVJaUHZQeWlNa2dsQWs5SlJoWEJaRVVHVGNwMEVtSUZyczNuRkVDbS04cXBwa2VXZ3g1NFFNaHA4UFBvZmhTeDdXWjZWWjVFa2tGZzhIOFpZdWhMam9nTGZ6MFZhN21tdXBoSW9ReWh2VmQ2a0YwRVNmSTNUMU5pdEJnRDB1c1NvSklEZk9weHVPbkdLSUs3bUd0UHJUVTkzaFQxNlN4YzU3Q1VDVQ?oc=5"
+    },
+    {
+      "id": "2026-08-30-olivier-faure-78034670",
+      "date": "2026-08-30",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Primaire du PS : derrière le favori Raphaël Glucksmann, Olivier Faure en embuscade - Mediapart",
+      "sources": [
+        "Mediapart"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ3hpdmJaUVRxYUNpaHZtYm9iLW8yWGdVcDBoZXhXamZTM0NwM2pkcG02eFp3MmpLWWtjTXh6ekFtYnJwSDZkVHlJWGRGLUtHUkFUcC1PMVAxN3ZjNlVkQV9LQzRLM2RoQ3hzLWp2dVFiZjc1cExrTFFrei02Nmp1SU5HRHNBN2FPV3JvQmI5LThPRDVseGEwTVhMVXVnWGJienJQMXN5YjlMci1sOHBnQmluSVdPUjB3d1E1WXhuUDVrdFBMTEM5Qg?oc=5"
+    },
+    {
+      "id": "2026-08-30-olivier-faure-25724242",
+      "date": "2026-08-30",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Le chef du Parti socialiste, Olivier Faure, confirme sa candidature à la primaire de son camp en vue de l'élection présidentielle - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQSGxxTERpdXUwQk9oSEYzY0FjcGdLQmN2cGFwSkp1S2FJemhoUGFwSWZUbFdEWC1LZy0zOHFlRmVOT2tRbkpwUGJPeWFkR2pIRUJ1Ql9BV3pjaV9fMVVxaEhSN0E3WGhIdWtIQXZhVWlDd2dFVnVpVmdsVENCSUtyaXBBRXlhcWduX0htVmdJZjJNaVJzeWw5ZlBlOWFvQVBLbXVmY01YejFYc3k5bzFtbGdGcFpOTnVtSmVKaExrWWsyVGtFUHJTWk9kc29YTUhIUFVjbjB1UnNOSFRiZmlkcmxlMTV6Zko1Z3dHWjB3YnRiYmZrYjZJVlNCSVYzSWhRTm5BTVVTTHVUX25hajZ5YVd1b1Y0OWJ4dzFF?oc=5"
+    },
+    {
+      "id": "2026-08-30-olivier-faure-03521629",
+      "date": "2026-08-30",
+      "candidate_ids": [
+        "olivier-faure"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Présidentielle 2027 : Olivier Faure annonce sa candidature à la primaire de la gauche - France 24",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSmtpMmZlcFU3Q3VvMWtrMjdSLTB2Ym1LcFB6YmlmeVVwdnBlWkNSU1FMenBMZ2xXMFJsYkhxdm9uZktBUHNHMGtWektmR3B5T3pKSG91Uk1malkyZFQ4aW1pM3U1dmZQM3A4Q2x2TU1XdlBJMjd3Q3Qyakh0WlhKUHplRXgtYUJ0OE5UeGtLRjc1M2Yxa04wbG0xeWhSMFo5cjgxOUNDckVuX2NQa1hLRkdIN2lNdlV4S25ZSFFkTmUwbFdtdVBZb09SU3lrT1ktMEtz?oc=5"
     },
     {
       "id": "2026-08-30-lisnard-primaire-droite",
@@ -5351,10 +7109,12 @@
       "id": "2026-08-29-jean-luc-m-lenchon-70564328",
       "date": "2026-08-29",
       "candidate_ids": [
-        "jean-luc-melenchon"
+        "jean-luc-melenchon",
+        "raphael-glucksmann"
       ],
       "party_names": [
-        "La France insoumise"
+        "La France insoumise",
+        "Place publique"
       ],
       "summary": "Présidentielle 2027 : Jean-Luc Mélenchon recule, Raphaël Glucksmann progresse, selon un sondage - Le Figaro",
       "sources": [
@@ -5451,6 +7211,21 @@
         "Le Figaro"
       ],
       "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOd21rYzJ2a01MNzViVkltRFZpaE9ESmJQb1YxclUtQ0lzcDBWRnI1ZjVXb3dxMTh5azdhRTMwRGpzWHFlSDBhLURGbzlnWTQzTXN2Tml2WVVMdnZrUlFEWks3SXNNSEpZdjdpWkM5MUhHMkV1bmxDTU10dWVsYzh1bWFLb19YbFRscHctYUctT09mUmxYaG5YWHh6SHhGdUk2djMxUkRwbUhlNUEtSDU4aW9OYnA4UGEwdWNvUGpFWXhwNk9IWmdtU2t1OXZQdmJiTDVyNS1aUTJWbHA1OTRJUkRWX2hsbUdDRExhXzNJV1hZN1hmQUNONGhPRFl1UDdLakxXT2pFRml4Z2wwRXBvNXJYRlpXZ1AyT1ZMb0VFQXdFbHR5OHZtcFY5TlZWR2VyTlE?oc=5"
+    },
+    {
+      "id": "2026-08-29-bernard-cazeneuve-93767318",
+      "date": "2026-08-29",
+      "candidate_ids": [
+        "bernard-cazeneuve"
+      ],
+      "party_names": [
+        "La Convention"
+      ],
+      "summary": "Présidentielle 2027 : Bernard Cazeneuve appelle à une «coalition des engagés», composée de «républicains ardents», pour éviter la victoire de Marine Le Pen - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQTVp4dEVJUHdidVdjWklUdktVWnRkNkY1WWd4Qi1lNEpwMU1QaktqMlViY0YwSTU0YWlCeGtuSXBYOEJqN3dpWHRaSWtZdGNXNWhEajZoZWhzdGFZS0VMejJpZWIyYmkwT3liVzRPUTJTeW9nX2pfdEN1SmJLalRLU25mQlAtUGlwbThFMmtVTHZLb21LMHJma0V4YWNSYzZCWHpzYnVMaEtsVVRtRDcyeGNnaUpQZk1zSmhDdU9XS0syd1BOWVUyc3AxVXFWYzhRdEZIZGpzSHRGdDhNOHFEN1ZYZXAxX0FVcHFLbUtEVFZiYnVSR1F6XzNTX1hvVVZmUFQtRnotRnNRdlYxLVhIUjRyNnlEZTJoQ2RPRW4xSGNud3h0ZVV1Sk9zaW1EYmM?oc=5"
     },
     {
       "id": "2026-08-28-xavier-bertrand-70771746",
