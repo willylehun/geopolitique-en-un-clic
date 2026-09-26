@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-09-26T10:14:04.963020+02:00",
+  "generated_at": "2026-09-26T10:15:54.317444+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
   "buckets": {
     "day": [
+      "26 septembre 2026",
       "25 septembre 2026",
       "23 septembre 2026",
       "22 septembre 2026",
@@ -7185,6 +7186,419 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOcDFpZ0NTZnFKQ19STFpyejM5akpoVnU5eVZwVzJWQ1I3cGhFcks4X0NIekZhU28tT2Fsc283c0RiOVFVYnJFSzJudkJGeEpKaGIxREVYZUlfUUc2X0dwMlFwMlpCcHUxUW9KbHg3UFJPSURLYXdUbEV2d2ZxeHpFRW9MeDByX0ZRTUpKcHFUT3A1M3hra21heGEtc3dwSHJSX2xWOEZEY2w0U3E1dTFGWGhpUmo0dVFTazZmUXZvT3hrb1ZjSW1VSjh3ekxaSDRteGxtRk5mZHZBYU5tWVV0bVVjbXJERXU2OGt3Y1BaUjVnNGtG0gH0AUFVX3lxTE5wMWlnQ1NmcUpDX1JMWnJ6MzlqSmhWdTl5VnBXMlZDUjdwaEVySzhfQ0h6RmFTby1PYWxzbzdzRGI5UVVickVLMm52QkZ4SkpoYjFERVhlSV9RRzZfR3AyUXAyWkJwdTFRb0pseDdQUk9JREthd1RsRXZ3ZnF4ekVFb0x4MHJfRlFNSkpwcVRPcDUzeGtrbWF4YS1zd3BIclJfbFY4RkRjbDRTcTV1MUZYaGlSajR1UVNrNmZRdm9PeGtvVmNJbVVKOHd6TFpING14bG1GTmZkdkFhTm1ZVXRtVWNtckRFdTY4a3djUFpSNWc0a0Y?oc=5",
       "published_at": "2026-09-25T10:25:31+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Visite du pape en France : au RN, la laïcité cède la place à l’exaltation des « racines chrétiennes de la France »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQanJwUFZQTU05OGFvd0dhTXlRX2pTeDMyZjJDNVhlSXF3aUh5eGRvM0prYWItcnlxa3RFOThibGNvY1hjR2NrU1FoMGZjbU54SXMzV3NQVVZ2bDdIYmxfZW5PNHd5UFpwOF9xTUEzcThfSGdrVXRlXzZYaFZSSjdaQnlqWlUyVThrRGlGLXY4cnJiS2lUc2tTSHBMV2l0LXYzdEphOTEyZlNXb3duNE5WakRBZk5nQkJwRGNLNHpUeTlWV2VPLVl0ZTRFbXlJSU44MHJydjlnRmhsYmZBNkhmRzh0VzEyZXRNUTBfOGlSR2VYbmtBWmY5WE9HUmlEbTIyaHJqd0xTRWw?oc=5",
+      "published_at": "2026-09-26T06:00:21+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Journal de l'Afrique - Maroc: les alliances prennent forme en attente du chef du gouvernement",
+      "sources": [
+        "France 24 (média public)"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNanc0cTdfR1RJellWc3hvMmdqSk1uaTljcEUya2RyMG1VSGUwUHVWZmN2YXFFeTJSUkJaUDVNdzlpYXlvdWtFaWkyelpMa2tMbGthRDJMaHRJUXRQV1NFcE4wazRpLTViZ2tvbXlCQjYtNUloR3c0T2JUQ2EtQnViVUZrNFpxMlg2SnViNWRFTk9ZTEdOcDY0alpwazljaWU1ZFI0LVBfQjJrOXpKenNWZ1YzcnRDUl81aGV4V203dG1FcnVuWVVnY1ZJV2NlWW9DTEp0UFRaT2cwQQ?oc=5",
+      "published_at": "2026-09-25T23:13:02+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Italie"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Italie : le gouvernement adopte un décret interdisant le port du voile à l'école",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVlZM0twcVhjMFI2V3Q3T1pOeTZ0MGlPRXFua2VHcmVKOGlQQ1JNTTVGOGlKYmZXamttcHd6YVdhRlFJTG5ZbXhqNENmcFlJUWVTTU9YU05XRGctdVIzRk5WeTIyc0MtTEptaGJpNXF5ZlhFNzNTZWhfMkZkb2l4ZW1IOUpVZGlsWlIxcW5QTnkyUmFBTk5mOW9rbFd6RUtPdWxRQWplR21aVktTMGdFdDZR?oc=5",
+      "published_at": "2026-09-25T19:40:34+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Xi Jinping quitte les États-Unis après son sommet avec Donald Trump",
+      "sources": [
+        "nhk.or.jp"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QWnNWd0F5aW1hM1pGUE5tNVJvNTVNeDNuMUN6TVUxV1VMdkFkTjdKOWtlekVOb1NlN19zNWdsYjFRWTFYTG1lamxsWE5sWDhBa0pzZ1E1QmY1ZXJMMUtzODBac181N3M?oc=5",
+      "published_at": "2026-09-26T06:01:46+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Japon"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Xi Jinping a utilisé le sommet sino-états-unien pour donner l'image d'une relation d'égal à égal, estime un expert japonais",
+      "sources": [
+        "nhk.or.jp"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xTmJCejMwbDRlRktmTkhpRnNRU0NxcUJQbEhVT2JoVlFzaGNFYUo3cnkyQzgwWVBYeWpjdWNxYmsxaG9MXzQ2aHNGa3FXTTF2dlh0YndvQ2hmY1BBc0FHWHk4VDVvTlE?oc=5",
+      "published_at": "2026-09-26T06:01:45+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Chine"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Commerce: les Etats-Unis et la Chine se sont donné du temps, mais l'heure tourne",
+      "sources": [
+        "France 24 (média public)"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVDY1SlhvT3AxazJ1cC0zd1hfOFFEZGcxd09qeE1udkFpTVgyYWxBemxXbmxfSHNiVXZXNzNjS2tmV3huMzIyV2ZKZ3A1UjV6ZjVoX0lmc2xnRWlTS0ZUdmx1QlQ1WWgxdGJ5bEthR2JMS29sc0xuSE9ldEtYWmtHVkwzUG01ZVpSLUpjQnk1N3NVR0FnQXZtOUt5a1J4V1JDOUFiOWpVT1BqNTlhN25lenlaV3hsaTZuMGt2Nk5QT1JPWEJYNDN3cGhELWdOc3BpbUE?oc=5",
+      "published_at": "2026-09-26T10:10:09+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Des pays suspendent les vols iraniens en raison des sanctions américaines",
+      "sources": [
+        "nhk.or.jp"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoY2MtNUpCcTBQSU13M0xubFBFRGFmaWsyNHVlOVhUUVVRbFNDTF85UFZOMHBxMzdKZkZzbWFtSGRxaUdkNExPYlhkZzlUaUYwUzYyekhMY190ZHZtYTQzWXJkdHJ2ejQ?oc=5",
+      "published_at": "2026-09-26T05:50:31+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Arabie saoudite"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’envoi de « moyens militaires » français en Arabie saoudite sort de l’ombre la discrète coopération de défense entre Paris et Riyad",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxONG9hZHJPTWpOX3ZNd1hBcUNiN3l6NmQ2MXk5aGt3UENYem13ZWNzeXVhQXhRYzhfV3dQWTE1ZGliUmlvd0gzZ19zN2hfOUw5ekFwZU11Wk5xTE9DbENGbXhKdEZPSWdiZVZqak1mQXh6U05YRE9ubDNkeHJyY2dYTVNQUTR0TWVmMkNwekgtYVVNemxkRzFKOWNXNDN1THBsTFV3VUlOVy1WbWI4Y2lYaExLQ3kxRmcwMEpnbTBXWVBMNERodzJFNWYyZlJUUnJ5Z1pzYjRpd2t6dnViYzlwdUNjMWxzc0gtUEZkeVJrNlpZdlJsclZ2MEF2OURiNER3eHFMQkZmT0V5VnRsQUY0LW5FZ2kxQXB1cXNhb1JfbDRQMDNZdHA1T1J3?oc=5",
+      "published_at": "2026-09-26T09:03:00+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Arabie saoudite"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Conseil de sécurité de l'ONU \"condamne\" les attaques des Houthis contre l'Arabie saoudite",
+      "sources": [
+        "France 24 (média public)"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQemgxWFFfNWw2WUpKT0ZQUXQxVFo5YkVWbmpRSjJtUkx3ZkJsRUNTSl9xTGhLdTROclFCRlUzVUR1MWhLaUpCV1AxbnNEQU9LVV9hd2l5MmZhVTNsbWROOUVXSDh3TlQ5QXVmTkJqdGFrQUN3LWxNQnM2YmdqbFpsVTBkcHhGUGU2QS1Sa1RkcjgxY184QVVsM2U5NlJZcDZKM3ktTUJZdEZkeHFzdW5XOVhzZEdtQ0Z3dGl2ajc2ZGJxbEFhb1ltTkl4ZGM3N05nYkRrN21UdEtqYjhtMklqWlVDSnI?oc=5",
+      "published_at": "2026-09-25T22:43:09+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Après un été de tous les records, des rassemblements pour le climat organisés samedi dans toute la France",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQYkhXbmNqaktyTEN1M295cFlpclhBUm5xd2M2RHJnOWd3dGZlYXFFOWo0THJfY3JoaVBFMEd4RTZVWHo5QlRmeHRMNWFEVzJrZ3lNVFptOFFnc2sxOFN3eDQtOWJpb2JqV2U4eUVRaXRxalhFVXFIdXpJUlNIQ2d2MUxCYzV2cXkwbTdubjhUcmVBcm5JLS04MkRMR25IbUM0STVHVU5xOTRaYi1MTUh4X2t0d2Nqc3h0bmwxSndXUVpiMlV5THdGRmhEYXR0a2s5RTd3cFlZRVBwcWliZm4xelFXN2lsejNzQnM1WDlHNUdQRWR2VU9FaHZIckxUamxwbUE?oc=5",
+      "published_at": "2026-09-26T06:00:32+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Thaïlande"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Thaïlande : Bangkok déclare l’état de catastrophe dans ses 50 districts, en proie à de graves inondations",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOZTVCSGpyWG1iUG5wTHpnQm5vWWFTZU94RG5EMTZ2UnlaU3hIUjRkOHJlbmlvMi1NeU5Oc19uTmtCQTJ3QUJnbTBoQlhWUFlNU0VOUnNUV1lZRWVTdGxiOHdiRHFGR0lRQU8za1Q3TTNKaU5WdWtsNndpNTBDZTJSLXRPeVVSOHZpUzBkcVBYMi0yR281OW1Gd2JnSk9FdmQ4cXI2em1Mbk5VQnJiTzlWaWdhYXpVSGUwQnN1X185dlRhMVN6TDdBTkRHcm1xMnVoUXZRU21FU0lSTTRpZkN5NHdMVXhRWllhSlNLSEFDWmtjcjhvMkQ0bVRRaTZLejNNSzRoSkFyTQ?oc=5",
+      "published_at": "2026-09-26T08:28:51+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Visite du pape à Paris : « Léon XIV a rempli le Stade de France plus vite que Jul »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdEhySkd2TXQ5RHItajNkaW1hQjAwc0pIdFJlNmFKYWttaG5CcXBIdkhDLXpWMGFfeVNmaEo5LUxjZ05aN3hjMUZmQmV4V3JfMVJjWDdBWlNhRVRScUZ0Y1ppX0FFbkJCTlc4dVNEai1HdkVCb1JyVmdlcGxwU0Mzc0w4YV9DblJrMlNQN3JqUlBQTEdHSXFxRDlqTlZwV1ktUVJIaUphMTA1SDJQbDZCajFFOXQ3bDJqSXdlM1hWazk1QVdTdVB5RldsWFhuWEh6ejVSTUVCN25oV0JfOUFETnVfRkVTcENi?oc=5",
+      "published_at": "2026-09-25T21:27:36+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’Iran a soumis aux Etats-Unis un plan de réouverture du détroit d’Ormuz en sept jours",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdnRDeTA1VmFBS1JHVGYwaGVNbnhIWlJEbmZ6ZGJSREZVZTUyTDFuOVNwdFR0dXIwSm03OEJBaDhsS3lVMXJNWG1iNVNkeEFVZUZYZ0JKMjYwNEY5SmRBRFdlTzNtOFVPdGRRQWZGc2s3UXg0ajNwYmUtX1Q2QUs5YWJlT2syVllFSTUtMS1mX2VQTVZoUzRVQXdqNDNqMjR0ZmloR1BNSWNya2kwTU54S1plVFJCQzZoeWI2X21HNU5pVTc2N1kxRlg1NXhsQ0ZIT1FxMU9KQjNrRmVSMzBKWUZfRm92MEdMbGRLZUJTX2M2Zw?oc=5",
+      "published_at": "2026-09-25T23:55:07+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Visite du pape à Paris : au Stade de France, Léon XIV célèbre le « combat » pour « la foi » au milieu d’une foule de jeunes enfiévrés et disparates",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQOE5sOF9ZbVMyWURrNGpMRXA2TllnLVp0SlNSVHpOVk9hb1pXdUtGbDVnSS1LT1lhZWdGZmRyUjhVNkhjRFJKbzNwN1FmUzZKRGZCenRfdjRzM0xjZm9rUUZ0aW50OEpvUDVyT0dqdzRVQkdPcmxCTnd3WENtWi1tdnRXaFFoQXJIOXdyUnZOY0l5WXRrMWFMSzdlNFlleUhTNDdQQ1VjTW03SjdtV3A0bnRESE9Yc3BHZ0FZQS1ZLXd5ZmtCdEliMnhVbm9NWGhlcGk3YWVYNTgzV0tTb1FwNGQxWFUyMk45TnZCSEhQaUdWdl96SEpJdWo4aElZUXJ4MVlacUR4UzVGU3lQZnpaQm5QWUVtd19JaGRCZTRYN01YZFFUVm1WRFNGZExMWF8yZGc4U28yTQ?oc=5",
+      "published_at": "2026-09-26T05:30:08+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Législatives au Maroc : « Le vote du monde rural est toujours déterminant »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaDlKdF81YzN5TUVBVnY4SFlqOXlCZ1VkWS1fRDBYbEVoWHdFdnFXdUFYdG1ZV3liTmFCTHhGRGN1SFJWeXJCRWp1ZXBoVkQ1dWNzcEY5UlZjc01mREE2azUxLUFkdDBXZ0tXUnN6UXJSZUxkY18xb191VnpaS09XMGtaWEI3LVRmWHBWQ0NVdXFiNGVOTC16SWZvMjhOVEZfVElzSzZ2cjNZX1RBZ00yS0t5UGRNOXBLYzNXWWJfVTZVTFFySFlaUUJHMEROUmQ0ekc4?oc=5",
+      "published_at": "2026-09-26T10:00:16+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Oman"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Affaire Thélyson Orélien : le concepteur de Pangram, Max Spero, n’a « aucun doute » sur la présence d’IA dans le roman « C’était ça ou mourir »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxONzFUUmNBUjRsZXlac0gybnRCdzlOeU1mZXJXY0tlN3FUaGEteVBsa0duOXozX1pwXzNkRk5zc25mVGtTRzFmdl9zbGVXbjRhc1FuVk1WRXBSVWdzcXh2WHhzRmN3eS0yQWV6akNvc1B2NDJnbXZRdmxEck1qUlpIeDFOUjdNTFJQckZMN2R1WWxXZ211enJnX3JReE9nMnVCbHVZRTJSMV83Nlc3TnhXYk9HQ0tqYmxOZUwtSGQyQnp1WExicnVGby12aGVoT3V4Vm9OVWVlT0hXU1J0RHlnV3N2anl3cnFLVERZWENhb3haRnlOeng4ZWZwR1ZLazF1cXdoWERudXFleXBmODc3Y0h6RXBUNGdpWWpMNlFzREMxMzdPS0tsSQ?oc=5",
+      "published_at": "2026-09-25T15:03:29+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Pologne"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Volley : les Bleus nouvelle génération se hissent en finale de l’Euro, où ils retrouveront la Pologne",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNGtvOHY4dGlsdXVLVTJIdUhGUktzTTFONFRWM0lvSjdobklhU1VqeXpMcVo0dkJjbG0wSlktN2tUN0UyLXlFalQxLTdfLU8zdGFvNWZOVjNKajcxOE9IcGo2eDM0YXhXUm1mc3RfcGdRa3VhOFc2eGpmeC1HSGxWbGQxTHBveU5BSV85VWNyeWFJVVczNURab0JlZS1fNWdhOWtrQmhyOXFna18tRXYxd2NKMXhZOHhJcV9KWmIwMklWSEx2T2N0b205eGhPbERfNEdvLXVaYXdEM0hNcW9zclRoMGo0UFBHSTRUaTRZLUhtQ29pSlp3?oc=5",
+      "published_at": "2026-09-26T00:28:13+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Jordanie"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Cisjordanie : 214 entreprises liées aux colonies israéliennes placées sur la liste de l’ONU",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNUXYtOENRWWtNYU9uVDBEMmdOY0o3WFJ3aF9rcnVUUTRudXhxNXVuMGNzYzk1RWRZT0NOZV9KalE5YUhtaFlQak9lVHAtYlNicWwwR2s4ZGRaRUd1ZVBrYnpuQzVuZnowWWVkRm9wczVGR0Y2UGRJeUJHUUVuM3ZTbFZ1MU1oQzhMckMxcWxJM3gxU1NxSTVCdV9Ec21jUHBKUGJCU05YdHZ3RVlDSTQwVjU3NTV2Z3Fvb0VadEdxUUFUU0NQaFBpWnNQandWWkdHVjFiY0Z5QXgwd0lBNkt0VFRIcDRhdDlZN1dSdUxaV3hnelpsbHc?oc=5",
+      "published_at": "2026-09-25T18:15:49+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Arabie saoudite"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’Arabie saoudite subit de nouvelles attaques des houthistes",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWm1BbkZJdG5XX29QSWRQZnV6c0RvNGhQTHdxR2VFVDVsZV9DQUtuamdRY1FHMDViMUltTkJrYWY0ek5EdWEzdXFzd2dZRFAzSmpoQWFzaUFqd2tuR3laZUFxWFg0by1aeUNSTnlFb05TZms3bXFUVm5UV1NNMkZEUDVfVzViM3JFRTQzTENLYVNxeWZXcXljV2g3MVIxMUFFMjNlNTlTS2dBeVRDbmhOWk9WZzk4bXZGMUVPWXlDVlYwSGltTzJSblhKejVpMzQ?oc=5",
+      "published_at": "2026-09-26T05:30:01+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Turquie",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Turquie-France : le résumé des débuts victorieux de Zinédine Zidane à la tête des Bleus, sauvés par Kylian Mbappé mais privés de leur capitaine, blessé et forfait",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQVzN0SktoMzhGSXVBUVRMSTRtaF9tSFoyUWVERXJlXzlGeGRtUUVoSUhtX1JKTXRSNC1IR0o4cm5xMk5jZDNqOFFwRTE2RjZpMC1NdzA0OG5DWVppNWgxb1JyRUhmWEVyMW16VzRWQl9ZUVd6ZE14M2JQRmxyM2xkNWhXNnNhZjBaejRjMDF6TTBGNmZMQ3dfRFhjamt1Z3o0dlgzUmhESDh0N0ZObmgzNV9NdnkwRENjNXphVnBWVm5tbmRZQ0lhUVBwZmVkUU5PR1NDalVscWsxOUdaRnpmQkR4Vmx2M0dlVFBKRnRhb2RMeHVGV0ZlNFY1VktQWWNHc3pIQVRFbmtTM1lGakZPMUdNM0ZoRTZrU2ExZHRsanp0bEt5UjdfSG9vZVpzYjdoNE4tYk5EZkxzZzZiRGRXa2pNM1lYeE0?oc=5",
+      "published_at": "2026-09-25T23:32:47+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Oman"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’académie Goncourt supprime le roman de Thélyson Orélien de sa sélection pour le prix",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcmMzem93WURCWTliRGZ2Xzh1RHc1NkZxYWtuUU1PZ1Jnc0hPUlJ1MlotbXd1d2dNcEYwVVRlbFlXM2pYMkpPZjg2clhHTm91NWphRTRnUzhrb1ZjeEtyMDY0SUc4T0twOWRrR1dNNUY3QWVPYkp4bU1Ka2tzYkRNY1Y1cWtDRlNVN3dkbXo5THFKTnRGeExoNDJkRzVxa0JrRTNBeENSZ092N3ZjanpYRnFSRFBNY1dzdjJzaVprbHU2TUpTUEJFQU5iam51Vi1ieDNkcWlZQUtud1J0OXFBNzlDdE1IbUItYnc?oc=5",
+      "published_at": "2026-09-25T12:39:19+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Géorgie"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Shavkat Mirziyoyev félicite le Premier ministre géorgien à l’occasion de son anniversaire",
+      "sources": [
+        "UZA.uz"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTUJmMVhESi0wVzFsc25kaHdPeEQwTi1feDdxUTlldnlJam5aYXVxQk5CYlJzNFE0OFA3YU1TV2EtcHoyWGg2aWRSclB2NXJ0MjNqVmRUay1Kd2p4QnBoWGVpRWJjdXFEcXRCNWlhLUpJV1B1WTlyTWQ3QjU3WUl4bVZhd3dELXh4emRwczBrSHJ0WDdMR1BNMlpSYWhacDZ1UTBSbzhiZmRsSzFDUm91N1ZOYWdrZw?oc=5",
+      "published_at": "2026-09-25T11:40:14+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Haïti"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’instabilité d’Haïti : le secret inavoué de la croissance dominicaine -",
+      "sources": [
+        "- Rezo Nòdwès"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMHNVVldKZ21YSlBCZDN5VUlrMEM1RS1pTTdsazc2cVV1V0M2bVlRYlhGR2c0YW9YWlMxLWY4TnlpamdkeE12SUUtRTdRX1prMlJOZHExQ3Y5Ykp4RzZNMmlXQUs0c3VXbFJxS2x2TUhJNE1TN2hvY3BSR05KNFRmZmM1cTBRYlN0TGFwaDRyTWlYY0l1LWlKWndIZTVDUUk?oc=5",
+      "published_at": "2026-09-25T18:22:47+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Hongrie"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Ararat Mirzoyan s’est entretenu avec la vice-Première ministre et ministre des Affaires étrangères de la Hongrie, Anita Orbán",
+      "sources": [
+        "armenpress.am"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNVl9GdEtXbWY5RV95QldXM3c2QktrN1pXZEhRU2QtY2kybTRNQmdFSnlrTlMwems2WVRYY0NoR1JhUklVNjN2WmdZSHg5dV9FQldSWnNnb9IBV0FVX3lxTFBNVl9GdEtXbWY5RV95QldXM3c2QktrN1pXZEhRU2QtY2kybTRNQmdFSnlrTlMwems2WVRYY0NoR1JhUklVNjN2WmdZSHg5dV9FQldSWnNnbw?oc=5",
+      "published_at": "2026-09-25T20:11:00+02:00",
       "origin": "rss"
     },
     {
