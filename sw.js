@@ -1,14 +1,14 @@
-const CACHE = 'geo-clic-v21';
+const CACHE = 'geo-clic-v22';
 const ASSETS = [
   './',
   './index.html',
-  './styles.css',
-  './app.js',
-  './countries.js',
-  './manifest.webmanifest?v=21',
+  './styles.css?v=22',
+  './app.js?v=22',
+  './countries.js?v=22',
+  './manifest.webmanifest?v=22',
   './data/news.json',
   './data/election.json',
-  './assets/logo.png',
+  './assets/logo.png?v=22',
   './icons/icon-192.png'
 ];
 
@@ -29,7 +29,7 @@ self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
   const freshAppAsset = url.pathname.endsWith('/index.html') || url.pathname.endsWith('/app.js') || url.pathname.endsWith('/styles.css') || url.pathname.endsWith('/countries.js') || url.pathname.endsWith('/') || url.pathname.includes('/data/');
   if (freshAppAsset) {
-    event.respondWith(fetch(event.request, { cache: 'no-store' }).catch(() => caches.match(event.request)));
+    event.respondWith(fetch(event.request, { cache: 'no-store' }).catch(() => caches.match(event.request,{ignoreSearch:true})));
     return;
   }
   event.respondWith(
@@ -39,6 +39,6 @@ self.addEventListener('fetch', event => {
         caches.open(CACHE).then(cache => cache.put(event.request, copy));
         return response;
       })
-      .catch(() => caches.match(event.request))
+      .catch(() => caches.match(event.request,{ignoreSearch:true}))
   );
 });
