@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T10:11:48.931049+02:00",
+  "generated_at": "2026-09-26T10:12:42.277556+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -39,6 +39,7 @@
     ]
   },
   "coverage": {
+    "day:25 septembre 2026": "Journée civile : 25/09 00:00 → 25/09 23:59",
     "day:26 septembre 2026": "Journée civile : 26/09 00:00 → 26/09 23:59",
     "week:Semaine du 21 septembre 2026 au 27 septembre 2026": "Toutes les actualités conservées de cette semaine",
     "week:Semaine du 14 septembre 2026 au 20 septembre 2026": "Toutes les actualités conservées de cette semaine",
@@ -6347,6 +6348,74 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQTdpbXgxLVlmUTA5LThtQlB2dXd2TWN4djNlbnpScllFSDhta0FEVnQ1bmMzZWFrREYweFJrVGM3c3pLTlB6cGROejhId1hyZkpvMEVLcEs2NDZoQmJpWlNDNnVLLWx1OC1aTDA5X1lpRk5mMFVNWndxNnFmM1NVY1VURkRuTFdoTGdtQlJRdmRHdWZCVlJBNUJCaU1GQXQybGplbXBjTk9Da3hOS3Q4MllVZ2ZSOE5PMUg3WURZUVZrcDlhRzk3X2VqRlJ6d0ppOFF1a1NxUzY?oc=5",
       "published_at": "2026-09-26T09:50:10+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Au Brésil, Lula interdit les paris sportifs en ligne à quelques jours de la présidentielle, dénonçant une « maladie » qui gagne les foyers",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNWTBSYmlnazlKWmlqS1VxWkp5X0hnV0pDV21hX0hFSTBONzR1cy1scl9iWDE5Um5QcjRpQ2ZBcFJJVXpZeE44MGR2TU9vcHJ0WktzT2dsV1o4MGtZanFnX1NUZEtHN25teDZQNG50NWVoRTZTeEJ2S3JxY2JSTDdhdDVCRUgyMjh4MkZtZWtjdGFrZ3NTVHpGLURCa1hLSVk1MlEwZDU3VEVXdjNDbDNzM2NmZ0NCMlJfeW5NQmFZaU9Ha2E5MTJFbDZEWGRzeXh6WUY0ODBzUGtXVG9fTElDcGo5Z3J0MjBWQS1KZjJWcVRha1YwZUJlUDFSb0RxMXU1S0g0TnJEM3lsYnY0SC1yYnBFamplV3REZ1hCTGZCWU90ckpzd3F4MVg0WWdzRFU?oc=5",
+      "published_at": "2026-09-26T00:53:11+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Burkina Faso"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Réunion de la Commission de la consolidation de la paix : pour le Burkina Faso, il faut faire de chaque pays le maître d’œuvre de sa destinée, de sa propre paix",
+      "sources": [
+        "Quotidien Sidwaya"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNUDY1WGt5LUlQV3BYNFpNLVFsX0wzaHhLSnFDcXB4UUM1VU5na3VxWFZZRE15c0h6VzZZVHoyVkVmM0ZmelVubzh6UXBGa2szbV85b05sQXpNZHhJdzNHTlJRT28tT2dxVVh3dThCMFE4czFBU01EZTlHY2xIWTVzVi15ejlxc1ZKZVZSS05zX0xKRks2dXRCbjdNelJUR2JmaUo1VERKaWVoWUlLdmVEYjAxLTJ3UlFwcHd1VExleGJQTzdwTVQzNHNublVkZXpqdVo1MzMwQnUwT2lHbFpibVNVaVEtT0NGd1A0NXJhVDlwelppbFdUbWVpRF8zdTVEMmFScUtvTXdEUmNrdkQw?oc=5",
+      "published_at": "2026-09-25T13:11:31+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Burundi"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "AG de l’ONU à New York : Les Ministres des affaires étrangères de l’AES reçus par le Président du Burundi",
+      "sources": [
+        "Agence Nigérienne de Presse (agence publique)"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNejVzcXphUzRGaWVkNmMxbGpVQWp6MVN4bDdQT2VCWG50Z0lyR2dqc0VYbnRTVEpmUjJwdjVZc1o3Tk9aVWZZMUxTM0oyVUo5MWQzWjlQTEV4V3NmWTRGWC1XVnRsb3piVm9zQTY3ajF6YXV0MGRUeDdlbzB2YlJtd0FZZVM1TFNGUWJUek91VERDZW93b3duMmVTdWxybHB4T041S3hnc0ZlcW8yN0tjYjZkNnRXSlBy?oc=5",
+      "published_at": "2026-09-25T15:30:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [],
+      "countries": [
+        "Cameroun"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Féminicide au Cameroun : une hausse qui alerte",
+      "sources": [
+        "DW.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUFk1Tnl0azJkRk1obEhFSGNXOWUxNC04U0hhQTRvWmRJNDBKb0xDTHBBdzJEWEFKVXk0blE1WVVTVV84bHpZVm8xSXFmSkxhSnJtM2YtOEVlamJFQnVTbEtwYzNJRG5acUpHcjNxVUFpZ0s2TkNMMWVjcmxldnJDSExDOWd6N0RIYUNPV3lMWkpHdmRuaGJfbGRyakcyMEVIeUViam8xeW5SYWlQcjFCeFh5eUVOMWl4cWNsUFExZW5RYmFWV1pLRFlnNVlGRGxHcFdR?oc=5",
+      "published_at": "2026-09-25T14:26:09+02:00",
       "origin": "rss"
     },
     {
