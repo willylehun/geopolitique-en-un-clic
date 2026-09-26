@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/update_news.py"
       - "scripts/manual_backfill.py"
+      - "scripts/build_api.py"
       - "data/monitor-state.json"
       - ".github/workflows/news.yml"
   schedule:
@@ -49,16 +50,25 @@ jobs:
         run: python scripts/update_news.py
       - name: Intégrer le lot manuel vérifié
         run: python scripts/manual_backfill.py
+      - name: Construire l'API
+        run: python scripts/build_api.py
+      - name: Valider les sorties
+        shell: bash
+        run: |
+          python -m json.tool data/news.json >/dev/null
+          python -m json.tool data/country-coverage.json >/dev/null
+          python -m json.tool api/news.json >/dev/null
+          python -m json.tool api/status.json >/dev/null
       - name: Enregistrer les nouvelles données
         shell: bash
         run: |
-          if git diff --quiet -- data/news.json data/country-coverage.json; then
+          if git diff --quiet -- data/news.json data/country-coverage.json data/monitor-state.json api/news.json api/status.json; then
             echo "Aucun changement"
             exit 0
           fi
           git config user.name "Géopolitique en un Clic"
           git config user.email "actions@users.noreply.github.com"
-          git add data/news.json data/country-coverage.json data/monitor-state.json
+          git add data/news.json data/country-coverage.json data/monitor-state.json api/news.json api/status.json
           git commit -m "Mise à jour automatique de la veille"
           # Une autre mise à jour (veille électorale, correction manuelle, etc.) peut
           # avoir avancé main pendant la collecte. Rejouer notre commit au-dessus de
