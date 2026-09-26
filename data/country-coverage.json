@@ -2,8 +2,8 @@
   "date": "26 septembre 2026",
   "timezone": "Europe/Paris",
   "target_countries": 195,
-  "covered_count": 40,
-  "missing_count": 155,
+  "covered_count": 41,
+  "missing_count": 154,
   "covered_countries": [
     "Afrique du Sud",
     "Arabie saoudite",
@@ -40,6 +40,7 @@
     "Pakistan",
     "Pologne",
     "Pérou",
+    "Seychelles",
     "Thaïlande",
     "Turquie",
     "Uruguay",
@@ -163,7 +164,6 @@
     "Samoa",
     "Sao Tomé-et-Principe",
     "Serbie",
-    "Seychelles",
     "Sierra Leone",
     "Singapour",
     "Slovaquie",
@@ -204,7 +204,7 @@
     "Îles Salomon"
   ],
   "rule": "Couverture cumulative sur la journée civile Europe/Paris : les 195 pays restent dans la rotation ; covered = au moins une actualité du jour publiée ; missing = pays sans actualité publiée à cet instant. Plusieurs articles distincts par pays sont autorisés.",
-  "updated_at": "2026-09-26T11:31:10.760051+02:00",
+  "updated_at": "2026-09-26T11:37:14.796105+02:00",
   "checked_count": 195,
   "checked_countries": [
     "Afghanistan",
