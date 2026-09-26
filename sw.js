@@ -1,11 +1,11 @@
-const CACHE = 'geo-clic-v19';
+const CACHE = 'geo-clic-v20';
 const ASSETS = [
   './',
   './index.html',
   './styles.css',
   './app.js',
   './countries.js',
-  './manifest.webmanifest',
+  './manifest.webmanifest?v=20',
   './data/news.json',
   './data/election.json',
   './assets/logo.png',
