@@ -397,6 +397,19 @@ def main():
         k=(x.get("bucket"),tuple(x.get("regions",[])),key_title(x.get("summary","")))
         if k not in existing: fresh.append(x); existing.add(k)
     day_items=old_daily+fresh
+    # Garde-fous d'affichage appliqués aussi à l'historique existant :
+    # aucun texte anglais publié et International réservé aux scores >= 7.
+    cleaned=[]
+    for x in day_items:
+        if looks_english(x.get("summary","")):
+            continue
+        y=dict(x)
+        regs=list(y.get("regions",[]) or [])
+        if int(y.get("score",0) or 0)<7:
+            regs=[r for r in regs if r!="International"]
+        y["regions"]=regs
+        cleaned.append(y)
+    day_items=cleaned
     non_daily_manual=[x for x in old.get("items",[]) if x.get("period")!="day" and x.get("origin") not in ("rss","gdelt")]
     by_region=defaultdict(list)
     for x in day_items:
