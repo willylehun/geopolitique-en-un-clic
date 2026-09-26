@@ -64,6 +64,13 @@ def is_french_2027_presidential(text):
     campaign=("2027" in t or "candidat" in t or "candidature" in t or "primaire" in t or "programme" in t)
     return presidential and campaign and (france or "2027" in t)
 
+def election_score(text):
+    """Les élections nationales de dirigeants restent des événements internationaux majeurs."""
+    t=" "+(text or "").lower()+" "
+    elected=("élu président" in t or "élue présidente" in t or "nouveau président" in t or "nouvelle présidente" in t or "nouveau premier ministre" in t or "nouvelle première ministre" in t)
+    national=("élection présidentielle" in t or "élections présidentielles" in t or "élection nationale" in t or "élections législatives" in t)
+    return 9 if elected else (8 if national else 0)
+
 def score(text):
     """Importance géopolitique 1-10, calculée sur le texte français quand disponible."""
     t=" "+(text or "").lower()+" "
@@ -72,9 +79,10 @@ def score(text):
         count=sum(1 for w in words if w in t)
         if count:
             hits.append((level,count))
+    forced=election_score(text)
     if not hits:
-        return 4
-    highest=max(level for level,_ in hits)
+        return max(4,forced)
+    highest=max(max(level for level,_ in hits),forced)
     # Plusieurs signaux concordants peuvent relever d'un point un sujet déjà important,
     # sans transformer artificiellement une actualité mineure en crise mondiale.
     signal_count=sum(count for level,count in hits if level>=6)
@@ -118,7 +126,8 @@ def looks_english(text):
     return en>=2 and en>fr
 
 def french_summary(text, meta=None):
-    """Traduit/synthétise le titre source en français. Un échec est mis en attente, jamais publié en langue étrangère."""
+    """Produit un résumé français exploitable. Les nouveaux résumés doivent préciser les acteurs/pays lorsque le titre source les donne."""
+
     text=re.sub(r"\\s+"," ",text or "").strip()
     if not text: return None
     if text in TRANSLATION_CACHE: return TRANSLATION_CACHE[text]
@@ -527,9 +536,7 @@ def main():
         summary=y.get("summary","")
         y["score"]=score(summary)
         # Une élection nationale d'un dirigeant est un événement international majeur.
-        election_terms=("élection présidentielle","élections présidentielles","élection nationale","élections législatives","nouveau président","nouvelle présidente","élu président","élue présidente","nouveau premier ministre","nouvelle première ministre")
-        if any(term in summary.lower() for term in election_terms):
-            y["score"]=max(y["score"],9 if any(term in summary.lower() for term in ("nouveau président","nouvelle présidente","élu président","élue présidente","nouveau premier ministre","nouvelle première ministre")) else 8)
+y["score"]=max(y["score"],election_score(summary))
         regs=[r for r in list(y.get("regions",[]) or []) if r!="International"]
         countries=list(y.get("countries",[]) or [])
         if countries:
