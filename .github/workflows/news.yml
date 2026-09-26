@@ -68,6 +68,7 @@ jobs:
           python -m json.tool api/index.json >/dev/null
           python -m json.tool api/latest.json >/dev/null
           python -m py_compile scripts/update_news.py scripts/build_api.py
+          node --check app.js
       - name: Enregistrer les nouvelles données
         shell: bash
         run: |
