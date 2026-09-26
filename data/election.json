@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T10:43:33.991606+02:00",
+  "generated_at": "2026-09-26T11:14:44.369831+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -245,7 +245,7 @@
       "sources": [
         "Le Monde — 25 et 30 août 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-26T11:14:44.369831+02:00",
       "bio": "Maire de Cannes, président de l’Association des maires de France et fondateur de Nouvelle Énergie. Issu de la droite libérale, il défend notamment la baisse de la dépense publique, la liberté économique, la décentralisation et l’autorité.",
       "controversies": []
     },
@@ -271,7 +271,7 @@
         "Le Monde — campagne lancée le 4 mai 2026",
         "Le Monde — Fête de l’Humanité, 12 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-26T11:14:44.369831+02:00",
       "bio": "Ancien sénateur, ancien ministre délégué à l’Enseignement professionnel, ancien député européen et député. Fondateur de La France insoumise et candidat en 2012, 2017 et 2022, il défend une ligne de gauche radicale fondée notamment sur la VIe République, la redistribution, la planification écologique et une diplomatie non alignée.",
       "controversies": [
         {
@@ -318,7 +318,7 @@
       "sources": [
         "Le Monde — 12 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-26T11:14:44.369831+02:00",
       "bio": "Député du Nord et secrétaire national du Parti communiste français, candidat à la présidentielle de 2022. Il défend une ligne communiste mettant en avant salaires, industrie, services publics, énergie et souveraineté productive.",
       "controversies": []
     },
@@ -344,7 +344,7 @@
         "Le Monde — juillet 2026",
         "Le Monde — grand âge, 17 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-26T11:14:44.369831+02:00",
       "bio": "Secrétaire nationale des Écologistes et conseillère régionale des Hauts-de-France. Elle porte une ligne écologiste axée sur la transition climatique, la justice sociale, les services publics et la coopération des forces de gauche.",
       "controversies": []
     },
@@ -369,7 +369,7 @@
       "sources": [
         "Le Monde — 17 septembre 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-26T11:14:44.369831+02:00",
       "bio": "Député de la Somme, journaliste et réalisateur, fondateur du mouvement Debout ! et ancien membre du groupe LFI. Il défend une gauche sociale centrée sur les salaires, les services publics, l’industrie, les classes populaires et la transition écologique.",
       "controversies": []
     },
@@ -394,7 +394,7 @@
       "sources": [
         "Le Monde — 17 juin 2026"
       ],
-      "last_checked_at": "2026-09-22T23:27:00+02:00",
+      "last_checked_at": "2026-09-26T11:14:44.369831+02:00",
       "bio": "Députée des Deux-Sèvres, ancienne ministre de l’Écologie et présidente de Génération Écologie. Elle défend une ligne écologiste structurée notamment autour de la sobriété, de la transformation écologique et des institutions.",
       "controversies": []
     },
@@ -922,6 +922,21 @@
   ],
   "news": [
     {
+      "id": "2026-09-26-jean-luc-m-lenchon-24340379",
+      "date": "2026-09-26",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle 2027 : le chemin de crête de Jean-Luc Mélenchon sur l’Ukraine - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWEQwd0dNdGlBUjlGVWVZQnNmejJTZHd6WlF3cDBEOFJjWUVBVkVpT2xzcnlkUGNPMDRjczYwdnktMU81dGVrNTZXS3U4REVydnFoOXkxYzZTWkR4UEhvazdoejhsT2lfaGlKaFdUR29Od2xiYWdoWHF4MlRYMTZMR3RCYUdwcS1GR1E5VzlKWkZvY096RnQzaE9tRU4xaWc0UWhyRUdSMHhXY2JLRjFXVkF4ZWdMNUJZOVpmZFdDQ0tEVHpyaUowb2pobDNtMnZ3QkUwQUVweUMwb0lMTWcw?oc=5"
+    },
+    {
       "id": "2026-09-25-bruno-retailleau-56558906",
       "date": "2026-09-25",
       "candidate_ids": [
@@ -999,6 +1014,51 @@
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNamFhWnVEcmJmQjBqcjIyNHdocUxJZVBxS1V0WThvNFFUWjdOd19HS01rV19UXy1NaF95eGVsSDlJR1h2NERBSzhYSUx1OEgzaU1CYXdNSW1aSmgxR2JySGhuYTVGMlNfUlNYZDVqbVJncmIxWm5UcU03VHNzenR6WUxYa0k1MmhOUkZrYklVdXd5SjNZQi04ZEdhemFTOXlwRjdOb2pGZ3hpN1hYbGItc1ZDRFRVVzIyR0ZWekd4Wm4xVlFfa09lOUk3akZFRmVEdXdLWlhKM1U5NUYtTmJlOVdPeHRPUF9LZUx2c0d6WlJ4WlRlOE5V?oc=5"
     },
     {
+      "id": "2026-09-24-jean-luc-m-lenchon-58656313",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle 2027 : « Sans être là, Jean-Luc Mélenchon a parasité le premier débat de la primaire sociale-démocrate » - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOMnRfTXEwOE5oQmZrQlUwRWh2YU1EdDZpLWJDeHp0ekZ5ZV9yaThISE1aU3RnNU5QVHNNaHd6R0tNanhJQVdldUpUVktvZUs4d1VZSnF3NERsTkZwbTVxMlBhVWQ2ZXppb3Z0bEd1bGE1bE9LNi1IQ1ktdVhPVFN5djNpYi11U2RIaWZDQmUwLXZUWVYtcTBxRWVXZEpLeTg3T0U0b0NNelhySU5oRXZOS2J6dEZpVU1RVy1VWWZET2F5QjhUQWN0VkhEcXZOVTdmQzBPRC1Ga05pblk5bG4wUjdtZkdhV3R2UksyZTJCN1d2OExNekZNYVFna0k3UlExUGdPVWZnNHdTVmx0cGZzZ0JB?oc=5"
+    },
+    {
+      "id": "2026-09-24-jean-luc-m-lenchon-42056770",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "\"Jean-Luc Mélenchon doit se marrer devant ce spectacle\": le débat de la primaire socialiste, un \"remake de congrès PS des 90's\"? - RMC",
+      "sources": [
+        "RMC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQNklPc1JmcDVJRWtGUjFqdGNOUHl2c29BX2kybi14NndVTFVGTUE0RTZRb21QRFc2V2hjU1pDQ2hWOUNJcnRFanh2V29NZTNReGhfU0xBaEJrN3RpXzJ6Wk1McktpTTFFdnZ5ZDhvTjFkdmItVHVRMU9JczE4ekxzbnpfYnNyLTI3clFqd0dZU2RTQTVNanc1Zkh4WFZVMHFTTUdleWxfUEx5dVM3LUlzMnR0dFYwY2tNR3dvUjNiTU5aU0FlbTFrUnMtTWx6b0ItR2tsYVlMaGZ3dENoQ2xPSnU1ekZsVjMzcWdxMHZJVHJQSF9IeVVQYlBDOV9zbkNxQUc4S3FQemVSMUZzaTloUUp4NjBzTHh1WkF1RmtYVEh1ZkgxQTF3bw?oc=5"
+    },
+    {
+      "id": "2026-09-24-jean-luc-m-lenchon-09981443",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle 2027 : Jean-Luc Mélenchon et Édouard Philippe sont à égalité au premier tour, selon un sondage - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOT1F5ejA0LTZRZjdnTkdpRWZWZ1ZoS096cmVBNGdGZXVQZGNBcGFteFdxQkFTTXBMRVg2SGlNdE1uZjVnR0lJbkx4QmkwYW8wU1FjVzBuNlpKTmN1cDJzMlZFYTc1TWlRVkkwOHZNMWJJRHpyc0F6cjVTOGlEYXJxQ0tOUHUzVm9fWXpMS3A0cVlRdnZVeVluVlp3am9peTZBUDRuSXV6TzFCWVZjYnBVNmFiVjU0YVF2cWNSLVo5SHd1R1ZQdnFhOTM3OTZwWUFYRXlBNVhBSGtkZkM4U2pfQTV3MA?oc=5"
+    },
+    {
       "id": "2026-09-24-gabriel-attal-36132099",
       "date": "2026-09-24",
       "candidate_ids": [
@@ -1027,6 +1087,21 @@
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQMmRvUmZvUTgzRDdWVnFzSHF3dmpMWGVxS2U4OE9OektRVTVrUUhmTU5IUEtzMVowdUVZZXcxcFZzLVFnU1FYSDlsNDJ3UkZfMDYyQjJJOElLbkoyTXNpWG9vQm9mclpEc013MTUyLWZfdG81bG43NjJqWFNVc2dkRmlSbDE4YmxWbnJ4NEFZVlRkZV9WaUZ3amRhdERMV052bDU0TjFoSmJvcWtVN3VZbTZYaUExU0VCNjhhcEM3VXp1SUdvTHk0OTU1alFpbkV2Y3hpRWJXalJSZ3hHT1FjdklaSWhMdTdnRFc4Q2ZJMWV0SW1JOXdCRkhhUDZ1c2RxQXBEbVBhUzhWZjNYM2xpSTV0QUVQeVRNNDZXZWlFMld0Tk5oYVRaY2hjSUwtcXJoYnc?oc=5"
+    },
+    {
+      "id": "2026-09-24-fran-ois-ruffin-99011459",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Résultats législatives 2024 : François Ruffin devancé par le RN dans la 1re circonscription de la Somme - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxObnlTQjVueEx2S3lrMW5zOHFaSW80ZzZWSWVFeDRPa0FxYXkyVVdHdjN0Nk1yVWZEWnlfNFV5bDZpOEViMHJ5R3BsTWdHeU9JY1BPNTdTdk5jZXEzdEpJTnlDaG1hbWhXNDBSQjdDSHZ4dVF3cG5PbDVrYUhzN1lWODAtQVFvVldKaE1uSC1LelVDcWlGNFpKaVJqbmhSTk5MZTZDdXl3bTZROThmTW1zeUE1ZGFfWEZlNDliUWhaanVYNlRCQ1ppVV90cW1wMzZwX3ZVRDNKU29XNmdKRDVWdXhmVWdnNzhOOWtFR0lsR05manMzOVNvVEJoZl9rRnQzZDlBNklySWplT1dT?oc=5"
     },
     {
       "id": "2026-09-24-bruno-retailleau-08404540",
@@ -1099,6 +1174,96 @@
       "url": "https://www.lemonde.fr/politique/article/2026/09/24/primaire-a-gauche-la-situation-a-gaza-et-l-alliance-avec-lfi-electrisent-le-premier-debat-televise_6781332_823448.html"
     },
     {
+      "id": "2026-09-23-marine-tondelier-94046084",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier annonce avoir accouché d’un petit garçon et veut faire campagne pour «un pays à hauteur d’enfant - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbHFpY09ac2hQRGRydGJuWE9XMEhlSTNPcTFUdUtoLWdVTG1kWnlRNVFkUGJqMktNQWpiQzhSNmRmczlGSGhDYU1GblBzbTJ4Y3Fid2c1WWtZblJlSXh3bElLMVFDLWNfcmRPbDZ6R1hOZEZDdVU2M0dFQzluQ1RNa0VsUVhiR0FGbDVfZ3NBN2hjTDhmSm0wNkphSzlxWnN3dDVpR1pfWGtKM0RLbDdPSS1vRFVLWEMwcDU1ZGZON2Q3dkNNLTc4ZnhYQVlYb2NDYXI2cFVka0tSeGc?oc=5"
+    },
+    {
+      "id": "2026-09-23-marine-tondelier-57367985",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier, candidate écologiste à la présidentielle 2027, annonce avoir accouché - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWmhjMTRNRnZEZnE1dEp4QVAwa0R6OG96N1JocTVuRHk4TEZ2ekxmc21nWWlXOGFpRnRBM3BqM3hVa0VMQVRkLWktREw0NUxjRzd6aHZ2WDc4a2ZQdkYtZC1wQjY4eTFPbTBHZXlIUXVBbDRrMkZDYkd3OVZsdS12TzN0a05SUl9kZHloczE1NmQ0clRTQWZTaE0teTZHWWlpTVdmc3dlM3VpbXYzZENNY3JUZERXcEd6MUFJZjMyWkNFTmwxcE9JOENfQQ?oc=5"
+    },
+    {
+      "id": "2026-09-23-marine-tondelier-54260250",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Présidentielle : la candidate des Écologistes Marine Tondelier a donné naissance à un garçon - France 24",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORTNFZmswd25Pd1ZRYUcwelVpcGN5TjRhX2xjanFOdktvZW1uX2lLQWU4Ulk4SmJQTFdiSks5Y0JlbXUzOHJNWDVpN0hsZFlrYnRKZEpIZUpJcG9MeDZpTzJCRk1sbzVtZVhPblJucjdWU0VvZnc2UE1CQ25EWlBZeV9memtid2Q0cTdpWlpDaDJMX2U3ZGd5TFJUZmNkeHJYTUxfb0xlaGw1LUhLckgxYTJfZXJqZ3MtcjlyeENad0w3NmthVTBJMDBpYVNfSUI5RExGUUt0ZEllMGkyNkU5Wm51Mno?oc=5"
+    },
+    {
+      "id": "2026-09-23-marine-tondelier-51071447",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier annonce avoir accouché d’un petit Léon - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQU0F4Nk9XT19SWk1uSlFkZnBOZXp5MWZVanN4aVNzdFZOWEttcDV0MmZWZVpTbm83NEYyZEdYWV9vaXNlTzgtV1QwODBrUmJJcFJpRnVZQ0Q5aVRjeHlRVXo0Ymp1dVFHbnhITzA4a2JoM0hIQmZSNEJJN3NuckN5VUJPWDlaZ2FQdWlDdjBkOWFrSjB5NGdFRWVMdnBtWHVqdVpXd3YtSE1teGRIalFWQ3ZwcjZfemR2OXlHdXNfOA?oc=5"
+    },
+    {
+      "id": "2026-09-23-marine-tondelier-20503079",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Présidentielle 2027 : Marine Tondelier annonce la naissance de son fils, Léon - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTE5reWpaZDhDTGNGdV82cGdTTjlHczltcXZyMUYydnJ0amEyUlB6anRvZDViUkxyeFY3Tk1rQ2tlUXM3NHJlZ091cmdDb2RlSnZxSTRSUG52aVoyX252aTBWVHl2UzBXWHZYNmt3Z2Z3Tk9STG1qS3o1LWp1dEJKYjVzVm9xX1VNTjk5cG4tU1d5bVV0MF9EZXAxU0dEYzJ2Y0lhQ1FHUl9SeEpDVjlPRmxiSHFLSG5TYU01X2VFUExOTldHVDQ1eDh3bllEdw?oc=5"
+    },
+    {
+      "id": "2026-09-23-marine-tondelier-08896597",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier, candidate des Ecologistes à l’élection présidentielle, annonce avoir donné naissance à son deuxième enfant - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPRUtHNFF5RG0tSnN0ejFLeFhfdGZHWVhHU2xrTUdVLW9xel9yTGR4dnFuaFVTSWtEY0YxeEpDLVQwTTQ2MXR3dk1SdVprenh4OUZiQWdxaktEcXpqX3d4bkN4MzNuVm5pSTJ3SUFJNEdUd3ZVeVlpRlYwYzlsb2Z0Z0VHR1JaREM4SmJSQ3RxSWdjUnZ5N1paX1hXUjdxQUJpR2pUSHZ2bWktb3hMaHFRS0xNVnpyVzRDWUxHU3Nfb0YxSnFtTDhmdlBJQVd0cGZPa1RrbEFtYzlIMVBLcWFnaGhILU1DQWZ5c3puUlJWSFRtN3JLRGk4ekxiTFpvUHdUT2FqQzF5UzZVWDBLT3QtUzlPQXNvckJPbW1aa1d6RQ?oc=5"
+    },
+    {
       "id": "2026-09-23-marine-le-pen-27616154",
       "date": "2026-09-23",
       "candidate_ids": [
@@ -1116,6 +1281,111 @@
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTUpDWTZ2cnJKZjdkMk9mcl93c3NmTTk2MVROTXk2a2RhVUR3SkNCWmJ3Vkh3UEsyeDVtVm1tZ3hPOWljM28zdWRrSGZNaXFNREFrRG5FVFY5VU1LelNWMGRQT2VGalVQOHJYZkNTN3RCMmpOOFJKTHdVdlIzQ1ZUQXFqQTNEM3hDRkVReUptbHZpMWZoMzF0Um9UUDBSYV9jYjVNMTFhaDlPZDROcjd6N0VlSWJFdy1VTmRKZDF5SXBfdlNCamlIa2NSRWthMVFENW1FTnVqOUJDWmNmTlN0RGRwOGkyRUV5elg0NGpYQTRBb2VwclhWak0tRl9JMWs?oc=5"
     },
     {
+      "id": "2026-09-23-jean-luc-m-lenchon-90263846",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Jean-Luc Mélenchon dénonce un gouvernement « dépassé » face à la flambée des prix des carburants - Public Sénat",
+      "sources": [
+        "Public Sénat"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPb1RxcjQzRURGbDZjVnFrWldKLWdVQlh4NHlSaXBuSG0ycGlpbVFJd3h0c0RmU0pVUzJtcFdZdVNhb0wtVy1lYWFvanlzd1lud1lpbEdob3NDT0FxWUVvdGVnTlR3VE5XTDdCSGFoVDRERHhVTUpHcG42U0FENk8yUG85SU1CcV9xY00yWlh6VFdJQTJMTThmdDB6MVRfd0pFTHR5QUJJbG5ST1V4b2ZjN3Fxb1l3OFRRR3VESkltSjZFMlFwbVdHeUpEWXpqMThsdHFMSkZJbw?oc=5"
+    },
+    {
+      "id": "2026-09-23-jean-luc-m-lenchon-79580560",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Guillaume Tabard : «Une guerre interne à gauche qui réjouit Jean-Luc Mélenchon et François Hollande» - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQTFpLSlYxOXpQODZsdGd6djEyVGRZLXp2ZEdfODMxTUhqZnBiNGRvMk5xRlZjR01rNFFwM2pHQkY3OGdXb25HVVJGNE54enBFS25FM2RseVJWcnBUNXlMcE9XcFJtQTViOHQyWEZYQnpDbW1HQTV3bG5CZmxCVG12elBNV0JhSG1MSUJYcUNVd1RpMjluRjdYTzFmXzJfeVFQTndnc21pUTJQNW5ZMVdlbTlZMlBrX045bnpPM1lBQUttWmdnLXFZVDQ5cEMyN1JqWDdiaURJcWxPcTh5cHJOclNZSWo4N1RZMGdpVDhRSXlJTGw5RGNMYTluRDhXcVN0SVE?oc=5"
+    },
+    {
+      "id": "2026-09-23-jean-luc-m-lenchon-79228480",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle 2027 : la nouvelle version du programme de LFI et de Jean-Luc Mélenchon sera dévoilée à la mi-novembre - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPM29YQkxFYU9ZUjhkbU5NYjVjWmE3YXMzakhGUHd0MnF0cDJCaHU1bmd5Rk5ndENPQkpqRTRGZkhHemxmRi1QdTV6QWFGQUZYT1NqbWlDMlhEaUhoZEdGWVk1UWtjbXR4clBjWHRvZlFHcDE3cXU3akFuM2J5NDBzOEE0TU9JSllQREYtb0lSbkk1THEweHJOZFhzU1lzSDRlOVB1NzJpWXh2Vk1mX0VDS1pPTWN4bDB3eUFyVFM2eTF1bUpKUXRQcXQySVg1MGNEcmZDTnZsaU82NXByck16OHV5NjdIVU9GTGRfc20xaHRlallaT0Q2c1VXZlVBQXJyWER0UGUxNnVGdzZTcDhrbGJ0NWw?oc=5"
+    },
+    {
+      "id": "2026-09-23-jean-luc-m-lenchon-58796933",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle: le programme remanié de la \"Nouvelle France\" de Jean-Luc Mélenchon sera présenté début novembre - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXpLWW5aS3dGdUNoMHBYekctM3RnT2FobklwRmhMTHJMSHBtRTRzY3B2QS1QTlBrenlWZ3c4a1c0RDNjQ0pOVFFGcm5IV0FwY1l0R3JnQTBpZkYxUnhJM0NJRlc5bGptMWhuWDhjcmgyN3RxS3EtT1NkcTliSTE3WXY0dGZockJmOS1iUndZdndTRXpyVUs3RmcyNmpoX1dEb0NrUVFJcTJvWXN0YzJz?oc=5"
+    },
+    {
+      "id": "2026-09-23-jean-luc-m-lenchon-46310753",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "\"Le gouvernement est dépassé par la situation\" : Jean-Luc Mélenchon étrille les aides annoncées face au prix des carburants - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQb2R3RzZPdkxmWVB3MHp5TFRWdnE0eHNMVk5tUl8zWHRndmhqUlY1aHlqbzMwNGFUUnFmbnhDWXh1Rm9JZFk0WUZXYUlHa2VFQklkSlNnNXc0SDJXa3pyd09Cc3ItUnJXZXVUTkNPVkgydmo2WDhOS2dYc0kxTHI5dWs3RHVRUF92cUNhNlpfcmlUdXdkOTh6WWlEMTBybkowZjkxU1JnRm9TV1RJcVVQek1UajZfWTBTclNuQ29GYjVYa1ZldXJxOE90czFXQzJkRWJLNFN6UjVTal84eUZHTzlEVWhsSEdLclFVQVRRVlc3blVveU9zRlNYNF81UnBCZFE?oc=5"
+    },
+    {
+      "id": "2026-09-23-jean-luc-m-lenchon-20744073",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Guerre en Ukraine : Jean-Luc Mélenchon établit un rapport entre la menace russe en Europe, qui « paraît plus grande », et les « tirs en profondeur » menés par Kiev - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPR3JyNlo3UU50bVVGd2c4MGxDV0hqNlFDQmxMamJrNEJreEFxZE9IRnFSV2pybjVEN2lLZE9jdm5PRFRWS0k2RFlsUmE3Rmk1TGpJc3VVVHJlaG1EYnZYNml0eTNQbmhtQ3pYa05fcG85ejZKWUVqb1k0eWY0dF9ILW12Vll2RGJIdkVuTkVMYThwb1h6NWtIaURMd012Nl9zcDRPWF9RN1h6WURPNG5Ja3FUckU5SXprNU5HZzNRYU5NY2l2ZkRWeE8wc0hUZThsaE91VEdSdU1KS1llNFVxak9WTGNQRE9UbFVlQm5XY0NBdmIzZ0ZPUE5SMHh3SnhvamY1TmhGeV9UeV9xczdHTXY5OUZqTU8xRG8zTF9oYnp0eWhrc2J0ZFRFTmg?oc=5"
+    },
+    {
+      "id": "2026-09-23-jean-luc-m-lenchon-04849709",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "«La cocotte-minute bout très fort» : Jean-Luc Mélenchon se présente en porte-voix de l’«exaspération» des Français - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNTl4UWJxN3JhbUpXS1ZkTW9LTzNTTW9QdThJeEkzOG4zQVpTZ1Vfa3o3Z3k5NkRGTUk1eGRUaFF1OHp2bWxyZmttX2pIc1RZRXlMejc0VjJXSVl6TW9hQ0k2WXE3VlBMZENyWk9FcEE1US1TYXMwY3Y3Y0tOQWVYeFM5NllkRmo2MDVheHdDX09sTEVEQ3Q1d3E2QVVuTl9qLVpZNklNVjlZZUxic2FhUkZXQ1NlelhvamF4ZWVEZ05FZkpDbFI5Y1RpeEdrVnZITmFCV3gydm1pYzRzTTJpZ2E5RVNVQQ?oc=5"
+    },
+    {
       "id": "2026-09-23-gabriel-attal-47357763",
       "date": "2026-09-23",
       "candidate_ids": [
@@ -1129,6 +1399,21 @@
         "20 Minutes"
       ],
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSC04b1JJQWYwVGhveVhVMC1LRmd3RjBjY3lJc2h6OUxBQkt4Zk5mM0htblFiU1JncFBEbWdWdk53clJ4SUFxUGpFR001dG1YMWQ1aFJ5UjdvUk9KM3JIUmdScUtVSF80eEEtNkRseXJJSVVYX2NkUWF6d1BUVkJuY1p6eVF4Z1I1TXFfQmdmRGVTZS1Ebmp3ZUNaTWRRUlJCNEpjckxvRm5qYWhGeDJRanhuWjBxZXFuRHByUDU2SGxoR29yWWpOVA?oc=5"
+    },
+    {
+      "id": "2026-09-23-david-lisnard-27295809",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "« Ce qui se passe avec Trump et Milei a fini par en convaincre certains » : plongée dans les réseaux qui inspirent les libéraux conservateurs, de David Lisnard à Sarah Knafo - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOVmFMZnNCTFRmcTItMFZPeElpdFp0UGFleU1SUVJiOXRwemtrcHZKMjVyQTdpU24teVV2YnFCbGxrSkVOTlQzM3NYTGhtM3ZmYmU4WEMtMGpHMEhuUF9rRkNaOU1EdkVmMWlEVzBnNDlleXJ3aklUUWhNa1VSVjlfeUc4cVBaQVFJR0REeUcwclhtZHY2NFQ1ODJEWnFFNEJJeDJybGJ1NlIybC1yMTM4V2g5Zk5rVUFZRzk1RVZfVzVYeFRjY1NrWWFTV0M4d0JRZHNJMVhld1E4blhtVGJpcWpWa1V6dXpZejRJRk9fNWhsZEJTQ3AxNUQ0RlVjanFlbUtMSV9mZm84eHgyanN6Y191MV9rY1VS?oc=5"
     },
     {
       "id": "2026-09-23-bruno-retailleau-90284139",
@@ -1159,6 +1444,21 @@
         "LCP-Assemblée nationale"
       ],
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWTMwMU9pU1hzdVdwNnB1OHhVLTVYa2ZuZ19hT20wOFotVFQyUVh4WlVqNzhuRWpFbWlfcDBoOC11LVlPdlpIem9JZS0xNDVsWjJKZTlzYmJHQjFVOTNOek1FeFJIMjNGRWJqQUoxZ2lmbFdneXpnMG8ybkxDS19wSkNTWjJ6V0YtbUpoUnA2YjJ3eDM4Vk8tako5WGhDR0xrQzhtVWlyZHVuaXcwWVc4am1KUQ?oc=5"
+    },
+    {
+      "id": "2026-09-22-jean-luc-m-lenchon-78330375",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "«Un rouleau compresseur» : de gauche à droite, fascination et inquiétude face à la campagne de Jean-Luc Mélenchon - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQVHZ2VVRwR2I2UnVkLXhzZFJSLVJKcVo4aC05eGJVanQta1NKVm1pSU9Ed2NEVjBZbk5EN0ZOdHdJSHY2a3YzV2J5cFo0cVBNRENYeXRETVZYUlhxVUljeXJjbFBWVmpoZzdjZV8tNXNxc3lLZDZ1SmxuWHpxb2xHblB5TUxSQmswYTI1NjYyci0zbnV3SmxTQnNGV2NpcURYU3dpVHlYdlFrZUJYNHVWZmFabUdZSl9uVWwxaXBIa20wSE1Hd2E0OEZXLTlpNVBOUWFEMUZKM1NWTmdvei1VVUJjTlFjU1NMelNwSzNlRGRzWUsxNkk3RkxnRQ?oc=5"
     },
     {
       "id": "2026-09-22-gabriel-attal-82852234",
@@ -1266,6 +1566,51 @@
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxONlM2VmozQXpPLTZWZ3dkaVVQaUppbnZvRTVRcmhRckUzYkhCSk5UYjc3Q0hrWjJtYXJxWHJGWEFhSDB1VmR1WTVzeWwxQU5EV0JnaWE3bmc1ZHZFWUxsX2VHamhRZmVReUZDbWlYTmJobm1CZl81VFZxZ1lKQkFJLVlURnNTMGFLVWJoNnVLLUFhSU4ybEpGNEVUclJNZFVTMWdZaUdDMllONlo4dENSY0I4VDFzVjExelRMUVplX2VndGN4VUIxQjU0aUdoa2ZIc29ORUJOZUlKQXoyMlE2Mlo5anRScGFIUERzWVI0MW5ScXRXcTAtbFlQMjVQQUpMNUxhaV9zR2h4V2FXNUstbkRnSkhtdw?oc=5"
     },
     {
+      "id": "2026-09-21-marine-tondelier-39940160",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Candidature de Marine Tondelier à la présidentielle : Les Ecologistes trancheront en décembre - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQQ0tZVGlhQmZwZjFNNmpNdjdnaUdYaWpTUXIzdWZsallZRW5FMGc2SnI0anozNWJrRE4xbmNuUTVJZDlmSXV3TVRHMGF6UmtfV1RpMnlGaFh2RjlqMlUxWlEtbklaUVplYTBhS210Qzc3QUExWlo5b1FiUV9XcTRtcTJESU5HWmlOTVhoN1FxV0pmbGwtZXllVHROb05MaGczNlJyWU42QTdMbmMwVmY1VFdnakpVWEN1UjZTeG5EX1pPdnh5c3FjZTRCYXJleDdCNjV4Vm55cXJ1azZqV0ZsYXJreVU4RU0yX1lWeXdNVzVUaGkzdC1FUGktdnJoMDEwcWxPeS15bUt6eDJvVWdz?oc=5"
+    },
+    {
+      "id": "2026-09-21-marine-tondelier-18186037",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Présidentielle 2027 : les Écologistes reportent l'heure du choix à décembre, Marine Tondelier toujours en lice - Public Sénat",
+      "sources": [
+        "Public Sénat"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZzVlamU2ODN6NG85VFJ3OHFNOUZqX2JiUEJpZ0RFZWgtaEREWlhNVm9FbWNRVEpubmJNOFhLQTRrMHlxd2JJLWw1eFlsYWxsa2ZsZ2NsNmllc2hXdENubjktN0ZpNVRjcUYzVDBzeXduT1lGMFFpSlNQOFRHUlBJblk1MWFlU3JnNlFDOUhkWTdfVldsTTVxbjlQUHhMeFYtTUp2YU5lU3hjVUpDZFlHQ2VtYm8xTEVQeEczTUpsLWNZWExOS1lyTGFWYUx3XzlfeWh1V1JDa3dDek9WeGFNUWtXckRveGdycVE?oc=5"
+    },
+    {
+      "id": "2026-09-21-jean-luc-m-lenchon-69409709",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle 2027 : l’Etat selon Jean-Luc Mélenchon, entre « révolution citoyenne » et reprise en main de l’administration - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNT01vRkh5UXNFRkFUMWtSR3FQTGpYUWhJUklqVkk4dHVWTVFPdzU0WWxza0x2bFl4eVkzMVY4X2dWSFlpZkd1RE1Ub2dyNS1IdFZDOU1CNmtzUy1KbkZHSS1Bc1d2MXhCcW5XbHZEYXB6MmFvMTdkSTVKSFVDR1Rxbzg4SkFDSVBFNWRaN2FLNEZWTWd1QWZRSFhPLTAwbHpWNUZRTmZSZ0xQaEVoY1owVUVBN01aOFN5aU9DMGhUT3lZVW5iTEpvSjRXSndfNEVXRzRWc3NiN2dsX0NqWXZvUHZVT2tUM19ISHlQMC1OLXczT0lwUkJWVkJNcjhOQWhEWTBYRmdHNXpaNGxWZnl4cUJsU3pXRHF1S3ROLVZlMW11c2V6QmZqbGJEeTk?oc=5"
+    },
+    {
       "id": "2026-09-21-gabriel-attal-58824242",
       "date": "2026-09-21",
       "candidate_ids": [
@@ -1309,6 +1654,21 @@
         "Les Echos"
       ],
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYUw0TWRCRjQ2aHZDZVpKWUptci0yX1VwdWVXUUFsSlZxbS14SDZzRnU3VGUyUlFTeDlubFZ1cHVWYThobWFfRFNoN1NFUF9DUVRBRHZtdWloLV8zZ3ZOUlVmVFMxUGcwSW1LSDJVNVNud3o2TkFCNGs4NmJSWjJaS0Nzb21mZDVDMzVBQkxxeXR1OTZncFpaS0hneWF0Yk9mbm5hZmk4QlNJSTVXMTJtOXlDX19MT1dkZEpyYWpBQ2VuSE1YVDNBRWdEX0J1MEwzVFdDWg?oc=5"
+    },
+    {
+      "id": "2026-09-21-fabien-roussel-05632888",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Fabien Roussel et la Russie : un pacifisme dévoyé et une incompréhensible indulgence - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTHp2djYtTkduQVVlV09TTjA3ejRhS09xV3Y0MjY3eGh0ZXFKQ1I1RWh3UzVXdV9xQ1hrRDlVbl9tS0FHZElzY2RvMFhsQURXbmJ6Q3A0RGFLWXFwSW9QMzZFVllXN2E2d1BrdzJoSXExUUxfVXBMMjBqcjZNQmFVdVV4NnlBc2J3VnhkbHZxZFFpMWdTWWV3ZmhxY1d4cEppdlBUNEhucEpqWUMxWmNEM2dNX1l2NW16YmdpUDdpaUstemZDMDJBSFd1Rjh5NlV4RUlVTVp1QXNnckdTczZnU3FXaU5ieUk2QkFz?oc=5"
     },
     {
       "id": "2026-09-21-attal-equipe",
@@ -1403,6 +1763,51 @@
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOOGJIdy1vUlgweVZMWGliVjVnNURGXzZBVWVZYS1ZUTJndkJYMFM3WS1mTi0tVS1pMFZPSDRiQ1RjOEZLWERPQWNyS2pZMDJEU0thMHlLcWJpeFFiZzMyWDBYN0w2bmZ0UENxdnF4Sk9DbFFNTWNOUG5RNlkwU1NnVUFqSUhCS05mRXdSVkJpMmlUUlFoN2xhR1o4eHBmcC1hOHI5SGUwd29sU2t1cTNKUlRpYS1jU2hlazJWUUloTHh6UGF4WDZUSndQM0gwdURocFlMcVZKNVdLbGN2Y3c1ZkZ4dkoxMkZpLWpIbzBiX3R0VXFF?oc=5"
     },
     {
+      "id": "2026-09-19-fabien-roussel-40329262",
+      "date": "2026-09-19",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Carburants: sur un péage d'autoroute, Fabien Roussel (PCF) appelle à la \"mobilisation\" - afp.com",
+      "sources": [
+        "afp.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBsbEFmUk04RjBqWENjVjJRa1A3QjlVQzJOazQ1eTBaMDZab1pZLTY1RFV0aHZlQ3FaQmdUMktFLTJDTm9tRlFRVjVtVQ?oc=5"
+    },
+    {
+      "id": "2026-09-19-fabien-roussel-30203388",
+      "date": "2026-09-19",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "\"C'est pour dénoncer le racket sur l'essence\" : Fabien Roussel distribue des tracts à un péage - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWnFvVXNKLVlFcTVWOVAya3FaMXcxQzFwX3VFaDM0Vzd5Q1pWYm5UVmpmWHh0a1FYVTRsdlNkSnNJTmFYcUFRdFJWT3pxX3dCTkJhdEFPNXlyQzE0Y2ZyMWpEaXRkRHQ5RzRhMHN1empVaTkySzMwdG5FdC1UOWw2ODQ4Mlg1SnhVcTFiaVgybUJ3YU1ZR3JBd1h0Mm82MGx0S3FQUE1QNVhMTWlxcFVLa185dHI2VmVmNlpsZGNIYXJVeHY4cGdReC1iZFV4eE5xb1FqSWFMYWlVU3hhNWJHVFNzRUVDb1ZjWkNB?oc=5"
+    },
+    {
+      "id": "2026-09-19-fabien-roussel-22765024",
+      "date": "2026-09-19",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Prix des carburants : Sur un péage d’autoroute, Fabien Roussel dénonce un « racket » sur l’essence - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdHV4MEpUQUZoU25GTXdsbVNvQ1ZLUWc5cXlvamp5NXpSLWxkQjhLRzh6RUpaUWduTHVMQ2x6RjF0NzF5RERTaUpaUFZxZzBZZkRtcVBhTW13SkV5ZmJsZFJzcGNVcnQ5RTdRcWwwaVJDbnpFLWY1REhKSVJMYmZuS3FSSFpYV2wwNFR6MjEtMEZHRHl0cXRkXzIwcVJWWXVJdE9qbTg1TmsyOVpGU3VxZjk3Q0RPZ3J5YlMzcElR?oc=5"
+    },
+    {
       "id": "2026-09-19-dupont-aignan-candidature",
       "date": "2026-09-19",
       "candidate_ids": [
@@ -1429,6 +1834,21 @@
         "Public Sénat"
       ],
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVVBxRzI2bWY3UkV3OFAxLVNhbVNxRGR4NEJta1dpNHZIM0JmcktLempZVVExNlphcmwwQzZuOEp0SDhtRl9MNnctVk51M0NWaEhxbEp1QzNRbjJjRVF3cUUzLW5zbS0wVmdWS1hiVGlydGFMSE9iUDg1ZDZ4YkNJMmU2ZFRSb2VSOFYxWHdzR2NIOWxpQjZlWUtGTXVob2FnTnpOV2Z3aFNTTVh0eXl4TGlB?oc=5"
+    },
+    {
+      "id": "2026-09-18-marine-tondelier-42025274",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier et Olivier Faure portent plainte contre Maël de Calan, président du département du Finistère - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQYkxyN3RIQ1oyejU4OXJBNGsyS3FxYWJsbVcxb2dqcGlpWjJLOS15a0ZlXzJmZElOSEFHRVZjNHNrcVpnS2NNWEVPOFZGYjBCSTdrbG10bm0wYlk0THlDdjdRYm9aYy03bkNCYl90czNKLWtQM0Zvem9NZmdnVTNPdE55djNUdHNaQTNDVG9oWkItaEhjcVRBcHFrZjlWcUM0Zk5wMDZaRS1ZVFRZVzRDYVdSLTUyV0o3RkQwR2MzdkRJd3gzdDVrczV0YVRFVHhCOEg2a01KZ2tScDJQZmVNR25iNUJGR1V1anliX29OTFgyNTVJRGsxM0NQSVZXeGRuVkE0Q1RPQ05vZ19McC1mNQ?oc=5"
     },
     {
       "id": "2026-09-18-marine-le-pen-71268682",
@@ -1521,6 +1941,36 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdkdHNC1FNGgtZDg4RXpKdEExbVBkVEE1Y290VWNFenE5ekYzcUdHdmZCMU80c3UxM2l6b0dTSDVYdTQxWURxLTlsWk0yOEZYQ0NDbkM3RW5DVkVDbkwxR1FCblZRNHVHU193VW1VYXFWd3h6VmlvR2pWY0Nnb3dmOVFvZF9UMGh5eGE4RFEyRU5KcTZ1dmtuSVpnMWdHWjZ2bmJIZGRQX0VpUFRiWmlTVjdEYy1saXlnMzdfTk45ZHZKNTlIUVpWbGMzV1hRZEtmUHQw?oc=5"
     },
     {
+      "id": "2026-09-18-jean-luc-m-lenchon-37275502",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle : Clémence Guetté évoque ces hauts fonctionnaires anonymes qui «aident» à la campagne de Jean-Luc Mélenchon - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNd1R0cVF1WTl1NVA5T19zeVQ1c1owdk9wMDNEQ2MwNHBxRjIxOEM0VUV4RlRQeFFlTU80VV84dDgtYWR1OFUxNjFHVGdfaXJYN1VhNXR0ZHZtakV6d0M0OVhEWjU3cmc5b0RWS1VfcEg3Nm5hOUp0cnhhZ2pvc0N6WVRUeTdodDZQN2lQb3Z3TUZhZ2otVmxKSTNEQTRRUGhNNURCWEtSeHRSZl9yZ20wQ0JCTExpVm5yNV9CTS03QkJKME5hcE5vV0JBYWZLMzVRaWE2R1ZqWmt5ekJZLWlBejlzRzl0N2x0N01ZZ2F4a19jd0NBcG4zOTJwNlRjWkVOM0ZNRHBfMjNHc2tnWERCdjRUQUE5QmIxR1RF?oc=5"
+    },
+    {
+      "id": "2026-09-18-jean-luc-m-lenchon-17137927",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Messe anti-\"gauchistes\" à Carcassonne: Jean-Luc Mélenchon demande des sanctions face à des propos \"séditieux\" - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbzdWZlIxc25xM244TEVPSXlVeEdpSmE2NmZoMVUtR2FOczh3Z045WkZrN094UUZFckszdTFJbGRNakhfNmNtQk55d0RyZU5FNDdCRkNFckpDdG1ITHpWUmZDaE82TUxoR3NhMm5jLTV3dGdVVzFPWTlDSzFoWG1tVEt0Zmx5dWhuOGhpY1h6T2VrNWgyYnpvTDg3TjM4MlNTYlB6ajUtY01vT0ZGWGVZbXVFYw?oc=5"
+    },
+    {
       "id": "2026-09-18-gabriel-attal-30773097",
       "date": "2026-09-18",
       "candidate_ids": [
@@ -1534,6 +1984,21 @@
         "franceinfo"
       ],
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcE9peUV6MzRHTmRibXY0TjFabHpNVzJxOEdBSnZLMlNONnZRRU5HWGRpMlM3a3czeGxhY1h3YWpFUTZHQWVieUdqM3JGR0hTaFNTTXJOSTJfT3ZrSy1oTElMR1l2dEJzNlJLMmRVYzlzNlBEUnZCZWQtU3dVaW1ka05NalotNDgweFVlZzlVY0hYU1VBc0JCbm5FVG9xVmN1eFJoNw?oc=5"
+    },
+    {
+      "id": "2026-09-18-fran-ois-ruffin-52036596",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Damecour 2027 : François Ruffin relance sa proposition d'envoyer les politiques vers des stages en entreprise - 18/09 - RMC",
+      "sources": [
+        "RMC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNT1JZbVFMZS1vUkttVGZVNFd4cXl4eF8tcU05bXZyQ3hyMDVwWl83bzlfZ0FYa1Npb0JTdnBXUDU1UDJpN19yV2lrYmJmeWRoODJ0MUR2WU5PaTNmbXl5Y0U1T1M5SjBmQU1jQ0R2bEZGZWlUSmdrZXV1dm5Eb3ZFYXVSYklyQlRhV2dySFFEME1Yemt4U05NYjJBaFhFNEV2VmRxUjdkX1NqUkptZmJSaWFna1N3T0pJbUN0VmwwLU91a2NJWU44SGl6WFdSYUJvOTV2d24zbER0SDMycmNHOFZsLU1QX1hFREVXNENqaklKNHZmUDFRY1c1WWQ1em9Ec0pYandOZm5yTkZhR0JuMkVmU25TaHVSc29hbQ?oc=5"
     },
     {
       "id": "2026-09-18-foreign-policy",
@@ -1648,6 +2113,36 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN2FlZElLRXJDaG1DYmM2TDBaQl9GZTA3N2dGaWU2OENBNy1JZzgtQmQwblVWeDNuTzIwTDlfSUc5N0thMjcwZmZUQ25SZGN6WHJmbUxpV3VqX0lzUWJtcHluYmRSd2JGS0ZnQVBENHE1MDM5akJ2a2FQNEl6ZU1maEJMeHZpNVdxejhna21WcWhaZ1NFcXVz?oc=5"
     },
     {
+      "id": "2026-09-17-marine-tondelier-26921254",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Pour son dernier déplacement avant son accouchement, Marine Tondelier veut \"un pays à hauteur d'enfant\" - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcHlmdlU3QWQ4bURFRzJVdzVsel93OUt4Ynh0UnVvS2ZBN082bEJYLWRhLW5RdkdBZjZfREprZ3RMc1prSkdjSkFhc1NkNjd1XzBnVjNMbDBKaTRoaTU3eTgxbE5SaXFlSmFlNEtsWFoyLWJFaFVXQWMzNUl3U3oxM1ZsbXRVU1dra3VYdXcxbm8wWU8waExBNTZaSDBISXVQUzhYWWNpWXRlSmdkYVh1YXhsOTM3bHVTVldPYzUyenEyRnQ5SVpVY2lfZDE0ZlQ4WUJRZk51U2xPM1RsaDZTODAwWi1HRTk3S2E1ZmpiVFhaOGZHLVNv?oc=5"
+    },
+    {
+      "id": "2026-09-17-marine-tondelier-03472357",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier renonce au début de son congé maternité pour répondre à l’invitation d’Emmanuel Macron - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdTFFanphZUVUbVBJTFNUdzZsTWlRT1lUbjladEJ3SG5yMmtWQS1VSmlwOGI3ODhpdXNXTk03ei1ud1cza2ZmRURWQU9SdDhMMi1XTjBvRFkzYzl5eUJXSnljUjIwdXNsWS01TzI4T2syTkJjaXZWaUR3MnZvT2dNS2w2RXFEWHc2clhob25RR1REckRzeVR4dzJ4S1RfZ2sxUHhJRjJDWkJLLUZzR3otUHBuMG5raVpUZlg5ejl4UU5uWlBUN1dpLVI0cUtzM2RQSzEzSGFfRHRNR2I2RlBN?oc=5"
+    },
+    {
       "id": "2026-09-17-marine-le-pen-97886445",
       "date": "2026-09-17",
       "candidate_ids": [
@@ -1738,6 +2233,96 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMmVtM3A1VjhVeExJcy1MWUd2b080Y0V0V3hLOXJKUjhYUWEzVlBOalAyTjdaNmpKZ1BRYzFWSExBbEZCNUZiem0tQTRtcm9NbDgtSTFSQkpnQ2JkczBHSDFMRUV5aUt1LTRvVm1Za2NWTWRkSTFQZ1ozazdkOW9kY2x6YUpRUUt2LW1MdUgzYTQ4NWNmay1ES200MGJfSmlLbk10dEIzRjZVMER1X2oyVzhEU2Rzck4yVUpQbE5ybHp5OFk?oc=5"
     },
     {
+      "id": "2026-09-17-jean-luc-m-lenchon-86306793",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Geler une partie de la dette : le projet de Jean-Luc Mélenchon est-il faisable et quel serait son intérêt économique ? - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNWWlhSkF1bzF0TXZVQ2lJTjBkR2FUbi1sOXV3azV3N2FoQXBjRVNLUWZxcXJzMlg5ZzlXdHdLc0U3ZkRQSnBBZjdzS0V1eUhwNDBlT183MmMtNlNsY01fakpSb3Q5YkVONnRPUG1DaGJmTkRtUENtVGw4Z3cxX2RwZGQ4aUhsLXJLdV9CdXhzdEJaOWZiaTh1RXRnWVlnckNjUjhJeHpSaUVWSk52ZDUwRktjWDJMTDdiQm9BWVdwZXZKcm9aRlgycFAxUkN0NHI5d0YxdW92SjhPempXbkdldHNGTzM5Z1h2aGpWX1dBRHJsMDlHNFoxdndHT0Fkb2Q3TGJxZThPejItNDk3VDlZQ1F0MVpEakE4Z3Nv?oc=5"
+    },
+    {
+      "id": "2026-09-17-jean-luc-m-lenchon-70057854",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "En quoi consiste \"l'état d'urgence sociale\" que souhaite déclencher Jean-Luc Mélenchon ? - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQmgzdHlqN1RLdnJuajVzb0gtRllyVDlqQW5KUU5ERG1KdG1QSmNWYjdMRFVGQnY4dkhwYWhjZU5RamZnZi1rY0VrNElsamkxcmxqY3lBckFkb2NDX3B0T0I2UGZMdm9vSEpJRHNvN0U0Y19JelVXTy1NUHhEeGlCUWZHNU9PaVcwUVJJcGJod1dmVEoyM3h2VmtMYnRMU1owVm84Um9HYkdDbktKanp6cldsVE8zclV0cnRpQTJtLWlsMTNlZkxjTUsxUklCOFFieGJQd1hPMEJWZWwwYkdaWXVB?oc=5"
+    },
+    {
+      "id": "2026-09-17-jean-luc-m-lenchon-64123981",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "«Jusqu’où ira votre tortue ?» : LFI lance un nouveau jeu pour récolter des soutiens à la campagne de Jean-Luc Mélenchon - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQdzI2WFJpSjJHckJuSGxRdVQzRnRzYlNVaGdzTWlLeUp0SHAxbFFGUmxiM0F4ZE14V2RJQXlpLUN1VUg0ZGxaT29xcFhOYkl4bTRHaXJ2eEExTHFUcVNndzluYjJ0a3FvMEwzYmhTN1FqU0RiamFRdmVKNGJGYXRXOVJ6Z3oyNkw0TVVDRlNWWHRUZ21OQ2tLMVZtOFBFYmxVeHVUU2J4U1pveFRteUhGb2d4TVAtREFYckdYcExfd3dXc3BRX21IT0RJVENXemFiN1NONkhJbmJsWkRESWdWUVFiMy1zeWtIUjZ4eg?oc=5"
+    },
+    {
+      "id": "2026-09-17-jean-luc-m-lenchon-57809711",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "En course pour l'élection présidentielle, Jean-Luc Mélenchon a rencontré le patron d'Airbus - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONHUzMlBJbmgwcWtkSHRNeFpHcXBKdzIwem9xeWdGOW9nazBaVnF5Y2FRZVp1amZxRkdjb0ViUlNtVWdscjVYMlA4Y3EwVmpnM1RXampYYldLWDNrOTRoM2ZKQTduc2RyWE03YllXTENvbUhfaGZmSnJZanpFLV94RDBNSGNQUEZtSlNnV1pKX2xZaGUyV25WZExuX1NtaGlMUmVTN1g4VkFLX0hDeGdpZ1dDMi1FUG5FaWJ4UU9RMVZDRFFhTnBrSmNOZ0xUT2QySHJuT2JlbndYME50NmVVRjFQandXWENTblNndXRnaFQxQWdGaEt1Nw?oc=5"
+    },
+    {
+      "id": "2026-09-17-jean-luc-m-lenchon-53804158",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle 2027 : \"Jean-Luc Mélenchon n'a pas le monopole de la gauche\", affirme Olivier Faure - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxONHJ5NjNxdEFBV09meGRmVE1IREZrRWdyOVJDc2F2V1pjTV9Jb0RIUWQySHdWWWhscXZTY043emxDMmtiN2Q0MF81RDUwblVKcmhDUFZzYWw5LVRpVnRtNWt2TlpSTTJiaUczRzVjNElNMXQxRFVMYk8xWkFyMV9Ld05tVUJ1WWROMy0zamtNVVRranpRWHhYX1ZIU0NlbE9UR0lhcHVKd2hIdW96TV96ZWRtWGM2RDJkTmM3RFo5QkFBV2N2bm9rRF9zakhpdlBSRkRIc09PWUNoaWdfVm83TjNHQTdVVDh1amdDNGtn?oc=5"
+    },
+    {
+      "id": "2026-09-17-jean-luc-m-lenchon-11489425",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Jean-Luc Mélenchon, Sahra Wagenknecht et l'AfD : derrière la rupture, les virages idéologiques de LFI - L'Express",
+      "sources": [
+        "L'Express"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMU95UE04RS1YUVhGdXNmOXdpajVzYXJKV2hELXJiRklWTUV2VVl5Nk5fbk1HdjRTbHhIZzd1WU42X3ZNSDZhV1JWeGM1b3NCbmRNOU1hUjZEUS1GNUxOVk5mY2I4bV9CMWRWWGVpWXVrZ3o1YUJxWDNsUTlQOVFRVGtYRjZjUHhPRXhsTWUwVjQtT0R4VjZtcHVoS1BqTXdFY240WUlFNUJkWjM5M3ZMVXI3TlNqWXhOZWgtY0c3azVoWTk3LXhsa2drVTNidDctaEtwT2dIS1hSX3BuWmtORmZiaS11c0lxZXhCVWpNOA?oc=5"
+    },
+    {
       "id": "2026-09-17-gabriel-attal-64943529",
       "date": "2026-09-17",
       "candidate_ids": [
@@ -1811,6 +2396,21 @@
         "LCP-Assemblée nationale"
       ],
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaTNqMVJpZk1wR0dDblhsMFpOeTRMWjJxOGh0MjFuckxld0xNRnVMdFdfZUtWcldjN0E1UkVOMjdNakk4NnVUR19ZN1hnak1iYTc0OFBRYU9oT25qUzVKSXlMOFpsUjdqeWpNQ3ZSUXhRS0t1dGRScDlfbWxUUHBrRXlMbEs3NjVHZm5qUVhBcC1LVG5IcUZYRG5JeTBwVEpMbEN2ZDJxdVhCWGtqekRJck0tYVA?oc=5"
+    },
+    {
+      "id": "2026-09-17-fran-ois-ruffin-39997714",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Damecour 2027 : François Ruffin et l'idée des stages en entreprise pour les politiques et grands patrons - 17/09 - RMC",
+      "sources": [
+        "RMC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQVkE1a0JGazVsdU9ETmsxY1VPd1Vwd3hRTnNzcTFxR2E0czd0d200RFpKem9wM0FQdEh3Wm80bVlPX2RCdVpmSGEtZXg1bHlZMnNVajJQRGZBb2lBX2VJcmNINFlFLUtBN0h6UTBBc05QWTZoVFE3NGJ1OTBHdks3RUFnRHV4NDVWRlFhNjRFOTduTWNFOUZJWU5UZkpnVFRTYXhiWTRkQmc5VkRTXy1wUExlQUFJSHFJMndSNXRwMmh3TjlmcU51elNSSXd5Ty1CTXhrcldjc1JTSVJadEh6c2h4dm5qYjgtZ002WGRHWnptVC1WcmlZUHpibXNZU29TTXBHTmdTQ0VGVkkzcWc?oc=5"
     },
     {
       "id": "2026-09-17-douard-philippe-73941025",
@@ -1903,6 +2503,21 @@
       "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNNVd6MEh4V2xrQnRielRha3hkcjlobkNqTGdWZ2Z2NXZoV24yTkNFVGY1NGFpbEk2R2trWXFiTDI3VTdWa0VmN2RNOFdqQnNqWENlbzV0aTBBMVpveE1lQ1FEZ3dtR3p2Zmk3NzlnY2ROcWZacWp1SXYySHpKSWVKNVM1LU9BQ2ZJTm55ZnY4NmJCSDV3aHoxcW9zTjl5TU5MZW5vbVhyelFoaERGMXJoN3VHSW1MUEhqRFREWTlPTnItbVlwaVpld1NzcDhPRl9oc3lWOUYzQ3BZYlctLUVzTk5fM2JpLWd0ZExXSjBVRkFib0FKTU9US1g3S25hMlFaWUZmekgwdXhIZUN0Mm9mdg?oc=5"
     },
     {
+      "id": "2026-09-17-david-lisnard-02297457",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "\"Mon ambition, c'est qu'on retrouve une France beaucoup plus forte\", assure David Lisnard, candidat à l'élection présidentielle - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVnAyLVVLWVdnVVA3T0FZUWxubERoSmFheWQtMU14VGtTWm5tVzByWkN0WXVvNUxBdGpJVDdUcndaSDBOM0NDdzRoM0MtVzVnZXVKZW16by1sajRYOHV6MUpmZ1RUazFnVDFiWV9UNXVDanVkVENaYXFLOVhpTE8tNjJ4aHNzUW1YZC1LRHJsYmJjSVR0UHdSZ3RUcVlyZVVfTUNRRXdLQkExQTdBRXc0bGxUazhPNXMtOUFsM0lZTGxIdDE5TjJ1ZWp3?oc=5"
+    },
+    {
       "id": "2026-09-17-bruno-retailleau-08570676",
       "date": "2026-09-17",
       "candidate_ids": [
@@ -1954,6 +2569,51 @@
         "TF1 Info"
       ],
       "url": "https://www.rtl.fr/actu/politique/primaire-de-la-gauche-cinq-candidats-participeront-sans-le-depute-philippe-brun-suspendu-a-titre-conservatoire-du-ps-7900673034"
+    },
+    {
+      "id": "2026-09-16-marine-tondelier-57088596",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "\"J'ai été un peu déstabilisée\": Marine Tondelier revient sur sa séquence compliquée lors d'un questionnaire sur les anciens Présidents - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZmZTSkNYZ0YzU0ItYTRGUjd1MDlFa2s5dWRVb0lrWjVqSXhVOGwySWR6UEpuNTd0UzVzS2R4VGliQmVqMVNKb09uX3luN3dWcEZ3Vk5GbktmRTBlalFGc1p6UExjbWI0SHBBTjRJUndFSndudUxOdlk0THpqR0I3d1VfcmVrTDZFSUxiMnJtazdKSVFRS2FWLWNpN211TjBCU0J6bUhUTktZbUY1R09TaENFVQ?oc=5"
+    },
+    {
+      "id": "2026-09-16-marine-tondelier-22037526",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier assure qu'elle soutiendra \"des deux mains et des deux jambes\" un éventuel mouvement social contre la vie chère - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxObm0wVzBBaWNMN2tnVzg1TmctV3pDN2xrekVoSmdkQTZLOW55Q25JRFdudW1RNG9iWXdsRFZMdWJsUEExRWIzOFpVd2JuWFdiVXpNaGV0NE9SeHZPZlNaZURMc3dOZVA5ZGVEVk1WRWE5TzRFZ00xMVhMNnc1bkl4X1Q3cWV0SEFBRUg2Ym1nWXg2NFZ3TkprejU0TjU1T3ZpSWFScnQ0ZDBCME55bWJ4blhUREU4LWZWaDBDSlRZUW9jT2w0Qk00Yk5XeG1RODdRSlVubGt4ak1XMEI3QVZsV0lRbFNoM3A5YUVsVklWRE42ZTdjTWpLMnlDT0Z5YUJjOGFxUUlySUFSbTVvLWNydmd4dUhYdw?oc=5"
+    },
+    {
+      "id": "2026-09-16-marine-tondelier-00295846",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "«Un élitisme français» relayé «de manière servile» : Marine Tondelier se défend à nouveau sur Pompidou - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZFdUZ3hsSElOa1FtdXhvcnhXQm5zbmNsVlc4aTFLYnJyUTRRcHN2aGFhc1lVWjJhLUdUTmQ2OGxaTXV2aTR3N2I5eTBWOFVnQVFnelFpQnBOTjUwNUNwUnczcjRvN2V6RjM3MEJST1lDSFNFZHhPZEw2NkIzaGdFN3dXSWtqWTN5ZndOa000U0laRmNMS01QdnQ5ZnlwUkcxOUVZSnE4MU1HdjRJd3Y0N3gwMGZjQWo2dEQ3OWxmSWp2VUlZZmNOZEpKVnVKYUJLdEIwQklUXzBmeWZCdGlwLVA0LWVZR18xSnpzRjdweXpKOW1RaU90alM4ZnZwUQ?oc=5"
     },
     {
       "id": "2026-09-16-marine-le-pen-93805490",
@@ -2044,6 +2704,21 @@
         "Le Parisien"
       ],
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVExfRVpiVWhqUDRsM1h1WS1TcXZDWHJ6X2dOOTY3dk43ZEotS01Ud3pSaXcycG5Sc1RUQThVUS00c2h5aUlDS0lmNXV0Z3BfMW1hRldHRlhHTFRraFVnWThWWmpULWRUTDNteU1yQkZ0dXFlUlNrVG5RdmRyUlA4V3BkTEZIdWJ0UUlhWVBsY2JoajBYRmIzOE4yM29VdHd5UlZrdWdjNHFKR1E3QWtuSGFTb2xTQktTOGhvblVSWm1aWGZTWXRTUzVubTFkQVlySXJxVjl4bWh0dm9qNTYzUXFvRGJ6S1BLOTdvTm1RRl94anNnM3Nr?oc=5"
+    },
+    {
+      "id": "2026-09-16-jean-luc-m-lenchon-12831013",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Réunion publique autour de la candidature de Jean-Luc Mélenchon - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOeS1jTURMRnI4eXVMR0FwcWVwWVd4Y3NuWWVHUUwtS1dtTHU0WnNTUXlpSmdaOFRyUm4zNG1ieHlYeVVLUFp4cnFBUHF6LUZFVF92SmJaVEZZTWs3dUhqSjVzTGNsdHQ3aExzYmVfc0FpZFI4ZXhVclh5b1ZJR2ZSTzhXZXdJTVRabXk0ZnNyczJOZVlobW9EeW5wenFEWDBqT3NrRHBIanhDcERxbThlNkZEaHVPVEZpd0VtQnFzRTZEMzlzQU9hVzZkRWJnWkJzR0FzOVoyd1FsN2t3Z09iUmFCczhMenFlYmxLVWhnZw?oc=5"
     },
     {
       "id": "2026-09-16-gabriel-attal-38579125",
@@ -2198,6 +2873,21 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObFJwTDhGVnlUTVluN2hMdl81TEdLOTNNc3ZGd2NHemFNNlctUEp0dGl1dmRmOFFYM1p5bHotcElvcnZHZzl0U05KRkNxV016X2FUeXFFQWRERXduOFNBM3ByX3BVbWZQRjhma0x6Q2QwTTRyd2I5NkxNM2pJTVBiTDVqcXhnX1NYVVhENmIzWkpmcHVaZk1wZnhjT3BFcW1ZMzZxSDY0dkVmQ2RmWjRueHF5Rjlwa0ItMDhjWGNleVpVX2h2Tk1QcGVxd1BOME5rUk84?oc=5"
     },
     {
+      "id": "2026-09-15-marine-tondelier-33699701",
+      "date": "2026-09-15",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "La conseillère de Paris Rania Kissi nommée porte-parole de Marine Tondelier - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQamVzWGdlUTBiUnkxMEx1VVd2elZTY2NxWVhXRGdWWmVTQ1BLeG4wNml6NDdJNnhwbk9FVHpzbWhNNFNmT3dHXzJLVzdfOEFWNnUtOTBnbWVQYTNvdlVtempVaWM2Zkx5NzNxQk9qd3BlOU1qWXlFSExjSXBPVV9VdFRxWmxoRVJJZkdiVWdXQ2IwLWJPN1RzVGZHSHlDamJDWjB3X2R0QXF3eEItdUNrZVdUTzBFaVZ4aktzclgtRGFhazNrbWRndHJWc0d2cjFrN2xqTlc5dU1sdmhmLUhWNDBR?oc=5"
+    },
+    {
       "id": "2026-09-15-marine-le-pen-31509670",
       "date": "2026-09-15",
       "candidate_ids": [
@@ -2226,6 +2916,21 @@
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZWkyMS0yQklWbFZOaVBBLTA0N1YtN1lxZEcxaWk5YnJxaENwTHd5bENqMkZ4cC1yeFQteFRUWHV5NERFZXJHcmtaLVdWSV90N0EtcEFrazZvckU5azFqWGoxTm1lQzZPQnNtT1pLWnRUem9iSlpEQkNMOWx4aVpUb1UyX0pXZ3lhTE04dWRIYU56RjYtT3NtWEFnX2VvTFpDc3BJSkp4cV9Lc1VjclNxMmNZeTBUUWsxTGpwU0E4TV9BV3psSlhBQ3pnTFh0WThnS3FFTVpFSllMa0FzOGZmN2M2dHB3LVhkNUJ4NkRMbHhURGRTWnJ6WVMweHFHQVFmZ2NwTG1wWQ?oc=5"
+    },
+    {
+      "id": "2026-09-15-fran-ois-ruffin-41604225",
+      "date": "2026-09-15",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Le candidat à la présidentielle François Ruffin présentera, à Rennes, ses propositions face à la crise climatique - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPMGVCNGNmeE5CVUdQZDFnVVFOTFFGUW1iVnFDTDNoSEhncW5XSW1vQUlScWNmZGUxZVMtSVlGeEJNczZiWFVHNGdaNGxaMGhVTVlsaHI2RjN4LU9uWjVZb3hRY285LWt1MWFPYW11RlVnLXk4YzUyaFdBQl9lVVhHWDNXc2dsWXRHazNIT1paa0IzTHhORVZmQzE0UkI4TXJhLTZwOWwxRXVrZk55Yl9mMDEwX3lKTVhza3RLMDdxMXplamtQbTNqVGh6VHJMeDJreXdON1R2OTJ2aUJqb3JJNjhOdDJkbXJyTG9GMHhmX1BQdzRyZ3YxZUVzempqaDYtbV9QT0RjVHhEVVA2aUhnS3R6TEpNQjNXR2NROUtleFVVUHBh?oc=5"
     },
     {
       "id": "2026-09-15-centre-right",
@@ -2499,6 +3204,66 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMlZDejFRRlZ5VGFlVWtFbDB2UGZGSEdNcnYtdWNVcVdhQkY4TVRNV0pqVjItQVNHSndRZThxRVhwcnJxYWwydWpiVjYzdmlLaTRpVlZRQ1VOeG9ZNFFfRlZiMXdfTTV6blI3RDhDSk1rQ3c0QzBXQTJPQ1VhOTljVzQ5T3NMUVdNdS1LTFNoT2ROaHNYNHRETk5tUms2N0pXRm8wN2xPN2JfZ0ZyaGNj?oc=5"
     },
     {
+      "id": "2026-09-14-jean-luc-m-lenchon-88801195",
+      "date": "2026-09-14",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle 2027 : un duel Marine Le Pen - Jean-Luc Mélenchon inévitable ? - France 24",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZVI0SzV6SjdnMXNzYXZSS0dzUHNNdEFnektIOHdZeGRkZmRlSUFqZF9KcmhyaE10UE8zMjQtZEhRQzhyX2pJbVZKNVNCQ08zWGRuUGxSU0NNRGVEcUwxYkNldUhMeFJycTVaOFlIV2FMQk9ZdS1JOFBPSTMzZEQ3Z3dPUUppY0NrVDl0STV2TlNIeC1Vb3ZnbEFxeEFPdmw5NHEtbVdvNTZnVTVMZWJsWHk4VjlQSW5pOC13VDBNYWNIZGh4NVNWVndYNXZyWms?oc=5"
+    },
+    {
+      "id": "2026-09-14-jean-luc-m-lenchon-67275960",
+      "date": "2026-09-14",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Jean-Luc Mélenchon dénonce des « manipulations politiques » après la demande d’annulation de deux victoires de LFI aux municipales - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPZEFXT3gzNEFTeDAzTjBUZXNiMnMyQVpnLWpwdFRnV01IMjRjSFI1QnNBWGZKRlhRUV9DR1RLb3RoSWxRU3hSakRMUndFU2RXeExKNERyYVByem4wa1hvbldJMVpQSTdhMFN0YUtlR0JwMThSS2xneUhBc3EzVDlCZm5SMTdrT2Etd1ZrNWpBX0hpV3lnTmlHNjNQVENlUmNROEhHMUttbTlZS2FCNGxLWjFFYmNFbHdObE9NdG9zX0Q3VldleFhYVjBiejkzT2lnQVNfSzBCbXpoU3RMaU02WGtiY1ltRzVGR2t1bkMxWmJ2bDh2NVRYdXlqaDBjWWFHXzBJT3BMRmFrODBDQ285eA?oc=5"
+    },
+    {
+      "id": "2026-09-14-jean-luc-m-lenchon-29679512",
+      "date": "2026-09-14",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Nicolas Bouzou : « Jean-Luc Mélenchon veut décréter l’état d’urgence après son élection mais personne ne s’en inquiète » - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOck1lT2hnc3EySWlsNDdUdldCLXZXMDV0ZDJqVWNOZnZLZUN0WUJSQVh3cndMbFBzM1Vta3F0TXZkMGkzWFQ2LXVlRlZ2ekpWdU1HLWlNTDY0dzBvRWRsUzBVTVhOemxqQ1VLYlVUeFA2TWNtQ0VUc3hIRlJURnZNX1VPd1AzTzgxNEtnX1NoWTlXbHRJSFF3aW0wN3VZSWt1ZXNJX19seVl4b21ZWFdPNEtxeFItOENkNWcwMTVlS1JIWlN5TlVEb0NLbE1iVUd5ZXNmcUwzUVZOX1FaSm9ZN2VvN1lPOGM?oc=5"
+    },
+    {
+      "id": "2026-09-14-fabien-roussel-13249105",
+      "date": "2026-09-14",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "VÉRIF' - Fête de l'Humanité : cette photo de Fabien Roussel devant une vaste foule a-t-elle été générée par intelligence artificielle - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQZTZ0aWtIUk4tTkRybFNTb0JNUFpvb1hWNkJSZHlBcnFqaVEzQjJnVlRiNDM3VmZqMmpnZE5jRGJadEZDa2dJU3FvM1pLQ0RscVlDY1BJWFJRR3U0dW4wY0RQa2o1dENHcTMwbGR2V0taVDlIRnNXaDY1TTFjRHBPT1NFa0pORFo0bEdPcDhMSWt3ZjJGc0hZVWE3TEp2aVE1eE4wcnp3VjBOVTFrVVQzaEQzMjNfakJCcWp1eF8ydFI1WmVMYlhSMml1czZibGphOVRoLWJ3QnkyTm9BODg4dG9tSUJ5NDc4ajdOZi1ROGwxQ2tCb0x1WEttcU1WbVVZT3Vodw?oc=5"
+    },
+    {
       "id": "2026-09-14-douard-philippe-85788320",
       "date": "2026-09-14",
       "candidate_ids": [
@@ -2634,6 +3399,81 @@
       "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOcWpUR1pGNWdTQk1sQlZEZEJKcE1zWGZCeHI5NGdFWTZ1d2M1WkZST1BvN2owTWpRM3JORTZqX283YmtlTDQyU081SzJTSWY1VFZXZkhPVTdINHZiNGo0dVFJM05Qc2x3ZnVEaTh6Z0ZObml6UXFIMlhDSHU3Y0MtNzMtbWJlbFBZLThwaU93cWpPOEk0VW9oWE9jYzA3Ni02eV9OdUpyelBRU2VtbGNSaVJUQWo0bEI1TXJBRGVVd1Uwb3poN1JWbTB2QWxqOXFNWl9uWWgwYlNpdXBTTWJPSDhRbEtwakZISmtvazQ2RGZJYnkyVXhzQXpabExSVGNhZTJZenZCZnB2dXBRNnplUXByLVI2Vkt0emdGU1BMYV81VDFfNWZPWkRFd19oQ0lSSnUzUm5BbjhCY3FSNXZ6dHpFbHBSZk16VVVOV2I4ME1lNVIyR1AwM2ttR1FSeDBT?oc=5"
     },
     {
+      "id": "2026-09-13-jean-luc-m-lenchon-53204315",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Fête de l’Humanité : pour Jean-Luc Mélenchon, l’occasion manquée de l’appel au rassemblement - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOaWNJYlNNZkhrT21kRUE1RnpUTVBlWnBDR25Kc3REdVVTQ3VicGRMRFZES05FUUg1VUFmX01KeXNpQndLYl9aRDczNWIwSC1lUVhwV0NCRlU2LTdWUlR2b3FsZlZxN2hBRG55b1htOU50NmtxcHRlZUFYbjdLdUFlWnI5WlFhWkNubTZvUUNvR1VDWDNaSWhna2dqWXF4MXlwU3FaWWdxMWdhZnRRMy1yM3BYQ1JHQk04LTlxRk52VzdxaXJmZkd1US1OUnVKNWw4X3RDbTFJSllIZHJtSGJaelFHd3N0ZFdVUXhuZG1feDRVWHdvLUI2ai1MbXJHQQ?oc=5"
+    },
+    {
+      "id": "2026-09-13-jean-luc-m-lenchon-27101334",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "En meeting à la Fête de l’Humanité, Jean-Luc Mélenchon attire les foules et plaide pour le blocage des prix - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPYWpnaF93ZFBkRVlJeWg2MGtsRHE2RS1SMVpmckY4b3VyemR2NDIxakFRbGZ5R3Jnc0JMdnFlemlGZkZNX19wTk00M3h2R0I2S0VLNnJQVFo4X21RMWpDN2ZwNzlxVVQxbGtIemgyUmpGYkViYndBRjl0dml0T2VQNkJHSlBQaVRJb2RQSkp4NHp0WWdTUHc5OTJrOXIwOEdBVjBsZktFMmxUTmtnV3NwRnkwR0JfY0dJX0FYODVqVmxOUXJLNmw3MHFrbFh0UEp2ak5HdGU4LWhIZGZ2aktjRVN6MHFMZlg4WlFGMFpva0JvZlBhb0ZtNVpTMm1SNUU?oc=5"
+    },
+    {
+      "id": "2026-09-13-jean-luc-m-lenchon-26102251",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "\"Nous savons ce que nous voulons faire\", Jean-Luc Mélenchon s'exprime depuis la Fête de l'Humanité - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSDdwYmFVS2hEcVJWRGhnMTI5eUdnOHg0RFE1T1ZYNFBwMVIyOVRCNWwycDBvR21xalFpeWdidk92T3NycnhKbGRoNjFlWjY1RXhDNVNsVzFqN1hfUXY4cnVZWEk4Y2JNMFhhVkZuanNsNnh2Nm9WdEwyOU4xTGJleEtMQkQ1MjRHZ1hwY084VVN1TEVSc3ViOXZlLXFFX0loZUZqQVV0aTFhVXc3X0ZVejlXLXlhMXExS0F3QjZvcUpVMlJXOURVRjdzOHJ1dXhrSTIyTElIQzZTaFhfNkVMTFZoaGhQVnFBbnpLYlFMRVg5dw?oc=5"
+    },
+    {
+      "id": "2026-09-13-jean-luc-m-lenchon-25471704",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "« Qu’ils s’en aillent tous ! » : Jean-Luc Mélenchon renoue avec son populisme économique - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONU9JWGctME9LTlEtajU0Q0ExRldRNWdvVnpDa19GZkR5dkxWWXgwMzgwQmxoTkg5TU9oR1dNTV9RMGJJRHFrajdNSHV3UVhndUFkaXVVNkIybFFNVkxkZEFFcktFUVpWR094dEhDWklaMXVpMTY2YmFSbTBYS0F0UUlveTlvcjNmUzlNZWVuYkJZT09ZYm8wTXpjbnJBZ2tEMnJhRlpQaklJWFlVTDZhLUl1R253TVR5NzBRZzZ1aTdrQUNHRlhXQmh0OWIzQm9qQTBGQkN3?oc=5"
+    },
+    {
+      "id": "2026-09-13-jean-luc-m-lenchon-21940669",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle 2027 : à la Fête de « L’Humanité », Jean-Luc Mélenchon accentue la pression sur les autres forces de gauche - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNZVJVWVBETWlHNmNmc0xHOEZwd1Nvam50NWZYSHpSRS03UFRaUWg0U0J4Tjl2SDI2Y293WGItNU9zVmxjdHlidE1Jckx5bml5LUVLRWloOXJVNzRSb1NOVndTRmE4ZXF6anRhVWFQcjVOT0d6UHBmY0l3V2VfbS1oQUZvYjhnLVA1YzRVQ1ZlSl9yLTBvdVN1OFZ1TDk0ZGt0eG45UzBUTEdyMTc5TlU4c1Rnd0pSOTZGdGJnOU1ZbEZQT0lnU3o5cWtpcFZ2eEFuZmFnU2ZFWGM1dFF5cDVMc01sbFl5QXNGQmF4a1JBYzhVREV3Nlc2emhjdXVsV0g4b252cTZkanFHY0pTOWR2Q2hRN2Q2dw?oc=5"
+    },
+    {
       "id": "2026-09-13-gabriel-attal-68345974",
       "date": "2026-09-13",
       "candidate_ids": [
@@ -2662,6 +3502,36 @@
         "Le Parisien"
       ],
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPVkJwLWhGSXQ1NVlZWVJUZUZXNHF1R2kwYVpFdHVFeFZENzdabmFkNFlyb0lia3VFOHJxa2hDVlowT3cwNnlkOVBRR3FCVHozTWhKYUY2Zms1ZUtiMGhxd1BZYzRGbE81MTZ3M3NvVFdxRnJEeml5UUV2M0theVI3Z0RNVlZnSTl1eXIwakZqSHlXSnpQQ1pudHBQSnBiZUhhek1WX3IwOUc2TnFhalpjV0t4SU8yOGZGeVQ3YTVUNE12THdobGFZNFAydTV1eTJ1a2NqOWNFUk5ndkdrc1h1NjJLT05YT0pWMlhXcW1JaHcwMzM0V19ZUTF3MFFaaXFWZi10NkRMR1dWRjFzZ0hETUhGbE1YQQ?oc=5"
+    },
+    {
+      "id": "2026-09-13-fabien-roussel-41108407",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Duel à la Fête de l’Humanité : Jean-Luc Mélenchon et Fabien Roussel tentent de glaner les voix de la gauche radicale - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQMUt5akU5czJKNDh0R0dPWHh3bXMwcW52MnpiRkJGQzhySmhROHl5ZmN3UnBEbWEzeGxGNUhxR2dBanprUzF4eTBzd1pKZGpKaWlEVDdudDBGQ3B6VHAzYVNRNVZ6SUd3b0J2WXRZbFd1bkdDNjJpNFN6SEhRajJqUjdqWHVhQThZU1d4N2tIRWNnd0RFbkZKSzZtM2VEYWYzTVpIR3BPXzFpakJiclEtQTNTdzNPal9TX0gzRTBZZ3VmX3FIVlBjYWZPYXFyTElUTHVXYmk1UzR4Z0JrNm5WcWlURGt6S0NDY2VjZWl1bFVuM2UyMWhXNXZuRTlSVlBxMFkyVmhkVWtBcTBiSGUyTl9zNTd6eVgzUW1BSFM3WURFdGFoWFhJaTZJcw?oc=5"
+    },
+    {
+      "id": "2026-09-12-marine-tondelier-08909034",
+      "date": "2026-09-12",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Primaire sociale-démocrate : «On ne sait pas combien de temps» le gagnant sera candidat, raille Marine Tondelier - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVDA2VjR1OUVqQy16VjA5aFN1aXBiMnFMaGRtelVuLWNXbk1leTFBeEluWXlyVGdEX3hYcHgtZWYzVnBNNlBXYTAxT1lyM1JPVFQtTUxFNkFBLVlvXzFOekQ2dUJTZzBsemVBbmJwTGRoYnZBRDdNSFB2ZThuODBBVUZ0Umg1dm9nMDFpb3R0aDkyTk93ZEJKTWhyZGhKaFBEeGZUcy1SQkExb3BEbThIUnhIRGUxWXdrbXk3QkNYRy1WNFl5OWR0OEx2Q21ROU9FVjhXV1JkSW1QeDczUU8zUGMxY0M?oc=5"
     },
     {
       "id": "2026-09-12-marine-le-pen-26138049",
@@ -2694,6 +3564,36 @@
       "url": "https://www.lemonde.fr/politique/live/2026/09/12/en-direct-presidentielle-2027-jean-luc-melenchon-plaide-pour-une-echelle-mobile-des-salaires-a-la-fete-de-l-huma-gabriel-attal-critique-edouard-philippe_6770586_823448.html"
     },
     {
+      "id": "2026-09-12-fabien-roussel-92323139",
+      "date": "2026-09-12",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Fête de l'huma: Fabien Roussel vs Jean-Luc Mélenchon, c'est reparti pour un tour - RMC",
+      "sources": [
+        "RMC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaVlCN2hHbTFnSWtSczY0ZndLNFEwQWtfVmhBdGpmeGRSMmIyN2JIdU82VnNQcWlERVd4MjRLYVFPMFpOX240MHZMd1FlaVNlNG1XT3ZvMkdYUU0yQW5MVkpWclExSmhoQlZ6dGhrZ2hzU0Jma0xfOHhySHFNLTRtNVZzeElndXltNDBwd1czQjRrcHVVTmN3NUhZc19TNlVSQ29ucHlPR0JqbWlEQjRaNUpBVU16S3BQTm00U1d2QzFDV3pyZE5XNFFsNHJ1YmVISUlDVXY1Vlg2SkxMdjk0aWd3?oc=5"
+    },
+    {
+      "id": "2026-09-12-fabien-roussel-23757907",
+      "date": "2026-09-12",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Présidentielle 2027 : à la Fête de « L’Humanité », Fabien Roussel au défi de démontrer l’intérêt de sa candidature - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOVnhrQWJ4cTlSNjlJaVJBNFBIdHZNMVN4czRXbmEzN01XVDZVWE5BSU81a1o2TG1IWGp1cGxKV1FlcW5aN251LXRjRmowWEdWSVZLalFUWDhZVkVkUzNjdjVuWUpzb2x3OTVrNElSNzIycUQyUDFqcVhzZmFfS1NJVjRDaGlvSG8xdWlQTl9aTnlIWlVYUXpsRktTVTZlYnRJZE5TZi1nbEdGbUVlZVB2RDhXeEh4NlRVc1dwSGhpWGNWY0tkaXVINTcwaDdSRFZtLXFfci12QURJYVZJWEhqRHhoM0ZqZmIwRTZ3ZEFCcF9WTkdmUG9sS2x1eHNCU0hrOW1zRzVSRXFRX0E?oc=5"
+    },
+    {
       "id": "2026-09-12-bruno-retailleau-98239327",
       "date": "2026-09-12",
       "candidate_ids": [
@@ -2724,6 +3624,21 @@
       "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNTXdHSmpOVEJoRG9aakNvbGVzbU51d3VpeHQzRmdBOGM5NnNBcV9VaXkycDNmZVU4WFgtUDBXekZJa3N4N3RqUWlPTFRwc0JMWTJiMTNyS295bHZveW1UOFgzUGNyTmg5WlFnWXVySV9OVTVLbmFnbHpuV01GT1RQbXJpQ09Xd1ZlLVoxSjJ2LTNIVlpzalZWWGY5UVJmRjdFOWNwdk5NWkxJYnNFWTg4MGZSaVI1WHZnLWwzMTlFRTVOajNMb2J3N18wdG85V0VqTXFzdGRzeUo0aFhCYVJ6SGZFOXFSbE1EaUdvUV9oY1Y0Z2Y3aU5aMWlNMFpzWS1tUEhSU3FSYi1IbW9vQ0I5Sw?oc=5"
     },
     {
+      "id": "2026-09-11-marine-tondelier-78760440",
+      "date": "2026-09-11",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier et les mémorialistes zélés du pompidolisme, par Daniel Schneidermann - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPZHh1OVc5OG02eEJ6ZkFYVUREMU5YcTJfb0pLUHFiT3BMYTFTWERrR3ZnY3pNTlNZUnRSX09sSUtmN3BoYTliRUJUWXNXaTdjQXIwcU5BWWx5OGdfN2NBY1phX0U4cHp6VVdjNEdHNlZaY2dscDhpeHdhOXZJTHlvR1VZNEpWOVY2eFRZLTlwSkdSR3pDVl9SYlNkcThJcGFMclVXWUNudk1FNV9nVnVSRUJGUlFiR1FOSUgxUGNVZDJzaElDaVZJakVzZW1BaHhTdExucThieUQ0TWFaSFRzbDhIaUxSak5SUG9wRlplTGN6WmNtZmlHekhJLWVxeGZ2MnQw?oc=5"
+    },
+    {
       "id": "2026-09-11-gabriel-attal-88220402",
       "date": "2026-09-11",
       "candidate_ids": [
@@ -2737,6 +3652,36 @@
         "Le Figaro Vin"
       ],
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNG1nN05MNVVGR2p3TDFUbkdJQnBzRFdSUkY2dTFxTDNqTk5fdmpmSHhfbXV5RVFtcjk2Y185S2FSNkEya1NxdmQtdk5IZm9zdC1zV3JxLVNZakJqWFR5Uml1c184OG9TVWdzeDZlVTNXOG9iSkZ0aVExTW1CenJRNmQxRUpiV2I3U05iSFJGdTdnR3dOcDFHd1dHbDBFQlJ2TzBrbG9zZ3Q0Uk5UN1FTNTRkaXRQR0J2cDFiYW5FTndTRnpEOG50ck16Vm1Jb0dmeUE?oc=5"
+    },
+    {
+      "id": "2026-09-11-fabien-roussel-46778985",
+      "date": "2026-09-11",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Présidentielle: à la Fête de l'Huma, Fabien Roussel au défi de prouver l'utilité d'une candidature communiste - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa0FtaTVLbDNwdThZTVZuM3MzZUhBSWtOWnBYeHBsLUhwc213QkltR2prZVBfRVBhU0I4NjdOU1NzTjhjcDk3aUFuNkdudFJyS21zSVkzTlEzVE9iczZqZ2pld1IyUlFnenpBQ3dvOVNIUHZzWlJFYVNMZS1weGhYSk1tZGMwNGJ6Q2I1OW1fYjVaMk51NEFkdTNiWHJNenNiZUpmMXZJa2l6Um53V3ZR?oc=5"
+    },
+    {
+      "id": "2026-09-11-fabien-roussel-02853915",
+      "date": "2026-09-11",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Prix des carburants : \"J'appelle les Français à se mobiliser, comme nous avons su le faire en 2018 avec les Gilets jaunes\", demande Fabien Roussel - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxORWJDdm9sd0puZWlldGJSSHkwZy1XajliNlVmVmpqOHktY2laRmZvMG82SVNMUTVkS0hUbUpuMllJanNtcGVzZU9xSk9PZldJQkxQQ0ZJcHVLM0JzTm1PbFA3MUNZd0E4c3p0MVp3M0MtQnhTRTRiRExGOEpFMkRReVlVVzdIZkFXZlVmVHFBdlpTSlcyOWI1Z0hUVHFNRU4tem4tZmZ1NUNpSG1VdGw2bmxJdXlMTG4xal9iSE4xbFgwRVVRMnNzdjBTM0N5TFFuTVNsMkpManNzZ3lZMjBWU0FKVVpvVVlOQzhKZ2RCb0M0Qmpfd2tEY05XWTkwNlRJZlFMckR6VnF0clJkQ19aZ3ZTTFlHM3c4?oc=5"
     },
     {
       "id": "2026-09-11-douard-philippe-34190628",
@@ -2782,6 +3727,36 @@
         "TF1 Info"
       ],
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNUV9TNzRzQ3hieEFTejhOcUNRWEd6R29hVjdJUXV1Q0hLX0w1NjhDZWhfVG13aC0wYk9wb0VIRWFxVkFCVzZxSjVyMjlFeEdBX01JUHVxSkpUXzNxZ2pmdE56anVfZ3ZlVkZnTUtIR09QYy1SZ3NCWTFENngzT1RzamNnOXBjaGxGY2g0MFZaMTlZTzk1aUxmcFI2c2l4aFN4eUpKSVJFd3RRMkRpRHJvVDBFbTFMMEo3VldHTFpiRDd0c1VuMjVxb0EzQy12TGZnWXdELTIwMnlYT0s3WW5TOWJicWFIRWVvQkV5dFAzVDRZUlJpSU1vNTl5bzB6OHRuWXV5RDNOODNiWTJkQ1R1OTVKU3J3RUlydllR?oc=5"
+    },
+    {
+      "id": "2026-09-11-david-lisnard-36486769",
+      "date": "2026-09-11",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "Présidentielle 2027 : David Lisnard, l’exercice périlleux d’une double candidature - La Croix",
+      "sources": [
+        "La Croix"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWE5sLVpnRUFYSzROekw2TmYzV3FUSHlvMEVWc2pYOGozbHRVTE9OdDBubG9IUVM2VU04VGVJVjk5ZU16TlFxd3BwbWlhdnExS2RkemxKQ2Q5LUZ3Q3FFMkV0S1BIRjY4aEJBekpRc1QxTVNqSTlWd1ZQVE1Ub0JuZzJFamtObkFjUFM0S1FlNzdhN2pDQTJzUXQ2RndxbDVnNmp1eDdOWl9qTFMwcDRablJDcDJ0cnN1ZkZxMld1MA?oc=5"
+    },
+    {
+      "id": "2026-09-11-david-lisnard-14493651",
+      "date": "2026-09-11",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "David Lisnard, candidat à la présidentielle de 2027, veut rester président de l’Association des maires de France - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPZGNKOXo0bnJPT0xUenNDUGNOMVZnSUdSdS1pSk5GYkpBT0JVaGJkVnIwR19CMHVMbHhiZTNQNm1lTElFMUU1WXdZTU90VlVSLWxhR196T0F5OG04LUZtbWlUbkstR1BXeFpMaXlpUjVmQ0EyMTE2VjMwQXNPcndjNFFZVUh2S2M3VVFFY2hFU284VF9fSTV5aXh4YWdaQUhjU1dwNHExU1JBZTllcEZlZ1BuWXpVMmp4RElRZjM1N0VVLVBNU0pOMU9jWW1KQjBsRmV4XzZiTU1OQmdOZVRVRnZsUVotaEl2QlhCRl84TGw1cE4tS3RlYjhZTXF0OWxCU0xlVXNsVl8wSWc3RENr?oc=5"
     },
     {
       "id": "2026-09-11-bruno-retailleau-56424902",
@@ -2893,6 +3868,51 @@
       "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOTjk5X1VBUmtrQWlWNFB1OHIzc212T1VWbXNHY05JQlZnTHZGSXhaNXFLNnNTNFpSUC1yUUdKM21CdzNuN1FaQkUxUWY1QUVDMXcwSjQzMW51NDZXaXhiXzZzWmR6ZXdZckNrQk9VanVyTVB4NjhINVNhUUo4SDU2ei00enczWEdENE1fSHBzODJjWHI1c0pDUkg3Z3J6VTdrUGUyaFhtSzRsWkM0Y0ZEem9tMG0tNDVYb3RtWmg4OVJZU19pT25kcU13QnpjNUlkcGZsM3hmTE0xSWduaFg5X2N5dEVUeEdwR3lmU2dYckpsdFM0cURNSXdjeFRtZzRYbmZmWGlqWjJRSXZ2WGU2NzFfcTFiRENzbEpHcEVDaGdwMHBnLXJldzJZdTNKZ3d5?oc=5"
     },
     {
+      "id": "2026-09-10-fran-ois-ruffin-87322027",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Comment François Ruffin cherche à faire dérailler la primaire du PS - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVktmTjFhYnlsN1V0dENFNHhDdkFyUElOdndpb095dkxnQjVSVXhod2hzZ1Q3X2J5TUtWMVJvbHVLX2NGcFR3UU81blZGdmxWcWdpa0YwRXBxQ2luTXVuSTYzMi1uaTA3ak02SV85dVpLQXRGVXVCSkdUYTFmYU5rZUVmYkJzMGtBT1NtcHIzLWp5M3pLTzhEZzJIZ0x2Z2xsUGNhaGJiZG8zNTRtc3dTa0J6SDAxN19SUmFodFRhZmFmc2h0TGk2cW10SV9HS3Q1bjMyRGFPYw?oc=5"
+    },
+    {
+      "id": "2026-09-10-fabien-roussel-34167678",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "\"Ils poignardent la République\" : face à un milliardaire sur LCI, Fabien Roussel dénonce l'optimisation fiscale des entreprises - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNSElRNHdwYlI5alV5ZXZxclVRaGtobEEtV2VZN0oxdzNQeFlrMFI2S0ZqWncySjlHQmh3bjU3d3JlWnhTbTV6X3BiTFhxLS1kUHFfRUNPZ2NOeW5CVWR6UHZlcG5mRDJjQzZ6OWhkTDlHcnZNT1hSWWhKSC1IdU5ySmJKWFdkbWp2RkZQV3JVdzlHSTFqM2FGd096MzFuYkJ4eUlpLXpTV255VXhtWlFfWWRjN1FmU3hEbWNQRGlVTU1RQmRtZXBNRFZRRU05M2JMN0xOUDlvanozcEppcmxZRXBnWDk2S1JxZElHVDRnd2FHWEpjTHpjRjMxOVlfb19FX09VSnB4UWFELTI5UGFDdnNmemxXQ1BvVjM0ZQ?oc=5"
+    },
+    {
+      "id": "2026-09-10-fabien-roussel-15104111",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Fabien Roussel : «Je veux me distinguer à gauche en portant le travail comme idée centrale» - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdTVsMFlvYW9hYWJqVHhEbVRIeFpnR3RaYmtyRFRzaDEtQUVkRkw3OGNKLWdLWm0tUGJNMm93X0ZGLXcyMF82NnB2RVpHUEhHN3F5MThxc0VTZEk2NmluOWx1SlVlQWxJRkViUC1hNzNUZ2FPaU0xRUF6Tmlobjg5czVNSXlVTG50TDkxTTlkUWdCYlY1VXpHcTNEcWlKSGdiQjZDSTQ1dU9Ld1dOSVhhSlNFcndnS2l0NXlvRzNDVGxpd1BaMkxoYXFCUy1nZkx2ZzREY0JaSTZwS3J3M0tqVkZlQnA0Xy1WajBDeFlaRmdydw?oc=5"
+    },
+    {
       "id": "2026-09-10-douard-philippe-17316169",
       "date": "2026-09-10",
       "candidate_ids": [
@@ -2906,6 +3926,51 @@
         "Ouest-France"
       ],
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPSEROYkcyUk54bzZUa0xlN2V6cURhS012SVlPS1l2TXdpdlIwN1Bac1hiVW1WNnFrMk1qcVZ6UnlWbEMzbzlTRGZ1dWxlbWFTYncySTBKd2FwVnhlOG9mVzNDdzNfbG1pVXF4cWRuX3hudHhrSmZ0RllaZ293QW5uRTByaWgzRG5hQ1VSU0xELUoxNnZUMF83R1RkMzhjbmNFU3Y1T3JubXNVaGNWcTRsVHlDMkFEVDNiWjBFN21jazN5N1hlVmZMTklwRDFhQUNzcndQOFowbTkzZUFHTEJrODI3ZVVEbG9DX0hYdXpmelZpeDBwOGNqTExWUnFleHlmZV9WeEZPRHM2akVIMjNyRnJVNA?oc=5"
+    },
+    {
+      "id": "2026-09-10-david-lisnard-90693363",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "En parallèle de la présidentielle, la campagne de David Lisnard pour rester à la tête des maires de France - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOd21yS0lYQVNGLVFyTWp0c0NiWThtSGZxQnZxQm9WRXphTkY2N2lqS1lFSlFtdkVUVWpueTJkM0k0bS0wbF90UXM1cEE2ajRhWURMdmR2Q194MHM1Rk9GT1dDREFlOVhtQndGR2ZiaFNncHlqVDhxbTRTc0FJZlA5Q3ViU2tqR3NNMEVNaXR0b2tJeEhMWTZVNDM5UTJXd2YwcFVGZjlSOGpWSkVRMFpHV0ZYNHBmTm9aXzJ5b1lhb0g1ajJxMUR5S0RDTmp1WVdnOUNlQnI3SVhBblhabFo5SHh3?oc=5"
+    },
+    {
+      "id": "2026-09-10-david-lisnard-76029169",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "David Lisnard au Figaro : « Je veux poursuivre notre action à la tête des maires de France » - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWW5IX0RDNEd3YVNtTFBRSEl4UlMtLWVMRWc5WV9uS3hwTW9GcU9HbmhLU2tpNGJxQVNwdlFCR2I0SW1RWFhmc29IRF9RVnBOX1pYbXluU1N6TjNocWJBTmJMdnZHcm9WRFVYb2tfam1HQUdCclFKWkNMaTFkOFlJUkYzUDJPNXE3c0c3am0wTkVTSW50OVhabVRZdGZmLXcxRUZqXzVOQzRvUmlZTm1QcUpudUhHR1plUkd4Q2hIZHNDMVZMbzlMQg?oc=5"
+    },
+    {
+      "id": "2026-09-10-david-lisnard-61667644",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "David Lisnard, candidat à la présidentielle, brigue un nouveau mandat à la tête de l'AMF - France 24",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZFNFbUp0MHl6eWdVQ0xYQWh5NkYwR1c1QXNxdWt4TUdLLUZJUzFMV1dkN0ZKejRwaVNRZlNQaFFPMkFlSmNoZDRsekIxcGQ5SVhBMldUckZ2ckJ1bzRQSERKeVo0ZlNfYmhGVEEwUHROSFdiMEg3a2l0OXFqWF85ZC1RcnU2V3ZCNm9kOHNpU1RBbVdYbkZXV0ZodVU2djRqUUw2UmdtdVRiU2VBMFJORzdCdlc4NTJJYmktcnVDRzVUZFNMZGRyZ252ZlJ4Z1FGd2JWcHRYclJ0U1ByLXhKcFkwWGZVV3g3NHpkMVllXzg?oc=5"
     },
     {
       "id": "2026-09-10-bruno-retailleau-93990801",
@@ -2950,6 +4015,113 @@
         "Le Monde"
       ],
       "url": "https://www.lemonde.fr/election-presidentielle-2027/2"
+    },
+    {
+      "id": "2026-09-09-marine-tondelier-79559809",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "\"Je reste une candidate pour l'écologie et pour l'union\" : Marine Tondelier plaide encore pour une candidature unique à gauche - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQQVZTcEtrQ2hkRWZkWnd3UDF6WjZ1R0FMTXozNTRyXy1VSTFySTgxc2FVcnE5WXBfRl9KdFFNRlc1OGc5V2d6TmsybzljbS1wNVZ0aUc4ZVViMF9Cdm9QY0VyU1NwSU1EeEJLWDJ0ZzBxd0hwMTQ2T3NtSzYyVElFNUNsNzRCM2pnaFh2LU5JdVQyZVoxOEN5UW9IVlpIOXZCUUpjWDBxbkgtUWZUbm9BR2gxaDNKRERaWU5lekhBVTdWWFFuVzhBd3Byb1d6by1vVl80T2pjaW4zbGc0MUs2cTBBMXludFFFZ1U4emRYb1dTNnY2RVh4VVVjbzR2cVBx?oc=5"
+    },
+    {
+      "id": "2026-09-09-marine-tondelier-70387360",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "« Je ne compte pas partir quatre mois », dit Marine Tondelier, sur le point d’accoucher - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTWFqdTI1YVB2b3JiUXQzZFVfek05YWY3bTZaTGZQZXBhS2ZWZGVGVUMtUi0zUDFicmVuNlpsX0FTNWd2WFlsYThjeWowZ0F5cDVobG5FRHRzTlduRDJtWEczaUtfUVItdW9Hcms5TlNvRGpPa3N3ZnV0TnF5S0o2Vm1RZ29YM1BqMHpiclg5aUdMM2l2R1VwSzVHU25RNHZZa01lM1NZTmRxb3Z5WFdvaDlCNm5UcGE4bTZRdUlKbTEzc1FtcVVCMl9Nc2MwZm8wNm1Pc0pn?oc=5"
+    },
+    {
+      "id": "2026-09-09-marine-tondelier-64002594",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "marine-tondelier",
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Les Écologistes",
+        "Debout !"
+      ],
+      "summary": "Présidentielle 2027 : François Ruffin et Marine Tondelier déplorent le périmètre restreint de la primaire du PS - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNSE16YWVrNUtLdTl0S21WV1hzXzYyeVJNOTEzdWdsb0UzSWN3Z2xLQTJxOEtBc3NwSkZQLWVJSHBESFgwa1hpYWUycVBJNVpZTEp5U3VrZ0hCZlJnT19EMS1YR0tWNHRZQ3RWZnZOVEdRaWNxdU83UEptSVJuUzg0YU5CdlBRbmpnSzhDM0JsVWFIcUZlelo3cUxkX0FlTjdXQ3R5VEhmY09KbVBWUXBsZUM0VmYyWm5COVZZbFRCWVhyNEJzLWtMbTk3N2VBZW1SN1R0eTFweUhXNVhkbVoxeXZ5Y3FocUhzNnhfMENpcFB6a1BmV2xvbk90eVcyUzVEV3QwbWVWbXpaZUhJWHF3S1VXazZJd3gtSmJJWDdmRGNVNm02QXJpcg?oc=5"
+    },
+    {
+      "id": "2026-09-09-marine-tondelier-35127729",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Interdire le mensonge politique : le rêve antidémocratique de Marine Tondelier - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeEdzSi1vdnV1ZGRpQ1NLVl9OWUcxcmk2S1BpTDF1b281Umkwdi1XWW5YRi1IREFGbDJBc3MzeFhYZTFzR0cyS0ZMNVNzUWRpallLaWZfTlMyejI4N3hRdHBvYU1aYTgzWTc0aDQ0RTl4MTFjUXU5Tm0xYzU5MC1TLXlyMTRjVlFwTXd0VGhseTl5WWNlWF80eTljQm85cW5NTG53dFZsbTB6eWJTdzJFQVVscUpVSm15WEtWR0RYaUtsRUJVaWxVMWRUME9zNUU?oc=5"
+    },
+    {
+      "id": "2026-09-09-marine-tondelier-17930447",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Sur le point d’accoucher, Marine Tondelier ne s’arrêtera «pas quatre mois» et met la santé reproductive au cœur de sa campagne - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPelRRdG9DODVCdVBwNjVVNXlIWTdMVnF2MEI0aDJnT3cwRVhMaGcxTGdJVldlbXVrcVZEdDVMVTAxMDV4MkJkRWh4R1pKaG5IT3lZU0R1MXUwR2dqNmpDTHN1cHlKck5xODFhblRIa1kweG53QXktaG4yUE1acG1oWTV2RDk0ZHdkTXdEU3JZWEpPWV9sQlJmM2Ntc2ZQRTRYM0FzWS1EZHo3LXRPN2wxRy1sME52MVJXWnNwZWZ3QnZMZWJKSVZJVGFsT0M3V2F1ZER4UExPUTRhWml0ZGtpSXFSMGM3cnNlVElHU2wxNnctZEp1MUN1R2FEVmxqYVBucEpITFdKQzZrTlhqb0hKcVRjZ2kyVXdHMGVxdnF5Yzc?oc=5"
+    },
+    {
+      "id": "2026-09-09-marine-tondelier-14125225",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "\"Je n'ai pas connu...\": quand Marine Tondelier sèche sur les anciens présidents de la Ve République - RMC",
+      "sources": [
+        "RMC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOeDJVaEVkZlRUWUd1S2xqLVY0MFdWWWFuRUxiNktXN1pRMUZpbVE4SnVFZjMwY3BwbEdMa1l6QkpOVWhuS0drWkVBREZ6NWFMNXdNcnptdks1SldNVlpRaE9VcEFjZUM2X3VCd0hobzlheGZmejdaekVMM1FJUm0yMklUeDFfcFE3aGE2OHcwX1VUbnRqa1V6M0YxNHQ2OGI0TG4xbEZzSk5WZE1QZ1hXUmpuZkpYX3RHV1NQTC1lb3l0QlR3M2EyLXUyNGFYRWhadWhIVVVScnlFdjlBLVh3UmY1MWtXeC1IUlNyWmJR?oc=5"
+    },
+    {
+      "id": "2026-09-09-marine-tondelier-07054817",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "«Pas de trucs marquants» à dire sur Georges Pompidou : ce président précurseur dans la protection de l’environnement et oublié par Marine Tondelier - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVlNUVTVmdGQwa3ptbmNXdnQ1OXNyN25VMXdTVXpscV9YNFVTSnhFeGxSSTdYRVJFQ1dnWV9HOVZqRE1yWGk2OHdYNGwyQTJmUUZxM3AzTHN3V0FGZ2dmQ0dlZERfcHhJQmVLblN5VmF1NG96VkhtSFM2X0lsZmNmMTNaUHk3d05wZk9xd3ZweWFDbEl5VjJYUjFxMWdERUhnQm9PYlp6QXFYeU1qcmZndWZEWG8wSTFlaU92SFB0amludEQ5ZmdvOTNVdWhxYjIwbnBKQTF4Q3FFWmR5bW9Yd055TWtJUWpiQy1HaXhrblBmbDZqNTlmT3hoMDd6OVpNTzlUbVcyRndzdw?oc=5"
     },
     {
       "id": "2026-09-09-gabriel-attal-86085713",
@@ -3012,6 +4184,51 @@
       "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOWDJxVXpoQ1RnYlEtZEx5ZktVX1hVbTZ6aUF1bGVOdi1oVzNoY1VJNjQwTjlhYkJPNnRIVW1tYTMzUkZvdFBpM3JDVXBGS2h3ZXoxbnlra0VwUmF5bmgwajI2X1NYU1NqOFZTTWhUR0hjUEJBSkMtOVJENDB2aXRQMTk3OGZFU3V4T1plZFJmQ29JaHdydVlQc09obk8tS1hUN3hxXzQzZkp1VW03dy1tbUVZRXFGRzlUcXVUam94Q3ZSQmZVSG9CZGpDYjVoeFpkUjdKWDNncTNWWkhhNzI2X0g4UlJLbE1TY0wtOUI0NkU3WWFKc3VTRXlQTWlibzV6Wk9NV2Zjc29MYVRDVnZ0Zm5YQVlBdzJ1bTlFN09BS2c4NGc5ZjdvWmtEVEVFalpVMG83Qzc5OW5SN3ZRVldnRHFUZnRjeWN0cDVwMA?oc=5"
     },
     {
+      "id": "2026-09-09-fran-ois-ruffin-75364500",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Présidentielle 2027. François Ruffin, toujours prêt pour la primaire, dit que Raphaël Glucksmann a peur des électeurs - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOV0lhbjFXS3kya1FJUTVadjd3WDV3RElsdlVFdHJoVG9vWFVueG5YbnluZEtzU2x2TjBzTG5EWjNwZk5jaTJGRTM1N19YRDdIUUc3MGR1QjMwOWc0QUFBTkVCQ0tVR0UxODBhR3ZBV3dwQmRydHJkT3JINUNsLURJd2E3dWdpQ3BvblZBTlBLWEE0ZWVwYlBNam9CcnhDVVBuVFMxNnI1RkxNQnYzUmFQTnpTajA2aGphZWFIa3JtVXhxeWJpYzZIaUhzQ0dYZkF1eTM0Mi14OGRPQUdSUGJwZWtNbkgybHZLVmxYZzdGanpwbXZJaVJITkZvcW5McEVNNUpMTTR2bzJuUi1MUkZ3TTEtVDlmMHltTS02WElqUUFRRElsZ21qMkMwd2I?oc=5"
+    },
+    {
+      "id": "2026-09-09-fran-ois-ruffin-17948049",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Présidentielle : François Ruffin prêt à participer à la primaire de la gauche, malgré l’opposition de Raphaël Glucksmann - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQZ0hTVzkzTzYwNFlqdFYtTUxvUUNDeHpDeFozR3JqNWpQV28wajl0TlpDbW1FREE4Z0pwRWRkdEhyYUhudlY2a3dfRjl2eFlKNkdWTkFsdDhLcWFzdHZRbzFXZk9aYXBHMzdzWC0xeFI1ZUtleXlvbjRiLUpxbWtCVjJlV1VnTkZtclJSbk54WDIydGZwS0pVbG1SQUZYbEVmR3hrbWZkQXh5bnhtN1kzQWp0aElGQmZqOTdCZFI0ZEc5dTBGNER1S1ByRzRSck0yLTVqeHZUc21LTE1aZGgtQTFvVWVXSzdBWlJtRlBhRTNURERXU3BjVmhXdVFrWm0xVzJjZXN5U3E4TFF0MnJHWGlrcUxiazdpSElTVlRURmhmUmZDSDMwNFczVGhUaEk?oc=5"
+    },
+    {
+      "id": "2026-09-09-fabien-roussel-07712823",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Ecole : Fabien Roussel ne veut \"plus de devoirs à la maison\" - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcEtMa0FmUmpIa19vR2tkY0FIOGdyZkF5M0d3SWpLUllwZndlUVk2d2JsQ0ZvT2lXR1FuRXpiUVo3RXNpZWZ5dGZqbkVZa3JNeGtTbTJpT1dYM0hmODNmdnhobktqanpXQWhKYlNkY3pwX1BtdTJXT2FudmhZZVE1eWp3QlV1dlBoOG5hLW0ycktCbzlfWmFVeUVTV2czeVJZOTNGSlJuajQxRWF1NHRSTzRTYzhiM25zbml0SjdRTQ?oc=5"
+    },
+    {
       "id": "2026-09-09-douard-philippe-50016801",
       "date": "2026-09-09",
       "candidate_ids": [
@@ -3040,6 +4257,21 @@
         "franceinfo"
       ],
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNU2R0azVIZUhkLWZDbWdMQjNxd2JXS1FrM1ZyaUtZQVZPTWpaTVdOZXRGQjU1OHRENDZYWEFmMm5LcGdDMGI5Q1BXM2ZOUFdDVVY2WDlWdFUzNDM4YlJWanh4YUJqMHd2U1Uxd0ZvMC1Eek1HTnFKb2kwNF9iU0FrT191RDA1WGdKdkl2bldrLTNDLTFyTjdqN2dnR09ucFBVblhyWFFCUU11MnA5elRxYkVpaG5WZWVJZU1xR2xkYThhV1ZySnZ2dnZ0Mkxja2JHMS02YzJuMXVCbjYzQTJNX0lxNXFMbkZnaWE0bDNUMElIei1heUVwSzQwcllsVjRTYld2dzEzLWRHVTg?oc=5"
+    },
+    {
+      "id": "2026-09-09-david-lisnard-75291718",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "Présidentielle 2027 : Bruno Retailleau et David Lisnard rejettent l’invitation d’Édouard Philippe et maintiennent leur cap - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOb1lXc3dyQ3ZtOEl3VE4tZFJUNUUtSVdzTVB6bHBxbUxyTFZ1R3ZBSGlyRUMxUWVEcXNYYk1oRmRJSUZybXRQTGk2ZGFLZ0U5Z29aLVhubGZnVVQyQURhai1xOEVzN3N1a3RIc2xVa1Q4WkdMbjZaYnp2QUZwOVFSNlFma1V4T3JuRUw4b2JiWGZOVG9JVnhYVTkzUTd1Sk1taXVDZWxUUFRMcVIyZE94SW5hNXVnc1FBRFdUM0R6T2RVQm1zZXBKUU85V2d2T1ctU2hjZDB5cW1QbkVjZkszblFoTWVfMW1qdC1KV2V1WGN1clpIWHFZS0IxZ3o2LUI5NGVDb2xhYjFrYWs?oc=5"
     },
     {
       "id": "2026-09-09-bruno-retailleau-61286833",
@@ -3108,6 +4340,66 @@
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPVW9KVWVZd0ZWT2dXcHdtRkdFNkRKTk1WWlpaYVZ0TVE4MS12OXJZV0FWVWdBeGwtQ21XUWU3cWVoVEg5aVlhN2R3YTBiaW1UYUpuckVfSWNoM2FDWXVYbzlJREdLVHdpblJIN2pLZ01pemFDal9KbGlZRFM0MFJ4dGN4bk1tVExjNHMwSlN3Y1JGVDh2WS1GYms1SVFKdHRUam14OWFaazg5bnB6RTJyUEdxNXhmMjFraHM5YjJYeER0S0V5OHJJazZtMTRBdWNNT0h4SEZUNmFFMkVZSWRfcDdSc0s4Zjc1Q1lJWFdvdGFzWi1xN1pYYmpmbnRrUk5QbUE?oc=5"
     },
     {
+      "id": "2026-09-08-fran-ois-ruffin-64771008",
+      "date": "2026-09-08",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Présidentielle 2027 : Raphaël Glucksmann rejette l’idée d’une primaire élargie à François Ruffin, estimant qu’« on ne change pas les règles en cours de jeu » - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOUk42aWRqUXRrYTRpZDFpb05PaUJfbXpBU1NzRHZqWHB2bXB1a1VUYU1mMlhBbUlfbFRWRUJabnVOeVNjd2NRR01oeWxCanJLSVloVkxoUV9qNHRXYTdFVFlTaTNNMzN2WjB2QXNkYWV6QWhrRzlUQUFqaUdzdnJXSjBydzFGVEhzTHlLMTdrZUo2UTlKdmFRWUo5OGtDOU1LaXhoanNrdUJLdzZUVXlyeGd4VVJTUlRsNzdXWnpuWmtUTWw3LW1xZWljX2JSTUs3V1BQNGlxN2E0Y2ZoR2xFVjdJSnhLb2NGa0hvS1BhTmlJb2hfLWMxY1ZJQ2RCdDVnWk40a3cxWGlRZWxlbm1VenZzcDh0UzJtODQySlFhUGRWX0dHdmxYSjB4NVNWaE85clE4S05IQ2h1OU5mdFpyLVVCT28?oc=5"
+    },
+    {
+      "id": "2026-09-08-fran-ois-ruffin-24902497",
+      "date": "2026-09-08",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "François Ruffin tenté par la primaire du PS, mais rabroué par Raphaël Glucksmann : que disent les règles de participation à ce scrutin ? - Public Sénat",
+      "sources": [
+        "Public Sénat"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQMUpmVU9NVmZtSGw2c2JaM2pxSHItQ196WnNmUnZtWTBXa1o0dFkwS29xYmVoN09UZktBaTZaM0ROM3lYOU15VDU1b3RhU0NoZFN6REpWejdaNW5feWFrc3Fubmk5enVBOVNsSEVzYkRKYWxVUWI4Q3YwN1Z4dkJua0lncUFtZll0QnpoRzc3cHp2Zkc3U2lQR0tqVl91WWVQM1BPYkRJRVNuSkpTTVFXUnA1eldHR3B5dUNscm5QRDZlSHQwTHQ0aXIxeU9HMHpjbHVRZHZNTms2Z0k1SDBfVFJubG1pOGZHOWtfMnY5VGxWRTQtVjVTaDZ1d3puQ2xxOWxYWnBReEs2TmM?oc=5"
+    },
+    {
+      "id": "2026-09-08-fran-ois-ruffin-16067865",
+      "date": "2026-09-08",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Une centaine de responsables socialistes appellent à ouvrir la primaire PS Place publique, entre autres à François Ruffin - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOZjFhbWg2d0Y1Q3laTDlWU0hrQkZpWmF4eHkzQmszdEJVUlBIOGhKMFNWaDZ3MTl3UktTNTBJRW1jR2w4cm5LWDFDa1lRNF9KMVhsSTVYeUUwcGdWSk9pMWdCM1VuNUVOcnl6c29kWFMwWGR6dlZyclc3Z1daX2RjdGpCTFZObUhVbGYyNVd2WjlQdU1QUXprckRGRXRILVNVQ24xSTE2UndRS1Y4R1lpUG5IZ1A0blhzdDI2R0tXdy1vLUNTTnJLRGYyd3hqcXV5QTA1SWNtNmtHQnRzMHR1c1R0ODVuUnpLQllYMks2bWRSLVRzbWE4OF9BMUJGMXFPeEZhUFh2MkJzTjJQNmRjZW9VVWlHZzFXYUtIR3pVQzVmdktfT0N0aktMb045MUZpUEE?oc=5"
+    },
+    {
+      "id": "2026-09-08-fabien-roussel-85057456",
+      "date": "2026-09-08",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Présidentielle 2027 : Fabien Roussel a donné le coup d'envoi de sa campagne à Rungis, avec les mots \"travail, salaire, emploi\" comme totems - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQSUxucmZSbkxmeGQ4ZUZhZV9iTzVxZ0lvRmY5UTdzblk0MmpYeTI4SWR4VkxhODVKbU9RaE1NTnJ3eFhzcU5sR1BHTG1vRXRySjVLUklyOUx5NXdhRHFFZTd3R1VtS0lFWERVVmdYN3dmbExUZGJOdXB6bFJRWmNYS1RzWmd6dnhoZXlYaFJUSXFaRlBtWWJ6YzV1bUxPSjhoNHNkY3NvMXBMSVRtVVg0U3hBQlVDSXUyTXNFY3E4ZkJ4dzJteXVQWGZOQjlIX3JudFdJZWw2aDBYZloyV3I2bjh1NjZYN0x5Wkd0NkJ0c3I1djJfcHVsUEw2QUtxWUhtOVpTTC1TQS1hZw?oc=5"
+    },
+    {
       "id": "2026-09-08-douard-philippe-73144729",
       "date": "2026-09-08",
       "candidate_ids": [
@@ -3136,6 +4428,21 @@
         "franceinfo"
       ],
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYzJlcGc5TXFxVkR4T1g4UG9HU2dpWk9wMkZIWFozOEJzUVBZVXdKMVZWd2hFOUl5eDU0a3NSaFUzV0JOSGpWOG5MR2RpUjIwRnNRQm9pTm5BUlVnRDY5b21aTlFuNldZN0lQZnB2Nk1tdHlKQ3ZtYmpsaDVOaWFMVnVBRS12U3pTX29OWks2N1lNTjVhaDFRdjQ1SWpkVGdkSEJrbWFWS2xrU3pH?oc=5"
+    },
+    {
+      "id": "2026-09-08-david-lisnard-95523482",
+      "date": "2026-09-08",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "Présidentielle 2027 : David Lisnard à l'école Milei - Les Echos",
+      "sources": [
+        "Les Echos"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbVhaMzU1V0FYZWFLRGtENjJKWnpvc0F2em53ZHAwVUVFX0NTWXhTMnJJNE1kVGd0NWxXVi1wQWxGZ2ZSUS1pWl9yQ0tUc1dpdDk1bV9HWU1WXzBoajRvY2FWRXhfcXg5MUF0UkFUQ0liUEFJRVJrdGwyaHZodmFlUTIxMjRhNWZVSFhRNkpVOHVkakYtclN0bzcxSXZoOFlQ?oc=5"
     },
     {
       "id": "2026-09-08-bruno-retailleau-73454217",
@@ -3216,6 +4523,51 @@
       "url": "https://www.rtl.fr/actu/politique/se-reposer-decompresser-mais-pas-que-pourquoi-edouard-philippe-aimerait-repousser-la-prise-de-fonctions-du-president-de-la-republique-de-mai-a-septembre-7900671274"
     },
     {
+      "id": "2026-09-07-fabien-roussel-82770407",
+      "date": "2026-09-07",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Tant chez les Insoumis qu’au PCF : pourquoi la candidature du communiste Fabien Roussel embarrasse à gauche - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQWlFHOENqdzExeVhsV1hXNWJSZWlOWHp3Q0ZfeUY3Mm0ycno5N1oyaWszQkJWalhtSVJqaXEzWkJ1ZkhEUXpmR0JrT04teVA1ZmRCZzdzT0NYZVB2V3FMMmRZS3FJZ01oSVBZa3BON053bWxTdFBJY3A5V1dEMXktNDJJMmlCQjFqYWI4d1pMVXdKWnFQYm9Hdnc4QmZIcUJhdy1UbDhzbVpxSHJNdTRVMzN2eklsdHBVVmYyb1JiWEZYY1IyaS10REJKM0piMnB4UFhkMnVLNWhOQ18yeFpJX0hvczh2THVGUGZsWENGak5pQk1RRjhlS3FLNnJyZUVlNVpsc244di1pY0s3TmExRHdVZDBJWTJDWUFzZUtTYw?oc=5"
+    },
+    {
+      "id": "2026-09-07-fabien-roussel-76965085",
+      "date": "2026-09-07",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Présidentielle 2027 : le pari contesté de Fabien Roussel - Les Echos",
+      "sources": [
+        "Les Echos"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQlUwZ1o3WXp1QkNQWEtCNkpORTc0bHU3cS1TV2lMZmxYU2Y4WmpHYWJnaEJ2VENnRExXQy0yYXAwZXMtQU5hcnFnV0hjLV9nSGhhSVlSbHhUbkZGdFN0WDREWlA5djMwYzhjc3JCMEJrYlNzRkRaZUVEUGpYNFZPblp3QXdRWEhmcmRoMXdEblRqMEJjTHFTLTF3S0R6bFEzMkZPUDBHTzgwNVh0a2dheg?oc=5"
+    },
+    {
+      "id": "2026-09-07-fabien-roussel-65570130",
+      "date": "2026-09-07",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Présidentielle : la candidature du communiste Fabien Roussel, une épine dans le pied de Jean-Luc Mélenchon ? - Public Sénat",
+      "sources": [
+        "Public Sénat"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSUZlRVlnY09Ueno2NFFPdzN4ZC1OaFJPRnZmazFCdHJQS1FPMjlocVJlOHVCVkN2ZDJSUkFGNGJsTTRuZXBJd1pTWVdnTlN0WmFQS0NHR1JZSTRxQzBQaC1xN3g0YW5GUGxGQjFHU1hUSXB6U3ZwWGpmZFBNM09ySDk3eFoyTnhKeGhyUVpfVHJYV1pORUI3MDRzSUcxdUVJVnJTdkpTT2JROGJOZTdMWEk0SFI3cFFqVnFTOXRCQWNtTlMxRUpWdTJ1UDNoVWg5QXhEenhGbld5US1VQXdSR3VuZkpZQQ?oc=5"
+    },
+    {
       "id": "2026-09-06-xavier-bertrand-21342043",
       "date": "2026-09-06",
       "candidate_ids": [
@@ -3246,6 +4598,171 @@
       "url": "https://www.tf1info.fr/politique/presidentielle-2027-fabien-roussel-devoile-son-affiche-de-campagne-en-exclusivite-au-20h-de-tf1-2462638.html"
     },
     {
+      "id": "2026-09-06-jean-luc-m-lenchon-79221173",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "A la braderie de Lille, Gabriel Attal, Jean-Luc Mélenchon et Marine Tondelier défendent leurs programmes et critiquent le RN - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNF8xVURLQjJNbFZJMm5qdzJxLUpmczNpX21FYWl6WHk2LWZMVy1oY1BObU55UXlDaU5GZzNMTFUycE1vUlh3R0ZfR25xUjRJZE1la0RpNnN3SVVldXlhQWREejQybkdaQ1RzeThBQXd6X0phNEZlWHA4MktZcDUwTmlBSzBwTDZMb0JRbEtTX25RRmJBZTFheUE0cmV2bngwZXZGdTdQclVPbnA5OWh3TkdSaE9uZHJsNlFhOUJ1dHlnVUtRUHZMTUd4aGo1bGNMcWJTa3ZZV1BfTUJVVWhLVmFpc3FJcHRlMG5xVEVsc09XejQ?oc=5"
+    },
+    {
+      "id": "2026-09-06-fabien-roussel-93082836",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Fabien Roussel officialise sa candidature à l’élection présidentielle 2027 - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVVUzbG9vQ2Rvczh3UGlqbHBZanNhc21vVElvVUNNb0djTkQ3WkZGak81UWJDRW9rZlQ2aS1hRFJjTC1tUnRGeG80TW9LRGlsOU9NTFUzb1A4X1ZwVXRoVjI0SG5fSGl3SENJazEzNTFWY2gtQkFsX0k5aVJJcVp2R0dYRXo5VzN4VURKTFU5OWE5TjV0RGRMY3I2Wjh2ZVJ1N2hRWkFXd1VHcENQa29nb25OWlY4aGNMX3F4cUlhZWtXYUpXWmRLLUtQeGN2WnJmRXIwZ3FKcWIzYU1zUHAwLQ?oc=5"
+    },
+    {
+      "id": "2026-09-06-fabien-roussel-92785530",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Présidentielle 2027 : adoubé par ses militants, le communiste Fabien Roussel officialise sa candidature en solitaire - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQWjdQYk82QmNpUHBUVzgyVi1EMC1vaWhXWkZSSGpPNTl0anVkaFctX1NjWDl1bmFkb0ZMRUpSTm50V28zaG5Fb2pGem1pc3VIMlBOTW9HemxMb3laVk1lSVZETWlGaFZURHAwdnlUbDFfWUhFWUd1SXc4UTRsTVBKbjZFNXZRelpQWUF5NW4zRWp2akFXT3N5SDVQck1iQ3BNRk1yWkU3MzlOMjFRWVVhdWk5RVgwODVqRFR4NGNkU1hFQXBpYVdYZjdST1BWZlhrR3RPSmZsazZqTl9lOTBOa3NYeUl1dE9vRWYwZ2ttMldiUDEyVWlSWTAtUXgxZGg3S2dIS3NJbVdmTF9GMUQ0?oc=5"
+    },
+    {
+      "id": "2026-09-06-fabien-roussel-92056962",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Présidentielle 2027 : Fabien Roussel dévoile son affiche de campagne en exclusivité au 20H de TF1 - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZTZ1OTU0SXg0NW05VW9RTzctZ3A3T2tzQzFTdXFIMmZCZGprWWxNeFE5bU5FWEMxWDZHaFB6UW8zdXpZUzZoX3BnU2UtUUxsRG1WdFJsTk1YUnpjZzFORWVTa1I5Tjl3YXh4UUgtSkRnRkZGUnFXQXZ3M3lnSS1BWl82OTBpUVVtc0Y1dmZuTlZwUi1IYTJPSGp3NUZ5b3B5cnNaQTQwWjBvUDFDSUN5dnA0VWRyT25xbFFlVkVjbnBRd2RfMjBSaHNDYmQ5TjJpUnkyZlBSMzE?oc=5"
+    },
+    {
+      "id": "2026-09-06-fabien-roussel-75178318",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Présidentielle 2027 : le communiste Fabien Roussel officialise sa candidature - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOLVE1MC1fdWdqS29xdW5FdVJXbDRueU1rMkhjb1JsVlVwaGxxWG5rdDQxX2dpY3g1ZWRlRVJnT3NVTVc2d2VOZ2Zubi1VWDZTZDFaSDRmY3VBSGo5Qk0wU01zeGQ4Y3pUT0Nac1dxTlFYRlAxRlRqOV9oYUJxVWVMdnpJNHNaRm1tU3dENFhvbjdUNExRTUg2bHdXbWdiQVQxNk81Z19Oa0xSQkg2RTVfek5iZWdkM0JIV1gzRXZWR2hOakYzbmJ1cU1pMnhTNWVkMEFOY3l5V0dkc0RWTjVSTWZDZ0U2enZLOTNLZmJocEpncWRXa01RMg?oc=5"
+    },
+    {
+      "id": "2026-09-06-fabien-roussel-56723959",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Fabien Roussel officiellement candidat du PCF à l’élection présidentielle de 2027 - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaVBkQzlVMWNGbXhYREd3N25WcDY4UDkxcGczbXd4R0s1YlVjLWFRYThGOVZDcHp2QTk3Tk9BalhsZDdjY0l0ZG1JMVo2b3pHQ2Y4cl9NQ3lRbVZsUkFXOXVhV1l3dHNQMWJGYnRXeFZXakI4WklSOGU1X0xWaGFkaGVRZUpUWXFpSEMxREhPc0Yzc281aFMxeURnOTl4d3RUWXZrcnJ4ZUJfejlBelduNUdkTVA?oc=5"
+    },
+    {
+      "id": "2026-09-06-fabien-roussel-33316994",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Fabien Roussel officialise sa candidature à la présidentielle et promet « un projet de rupture » - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPQnpTcC1hQ3dnVFZSQjhLVFJNU2s4bkJuVGxpcTVEWlVMV0NvYW8xdVBxeE9GODNiNThGZ04wRUNGaGV3T0tmS0tFMEtrR0JMSkNnSFNpdGQxTE1RYjBPX1ZCWmNaYXFwU2VyQTNPd2RKTWM3VWlHQTRQeEViU1pleUQ1Q3l2eFVSLXNfYzhFdFo4Z2s2cHJWSGNjdTlER2Q2U281cHY5ck1kbXBVUWJIeXZabnZvbC1iUnBncU81S01lRE5JUU1iaGRiUWhrODdEWllJeEJ4bk9iMy1Qd3pBTldzbE5HTjNlck5BMFF3VXBTaWNmeDBDbnpicDZxQ2EwbFNSVjRqUXctSnIxS0kyZzFn?oc=5"
+    },
+    {
+      "id": "2026-09-06-fabien-roussel-15832078",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Le communiste Fabien Roussel officialise sa candidature à l'élection présidentielle de 2027 pour défendre \"un projet de rupture\" - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQX1drQy1MMjdDMlN6cnJhQzBSWHFQOGNLQk8tRjVaeXU5WEt1aGJJVFpHZ3Ytc1BSZDYxVzBEMV9iUWRBT0ltb1VuS1NZYXRnYU0wczQ5Q3hvVFdEcExLazcxSk1ENVY2UHZNd2FneVoteUJibDYxR1R0LWZsU3NsTGp3RWxYYWlPQnN0cDRjQTNCSVhZbHlJS0J4azRWTDlIRTM0SzdubjZhYmxudklYX2dfUnFJUk5pejB1MTE4YkhoUVo1U0plbFZOalBFRFZYMUVlb1RWTm5MTDNGSUkydUdhYUpFUlpOY1pvanpzck9NN3VJVmwwdGpCaHVScUhGdjREcC1yVXdzWmhxcGZISXREUzV0VkFsS2c?oc=5"
+    },
+    {
+      "id": "2026-09-06-fabien-roussel-12430802",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Présidentielle: Fabien Roussel bientôt candidat, malgré les attaques de LFI - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcVhUTUZDNzlmc2xlNzhDWHhBaHVtdF82T21ZYlI4QU05bkpwYWNNN2NHMXRCd2phNzQ1VkFYaWhNQzdrU3F0ejlOazZNRU1IVVNmSWtvbTY1bDdjak0yeGhRNHJ2MUVqSkVKdENrcnl1YnIzRndrM21BWEU2SThfbE5zcjgtT0RuOHNEa2hhWmNQVzJzWE1XQVZyTE96TEVmd0pHUXdFMk9qUQ?oc=5"
+    },
+    {
+      "id": "2026-09-06-fabien-roussel-11226354",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Fabien Roussel officialise sa candidature pour 2027 - Les Echos",
+      "sources": [
+        "Les Echos"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNVdtZlo4LTFSQS1PRnJJTHlYZi0wSnY1RlFXMlpqdlduNEthX1JlajNWQjJTRk93T3Via3c3TFROT0loMmxNa0tRTlJTNWRTTVNNUlFuUHVuaHl3czR2WUFYd2xkU1hLNTloYWdTQmFUNHVRWFlCeGZrR3o5NEJQVXZUYTNDeG9yZ0liX0JyTDNCUWJHRm9scDhYS0ZDd0pQbHBXR2xUeDE1V0tFcVhwag?oc=5"
+    },
+    {
+      "id": "2026-09-06-fabien-roussel-09836476",
+      "date": "2026-09-06",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Présidentielle 2027 : Fabien Roussel repart en campagne - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcFNaaEdELVgyTmsxaGhHeXJpQ2ppczRfaGlmVWNhX1R2OHZ6Z2ZPVk5yZXdlLWZCX3hnT2I0WUZpb0FRVVNPRkZaQ1RSd1R1ZEo0V1Z6bVJJOExqblk0ZUptMzBFQjdndDdKUVhibVRBSkxFRWRuMnA5N2Y0eURsNC1RUUNOeHltcEU3OVpaUF9vaEtJZmJYU2h0Y3E2eUpTN2ZQNWxHZDhvVzdmaDJXX1NXTGNLOGtMZ2E5RDFlQ1RMMmNv?oc=5"
+    },
+    {
       "id": "2026-09-05-xavier-bertrand-37270598",
       "date": "2026-09-05",
       "candidate_ids": [
@@ -3259,6 +4776,21 @@
         "franceinfo"
       ],
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQb3F2aGZjWC1uN1B2cmdjRWhfNkdjMllrckR0TjA1Uk50cUhmNHdlbmF0bnNoNnlEWWgzb2xaOFVndlByaTdvWV9Ea3VnLUo2THpfZVZtbmgzV01QUXE4T0R3VU1RUlplbzg3VldfbVY2OU8xNF82b0ZSQXlwaHRpYlFHcC1IaG55S09ZLS11by1fQ0ItdHVlal8yQUM4cGZCZDZYcjRTc1B3Tm5Od3NVMGxkb1Q1MFcwSmRVSzFqNGpxSEstbkRPQUdfdElxZ0xKMjdUSmpJMWhjc3J2QjRSTEdUZld3aW82VWJkR3hsS005a09aWHZ6NV9NQTQyNWZOejc4?oc=5"
+    },
+    {
+      "id": "2026-09-05-marine-tondelier-80883693",
+      "date": "2026-09-05",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier veut une loi pour \"interdire le mensonge en politique\" après les propos polémiques d'un sénateur sur un pesticide - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPcl8wal9iSFJoWDduTU1HMHJPTmJqTHBzbGNTNW1QZ2ZIUmpkYi1DVmxJQlRScHNYeEJTZkIxdlBBZGhjZ09nbEREdUdMcDJkWVJzSkduYThiTVZpcUFyUGZwMXBBQU1RWTV2V3dRdWNXam0xNzFrTjlUWnpIQldVZVRKVUw3ZHc3eVRsZlN3SmdUMlVPQUZyN3RwWFNCd1FjMzlUTUxNZWNKd1dGYzJjRlFiV2ZDUDNhejVxWERONGRwRjFLS0hfZXhuYlR3UXpZMGZvY0I5ejlSd1lJdlJsX0hOaGdMelQ3Y096WWNEU3Q5dzFQeDF0MUJyUmtYU0IxVndzZWJoaEtQUWdILVQ4?oc=5"
     },
     {
       "id": "2026-09-05-marine-le-pen-96420342",
@@ -3276,6 +4808,21 @@
       "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNUmYxR1YtUFJFY3FnaTdVUnQyVE56Rl85UFVITVhteTYzLTcxbzNSc3oxaG1HTG9QZmV0akY2d1dOWnFPVkRlWGVQbWlrOWo5a3NHT2tmNXZTMy1qN1h5NnVfeXpPTkdaRk9yeDFmakd6b3BCZ0h2YjZLQlN1aTN1WmdhVk55R2w3ZXR0Zkd6MlBPM1dvaWlfQzVzM1QzMDlySVJtaWpyNFJnYjBxUE00dVd0RzlzVXBMZGRwcGFIRDZxZUlIa20zaS1NcVlqalgybW0xVmdUY01XSGJ6YXFORGdmQ2tHaVhJTUp0X1U3TnktQzAwOFh5OGw0UzdpSjVHQWFzMjIwLUNLUVd5anJVRF9XQWk5UWFK?oc=5"
     },
     {
+      "id": "2026-09-05-fabien-roussel-15954549",
+      "date": "2026-09-05",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "INFO OUEST-FRANCE. Présidentielle 2027 : le communiste Fabien Roussel sera l’invité du 20 Heures de TF1 ce dimanche - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOLUFBVERUTXdTcVlRWEZZS3h5QjNhMl9nVlF2RzkzUFZicnZCd29mdVotQWxGS05mVGZiWFE2bm13MGxaV1hQQ2hycUcyVzJ3LUZYdEdzU01PMmQzZ2xRanJjc2VTUmI5ZXE2MURJR0J5NnpEcHdfZTlJbmNKdUp2OEI0WDM4dWhwWUozWlhNZ1JnWVljaHBLYjgwbnZRZ3AyM2lGVHd6SjFUZlZLYmpuMWlSVkh6OHVZQURuRXRWcFpkNktfZU1QXzlJbHA5SXA3bTZTYlBjLWxVZmdtRXgzd0NudWcweXNFUXQ1MUR6LXJ5R2NEZFpVNDh3N2xtTVlnTW8zZnViaG5uc2xyNG1OQklNTjdNNzhlRElfZ0pyMHJGYXFTNzNxNQ?oc=5"
+    },
+    {
       "id": "2026-09-05-douard-philippe-56454612",
       "date": "2026-09-05",
       "candidate_ids": [
@@ -3289,6 +4836,66 @@
         "Le Parisien"
       ],
       "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOOGdMNjNIZTJoQWhnMGZOVERFeVRNWm9hZHZYamY0V1hMVGZsR0gtdkMwWEFzaEhrZjZESlN5X3VFZ0JJUW1VWGNMaC01R3lCdExydW9TVDk2SUhmaEtOemdBdlYzZldhWTZlVmhGX2x2ZVpveDBaODhlZ3JNZUphOF9jRWlQVEVkRHg1N1NKVEFubERpZDd2SElUUTZSOEc2alptbFR6NWg4V1NkS0ZPMHAteHhPR3U0R0hCZXFMeExBVmRpOF9kR1B6QzNXLVE3S19Sd0swT2NMWkZyclhJYmlMbjFleXN1SFUwQnRSZ0lWdXNJQWgzWFozZzBabnpRZE5vX19WWTlXYUQ4X3ZJVnZzNkM1UWU1WmFua0ppRFJ0eTVYYVdr?oc=5"
+    },
+    {
+      "id": "2026-09-04-marine-tondelier-76170097",
+      "date": "2026-09-04",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier veut \"interdire le mensonge en politique\" et sanctionner les élus pris en faute - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaF9ac1d5WTgxZWE3RkpQVU81Y3Q1S2Vjd1JxT2lXbUtfTzlPMXFIejlIV1NBY3VuMlU2cEtrUTZUdDdncTJSS0RjeFhsNHVDU05zTWlfNDFkOGdtUERlQ0dBZk14XzVGSkJSZUpLbjJFUTJBdlh1dDdFSGFuU0ZyTVhxY0NFT1J5c0c0RXBySlRNUC1UQVRZMExYZng1cjZNRFNLV0E1SVN2Q0RlMTVHMFd4ckk?oc=5"
+    },
+    {
+      "id": "2026-09-04-marine-tondelier-63938709",
+      "date": "2026-09-04",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier veut légiférer pour \"interdire le mensonge en politique\", \"sous peine d'inéligibilité\" - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQck82RTF2eGN5OHdsTDhIYUwyc0NKd01XM1dKRmE5WTdlUWtyT0plbVpJUDlObFU4cF80UFI5a2ZGT3RiSDdpUFhocmJDOE9pMnY2OUFDSVAzMWF5aE5mZXhNQjBPeks2elBrcy1kcEp5WFFPY2NBS0VtZHVQZFVJYlBScGMzSko5NDRBTVpsZEE0V3c4RmE0VkJHVS1mWUpueHVtZ0xoaGpNM2pDNmZvOEVyNkdsX3pPYXRKa050eEIyOXk5TmgwTm81OGpZemx5YWN5VWpMVTBHakRh?oc=5"
+    },
+    {
+      "id": "2026-09-04-marine-tondelier-45797118",
+      "date": "2026-09-04",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier veut une loi pour «interdire le mensonge en politique», mais est-ce possible - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSFhZTWlnRUxyYlNkWHJIWWRnME1iS2UxTXFCaGVfWlhzNGJWYjhBdGdHUlA3QUI3TjdFR2dCYnZpRzJ5ZWppTmtnci1jLW12YzJqZGZMX3RHNnhZam5LRUs0SldvWmVmR3dTUktxOVNDTThRLU9DUXYzYTNhNkRJS3RmSHpyYUhqOVpRUm5nN0RlRDlzVnZqSE81N2ExU3FNNDdvQTFsZ2YwNlVxT1laSE9OT0lvYTRSMGxVRWpMdElkNmdRUlRvUy1ZeFUzb0s5S2tjYWlFN1V6WU5KRWJHTzUxWE4weTRPXzg5ZnlVMFI2NGtLUlE?oc=5"
+    },
+    {
+      "id": "2026-09-04-marine-tondelier-18147790",
+      "date": "2026-09-04",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier veut une loi pour « interdire le mensonge en politique » - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN3VJZUJ4akk5S3QwUUlNSVlOZ0NRbE9tdDFxT05FVjVjX1lPWUJMZ3BQS2Q0eG5VRWJaelVONFFFdmJxZGtSb1JYQ2hoakpvc2s0MjNraHA1NmJXdmZseWRRSVZSYUlfZDFYeW81eDdyOFZqeTBBd1F2RVpJd3BINzBCdlRNS1lraG1UU3REN0RSMUFqdl9GWEhKTVI1SUpHZ2ZlN05RUVhFOFlERk5vRWJLQzVDcHV4cFltRVVmd25ERms?oc=5"
     },
     {
       "id": "2026-09-04-marine-le-pen-28174648",
@@ -3321,6 +4928,36 @@
       "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPUFJiMDFGdFZYeE1neGxYOFZQdnFYZGpMTm0wRFRmeHBBTjQ0RzZzTXpXMVdQbklCX29sRU1zaGppenIzVkZOWXgwanZsTGlJYnpEOXpoYVhjRVQwYVA3ZENkQ2hTR1NESDVRcDZueWwzNFNVUVp0djc1czhHWTZ0MHJPTjJNRVZ3cE1DREZqNVlDTWZPMTlBQnpwTXRqaXlqVFdoYlpZMGFER3NFRkVnM01JSVdrbDRJTEY5MkFCWjBuUEdRWEJfelRpSDZnbFczT3lXclNrNXltdjlxSEFrQ0txYjg5c3ZjNnlZN3lBRm1CQmlENzl5eTN6ZWw2ZmZ5d21zUw?oc=5"
     },
     {
+      "id": "2026-09-03-marine-tondelier-89803869",
+      "date": "2026-09-03",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Présidentielle 2027 : Marine Tondelier enceinte, le quotidien d’une campagne «à deux» - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNzlJR2NOZ0dYVzdyYlBCb0psMko3b3MyZm44NXlnNmxNLVI1cEgtOEpYbGIyakdROGtoOXpCazVDb1VGdFRzSmpfMVR1cGNoSzJKMTVuZldEWWM3OVVoV1pUYklhTGdXcUl5ODd0Zm9jTUdvYVFaNThHbG9Pb0ZBNEV1RHFtcjhrSHFhS0h0RFZpY3dfRHNUeHlkdmxlVF9RWHl1eU9jMGVVS3MtbGNUM01qNW9IQ3FPRk52Nkt6QzNjVEhjT0ozd0ZPYmgtRjg1Q3dyVkV3?oc=5"
+    },
+    {
+      "id": "2026-09-03-jean-luc-m-lenchon-40872679",
+      "date": "2026-09-03",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Port du voile : Jean-Luc Mélenchon qualifie d’« erreur terrible » son opposition par le passé - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVmxaTjl2WGRzRC1iYkoyU3d6aGdkd20wakcwZ2VrWWdGSkxYV3JzMlI5UFp4c2RiRENtMmxJN3FlbHpCWmZTLTNqcHVfajhWaG9GSkV1b1RMbk9hdlFxbzdSbHcxMVFjX2N1WThWX1UwZnFrcVkycjFpck5Zc1NURDVjUFlwdV9XSmNvZGtCR1dRck9lWE0xYVA4RWRZQ0FkY0xBRERqQTBoc0xySUQxVXBjOWVKZXhocjJYOGNaUHVqZ2tNcWxST1pSdWhxRDZLbVVQdTNqVnMxc052Z1ZzTFNUQWI1VjhHZTZmbFNlZTA?oc=5"
+    },
+    {
       "id": "2026-09-03-gabriel-attal-24058001",
       "date": "2026-09-03",
       "candidate_ids": [
@@ -3334,6 +4971,96 @@
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPeG9tcWhNek9kdkdQb3Jod2tSMnM2RkJ4cW94UFdmckxQdmgzdGlsVU1yZGRoY3VQNHNSS0Zlb2lRd3JtclpTWFdSb29mc2d4NThwZFNHMVRfUThQblF1OFJGTHpxc05wZlpYdlBrSmhXT1VISVR3MDN5M3pNVVJKdmI3c0hEWG10WThXS19ZbGlsc0RORTR0eHI2RkFfZ3pyTnlfbGZzY0xfWHZZb1VyaHhET1NRZ193WnZZVEVEVjdRdDh6VllOMDdUXzBEMmtWRHMwMjVNUEVwQXFOQlN0X2J2eTNkdmRSWU9Oc0hBak0tWHNlMXJCSVVCWXlCcnVFbklMa2xwOVF6bmhzOHI3N1E0NDNKbjF3RmtnakR2VQ?oc=5"
+    },
+    {
+      "id": "2026-09-03-fran-ois-ruffin-74214932",
+      "date": "2026-09-03",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Présidentielle 2027. François Ruffin et Dominique de Villepin : ce qui les rapproche, ce qui les sépare - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTmhoMFhYQTcxdDItZmJrc2lOeDRTTk5PRHY2emFVUTZLc2dnNGw2eDQ1ZGZUMy1HNWpQOHZqMUdjWHo0Tmk1WnNlV3Z0dTRhZm1ZWTU2LWJjWUJtUEprdnlKaHZCcm1XYWlVOU5pSU9HSlFlamctRzYtU1lFWmpGMjJJT1ZJSTRlUjlyVGhndDZuRkUwV2F2aFFxYk9IQkthU25nc3I3UEQ3OVNLSkI0ZWR6UmFqaVhCSjZ0S01haGFGREcyZ2JuTkRMRjVkNTVlcGtyNmFSLTNNS2stck5jNWQxeE41WEl2MzUtaXV2dF9zMWtFZUlKX2JmejZCUTdfVWlLdE1iRTNxbU5OYjR2eUZuNC1wVktj?oc=5"
+    },
+    {
+      "id": "2026-09-03-fran-ois-ruffin-47539698",
+      "date": "2026-09-03",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "\"C'est le premier moment original de cette campagne\" : pourquoi Dominique de Villepin et François Ruffin affichent leurs convergences pour la présidentielle - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPX08wcjJoMEVkNXJFT2tKbFVqSDZKbmE5WnJhczBuXzgxcmlvdkE4d0gxQnZGU3FHZWM1QnJoeFB4Z1Z3NGdSWUhUbm1GXzFLd1NZWldRUHROY1otV19jUUp5bXBFejZEd21vRGJfdV80YnlZZHVDMTNaZ0NFVVd4OHMtNWRWaUctZFhDMEZMMDRtQWxKbVQyeWZzdjQtWVBnV1d0X1RHUUhabjZMUi0wRDh3Y1preWtRMUJJVUFhQk1JTkxWTUJKOE1qUGtYRjFoOHZBd3hzbjBraWk4SGY3WGlpVkJnWXFQSGtZd1dMTUpldGRsR3hwRW1zY084V25nWld0ZU9DeS1SMGtPZTI0blZGS2JyMzU3WGpqaGpZOXZsYVFMUTZ3RUxENWhpTnFjSWJEUUdRVHZuTEdv?oc=5"
+    },
+    {
+      "id": "2026-09-03-fran-ois-ruffin-18324404",
+      "date": "2026-09-03",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "La question du jour. Présidentielle 2027 : croyez-vous en une alliance entre Dominique de Villepin et François Ruffin ? - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPbW00OGlLdGdVVTRPTk9vaDJzSExQaWtMQkhQSkxGc2tfcTFnTDZCelRkVGJTTHBTYmNURUV5VnFQcHNzVko3alhzc3ZkdVJMYlhoeEhmSExJOTI0cXI4azNFVjRWMjVGQ3p5UHRrN1lINkUyRUc0dUR1Y01tMVFaaDlzeXVCS1JWVllYdUJOMU4zb2NVSU1zdGY3R1ZLUlFHU0FJVjBHb3hkbWU1UHRodmJiMDQtVWJrOUNtUWxWTXdRYWJJbXRhRm0yV1VEUFRWWS1ESWZpd0hZREh6eGxubUlaZEFEeXN0YUxwRjFJVV9FMG5GZ0xQZXc1cy1BbzZXS1drRkJ1dUVOYllUVTdMNzNPVk5oN2JBRDJ6dWllUkQtN05ETGdRMWtnMno?oc=5"
+    },
+    {
+      "id": "2026-09-03-fran-ois-ruffin-04015818",
+      "date": "2026-09-03",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Présidentielle 2027 : Dominique de Villepin et François Ruffin, quand les contraires s’attirent pour mieux débattre - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOQlEzTnFaOEpOVXY4b2FqRmdoV1ZJYjZybXJyRHItVHl0SzhXeDZLSVhfWHlRZU9IejZiS2c2QmdKYVdsTkdPWkh6cHJVLVJRbC1lanRkRWw1SUh3V0lpSTFVY21PVlZ3b1VYNkZKZnVHMWZ0TjBkbWFlRmFkME04eHZJbG5rTkdtSzM1c0VuYU1GUDFwUGJEeU00N3czWTVOWHFCanZWS05rSzgwa0tLLWFvdUJnUzZhNVdVZ1J4N2pqRzNuemNVQ1ZRMVhIUUtmRGxKcjlzSnc0OHNOM0xSdjI2cndJVHhKU05Wd2YyWTYtUkhzbEZLRk5NaDYwbndNUkNQV3J2azVhMTUzRTNpamhJQVY4UQ?oc=5"
+    },
+    {
+      "id": "2026-09-03-fran-ois-ruffin-00528719",
+      "date": "2026-09-03",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Présidentielle 2027. « On se renifle » : François Ruffin ouvre la voie à un rapprochement avec Dominique de Villepin - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNS0Rid2h1bWJTcHJacEhDNnh4b04wckRtNm96VFRZZjdHZ0EwRlFSd3UzdjhhT0tSbUV5dWRSU3NVbWdtb1JhM3pzUnJQQ015b2JpYkV5MFdvaS1ST0ZKc2lVSXJvRGpEMTQ1cXJ5Ry1UcHlKU2lPTDUyOGF0Q3pQNG8yN1ZmVG12S2lnQ3ZmY2VhLWw3QVgyZGZGUW52Q2w3SXVzZHhDNk9JZjJ4QkNteWs1My1OTjFkTlhZeWpnS29qb20wT3Bqa1hqanN4YjlRbGNPM3owQ256TldDVjFTX20ySTJrSGJhbV9WWS1PTzN0ZkNMaDhYaXNfVk9fdk5rZTZMQTJpVndRTVNaUFQ1VUV0NFU1dVJmZjd6WjhOUHh4TGNSV2c?oc=5"
+    },
+    {
+      "id": "2026-09-03-david-lisnard-35621578",
+      "date": "2026-09-03",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "Présidentielle 2027 : David Lisnard veut «rétablir le délit de séjour illégal en France» - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUElySURBRkZLUVpaMTYxVzcwZGdKZmVOdTNndDh1dFVzTjktLXVOcGUtS3dqM1dHN0dnRjZDUlVnQ1o3alFRb2RvQjJHRzEtdldka0c1QmJFV2FCQTQxdUdMWmR6TGxsanprWmJGRkJFNXhiZmJMWlExbU0yZWdTRFdMQTNZU05uUGVLOEJya25xbUN0aXdGRVhQaTNEZTFHcnJPRXBUc0pmbUFQY2lST20wMkhtckxlVzdtNC1COFZiR3I1X1pJMjAxd0YxQmxISHdjQW1RN3NaMTZHdHN1eF9Sc0Y2aTFNT0E?oc=5"
     },
     {
       "id": "2026-09-02-ric-zemmour-43411387",
@@ -3351,6 +5078,186 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZmJGdVpvcG5LdUZrQ3NiMjZrTVhtT1BaMks3Z0FZVG9uWk1TWkFCdEFxb1AtSDIxcE43MnNZbTg2UWFla2JEWE1Zbzl1TlZ4Q295enAxT3czSWp3dy1QemVrZWJmV1g0QzZRNVktQWFXZ0VCNURmaW9hOGNBdEJPbUEtY0x4NURFOVJwcVhMXzRlbEJhM0tDbE1sVWhHVFFsbEVHZEtFTWYzQk9XRGd4MVBHVUFBd0RnYnJJdDJrQnNVRms?oc=5"
     },
     {
+      "id": "2026-09-02-marine-tondelier-80198667",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Budget 2027 : Marine Tondelier ne voit «aucune raison de penser qu’un seul Écologiste votera - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYkh6UnpOeGE3YVBDVUJicm80clpqdlhic3VOR2dxQndqYzlyTldiSHlDajI0elV6Zm83UWhVbzAydTlIbWhteWVyNHVhZkNiS3NlbVdlUENuYnBlRFlKOEJQengweXVrcmtDYWpUUWJjdFlNRFhEM0ZkMFh6OGNyeThobUtEVnJwbUMzNm9ncWRyT2Q1cWVtZXRzVkM2X1h5cUkyZXR3emdfYU10M1d3ZEJZRGVscUFNcHpENWJmalRDNzBUb3VURC0tU1phY0RpdmpFclp6NkhTQklWN3RPZXRqMkZRRXgxdjlxdzBheWpMT1E?oc=5"
+    },
+    {
+      "id": "2026-09-02-marine-tondelier-64042732",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Patrick Bruel, présidentielle, RN... Le \"8h30 franceinfo\" de Marine Tondelier - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWUtuZm1RR1pvTmlFeXc4UHpncHFKcVRqZjg5WURuR3pDVzlpUjZLSFpDOWRMbzByU29hVGxtRXRmWElQb1VrUGY4ZW9FLW40SkZ4bUtNdHRBYlJFU3p6ZHItZ1E0cDZrSUo1cjI0NXlab0VjbG0xcGkwSElpcFJ4MnhsZlJ0S01RUVc5NTYzdzVsdFU0cV9hXy1jVDRvYk1BOFo3ZURMUVFIUzdXR3c?oc=5"
+    },
+    {
+      "id": "2026-09-02-marine-tondelier-57828564",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "Marine Tondelier réaffirme son souhait d'une \"désobéissance civile\" en cas de victoire du RN à la présidentielle 2027 - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOcFhsTnpZOFM4cF91QXRobDZGa1BVRUVFVFJUdEstOWViVUVXdVRMMW9yOUZLVFUzT2hjdkxtN0JvSUZXN2xJWkJUaU0tQXc4YXEyLXI3NF9YYmxfX2g5dnRjb1AwVnpmZ0tNeExXa3lQT0k5MVpYVFB0bGMxcXlkQTBTUk1vTUJyRU9LVjBCNU9kV3ZtdHdic21FVzBLQmVQQ0JhdFZsdHZKOXVIWXRDdHgzNGtKNS1yb1VuZUJSNnUwTl8xa2dqcUpyZDlIOVFPVVROVTMxRUFhVktuRF9mRkJyUUtDUWRCZnB5LUpxWlIzTmlRQUQ1UGFCSUE3RTJocU54UQ?oc=5"
+    },
+    {
+      "id": "2026-09-02-marine-tondelier-13037489",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "marine-tondelier"
+      ],
+      "party_names": [
+        "Les Écologistes"
+      ],
+      "summary": "VRAI OU FAUX. Marine Tondelier a-t-elle raison de dire qu'une loi sur la transmission d'entreprises familiales est \"détournée\" pour \"servir d'optimisation fiscale\" - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNMEJmUGl6eXBJWFRYbjlOMFNCRUdUU1gwNFFlWGhWSU55MEE4ZmFCdU91djhEQ2cwVHJBeG1jUDhWaXdjMlFYcHdScjh3SkNHcDBPN3Jya05UOExfQ1lIRWEzX2Y4VUVOX0JKNVY2V1VMd0RYd08tWVBTd21nSjRadjcxYUMxOUFXSTN6NFQ1WUk4S0hrU1BoWGhCUy13QmkwLTFvUGRMS0VsWFhuTWZOR2RQbjNZUVVvRWk5OTBVSXpqSVN3VG5BbW5OeVhOMmF3Mk91ZUpuT1lhcmhZeTlKWW5kbU1lQkpFdllGVGNMZGVxODI0MDJNcXJadURJa3ZnWFFWdHo0aE8yVmFDS2JmdF9aWGxUZW1UQ3ppY21ER2J0X1J0M1hEOTRka1RaN1F6czcyYw?oc=5"
+    },
+    {
+      "id": "2026-09-02-jean-luc-m-lenchon-84917032",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Jean-Luc Mélenchon n'a recueilli pour l'instant qu'un peu plus de 200 promesses de parrainages en vue de la présidentielle, loin des 500 nécessaires - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPUXhjTThIT0s2QVlFbkFlSHJ2MWRRQ2JTUnVGNWtCZ1dSY19hMGJ5TVVBT0poSVlCSlNkSkR0cmZBS2g0MnVjNERnaEVpeUIwSkRydm1CYXp4SGw4OENkVGlrRnRWZnVhRjVSWllfbGVQLUZ5YVR4MDFwcmt5QWhaZFdyQnJDcWVIR09mZi1zUHpxUDFlWUZ0RFpyTVZIX2QzYnhDWXRoMGRlVW9ySXlQb01JMTBPZE1zTDRWMzFaQ2c1WnBkVlV4Ykd5b0JyWUxpLWplS0Z5M1BTdXZoejZEN1B2V2VMV2x1QTNIeUNtQmpBX0tXaW1FQk9NNzFXczVYRlVGQnhPZFNuTndwcmxwNlA4eUNXTDlrd3N1N3JaenlNYjVILXJvMHZ4LVRfX1lVdW1GaFRwb0NDSGxzSENlSWdDalM?oc=5"
+    },
+    {
+      "id": "2026-09-02-david-lisnard-74476918",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "«Mais pour qui il se prend, ce type ?» : le comportement de David Lisnard exaspère le patron du Medef - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVmlINzVZOG1adTVJVlA1eEgtOUo4UWcwdHoxQ2VXSmdCelVHSHRleW81Ul80bEh3U1g1SjRJMHpLVHNoZW1RTllIb0xtczlCZjhUaFo2UUU0Y2h0eHV5ekx3M1Y2cDZfZHBfaTQyUDZCbENvSUNPVnhCXzl0ajVBdnNuT3l1Q1NvQnNieFNWRnI3VDROU1J5MHBtUHluVjNQWHJBNFNpeEVzb21ULVhWSFh1dF9fQ01GY2VYNm1kZUN0bnhXYk9qOVFFTXdVcWFjWktpdGtGZy1vS1VjLUtuTklxWVBRR2xva2ZxaGw2bWN5bV9iUzViQUNKQQ?oc=5"
+    },
+    {
+      "id": "2026-09-02-david-lisnard-72871305",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "David Lisnard assure avoir déjà recueilli 500 promesses de parrainages - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQmRJM1VaU2phV2J1UW5sTFp0U3ZFSUFINkVSc1NlaW5lRHluaXppUzMycWh5NXVmbG9IRUUzSU1US2NzTHRpMWQ1TDhNcTZsWjVRdlA2MExhU2xTOVRtN1BOZE0xQ3NFRlhUVGdOOGt4cGxENG04Q29IUnBQbTRyRVJZRnhQckFRQWtXNXJwRlJNQVlxcHBhQ09BNldjc1MxMG1LLTdmZHlIY0FYeGQ3SXVwUzVQMGJBaE00NzJkazFFaDFheWdGYms3dy1VU00?oc=5"
+    },
+    {
+      "id": "2026-09-02-david-lisnard-33317595",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "«De ce point de vue là, on est tranquille» : David Lisnard assure avoir déjà recueilli 500 promesses de parrainages pour la présidentielle 2027 - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNeTI1Wk5wb1Q2NlhUSFNNa3FkVXZNVjVEWFplWGhZLXVBckoxX3Bsdm9wMHdfa3JkSkdRdWR3b2ZWcHF2NkJySWRsbXdKVU5XYUJFNGdfV2VkZWprVGJrcS1SSXVlczhRRFVKYzdOUUVneHhKVFJENHhIeVdMdW1BOVZoTXQ5VUROUVR6bC1aNzdSVjNmVk9hN1lLQ0dadHE5djlDQTlWQnp6TnY1TFlZM3ZaTjZEdWplOE5lOWNiM0wwSEhGYXpCU1pCb0lxS2tuWDRlVmtrcTVTdEhiWmtFOU1GNDBORkhLUUNPSEZiWWRpeEhveDdaYnFCUGZNU0w2Zm1JN0dlaXZHVWVQZkh5bkxGdXA4LXpRbXp5aDd4WlJwS3dsRVBmV0pPWl83TldC?oc=5"
+    },
+    {
+      "id": "2026-09-02-david-lisnard-32940257",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "Présidentielle 2027 : David Lisnard assure avoir déjà recueilli 500 promesses de parrainages - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOS0RGMFdKdUo5SzdrT0ptbFJwZjM5QXFHNVREdjFtcUo3NHlqZV9FanFGYVU0YjY1ZHZXM2JHTE1OQTBPRXltNy1IVUhyZG5QZmdTSng4QUpPcU5CSG4xbGUwX0RiS2lqcWRXQUtrTGowa3otMmNsNl9nRDhDeE5jY3lBX0RwQlQyUkYyUUdSTFdaVHBZR2hVNGd5OU5RdnNoaTVFVG1RR2JOSGpJRGJJZU1hS2ZPRXpMOWNOcVNmVThPeC15clh0R1JEWHdhMmtSdXpKenQ3Z1ZjWnQwRTdTU3lPOWlUVkZta3h1TUVOTlBtaFlVRnYxUGZLeGVuSFF0UXNyQzM3a2tHZ2hQ?oc=5"
+    },
+    {
+      "id": "2026-09-01-fran-ois-ruffin-90552501",
+      "date": "2026-09-01",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "Gaspard G - Les dossiers - François Ruffin face à ses dossiers - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE92UXhNY2dSeUhpaGN5TkNvZHRZaVQyQzBmUV93LXhfdy1Ua1hRMm50aDFnbWJFdVpfWE4yUng4ZldDWE81TVNkNlBPclVkeDN6TlMwU3c4MEFVaXVWaS15NWhxVndZbVBGSXQ3N2VmX3JKMGtMdEE?oc=5"
+    },
+    {
+      "id": "2026-09-01-fran-ois-ruffin-53873006",
+      "date": "2026-09-01",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "François Ruffin-Dominique de Villepin : un débat d’inclassables - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMlBwaVp3bnRfalkyd3dld0I3MXBmRzNFa2ZnWHdYSE5FNC1lWVNDeGtFRFU0R2N4UVR0WlJnNzFvRjJCcFdJeXdkaU1nendVeVFQSUpzWC1EVDI5dzl6bnpwbkdzLW84ZWNDaEp5YlhsYWxPenhIcUlWOVRmS1UwdmtucWVqWkJPMkxKbzYtZnNtLWd3Rl9DZ0MwNmtYUzVKcnFHMjlIYVV4UHpvU2RHNnNzTTNkRnJnWHhuc0R4bFlac3M5Y1Z1aFpWTnVadTg5dmVpZmtuQ2owREl0ai1lc1Z4OA?oc=5"
+    },
+    {
+      "id": "2026-09-01-fran-ois-ruffin-00184767",
+      "date": "2026-09-01",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "François Ruffin, le pari sans les partis pour la présidentielle 2027 - Libération",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaGt4akRRcFZmNGtobGtnQTdtUk5WS2ZwUWlHZ2Zqc1BnSFZkdFRUNnlqWW43SWRReUtWa1dyaXpiWGwxaXZyWDhWS3BWWXgyQ3VFcWxuSDlRdEdoNGlhVTJFWTRBeElFLW9ZR3Q5TEl5X1NMT3k3eS1ZbURMb2I0TDY5XzNpVEp1bXRvazZIcWlUNm9oTmNteEJfYWNYa1I5OTF0X0E5NEhIbTNDREJUOU43amRldlloYjdiV01BdFVRS2VrTENCX09TMzhOR0dN?oc=5"
+    },
+    {
       "id": "2026-09-01-bruno-retailleau-63200132",
       "date": "2026-09-01",
       "candidate_ids": [
@@ -3364,6 +5271,21 @@
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOeDZpUVhqOHZ6LTRlUUp5LXM4V2t5S3YyRDlPQ1R5R3pUMlZnZTZqa0JRTWVVdTY3RHlZM0o0b1FaNTlEZjBoc0NldEc4RXd2V0JEUXlBRldVWE8yQW5GQ0w0M3Ezdy16WlFqTXRmT2dFMjVtdDdmQ3VtR1RDRC0zV2pfWVR2aDl1d1k0eHhtbUF2aXJaZFg2SmNLSVN1V0MxOUI1dkEzUEVSYkF3RUtlVGZqZUtKRUI1WlUzbmNZT0NadkUwenE5emh5WUlOaHB3eG15U2paUXItN1piNThpOTlhYmdiaHlOa1RHZG8xZVYtUzdzMUF6MWJ2aEhwaE1SUFRGSGZFN1RaR2hwb2JmX0hoNXNVSHI5U1p4Vg?oc=5"
+    },
+    {
+      "id": "2026-08-31-david-lisnard-00329291",
+      "date": "2026-08-31",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "EN IMAGES - Chantal Ladesou, Marianne James, David Lisnard... Il ont rendu un dernier hommage à Philippe Bouvard - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZ2FkbjYtSFphZ0l1WU16Y2FXTWxpdnBCYUs3bnZhZlNoYWNIWnBzZGJ1VXVzUENlc2RQeHpjZVJaUHZQeWlNa2dsQWs5SlJoWEJaRVVHVGNwMEVtSUZyczNuRkVDbS04cXBwa2VXZ3g1NFFNaHA4UFBvZmhTeDdXWjZWWjVFa2tGZzhIOFpZdWhMam9nTGZ6MFZhN21tdXBoSW9ReWh2VmQ2a0YwRVNmSTNUMU5pdEJnRDB1c1NvSklEZk9weHVPbkdLSUs3bUd0UHJUVTkzaFQxNlN4YzU3Q1VDVQ?oc=5"
     },
     {
       "id": "2026-08-30-lisnard-primaire-droite",
@@ -3394,6 +5316,141 @@
         "La Tribune"
       ],
       "url": "https://www.latribune.fr/article/economie/29410693142792/presidentielle-2027-olivier-faure-candidat-a-la-primaire-de-la-gauche"
+    },
+    {
+      "id": "2026-08-30-david-lisnard-18656443",
+      "date": "2026-08-30",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "« Mon problème, c’est que je ne suis pas assez connu » : David Lisnard ne veut plus jouer les figurants - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONFFvVTdJdmhZTWV0MTV4VVpLRGhvYnktX0RnTFhfYkttSURQUF9UdGt6MmJDLTEwWTUySEl6SFhmQ2czakxURVYwMnN4QWJUMTB5b3FCNndnWWxaUzJJQldnUzJXQVpPMzJ2T2owWkZET1JKQmVhSTdIYnpKeDZoejhYUHBsbi1HcTFVcFdJRGg4TnZsTnBzMTRhRkZPM3EtcFJlcmh2MTdwckdFTG1INDJZNktJVGVxdk9jVVdpMnBsNHFxQjBKdzhVTTB5Uzc0MFpLQkJWS2FNTFlVLV9QNTBrRmNSd200QkJNMg?oc=5"
+    },
+    {
+      "id": "2026-08-30-david-lisnard-05748421",
+      "date": "2026-08-30",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "Présidentielle 2027 : à Cannes, David Lisnard bat la campagne pour une grande primaire de la droite - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQclJ1RExoUWFSWTR2U19tSFFsUTJvQ1VQd1hVbkw2QlI2QW9QMURSTktEZzZBb3RxRDJBVjc4dDdtMkVWSjJ3NFJiRXBzRDRwUTAwbXc4SzN4X1NXUGJZaFFNVVZZWkhXMXAyRTdQUmtrZDhSaDlnWWNGNzFmbnFTYVdBQ0VKZEI2Z0pWNXdwUFNNSmFZSGFPQ3ZzZzZMUUJ3V2hlWFM1bWJRTTFXeHhBTlVhZGtuT3BqWjFBWGFOWmxCbGhBRzc4SXlaX2hkRjQ2aV9GUXFidTh1ckQyZ2d0WnROQXNadFlNM1lfWkhrNURzeFBTTGkyWlVwQ3Q?oc=5"
+    },
+    {
+      "id": "2026-08-29-jean-luc-m-lenchon-70564328",
+      "date": "2026-08-29",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle 2027 : Jean-Luc Mélenchon recule, Raphaël Glucksmann progresse, selon un sondage - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdEl3clgtZUdfSkFQbjNtd3dMb0tmcVk1X2VFTnJSN1BIN2xIc1haTUVRUGtoME9lS3F3bUdyZlIyRHY2XzNhTnFVUEZfb3RkOU5KOGdLR2hNaDM0cHJod0RUYkRTbnN2NldqU2lEaUtRb0NMMWtrQmtEZTM3S21VcFBZMnZuaXNQQUVWYzdNZVpXd2tvNzdjVEQ4YTdjT2phQjdfQW50Z2ttN1FYLWtqQWVwX1ZmVTlNYjVZZnNfaVF5ZWtScWU2X2MzdjJWcHlTbm00QmN4REtrb25FZGN1YW9qbU1ra054cXdFdjQ5SXo?oc=5"
+    },
+    {
+      "id": "2026-08-29-fran-ois-ruffin-82050746",
+      "date": "2026-08-29",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "«On cherche à mettre un obstacle au vote des gens» : François Ruffin fustige la primaire social-démocrate, selon lui «presque antipopulaire» - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPczZpX2gtZV9VUndZMk5JUGJXV3B6RFdDQ1pHZUdZTVZmUmRwdkc5WkhKN1M2STNncDVHNVR1SkI2TEs1UUxTc2NidTF1ZmhzZ0lsWjdpY09ReHJjR1NzblRSS2xNV0szWEs4QjR3Umd4dXNWX2pjVjdzclVid1JxSkhLVTE5VEtDOGVhVjFENFI0VzZjVjh2NlN6M0N1d3gtQ1UxbW5sZ0dWMFFpaU1fcGRNQjZrZmQwYXZWUzROaVFqdmJ5RTAtc05KNTN1eXphRzVPMVVEM2xxeW03dVZmUHF1MElxUDFLUTFNR3ZSdmFYLTZ3ZnkxaDNmZDI3YU9NcFZ0OE13cm9yZUhZY0ZMb3oxNUpmU2VNME1WMA?oc=5"
+    },
+    {
+      "id": "2026-08-29-fran-ois-ruffin-12573014",
+      "date": "2026-08-29",
+      "candidate_ids": [
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Debout !"
+      ],
+      "summary": "François Ruffin s’affiche aux côtés d’Olivier Faure et de Johanna Rolland aux journées du PS - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQbTRxMFcyWnR3UjBkemVWXzJfVEQtcDNVazBWdGpLdk5xaXVmQ2xXb0I4b1VRc1RqcFdaUklRZUZDczc1cGxHQTJudzBVZjhReFBDc3hGeWI5a0FjRHVycXMtcVE5R1J1Z1pBZWhNTXkwTUxJY1hUMnJ4ZXk1MnN6SEpIV1Zaa1BBR0RtS0tlYUg3SUtBakQ0SlRyNUk5a1I5eXRoV1FsYm5Kdy1RRndpTHpVZlNwS3ZXVnNlbGp0eXBVYjJGdGNyRDJBR1AxM1k4WlE5dlpwREFmSlh2S1JWUENFRFMwV01HTEp0b1ZKR1cwd3NMeXkzbjQzUEZta1drOF9ZN0ZlTFk?oc=5"
+    },
+    {
+      "id": "2026-08-29-david-lisnard-69083147",
+      "date": "2026-08-29",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "Présidentielle 2027 : le maire de Cannes David Lisnard espère une primaire de la droite et du centre pour \"éliminer des candidats\" - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOa3lxMkxrY0tQZVJJOTgzbzdCR1MyWDJGSVoya04xTEZhSTdHZW1ZNkZaMmdseEU1V2xLYlRvN001S1dIYmdXZG5QcFFHd05abTczZzRxYnRqa1lJazhEWGRJMnhIUlk2WHFTZ1V1YjJaNXlXY056SGtoSXVCMllkcXZhS3pfMVFQV3ZWb2RSaExiQnN2ZnU1UlI4S1dtOVp4TDVkZFl2ekFqVVJEWnQ2di1NUzZudVR4WkZRUTc2UUxTVU11VE43SHJvTWF1ckZzRXI0NHFoYzhVZ09lSDRUYk9ZQXczcXNGamdROWs4NDNlUF9ydHNjTFdVT1l5NnkxUndEN1l4dFJnUQ?oc=5"
+    },
+    {
+      "id": "2026-08-29-david-lisnard-47359881",
+      "date": "2026-08-29",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "« Il faut éliminer les macronistes » : David Lisnard veut une compétition à droite avant le 1er tour de la présidentielle - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNN0ZxOFJZeVhaWVoteFNYTVpQUTlRQkZDdGxNSUZSUmV0ZkFYOVR3RHdLZnB4TXk0YXc0ajJIQnRkY0pHN1g4UFk2ZFBXa25QVlVBUGg2QjkzcG41U25kbmhxeGkzTzNMNFBjMEE3M1JqUGtzSzhJSDVZbk9ON01aMWtzUl82WnhIZmV6T0Zua3BJNEo2WEFSQ1g2bXR4SlBiODVGTm14SndEc0haS2xicEljUmxTMGxZNXBVN013SERUeThTY09iYWtCVXhwZ01TcWFVbVA3ZElBcWJsUks0Ri00VFB4TmJSeUQxdS1SV3Q1WXVMcWROQW41T1lIN3RieXpIVnNMUi02bU44NnpSODJvWkhiUnh3T05ZNjdCc1FGNTJtWmpjS0FYYnU0YnVTZDRsMkJxNjZMWmdnWE40ODdVN004QkNvWF9VWVZJVDY3dw?oc=5"
+    },
+    {
+      "id": "2026-08-29-david-lisnard-12826406",
+      "date": "2026-08-29",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "\"Il faut sélectionner et éliminer des candidats\" : sur LCI, le maire de Cannes David Lisnard espère une primaire de la droite et du centre avant la présidentielle 2027 - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNQlU2T2NxVGNubHpiaU9OZ0dmWkJxSkxLYnlBWUJTR28tanZ2VmpDYXQ4elJEcGN6a2JZelNuSVpJNGNKM2V3T0NiVFAzV3kxTEVLLW9ycVctWXhjc1dmZnpya2k4R2phZEhvclBueHVYZHRjcnRxNFR6UVR4MEt1Zmgwd2RsUWd0OENxSFV3Ti1CVkR3a0pka1M5WDNLbkEyY0JIWG9CRFVOWEZ0aktxTjk0WDJhUlRQNGx1b1pzVjRQb2xtZ05RUkNqeDc5NGdZRjd6azlGdUd0d2NXX3ZmUklSUlpEZjZrVWpjV09KTTNZLTBidkxsRkdialExcmk2aEJaejNXRlV2bkp0TGFTNWlLbWRZUlF4REpSdDhaVkNTOFZiaEptQ25iT1ZQd1RzWWR3OGt5OWd4cWNYSGlKcHVkbUZwMHJyNlE?oc=5"
+    },
+    {
+      "id": "2026-08-29-david-lisnard-10936011",
+      "date": "2026-08-29",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "Présidentielle 2027 : à Cannes, la figure du patronat français Pierre Gattaz assume des convergences avec le projet politique de David Lisnard - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOd21rYzJ2a01MNzViVkltRFZpaE9ESmJQb1YxclUtQ0lzcDBWRnI1ZjVXb3dxMTh5azdhRTMwRGpzWHFlSDBhLURGbzlnWTQzTXN2Tml2WVVMdnZrUlFEWks3SXNNSEpZdjdpWkM5MUhHMkV1bmxDTU10dWVsYzh1bWFLb19YbFRscHctYUctT09mUmxYaG5YWHh6SHhGdUk2djMxUkRwbUhlNUEtSDU4aW9OYnA4UGEwdWNvUGpFWXhwNk9IWmdtU2t1OXZQdmJiTDVyNS1aUTJWbHA1OTRJUkRWX2hsbUdDRExhXzNJV1hZN1hmQUNONGhPRFl1UDdLakxXT2pFRml4Z2wwRXBvNXJYRlpXZ1AyT1ZMb0VFQXdFbHR5OHZtcFY5TlZWR2VyTlE?oc=5"
     },
     {
       "id": "2026-08-28-xavier-bertrand-70771746",
@@ -3454,6 +5511,36 @@
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPSjR1blRpRGRXdVZjRmllMjExZU45aUhzNDI3SWVlOU96T2F6d1Q3VTU1Vmc3NEtOMXJYLVZROVBvbzFrYlR0SkNBSF9QR2lNVDFKRmdlNWxNNnJCdFpBdmlIMmVfWkZXSDZPX2xpdGFHbUE1NFlVeVBWTHY3cWxGMDJQb2UtTTRpYm93azJyNXRpSF82QzhTN0hwYU51SzhkUDhSNjVSZXlRUFRzeVZhZ3pUNkkyOFNIY2dfRDdiMHRQUHJlTFRUajZNWUQ1dm5mZDBCRTN4RVBjUFMxbmt1YkdBYXlucW96aTVNOU9oMmlLWEpWc1luYXNSU3ZZdXB3N2ZRa1JvNm1oM2ZSaHpwUGpXWmc0NTVLakE?oc=5"
+    },
+    {
+      "id": "2026-08-28-jean-luc-m-lenchon-67881739",
+      "date": "2026-08-28",
+      "candidate_ids": [
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "La France insoumise"
+      ],
+      "summary": "Jean-Luc Mélenchon au centre des débats et des critiques avec sa proposition d’annuler une partie de la dette de la France - Le Monde.fr",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPcVBxMlFiRFlyTXhSMExvUGJKRGZCVloxM2VVbVlxUzY2akNlTHZDYkdjMk80UUQzRmJiaXVCNTFrR1gtejJ1NXdhNHVIN3FLYnVrVmk1WElZRURQVWhHaGlMU0RCMXo2WndRYmxSdk5FZGpUYWJHMUhvOWg0b01ZSjNMaDVMOGJYYnI3SnV1dmZJM2ZFYldqU25GbjJTRG5tOUdFV3NrcUxjSXhReDNrWHhZeTJ5YkJhRTFLLXJCa1NCc05TS253Nk8wOTBtYlEtVEtOSkxDZzVwa0ZUcWZnOWxBeGhILVVaMVJNQ0FNTC1yM1YyUFVfZTN0azU3T29IUnQzTjA4UlFXdmdfaTZraWUxSk1PTWRfQThRZVNmVWVoWU9SX01VQ2RiQQ?oc=5"
+    },
+    {
+      "id": "2026-08-28-david-lisnard-13814308",
+      "date": "2026-08-28",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "David Lisnard, le Tom Cruise de la présidentielle - RMC",
+      "sources": [
+        "RMC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPR3lJaWZPQjcwTlJoWldyYkNVdnVaYV9QbFhGc0RpNnFkekVsN0tyZ1FqTldSbmVvWWVFNGg0QzdodzJVOWV4bmIyaFVCX0hQY0ZvRnBaZWVLeXl6Y3puQVFiMUNzNWdHYXQ2NUFtSlVseTZPZi0xOW43bnJDeWdDZVBTbEwxSW42RXB4SDhxRU1FbWtGSUdYRDZicXp0YTZlN1o0S0RNX2pDdWhzZlZUOTc5OXNDZ3ZKYngybGtjc3htV1hrQmZMZGlmcXJCTG5qclZXV3NmUGpRaHB0SEE?oc=5"
     },
     {
       "id": "2026-08-27-xavier-bertrand-39412838",
