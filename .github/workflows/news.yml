@@ -10,8 +10,8 @@ on:
   schedule:
     # GitHub Actions ne garantit pas les cron à haute fréquence : une cadence
     # horaire est plus fiable et évite les suppressions de runs en période chargée.
-    # Minute 23 choisie pour éviter les créneaux les plus chargés et réactiver le planning.
-    - cron: "23 * * * *"
+    # Six passages par heure, espacés de 10 minutes.
+    - cron: "3,13,23,33,43,53 * * * *"
   workflow_dispatch:
 
 permissions:
