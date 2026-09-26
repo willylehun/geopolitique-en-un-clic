@@ -11,6 +11,8 @@ COVERAGE=ROOT/"data"/"country-coverage.json"
 OUT=ROOT/"api"/"news.json"
 STATUS=ROOT/"api"/"status.json"
 INDEX=ROOT/"api"/"index.json"
+LATEST=ROOT/"api"/"latest.json"
+DAYS=ROOT/"api"/"days"
 
 def main():
     data=json.loads(SRC.read_text(encoding="utf-8"))
@@ -36,6 +38,25 @@ def main():
       "coverage_date":coverage.get("date"),
     }
     STATUS.write_text(json.dumps(status,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+
+    # Export incrémental léger: le mobile charge d'abord la journée courante.
+    today=datetime.now(ZoneInfo("Europe/Paris")).date()
+    def item_day(item):
+        try: return datetime.fromisoformat(item.get("published_at","")).astimezone(ZoneInfo("Europe/Paris")).date()
+        except Exception: return None
+    latest=[item for item in items if item_day(item)==today]
+    LATEST.write_text(json.dumps({"api_version":1,"generated_at":status["generated_at"],"date":today.isoformat(),"items":latest},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
+    DAYS.mkdir(parents=True,exist_ok=True)
+    by_day={}
+    for item in items:
+        d=item_day(item)
+        if d: by_day.setdefault(d.isoformat(),[]).append(item)
+    # Ne réécrire que les journées dont le contenu diffère.
+    for day,day_items in by_day.items():
+        path=DAYS/f"{day}.json"
+        raw=json.dumps({"api_version":1,"date":day,"items":day_items},ensure_ascii=False,separators=(",",":"))+"\n"
+        if not path.exists() or path.read_text(encoding="utf-8")!=raw:
+            path.write_text(raw,encoding="utf-8")
 
     # Index léger pour les clients: l'application peut cibler un pays/une région
     # sans retraiter l'intégralité du magasin canonique.
