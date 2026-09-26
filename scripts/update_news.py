@@ -79,8 +79,12 @@ def looks_english(text):
 GDELT_DOC="https://api.gdeltproject.org/api/v2/doc/doc"
 GOOGLE_503_COUNT=0
 GOOGLE_DISABLED=False
+GDELT_429_COUNT=0
+GDELT_DISABLED=False
 
 def gdelt_query(query,maxrecords=250,start_date=None,end_date=None):
+    global GDELT_429_COUNT,GDELT_DISABLED
+    if GDELT_DISABLED: return []
     params={"query":query,"mode":"ArtList","format":"json","maxrecords":str(maxrecords),"sort":"DateDesc"}
     if start_date and end_date:
         start_dt=datetime.combine(start_date,dtime.min,tzinfo=PARIS).astimezone(UTC)
@@ -91,7 +95,16 @@ def gdelt_query(query,maxrecords=250,start_date=None,end_date=None):
         params["timespan"]="1d"
     url=GDELT_DOC+"?"+urllib.parse.urlencode(params)
     req=urllib.request.Request(url,headers={"User-Agent":"GeoClic/2.0 (+GitHub Actions)"})
-    with urllib.request.urlopen(req,timeout=35) as r: data=json.loads(r.read().decode("utf-8","replace"))
+    try:
+        with urllib.request.urlopen(req,timeout=25) as r: data=json.loads(r.read().decode("utf-8","replace"))
+    except urllib.error.HTTPError as e:
+        if e.code==429:
+            GDELT_429_COUNT+=1
+            if GDELT_429_COUNT>=2:
+                GDELT_DISABLED=True
+                print("GDELT désactivé pour ce run après limitations 429; bascule Google News",file=sys.stderr)
+            return []
+        raise
     out=[]
     for art in data.get("articles",[]):
         title=(art.get("title") or "").strip()
@@ -234,17 +247,19 @@ def country_backfill(start_date,end_date,state):
         countries=(ordered+ordered)[offset:offset+min(batch_size,len(ordered))]
     else:
         countries=[]
-    google_budget=max(0,int(os.getenv("GOOGLE_FALLBACK_BUDGET","8") or "8"))
+    # Un budget couvre tout le lot : Google prend automatiquement le relais lorsque GDELT est limité.
+    google_budget=max(0,int(os.getenv("GOOGLE_FALLBACK_BUDGET",str(batch_size)) or str(batch_size)))
     for country in countries:
         articles=[]
         q=f'{country_query_name(country)} (government OR election OR economy OR security OR conflict OR diplomacy OR climate OR energy OR health OR justice)'
-        try: articles.extend(gdelt_query(q,250,start_date,end_date))
-        except Exception as e: print("GDELT COUNTRY",country,e,file=sys.stderr)
+        if not GDELT_DISABLED:
+            try: articles.extend(gdelt_query(q,100,start_date,end_date))
+            except Exception as e: print("GDELT COUNTRY",country,e,file=sys.stderr)
         # Google News n'est plus la source primaire. Il ne sert qu'aux trous, avec budget et coupe-circuit 429/503.
         # GDELT sert à découvrir les articles, même lorsque le titre est dans une autre langue.
         # Le fallback Google est déclenché tant qu'aucun titre français publiable n'a été trouvé.
         usable=[a for a in articles if country_title_matches(country,a.get("title","")) and not looks_english(a.get("title",""))]
-        if not usable and google_budget>0 and not GOOGLE_DISABLED:
+        if (not usable or GDELT_DISABLED) and google_budget>0 and not GOOGLE_DISABLED:
             google_budget-=1
             # Une seule requête large par pays : beaucoup plus rapide et moins exposée aux 429/503
             # que la boucle historique sur de nombreux thèmes.
@@ -252,7 +267,7 @@ def country_backfill(start_date,end_date,state):
                 articles.extend(google_rss_query(f'{country_query_name(country)} (actualité OR politique OR économie OR sécurité OR diplomatie OR climat OR santé) when:1d'))
             except Exception as e:
                 print("GOOGLE FALLBACK",country,e,file=sys.stderr)
-            time.sleep(0.35)
+            time.sleep(0.15)
         seen=set()
         for art in articles:
             d=editorial_day(art["date"]); title=art["title"]
