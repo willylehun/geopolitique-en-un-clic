@@ -221,11 +221,17 @@ def country_backfill(start_date,end_date,state):
     # Traitement par petits lots persistants : chaque run écrit son lot avant que le suivant ne soit traité.
     # Les pays encore sans actualité du jour restent prioritaires.
     batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","10") or "10"))
-    if all_countries:
-        # Rotation sur l'ensemble des 195 pays : couverts comme manquants sont
-        # contrôlés en continu au fil des lots.
-        offset=int(state.get("country_cursor",0))%len(all_countries)
-        countries=(all_countries+all_countries)[offset:offset+min(batch_size,len(all_countries))]
+    try:
+        coverage_data=json.loads(COUNTRY_COVERAGE.read_text(encoding="utf-8"))
+        missing=list(coverage_data.get("missing_countries",[]))
+    except Exception:
+        missing=[]
+    # Reprendre d'abord les pays dont les données n'ont pas été écrites,
+    # puis conserver les 195 pays dans la rotation continue.
+    ordered=list(dict.fromkeys(missing+all_countries))
+    if ordered:
+        offset=int(state.get("country_cursor",0))%len(ordered)
+        countries=(ordered+ordered)[offset:offset+min(batch_size,len(ordered))]
     else:
         countries=[]
     google_budget=max(0,int(os.getenv("GOOGLE_FALLBACK_BUDGET","8") or "8"))
