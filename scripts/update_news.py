@@ -231,18 +231,22 @@ def country_title_matches(country,title):
 def global_country_discovery(start_date,end_date,countries):
     """Collecte mutualisée : quelques flux mondiaux, puis classification locale vers les 195 pays."""
     articles=[]
+    # Flux thématiques larges en français : davantage de pays par appel qu'une requête pays par pays.
     queries=[
-      "(government OR election OR diplomacy OR economy OR security OR conflict)",
-      "(climate OR disaster OR energy OR health OR justice OR migration)",
+      "(politique OR gouvernement OR élection OR diplomatie OR sommet)",
+      "(économie OR commerce OR énergie OR sanctions OR investissement)",
+      "(sécurité OR conflit OR défense OR justice OR manifestation)",
+      "(climat OR catastrophe OR environnement OR santé OR migration)",
+      "(international OR monde OR coopération OR crise OR accord)",
     ]
     # Google News est volontairement mutualisé : deux appels pour tout le monde, pas 195.
     # Les fournisseurs sont interrogés en parallèle. Une source lente ne bloque plus les autres.
     jobs=[]
-    with ThreadPoolExecutor(max_workers=4) as pool:
+    with ThreadPoolExecutor(max_workers=8) as pool:
         if not GOOGLE_DISABLED:
             jobs += [(pool.submit(google_rss_query,q+" when:1d"),"GOOGLE GLOBAL") for q in queries]
         if not GDELT_DISABLED:
-            jobs += [(pool.submit(gdelt_query,q,250,start_date,end_date),"GDELT GLOBAL") for q in queries]
+            jobs += [(pool.submit(gdelt_query,q,150,start_date,end_date),"GDELT GLOBAL") for q in queries]
         for future,label in jobs:
             try: articles.extend(future.result())
             except Exception as e: print(label,e,file=sys.stderr)
