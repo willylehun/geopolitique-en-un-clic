@@ -413,6 +413,10 @@ def build_generated(start_date,end_date):
                         articles.extend(google_rss_query(q))
                 except Exception as e:
                     print("RSS",region,a,b,theme,e,file=sys.stderr)
+            # GDELT complète les continents lorsque Google News est limité ou incomplet.
+            if not GDELT_DISABLED:
+                try: articles.extend(gdelt_query(f'({REGIONS[region]})',200,a,b))
+                except Exception as e: print("GDELT REGION",region,a,b,e,file=sys.stderr)
             for art in articles:
                 d=editorial_day(art["date"]); title=art["title"]
                 if d<start_date or d>end_date or len(title)<22: continue
