@@ -323,7 +323,8 @@ def build_generated(start_date,end_date):
 def main():
     now=datetime.now(PARIS); backfill=os.getenv("BACKFILL_MONTH","0")=="1"
     old=json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {"items":[]}
-    start_date=now.date().replace(day=1) if backfill else now.date(); end_date=now.date()
+    include_previous=os.getenv("INCLUDE_PREVIOUS_DAY","0")=="1"
+    start_date=now.date().replace(day=1) if backfill else (now.date()-timedelta(days=1) if include_previous else now.date()); end_date=now.date()
     state=load_monitor_state()
     generated=build_generated(start_date,end_date)
     country_rows,found=country_backfill(start_date,end_date,state)
