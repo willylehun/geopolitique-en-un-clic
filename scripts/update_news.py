@@ -241,13 +241,18 @@ def country_backfill(start_date,end_date,state):
         try: articles.extend(gdelt_query(q,250,start_date,end_date))
         except Exception as e: print("GDELT COUNTRY",country,e,file=sys.stderr)
         # Google News n'est plus la source primaire. Il ne sert qu'aux trous, avec budget et coupe-circuit 429/503.
+        # GDELT sert à découvrir les articles, même lorsque le titre est dans une autre langue.
+        # Le fallback Google est déclenché tant qu'aucun titre français publiable n'a été trouvé.
         usable=[a for a in articles if country_title_matches(country,a.get("title","")) and not looks_english(a.get("title",""))]
         if not usable and google_budget>0 and not GOOGLE_DISABLED:
             google_budget-=1
-            for theme in themes:
-                try: articles.extend(google_rss_query(f'{country_query_name(country)} ({theme}) when:1d'))
-                except Exception as e: print("GOOGLE FALLBACK",country,e,file=sys.stderr)
-                time.sleep(1.5)
+            # Une seule requête large par pays : beaucoup plus rapide et moins exposée aux 429/503
+            # que la boucle historique sur de nombreux thèmes.
+            try:
+                articles.extend(google_rss_query(f'{country_query_name(country)} (actualité OR politique OR économie OR sécurité OR diplomatie OR climat OR santé) when:1d'))
+            except Exception as e:
+                print("GOOGLE FALLBACK",country,e,file=sys.stderr)
+            time.sleep(0.35)
         seen=set()
         for art in articles:
             d=editorial_day(art["date"]); title=art["title"]
