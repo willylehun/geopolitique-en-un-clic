@@ -10,6 +10,7 @@ SRC=ROOT/"data"/"news.json"
 COVERAGE=ROOT/"data"/"country-coverage.json"
 OUT=ROOT/"api"/"news.json"
 STATUS=ROOT/"api"/"status.json"
+INDEX=ROOT/"api"/"index.json"
 
 def main():
     data=json.loads(SRC.read_text(encoding="utf-8"))
@@ -35,7 +36,18 @@ def main():
       "coverage_date":coverage.get("date"),
     }
     STATUS.write_text(json.dumps(status,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print("api built",status)
+
+    # Index léger pour les clients: l'application peut cibler un pays/une région
+    # sans retraiter l'intégralité du magasin canonique.
+    countries={}; regions={}
+    for idx,item in enumerate(items):
+        for country in item.get("countries",[]) or []:
+            countries.setdefault(country,[]).append(idx)
+        for region in item.get("regions",[]) or []:
+            regions.setdefault(region,[]).append(idx)
+    index={"api_version":1,"generated_at":status["generated_at"],"countries":countries,"regions":regions}
+    INDEX.write_text(json.dumps(index,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
+    print("api built",status,"country indexes",len(countries),"region indexes",len(regions))
 
 if __name__=="__main__":
     main()
