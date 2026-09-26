@@ -6,7 +6,6 @@ on:
       - "scripts/update_news.py"
       - "scripts/manual_backfill.py"
       - "scripts/build_api.py"
-      - "data/monitor-state.json"
       - ".github/workflows/news.yml"
   schedule:
     # Six passages par heure sur une seule expression cron.
@@ -46,6 +45,7 @@ jobs:
           FETCH_MULTIPLIER: "8"
           REGION_FETCH_MULTIPLIER: "6"
           COUNTRY_BATCH_SIZE: "10"
+          GOOGLE_FALLBACK_BUDGET: "10"
           DAY_BATCH_SIZE: "1"
         run: python scripts/update_news.py
       - name: Intégrer le lot manuel vérifié
