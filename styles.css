@@ -812,3 +812,42 @@ footer strong {
 .election-mode-tabs,.candidate-detail-tabs,.party-detail-tabs{margin:0 0 18px;display:flex;gap:8px;flex-wrap:wrap}.election-mode-tab,.candidate-detail-tab,.party-detail-tab{border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.04);color:inherit;border-radius:999px;padding:10px 14px;font-weight:700;cursor:pointer}.election-mode-tab.active,.candidate-detail-tab.active,.party-detail-tab.active{background:#d6ad55;color:#071525;border-color:#d6ad55}#candidateBio .program-card,#candidateControversies .program-card,#partyControversies .program-card,#partyProgram .program-card{grid-column:1/-1}.candidate-detail-tabs,.party-detail-tabs{margin-top:16px}@media(max-width:600px){.election-mode-tabs,.candidate-detail-tabs,.party-detail-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.election-mode-tab,.candidate-detail-tab,.party-detail-tab{width:100%;padding:9px 8px;font-size:.86rem}}
 
 .party-candidates-section{margin:16px 0 22px}.party-candidates-list{max-height:none;border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden}.party-candidate-link{width:100%;text-align:left}.party-candidate-link.withdrawn .candidate-option-name{text-decoration:line-through;opacity:.72}
+
+
+/* v22 - retour à un logo normal après le splash */
+.brand-hero.home-mode{
+  min-height:auto !important;
+  padding:max(20px, env(safe-area-inset-top)) 18px 8px !important;
+  justify-content:center;
+  overflow:visible !important;
+}
+.brand-hero.home-mode::before{display:none !important;}
+.brand-hero.home-mode .app-logo{
+  width:132px !important;
+  height:132px !important;
+  max-width:132px !important;
+  object-fit:contain;
+  filter:drop-shadow(0 14px 24px rgba(0,0,0,.30)) !important;
+}
+.brand-hero.home-mode .brand-copy{
+  margin-top:0 !important;
+  max-width:560px;
+}
+.brand-text-fallback{
+  font-size:1.35rem;
+  font-weight:800;
+  color:#eef7ff;
+  text-align:center;
+  padding:12px 6px;
+}
+@media(max-width:520px){
+  .brand-hero.home-mode{
+    min-height:auto !important;
+    padding-top:max(18px, env(safe-area-inset-top)) !important;
+  }
+  .brand-hero.home-mode .app-logo{
+    width:118px !important;
+    height:118px !important;
+    max-width:118px !important;
+  }
+}
