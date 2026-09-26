@@ -462,6 +462,22 @@ function itemMatchesCountry(item, country = state.country) {
     item.category || ''
   ].join(' '));
 
+  // Noms de pays emboîtés : le fallback textuel ne doit jamais faire remonter
+  // « Soudan du Sud » dans Soudan, « Guinée équatoriale » dans Guinée, etc.
+  const ambiguousExclusions = {
+    'Soudan': ['soudan du sud', 'south sudan'],
+    'Guinée': ['guinee-bissau', 'guinea-bissau', 'guinee equatoriale', 'equatorial guinea', 'papouasie-nouvelle-guinee', 'papua new guinea'],
+    'Guinée-Bissau': ['guinee equatoriale', 'equatorial guinea', 'papouasie-nouvelle-guinee', 'papua new guinea'],
+    'Niger': ['nigeria', 'nigerian', 'nigeriane', 'nigerianes', 'nigerians'],
+    'Dominique': ['republique dominicaine', 'dominican republic'],
+    'Corée du Nord': ['coree du sud', 'south korea'],
+    'Corée du Sud': ['coree du nord', 'north korea'],
+    'Congo (République du)': ['republique democratique du congo', 'democratic republic of congo', 'congo-kinshasa', 'kinshasa', 'rdc', 'drc'],
+    'Congo (RDC)': ['republique du congo', 'republic of congo', 'congo-brazzaville', 'brazzaville']
+  };
+  const exclusions = ambiguousExclusions[country] || [];
+  if (exclusions.some(term => haystack.includes(normalizeText(term)))) return false;
+
   return countryAliases(country).some(alias => {
     if (!alias || alias.length < 3) return false;
     const padded = ` ${haystack} `;
