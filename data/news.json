@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:36:42.941865+02:00",
+  "generated_at": "2026-09-26T17:43:52.236022+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -17672,6 +17672,99 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTkJNcUhSTDFIMldxRHdSLU9qTHh1b2hPMHAxeXEyY1FMRmJEUUhZSE9ZOGtPd084T1ZndTFkUVpMV0JjUkYwVWlLX2lUV0ozTUF1WDFVZmZTQmpXN1pvT193RTQzaGZ5OXJxek5rMmx3ZzRkb2VCRk4zdzBpNXRScnJtWjdxbWlQTHNqUng3alcxM2IwTnc?oc=5",
       "published_at": "2026-09-26T15:46:14+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les nouvelles sanctions américaines contre l'Iran provoquent des annulations de vols",
+      "sources": [
+        "Euronews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeGhob0RnRlRoSFh4XzYtUVY1Q2VQNXJ6ZWZSdkJKdWhnazh4QUxPVXpYYTVuLWV6SVFyTU1hNFVEaGpiSDJhNU5ndTA1Zk5mZHVMNDY0Qno2Ylk4VHl6VmFueV9vdWp2M1FrU24tQU1pN2hzYkRBYW56YkdMYzNFTlR6cUZPLVUzOGJTM0J1bDVJZTQ0c1N6ZmZFVUxqVURncXY5Z1ZpZlhpemdiS3FwNUJIVE5INVQwSEE?oc=5",
+      "published_at": "2026-09-25T10:34:40+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Des pays suspendent les vols iraniens en raison des sanctions américaines",
+      "sources": [
+        "nhk.or.jp"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoY2MtNUpCcTBQSU13M0xubFBFRGFmaWsyNHVlOVhUUVVRbFNDTF85UFZOMHBxMzdKZkZzbWFtSGRxaUdkNExPYlhkZzlUaUYwUzYyekhMY190ZHZtYTQzWXJkdHJ2ejQ?oc=5",
+      "published_at": "2026-09-26T06:01:47+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le chanteur marocain Saad Lamjarred condamné en appel à dix ans de prison pour viol, sa peine alourdie",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPaXdPT21RUW5naEhFaHpRY3VXd2ZrUlNrd1EyajdxZGxvSFlUR25oQUlJQThiSGZndkZLT3NrQlc3a0t0ZFJHM0RKMzJuWTQ2WkMtenZDcEJHbkJsS2F0VV9aYWxrbnZqTURtTzRsMXcycTlidzBqZVNwSTk2SHR1WWRaRFI2UlF4em9faUg4RFhKWHVEZHNjazdMTnVIbjAwNEM2Z1FBOUVEQnUzTlBjS3R4b3kwdlRIczV6Q3F2bXhDV0RtbzctNy0wQWYwbG5xbXpOR19rRkFiMUhENUtYbFBBTXNnbFFIR0JhczBGcm8zRVZwWTlfQmlRV3NTdw?oc=5",
+      "published_at": "2026-09-26T16:43:22+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "26 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Dans le Kent, des partis traditionnels démunis face à la percée des extrêmes droites au Royaume-Uni",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPVU9VNmhZdHhSSmFYaXBVRW9vTDlILTA3YWo5OVk4cmx6V3pGZFE2MTRrRjktYWtISllFUU5pczktODUtLTZQT2E1LTViU0RwVnl1UkFESXVZSFRvZmJVekIyQ1lETEJJOHM5WVlxZnVYdlpXTzBVbFRDTk1nejREcnNSSE1EaXlmWHJfTGZ4TEE4NGh4dVlYN2hoZEQ0amVHTlZveVdGZlN4R0lDQThPRDZ4aXllSlVHalJRR1FQcEtGSDNQVGd4ektpUFBxYXlmczk2bUpDWkFsVm1tVEdBaHRKYlBsR2U5dlJOd3BNUkxsdnRQaGtDSWw2endDS2RFa2c?oc=5",
+      "published_at": "2026-09-26T17:00:07+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Ghana"
+      ],
+      "period": "day",
+      "bucket": "25 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Lisa Quama : quand la danse devient virale au Ghana",
+      "sources": [
+        "DW.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxWTh0VWEtNHozekpYMFlmMEdVcTF6SEE3amM4WUZDVlpvdGJGQnNQbHUxX1JQN2pCeTR6eDNTLUpaOGs0bHRselFSOUxfMUdjX1FTOTlNWmtRLXFDeWx2SEg4Z05VQXk1TFg3SVBuMUl3cmpINHc?oc=5",
+      "published_at": "2026-09-25T17:53:01+02:00",
       "origin": "rss"
     },
     {
