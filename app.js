@@ -360,7 +360,8 @@ function getInternationalDigest() {
   // on repart aussi des événements Jour afin qu'ils restent visibles sans
   // devoir dupliquer physiquement chaque événement dans les données.
   const base = state.data.filter(x => {
-    if (Number(x.score) < 5) return false;
+    // International ne doit jamais afficher une actualité notée sous 7/10.
+    if (Number(x.score) < 7) return false;
     if (state.period === 'day') return x.period === 'day' && x.bucket === state.bucket;
     if (state.period === 'week') {
       if (x.period === 'day') {
