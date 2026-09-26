@@ -11,6 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"/"news.json"
 COUNTRY_COVERAGE=ROOT/"data"/"country-coverage.json"
 MONITOR_STATE=ROOT/"data"/"monitor-state.json"
+PENDING_TRANSLATIONS=ROOT/"data"/"pending-translations.json"
 PARIS=ZoneInfo("Europe/Paris")
 UTC=ZoneInfo("UTC")
 FR_MONTHS=["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
@@ -30,6 +31,18 @@ IMPACT={10:["nuclear war","world war","invasion","state of emergency","coup atte
 CATEGORIES=[("Conflit",["war","missile","strike","attack","military","ceasefire","invasion"]),("Économie",["economy","inflation","gdp","market","rate","bank","budget","debt"]),("Énergie",["oil","gas","energy","lng","opec","pipeline"]),("Diplomatie",["summit","diplomacy","talks","treaty","sanctions"]),("Politique",["election","government","president","minister","parliament"]),("Sécurité",["security","terror","border","cyber"]),("Climat",["climate","flood","wildfire","storm","earthquake"]),("Technologie",["technology","artificial intelligence"," ai ","semiconductor","chip"])]
 EN_WORDS={"the","and","with","from","after","against","says","will","amid","over","into","government","president","minister","election","war","trade","security","talks","deal","attack","military","court","bank","rate","climate"}
 FR_WORDS={"le","la","les","des","du","de","un","une","et","avec","dans","pour","sur","après","contre","gouvernement","président","ministre","élection","guerre","commerce","sécurité"}
+
+COUNTRY_REGIONS={
+ "Europe": {"Albanie","Allemagne","Andorre","Autriche","Belgique","Biélorussie","Bosnie-Herzégovine","Bulgarie","Chypre","Croatie","Danemark","Espagne","Estonie","Finlande","France","Grèce","Hongrie","Irlande","Islande","Italie","Lettonie","Liechtenstein","Lituanie","Luxembourg","Macédoine du Nord","Malte","Moldavie","Monaco","Monténégro","Norvège","Pays-Bas","Pologne","Portugal","Roumanie","Royaume-Uni","Russie","Saint-Marin","Serbie","Slovaquie","Slovénie","Suède","Suisse","Tchéquie","Ukraine","Vatican"},
+ "Asie": {"Afghanistan","Arabie saoudite","Arménie","Azerbaïdjan","Bahreïn","Bangladesh","Bhoutan","Birmanie","Brunei","Cambodge","Chine","Corée du Nord","Corée du Sud","Géorgie","Inde","Indonésie","Irak","Iran","Israël","Japon","Jordanie","Kazakhstan","Kirghizistan","Koweït","Laos","Liban","Malaisie","Maldives","Mongolie","Népal","Oman","Ouzbékistan","Pakistan","Palestine","Philippines","Qatar","Singapour","Sri Lanka","Syrie","Tadjikistan","Thaïlande","Timor oriental","Turkménistan","Turquie","Émirats arabes unis","Vietnam","Yémen"},
+ "Amérique du Nord": {"Antigua-et-Barbuda","Bahamas","Barbade","Belize","Canada","Costa Rica","Cuba","Dominique","États-Unis","Grenade","Guatemala","Haïti","Honduras","Jamaïque","Mexique","Nicaragua","Panama","République dominicaine","Saint-Christophe-et-Niévès","Saint-Vincent-et-les-Grenadines","Sainte-Lucie","Salvador","Trinité-et-Tobago"},
+ "Amérique du Sud": {"Argentine","Bolivie","Brésil","Chili","Colombie","Équateur","Guyana","Paraguay","Pérou","Suriname","Uruguay","Venezuela"},
+ "Afrique": {"Afrique du Sud","Algérie","Angola","Bénin","Botswana","Burkina Faso","Burundi","Cameroun","Cap-Vert","Comores","Congo (RDC)","Congo (République du)","Côte d’Ivoire","Djibouti","Eswatini","Gabon","Gambie","Ghana","Guinée","Guinée-Bissau","Guinée équatoriale","Kenya","Lesotho","Libye","Libéria","Madagascar","Malawi","Mali","Maroc","Maurice","Mauritanie","Mozambique","Namibie","Niger","Nigeria","Ouganda","République centrafricaine","Rwanda","Sao Tomé-et-Principe","Seychelles","Sierra Leone","Somalie","Soudan","Soudan du Sud","Sénégal","Tanzanie","Tchad","Togo","Tunisie","Zambie","Zimbabwe","Égypte","Érythrée","Éthiopie"},
+ "Océanie": {"Australie","Fidji","Kiribati","Micronésie","Nauru","Nouvelle-Zélande","Palaos","Papouasie-Nouvelle-Guinée","Samoa","Tonga","Tuvalu","Vanuatu","Îles Marshall","Îles Salomon"}
+}
+COUNTRY_TO_REGION={country:region for region,countries in COUNTRY_REGIONS.items() for country in countries}
+TRANSLATION_CACHE={}
+PENDING=[]
 
 def fr_date(d): return f"{d.day} {FR_MONTHS[d.month-1]} {d.year}"
 def month_bucket(d): return f"{FR_MONTHS[d.month-1].capitalize()} {d.year}"
@@ -76,6 +89,35 @@ def looks_english(text):
     words=re.findall(r"[a-zà-ÿ]+",(text or "").lower())
     en=sum(w in EN_WORDS for w in words); fr=sum(w in FR_WORDS for w in words)
     return en>=2 and en>fr
+
+def french_summary(text, meta=None):
+    """Traduit/synthétise le titre source en français. Un échec est mis en attente, jamais publié en langue étrangère."""
+    text=re.sub(r"\\s+"," ",text or "").strip()
+    if not text: return None
+    if text in TRANSLATION_CACHE: return TRANSLATION_CACHE[text]
+    params={"client":"gtx","sl":"auto","tl":"fr","dt":"t","q":text}
+    url="https://translate.googleapis.com/translate_a/single?"+urllib.parse.urlencode(params)
+    try:
+        req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/2.1"})
+        with urllib.request.urlopen(req,timeout=15) as r:
+            payload=json.loads(r.read().decode("utf-8","replace"))
+        translated="".join(part[0] for part in payload[0] if part and part[0]).strip()
+        if translated:
+            TRANSLATION_CACHE[text]=translated
+            return translated
+    except Exception as e:
+        print("TRANSLATION",e,file=sys.stderr)
+    if meta is not None:
+        PENDING.append({**meta,"original_summary":text})
+    return None
+
+def regions_for_countries(countries, importance):
+    regs=[]
+    for country in countries:
+        region=COUNTRY_TO_REGION.get(country)
+        if region and region not in regs: regs.append(region)
+    if importance>=7: regs.append("International")
+    return regs
 
 GDELT_DOC="https://api.gdeltproject.org/api/v2/doc/doc"
 GOOGLE_503_COUNT=0
@@ -140,7 +182,7 @@ def google_rss_query(query):
         except: continue
         if dt.tzinfo is None: dt=dt.replace(tzinfo=UTC)
         title,fallback=clean_title(title_el.text or ""); src=(src_el.text if src_el is not None else fallback) or fallback
-        if not trusted_source(src) or looks_english(title): continue
+        if not trusted_source(src): continue
         out.append({"title":title,"source":src,"date":dt,"url":link_el.text if link_el is not None else ""})
     return out
 
@@ -253,17 +295,17 @@ def global_country_discovery(start_date,end_date,countries):
     rows=[]; found=set(); seen=set()
     for art in articles:
         d=editorial_day(art["date"]); title=art.get("title","")
-        if d<start_date or d>end_date or len(title)<22 or looks_english(title): continue
+        if d<start_date or d>end_date or len(title)<22: continue
         matched=[country for country in countries if country_title_matches(country,title)]
         if not matched: continue
         k=(d,key_title(title))
         if not k[1] or k in seen: continue
         seen.add(k); found.update(matched)
         s=score(title)
-        regions=[]
-        # L'événement reste canonique; International est une vue des événements majeurs.
-        if s>=7: regions.append("International")
-        rows.append({"regions":regions,"countries":matched,"period":"day","bucket":fr_date(d),"score":s,"category":category(title),"summary":title,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"global"})
+        summary=french_summary(title,{"countries":matched,"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
+        if not summary: continue
+        regions=regions_for_countries(matched,s)
+        rows.append({"regions":regions,"countries":matched,"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"global"})
     return rows,found
 
 def country_backfill(start_date,end_date,state):
@@ -293,7 +335,7 @@ def country_backfill(start_date,end_date,state):
         # Google News n'est plus la source primaire. Il ne sert qu'aux trous, avec budget et coupe-circuit 429/503.
         # GDELT sert à découvrir les articles, même lorsque le titre est dans une autre langue.
         # Le fallback Google est déclenché tant qu'aucun titre français publiable n'a été trouvé.
-        usable=[a for a in articles if country_title_matches(country,a.get("title","")) and not looks_english(a.get("title",""))]
+        usable=[a for a in articles if country_title_matches(country,a.get("title",""))]
         if (not usable or GDELT_DISABLED) and google_budget>0 and not GOOGLE_DISABLED:
             google_budget-=1
             # Une seule requête large par pays : beaucoup plus rapide et moins exposée aux 429/503
@@ -307,13 +349,14 @@ def country_backfill(start_date,end_date,state):
         for art in articles:
             d=editorial_day(art["date"]); title=art["title"]
             if d<start_date or d>end_date or len(title)<22 or not country_title_matches(country,title): continue
-            # L'application reste francophone : les titres non français de GDELT servent à détecter le pays,
-            # mais ne sont publiés que lorsqu'ils sont déjà exploitables en français.
-            if looks_english(title): continue
             k=(d,key_title(title))
             if not k[1] or k in seen: continue
-            seen.add(k); found.add(country)
-            rows.append({"regions":[],"countries":[country],"period":"day","bucket":fr_date(d),"score":score(title),"category":category(title),"summary":title,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"gdelt" if "GDELT" in source_name(art["source"]) else "rss"})
+            seen.add(k)
+            s=score(title)
+            summary=french_summary(title,{"countries":[country],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
+            if not summary: continue
+            found.add(country)
+            rows.append({"regions":regions_for_countries([country],s),"countries":[country],"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"gdelt" if "GDELT" in source_name(art["source"]) else "rss"})
     return rows,found
 
 def update_country_coverage(found,now):
@@ -375,7 +418,9 @@ def build_generated(start_date,end_date):
                 if d<start_date or d>end_date or len(title)<22: continue
                 k=(d,key_title(title))
                 if not k[1] or k in seen: continue
-                seen.add(k); grouped[d].append({"regions":[region],"period":"day","bucket":fr_date(d),"score":score(title),"category":category(title),"summary":title,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
+                summary=french_summary(title,{"regions":[region],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
+                if not summary: continue
+                seen.add(k); grouped[d].append({"regions":[region],"period":"day","bucket":fr_date(d),"score":score(title),"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
         for d in dict.fromkeys(a for a,_ in ranges):
             rows=sorted(grouped.get(d,[]),key=lambda x:x.get("published_at",""),reverse=True)
             generated.extend(rows)
@@ -427,6 +472,13 @@ def main():
     for m in month_names: coverage[f"month:{m}"]="Toutes les actualités conservées de ce mois"
     out={"generated_at":now.isoformat(),"timezone":"Europe/Paris","window_rule":"Une date couvre de 00h00 à 23h59 heure de Paris.","target_per_region_per_day":60,"buckets":{"day":day_buckets,"week":week_names,"month":month_names},"coverage":coverage,"items":day_items+non_daily_manual}
     DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
+    # Les articles dont la traduction a échoué sont conservés pour un prochain passage.
+    previous_pending=[]
+    if PENDING_TRANSLATIONS.exists():
+        try: previous_pending=json.loads(PENDING_TRANSLATIONS.read_text(encoding="utf-8")).get("items",[])
+        except Exception: previous_pending=[]
+    pending_by_url={x.get("url") or (x.get("date","")+x.get("original_summary","")):x for x in previous_pending+PENDING}
+    PENDING_TRANSLATIONS.write_text(json.dumps({"updated_at":now.isoformat(),"items":list(pending_by_url.values())},ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
     # Reconstituer aussi la couverture à partir de toutes les actualités déjà
     # conservées pour aujourd'hui : un pays trouvé par un lot précédent reste couvert.
     today_bucket=fr_date(now.date())
