@@ -59,10 +59,11 @@ jobs:
           python -m json.tool data/country-coverage.json >/dev/null
           python -m json.tool api/news.json >/dev/null
           python -m json.tool api/status.json >/dev/null
+          python -m json.tool api/index.json >/dev/null
       - name: Enregistrer les nouvelles données
         shell: bash
         run: |
-          if git diff --quiet -- data/news.json data/country-coverage.json data/monitor-state.json api/news.json api/status.json; then
+          if git diff --quiet -- data/news.json data/country-coverage.json data/monitor-state.json api/news.json api/status.json api/index.json api/index.json; then
             echo "Aucun changement"
             exit 0
           fi
