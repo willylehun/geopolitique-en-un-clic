@@ -1063,7 +1063,9 @@ async function loadData() {
     const legacyHourlyFiles = Array.from({ length: 24 }, (_, hour) =>
       'data/hourly-' + hour + '.json'
     );
-    const urls = [
+    // API canonique en priorité. Les anciens fichiers restent en secours pendant la migration.
+    let apiRes = await fetch('api/news.json?v=' + stamp, { cache: 'no-store' }).catch(() => null);
+    const urls = apiRes && apiRes.ok ? [] : [
       'data/news.json',
       'data/hourly.json',
       'data/hourly-archive-2026-09-21.json',
@@ -1080,9 +1082,10 @@ async function loadData() {
       state.electionData = await electionRes.json();
     }
 
-    if (!results[0] || !results[0].ok) throw new Error('data load failed');
+    if ((!apiRes || !apiRes.ok) && (!results[0] || !results[0].ok)) throw new Error('data load failed');
 
     const payloads = [];
+    if (apiRes && apiRes.ok) payloads.push(await apiRes.json());
     for (const res of results) {
       payloads.push(res && res.ok
         ? await res.json()
