@@ -1,39 +1,63 @@
-name: Intégrer la veille présidentielle vérifiée
+name: Veille présidentielle 2027
 
 on:
   push:
     paths:
-      - "scripts/update_election_manual.py"
+      - "scripts/update_election.py"
       - ".github/workflows/election-manual.yml"
+  schedule:
+    # Six passages par heure, décalés de la veille internationale.
+    - cron: "12,22,32,42,52,2 * * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: election-manual-update
+  group: election-update
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: main
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
-          python-version: "3.12"
-      - name: Mettre à jour et valider les données électorales
-        run: python scripts/update_election_manual.py
-      - name: Publier les données vérifiées
+          python-version: "3.13"
+      - name: Collecter la veille présidentielle
+        env:
+          ELECTION_BATCH_SIZE: "6"
+        run: python scripts/update_election.py
+      - name: Valider les sorties
         run: |
-          if git diff --quiet -- data/election.json; then
-            echo "Aucune modification électorale à publier"
+          python -m json.tool data/election.json >/dev/null
+          python -m json.tool data/election-monitor-state.json >/dev/null
+          python -m py_compile scripts/update_election.py
+      - name: Publier les données vérifiées
+        shell: bash
+        run: |
+          if git diff --quiet -- data/election.json data/election-monitor-state.json; then
+            echo "Aucun changement"
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/election.json
-          git commit -m "Mise à jour vérifiée de la veille présidentielle"
-          git push
+          git config user.name "Géopolitique en un Clic"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/election.json data/election-monitor-state.json
+          git commit -m "Mise à jour automatique de la veille présidentielle"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then exit 0; fi
+            else
+              git rebase --abort || true
+              echo "Conflit réel pendant la synchronisation avec main."
+              exit 1
+            fi
+            sleep 5
+          done
+          echo "Impossible de publier après 3 tentatives."
+          exit 1
