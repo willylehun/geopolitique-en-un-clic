@@ -6,8 +6,8 @@ on:
       - "scripts/update_election.py"
       - ".github/workflows/election-manual.yml"
   schedule:
-    # Six passages par heure, décalés de la veille internationale.
-    - cron: "12,22,32,42,52,2 * * * *"
+    # Décalée de la veille internationale pour éviter deux collectes simultanées.
+    - cron: "37 * * * *"
   workflow_dispatch:
 
 permissions:
