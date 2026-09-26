@@ -72,13 +72,13 @@ jobs:
       - name: Enregistrer les nouvelles données
         shell: bash
         run: |
-          if git diff --quiet -- data/news.json data/country-coverage.json data/monitor-state.json api/news.json api/status.json api/index.json api/latest.json api/days; then
+          if git diff --quiet -- data/news.json data/country-coverage.json data/monitor-state.json data/pending-translations.json api/news.json api/status.json api/index.json api/latest.json api/days; then
             echo "Aucun changement"
             exit 0
           fi
           git config user.name "Géopolitique en un Clic"
           git config user.email "actions@users.noreply.github.com"
-          git add data/news.json data/country-coverage.json data/monitor-state.json api/news.json api/status.json api/index.json api/latest.json api/days
+          git add data/news.json data/country-coverage.json data/monitor-state.json data/pending-translations.json api/news.json api/status.json api/index.json api/latest.json api/days
           git commit -m "Mise à jour automatique de la veille"
           # Une autre mise à jour (veille électorale, correction manuelle, etc.) peut
           # avoir avancé main pendant la collecte. Rejouer notre commit au-dessus de
