@@ -463,7 +463,10 @@ def build_generated(start_date,end_date):
                 if not k[1] or k in seen: continue
                 summary=french_summary(title,{"regions":[region],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
                 if not summary: continue
-                seen.add(k); grouped[d].append({"regions":[region],"period":"day","bucket":fr_date(d),"score":score(title),"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
+                importance=score(title)
+                # International est strictement réservé aux événements d’importance >= 7.
+                if region=="International" and importance<7: continue
+                seen.add(k); grouped[d].append({"regions":[region],"period":"day","bucket":fr_date(d),"score":importance,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
         for d in dict.fromkeys(a for a,_ in ranges):
             rows=sorted(grouped.get(d,[]),key=lambda x:x.get("published_at",""),reverse=True)
             generated.extend(rows)
