@@ -74,6 +74,14 @@ def election_score(text):
 def score(text):
     """Importance géopolitique 1-10, calculée sur le texte français quand disponible."""
     t=" "+(text or "").lower()+" "
+    # Culture, célébrités et décès sans conséquence publique majeure restent hors
+    # de la hiérarchie géopolitique. Exception : dirigeant en exercice, conflit,
+    # assassinat/attaque politique ou implication directe/documentée de l'État.
+    death_terms=(" décès "," mort "," meurt "," décède "," décédé "," décédée "," died "," death ")
+    culture_terms=(" actrice "," acteur "," chanteur "," chanteuse "," artiste "," écrivain "," écrivaine "," réalisateur "," réalisatrice "," musicien "," musicienne "," célébrité "," cinéma "," culture ")
+    geopolitical_death=(" président en exercice "," présidente en exercice "," premier ministre en exercice "," chef d'état "," chef d’état "," conflit "," guerre "," frappe "," attaque "," assassinat "," assassiné "," assassinée "," état responsable "," gouvernement responsable "," forces de sécurité "," armée ")
+    if any(w in t for w in death_terms) and any(w in t for w in culture_terms) and not any(w in t for w in geopolitical_death):
+        return 2
     hits=[]
     for level,words in IMPACT.items():
         count=sum(1 for w in words if w in t)
