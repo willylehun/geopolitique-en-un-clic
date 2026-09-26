@@ -38,6 +38,12 @@ jobs:
           # Veille normale : uniquement la journée civile courante (Europe/Paris).
           # La rotation couvre les 195 pays au fil des passages.
           echo "backfill=0" >> "$GITHUB_OUTPUT"
+          paris_date="$(TZ=Europe/Paris date +%F)"
+          if [ "$paris_date" = "2026-09-26" ]; then
+            echo "include_previous_day=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "include_previous_day=0" >> "$GITHUB_OUTPUT"
+          fi
       - name: Construire la veille
         env:
           BACKFILL_MONTH: ${{ steps.mode.outputs.backfill }}
