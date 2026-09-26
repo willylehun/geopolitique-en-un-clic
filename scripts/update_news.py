@@ -55,6 +55,14 @@ def month_bucket(d): return f"{FR_MONTHS[d.month-1].capitalize()} {d.year}"
 def week_bucket(d):
     mon=d-timedelta(days=d.weekday()); sun=mon+timedelta(days=6)
     return f"Semaine du {fr_date(mon)} au {fr_date(sun)}"
+def is_french_2027_presidential(text):
+    """Isole la campagne présidentielle française 2027 de la veille géopolitique générale."""
+    t=" "+(text or "").lower()+" "
+    france=("france" in t or "français" in t or "française" in t)
+    presidential=("présidentielle" in t or "présidentiel" in t or "présidence" in t)
+    campaign=("2027" in t or "candidat" in t or "candidature" in t or "primaire" in t or "programme" in t)
+    return france and presidential and campaign
+
 def score(text):
     """Importance géopolitique 1-10, calculée sur le texte français quand disponible."""
     t=" "+(text or "").lower()+" "
@@ -506,6 +514,9 @@ def main():
         k=(x.get("bucket"),tuple(x.get("regions",[])),key_title(x.get("summary","")))
         if k not in existing: fresh.append(x); existing.add(k)
     day_items=old_daily+fresh
+    # La campagne présidentielle française 2027 appartient exclusivement à
+    # data/election.json : elle ne doit jamais alimenter Pays/continents/International.
+    day_items=[x for x in day_items if not is_french_2027_presidential(x.get("summary",""))]
     # Réappliquer la grille courante à tout l'historique Jour à chaque cycle.
     # Les pays déterminent leur continent ; International est ajouté/retiré
     # automatiquement selon la nouvelle note (>= 7), sans supprimer l'article.
@@ -514,6 +525,10 @@ def main():
         y=dict(x)
         summary=y.get("summary","")
         y["score"]=score(summary)
+        # Une élection nationale d'un dirigeant est un événement international majeur.
+        election_terms=("élection présidentielle","élections présidentielles","élection nationale","élections législatives","nouveau président","nouvelle présidente","élu président","élue présidente","nouveau premier ministre","nouvelle première ministre")
+        if any(term in summary.lower() for term in election_terms):
+            y["score"]=max(y["score"],9 if any(term in summary.lower() for term in ("nouveau président","nouvelle présidente","élu président","élue présidente","nouveau premier ministre","nouvelle première ministre")) else 8)
         regs=[r for r in list(y.get("regions",[]) or []) if r!="International"]
         countries=list(y.get("countries",[]) or [])
         if countries:
