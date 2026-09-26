@@ -984,7 +984,7 @@ function renderNews() {
     raw = getInternationalDigest();
   } else {
     raw = sortItems(state.data.filter(x => {
-      if (!itemMatchesRegion(x) || x.score < 5) return false;
+      if (!itemMatchesRegion(x) || x.score < (state.region === 'International' ? 7 : 5)) return false;
       if (state.period === 'week') {
         if (x.period === 'day') {
           const ts=bucketDateValue(x.bucket);
