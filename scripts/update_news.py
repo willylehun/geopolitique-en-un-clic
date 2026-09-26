@@ -27,7 +27,14 @@ REGIONS={
 }
 IMPACT_QUERY="war OR conflict OR sanctions OR election OR inflation OR oil OR gas OR trade OR tariffs OR security OR central bank OR diplomacy OR military OR government OR economy OR climate OR energy OR technology OR migration"
 SOURCE_LABELS=["Reuters","Associated Press","AP News","BBC","France 24","DW","Al Jazeera","Financial Times","The Economist","The Guardian","Euronews","POLITICO","Le Monde","AFP","NHK","Japan Times","Nikkei Asia","CNA","Channel NewsAsia","The Straits Times","Yonhap","The Korea Herald","The Hindu","The Indian Express","Dawn","The Jakarta Post","Kompas","Tempo","Bangkok Post","Focus Taiwan","Taipei Times","Rappler","The New York Times","The Washington Post","The Wall Street Journal","NPR","PBS NewsHour","ProPublica","Axios","Los Angeles Times","CBS News","CBC","The Globe and Mail","CTV News","El Universal","Folha","O Globo","Estadão","Agência Brasil","La Nación","Clarín","El Tiempo","El Espectador","El Comercio","La Tercera","News24","Daily Maverick","Mail & Guardian","SABC News","Nation Africa","The EastAfrican","Premium Times","Channels Television","Jeune Afrique","Africa Check","ABC News","ABC Australia","SBS News","Sydney Morning Herald","The Age","Australian Financial Review","RNZ","New Zealand Herald","Stuff","Newsroom","Daily Nation","The Standard Kenya","Citizen Digital","Monitor Uganda","The Independent Uganda","The Namibian","Namibian Sun","Mmegi","Zambia Daily Mail","Lusaka Times","The Herald Zimbabwe","NewsDay Zimbabwe","Agence Ivoirienne de Presse","Fraternité Matin","Cameroon Tribune","CRTV","Radio Okapi","Actualite.cd","Agence Nigérienne de Presse","Le Sahel","Sidwaya","L’Observateur Paalga","Inforpress","Seychelles News Agency","Seychelles Broadcasting Corporation","Kuensel","Kathmandu Post","The Himalayan Times","Maldives Independent","Daily Mirror Sri Lanka","Khaama Press","TOLOnews","UzA","AzerNews","Trend News Agency","Reforma","Excélsior","El Financiero","Prensa Libre","La Prensa Nicaragua","La Nación Costa Rica","La Estrella de Panamá","Listín Diario","Jamaica Gleaner","Trinidad and Tobago Guardian","Stabroek News","Kaieteur News","El Observador","El País Uruguay","ABC Color","Última Hora Paraguay","La República Perú","El Universo","Primicias","Fiji Times","Fiji Broadcasting Corporation","FBC News","NBC PNG","Post-Courier","The National PNG","Samoa Observer","Matangi Tonga","Solomon Star","SIBC","Vanuatu Daily Post","VBTC"]
-IMPACT={10:["nuclear war","world war","invasion","state of emergency","coup attempt"],9:["missile","airstrike","air strike","war","sanctions","central bank","rate hike","rate cut","ceasefire","military attack","tariff","default","earthquake"],8:["strike","conflict","election","inflation","interest rate","trade war","oil","gas","military","security","summit","embargo","currency","recession","gdp","defence","defense"],7:["government","president","prime minister","parliament","diplomacy","trade","energy","bank","budget","protest","border","climate","flood","wildfire","technology"," ai "],6:["economy","economic","market","investment","export","import","migration","health","disease","infrastructure","shipping","food","agriculture"]}
+IMPACT={
+ 10:["guerre nucléaire","guerre mondiale","emploi de l’arme nucléaire","attaque nucléaire","invasion générale","coup d’état réussi","renversement du gouvernement","nuclear war","world war"],
+ 9:["guerre","invasion","frappe aérienne","frappe de missile","attaque militaire","cessez-le-feu","mobilisation militaire","état d’urgence","coup d’état","sanctions internationales","défaut souverain","séisme majeur","missile","airstrike","ceasefire","military attack","sanctions"],
+ 8:["conflit armé","élection présidentielle","élections législatives","élection nationale","inflation","taux directeur","banque centrale","récession","embargo","sommet international","accord de paix","traité","crise politique","crise diplomatique","crise énergétique","pétrole","gaz","défense","sécurité nationale","tarifs douaniers","droits de douane","conflict","election","interest rate","central bank","recession","summit","embargo","oil","gas"],
+ 7:["gouvernement","président","premier ministre","parlement","diplomatie","commerce international","budget de l’état","manifestation","frontière","migration","énergie","climat","inondation","incendie","catastrophe naturelle","cyberattaque","intelligence artificielle","technologie stratégique","accord commercial","government","president","prime minister","parliament","diplomacy","trade","energy","protest","border","climate","flood","wildfire","cyberattack"],
+ 6:["économie","marché","investissement","exportation","importation","santé publique","épidémie","infrastructure","transport maritime","agriculture","justice","economic","market","investment","export","import","health","disease","infrastructure","shipping","agriculture"],
+ 5:["politique locale","administration","entreprise","société","politics","business","society"]
+}
 CATEGORIES=[("Conflit",["war","missile","strike","attack","military","ceasefire","invasion"]),("Économie",["economy","inflation","gdp","market","rate","bank","budget","debt"]),("Énergie",["oil","gas","energy","lng","opec","pipeline"]),("Diplomatie",["summit","diplomacy","talks","treaty","sanctions"]),("Politique",["election","government","president","minister","parliament"]),("Sécurité",["security","terror","border","cyber"]),("Climat",["climate","flood","wildfire","storm","earthquake"]),("Technologie",["technology","artificial intelligence"," ai ","semiconductor","chip"])]
 EN_WORDS={"the","and","with","from","after","against","says","will","amid","over","into","government","president","minister","election","war","trade","security","talks","deal","attack","military","court","bank","rate","climate"}
 FR_WORDS={"le","la","les","des","du","de","un","une","et","avec","dans","pour","sur","après","contre","gouvernement","président","ministre","élection","guerre","commerce","sécurité"}
@@ -49,11 +56,23 @@ def month_bucket(d): return f"{FR_MONTHS[d.month-1].capitalize()} {d.year}"
 def week_bucket(d):
     mon=d-timedelta(days=d.weekday()); sun=mon+timedelta(days=6)
     return f"Semaine du {fr_date(mon)} au {fr_date(sun)}"
-def score(title):
-    t=" "+title.lower()+" "
-    for s in sorted(IMPACT,reverse=True):
-        if any(w in t for w in IMPACT[s]): return s
-    return 5
+def score(text):
+    """Importance géopolitique 1-10, calculée sur le texte français quand disponible."""
+    t=" "+(text or "").lower()+" "
+    hits=[]
+    for level,words in IMPACT.items():
+        count=sum(1 for w in words if w in t)
+        if count:
+            hits.append((level,count))
+    if not hits:
+        return 4
+    highest=max(level for level,_ in hits)
+    # Plusieurs signaux concordants peuvent relever d'un point un sujet déjà important,
+    # sans transformer artificiellement une actualité mineure en crise mondiale.
+    signal_count=sum(count for level,count in hits if level>=6)
+    if highest in (6,7,8) and signal_count>=3:
+        highest+=1
+    return min(10,highest)
 def category(title):
     t=" "+title.lower()+" "
     for cat,words in CATEGORIES:
@@ -340,9 +359,9 @@ def global_country_discovery(start_date,end_date,countries):
         k=(d,key_title(title))
         if not k[1] or k in seen: continue
         seen.add(k); found.update(matched)
-        s=score(title)
         summary=french_summary(title,{"countries":matched,"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
         if not summary: continue
+        s=score(summary)
         regions=regions_for_countries(matched,s)
         rows.append({"regions":regions,"countries":matched,"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"global"})
     return rows,found
@@ -391,9 +410,9 @@ def country_backfill(start_date,end_date,state):
             k=(d,key_title(title))
             if not k[1] or k in seen: continue
             seen.add(k)
-            s=score(title)
             summary=french_summary(title,{"countries":[country],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
             if not summary: continue
+            s=score(summary)
             found.add(country)
             rows.append({"regions":regions_for_countries([country],s),"countries":[country],"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"gdelt" if "GDELT" in source_name(art["source"]) else "rss"})
     return rows,found
