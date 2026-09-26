@@ -37,7 +37,8 @@ jobs:
         run: |
           # Veille normale : uniquement la journée civile courante (Europe/Paris).
           # La rotation couvre les 195 pays au fil des passages.
-          echo "backfill=0" >> "$GITHUB_OUTPUT"
+          # Rattrapage exceptionnel : reconstruire septembre sans supprimer l'historique existant.
+          echo "backfill=1" >> "$GITHUB_OUTPUT"
           paris_date="$(TZ=Europe/Paris date +%F)"
           if [ "$paris_date" = "2026-09-26" ]; then
             echo "include_previous_day=1" >> "$GITHUB_OUTPUT"
