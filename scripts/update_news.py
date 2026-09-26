@@ -227,21 +227,49 @@ def country_title_matches(country,title):
     }
     return any(x in t for x in hints.get(country,[country.lower()]))
 
+def global_country_discovery(start_date,end_date,countries):
+    """Collecte mutualisée : quelques flux mondiaux, puis classification locale vers les 195 pays."""
+    articles=[]
+    queries=[
+      "(government OR election OR diplomacy OR economy OR security OR conflict)",
+      "(climate OR disaster OR energy OR health OR justice OR migration)",
+    ]
+    # Google News est volontairement mutualisé : deux appels pour tout le monde, pas 195.
+    if not GOOGLE_DISABLED:
+        for q in queries:
+            try: articles.extend(google_rss_query(q+" when:1d"))
+            except Exception as e: print("GOOGLE GLOBAL",e,file=sys.stderr)
+    if not GDELT_DISABLED:
+        for q in queries:
+            try: articles.extend(gdelt_query(q,250,start_date,end_date))
+            except Exception as e: print("GDELT GLOBAL",e,file=sys.stderr)
+    rows=[]; found=set(); seen=set()
+    for art in articles:
+        d=editorial_day(art["date"]); title=art.get("title","")
+        if d<start_date or d>end_date or len(title)<22 or looks_english(title): continue
+        matched=[country for country in countries if country_title_matches(country,title)]
+        if not matched: continue
+        k=(d,key_title(title))
+        if not k[1] or k in seen: continue
+        seen.add(k); found.update(matched)
+        s=score(title)
+        regions=[]
+        # L'événement reste canonique; International est une vue des événements majeurs.
+        if s>=7: regions.append("International")
+        rows.append({"regions":regions,"countries":matched,"period":"day","bucket":fr_date(d),"score":s,"category":category(title),"summary":title,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"global"})
+    return rows,found
+
 def country_backfill(start_date,end_date,state):
     rows=[]; found=set()
     themes=["politique OR diplomatie OR gouvernement OR élection OR économie OR sécurité OR conflit OR défense OR migration OR climat OR santé OR société OR justice OR environnement OR catastrophe OR énergie OR technologie OR coopération"]
     all_countries=load_target_countries()
+    # Collecte mondiale mutualisée en premier : tous les pays sont traités de manière égale.
+    global_rows,global_found=global_country_discovery(start_date,end_date,all_countries)
+    rows.extend(global_rows); found.update(global_found)
     # Traitement par petits lots persistants : chaque run écrit son lot avant que le suivant ne soit traité.
-    # Les pays encore sans actualité du jour restent prioritaires.
+    # Le lot ciblé complète la collecte mondiale sans priorité liée au niveau de couverture.
     batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","10") or "10"))
-    try:
-        coverage_data=json.loads(COUNTRY_COVERAGE.read_text(encoding="utf-8"))
-        missing=list(coverage_data.get("missing_countries",[]))
-    except Exception:
-        missing=[]
-    # Reprendre d'abord les pays dont les données n'ont pas été écrites,
-    # puis conserver les 195 pays dans la rotation continue.
-    ordered=list(dict.fromkeys(missing+all_countries))
+    ordered=list(all_countries)
     if ordered:
         offset=int(state.get("country_cursor",0))%len(ordered)
         countries=(ordered+ordered)[offset:offset+min(batch_size,len(ordered))]
