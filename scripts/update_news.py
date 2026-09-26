@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json, os, re, sys, time, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
 from datetime import datetime, timedelta, time as dtime
 from email.utils import parsedate_to_datetime
@@ -235,14 +236,16 @@ def global_country_discovery(start_date,end_date,countries):
       "(climate OR disaster OR energy OR health OR justice OR migration)",
     ]
     # Google News est volontairement mutualisé : deux appels pour tout le monde, pas 195.
-    if not GOOGLE_DISABLED:
-        for q in queries:
-            try: articles.extend(google_rss_query(q+" when:1d"))
-            except Exception as e: print("GOOGLE GLOBAL",e,file=sys.stderr)
-    if not GDELT_DISABLED:
-        for q in queries:
-            try: articles.extend(gdelt_query(q,250,start_date,end_date))
-            except Exception as e: print("GDELT GLOBAL",e,file=sys.stderr)
+    # Les fournisseurs sont interrogés en parallèle. Une source lente ne bloque plus les autres.
+    jobs=[]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        if not GOOGLE_DISABLED:
+            jobs += [(pool.submit(google_rss_query,q+" when:1d"),"GOOGLE GLOBAL") for q in queries]
+        if not GDELT_DISABLED:
+            jobs += [(pool.submit(gdelt_query,q,250,start_date,end_date),"GDELT GLOBAL") for q in queries]
+        for future,label in jobs:
+            try: articles.extend(future.result())
+            except Exception as e: print(label,e,file=sys.stderr)
     rows=[]; found=set(); seen=set()
     for art in articles:
         d=editorial_day(art["date"]); title=art.get("title","")
