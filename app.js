@@ -1063,11 +1063,9 @@ async function loadData() {
     const legacyHourlyFiles = Array.from({ length: 24 }, (_, hour) =>
       'data/hourly-' + hour + '.json'
     );
-    // Chargement rapide : la journée courante d'abord. L'API complète reste le secours compatible historique.
-    let apiRes = await fetch('api/latest.json?v=' + stamp, { cache: 'no-store' }).catch(() => null);
-    if (!apiRes || !apiRes.ok) {
-      apiRes = await fetch('api/news.json?v=' + stamp, { cache: 'no-store' }).catch(() => null);
-    }
+    // L'interface Jour/Semaine/Mois doit conserver tout l'historique.
+    // latest.json sert au rafraîchissement rapide, mais news.json reste la source complète.
+    let apiRes = await fetch('api/news.json?v=' + stamp, { cache: 'no-store' }).catch(() => null);
     const urls = apiRes && apiRes.ok ? [] : [
       'data/news.json',
       'data/hourly.json',
