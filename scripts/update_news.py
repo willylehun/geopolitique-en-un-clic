@@ -275,7 +275,7 @@ def update_country_coverage(found,now):
     data["covered_countries"]=covered; data["missing_countries"]=missing
     data["covered_count"]=len(covered); data["missing_count"]=len(missing); data["updated_at"]=now.isoformat()
     data["rule"]="Couverture cumulative sur la journée civile Europe/Paris : les 195 pays restent dans la rotation ; covered = au moins une actualité du jour publiée ; missing = pays sans actualité publiée à cet instant. Plusieurs articles distincts par pays sont autorisés."
-    COUNTRY_COVERAGE.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    COUNTRY_COVERAGE.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 def parse_bucket_date(bucket):
     months={m:i+1 for i,m in enumerate(FR_MONTHS)}; m=re.match(r"(\d+)\s+(\w+)\s+(\d{4})",bucket or "")
