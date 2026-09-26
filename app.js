@@ -1163,7 +1163,7 @@ $('#partyPickerButton').onclick = () => { const d=$('#partyDropdown'); d.hidden=
 $('#partySearch').addEventListener('input', e => renderPartyList(e.target.value));
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js');
+  navigator.serviceWorker.register('sw.js?v=22');
 }
 
 loadData();
