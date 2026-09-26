@@ -250,6 +250,22 @@ def save_monitor_state(state, now, country_step=0, day_step=0):
 
 def country_title_matches(country,title):
     t=(title or "").lower()
+    # Les États aux noms emboîtés sont validés du plus spécifique au plus général.
+    # Une mention explicite d'un autre État de la même famille interdit le classement générique.
+    family_exclusions={
+      "Soudan":["soudan du sud","south sudan"],
+      "Soudan du Sud":[],
+      "Guinée":["guinée-bissau","guinea-bissau","guinée équatoriale","equatorial guinea","papouasie-nouvelle-guinée","papua new guinea"],
+      "Guinée-Bissau":["guinée équatoriale","equatorial guinea","papouasie-nouvelle-guinée","papua new guinea"],
+      "Guinée équatoriale":["papouasie-nouvelle-guinée","papua new guinea"],
+      "Niger":["nigeria","nigerian","nigériane","nigérian","nigérians","nigérianes"],
+      "Dominique":["république dominicaine","dominican republic"],
+      "Corée du Nord":["corée du sud","south korea"],
+      "Corée du Sud":["corée du nord","north korea"],
+      "Congo (République du)":["république démocratique du congo","democratic republic of congo","rdc","dr congo","drc","kinshasa"],
+      "Congo (RDC)":["république du congo","republic of congo","congo-brazzaville","brazzaville"],
+    }
+    if any(x in t for x in family_exclusions.get(country,[])): return False
     # Empêcher les faux positifs les plus dangereux entre États aux noms proches.
     exclusions={
       "Soudan":["soudan du sud","south sudan"], "Niger":["nigeria","nigerian"],
@@ -269,6 +285,29 @@ def country_title_matches(country,title):
       "Dominique":["dominique","dominica","roseau"],"République dominicaine":["république dominicaine","dominican republic","santo domingo"],
     }
     return any(x in t for x in hints.get(country,[country.lower()]))
+
+def disambiguate_countries(countries,title):
+    """Reclasse les familles de noms ambigus sans confondre un État avec un autre."""
+    matched=[c for c in countries if country_title_matches(c,title)]
+    # Un seul membre d'une famille géographique ambiguë est conservé, sauf article
+    # mentionnant explicitement plusieurs États complets.
+    families=[
+      ["Soudan du Sud","Soudan"],
+      ["Papouasie-Nouvelle-Guinée","Guinée équatoriale","Guinée-Bissau","Guinée"],
+      ["Nigeria","Niger"],
+      ["République dominicaine","Dominique"],
+      ["Corée du Nord","Corée du Sud"],
+      ["Congo (RDC)","Congo (République du)"],
+    ]
+    for family in families:
+        present=[c for c in family if c in matched]
+        if len(present)>1:
+            # country_title_matches contient les exclusions ; si plusieurs restent,
+            # conserver les mentions réellement explicites plutôt que le terme court.
+            explicit=[c for c in present if country_title_matches(c,title)]
+            for c in present:
+                if c not in explicit: matched.remove(c)
+    return list(dict.fromkeys(matched))
 
 def global_country_discovery(start_date,end_date,countries):
     """Collecte mutualisée : quelques flux mondiaux, puis classification locale vers les 195 pays."""
@@ -296,7 +335,7 @@ def global_country_discovery(start_date,end_date,countries):
     for art in articles:
         d=editorial_day(art["date"]); title=art.get("title","")
         if d<start_date or d>end_date or len(title)<22: continue
-        matched=[country for country in countries if country_title_matches(country,title)]
+        matched=disambiguate_countries(countries,title)
         if not matched: continue
         k=(d,key_title(title))
         if not k[1] or k in seen: continue
