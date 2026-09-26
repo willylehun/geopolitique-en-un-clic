@@ -536,7 +536,7 @@ def main():
         summary=y.get("summary","")
         y["score"]=score(summary)
         # Une élection nationale d'un dirigeant est un événement international majeur.
-y["score"]=max(y["score"],election_score(summary))
+        y["score"]=max(y["score"],election_score(summary))
         regs=[r for r in list(y.get("regions",[]) or []) if r!="International"]
         countries=list(y.get("countries",[]) or [])
         if countries:
