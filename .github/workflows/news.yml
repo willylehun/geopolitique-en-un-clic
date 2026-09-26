@@ -41,6 +41,7 @@ jobs:
       - name: Construire la veille
         env:
           BACKFILL_MONTH: ${{ steps.mode.outputs.backfill }}
+          INCLUDE_PREVIOUS_DAY: ${{ steps.mode.outputs.include_previous_day }}
           FETCH_MULTIPLIER: "8"
           REGION_FETCH_MULTIPLIER: "6"
           COUNTRY_BATCH_SIZE: "20"
