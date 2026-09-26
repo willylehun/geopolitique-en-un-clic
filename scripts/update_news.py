@@ -481,7 +481,7 @@ def build_generated(start_date,end_date):
                 if not k[1] or k in seen: continue
                 summary=french_summary(title,{"regions":[region],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
                 if not summary: continue
-                importance=score(title)
+                importance=score(summary)
                 # International est strictement réservé aux événements d’importance >= 7.
                 if region=="International" and importance<7: continue
                 seen.add(k); grouped[d].append({"regions":[region],"period":"day","bucket":fr_date(d),"score":importance,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
@@ -506,19 +506,27 @@ def main():
         k=(x.get("bucket"),tuple(x.get("regions",[])),key_title(x.get("summary","")))
         if k not in existing: fresh.append(x); existing.add(k)
     day_items=old_daily+fresh
-    # Garde-fous d'affichage appliqués aussi à l'historique existant :
-    # aucun texte anglais publié et International réservé aux scores >= 7.
-    cleaned=[]
+    # Réappliquer la grille courante à tout l'historique Jour à chaque cycle.
+    # Les pays déterminent leur continent ; International est ajouté/retiré
+    # automatiquement selon la nouvelle note (>= 7), sans supprimer l'article.
+    rescored=[]
     for x in day_items:
-        if looks_english(x.get("summary","")):
-            continue
         y=dict(x)
-        regs=list(y.get("regions",[]) or [])
-        if int(y.get("score",0) or 0)<7:
+        summary=y.get("summary","")
+        y["score"]=score(summary)
+        regs=[r for r in list(y.get("regions",[]) or []) if r!="International"]
+        countries=list(y.get("countries",[]) or [])
+        if countries:
+            for region in regions_for_countries(countries,y["score"]):
+                if region not in regs:
+                    regs.append(region)
+        elif y["score"]>=7 and "International" in (x.get("regions",[]) or []):
+            regs.append("International")
+        if y["score"]<7:
             regs=[r for r in regs if r!="International"]
         y["regions"]=regs
-        cleaned.append(y)
-    day_items=cleaned
+        rescored.append(y)
+    day_items=rescored
     non_daily_manual=[x for x in old.get("items",[]) if x.get("period")!="day" and x.get("origin") not in ("rss","gdelt")]
     by_region=defaultdict(list)
     for x in day_items:
