@@ -688,7 +688,7 @@ function renderPartyCandidates() {
   if(!p || !box) return;
   const candidates=(state.electionData?.candidates||[]).filter(c=>(p.candidate_ids||[]).includes(c.id));
   box.innerHTML=candidates.length ? candidates.map(c=>`
-    <button type="button" class="candidate-option party-candidate-link ${c.status==='withdrawn'?'withdrawn':''}" data-party-candidate="${escapeHtml(c.id)}">
+    <button type="button" class="candidate-option party-candidate-link ${['withdrawn','removed'].includes(c.status)?'withdrawn':''}" data-party-candidate="${escapeHtml(c.id)}">
       <span class="candidate-option-name"><strong>${escapeHtml(c.name)}</strong></span>
       <span class="candidate-option-status">${escapeHtml(c.status_label||'')}</span>
     </button>`).join('') : '<div class="country-no-result">Aucun candidat relié actuellement.</div>';
@@ -713,13 +713,8 @@ function candidateLabel(candidate) {
 }
 
 function isCandidateVisible(candidate) {
-  if (candidate.status !== 'withdrawn') return true;
-  if (!candidate.withdrawn_at) return true;
-  const today = parisTodayISO();
-  const start = new Date(candidate.withdrawn_at + 'T12:00:00Z');
-  const end = new Date(today + 'T12:00:00Z');
-  const ageDays = Math.floor((end - start) / 86400000);
-  return ageDays < 7;
+  // Les candidats sortis de la course restent visibles définitivement.
+  return Boolean(candidate);
 }
 
 function renderCandidateList(query = '') {
@@ -743,7 +738,7 @@ function renderCandidateList(query = '') {
   }
 
   list.innerHTML = candidates.map(candidate => `
-    <button type="button" class="candidate-option ${candidate.status === 'withdrawn' ? 'withdrawn' : ''}" data-candidate="${escapeHtml(candidate.id)}">
+    <button type="button" class="candidate-option ${['withdrawn','removed'].includes(candidate.status) ? 'withdrawn' : ''}" data-candidate="${escapeHtml(candidate.id)}">
       <span class="candidate-option-name">${escapeHtml(candidate.name)} <small>(${escapeHtml(candidate.party)})</small></span>
       <span class="candidate-option-status">${escapeHtml(candidate.status_label || '')}</span>
     </button>
