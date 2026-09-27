@@ -98,15 +98,14 @@ function regionMeta(name) {
 }
 
 function itemDateValue(item) {
-  // La date civile du bucket Jour est la référence canonique de l'événement.
-  // _loadedAt correspond seulement à la date de chargement/génération du fichier
-  // et ne doit jamais remplacer la vraie date d'une actualité historique.
+  // Pour l'ordre chronologique, utiliser l'horodatage réel de publication.
+  // Le bucket Jour reste le secours canonique pour les anciennes entrées sans heure.
+  const published = Date.parse(item?.published_at || '');
+  if (published) return published;
   if (item?.period === 'day') {
     const day = bucketDateValue(item.bucket);
     if (day) return day;
   }
-  const published = Date.parse(item?.published_at || '');
-  if (published) return published;
   return 0;
 }
 
@@ -123,14 +122,12 @@ function shortNewsDate(item) {
 }
 
 function sortItems(items) {
-  return [...items].sort((a, b) => {
-    const ta = itemDateValue(a);
-    const tb = itemDateValue(b);
-    if (state.period === 'week' || state.period === 'month') {
-      return (tb - ta) || (b.score - a.score) || a.summary.localeCompare(b.summary, 'fr');
-    }
-    return (b.score - a.score) || (tb - ta) || a.summary.localeCompare(b.summary, 'fr');
-  });
+  // Jour, Semaine et Mois : toujours du plus récent au plus ancien.
+  // La note d'importance ne doit jamais modifier l'ordre d'affichage.
+  return [...items].sort((a, b) =>
+    (itemDateValue(b) - itemDateValue(a))
+    || String(a.summary || '').localeCompare(String(b.summary || ''), 'fr')
+  );
 }
 
 function articleLinks(item) {
