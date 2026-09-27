@@ -1198,7 +1198,7 @@ $('#partyPickerButton').onclick = () => { const d=$('#partyDropdown'); d.hidden=
 $('#partySearch').addEventListener('input', e => renderPartyList(e.target.value));
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js?v=33').catch(error => console.warn('Service worker:', error));
+  navigator.serviceWorker.register('sw.js?v=34').catch(error => console.warn('Service worker:', error));
 }
 
 loadData();
