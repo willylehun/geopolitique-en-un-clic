@@ -39,6 +39,28 @@ jobs:
           test -x "$SDKMANAGER" || { echo "sdkmanager introuvable"; exit 1; }
           yes | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0"
+      - name: Vérifier Digital Asset Links public
+        shell: bash
+        run: |
+          ASSETLINKS_URL="https://willylehun.github.io/.well-known/assetlinks.json"
+          curl --fail --silent --show-error --location "$ASSETLINKS_URL" -o "$RUNNER_TEMP/assetlinks.json"
+          python - <<'PY'
+          import json, os, pathlib
+          path = pathlib.Path(os.environ["RUNNER_TEMP"]) / "assetlinks.json"
+          data = json.loads(path.read_text(encoding="utf-8"))
+          package = "com.willylehun.geopolitiqueenunclic"
+          fingerprint = "F0:96:FD:D7:F5:BD:59:EF:41:56:A4:9C:20:D0:85:2B:C0:F5:14:5C:EC:7A:FD:AB:35:7A:8B:31:F5:59:10:46"
+          ok = any(
+              entry.get("target", {}).get("namespace") == "android_app"
+              and entry.get("target", {}).get("package_name") == package
+              and fingerprint in entry.get("target", {}).get("sha256_cert_fingerprints", [])
+              and "delegate_permission/common.handle_all_urls" in entry.get("relation", [])
+              for entry in data
+          )
+          if not ok:
+              raise SystemExit("Digital Asset Links invalide ou empreinte absente")
+          print("Digital Asset Links OK")
+          PY
       - name: Préparer la signature
         env:
           KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
