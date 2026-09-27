@@ -1,4 +1,4 @@
-const CACHE='geo-clic-v33';
+const CACHE='geo-clic-v34';
 const CORE=[
   './',
   './index.html',
@@ -35,7 +35,7 @@ self.addEventListener('fetch',event=>{
   // Never proxy or cache third-party requests.
   if(url.origin!==self.location.origin) return;
 
-  if(req.mode==='navigate'||url.pathname.includes('/data/')||url.pathname.includes('/api/')){
+  if(req.mode==='navigate'||url.pathname.endsWith('/app.js')||url.pathname.endsWith('/countries.js')||url.pathname.endsWith('/styles.css')||url.pathname.includes('/data/')||url.pathname.includes('/api/')){
     event.respondWith(
       fetch(req,{cache:'no-store'})
         .catch(()=>caches.match(req,{ignoreSearch:true}))
