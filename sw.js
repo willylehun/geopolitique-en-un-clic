@@ -1,56 +1,54 @@
-const CACHE = 'geo-clic-v23';
-const ASSETS = [
+const CACHE = 'geo-clic-v24';
+const CORE = [
   './',
   './index.html',
   './styles.css',
   './app.js',
   './countries.js',
   './manifest.webmanifest',
-  './data/news.json',
-  './data/election.json',
-  './assets/logo.png',
   './assets/splash-v23.jpg',
   './icons/icon-192.png'
 ];
 
 self.addEventListener('install', event => {
   self.skipWaiting();
-  event.waitUntil(
-    caches.open(CACHE).then(cache => cache.addAll(ASSETS))
-  );
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE);
+    await Promise.allSettled(CORE.map(url => cache.add(url)));
+  })());
 });
 
 self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys()
-      .then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key))))
-      .then(() => self.clients.claim())
-  );
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)));
+    await self.clients.claim();
+  })());
 });
 
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
-  const request = event.request;
-  const url = new URL(request.url);
+  const req = event.request;
+  const url = new URL(req.url);
 
-  if (request.mode === 'navigate' || url.pathname.includes('/data/')) {
+  if (req.mode === 'navigate' || url.pathname.includes('/data/')) {
     event.respondWith(
-      fetch(request, { cache: 'no-store' })
+      fetch(req, { cache: 'no-store' })
         .then(response => {
           const copy = response.clone();
-          caches.open(CACHE).then(cache => cache.put(request, copy));
+          caches.open(CACHE).then(cache => cache.put(req, copy)).catch(() => {});
           return response;
         })
-        .catch(() => caches.match(request, { ignoreSearch: true }))
+        .catch(() => caches.match(req, { ignoreSearch: true }))
     );
     return;
   }
 
   event.respondWith(
-    caches.match(request, { ignoreSearch: true })
-      .then(cached => cached || fetch(request).then(response => {
+    caches.match(req, { ignoreSearch: true })
+      .then(cached => cached || fetch(req).then(response => {
         const copy = response.clone();
-        caches.open(CACHE).then(cache => cache.put(request, copy));
+        caches.open(CACHE).then(cache => cache.put(req, copy)).catch(() => {});
         return response;
       }))
   );
