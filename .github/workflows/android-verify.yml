@@ -35,9 +35,20 @@ jobs:
         with:
           gradle-version: "9.6.0"
       - name: Android SDK 36
+        shell: bash
         run: |
-          yes | sdkmanager --licenses >/dev/null || true
-          sdkmanager "platforms;android-36" "build-tools;36.0.0"
+          SDK_ROOT="${ANDROID_SDK_ROOT:-${ANDROID_HOME:-}}"
+          if [ -z "$SDK_ROOT" ]; then
+            echo "ANDROID_SDK_ROOT / ANDROID_HOME introuvable"
+            exit 1
+          fi
+          SDKMANAGER="$SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
+          if [ ! -x "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$SDK_ROOT" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER" || { echo "sdkmanager introuvable"; exit 1; }
+          yes | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0"
       - name: Build et lint
         working-directory: android
         run: gradle :app:assembleDebug :app:lintDebug --no-daemon --stacktrace
