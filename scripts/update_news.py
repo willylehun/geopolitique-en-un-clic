@@ -56,6 +56,33 @@ COUNTRY_TO_REGION={country:region for region,countries in COUNTRY_REGIONS.items(
 TRANSLATION_CACHE={}
 PENDING=[]
 
+# Désambiguïsation éditoriale des dirigeants fréquemment cités. Cette table
+# n'ajoute aucun fait à l'événement : elle explicite uniquement fonction et pays.
+LEADER_LABELS={
+    "Edi Rama":"le Premier ministre Edi Rama (Albanie)",
+    "Emmanuel Macron":"le président Emmanuel Macron (France)",
+    "Donald Trump":"le président Donald Trump (États-Unis)",
+    "Xi Jinping":"le président Xi Jinping (Chine)",
+    "Vladimir Poutine":"le président Vladimir Poutine (Russie)",
+    "Volodymyr Zelensky":"le président Volodymyr Zelensky (Ukraine)",
+    "Giorgia Meloni":"la présidente du Conseil Giorgia Meloni (Italie)",
+    "Friedrich Merz":"le chancelier Friedrich Merz (Allemagne)",
+    "Keir Starmer":"le Premier ministre Keir Starmer (Royaume-Uni)",
+    "Narendra Modi":"le Premier ministre Narendra Modi (Inde)",
+    "Benjamin Netanyahu":"le Premier ministre Benjamin Netanyahu (Israël)",
+}
+
+def enrich_leader_context(text):
+    """Précise fonction et pays d'un dirigeant sans inventer le contenu de la source."""
+    out=(text or "").strip()
+    for name,label in LEADER_LABELS.items():
+        if name.lower() in out.lower() and label.lower() not in out.lower():
+            out=re.sub(r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil)?\\s*"+re.escape(name),label,out,count=1)
+    # Cas fréquent où le titre ne donne que le nom de famille.
+    if re.search(r"(?i)\\b(?:premier ministre|prime minister)\\s+Rama\\b",out):
+        out=re.sub(r"(?i)(?:le )?(?:premier ministre|prime minister)\\s+Rama\\b","le Premier ministre Edi Rama (Albanie)",out,count=1)
+    return out
+
 def fr_date(d): return f"{d.day} {FR_MONTHS[d.month-1]} {d.year}"
 def month_bucket(d): return f"{FR_MONTHS[d.month-1].capitalize()} {d.year}"
 def week_bucket(d):
@@ -152,6 +179,7 @@ def french_summary(text, meta=None):
             payload=json.loads(r.read().decode("utf-8","replace"))
         translated="".join(part[0] for part in payload[0] if part and part[0]).strip()
         if translated:
+            translated=enrich_leader_context(translated)
             TRANSLATION_CACHE[text]=translated
             return translated
     except Exception as e:
