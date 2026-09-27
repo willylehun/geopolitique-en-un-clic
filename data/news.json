@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T21:26:28.355425+02:00",
+  "generated_at": "2026-09-27T21:28:29.539245+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -4346,13 +4346,13 @@
     },
     {
       "regions": [
-        "Afrique",
         "Europe",
+        "Afrique",
         "International"
       ],
       "countries": [
-        "Guinée",
-        "France"
+        "France",
+        "Guinée"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
