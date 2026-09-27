@@ -1,4 +1,4 @@
-const CACHE='geo-clic-v32';
+const CACHE='geo-clic-v33';
 const CORE=[
   './',
   './index.html',
@@ -27,16 +27,24 @@ self.addEventListener('activate',event=>{
 });
 
 self.addEventListener('fetch',event=>{
-  if(event.request.method!=='GET')return;
+  if(event.request.method!=='GET') return;
+
   const req=event.request;
   const url=new URL(req.url);
-  if(req.mode==='navigate'||url.pathname.includes('/data/')){
+
+  // Never proxy or cache third-party requests.
+  if(url.origin!==self.location.origin) return;
+
+  if(req.mode==='navigate'||url.pathname.includes('/data/')||url.pathname.includes('/api/')){
     event.respondWith(
-      fetch(req,{cache:'no-store'}).catch(()=>caches.match(req,{ignoreSearch:true}))
+      fetch(req,{cache:'no-store'})
+        .catch(()=>caches.match(req,{ignoreSearch:true}))
     );
     return;
   }
+
   event.respondWith(
-    caches.match(req,{ignoreSearch:true}).then(cached=>cached||fetch(req))
+    caches.match(req,{ignoreSearch:true})
+      .then(cached=>cached||fetch(req))
   );
 });
