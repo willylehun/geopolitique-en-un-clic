@@ -1,0 +1,32 @@
+name: Install sharp splash asset
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.splash_payload/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Rebuild high quality splash image
+        run: |
+          cat .splash_payload/chunk_*.txt | base64 -d > assets/splash-sharp-v31.webp
+          python - <<'PY'
+          from PIL import Image
+          im = Image.open('assets/splash-sharp-v31.webp')
+          assert im.size == (941, 1672), im.size
+          print('verified', im.size)
+          PY
+      - name: Commit sharp splash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/splash-sharp-v31.webp
+          git commit -m "Installe le splash haute définition v31"
+          git push
