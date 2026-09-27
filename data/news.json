@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T22:29:09.905780+02:00",
+  "generated_at": "2026-09-27T23:10:20.689207+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -21626,7 +21626,8 @@
     },
     {
       "regions": [
-        "International"
+        "International",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -21634,11 +21635,13 @@
       "category": "Géopolitique",
       "summary": "Le bilan des morts palestiniens dans la guerre à Gaza dépasse les 74 000 et autres nouvelles au Moyen-Orient",
       "sources": [
-        "yankton.net"
+        "yankton.net",
+        "yakimaherald.com"
       ],
       "url": "https://www.yankton.net/news/national_ap/article_87b3f1f4-ab56-55fa-aa15-02a58ce74223.html",
-      "published_at": "2026-09-27T16:30:00+02:00",
-      "origin": "rss"
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
     },
     {
       "regions": [
@@ -22380,10 +22383,11 @@
       "category": "Géopolitique",
       "summary": "Le président brésilien Lula signe l'accord de libre-échange Mercosur-AELE",
       "sources": [
-        "caribbeanherald.com"
+        "caribbeanherald.com",
+        "venezuelastar.com"
       ],
       "url": "http://www.caribbeanherald.com/news/279335362/brazil-president-lula-signs-mercosur-efta-free-trade-agreement",
-      "published_at": "2026-09-27T18:15:00+02:00",
+      "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
         "Brésil"
@@ -24410,7 +24414,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -24418,11 +24423,13 @@
       "category": "Sécurité",
       "summary": "Le complot terroriste de la RAF Fairford cherche à causer de gros dégâts, déclare Donald Trump",
       "sources": [
-        "newarkadvertiser.co.uk"
+        "newarkadvertiser.co.uk",
+        "harrowtimes.co.uk"
       ],
       "url": "https://www.newarkadvertiser.co.uk/national/raf-fairford-terror-plot-looking-to-do-big-damage-donald-trump-says-172220/",
-      "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss"
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
     },
     {
       "regions": [
@@ -25284,7 +25291,8 @@
     },
     {
       "regions": [
-        "International"
+        "International",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -25292,11 +25300,13 @@
       "category": "Géopolitique",
       "summary": "Des pandas géants arrivent à Atlanta dans le cadre d'un accord entre les gouvernements américain et chinois",
       "sources": [
-        "whtimes.co.uk"
+        "whtimes.co.uk",
+        "gazetteandherald.co.uk"
       ],
       "url": "https://www.whtimes.co.uk/news/national/26585520.giant-pandas-arrive-atlanta-us-china-government-agreement/",
-      "published_at": "2026-09-27T22:00:00+02:00",
-      "origin": "rss"
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
     },
     {
       "regions": [
@@ -25320,7 +25330,8 @@
     },
     {
       "regions": [
-        "International"
+        "International",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -25328,11 +25339,13 @@
       "category": "Géopolitique",
       "summary": "Les navires de guerre indiens Sahyadri et Kulish concluent leur participation à l'ADMM - Plus une activité de coopération conjointe en matière de sécurité maritime",
       "sources": [
-        "azerbaijannews.net"
+        "azerbaijannews.net",
+        "indiagazette.com"
       ],
       "url": "http://www.azerbaijannews.net/news/279335846/indian-naval-ships-sahyadri-and-kulish-conclude-participation-in-admm-plus-maritime-security-joint-cooperation-activity",
-      "published_at": "2026-09-27T22:00:00+02:00",
-      "origin": "rss"
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
     },
     {
       "regions": [
@@ -25392,7 +25405,8 @@
     },
     {
       "regions": [
-        "International"
+        "International",
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -25400,11 +25414,13 @@
       "category": "Géopolitique",
       "summary": "Le président populiste serbe démissionne pour se présenter au poste de Premier ministre lors d'un vote anticipé",
       "sources": [
-        "barryanddistrictnews.co.uk"
+        "barryanddistrictnews.co.uk",
+        "leighjournal.co.uk"
       ],
       "url": "https://www.barryanddistrictnews.co.uk/news/national/26585624.serbias-populist-president-resigns-run-prime-minister-early-vote/",
-      "published_at": "2026-09-27T22:00:00+02:00",
-      "origin": "rss"
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
     },
     {
       "regions": [
@@ -25641,6 +25657,4476 @@
       "countries": [
         "Allemagne"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Vidéo : Début de la tournée du pape Léon XIV : près de 600 000 fidèles assistent à la messe en France par Latina Noticias",
+      "sources": [
+        "deperu.com"
+      ],
+      "url": "https://www.deperu.com/tv/agZDVaZy86w.inicio-el-recorrido-del-papa-leon-xiv-cerca-de-600-mil-fieles-acuden-a-la-misa-en-francia.UCpSJ5fGhmAME9Kx2D3ZvN3Q.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Dans la région de Rivne, la production agricole a diminué de 9,4%",
+      "sources": [
+        "rivnepost.rv.ua"
+      ],
+      "url": "https://rivnepost.rv.ua/news/na-rivnenshhyni-na-94-skorotylosya-silskogospodarske-vyrobnycztvo/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Photos : C'est peut-être l'école du soir la plus inspirante au monde",
+      "sources": [
+        "wgcu.org"
+      ],
+      "url": "https://www.wgcu.org/2026-09-27/photos-this-may-be-the-most-inspirational-night-school-on-earth",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "De fortes pluies ont frappé Istanbul",
+      "sources": [
+        "haber7.com"
+      ],
+      "url": "https://www.haber7.com/guncel/haber/3663163-istanbulda-saganak-etkili-oldu",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "nouvelles quotidiennes | nouvelles quotidiennes. de",
+      "sources": [
+        "tagesschau.de"
+      ],
+      "url": "https://www.tagesschau.de/tagesschau_20_uhr/ts-81138.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Quelques pas et vous restez connecté au cosmos",
+      "sources": [
+        "ilsole24ore.com"
+      ],
+      "url": "https://www.ilsole24ore.com/art/pochi-passi-e-si-rimane-connessi-il-cosmo-AJ6zbCQB",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "RAF Fairford : Trump et Burnham parlent d'un complot terroriste présumé | La Gazette et le Herald du Wiltshire",
+      "sources": [
+        "gazetteandherald.co.uk"
+      ],
+      "url": "https://www.gazetteandherald.co.uk/news/26585496.raf-fairford-trump-burnham-speak-suspected-terror-plot/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Avanti West Coast, sous-performant, sera nationalisé l'année prochaine",
+      "sources": [
+        "manchestereveningnews.co.uk"
+      ],
+      "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/underperforming-avanti-west-coast-nationalised-34679764",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Tillis : Trump a commis une erreur colossale en ne soutenant pas le sénateur . Cornyn",
+      "sources": [
+        "breitbart.com"
+      ],
+      "url": "https://www.breitbart.com/clips/2026/09/27/tillis-trump-made-a-colossal-mistake-not-supporting-sen-cornyn/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Lali a clôturé sa tournée avec un Monumental bondé et la présence de Tini",
+      "sources": [
+        "sinmordaza.com"
+      ],
+      "url": "https://sinmordaza.com/noticia/520180-lali-cerro-su-gira-con-un-monumental-colmado-y-la-presencia-de-tini.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "85 ans depuis la création de l’EAM : le peuple, avec les communistes comme pionniers, prend la situation en main",
+      "sources": [
+        "902.gr"
+      ],
+      "url": "https://www.902.gr/eidisi/istoria/429490/85-hronia-apo-tin-idrysi-toy-eam-o-laos-me-protoporoys-toys-kommoynistes",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les relations entre la Corée du Sud et l'Ukraine se détériorent suite au transfert des prisonniers de guerre nord-coréens - Dominicaine Republic Post – Caribbean News, Business, Travel & Culture",
+      "sources": [
+        "dominicanrepublicpost.com"
+      ],
+      "url": "https://dominicanrepublicpost.com/south-korea-ukraine-relations-sour-over-north-korean-pow-transfer/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Corée du Sud",
+        "Dominique",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Vérifiez UNE FOIS : Résultat du Sueldazo du tirage au sort du week-end d'aujourd'hui, dimanche 27 septembre 2026",
+      "sources": [
+        "ultimahora.es"
+      ],
+      "url": "https://www.ultimahora.es/noticias/sorteos-loterias/2026/09/27/2717555/comprobar-once-resultado-del-sueldazo-del-sorteo-del-fin-semana-hoy-domingo-septiembre-2026-3.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "J'ai été arrêté par les services secrets, l'ancien député du PD parle après qu'on lui ait refusé l'entrée : Ils m'ont pris un drap, ils ont exigé que... - Zhurnal. mk – Nouvelles de Macédoine, Kosovo, Monde, Analyse",
+      "sources": [
+        "zhurnal.mk"
+      ],
+      "url": "https://zhurnal.mk/me-ka-ndaluar-sherbimi-sekret-ish-deputeti-i-pd-flet-pasi-iu-refuzua-hyrja-me-nxoren-nje-flete-kerkuan-qe/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Gauche - Patron : Nous sommes aux côtés du peuple juif",
+      "sources": [
+        "web.de"
+      ],
+      "url": "https://web.de/magazine/politik/inland/linken-chef-stehen-juedischer-menschen-42773444",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L'anti-système est parti encore bronzer",
+      "sources": [
+        "larazon.es"
+      ],
+      "url": "https://www.larazon.es/opinion/izquierda-antisistema-vuelve-tomar-sol_202609276ab971d75e0dc70596ad46a2.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Un coureur néo-zélandais réalise un ultra par jour pendant 1 000 jours - Canadian Running Magazine",
+      "sources": [
+        "runningmagazine.ca"
+      ],
+      "url": "https://runningmagazine.ca/the-scene/new-zealand-runner-completes-an-ultra-a-day-for-1000-days/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les raisons de ceux qui campent à Sol : Nous n'avons rien à perdre et tout à gagner",
+      "sources": [
+        "elmundo.es"
+      ],
+      "url": "https://www.elmundo.es/espana/2026/09/27/6ab93312e85ece57658b4590.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Sir Ernest Titterton : Pourquoi le techno-optimisme a échoué à notre avenir | Le Mercure de Maitland",
+      "sources": [
+        "maitlandmercury.com.au"
+      ],
+      "url": "https://www.maitlandmercury.com.au/story/9356560/sir-ernest-titterton-why-techno-optimism-failed-our-future/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Mureșan a envoyé un message à Grindeanu : lors du vote de la semaine prochaine, le PSD peut prouver qu'il ne sert pas les intérêts étrangers",
+      "sources": [
+        "maszol.ro"
+      ],
+      "url": "https://maszol.ro/belfold/Muresan-uzent-Grindeanunak-A-jovo-heti-szavazason-bizonyithatja-a-PSD-hogy-nem-kulfoldi-erdekeket-szolgal",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Comment est constituée la rémunération : directe, indirecte, différée, brute et nette",
+      "sources": [
+        "laleggepertutti.it"
+      ],
+      "url": "https://www.laleggepertutti.it/817463_come-e-composta-la-retribuzione-diretta-indiretta-differita-lorda-e-netta",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Ouverture du Championnat d'Afrique Junior de Badminton avec la participation de 12 pays",
+      "sources": [
+        "shorouknews.com"
+      ],
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=27092026&id=c5da9dc6-27c0-4c77-aec9-6574c6dee4c9",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "La mosaïque communiste de la province qui a valu à la Roumanie une mention dans The Guardian. Casa Tineretului din Câmpina, incluse dans une sélection d'architecture brutaliste socialiste d'Europe de l'Est",
+      "sources": [
+        "libertatea.ro"
+      ],
+      "url": "https://www.libertatea.ro/stiri/mozaic-comunist-casa-tineretului-campina-articol-the-guardian-arhitectura-brutalist-socialista-europa-est-3chmjkk",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Roumanie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le chanteur critique les médecins. Bosak : Le système pathologique a été construit par le gouvernement de gauche",
+      "sources": [
+        "dorzeczy.pl"
+      ],
+      "url": "https://dorzeczy.pl/opinie/949252/spiewak-krytykuje-lekarzy-bosak-patologiczny-system-zbudowal-rzad-lewicy.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Comment la Turquie et les États du Golfe façonnent l’agenda de l’ONU au Moyen-Orient",
+      "sources": [
+        "weeklyblitz.net"
+      ],
+      "url": "https://weeklyblitz.net/2026/09/28/how-turkiye-and-gulf-states-are-shaping-the-uns-middle-east-agenda/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Turquie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Combien de temps doit-on réellement utiliser un téléphone portable avant de le remplacer ?",
+      "sources": [
+        "index.hr"
+      ],
+      "url": "https://www.index.hr/magazin/clanak/koliko-dugo-zapravo-trebamo-koristiti-mobitel-prije-nego-sto-ga-zamijenimo/2837512.aspx",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le président serbe Vucic démissionne",
+      "sources": [
+        "gmx.at"
+      ],
+      "url": "https://www.gmx.at/magazine/politik/serbiens-praesident-vucic-zurueckgetreten-42773526",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les Russes vont-ils attaquer Narva en Estonie ? Les analystes de l'ISW soulignent le test de l'art. 5",
+      "sources": [
+        "dorzeczy.pl"
+      ],
+      "url": "https://dorzeczy.pl/swiat/949246/rosjanie-zaatakuja-narwe-w-estonii-analitycy-isw-wskazuja-na-test-art-5.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Estonie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "C'est de la pulpe. Premiers commentaires après le scrutin à la sortie des urnes à Cracovie",
+      "sources": [
+        "wiadomosci.wp.pl"
+      ],
+      "url": "https://wiadomosci.wp.pl/krakow/to-jest-miazga-pierwsze-komentarze-po-exit-poll-w-krakowie-7334043663202528a",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Élections à Cracovie. Expert : Il y aura quelques obstacles naturels",
+      "sources": [
+        "wiadomosci.wp.pl"
+      ],
+      "url": "https://wiadomosci.wp.pl/krakow/wybory-w-krakowie-ekspert-bedzie-kilka-naturalnych-przeszkod-7334035538178625v",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Choc de grève bancaire : fermeture nationale de 3 jours reportée à la dernière minute – Qu'est-ce qui a changé ?",
+      "sources": [
+        "oneindia.com"
+      ],
+      "url": "https://www.oneindia.com/india/bank-strike-shock-3-day-nationwide-shutdown-postponed-at-last-minute-whats-changed-8217931.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Vitoria retrouvera sa patinoire ce Noël : 700 mètres carrés et séances nocturnes jusqu'à minuit",
+      "sources": [
+        "larazon.es"
+      ],
+      "url": "https://www.larazon.es/pais-vasco/vitoria-recuperara-pista-hielo-esta-navidad-700-metros-cuadrados-sesiones-nocturnas-medianoche-b30m_202609276ab97342a520494aafd7fbfc.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Iustitia Europa : de l'exercice de l'accusation populaire dans les grandes affaires de corruption à la participation aux élections législatives",
+      "sources": [
+        "elmundo.es"
+      ],
+      "url": "https://www.elmundo.es/espana/2026/09/27/6ab96f58e4d4d8f5268b4586.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Ethiopie  : la télévision publique du Tigré frappée par un drone ( journalistes )",
+      "sources": [
+        "linternaute.com"
+      ],
+      "url": "https://www.linternaute.com/actualite/depeches/11305867-ethiopie-la-television-publique-du-tigre-frappee-par-un-drone-journalistes/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Ed Sheeran annule ses concerts aux États-Unis en raison de la controverse sur la tournée Macklemore Loop",
+      "sources": [
+        "perthnow.com.au"
+      ],
+      "url": "https://www.perthnow.com.au/entertainment/ed-sheeran-cancels-us-concerts-amid-macklemore-loop-tour-controversy-c-22929187",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Médias espagnols : la Russie incite les étrangers à rejoindre son armée",
+      "sources": [
+        "bankier.pl"
+      ],
+      "url": "https://www.bankier.pl/wiadomosc/Hiszpanskie-media-Rosja-podstepem-zwabia-obcokrajowcow-do-swojej-armii-9200878.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Sir Ernest Titterton : Pourquoi le techno-optimisme a échoué à notre avenir | Durcir Murrumburrah Express",
+      "sources": [
+        "hardenexpress.com.au"
+      ],
+      "url": "https://www.hardenexpress.com.au/story/9356560/sir-ernest-titterton-why-techno-optimism-failed-our-future/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Sir Ernest Titterton : Pourquoi le techno-optimisme a échoué à notre avenir | Glen Innes Examinateur",
+      "sources": [
+        "gleninnesexaminer.com.au"
+      ],
+      "url": "https://www.gleninnesexaminer.com.au/story/9356560/sir-ernest-titterton-why-techno-optimism-failed-our-future/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L'entraîneur italien Mancini s'est exprimé avant le match contre la Turquie !  Il y aura un bon combat demain",
+      "sources": [
+        "tgrthaber.com"
+      ],
+      "url": "https://www.tgrthaber.com/spor/italya-teknik-direktoru-mancini-turkiye-maci-oncesinde-konustu-yarin-iyi-bir-mucadele-3361874",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Italie",
+        "Turquie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Plus de 2 tonnes de cocaïne sur un yacht polonais. Les Espagnols ont arrêté quatre membres d'équipage",
+      "sources": [
+        "bankier.pl"
+      ],
+      "url": "https://www.bankier.pl/wiadomosc/Ponad-2-tony-kokainy-na-polskim-jachcie-Hiszpanie-zatrzymali-czterech-czlonkow-zalogi-9201063.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "DOSSIERS DE FUITES SHELL : 27 SEPTEMBRE 2026 – Royal Dutch Shell Plc. com",
+      "sources": [
+        "royaldutchshellplc.com"
+      ],
+      "url": "https://royaldutchshellplc.com/2026/09/27/the-shell-leaks-files-27-september-2026/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Quel accord, loi ou décret concernant sa création a été précédemment publié au Journal officiel ?",
+      "sources": [
+        "haberler.com"
+      ],
+      "url": "https://www.haberler.com/haber/hangisinin-kurulmasina-dair-anlasma-kanun-veya-20276594-haberi/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Pape en France : sept victimes d'abus rencontrées",
+      "sources": [
+        "agensir.it"
+      ],
+      "url": "https://www.agensir.it/quotidiano/2026/9/27/papa-in-francia-incontrate-sette-vittime-di-abusi/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Tuchel est déçu des grosses erreurs après la défaite contre l'Espagne",
+      "sources": [
+        "surinametimes.com"
+      ],
+      "url": "https://www.surinametimes.com/artikel/tuchel-baalt-van-grote-fouten-na-nederlaag-tegen-spanje",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Quand a lieu le match Turquie - Italie, sur quelle chaîne ?",
+      "sources": [
+        "haberts.com"
+      ],
+      "url": "https://www.haberts.com/turkiye-italya-maci-ne-zaman-hangi-kanalda",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Italie",
+        "Turquie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le vol Delta effectue un atterrissage d'urgence à Porto – 4 passagers hospitalisés",
+      "sources": [
+        "inewsgr.com"
+      ],
+      "url": "https://www.inewsgr.com/441/ptisi-tis-Delta-prosgeiothike-ektaktos-sto-porto--4-epivates-sto-nosokomeio.htm",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Qui est le ministre du BJP de Delhi, Parvesh Verma, garçon giflé pour interrogatoire ? Ex - Fils de CM et son héritage Parivaarwaad expliqué",
+      "sources": [
+        "oneindia.com"
+      ],
+      "url": "https://www.oneindia.com/new-delhi/who-is-delhi-bjp-minister-parvesh-verma-slapped-boy-for-questioning-ex-cm-s-son-and-his-parivaarw-8217873.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Exaltation nationale de Montella : j'irai sur le terrain avec le cœur qui bat pour la Turquie",
+      "sources": [
+        "haberport.com"
+      ],
+      "url": "https://www.haberport.com/haber/montelladan-milli-heyecan-sahaya-turkiye-icin-atan-bir-kalple-cikacagim/37479",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Turquie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Sécurité",
+      "summary": "Maricarmen, la goutte d'eau qui a fait déborder le vase du mécontentement social concernant le logement en Espagne",
+      "sources": [
+        "larepublica.ec"
+      ],
+      "url": "https://www.larepublica.ec/blog/2026/09/27/maricarmen-la-gota-que-colmo-el-vaso-del-descontento-social-por-la-vivienda-en-espana/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L'exposition unique \"Les costumes se réunissent dans les peintures\" rassemble des œuvres aux motifs de costumes",
+      "sources": [
+        "lsm.lv"
+      ],
+      "url": "https://www.lsm.lv/raksts/kultura/maksla/27.09.2026-unikala-izstade-suiti-saiet-gleznas-apkopoti-darbi-ar-suitu-motiviem.a664962/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Un SOS pour le musée Casa de los Celis",
+      "sources": [
+        "el-carabobeno.com"
+      ],
+      "url": "https://www.el-carabobeno.com/un-sos-por-el-museo-casa-de-los-celis/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Salaires impayés, les travailleurs de Ghim Li Batam survivent 21 jours sous une tente - Metropolis",
+      "sources": [
+        "metropolis.batampos.co.id"
+      ],
+      "url": "https://metropolis.batampos.co.id/gaji-belum-dibayar-pekerja-ghim-li-batam-bertahan-21-hari-di-tenda/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Restaurant sans enfants en Italie : le propriétaire de l'auberge interdit les enfants",
+      "sources": [
+        "soester-anzeiger.de"
+      ],
+      "url": "http://www.soester-anzeiger.de/deutschland-welt/ristorant-childfree-italien-wirt-streicht-hochstuehle-und-kindermenues-zr-94513093.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Italie"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Réseaux extrémistes violents : Dans les coulisses de l'enquête de la Police Fédérale Australienne sur les groupes sadiques 764′ et NLM",
+      "sources": [
+        "smh.com.au"
+      ],
+      "url": "https://www.smh.com.au/national/swedish-extremism-network-member-jailed-for-abuse-of-australian-girl-20260928-p60zsr.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Un incendie couvrant une superficie de 430 mètres carrés s'est produit dans un centre commercial à Vorkuta",
+      "sources": [
+        "m24.ru"
+      ],
+      "url": "https://www.m24.ru/news/27092026/946174",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Sir Ernest Titterton : Pourquoi le techno-optimisme a échoué à notre avenir | Horaires de la rivière Manning",
+      "sources": [
+        "manningrivertimes.com.au"
+      ],
+      "url": "https://www.manningrivertimes.com.au/story/9356560/sir-ernest-titterton-why-techno-optimism-failed-our-future/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "La star du Bayern dans le viseur des équipes de Premier League",
+      "sources": [
+        "caughtoffside.com"
+      ],
+      "url": "https://www.caughtoffside.com/2026/09/27/bayern-star-premier-league-team-sights/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Expert en circulation sur la grève du ZET : si les gens montent dans les voitures, il y aura un effondrement",
+      "sources": [
+        "net.hr"
+      ],
+      "url": "https://net.hr/danas/rtl-danas/prometni-strucnjak-o-strajku-zet-a-ako-ljudi-sjednu-u-automobile-bit-ce-kolaps-3f9bb9e4-ba8d-11f1-936f-9600040c8f8e",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Politique",
+      "summary": "Politique . Elections sénatoriales  : un groupe RN - UDR au palais du Luxembourg",
+      "sources": [
+        "republicain-lorrain.fr"
+      ],
+      "url": "https://www.republicain-lorrain.fr/elections/2026/09/27/elections-senatoriales-un-groupe-rn-udr-au-palais-du-luxembourg",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Luxembourg"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Zagreb au bord de l’effondrement.  Ne sortez pas les poubelles, n'appelez pas de taxi, roulez avec vos voisins",
+      "sources": [
+        "index.hr"
+      ],
+      "url": "https://www.index.hr/vijesti/clanak/zagreb-pred-kolapsom-tomasevic-i-holding-objavili-upute-gradjanima/2839206.aspx?index_ref=homepage_comment_box_d&commentId=12102797",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Préparation de la région de Zaporizhzhia pour l'hiver - la région est prête à 96 pour cent - nouvelles de l'Ukraine",
+      "sources": [
+        "zn.ua"
+      ],
+      "url": "https://zn.ua/ukr/energetics/zaporizka-oblast-na-96-hotova-do-zimi-holova-ova.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Nouveau tarif désormais – Verbund augmente les prix – qui change pour les nouveaux clients",
+      "sources": [
+        "heute.at"
+      ],
+      "url": "https://www.heute.at/s/verbund-erhoeht-preise-das-aendert-sich-fuer-neukunden-120257224",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Trump affirme que les hommes arrêtés sur la base aérienne britannique utilisée par les États-Unis cherchaient à causer de gros dégâts",
+      "sources": [
+        "al-monitor.com"
+      ],
+      "url": "https://www.al-monitor.com/originals/2026/09/trump-says-men-arrested-uk-air-base-used-us-were-looking-do-big-damage",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Allemagne - Grèce : Tzolakis a dit \"non\" à Antegemi avec une terrible opération (vidéo)",
+      "sources": [
+        "inewsgr.com"
+      ],
+      "url": "https://www.inewsgr.com/27/germania--ellada-o-tzolakis-eipe-ochi-ston-antegemi-me-tromeri-epemvasi-vid.htm",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Allemagne",
+        "Grèce"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le zoo d'Atlanta accueille deux pandas géants venus de Chine",
+      "sources": [
+        "fox5atlanta.com"
+      ],
+      "url": "https://www.fox5atlanta.com/news/zoo-atlanta-welcomes-two-giant-pandas-from-china",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Pourquoi les États s’endettent – ​​et quand cela devient dangereux",
+      "sources": [
+        "gmx.at"
+      ],
+      "url": "https://www.gmx.at/magazine/wirtschaft/staaten-verschulden-gefaehrlich-42761082",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Alexander Zverev a signé la victoire de l'Europe sur le reste du monde lors de la Laver Cup",
+      "sources": [
+        "diariouno.com.ar"
+      ],
+      "url": "https://www.diariouno.com.ar/ovacion/tenis/alexander-zverev-le-puso-la-firma-al-triunfo-europa-resto-del-mundo-la-laver-cup-n1600778",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le Festival National des Collectifs clôture ce dimanche sa 14ème édition - National",
+      "sources": [
+        "abc.com.py"
+      ],
+      "url": "https://www.abc.com.py/nacionales/2026/09/27/fiesta-nacional-de-las-colectividades-cierra-su-14-edicion-este-domingo/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "McNulty déchaîne la folie aux États-Unis et est proclamé nouveau champion du monde de cyclisme à Montréal après une course épique",
+      "sources": [
+        "mundodeportivo.com"
+      ],
+      "url": "https://www.mundodeportivo.com/ciclismo/20260927/1004231902/mcnulty-desata-locura-estados-unidos-proclama-nuevo-campeon-mundo-ciclismo-montreal-carrera-epica.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Sorin Grindeanu rejette les accusations concernant un accord avec les États-Unis pour destituer le gouvernement Bolojan",
+      "sources": [
+        "romania-actualitati.ro"
+      ],
+      "url": "https://www.romania-actualitati.ro/stiri/romania/sorin-grindeanu-respinge-acuzatiile-privind-o-intelegere-cu-sua-pentru-inlaturarea-guvernului-bolojan-id234988.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Inde",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Jetten reçoit une réponse de l'ambassadeur américain",
+      "sources": [
+        "dagelijksestandaard.nl"
+      ],
+      "url": "https://www.dagelijksestandaard.nl/politiek/jetten-strafhof-icc-amerikaanse-ambassadeur-popolo-handen-af-navo?comment=1039772",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "LAdigetto. it - Festival Trentodoc, toast avec 12 mille verres pour la cinquième édition",
+      "sources": [
+        "ladigetto.it"
+      ],
+      "url": "https://www.ladigetto.it/trentodoc-festival-brindisi-con-12mila-calici-per-la-quinta-edizione",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les médias russes partagent le discours d'Aleksandar Vučić sur les pressions de l'Europe",
+      "sources": [
+        "novosti.rs"
+      ],
+      "url": "https://www.novosti.rs/vesti/politika/1653292/zasto-niste-uveli-sankcije-rusiji-ruski-mediji-dele-govor-vucica-brutalnim-pritiscima-zapada-srbiju",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Des pandas géants arrivent au zoo d'Atlanta pour un séjour de 10 ans",
+      "sources": [
+        "wabx.net"
+      ],
+      "url": "https://wabx.net/2026/09/27/giant-pandas-arrive-at-zoo-atlanta-for-10-year-stay/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Léon XIV a évoqué les abus sexuels lors de sa visite à Lourdes",
+      "sources": [
+        "sinmordaza.com"
+      ],
+      "url": "https://sinmordaza.com/noticia/520192-leon-xiv-abordo-los-abusos-sexuales-durante-su-visita-a-lourdes.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Pourquoi le Groenland est important : Terres rares, énergie et routes arctiques",
+      "sources": [
+        "redstate.com"
+      ],
+      "url": "https://redstate.com/wardclark/2026/09/27/why-greenland-matters-rare-earths-energy-and-arctic-routes-n2207437",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les arnaques aux codes QR augmentent de 146 % dans le monde : Microsoft met en garde contre une perte d'argent et de données",
+      "sources": [
+        "infobae.com"
+      ],
+      "url": "https://www.infobae.com/tecno/2026/09/27/estafas-con-codigo-qr-suben-un-146-en-el-mundo-microsoft-alerta-perdidas-de-dinero-y-datos/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Zeiler prend position sur l'ORF – au SPÖ, on dit que les choses ne peuvent pas continuer ainsi",
+      "sources": [
+        "heute.at"
+      ],
+      "url": "https://www.heute.at/s/in-spoe-redet-man-dass-es-so-nicht-weitergehen-kann-120258196",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L'attaquant vedette de Beşiktaş a été opéré ! Une déclaration est venue des noirs et des blancs",
+      "sources": [
+        "tgrthaber.com"
+      ],
+      "url": "https://www.tgrthaber.com/spor/besiktasta-yildiz-forvet-ameliyat-oldu-siyah-beyazlilardan-aciklama-geldi-3361883",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Currywurst allemande, saucisse au four avec sauce tomate et curry",
+      "sources": [
+        "24-ore.com"
+      ],
+      "url": "https://24-ore.com/currywurst-gjerman-sallami-i-pjekur-me-salce-domatesh-dhe-curry/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Aleksandar Vučić s'adresse à la nation depuis la présidence",
+      "sources": [
+        "novosti.rs"
+      ],
+      "url": "https://www.novosti.rs/vesti/politika/1653252/aleksandar-vucic-podneo-ostavku-mesto-predsednika",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Valeska Grisebach : L'aventure rêvée à Cannes",
+      "sources": [
+        "faz.net"
+      ],
+      "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/valeska-grisebach-das-getraeumte-abenteuer-in-cannes-201252183.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Crise du gaz avant l'hiver : le commissaire européen met en garde contre un choc des prix du chauffage",
+      "sources": [
+        "telepolis.de"
+      ],
+      "url": "https://www.telepolis.de/article/Gaskrise-vor-dem-Winter-EU-Kommissar-warnt-vor-Preisschock-beim-Heizen-11467420.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les scientifiques ont révélé de nouvelles découvertes sur les routes de la Rome antique",
+      "sources": [
+        "idnes.cz"
+      ],
+      "url": "https://www.idnes.cz/ekonomika/zahranicni/rim-cesta-silnice.A260916_133939_eko-zahranicni_elsy",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Qu'est-il arrivé à André do Rap ? Deux partenaires sont arrêtés",
+      "sources": [
+        "ultimosegundo.ig.com.br"
+      ],
+      "url": "https://ultimosegundo.ig.com.br/brasil/2026-09-27/o-que-aconteceu-com-o-andre-do-rap--dois-parceiros-sao-presos.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Aleksandar Vučić a démissionné de son poste",
+      "sources": [
+        "siol.net"
+      ],
+      "url": "https://siol.net/novice/svet/aleksandar-vucic-je-odstopil-s-polozaja-702533",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les frappes russes sur l'Ukraine font huit morts, dont des enfants",
+      "sources": [
+        "economictimes.indiatimes.com"
+      ],
+      "url": "https://economictimes.indiatimes.com/news/defence/russian-strikes-on-ukraine-kill-eight-including-children/articleshow/134525915.cms",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Zverev, Agassi se moque de lui : Maintenant avec deux Grands Chelems tu arrêteras de te plaindre",
+      "sources": [
+        "ossolanews.it"
+      ],
+      "url": "https://www.ossolanews.it/2026/09/27/leggi-notizia/argomenti/ultimora/articolo/zverev-agassi-lo-prende-in-giro-ora-con-due-slam-smetterai-di-lamentarti.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les survivants des abus du clergé français louent leur rencontre avec le pape Léon XIV , disent qu'il a écouté et a été informé",
+      "sources": [
+        "hindustantimes.com"
+      ],
+      "url": "https://www.hindustantimes.com/world-news/us-news/french-clergy-abuse-survivors-praise-meeting-with-pope-leo-xiv-say-he-listened-was-informed-101790534972005.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "AVIS d'Eddie Punch : Il est temps de parler de citoyenneté ?",
+      "sources": [
+        "clarechampion.ie"
+      ],
+      "url": "https://clarechampion.ie/opinion-with-eddie-punch-its-time-to-talk-about-citizenship/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Il avait un statut légal, aucune condamnation pénale ; ICE l'a quand même emprisonné et arrêté",
+      "sources": [
+        "santafenewmexican.com"
+      ],
+      "url": "https://www.santafenewmexican.com/news/local_news/he-had-legal-status-no-criminal-convictions-ice-jailed-and-arrested-him-anyway/article_7434607e-5f7f-4763-b99c-a8ca89978479.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "La Belgique attribue à l'Iran une campagne coordonnée d'attaques contre des cibles juives.",
+      "sources": [
+        "i24news.tv"
+      ],
+      "url": "https://www.i24news.tv/en/news/international/europe/artc-belgium-attributes-a-coordinated-campaign-of-attacks-against-jewish-targets-to-iran",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Belgique",
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les Émirats arabes unis assouplissent l'interdiction de voyager contre le virus Ebola pour les Ougandais",
+      "sources": [
+        "riotimesonline.com"
+      ],
+      "url": "https://www.riotimesonline.com/uae-eases-ebola-travel-ban-ugandans-2026/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Ouganda",
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Cela frise la cruauté envers les animaux : un dresseur de chiens exige plus de règles pour les propriétaires",
+      "sources": [
+        "web.de"
+      ],
+      "url": "https://web.de/magazine/ratgeber/haustiere/hunde-leiden-trainer-regeln-42772904",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Résultats des élections provinciales à Brindisi, Elio Ciccarese élu nouveau président",
+      "sources": [
+        "tg24.sky.it"
+      ],
+      "url": "https://tg24.sky.it/politica/2026/09/27/elezioni-provinciali-brindisi-risultati-ciccarese-presidente",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Des entreprises louent des défenses aériennes à la demande de Poutine",
+      "sources": [
+        "svd.se"
+      ],
+      "url": "https://www.svd.se/a/oEX90W/foretag-hyr-luftvarn-efter-putins-krav",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Vous n'êtes pas un fardeau : le pape Léon conteste la loi de la France assistée - mourir à Lourdes",
+      "sources": [
+        "ibtimes.co.uk"
+      ],
+      "url": "https://www.ibtimes.co.uk/pope-leo-xiv-lourdes-france-assisted-dying-1822151",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Javier Milei parlera devant le Pape, mais un représentant des travailleurs et un autre des mouvements sociaux prendront également la parole.",
+      "sources": [
+        "clarin.com"
+      ],
+      "url": "https://www.clarin.com/politica/javier-milei-hablara-delante-papa-representante-trabajadores-movimientos-sociales_0_Qb9F2s5sto.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le sénateur . Tillis : Hegseth a démontré une sorte de comportement de flocon de neige",
+      "sources": [
+        "breitbart.com"
+      ],
+      "url": "https://www.breitbart.com/clips/2026/09/27/sen-tillis-hegseth-has-demonstrated-a-kind-of-snowflake-ish-behavior/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Pattes, nez et objectif : centre Dera Bassi - des chiens dressés à l'international",
+      "sources": [
+        "hindustantimes.com"
+      ],
+      "url": "https://www.hindustantimes.com/cities/chandigarh-news/paws-noses-purpose-dera-bassi-centre-trained-canines-going-global-101790535593127.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Bonne nouvelle pour Janez Janša, mauvaise nouvelle pour Golob et Stevanović",
+      "sources": [
+        "siol.net"
+      ],
+      "url": "https://siol.net/novice/slovenija/dobre-novice-za-janeza-janso-slabe-za-goloba-in-stevanovica-702532",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Plus de trois millions d'euros en cash cachés sous le sol et dans les murs",
+      "sources": [
+        "bankier.pl"
+      ],
+      "url": "https://www.bankier.pl/wiadomosc/Ponad-trzy-miliony-euro-w-gotowce-ukryte-pod-podloga-i-w-scianach-9200453.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Luna Rossa Senior remporte les régates préliminaires à Naples",
+      "sources": [
+        "quinewspisa.it"
+      ],
+      "url": "https://www.quinewspisa.it/italpress/luna-rossa-senior-vince-le-regate-preliminari-di-napoli",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La première réunion bilatérale depuis des années entre les chefs de la diplomatie allemande et russe. Wadephul : \"Je n'ai ressenti aucun sérieux",
+      "sources": [
+        "mediafax.ro"
+      ],
+      "url": "https://www.mediafax.ro/externe/prima-intalnire-bilaterala-dupa-ani-intre-sefii-diplomatiilor-germana-si-rusa-wadephul-nu-am-simtit-seriozitate-23815193",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Une ville allemande suscite l'indignation de l'extrême droite et des conservateurs contre les plaques commémoratives de la Shoah",
+      "sources": [
+        "toronto.citynews.ca"
+      ],
+      "url": "https://toronto.citynews.ca/2026/09/27/german-town-sparks-outrage-as-far-right-and-conservatives-rally-against-holocaust-memorial-plaques/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Des frappes font 8 morts en Ukraine et 1 en Russie après que Moscou a rejeté les appels allemands à la désescalade",
+      "sources": [
+        "toronto.citynews.ca"
+      ],
+      "url": "https://toronto.citynews.ca/2026/09/27/strikes-kill-8-in-ukraine-1-in-russia-after-moscow-rejects-german-calls-to-de-escalate/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Dominik Szoboszlai et Milos Kerkez impliqués dans la bagarre entre la Hongrie et l'Ukraine",
+      "sources": [
+        "caughtoffside.com"
+      ],
+      "url": "https://www.caughtoffside.com/2026/09/27/szoboszlai-kerkez-hungary-brawl-ukraine/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Hongrie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Général | L'Homme l'inconnu - Livres politiques en tamoul | Meilleurs livres tamouls",
+      "sources": [
+        "books.dinamalar.com"
+      ],
+      "url": "https://books.dinamalar.com/book/books-a-natarajan-pothu/1764",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le beurre de Trabzon est parmi les meilleurs au monde",
+      "sources": [
+        "haberts.com"
+      ],
+      "url": "https://www.haberts.com/trabzon-tereyagi-dunyanin-en-iyileri-arasinda",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les frappes russes sur l'Ukraine font 8 morts",
+      "sources": [
+        "channelnewsasia.com"
+      ],
+      "url": "https://www.channelnewsasia.com/world/russian-strikes-ukraine-kill-8-6413936",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L'attaquant de l'AZ Mexx Meerdink marque deux fois alors que les Oranje battent la Serbie 2 à 1 pour la première victoire de Xavi",
+      "sources": [
+        "nltimes.nl"
+      ],
+      "url": "https://nltimes.nl/2026/09/27/az-striker-mexx-meerdink-scores-twice-oranje-beat-serbia-2-1-xavis-first-win",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Serbie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Retour au travail au Real avec de multiples absences et quelques doutes",
+      "sources": [
+        "mundodeportivo.com"
+      ],
+      "url": "https://www.mundodeportivo.com/futbol/real-sociedad/20260927/1004231901/vuelta-trabajo-real-multiples-ausencias-duda.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le retour de Tinubu au Nigeria se fait mardi après un mois d'absence",
+      "sources": [
+        "riotimesonline.com"
+      ],
+      "url": "https://www.riotimesonline.com/tinubu-extends-working-vacation-return-tuesday-2026/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Nigeria"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "AK teste des stimulants - préviennent les experts - ce danger se cache dans les boissons énergisantes",
+      "sources": [
+        "heute.at"
+      ],
+      "url": "https://www.heute.at/s/experten-warnen-diese-gefahr-lauert-in-energydrinks-120256677",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "El Niño en Éthiopie : le risque d'inondation augmente à l'approche des pluies",
+      "sources": [
+        "riotimesonline.com"
+      ],
+      "url": "https://www.riotimesonline.com/ethiopia-el-nino-peak-november-december-2026/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Éthiopie"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "La sortie du Tchad de la CPI attire l'attention après l'appel de Trump à l'ONU",
+      "sources": [
+        "riotimesonline.com"
+      ],
+      "url": "https://www.riotimesonline.com/chad-icc-exit-trump-un-speech-world-court-pressure/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Tchad"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Sécurité",
+      "summary": "5 hommes arrêtés près d'une base aérienne britannique utilisée par les États-Unis dans la guerre en Iran, soupçonnés de préparer un acte terroriste",
+      "sources": [
+        "yakimaherald.com"
+      ],
+      "url": "https://www.yakimaherald.com/news/nation_and_world/world/5-men-arrested-near-uk-air-base-used-by-us-in-iran-war-on-suspicion/article_09b3e21b-272c-5c15-930b-fb30beafb281.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Essence, IP plafonne les prix. Meloni : « Signal important ». Tajani : « Pas d'imposition d'en haut »",
+      "sources": [
+        "ilmattino.it"
+      ],
+      "url": "https://www.ilmattino.it/primopiano/politica/benzina_ip_tetto_prezzi_da_quando_ultime_notizie_diretta_oggi-9788697.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Andrés Montero souligne le lien entre le Chili et l'Espagne : les entreprises espagnoles sont très intéressées à continuer à investir",
+      "sources": [
+        "radioagricultura.cl"
+      ],
+      "url": "https://www.radioagricultura.cl/entre-chile-espana-y-el-mundo/andres-montero-destaca-vinculo-entre-chile-y-espana-las-empresas-espanolas-estan-muy-interesadas-en-seguir-invirtiendo_20260927/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Chili",
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Découvrez les temps forts de la Fashion Week de Milan en photos",
+      "sources": [
+        "register-herald.com"
+      ],
+      "url": "https://www.register-herald.com/news/entertainment/explore-the-highlights-of-milan-fashion-week-in-photos/article_33fdc017-3e67-5f81-92c5-16cb3eab4162.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Gonzalo Bernardos, économiste : Maintenant, on dit qu'il faut exproprier les appartements. Ils oublient que l'Espagne est un pays de propriétaires et que le logement représente 75% du patrimoine familial.",
+      "sources": [
+        "mundodeportivo.com"
+      ],
+      "url": "https://www.mundodeportivo.com/actualidad/20260927/1004231872/gonzalo-bernardos-economista-dicen-hay-expropiar-pisos-olvidan-espana-pais-propietarios-vivienda-supone-75-riqueza-familias-dnr-dct.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Nous voulons unir les peuples : l’héritage politique et chrétien de Schuman",
+      "sources": [
+        "agensir.it"
+      ],
+      "url": "https://www.agensir.it/europa/2026/09/27/visita-papa-metz-vogliamo-unire-i-popoli-leredita-politica-e-cristiana-di-schuman/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Von der Leyen distribue 710 millions, les Pays-Bas payent",
+      "sources": [
+        "dagelijksestandaard.nl"
+      ],
+      "url": "https://www.dagelijksestandaard.nl/politiek/von-der-leyen-710-miljoen-vn-afrika-migratie-nederland-nettobetaler-ter-apel?comment=1039773",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Pays-Bas"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Vidéo : L'ARSENAL LASER AMÉRICAIN. LES ÉTATS-UNIS ENTRENT EN ACTION CONTRE LES DRONES I RADAR24 par Diario Gestión",
+      "sources": [
+        "deperu.com"
+      ],
+      "url": "https://www.deperu.com/tv/EQ_9l0psp2E.el-arsenal-laser-de-eeuu-entra-en-accion-contra-drones-i-radar24.UC1FZF46zaC26_CynNc786_g.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Wero : Pourquoi le service de paiement européen ne mène nulle part",
+      "sources": [
+        "t3n.de"
+      ],
+      "url": "https://t3n.de/news/wero-nutzer-deutschland-bekanntheit-paypal-alternative-1758564/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Des bijoux d'une valeur de 1,3 million d'euros dans le bureau de l'ancien premier ministre. Zapatero dit qu'il l'a reçu du roi d'Arabie Saoudite",
+      "sources": [
+        "bankier.pl"
+      ],
+      "url": "https://www.bankier.pl/wiadomosc/Bizuteria-za-1-3-mln-euro-w-biurze-bylego-premiera-Zapatero-mowi-ze-dostal-ja-od-krola-Arabii-Saudyjskiej-9201544.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Arabie saoudite"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Plus de 45 000 personnes ont participé au marathon de Moscou",
+      "sources": [
+        "m24.ru"
+      ],
+      "url": "https://www.m24.ru/news/27092026/946165",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Olivia Rodrigo donne le coup d'envoi de la tournée Unraveled 2026 : voir la setlist complète",
+      "sources": [
+        "v97fm.iheart.com"
+      ],
+      "url": "https://v97fm.iheart.com/content/2026-09-27-olivia-rodrigos-unraveled-tour-2026-setlist-revealed-see-the-full-list/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le camp de Sol se consolide et accroît la pression sur le gouvernement avant le Conseil des ministres de mardi",
+      "sources": [
+        "infolibre.es"
+      ],
+      "url": "https://www.infolibre.es/economia/acampada-sol-consolida-aumenta-presion-gobierno-consejo-ministros-martes_1_2236972.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Vives critiques de la CDU après la réunion de Wadephul avec Lavrov : « Vieux cauchemar",
+      "sources": [
+        "soester-anzeiger.de"
+      ],
+      "url": "http://www.soester-anzeiger.de/politik/scharfe-cdu-kritik-nach-wadephuls-lawrow-treffen-alter-albtraum-zr-94513091.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Clause de non-concurrence suspendue : toujours au concurrent",
+      "sources": [
+        "dagelijksestandaard.nl"
+      ],
+      "url": "https://www.dagelijksestandaard.nl/economie/mag-je-werkgever-je-tegenhouden-bij-een-nieuwe-baan-in-de-buurt-hier-woog-het-belang-van-de-werknemer-zwaarder",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Comment est-il possible que je ne le sache pas ?, message de Rama après les accusations du SPAK envers ses proches : j'ai mes défauts, mais je suis là pour écrire l'histoire et non la richesse - Tetova Sot",
+      "sources": [
+        "tetovasot.com"
+      ],
+      "url": "https://tetovasot.com/2026/09/si-ka-mundesi-qe-nuk-e-dija-mesazhi-i-rames-pas-akuzave-te-spak-per-zyrtaret-prane-tij-kam-fajet-e-mia-por-jam-ketu-per-te-bere-histori-e-jo-pasuri/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Rosalía Domínguez (Barça), Ballon d'Or de la Coupe du Monde U-20",
+      "sources": [
+        "mundodeportivo.com"
+      ],
+      "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20260927/1004231888/rosalia-dominguez-barca-balon-oro-mundial-sub-20.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Toni Bou et Gabriel Marcelli remportent le Procès des Nations avec l'Espagne",
+      "sources": [
+        "mundodeportivo.com"
+      ],
+      "url": "https://www.mundodeportivo.com/solomoto/trial/20260927/1004231878/toni-bou-gabriel-marcelli-conquistan-espana-trial-naciones.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Perturbation des relations entre l'Ukraine et la Corée du Sud.  Fausses allégations",
+      "sources": [
+        "dorzeczy.pl"
+      ],
+      "url": "https://dorzeczy.pl/swiat/949261/zgrzyt-w-relacjach-miedzy-ukraina-a-korea-poludniowa-falszywe-twierdzenia.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Corée du Sud",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "On a revu la première saison de  X - Files , sur M6+ , série culte au complotisme  cool",
+      "sources": [
+        "telerama.fr"
+      ],
+      "url": "https://www.telerama.fr/series-tv/on-a-revu-la-premiere-saison-de-x-files-sur-m6-serie-culte-au-complotisme-cool-7033124.php",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le commerce des momies est en plein essor en ligne. La moisissure, l’arsenic et le mercure sont en cause",
+      "sources": [
+        "bankier.pl"
+      ],
+      "url": "https://www.bankier.pl/wiadomosc/Handel-mumiami-kwitnie-w-sieci-W-gre-wchodza-plesn-arsen-i-rtec-9200248.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "La bande-annonce de Day Drinker taquine la vengeance, les secrets et une histoire de fantômes avec Johnny Depp et Penélope Cruz",
+      "sources": [
+        "fanbolt.com"
+      ],
+      "url": "https://www.fanbolt.com/182255/day-drinker-trailer-teases-revenge-secrets-and-a-ghost-story-with-johnny-depp-and-penelope-cruz/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les 8 meilleures villes à découvrir à vélo, selon un classement international",
+      "sources": [
+        "infobae.com"
+      ],
+      "url": "https://www.infobae.com/tendencias/2026/09/27/las-8-mejores-ciudades-para-recorrer-en-bicicleta-segun-un-ranking-internacional/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le Barreau de Caracas publie une proposition de loi sur les registres et les notaires",
+      "sources": [
+        "descifrado.com"
+      ],
+      "url": "https://www.descifrado.com/2026/09/27/colegio-de-abogados-de-caracas-publica-propuesta-para-ley-de-registros-y-notarias/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis peuvent préparer une opération à Cuba d’ici quatre mois – CBS News",
+      "sources": [
+        "kp.ua"
+      ],
+      "url": "https://kp.ua/ua/politics/a736572-ssha-mozhut-hotuvati-operatsiju-na-kubi-protjahom-chotirokh-misjatsiv-cbs-news",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Cuba",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "5 en focus : Riemer a éteint l'incendie",
+      "sources": [
+        "bold.dk"
+      ],
+      "url": "https://bold.dk/fodbold/klubber/danmark/nyheder/5-i-fokus-riemer-slukkede-ildebranden",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "La police britannique enquête sur une éventuelle implication iranienne dans le complot visant à attaquer la RAF Fairford",
+      "sources": [
+        "novosti.rs"
+      ],
+      "url": "https://www.novosti.rs/planeta/svet/1653254/umesan-iran-britanska-policija-istrazuje-mogucu-umesanost-teherana-plan-napada-bazu-raf-ferford",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Créateur de mondes exotiques et lointains",
+      "sources": [
+        "ilsole24ore.com"
+      ],
+      "url": "https://www.ilsole24ore.com/art/creatore-mondi-esotici-e-lontani-AJT4CCQB",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Zverev ni pour assurer la victoire européenne",
+      "sources": [
+        "visir.is"
+      ],
+      "url": "https://www.visir.is/g/20262940458d/zverev-nadi-ad-tryggja-evropu-sigurinn",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "La morosité de l’inflation persiste malgré le point positif du budget",
+      "sources": [
+        "perthnow.com.au"
+      ],
+      "url": "https://www.perthnow.com.au/news/business/inflation-gloom-prevails-despite-budget-bright-spot-c-22934903",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Gare de Londres Paddington : tout ce que vous devez savoir pour naviguer dans le centre historique, y compris des conseils sur la nourriture, les ventes au détail et l'embarquement.",
+      "sources": [
+        "smh.com.au"
+      ],
+      "url": "https://www.smh.com.au/traveller/reviews-and-advice/it-s-172-years-old-but-this-iconic-train-station-is-charming-and-efficient-20260928-p610hb.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Tottenham contacté au sujet du transfert de Dani Olmo avant la fenêtre de janvier",
+      "sources": [
+        "caughtoffside.com"
+      ],
+      "url": "https://www.caughtoffside.com/2026/09/27/tottenham-dani-olmo-transfer-january/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Commodité électorale | Gazette numérique",
+      "sources": [
+        "gazetadigital.com.br"
+      ],
+      "url": "https://www.gazetadigital.com.br/jornal-a-gazeta/coluna-aparte/conveniencia-eleitoral/860677",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Lalit Kala Akademi annonce 20 prix à la 65e Exposition nationale d'art",
+      "sources": [
+        "indiagazette.com"
+      ],
+      "url": "http://www.indiagazette.com/news/279335842/lalit-kala-akademi-announces-20-awards-at-65th-national-exhibition-of-art",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Des trucs russes explosent : l’Ukraine lance une opération de secours pour Oleshky",
+      "sources": [
+        "dailykos.com"
+      ],
+      "url": "https://www.dailykos.com/stories/2026/9/27/800104262/community/russian-stuff-blowing-up/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Trump dit que les hommes arrêtés dans une base britannique cherchaient à faire de gros dégâts",
+      "sources": [
+        "maitlandmercury.com.au"
+      ],
+      "url": "https://www.maitlandmercury.com.au/story/9358285/trump-says-men-arrested-at-uk-base-sought-big-damage/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": []
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Népal, le Premier ministre Shah porte la tragédie climatique à l'ONU : nous sommes ceux qui payent le prix le plus élevé",
+      "sources": [
+        "repubblica.it"
+      ],
+      "url": "https://www.repubblica.it/solidarieta/cooperazione/2026/09/27/news/nepal_il_premier_shah_porta_all_onu_la_tragedia_climatica_siamo_noi_a_pagare_il_costo_piu_alto-425610750/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Népal"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Rien dans le guichet pour les quilleurs : Shashi Tharoor fait l'éloge de Kuldeep Yadav quatre - masterclass de guichet contre les Antilles",
+      "sources": [
+        "indiagazette.com"
+      ],
+      "url": "http://www.indiagazette.com/news/279335848/nothing-in-wicket-for-bowlers-shashi-tharoor-praises-kuldeep-yadav-four-wicket-masterclass-against-west-indies",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Des pandas chinois arrivent au zoo d'Atlanta | Radio d'information 690 KTSM",
+      "sources": [
+        "ktsmradio.iheart.com"
+      ],
+      "url": "https://ktsmradio.iheart.com/content/2026-09-27-chinese-pandas-arrive-at-zoo-atlanta/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les agents IA deviennent souvent incontrôlables, OpenAI annonce la suspension de la formation du dernier modèle - International",
+      "sources": [
+        "news.ltn.com.tw"
+      ],
+      "url": "https://news.ltn.com.tw/news/world/breakingnews/5588058",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Islam radical : un prédicateur australien lié au célèbre religieux de Sydney exhorte ses adeptes à prendre les armes",
+      "sources": [
+        "smh.com.au"
+      ],
+      "url": "https://www.smh.com.au/politics/federal/australian-preacher-linked-to-notorious-sydney-cleric-urges-followers-to-take-up-arms-20260928-p610kx.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Finale de baseball masculin, le Japon perd contre la Corée du Sud et remporte la médaille d'argent Jeux asiatiques d'Aichi/Nagoya : Chunichi Shimbun Web",
+      "sources": [
+        "chunichi.co.jp"
+      ],
+      "url": "https://www.chunichi.co.jp:443/article/1317355",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Corée du Sud",
+        "Japon"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Allégation selon laquelle quatre experts liés à l'Iran seraient morts lors des attaques de Taiz",
+      "sources": [
+        "haberport.com"
+      ],
+      "url": "https://www.haberport.com/haber/taizde-saldirilar-sirasinda-dort-iran-baglantili-uzmanin-oldugu-iddiasi/37480",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Idole du Seigneur Ganesh en argile de 72 pieds immergée selon une méthode écologique à Vijayawada",
+      "sources": [
+        "indiagazette.com"
+      ],
+      "url": "http://www.indiagazette.com/news/279335841/72-foot-clay-lord-ganesh-idol-immersed-through-eco-friendly-method-in-vijayawada",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Lettres à l'éditeur 28 septembre 2026",
+      "sources": [
+        "thehindu.com"
+      ],
+      "url": "https://www.thehindu.com/opinion/letters/letters-to-the-editor-september-28-2026/article71516886.ece",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Sept jours pour une trêve ? Trump rejette le plan iranien et menace de reprendre les bombardements",
+      "sources": [
+        "bankier.pl"
+      ],
+      "url": "https://www.bankier.pl/wiadomosc/Siedem-dni-na-rozejm-Trump-odrzuca-plan-Iranu-i-grozi-powrotem-do-bombardowan-9203386.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La guerre en Iran en direct : les États-Unis réfutent l'affirmation de l'Iran selon laquelle un drone avancé aurait été saisi à Ormuz | Guerre entre les États-Unis et Israël contre l’Iran",
+      "sources": [
+        "aljazeera.com"
+      ],
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan?update=4992911",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran",
+        "Israël",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "En Arabie saoudite , les troupes rappelées à leur devoir face aux houthistes",
+      "sources": [
+        "la-croix.com"
+      ],
+      "url": "https://www.la-croix.com/international/en-arabie-saoudite-les-troupes-rappelees-a-leur-devoir-face-aux-houthistes-20260927",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Arabie saoudite"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les enfants ne vont absolument pas bien : deux adolescents inconnus se sont rencontrés en ligne pour planifier un massacre dans une synagogue",
+      "sources": [
+        "twitchy.com"
+      ],
+      "url": "https://twitchy.com/justmindy/2026/09/27/teens-arrested-in-terrorist-plot-jewish-synagogue-n2432762",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Pravesh Sahib Singh gifle : l'AAP organise une manifestation exigeant le FIR, le ministre déclare que les travailleurs du parti Oppn ont abusé de leur famille",
+      "sources": [
+        "indiagazette.com"
+      ],
+      "url": "http://www.indiagazette.com/news/279335892/pravesh-sahib-singh-slapping-row-aap-stages-protest-demanding-fir-minister-says-oppn-party-workers-abused-family",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Économie",
+      "summary": "Dans quel pays, dans une famille sur quatre, la femme contrôle le budget du ménage et les hommes donnent tout l'argent qu'ils gagnent à leur femme et reçoivent d'elle de l'argent de poche ?",
+      "sources": [
+        "haberler.com"
+      ],
+      "url": "https://www.haberler.com/haber/hangi-ulkede-her-dort-aileden-ucunde-ev-20276581-haberi/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Bill Gates se joint aux appels en faveur de garanties sur l'IA, y compris d'une législation",
+      "sources": [
+        "hot96.com"
+      ],
+      "url": "https://hot96.com/2026/09/27/bill-gates-joins-calls-for-ai-safeguards-including-legislation/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "\"Trump aurait montré à Xi un U historique\". S.- Traités de Chine aux Archives nationales",
+      "sources": [
+        "breitbart.com"
+      ],
+      "url": "https://www.breitbart.com/politics/2026/09/27/trump-reportedly-showed-xi-historic-u-s-china-treaties-at-national-archives/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les yeux du monde étaient rivés sur ce match. Protestation historique de l’Irlande contre Israël",
+      "sources": [
+        "ntv.com.tr"
+      ],
+      "url": "https://www.ntv.com.tr/sporskor/galeri-dunyanin-gozu-bu-mactaydi-irlandadan-israile-karsi-tarihi-protesto-1743777",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Irlande",
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Une nouvelle expédition sur la route Chancay - Shanghai obtient un dédouanement plus rapide",
+      "sources": [
+        "venezuelastar.com"
+      ],
+      "url": "http://www.venezuelastar.com/news/279335624/fresh-shipment-on-chancay-shanghai-route-gets-faster-clearance",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Histoire du patinage | 15 ans, patineur d'Hyderabad, Charitasri India World Skate Games",
+      "sources": [
+        "andhrajyothy.com"
+      ],
+      "url": "https://www.andhrajyothy.com/2026/navya/15-year-old-hyderabad-skater-charitasri-india-world-skate-games-1562048.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Muriqi : J'assume mes responsabilités en tant que capitaine de l'équipe",
+      "sources": [
+        "aktuale.mk"
+      ],
+      "url": "https://aktuale.mk/muriqi-e-marr-pergjegjesine-si-kapiten-i-ekipit/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Congrès des journalistes 2026 : \"J'ai invité toute la rédaction de WOZ\"",
+      "sources": [
+        "persoenlich.com"
+      ],
+      "url": "https://www.persoenlich.com/medien/ich-habe-die-ganze-woz-redaktion-eingeladen",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "CM Dhami interagit avec les indigènes de l'Uttarakhand à Delhi et recherche des suggestions pour la croissance de l'État",
+      "sources": [
+        "indiagazette.com"
+      ],
+      "url": "http://www.indiagazette.com/news/279335851/cm-dhami-interacts-with-uttarakhand-natives-in-delhi-seeks-suggestions-for-state-growth",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Des dizaines de morts à cause des intempéries en Inde et au Népal",
+      "sources": [
+        "surinametimes.com"
+      ],
+      "url": "https://www.surinametimes.com/artikel/tientallen-doden-door-zwaar-noodweer-in-india-en-nepal",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Inde",
+        "Népal"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Avis de funérailles dans le Chronicle cette semaine, y compris des hommages à un merveilleux père de famille",
+      "sources": [
+        "chroniclelive.co.uk"
+      ],
+      "url": "https://www.chroniclelive.co.uk/news/north-east-news/funeral-notices-chronicle-week-including-34671862",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Propos scandaleux du ministre israélien à propos de la Cisjordanie. « Faites là-bas ce que vous avez fait à Gaza.",
+      "sources": [
+        "bankier.pl"
+      ],
+      "url": "https://www.bankier.pl/wiadomosc/Skandaliczne-slowa-izraelskiego-ministra-o-Zachodnim-Brzegu-Zrobic-tam-to-co-w-Strefie-Gazy-9203388.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Jordanie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le commandement militaire d'Aceh déroule un drapeau de 81 mètres pour l'anniversaire du TNI",
+      "sources": [
+        "en.antaranews.com"
+      ],
+      "url": "https://en.antaranews.com/news/433111/aceh-military-command-unrolls-81-meter-flag-for-tnis-anniversary",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les investisseurs étrangers couvrent-ils de manière agressive les actions taïwanaises ? La probabilité de changements sur le marché de la Fête de la Mi-Automne est exposée | Finances | Réseau d'information Sanli SETN. COM",
+      "sources": [
+        "setn.com"
+      ],
+      "url": "https://www.setn.com/news/1913817",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Ma femme a dit : « Je vais dépenser 35 millions pour acheter une maison et mon rêve deviendra réalité à 47 ans ! La malchance commence après la retraite, utilisez cette astuce pour l'inverser | Finance",
+      "sources": [
+        "setn.com"
+      ],
+      "url": "https://www.setn.com/news/1911174",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les efforts républicains pour se distancier de Trump puent le désespoir",
+      "sources": [
+        "dailykos.com"
+      ],
+      "url": "https://www.dailykos.com/stories/2026/9/27/800103064/series/gop-midterm-desperation-trump-rejection/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le conflit approche, la base de la RAF utilisée par les Etats-Unis est dans la ligne de mire",
+      "sources": [
+        "editorialedomani.it"
+      ],
+      "url": "https://www.editorialedomani.it/politica/mondo/base-raf-regno-unito-usa-iran-il-conflitto-si-avvicina-oghp5w5o",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Lorsque le gouvernement arrive au pouvoir, la dette du ministère de la Santé est de 2 575 crores, ceux qui ont utilisé le lobby privé pendant 10 ans transforment la chèvre en chien : K Muralidharan",
+      "sources": [
+        "thejasnews.com"
+      ],
+      "url": "https://www.thejasnews.com/news/kerala/when-the-government-assumed-office-the-health-department-had-a-debt-of-2575-crore-272197",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Accélérant l’intégration de l’environnement et de l’IA, la technologie chinoise de transport ferroviaire fait ses débuts à Berlin _ Oriental Fortune Network",
+      "sources": [
+        "finance.eastmoney.com"
+      ],
+      "url": "https://finance.eastmoney.com/a/202609283884547450.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Lutte pour le pouvoir de l’IA : pourquoi les entreprises technologiques font désormais appel à l’État",
+      "sources": [
+        "hna.de"
+      ],
+      "url": "https://www.hna.de/politik/ki-machtkampf-warum-tech-konzerne-jetzt-nach-dem-staat-rufen-zr-94513096.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Krav Maga : donner un coup de pied aux attaquants dans les couilles",
+      "sources": [
+        "marc.tv"
+      ],
+      "url": "https://marc.tv/krav-maga-angreifern-gepflegt-in-die-eier-treten/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Guide gastronomique de Hanoï : Où trouver les meilleurs pho, bun cha, café et cocktails de la capitale vietnamienne",
+      "sources": [
+        "smh.com.au"
+      ],
+      "url": "https://www.smh.com.au/traveller/inspiration/this-french-influenced-asian-capital-is-a-food-lover-s-dream-20260928-p60y67.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Vietnam"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Des pandas chinois arrivent au zoo d'Atlanta",
+      "sources": [
+        "720thevoice.iheart.com"
+      ],
+      "url": "https://720thevoice.iheart.com/content/2026-09-27-chinese-pandas-arrive-at-zoo-atlanta/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Briefing du petit-déjeuner : accord Trump - les fiascos se multiplient",
+      "sources": [
+        "interest.co.nz"
+      ],
+      "url": "https://www.interest.co.nz/economy/140430/eyes-rba-us-jobs-and-chinas-holiday-activity-us-durable-goods-order-data-mixed-us",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La Maison Blanche diffuse une autre publicité financée par le gouvernement avec Trump",
+      "sources": [
+        "wcvb.com"
+      ],
+      "url": "https://www.wcvb.com/article/white-house-government-funded-ad-trump-final-battle/73914732",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L'Iran affirme avoir capturé le deuxième drone sous-marin américain à Ormuz",
+      "sources": [
+        "gazeta-shqip.com"
+      ],
+      "url": "https://gazeta-shqip.com/bota/irani-pretendon-se-kapi-dronin-e-dyte-nenujor-amerikan-ne-hormuz/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Trump espère reprendre les négociations avec l'Iran pour parvenir à une paix définitive",
+      "sources": [
+        "libertaddigital.com"
+      ],
+      "url": "https://www.libertaddigital.com/internacional/estados-unidos/2026-09-27/trump-espera-retomar-las-conversaciones-con-iran-para-conseguir-la-paz-definitiva-7466618/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Burnham refuse de dire s'il soutient une troisième piste à Heathrow",
+      "sources": [
+        "newhamrecorder.co.uk"
+      ],
+      "url": "https://www.newhamrecorder.co.uk/news/national/26585069.burnham-refuses-say-whether-backs-third-runway-heathrow/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Chronique showbiz de Neal Zoren",
+      "sources": [
+        "thereporteronline.com"
+      ],
+      "url": "https://www.thereporteronline.com/2026/09/27/zoren-primetime-take-on-predator-a-jumble-in-a-muddle/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Nouvelles maisons pour 51 familles à Alagolla, Uvaparanagama",
+      "sources": [
+        "itnnews.lk"
+      ],
+      "url": "https://www.itnnews.lk/2026/09/27/835499/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Smotrich a demandé l'annulation du report de l'appel d'offres de règlement E1 de 2 mille 167 unités",
+      "sources": [
+        "haberler.com"
+      ],
+      "url": "https://www.haberler.com/guncel/smotrich-2-bin-167-birimlik-e1-yerlesim-ihalesinin-20276601-haberi/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Delhi : le vice-président Bisht rend un hommage floral à Vithalbhai Patel et Bhagat Singh à l'occasion de leur anniversaire de naissance",
+      "sources": [
+        "indiagazette.com"
+      ],
+      "url": "http://www.indiagazette.com/news/279335854/delhi-deputy-speaker-bisht-pays-floral-tribute-to-vithalbhai-patel-bhagat-singh-on-their-birth-anniversaries",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L'Israélien qui jouera aux côtés de Messi : Idoh Zeltzer - Zubida a signé avec l'Inter Miami",
+      "sources": [
+        "i24news.tv"
+      ],
+      "url": "https://www.i24news.tv/en/news/international/americas/artc-the-israeli-who-will-play-alongside-messi-idoh-zeltzer-zubida-signed-with-inter-miami",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "L'Université de Maastricht suspend un étudiant de Gaza après avoir posté des allégations contre le . 7 Attaque d'Israël",
+      "sources": [
+        "nltimes.nl"
+      ],
+      "url": "https://nltimes.nl/2026/09/27/maastricht-university-suspends-gazan-student-post-claiming-oct-7-israel-attack",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "La Caricom et l'Inde ouvrent davantage leur coopération",
+      "sources": [
+        "surinametimes.com"
+      ],
+      "url": "https://www.surinametimes.com/artikel/caricom-en-india-trekken-samenwerking-verder-open",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Taïwan s'attend à un paquet d'armes de 14 milliards de dollars de la part des États-Unis",
+      "sources": [
+        "ipress.ua"
+      ],
+      "url": "https://ipress.ua/news/tayvan_ochikuie_vid_ssha_paket_ozbroien_na_14_mlrd_390793.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le sénateur de Pennsylvanie . John Fetterman sur les projets de réélection : revenons après la mi-mandat",
+      "sources": [
+        "local21news.com"
+      ],
+      "url": "https://local21news.com/news/politics-pa/pennsylvania-sen-john-fetterman-on-reelection-plans-lets-revisit-after-the-midterm-pa-democrat-united-states-senate-republican-israel-iran-election-voting",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le Hezbollah tel que nous le connaissons est mort avec Nasrallah – Analyse",
+      "sources": [
+        "i24news.tv"
+      ],
+      "url": "https://www.i24news.tv/en/news/middle-east/levant-turkey/artc-hezbollah-as-we-know-it-died-with-nasrallah-analysis",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Un ratio crédit/dépôts élevé ne signale pas une contrainte de financement pour les banques : bulletin RBI",
+      "sources": [
+        "massachusettssun.com"
+      ],
+      "url": "http://www.massachusettssun.com/news/279335643/high-credit-deposit-ratio-does-not-signal-funding-constraint-for-banks-rbi-bulletin",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les installations florales géantes de Pékin sont incroyables",
+      "sources": [
+        "net.hr"
+      ],
+      "url": "https://net.hr/magazin/putovanja/divovske-cvjetne-instalacije-u-pekingu-izgledaju-nevjerojatno-5cac96b3-b752-11f1-936f-9600040c8f8e",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Une avalanche au Népal fait deux morts et 12 guides et travailleurs de soutien restent portés disparus",
+      "sources": [
+        "ibtimes.co.uk"
+      ],
+      "url": "https://www.ibtimes.co.uk/himlung-himal-avalanche-nepal-climbers-missing-1822158",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Népal"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "\"Le président albanais reçoit la nouvelle U\". S. Ambassadeur",
+      "sources": [
+        "fax.al"
+      ],
+      "url": "http://fax.al/news/48371492/albania-s-president-receives-new-u-s-ambassador",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Tous les commentaires - Vučić : En 13 ans, nous avons construit 686 kilomètres de routes",
+      "sources": [
+        "b92.net"
+      ],
+      "url": "https://www.b92.net/svi-komentari/271275",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Plusieurs personnes arrêtées près d'une base militaire américaine au Royaume-Uni",
+      "sources": [
+        "sinmordaza.com"
+      ],
+      "url": "https://sinmordaza.com/noticia/520196-detuvieron-a-varias-personas-cerca-de-una-base-militar-estadounidense-en-reino-unido.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Sécurité",
+      "summary": "Grande-Bretagne : cinq personnes arrêtées pour une éventuelle attaque terroriste près de la base aérienne américaine RAF Fairford",
+      "sources": [
+        "tribune.gr"
+      ],
+      "url": "https://www.tribune.gr/world/news/article/956295/vretania-pente-syllipseis-gia-pithani-tromokratiki-epithesi-konta-stin-amerikaniki-aeroporiki-vasi-raf-ferfornt.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Bienheureux trois prêtres martyrs de Marzabotto, ils n'ont pas abandonné le troupeau - Actualités",
+      "sources": [
+        "ansa.it"
+      ],
+      "url": "https://www.ansa.it/emiliaromagna/notizie/2026/09/27/sono-beati-tre-preti-martiri-di-marzabotto-non-abbandonarono-il-gregge_dd942d8b-e852-48f1-8b2b-2702c65a6f1c.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "L'administrateur Trump va vider le carburant des voitures - normes d'économie lundi",
+      "sources": [
+        "hindustantimes.com"
+      ],
+      "url": "https://www.hindustantimes.com/genesis/trump-admin-to-gut-car-fuel-economy-standards-on-monday-101790537828991.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Sir Ernest Titterton : Pourquoi le techno-optimisme a échoué à notre avenir | L'Armidale Express",
+      "sources": [
+        "armidaleexpress.com.au"
+      ],
+      "url": "https://www.armidaleexpress.com.au/story/9356560/sir-ernest-titterton-why-techno-optimism-failed-our-future/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L'Espagne a remporté la Coupe du monde féminine des moins de 20 ans 4-3 aux tirs au but et est devenue championne.",
+      "sources": [
+        "haberler.com"
+      ],
+      "url": "https://www.haberler.com/spor/ispanya-20-yas-alti-kadinlar-dunya-kupasi-nda-20276603-haberi/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les investissements du secteur privé indien devraient augmenter en 2026-2027 : bulletin RBI – Indus Age",
+      "sources": [
+        "indusage.com.au"
+      ],
+      "url": "https://www.indusage.com.au/?p=99394",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "À propos de l'échange automatique Trump-Xi et de l'échec comique de CNN",
+      "sources": [
+        "redstate.com"
+      ],
+      "url": "https://redstate.com/nick-arama/2026/09/27/trump-xi-autopen-exchange-n2207439",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Protestation de l’Irlande contre Israël dans le match que le monde attendait !",
+      "sources": [
+        "spor.haber7.com"
+      ],
+      "url": "https://spor.haber7.com/futbol/haber/3663173-dunyanin-bekledigi-macta-irlandadan-israile-protesto",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Irlande",
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Visa - La gratuité des voyages ouvre un nouveau chapitre dans les relations Chine-Russie",
+      "sources": [
+        "weeklyblitz.net"
+      ],
+      "url": "https://weeklyblitz.net/2026/09/28/visa-free-travel-opens-a-new-chapter-in-china-russia-relations/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Chine",
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Sécurité",
+      "summary": "Cinq personnes arrêtées près de la base aérienne britannique RAF Fairford utilisée pour les frappes américaines contre l'Iran dans le cadre d'un complot terroriste présumé",
+      "sources": [
+        "gulfnews.com"
+      ],
+      "url": "https://gulfnews.com/world/europe/five-arrested-near-uk-air-base-used-for-us-strikes-on-iran-1.500689836",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Pourquoi le parti républicain continue de perdre du terrain dans la course aux élections de mi-mandat ?",
+      "sources": [
+        "dailykos.com"
+      ],
+      "url": "https://www.dailykos.com/stories/2026/9/27/800104266/community/why-the-republican-party-keeps-losing-ground-in-the-race-for-the-midterm-elections/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Comment les actions évolueront-elles pendant la Fête de la Mi-Automne ? Du Jinlong a révélé le point d'achat du quatrième trimestre : « Trois grands groupes » peuvent le conserver l'esprit tranquille jusqu'à l'année prochaine | Finances | Réseau d'information Sanli SETN.COM",
+      "sources": [
+        "setn.com"
+      ],
+      "url": "https://www.setn.com/news/1913573",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Mises à jour : les Ravens prennent une décision sur le meilleur WR contre . Cowboys",
+      "sources": [
+        "venezuelastar.com"
+      ],
+      "url": "http://www.venezuelastar.com/news/279335919/updates-ravens-make-decision-on-top-wr-vs-cowboys",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Google Photos est mis à jour sur Android avec un pinceau pour censurer les informations privées dans les images",
+      "sources": [
+        "infobae.com"
+      ],
+      "url": "https://www.infobae.com/tecno/2026/09/27/google-fotos-se-actualiza-en-android-con-un-pincel-para-censurar-informacion-privada-en-imagenes/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "7 conditions de l'Iran aux États-Unis : le rejet serait la plus grande erreur de Trump",
+      "sources": [
+        "star.com.tr"
+      ],
+      "url": "https://www.star.com.tr/dunya/irandan-abdye-7-sart-reddetmek-trumpin-en-buyuk-hatasi-olur-haber-2042960/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le but contre son camp de la RBNZ avec la dépréciation du dollar néo-zélandais",
+      "sources": [
+        "interest.co.nz"
+      ],
+      "url": "https://www.interest.co.nz/currencies/140429/roger-j-kerr-says-global-bond-market-mayhem-has-implications-locally-us-and-rbnz",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "150 000 mots , aucune garantie : la révolution des taux d' intérêt de Bullock à enjeux élevés",
+      "sources": [
+        "smh.com.au"
+      ],
+      "url": "https://www.smh.com.au/politics/federal/150-000-words-zero-guarantees-bullock-s-high-stakes-interest-rate-revolution-20260928-p60tmx.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le NZD est stable, la courbe des taux néo-zélandais s'accentue",
+      "sources": [
+        "interest.co.nz"
+      ],
+      "url": "https://www.interest.co.nz/currencies/140433/us-treasury-curve-steepened-front-end-rallied-while-long-end-remained-under",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le Hezbollah prévoit de contribuer à un projet visant à loger des milliers de Libanais déplacés, selon son chef",
+      "sources": [
+        "al-monitor.com"
+      ],
+      "url": "https://www.al-monitor.com/originals/2026/09/hezbollah-plans-contribute-project-house-thousands-lebanese-displaced-chief-says",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Liban"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "Le complot terroriste de la RAF Fairford cherche à causer de gros dégâts, déclare Donald Trump | La Gazette et le Herald du Wiltshire",
+      "sources": [
+        "gazetteandherald.co.uk"
+      ],
+      "url": "https://www.gazetteandherald.co.uk/news/national/26585466.raf-fairford-terror-plot-looking-big-damage-donald-trump-says/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les Émirats arabes unis organisent un dialogue entre les jeunes en marge de la 81e session de l'Assemblée générale des Nations Unies",
+      "sources": [
+        "albayan.ae"
+      ],
+      "url": "https://www.albayan.ae/news/uae/1554649",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Diffusion en direct des Jeux asiatiques 2026 : où regarder aux États-Unis. S. En ligne gratuit",
+      "sources": [
+        "variety.com"
+      ],
+      "url": "https://variety.com/2026/shopping/news/where-to-watch-asian-games-2026-usa-livestream-online-free-1236876889/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L'Angola atteint le cap de 992 unités industrielles",
+      "sources": [
+        "riotimesonline.com"
+      ],
+      "url": "https://www.riotimesonline.com/angola-992-industrial-units-economy-2026/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Angola"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Inde : les musulmans ont déjoué l'opération de destruction d'une mosquée vieille de 600 ans",
+      "sources": [
+        "jang.com.pk"
+      ],
+      "url": "https://jang.com.pk/news/1619430",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Réaction dure de la Turquie au raid sur la mosquée Al-Aqsa",
+      "sources": [
+        "tgrthaber.com"
+      ],
+      "url": "https://www.tgrthaber.com/politika/turkiyeden-mescid-i-aksa-baskinina-sert-tepki-3361882",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Turquie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Tentative d'attaque contre une base stratégique de la RAF. Trump : ils voulaient faire de gros dégâts",
+      "sources": [
+        "bankier.pl"
+      ],
+      "url": "https://www.bankier.pl/wiadomosc/Proba-zamachu-w-strategicznej-bazie-RAF-u-Trump-Chcieli-wyrzadzic-wielkie-szkody-9203369.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L'armée yéménite a redoublé son offensive contre les Houthis : 756 opérations en 72 heures et plus de 2.300 rebelles tués",
+      "sources": [
+        "infobae.com"
+      ],
+      "url": "https://www.infobae.com/america/mundo/2026/09/27/el-ejercito-de-yemen-redoblo-su-ofensiva-contra-los-huties-756-operaciones-en-72-horas-y-mas-de-2300-rebeldes-abatidos/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Une usine algérienne de composants en plastique renforce l’industrie automobile",
+      "sources": [
+        "riotimesonline.com"
+      ],
+      "url": "https://www.riotimesonline.com/algeria-plastic-components-factory-auto-industry-2026/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Algérie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Les premiers utilisateurs rapportent que les agents IA se déchaînent et se mêlent de leur vie",
+      "sources": [
+        "breitbart.com"
+      ],
+      "url": "https://www.breitbart.com/tech/2026/09/27/early-users-report-ai-agents-are-running-amok-and-meddling-with-their-lives/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le Royaume-Uni enquête sur un lien potentiel avec l’Iran concernant un complot présumé à la bombe sur une base aérienne",
+      "sources": [
+        "breitbart.com"
+      ],
+      "url": "https://www.breitbart.com/europe/2026/09/27/uk-terror-police-investigate-potential-iranian-link-over-suspected-bombing-plot-on-base-used-by-u-s-air-force/",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Découverte d'uranium aux Philippines : un processus en deux étapes augmente la concentration dans le gisement de Camarines Norte",
+      "sources": [
+        "gulfnews.com"
+      ],
+      "url": "https://gulfnews.com/business/energy/uranium-discovered-in-the-philippines-researchers-use-two-stage-process-to-concentrate-uranium-whats-next-1.500689825",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Philippines"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Virat Kohli atteint un autre sommet et devient le plus rapide avec 15 000 exécutions ODI ; Rejoint Tendulkar dans un club exclusif",
+      "sources": [
+        "caribbeanherald.com"
+      ],
+      "url": "http://www.caribbeanherald.com/news/279335749/virat-kohli-scales-another-peak-becomes-fastest-to-15000-odi-runs-joins-tendulkar-in-exclusive-club",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "La façon dont il a dominé , c'était formidable à voir : l' entraîneur de l' enfance de Kohli réagit aux jalons des 139 et 15 000 courses",
+      "sources": [
+        "indiagazette.com"
+      ],
+      "url": "http://www.indiagazette.com/news/279335855/the-way-he-dominated-it-was-great-to-see-kohli-childhood-coach-reacts-to-139-and-15000-run-milestone",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "U. S. et la Chine – Une amitié basée sur le respect mutuel",
+      "sources": [
+        "editorials.voa.gov"
+      ],
+      "url": "https://editorials.voa.gov/a/8205019.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Sécurité",
+      "summary": "Alerte à la base de la RAF Fairford : recherche du \"doigt\" iranien et craintes d'une attaque terroriste",
+      "sources": [
+        "newsbomb.gr"
+      ],
+      "url": "https://www.newsbomb.gr/kosmos/story/1766336/synagermos-sti-vasi-raf-fairford-erevna-gia-iraniko-daktylo-kai-fovoi-gia-tromokratiko-xtypima",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Ce qu'il faut retenir : Débat de l'Assemblée générale des Nations Unies, Jour 5",
+      "sources": [
+        "venezuelastar.com"
+      ],
+      "url": "http://www.venezuelastar.com/news/279335007/the-takeaway-un-general-assembly-debate-day-5",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L'équipe nationale espagnole remporte sa deuxième Coupe du Monde U-20 après avoir battu la Corée du Nord aux tirs au but",
+      "sources": [
+        "ondacero.es"
+      ],
+      "url": "https://www.ondacero.es/deportes/futbol/seleccion-espanola-conquista-segundo-mundial-sub20-imponerse-corea-norte-penaltis_202609276ab9670fa520494aafd7f552.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Corée du Nord"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Guide de photographie sur smartphone : conseils d'experts sur l'éclairage, les réglages et les astuces de l'appareil photo pour des photos de vacances de qualité supérieure",
+      "sources": [
+        "smh.com.au"
+      ],
+      "url": "https://www.smh.com.au/traveller/reviews-and-advice/how-to-take-better-holiday-photos-with-your-phone-20260928-p60zxd.html",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Sécurité",
+      "summary": "Cinq personnes arrêtées pour terrorisme après la découverte d'explosifs près d'une base de la RAF utilisée par les États-Unis",
+      "sources": [
+        "theguardian.com"
+      ],
+      "url": "https://www.theguardian.com/uk-news/2026/sep/27/arrests-suspected-terrorism-charges-explosives-found-near-raf-base-us",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le programme régulier de deux groupes Showa Kayo démarre \"SHOW - WA / MATSURI's Saturday Night Radio\"",
+      "sources": [
+        "news.1242.com"
+      ],
+      "url": "https://news.1242.com/article/554187",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le leader d'IDM augmentera ses prix en octobre ! 3 constructeurs taïwanais font un suivi au quatrième trimestre dès que possible | Finances | Réseau d'information Sanli SETN. COM",
+      "sources": [
+        "setn.com"
+      ],
+      "url": "https://www.setn.com/news/1913694",
+      "published_at": "2026-09-27T22:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Ce n'était tout simplement pas mon jour : Ancy Sojan revient sur sa médaille d'argent aux Jeux asiatiques au saut en longueur",
+      "sources": [
+        "azerbaijannews.net"
+      ],
+      "url": "http://www.azerbaijannews.net/news/279335844/it-was-just-not-my-day-ancy-sojan-reflects-on-asian-games-silver-medal-in-long-jump",
+      "published_at": "2026-09-27T22:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'épidémie de fièvre aphteuse déclenche des achats de panique à Windhoek",
+      "sources": [
+        "namibian.com.na"
+      ],
+      "url": "https://www.namibian.com.na/fmd-outbreak-triggers-panic-buying-in-windhoek/",
+      "published_at": "2026-09-27T22:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "L’article 5 de l’OTAN n’est pas ce que vous pensez",
+      "sources": [
+        "azerbaijannews.net"
+      ],
+      "url": "http://www.azerbaijannews.net/news/279335921/nato-5-is-not-what-you-think-it-is",
+      "published_at": "2026-09-27T22:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "1180 épisodes au compteur : cette série diffusée depuis 1999 sapprête à vivre une pause historique ! - News Séries",
+      "sources": [
+        "allocine.fr"
+      ],
+      "url": "https://www.allocine.fr:443/article/fichearticle_gen_carticle=1000224305.html",
+      "published_at": "2026-09-27T22:00:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Le Japon et les États-Unis conviennent de collaborer sur plusieurs questions liées à la Chine (Takaichi)",
+      "sources": [
+        "ipc.digital"
+      ],
+      "url": "https://ipc.digital/Jap%C3%A3o-e-Estados-Unidos-concordam-em-colaborar-em-diversas-quest%C3%B5es-relacionadas-%C3%A0-China.-(Takaichi)/",
+      "published_at": "2026-09-27T22:00:00+02:00",
+      "origin": "rss",
+      "countries": [
+        "Chine",
+        "Japon",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Indonésie"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Un enseignant emprisonné pour agressions sexuelles a été libéré secrètement avant la fin de sa peine en Indonésie, selon la BBC",
+      "sources": [
+        "BBC (média public)"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mY0htbk1HSHVOeE1HU2NCQXA0bUdoaE5vV2g2R2Q0eHFvR0kwSnBWVGdraWRyVDNsaXVaRHBPUW9va3VIQ29ZSTFDWXRxZ2FfWmFPVnlZZm5Qd29YSGN0Nm85Q2vSAWRBVV95cUxPZmNIbW5NR0h1TnhNR1NjQkFwNG1HaGhOb1doNkdkNHhxb0dJMEpwVlRna2lkclQzbGl1WkRwT1Fvb2t1SENvWUkxQ1l0cWdhX1phT1Z5WWZuUHdvWEhjdDZvOUNr?oc=5",
+      "published_at": "2026-09-27T18:27:17+02:00",
+      "origin": "rss"
     },
     {
       "regions": [
