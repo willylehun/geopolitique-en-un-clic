@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T18:56:17.789870+02:00",
+  "generated_at": "2026-09-27T19:04:06.393075+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -24005,6 +24005,513 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNW9qcWpqNFk3dEhlZHVwbV85Z0hJSHFabzRFNjVlM2hkSzRSQnpZQUt0LW1Va00xNWVYaHlkTTk4eWJwWEF6eXpDR2g1dnBjYWpXVlBMdUthRVZnbVQwa2NEeE9HSVFyTlNqME9YYzM0UXNqRlNrakNCbElubEhnMWRYLUJGZWt6bHE0a0p5cjQ5N1Racnc3OU5fVkJGZy1DMVJtdTJIWnVqcFJHdkJlT0JVY3Z4RERfOWFGQVM3Mld2clFqTG91cGRiN3VqajcyYndlN1k0WQ?oc=5",
       "published_at": "2026-09-27T17:04:28+02:00",
       "origin": "global"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "13 villages du sud-est d'Aceh submergés par des inondations",
+      "sources": [
+        "liputan6.com"
+      ],
+      "url": "https://www.liputan6.com/news/read/8300763/13-desa-di-aceh-tenggara-terendam-banjir",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Sécurité",
+      "summary": "Cinq hommes arrêtés près d'une base aérienne utilisée par les États-Unis dans la guerre en Iran, soupçonnés de préparer un acte terroriste",
+      "sources": [
+        "rockymounttelegram.com"
+      ],
+      "url": "http://www.rockymounttelegram.com/news/world/5-men-arrested-near-air-base-used-by-us-in-iran-war-on-suspicion-of/article_6d456b80-b7bf-5be0-ae13-84fb51caa434.html",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump, les prix du pétrole s’effondreront une fois la guerre terminée, plus bas maintenant qu’avec Biden",
+      "sources": [
+        "prealpina.it"
+      ],
+      "url": "https://www.prealpina.it/news/italia-esteri/552588/trump-prezzo-petrolio-crollera-a-guerra-finita-piu-basso-ora-che-con-biden.html",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Iran - Guerre : Trump : attendez-vous à de nouvelles négociations avec l'Iran",
+      "sources": [
+        "zeit.de"
+      ],
+      "url": "https://www.zeit.de/news/2026-09/27/trump-erwarte-weitere-gespraeche-mit-dem-iran",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Conflit dans la nouvelle zone de développement : énergie solaire contre ombre des arbres",
+      "sources": [
+        "wa.de"
+      ],
+      "url": "http://www.wa.de/nordrhein-westfalen/baumschatten-streit-im-neubaugebiet-solarstrom-gegen-94512788.html",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump a rejeté une nouvelle proposition iranienne visant à ouvrir le détroit d'Ormuz et à mettre fin à la guerre",
+      "sources": [
+        "zpravy.tiscali.cz"
+      ],
+      "url": "https://zpravy.tiscali.cz/trump-odmitl-novy-iransky-navrh-na-otevreni-hormuzskeho-prulivu-a-konec-valky-770070",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les ménages pourraient économiser 175 £ avec deux mesures d'économie d'énergie",
+      "sources": [
+        "stourbridgenews.co.uk"
+      ],
+      "url": "https://www.stourbridgenews.co.uk/news/national/uk-today/26585427.households-save-175-two-energy-saving-steps/",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Énergie",
+      "summary": "La Russie dévoile des avions de combat Su-57 améliorés après les malheurs de la guerre en Ukraine",
+      "sources": [
+        "newsweek.com"
+      ],
+      "url": "https://www.newsweek.com/russia-unveils-upgraded-su-57-fighter-jets-after-ukraine-war-woes-12493912",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le ministre israélien des Finances appelle à la guerre en Cisjordanie, l’Autorité palestinienne en colère",
+      "sources": [
+        "international.sindonews.com"
+      ],
+      "url": "https://international.sindonews.com/read/1754329/43/menkeu-israel-serukan-perang-di-tepi-barat-otoritas-palestina-marah-besar-1790518160",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "L'Afghanistan revendique 28 morts et 32 ​​capturés à la frontière pakistanaise",
+      "sources": [
+        "bendigoadvertiser.com.au"
+      ],
+      "url": "https://www.bendigoadvertiser.com.au/story/9358273/afghan-claims-28-killed-32-captured-at-pakistan-border/",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les partis d'opposition appellent à une rencontre avec l'ancienne présidente Bachelet: un hommage aura lieu à La Pintana",
+      "sources": [
+        "elciudadano.com"
+      ],
+      "url": "https://www.elciudadano.com/actualidad/partidos-de-oposicion-convocan-a-encuentro-con-expresidenta-bachelet-homenaje-se-realizara-en-la-pintana/09/27/",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Déclaration remarquable du Premier ministre grec Mitsotakis à la Turquie !  Il a crié : « Nous sommes condamnés à cela »",
+      "sources": [
+        "turkiyegazetesi.com.tr"
+      ],
+      "url": "https://www.turkiyegazetesi.com.tr/dunya/micotakisten-turkiye-aciklamasi-1818969",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'Europe prévient que la guerre hybride avec la Russie est en train de devenir une attaque directe contre l'OTAN - London Business News",
+      "sources": [
+        "londonlovesbusiness.com"
+      ],
+      "url": "https://londonlovesbusiness.com/europe-warns-russias-hybrid-war-is-becoming-a-direct-attack-on-nato/",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "L'expulsion d'un homme de 87 ans déclenche une manifestation dans un campement à Madrid contre la crise du logement",
+      "sources": [
+        "wsls.com"
+      ],
+      "url": "https://www.wsls.com/news/world/2026/09/27/87-year-olds-eviction-sparks-encampment-in-madrid-plaza-to-protest-housing-crisis/",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Sécurité",
+      "summary": "Dans quelle mesure devrions-nous nous inquiéter des cyberattaques liées à l’IA ?",
+      "sources": [
+        "newstalk.com"
+      ],
+      "url": "https://www.newstalk.com/news/ai-cyber-attacks-2312945",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le patron du DGB appelle le gouvernement à agir après les manifestations",
+      "sources": [
+        "freiepresse.de"
+      ],
+      "url": "https://www.freiepresse.de/nachrichten/deutschland/dgb-chefin-ruft-regierung-nach-protesten-zu-konsequenzen-auf-artikel14425252",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le ministre israélien des Finances Smotrich appelle à une guerre en Cisjordanie comme celle de Gaza",
+      "sources": [
+        "sondakika.com"
+      ],
+      "url": "https://www.sondakika.com/politika/haber-smotrich-bati-seria-da-savas-ve-gazze-ile-lubnan-t-20274960/",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le président brésilien Lula signe l'accord de libre-échange Mercosur-AELE",
+      "sources": [
+        "caribbeanherald.com"
+      ],
+      "url": "http://www.caribbeanherald.com/news/279335362/brazil-president-lula-signs-mercosur-efta-free-trade-agreement",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Voir les candidats qui se présentent comme défenseurs des animaux - CB Poder",
+      "sources": [
+        "blogs.correiobraziliense.com.br"
+      ],
+      "url": "https://blogs.correiobraziliense.com.br/cbpoder/veja-os-candidatos-que-se-apresentam-como-defensores-dos-animais/",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Une tâche simple sur la facture d'énergie que des millions de personnes doivent accomplir avant le 1er octobre",
+      "sources": [
+        "salisburyjournal.co.uk"
+      ],
+      "url": "https://www.salisburyjournal.co.uk/news/26584177.simple-energy-bill-task-millions-need-october-1/",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Ils ont écrit le scénario de guerre avec la Turquie : Athènes a calculé les premières 24 heures",
+      "sources": [
+        "turkiyegazetesi.com.tr"
+      ],
+      "url": "https://www.turkiyegazetesi.com.tr/dunya/atinayi-korku-sardi-turkiyeyle-savas-senaryosu-ilk-24-saati-bile-hesapladilar-1818974",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "8,1 milliards ont été dépensés pour rénover le port de pêche de Qianzhen, mais celui-ci était semé d'embûches. Les autorités taïwanaises ont été critiquées pour avoir dépassé leurs objectifs et gaspillé les fonds publics.",
+      "sources": [
+        "hkcna.hk"
+      ],
+      "url": "https://www.hkcna.hk/hk/content/s6ab64a26e4b06bb2a4c75f12.html",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "«Participer au 7 octobre»... L'armée d'occupation annonce l'assassinat de Saher Saqr lors d'un raid dans la bande de Gaza",
+      "sources": [
+        "almasryalyoum.com"
+      ],
+      "url": "https://www.almasryalyoum.com/news/details/4369215",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "\"Wall Street Journal : l'ambassadeur américain a ordonné à la Bulgarie d'acheter son gaz auprès d'un intermédiaire grec spécifique - Mediapool. bg",
+      "sources": [
+        "mediapool.bg"
+      ],
+      "url": "https://www.mediapool.bg/bulgaria/uolstriyt-dzharnal-poslanichka-na-sasht-nasochvala-bulgaria-da-kupuva-tehen-gaz-ot-konkreten-gratski-posrednik/",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Boudanov : la Corée du Nord tire les leçons de la guerre en Ukraine et améliore ses armes",
+      "sources": [
+        "tanjug.rs"
+      ],
+      "url": "https://www.tanjug.rs/svet/politika/284498/budanov-severna-koreja-uci-iz-rata-u-ukrajini-i-unapreduje-naoruzanje/vest",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Envision Energy a reçu le certificat TÜV SÜD pour le système de contrôle du parc éolien",
+      "sources": [
+        "metro.cz"
+      ],
+      "url": "https://www.metro.cz/protext/envision-energy-ziskala-certifikat-tuv-sud-pro-ridici-system-vetrnych-elektraren.A260927_130700_metro-protext_air",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Sécurité",
+      "summary": "L'IA peut interférer avec le commandement des armes nucléaires. Les experts recommandent une ligne d'assistance téléphonique pour la construction entre les États-Unis et la Chine | Cyberattaque | Armes nucléaires | Perte de contrôle",
+      "sources": [
+        "epochtimes.com.tw"
+      ],
+      "url": "http://www.epochtimes.com.tw/n513800/AI%E6%88%96%E5%B9%B2%E6%93%BE%E6%A0%B8%E6%AD%A6%E6%8C%87%E6%8F%AE-%E5%B0%88%E5%AE%B6%E6%8F%90%E7%BE%8E%E4%B8%AD%E5%BB%BA%E7%86%B1%E7%B7%9A-.html",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Avec Florencia Bielli, présidente de la Commission n°1 du Conseil Départemental de Canelones",
+      "sources": [
+        "hoycanelones.com.uy"
+      ],
+      "url": "https://hoycanelones.com.uy/?p=74169",
+      "published_at": "2026-09-27T18:15:00+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Moins de déforestation mais plus de pétrole : le bilan environnemental contrasté de Lula à la tête du Brésil",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQX3lGVVlZS0pOMlpqbHBFbXdTMEtMN2NxT2ltNURvRUd3aG9hNVBMVXdseTJzSXNBMFNQemZxbEZTUGt5WnRTSGFTT2RQR1oxcjJnUHVBVkIxRzhmM0ZDbXNPY1FCN3ZWMmUxN0NHRXp0bVRoclZfS1Y1cEZOclBDVDUybE1SYnFVems2UU16dExqTUV3SzlQREdoaHAtNm5OWmkyX2tkbTNPdTRuRDZvOGZDdEFlRXZROHd4b1RqMkxjTkNvNm1FN1lyTGliNVhnTE02bUx6R1YzdGI2a2MyamRJc0tjNE10ekxCWkdzMlVxbXlGaGpNU0lVUjJhT2c3azFNUA?oc=5",
+      "published_at": "2026-09-27T07:00:25+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "À une semaine de la présidentielle au Brésil, Lula et Flávio Bolsonaro font campagne sur le terrain",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaTFyaEhYZHAyUG1KODE3T283WGZSUk53Q1h5Q1BtSlNkRENqcXhiY0xYcnFKcnU0SGVfc0hMYUZrb2VwelIzaC1NalEtY2FLelh6NWc5dTNoZHM1ZVhJVXpkaWxqOU9IckZpcUI2alZibnZuU3lvYm0zT1QzYmYyYmdvb1JuR3htMkFTa1hqN0ZkVUV3a0xVM2lhR3ZNOUxhUHRxRUNITkp4SjI3V1FrV3YzWTlFbEJ2c2xLRUJ0c2pIbk0?oc=5",
+      "published_at": "2026-09-27T15:18:58+02:00",
+      "origin": "rss"
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Chine"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Takaichi Sanae informée par Donald Trump du sommet États-Unis-Chine",
+      "sources": [
+        "nhk.or.jp"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96YXlqUlduc2R3VUo1bUtUdGNwV2o5R2swNmFrQXJWUlhic2pDSWtnUVNyOTF1VnU2Wml6MEJKSEhkbDhBd1l5TF9JWDA4NDFDOFhucHFfTFJYRkxxelpqYzhwYVhnMWM?oc=5",
+      "published_at": "2026-09-27T07:25:05+02:00",
+      "origin": "rss"
     },
     {
       "regions": [
