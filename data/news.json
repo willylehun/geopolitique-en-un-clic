@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-09-27T01:27:20.734958+02:00",
+  "generated_at": "2026-09-27T03:40:40.235370+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
   "buckets": {
     "day": [
+      "27 septembre 2026",
       "26 septembre 2026",
       "25 septembre 2026",
       "23 septembre 2026",
@@ -17815,6 +17816,27 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZGdueUE4MENZSUlXNkpQOXNxeVhCeTMxeU1WRGR1a0xvazBfUHNWN2drOWFCcElqNG1uSHR3Mnk3dzMwcHhXMFR6TmtfUTFRekpCNGZodDFITmNHVVZ0cEJRNG1YNWZ4eGZTNXZsYVg1eUFMbGJJZUI1QjRsbGpkREN1andPVnNqYVowUnFiV2JKYUpXenZudTRIRExxMlFLSl9nSlRrZnV1MWlCVjlEZ3U0eDIzZGJuRDUzeUpNQURvNXNUMG12TlJ0MGpTbWRVRVNxWE9yYy1jTjdo?oc=5",
       "published_at": "2026-09-26T18:11:14+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "countries": [
+        "Ukraine",
+        "Palestine"
+      ],
+      "period": "day",
+      "bucket": "27 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Afrique, Palestine, Ukraine… L’UE annonce 710 millions d’euros d’aide dans plusieurs régions du monde en crise",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOREtwV1NVTGNZQnQzUnJXTXZSQzR2NnNncFJjX0hwRkgta3FiUWVsdEJrcGh4SldkOWM4VTc1Q3NmcDdVLWx2VXFITEpoR2dhYmRSQUp1MzEwM3ZIcEU1bnFHZVJRT0wwWVh3RWEzRVJ5ZmdlYXp2MXdkN0RyckE2c0N0aGZaRmZBODg3b1F5a1dvS2lEUVpqRUJUcThldUREcGExTnVRS2ZjUEtJLW4tZmdnNC1oZ3FtWldHQjlvWllfQ1k4LVJ6enN0RXRxQ3lXRE5pcElnQzVMbzBwY18zSzNoQ0NtUXRLcTNqenhnN3N5U3RrdFN1Rk5oVy1aUDdKZkh2c1NVTDU1NVE0NFg4ejBNOTA?oc=5",
+      "published_at": "2026-09-27T00:44:42+02:00",
       "origin": "global"
     },
     {

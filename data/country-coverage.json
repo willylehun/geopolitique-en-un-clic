@@ -2,9 +2,12 @@
   "date": "27 septembre 2026",
   "timezone": "Europe/Paris",
   "target_countries": 195,
-  "covered_count": 0,
-  "missing_count": 195,
-  "covered_countries": [],
+  "covered_count": 2,
+  "missing_count": 193,
+  "covered_countries": [
+    "Palestine",
+    "Ukraine"
+  ],
   "missing_countries": [
     "Afrique du Sud",
     "Arabie saoudite",
@@ -55,7 +58,6 @@
     "Sénégal",
     "Thaïlande",
     "Turquie",
-    "Ukraine",
     "Uruguay",
     "Vatican",
     "Égypte",
@@ -151,7 +153,6 @@
     "Ouganda",
     "Ouzbékistan",
     "Palaos",
-    "Palestine",
     "Papouasie-Nouvelle-Guinée",
     "Pays-Bas",
     "Qatar",
@@ -203,7 +204,7 @@
     "Îles Salomon"
   ],
   "rule": "Couverture cumulative sur la journée civile Europe/Paris : les 195 pays restent dans la rotation ; covered = au moins une actualité du jour publiée ; missing = pays sans actualité publiée à cet instant. Plusieurs articles distincts par pays sont autorisés.",
-  "updated_at": "2026-09-27T01:27:20.734958+02:00",
+  "updated_at": "2026-09-27T03:40:40.235370+02:00",
   "checked_count": 195,
   "checked_countries": [
     "Afghanistan",
