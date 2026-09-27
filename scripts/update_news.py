@@ -552,17 +552,24 @@ def main():
         y["score"]=score(summary)
         # Une élection nationale d'un dirigeant est un événement international majeur.
         y["score"]=max(y["score"],election_score(summary))
-        regs=[r for r in list(y.get("regions",[]) or []) if r!="International"]
-        countries=list(y.get("countries",[]) or [])
+        # Recalcul canonique des pays/continents. Un article découvert dans un
+        # flux régional (ex. Europe) ne doit jamais hériter de cette région si son
+        # texte identifie explicitement un pays d'un autre continent.
+        countries=disambiguate_countries(load_target_countries(),summary)
+        if not countries:
+            countries=list(y.get("countries",[]) or [])
         if countries:
-            for region in regions_for_countries(countries,y["score"]):
-                if region not in regs:
-                    regs.append(region)
-        elif y["score"]>=7 and "International" in (x.get("regions",[]) or []):
-            regs.append("International")
+            y["countries"]=countries
+            regs=regions_for_countries(countries,y["score"])
+        else:
+            # Sujet réellement régional sans pays identifiable : conserver la
+            # région du flux, mais appliquer normalement le seuil International.
+            regs=[r for r in list(y.get("regions",[]) or []) if r!="International"]
+            if y["score"]>=7 and "International" in (x.get("regions",[]) or []):
+                regs.append("International")
         if y["score"]<7:
             regs=[r for r in regs if r!="International"]
-        y["regions"]=regs
+        y["regions"]=list(dict.fromkeys(regs))
         rescored.append(y)
     day_items=rescored
     non_daily_manual=[x for x in old.get("items",[]) if x.get("period")!="day" and x.get("origin") not in ("rss","gdelt")]
