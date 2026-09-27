@@ -26,6 +26,11 @@ REGIONS={
  "Océanie":"Oceania OR Australia OR New Zealand OR Pacific Islands OR Pacific Forum OR Fiji OR Papua New Guinea OR PNG OR Samoa OR Tonga OR Vanuatu OR Solomon Islands OR Kiribati OR Tuvalu OR Palau OR Micronesia OR Marshall Islands OR Nauru OR New Caledonia"
 }
 IMPACT_QUERY="war OR conflict OR sanctions OR election OR inflation OR oil OR gas OR trade OR tariffs OR security OR central bank OR diplomacy OR military OR government OR economy OR climate OR energy OR technology OR migration"
+MAJOR_NEWS_QUERIES=[
+  "(war OR invasion OR missile OR airstrike OR ceasefire OR coup OR military escalation OR armed conflict)",
+  "(sanctions OR state of emergency OR diplomatic crisis OR peace agreement OR treaty OR national election)",
+  "(earthquake OR tsunami OR major flood OR wildfire OR disaster OR energy crisis OR sovereign default)",
+]
 SOURCE_LABELS=["Reuters","Associated Press","AP News","BBC","France 24","DW","Al Jazeera","Financial Times","The Economist","The Guardian","Euronews","POLITICO","Le Monde","AFP","NHK","Japan Times","Nikkei Asia","CNA","Channel NewsAsia","The Straits Times","Yonhap","The Korea Herald","The Hindu","The Indian Express","Dawn","The Jakarta Post","Kompas","Tempo","Bangkok Post","Focus Taiwan","Taipei Times","Rappler","The New York Times","The Washington Post","The Wall Street Journal","NPR","PBS NewsHour","ProPublica","Axios","Los Angeles Times","CBS News","CBC","The Globe and Mail","CTV News","El Universal","Folha","O Globo","Estadão","Agência Brasil","La Nación","Clarín","El Tiempo","El Espectador","El Comercio","La Tercera","News24","Daily Maverick","Mail & Guardian","SABC News","Nation Africa","The EastAfrican","Premium Times","Channels Television","Jeune Afrique","Africa Check","ABC News","ABC Australia","SBS News","Sydney Morning Herald","The Age","Australian Financial Review","RNZ","New Zealand Herald","Stuff","Newsroom","Daily Nation","The Standard Kenya","Citizen Digital","Monitor Uganda","The Independent Uganda","The Namibian","Namibian Sun","Mmegi","Zambia Daily Mail","Lusaka Times","The Herald Zimbabwe","NewsDay Zimbabwe","Agence Ivoirienne de Presse","Fraternité Matin","Cameroon Tribune","CRTV","Radio Okapi","Actualite.cd","Agence Nigérienne de Presse","Le Sahel","Sidwaya","L’Observateur Paalga","Inforpress","Seychelles News Agency","Seychelles Broadcasting Corporation","Kuensel","Kathmandu Post","The Himalayan Times","Maldives Independent","Daily Mirror Sri Lanka","Khaama Press","TOLOnews","UzA","AzerNews","Trend News Agency","Reforma","Excélsior","El Financiero","Prensa Libre","La Prensa Nicaragua","La Nación Costa Rica","La Estrella de Panamá","Listín Diario","Jamaica Gleaner","Trinidad and Tobago Guardian","Stabroek News","Kaieteur News","El Observador","El País Uruguay","ABC Color","Última Hora Paraguay","La República Perú","El Universo","Primicias","Fiji Times","Fiji Broadcasting Corporation","FBC News","NBC PNG","Post-Courier","The National PNG","Samoa Observer","Matangi Tonga","Solomon Star","SIBC","Vanuatu Daily Post","VBTC"]
 IMPACT={
  10:["guerre nucléaire","guerre mondiale","emploi de l’arme nucléaire","attaque nucléaire","invasion générale","coup d’état réussi","renversement du gouvernement","nuclear war","world war"],
@@ -363,6 +368,8 @@ def global_country_discovery(start_date,end_date,countries):
       "(sécurité OR conflit OR défense OR justice OR manifestation)",
       "(climat OR catastrophe OR environnement OR santé OR migration)",
       "(international OR monde OR coopération OR crise OR accord)",
+      # Passe prioritaire : maximiser la détection rapide des événements à fort impact.
+      *MAJOR_NEWS_QUERIES,
     ]
     # Google News est volontairement mutualisé : deux appels pour tout le monde, pas 195.
     # Les fournisseurs sont interrogés en parallèle. Une source lente ne bloque plus les autres.
