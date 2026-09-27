@@ -1,4 +1,4 @@
-const CACHE = 'geo-clic-v25';
+const CACHE = 'geo-clic-v26';
 const CORE = [
   './',
   './index.html',
@@ -6,7 +6,7 @@ const CORE = [
   './app.js',
   './countries.js',
   './manifest.webmanifest',
-  './assets/splash-v23.jpg',
+  './assets/splash-v26.jpg',
   './icons/icon-192.png'
 ];
 
