@@ -1,7 +1,7 @@
 {
   "name": "Géopolitique en un Clic",
   "short_name": "GéoClic",
-  "start_url": "./?v=31",
+  "start_url": "./?v=32",
   "display": "standalone",
   "background_color": "#020914",
   "theme_color": "#020914",
@@ -11,8 +11,7 @@
     {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ],
   "orientation": "portrait-primary"
