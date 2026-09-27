@@ -83,6 +83,38 @@ def enrich_leader_context(text):
         out=re.sub(r"(?i)(?:le )?(?:premier ministre|prime minister)\\s+Rama\\b","le Premier ministre Edi Rama (Albanie)",out,count=1)
     return out
 
+# Lieux infranationaux fréquemment rencontrés. Ajouter le pays seulement lorsque
+# le lieu est suffisamment non ambigu et que le pays n'est pas déjà explicite.
+PLACE_COUNTRIES={
+    "Aceh du Sud-Est":"Indonésie",
+    "Aceh Tenggara":"Indonésie",
+    "Banda Aceh":"Indonésie",
+    "Aceh":"Indonésie",
+    "Tigré":"Éthiopie",
+    "Tigray":"Éthiopie",
+    "Darfour":"Soudan",
+    "Gaza":"Palestine",
+    "Cisjordanie":"Palestine",
+    "Taïwan":"Taïwan",
+}
+
+def enrich_place_context(text):
+    """Ajoute le pays d'un lieu infranational connu lorsqu'il n'est pas déjà précisé."""
+    out=(text or "").strip()
+    # Les noms les plus longs d'abord pour éviter que « Aceh » capture « Aceh du Sud-Est ».
+    for place,country in sorted(PLACE_COUNTRIES.items(),key=lambda kv:len(kv[0]),reverse=True):
+        if not re.search(r"(?i)\\b"+re.escape(place)+r"\\b",out):
+            continue
+        if re.search(r"(?i)"+re.escape(place)+r"\\s*\\("+re.escape(country)+r"\\)",out):
+            continue
+        if re.search(r"(?i)\\b"+re.escape(country)+r"\\b",out):
+            continue
+        out=re.sub(r"(?i)\\b"+re.escape(place)+r"\\b",lambda m:f"{m.group(0)} ({country})",out,count=1)
+    return out
+
+def enrich_editorial_context(text):
+    return enrich_place_context(enrich_leader_context(text))
+
 def fr_date(d): return f"{d.day} {FR_MONTHS[d.month-1]} {d.year}"
 def month_bucket(d): return f"{FR_MONTHS[d.month-1].capitalize()} {d.year}"
 def week_bucket(d):
@@ -179,7 +211,7 @@ def french_summary(text, meta=None):
             payload=json.loads(r.read().decode("utf-8","replace"))
         translated="".join(part[0] for part in payload[0] if part and part[0]).strip()
         if translated:
-            translated=enrich_leader_context(translated)
+            translated=enrich_editorial_context(translated)
             TRANSLATION_CACHE[text]=translated
             return translated
     except Exception as e:
