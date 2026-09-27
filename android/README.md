@@ -15,10 +15,14 @@ Architecture : Trusted Web Activity, pas WebView.
 La clé privée reste hors du dépôt. Le build release lit :
 `ANDROID_KEYSTORE_PATH`, `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD`.
 
-## Point restant pour Digital Asset Links
-Android exige :
+## Digital Asset Links
+
+La racine GitHub Pages est maintenant configurée via le dépôt `willylehun/willylehun.github.io`.
+
+Le fichier est publié à l'emplacement exigé par Android :
+
 `https://willylehun.github.io/.well-known/assetlinks.json`
 
-La Pages actuelle est une Project Page sous `/geopolitique-en-un-clic/`. Il faudra donc soit créer le dépôt utilisateur `willylehun/willylehun.github.io`, soit utiliser un domaine personnalisé. Le fichier de ce dépôt est prêt pour un futur domaine personnalisé.
+Les workflows Android vérifient automatiquement sa disponibilité, le package Android et l'empreinte de la clé d'upload.
 
-Après activation de Play App Signing, ajouter aussi l'empreinte SHA-256 du certificat de signature Play au fichier assetlinks.
+Après activation de Play App Signing, ajouter aussi l'empreinte SHA-256 du certificat de signature Play au même fichier assetlinks.
