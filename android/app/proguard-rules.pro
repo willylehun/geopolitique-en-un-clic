@@ -1,0 +1,2 @@
+-keep class com.google.androidbrowserhelper.trusted.** { *; }
+-keep class com.willylehun.geopolitiqueenunclic.SecureLauncherActivity { *; }

@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.willylehun.geopolitiqueenunclic",
+      "sha256_cert_fingerprints": [
+        "F0:96:FD:D7:F5:BD:59:EF:41:56:A4:9C:20:D0:85:2B:C0:F5:14:5C:EC:7A:FD:AB:35:7A:8B:31:F5:59:10:46"
+      ]
+    }
+  }
+]
