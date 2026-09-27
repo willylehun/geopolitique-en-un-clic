@@ -526,6 +526,9 @@
       "summary": "Le sommet BRICS élargi pousse de nouveaux projets économiques et technologiques incluant plusieurs puissances africaines, dont l’Afrique du Sud, l’Égypte et l’Éthiopie.",
       "sources": [
         "Reuters"
+      ],
+      "countries": [
+        "Éthiopie"
       ]
     },
     {
@@ -9287,7 +9290,9 @@
       "origin": "rss"
     },
     {
-      "regions": [],
+      "regions": [
+        "Afrique"
+      ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 5,
@@ -9298,7 +9303,10 @@
       ],
       "url": "https://www.ilpost.it/2026/09/25/etiopia-societa-mining-elettricita/",
       "published_at": "2026-09-25T11:45:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Éthiopie"
+      ]
     },
     {
       "regions": [],
@@ -10685,7 +10693,9 @@
       "origin": "rss"
     },
     {
-      "regions": [],
+      "regions": [
+        "Afrique"
+      ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
@@ -10696,7 +10706,10 @@
       ],
       "url": "https://www.haberaktuel.com/etyopyanin-tigray-bolgesinde-yeniden-siddet-patlak-verdi-3496673",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Éthiopie"
+      ]
     },
     {
       "regions": [],
@@ -14655,7 +14668,7 @@
     },
     {
       "regions": [
-        "Asie"
+        "Afrique"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -14667,7 +14680,10 @@
       ],
       "url": "https://www.ilpost.it/2026/09/25/etiopia-societa-mining-elettricita/",
       "published_at": "2026-09-25T11:45:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Éthiopie"
+      ]
     },
     {
       "regions": [
