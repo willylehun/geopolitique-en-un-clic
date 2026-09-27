@@ -8,10 +8,13 @@ on:
       - "scripts/build_api.py"
       - ".github/workflows/news.yml"
   schedule:
-    # GitHub Actions ne garantit pas les cron à haute fréquence : une cadence
-    # horaire est plus fiable et évite les suppressions de runs en période chargée.
-    # Six passages par heure, espacés de 10 minutes.
-    - cron: "3,13,23,33,43,53 * * * *"
+    # Six déclencheurs indépendants par heure.
+    - cron: "3 * * * *"
+    - cron: "13 * * * *"
+    - cron: "23 * * * *"
+    - cron: "33 * * * *"
+    - cron: "43 * * * *"
+    - cron: "53 * * * *"
   workflow_dispatch:
 
 permissions:
