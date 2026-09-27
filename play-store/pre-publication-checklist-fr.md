@@ -1,0 +1,25 @@
+# Checklist avant publication Google Play
+
+- [x] Package Android défini.
+- [x] targetSdk 36.
+- [x] compileSdk 36.
+- [x] HTTPS imposé.
+- [x] Permission Android limitée à INTERNET.
+- [x] TWA / Digital Asset Links prévus.
+- [x] Build AAB release automatisé.
+- [x] Secrets de signature hors du dépôt.
+- [x] Lint Android dans la CI.
+- [ ] Compte développeur Play créé et validé.
+- [ ] Informations légales de l'organisation validées.
+- [ ] Numéro D-U-N-S obtenu/validé si compte organisation.
+- [ ] Play App Signing activé.
+- [ ] Empreinte du certificat Play ajoutée aux Digital Asset Links.
+- [ ] Politique de confidentialité publiée à une URL publique.
+- [ ] Formulaire Sécurité des données rempli après contrôle final.
+- [ ] Déclaration application d'actualités complétée si demandée.
+- [ ] Classification du contenu complétée.
+- [ ] Icône et captures Play Store finales.
+- [ ] AAB testé sur la piste interne.
+- [ ] Rapport de pré-lancement contrôlé.
+- [ ] Exigences de test applicables au compte satisfaites.
+- [ ] Version de production soumise à examen.
