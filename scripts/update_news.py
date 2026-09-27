@@ -571,7 +571,30 @@ def main():
             regs=[r for r in regs if r!="International"]
         y["regions"]=list(dict.fromkeys(regs))
         rescored.append(y)
-    day_items=rescored
+    # Un événement doit exister une seule fois par journée civile, quel que
+    # soit le flux (pays, continent ou International) qui l'a découvert.
+    merged={}
+    order=[]
+    for y in rescored:
+        k=(y.get("bucket"),key_title(y.get("summary","")))
+        if k not in merged:
+            merged[k]=dict(y)
+            order.append(k)
+            continue
+        z=merged[k]
+        z["score"]=max(int(z.get("score",0) or 0),int(y.get("score",0) or 0))
+        z["countries"]=list(dict.fromkeys(list(z.get("countries",[]) or [])+list(y.get("countries",[]) or [])))
+        z["sources"]=list(dict.fromkeys(list(z.get("sources",[]) or [])+list(y.get("sources",[]) or [])))
+        if not z.get("url") and y.get("url"):
+            z["url"]=y["url"]
+        if (y.get("published_at") or "") > (z.get("published_at") or ""):
+            z["published_at"]=y.get("published_at")
+        if z["countries"]:
+            z["regions"]=regions_for_countries(z["countries"],z["score"])
+        else:
+            regs=list(dict.fromkeys(list(z.get("regions",[]) or [])+list(y.get("regions",[]) or [])))
+            z["regions"]=[r for r in regs if r!="International" or z["score"]>=7]
+    day_items=[merged[k] for k in order]
     non_daily_manual=[x for x in old.get("items",[]) if x.get("period")!="day" and x.get("origin") not in ("rss","gdelt")]
     by_region=defaultdict(list)
     for x in day_items:
