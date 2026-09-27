@@ -12,7 +12,6 @@ STATE=ROOT/"data"/"election-monitor-state.json"
 PARIS=ZoneInfo("Europe/Paris")
 UTC=ZoneInfo("UTC")
 BATCH=max(1,int(os.getenv("ELECTION_BATCH_SIZE","6")))
-RETENTION_DAYS=7
 
 # Sources françaises reconnues. Les sources officielles sont conservées lorsqu'elles
 # apparaissent dans les résultats, mais aucune controverse n'est créée automatiquement.
@@ -77,7 +76,6 @@ def news_id(name,dt,title):
 with DATA.open(encoding="utf-8") as f: data=json.load(f)
 now=datetime.now(PARIS)
 cut30=now-timedelta(days=30)
-cut7=now-timedelta(days=RETENTION_DAYS)
 
 entities=[]
 for c in data.get("candidates",[]):
@@ -129,16 +127,16 @@ for kind,eid,name in batch:
             if eid not in item.setdefault("party_names",[]): item["party_names"].append(eid)
         if row["source"] not in item.setdefault("sources",[]): item["sources"].append(row["source"])
 
-# Règle de retrait : les candidats retirés restent visibles sept jours lorsqu'une date de retrait existe.
-kept=[]
+# Archivage permanent : un candidat sorti de la course n'est jamais supprimé.
+# Les statuts withdrawn/removed le retirent automatiquement de la collecte ci-dessus.
+# Conserver une date et un motif factuel sourcé permet à l'interface de le barrer
+# et d'expliquer sa sortie sans effacer son historique.
 for c in data.get("candidates",[]):
-    if c.get("status") not in ("withdrawn","removed"):
-        kept.append(c); continue
-    raw=c.get("withdrawn_at") or c.get("withdrawal_date")
-    try: wd=datetime.fromisoformat(raw).astimezone(PARIS) if raw else None
-    except Exception: wd=None
-    if not wd or wd>=cut7: kept.append(c)
-data["candidates"]=kept
+    if c.get("status") in ("withdrawn","removed"):
+        c["archived"]=True
+        c.setdefault("withdrawal_reason","Motif à documenter")
+    else:
+        c["archived"]=False
 
 # Les actualités restent disponibles sur 30 jours ; Jour/7 jours/30 jours sont filtrés par l'application.
 news.sort(key=lambda n:(n.get("date",""),n.get("id","")),reverse=True)
