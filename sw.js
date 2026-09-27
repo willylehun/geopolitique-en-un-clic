@@ -1,4 +1,4 @@
-const CACHE = 'geo-clic-v24';
+const CACHE = 'geo-clic-v25';
 const CORE = [
   './',
   './index.html',
