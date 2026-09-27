@@ -1,4 +1,4 @@
-const CACHE='geo-clic-v30';
+const CACHE='geo-clic-v31';
 const CORE=[
   './',
   './index.html',
@@ -6,7 +6,7 @@ const CORE=[
   './app.js',
   './countries.js',
   './manifest.webmanifest',
-  './assets/splash-clean-v30.jpg',
+  './assets/splash-hd-v31.webp',
   './icons/icon-192.png'
 ];
 
