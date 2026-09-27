@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T10:38:45.004035+02:00",
+  "generated_at": "2026-09-27T14:24:38.706496+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -91,7 +91,7 @@
       "sources": [
         "Le Monde — suivi Présidentielle 2027, mise à jour du 18 septembre 2026"
       ],
-      "last_checked_at": "2026-09-26T10:43:33.991606+02:00",
+      "last_checked_at": "2026-09-27T14:24:38.706496+02:00",
       "bio": "Ancien journaliste et éditorialiste, candidat à la présidentielle de 2022 puis fondateur et président de Reconquête !. Sa ligne politique est nationaliste et identitaire, avec l’immigration, l’assimilation, la sécurité et la souveraineté au centre de ses prises de position.",
       "controversies": [
         {
@@ -126,7 +126,7 @@
         "Le Monde — Bruno Retailleau, pouvoir d’achat",
         "LCP — retraites, 23 septembre 2026"
       ],
-      "last_checked_at": "2026-09-26T10:43:33.991606+02:00",
+      "last_checked_at": "2026-09-27T14:24:38.706496+02:00",
       "bio": "Ancien président du groupe Les Républicains au Sénat, ancien président du conseil régional des Pays de la Loire et ancien ministre de l’Intérieur. Président de LR, il défend une ligne de droite conservatrice, notamment sur l’autorité, la sécurité, l’immigration et les finances publiques.",
       "controversies": [
         {
@@ -160,7 +160,7 @@
         "Le Monde — candidature officialisée le 22 mai 2026",
         "Le Monde — grand âge, 17 septembre 2026"
       ],
-      "last_checked_at": "2026-09-26T10:43:33.991606+02:00",
+      "last_checked_at": "2026-09-27T14:24:38.706496+02:00",
       "bio": "Député des Hauts-de-Seine, ancien ministre de l’Éducation nationale et Premier ministre en 2024. Secrétaire général de Renaissance, il se situe dans le bloc central et met notamment en avant l’école, le travail, les finances publiques et l’intégration européenne.",
       "controversies": []
     },
@@ -185,7 +185,7 @@
       "sources": [
         "Le Monde — 8 et 16 septembre 2026"
       ],
-      "last_checked_at": "2026-09-26T10:43:33.991606+02:00",
+      "last_checked_at": "2026-09-27T14:24:38.706496+02:00",
       "bio": "Maire du Havre, ancien député et Premier ministre de 2017 à 2020. Fondateur d’Horizons, il vient de la droite modérée et construit une offre de centre droit autour de l’autorité, des finances publiques, du travail et de l’adaptation climatique.",
       "controversies": [
         {
@@ -220,7 +220,7 @@
       "sources": [
         "Le Monde — 27 août 2026"
       ],
-      "last_checked_at": "2026-09-26T10:43:33.991606+02:00",
+      "last_checked_at": "2026-09-27T14:24:38.706496+02:00",
       "bio": "Président des Hauts-de-France, ancien député et ancien ministre de la Santé puis du Travail. Issu de la droite républicaine, il met régulièrement en avant le travail, l’industrie, la sécurité et les territoires.",
       "controversies": []
     },
@@ -245,7 +245,7 @@
       "sources": [
         "Le Monde — 25 et 30 août 2026"
       ],
-      "last_checked_at": "2026-09-26T11:14:44.369831+02:00",
+      "last_checked_at": "2026-09-27T14:24:38.706496+02:00",
       "bio": "Maire de Cannes, président de l’Association des maires de France et fondateur de Nouvelle Énergie. Issu de la droite libérale, il défend notamment la baisse de la dépense publique, la liberté économique, la décentralisation et l’autorité.",
       "controversies": []
     },
@@ -922,6 +922,21 @@
   ],
   "news": [
     {
+      "id": "2026-09-27-douard-philippe-42705133",
+      "date": "2026-09-27",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "\"Une élection présidentielle sert à choisir quelqu’un qui est un chef\": Édouard Philippe se confie sur l'exercice de l'autorité - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVm9HV0ZuX2FBS0Y0M0hHdXQtS1o2TTJ6VmV0SE1GOGtscTB5dnEyV19YR3BHaDIwbHpiQ1NWZXhsZU5rcE91Q0FLekFBbXBjb1NfR2pGZTZ2cVdWeDBuOE4zWHZSelUwQWRmQVQxaDBDTVFIc0NyZnBXOVhYUE9mODVDbTlPa1Q1WW9SLTVjMDh0ZVdIOUhJbmZwM0psdzBOS0dfSGhIOU8wcFZ6ZmZGXzA1cXI?oc=5"
+    },
+    {
       "id": "2026-09-26-s-gol-ne-royal-81606753",
       "date": "2026-09-26",
       "candidate_ids": [
@@ -1034,6 +1049,81 @@
         "Ouest-France"
       ],
       "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPc1k1OTlEb1ZoN2xhb2R4d1lHMmlUZ05xM2tNZGdFVTYxWms4TktxNU1mdDRiaU4yMndNZEpGbXBRNk1kZS1fYnN3SDloVmxkSEZvRmY1V081RU9DN1NZWmhtWEh2R3pneExWOXZqWmtVUTRkVTBTbnh6dzZ0TGZJVWI0R3laeVVLVno5N3JOYXprS0VEaDgzM0Nmc2tSM1BMd2hscklfM1c3T3lDall2MnN2Yll5OGZoeFJ0dFpwbHlac0JkR0hIZ0tEMXRGZHFvQS03N1NiOFBONUl5R3pWVU5PV001VmR6UkIteDc0VnVHWWlFR0ZudHA0amREWmRWdDVYUkVuREQ?oc=5"
+    },
+    {
+      "id": "2026-09-26-gabriel-attal-61211211",
+      "date": "2026-09-26",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "Gabriel Attal aura-t-il les faveurs de l’automne pour la Présidentielle 2027 ? - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3lHSGN1WVZsWktZaTRFdkpMMmpaRnpHYjBoTnhrUXUzd21mN3R3dDFGSEdiTk5qNFIxQ25YejdHaVYzc0FJbGtYbzhMeS1PV19UYWVSUjFNZFo2cFpHOFhYbURaR0ZWV29STkpOM2loWlRPUndPeUxnb1ZOWWZyMDdXMG41cFN4Wm1nM1FNcDhBeWNubWNIQllVSEgtQkNZME5B?oc=5"
+    },
+    {
+      "id": "2026-09-26-douard-philippe-81501817",
+      "date": "2026-09-26",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Macron joue-t-il contre Édouard Philippe ? - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS3dCM2tYX3YxQTZzNEk0Q3I1RVIzQUxXT00wYlozWkRfOWpvUWM4UC04WllEUHIwUU43Y1h6bGlsZW1aNGwwLTBYS204cGVlU041b3FqLW5NSlR4MzhMN190dnlvd3BWendsdGp2UUdtM1JjcmhrYXdBTmlUNmQydERoZnNNTDhPN1BuOUgzU0w0eXhWaXc5dldqMVF4Y3M?oc=5"
+    },
+    {
+      "id": "2026-09-26-david-lisnard-93913586",
+      "date": "2026-09-26",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "Présidentielle 2027 : David Lisnard, le trublion de la droite qui rêve de mener « la révolution de la liberté - Les Echos",
+      "sources": [
+        "Les Echos"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbjRoTXdmbmQ4T1JFUHBDcnpERnUtbE55aEJwUGpYdWlwQlBxUDRFSzhiUTZnNnJIOUVFU1lxeTBtR2d5Y3ZQTGN6RlVkRmpjT203NjdRVzU3VTFjcXlwYThVOGN4UDB1Y3gxZkRoVTE5blZEWW1KQ05jRlZZZVBIYjk3WHcweW85M2dHLWxOY01UXzBVYWtIWGdBbjRnbGk2RV90aXFwRC1hdE8zbDRiWDJsaEMzbE5jb2xWY0lLSjhBZ0ZUMUVqX0ZaQl92SXI2aXZkN1R4NE1IMkhOX3RxNGxIU3h1bTdibmJGZHQxWEI4YUE?oc=5"
+    },
+    {
+      "id": "2026-09-26-david-lisnard-16269422",
+      "date": "2026-09-26",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "David Lisnard : «Pourquoi tous les Français sont les héritiers du christianisme » - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUGNrVDZRb1Rod3pPMk9qQmtKVUVib3h6YXlTeFF1TFZuQ3EzVUhRUGZ5clNUWGtDWEdQY2hVTGFESXZDdmV1U1lTUklLWWxRYUdmQ2hlblpBdU84UTMwUjVtZGZyY3ZMS3k3bjZrcnN6UlJ3TDd4eUQtZVEwRE5WaFo5WnFzbFgwRkZ5aFZHNEFNMHZlc3BQYWdtWnU2dko1dDI3S0xObnZBWGxGOE5pcF9MVC02bVlSMUlPRENsWQ?oc=5"
+    },
+    {
+      "id": "2026-09-26-bruno-retailleau-66763856",
+      "date": "2026-09-26",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "«Le trou de souris est en train de s’élargir, il y a un coup à jouer» : Bruno Retailleau, à la recherche du «miracle sondagier» - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNNXRxOWtNR0U2QVdzTzM5SlhFOFU0RVBLOVZsQjNNOHc5cU5tUG1HUmZONW84bHlyUXRCUTFCMXVPNWdfVmhaamNObWpzd21JMGhVdFEyZ3hIclFTMG8yZGVGYkU4N2tNdG0wYkw4TFZXTGdmUndPNXBRQldyTEpQQ1JidjdzMExsbG9aNkFIRktTTzA1ZndEUGxSLVZna3dGcmJsTU9mTjVaS2R2ZXlGaWhqaVpQVUQxeXRNOWNFU3BNdDUzMkN3VmtaaThiaXZTR1NERXg1Ymp3T0pFRnZJRU9CVEZpX2ZQU295enFRQzY1bTJ6aHJzSEZJQjNsOWdhdC13dFNERjkwaVJaMXVlUmpSa29QOTQ?oc=5"
     },
     {
       "id": "2026-09-25-rapha-l-glucksmann-71969695",
@@ -1219,6 +1309,21 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQlJwbS1vOU1hTjM5Yk1RZEhhY0pFNklnQWhHazZ0ek1WNkhLaEVDdXAzVHl5NHJKSWZXNkRvQ2lrRFk3Rl9rMUFveVdnV0ZIaE90N09tTlhDTGR0VXlBNHFMWjJUYWg5S2NIQnlQSHJxeURFX0VxSUl2VkVsV0psMUVCVnVmVnE5MVNBVkYzcDBPSGhaVjN6TXVPY21HQTQyMkJNcnhXcFE3d1BaRzdZWmViUHBhXzkwRlpDZy1zY3R0Y243WG5kYXV3a21mQ250T3ctSk9ISV9tRWg3?oc=5"
     },
     {
+      "id": "2026-09-25-gabriel-attal-71665413",
+      "date": "2026-09-25",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "Présidentielles 2027 : On a testé les « 1.000 bistrots » de Gabriel Attal - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcG9nMlo5OEpBemFFVG1sQVlmVVlUY043T0JtRGEwUm8zd05DZ1k5WmI1REZIakZnTEs2V080MGZqeXJ6a3ZweHhTT1VOS2NVeEF5Zk5MV19ad1JWT3R5aWxFUmNsUk9DUllybEFva3BTcWJycHBPRTBEOWRVN21nTk4xZm1nNmxITVVFQVJlYXpkS01mLWJlYm1BNFU5dkllRDF3RFI1VFdWVExJWUZMWTdVX3VUdw?oc=5"
+    },
+    {
       "id": "2026-09-25-emmanuel-maurel-87930429",
       "date": "2026-09-25",
       "candidate_ids": [
@@ -1279,6 +1384,21 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVdkNUMwcG50dm1zRjJGYkhINklDSWhQeXFucHYyRkowbHFzY3NmdnRxaG1vcVFYMkpSS0JhNTNuT2tKSHRfejA2SUI0VVVzeDVJRzdwMGlnNkI1dy16X3hqSzBVYnIySFEwdnlHMlFNUTFzbVEzR3YxVWNjYV9qZS1zQS1od2U1UTJxSFZQanJMNV8xTjB2cTFrelJieG0xNGNPZmlpSUs3UVY0cjVGQWkxMmt1OGJVX0Fz?oc=5"
     },
     {
+      "id": "2026-09-25-bruno-retailleau-68627550",
+      "date": "2026-09-25",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Bruno Retailleau ouvre une permanence de campagne à Angers - Ouest-France",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYnVXdHVnWkFmYV9CWS0tdVJGUTJxRWludGxVYWh1N3poOVlVeGY2a3ZmWk40UWF3WUJ4WTd4bWtVS1lOTGNSbXYzV3lHUVhFUm9icXNiSmhRVWxoRGt0cFVLdUQ0N3Q2VGN3VHZfTmhPZXdCcFEtRWFlelYwc05zQUQxYUg0RDFXS2ZFY29KdXl6NjM1ZzVnMEk4ZWMybG9ZbVlVN19hWWlNY0JQb2R3TEZlbjMySXRQQzFTbmdmUGFYZEs0bDVaN3Y2c3FqekJldjd4azFrUnRVS0FfVklCbkxhQ2w?oc=5"
+    },
+    {
       "id": "2026-09-25-bruno-retailleau-56558906",
       "date": "2026-09-25",
       "candidate_ids": [
@@ -1307,6 +1427,21 @@
         "Le Parisien"
       ],
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPb2k5b05fei1TX1VOa29pWkZKemVxcHRGcHdzeTc5ZDRtSjQtcjlGaHZ1ak5majlOU0Roem1xNGZiNl9ScndYRk9NOVEwSC14Rnd6bjdKYk5oMlVqcTFlMGQ1ZGQwa1Y1V2xIUEVHay1ISWV4YU9lczJaMzg0Uzk5ODRKU1B2Rlo0VEpNdGc1TWtmMC0xU3c1U095MUFpVTRUb3F0cmxxNjY2MGxwS2QzVWU5XzVRaTNkeFRkdXU0T3JBbFNmQ09ScDdtZWZxQkFhdHFUZkIzb3R0cjBxSV9BekJHcnRsZE5QbWU3MDV0ZmtnRVlTd2drc09USnpYYi1u?oc=5"
+    },
+    {
+      "id": "2026-09-24-xavier-bertrand-52880586",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "xavier-bertrand"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Nord-Pas-de-Calais-Picardie : Xavier Bertrand en situation de battre Marine Le Pen - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNd2lVSE1GcVBsckFVOG5lZU9ITFZ6aWJQODlidHo1c0wxNzJJV0xhem9LT1lHUzVPalRua2FraFlfbmdZZ09VRWpzLUJUdFZhX0N0TGdyQ3pXMnBVdU1NYjB0eEY0dTVJR1hjUEV0UVlWM0h4WkduUlh0MkZlX2pRN0hMNGo4aE5BZWR1NHROUnJEZWZzY0ZYa2F2dW1mZWo0MmRhMDZ1R1Y5S2tRT0ZfVUppR182MkMtd0dISS10Y1lmUmsxRWZYVnc0VDBrZXl3elkyQUlMczhJUFFoNDMwXw?oc=5"
     },
     {
       "id": "2026-09-24-s-gol-ne-royal-56919280",
@@ -1839,10 +1974,12 @@
       "id": "2026-09-24-jean-luc-m-lenchon-09981443",
       "date": "2026-09-24",
       "candidate_ids": [
-        "jean-luc-melenchon"
+        "jean-luc-melenchon",
+        "edouard-philippe"
       ],
       "party_names": [
-        "La France insoumise"
+        "La France insoumise",
+        "Horizons"
       ],
       "summary": "Présidentielle 2027 : Jean-Luc Mélenchon et Édouard Philippe sont à égalité au premier tour, selon un sondage - Le Figaro",
       "sources": [
@@ -1953,6 +2090,23 @@
       "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQeTZOdkpVZFZGZ2tXZmtyRlRzTEZscHVsVEFxcTMyaXlsT1hWYmtOZUtJOXNoYTBKX3RZQ2tsRjRua3YtWEc5eHpFVDYxaG5XWEgxTTl2dTQ4VHBXNVEwV1hEMFRnVi1KNFdfOGlsQ2pmWWFOckdVZERCZUh1Nmc4VTA3VTJNSlRUamdCbVhsNE1fUll2WWxGa0Y3X0ZwTEpndHNiMmpyakNaQjZaUlVNYXRlODUwUGw0dUhNZFlVSUhEc05vR0NyRmdkOVhKRU1DWTBKaGNQdC1rU2JsLUtfcGhrQXpOZHQwYllNRUZFam5FVmZQV1pIYktBRFdTUDVnUlRXbTVBSFZIdVl4STRnczdNTUpvUDlMYmxpMEdB?oc=5"
     },
     {
+      "id": "2026-09-24-gabriel-attal-54363806",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "gabriel-attal",
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Renaissance",
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : au centre, Édouard Philippe et Gabriel Attal en quête d’élan - La Croix",
+      "sources": [
+        "La Croix"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQU5IWllfZDQ3bkhhVURoNVJPUi1ZRF9xOFdVSUNHUGVaOFVnNEM1cnFqTzlfa1BLLUowX243TGFvSnYtTzNLaldMbjR2SUJkQlg0UkdnUXVCcDJWLWMydUNyYjRTRVd1T0J4blF3QUNDNmNYNnhoZHZhNENiRVlDeXRhSTRXVkJqUmU2M19ydE53WkdvajYxT3psMVZHRkZQVlBQeEk5Y3VEclVjbTlFdWNBZlhvUmZWdlVNaW9RVFM?oc=5"
+    },
+    {
       "id": "2026-09-24-gabriel-attal-36132099",
       "date": "2026-09-24",
       "candidate_ids": [
@@ -2041,6 +2195,21 @@
         "20 Minutes"
       ],
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVkFPblhBbjdTTkdlekFLLUNNRjY1c3A4TGdDU3ZlYlAySm8xTDNEcnlmRzFjMFcxWklOYlBTY0Y3V2daX2dSY0c2NlAxWGNHVXhNRHh4d0tVTjZndENKXzF4Z3hwbGZYZElnRmw1bmJrTjlHUTlOUDNKeU43YnlHNWtYZlJmM0tVR1daNWlzRGFyQ2ZJQnIzWDBMR0N6YzlK?oc=5"
+    },
+    {
+      "id": "2026-09-24-douard-philippe-82834741",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Écrivain, boxeur, imitateur... Découvrez les talents cachés du Premier ministre Édouard Philippe - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPMlhNendiT0p5X0FlU1c5clNxRnZNQnYyNEFNTmFRcVFnMTdZS3pxQW1SbUQzRkNsY1dOWEJCOExjanpmS2tEVU9tZzZCUXRvU0Q3TmdRY1oyVTJrR0RQb3dXbU5qMDFfX044V0t3dXFQVVZlejAxQ2NUMVJEdlBmVEd6c05oSV9HcjRENWN3U0VmTnAzb1EtTXJEczhGWUVvX0NuNG9uNUU1STZOTzF2VXBaRmwtaDZMV0ZtQmVHWW1OcGVwMXBlRjhnektjeFJ1TXNia2d6MVg3SzR0cXZGSmFoNGJsUWJFTE5fNndqWnI5a3dQRFJDS0JJN0RCbk40?oc=5"
     },
     {
       "id": "2026-09-24-bruno-retailleau-08404540",
@@ -2580,6 +2749,21 @@
       "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNdW5SVGNUc3RkU1FidFVkZFlzWEFqdV9vSll1RmNIb1ZvMHJfVXQ4LTZEU3dQVVpvSE1ZRTgwN2VLa1djQmJGZFRBbDdIZnlVb3lKMUZ2dWE4Nl9QN1FTNk5BTFpza2dsZHg0bTZiRk5zSGk0Nl9mdGlkN3VUMkFBNVp4Yi1POTczN2JvWlRfWG9Db3NnYVFlYk1lZjBrN3d1c29USFZLMW5rTjFvb092TFpFWmhsYWNXd0hOVEJ6aGxrWVFpblFsc3d3M2N0VG5uWC1hQ3MwSzV2UFZETUxUVTNTQ2ZKQVBaMkNTUXVDVTYzXzFzczBaWTJ4blVZSFlaaUpfZFM0ZGVvWUFrYVN6ZVhab0cyU3hJVlh1eGszZnI2SFpmZmRic1p2Y1pGN19KaXpEZU8zeThQek5xeXhwTzZVYkVpclNzMXBvVzRSdjF4aFB1RHJJT2RTY1BEaERMZXhoalBrbG0wMmJMa0VSWEFrRkVncklHbmpsRGNEY2lHNU5ieDdpQg?oc=5"
     },
     {
+      "id": "2026-09-23-gabriel-attal-97081727",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "Budget : le plan de Gabriel Attal pour faire 150 milliards d’euros d’économies en cinq ans - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY2EyMndGNU9fUHdUbDFoYW5oQ1U3WERVQ3pEX3Nfall3TFdsdkVtaWxxRVd1YS14VHlzMnNjZ3RMRHM2QVdwT2JDRGNsM2Zsa1lzMXA2dlJaaGhOQkd2bHVhS19UU0ZSTEZzWVhobXl6eVhkQkl6SjNwampCZ0pYb3ZkLVJiLXg2UExMbUJmOTVTVzUwaWEzNnRqcGRNVWRyMU9PX0JPRDZLN1VORkUwcERxSjNZMDRMNDloRFY5TTJnQlJWTlNwUlJvQQ?oc=5"
+    },
+    {
       "id": "2026-09-23-gabriel-attal-47357763",
       "date": "2026-09-23",
       "candidate_ids": [
@@ -2653,6 +2837,21 @@
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQa1VEemFLVUNVRDdkeF9ENTYyYV9Va292VmZzLXU4WEFyUmhWODByQWRma3Iybk1CZWZKXzVTNWlFLXl0Vk5WS1ZsR0FJSTgwZ2V0WGVvMDU2VGxVcHROQVNGX3JqdE05VHdiYnh0dzFxREpzUTFqajNHcklranpIeFVHS09wOE4tY0tIcjZUNGFfM0ZsbW9sd1h5WjdwaDQ4WHBvbUVsOU4yUUVkSzUtdHFfdDJfX2Y3ckVZUjlxYXhGZ1czN3NlZER1UUN2a3BRSmlTT0ZpNUs3UENsNm9GU0VSX1JtNTlEY2VsUTJMS09IYkhncV9POUM4VjhFeEFUSlliTXdzdHZuemIzR3NnaFc2aWVOTVo2Y0VWZDNvM0pfaE0?oc=5"
+    },
+    {
+      "id": "2026-09-23-bruno-retailleau-41519950",
+      "date": "2026-09-23",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Retraites : avec la proposition de réforme de Bruno Retailleau, qui partirait à quel âge ? - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVG9HbzBFS2o5Zmoyek5NVGk4elNZdm5USHE4dVpxOW53NURfVmF4ZDdhY0xkSVB3blJyY19TUHZXVTA0NmZ3blNLRERwNDU1NlNGVlo3RWVzUDJGcEpZNWJscnBZMldfck83U1NPT3dhdkF4SHZNdWlPNmdjeWQ0NEJaVTI3N016YW9WUnJHckdUQ25TSjdIZGU5NjVSMGx0b3Q2QnR6QmNmRGkyemVTZWZrdzFDcFdGVS1mTHMzd2cwdW5SOFM0?oc=5"
     },
     {
       "id": "2026-09-23-bruno-retailleau-13239762",
@@ -2980,6 +3179,38 @@
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX0ZFYURyUjJvZFlVSTFsWkhyV3RZOXEwLUFxTng5Smt4RFlyY2xUdGpCS0tIS2RUQWxuQVB2eDBtUDhOSFlwU29ReWJBcnczZ2hZdTY5VzE4NThNR3JtZ2l6MVFlZEMtVnZ5dURTRWU5b3RiNWVrTEI2UEdFS2E2TFdyYjFzVnY2SUtZTTl0VkY2TjlVcFFLS1NLYl9EWDMyalVPV2tRS0JrWFowelZxLXdGN0xhaldqRGkzTmcxOHRnX0RMRjBrUEY2Z2UzSW1PVklubHprdWtuTTFvaW02REVET2FQclU?oc=5"
     },
     {
+      "id": "2026-09-22-gabriel-attal-78660568",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "Céline Géraud, l’ex-judokate et animatrice télé sur laquelle mise Gabriel Attal - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeFFqYUVGaHczeDBaekdYcmZLNHR1SGl2OTlVdGYtS1pjSUJWa1R4MHdKcVBCdTdRMmlzOTRzVTRTTFlsXzJMWElaR3RoWXR4V0hPZ2R1dmJlRW1VTTlkcGVCU3FRWkdpaWpranctZElhLXdzQkt6RWk2TmtmVVVSMnZHZVZSSGJfejBQcGIzZzZRRVZiRUYzNC1BZDJuT0NSbjd2UENRdlVJeW8wOGJpSA?oc=5"
+    },
+    {
+      "id": "2026-09-22-gabriel-attal-42050998",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "gabriel-attal",
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Renaissance",
+        "Horizons"
+      ],
+      "summary": "«Très, très immature» : entre Édouard Philippe et Gabriel Attal, nouvelle poussée de frictions - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPa3E3Vy0ybnZBVzNqWVoySG1qMkhUWnhVQnpLT1MwVHZMc3hIR0ljMkY3d2NZMG03a1dVZVNDaTVrOEhRLU9BYlgyNWJGNFZkY0ptSXNIUXQtemRqS0RrQzZQRjEtdFhCRlVJWEN6UmM3elpSVEYtZXN3NVNVVUdmWTI0dlNyQ0wwTVh6TzR3eDdrODd0QVRFTmpLNFpkOHBXMzlpaGZZWlV2ZXlNSkZCTW9aM09Ed3g1amRXOEZuMXZ3RW5Fck9GaU1OWQ?oc=5"
+    },
+    {
       "id": "2026-09-22-gabriel-attal-27360072",
       "date": "2026-09-22",
       "candidate_ids": [
@@ -3025,6 +3256,21 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOWFua2RZMW1lOHFMS0l1Y01zN3BURDdhOWxNX1k0SHJab1cxME5Ra1pWbm52bnJIbDNZYmRoaUR3blVmR0wxQ25aYXhiTHBjVTE4Z2pEZ2FGZUg1ekFSalY1cjR0elNaNkZRbGxuTEpreUlWdHJCeTdPN1lNampxTC1UTU8zcG5OamVMV2pGRTViTGZtSVpBX3FGVkxyTUFsb3RVVW9uY05NSVpBMnZobEJEMzZ0UklCRzJicG5mMXJqMVhlM2g4?oc=5"
     },
     {
+      "id": "2026-09-22-bruno-retailleau-59216604",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Refus de marier un OQTF : Bruno Retailleau cité à comparaître au procès de Robert Ménard - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQU3Bqb0pKcDI3UGJmVFpMWkp0SW9ST29DaHJOdElMaEJCZXBRNEo1OGZzbGZQZ0FOV2o4cFFneUhDSFlFT0pnU0lQSXhzbFN3N0NGaGZlRHhJc2tWcmprenczWHRmcHJnVXkycGFvSGc5eFVzVUw5NDNnenZHWS0xR216Wl9MYlZGb3BqUVl6Z3k3SnJGdTZudUZxMXh0QmR3YThSYmNVQUZERWYtVk5kZ2p1dmpBZktfbUVZUGpuMnJoelZoSk82eA?oc=5"
+    },
+    {
       "id": "2026-09-22-bruno-retailleau-35089879",
       "date": "2026-09-22",
       "candidate_ids": [
@@ -3038,6 +3284,21 @@
         "franceinfo"
       ],
       "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNNHJDdWhtejBqY2tCd1dkbVlhQjZLcUR6UmVRclJMLXAxOHk0X3J3UE5YbnB4LTlubmRpUjR3ajFLRmhXbmRfSGVoWjVpVDAzblJ3bUFJV1djMEhrZnE2U3I0TzlLdWI5VG9TUjhIWV92MU53NW43b0VHc2JNdTRZaFl1NzhKcVhaVGd3X19URU82RUlCcXluSUNqT2lHdzc1bDJsZGtqQUU3XzV1aUJEM1BRREoyc3J3eVZfMENNVmRPd0stek1fNTBCTDdrMGE5QXdQak1hODFrY0dlc2hKanI4M291RV94cGpUWTdFZVZ4eVhveFpBZFZPamU5ZXpXMTRCbDZFR0M?oc=5"
+    },
+    {
+      "id": "2026-09-22-bruno-retailleau-25867622",
+      "date": "2026-09-22",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "«Je veux sauver le régime de retraite» : départ entre 63 et 65 ans, décote, capitalisation… Bruno Retailleau dévoile sa réforme - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPZmRNbGdvUnB2U2RELXFZRXpBWkttc0RyZ01Zc3ZCSUJPb2pUZ3ZLZTU4WXhVVmFNVldiSldCU1daNXBWNkpiVkYyWmZ0UzBnYjdMRE9kVHRNWHotSnZGMExCel9EQ09SclQwQTNCNVF6aXVSeDhmc1pFUkIyV3ZTLUZXODZJT2JCbGVrR3d0ZmNLWHVaLS1ZdTlQSXdxNjZ2Qm0yVTMzdEtkQlNxLVppNjBLOXdwalBHUlZBMV9RbFVweTBhcWo3QXdMclZSb0tfVmtpemktRkRTaFRsaHRUdXRkbjM3VVBwTmZNelloNjdIOWxKZ2NqTXlTMmx0MzRwRk5yUXFOdDYzTFFKa3JsZE4zbWFmSEtL?oc=5"
     },
     {
       "id": "2026-09-22-bruno-retailleau-07471898",
@@ -3559,6 +3820,36 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTHp2djYtTkduQVVlV09TTjA3ejRhS09xV3Y0MjY3eGh0ZXFKQ1I1RWh3UzVXdV9xQ1hrRDlVbl9tS0FHZElzY2RvMFhsQURXbmJ6Q3A0RGFLWXFwSW9QMzZFVllXN2E2d1BrdzJoSXExUUxfVXBMMjBqcjZNQmFVdVV4NnlBc2J3VnhkbHZxZFFpMWdTWWV3ZmhxY1d4cEppdlBUNEhucEpqWUMxWmNEM2dNX1l2NW16YmdpUDdpaUstemZDMDJBSFd1Rjh5NlV4RUlVTVp1QXNnckdTczZnU3FXaU5ieUk2QkFz?oc=5"
     },
     {
+      "id": "2026-09-21-douard-philippe-80778160",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "« L’heure de vérité » avec Édouard Philippe sera décalée… à cause de Macron - 20 Minutes",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeVNlZnJ1T1paRVpBRXNEaWd2MVRuRElyQkc1RG1ZczRRS2VRaGt1Z2J6MmR4NThtS3BiVlNGdjJyQzR4VmlFQjZDdHBHcTN6UF8xTm9SLXhObTVaei11NlJpTjBZZVZ0SHRveVRzQTNQMjg5MkViMTZHLTZKOEtIbGlPVTJHa3kzRkE3bVo3Sml2V3pPc1ZwVl96SHRrNW5vZzdDU0NiMHN2TUlDZEVxQUt6MzhxellybW90OFAtQ1JvcWt0RVQ0Vw?oc=5"
+    },
+    {
+      "id": "2026-09-21-douard-philippe-32024950",
+      "date": "2026-09-21",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : Édouard Philippe, une campagne perturbée par l’interventionnisme d’Emmanuel Macron - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQ1gtbjJyTUZFWHgyVGlWSlRLbjE2M3hYQkVaYzRoSVY0MDhsdEFtM280eUF1MnRNeEhOSnBFZjVVMjUwNG9Oclk0WlRBRXFaRlRNcXVHbXRPN2RPeVF2WW16UjN5enBIbUpwdThmWDZ4Z0FxU3JTajRiU0RDUTB2R2drS1l6YWdNX3JKLWFyMk9rWlROTW8zLTFtZXNZeWNyNXhrbS1zS2tlVlU5VkxGUjYxMUEteThyRThIXy1nZThXVDRJWUk4T0RfVWFlMlEyVDNycVlmeUFNRkht?oc=5"
+    },
+    {
       "id": "2026-09-21-attal-equipe",
       "date": "2026-09-21",
       "candidate_ids": [
@@ -3917,6 +4208,21 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORlBpTndRZmVxZmNhcXVMMWRXekF3NzNMNXc2Wk05QVc3d1pxcE1KRmhOWDVBYVNYd1M0SlZvc2lwMGQzaFNfYWdDbXdmWWJuSDI1VjhOdmd4YU56SVg4dkstSVhBYUp5THd5TW9SRFVnVUhRQm4tV2VabDk0VnB5VG1SR0R0ODlCd19Nc0p1WW1rMTB2WDBsTXNpckhOYU8zNGl2My1IcDh6T2ZBd0xvMDVpeHBkU0Nu?oc=5"
     },
     {
+      "id": "2026-09-20-gabriel-attal-33903902",
+      "date": "2026-09-20",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "Présidentielle 2027 : Gabriel Attal désigne un duo de macronistes historiques pour affiner son projet - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRlQyMEdBeGUxNXd3T2stVzh1YTloZzBkZlQwcC1qNXBBM0hHVlQ2MmdkMENUZUF0LWd2eXZwbm8yREpwbWNUaUN2cS1yYVlmdmQ2SDByeEU1VG5TSHZNR3NBQWNhaDV3X3dzbGtPOHd4OFFaMnZUcWlhbW1hdF9YVm96NUU0TnNPamdBN2hJaExhaE9nN2x2NVNDTkJEY1VaZXJkWXBwZ3FQTExGOWhzbExrdGJvd3RZakNzSERUYm5pUDFVNGxGaldId3M4Sk1LTmRYdmI0VHVERHJSYmhfMDdFdE45NDUzY0MyRC0wNA?oc=5"
+    },
+    {
       "id": "2026-09-20-ecologistes-strategie",
       "date": "2026-09-20",
       "candidate_ids": [
@@ -3945,6 +4251,21 @@
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdW1GZTVWcDVKTjNzUnlQeExsLXVscFAtTVVBVjVnQnBJMzVGckEwWTZfc1M5MmZQUnpLTGlGMUhTTmFuOVJJVUJhMFlnV3JvMEh0M05ySjI5UVNaUllselVhU3F5UVVXX0F1enlMUHhoRUFyazhPMWlQeTBuOGhlV0kxUTdPdzY4NFFRUFhuY0pUdzk0dzdLd2JySzFGUXBSeUJHTUhGcjFEUjN0Rm9pcVFSWFNOc1hkdzY1eW9CeG1CTzBIWEY2bVFnY3ROdTdWb05xMW1LdjlONFdJNUZDOTJTdlJ2RmI3Zjlj?oc=5"
+    },
+    {
+      "id": "2026-09-19-ric-zemmour-70971016",
+      "date": "2026-09-19",
+      "candidate_ids": [
+        "eric-zemmour"
+      ],
+      "party_names": [
+        "Reconquête !"
+      ],
+      "summary": "De chroniqueur à politique : Éric Zemmour, Natacha Polony, Aymeric Caron… L’insolite pépinière d’On n’est pas couché - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTXJaRkw2RjRES3VFbHNTRGRQdmtOX2NNdHI2TEQ5OWdnMVJhSGNJVWFSOEJCN2lNd3BHNmtvSEVvQnR4azlPTDFlTDVpeEZZbE5UbjZLRnpHdW4xU3NZTWpkRTRZak1OUTVJZTUyN1lZMm5vTW5ta3lta2ZNX1FrdWdEdGxwS1k3VVV2QVZ6SUlpRG54S0NhVzZVNzBzTG9ZY1N2SnRmS1ROUEwtNWdSeFlnU0Eza1RBWUwtbmxqUlo2SXktRkU2cGRreXZreUJfVFplNU9namRBLUF0a3g1M0dMN05NWGlxYzh2aWdrcW5zWVNmaE9NWDJTd2RORWhWWG5FVE5qd01KaXhk?oc=5"
     },
     {
       "id": "2026-09-19-renaissance-60387149",
@@ -4263,6 +4584,36 @@
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQaHpCLTlSMEgwT2phdm1yRXNjZjVKNnMxS0pmcFh4ajV0UW5ubnUxRDBUUGdLdEE4T3ppUzhJRXJlMjlxZzhYRWxLR0ljM09VTEdDcjlnWUxFWVlWX25VSUNzVmdjY0d6SVJUaUYzUzRneHdkX0pGTlRHbkQ5UmRjZnhEbDRpX2xsMWtuVDB1TTFqOTlELS10U29NNnhuc0c2b0lQYlBWVXV6M0IwSXo3MEFPOE1vb3NHS0FCMmxmUGc0MkYtM0Q0MlBFdTB4SnYyNzNrcnRKejY5OUtnYWRsZmsxdVQ1NFVqaUJaZGkxLTBWZmt5MVFUTWQtLWlnTk9oT3pWWDk4SlR3cW5n?oc=5"
     },
     {
+      "id": "2026-09-18-ric-zemmour-41123149",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "eric-zemmour"
+      ],
+      "party_names": [
+        "Reconquête !"
+      ],
+      "summary": "Présidentielle 2027 : Éric Zemmour confirme qu'il sera candidat et durcit encore son discours sur l'immigration - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPQ2dCbGNOeS1QZnZONTVPcTVDVEVFeWVVanU1T3E0ZnpQemFUWjFkMFVQdnIyejRDb0ZhVFVZZGdpU1RsSUswcl9nRGR5WFAyS3lKSzlOMVROdTdzTlhZU3NaMXVQNExNTDdRTy1pbFhTTVhCMHVmT3NjTFo1YWpEbFpPaC01MEg2aUNXdVc0dElISlRzV2xNdWVlaTVONFZaZnltX1I4MjFIWF9MUGU5VFFhaW9HWDlMakRoTXNJc2o0eGFOUGdnM1NVSWFKLTVScmNSYlp0eEIzVkFacTZrVGtQd0cxVGVjUXJWcko3WFQzSVVvTzFsUg?oc=5"
+    },
+    {
+      "id": "2026-09-18-ric-zemmour-29014226",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "eric-zemmour"
+      ],
+      "party_names": [
+        "Reconquête !"
+      ],
+      "summary": "« Il va être obligé de se radicaliser » : pour 2027, Éric Zemmour durcit (encore) son discours - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQLVlwV0NjZnd6TGFjbkJWcmtIZWl6S2lBZDR2cHVzSzR5dm1LOVVFTVZHVlBCWlU2Nk1IWW91ek5TT2FrbEFsS2NIT2hQZ1ZOSXFCTnhyOXNwVjZtRUZ5Y1ZrMlBMNy03dkVsYmRISmhNTW1VUzlxTURRZEZhS0hLOFp2SklWT2VuWlhVdWNpdDQ3ZERENllwTmxSaTY2TmM3cXdPSzBPd0JDU0dIdDBNSFI3ekw3RlBIaXZ0dy1tMmNfNkpSWEljdzFTaEFsTFlMSmpTRVlmV3FNOGtZQmtB?oc=5"
+    },
+    {
       "id": "2026-09-18-ric-zemmour-27836224",
       "date": "2026-09-18",
       "candidate_ids": [
@@ -4276,6 +4627,21 @@
         "Public Sénat"
       ],
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVVBxRzI2bWY3UkV3OFAxLVNhbVNxRGR4NEJta1dpNHZIM0JmcktLempZVVExNlphcmwwQzZuOEp0SDhtRl9MNnctVk51M0NWaEhxbEp1QzNRbjJjRVF3cUUzLW5zbS0wVmdWS1hiVGlydGFMSE9iUDg1ZDZ4YkNJMmU2ZFRSb2VSOFYxWHdzR2NIOWxpQjZlWUtGTXVob2FnTnpOV2Z3aFNTTVh0eXl4TGlB?oc=5"
+    },
+    {
+      "id": "2026-09-18-ric-zemmour-14102062",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "eric-zemmour"
+      ],
+      "party_names": [
+        "Reconquête !"
+      ],
+      "summary": "Présidentielle 2027 : Éric Zemmour confirme qu’il sera candidat - La Croix",
+      "sources": [
+        "La Croix"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb2FOY1BYRTdsbzVnSVhsTGloU2ppdDBMakRYMTB6R09Tb1NxbUtELW55Ynd2aUZnUVkyUUdGblFQNEVLYU02T3ZoMWFXSWdKVU1YV1FvbHF6MW5UeVdMNHR5Zk5BUFlxNnU3VDRyeXdmcWJYb3Q1U3FqU1F3T0FnRzR2RmNXdU1UaFRTV3dMdmtfTTA4U1RXbmVUeV9FWF9GVlgyT29tWWM?oc=5"
     },
     {
       "id": "2026-09-18-renaissance-78051357",
@@ -4546,6 +4912,21 @@
         "Le Monde"
       ],
       "url": "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-la-politique-etrangere-angle-d-attaque-des-opposants-a-marine-le-pen_6777192_823448.html"
+    },
+    {
+      "id": "2026-09-18-douard-philippe-52655924",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Avant la présidentielle, le candidat Édouard Philippe s’en remet au Pape... Les indiscrets du Figaro - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNk9JT3YxOFBETGlfTUZzNUVuR1dyRmZ3bHk4V2Z5eWo2QmVvdGl2SldKT2pyWExjNVQ5MmI3QWtDa281cVcyLUc4cVBaZmZxY3pZazkwUmkzbmJNenlVTVk0clZ3VXk2VnMyQTNNZmhsdVhfaWtnN0ZQOXpCUG5jVDZmc0R2c0RYbEsyNjhLU0NVT1R6SC1OT2V5NU9ubUhjQ2YzZkFCVzRDNnZRa1l1RWh3OWJEdzJIMnNkMWFKSmJjZW5zWktWT0pSQWR5TnpxMUJSOGFmdGFfS0hHdTJhZDNQQS0wSlhqVk5n?oc=5"
     },
     {
       "id": "2026-09-18-bruno-retailleau-97724353",
@@ -5042,6 +5423,21 @@
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMU95UE04RS1YUVhGdXNmOXdpajVzYXJKV2hELXJiRklWTUV2VVl5Nk5fbk1HdjRTbHhIZzd1WU42X3ZNSDZhV1JWeGM1b3NCbmRNOU1hUjZEUS1GNUxOVk5mY2I4bV9CMWRWWGVpWXVrZ3o1YUJxWDNsUTlQOVFRVGtYRjZjUHhPRXhsTWUwVjQtT0R4VjZtcHVoS1BqTXdFY240WUlFNUJkWjM5M3ZMVXI3TlNqWXhOZWgtY0c3azVoWTk3LXhsa2drVTNidDctaEtwT2dIS1hSX3BuWmtORmZiaS11c0lxZXhCVWpNOA?oc=5"
     },
     {
+      "id": "2026-09-17-gabriel-attal-91701587",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "«L’Europe actuelle à Vingt-Sept a atteint ses limites» : Gabriel Attal plaide pour des «États-Unis d'Europe» - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcmY2LW9oVEtMSVpTa04tVTV5SGdjc1E1eUZkaURzR0dSZ1hQZnJ2NktXMlo0LW1qazQxclEtYllCVHNpNDZ1dThFT0UwZWdUY2lHbEg3S1lRZHk5elVxOGVrY2Z6SEw0MmptWTNUQVptRld3TVkwcXZxOXFsZXI4SnRkdkJEdjhKT0NINVllelF6aFNPQWI1UDF5VDgwbE9TQ3p4d0VLeW9uelVfWElXclZjSnN3VUMtWnNaTVZJbFBrZmkyem5TZW41U3hkWl96TXU1QnpiRy1xcjZmdGc?oc=5"
+    },
+    {
       "id": "2026-09-17-gabriel-attal-64943529",
       "date": "2026-09-17",
       "candidate_ids": [
@@ -5207,6 +5603,36 @@
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNd3hmalJsN0tnY0tvZTRLLVdvTm4wQkFiUHdoUVk2a0FqcTRrc05JRWxGTHpVRGFVNmxLWU11N0JXdjh2VU1UY3NTVk1iRFpQU3RpWE9YQ2F0cVhHWVRxcnhGQktmLThUQkhmZWUxUzhsdWthem91NE1OR2RBZFFMWXNRY1JlY1k1d21fN053bExmV0dQT1ktYk9Tc3I2MVdKM0hIN29Oc19oVFBCSUltUFVrNmVlTnNmUll3UTN1VFl2ODNDNmVlREpPeVI5WXpaTlBEZGh6ZF9YZ0xlRFVjLXlJM1A1Ny1lb1d5RXpNQ3VBMHY3VVRuR2NabjRva1YtdEZaUUwybDloVTBiT0FNR3JoY0Y1cWh1bkFn?oc=5"
     },
     {
+      "id": "2026-09-17-douard-philippe-21476394",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "«Une question de sécurité collective» : en Anjou, Édouard Philippe plaide pour une écologie «régalienne» - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbnFnY18zRnNKUUtKZFlfZ21xUjF1a1FfaEpfN3VLblBKREVQMm15R2NsMHQwMHROU29HaTVjRFZfSE1qMWZ4SThtNHhWZHhIemN4VDNqTi1CeWp0YmtSSUsyT0k1M3dPMEJLbGxJNjc1WFdfbDdsajBuZnJ1cFFJYjZXS2MtTUdnMDVWQm5NVDV0c1RiNTFnck56UTZOSHJxZjNDSmd5bTJrNjJoVWd6bmZ4VzhzVk8zOFhvWk9VU0xFMFdDakhnY1dwUm9URlNWUHgtOTc1YzA5RHNIbXM1eWIxUUdQUjNfellWVQ?oc=5"
+    },
+    {
+      "id": "2026-09-17-douard-philippe-08393810",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : Édouard Philippe présente son programme pour l’adaptation climatique - La Croix",
+      "sources": [
+        "La Croix"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNV2VHWmpXeVhTMDlvWXZxMGRjN1ZvWkpxSmZFZjNWV3NlY3RONEUweHhWdGtSQjdUOU5WbmNKVmJCS0JkdU1RQUlRbnZybUd4RWJDZVFmQ2d1RlhnMHd4eGhGVUxwdDE4R1R3cDRHbTZjRmlYRUU3Ym5QSmcwZUZqMlA5WjhDTHRjaTNyZGNCaG5fOHlWSTA0eFZHVjA1RGcwbVc5bjdtbXZBYmJ6SVNMOVljazJIZlNEbTkzYUNwMmR5cVNjSXBScmFEcGM?oc=5"
+    },
+    {
       "id": "2026-09-17-douard-philippe-02082614",
       "date": "2026-09-17",
       "candidate_ids": [
@@ -5235,6 +5661,21 @@
         "franceinfo"
       ],
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVnAyLVVLWVdnVVA3T0FZUWxubERoSmFheWQtMU14VGtTWm5tVzByWkN0WXVvNUxBdGpJVDdUcndaSDBOM0NDdzRoM0MtVzVnZXVKZW16by1sajRYOHV6MUpmZ1RUazFnVDFiWV9UNXVDanVkVENaYXFLOVhpTE8tNjJ4aHNzUW1YZC1LRHJsYmJjSVR0UHdSZ3RUcVlyZVVfTUNRRXdLQkExQTdBRXc0bGxUazhPNXMtOUFsM0lZTGxIdDE5TjJ1ZWp3?oc=5"
+    },
+    {
+      "id": "2026-09-17-bruno-retailleau-15429608",
+      "date": "2026-09-17",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "En Bretagne, Bruno Retailleau parfait sa stature présidentielle auprès des agriculteurs - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUWxFSU5TTWRHSkoyNVU0THZOM04xYXF0VHlTdGtNd1RkbVF6U21ncEZDbUE3Ni0zV0hTdUxwWVJiUmhQM3RXOFpoTld0NzlYd1RvWkNmNExBdHV1cjNUQ08xQWw2THFUMjhwZzNDa3R5YjY2ZGRoRzZ2Qnp4TkFDeldDeTR4SUpJU0tCMXRrUDBGcGlTOWpSMFFhVk5POEh1RG50UFczUER3dFkyLVc2RkRqRjE5TlkzUk1xbnRuZ01yUzVpSXlIUzBocFBpUVdEazE1N3FpV1lTN2trNXc?oc=5"
     },
     {
       "id": "2026-09-17-bruno-retailleau-08570676",
@@ -5593,6 +6034,66 @@
       "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNZU9wbHdmd01MNEpVWUhjYzVicUtWTV9HOUdrMGtidVhFUkE4VjBwbmJ1d3NjWHc3YmtfTWNpVThRUWJVQWx1VG1ZOXVMMExHSFlRT0MyaUdTNmNpMnJtYy1oRHJ1UG5obVdEcWMwNFBKbkcxYXJPbFpycTg1MkdjbDRQclAyUTl3LTJCeWZqdlJGanl0RWVYZ3FhMmFCVzNyeHhia1FfR3NJbGc3bC1mNDBXSWttdkY0TmlMcFkzNUJpYXVTSmVYRHY4Tl9pemtxbXdiZFRSRjVydWIwcm1aNERER1dCTHJCN0RNMGdNZVpCTjlSaE50aUZDLXZxbXQzWVM1WE1iaVVHZ3RiVUtiRTl4eTVJNjc2eHVuYk1sSkNFb1pSOHNiQkpEUQ?oc=5"
     },
     {
+      "id": "2026-09-16-douard-philippe-38287693",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Christelle Morançais, la « cost-killeuse » d’Édouard Philippe à l’assaut de la dette - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcWVoV2VWcmxBOVN6OGpPVVhCMzlHX3lsS1pHRG1NTWs2YnI5UlE1cjBUT2VqNXNrVkx5TC1oREJRNjRrMEVucUxzaUx4YzBzZ0FEdWF5WWxUZk1iZi1ld0pZUVZfaENtNGxVZDFzNUdFc3Y4TjdObDlzSDktSjJGcjE0Y21yZHVvbERfdlltZ0dITFNRdVFEWUtnUVh0VjF2bUtDTGdmN2JCNjlCcWVMSG9sM3ZzQVFRblA2SF9wQ2R6MTdnOExHRjhPTGNZcFZ2YUdEQQ?oc=5"
+    },
+    {
+      "id": "2026-09-16-douard-philippe-29942718",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : Christophe Béchu, l’ami qui « fait tourner la boutique » d’Édouard Philippe - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUmNKT0tzRURoY3dyX2hDUlB2czVfNWlCQzY4eWlxbFBJWkRRTHBTZG1nZm9JR3RTVVVUT2JwNng4Q1VlSnA0dzRvVTQtVGFIRDNtdFBPdlZjUmhXdGZVRnk2R1FuQUVrVWw4UjJ1UmlYNG5qWG1iV0RLWFljRy1nYnF4QTJndlI0Zk9lYlFvS3QxOTlMTGVQVUJwbUlmNUthRnc5VWFfeDhGSFl5N0pLSi1iVDBjd2dCNjNNaV9kbS1pYTVtQkJmU1U3aG1nZV9aazQ3U3JjU3p1VU5GRXRmaDJIcw?oc=5"
+    },
+    {
+      "id": "2026-09-16-douard-philippe-27518557",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : au siège de sa campagne, Édouard Philippe avance avec son noyau de fidèles - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPLVBWM24wOTl2dlFmOXlBOC1YUzVmbjVGOHNHN2lyNjRsWlRXbXFEWUhsdHZNWWxSTkFudW5hejJpQm9IenlSb25ITS1ibG02MEVIcDhwWkMyNmZiZXZtcEpFUkVSVE16U3BZM1BTUDk2RzFvR1pXSWRfeUJBS25TQTdKLWVKMWY1a0duLXZBRTFhSWQxNTJPY2w5bHljT1ZZWHNoZU80WksxRHJrSGp4TXh2OGRMZl9JRmg2aFRvMnhMX20zQzM4UmVsa3dqanRkMGNxcmlVenVNS0gyVVprZ1NGaEF1S3BuMFNfSU9GTFhMdF9m?oc=5"
+    },
+    {
+      "id": "2026-09-16-bruno-retailleau-90487982",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Budget : Bruno Retailleau demande au gouvernement le retour de la réforme des retraites - Public Sénat",
+      "sources": [
+        "Public Sénat"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUHNhLWt6OW1YMEhZSm01RFY4elNTc1loZVdaNnhPSW5fZ08wNm95WHVEekhuQXpoRS1SUmNxdTRId0hIRHlqZ1FEUmhxXy1xXzRmSkRxbDU5aWRLM2k3azZybHlwUWdqS3FLd1VwLWVTd25NT011ZXVYb2szMnp0eDBCYkt3OFRCcVh5WTJJYVktMVpFaXpqbTBtZndNM2lOY1FvVkNqNFhLX2ZxRDQxQnpCM24tN24yVGdRTU8wTkUtdU1UT2hWOHdXWTItUQ?oc=5"
+    },
+    {
       "id": "2026-09-16-bruno-retailleau-79310904",
       "date": "2026-09-16",
       "candidate_ids": [
@@ -5668,6 +6169,21 @@
         "franceinfo"
       ],
       "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNRnhGNTNVM09MdTBQb2dKTkZsME02dTQ5TEhXYTlOYjFobUFIbjVxZ3JlRVFzdmNVOFNPYklySTZ6TFNHUm1Pbm1TMDlZbmx4d1RLSHNqckllQmk5THBjMFpkZkQ1YXItUTJNU3NiS2UySWxNRVVYclRvRXdPSmdGZlhoOGdoRDVSR08wQkJLbGE0T25iYzQ4SHZWeU5NdWdzUVRvejk0MjRCNk9yVlRZdGJxVmdjOGJQbXpVYkEtWlZZR2N5LWRQVU1IaE1PYlE5YTBobVZ1djRhcXhKVmRXUTUyaktDcEZNVV9FYXR1U3dKbVNIdDdsWFFpZ2NaS1VKbVp0dGpha29MLV9qY0pwai1qSzdFY1A0VDdxV3kwd0J5RWhQbllfbW1mVmp1UkQ5?oc=5"
+    },
+    {
+      "id": "2026-09-16-bruno-retailleau-11055815",
+      "date": "2026-09-16",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Présidentielle 2027 : François Baroin apporte son parrainage à Bruno Retailleau - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeGhhNWJ4eUJrWjlWLTFmaW5nZDNsSXNUdVVqeUw3RDZjRFBBdlo3enpqZE5aalJiYTN0dUQxZVF5ckZXOU95WTlaTkEybVEyNDdabGdjNGlkakJKODZrcXdjSFhieVZvSTFHU002UDEzUWQ4TjJXM2R5YUNGMVcyR0NabElOWU94eWIydWhBcURYWVRMMDVUajlVWVFjRVNiV2ptMjd3YjgtZDZPU2FnSC1iM0ZNbkVoeElULVdMZE1VQnBZU0tqN0NBWk13a1dVa1E?oc=5"
     },
     {
       "id": "2026-09-16-bruno-retailleau-09262006",
@@ -5972,6 +6488,21 @@
       "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNUHV4LWV4RUw1anJDN2tfR3B2bzZRbGNTVDZRenZYNkx1ZU1QY2xkTmZOVHdsT05hazVseTl1QkNRSDJBdDlwN1Z1ZG5qR3pWWXZITjBWTVIzMjcxdnc5bUMyZV9Ja1lLQ1d4T2dCZFk0VjV0Z2QwSmNacDRBd2JRT2ktTUdxS0Y1cDRSdm96MS1feHhmRlN6bENSMWhlNDIweVRsNEhWY1VKRDdVSW54b1FpSTJKRkdrMHhNVmlQWlpxVlJFaEtaWGQ1MjdvQTNlTDZ3dWdodWVQWWJSR2hmb20yU2k5dHducjZ3WnVzZXBjQ1FGc2YwSThMc3lwaTd1SWdJd0VfN2VPMkpjVzZTWlNpeXdwNXlkV0NQT0oxcFZETjIwbWx3RFZ2MnZ6d2pr?oc=5"
     },
     {
+      "id": "2026-09-15-bruno-retailleau-38784250",
+      "date": "2026-09-15",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Bruno Retailleau veut faire baisser les prix à la pompe de 15 à 17 centimes en supprimant les certificats d'énergie - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYlF2di0zbVNycWx6THd0LS1qSDZUMVVrSHZ1LVlSZ3NreHEzcXdjZWhHOE5mYnM5enJRUFlNcElRNkRta21SNEJVc29zckZIN1R1YWJDejF3NWRkRjJTVnNYSmpEenoxZjVvNE5ZQTYyZ282TTYyRmt6ejFiUUx6SHZjRC1IakNnVGNwWDh1OExBbmJWeWFpWERDWFdYX040bzR5cGxOREozcVNLc2dfRmtSSm12TzFSUVo3bE5vN0hERDlRQkVKTDdWNjNkeHpzV3NqckRVd1BZaHl0bmNITUJvb3V5Si03TTFPLVl3TUx6Zw?oc=5"
+    },
+    {
       "id": "2026-09-14-xavier-bertrand-55325183",
       "date": "2026-09-14",
       "candidate_ids": [
@@ -5990,10 +6521,12 @@
       "id": "2026-09-14-ric-zemmour-83405063",
       "date": "2026-09-14",
       "candidate_ids": [
-        "eric-zemmour"
+        "eric-zemmour",
+        "david-lisnard"
       ],
       "party_names": [
-        "Reconquête !"
+        "Reconquête !",
+        "Nouvelle Énergie"
       ],
       "summary": "Écarté du ZEvent, anti-immigration, admirateur de David Lisnard : qui est Sardoche, le streamer « de droite » qui a participé au meeting d’Éric Zemmour - Le Parisien",
       "sources": [
@@ -6423,6 +6956,36 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOT3IzMVhERldxLVcwYkxwMUVrU1d3U3gxWFBfNzZhRTRqU3dWc1NaTlgycGxJaE9PSkxTWVRmX3doM3pKWkRKWngzR1JJRTFBbXpNM1lTMW1xaG5ycGxlS04tWDNXOWlHMllNNzM5U3dSMGlObklTSXNONnJrZHRhYlcyaVNKMWlfQkpkM19heU9uUW82cnhWUzJId0VOMlJDUjdXVDNxOTVienlPeXlITGljY3FYLVpWLUQ4QXdTWnByTkFxMmxqenBJTmwtUk82MFNJemJnZ1RjQVpyamliM3VOUDlid3UtZkh3?oc=5"
     },
     {
+      "id": "2026-09-13-ric-zemmour-94471602",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "eric-zemmour"
+      ],
+      "party_names": [
+        "Reconquête !"
+      ],
+      "summary": "Présidentielle 2027 : à Reconquête, Sarah Knafo vole la vedette à Éric Zemmour - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYXA5cDRoTzhpbHBacjV5VlhCYVBZeFNId2tvc0d0aVFaTFh5S3J0SXhEd2hKWks1Rjd0bkthWUpZb2MxNVhNNm9SRVdieHFkZVlSaVF1TmlvTGNnSzBKdVlvaUsyWlpjZ2FSSk8tb20zVGRCVnJWVFN3TVVVX0NqUkhzc1FQV3BVSURfVmhKdTg5LTJ2Wk1LcTdpMmpzWGpqNE1tSlRrYmgxZmNTR1RwQ3pBWFV3bE1LNFphZnVvREhocFhPNVZRcGlWaXhHajF5MHc?oc=5"
+    },
+    {
+      "id": "2026-09-13-ric-zemmour-89272353",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "eric-zemmour"
+      ],
+      "party_names": [
+        "Reconquête !"
+      ],
+      "summary": "Présidentielle 2027 : bientôt candidat, Éric Zemmour veut croire au vote de la « résurrection » - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRmF3LUlKMWZUM3VPano4eldwck44dGlSTEoza1d5cUFZQkgwSEdFUWNXbHRHN1ZZXzRIbDFOb2k5amtaYnJlMG1MYWNyTnV6dTJWcmxoMlpaSDFHaTRXSG44TVdNTnlNbGNScHJ1LTMzekNxUWtzdFBCQVk4eEREMW5Ud2Q4U1BrUDRZdEs3MVk4Y1Q0bFNENnNKR3AzYnotOGdHQjI3RXQ0X0gtRFVDRk9IR0VOdW9kbWRJMmVmQ3NqVG1EeS1RWkM3RE9JQXRfS1RGNkhseXZ5OGFMY3N0NA?oc=5"
+    },
+    {
       "id": "2026-09-13-ric-zemmour-82070049",
       "date": "2026-09-13",
       "candidate_ids": [
@@ -6794,6 +7357,21 @@
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPLUQ0a1NLSWs0cmtqb3Q2R3RKRkhjYUVSWXg4ajFPMDlYbjJvRnVEYWhfaUJCSVJsZ3RPU2J1RHNQdGFQd0xucFB4aFZpOU1LUFo2VlM0ZGx3MC1ROWxjNlNUUGFzZDJoWloxQ0JYQUg4Ny10MnFrR3dXQmt1RWhPazRvSDVYTkc3UXgzNldOUG4wYlhUVE9lQ0FmT05GMlhiaHc3WVhuUkZrQmkyZmNxbU9qWmw2OS0xejJpVVB6Ml9GUzVmSXBkZnZOTXFsbVhSZERhX1BLRnMxd1hRQ2hyUWpFa1Bpc0Rfd1FhZFVtTGJMRVlLbGFuVTQ4c05XSjVsR0JfTGRvS2xfR01FUnlYZHFOVQ?oc=5"
     },
     {
+      "id": "2026-09-12-bruno-retailleau-77326619",
+      "date": "2026-09-12",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Présidentielle 2027 : pour Bruno Retailleau, l’indépendance de la droite « jusqu’au bout » - La Croix",
+      "sources": [
+        "La Croix"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZl9oWGN2WG5sazYtVHFlMzNhZ1hNMXVtcDJ2UWZtOE1qTTROZHhBdkNhdjFyS0V6R0JiNXlWQnd3VFN3c2x4QWlMRVdpa05NcUdpc3F0MXNpejdwR1BBNHJwUksyS1FxRnM5MkxpSEROS1pRRk1Ka2hlSTBUSnYtaXZMMzBjU0dEaDg5bDdhUWdiWUZXN3dmUzdvdjFzSkFrcUtZUXBTOTB1Ung3SEpzMUVaekVqaktFbXJidHQzcVdvUFJQ?oc=5"
+    },
+    {
       "id": "2026-09-12-bruno-retailleau-43003126",
       "date": "2026-09-12",
       "candidate_ids": [
@@ -6867,6 +7445,38 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNG1nN05MNVVGR2p3TDFUbkdJQnBzRFdSUkY2dTFxTDNqTk5fdmpmSHhfbXV5RVFtcjk2Y185S2FSNkEya1NxdmQtdk5IZm9zdC1zV3JxLVNZakJqWFR5Uml1c184OG9TVWdzeDZlVTNXOG9iSkZ0aVExTW1CenJRNmQxRUpiV2I3U05iSFJGdTdnR3dOcDFHd1dHbDBFQlJ2TzBrbG9zZ3Q0Uk5UN1FTNTRkaXRQR0J2cDFiYW5FTndTRnpEOG50ck16Vm1Jb0dmeUE?oc=5"
     },
     {
+      "id": "2026-09-11-gabriel-attal-65386577",
+      "date": "2026-09-11",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "Présidentielle 2027 : Gabriel Attal peine à tirer profit de sa campagne tous azimuts - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUG13aHZ6Nm9xUzZwel9KNlduRVV3WS1jSVhLYjUxZTQxeEtURm5wWDBXdVJ1aFR0T1d0dlg5RWxDUnMzY3MzTTBmNEpPWDZoTDZuZU03YUZ2N3U5OUV3THlubHZucmE3OG0tMzREQWtIQkltalozSmlzUFNiVkgxWEFITnZ6ZEhPQlFTWG1XQlNsbjcyUl9tQlluY3VHaWdKWjR4R1dYMHhOVGlKLTk4Y0dXMWU3M0paNVl2OEdsWW9WNWFIVUlEckVYZWU4QWlRbEQ0NDRwSmM?oc=5"
+    },
+    {
+      "id": "2026-09-11-gabriel-attal-24118477",
+      "date": "2026-09-11",
+      "candidate_ids": [
+        "gabriel-attal",
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Renaissance",
+        "Horizons"
+      ],
+      "summary": "«La France n’a pas une minute à perdre» : Gabriel Attal égratigne Édouard Philippe - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2UzY0xzZkw5ZEFuNUJrV3oyS2huczAzek03ZmtjazNYSWdrcVV6RkFZUFpvWVdUWG9xZ2NqTVE4Q01uM0tQM0k2NnFuekxaRVRqcXlHMmhtVlRsYW9sbXQtYlNkMzdzRWZXXzRzMlFZa00xM3RiY1J5RmtQUnFzYUVhN0NOd2tMOWl2QUMyT2hTeDBuNkNWTmFpVENoX0otSzRNM2xHbW94dVNOSVMyYy0ydFdrS0RwUThDOGtTeWpCTWZsX0x0NVpGUE0wSjl2b180?oc=5"
+    },
+    {
       "id": "2026-09-11-fabien-roussel-46778985",
       "date": "2026-09-11",
       "candidate_ids": [
@@ -6895,6 +7505,21 @@
         "franceinfo"
       ],
       "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxORWJDdm9sd0puZWlldGJSSHkwZy1XajliNlVmVmpqOHktY2laRmZvMG82SVNMUTVkS0hUbUpuMllJanNtcGVzZU9xSk9PZldJQkxQQ0ZJcHVLM0JzTm1PbFA3MUNZd0E4c3p0MVp3M0MtQnhTRTRiRExGOEpFMkRReVlVVzdIZkFXZlVmVHFBdlpTSlcyOWI1Z0hUVHFNRU4tem4tZmZ1NUNpSG1VdGw2bmxJdXlMTG4xal9iSE4xbFgwRVVRMnNzdjBTM0N5TFFuTVNsMkpManNzZ3lZMjBWU0FKVVpvVVlOQzhKZ2RCb0M0Qmpfd2tEY05XWTkwNlRJZlFMckR6VnF0clJkQ19aZ3ZTTFlHM3c4?oc=5"
+    },
+    {
+      "id": "2026-09-11-douard-philippe-75027514",
+      "date": "2026-09-11",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Édouard Philippe : cette minute qui peut lui coûter cher - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWHNBbDNqX1cxUVZacjRoVEw4SWFlTmhhRDEtSDFHa1kzcmdoMGFoMFUwTkxFQkJvemJnamJxRE50Y0pTOXhpb2Nxa0hUaE1vT0Fmc21xaThzLTVUYjVhd2s3NkR6dG5rSTJVNXliSVRqXzZrVEt3SkxzMUxBR2ZpNlZWb2lsd09iUWRoMXBaX2RMc0Q1Tm1veVBsek1RSE1VUVRLOGtBb0dKcVEtVmpJbHpn?oc=5"
     },
     {
       "id": "2026-09-11-douard-philippe-34190628",
@@ -7195,6 +7820,21 @@
         "Ouest-France"
       ],
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPSEROYkcyUk54bzZUa0xlN2V6cURhS012SVlPS1l2TXdpdlIwN1Bac1hiVW1WNnFrMk1qcVZ6UnlWbEMzbzlTRGZ1dWxlbWFTYncySTBKd2FwVnhlOG9mVzNDdzNfbG1pVXF4cWRuX3hudHhrSmZ0RllaZ293QW5uRTByaWgzRG5hQ1VSU0xELUoxNnZUMF83R1RkMzhjbmNFU3Y1T3JubXNVaGNWcTRsVHlDMkFEVDNiWjBFN21jazN5N1hlVmZMTklwRDFhQUNzcndQOFowbTkzZUFHTEJrODI3ZVVEbG9DX0hYdXpmelZpeDBwOGNqTExWUnFleHlmZV9WeEZPRHM2akVIMjNyRnJVNA?oc=5"
+    },
+    {
+      "id": "2026-09-10-douard-philippe-05368466",
+      "date": "2026-09-10",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : accusé de vouloir prendre des «vacances» sitôt élu, Édouard Philippe s’agace d’une polémique montée «à partir de phrases tronquées» - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOQmVtdjNTaERuUVpmQmMtUlNwd1otMDR1YmJwRS1JMmZVd2pxeFpkN1Z0cFY4MHNDSFBlSkNDcU5EczhEWXk5T3cwZjFhVDRZSk5IOHhKTVAxdEd2SGxWa2syUDdRN1pDdGxWSzh2SGk2RmFWT0s0c1VHa183SVBnWUZKeU5jZlhXeVhmVHAtRnRtNXk2anYyX3AzeDBVQVEzVHRWWDJWTG9SZTdpN2F3cXB3UmJBcGRCYU05TzVrN1BHX2RGai04Yi1jazFhenNkOEpIQzRRcTRQdzl2QXlOMVVnbi1UTndZc3c2NW5nZVJqNkhORnFqUm45eFRlSndxTTFpNGxwdl9sRnFzaHMzay1IbGhjQXF2VV9ucg?oc=5"
     },
     {
       "id": "2026-09-10-david-lisnard-90693363",
@@ -7526,6 +8166,21 @@
       "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOaG12cUt1NFJpZlF1c0wyeFRVN3k5NlJZSnpROTBDMzYwTkZJeUlpNXYyTS03LXVNUjMxY1hoa09McVRadEV1QjV1S3VfSmNXSDhNOFpMbEF2b0ZTUlBITUhxLWJHOEZWRWR5M0ZWZTFnTUtYb21kU09xck5SczFZbjFlb2UwTUdhdFp5NW1icGlDSEZ1dk9fUXllb1BfOXBLUUR2MUxzaFlTNmpyTG1UX0J2OEtfMlE1bGVid3JxczRFdnQwOHhqQW5wSGRSRmgtN3dvUU5QTVZKYXVMcHRTYzh4N3J5NG5LR0F4MUtVdjI5bkI3al8tQ0twbWFQcXRQWVRTRDVtVUlIcFBaQTN5YU9YZENkLTJWUWVYOXVTcDNhaHBvWDktVFViRlMtc1NOVFp2enRhX3ZqZmVEVnZ3dg?oc=5"
     },
     {
+      "id": "2026-09-09-gabriel-attal-65814107",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "Baromètre exclusif : Jean-Luc Mélenchon et Gabriel Attal sortent gagnants de l’été - Le Point",
+      "sources": [
+        "Le Point"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQekE4WkRGcG5oN2tnVmthaVQ2VURUZVlHdEdEcEFoaE9RcWJzUExfaE9sSzItaEpRWjFETXhKelgxN0NJa3BSY2lSal96OHBtTHNFSUwxYWoyUXJNNE11WTM5Y29TLUxvZ0FrSGRoWDNEMThpZG1yM2tKX1phRWpWOThmM3BSNi1FV0RzM3BMbjBWcjhlWEFEbkVpdkhYXzNyVk5jejVDaDAzeTZtY3RNU1JUeERqWTlSd2huSXpuUUlXb0t0Q1BiTUVkOWJ6eWhPbGxJa0NhaG5zZUxVMlVFUXp1dWxOM0s0Mk9URS1Tdw?oc=5"
+    },
+    {
       "id": "2026-09-09-gabriel-attal-50666371",
       "date": "2026-09-09",
       "candidate_ids": [
@@ -7616,6 +8271,36 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcEtMa0FmUmpIa19vR2tkY0FIOGdyZkF5M0d3SWpLUllwZndlUVk2d2JsQ0ZvT2lXR1FuRXpiUVo3RXNpZWZ5dGZqbkVZa3JNeGtTbTJpT1dYM0hmODNmdnhobktqanpXQWhKYlNkY3pwX1BtdTJXT2FudmhZZVE1eWp3QlV1dlBoOG5hLW0ycktCbzlfWmFVeUVTV2czeVJZOTNGSlJuajQxRWF1NHRSTzRTYzhiM25zbml0SjdRTQ?oc=5"
     },
     {
+      "id": "2026-09-09-douard-philippe-73415268",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : Édouard Philippe bute sur sa première tentative de rassembler la droite et le centre - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNeTFwX2RfOTAtYUtpaFRCQkxkRlRaampRTFhqUDJMSWpBQXpDbHZPUXhfVU10SzZWdnNVczNXdTJ0a1NxOFZuamFzSFFzUVU2RkdudVBjT0JhaUNHRmRfS0dWbUZ0cE1pMkZUVUZ2SFUyUFBxYnp2VlY3WGFkdmcyY0NDMXVNYnRGUlFrOGNiaWhwRTBKWHJUb25lSHdXUWdDQml2TnN0bGZEZWFQUDRrVFd3ZHZWckVQeXdGNVZGbWRIQ1FfQlRlMWhnVm9zUmVKYzk1b2RaLUVEWkN3dG91ZDlTLXN4V0dXUUZGSWJzTXV2bVZoWlNXcTluTU1zVXVZZG9V?oc=5"
+    },
+    {
+      "id": "2026-09-09-douard-philippe-55385570",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : pourquoi Édouard Philippe pousse au rassemblement du « bloc central » - La Croix",
+      "sources": [
+        "La Croix"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNS3d2OHk1bkV3bnl0aHhtV20yN0w1eGZGeUVRRXQ3ZXpaNHpFMWdYTzFEcm5ZRUE1dUJZRldMWHhDd0lTME9OYmNOVWpxX1F5bi00YlZHU0xoTzZHNm1PSnF5eXB4Sl8zNUNCRHFwakdNWlYxUTFpd29XZlFzRzlNZi03Ry1uMVhQUk5xYUI0MHR0azkzZHJuSzh6b05FWHJ4djVsVExQTW1sYWxpWTRTLXAyaVQ1ZVVsYnBUMmQ2NElZZlA2U05SaA?oc=5"
+    },
+    {
       "id": "2026-09-09-douard-philippe-50016801",
       "date": "2026-09-09",
       "candidate_ids": [
@@ -7646,13 +8331,45 @@
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNU2R0azVIZUhkLWZDbWdMQjNxd2JXS1FrM1ZyaUtZQVZPTWpaTVdOZXRGQjU1OHRENDZYWEFmMm5LcGdDMGI5Q1BXM2ZOUFdDVVY2WDlWdFUzNDM4YlJWanh4YUJqMHd2U1Uxd0ZvMC1Eek1HTnFKb2kwNF9iU0FrT191RDA1WGdKdkl2bldrLTNDLTFyTjdqN2dnR09ucFBVblhyWFFCUU11MnA5elRxYkVpaG5WZWVJZU1xR2xkYThhV1ZySnZ2dnZ0Mkxja2JHMS02YzJuMXVCbjYzQTJNX0lxNXFMbkZnaWE0bDNUMElIei1heUVwSzQwcllsVjRTYld2dzEzLWRHVTg?oc=5"
     },
     {
+      "id": "2026-09-09-douard-philippe-13642390",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Conversation française - Conversation française : Édouard Philippe et Olivier Norek - LCP-Assemblée nationale",
+      "sources": [
+        "LCP-Assemblée nationale"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQjBxNlVvdlJvTV9fYXg3T2RqRXVyb3duSmpoQW11RTVoWE5WNkwzZzFoRTdtVzlqLTRVWEhZZjNlUG5ndkVoREF0OUZ6X01naUJaNEVEWU1kVGlVbVlnTDNzZjNiZ3BMY0JEOGs4emxwSE1TQXpoUmV0Z2pTUElhQi1XWjAxeXlkVXdPMGx3aWNRd3RTY0VPV1B2R2FQelN4RXdIOHFMTk9qSlpHSlJuRlFB?oc=5"
+    },
+    {
+      "id": "2026-09-09-douard-philippe-00018544",
+      "date": "2026-09-09",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : Édouard Philippe accélère sa campagne - RMC",
+      "sources": [
+        "RMC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZVRmMWZ4NVk2RUlaVWdoQzAzOTcwZHBaYUVQLUZaREUwYl8wazU3MFVrMkpKUXZYcWU5RVVBVnIySThERENTcmxiTUt6anVkODVoeEt5RUt5TmJ6WTF3YXRqb1NtUXNyeDJjS2VrbDJncUZxMWVRaC1mei1KT2NnSVVkZGwwWGlpZHNRZ1prV21HODlfXzF1UDA1R3d4bFViUFpLNnFLX0JnVEFuWlZTdERueHVHLUk3MnRST1NEZ3VMU3o4ekE?oc=5"
+    },
+    {
       "id": "2026-09-09-david-lisnard-75291718",
       "date": "2026-09-09",
       "candidate_ids": [
-        "david-lisnard"
+        "david-lisnard",
+        "bruno-retailleau"
       ],
       "party_names": [
-        "Nouvelle Énergie"
+        "Nouvelle Énergie",
+        "Les Républicains"
       ],
       "summary": "Présidentielle 2027 : Bruno Retailleau et David Lisnard rejettent l’invitation d’Édouard Philippe et maintiennent leur cap - Le Figaro",
       "sources": [
@@ -7800,7 +8517,9 @@
     {
       "id": "2026-09-08-horizons-36727403",
       "date": "2026-09-08",
-      "candidate_ids": [],
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
       "party_names": [
         "Horizons"
       ],
@@ -7977,6 +8696,21 @@
         "Libération"
       ],
       "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNMVdDcDRFMXhTOFVRVnFyOXFwVVcwYTZCekFIWDVnem1ydTJGa0FaMlhramNveElHY2luTjZKVjE3RVl4UHF2elhtZVhXeFdlc2FrTk0ydzR3R1oyOFl2UkwxNDFiVUdlVXdfTTlBZVZrR1lHUERIUFZtcEVTaExGb0M5bGMyR2VWVDBJenBzMmdQci1pOC01U05FVWlXUU9GNTJGeVRkM1dzQkxOMVNLMzdicms4T2FEcXk1aFVZRnVzNHRJUUFTM3VMV2tIS2xmQVcxXzlrc1lVOV9tdEczU1VXQTlXb2ZjdVpnblQtMTJLNnpfeDhyaktOTFp2U2pnSWMzYjdyQ0VmQlFmQVR0VEtMZ3RHalJyc0d0Nmp5VlVTcnRPVEdhVWJkSXl3QQ?oc=5"
+    },
+    {
+      "id": "2026-09-07-xavier-bertrand-52653527",
+      "date": "2026-09-07",
+      "candidate_ids": [
+        "xavier-bertrand"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "«Je tiens à ma liberté» : à la Braderie de Saint-Quentin, la campagne prudente de Xavier Bertrand - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQN0R4aFpEVHNBWkE2RFp0cXVSVV9qX0xQUUhmRnloXzBfcklvYUtFSXVsZjNSUzFwYkpYTjctZUdiQ2lyc3FTZUJmSDRpR2U4VkRRZVJmYmdUX0RMQzdxWDIyQ0VYVXBhemhNY2ktdHdYTlVFSXJHeGE2SVZrWEZWV2NrRkszSGNaaWVTSnVackt4WGQ1VDlqQUt2U0s1ZUJNSHhvMDhZdm9jN01tZUl3RlRtWUt1dWIyVVJBNW8xdUdVOFdXWlVmR1dDMU1udTZ6?oc=5"
     },
     {
       "id": "2026-09-07-philippe-calendrier",
@@ -8883,6 +9617,21 @@
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUElySURBRkZLUVpaMTYxVzcwZGdKZmVOdTNndDh1dFVzTjktLXVOcGUtS3dqM1dHN0dnRjZDUlVnQ1o3alFRb2RvQjJHRzEtdldka0c1QmJFV2FCQTQxdUdMWmR6TGxsanprWmJGRkJFNXhiZmJMWlExbU0yZWdTRFdMQTNZU05uUGVLOEJya25xbUN0aXdGRVhQaTNEZTFHcnJPRXBUc0pmbUFQY2lST20wMkhtckxlVzdtNC1COFZiR3I1X1pJMjAxd0YxQmxISHdjQW1RN3NaMTZHdHN1eF9Sc0Y2aTFNT0E?oc=5"
     },
     {
+      "id": "2026-09-02-ric-zemmour-78875102",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "eric-zemmour"
+      ],
+      "party_names": [
+        "Reconquête !"
+      ],
+      "summary": "« On la craint plus que lui » : en pleine promotion pour son livre, Sarah Knafo fait-elle de l’ombre à la candidature présidentielle d’Éric Zemmour ? - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQdVpIOEFFNWRYYlp0S2QwMTVJbFdGT0VRMzRmVExzUWQ5N3RQci1mci1PM1pLSjFqdldRU2JTc0E1Q3huLXNBQXB2R0pkZlp0Q1BQWC0xcUItQnVVakxFQmZVb0dudzhpLXZNa3dXNmFWT1Buby1PX0FhLXNrUksyTU5OVE1tT3l3eENVZmJ3UnI1aHdSSkFwdWs4czVITlNzeUthVXZqYTZndEVFdF9jY29jaEEtcEdsTHVaZUZGUVdqNnp2cDNoRkE0VDIwTVZmc1lUQVBRRDNaeV80bW1OS19yMWs1NnBGUmkyWmVldmE3NklKSktVWGY5LTBWdFBXdjdZdnVUQ3lONm5GZGZ1UQ?oc=5"
+    },
+    {
       "id": "2026-09-02-ric-zemmour-43411387",
       "date": "2026-09-02",
       "candidate_ids": [
@@ -9003,6 +9752,21 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQmRJM1VaU2phV2J1UW5sTFp0U3ZFSUFINkVSc1NlaW5lRHluaXppUzMycWh5NXVmbG9IRUUzSU1US2NzTHRpMWQ1TDhNcTZsWjVRdlA2MExhU2xTOVRtN1BOZE0xQ3NFRlhUVGdOOGt4cGxENG04Q29IUnBQbTRyRVJZRnhQckFRQWtXNXJwRlJNQVlxcHBhQ09BNldjc1MxMG1LLTdmZHlIY0FYeGQ3SXVwUzVQMGJBaE00NzJkazFFaDFheWdGYms3dy1VU00?oc=5"
     },
     {
+      "id": "2026-09-02-david-lisnard-59602157",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Nouvelle Énergie"
+      ],
+      "summary": "Présidentielle 2027 : le maire de Cannes David Lisnard assure avoir déjà recueilli les 500 promesses de parrainages - Le Parisien",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOR0xQTXcxUGF0WGJvRU1xdWgxNm9LN210NlhiXzhGamZHcHpnNnVWdnhnMHk0NlRYdFFkeFU5RzVTTVVjNVFxa2cyRFBXQnM0VGc5ZjlVMTlBQi16MWNsSXNqdFlZLVBSdWNpazVINHpqNUJsSmgxR3dBMFd1VnItSjk5a1pYOFVlNTJyV1hGT0tEcE9Tank5SXIyMXBIanF5eTQtclM1YlpvWWdCOUhBa1lFVldMSmV6UnAwTUxadDRjdDZZVTV1MnRJTlZHSHBhcGNsUERzWGdBMXNKbm53M01jVlZ4NDNLZjc1WDUybEhKZ2pWVklmSlhTMzJQU0gwYnBNLTBUbkpWWFd4SEZaU3EwZVB4TXRoRV9yUG9zQkFfNXZFcXc3UFo1NzVSLXc?oc=5"
+    },
+    {
       "id": "2026-09-02-david-lisnard-33317595",
       "date": "2026-09-02",
       "candidate_ids": [
@@ -9031,6 +9795,21 @@
         "Ouest-France"
       ],
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOS0RGMFdKdUo5SzdrT0ptbFJwZjM5QXFHNVREdjFtcUo3NHlqZV9FanFGYVU0YjY1ZHZXM2JHTE1OQTBPRXltNy1IVUhyZG5QZmdTSng4QUpPcU5CSG4xbGUwX0RiS2lqcWRXQUtrTGowa3otMmNsNl9nRDhDeE5jY3lBX0RwQlQyUkYyUUdSTFdaVHBZR2hVNGd5OU5RdnNoaTVFVG1RR2JOSGpJRGJJZU1hS2ZPRXpMOWNOcVNmVThPeC15clh0R1JEWHdhMmtSdXpKenQ3Z1ZjWnQwRTdTU3lPOWlUVkZta3h1TUVOTlBtaFlVRnYxUGZLeGVuSFF0UXNyQzM3a2tHZ2hQ?oc=5"
+    },
+    {
+      "id": "2026-09-02-bruno-retailleau-84786435",
+      "date": "2026-09-02",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Bruno Retailleau au Figaro : « En France, la seule cour suprême, c’est le peuple. Je lui donnerai le dernier mot » - Le Figaro",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQeTJjTHVkV0ZBSnRSTnpWSm1BLWJSdlJLR3YxS1c3V2RGTlIycFlNOVUzb21QeWRFN1NadDZZOUY5X3pERHVKOTlRU3ZwSWdSYjQ3MEp5eUFiMk16ZUNDSDJWMjl6TlhUQ1NVaFBJaU94QnZpYi1nUEdwS3FKQXMxdlVleTJCUmU3eUo0cmk2dHJDal9uQTVVTHp2cDRpeGh1REwtZDRCTHNzb01nQmZJWEVJRTk1eUdSbHFXNUJNaEt3RDZ2U3Q4OGFEQ3NNN0QxRnhQVW5aUlVFWUtfUVI1dzR5c1dOUHM2S0xCRGJucjZ3VG5WNzNCRGtIVUNVOWFibVRINE9B?oc=5"
     },
     {
       "id": "2026-09-01-juan-branco-89128127",
