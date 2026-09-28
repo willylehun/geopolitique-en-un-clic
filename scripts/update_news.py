@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import html as html_lib
 import json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
@@ -70,17 +71,49 @@ LEADER_LABELS={
     "Keir Starmer":"le Premier ministre Keir Starmer (Royaume-Uni)",
     "Narendra Modi":"le Premier ministre Narendra Modi (Inde)",
     "Benjamin Netanyahu":"le Premier ministre Benjamin Netanyahu (Israël)",
+    "Jim Chalmers":"le trésorier fédéral Jim Chalmers (Australie)",
+}
+
+PERSON_SURNAME_ALIASES={
+    "Trump":("Donald Trump","président"),
+    "Macron":("Emmanuel Macron","président"),
+    "Poutine":("Vladimir Poutine","président"),
+    "Putin":("Vladimir Poutine","président"),
+    "Zelensky":("Volodymyr Zelensky","président"),
+    "Netanyahu":("Benjamin Netanyahu","Premier ministre"),
+    "Rama":("Edi Rama","Premier ministre"),
+    "Starmer":("Keir Starmer","Premier ministre"),
+    "Merz":("Friedrich Merz","chancelier"),
+    "Modi":("Narendra Modi","Premier ministre"),
+    "Chalmers":("Jim Chalmers","trésorier fédéral"),
 }
 
 def enrich_leader_context(text):
-    """Précise fonction et pays d'un dirigeant sans inventer le contenu de la source."""
+    """Précise fonction et pays d'un responsable connu sans inventer le contenu de la source."""
     out=(text or "").strip()
+
+    # Noms complets : normaliser un éventuel titre déjà présent.
     for name,label in LEADER_LABELS.items():
-        if name.lower() in out.lower() and label.lower() not in out.lower():
-            out=re.sub(r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil)?\\s*"+re.escape(name),label,out,count=1)
-    # Cas fréquent où le titre ne donne que le nom de famille.
-    if re.search(r"(?i)\\b(?:premier ministre|prime minister)\\s+Rama\\b",out):
-        out=re.sub(r"(?i)(?:le )?(?:premier ministre|prime minister)\\s+Rama\\b","le Premier ministre Edi Rama (Albanie)",out,count=1)
+        if name.lower() not in out.lower() or label.lower() in out.lower():
+            continue
+        out=re.sub(
+            r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances)?\\s*"+re.escape(name),
+            label,out,count=1
+        )
+
+    # Noms de famille seuls, fréquents dans les titres de presse.
+    for alias,(full_name,role) in PERSON_SURNAME_ALIASES.items():
+        label=LEADER_LABELS.get(full_name)
+        if not label or label.lower() in out.lower() or not re.search(r"(?i)\\b"+re.escape(alias)+r"\\b",out):
+            continue
+        # Formes grammaticales françaises courantes.
+        if role=="président":
+            out=re.sub(r"(?i)\\bde\\s+(?:le\\s+président\\s+)?"+re.escape(alias)+r"\\b",lambda _:"du "+label,out,count=1)
+            out=re.sub(r"(?i)\\bà\\s+(?:le\\s+président\\s+)?"+re.escape(alias)+r"\\b",lambda _:"au "+label,out,count=1)
+        out=re.sub(
+            r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|trésorier(?: fédéral)?|ministre des finances)?\\s*\\b"+re.escape(alias)+r"\\b",
+            label,out,count=1
+        )
     return out
 
 # Lieux infranationaux fréquemment rencontrés. Ajouter le pays seulement lorsque
@@ -138,11 +171,32 @@ def clean_summary_text(text):
     out=re.sub(r"(?i)\\s*[–—-]\\s*dernières nouvelles.*$","",out)
     return out.strip(" |–—-")
 
+def is_market_listing_noise(text):
+    """Détecte fiches boursières/cotations qui ne décrivent aucun événement."""
+    raw=clean_summary_text(text)
+    t=" "+raw.lower()+" "
+    listing_terms=(
+      " activité |"," cotation "," cours de l'action "," cours de l’action ",
+      " fiche valeur "," action |"," isin "," wkn "," ticker "," valorisation "
+    )
+    code_like=bool(re.search(r"\\b(?:HK|US|DE|FR|GB|LU|CH)[A-Z0-9]{8,}\\b",raw,re.I) or
+                   re.search(r"\\b[A-Z][A-Z0-9]{4,7}\\b",raw))
+    event_verbs=(
+      "annonce","publie","signe","acquiert","vend","investit","construit","ferme",
+      "ouvre","réduit","augmente","baisse","chute","progresse","licencie","sanction",
+      "interdit","export","importe","accord","contrat","résultat","bénéfice","perte",
+      "production","usine","restriction","enquête","fusion"
+    )
+    has_event=any(x in t for x in event_verbs)
+    return (any(x in t for x in listing_terms) or code_like) and not has_event
+
 def is_useful_article(text):
     """Garde seulement un contenu qui apporte un fait, une décision, une évolution ou une conséquence utile à la veille géopolitique."""
     raw=clean_summary_text(text)
     t=" "+raw.lower()+" "
     if len(re.findall(r"[a-zà-ÿ0-9]+",t))<5:
+        return False
+    if is_market_listing_noise(raw):
         return False
 
     # Hors sujet sans ambiguïté : certains mots (ex. « migration ») ont aussi
@@ -245,6 +299,7 @@ def is_useful_article(text):
 
     # Titres purement thématiques : ils nomment un sujet mais n'apprennent aucun fait.
     vague_topics=(
+      "il y pense encore","joue avec le monde à propos du pétrole","la politique de tous les côtés",
       "le dividende de l'intelligence artificielle","le dividende de l’intelligence artificielle",
       "l'avenir de l'intelligence artificielle","l’avenir de l’intelligence artificielle",
       "les enjeux de l'intelligence artificielle","les enjeux de l’intelligence artificielle",
@@ -347,6 +402,119 @@ def french_summary(text, meta=None):
         PENDING.append({**meta,"original_summary":text})
     return None
 
+
+ARTICLE_DETAIL_CACHE={}
+ARTICLE_DETAIL_USED=0
+
+def strip_html_text(raw):
+    if not raw: return ""
+    text=html_lib.unescape(raw)
+    text=re.sub(r"(?is)<(?:script|style|noscript)[^>]*>.*?</(?:script|style|noscript)>"," ",text)
+    text=re.sub(r"(?s)<[^>]+>"," ",text)
+    text=re.sub(r"\s+"," ",text).strip()
+    return text
+
+def detail_is_substantive(title, detail):
+    detail=clean_summary_text(strip_html_text(detail))
+    if not detail: return False
+    words=re.findall(r"[a-zà-ÿ0-9]+",detail.lower())
+    if len(words)<12: return False
+    # Un flux RSS Google répète souvent seulement le titre et le nom du média.
+    title_words=set(re.findall(r"[a-zà-ÿ0-9]+",(title or "").lower()))
+    detail_words=set(words)
+    if title_words and len(detail_words)<=len(title_words)+3:
+        overlap=len(title_words & detail_words)/max(1,len(title_words))
+        if overlap>=0.75: return False
+    generic=("google news","lire la suite","read more","voir l'article","voir l’article","breaking news")
+    if any(x in detail.lower() for x in generic) and len(words)<20: return False
+    return True
+
+def fetch_article_detail(url):
+    """Récupère une description ou les premiers paragraphes, avec budget strict pour protéger la veille."""
+    global ARTICLE_DETAIL_USED
+    url=(url or "").strip()
+    if not url: return ""
+    if url in ARTICLE_DETAIL_CACHE: return ARTICLE_DETAIL_CACHE[url]
+    budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","24") or "24"))
+    if ARTICLE_DETAIL_USED>=budget:
+        return ""
+    ARTICLE_DETAIL_USED+=1
+    try:
+        req=urllib.request.Request(url,headers={
+            "User-Agent":"Mozilla/5.0 GeoClic/3.0",
+            "Accept":"text/html,application/xhtml+xml"
+        })
+        with urllib.request.urlopen(req,timeout=7) as r:
+            final_url=r.geturl()
+            body=r.read(350000).decode("utf-8","replace")
+        # Les pages intermédiaires Google News n'apportent pas le contenu éditorial.
+        if "news.google.com" in urllib.parse.urlparse(final_url).netloc.lower():
+            ARTICLE_DETAIL_CACHE[url]=""
+            return ""
+        candidates=[]
+        meta_patterns=[
+          r'(?is)<meta[^>]+(?:name|property)\s*=\s*["\'](?:description|og:description|twitter:description)["\'][^>]+content\s*=\s*["\'](.*?)["\']',
+          r'(?is)<meta[^>]+content\s*=\s*["\'](.*?)["\'][^>]+(?:name|property)\s*=\s*["\'](?:description|og:description|twitter:description)["\']',
+          r'(?is)"description"\s*:\s*"((?:\\.|[^"\\]){40,2000})"'
+        ]
+        for pattern in meta_patterns:
+            for m in re.finditer(pattern,body):
+                val=m.group(1)
+                try: val=json.loads('"'+val+'"') if pattern.startswith('(?is)"description"') else val
+                except Exception: pass
+                val=strip_html_text(val)
+                if len(val)>=80: candidates.append(val)
+        # Fallback : premiers paragraphes significatifs.
+        if not candidates:
+            for m in re.finditer(r"(?is)<p(?:\s[^>]*)?>(.*?)</p>",body):
+                val=strip_html_text(m.group(1))
+                if len(val)>=100:
+                    candidates.append(val)
+                if sum(len(x) for x in candidates)>=900: break
+        detail=" ".join(candidates[:3])
+        detail=re.sub(r"\s+"," ",detail).strip()[:1200]
+        ARTICLE_DETAIL_CACHE[url]=detail
+        return detail
+    except Exception as exc:
+        print("ARTICLE DETAIL",url,exc,file=sys.stderr)
+        ARTICLE_DETAIL_CACHE[url]=""
+        return ""
+
+def article_summary(art, meta=None):
+    """Construit un vrai résumé à partir du titre ET d'un extrait/description de l'article."""
+    title=(art.get("title") or "").strip()
+    if not title: return None
+
+    detail=(art.get("description") or "").strip()
+    if not detail_is_substantive(title,detail):
+        detail=fetch_article_detail(art.get("url",""))
+    if not detail_is_substantive(title,detail):
+        # Qualité avant quantité : ne pas publier une simple fiche/titre sans contenu.
+        return None
+
+    title_fr=french_summary(title,meta)
+    detail_fr=french_summary(detail[:900],meta)
+    if not title_fr or not detail_fr: return None
+    title_fr=clean_summary_text(title_fr)
+    detail_fr=clean_summary_text(detail_fr)
+    if not detail_is_substantive(title_fr,detail_fr):
+        return None
+
+    # Éviter de répéter mot pour mot le titre dans la description.
+    normalized_title=key_title(title_fr)
+    normalized_detail=key_title(detail_fr)
+    if normalized_detail.startswith(normalized_title[:80]) or normalized_title==normalized_detail:
+        combined=detail_fr
+    else:
+        combined=f"{title_fr}. {detail_fr}"
+    combined=clean_summary_text(enrich_editorial_context(combined))
+    # Résumé lisible : 2-3 phrases / ~700 caractères maximum.
+    if len(combined)>700:
+        cut=combined[:700]
+        stop=max(cut.rfind(". "),cut.rfind("! "),cut.rfind("? "))
+        combined=(cut[:stop+1] if stop>320 else cut.rstrip()+"…")
+    return combined if is_useful_article(combined) else None
+
 def regions_for_countries(countries, importance):
     regs=[]
     for country in countries:
@@ -391,7 +559,7 @@ def gdelt_query(query,maxrecords=250,start_date=None,end_date=None):
         seen=art.get("seendate") or ""
         try: dt=datetime.strptime(seen[:14],"%Y%m%dT%H%M%S").replace(tzinfo=UTC)
         except Exception: dt=datetime.now(UTC)
-        out.append({"title":title,"source":art.get("domain") or "GDELT","date":dt,"url":art.get("url") or ""})
+        out.append({"title":title,"source":art.get("domain") or "GDELT","date":dt,"url":art.get("url") or "","description":art.get("description") or art.get("snippet") or ""})
     return out
 
 def google_rss_query(query):
@@ -412,14 +580,14 @@ def google_rss_query(query):
     else: return []
     out=[]
     for item in root.findall(".//item"):
-        title_el=item.find("title"); link_el=item.find("link"); date_el=item.find("pubDate"); src_el=item.find("source")
+        title_el=item.find("title"); link_el=item.find("link"); date_el=item.find("pubDate"); src_el=item.find("source"); desc_el=item.find("description")
         if title_el is None or date_el is None: continue
         try: dt=parsedate_to_datetime(date_el.text)
         except: continue
         if dt.tzinfo is None: dt=dt.replace(tzinfo=UTC)
         title,fallback=clean_title(title_el.text or ""); src=(src_el.text if src_el is not None else fallback) or fallback
         if not trusted_source(src): continue
-        out.append({"title":title,"source":src,"date":dt,"url":link_el.text if link_el is not None else ""})
+        out.append({"title":title,"source":src,"date":dt,"url":link_el.text if link_el is not None else "","description":strip_html_text(desc_el.text if desc_el is not None else "")})
     return out
 
 def google_rss(region,start_date,end_date):
@@ -578,13 +746,11 @@ def global_country_discovery(start_date,end_date,countries):
         k=(d,key_title(title))
         if not k[1] or k in seen: continue
         seen.add(k); found.update(matched)
-        summary=french_summary(title,{"countries":matched,"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
+        summary=article_summary(art,{"countries":matched,"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
         if not summary: continue
-        summary=clean_summary_text(summary)
-        if not is_useful_article(summary): continue
         s=score(summary)
         regions=regions_for_countries(matched,s)
-        rows.append({"regions":regions,"countries":matched,"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"global"})
+        rows.append({"regions":regions,"countries":matched,"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"global","content_enriched":True})
     return rows,found
 
 def time_priority_countries(countries, now):
@@ -649,13 +815,11 @@ def country_backfill(start_date,end_date,state):
             k=(d,key_title(title))
             if not k[1] or k in seen: continue
             seen.add(k)
-            summary=french_summary(title,{"countries":[country],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
+            summary=article_summary(art,{"countries":[country],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
             if not summary: continue
-            summary=clean_summary_text(summary)
-            if not is_useful_article(summary): continue
             s=score(summary)
             found.add(country)
-            rows.append({"regions":regions_for_countries([country],s),"countries":[country],"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"gdelt" if "GDELT" in source_name(art["source"]) else "rss"})
+            rows.append({"regions":regions_for_countries([country],s),"countries":[country],"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"gdelt" if "GDELT" in source_name(art["source"]) else "rss","content_enriched":True})
     return rows,found
 
 def update_country_coverage(found,now):
@@ -721,14 +885,12 @@ def build_generated(start_date,end_date):
                 if d<start_date or d>end_date or len(title)<22: continue
                 k=(d,key_title(title))
                 if not k[1] or k in seen: continue
-                summary=french_summary(title,{"regions":[region],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
+                summary=article_summary(art,{"regions":[region],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
                 if not summary: continue
-                summary=clean_summary_text(summary)
-                if not is_useful_article(summary): continue
                 importance=score(summary)
                 # International est strictement réservé aux événements d’importance >= 7.
                 if region=="International" and importance<7: continue
-                seen.add(k); grouped[d].append({"regions":[region],"period":"day","bucket":fr_date(d),"score":importance,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss"})
+                seen.add(k); grouped[d].append({"regions":[region],"period":"day","bucket":fr_date(d),"score":importance,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"rss","content_enriched":True})
         for d in dict.fromkeys(a for a,_ in ranges):
             rows=sorted(grouped.get(d,[]),key=lambda x:x.get("published_at",""),reverse=True)
             generated.extend(rows)
@@ -759,7 +921,7 @@ def main():
     useful_items=[]
     for x in day_items:
         y=dict(x)
-        y["summary"]=clean_summary_text(y.get("summary",""))
+        y["summary"]=clean_summary_text(enrich_editorial_context(y.get("summary","")))
         if is_useful_article(y["summary"]):
             useful_items.append(y)
     day_items=useful_items
