@@ -6,8 +6,9 @@ on:
       - "scripts/update_election.py"
       - ".github/workflows/election-manual.yml"
   schedule:
-    # Décalée de la veille internationale pour éviter deux collectes simultanées.
-    - cron: "37 * * * *"
+    # Plusieurs réveils de secours par heure ; le garde-fou ci-dessous
+    # limite les collectes réelles à environ une fois par heure.
+    - cron: "12-52/10 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -28,16 +29,49 @@ jobs:
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.13"
+      - name: Vérifier si une collecte présidentielle est nécessaire
+        id: cadence
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=1" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          should_run = True
+          state_path = Path("data/election-monitor-state.json")
+          try:
+              state = json.loads(state_path.read_text(encoding="utf-8"))
+              raw = state.get("last_run_at")
+              if raw:
+                  last = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+                  age = (datetime.now(timezone.utc) - last.astimezone(timezone.utc)).total_seconds()
+                  should_run = age >= 50 * 60
+                  print(f"Dernière collecte il y a {age/60:.1f} min ; collecte={'oui' if should_run else 'non'}.")
+          except Exception as exc:
+              print(f"État de cadence illisible ({exc}); collecte autorisée par sécurité.")
+              should_run = True
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
+              out.write(f"run={1 if should_run else 0}\n")
+          PY
       - name: Collecter la veille présidentielle
+        if: steps.cadence.outputs.run == '1'
         env:
           ELECTION_BATCH_SIZE: "6"
         run: python scripts/update_election.py
       - name: Valider les sorties
+        if: steps.cadence.outputs.run == '1'
         run: |
           python -m json.tool data/election.json >/dev/null
           python -m json.tool data/election-monitor-state.json >/dev/null
           python -m py_compile scripts/update_election.py
       - name: Publier les données vérifiées
+        if: steps.cadence.outputs.run == '1'
         shell: bash
         run: |
           if git diff --quiet -- data/election.json data/election-monitor-state.json; then
