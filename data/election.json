@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T18:53:04.288779+02:00",
+  "generated_at": "2026-09-29T00:30:33.386247+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -42,7 +42,7 @@
         "Le Monde — suivi Présidentielle 2027",
         "Le Monde — 18 septembre 2026"
       ],
-      "last_checked_at": "2026-09-27T10:38:45.004035+02:00",
+      "last_checked_at": "2026-09-29T00:30:33.386247+02:00",
       "bio": "Députée du Pas-de-Calais et ancienne présidente du Front national puis du Rassemblement national. Candidate aux présidentielles de 2012, 2017 et 2022, elle porte une ligne nationaliste axée notamment sur l’immigration, la sécurité, la souveraineté et le pouvoir d’achat.",
       "controversies": [
         {
@@ -92,7 +92,7 @@
       "sources": [
         "Le Monde — suivi Présidentielle 2027, mise à jour du 18 septembre 2026"
       ],
-      "last_checked_at": "2026-09-27T14:24:38.706496+02:00",
+      "last_checked_at": "2026-09-29T00:30:33.386247+02:00",
       "bio": "Ancien journaliste et éditorialiste, candidat à la présidentielle de 2022 puis fondateur et président de Reconquête !. Sa ligne politique est nationaliste et identitaire, avec l’immigration, l’assimilation, la sécurité et la souveraineté au centre de ses prises de position.",
       "controversies": [
         {
@@ -953,6 +953,36 @@
     }
   ],
   "news": [
+    {
+      "id": "2026-09-28-marine-le-pen-81933289",
+      "date": "2026-09-28",
+      "candidate_ids": [
+        "marine-le-pen"
+      ],
+      "party_names": [
+        "Rassemblement national"
+      ],
+      "summary": "Écrits antisémites de Jordan Bardella : « des accusations folles » pour Marine Le Pen, indignation à gauche - Mediapart",
+      "sources": [
+        "Mediapart"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQOGhoc2I3QmdrcnVhWE93VVh0Vm5uVnZVQWpRR3FpYjJzeEJJcUtTZEgwRUJiRTFZaUp6dlV1aWlZMzZ4aElNaUI0LS11SW1aZHZ3RE5Xc2pHY1FFVVlTV0tGcjVUZXd3Z3JZYUxEQlgwVVVDaUcya2VTZnY3QnZKa0ZCWS1UUVdEcFhaZDBvb1RRZE9IR2JZUTRDTVJxajBpeDV4R2plYmo3SkFTZy0yS29BZFA1R1FnRWx2NUZsVXJSUnFGbnR1Q3ZObWZpMUhYUzdmejV6RHJ4d2RDZmF3ZV9R?oc=5"
+    },
+    {
+      "id": "2026-09-28-marine-le-pen-70146835",
+      "date": "2026-09-28",
+      "candidate_ids": [
+        "marine-le-pen"
+      ],
+      "party_names": [
+        "Rassemblement national"
+      ],
+      "summary": "Présidentielle française: selon un sondage, Marine Le Pen creuse l'écart sur ses rivaux - France 24",
+      "sources": [
+        "France 24"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUHE2b3ZZNjg1QkxpWldBNFVZQVBCQndyYU1GRlRzRWR5QmpIV0o2ZlZYMnpvdmRfTm9VZDlsbkVTUVhoYnNtZDhNQ0FITGVPcE0xZy1EOHczMkwtWUw3LUdIc0ZNWGZUQXBaa3p4a25fOHM0QkNLUU53a25PcndCdWxHTktPcXpDbDJkc05TRnB1VGxCOUY3NkU2WndZWG1DZ3Mwd1dtc19pT0hqZXpOMTc5dW5lb1VKbmpWY0JUN3c3b0FQc2lpSDJ3TE4zNlpVeWJrSlVqTHlCVk13?oc=5"
+    },
     {
       "id": "2026-09-28-les-r-publicains-65112501",
       "date": "2026-09-28",
@@ -2339,6 +2369,21 @@
         "Le Figaro"
       ],
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbGEydzZhcGJvTnV4UERWcEc3RmtIX3NvVGtTYUxMa1Zpc3d1cGVvbDl1dWw0aC1aZVhzcFp6SG1WQ2M0ZmdlbnZLVmwtektVa0VCNWVYXy12XzdDTE9nUXBjMEVOd0hURXpSNVg1dk9nakpiQ1ZhakNacVVPNHFTVkprUkh0TlBrMDRSNkNaenRPUkxXR2pYYUREQ3ZHQkFmQzNBVzFzbGV2eWNDbTVyX05R?oc=5"
+    },
+    {
+      "id": "2026-09-24-marine-le-pen-53725111",
+      "date": "2026-09-24",
+      "candidate_ids": [
+        "marine-le-pen"
+      ],
+      "party_names": [
+        "Rassemblement national"
+      ],
+      "summary": "En 1993, le tract très, très à droite de Marine Le Pen, jeune candidate aux législatives - TF1 Info",
+      "sources": [
+        "TF1 Info"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNLVJXalJRTGRBbU90MUFSNTM5Nl9UYlNkNUZPcURieGVpd0Y1aDQ5cjk1azR5NDJMSVF5WDR6RzlDSzV1SEt5UWk0VzJaYlYzLWVsRU5FUWtTWUQ4TDN5QWdmVnBDVTJmU3R5Nk9jNDZqOTQyU09maWFOakhlSzdTRHdpQ3p0V0MxRDU4bkdCczFIOVJjaV9lWkgzZXlNOHZoTzBVWXVfY1VyY2FOZFBLSXQ3dHN6bWh6c3U5bktNWTR4VE9NeThpdmo5MU1pSEtKQlFyNXh5R2V6emFaR3dhcW5UMmtfNm5rd25XQzZPeGF2MkM5X1dnSWVRNDEwRUJJWFdrUHh5ZWNlRlZhTDBEWFJZTlc0R2h4?oc=5"
     },
     {
       "id": "2026-09-24-marine-le-pen-41256727",
@@ -6003,6 +6048,21 @@
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQaHpCLTlSMEgwT2phdm1yRXNjZjVKNnMxS0pmcFh4ajV0UW5ubnUxRDBUUGdLdEE4T3ppUzhJRXJlMjlxZzhYRWxLR0ljM09VTEdDcjlnWUxFWVlWX25VSUNzVmdjY0d6SVJUaUYzUzRneHdkX0pGTlRHbkQ5UmRjZnhEbDRpX2xsMWtuVDB1TTFqOTlELS10U29NNnhuc0c2b0lQYlBWVXV6M0IwSXo3MEFPOE1vb3NHS0FCMmxmUGc0MkYtM0Q0MlBFdTB4SnYyNzNrcnRKejY5OUtnYWRsZmsxdVQ1NFVqaUJaZGkxLTBWZmt5MVFUTWQtLWlnTk9oT3pWWDk4SlR3cW5n?oc=5"
     },
     {
+      "id": "2026-09-18-ric-zemmour-68792227",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "eric-zemmour"
+      ],
+      "party_names": [
+        "Reconquête !"
+      ],
+      "summary": "\"On s'en fout, on s'en fout pas\" : Éric Zemmour candidat à la présidentielle - 18/09 - RMC",
+      "sources": [
+        "RMC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVHppRXJLUWxoczBpaE1rWXhxUi1nWTF5djdRQktjSU1JOUV2QUhZOWZYeXhXLUZIOXVCTlp2OFRwcGtscUI0MzBWUmJqeVRkSUhwTlR0SzU4WVo2QzN0WV9mZWZJb0VXU29CWnJPMnhVU2E4MFNra1Vfbi1fNFpha0RjR1NNc3VYOXgzc0RrUjRyMnZjU21vX25DNGUyUzlKbGtFODhWMjRJU2VENjNQM3pOT3oyOHNQNEJWcGtvZ09wWnZUODZhZVJQVmVUbVp1eF9YZVBKQ0RhQ0ZmdF91Uzl1dEtPampUNkdfMEVR?oc=5"
+    },
+    {
       "id": "2026-09-18-ric-zemmour-41123149",
       "date": "2026-09-18",
       "candidate_ids": [
@@ -8748,6 +8808,21 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQjhoVWhVbzQwcU1QZVM4LTVmZjRFWVNfUmc1LWpUR3VjS1g5eFJrT1RGalNrQlNHX0M5WUl4V2JQZXYwNGhoVHBEYVliRFNpSWZsM3FqdFk2V3ZRYlMtaERmbGJqYzM5cU1zaWt5dHJ6SFFKZG50emtFYkFib1NyajJheUFBYS1SbVlkVEVqdGVyRkdyVG12Z0p4WHZwYl9zVHNFTFVqM1Q?oc=5"
     },
     {
+      "id": "2026-09-13-marine-le-pen-89603363",
+      "date": "2026-09-13",
+      "candidate_ids": [
+        "marine-le-pen"
+      ],
+      "party_names": [
+        "Rassemblement national"
+      ],
+      "summary": "Des tensions sur la ligne du RN entre Marine Le Pen et Jordan Bardella - franceinfo",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUHNTSmVzM2VNd1VCcXhFWmhray1ON2ZTVWtBaFQwNVhXN1g4aV9RcFNCRS1JT2h5ckJydDdNVFlmQThuaF9DREZZMXkxUTIxeGx5NUtjS3N0TnRqZVNqeFRET21tSVJnamQwWTB0RloxdUI0NG9TLXhKNjJzcDU2MnI3Q2wyazFTOTFibS1ZRF9SeUlkaEt2b3FCUGtremRRR1FuQ1pFVVBGRWVTSEtVeVNhOGloaVlvYnE3bGdzWTI3RHVybVE?oc=5"
+    },
+    {
       "id": "2026-09-13-marine-le-pen-78361110",
       "date": "2026-09-13",
       "candidate_ids": [
@@ -10636,6 +10711,21 @@
         "Ouest-France"
       ],
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNVlI4UjZMRHB5OGJfWS1FRXA2eE5CQUVTdTVSUEFfSVpUYVV5R3VZXzBzalJmMTc1S2JRTnhwNkhhd01XM0loWmRaTk9QV2l5Y2Rab3NienUtb2lEYWpvX0VDUkZlZVZOcWp4UWhwQXRjRlBKclNLZ3RXU0pPRDB1N3NUOHcxRHNrMEExeTZUZTNqWk5hdk52SWVUM0M3SDd4WlMtcGM5TUw4VG11MEF1UDhDMVNxc3NKOFR6RDlUakRodm0tVERlTm8tZFE5MTlZdncza0FZc0N3VGE1VWhBdlA3elhxeEkzckR5S2lIZGt3VF9JUXBJdzV6LTd5ZHpLd3c?oc=5"
+    },
+    {
+      "id": "2026-09-07-marine-le-pen-40349106",
+      "date": "2026-09-07",
+      "candidate_ids": [
+        "marine-le-pen"
+      ],
+      "party_names": [
+        "Rassemblement national"
+      ],
+      "summary": "Comment Jordan Bardella passe de l’atout au boulet pour Marine Le Pen pour la présidentielle 2027 - Le HuffPost",
+      "sources": [
+        "Le HuffPost"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOOER3bXFmb1M3ZFctOVFwWlo1bFExNFRXQWl3a1g0aGI2WHhJeG9YUWp2SVFObmg2YkRxX2MySkdxRXl4N0hJd29jTFpHb0tnbmZiRlNnVElXOW9ndFhwTkgwMFpRNW8yTTE3aU8xcWZHV3o0cmFXUkxPSW14OWI0VHREOUJnUGJ4TUtLbzBhRXFLdlFtT1pJbWxPSDVXVnhSeHV3WUhrOVNMYlpuQnI3Q2hjQzFyd2plUk5RM2Znams3a3FQRURmaWRzVFFib0h5cUlQVDFGcTNhcGEybHVFeWgwV3p5VlNxWDVfeFNB?oc=5"
     },
     {
       "id": "2026-09-07-karim-bouamrane-67703049",
@@ -13289,7 +13379,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-27T10:38:45.004035+02:00",
+      "last_checked_at": "2026-09-29T00:30:33.386247+02:00",
       "news": []
     },
     {
@@ -13311,7 +13401,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-27T10:38:45.004035+02:00",
+      "last_checked_at": "2026-09-29T00:30:33.386247+02:00",
       "news": []
     },
     {
@@ -13333,7 +13423,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-27T10:38:45.004035+02:00",
+      "last_checked_at": "2026-09-29T00:30:33.386247+02:00",
       "news": []
     },
     {
@@ -13355,7 +13445,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-27T10:38:45.004035+02:00",
+      "last_checked_at": "2026-09-29T00:30:33.386247+02:00",
       "news": []
     }
   ]
