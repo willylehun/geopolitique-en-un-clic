@@ -2,8 +2,8 @@
   "date": "28 septembre 2026",
   "timezone": "Europe/Paris",
   "target_countries": 195,
-  "covered_count": 56,
-  "missing_count": 139,
+  "covered_count": 57,
+  "missing_count": 138,
   "covered_countries": [
     "Afrique du Sud",
     "Allemagne",
@@ -12,6 +12,7 @@
     "Belgique",
     "Brésil",
     "Bulgarie",
+    "Cameroun",
     "Chine",
     "Colombie",
     "Congo (RDC)",
@@ -103,7 +104,6 @@
     "Burkina Faso",
     "Burundi",
     "Bénin",
-    "Cameroun",
     "Chypre",
     "Costa Rica",
     "Croatie",
@@ -204,7 +204,7 @@
     "Îles Salomon"
   ],
   "rule": "Couverture cumulative sur la journée civile Europe/Paris : les 195 pays restent dans la rotation ; covered = au moins une actualité du jour publiée ; missing = pays sans actualité publiée à cet instant. Plusieurs articles distincts par pays sont autorisés.",
-  "updated_at": "2026-09-28T15:09:18.719583+02:00",
+  "updated_at": "2026-09-28T15:13:17.079838+02:00",
   "checked_count": 195,
   "checked_countries": [
     "Afghanistan",
