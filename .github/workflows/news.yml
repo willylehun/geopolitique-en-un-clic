@@ -8,13 +8,9 @@ on:
       - "scripts/build_api.py"
       - ".github/workflows/news.yml"
   schedule:
-    # Six déclencheurs indépendants par heure.
-    - cron: "3 * * * *"
-    - cron: "13 * * * *"
-    - cron: "23 * * * *"
-    - cron: "33 * * * *"
-    - cron: "43 * * * *"
-    - cron: "53 * * * *"
+    # Réveils redondants toutes les 5 minutes, loin du début d'heure.
+    # Un garde-fou ci-dessous limite les collectes réelles à ~1 toutes les 10 minutes.
+    - cron: "6-56/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -22,8 +18,9 @@ permissions:
 
 concurrency:
   group: news-update
-  # À haute fréquence, ne pas laisser une file de cycles obsolètes s'empiler.
-  cancel-in-progress: true
+  # Ne jamais annuler un cycle utile parce qu'un réveil de secours arrive 5 minutes plus tard.
+  # GitHub ne garde au plus qu'un run en attente pour ce groupe.
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -36,7 +33,38 @@ jobs:
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.13"
+      - name: Vérifier si une collecte est nécessaire
+        id: cadence
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=1" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          should_run = True
+          state_path = Path("data/monitor-state.json")
+          try:
+              state = json.loads(state_path.read_text(encoding="utf-8"))
+              raw = state.get("last_run_at")
+              if raw:
+                  last = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+                  age = (datetime.now(timezone.utc) - last.astimezone(timezone.utc)).total_seconds()
+                  should_run = age >= 9 * 60
+                  print(f"Dernière collecte il y a {age/60:.1f} min ; collecte={'oui' if should_run else 'non'}.")
+          except Exception as exc:
+              print(f"État de cadence illisible ({exc}); collecte autorisée par sécurité.")
+              should_run = True
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
+              out.write(f"run={1 if should_run else 0}\n")
+          PY
       - name: Choisir le mode
+        if: steps.cadence.outputs.run == '1'
         id: mode
         shell: bash
         run: |
@@ -50,6 +78,7 @@ jobs:
             echo "include_previous_day=0" >> "$GITHUB_OUTPUT"
           fi
       - name: Construire la veille
+        if: steps.cadence.outputs.run == '1'
         env:
           BACKFILL_MONTH: ${{ steps.mode.outputs.backfill }}
           INCLUDE_PREVIOUS_DAY: ${{ steps.mode.outputs.include_previous_day }}
@@ -60,10 +89,13 @@ jobs:
           DAY_BATCH_SIZE: "1"
         run: python scripts/update_news.py
       - name: Intégrer le lot manuel vérifié
+        if: steps.cadence.outputs.run == '1'
         run: python scripts/manual_backfill.py
       - name: Construire l'API
+        if: steps.cadence.outputs.run == '1'
         run: python scripts/build_api.py
       - name: Valider les sorties
+        if: steps.cadence.outputs.run == '1'
         shell: bash
         run: |
           python -m json.tool data/news.json >/dev/null
@@ -75,6 +107,7 @@ jobs:
           python -m py_compile scripts/update_news.py scripts/build_api.py
           node --check app.js
       - name: Enregistrer les nouvelles données
+        if: steps.cadence.outputs.run == '1'
         shell: bash
         run: |
           if git diff --quiet -- data/news.json data/country-coverage.json data/monitor-state.json data/pending-translations.json api/news.json api/status.json api/index.json api/latest.json api/days; then
