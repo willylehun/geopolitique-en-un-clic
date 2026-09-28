@@ -29379,6 +29379,27 @@
       "sources": [
         "ABC News"
       ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "countries": [
+        "Australie"
+      ],
+      "period": "day",
+      "bucket": "28 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Le trésorier fédéral Jim Chalmers (Australie) affirme que la hausse des prix de l’essence liée à la guerre alimente l’inflation, tandis qu’une nouvelle hausse des taux de la Banque de réserve d’Australie se profile. L’article relève aussi que des recettes fiscales proches d’un record accentuent l’examen de la gestion économique du gouvernement.",
+      "sources": [
+        "brisbanetimes.com.au"
+      ],
+      "url": "https://www.brisbanetimes.com.au/politics/federal/near-record-tax-take-rising-rates-chalmers-blames-war-as-rba-hike-looms-20260928-p6113e.html",
+      "published_at": "2026-09-28T12:15:00+02:00",
+      "origin": "manual",
+      "content_enriched": true
     }
   ]
 }
