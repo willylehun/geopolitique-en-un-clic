@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, os, re, sys, time, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
 from datetime import datetime, timedelta, time as dtime
@@ -130,7 +130,8 @@ def is_french_2027_presidential(text):
 
 def clean_summary_text(text):
     """Retire le bruit éditorial/SEO sans inventer d'information."""
-    out=re.sub(r"\\s+"," ",text or "").strip()
+    raw="".join(ch for ch in (text or "") if unicodedata.category(ch)!="Cf")
+    out=re.sub(r"\\s+"," ",raw).strip()
     # Suffixes publicitaires ou de portail qui n'apportent rien au fait.
     out=re.sub(r"(?i)\\s*\\|\\s*actualités gratuites en ligne.*$","",out)
     out=re.sub(r"(?i)\\s*[–—-]\\s*journal approfondi.*$","",out)
@@ -163,7 +164,8 @@ def is_useful_article(text):
       " chanteur "," chanteuse "," concert "," the weeknd "," shakira "," acteur "," actrice ",
       " célébrité "," people "," série télé "," soap opera "," spoilers "," programme tv ",
       " horoscope "," recette "," mode "," carnaval "," croisière "," exposition d'art ",
-      " exposition de "," peinture "," artiste oublié "," festival de musique "," streaming "
+      " exposition de "," peinture "," artiste oublié "," festival de musique "," streaming ",
+      " sport "," sportif "," sportive "," documentaire "," migration animale "," faune sauvage "
     )
     if any(x in t for x in low_value) and not has_strong:
         return False
@@ -186,6 +188,20 @@ def is_useful_article(text):
     if any(x in t for x in service_noise) and not has_strong:
         return False
 
+    # Conférences commerciales/éducatives sans décision publique ni enjeu stratégique.
+    if (" summit " in t or " sommet " in t) and any(x in t for x in (" apprentissage "," éducation "," education "," livres aux robots ")) and not has_strong:
+        return False
+
+    # Données de consommation/secteur très spécialisées sans portée macroéconomique ou publique.
+    consumer_market=("ventes au détail de véhicules","location de voitures particulières","marché automobile","immatriculations automobiles")
+    if any(x in t for x in consumer_market) and not has_strong:
+        return False
+
+    # Langage typique de contenu promotionnel d'entreprise.
+    corporate_promo=("nous avons expédié","créant des synergies","répondre aux demandes les plus exigeantes","unités en 40 ans","présente sa nouvelle gamme")
+    if any(x in t for x in corporate_promo) and not has_strong:
+        return False
+
     # Prévisions de marché promotionnelles et communiqués sans décision publique ou enjeu stratégique.
     market_promo=(
       "le marché de l'intelligence artificielle","le marché de l’intelligence artificielle",
@@ -202,10 +218,19 @@ def is_useful_article(text):
       " démissionne "," retire "," reconnaît "," augmente "," baisse "," recule "," progresse ",
       " atteint "," vote "," élit "," élu "," élue "," accuse "," condamne "," enquête ",
       " sanctionne "," frappe "," attaque "," envahit "," évacue "," ferme "," ouvre ",
+      " a annoncé "," a décidé "," a adopté "," a approuvé "," a rejeté "," a imposé ",
+      " a signé "," a conclu "," a interdit "," a lancé "," a déployé "," a ordonné ",
+      " a démissionné "," a retiré "," a reconnu "," a augmenté "," a baissé "," a reculé ",
+      " a progressé "," a atteint "," a voté "," a été élu "," a été élue "," a condamné ",
       " accord "," traité "," réforme "," loi "," budget "," taux "," inflation "," déficit ",
       " exportation "," importation "," tarifs douaniers "," droits de douane "
     )
     if any(x in t for x in opinion) and not any(x in t for x in informative):
+        return False
+
+    # Un titre uniquement interrogatif pose un sujet mais ne donne pas la réponse :
+    # il n'est conservé que s'il contient déjà un fait concret vérifiable.
+    if raw.rstrip().endswith("?") and not any(x in t for x in informative):
         return False
 
     # Titres purement thématiques : ils nomment un sujet mais n'apprennent aucun fait.
