@@ -73,6 +73,7 @@ LEADER_LABELS={
     "Narendra Modi":"le Premier ministre Narendra Modi (Inde)",
     "Benjamin Netanyahu":"le Premier ministre Benjamin Netanyahu (Israël)",
     "Jim Chalmers":"le trésorier fédéral Jim Chalmers (Australie)",
+    "Keith Kellogg":"le général Keith Kellogg (États-Unis)",
 }
 
 PERSON_SURNAME_ALIASES={
@@ -98,7 +99,7 @@ def enrich_leader_context(text):
     for name,label in LEADER_LABELS.items():
         if name.lower() not in out.lower() or label.lower() in out.lower():
             continue
-        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances)?\s*"+re.escape(name)
+        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances|général|ministre des affaires étrangères|secrétaire d['’]état)?\s*"+re.escape(name)
         out=re.sub(pattern,label,out,count=1)
 
     # Noms de famille seuls, très fréquents dans les titres.
@@ -126,9 +127,20 @@ def enrich_leader_context(text):
     out=re.sub(r"(?i)\bdu\s+le\s+Premier ministre\b","du Premier ministre",out)
     out=re.sub(r"(?i)\bde\s+le\s+Premier ministre\b","du Premier ministre",out)
     # Réparer les mots accolés au libellé ajouté : « réunionle président ».
-    out=re.sub(r"(?<=[A-Za-zÀ-ÿ])(?=(?:le|la)\s+(?:président|présidente|Premier ministre|Première ministre|chancelier|trésorier fédéral)\b)"," ",out)
+    out=re.sub(r"(?<=[A-Za-zÀ-ÿ])(?=(?:le|la)\s+(?:président|présidente|Premier ministre|Première ministre|chancelier|trésorier fédéral|général)\b)"," ",out)
+    out=re.sub(r"(?i)\badministration\s+le président\b","administration du président",out)
+    out=re.sub(
+        r"(?i)\bréunion\s+(le président\s+[^()]+\([^)]+\))\s*-\s*(le président\s+[^()]+\([^)]+\))",
+        r"réunion entre \1 et \2",out
+    )
+    out=re.sub(
+        r"(?i)(ancien(?:ne)?\s+(?:émissaire|envoyé spécial)\s+du président\s+[^()]+\([^)]+\))\s+(le président\s+)",
+        r"\1 : \2",out
+    )
     out=re.sub(r"([,:;.!?])(?=[A-Za-zÀ-ÿ])",r"\1 ",out)
     out=re.sub(r"\s+"," ",out).strip()
+    if out:
+        out=out[0].upper()+out[1:]
     return out
 
 # Lieux infranationaux fréquemment rencontrés. Ajouter le pays seulement lorsque
@@ -226,7 +238,8 @@ def is_useful_article(text):
     always_low_value=(
       "migration animale","migration des oiseaux","migration des baleines",
       "documentaire animalier","documentaire nature","programme tv","horoscope",
-      "recette de cuisine","croisière touristique"
+      "recette de cuisine","croisière touristique",
+      "nou camp","sièges vip","fc barcelone","business vip"
     )
     if any(x in t for x in always_low_value):
         return False
@@ -319,6 +332,14 @@ def is_useful_article(text):
       "devrait atteindre","communiqué de presse","press release","marché devrait atteindre"
     )
     if sum(1 for x in market_promo if x in t)>=2 and not has_strong:
+        return False
+
+    # Interviews, plateaux et hypothèses sans fait nouveau : hors veille.
+    discussion_noise=("dans l'émission","dans l’émission","interroge","débat télévisé","table ronde")
+    decision_terms=("annonce","décide","adopte","approuve","rejette","impose","signe","interdit","lance","démissionne","vote","accord","traité","réforme","loi","sanction")
+    if sum(1 for x in discussion_noise if x in t)>=2 and not any(x in t for x in decision_terms):
+        return False
+    if t.strip().startswith("que fera ") and " si " in t and not any(x in t for x in decision_terms):
         return False
 
     # Un éditorial/opinion n'est utile que s'il décrit aussi un fait concret, une décision ou une évolution.
@@ -593,16 +614,42 @@ def fetch_article_detail(url, existing=False):
         ARTICLE_DETAIL_CACHE[url]=""
         return ""
 
+def sentence_words(text):
+    stop={"le","la","les","de","des","du","un","une","et","ou","à","au","aux","en","dans","sur","pour","avec","par","qui","que","se","sa","son","ses","ce","ces","cette","est","sont","a","ont"}
+    return {w for w in re.findall(r"[a-zà-ÿ0-9]+",(text or "").lower()) if len(w)>2 and w not in stop}
+
+def trim_incomplete_tail(text):
+    value=clean_summary_text(text)
+    if not value: return value
+    last=max(value.rfind(". "),value.rfind("! "),value.rfind("? "))
+    if last>=0:
+        tail=value[last+2:].strip()
+        if tail and len(re.findall(r"[a-zà-ÿ0-9]+",tail.lower()))<=7 and not re.search(r'[.!?…»"]$',tail):
+            value=value[:last+1].strip()
+    return value
+
 def dedupe_summary_sentences(text):
     parts=re.split(r"(?<=[.!?])\s+",clean_summary_text(text))
-    out=[]; seen=set()
+    out=[]; seen_keys=set(); seen_sets=[]
     for part in parts:
         part=part.strip()
         if not part: continue
         k=key_title(part)
-        if not k or k in seen: continue
-        seen.add(k); out.append(part)
-    return " ".join(out)
+        words=sentence_words(part)
+        if not k or k in seen_keys: continue
+        duplicate=False
+        for prev in seen_sets:
+            if not words or not prev: continue
+            inter=len(words & prev)
+            union=len(words | prev)
+            containment=inter/max(1,min(len(words),len(prev)))
+            jaccard=inter/max(1,union)
+            if containment>=0.82 or jaccard>=0.68:
+                duplicate=True
+                break
+        if duplicate: continue
+        seen_keys.add(k); seen_sets.append(words); out.append(part)
+    return trim_incomplete_tail(" ".join(out))
 
 def article_summary(art, meta=None):
     """Construit un vrai résumé à partir du titre ET d'un extrait/description de l'article."""
@@ -627,6 +674,7 @@ def article_summary(art, meta=None):
         cut=combined[:700]
         stop=max(cut.rfind(". "),cut.rfind("! "),cut.rfind("? "))
         combined=(cut[:stop+1] if stop>320 else cut.rstrip()+"…")
+    combined=trim_incomplete_tail(combined)
     return combined if is_useful_article(combined) else None
 
 def enrich_existing_item(item):
@@ -650,6 +698,7 @@ def enrich_existing_item(item):
     combined=clean_summary_text(dedupe_summary_sentences(
         enrich_editorial_context(f"{y.get('summary','')}. {clean_summary_text(detail_fr)}")
     ))
+    combined=trim_incomplete_tail(combined)
     if is_useful_article(combined):
         y["summary"]=combined
         y["content_enriched"]=True
