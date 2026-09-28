@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:28:02.663358+02:00",
+  "generated_at": "2026-09-28T18:57:39.800502+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -28823,6 +28823,27 @@
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "manual",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "28 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les constructeurs automobiles cherchent une bouée de sauvetage face au boom de la défense | Le temps de Manille. LONDRES/PARIS/DETROIT — Les constructeurs automobiles occidentaux recherchent un boom des dépenses de défense pour vendre plus de véhicules et utiliser des usines sous-employées, même si les dirigeants affirment que le travail militaire ne compensera pas le ralentissement des ventes de voitures et la concurrence croissante de la Chine.",
+      "sources": [
+        "manilatimes.net"
+      ],
+      "url": "https://www.manilatimes.net/2026/09/29/business/foreign-business/automakers-seek-lifeline-from-defense-boom/2434252",
+      "published_at": "2026-09-28T18:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine"
+      ]
     },
     {
       "regions": [
