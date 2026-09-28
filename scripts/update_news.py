@@ -77,6 +77,7 @@ LEADER_LABELS={
 
 PERSON_SURNAME_ALIASES={
     "Trump":("Donald Trump","président"),
+    "Xi":("Xi Jinping","président"),
     "Macron":("Emmanuel Macron","président"),
     "Poutine":("Vladimir Poutine","président"),
     "Putin":("Vladimir Poutine","président"),
