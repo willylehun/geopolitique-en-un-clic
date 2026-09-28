@@ -37,7 +37,7 @@ SOURCE_LABELS=["Reuters","Associated Press","AP News","BBC","France 24","DW","Al
 IMPACT={
  10:["guerre nucléaire","guerre mondiale","emploi de l’arme nucléaire","attaque nucléaire","invasion générale","coup d’état réussi","renversement du gouvernement","nuclear war","world war"],
  9:["guerre","invasion","frappe aérienne","frappe de missile","attaque militaire","cessez-le-feu","mobilisation militaire","état d’urgence","coup d’état","sanctions internationales","défaut souverain","séisme majeur","missile","airstrike","ceasefire","military attack","sanctions"],
- 8:["conflit armé","élection présidentielle","élections législatives","élection nationale","inflation","taux directeur","banque centrale","récession","embargo","sommet international","accord de paix","traité","crise politique","crise diplomatique","crise énergétique","pétrole","gaz","défense","sécurité nationale","tarifs douaniers","droits de douane","conflict","election","interest rate","central bank","recession","summit","embargo","oil","gas"],
+ 8:["conflit armé","élection présidentielle","élections législatives","élection nationale","inflation","taux directeur","banque centrale","récession","embargo","sommet international","accord de paix","traité","crise politique","crise diplomatique","crise énergétique","pétrole","gaz","défense","sécurité nationale","tarifs douaniers","droits de douane","réduction tarifaire","réductions tarifaires","conflict","election","interest rate","central bank","recession","summit","embargo","oil","gas"],
  7:["gouvernement","premier ministre","parlement","diplomatie","commerce international","budget de l’état","manifestation","frontière","migration","énergie","climat","inondation majeure","feu de forêt","catastrophe naturelle","cyberattaque","technologie stratégique","régulation de l’intelligence artificielle","loi sur l’intelligence artificielle","semi-conducteur","puces électroniques","accord commercial","government","prime minister","parliament","diplomacy","trade","energy","protest","border","climate","major flood","wildfire","cyberattack","ai regulation","semiconductor","chip export"],
  6:["économie","marché","investissement","exportation","importation","santé publique","épidémie","infrastructure","transport maritime","agriculture","justice","economic","market","investment","export","import","health","disease","infrastructure","shipping","agriculture"],
  5:["politique locale","administration","entreprise","société","politics","business","society"]
@@ -129,10 +129,16 @@ def enrich_leader_context(text):
     # Réparer les mots accolés au libellé ajouté : « réunionle président ».
     out=re.sub(r"(?<=[A-Za-zÀ-ÿ])(?=(?:le|la)\s+(?:président|présidente|Premier ministre|Première ministre|chancelier|trésorier fédéral|général)\b)"," ",out)
     out=re.sub(r"(?i)\badministration\s+le président\b","administration du président",out)
+    out=re.sub(r"(\([^)]+\))\s+\1",r"\1",out)
     out=re.sub(
         r"(?i)\bréunion\s+(le président\s+[^()]+\([^)]+\))\s*-\s*(le président\s+[^()]+\([^)]+\))",
         r"réunion entre \1 et \2",out
     )
+    out=re.sub(
+        r"(?i)(ancien(?:ne)?\s+(?:émissaire|envoyé spécial)\s+du président\s+[^()]+\([^)]+\))\s+(le président\s+)",
+        r"\1 : \2",out
+    )
+    # Repasser après dédoublonnage des parenthèses.
     out=re.sub(
         r"(?i)(ancien(?:ne)?\s+(?:émissaire|envoyé spécial)\s+du président\s+[^()]+\([^)]+\))\s+(le président\s+)",
         r"\1 : \2",out
@@ -336,7 +342,7 @@ def is_useful_article(text):
 
     # Interviews, plateaux et hypothèses sans fait nouveau : hors veille.
     discussion_noise=("dans l'émission","dans l’émission","interroge","débat télévisé","table ronde")
-    decision_terms=("annonce","décide","adopte","approuve","rejette","impose","signe","interdit","lance","démissionne","vote","accord","traité","réforme","loi","sanction")
+    decision_terms=("annonce","décide","adopte","approuve","rejette","impose","signe","interdit","lance","démissionne","vote","sanctionne","condamne","autorise","suspend")
     if sum(1 for x in discussion_noise if x in t)>=2 and not any(x in t for x in decision_terms):
         return False
     if t.strip().startswith("que fera ") and " si " in t and not any(x in t for x in decision_terms):
@@ -634,6 +640,7 @@ def dedupe_summary_sentences(text):
     for part in parts:
         part=part.strip()
         if not part: continue
+        part=part[0].upper()+part[1:]
         k=key_title(part)
         words=sentence_words(part)
         if not k or k in seen_keys: continue
@@ -1136,7 +1143,9 @@ def main():
     useful_items=[]
     for x in day_items:
         y=dict(x)
-        y["summary"]=clean_summary_text(enrich_editorial_context(y.get("summary","")))
+        y["summary"]=trim_incomplete_tail(
+            dedupe_summary_sentences(enrich_editorial_context(y.get("summary","")))
+        )
         if is_useful_article(y["summary"]):
             useful_items.append(y)
     day_items=useful_items
