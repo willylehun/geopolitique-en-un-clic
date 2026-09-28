@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:59:59.483848+02:00",
+  "generated_at": "2026-09-28T13:43:52.177052+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -595,9 +595,9 @@
         "Reuters"
       ],
       "countries": [
-        "Afrique du Sud",
         "Égypte",
-        "Éthiopie"
+        "Éthiopie",
+        "Afrique du Sud"
       ]
     },
     {
@@ -3039,8 +3039,8 @@
       "published_at": "2026-09-08T09:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Liban",
-        "Israël"
+        "Israël",
+        "Liban"
       ]
     },
     {
@@ -4154,9 +4154,9 @@
         "Asie"
       ],
       "countries": [
-        "Oman",
         "Bahreïn",
-        "Iran"
+        "Iran",
+        "Oman"
       ],
       "period": "day",
       "bucket": "13 septembre 2026",
@@ -6672,8 +6672,8 @@
         "Asie"
       ],
       "countries": [
-        "Pakistan",
-        "Iran"
+        "Iran",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6749,8 +6749,8 @@
         "Asie"
       ],
       "countries": [
-        "Pakistan",
-        "Iran"
+        "Iran",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -8098,11 +8098,11 @@
       ],
       "countries": [
         "Azerbaïdjan",
-        "Oman",
         "Irak",
         "Turkménistan",
         "Géorgie",
         "Iran",
+        "Oman",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -14233,8 +14233,8 @@
       "origin": "rss",
       "countries": [
         "Arabie saoudite",
-        "Pakistan",
         "Yémen",
+        "Pakistan",
         "Turquie"
       ]
     },
@@ -14429,8 +14429,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Liban",
-        "Israël"
+        "Israël",
+        "Liban"
       ]
     },
     {
@@ -18110,8 +18110,8 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Liban",
-        "Israël"
+        "Israël",
+        "Liban"
       ]
     },
     {
@@ -18651,22 +18651,6 @@
         "cursdeguvernare.ro"
       ],
       "url": "https://cursdeguvernare.ro/cristian-grosu-planul-suveranistul-cel-bun-si-geoeconomia-din-perspectiva-romaneasca.html",
-      "published_at": "2026-09-27T13:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 5,
-      "category": "Géopolitique",
-      "summary": "Cette semaine, 3 sociétés ont commencé leur cotation nationale : Jingfeng Medical est revenu en A après 8 mois de cotation à la bourse de Hong Kong, Techman et Celtic ont sprinté vers la Bourse de Pékin.",
-      "sources": [
-        "tmtpost.com"
-      ],
-      "url": "https://www.tmtpost.com/nictation/8153441.html",
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss"
     },
@@ -24266,22 +24250,6 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 7,
-      "category": "Géopolitique",
-      "summary": "Zelensky ne peut que gagner à cela. Sándor et la variante sombre pour l'Europe | Documents parlementaires. cz – la politique de tous les côtés",
-      "sources": [
-        "parlamentnilisty.cz"
-      ],
-      "url": "https://www.parlamentnilisty.cz/arena/monitor/Zelenskyj-na-tom-muze-jenom-ziskat-Sandor-a-temna-varianta-pro-Evropu-797380",
-      "published_at": "2026-09-27T22:00:00+02:00",
-      "origin": "rss"
-    },
-    {
       "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -24392,26 +24360,6 @@
       "url": "https://www.abc.es/espana/andalucia/malaga/cambio-viento-permite-estabilizar-incendio-forestal-igualeja-20260927205324-nts.html",
       "published_at": "2026-09-27T22:00:00+02:00",
       "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 7,
-      "category": "Géopolitique",
-      "summary": "L'Ukraine divisée. Le député européen Uhrík ne voit pas de retour à la normale | Documents parlementaires. cz – la politique de tous les côtés",
-      "sources": [
-        "parlamentnilisty.cz"
-      ],
-      "url": "https://www.parlamentnilisty.cz/arena/monitor/Rozdelena-Ukrajina-Europoslanec-Uhrik-nevidi-navrat-do-normalu-797381",
-      "published_at": "2026-09-27T22:00:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Ukraine"
-      ]
     },
     {
       "regions": [
@@ -28689,8 +28637,8 @@
       "published_at": "2026-09-27T22:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Japon",
         "Chine",
+        "Japon",
         "États-Unis"
       ]
     },
@@ -32382,8 +32330,8 @@
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Pakistan",
-        "Inde"
+        "Inde",
+        "Pakistan"
       ]
     },
     {
@@ -32479,22 +32427,6 @@
         "carexpo.ru"
       ],
       "url": "https://carexpo.ru/kuda-ischezla-legehndarnaya-jawa-i-pochemu-o-nej-snova-zagovorili-v-2026-godu/",
-      "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 8,
-      "category": "Géopolitique",
-      "summary": "Il y pense encore. Trump joue avec le monde à propos du pétrole | Documents parlementaires. cz – la politique de tous les côtés",
-      "sources": [
-        "parlamentnilisty.cz"
-      ],
-      "url": "https://www.parlamentnilisty.cz/arena/monitor/Stale-o-tom-premysli-Trump-si-hraje-se-svetem-kvuli-rope-797402",
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss"
     },
@@ -33488,8 +33420,8 @@
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Japon",
-        "Inde"
+        "Inde",
+        "Japon"
       ]
     },
     {
@@ -33556,8 +33488,8 @@
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Corée du Nord",
-        "Chine"
+        "Chine",
+        "Corée du Nord"
       ]
     },
     {
@@ -33646,8 +33578,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -33662,8 +33594,8 @@
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Suède",
-        "Israël"
+        "Israël",
+        "Suède"
       ]
     },
     {
@@ -33839,22 +33771,6 @@
       "countries": [
         "Inde"
       ]
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 7,
-      "category": "Technologie",
-      "summary": "Hua Hong Semiconductor Ltd Activité | A12DNQ | HK0000218211",
-      "sources": [
-        "deraktionaer.de"
-      ],
-      "url": "https://www.deraktionaer.de/aktien/kurse/huahonggracesemiconductorlimited-hk0000218211.html",
-      "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -34123,6 +34039,81 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kXzNPMS1lLUM2TDdvazgtNjluU0FzMmZNSGdURmNEQjJURTJidENtaEEydlVPbVNuLTNQRVhjREliUDhveGZqLVNKak9pQmZjbllDM1JvWGwtak9rNVJ6Zjc3c2c?oc=5",
       "published_at": "2026-09-28T12:39:52+02:00",
       "origin": "rss"
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "28 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Sumar, Podemos et la gauche parlementaire s'unissent pour faire pression sur le PSOE et faire annuler le décret sur le logement. Le mouvement Sumar, Más Madrid, Izquierda Unida et Comuns tiendront une conférence de presse avec des membres de Podemos, ERC, Bildu et BNG pour soutenir l'approbation du « décret Maricarmen ». Le mouvement Sumar, Más Madrid, Izquierda Unida et Comuns tiendront une conférence de presse avec des membres de Podemos, ERC, Bildu et BNG pour soutenir l'approbation du « décret Maricarmen ».",
+      "sources": [
+        "lasexta.com"
+      ],
+      "url": "https://www.lasexta.com/noticias/nacional/sumar-podemos-izquierda-parlamentaria-unen-presionar-psoe-cerrar-decreto-vivienda_202609286aba1d4da520494aafd8456f.html",
+      "published_at": "2026-09-28T13:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "28 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Nouvelle maison pour Feltrinelli, beaucoup faisaient la queue pour l'ouverture. « C'est important que le magasin reste à Latina ». Certains lieux appartiennent à une ville même lorsqu'ils changent d'adresse. Depuis des années, les Feltrinelli de via Armando Diaz ont accueilli les habitudes de générations de lecteurs et de lecteurs... Des lieux qui appartiennent à une ville même lorsqu'ils changent d'adresse. Depuis des années, les Feltrinelli de via Armando Diaz ont accueilli les habitudes de générations de lecteurs et de lecteurs... Des lieux qui appartiennent à une ville même lorsqu'ils changent d'adresse.",
+      "sources": [
+        "ilmessaggero.it"
+      ],
+      "url": "https://www.ilmessaggero.it:443/latina/feltrinelli_latina_riapertura_corso_matteotti-9789801.html",
+      "published_at": "2026-09-28T13:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "28 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La croissance de l’hydroélectricité en Asie est confrontée à des défis liés à l’eau. Équilibrer le changement climatique avec une demande croissante d'énergie et une diminution des ressources en eau est un défi complexe pour le secteur hydroélectrique en Asie. Équilibrer le changement climatique avec une demande croissante en énergie et une diminution des ressources en eau est un défi complexe pour le secteur hydroélectrique en Asie. Équilibrer le changement climatique avec une demande croissante en énergie et une diminution des ressources en eau est un défi complexe pour le secteur hydroélectrique en Asie.",
+      "sources": [
+        "power-technology.com"
+      ],
+      "url": "https://www.power-technology.com/analysis/asias-hydropower-growth-faces-water-challenges/",
+      "published_at": "2026-09-28T13:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "28 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sur les sanctions, les détournements en Europe, les prix du pétrole et l'AfD en Allemagne. Menaces pour la sécurité en Europe : l'ombre de l'Iran et de la Russie, sanctions et élections. Dans l'émission \"Spried with Delphi\", Liva Daniela Borisova interroge Mari Andžana et Armanda Astukeviča. Menaces pour la sécurité en Europe : l'ombre de l'Iran et de la Russie, sanctions et élections. Dans l'émission \"Spried with Delphi\", Liva Daniela Borisova interroge Mari Andžana et Armanda Astukeviča. Menaces pour la sécurité en Europe : l'ombre de l'Iran et de la Russie, sanctions et élections. Dans l'émission \"Spried with Delphi\", Liva Daniela Borisova interroge Mari Andžana et Armanda Astukeviča.",
+      "sources": [
+        "delfi.lv"
+      ],
+      "url": "https://www.delfi.lv/52983255/spried-ar-delfi/120136203/par-sankcijam-diversijam-eiropa-naftas-cenam-un-afd-vacija",
+      "published_at": "2026-09-28T13:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne",
+        "Iran",
+        "Russie"
+      ]
     },
     {
       "regions": [
