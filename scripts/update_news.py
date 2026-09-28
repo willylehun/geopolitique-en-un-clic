@@ -458,6 +458,22 @@ def global_country_discovery(start_date,end_date,countries):
         rows.append({"regions":regions,"countries":matched,"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"global"})
     return rows,found
 
+def time_priority_countries(countries, now):
+    """Priorise les zones dont la journée médiatique est active, sans exclure aucun pays."""
+    hour=now.astimezone(PARIS).hour
+    # Matin France : Asie/Océanie publient déjà; la côte Est/Ouest américaine
+    # publie encore en soirée locale, donc elle reste prioritaire également.
+    if 0 <= hour < 7:
+        priority=["Asie","Océanie","Amérique du Nord","Amérique du Sud","Afrique","Europe"]
+    elif 7 <= hour < 13:
+        priority=["Asie","Europe","Afrique","Océanie","Amérique du Nord","Amérique du Sud"]
+    elif 13 <= hour < 18:
+        priority=["Europe","Afrique","Amérique du Nord","Amérique du Sud","Asie","Océanie"]
+    else:
+        priority=["Amérique du Nord","Amérique du Sud","Europe","Afrique","Asie","Océanie"]
+    rank={r:i for i,r in enumerate(priority)}
+    return sorted(countries,key=lambda country:(rank.get(COUNTRY_TO_REGION.get(country),99),country))
+
 def country_backfill(start_date,end_date,state):
     rows=[]; found=set()
     themes=["politique OR diplomatie OR gouvernement OR élection OR économie OR sécurité OR conflit OR défense OR migration OR climat OR santé OR société OR justice OR environnement OR catastrophe OR énergie OR technologie OR coopération"]
@@ -468,7 +484,9 @@ def country_backfill(start_date,end_date,state):
     # Traitement par petits lots persistants : chaque run écrit son lot avant que le suivant ne soit traité.
     # Le lot ciblé complète la collecte mondiale sans priorité liée au niveau de couverture.
     batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","10") or "10"))
-    ordered=list(all_countries)
+    # La rotation de 195 pays est conservée, mais l'ordre du lot s'adapte à
+    # l'heure française afin de chercher d'abord là où les rédactions publient.
+    ordered=time_priority_countries(list(all_countries),datetime.now(PARIS))
     if ordered:
         offset=int(state.get("country_cursor",0))%len(ordered)
         countries=(ordered+ordered)[offset:offset+min(batch_size,len(ordered))]
