@@ -116,16 +116,19 @@ def enrich_leader_context(text):
         pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|trésorier(?: fédéral)?|ministre des finances)?\s*\b"+re.escape(alias)+r"\b"
         out=re.sub(pattern,label,out,count=1)
     # Nettoyer les contractions/espaces créés par la normalisation des titres.
-    out=re.sub(r"(?i)\\bdu\\s+le\\s+président\\b","du président",out)
-    out=re.sub(r"(?i)\\bde\\s+le\\s+président\\b","du président",out)
-    out=re.sub(r"(?i)\\bdu\\s+la\\s+présidente\\b","de la présidente",out)
-    out=re.sub(r"(?i)\\bde(?:le)?\\s+président\\b","du président",out)
-    out=re.sub(r"(?i)\\bavec(?:le)\\s+président\\b","avec le président",out)
-    out=re.sub(r"(?i)\\bselon(?:le)\\s+président\\b","selon le président",out)
-    out=re.sub(r"(?i)\\bdu\\s+le\\s+Premier ministre\\b","du Premier ministre",out)
-    out=re.sub(r"(?i)\\bde\\s+le\\s+Premier ministre\\b","du Premier ministre",out)
-    out=re.sub(r"([,:;.!?])(?=[A-Za-zÀ-ÿ])",r"\\1 ",out)
-    out=re.sub(r"\\s+"," ",out).strip()
+    out=out.replace("\\1 ","")
+    out=re.sub(r"(?i)\bdu\s+le\s+président\b","du président",out)
+    out=re.sub(r"(?i)\bde\s+le\s+président\b","du président",out)
+    out=re.sub(r"(?i)\bdu\s+la\s+présidente\b","de la présidente",out)
+    out=re.sub(r"(?i)\bde(?:le)?\s+président\b","du président",out)
+    out=re.sub(r"(?i)\bavec(?:le)\s+président\b","avec le président",out)
+    out=re.sub(r"(?i)\bselon(?:le)\s+président\b","selon le président",out)
+    out=re.sub(r"(?i)\bdu\s+le\s+Premier ministre\b","du Premier ministre",out)
+    out=re.sub(r"(?i)\bde\s+le\s+Premier ministre\b","du Premier ministre",out)
+    # Réparer les mots accolés au libellé ajouté : « réunionle président ».
+    out=re.sub(r"(?<=[A-Za-zÀ-ÿ])(?=(?:le|la)\s+(?:président|présidente|Premier ministre|Première ministre|chancelier|trésorier fédéral)\b)"," ",out)
+    out=re.sub(r"([,:;.!?])(?=[A-Za-zÀ-ÿ])",r"\1 ",out)
+    out=re.sub(r"\s+"," ",out).strip()
     return out
 
 # Lieux infranationaux fréquemment rencontrés. Ajouter le pays seulement lorsque
