@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:59:37.979442+02:00",
+  "generated_at": "2026-09-28T14:02:03.062095+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -114,7 +114,7 @@
       "bucket": "17 septembre 2026",
       "score": 4,
       "category": "USA–Chine",
-      "summary": "Les alliés asiatiques des États-Unis réclament des garanties sur Taïwan avant le sommet Trump–Xi du 24 septembre.",
+      "summary": "Les alliés asiatiques des États-Unis réclament des garanties sur Taïwan avant le sommetle président Donald Trump (États-Unis)–Xi du 24 septembre.",
       "sources": [
         "Reuters"
       ],
@@ -137,14 +137,19 @@
       ]
     },
     {
-      "regions": [],
+      "regions": [
+        "Amérique du Nord"
+      ],
       "period": "day",
       "bucket": "19 septembre 2026",
       "score": 4,
       "category": "USA–Chine",
-      "summary": "Bessent et He Lifeng préparent le sommet Trump–Xi autour du commerce, de l’IA et des enjeux économiques stratégiques.",
+      "summary": "Bessent et He Lifeng préparent le sommetle président Donald Trump (États-Unis)–Xi autour du commerce, de l’IA et des enjeux économiques stratégiques.",
       "sources": [
         "Reuters"
+      ],
+      "countries": [
+        "États-Unis"
       ]
     },
     {
@@ -184,7 +189,7 @@
       ],
       "period": "day",
       "bucket": "15 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Ukraine",
       "summary": "Russie et Ukraine poursuivent leurs frappes sur les infrastructures énergétiques malgré l’appel américain à les suspendre.",
       "sources": [
@@ -228,11 +233,14 @@
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Sécurité",
-      "summary": "Macron affirme que les attaques hybrides russes s’intensifient et ordonne un plan de protection des infrastructures critiques françaises.",
+      "summary": "le président Emmanuel Macron (France) affirme que les attaques hybrides russes s’intensifient et ordonne un plan de protection des infrastructures critiques françaises.",
       "sources": [
         "Reuters"
+      ],
+      "countries": [
+        "France"
       ]
     },
     {
@@ -288,7 +296,7 @@
       ],
       "period": "day",
       "bucket": "15 septembre 2026",
-      "score": 8,
+      "score": 7,
       "category": "Énergie",
       "summary": "La crise au Moyen-Orient pousse le Brent au-dessus de 108 $, mettant sous pression les économies asiatiques importatrices d’énergie.",
       "sources": [
@@ -314,18 +322,20 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
       "score": 4,
       "category": "Taïwan",
-      "summary": "Taïwan, le Japon et d’autres alliés s’inquiètent d’éventuelles concessions américaines à Pékin lors du sommet Trump–Xi.",
+      "summary": "Taïwan, le Japon et d’autres alliés s’inquiètent d’éventuelles concessions américaines à Pékin lors du sommetle président Donald Trump (États-Unis)–Xi.",
       "sources": [
         "Reuters"
       ],
       "countries": [
-        "Japon"
+        "Japon",
+        "États-Unis"
       ]
     },
     {
@@ -362,19 +372,21 @@
       "regions": [
         "Amérique du Sud",
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "13 septembre 2026",
       "score": 8,
       "category": "Énergie",
-      "summary": "Trump évoque la possibilité de maintenir une présence américaine en Iran pour le pétrole, en la comparant à l’accord américain au Venezuela.",
+      "summary": "le président Donald Trump (États-Unis) évoque la possibilité de maintenir une présence américaine en Iran pour le pétrole, en la comparant à l’accord américain au Venezuela.",
       "sources": [
         "Reuters"
       ],
       "countries": [
         "Venezuela",
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -383,7 +395,7 @@
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Marchés",
       "summary": "Le Nasdaq recule avec les semi-conducteurs après les appels à ralentir l’IA ; les marchés américains restent sous pression des taux longs.",
       "sources": [
@@ -424,7 +436,7 @@
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Fed",
       "summary": "Les marchés digèrent le virage plus restrictif de la Fed : 16 responsables sur 18 anticipent encore au moins une hausse en 2026.",
       "sources": [
@@ -434,19 +446,21 @@
     {
       "regions": [
         "Europe",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
       "score": 9,
       "category": "Russie",
-      "summary": "Trump signe une loi de sanctions contre la Russie visant énergie, défense et pétroliers clandestins, avec tarifs secondaires possibles.",
+      "summary": "le président Donald Trump (États-Unis) signe une loi de sanctions contre la Russie visant énergie, défense et pétroliers clandestins, avec tarifs secondaires possibles.",
       "sources": [
         "Reuters",
         "AP"
       ],
       "countries": [
-        "Russie"
+        "Russie",
+        "États-Unis"
       ]
     },
     {
@@ -458,28 +472,33 @@
       "bucket": "19 septembre 2026",
       "score": 7,
       "category": "Chine",
-      "summary": "Le Trésor américain rencontre le vice-Premier ministre chinois avant le sommet Trump–Xi pour parler commerce, IA et sécurité économique.",
+      "summary": "Le Trésor américain rencontre le vice-Premier ministre chinois avant le sommetle président Donald Trump (États-Unis)–Xi pour parler commerce, IA et sécurité économique.",
       "sources": [
         "Reuters"
+      ],
+      "countries": [
+        "États-Unis"
       ]
     },
     {
       "regions": [
         "Amérique du Sud",
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "13 septembre 2026",
       "score": 8,
       "category": "Venezuela",
-      "summary": "Trump compare une éventuelle stratégie pétrolière en Iran à l’accord conclu avec le Venezuela, signe du poids croissant du pétrole vénézuélien dans la politique américaine.",
+      "summary": "le président Donald Trump (États-Unis) compare une éventuelle stratégie pétrolière en Iran à l’accord conclu avec le Venezuela, signe du poids croissant du pétrole vénézuélien dans la politique américaine.",
       "sources": [
         "Reuters"
       ],
       "countries": [
         "Venezuela",
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -552,18 +571,20 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
       "score": 4,
       "category": "Venezuela",
-      "summary": "Trump doit rencontrer Delcy Rodríguez à New York, première rencontre directe depuis le changement de pouvoir au Venezuela.",
+      "summary": "le président Donald Trump (États-Unis) doit rencontrer Delcy Rodríguez à New York, première rencontre directe depuis le changement de pouvoir au Venezuela.",
       "sources": [
         "Reuters"
       ],
       "countries": [
-        "Venezuela"
+        "Venezuela",
+        "États-Unis"
       ]
     },
     {
@@ -638,7 +659,7 @@
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Énergie",
       "summary": "Le Ghana réduit ses exportations de carburant vers le Mali et le Burkina Faso pour protéger son approvisionnement intérieur.",
       "sources": [
@@ -760,7 +781,7 @@
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Commerce",
       "summary": "La Nouvelle-Zélande adopte son accord de libre-échange avec l’Inde, supprimant ou réduisant les droits sur environ 95 % de ses exportations.",
       "sources": [
@@ -773,12 +794,11 @@
     },
     {
       "regions": [
-        "Océanie",
-        "International"
+        "Océanie"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Immigration",
       "summary": "L’Australie durcit les visas étudiants et backpackers afin de réduire l’immigration nette vers 225 000 personnes d’ici 2028.",
       "sources": [
@@ -892,7 +912,7 @@
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Énergie",
       "summary": "Le choc énergétique lié à l’Iran perturbe les marchés mondiaux, les prix du carburant et les chaînes d’approvisionnement.",
       "sources": [
@@ -986,7 +1006,7 @@
       "bucket": "16 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump menace de réduire les échanges avec l’UE après sa proposition de statut associé au Canada.",
+      "summary": "le président Donald Trump (États-Unis) menace de réduire les échanges avec l’UE après sa proposition de statut associé au Canada.",
       "sources": [
         "The Guardian"
       ],
@@ -994,7 +1014,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Canada"
+        "Canada",
+        "États-Unis"
       ]
     },
     {
@@ -1083,7 +1104,7 @@
       "bucket": "17 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le Canada appelle à resserrer ses liens avec l’UE dans un contexte de tensions commerciales avec Trump.",
+      "summary": "Le Canada appelle à resserrer ses liens avec l’UE dans un contexte de tensions commerciales avecle président Donald Trump (États-Unis).",
       "sources": [
         "news24.com.au"
       ],
@@ -1091,7 +1112,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Canada"
+        "Canada",
+        "États-Unis"
       ]
     },
     {
@@ -1102,7 +1124,7 @@
       "bucket": "17 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Mark Carney défend une alliance renforcée Canada–UE pour protéger les démocraties malgré l’opposition de Trump.",
+      "summary": "Mark Carney défend une alliance renforcée Canada–UE pour protéger les démocraties malgré l’opposition du le président Donald Trump (États-Unis).",
       "sources": [
         "Reuters"
       ],
@@ -1110,7 +1132,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Canada"
+        "Canada",
+        "États-Unis"
       ]
     },
     {
@@ -1119,7 +1142,7 @@
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Le rapprochement Canada–UE s’accélère alors que leurs économies cherchent à réduire leur dépendance aux États-Unis.",
       "sources": [
@@ -1141,7 +1164,7 @@
       "bucket": "17 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump rejette fermement l’idée d’un rapprochement institutionnel entre le Canada et l’Union européenne.",
+      "summary": "le président Donald Trump (États-Unis) rejette fermement l’idée d’un rapprochement institutionnel entre le Canada et l’Union européenne.",
       "sources": [
         "Politico"
       ],
@@ -1149,7 +1172,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Canada"
+        "Canada",
+        "États-Unis"
       ]
     },
     {
@@ -1265,20 +1289,23 @@
     },
     {
       "regions": [
-        "Europe",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
       "score": 9,
       "category": "Énergie",
-      "summary": "Trump vise le secteur énergétique russe avec une nouvelle loi de sanctions.",
+      "summary": "le président Donald Trump (États-Unis) vise le secteur énergétique russe avec une nouvelle loi de sanctions.",
       "sources": [
         "BBC"
       ],
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vSHg0WFRlY1pCUkotVTE1N3pUOHdfak53ZVFjaVRUa3hpUEtKWTN5ZzBUOEpIQ25DQzJnZlVlM2JpU2tJcnVraG1rZkR2SUotSEEwNUxJMmRKT28?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -1288,13 +1315,16 @@
       "bucket": "18 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Zelensky cherche à créer un nouveau partenariat commercial et sécuritaire avec plusieurs pays d’Europe orientale.",
+      "summary": "le président Volodymyr Zelensky (Ukraine) cherche à créer un nouveau partenariat commercial et sécuritaire avec plusieurs pays d’Europe orientale.",
       "sources": [
         "The Guardian"
       ],
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc1Y2R05mUlNfSXlsd3k4YnpQRDM5M3JreGRUUVJIemtzaTdNa0tHVkNVVjkyNXR0X1RBYWtOaFpxVmtaUXlBMVNYSmEtazRVQ0pESWNVeEVnbWp2eVo5YUItRC1raHhxZmNUcVk4UklrT2hIcERNbnAzRklSTDh1MEZ0cTVNZjNjLXNxSGRWTHF4ZTY4R1BtcjhOejRKbThlamx2dlhjcC1DVGE2MWFwNTRvdFA3bzVseEtpZWNPVWZRcFl5UTVfMVpJa3U0T1JRb0poMXRxTFZZTElPc1E?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "Ukraine"
+      ]
     },
     {
       "regions": [
@@ -1305,7 +1335,7 @@
       "bucket": "18 septembre 2026",
       "score": 8,
       "category": "Énergie",
-      "summary": "Un émissaire de Poutine et des responsables de l’AfD préparent des discussions sur un éventuel retour du gaz russe en Allemagne.",
+      "summary": "Un émissaire du le président Vladimir Poutine (Russie) et des responsables de l’AfD préparent des discussions sur un éventuel retour du gaz russe en Allemagne.",
       "sources": [
         "Reuters"
       ],
@@ -1313,7 +1343,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Allemagne"
+        "Allemagne",
+        "Russie"
       ]
     },
     {
@@ -1361,13 +1392,16 @@
       "bucket": "18 septembre 2026",
       "score": 4,
       "category": "Sécurité",
-      "summary": "Zelensky lance l’initiative « Carpathian Eight » pour renforcer commerce et sécurité en Europe centrale et orientale.",
+      "summary": "le président Volodymyr Zelensky (Ukraine) lance l’initiative « Carpathian Eight » pour renforcer commerce et sécurité en Europe centrale et orientale.",
       "sources": [
         "Reuters"
       ],
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa0pJYVZLX3poanZqbVNDbGl2SXkycG9MYVhKNVNpU1g0YTlKaTZieUNCbm5rLTkzMGpfc29fb0FfY3lKUVEyZXFwbXhwSzRLeV82dGVtSFpsby1uUDRsYW4zSjF3VHBYLUd1Z25JdEdONUpxN0tuejhVSGJnSl9ucFNxZURkTnhyNkptV3ZlcnlsYkoxQ3FRbzlSMzF3Q1d0TkZZMk44bnhFME5uY1hJ?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "Ukraine"
+      ]
     },
     {
       "regions": [
@@ -1375,7 +1409,7 @@
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "La flambée record des carburants dans l’UE relance les appels à taxer les bénéfices exceptionnels des entreprises énergétiques.",
       "sources": [
@@ -1391,7 +1425,7 @@
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "La Russie saisit des actifs d’entreprises françaises et convoque un diplomate britannique sur le soutien occidental à l’Ukraine.",
       "sources": [
@@ -1444,30 +1478,36 @@
       "bucket": "19 septembre 2026",
       "score": 9,
       "category": "Conflit",
-      "summary": "Poutine affirme que l’Europe se « prépare à la guerre », dans un contexte de fortes tensions avec l’OTAN.",
+      "summary": "le président Vladimir Poutine (Russie) affirme que l’Europe se « prépare à la guerre », dans un contexte de fortes tensions avec l’OTAN.",
       "sources": [
         "France 24"
       ],
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFNGl0MWt5bmNKNFBYc2poLUJFY0FJOW84T0lsUWJvdjVKR2xGZ3ltTjJsYzlKNmE3UWtmSklzMHpaMFV3Zi16SkJRR1BXSzFYcWxucmpFb0JxRUo5cl8wLWFNcDlFTVEyWGh1QXJPQTNhVG1I?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "Russie"
+      ]
     },
     {
       "regions": [
-        "Europe",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
       "score": 9,
       "category": "Conflit",
-      "summary": "Moscou affirme que les nouvelles sanctions américaines pourraient compromettre les efforts de négociation de Trump.",
+      "summary": "Moscou affirme que les nouvelles sanctions américaines pourraient compromettre les efforts de négociation du le président Donald Trump (États-Unis).",
       "sources": [
         "The New York Times"
       ],
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMGFVVjBESXNDS3pqTXUwbll6TlgyMzctMUpMSjY2c2tnTG1TRUN2UjM4dWE4MHZMWENTX1pXeHQ1MEpCUFNuQXFhVTZXNzMwQkJ1S29WMTFyOGw3NDRhVnp0V2dLSHRWY1ZLSHRGXzNydFZjbkVhN1VDWmJnSm5pSEViYzU?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -1492,13 +1532,14 @@
     {
       "regions": [
         "Europe",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "Trump signe la loi Graham imposant de nouvelles sanctions contre la Russie.",
+      "summary": "le président Donald Trump (États-Unis) signe la loi Graham imposant de nouvelles sanctions contre la Russie.",
       "sources": [
         "Le Monde.fr"
       ],
@@ -1506,17 +1547,17 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Russie"
+        "Russie",
+        "États-Unis"
       ]
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Conflit",
       "summary": "Kyiv dénonce l’intégration des territoires ukrainiens annexés dans les élections parlementaires russes.",
       "sources": [
@@ -1532,7 +1573,7 @@
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Conflit",
       "summary": "Le débat sur la préparation des sociétés européennes à un conflit majeur s’intensifie face aux tensions avec la Russie.",
       "sources": [
@@ -1641,13 +1682,16 @@
       "bucket": "20 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "À Berlin, Die Linke devance la CDU de Friedrich Merz dans le scrutin régional.",
+      "summary": "À Berlin, Die Linke devance la CDU dele chancelier Friedrich Merz (Allemagne) dans le scrutin régional.",
       "sources": [
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQy1aaWJsQUQ5ekFjZ0JaLTVZT1lhdUxBcHRkVmhFdWZoLWhldkd1bkRhUHQ4RjJuZ2tzalM1cDNxRGVOU0RraVZreFUwQkQ4Xy1xS2tIZUpOOUlNbkZwY1FrM0dvajJWSllmeWllQ3libHZwdHB1c0FtZEl4amstMTZaeWpMZEhlbzR5T2xTekNuX2FkRXdvWHZjWXBZQ2JSNHJHTDM1SnVERjFWbzNkZzNyU2ItNDVmNWNkX2JYUUFKSzUwX2VGcEJ1ZGM1RkNYRFE?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "Allemagne"
+      ]
     },
     {
       "regions": [
@@ -1885,13 +1929,14 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "20 septembre 2026",
       "score": 9,
       "category": "Conflit",
-      "summary": "La hausse de l’essence mécontente les électeurs américains ; Trump estime que ce coût reste limité au regard de la guerre avec l’Iran.",
+      "summary": "La hausse de l’essence mécontente les électeurs américains ;le président Donald Trump (États-Unis) estime que ce coût reste limité au regard de la guerre avec l’Iran.",
       "sources": [
         "ABC News - Breaking News, Latest News and Videos"
       ],
@@ -1899,7 +1944,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -2049,9 +2095,9 @@
       ],
       "period": "day",
       "bucket": "8 septembre 2026",
-      "score": 9,
+      "score": 8,
       "category": "Géopolitique",
-      "summary": "Trump riposte au Canada avec des interdictions d’importation et de nouvelles hausses de droits de douane.",
+      "summary": "le président Donald Trump (États-Unis) riposte au Canada avec des interdictions d’importation et de nouvelles hausses de droits de douane.",
       "sources": [
         "Politico"
       ],
@@ -2059,7 +2105,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Canada"
+        "Canada",
+        "États-Unis"
       ]
     },
     {
@@ -2127,13 +2174,14 @@
     {
       "regions": [
         "Europe",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
       "score": 8,
       "category": "Conflit",
-      "summary": "Trump annonce un accord de sécurité et de défense avec le Danemark concernant le Groenland.",
+      "summary": "le président Donald Trump (États-Unis) annonce un accord de sécurité et de défense avec le Danemark concernant le Groenland.",
       "sources": [
         "Axios"
       ],
@@ -2141,7 +2189,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Danemark"
+        "Danemark",
+        "États-Unis"
       ]
     },
     {
@@ -2153,7 +2202,7 @@
       "bucket": "18 septembre 2026",
       "score": 4,
       "category": "Sécurité",
-      "summary": "Trump affirme que les États-Unis et le Danemark ont conclu un accord de sécurité sur le Groenland.",
+      "summary": "le président Donald Trump (États-Unis) affirme que les États-Unis et le Danemark ont conclu un accord de sécurité sur le Groenland.",
       "sources": [
         "ABC News - Breaking News, Latest News and Videos"
       ],
@@ -2173,13 +2222,16 @@
       "bucket": "18 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Trump annonce un accord visant à renforcer la présence militaire américaine au Groenland.",
+      "summary": "le président Donald Trump (États-Unis) annonce un accord visant à renforcer la présence militaire américaine au Groenland.",
       "sources": [
         "CBC"
       ],
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZGR4QWxnMUVoRWoxOElSNG9UQXE5NjVSdHFoVzlBOFpzOUZ6SE93eDQ1NDc3ZFVjRThtd1JfLUttNnA1WWpfUldENF96SGRVU3dfMnBUVV9SUWIyY0V4dWUxVlFRREM2N3lRUl9HY2FnNnJ2OGVqbnRKLXpkcGhXSEpTTE9zZkgxSnp3?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -2190,7 +2242,7 @@
       "bucket": "18 septembre 2026",
       "score": 4,
       "category": "Sécurité",
-      "summary": "Les États-Unis et le Danemark concluent un accord sur la sécurité du Groenland après plusieurs menaces de Trump.",
+      "summary": "Les États-Unis et le Danemark concluent un accord sur la sécurité du Groenland après plusieurs menaces du le président Donald Trump (États-Unis).",
       "sources": [
         "bbc.co.uk"
       ],
@@ -2228,7 +2280,7 @@
       "bucket": "18 septembre 2026",
       "score": 4,
       "category": "Sécurité",
-      "summary": "Les États-Unis et le Danemark concluent un accord sécuritaire après les menaces de Trump concernant le Groenland.",
+      "summary": "Les États-Unis et le Danemark concluent un accord sécuritaire après les menaces du le président Donald Trump (États-Unis) concernant le Groenland.",
       "sources": [
         "The Guardian"
       ],
@@ -2246,7 +2298,7 @@
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Les sorties d’or des États-Unis alimentent les inquiétudes sur les marchés, même si leur portée reste débattue.",
       "sources": [
@@ -2303,7 +2355,7 @@
       "bucket": "19 septembre 2026",
       "score": 4,
       "category": "Sécurité",
-      "summary": "Trump affirme que les États-Unis disposent d’un contrôle durable sur la sécurité du Groenland, une interprétation contestée.",
+      "summary": "le président Donald Trump (États-Unis) affirme que les États-Unis disposent d’un contrôle durable sur la sécurité du Groenland, une interprétation contestée.",
       "sources": [
         "Al Jazeera"
       ],
@@ -2338,13 +2390,16 @@
       "bucket": "19 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les dirigeants danois accueillent avec prudence l’annonce de Trump sur un accord concernant le Groenland.",
+      "summary": "Les dirigeants danois accueillent avec prudence l’annonce du le président Donald Trump (États-Unis) sur un accord concernant le Groenland.",
       "sources": [
         "ABC News - Breaking News, Latest News and Videos"
       ],
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONWl0LTF4VFkxaGI4MzQ0SGRBR3A2S2lzR2RtdE95ZU5sRnd2QnRnYkhZakFCa29naWtLclZnT2NJUk14aldwY3oza1VBZFhHUWZLNFduSXd6QU96U1VuWVF3bE5RR3NRX3ZGVHVJdGhUNXhJZjVyWHlGTWpWM2c2VDR3VkxERnpNSDJQVTdZLUxlcUE1SERTVTc1blpOUFdHR0xXT3BBbWJZWFFmOHJWU0NpRDNuc0HSAbwBQVVfeXFMUGpvaEpjVlp0UW00M2ZfUjJPQ1hPX1JaQmlrSzNMYmhTMkdrWXZIeUxNWmpLWmVBbm9DYldPU25zS0xoLW1odHI0TEN3ZFl3SXhvNGtQOGY0MzRsWElYVFg4STFWcEJ0RXNkRWtYWThWaDc4dWRodEE5cHRZZUpKNVBSQUF6Zld5Y0hlZGZ5cXRHcDEtalFUZWREeEtnZ3VfQjlSTGtvb2JzalNPMWdHUFlUa0VUb0RBMFByUy0?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -2377,29 +2432,16 @@
       "bucket": "20 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Trump affirme que son projet d’arche monumentale à Washington intégrera des fonctions de sécurité militaire avec drones et tireurs d’élite.",
+      "summary": "le président Donald Trump (États-Unis) affirme que son projet d’arche monumentale à Washington intégrera des fonctions de sécurité militaire avec drones et tireurs d’élite.",
       "sources": [
         "NPR"
       ],
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTUNPNHZzWkhCWVlyR0Y0Sm1zLVFzNWpkRDdPTWZ5TFpPYTZJUlo5Ulh5aTVoWjlvRGRNTDl6VGUwa05LbzJYdzZlT2VlRmxBLUNCaGIzRWQ0YVltREwtWmNNQUJmMnFSUGZrOUp0OUtsZzBaTnV0Qk54bUtSY1RvQjFfTFBnM29VTzdyNEtsQkR4RkJGUkN5djN0TUFqbjE2U3Iw?oc=5",
       "origin": "rss",
-      "language": "fr"
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "20 septembre 2026",
-      "score": 6,
-      "category": "Conflit",
-      "summary": "Trump présente son projet d’arche triomphale comme un complexe doté d’importantes fonctions militaires.",
-      "sources": [
-        "Politico"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWi1oaWpac0h1a1Z2YllaTXVYVW1TWHZUSGxMWkNxZ3IzMFFVbUtyNmljdUZuTTdzUFVxSVNkRnRqNUR3WDhVMkR4R0tGUmRlcHV3RXZDZVlZRjdIc1dEbHpCdGFKdVhGYkRzRElsUmE4Nm9IdlBQVmw5aGFZcGhRWWF2dTBDRG0tNE4xQXk3a0o?oc=5",
-      "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -2409,13 +2451,35 @@
       "bucket": "20 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Trump affirme que son projet d’arche monumentale à Washington servira également de complexe militaire.",
+      "summary": "le président Donald Trump (États-Unis) présente son projet d’arche triomphale comme un complexe doté d’importantes fonctions militaires.",
+      "sources": [
+        "Politico"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWi1oaWpac0h1a1Z2YllaTXVYVW1TWHZUSGxMWkNxZ3IzMFFVbUtyNmljdUZuTTdzUFVxSVNkRnRqNUR3WDhVMkR4R0tGUmRlcHV3RXZDZVlZRjdIc1dEbHpCdGFKdVhGYkRzRElsUmE4Nm9IdlBQVmw5aGFZcGhRWWF2dTBDRG0tNE4xQXk3a0o?oc=5",
+      "origin": "rss",
+      "language": "fr",
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "20 septembre 2026",
+      "score": 4,
+      "category": "Conflit",
+      "summary": "le président Donald Trump (États-Unis) affirme que son projet d’arche monumentale à Washington servira également de complexe militaire.",
       "sources": [
         "Al Jazeera"
       ],
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLWhlWmRoczFDS2ZTZThZOUtjd29iQXptS3NGSHpwaWlZMXR4UHlTTWdJbkxYR21zMm9JYVhrYjhhdk92X3NNcGcxVG9zV01VbnVVSDJoVkVXX3JBSHhxc0pmWUdYNEE3TjhSdDc0M2lJV0dpeFlhMnMxSERnWHNoYmFUSHJhTy1vWTBacldROUtmR082T0ZzWGdCd2VnOWFyM01kUW5GV25rOVhPWFRJUTl5QlnSAboBQVVfeXFMTXVzWGN0QUJCTHctazg1RGlkWE02OWpFeGFNMS1ZTkxVWUlCWHBKSDFWV0xrWGRIS0V2d05qeUFjUkh1M1pHbldPYnludGFnWm81YnFpR3gxdXVhZFJSelZzMTlWdnZMSWdNY0ZzV1dhWldtMUR2QjFkaTc1QjJoU2Z6X2xLSlN0b3FRMWtMYkpiREVSMDZHU01EZjluUzIxSzVQYVVDb0hEQXlzVmhVYjlITTBua2lSS21R?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -2444,12 +2508,15 @@
       "bucket": "20 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump's proposed Washington arch to become sniper, drone facility",
+      "summary": "le président Donald Trump (États-Unis)'s proposed Washington arch to become sniper, drone facility",
       "sources": [
         "Axios"
       ],
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CZGRkbUVUWnlBQWpUN0NERktPOGxjd0xLNm1CMEx6eFdYYVlBSGhOMHI0UkVSMGtnbVYzbF9IM2xuZ3ZhX3JvWlFiN0tzUm93QkJZdUNFM3M4cXd1VGlyaUVOTGRXZFE5NU5neXNVd2lsWk10MXN5bw?oc=5",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -2493,13 +2560,14 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "2 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "La politique de Trump envers le Venezuela suscite un débat sur son soutien au pouvoir en place et ses objectifs énergétiques.",
+      "summary": "La politique du le président Donald Trump (États-Unis) envers le Venezuela suscite un débat sur son soutien au pouvoir en place et ses objectifs énergétiques.",
       "sources": [
         "The Washington Post"
       ],
@@ -2507,7 +2575,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Venezuela"
+        "Venezuela",
+        "États-Unis"
       ]
     },
     {
@@ -2531,31 +2600,34 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "4 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump drinks Venezuela’s milkshake : Planet Money",
+      "summary": "le président Donald Trump (États-Unis) drinks Venezuela’s milkshake : Planet Money",
       "sources": [
         "NPR"
       ],
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSlRuU3hLbndaNVpSeGFCYTNMMUg2VURLMVEybUJiV3I4YmtnNFBVYjNPcDNPUHZRQVdTWGcwQnBleF8ybDJJdXJtQjZmSllKRUc5ZWVxM21mR3I1WEVRcUNQS2hxTkltdk1Zb1pVU2FHVWNGSjZHTDlaX0F1R2s2WXM1Mzl3RnFp?oc=5",
       "origin": "rss",
       "countries": [
-        "Venezuela"
+        "Venezuela",
+        "États-Unis"
       ]
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "5 septembre 2026",
       "score": 4,
       "category": "Énergie",
-      "summary": "Le nouvel accord de Trump avec le Venezuela surprend une partie de l’industrie pétrolière américaine.",
+      "summary": "Le nouvel accord du le président Donald Trump (États-Unis) avec le Venezuela surprend une partie de l’industrie pétrolière américaine.",
       "sources": [
         "The Japan Times"
       ],
@@ -2563,7 +2635,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Venezuela"
+        "Venezuela",
+        "États-Unis"
       ]
     },
     {
@@ -2592,7 +2665,7 @@
       ],
       "period": "day",
       "bucket": "15 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Énergie",
       "summary": "L’Argentine intensifie son offensive juridique contre les entreprises pétrolières opérant autour des Malouines.",
       "sources": [
@@ -2627,13 +2700,14 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Harold Hamm, allié de Trump, conclut un accord pétrolier au Venezuela.",
+      "summary": "Harold Hamm, allié du le président Donald Trump (États-Unis), conclut un accord pétrolier au Venezuela.",
       "sources": [
         "The New York Times"
       ],
@@ -2641,7 +2715,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Venezuela"
+        "Venezuela",
+        "États-Unis"
       ]
     },
     {
@@ -2662,13 +2737,14 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
       "score": 4,
       "category": "Politique",
-      "summary": "Lula promet de défendre les intérêts brésiliens face à Trump pendant la campagne présidentielle.",
+      "summary": "Lula promet de défendre les intérêts brésiliens face au le président Donald Trump (États-Unis) pendant la campagne présidentielle.",
       "sources": [
         "France 24"
       ],
@@ -2676,7 +2752,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Brésil"
+        "Brésil",
+        "États-Unis"
       ]
     },
     {
@@ -2702,13 +2779,14 @@
     {
       "regions": [
         "Amérique du Sud",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
       "score": 8,
       "category": "Politique",
-      "summary": "Un candidat de droite soutenu par Trump semble remporter l’élection présidentielle colombienne.",
+      "summary": "Un candidat de droite soutenu parle président Donald Trump (États-Unis) semble remporter l’élection présidentielle colombienne.",
       "sources": [
         "ABC News - Breaking News, Latest News and Videos"
       ],
@@ -2716,7 +2794,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Colombie"
+        "Colombie",
+        "États-Unis"
       ]
     },
     {
@@ -2737,13 +2816,14 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
       "score": 4,
       "category": "Politique",
-      "summary": "Trump doit rencontrer la présidente par intérim du Venezuela et d’autres dirigeants en marge de l’Assemblée générale de l’ONU.",
+      "summary": "le président Donald Trump (États-Unis) doit rencontrer la présidente par intérim du Venezuela et d’autres dirigeants en marge de l’Assemblée générale de l’ONU.",
       "sources": [
         "ABC News - Breaking News, Latest News and Videos"
       ],
@@ -2751,17 +2831,17 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Venezuela"
+        "Venezuela",
+        "États-Unis"
       ]
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "period": "day",
       "bucket": "3 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Chevron et Shell signent un accord préliminaire avec le Ghana pendant la révision de sa politique pétrolière et gazière.",
       "sources": [
@@ -2777,13 +2857,14 @@
     {
       "regions": [
         "Afrique",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "L’administration Trump impose de nouvelles sanctions à l’Afrique du Sud en invoquant des discriminations présumées contre les Blancs.",
+      "summary": "L’administrationle président Donald Trump (États-Unis) impose de nouvelles sanctions à l’Afrique du Sud en invoquant des discriminations présumées contre les Blancs.",
       "sources": [
         "ABC News - Breaking News, Latest News and Videos"
       ],
@@ -2791,7 +2872,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Afrique du Sud"
+        "Afrique du Sud",
+        "États-Unis"
       ]
     },
     {
@@ -2885,13 +2967,14 @@
     },
     {
       "regions": [
-        "Afrique"
+        "Afrique",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Les attaques de Trump contre l’Afrique du Sud renforcent politiquement l’ANC à l’approche d’un scrutin.",
+      "summary": "Les attaques du le président Donald Trump (États-Unis) contre l’Afrique du Sud renforcent politiquement l’ANC à l’approche d’un scrutin.",
       "sources": [
         "The Globe and Mail"
       ],
@@ -2899,7 +2982,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Afrique du Sud"
+        "Afrique du Sud",
+        "États-Unis"
       ]
     },
     {
@@ -2944,7 +3028,7 @@
       ],
       "period": "day",
       "bucket": "2 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Une bande armée commet en Papouasie-Nouvelle-Guinée l’un des plus importants braquages de l’histoire du pays.",
       "sources": [
@@ -3128,12 +3212,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "10 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "\"Les prix montent chaque heure\" en Iran : l'économie est asphyxiée, les manifestations reprennent",
       "sources": [
@@ -3188,35 +3271,41 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "9 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "« South Park » rebaptisé « South America » : la série satirique raille les changements de noms voulus par Donald Trump",
+      "summary": "« South Park » rebaptisé « South America » : la série satirique raille les changements de noms voulus parle président Donald Trump (États-Unis)",
       "sources": [
         "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPcDhzazZwdVUxM2o0Z1Atb0FNYTNGZG9MZlN4d29xS3FCTGRCMi1XWERjN0U2QUhVNUlOQmlncTBEZXVQQmg0a204cFJFN25OdnRELUliNEZ3aUhzMTFOcDRsWDBucVRxTkhtYXFaeHloSjZlbHdsTU9sRkdqc2RCTlJSMXloQlVFdlpMVldJNHFVUnVTUFpzUFNsNXdmeWdXeG5uNzlGOGZFOVljLURNdHBITk5PQXFVQUZ3QWdJWkI1WXlfN1R1eVA1UkF4OTNqX21OX1JneHpPa0IzcWdRaFZJMGMtVlBtTm0xVFFwanpXNkQ5YU54X3RrOW8yZG9iMkVER21UcmFueHR1Y19wTEt3?oc=5",
       "published_at": "2026-09-09T09:00:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "9 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les créateurs de South Park se moquent de Trump en rebaptisant la série \"South America\"",
+      "summary": "Les créateurs de South Park se moquent du le président Donald Trump (États-Unis) en rebaptisant la série \"South America\"",
       "sources": [
         "Euronews"
       ],
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcm1qWkZjSWY2NF96Sk9GQkNaYTQxcWR2QjR3dzg3eThqVlM2WnBQYko3YXlvUXZmNTVJalhpZHJXZ2VqVkFqbHNOUzZtOGZHMGlGUS1BNDAxX0ZjY2VCUHpPeFZvVmN1amc4cTcxd1hwVndqLUFqamh0ajVKUm5vNDdUMldZWXlBX3JMMjltcUU3WGgwdjdfd25uYXYySl9zU3RfZ25pYlVZZXdDcjMtMUxvdkZmN21iQmFEQw?oc=5",
       "published_at": "2026-09-09T09:00:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -3259,16 +3348,18 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Amérique du Nord"
       ],
       "countries": [
-        "Argentine"
+        "Argentine",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "4 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Milei, dopé par Trump, durcit le ton sur la revendication argentine sur les Malouines",
+      "summary": "Milei, dopé parle président Donald Trump (États-Unis), durcit le ton sur la revendication argentine sur les Malouines",
       "sources": [
         "afp.com"
       ],
@@ -3573,8 +3664,7 @@
     {
       "regions": [
         "Asie",
-        "Océanie",
-        "International"
+        "Océanie"
       ],
       "countries": [
         "Laos",
@@ -3582,7 +3672,7 @@
       ],
       "period": "day",
       "bucket": "3 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Réchauffement climatique : les Palaos, îles du Pacifique, en première ligne",
       "sources": [
@@ -3602,7 +3692,7 @@
       ],
       "period": "day",
       "bucket": "23 septembre 2026",
-      "score": 9,
+      "score": 7,
       "category": "Énergie",
       "summary": "NG Energy International Corp. (GASX) ouvre les marchés",
       "sources": [
@@ -3748,7 +3838,7 @@
       "bucket": "18 septembre 2026",
       "score": 4,
       "category": "Énergie",
-      "summary": "Les États-Unis et la Chine discutent d’une réduction ou d’une suppression du droit de douane chinois de 15 % sur le GNL américain, dans le cadre de négociations commerciales et énergétiques avant une rencontre entre Donald Trump et Xi Jinping.",
+      "summary": "Les États-Unis et la Chine discutent d’une réduction ou d’une suppression du droit de douane chinois de 15 % sur le GNL américain, dans le cadre de négociations commerciales et énergétiques avant une rencontre entrele président Donald Trump (États-Unis) etle président Xi Jinping (Chine).",
       "sources": [
         "Reuters"
       ],
@@ -3766,7 +3856,7 @@
       ],
       "period": "day",
       "bucket": "20 septembre 2026",
-      "score": 9,
+      "score": 8,
       "category": "Conflit",
       "summary": "Les tensions régionales se sont accrues après des frappes de missiles et de drones houthis visant l’Arabie saoudite. Washington et Téhéran ont échangé de nouvelles menaces, tandis que les perturbations dans les détroits d’Ormuz et de Bab el-Mandeb accentuent la crise énergétique mondiale.",
       "sources": [
@@ -3778,8 +3868,7 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Afghanistan",
@@ -3788,7 +3877,7 @@
       ],
       "period": "day",
       "bucket": "21 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Sécurité",
       "summary": "Le Pakistan a annoncé des frappes dans les provinces afghanes de Paktika et de Kunar contre des combattants armés. Les autorités talibanes et la mission de l’ONU en Afghanistan ont confirmé la mort de trois civils et Kaboul a convoqué le chargé d’affaires pakistanais pour protester.",
       "sources": [
@@ -3809,7 +3898,7 @@
       ],
       "period": "day",
       "bucket": "9 septembre 2026",
-      "score": 8,
+      "score": 7,
       "category": "Énergie",
       "summary": "Le gouvernement albanais et l’entreprise américaine Argent LNG ont signé un protocole d’accord non contraignant afin d’étudier un terminal terrestre de stockage et de regazéification de GNL pouvant atteindre cinq millions de tonnes par an.",
       "sources": [
@@ -3854,7 +3943,7 @@
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Sécurité",
       "summary": "Le Conseil national de sécurité allemand a examiné les menaces hybrides visant le pays et décidé de nouvelles mesures contre l’espionnage et le sabotage ainsi que pour la protection des infrastructures critiques. Il prévoit aussi de réduire certaines dépendances stratégiques.",
       "sources": [
@@ -4179,7 +4268,7 @@
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Sécurité",
       "summary": "La Bulgarie décide d’équiper des infrastructures critiques de systèmes anti-drones et de renforcer les patrouilles autour des sites de production et de stockage d’armements.",
       "sources": [
@@ -4250,15 +4339,14 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Géorgie"
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Géorgie: démission du chef des services de sécurité, en pleine instabilité gouvernementale",
       "sources": [
@@ -4583,7 +4671,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Uruguay Positions Itself as South America Safe Haven for Foreign Investments in New York",
       "sources": [
@@ -4729,15 +4817,14 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "countries": [
         "Djibouti"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Djibouti : Levé de lembargo sur une partie du pays",
       "sources": [
@@ -5004,7 +5091,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Eight Years On , OPay Keeps Nigerian Businesses Moving - Blueprint Newspapers Limited",
       "sources": [
@@ -5499,7 +5586,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "World Pharmacists Day 2026 : Empowering Nigerian pharmacists for healthier future – Daily Trust",
       "sources": [
@@ -5748,7 +5835,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Nigeria petrol exports surge sixfold , near N1tn",
       "sources": [
@@ -6089,16 +6176,17 @@
     {
       "regions": [
         "Europe",
-        "International"
+        "Amérique du Nord"
       ],
       "countries": [
-        "Portugal"
+        "Portugal",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
-      "summary": "E se Trump limitar as exportaes de gasóleo ? Analista de mercados financeiros diz que Portugal estaria entre os mais expostos",
+      "summary": "E sele président Donald Trump (États-Unis) limitar as exportaes de gasóleo ? Analista de mercados financeiros diz que Portugal estaria entre os mais expostos",
       "sources": [
         "executivedigest.sapo.pt"
       ],
@@ -6134,7 +6222,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Économie",
       "summary": "Portugal tem falta de marketing",
       "sources": [
@@ -6414,8 +6502,7 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Liban",
@@ -6423,7 +6510,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Pakistan forces foil Afghan Taliban infiltration attempt in Chaman",
       "sources": [
@@ -6872,7 +6959,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Pakistan progress hinges on educated , healthy youth : Ahsan",
       "sources": [
@@ -7430,7 +7517,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Al - Chaar en Azerbaïdjan pour le Forum de linvestissement et la coopération économique",
       "sources": [
@@ -8023,7 +8110,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 7,
       "category": "Énergie",
       "summary": "Italie : le gouvernement adopte un décret interdisant le port du voile à l'école",
       "sources": [
@@ -8036,16 +8123,18 @@
     },
     {
       "regions": [
+        "Asie",
         "Amérique du Nord"
       ],
       "countries": [
+        "Chine",
         "États-Unis"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Xi Jinping quitte les États-Unis après son sommet avec Donald Trump",
+      "summary": "le président Xi Jinping (Chine) quitte les États-Unis après son sommet avecle président Donald Trump (États-Unis)",
       "sources": [
         "nhk.or.jp"
       ],
@@ -8058,13 +8147,14 @@
         "Asie"
       ],
       "countries": [
+        "Chine",
         "Japon"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Xi Jinping a utilisé le sommet sino-états-unien pour donner l'image d'une relation d'égal à égal, estime un expert japonais",
+      "summary": "le président Xi Jinping (Chine) a utilisé le sommet sino-états-unien pour donner l'image d'une relation d'égal à égal, estime un expert japonais",
       "sources": [
         "nhk.or.jp"
       ],
@@ -8318,7 +8408,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Cisjordanie : 214 entreprises liées aux colonies israéliennes placées sur la liste de l’ONU",
       "sources": [
@@ -8449,16 +8539,18 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump refuse l'offre iranienne pour rouvrir le détroit d'Ormuz, rapporte le Wall Street Journal",
+      "summary": "le président Donald Trump (États-Unis) refuse l'offre iranienne pour rouvrir le détroit d'Ormuz, rapporte le Wall Street Journal",
       "sources": [
         "France 24 (média public)"
       ],
@@ -8604,20 +8696,23 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "International"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 4,
+      "score": 7,
       "category": "Géopolitique",
-      "summary": "L’accusation de génocide contre Netanyahu est « le plus grand mensonge du siècle | Tiroler Tageszeitung – Dernières nouvelles sur tt.com",
+      "summary": "L’accusation de génocide contrele Premier ministre Benjamin Netanyahu (Israël) est « le plus grand mensonge du siècle | Tiroler Tageszeitung – Dernières nouvelles sur tt.com",
       "sources": [
         "tt.com"
       ],
       "url": "https://www.tt.com/artikel/30943061/voelkermord-vorwurf-fuer-netanyahu-groesste-luege-des-jahrhunderts",
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "Israël"
+      ]
     },
     {
       "regions": [],
@@ -8816,12 +8911,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Des modèles de la pagode en bois Yingxian et du temple Foguang ont été dévoilés lors du concours mondial, démontrant l'ingéniosité chinoise en matière d'assemblages à tenons et mortaises par rapport aux compétences mondiales.",
       "sources": [
@@ -9063,20 +9157,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Alors que les élections entrent dans leur dernière ligne droite, certains Républicains prennent leurs distances avec Trump.",
+      "summary": "Alors que les élections entrent dans leur dernière ligne droite, certains Républicains prennent leurs distances avecle président Donald Trump (États-Unis).",
       "sources": [
         "kmxt.org"
       ],
       "url": "https://www.kmxt.org/2026-09-25/as-election-enters-its-final-stretch-some-republicans-are-distancing-from-trump",
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -9119,7 +9215,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "L’Éthiopie coupe l’électricité aux sociétés minières de cryptomonnaie",
       "sources": [
@@ -9134,20 +9230,25 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 4,
+      "score": 7,
       "category": "Géopolitique",
-      "summary": "12 mensonges, et un seul Trump : les propos de Netanyahu à l'ONU",
+      "summary": "12 mensonges, et un seulle président Donald Trump (États-Unis) : les propos dele Premier ministre Benjamin Netanyahu (Israël) à l'ONU",
       "sources": [
         "ynet.co.il"
       ],
       "url": "https://www.ynet.co.il/news/article/bkn5dtqcml",
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "Israël",
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -9402,7 +9503,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "La croissance des prêts aux entreprises dans la zone euro est tombée à 4,2 % en août",
       "sources": [
@@ -9415,20 +9516,23 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 5,
+      "score": 7,
       "category": "Géopolitique",
-      "summary": "Rama au Conseil européen des entreprises : la paix est une condition du développement économique",
+      "summary": "le Premier ministre Edi Rama (Albanie) au Conseil européen des entreprises : la paix est une condition du développement économique",
       "sources": [
         "24-ore.com"
       ],
       "url": "https://24-ore.com/rama-ne-keshillin-europian-te-korporatave-paqja-eshte-kusht-per-zhvillimin-ekonomik/",
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "Albanie"
+      ]
     },
     {
       "regions": [],
@@ -9943,14 +10047,16 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "100 000 en 5 ans, le président Xi Jinping lance une nouvelle invitation aux adolescents américains | Relations sino-américaines | Maison Blanche",
+      "summary": "100 000 en 5 ans, le président Xi Jinping (Chine) lance une nouvelle invitation aux adolescents américains | Relations sino-américaines | Maison Blanche",
       "sources": [
         "163.com"
       ],
       "url": "https://www.163.com/news/article/L7MH57QR000189FH.html",
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "Chine"
+      ]
     },
     {
       "regions": [],
@@ -10016,12 +10122,11 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Économie",
       "summary": "Le Mexique et Hawaï se renforcent alors que les tempêtes se succèdent dans le Pacifique | Le démocrate de l'Arkansas - Gazette",
       "sources": [
@@ -10252,12 +10357,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "« J'ai arrêté de payer mon loyer il y a 10 ans : je vis dans un camping-car et sur un voilier et j'ai économisé des centaines de milliers de dollars »",
       "sources": [
@@ -10448,18 +10552,23 @@
       "origin": "rss"
     },
     {
-      "regions": [],
+      "regions": [
+        "Amérique du Nord"
+      ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Un homme abattu lors d'un rassemblement électoral Trump de 2024 à Butler, en Pennsylvanie, est décédé",
+      "summary": "Un homme abattu lors d'un rassemblement électoralle président Donald Trump (États-Unis) de 2024 à Butler, en Pennsylvanie, est décédé",
       "sources": [
         "news.prairiepublic.org"
       ],
       "url": "https://news.prairiepublic.org/news-from-npr/2026-09-25/man-shot-during-2024-trump-campaign-rally-in-butler-pennsylvania-has-died",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [],
@@ -10618,14 +10727,16 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Banquet à la Maison Blanche en l'honneur du président chinois Xi Jinping",
+      "summary": "Banquet à la Maison Blanche en l'honneur du président chinoisle président Xi Jinping (Chine)",
       "sources": [
         "zhurnal.mk"
       ],
       "url": "https://zhurnal.mk/banket-ne-shtepine-e-bardhe-per-nder-te-presidentit-kinez-xi-jinping/",
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "Chine"
+      ]
     },
     {
       "regions": [
@@ -10854,13 +10965,14 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Macron va envoyer des troupes en Arabie Saoudite pour protéger un terminal pétrolier clé",
+      "summary": "le président Emmanuel Macron (France) va envoyer des troupes en Arabie Saoudite pour protéger un terminal pétrolier clé",
       "sources": [
         "portalb.mk"
       ],
@@ -10868,7 +10980,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "France"
       ]
     },
     {
@@ -10879,14 +10992,16 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les oligarques de Poutine n'ont rien à faire dans l'UE",
+      "summary": "Les oligarques du le président Vladimir Poutine (Russie) n'ont rien à faire dans l'UE",
       "sources": [
         "ttela.se"
       ],
       "url": "https://www.ttela.se/asikt/ledare/putins-oligarker-har-inget-i-eu-att-gora.393af75f-bbbb-5173-90a1-ce6c784ca720",
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "Russie"
+      ]
     },
     {
       "regions": [
@@ -11181,12 +11296,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Économie",
       "summary": "Un juge décide que les migrants auront la possibilité de contester l'expulsion | Le démocrate de l'Arkansas - Gazette",
       "sources": [
@@ -11301,12 +11414,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Mettre les voiles – Modèles spéciaux Alfa Romeo « Luna Rossa »",
       "sources": [
@@ -11405,7 +11517,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Économie",
       "summary": "Liberty Specialty Markets réaffirme son ambition d'être une référence en matière d'assurance spécialisée",
       "sources": [
@@ -11452,12 +11564,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Ils cherchent, mais ils ne trouvent pas la majorité parlementaire - 2026. Vendredi 25 septembre",
       "sources": [
@@ -11508,7 +11619,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Grande distribution : le grand changement qui attend 17 supermarchés Auchan",
       "sources": [
@@ -11912,7 +12023,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Le Middle Corridor crée de nouvelles opportunités pour les entreprises cherchant à étendre leurs chaînes d'approvisionnement",
       "sources": [
@@ -11940,12 +12051,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "La province de Ségovie dit au revoir à septembre avec un programme varié de magie, de gastronomie et de traditions populaires",
       "sources": [
@@ -11995,13 +12105,14 @@
     {
       "regions": [
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "La Corée du Sud voulait à l’origine garder le secret ! Zelensky révèle que 2 prisonniers de guerre nord-coréens ont été envoyés à Séoul. Lee Jae-myung révèle la raison | International",
+      "summary": "La Corée du Sud voulait à l’origine garder le secret !le président Volodymyr Zelensky (Ukraine) révèle que 2 prisonniers de guerre nord-coréens ont été envoyés à Séoul. Lee Jae-myung révèle la raison | International",
       "sources": [
         "newtalk.tw"
       ],
@@ -12009,7 +12120,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Corée du Sud"
+        "Corée du Sud",
+        "Ukraine"
       ]
     },
     {
@@ -12217,12 +12329,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Feu vert au décret scolaire : plafond de 30% pour les étrangers, arrêt du voile intégral et cours d'italien pour les parents",
       "sources": [
@@ -12270,21 +12381,22 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump et Xi au dîner : ces patrons américains étaient à la table",
+      "summary": "le président Donald Trump (États-Unis) et Xi au dîner : ces patrons américains étaient à la table",
       "sources": [
         "fnp.de"
       ],
       "url": "http://www.fnp.de/politik/trump-und-xi-beim-dinner-diese-us-bosse-sassen-mit-am-tisch-zr-94509870.html",
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -12357,7 +12469,6 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
         "International"
       ],
@@ -12365,14 +12476,16 @@
       "bucket": "25 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "Discours de Netanyahu : Susan Sarandon arrêtée lors d'une manifestation à l'ONU",
+      "summary": "Discours dele Premier ministre Benjamin Netanyahu (Israël) : Susan Sarandon arrêtée lors d'une manifestation à l'ONU",
       "sources": [
         "cp24.com"
       ],
       "url": "https://www.cp24.com/news/entertainment/2026/09/24/susan-sarandon-among-hollywood-stars-arrested-in-anti-netanyahu-un-protest/",
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "Israël"
+      ]
     },
     {
       "regions": [
@@ -12581,12 +12694,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "ÉDUCATION | L'Italie interdit le voile intégral dans les écoles et limite le nombre d'élèves ne parlant pas italien à 30 % par classe",
       "sources": [
@@ -12624,22 +12736,24 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "si la loi électorale échoue, il y aura des conséquences - Giorgia Meloni menace le vote de janvier mais",
+      "summary": "si la loi électorale échoue, il y aura des conséquences -la présidente du Conseil Giorgia Meloni (Italie) menace le vote de janvier mais",
       "sources": [
         "dagospia.com"
       ],
       "url": "https://www.dagospia.com/politica/se-salta-legge-elettorale-ci-saranno-conseguenze-giorgia-meloni-minaccia-488062",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Italie"
+      ]
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Bullet For My Valentine dévoile  Social Apocalypse  et annonce un nouvel album",
       "sources": [
@@ -12916,12 +13030,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Achetez un câble de chargement et gagnez un iPhone 18 Pro à une loterie. La saison de rafraîchissement des accessoires JD.com. Le premier gagnant vient au magasin pour réclamer son prix le jour de la fête de la mi-automne _Nouvelles du fabricant de téléphones portables - Zhongguancun Online",
       "sources": [
@@ -13348,12 +13461,11 @@
     {
       "regions": [
         "Europe",
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Achetez un câble de chargement et gagnez un iPhone 18 Pro. La saison de rafraîchissement des accessoires JD.com. Le premier gagnant vient au magasin pour réclamer son prix le jour de la fête de la mi-automne _Nouvelles du fabricant de téléphones portables - Zhongguancun Online",
       "sources": [
@@ -13441,13 +13553,15 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 4,
+      "score": 7,
       "category": "Géopolitique",
-      "summary": "Trump et Netanyahu arrivent aux Nations Unies après la défaite en Iran",
+      "summary": "le président Donald Trump (États-Unis) etle Premier ministre Benjamin Netanyahu (Israël) arrivent aux Nations Unies après la défaite en Iran",
       "sources": [
         "razon.com.mx"
       ],
@@ -13455,24 +13569,29 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "Israël",
+        "États-Unis"
       ]
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le rire bruyant de Xi lorsque Trump lui a montré le portrait « autopen-Biden » [vidéo]",
+      "summary": "Le rire bruyant de Xi lorsquele président Donald Trump (États-Unis) lui a montré le portrait « autopen-Biden » [vidéo]",
       "sources": [
         "inewsgr.com"
       ],
       "url": "https://www.inewsgr.com/351/to-dynato-gelio-tou-si-otan-o-trab-tou-edeixe-to-portreto-tou-autopen--bainten-vinteo.htm",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -13528,19 +13647,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump - Xi, les regards au dîner d'État : Melania en Dolce et Gabbana enchante (et envoie un message à Pékin). Peng en rouge feu. Et Elon Musk apparaît",
+      "summary": "le président Donald Trump (États-Unis) - Xi, les regards au dîner d'État : Melania en Dolce et Gabbana enchante (et envoie un message à Pékin). Peng en rouge feu. Et Elon Musk apparaît",
       "sources": [
         "ilgazzettino.it"
       ],
       "url": "https://www.ilgazzettino.it:443/esteri/pagelle_look_melania_trump_peng_cena_di_stato_elon_musk-9784648.html",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -13616,7 +13738,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Donald Trump et Xi Jinping adoptent un ton chaleureux à la Maison Blanche alors que les tensions entre les États-Unis et la Chine demeurent",
+      "summary": "le président Donald Trump (États-Unis) etle président Xi Jinping (Chine) adoptent un ton chaleureux à la Maison Blanche alors que les tensions entre les États-Unis et la Chine demeurent",
       "sources": [
         "breakingnews.ie"
       ],
@@ -13665,19 +13787,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump et Xi échangent des paroles chaleureuses lors du dîner d'État mais peu de progrès sur les questions clés",
+      "summary": "le président Donald Trump (États-Unis) et Xi échangent des paroles chaleureuses lors du dîner d'État mais peu de progrès sur les questions clés",
       "sources": [
         "the-star.co.ke"
       ],
       "url": "https://www.the-star.co.ke/news/world/2026-09-25-trump-and-xi-exchange-warm-words-at-state-dinner-but-little-progress-on-key-issues",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -13700,19 +13825,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le dîner d'État de Trump pour Xi comprend du bar et une longue liste de titans de la technologie",
+      "summary": "Le dîner d'État du le président Donald Trump (États-Unis) pour Xi comprend du bar et une longue liste de titans de la technologie",
       "sources": [
         "news.prairiepublic.org"
       ],
       "url": "https://news.prairiepublic.org/news-from-npr/2026-09-25/trumps-state-dinner-for-xi-features-sea-bass-and-a-long-list-of-tech-titans",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -13791,19 +13919,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Réunion Trump Xi : réunion Trump-Xinping... la compétition continue derrière l'atmosphère amicale",
+      "summary": "Réunionle président Donald Trump (États-Unis) Xi : réunion Trump-Xinping... la compétition continue derrière l'atmosphère amicale",
       "sources": [
         "vaartha.com"
       ],
       "url": "https://vaartha.com/international/trump-xi-meeting-fostered-a-positive-atmosphere-in-us-china-relations/781590/",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -13842,19 +13973,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "le dîner d'État entre Trump et Xi a été occulté - rien n'a été diffusé à la télévision parce que les journalistes de CNN et",
+      "summary": "le dîner d'État entrele président Donald Trump (États-Unis) et Xi a été occulté - rien n'a été diffusé à la télévision parce que les journalistes de CNN et",
       "sources": [
         "dagospia.com"
       ],
       "url": "https://www.dagospia.com/politica/oscurata-cena-trump-xi-nulla-e-trasmesso-in-tv-perche-i-reporter-cnn-488060",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -13929,12 +14063,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Gyanesh Kumar a le temps jusqu'à samedi ; S'il ne démissionne pas, une agitation nationale éclatera à partir du 2 octobre. J. P | Le CJP met en garde contre des manifestations à l’échelle nationale",
       "sources": [
@@ -13994,19 +14127,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les dirigeants de SpaceX, Apple, Nvidia et des géants de l'IA se sont joints au dîner de Trump et Xi",
+      "summary": "Les dirigeants de SpaceX, Apple, Nvidia et des géants de l'IA se sont joints au dîner du le président Donald Trump (États-Unis) et Xi",
       "sources": [
         "unn.ua"
       ],
       "url": "https://unn.ua/ru/news/glavi-spacex-apple-nvidia-i-gigantov-v-sfere-ii-prisoedinilis-k-uzhinu-trampa-i-si",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -14016,13 +14152,16 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Xi Jinping - Trumpit : l'intelligence artificielle est indispensable - Eye",
+      "summary": "le président Xi Jinping (Chine) - Trumpit : l'intelligence artificielle est indispensable - Eye",
       "sources": [
         "syri.net"
       ],
       "url": "https://www.syri.net/bote/919050/xi-jinping-trumpit-inteligjenca-artificiale-duhet-te-mbetet-nen-kontrollin-e-njeriut/",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Chine"
+      ]
     },
     {
       "regions": [
@@ -14063,9 +14202,9 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
-      "summary": "Macron : la France protégera l’important terminal pétrolier d’Arabie Saoudite",
+      "summary": "le président Emmanuel Macron (France) : la France protégera l’important terminal pétrolier d’Arabie Saoudite",
       "sources": [
         "zhurnal.mk"
       ],
@@ -14083,7 +14222,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Bucarest, capitale de la recherche sur la longévité. L'ambassadeur d'Israël : \"Il est très important d'unir nos forces",
       "sources": [
@@ -14098,13 +14237,14 @@
     },
     {
       "regions": [
+        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Sommet Xi Jinping et sommet Trump : quelles sont les similitudes et les différences entre les événements dont tant de choses dépendent (Bloomberg, États-Unis)",
+      "summary": "Sommetle président Xi Jinping (Chine) et sommetle président Donald Trump (États-Unis) : quelles sont les similitudes et les différences entre les événements dont tant de choses dépendent (Bloomberg, États-Unis)",
       "sources": [
         "inosmi.ru"
       ],
@@ -14112,24 +14252,28 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
+        "Chine",
         "États-Unis"
       ]
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "La loi tarifaire de Trump est illégale",
+      "summary": "La loi tarifaire du le président Donald Trump (États-Unis) est illégale",
       "sources": [
         "haberaktuel.com"
       ],
       "url": "https://www.haberaktuel.com/trumpin-tarife-yasasi-yasal-degil-3496681",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -14186,7 +14330,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Les États-Unis veulent des mesures contre les entreprises chinoises que vous détenez (Syrie)",
       "sources": [
@@ -14284,13 +14428,16 @@
       "bucket": "25 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "Déclaration du Premier ministre Modi Varanasi à Vadnagar Bikers | Politique de réforme sociale",
+      "summary": "Déclaration du le Premier ministre Narendra Modi (Inde) Varanasi à Vadnagar Bikers | Politique de réforme sociale",
       "sources": [
         "divyamarathi.bhaskar.com"
       ],
       "url": "https://divyamarathi.bhaskar.com/national/news/pm-modi-varanasi-to-vadnagar-bikers-statement-social-reform-politics-139141625.html",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Inde"
+      ]
     },
     {
       "regions": [
@@ -14310,19 +14457,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump - Xi, dîner d'État à la Maison Blanche. Donald : \"Les relations n'ont jamais été aussi bonnes.\" Le président chinois : « Nouveau modèle de coexistence avec les Etats-Unis »",
+      "summary": "le président Donald Trump (États-Unis) - Xi, dîner d'État à la Maison Blanche. Donald : \"Les relations n'ont jamais été aussi bonnes.\" Le président chinois : « Nouveau modèle de coexistence avec les Etats-Unis »",
       "sources": [
         "ilgazzettino.it"
       ],
       "url": "https://www.ilgazzettino.it:443/mondo/trump_xi_cena_di_stato_cosa_e_successo-9784545.html",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -14346,7 +14496,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Avis | Comment les entreprises chinoises peuvent optimiser leur stratégie de sortie en Asie du Sud-Est",
       "sources": [
@@ -14607,22 +14757,26 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump tressaille à côté de Xi au survol bruyant",
+      "summary": "le président Donald Trump (États-Unis) tressaille à côté de Xi au survol bruyant",
       "sources": [
         "merkur.de"
       ],
       "url": "http://www.merkur.de/politik/trump-zuckt-neben-xi-bei-lautem-ueberflug-zusammen-zr-94509837.html",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -14630,7 +14784,7 @@
       "bucket": "25 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "103 personnes arrêtées lors des manifestations de Netanyahu aux États-Unis",
+      "summary": "103 personnes arrêtées lors des manifestations dele Premier ministre Benjamin Netanyahu (Israël) aux États-Unis",
       "sources": [
         "ensonhaber.com"
       ],
@@ -14638,6 +14792,7 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
+        "Israël",
         "États-Unis"
       ]
     },
@@ -14742,13 +14897,14 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "International"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 4,
+      "score": 7,
       "category": "Géopolitique",
-      "summary": "Déclaration de l'Iran à propos de Netanyahu : il devrait parler dans la salle d'audience, pas à l'ONU",
+      "summary": "Déclaration de l'Iran à propos dele Premier ministre Benjamin Netanyahu (Israël) : il devrait parler dans la salle d'audience, pas à l'ONU",
       "sources": [
         "ensonhaber.com"
       ],
@@ -14756,7 +14912,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "Israël"
       ]
     },
     {
@@ -14891,15 +15048,14 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "countries": [
         "Madagascar"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Il y a un an, la Gen Z provoquait un changement de pouvoir à Madagascar",
       "sources": [
@@ -14911,15 +15067,14 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "countries": [
         "Madagascar"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "L'avenir de la Gen Z à Madagascar",
       "sources": [
@@ -14931,15 +15086,14 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "countries": [
         "Madagascar"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Madagascar commémore la révolte de la Gen Z",
       "sources": [
@@ -15185,16 +15339,18 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Donald Trump rejette le plan de réouverture iranien du détroit d’Ormuz",
+      "summary": "le président Donald Trump (États-Unis) rejette le plan de réouverture iranien du détroit d’Ormuz",
       "sources": [
         "Le Monde.fr"
       ],
@@ -15257,7 +15413,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Takaichi Sanae informée par Donald Trump du sommet États-Unis-Chine",
+      "summary": "Takaichi Sanae informée parle président Donald Trump (États-Unis) du sommet États-Unis-Chine",
       "sources": [
         "nhk.or.jp"
       ],
@@ -15363,12 +15519,10 @@
       ]
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "OpenAI suspend ses modèles de formation après une attaque contre des sites Web gouvernementaux",
       "sources": [
@@ -15397,12 +15551,10 @@
       "countries": []
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Pourquoi nous revenons toujours à Friend | L'étoile du jour",
       "sources": [
@@ -15686,7 +15838,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Les ministres des Affaires étrangères allemand et russe discutent à New York des exportations de céréales de la mer Noire",
       "sources": [
@@ -16034,7 +16186,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Première réunion entre les ministres des Affaires étrangères russe et allemand depuis quatre ans... Appel à des négociations sur les exportations de céréales de la mer Noire",
       "sources": [
@@ -16082,7 +16234,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Waddesdon Manor dévoile une programmation d'événements d'automne bien remplie",
       "sources": [
@@ -16328,7 +16480,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Croisières mystères et jeunesse : voici les principales tendances voyage | L'étoile du Nord-Ouest",
       "sources": [
@@ -16837,12 +16989,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Burqa , classes - ghettos , « fuite des Blancs » : l  école italienne face à limmigration",
       "sources": [
@@ -17079,7 +17230,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Ukraine : à 55% le taux d'interception des drones russes Shahed, affirme Zelensky",
+      "summary": "Ukraine : à 55% le taux d'interception des drones russes Shahed, affirmele président Volodymyr Zelensky (Ukraine)",
       "sources": [
         "onalert.gr"
       ],
@@ -17171,7 +17322,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 9,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Le journalisme face aux guerres cognitives",
       "sources": [
@@ -17353,22 +17504,6 @@
     },
     {
       "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Chasse aux jeunes électeurs : du numérique aux bonus, astuces anti-abstention",
-      "sources": [
-        "quotidiano.net"
-      ],
-      "url": "https://www.quotidiano.net/politica/caccia-ai-giovani-elettori-dal-digitale-ai-bonus-i-trucchi-anti-astensione-s04qugw8",
-      "published_at": "2026-09-27T10:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Asie",
         "International"
       ],
@@ -17436,13 +17571,16 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trêve énergétique : pourquoi Poutine rejette la proposition ISW",
+      "summary": "Trêve énergétique : pourquoile président Vladimir Poutine (Russie) rejette la proposition ISW",
       "sources": [
         "novosti.ua"
       ],
       "url": "https://novosti.ua/politics/isw-putin-ne-soglasitsya-na-energeticheskoe-peremirie-iz-za-stavki-na",
       "published_at": "2026-09-27T10:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Russie"
+      ]
     },
     {
       "regions": [
@@ -17852,7 +17990,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Ukraine : à 55% le taux d'interception des drones russes Shahed, déclare Zelensky",
+      "summary": "Ukraine : à 55% le taux d'interception des drones russes Shahed, déclarele président Volodymyr Zelensky (Ukraine)",
       "sources": [
         "onalert.gr"
       ],
@@ -17932,7 +18070,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Sécurité",
       "summary": "Plus de 57 % des cyberattaques contre des entités de l’UE en 2025 étaient motivées par des raisons idéologiques",
       "sources": [
@@ -18644,7 +18782,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Cristian Grosu / Le Plan. Le bon souverainiste et la géoéconomie du point de vue roumain",
       "sources": [
@@ -18695,7 +18833,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Les étoiles secrètes : 11 conseils Michelin en Sarre sans étoile",
       "sources": [
@@ -18778,7 +18916,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Communiqué de presse - Police des Frontières Roumaine",
       "sources": [
@@ -18874,7 +19012,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "ENTRETIEN .  Il donne plus de conseils que de consignes  : Raphaël Varane dévoile les secrets de la méthode Zidane",
       "sources": [
@@ -18970,7 +19108,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Comment le changement climatique réécrit les meilleurs menus de dégustation du monde",
       "sources": [
@@ -19103,7 +19241,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "ROUNDUP : Cuba critique la menace militaire américaine - Trump : un accord possible",
+      "summary": "ROUNDUP : Cuba critique la menace militaire américaine -le président Donald Trump (États-Unis) : un accord possible",
       "sources": [
         "finanzen.net"
       ],
@@ -19111,24 +19249,29 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Cuba"
+        "Cuba",
+        "États-Unis"
       ]
     },
     {
       "regions": [
-        "Europe"
+        "Asie",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "Susan Sarandon arrêtée lors d'une manifestation anti-Netanyahu à New York",
+      "summary": "Susan Sarandon arrêtée lors d'une manifestation anti-le Premier ministre Benjamin Netanyahu (Israël) à New York",
       "sources": [
         "elnortedecastilla.es"
       ],
       "url": "https://www.elnortedecastilla.es/gente-estilo/detienen-susan-sarandon-protesta-netanyahu-nueva-york-20260925172343-nt.html",
       "published_at": "2026-09-27T13:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Israël"
+      ]
     },
     {
       "regions": [
@@ -19388,12 +19531,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "L'Ukraine Pegasus Arms a suspendu la production de drones après les frappes des forces armées russes",
       "sources": [
@@ -19955,7 +20097,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Le corps nu d’une jolie vendeuse de supermarché a été retrouvé dans un appartement en location… Un fil était enroulé autour de son cou et elle était soupçonnée d’avoir été agressée sexuellement. Une amie a révélé une de ses habitudes dangereuses au cours de sa vie | International",
       "sources": [
@@ -19987,7 +20129,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Ciprian Mureşan critique le programme gouvernemental de Siegfried Mureşan",
       "sources": [
@@ -20022,7 +20164,7 @@
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "La guerre Ukraine-Russie en direct : l'Allemagne exhorte Poutine à mettre fin à une dangereuse escalade contre les pays de l'Otan",
+      "summary": "La guerre Ukraine-Russie en direct : l'Allemagne exhortele président Vladimir Poutine (Russie) à mettre fin à une dangereuse escalade contre les pays de l'Otan",
       "sources": [
         "independent.co.uk"
       ],
@@ -20489,15 +20631,14 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "countries": [
         "Espagne"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Espagne : les images des manifestations contre la crise du logement à Madrid",
       "sources": [
@@ -20603,12 +20744,10 @@
       "origin": "global"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Exploiter le trésor de la médecine traditionnelle africaine - New African Magazine",
       "sources": [
@@ -20689,12 +20828,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "L'expulsion de retraités déclenche des manifestations massives à Madrid contre la crise du logement",
       "sources": [
@@ -20723,12 +20861,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "L’Europe dépendante des puces asiatiques. Les importations représentent 78 pour cent. consommation du marché",
       "sources": [
@@ -20755,12 +20891,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Starbucks confirme 250 fermetures après avoir acquis une visibilité plus approfondie sur certains magasins sous-performants",
       "sources": [
@@ -20932,7 +21066,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Thaïlande: des milliers d’habitants évacués après d'importantes inondations à Bangkok",
       "sources": [
@@ -21021,16 +21155,18 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "countries": [
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Cinq hommes arrêtés au Royaume-Uni près d’une base militaire utilisée par l’aviation américaine, Donald Trump affirme qu’ils voulaient causer de « gros dégâts »",
+      "summary": "Cinq hommes arrêtés au Royaume-Uni près d’une base militaire utilisée par l’aviation américaine,le président Donald Trump (États-Unis) affirme qu’ils voulaient causer de « gros dégâts »",
       "sources": [
         "Le Monde.fr"
       ],
@@ -21114,32 +21250,35 @@
     },
     {
       "regions": [
-        "Europe",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Trump, les prix du pétrole s’effondreront une fois la guerre terminée, plus bas maintenant qu’avec Biden",
+      "summary": "le président Donald Trump (États-Unis), les prix du pétrole s’effondreront une fois la guerre terminée, plus bas maintenant qu’avec Biden",
       "sources": [
         "prealpina.it"
       ],
       "url": "https://www.prealpina.it/news/italia-esteri/552588/trump-prezzo-petrolio-crollera-a-guerra-finita-piu-basso-ora-che-con-biden.html",
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Iran - Guerre : Trump : attendez-vous à de nouvelles négociations avec l'Iran",
+      "summary": "Iran - Guerre :le président Donald Trump (États-Unis) : attendez-vous à de nouvelles négociations avec l'Iran",
       "sources": [
         "zeit.de"
       ],
@@ -21147,7 +21286,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -21169,13 +21309,14 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Trump a rejeté une nouvelle proposition iranienne visant à ouvrir le détroit d'Ormuz et à mettre fin à la guerre",
+      "summary": "le président Donald Trump (États-Unis) a rejeté une nouvelle proposition iranienne visant à ouvrir le détroit d'Ormuz et à mettre fin à la guerre",
       "sources": [
         "zpravy.tiscali.cz"
       ],
@@ -21183,7 +21324,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -21394,12 +21536,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Voir les candidats qui se présentent comme défenseurs des animaux - CB Poder",
       "sources": [
@@ -21447,12 +21588,10 @@
       ]
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "8,1 milliards ont été dépensés pour rénover le port de pêche de Qianzhen, mais celui-ci était semé d'embûches. Les autorités taïwanaises ont été critiquées pour avoir dépassé leurs objectifs et gaspillé les fonds publics.",
       "sources": [
@@ -21463,12 +21602,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "«Participer au 7 octobre»... L'armée d'occupation annonce l'assassinat de Saher Saqr lors d'un raid dans la bande de Gaza",
       "sources": [
@@ -21647,19 +21784,22 @@
     },
     {
       "regions": [
-        "Europe"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump : cinq personnes arrêtées devant une base militaire britannique destinée à causer de graves dégâts",
+      "summary": "le président Donald Trump (États-Unis) : cinq personnes arrêtées devant une base militaire britannique destinée à causer de graves dégâts",
       "sources": [
         "respublika.lt"
       ],
       "url": "https://www.respublika.lt/lt/naujienos/pasaulis/pasaulio_politika/trumpas-prie-didziosios-britanijos-karines-bazes-sulaikyti-penki-asmenys-sieke-padaryti-didele-zala/",
       "published_at": "2026-09-27T18:45:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -21683,7 +21823,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Evolution importante - Des changements radicaux en 2027 en matière de contribution de solidarité, de travail, d'assurance - Les \"nounous de quartier\" arrivent",
       "sources": [
@@ -21848,12 +21988,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Les hôtels 3 à 5 étoiles d'Oman enregistrent une baisse de leurs revenus de 11 % jusqu'en août",
       "sources": [
@@ -21888,7 +22027,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Side à Munich : un mécanisme européen de crise aux frontières et de nouveaux hubs de retour sur la table",
       "sources": [
@@ -22321,6 +22460,7 @@
     },
     {
       "regions": [
+        "Europe",
         "Amérique du Nord",
         "International"
       ],
@@ -22328,7 +22468,7 @@
       "bucket": "27 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "Le message urgent du Premier ministre Rama vient d'arriver des États-Unis (texte intégral)",
+      "summary": "Le message urgent du le Premier ministre Edi Rama (Albanie) vient d'arriver des États-Unis (texte intégral)",
       "sources": [
         "kohajone.com"
       ],
@@ -22336,17 +22476,17 @@
       "published_at": "2026-09-27T18:45:00+02:00",
       "origin": "rss",
       "countries": [
+        "Albanie",
         "États-Unis"
       ]
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 9,
+      "score": 4,
       "category": "Conflit",
       "summary": "Drones et missiles ensemble ;  La Corée du Nord teste une stratégie d’attaque par essaim | La Corée du Nord teste une tactique d'attaque en masse en utilisant simultanément des drones et des missiles",
       "sources": [
@@ -22448,7 +22588,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Oleshki - Les forces armées ukrainiennes ont livré de la nourriture | Nouvelles sur Gazeta. ua",
       "sources": [
@@ -22512,7 +22652,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "La parabole des deux mères - BusinessWorld Online",
       "sources": [
@@ -22528,7 +22668,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "\"Le diagnostic de Betty - La star Henrike Hahn fait l'éloge\" du sentiment d'injustice de la jeune génération",
       "sources": [
@@ -23121,7 +23261,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Les petites entreprises du Tyrol du Sud paient 48 millions de trop",
       "sources": [
@@ -23288,14 +23428,13 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Sécurité",
-      "summary": "Le complot terroriste de la RAF Fairford cherche à causer de gros dégâts, déclare Donald Trump",
+      "summary": "Le complot terroriste de la RAF Fairford cherche à causer de gros dégâts, déclarele président Donald Trump (États-Unis)",
       "sources": [
         "newarkadvertiser.co.uk",
         "harrowtimes.co.uk"
@@ -23303,7 +23442,9 @@
       "url": "https://www.newarkadvertiser.co.uk/national/raf-fairford-terror-plot-looking-to-do-big-damage-donald-trump-says-172220/",
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -23611,7 +23752,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Avantage important : cela apporte des vêtements de protection de couleur sable",
       "sources": [
@@ -23664,7 +23805,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump espère un accord avec Cuba et déclare qu'il ne pense pas qu'une action militaire soit nécessaire",
+      "summary": "le président Donald Trump (États-Unis) espère un accord avec Cuba et déclare qu'il ne pense pas qu'une action militaire soit nécessaire",
       "sources": [
         "theepochtimes.com"
       ],
@@ -23672,7 +23813,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Cuba"
+        "Cuba",
+        "États-Unis"
       ]
     },
     {
@@ -23878,13 +24020,16 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Linkevičius - à propos du plan de Poutine",
+      "summary": "Linkevičius - à propos du plan du le président Vladimir Poutine (Russie)",
       "sources": [
         "delfi.lt"
       ],
       "url": "https://www.delfi.lt/naujienos/politika/linkevicius-apie-putino-plana-tai-viskas-ka-rusija-siuo-metu-sugeba-120310686",
       "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Russie"
+      ]
     },
     {
       "regions": [
@@ -24022,12 +24167,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Sécurité",
       "summary": "Le ministre Santos abordera le potentiel des terres rares à Washington",
       "sources": [
@@ -24038,12 +24181,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Économie",
       "summary": "Comment les nids-de-poule et l'abandon des infrastructures routières obligent les entreprises de logistique à augmenter leurs prix et finissent par étouffer le budget des familles mexicaines dans les supermarchés",
       "sources": [
@@ -24055,12 +24196,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Des pandas géants arrivent à Atlanta dans le cadre d'un accord entre les gouvernements américain et chinois",
       "sources": [
@@ -24131,12 +24271,10 @@
       ]
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Zverev, Agassi se moque de lui : Maintenant, avec deux Grands Chelems, vous arrêterez de vous plaindre - Il Fatto Nisseno - Actualités Caltanissetta, actualités, actualités",
       "sources": [
@@ -24186,12 +24324,10 @@
       "countries": []
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Susana Rodríguez Gacio, la femme sans frontières",
       "sources": [
@@ -24296,12 +24432,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Un ministre compte 37 conseillers. Le fonctionnaire gouvernemental détenteur du record a été nommé (document)",
       "sources": [
@@ -24485,21 +24619,22 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Sécurité",
-      "summary": "RAF Fairford : Trump et Burnham parlent d'un complot terroriste présumé | La Gazette et le Herald du Wiltshire",
+      "summary": "RAF Fairford :le président Donald Trump (États-Unis) et Burnham parlent d'un complot terroriste présumé | La Gazette et le Herald du Wiltshire",
       "sources": [
         "gazetteandherald.co.uk"
       ],
       "url": "https://www.gazetteandherald.co.uk/news/26585496.raf-fairford-trump-burnham-speak-suspected-terror-plot/",
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -24519,19 +24654,22 @@
     },
     {
       "regions": [
-        "Europe"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Tillis : Trump a commis une erreur colossale en ne soutenant pas le sénateur . Cornyn",
+      "summary": "Tillis :le président Donald Trump (États-Unis) a commis une erreur colossale en ne soutenant pas le sénateur . Cornyn",
       "sources": [
         "breitbart.com"
       ],
       "url": "https://www.breitbart.com/clips/2026/09/27/tillis-trump-made-a-colossal-mistake-not-supporting-sen-cornyn/",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -24660,7 +24798,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Un coureur néo-zélandais réalise un ultra par jour pendant 1 000 jours - Canadian Running Magazine",
       "sources": [
@@ -25145,12 +25283,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Sécurité",
       "summary": "Maricarmen, la goutte d'eau qui a fait déborder le vase du mécontentement social concernant le logement en Espagne",
       "sources": [
@@ -25321,12 +25458,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Politique",
       "summary": "Politique . Elections sénatoriales  : un groupe RN - UDR au palais du Luxembourg",
       "sources": [
@@ -25398,7 +25534,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump affirme que les hommes arrêtés sur la base aérienne britannique utilisée par les États-Unis cherchaient à causer de gros dégâts",
+      "summary": "le président Donald Trump (États-Unis) affirme que les hommes arrêtés sur la base aérienne britannique utilisée par les États-Unis cherchaient à causer de gros dégâts",
       "sources": [
         "al-monitor.com"
       ],
@@ -25828,7 +25964,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Zverev, Agassi se moque de lui : Maintenant avec deux Grands Chelems tu arrêteras de te plaindre",
       "sources": [
@@ -25950,15 +26086,18 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
-      "summary": "Des entreprises louent des défenses aériennes à la demande de Poutine",
+      "summary": "Des entreprises louent des défenses aériennes à la demande du le président Vladimir Poutine (Russie)",
       "sources": [
         "svd.se"
       ],
       "url": "https://www.svd.se/a/oEX90W/foretag-hyr-luftvarn-efter-putins-krav",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Russie"
+      ]
     },
     {
       "regions": [
@@ -26297,13 +26436,14 @@
     },
     {
       "regions": [
-        "Afrique"
+        "Afrique",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "La sortie du Tchad de la CPI attire l'attention après l'appel de Trump à l'ONU",
+      "summary": "La sortie du Tchad de la CPI attire l'attention après l'appel du le président Donald Trump (États-Unis) à l'ONU",
       "sources": [
         "riotimesonline.com"
       ],
@@ -26311,7 +26451,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Tchad"
+        "Tchad",
+        "États-Unis"
       ]
     },
     {
@@ -26342,7 +26483,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Essence, IP plafonne les prix. Meloni : « Signal important ». Tajani : « Pas d'imposition d'en haut »",
       "sources": [
@@ -26359,7 +26500,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Andrés Montero souligne le lien entre le Chili et l'Espagne : les entreprises espagnoles sont très intéressées à continuer à investir",
       "sources": [
@@ -26580,19 +26721,23 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 4,
+      "score": 7,
       "category": "Géopolitique",
-      "summary": "Comment est-il possible que je ne le sache pas ?, message de Rama après les accusations du SPAK envers ses proches : j'ai mes défauts, mais je suis là pour écrire l'histoire et non la richesse - Tetova Sot",
+      "summary": "Comment est-il possible que je ne le sache pas ?, message dele Premier ministre Edi Rama (Albanie) après les accusations du SPAK envers ses proches : j'ai mes défauts, mais je suis là pour écrire l'histoire et non la richesse - Tetova Sot",
       "sources": [
         "tetovasot.com"
       ],
       "url": "https://tetovasot.com/2026/09/si-ka-mundesi-qe-nuk-e-dija-mesazhi-i-rames-pas-akuzave-te-spak-per-zyrtaret-prane-tij-kam-fajet-e-mia-por-jam-ketu-per-te-bere-histori-e-jo-pasuri/",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Albanie"
+      ]
     },
     {
       "regions": [
@@ -26892,21 +27037,22 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump dit que les hommes arrêtés dans une base britannique cherchaient à faire de gros dégâts",
+      "summary": "le président Donald Trump (États-Unis) dit que les hommes arrêtés dans une base britannique cherchaient à faire de gros dégâts",
       "sources": [
         "maitlandmercury.com.au"
       ],
       "url": "https://www.maitlandmercury.com.au/story/9358285/trump-says-men-arrested-at-uk-base-sought-big-damage/",
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -27068,13 +27214,14 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Sept jours pour une trêve ? Trump rejette le plan iranien et menace de reprendre les bombardements",
+      "summary": "Sept jours pour une trêve ?le président Donald Trump (États-Unis) rejette le plan iranien et menace de reprendre les bombardements",
       "sources": [
         "bankier.pl"
       ],
@@ -27082,7 +27229,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -27194,13 +27342,13 @@
     {
       "regions": [
         "Asie",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
-      "summary": "\"Trump aurait montré à Xi un U historique\". S.- Traités de Chine aux Archives nationales",
+      "summary": "\"le président Donald Trump (États-Unis) aurait montré à Xi un U historique\". S.- Traités de Chine aux Archives nationales",
       "sources": [
         "breitbart.com"
       ],
@@ -27208,18 +27356,18 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine"
+        "Chine",
+        "États-Unis"
       ]
     },
     {
       "regions": [
         "Europe",
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Les yeux du monde étaient rivés sur ce match. Protestation historique de l’Irlande contre Israël",
       "sources": [
@@ -27351,12 +27499,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Propos scandaleux du ministre israélien à propos de la Cisjordanie. « Faites là-bas ce que vous avez fait à Gaza.",
       "sources": [
@@ -27419,19 +27566,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les efforts républicains pour se distancier de Trump puent le désespoir",
+      "summary": "Les efforts républicains pour se distancier du le président Donald Trump (États-Unis) puent le désespoir",
       "sources": [
         "dailykos.com"
       ],
       "url": "https://www.dailykos.com/stories/2026/9/27/800103064/series/gop-midterm-desperation-trump-rejection/",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -27487,7 +27637,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Lutte pour le pouvoir de l’IA : pourquoi les entreprises technologiques font désormais appel à l’État",
       "sources": [
@@ -27515,12 +27665,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Guide gastronomique de Hanoï : Où trouver les meilleurs pho, bun cha, café et cocktails de la capitale vietnamienne",
       "sources": [
@@ -27551,35 +27700,42 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Briefing du petit-déjeuner : accord Trump - les fiascos se multiplient",
+      "summary": "Briefing du petit-déjeuner : accordle président Donald Trump (États-Unis) - les fiascos se multiplient",
       "sources": [
         "interest.co.nz"
       ],
       "url": "https://www.interest.co.nz/economy/140430/eyes-rba-us-jobs-and-chinas-holiday-activity-us-durable-goods-order-data-mixed-us",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "La Maison Blanche diffuse une autre publicité financée par le gouvernement avec Trump",
+      "summary": "La Maison Blanche diffuse une autre publicité financée par le gouvernement avecle président Donald Trump (États-Unis)",
       "sources": [
         "wcvb.com"
       ],
       "url": "https://www.wcvb.com/article/white-house-government-funded-ad-trump-final-battle/73914732",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -27602,13 +27758,14 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump espère reprendre les négociations avec l'Iran pour parvenir à une paix définitive",
+      "summary": "le président Donald Trump (États-Unis) espère reprendre les négociations avec l'Iran pour parvenir à une paix définitive",
       "sources": [
         "libertaddigital.com"
       ],
@@ -27616,7 +27773,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -27701,12 +27859,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "L'Université de Maastricht suspend un étudiant de Gaza après avoir posté des allégations contre le . 7 Attaque d'Israël",
       "sources": [
@@ -27925,19 +28082,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 6,
       "category": "Économie",
-      "summary": "L'administrateur Trump va vider le carburant des voitures - normes d'économie lundi",
+      "summary": "L'administrateurle président Donald Trump (États-Unis) va vider le carburant des voitures - normes d'économie lundi",
       "sources": [
         "hindustantimes.com"
       ],
       "url": "https://www.hindustantimes.com/genesis/trump-admin-to-gut-car-fuel-economy-standards-on-monday-101790537828991.html",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -27961,7 +28121,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Les investissements du secteur privé indien devraient augmenter en 2026-2027 : bulletin RBI – Indus Age",
       "sources": [
@@ -27973,29 +28133,31 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "À propos de l'échange automatique Trump-Xi et de l'échec comique de CNN",
+      "summary": "À propos de l'échange automatiquele président Donald Trump (États-Unis)-Xi et de l'échec comique de CNN",
       "sources": [
         "redstate.com"
       ],
       "url": "https://redstate.com/nick-arama/2026/09/27/trump-xi-autopen-exchange-n2207439",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
         "Europe",
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Protestation de l’Irlande contre Israël dans le match que le monde attendait !",
       "sources": [
@@ -28106,7 +28268,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "7 conditions de l'Iran aux États-Unis : le rejet serait la plus grande erreur de Trump",
+      "summary": "7 conditions de l'Iran aux États-Unis : le rejet serait la plus grande erreur du le président Donald Trump (États-Unis)",
       "sources": [
         "star.com.tr"
       ],
@@ -28187,19 +28349,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Sécurité",
-      "summary": "Le complot terroriste de la RAF Fairford cherche à causer de gros dégâts, déclare Donald Trump | La Gazette et le Herald du Wiltshire",
+      "summary": "Le complot terroriste de la RAF Fairford cherche à causer de gros dégâts, déclarele président Donald Trump (États-Unis) | La Gazette et le Herald du Wiltshire",
       "sources": [
         "gazetteandherald.co.uk"
       ],
       "url": "https://www.gazetteandherald.co.uk/news/national/26585466.raf-fairford-terror-plot-looking-big-damage-donald-trump-says/",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -28298,19 +28463,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Tentative d'attaque contre une base stratégique de la RAF. Trump : ils voulaient faire de gros dégâts",
+      "summary": "Tentative d'attaque contre une base stratégique de la RAF.le président Donald Trump (États-Unis) : ils voulaient faire de gros dégâts",
       "sources": [
         "bankier.pl"
       ],
       "url": "https://www.bankier.pl/wiadomosc/Proba-zamachu-w-strategicznej-bazie-RAF-u-Trump-Chcieli-wyrzadzic-wielkie-szkody-9203369.html",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -28663,12 +28831,11 @@
     },
     {
       "regions": [
-        "Océanie",
-        "International"
+        "Océanie"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Le piratage d’OpenAI révèle la fragilité des défenses économiques de l’Australie",
       "sources": [
@@ -28701,12 +28868,11 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Sheinbaum met en avant la nouvelle Constitution et les réformes dans son deuxième rapport gouvernemental",
       "sources": [
@@ -28880,7 +29046,7 @@
       "bucket": "28 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "Le voyage inattendu du premier ministre israélien. Selon les médias, Netanyahu s'est rendu inopinément aux Émirats arabes unis",
+      "summary": "Le voyage inattendu du premier ministre israélien. Selon les médias,le Premier ministre Benjamin Netanyahu (Israël) s'est rendu inopinément aux Émirats arabes unis",
       "sources": [
         "hnonline.sk"
       ],
@@ -28888,6 +29054,7 @@
       "published_at": "2026-09-28T00:30:00+02:00",
       "origin": "rss",
       "countries": [
+        "Israël",
         "Émirats arabes unis"
       ]
     },
@@ -29169,7 +29336,7 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump fait l'éloge des arrestations près de la base britannique utilisée par les États-Unis. S. Aviation",
+      "summary": "le président Donald Trump (États-Unis) fait l'éloge des arrestations près de la base britannique utilisée par les États-Unis. S. Aviation",
       "sources": [
         "newsradio1049.iheart.com"
       ],
@@ -29253,7 +29420,7 @@
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "12 entreprises britanniques auront accès à l'IA de combat de l'Ukraine : ce qu'elles créeront",
       "sources": [
@@ -29434,13 +29601,16 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les sénateurs républicains dans des courses serrées rompent avec Trump et exhortent l'ICE à se coordonner avec la police locale",
+      "summary": "Les sénateurs républicains dans des courses serrées rompent avecle président Donald Trump (États-Unis) et exhortent l'ICE à se coordonner avec la police locale",
       "sources": [
         "cbs2iowa.com"
       ],
       "url": "https://cbs2iowa.com/news/nation-world/gop-senators-in-tight-races-break-with-trump-urge-ice-to-coordinate-with-local-police",
       "published_at": "2026-09-28T00:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -29748,13 +29918,14 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump a proposé de vendre des armes à la Chine, selon l'ambassadeur américain",
+      "summary": "le président Donald Trump (États-Unis) a proposé de vendre des armes à la Chine, selon l'ambassadeur américain",
       "sources": [
         "straitstimes.com"
       ],
@@ -29762,7 +29933,8 @@
       "published_at": "2026-09-28T03:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine"
+        "Chine",
+        "États-Unis"
       ]
     },
     {
@@ -29868,13 +30040,14 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Les tarifs douaniers de Trump sur la Chine ne semblent pas nuire à la Chine",
+      "summary": "Les tarifs douaniers du le président Donald Trump (États-Unis) sur la Chine ne semblent pas nuire à la Chine",
       "sources": [
         "drudge.com"
       ],
@@ -29882,7 +30055,8 @@
       "published_at": "2026-09-28T03:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine"
+        "Chine",
+        "États-Unis"
       ]
     },
     {
@@ -30046,19 +30220,25 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Général Keith Kellogg, ancien émissaire de Trump : Poutine pourrait mettre fin à la guerre demain s'il faisait une seule chose",
+      "summary": "Général Keith Kellogg, ancien émissaire du le président Donald Trump (États-Unis) :le président Vladimir Poutine (Russie) pourrait mettre fin à la guerre demain s'il faisait une seule chose",
       "sources": [
         "ziare.com"
       ],
       "url": "https://ziare.com/razboi-ucraina/generalul-keith-kellogg-putin-poate-incheia-conflictul-maine-daca-declara-victoria-2037828",
       "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Russie",
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -30480,7 +30660,7 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Poutine veut rendre l’Ukraine inhabitable. Cela ne doit pas réussir pour lui",
+      "summary": "le président Vladimir Poutine (Russie) veut rendre l’Ukraine inhabitable. Cela ne doit pas réussir pour lui",
       "sources": [
         "jyllands-posten.dk"
       ],
@@ -30488,6 +30668,7 @@
       "published_at": "2026-09-28T03:00:00+02:00",
       "origin": "rss",
       "countries": [
+        "Russie",
         "Ukraine"
       ]
     },
@@ -30636,7 +30817,7 @@
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Les entreprises basques doivent déjà réduire leur offre de 22% pour remporter un appel d'offres public",
       "sources": [
@@ -30652,7 +30833,7 @@
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 5,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Les entreprises espagnoles sont à la tête de la demande européenne visant à réduire la dépendance énergétique à l’étranger",
       "sources": [
@@ -30837,12 +31018,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Le NIS, l'ONUDC et l'Italie vont combler les lacunes en matière de sécurité aux frontières avec 30 véhicules et 60 ordinateurs – THISDAYLIVE",
       "sources": [
@@ -31347,19 +31527,22 @@
     },
     {
       "regions": [
-        "Europe"
+        "Asie"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Joignez-vous à la main pour promouvoir l’initiative de développement mondial afin d’aller plus loin et de manière plus pratique. Le président Xi Jinping a envoyé une lettre de félicitations au dialogue de haut niveau à l'occasion du cinquième anniversaire de l'initiative mondiale de développement, ce qui a suscité une réponse chaleureuse de la communauté internationale.",
+      "summary": "Joignez-vous à la main pour promouvoir l’initiative de développement mondial afin d’aller plus loin et de manière plus pratique. le président Xi Jinping (Chine) a envoyé une lettre de félicitations au dialogue de haut niveau à l'occasion du cinquième anniversaire de l'initiative mondiale de développement, ce qui a suscité une réponse chaleureuse de la communauté internationale.",
       "sources": [
         "news.china.com.cn"
       ],
       "url": "http://news.china.com.cn/2026-09/28/content_118715170.shtml",
       "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Chine"
+      ]
     },
     {
       "regions": [
@@ -31538,17 +31721,19 @@
     {
       "regions": [
         "Asie",
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "countries": [
         "Iran",
-        "Ukraine"
+        "Ukraine",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "En direct. Europe Today : Aide à l'Ukraine, Trump rejette l'accord iranien sur Hormuz",
+      "summary": "En direct. Europe Today : Aide à l'Ukraine,le président Donald Trump (États-Unis) rejette l'accord iranien sur Hormuz",
       "sources": [
         "Euronews.com"
       ],
@@ -31598,17 +31783,19 @@
     {
       "regions": [
         "Asie",
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "countries": [
         "Iran",
-        "Ukraine"
+        "Ukraine",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Live - Europe Today : Aide à l'Ukraine, Trump rejette l'accord iranien sur Hormuz",
+      "summary": "Live - Europe Today : Aide à l'Ukraine,le président Donald Trump (États-Unis) rejette l'accord iranien sur Hormuz",
       "sources": [
         "Euronews.com"
       ],
@@ -31618,15 +31805,14 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Israël"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Israël affirme avoir tué, dans la bande de Gaza, le ravisseur d’un couple d’otages du 7-Octobre",
       "sources": [
@@ -31661,7 +31847,7 @@
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Istat, en août, les exportations hors UE ont augmenté de 16,1% sur une base annuelle",
       "sources": [
@@ -31705,19 +31891,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump a demandé au président chinois s'il souhaitait acheter des armes américaines, selon l'ambassadeur",
+      "summary": "le président Donald Trump (États-Unis) a demandé au président chinois s'il souhaitait acheter des armes américaines, selon l'ambassadeur",
       "sources": [
         "ksat.com"
       ],
       "url": "https://www.ksat.com/news/world/2026/09/28/trump-asked-chinas-president-if-he-wants-to-buy-us-arms-ambassador-says/",
       "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -31804,19 +31993,23 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "International"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 4,
+      "score": 7,
       "category": "Géopolitique",
-      "summary": "Al-Hurriya - « The Wall Street Journal » : Le chef des renseignements égyptiens a prévenu Netanyahu quelques jours avant l'attaque du 7 octobre",
+      "summary": "Al-Hurriya - « The Wall Street Journal » : Le chef des renseignements égyptiens a prévenule Premier ministre Benjamin Netanyahu (Israël) quelques jours avant l'attaque du 7 octobre",
       "sources": [
         "alhourriah.org"
       ],
       "url": "https://alhourriah.org/article/172146",
       "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Israël"
+      ]
     },
     {
       "regions": [
@@ -31882,22 +32075,6 @@
         "liputan6.com"
       ],
       "url": "https://www.liputan6.com/showbiz/read/8301328/ungu-gantikan-juicy-luicy-di-motogp-mandalika-2026",
-      "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Crash du prix de l’or : l’or passe de 3 400 ₹ à 1 ₹. Coincé sur 47 lakhs ! Pourquoi a-t-il chuté et quand va-t-il s’accélérer, quels signes faut-il surveiller ? - Crash du prix de l'or à Rs 3400 Pourquoi a-t-il chuté et quand va-t-il reprendre, gardez un œil sur ces signes avant d'acheter | Or...",
-      "sources": [
-        "punjabijagran.com"
-      ],
-      "url": "https://www.punjabijagran.com/business/general-gold-price-crash-at-rs-3400-why-did-it-fall-and-when-will-it-pick-up-keep-an-eye-on-these-signs-before-buying-9688785.html",
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss"
     },
@@ -32077,13 +32254,14 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Bill Gates réfute la position de Trump sur la sécurité de l'IA et affirme que les mesures de protection n'entraveront pas la concurrence avec la Chine",
+      "summary": "Bill Gates réfute la position du le président Donald Trump (États-Unis) sur la sécurité de l'IA et affirme que les mesures de protection n'entraveront pas la concurrence avec la Chine",
       "sources": [
         "finance.sina.com.cn"
       ],
@@ -32091,7 +32269,8 @@
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine"
+        "Chine",
+        "États-Unis"
       ]
     },
     {
@@ -32167,22 +32346,6 @@
     },
     {
       "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "ACTIONS À L'OCCASION : Les actions technologiques s'affaiblissent en raison des directives asiatiques et de la pause d'OpenAI",
-      "sources": [
-        "deraktionaer.de"
-      ],
-      "url": "https://www.deraktionaer.de/nachricht/aktienimfokustech-werteschwaechelnwegenasien-vorgabenundopenai-pause-554545.html",
-      "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Asie",
         "Amérique du Nord"
       ],
@@ -32190,7 +32353,7 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les États-Unis et la Chine publient des listes de produits réciproques de 30 milliards de dollars pour des réductions tarifaires après la réunion Trump-Xi",
+      "summary": "Les États-Unis et la Chine publient des listes de produits réciproques de 30 milliards de dollars pour des réductions tarifaires après la réunionle président Donald Trump (États-Unis)-Xi",
       "sources": [
         "yakimaherald.com"
       ],
@@ -32220,19 +32383,23 @@
     },
     {
       "regions": [
-        "Asie"
+        "Océanie",
+        "International"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 8,
       "category": "Économie",
-      "summary": "Jim Chalmers et la RBA : le trésorier attribue l'inflation au conflit mondial alors que la hausse des taux d'intérêt se profile",
+      "summary": "le trésorier fédéral Jim Chalmers (Australie) et la RBA : le trésorier attribue l'inflation au conflit mondial alors que la hausse des taux d'intérêt se profile",
       "sources": [
         "brisbanetimes.com.au"
       ],
       "url": "https://www.brisbanetimes.com.au/politics/federal/near-record-tax-take-rising-rates-chalmers-blames-war-as-rba-hike-looms-20260928-p6113e.html",
       "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Australie"
+      ]
     },
     {
       "regions": [
@@ -32336,19 +32503,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le PDG d'Anthropic rencontre Trump après avoir manqué un dîner d'État",
+      "summary": "Le PDG d'Anthropic rencontrele président Donald Trump (États-Unis) après avoir manqué un dîner d'État",
       "sources": [
         "wmmbam.iheart.com"
       ],
       "url": "https://wmmbam.iheart.com/content/2026-09-28-anthropic-ceo-meets-with-trump-after-missing-state-dinner/",
       "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -32406,22 +32576,6 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump a maintenant une gigantesque éruption cutanée croustillante sur le cou",
-      "sources": [
-        "bitacora.com.uy"
-      ],
-      "url": "https://bitacora.com.uy/trump-ahora-tiene-un-sarpullido-gigantesco-y-crujiente-en-el-cuello/",
-      "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "JAWA est de retour : comment une légende soviétique s'est transformée en une marque de moto moderne",
       "sources": [
         "carexpo.ru"
@@ -32448,19 +32602,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Europe"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le ministre français des Affaires étrangères Barrot a accusé Mélenchon et Le Peni de fermer les yeux sur Poutine",
+      "summary": "Le ministre français des Affaires étrangères Barrot a accusé Mélenchon et Le Peni de fermer les yeux surle président Vladimir Poutine (Russie)",
       "sources": [
         "haberler.com"
       ],
       "url": "https://www.haberler.com/guncel/fransa-disisleri-bakani-barrot-melenchon-ve-le-pen-20278013-haberi/",
       "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Russie"
+      ]
     },
     {
       "regions": [
@@ -32483,19 +32640,22 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump confirme dîner avec le  très respecté  patron dAnthropic , après des mois de tensions - 28 / 09 / 2026 à 09 : 53",
+      "summary": "le président Donald Trump (États-Unis) confirme dîner avec le  très respecté  patron dAnthropic , après des mois de tensions - 28 / 09 / 2026 à 09 : 53",
       "sources": [
         "boursorama.com"
       ],
       "url": "https://www.boursorama.com/bourse/actualites/trump-confirme-diner-avec-le-tres-respecte-patron-d-anthropic-apres-des-mois-de-tensions-c31d84b19f5b95e6f80ef01605ae0641",
       "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -32531,19 +32691,23 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le prix du diesel en Grande-Bretagne a battu un record historique. La raison est la guerre de Trump",
+      "summary": "Le prix du diesel en Grande-Bretagne a battu un record historique. La raison est la guerre du le président Donald Trump (États-Unis)",
       "sources": [
         "index.hr"
       ],
       "url": "https://www.index.hr/vijesti/clanak/dizel-u-britaniji-nije-nikad-bio-skuplji/2839419.aspx",
       "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -32569,7 +32733,7 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Pendant les années du règne de Poutine, les écoles en Russie ont diminué de 2 fois",
+      "summary": "Pendant les années du règne du le président Vladimir Poutine (Russie), les écoles en Russie ont diminué de 2 fois",
       "sources": [
         "ru.euronews.com"
       ],
@@ -32672,7 +32836,7 @@
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "TECNO et Angélica Dass dévoilent 100 Portraits of Becoming Gallery, un projet mondial de portraits réunissant 100 façons de voir l'humanité",
       "sources": [
@@ -32980,13 +33144,14 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "La grande déclaration de Donald Trump a déclaré : « L’Amérique gagnera très bientôt la guerre contre l’Iran »",
+      "summary": "La grande déclaration dele président Donald Trump (États-Unis) a déclaré : « L’Amérique gagnera très bientôt la guerre contre l’Iran »",
       "sources": [
         "samacharjagat.com"
       ],
@@ -32994,7 +33159,8 @@
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -33092,7 +33258,7 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "L'Iran gèle Trump : aucune nouvelle négociation avec les États-Unis n'est prévue • Nouvelles de Vivere San Benedetto pour la ville et le territoire",
+      "summary": "L'Iran gèle président Donald Trump (États-Unis) : aucune nouvelle négociation avec les États-Unis n'est prévue • Nouvelles de Vivere San Benedetto pour la ville et le territoire",
       "sources": [
         "viveresanbenedetto.it"
       ],
@@ -33112,7 +33278,7 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Embarrassant! Xi Jinping a apporté sa propre tasse thermos pour le banquet d'État de la Maison Blanche. On soupçonne qu'il s'agit d'une marque japonaise centenaire et elle recouvre même le logo.",
+      "summary": "Embarrassant!le président Xi Jinping (Chine) a apporté sa propre tasse thermos pour le banquet d'État de la Maison Blanche. On soupçonne qu'il s'agit d'une marque japonaise centenaire et elle recouvre même le logo.",
       "sources": [
         "ec.ltn.com.tw"
       ],
@@ -33120,6 +33286,7 @@
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss",
       "countries": [
+        "Chine",
         "Japon"
       ]
     },
@@ -33136,22 +33303,6 @@
         "moneycontrol.com"
       ],
       "url": "https://www.moneycontrol.com/entertainment/ott/sardar-2-ott-release-date-when-and-where-to-watch-karthi-starrer-spy-action-thriller-online-article-14040058.html",
-      "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Technologie",
-      "summary": "Chip high flyer Hua Hong : Nvidia fait chuter le cours des actions",
-      "sources": [
-        "deraktionaer.de"
-      ],
-      "url": "https://www.deraktionaer.de/artikel/aktien/chip-highflyer-hua-hong-nvidia-sorgt-fuer-kurssturz-20409628.html",
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss"
     },
@@ -33346,7 +33497,7 @@
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Énergie",
       "summary": "Une université de Floride nomme Baibhab Chatterjee Nelms, étoile montante",
       "sources": [
@@ -33511,13 +33662,14 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le président Trump rejette la dernière proposition de l’Iran alors que la guerre entre dans son huitième mois",
+      "summary": "le président Donald Trump (États-Unis) rejette la dernière proposition de l’Iran alors que la guerre entre dans son huitième mois",
       "sources": [
         "wisn.com"
       ],
@@ -33525,7 +33677,8 @@
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -33566,7 +33719,7 @@
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Grünenthal s'associe à DKSH pour commercialiser quatre analgésiques importants sur huit nouveaux marchés en Asie-Pacifique",
       "sources": [
@@ -33754,12 +33907,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "manifestations au congrès à travers l'inde exigeant la démission du cec gyanesh kumar",
       "sources": [
@@ -33774,13 +33926,14 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Trump a proposé à Xi de vendre des armes à la Chine ( ambassadeur américain ) - 28 / 09 / 2026 à 10 : 07",
+      "summary": "le président Donald Trump (États-Unis) a proposé à Xi de vendre des armes à la Chine ( ambassadeur américain ) - 28 / 09 / 2026 à 10 : 07",
       "sources": [
         "boursorama.com"
       ],
@@ -33788,7 +33941,8 @@
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine"
+        "Chine",
+        "États-Unis"
       ]
     },
     {
@@ -33886,7 +34040,7 @@
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "La 7e convocation de l'IIT Jammu marque une étape importante avec 420 degrés conférés",
       "sources": [
@@ -33895,25 +34049,6 @@
       "url": "http://www.mexicostar.com/news/279337063/iit-jammu-7th-convocation-marks-a-milestone-with-420-degrees-conferred",
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Pincky Balhara confirme la troisième médaille de l'Inde aux Jeux asiatiques à Kurash et atteint la demi-finale féminine des 78 kg",
-      "sources": [
-        "chinanationalnews.com"
-      ],
-      "url": "http://www.chinanationalnews.com/news/279336609/pincky-balhara-confirms-india-third-asian-games-medal-in-kurash-reaches-women-78-kg-semifinal",
-      "published_at": "2026-09-28T12:15:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Inde"
-      ]
     },
     {
       "regions": [
@@ -34041,35 +34176,16 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Sumar, Podemos et la gauche parlementaire s'unissent pour faire pression sur le PSOE et faire annuler le décret sur le logement. Le mouvement Sumar, Más Madrid, Izquierda Unida et Comuns tiendront une conférence de presse avec des membres de Podemos, ERC, Bildu et BNG pour soutenir l'approbation du « décret Maricarmen ». Le mouvement Sumar, Más Madrid, Izquierda Unida et Comuns tiendront une conférence de presse avec des membres de Podemos, ERC, Bildu et BNG pour soutenir l'approbation du « décret Maricarmen ».",
       "sources": [
         "lasexta.com"
       ],
       "url": "https://www.lasexta.com/noticias/nacional/sumar-podemos-izquierda-parlamentaria-unen-presionar-psoe-cerrar-decreto-vivienda_202609286aba1d4da520494aafd8456f.html",
-      "published_at": "2026-09-28T13:15:00+02:00",
-      "origin": "rss",
-      "content_enriched": true
-    },
-    {
-      "regions": [
-        "International"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 8,
-      "category": "Énergie",
-      "summary": "Nouvelle maison pour Feltrinelli, beaucoup faisaient la queue pour l'ouverture. « C'est important que le magasin reste à Latina ». Certains lieux appartiennent à une ville même lorsqu'ils changent d'adresse. Depuis des années, les Feltrinelli de via Armando Diaz ont accueilli les habitudes de générations de lecteurs et de lecteurs... Des lieux qui appartiennent à une ville même lorsqu'ils changent d'adresse. Depuis des années, les Feltrinelli de via Armando Diaz ont accueilli les habitudes de générations de lecteurs et de lecteurs... Des lieux qui appartiennent à une ville même lorsqu'ils changent d'adresse.",
-      "sources": [
-        "ilmessaggero.it"
-      ],
-      "url": "https://www.ilmessaggero.it:443/latina/feltrinelli_latina_riapertura_corso_matteotti-9789801.html",
       "published_at": "2026-09-28T13:15:00+02:00",
       "origin": "rss",
       "content_enriched": true
@@ -34113,6 +34229,27 @@
         "Allemagne",
         "Iran",
         "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "28 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "L'Ukraine, ou le risque d'oublier une guerre avec des gens à l'intérieur. André Luís Alves, journaliste qui écrit pour l'Expresso de Kiev, où il s'est installé peu après l'invasion russe de 2022, est l'invité de cet épisode. A l'approche de l'hiver, il dresse le portrait d'un peuple inquiet mais déterminé, évoque l'épuisement politique du le président Volodymyr Zelensky (Ukraine) et évalue les possibilités d'un accord mettant fin au conflit armé width=device-width, initial-scale=1.0\"> Ukraine, ou le risque d'oublier une guerre avec des gens à l'intérieur [ {",
+      "sources": [
+        "sapo.pt"
+      ],
+      "url": "https://sapo.pt/artigo/ucrania-ou-o-risco-de-nos-esquecermos-de-uma-guerra-com-gente-dentro-6aba4958bf983daebc699a99",
+      "published_at": "2026-09-28T13:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
       ]
     },
     {
