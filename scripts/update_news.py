@@ -145,6 +145,16 @@ def is_useful_article(text):
     if len(re.findall(r"[a-zà-ÿ0-9]+",t))<5:
         return False
 
+    # Hors sujet sans ambiguïté : certains mots (ex. « migration ») ont aussi
+    # un sens non politique et ne doivent jamais déclencher la veille.
+    always_low_value=(
+      "migration animale","migration des oiseaux","migration des baleines",
+      "documentaire animalier","documentaire nature","programme tv","horoscope",
+      "recette de cuisine","croisière touristique"
+    )
+    if any(x in t for x in always_low_value):
+        return False
+
     # Signaux qui peuvent rendre pertinent un sujet normalement périphérique.
     strong=(
       "guerre","invasion","frappe","missile","cessez-le-feu","coup d’état","coup d'etat",
