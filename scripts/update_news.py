@@ -106,8 +106,9 @@ def enrich_leader_context(text):
             continue
         # Prépositions françaises : « de Trump » -> « du président Donald Trump (États-Unis) ».
         if role=="président":
-            out=re.sub(r"(?i)\bde\s+(?:le\s+président\s+)?"+re.escape(alias)+r"\b","du "+label,out,count=1)
-            out=re.sub(r"(?i)\bà\s+(?:le\s+président\s+)?"+re.escape(alias)+r"\b","au "+label,out,count=1)
+            bare=label[3:] if label.lower().startswith("le ") else label
+            out=re.sub(r"(?i)\bde\s+(?:le\s+président\s+)?"+re.escape(alias)+r"\b","du "+bare,out,count=1)
+            out=re.sub(r"(?i)\bà\s+(?:le\s+président\s+)?"+re.escape(alias)+r"\b","au "+bare,out,count=1)
         if label.lower() in out.lower():
             continue
         pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|trésorier(?: fédéral)?|ministre des finances)?\s*\b"+re.escape(alias)+r"\b"
@@ -435,6 +436,7 @@ def french_summary(text, meta=None):
 
 ARTICLE_DETAIL_CACHE={}
 ARTICLE_DETAIL_USED=0
+EXISTING_DETAIL_USED=0
 
 def strip_html_text(raw):
     if not raw: return ""
@@ -459,16 +461,22 @@ def detail_is_substantive(title, detail):
     if any(x in detail.lower() for x in generic) and len(words)<20: return False
     return True
 
-def fetch_article_detail(url):
+def fetch_article_detail(url, existing=False):
     """Récupère une description ou les premiers paragraphes, avec budget strict pour protéger la veille."""
-    global ARTICLE_DETAIL_USED
+    global ARTICLE_DETAIL_USED,EXISTING_DETAIL_USED
     url=(url or "").strip()
     if not url: return ""
     if url in ARTICLE_DETAIL_CACHE: return ARTICLE_DETAIL_CACHE[url]
-    budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","12") or "12"))
-    if ARTICLE_DETAIL_USED>=budget:
-        return ""
-    ARTICLE_DETAIL_USED+=1
+    if existing:
+        budget=max(1,int(os.getenv("EXISTING_DETAIL_BUDGET","6") or "6"))
+        if EXISTING_DETAIL_USED>=budget:
+            return ""
+        EXISTING_DETAIL_USED+=1
+    else:
+        budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","12") or "12"))
+        if ARTICLE_DETAIL_USED>=budget:
+            return ""
+        ARTICLE_DETAIL_USED+=1
     try:
         req=urllib.request.Request(url,headers={
             "User-Agent":"Mozilla/5.0 GeoClic/3.0",
@@ -552,6 +560,32 @@ def article_summary(art, meta=None):
         stop=max(cut.rfind(". "),cut.rfind("! "),cut.rfind("? "))
         combined=(cut[:stop+1] if stop>320 else cut.rstrip()+"…")
     return combined if is_useful_article(combined) else None
+
+def enrich_existing_item(item):
+    """Améliore progressivement les anciennes entrées du jour qui n'ont encore qu'un titre."""
+    y=dict(item)
+    y["summary"]=dedupe_summary_sentences(enrich_editorial_context(y.get("summary","")))
+    if y.get("content_enriched") is True or not y.get("url"):
+        return y
+
+    detail=fetch_article_detail(y.get("url",""),existing=True)
+    if not detail_is_substantive(y.get("summary",""),detail):
+        return y
+    detail_fr=french_summary(detail[:900],{
+        "countries":y.get("countries",[]),
+        "date":y.get("bucket",""),
+        "source":(y.get("sources") or ["Source"])[0],
+        "url":y.get("url","")
+    })
+    if not detail_fr:
+        return y
+    combined=dedupe_summary_sentences(
+        enrich_editorial_context(f"{y.get('summary','')}. {clean_summary_text(detail_fr)}")
+    )
+    if is_useful_article(combined):
+        y["summary"]=combined
+        y["content_enriched"]=True
+    return y
 
 def regions_for_countries(countries, importance):
     regs=[]
@@ -950,6 +984,22 @@ def main():
         k=(x.get("bucket"),tuple(x.get("regions",[])),key_title(x.get("summary","")))
         if k not in existing: fresh.append(x); existing.add(k)
     day_items=old_daily+fresh
+    # Les anciennes entrées du jour peuvent provenir de l'ancienne logique « titre seul ».
+    # Les enrichir progressivement, sans réécrire massivement tout l'historique.
+    today_bucket=fr_date(now.date())
+    candidates=[
+        i for i,x in enumerate(day_items)
+        if x.get("bucket")==today_bucket and x.get("content_enriched") is not True and x.get("url")
+    ]
+    def existing_priority(i):
+        text=(day_items[i].get("summary") or "").lower()
+        full=any(name.lower() in text for name in LEADER_LABELS)
+        alias=any(re.search(r"(?i)\\b"+re.escape(name)+r"\\b",text) for name in PERSON_SURNAME_ALIASES)
+        return (0 if full else (1 if alias else 2),-int(day_items[i].get("score",0) or 0),-(len(day_items[i].get("summary") or "")))
+    for i in sorted(candidates,key=existing_priority):
+        if EXISTING_DETAIL_USED>=max(1,int(os.getenv("EXISTING_DETAIL_BUDGET","6") or "6")):
+            break
+        day_items[i]=enrich_existing_item(day_items[i])
     # La campagne présidentielle française 2027 appartient exclusivement à
     # data/election.json : elle ne doit jamais alimenter Pays/continents/International.
     day_items=[x for x in day_items if not is_french_2027_presidential(x.get("summary",""))]
