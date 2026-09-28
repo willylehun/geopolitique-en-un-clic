@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:02:03.062095+02:00",
+  "generated_at": "2026-09-28T14:35:59.835169+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30047,7 +30047,7 @@
       "bucket": "28 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Les tarifs douaniers du le président Donald Trump (États-Unis) sur la Chine ne semblent pas nuire à la Chine",
+      "summary": "Les tarifs douaniers du le président Donald Trump (États-Unis) sur la Chine ne semblent pas nuire à la Chine. La Chine continue d’augmenter sa part des ventes mondiales de marchandises, selon l’administrationle président Donald Trump (États-Unis)",
       "sources": [
         "drudge.com"
       ],
@@ -30057,7 +30057,8 @@
       "countries": [
         "Chine",
         "États-Unis"
-      ]
+      ],
+      "content_enriched": true
     },
     {
       "regions": [
@@ -30228,7 +30229,7 @@
       "bucket": "28 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Général Keith Kellogg, ancien émissaire du le président Donald Trump (États-Unis) :le président Vladimir Poutine (Russie) pourrait mettre fin à la guerre demain s'il faisait une seule chose",
+      "summary": "Général Keith Kellogg, ancien émissaire du le président Donald Trump (États-Unis) :le président Vladimir Poutine (Russie) pourrait mettre fin à la guerre demain s'il faisait une seule chose. La guerre menée par la Russie en Ukraine a dépassé le cap des 4 ans et 7 mois, et le Kremlin ne montre aucun signe de volonté d'arrêter le combat. Aujourd'hui, le général Keith Kellogg, ancien envoyé spécial dele président Donald Trump (États-Unis), a déclaré quele président Vladimir Poutine (Russie) pourrait mettre fin à la guerre demain s'il faisait juste une chose : « déclarer la victoire et laisser la Russie rentrer chez elle ».",
       "sources": [
         "ziare.com"
       ],
@@ -30237,8 +30238,10 @@
       "origin": "rss",
       "countries": [
         "Russie",
+        "Ukraine",
         "États-Unis"
-      ]
+      ],
+      "content_enriched": true
     },
     {
       "regions": [
@@ -32390,7 +32393,7 @@
       "bucket": "28 septembre 2026",
       "score": 8,
       "category": "Économie",
-      "summary": "le trésorier fédéral Jim Chalmers (Australie) et la RBA : le trésorier attribue l'inflation au conflit mondial alors que la hausse des taux d'intérêt se profile",
+      "summary": "le trésorier fédéral Jim Chalmers (Australie) et la RBA : le trésorier attribue l'inflation au conflit mondial alors que la hausse des taux d'intérêt se profile. width=device-width, initial-scale=1, Shrink-to-fit=no\" name=\"viewport\"/>le trésorier fédéral Jim Chalmers (Australie) et la RBA : le trésorier attribue le conflit mondial à l'inflation alors que la hausse des taux d'intérêt se profile <meta data-rh= https://static.ffx.io/images/$zoom_0.2269%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1 059%2C$x_190%2C$y_0/t_crop_custom/q_86%2Cf_auto/550174998afaefc7a08d27fef351f126ee922b1d\" property=\"og:image\"/> <meta data-rh= Le trésorier affirme que les prix de l'essence alimentent l'inflation alors qu'une levée d'impôts quasi-record ajoute à la surveillance de la gestion économique du parti travailliste.",
       "sources": [
         "brisbanetimes.com.au"
       ],
@@ -32399,7 +32402,8 @@
       "origin": "rss",
       "countries": [
         "Australie"
-      ]
+      ],
+      "content_enriched": true
     },
     {
       "regions": [
@@ -32691,6 +32695,7 @@
     },
     {
       "regions": [
+        "Europe",
         "Amérique du Nord",
         "International"
       ],
@@ -32698,7 +32703,7 @@
       "bucket": "28 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le prix du diesel en Grande-Bretagne a battu un record historique. La raison est la guerre du le président Donald Trump (États-Unis)",
+      "summary": "Le prix du diesel en Grande-Bretagne a battu un record historique. La raison est la guerre du le président Donald Trump (États-Unis). LE PRIX du diesel au Royaume-Uni a atteint un nouveau record en raison de la guerre au Moyen-Orient. Cela affecte les conducteurs et l’économie dans la mesure où les coûts de transport plus élevés sont répercutés sur les consommateurs.",
       "sources": [
         "index.hr"
       ],
@@ -32706,8 +32711,10 @@
       "published_at": "2026-09-28T12:15:00+02:00",
       "origin": "rss",
       "countries": [
+        "Royaume-Uni",
         "États-Unis"
-      ]
+      ],
+      "content_enriched": true
     },
     {
       "regions": [
@@ -33669,7 +33676,7 @@
       "bucket": "28 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "le président Donald Trump (États-Unis) rejette la dernière proposition de l’Iran alors que la guerre entre dans son huitième mois",
+      "summary": "le président Donald Trump (États-Unis) rejette la dernière proposition de l’Iran alors que la guerre entre dans son huitième mois. le président Donald Trump (États-Unis) a décliné la proposition iranienne de reprendre les négociations nucléaires et de rouvrir le détroit d'Ormuz, se disant convaincu que la guerre prendra bientôt fin.",
       "sources": [
         "wisn.com"
       ],
@@ -33679,7 +33686,8 @@
       "countries": [
         "Iran",
         "États-Unis"
-      ]
+      ],
+      "content_enriched": true
     },
     {
       "regions": [
