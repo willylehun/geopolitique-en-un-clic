@@ -5,6 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
 from datetime import datetime, timedelta, time as dtime
 from email.utils import parsedate_to_datetime
+from html.parser import HTMLParser
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -113,6 +114,17 @@ def enrich_leader_context(text):
             continue
         pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|trésorier(?: fédéral)?|ministre des finances)?\s*\b"+re.escape(alias)+r"\b"
         out=re.sub(pattern,label,out,count=1)
+    # Nettoyer les contractions/espaces créés par la normalisation des titres.
+    out=re.sub(r"(?i)\\bdu\\s+le\\s+président\\b","du président",out)
+    out=re.sub(r"(?i)\\bde\\s+le\\s+président\\b","du président",out)
+    out=re.sub(r"(?i)\\bdu\\s+la\\s+présidente\\b","de la présidente",out)
+    out=re.sub(r"(?i)\\bde(?:le)?\\s+président\\b","du président",out)
+    out=re.sub(r"(?i)\\bavec(?:le)\\s+président\\b","avec le président",out)
+    out=re.sub(r"(?i)\\bselon(?:le)\\s+président\\b","selon le président",out)
+    out=re.sub(r"(?i)\\bdu\\s+le\\s+Premier ministre\\b","du Premier ministre",out)
+    out=re.sub(r"(?i)\\bde\\s+le\\s+Premier ministre\\b","du Premier ministre",out)
+    out=re.sub(r"([,:;.!?])(?=[A-Za-zÀ-ÿ])",r"\\1 ",out)
+    out=re.sub(r"\\s+"," ",out).strip()
     return out
 
 # Lieux infranationaux fréquemment rencontrés. Ajouter le pays seulement lorsque
@@ -196,6 +208,13 @@ def is_useful_article(text):
     if len(re.findall(r"[a-zà-ÿ0-9]+",t))<5:
         return False
     if is_market_listing_noise(raw):
+        return False
+
+    summary_markup_noise=(
+      "<meta","width=device-width","name=\\"viewport","property=\\"og:",
+      "data-rh=","https://static.","%2c$width","shrink-to-fit"
+    )
+    if any(x in t for x in summary_markup_noise):
         return False
 
     # Hors sujet sans ambiguïté : certains mots (ex. « migration ») ont aussi
@@ -461,6 +480,57 @@ def detail_is_substantive(title, detail):
     if any(x in detail.lower() for x in generic) and len(words)<20: return False
     return True
 
+
+class ArticleHTMLExtractor(HTMLParser):
+    """Extrait proprement descriptions META et paragraphes sans capturer les attributs HTML voisins."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.descriptions=[]
+        self.paragraphs=[]
+        self._skip=0
+        self._in_p=0
+        self._p_parts=[]
+
+    def handle_starttag(self,tag,attrs):
+        tag=(tag or "").lower()
+        attrs={str(k).lower(): (v or "") for k,v in attrs}
+        if tag in ("script","style","noscript"):
+            self._skip+=1
+            return
+        if self._skip:
+            return
+        if tag=="meta":
+            key=(attrs.get("name") or attrs.get("property") or "").strip().lower()
+            content=(attrs.get("content") or "").strip()
+            if key in ("description","og:description","twitter:description") and len(content)>=60:
+                self.descriptions.append(content)
+        elif tag=="p":
+            self._in_p+=1
+            if self._in_p==1:
+                self._p_parts=[]
+
+    def handle_data(self,data):
+        if self._skip or not self._in_p:
+            return
+        if data and data.strip():
+            self._p_parts.append(data.strip())
+
+    def handle_endtag(self,tag):
+        tag=(tag or "").lower()
+        if tag in ("script","style","noscript"):
+            if self._skip:
+                self._skip-=1
+            return
+        if self._skip:
+            return
+        if tag=="p" and self._in_p:
+            self._in_p-=1
+            if self._in_p==0:
+                value=re.sub(r"\s+"," "," ".join(self._p_parts)).strip()
+                if len(value)>=100:
+                    self.paragraphs.append(value)
+                self._p_parts=[]
+
 def fetch_article_detail(url, existing=False):
     """Récupère une description ou les premiers paragraphes, avec budget strict pour protéger la veille."""
     global ARTICLE_DETAIL_USED,EXISTING_DETAIL_USED
@@ -489,26 +559,20 @@ def fetch_article_detail(url, existing=False):
         if "news.google.com" in urllib.parse.urlparse(final_url).netloc.lower():
             ARTICLE_DETAIL_CACHE[url]=""
             return ""
-        candidates=[]
-        meta_patterns=[
-          r'(?is)<meta[^>]+(?:name|property)\s*=\s*["\'](?:description|og:description|twitter:description)["\'][^>]+content\s*=\s*["\'](.*?)["\']',
-          r'(?is)<meta[^>]+content\s*=\s*["\'](.*?)["\'][^>]+(?:name|property)\s*=\s*["\'](?:description|og:description|twitter:description)["\']',
-          r'(?is)"description"\s*:\s*"((?:\\.|[^"\\]){40,2000})"'
-        ]
-        for pattern in meta_patterns:
-            for m in re.finditer(pattern,body):
-                val=m.group(1)
-                try: val=json.loads('"'+val+'"') if pattern.startswith('(?is)"description"') else val
-                except Exception: pass
-                val=strip_html_text(val)
-                if len(val)>=80: candidates.append(val)
+        parser=ArticleHTMLExtractor()
+        try:
+            parser.feed(body)
+        except Exception as parse_exc:
+            print("ARTICLE HTML PARSE",url,parse_exc,file=sys.stderr)
+        candidates=[strip_html_text(x) for x in parser.descriptions if len(strip_html_text(x))>=80]
         # Fallback : premiers paragraphes significatifs.
         if not candidates:
-            for m in re.finditer(r"(?is)<p(?:\s[^>]*)?>(.*?)</p>",body):
-                val=strip_html_text(m.group(1))
-                if len(val)>=100:
-                    candidates.append(val)
-                if sum(len(x) for x in candidates)>=900: break
+            candidates=[strip_html_text(x) for x in parser.paragraphs if len(strip_html_text(x))>=100]
+            total=0; limited=[]
+            for val in candidates:
+                limited.append(val); total+=len(val)
+                if total>=900: break
+            candidates=limited
         unique=[]
         seen_detail=set()
         for val in candidates:
@@ -553,7 +617,7 @@ def article_summary(art, meta=None):
     source_text=f"{title}. {detail[:900]}"
     combined=french_summary(source_text,meta)
     if not combined: return None
-    combined=dedupe_summary_sentences(enrich_editorial_context(combined))
+    combined=clean_summary_text(dedupe_summary_sentences(enrich_editorial_context(combined)))
     # Résumé lisible : 2-3 phrases / ~700 caractères maximum.
     if len(combined)>700:
         cut=combined[:700]
@@ -579,9 +643,9 @@ def enrich_existing_item(item):
     })
     if not detail_fr:
         return y
-    combined=dedupe_summary_sentences(
+    combined=clean_summary_text(dedupe_summary_sentences(
         enrich_editorial_context(f"{y.get('summary','')}. {clean_summary_text(detail_fr)}")
-    )
+    ))
     if is_useful_article(combined):
         y["summary"]=combined
         y["content_enriched"]=True
@@ -1000,6 +1064,16 @@ def main():
         if EXISTING_DETAIL_USED>=max(1,int(os.getenv("EXISTING_DETAIL_BUDGET","6") or "6")):
             break
         day_items[i]=enrich_existing_item(day_items[i])
+
+    # Règle stricte demandée : aucune entrée automatique du jour ne doit être un simple titre.
+    # Les jours historiques sont conservés. Les lots manuels restent conservés s'ils ont déjà
+    # été vérifiés humainement ; les flux rss/gdelt/global doivent avoir un contenu enrichi.
+    day_items=[
+        x for x in day_items
+        if x.get("bucket")!=today_bucket
+        or x.get("origin") not in ("rss","gdelt","global")
+        or x.get("content_enriched") is True
+    ]
     # La campagne présidentielle française 2027 appartient exclusivement à
     # data/election.json : elle ne doit jamais alimenter Pays/continents/International.
     day_items=[x for x in day_items if not is_french_2027_presidential(x.get("summary",""))]
