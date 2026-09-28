@@ -99,7 +99,7 @@ def enrich_leader_context(text):
     for name,label in LEADER_LABELS.items():
         if name.lower() not in out.lower() or label.lower() in out.lower():
             continue
-        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances|général|ministre des affaires étrangères|secrétaire d['’]état)?\s*"+re.escape(name)
+        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances|général|ministre des affaires étrangères|secrétaire d['’]état)?\s*"+re.escape(name)+r"(?:\s*\([^)]+\))?"
         out=re.sub(pattern,label,out,count=1)
 
     # Noms de famille seuls, très fréquents dans les titres.
@@ -129,7 +129,16 @@ def enrich_leader_context(text):
     # Réparer les mots accolés au libellé ajouté : « réunionle président ».
     out=re.sub(r"(?<=[A-Za-zÀ-ÿ])(?=(?:le|la)\s+(?:président|présidente|Premier ministre|Première ministre|chancelier|trésorier fédéral|général)\b)"," ",out)
     out=re.sub(r"(?i)\badministration\s+le président\b","administration du président",out)
-    out=re.sub(r"(\([^)]+\))\s+\1",r"\1",out)
+    out=re.sub(r"(?i)\bla raison est la guerre du président\b","la raison est attribuée à la guerre selon le président",out)
+    for country in COUNTRY_TO_REGION:
+        duplicated=f"({country}) ({country})"
+        while duplicated in out:
+            out=out.replace(duplicated,f"({country})")
+    # Après suppression d'un pays doublé, réparer les transitions entre deux responsables.
+    out=re.sub(
+        r"(?i)(ancien(?:ne)?\s+(?:émissaire|envoyé spécial)\s+du président\s+[^()]+\([^)]+\))\s+(le président\s+)",
+        r"\1 : \2",out
+    )
     out=re.sub(
         r"(?i)\bréunion\s+(le président\s+[^()]+\([^)]+\))\s*-\s*(le président\s+[^()]+\([^)]+\))",
         r"réunion entre \1 et \2",out
