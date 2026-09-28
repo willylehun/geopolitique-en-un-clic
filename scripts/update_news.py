@@ -435,7 +435,7 @@ def fetch_article_detail(url):
     url=(url or "").strip()
     if not url: return ""
     if url in ARTICLE_DETAIL_CACHE: return ARTICLE_DETAIL_CACHE[url]
-    budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","24") or "24"))
+    budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","12") or "12"))
     if ARTICLE_DETAIL_USED>=budget:
         return ""
     ARTICLE_DETAIL_USED+=1
@@ -444,7 +444,7 @@ def fetch_article_detail(url):
             "User-Agent":"Mozilla/5.0 GeoClic/3.0",
             "Accept":"text/html,application/xhtml+xml"
         })
-        with urllib.request.urlopen(req,timeout=7) as r:
+        with urllib.request.urlopen(req,timeout=5) as r:
             final_url=r.geturl()
             body=r.read(350000).decode("utf-8","replace")
         # Les pages intermédiaires Google News n'apportent pas le contenu éditorial.
@@ -492,21 +492,11 @@ def article_summary(art, meta=None):
         # Qualité avant quantité : ne pas publier une simple fiche/titre sans contenu.
         return None
 
-    title_fr=french_summary(title,meta)
-    detail_fr=french_summary(detail[:900],meta)
-    if not title_fr or not detail_fr: return None
-    title_fr=clean_summary_text(title_fr)
-    detail_fr=clean_summary_text(detail_fr)
-    if not detail_is_substantive(title_fr,detail_fr):
-        return None
-
-    # Éviter de répéter mot pour mot le titre dans la description.
-    normalized_title=key_title(title_fr)
-    normalized_detail=key_title(detail_fr)
-    if normalized_detail.startswith(normalized_title[:80]) or normalized_title==normalized_detail:
-        combined=detail_fr
-    else:
-        combined=f"{title_fr}. {detail_fr}"
+    # Une seule traduction par article : le titre sert de contexte et la description
+    # apporte le fond. Cela garde les cycles assez courts pour la veille fréquente.
+    source_text=f"{title}. {detail[:900]}"
+    combined=french_summary(source_text,meta)
+    if not combined: return None
     combined=clean_summary_text(enrich_editorial_context(combined))
     # Résumé lisible : 2-3 phrases / ~700 caractères maximum.
     if len(combined)>700:
