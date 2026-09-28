@@ -36,7 +36,7 @@ IMPACT={
  10:["guerre nucléaire","guerre mondiale","emploi de l’arme nucléaire","attaque nucléaire","invasion générale","coup d’état réussi","renversement du gouvernement","nuclear war","world war"],
  9:["guerre","invasion","frappe aérienne","frappe de missile","attaque militaire","cessez-le-feu","mobilisation militaire","état d’urgence","coup d’état","sanctions internationales","défaut souverain","séisme majeur","missile","airstrike","ceasefire","military attack","sanctions"],
  8:["conflit armé","élection présidentielle","élections législatives","élection nationale","inflation","taux directeur","banque centrale","récession","embargo","sommet international","accord de paix","traité","crise politique","crise diplomatique","crise énergétique","pétrole","gaz","défense","sécurité nationale","tarifs douaniers","droits de douane","conflict","election","interest rate","central bank","recession","summit","embargo","oil","gas"],
- 7:["gouvernement","président","premier ministre","parlement","diplomatie","commerce international","budget de l’état","manifestation","frontière","migration","énergie","climat","inondation","incendie","catastrophe naturelle","cyberattaque","intelligence artificielle","technologie stratégique","accord commercial","government","president","prime minister","parliament","diplomacy","trade","energy","protest","border","climate","flood","wildfire","cyberattack"],
+ 7:["gouvernement","premier ministre","parlement","diplomatie","commerce international","budget de l’état","manifestation","frontière","migration","énergie","climat","inondation majeure","feu de forêt","catastrophe naturelle","cyberattaque","technologie stratégique","régulation de l’intelligence artificielle","loi sur l’intelligence artificielle","semi-conducteur","puces électroniques","accord commercial","government","prime minister","parliament","diplomacy","trade","energy","protest","border","climate","major flood","wildfire","cyberattack","ai regulation","semiconductor","chip export"],
  6:["économie","marché","investissement","exportation","importation","santé publique","épidémie","infrastructure","transport maritime","agriculture","justice","economic","market","investment","export","import","health","disease","infrastructure","shipping","agriculture"],
  5:["politique locale","administration","entreprise","société","politics","business","society"]
 }
@@ -127,6 +127,98 @@ def is_french_2027_presidential(text):
     presidential=("présidentielle" in t or "présidentiel" in t or "présidence" in t)
     campaign=("2027" in t or "candidat" in t or "candidature" in t or "primaire" in t or "programme" in t)
     return presidential and campaign and (france or "2027" in t)
+
+def clean_summary_text(text):
+    """Retire le bruit éditorial/SEO sans inventer d'information."""
+    out=re.sub(r"\\s+"," ",text or "").strip()
+    # Suffixes publicitaires ou de portail qui n'apportent rien au fait.
+    out=re.sub(r"(?i)\\s*\\|\\s*actualités gratuites en ligne.*$","",out)
+    out=re.sub(r"(?i)\\s*[–—-]\\s*journal approfondi.*$","",out)
+    out=re.sub(r"(?i)\\s*[–—-]\\s*dernières nouvelles.*$","",out)
+    return out.strip(" |–—-")
+
+def is_useful_article(text):
+    """Garde seulement un contenu qui apporte un fait, une décision, une évolution ou une conséquence utile à la veille géopolitique."""
+    raw=clean_summary_text(text)
+    t=" "+raw.lower()+" "
+    if len(re.findall(r"[a-zà-ÿ0-9]+",t))<5:
+        return False
+
+    # Signaux qui peuvent rendre pertinent un sujet normalement périphérique.
+    strong=(
+      "guerre","invasion","frappe","missile","cessez-le-feu","coup d’état","coup d'etat",
+      "sanction","embargo","élection nationale","élection présidentielle","élections législatives",
+      "gouvernement","parlement","diplomatie","traité","accord de paix","frontière","migration",
+      "armée","militaire","terror","cyberattaque","état d’urgence","état d'urgence",
+      "banque centrale","taux directeur","inflation","défaut souverain","droits de douane",
+      "tarifs douaniers","commerce international","réfugié","réfugiés","justice constitutionnelle",
+      "cour constitutionnelle","loi","réforme","régulation","national security"
+    )
+    has_strong=any(x in t for x in strong)
+
+    # Sport, people, divertissement, culture et loisirs : hors produit sauf conséquence publique forte.
+    low_value=(
+      " football "," uefa "," mlb "," nba "," ligue des nations "," match de "," score ",
+      " buteur "," championnat "," tournoi "," coupe du monde "," formule 1 "," grand prix ",
+      " chanteur "," chanteuse "," concert "," the weeknd "," shakira "," acteur "," actrice ",
+      " célébrité "," people "," série télé "," soap opera "," spoilers "," programme tv ",
+      " horoscope "," recette "," mode "," carnaval "," croisière "," exposition d'art ",
+      " exposition de "," peinture "," artiste oublié "," festival de musique "," streaming "
+    )
+    if any(x in t for x in low_value) and not has_strong:
+        return False
+
+    # Faits divers strictement locaux sans portée institutionnelle ou géopolitique.
+    local_incident=(
+      "incendie d'un appartement","incendie d’une appartement","incendie d'une maison",
+      "incendie d’une maison","accident de voiture","accident de la route","faits divers",
+      "personnes déplacées après l'incendie d'un appartement","personnes déplacées après l’incendie d’un appartement"
+    )
+    if any(x in t for x in local_incident) and not has_strong:
+        return False
+
+    # Contenus de service/SEO ou de consommation courante.
+    service_noise=(
+      "en direct gratuitement","live gratuitement","via espn","disney plus","programme tv",
+      "prix de l'essence aujourd'hui","prix de l’essence aujourd’hui","meilleures offres",
+      "guide d'achat","guide d’achat"
+    )
+    if any(x in t for x in service_noise) and not has_strong:
+        return False
+
+    # Prévisions de marché promotionnelles et communiqués sans décision publique ou enjeu stratégique.
+    market_promo=(
+      "le marché de l'intelligence artificielle","le marché de l’intelligence artificielle",
+      "devrait atteindre","communiqué de presse","press release","marché devrait atteindre"
+    )
+    if sum(1 for x in market_promo if x in t)>=2 and not has_strong:
+        return False
+
+    # Un éditorial/opinion n'est utile que s'il décrit aussi un fait concret, une décision ou une évolution.
+    opinion=(" éditorial "," editorial "," opinion "," chronique "," tribune ")
+    informative=(
+      " annonce "," décide "," adopte "," approuve "," rejette "," impose "," suspend ",
+      " signe "," conclut "," interdit "," autorise "," lance "," déploie "," ordonne ",
+      " démissionne "," retire "," reconnaît "," augmente "," baisse "," recule "," progresse ",
+      " atteint "," vote "," élit "," élu "," élue "," accuse "," condamne "," enquête ",
+      " sanctionne "," frappe "," attaque "," envahit "," évacue "," ferme "," ouvre ",
+      " accord "," traité "," réforme "," loi "," budget "," taux "," inflation "," déficit ",
+      " exportation "," importation "," tarifs douaniers "," droits de douane "
+    )
+    if any(x in t for x in opinion) and not any(x in t for x in informative):
+        return False
+
+    # Titres purement thématiques : ils nomment un sujet mais n'apprennent aucun fait.
+    vague_topics=(
+      "le dividende de l'intelligence artificielle","le dividende de l’intelligence artificielle",
+      "l'avenir de l'intelligence artificielle","l’avenir de l’intelligence artificielle",
+      "les enjeux de l'intelligence artificielle","les enjeux de l’intelligence artificielle",
+      "réflexions sur ","regard sur "
+    )
+    if any(x in t for x in vague_topics) and not any(x in t for x in informative):
+        return False
+
+    return True
 
 def election_score(text):
     """Les élections nationales de dirigeants restent des événements internationaux majeurs."""
@@ -453,6 +545,8 @@ def global_country_discovery(start_date,end_date,countries):
         seen.add(k); found.update(matched)
         summary=french_summary(title,{"countries":matched,"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
         if not summary: continue
+        summary=clean_summary_text(summary)
+        if not is_useful_article(summary): continue
         s=score(summary)
         regions=regions_for_countries(matched,s)
         rows.append({"regions":regions,"countries":matched,"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"global"})
@@ -522,6 +616,8 @@ def country_backfill(start_date,end_date,state):
             seen.add(k)
             summary=french_summary(title,{"countries":[country],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
             if not summary: continue
+            summary=clean_summary_text(summary)
+            if not is_useful_article(summary): continue
             s=score(summary)
             found.add(country)
             rows.append({"regions":regions_for_countries([country],s),"countries":[country],"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"gdelt" if "GDELT" in source_name(art["source"]) else "rss"})
@@ -592,6 +688,8 @@ def build_generated(start_date,end_date):
                 if not k[1] or k in seen: continue
                 summary=french_summary(title,{"regions":[region],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
                 if not summary: continue
+                summary=clean_summary_text(summary)
+                if not is_useful_article(summary): continue
                 importance=score(summary)
                 # International est strictement réservé aux événements d’importance >= 7.
                 if region=="International" and importance<7: continue
@@ -620,6 +718,16 @@ def main():
     # La campagne présidentielle française 2027 appartient exclusivement à
     # data/election.json : elle ne doit jamais alimenter Pays/continents/International.
     day_items=[x for x in day_items if not is_french_2027_presidential(x.get("summary",""))]
+    # Nettoyage éditorial : retirer les contenus hors sujet ou sans valeur informative
+    # (sport/people/faits divers locaux/SEO/opinions vagues), y compris s'ils avaient
+    # auparavant reçu une note artificiellement élevée par un mot-clé générique.
+    useful_items=[]
+    for x in day_items:
+        y=dict(x)
+        y["summary"]=clean_summary_text(y.get("summary",""))
+        if is_useful_article(y["summary"]):
+            useful_items.append(y)
+    day_items=useful_items
     # Réappliquer la grille courante à tout l'historique Jour à chaque cycle.
     # Les pays déterminent leur continent ; International est ajouté/retiré
     # automatiquement selon la nouvelle note (>= 7), sans supprimer l'article.
