@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:54:57.512324+02:00",
+  "generated_at": "2026-09-28T12:58:05.951648+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3655,27 +3655,6 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "7 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Tentative de coup d'État au Niger : la Russie se montre-t-elle plus efficace pour protéger ses alliés que pour combattre ses ennemis en Afrique de l'Ouest ?",
-      "sources": [
-        "BBC"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0WEFROVZyem9hcmNzNHZ3R3JaN0haWURHZlAwbUNIVTNPQ0xPYkxkaWdUa1ZiMV9WTnYxU180b3NDTzVOSW45TEhOZ09LRjVkdUpjMEQ4S0hybUpsTUHSAWNBVV95cUxPUTRwUE9WYTM0Umh3UDNKZzItbDE2c2JNUnZ2NWNFdVVpakNZRzdVU2g0ME5kbHl5MXM4djIxNW5vdnJianViNEtPUDRpUkJtU1ZOanE1NmtuUU1ySWxwMEdQN2s?oc=5",
-      "published_at": "2026-09-07T09:00:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Niger",
-        "Russie"
-      ]
-    },
-    {
-      "regions": [
         "Europe"
       ],
       "countries": [
@@ -4479,44 +4458,6 @@
       ],
       "url": "https://www.elpais.com.uy/el-empresario/lider-de-gerdau-como-convierte-la-chatarra-en-80-000-toneladas-de-acero-al-ano-en-uruguay-y-el-desafio-de-la-energia",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "countries": [
-        "Uruguay"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "El mercado laboral uruguayo se mantuvo estable en agosto , ¿ qué revelaron los datos del INE ?",
-      "sources": [
-        "elpais.com.uy"
-      ],
-      "url": "https://www.elpais.com.uy/negocios/noticias/el-mercado-laboral-uruguayo-se-mantuvo-estable-en-agosto-que-revelaron-los-datos-del-ine",
-      "published_at": "2026-09-25T08:45:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Amérique du Sud"
-      ],
-      "countries": [
-        "Uruguay"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Misión del FMI estuvo en Uruguay : ¿ qué elogios dio y qué advertencias y recomendaciones hizo ?",
-      "sources": [
-        "elpais.com.uy"
-      ],
-      "url": "https://www.elpais.com.uy/negocios/noticias/mision-del-fmi-estuvo-en-uruguay-que-elogios-dio-y-que-advertencias-y-recomendaciones-hizo",
-      "published_at": "2026-09-25T08:45:00+02:00",
       "origin": "rss"
     },
     {
@@ -6283,25 +6224,6 @@
     },
     {
       "regions": [
-        "Europe"
-      ],
-      "countries": [
-        "Luxembourg"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Sénatoriales 2026 : à quoi sert le Palais du Luxembourg ?",
-      "sources": [
-        "ladepeche.fr"
-      ],
-      "url": "https://www.ladepeche.fr/2026/09/25/senatoriales-2026-a-quoi-sert-le-palais-du-luxembourg-13567215.php",
-      "published_at": "2026-09-25T07:45:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Amérique du Nord"
       ],
       "countries": [
@@ -7276,25 +7198,6 @@
         "Asie"
       ],
       "countries": [
-        "Inde"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Casper 5 yıl premium yerinde servis nedir ? Kurumsal bilgisayarlarda uzun süreli teknik destek nasıl çalışır ?",
-      "sources": [
-        "tgrthaber.com"
-      ],
-      "url": "https://www.tgrthaber.com/teknoloji/casper-5-yil-premium-yerinde-servis-nedir-kurumsal-bilgisayarlarda-uzun-sureli-teknik-3361489",
-      "published_at": "2026-09-25T11:45:00+02:00",
-      "origin": "global"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "countries": [
         "Iran"
       ],
       "period": "day",
@@ -7568,7 +7471,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Australien : OpenAI - Agent dringt in das Medi­care - Portal der Re­gierung ein",
+      "summary": "Australien : OpenAI - Agent dringt in das Medicare - Portal der Regierung ein",
       "sources": [
         "computerbase.de"
       ],
@@ -7954,25 +7857,6 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdzFVUFJmaTZOblBKbHhxckdKdHQza2RLeDA2VTRCeFBZdW04di1ZY0trZTBnMUxTTXZjOHN2WV9aTkdNdXNaT2ZNeE1Kb2dRTW91OWZuREJFdlYybGlsUFhQZFc5bkRyVVQ4OS1GQmlIV3Exc0JGSGJGVTB4b3NrRWFwQU9sU0NWZjlVdWZWRVYwWE1VS01teEkwTnMyTXdzODQw?oc=5",
       "published_at": "2026-09-26T09:56:57+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Afrique"
-      ],
-      "countries": [
-        "Côte d’Ivoire"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "En Côte d’Ivoire, Tidjane Thiam peut-il survivre à ses procès ?",
-      "sources": [
-        "Jeune Afrique"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV0NzMTBLdFRENkV4cWhYMXp5V3YtUXB5U2Q5U2tTanlMOXR2YXMxRks5NHJuendHdzA2Zy0yd0pDTVlsTHJmNzN2TmU2WmpsY1kwS2JaUmRvM2lwME5sa1AxLWVQQ3R6WFBSNkxUenMwTFVtUzJ1cDNTd3dDMHhSUFB5R193QjNnWlpLeWZWeVY5WFZKSHVHOVJIRGRTdHJGNi1UbEpGN05GRkk?oc=5",
-      "published_at": "2026-09-25T19:09:08+02:00",
       "origin": "rss"
     },
     {
@@ -8850,20 +8734,6 @@
       "countries": []
     },
     {
-      "regions": [],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Technologie",
-      "summary": "\"Les téléchargements de Meta Muse AI montent en flèche\" . Est-il temps d’acheter cette action AI à bas prix ?",
-      "sources": [
-        "fool.com"
-      ],
-      "url": "https://www.fool.com/investing/2026/09/25/meta-s-muse-ai-downloads-are-soaring-is-it-time-to-buy-this-bargain-ai-stock/?source=iedfolrf0000001",
-      "published_at": "2026-09-25T11:45:00+02:00",
-      "origin": "rss"
-    },
-    {
       "regions": [
         "Europe"
       ],
@@ -9145,20 +9015,6 @@
       ]
     },
     {
-      "regions": [],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 5,
-      "category": "Géopolitique",
-      "summary": "Qu’est-ce que le service sur site premium Casper de 5 ans ? Comment fonctionne le support technique à long terme sur les ordinateurs d’entreprise ?",
-      "sources": [
-        "tgrthaber.com"
-      ],
-      "url": "https://www.tgrthaber.com/teknoloji/casper-5-yil-premium-yerinde-servis-nedir-kurumsal-bilgisayarlarda-uzun-sureli-teknik-3361489",
-      "published_at": "2026-09-25T11:45:00+02:00",
-      "origin": "rss"
-    },
-    {
       "regions": [
         "Asie"
       ],
@@ -9190,23 +9046,6 @@
       "url": "https://www.zazoom.it/2026-09-25/barbara-durso-si-o-no-milly-carlucci-rompe-il-silenzio-in-esclusiva-su-rai1/19722085/",
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Ralentir le développement de l’IA : est-ce réaliste ?",
-      "sources": [
-        "epochtimes.de"
-      ],
-      "url": "https://www.epochtimes.de/gesellschaft/ki-entwicklung-verlangsamen-ist-das-realistisch-a5616393.html",
-      "published_at": "2026-09-25T11:45:00+02:00",
-      "origin": "rss",
-      "countries": []
     },
     {
       "regions": [],
@@ -9484,7 +9323,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Le successeur de Warren Buffett, Greg Abel, détient 55 % du portefeuille de 360 ​​milliards de dollars de Berkshire Hathaway investi dans 4 actions remarquables.",
+      "summary": "Le successeur de Warren Buffett, Greg Abel, détient 55 % du portefeuille de 360 milliards de dollars de Berkshire Hathaway investi dans 4 actions remarquables.",
       "sources": [
         "fool.com"
       ],
@@ -10133,7 +9972,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Prix ​​pour un projet de santé du Salzkammergut",
+      "summary": "Prix pour un projet de santé du Salzkammergut",
       "sources": [
         "tips.at"
       ],
@@ -10995,20 +10834,6 @@
       "countries": []
     },
     {
-      "regions": [],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Désinformation sur le réseau de chaleur DESNZ – Qu'en est-il ?",
-      "sources": [
-        "wattsupwiththat.com"
-      ],
-      "url": "https://wattsupwiththat.com/2026/09/25/desnz-heat-network-disinformation/",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
-    },
-    {
       "regions": [
         "Asie"
       ],
@@ -11079,39 +10904,6 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": []
-    },
-    {
-      "regions": [],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "PHOTO À Ilica, une invitation inhabituelle s'est adressée aux habitants de Zagreb : qu'ouvririez-vous ici ?",
-      "sources": [
-        "index.hr"
-      ],
-      "url": "https://www.index.hr/magazin/clanak/foto-u-ilici-osvanuo-neobican-poziv-zagrepcanima-sto-biste-vi-otvorili-ovdje/2838633.aspx?index_tid=1167455&index_ref=naslovnica_magazin_najnovije_d",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Avec l'aide de Mbappé, la marque suisse On cherche à se faire une place parmi les géants du sport",
-      "sources": [
-        "elpais.com.uy"
-      ],
-      "url": "https://www.elpais.com.uy/el-empresario/de-la-mano-de-mbappe-la-marca-suiza-on-busca-ganar-un-sitio-entre-los-gigantes-del-deporte",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Suisse"
-      ]
     },
     {
       "regions": [],
@@ -11901,7 +11693,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Loyers à Francfort : les prix des appartements meublés augmentent – ​​la ville veut des règles",
+      "summary": "Loyers à Francfort : les prix des appartements meublés augmentent – la ville veut des règles",
       "sources": [
         "hessenschau.de"
       ],
@@ -12600,24 +12392,6 @@
       "countries": [
         "Italie"
       ]
-    },
-    {
-      "regions": [
-        "Europe",
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "L’IA pourrait-elle vraiment tuer tous les humains ?",
-      "sources": [
-        "the-star.co.ke"
-      ],
-      "url": "https://www.the-star.co.ke/news/2026-09-25-could-ai-really-kill-all-humans",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss",
-      "countries": []
     },
     {
       "regions": [
@@ -13912,22 +13686,6 @@
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
-      "category": "Géopolitique",
-      "summary": "Sommet américano-chinois à Washington : de quoi discutent Trump et Xi ?",
-      "sources": [
-        "tozsdeforum.hu"
-      ],
-      "url": "https://tozsdeforum.hu/extra/trump-es-hszi-csin-ping-washingtonban-targyal-a-mesterseges-intelligencia-es-a-kereskedelem-a-tet/",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
       "category": "Conflit",
       "summary": "Le Festival international du film de Singapour honorera Aamir Khan avec le Screen Icon Award",
       "sources": [
@@ -14274,7 +14032,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "La Garde côtière a capturé 56 ​​gmen irréguliers au large des côtes de Menderes et de Çeşme à Izmir",
+      "summary": "La Garde côtière a capturé 56 gmen irréguliers au large des côtes de Menderes et de Çeşme à Izmir",
       "sources": [
         "haberler.com"
       ],
@@ -14381,7 +14139,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les agriculteurs américains souffrent – ​​et s’inquiètent pour leur avenir",
+      "summary": "Les agriculteurs américains souffrent – et s’inquiètent pour leur avenir",
       "sources": [
         "wmra.org"
       ],
@@ -15076,25 +14834,6 @@
     },
     {
       "regions": [
-        "Afrique"
-      ],
-      "countries": [
-        "Sénégal"
-      ],
-      "period": "day",
-      "bucket": "26 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Comment Bassirou Diomaye Faye va-t-il gouverner le Sénégal ?",
-      "sources": [
-        "DW.com"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRURGdS1JdnhLc2VpVVpZZFNOX1k2WldxYl9TVUJ2YmRaYmF1TkJpUS1iUkc0U3g4YWNsQjBkUExuVVFTczltUjdkOWhMX0lxUkNKaVJmN0tSRklWS1JJaW9qa1RvdG5Xc3l0dmxMdnJhYzNjMEFhUWlXT0xqVzNITVlMYTBBZmVlRlFZcHR1TkhsbXJo?oc=5",
-      "published_at": "2026-09-26T05:48:08+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Amérique du Nord"
       ],
       "countries": [
@@ -15675,24 +15414,6 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 10,
-      "category": "Géopolitique",
-      "summary": "Le ministre russe Lavrov contre Berlin : n'a-t-il pas tiré les leçons de la Seconde Guerre mondiale ?",
-      "sources": [
-        "it.euronews.com"
-      ],
-      "url": "https://it.euronews.com/2026/09/27/il-ministro-russo-lavrov-contro-berlino-non-ha-imparato-le-lezioni-della-seconda-guerra-mo",
-      "published_at": "2026-09-27T10:15:00+02:00",
-      "origin": "rss",
-      "countries": []
-    },
-    {
-      "regions": [
         "Asie",
         "International"
       ],
@@ -15818,24 +15539,6 @@
       "url": "https://www.edaily.co.kr/News/Read?newsId=01784326645584384&mediaCodeNo=257",
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 7,
-      "category": "Géopolitique",
-      "summary": "L'Union européenne demande aux États membres de réduire leur consommation d'énergie. Quelles sont les mesures proposées ?",
-      "sources": [
-        "business24.ro"
-      ],
-      "url": "https://business24.ro/criza-energie/ue-avertisment-reducere-consum-energie-state-membre-1668797",
-      "published_at": "2026-09-27T10:15:00+02:00",
-      "origin": "rss",
-      "countries": []
     },
     {
       "regions": [],
@@ -16121,22 +15824,6 @@
         "ilgiorno.it"
       ],
       "url": "https://www.ilgiorno.it/economia/ultimaora/bar-sotto-casa-la-desertificazione-9972a34e",
-      "published_at": "2026-09-27T10:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Au lieu d'une jungle de tarifs : des billets pour 15 ou 60 minutes ?",
-      "sources": [
-        "gmx.at"
-      ],
-      "url": "https://www.gmx.at/magazine/wirtschaft/tarifdschungel-fahrscheine-15-60-minuten-42771718",
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss"
     },
@@ -16618,25 +16305,6 @@
       "url": "https://www.periodistadigital.com/economia/vivienda/20260927/sanchez-15-m-permite-compinches-acampen-puerta-sol-frente-despacho-ayuso-manifestarse-vivienda-noticia-689405251039/",
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Alerte mondiale sur le féminicide d'après le rapport officiel de l'ONU : 137 victimes chaque jour – Que se passe-t-il en Grèce ?",
-      "sources": [
-        "imerazante.gr"
-      ],
-      "url": "https://www.imerazante.gr/2026/09/27/402916",
-      "published_at": "2026-09-27T10:15:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Grèce"
-      ]
     },
     {
       "regions": [
@@ -17214,7 +16882,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Prix ​​alimentaires et salaire minimum : là où les revenus suivent le rythme en Europe",
+      "summary": "Prix alimentaires et salaire minimum : là où les revenus suivent le rythme en Europe",
       "sources": [
         "it.euronews.com"
       ],
@@ -17721,22 +17389,6 @@
     },
     {
       "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Langue française : faut - il écrire  le seul qui ait jamais  ou  le seul qui nait jamais  ?",
-      "sources": [
-        "rtl.fr"
-      ],
-      "url": "https://www.rtl.fr/culture/culture-generale/langue-francaise-faut-il-ecrire-le-seul-qui-ait-jamais-ou-le-seul-qui-n-ait-jamais-7900677048",
-      "published_at": "2026-09-27T10:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Afrique",
         "Asie"
       ],
@@ -17755,22 +17407,6 @@
         "Égypte",
         "Israël"
       ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Sondage : Les Polonais considèrent-ils les succès de l'AfD comme une menace pour notre pays ?",
-      "sources": [
-        "rp.pl"
-      ],
-      "url": "https://www.rp.pl/spoleczenstwo/art45195701-sondaz-niemal-co-czwarty-polak-uwaza-sukcesy-afd-za-zagrozenie-dla-polski",
-      "published_at": "2026-09-27T10:15:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -18460,22 +18096,6 @@
     },
     {
       "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Pourquoi le maestro Stefano Magnanensi a-t-il quitté Domenica IN ?",
-      "sources": [
-        "ultimenotizieflash.com"
-      ],
-      "url": "https://www.ultimenotizieflash.com/gossip-tv/programmi/perche-il-maestro-stefano-magnanensi-ha-lasciato-domenica-in",
-      "published_at": "2026-09-27T13:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Asie"
       ],
       "period": "day",
@@ -18677,22 +18297,6 @@
         "dw.com"
       ],
       "url": "https://www.dw.com/pl/szef-dyplomacji-niemiec-spotka%C5%82-si%C4%99-z-%C5%82awrowem-trzeba-rozmawia%C4%87-z-przeciwnikami/a-79447679",
-      "published_at": "2026-09-27T13:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "OVH ou autre hébergeur web : quelles alternatives choisir ?",
-      "sources": [
-        "lesnumeriques.com"
-      ],
-      "url": "https://www.lesnumeriques.com/appli-logiciel/ovh-ou-autre-hebergeur-web-quelles-alternatives-choisir-a261673.html",
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss"
     },
@@ -18939,7 +18543,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Un nouveau bâtiment devient un litige : le tribunal rend son jugement – ​​quels droits s'appliquent",
+      "summary": "Un nouveau bâtiment devient un litige : le tribunal rend son jugement – quels droits s'appliquent",
       "sources": [
         "merkur.de"
       ],
@@ -19167,27 +18771,6 @@
       "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-aerger-ueber-wohnungsnot-setzt-spaniens-regierung-unter-druck-15954929",
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie",
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 6,
-      "category": "Géopolitique",
-      "summary": "Immobilier : qui est « l’influent romantique » qui change le marché de l’immobilier de luxe en Grèce ?",
-      "sources": [
-        "athina984.gr"
-      ],
-      "url": "https://athina984.gr/2026/09/27/akinita-poios-einai-o-romantic-affluent-poy-allazei-tin-agora-polyteloys-katoikias-stin-ellada/",
-      "published_at": "2026-09-27T13:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Oman",
-        "Grèce"
-      ]
     },
     {
       "regions": [
@@ -19527,22 +19110,6 @@
       "countries": [
         "Grenade"
       ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Grève des fonctionnaires : écoles , transports , services publics … à quelles perturbations sattendre le 29 septembre ?",
-      "sources": [
-        "econostrum.info"
-      ],
-      "url": "https://econostrum.info/greve-des-fonctionnaires-quelles-perturbations/",
-      "published_at": "2026-09-27T13:30:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -20091,22 +19658,6 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les tombolas sont-elles la solution pour acheter des billets pour les concerts les plus populaires ?",
-      "sources": [
-        "ilpost.it"
-      ],
-      "url": "https://www.ilpost.it/2026/09/15/sistema-biglietti-concerti-oasis/?homepagePosition=20.1&referrerPost=3688997",
-      "published_at": "2026-09-27T13:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "Environ 150 000 personnes assistent à la messe du Pape au sanctuaire de Lourdes",
       "sources": [
         "dnoticias.pt"
@@ -20240,22 +19791,6 @@
       "countries": [
         "Russie"
       ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "8e commission salariale : publication du calendrier de la tournée Mumbai-Bengaluru, quelle est la nouvelle mise à jour sur l'augmentation des salaires ?",
-      "sources": [
-        "livehindustan.com"
-      ],
-      "url": "https://www.livehindustan.com/business/8th-pay-commission-latest-update-mumbai-bengaluru-visit-salary-hike-fitment-factor-check-all-details-201790500926101.html",
-      "published_at": "2026-09-27T13:15:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -21084,20 +20619,6 @@
       "origin": "global"
     },
     {
-      "regions": [],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "L’intelligence artificielle va-t-elle vraiment tous nous tuer ?",
-      "sources": [
-        "cbsnews.com"
-      ],
-      "url": "https://www.cbsnews.com/news/will-artificial-intelligence-really-kill-us-all/",
-      "published_at": "2026-09-27T16:30:00+02:00",
-      "origin": "rss"
-    },
-    {
       "regions": [
         "International"
       ],
@@ -21135,7 +20656,7 @@
       "bucket": "27 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "​Plisat se rassemble contre le verdict à La Haye, d'autres groupes de supporters se joignent à la manifestation",
+      "summary": "Plisat se rassemble contre le verdict à La Haye, d'autres groupes de supporters se joignent à la manifestation",
       "sources": [
         "botasot.info"
       ],
@@ -21747,7 +21268,7 @@
       "bucket": "27 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "L'Afghanistan revendique 28 morts et 32 ​​capturés à la frontière pakistanaise",
+      "summary": "L'Afghanistan revendique 28 morts et 32 capturés à la frontière pakistanaise",
       "sources": [
         "bendigoadvertiser.com.au"
       ],
@@ -21830,22 +21351,6 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": []
-    },
-    {
-      "regions": [
-        "International"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 7,
-      "category": "Sécurité",
-      "summary": "Dans quelle mesure devrions-nous nous inquiéter des cyberattaques liées à l’IA ?",
-      "sources": [
-        "newstalk.com"
-      ],
-      "url": "https://www.newstalk.com/news/ai-cyber-attacks-2312945",
-      "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -22376,22 +21881,6 @@
       "countries": [
         "Oman"
       ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Que peut-on faire pour réduire la température dans une ville ?",
-      "sources": [
-        "greensavers.sapo.pt"
-      ],
-      "url": "https://greensavers.sapo.pt/e-se-fosse-possivel-diminuir-a-temperatura-nas-cidades-2/",
-      "published_at": "2026-09-27T18:45:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -23205,41 +22694,6 @@
     },
     {
       "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Nuno Rogeiro : des funérailles, des dizaines de pancartes et un nouvel ordre. Qui dirige réellement l’Iran ?",
-      "sources": [
-        "sapo.pt"
-      ],
-      "url": "https://sapo.pt/artigo/nuno-rogeiro-um-funeral-dezenas-de-sinais-e-uma-nova-ordem-quem-esta-realmente-a-mandar-no-irao-6ab9302bbf983daebc5093e4",
-      "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Iran"
-      ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "BBC SPOTY ne peut pas ignorer la superstar sportive britannique méconnue qui est entrée dans l'histoire ce week-end",
-      "sources": [
-        "aol.co.uk"
-      ],
-      "url": "https://www.aol.co.uk/articles/bbc-spoty-cannot-overlook-unsung-152700000.html",
-      "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Europe"
       ],
       "period": "day",
@@ -23543,22 +22997,6 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Une hausse des prix alimentaires est-elle inévitable ?",
-      "sources": [
-        "klaipeda.diena.lt"
-      ],
-      "url": "https://klaipeda.diena.lt/naujienos/verslas/ekonomika/ar-maisto-kainu-suolis-neisvengiamas-1775883",
-      "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "Sánchez promet à Maricarmen de présenter mardi le décret sur le logement au Congrès espagnol",
       "sources": [
         "aristeguinoticias.com"
@@ -23585,22 +23023,6 @@
       "countries": [
         "Iran"
       ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "La campagne pour le logement prend racine à Sol avec des centaines de jeunes mobilisés et l'aide des voisins : avez-vous besoin de quelque chose de chez vous ?",
-      "sources": [
-        "20minutos.es"
-      ],
-      "url": "https://www.20minutos.es/madrid/acampada-por-vivienda-echa-raices-sol-con-cientos-jovenes-movilizados-ayuda-vecinos-necesitais-algo-casa_7041855_0.html",
-      "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -24482,26 +23904,6 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
-      ],
-      "countries": [
-        "Royaume-Uni"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 9,
-      "category": "Géopolitique",
-      "summary": "Une guerre pourrait bien se profiler au Royaume-Uni. Le pays est-il prêt ?",
-      "sources": [
-        "BBC (média public)"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tNWIyTTlPS0R1OXZMaHZSR3pjeFR4N2p3QkZ0ak9OOF9NQm9LVjVXUUo0QzJDMHE0aDk4MjhMSzV4UHhVdUlSVGJIZWQwbjh1ZVB0dGlUSmNqQ0s2cU1B0gFkQVVfeXFMTzVmRjlDb1BCRGtHSkdwbXI5MDNhQUhQMllnOFhVY1Jwd1E0MnhiN1kwTjhVSElfam1fbjllQXlxRzVEUklFXy1naG5vV0dvSFlkWGZpM2FuRm01Z3VMdGM4UjBDZw?oc=5",
-      "published_at": "2026-09-27T13:01:30+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Europe"
       ],
       "countries": [
@@ -24633,25 +24035,6 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTndhRjBCdkJZQkdsbkNhUFhYdWF0TkR5YS1lRHBxR0xiaEswTFZ6cS13MkI5Q01WM3RrMEZibk1jOHpxYzJzOEt1UGNxN1JtVU9GdWVzbFd1ckRIUGFWcGs4TWpMZDI3NVU3VjBqWDhLVmpZSHhBUzJMT1J5T3ZBMW92QmZ5dVZlaE5wd05CLUNZNmlzdmFUcGkyanJMZE9YQ0hxTDZmQndXdXhTOWc?oc=5",
       "published_at": "2026-09-27T13:17:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Afrique"
-      ],
-      "countries": [
-        "Algérie"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "En Algérie, qui sont les fidèles parmi les fidèles d’Abdelmadjid Tebboune ?",
-      "sources": [
-        "Jeune Afrique"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUURSX2R3UXNGZE1nOWVUTEg5NEdxWkhkMFJteXFPV3cwak1UaTF6c29tT0NkZXA3bFUyY1hJb2xWTV9iWHdXTE1BcHdkR09Od3MxNTMxWnNQcEZGbWpMemJXcW5VVTZFYnFBUzRlbHdZbXYtVE5zcC1LaDdzQ2hWUmNycXhLWWdFMkJZOGx6WUFJZWpGQWZWbkZ3Qy1veWRnbHExbXpfQXF1SUhpNEZRNjUzTzF1VTlYMnJB?oc=5",
-      "published_at": "2026-09-27T12:53:01+02:00",
       "origin": "rss"
     },
     {
@@ -25471,22 +24854,6 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Combien de temps doit-on réellement utiliser un téléphone portable avant de le remplacer ?",
-      "sources": [
-        "index.hr"
-      ],
-      "url": "https://www.index.hr/magazin/clanak/koliko-dugo-zapravo-trebamo-koristiti-mobitel-prije-nego-sto-ga-zamijenimo/2837512.aspx",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "Le président serbe Vucic démissionne",
       "sources": [
         "gmx.at"
@@ -25545,24 +24912,6 @@
       "url": "https://wiadomosci.wp.pl/krakow/wybory-w-krakowie-ekspert-bedzie-kilka-naturalnych-przeszkod-7334035538178625v",
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe",
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Choc de grève bancaire : fermeture nationale de 3 jours reportée à la dernière minute – Qu'est-ce qui a changé ?",
-      "sources": [
-        "oneindia.com"
-      ],
-      "url": "https://www.oneindia.com/india/bank-strike-shock-3-day-nationwide-shutdown-postponed-at-last-minute-whats-changed-8217931.html",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss",
-      "countries": []
     },
     {
       "regions": [
@@ -25791,27 +25140,6 @@
       "origin": "rss",
       "countries": [
         "Espagne"
-      ]
-    },
-    {
-      "regions": [
-        "Europe",
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Quand a lieu le match Turquie - Italie, sur quelle chaîne ?",
-      "sources": [
-        "haberts.com"
-      ],
-      "url": "https://www.haberts.com/turkiye-italya-maci-ne-zaman-hangi-kanalda",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Italie",
-        "Turquie"
       ]
     },
     {
@@ -26180,7 +25508,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Pourquoi les États s’endettent – ​​et quand cela devient dangereux",
+      "summary": "Pourquoi les États s’endettent – et quand cela devient dangereux",
       "sources": [
         "gmx.at"
       ],
@@ -26575,22 +25903,6 @@
         "hindustantimes.com"
       ],
       "url": "https://www.hindustantimes.com/world-news/us-news/french-clergy-abuse-survivors-praise-meeting-with-pope-leo-xiv-say-he-listened-was-informed-101790534972005.html",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "AVIS d'Eddie Punch : Il est temps de parler de citoyenneté ?",
-      "sources": [
-        "clarechampion.ie"
-      ],
-      "url": "https://clarechampion.ie/opinion-with-eddie-punch-its-time-to-talk-about-citizenship/",
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss"
     },
@@ -28797,22 +28109,6 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Pourquoi le parti républicain continue de perdre du terrain dans la course aux élections de mi-mandat ?",
-      "sources": [
-        "dailykos.com"
-      ],
-      "url": "https://www.dailykos.com/stories/2026/9/27/800104266/community/why-the-republican-party-keeps-losing-ground-in-the-race-for-the-midterm-elections/",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "Comment les actions évolueront-elles pendant la Fête de la Mi-Automne ? Du Jinlong a révélé le point d'achat du quatrième trimestre : « Trois grands groupes » peuvent le conserver l'esprit tranquille jusqu'à l'année prochaine | Finances | Réseau d'information Sanli SETN.COM",
       "sources": [
         "setn.com"
@@ -29507,24 +28803,6 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Pourquoi les musulmans ne peuvent-ils pas se rassembler ?",
-      "sources": [
-        "yeniakit.com.tr"
-      ],
-      "url": "https://www.yeniakit.com.tr/yazarlar/abdullah-sanlidag/muslumanlar-neden-bir-araya-gelemiyor-53914.html",
-      "published_at": "2026-09-28T00:30:00+02:00",
-      "origin": "rss",
-      "countries": []
-    },
-    {
-      "regions": [
         "Asie"
       ],
       "period": "day",
@@ -29774,22 +29052,6 @@
     },
     {
       "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Dana White est-elle la pire personne en boxe ?",
-      "sources": [
-        "badlefthook.com"
-      ],
-      "url": "https://www.badlefthook.com/post/BRC_q2ojQ-Cj",
-      "published_at": "2026-09-28T00:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Asie",
         "Amérique du Nord"
       ],
@@ -29805,22 +29067,6 @@
       "published_at": "2026-09-28T00:30:00+02:00",
       "origin": "rss",
       "countries": []
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Synopsys (SNPS) est-il un jeu d'évasion alors que les vents contraires s'atténuent et que BNP Paribas se modernise ?",
-      "sources": [
-        "insidermonkey.com"
-      ],
-      "url": "https://www.insidermonkey.com/news/is-synopsys-snps-a-breakout-play-as-headwinds-subside-and-bnp-paribas-upgrades-1844794/",
-      "published_at": "2026-09-28T00:30:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -30045,7 +29291,7 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "ANF ​​| Le mont Shengal est l'assurance de la vie",
+      "summary": "ANF | Le mont Shengal est l'assurance de la vie",
       "sources": [
         "anf-news.com"
       ],
@@ -30080,7 +29326,7 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "ANF ​​| Londrada Shahid Haqiqet et Shiaryyla Orma",
+      "summary": "ANF | Londrada Shahid Haqiqet et Shiaryyla Orma",
       "sources": [
         "anf-news.com"
       ],
@@ -30352,22 +29598,6 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "[K de Kang Jong-jin - La photographie et l'avenir] À l'ère de l'IA, à quel type de photographie le pays croira-t-il ?",
-      "sources": [
-        "etnews.com"
-      ],
-      "url": "https://www.etnews.com/20260928000035",
-      "published_at": "2026-09-28T03:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "Cher carburant, après Eni, Socar ralentit aussi les prix : limites sur le réseau IP, extension possible à Esso",
       "sources": [
         "online-news.it"
@@ -30472,60 +29702,12 @@
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
-      "category": "Géopolitique",
-      "summary": "Nos Continents : Documentaire Europe Documentaire, 3sat, 28. 09. 2026, 3h05 - Diffusion à la TV - TV & Radio",
-      "sources": [
-        "tele.at"
-      ],
-      "url": "https://www.tele.at/sendungsdetails/22848389/unsere-kontinente-europa.html",
-      "published_at": "2026-09-28T03:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 7,
-      "category": "Géopolitique",
-      "summary": "Agence : Les ventes au détail de véhicules à énergies nouvelles étaient faibles début septembre et la capacité installée éolienne et solaire a augmenté régulièrement",
-      "sources": [
-        "finance.sina.com.cn"
-      ],
-      "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initirzi8835459.shtml",
-      "published_at": "2026-09-28T03:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
       "category": "Technologie",
       "summary": "Mercedes-Benz s'associe à Wayve pour introduire AI Driver, et la technologie de conduite autonome se concentre simultanément sur trois itinéraires",
       "sources": [
         "cars.tvbs.com.tw"
       ],
       "url": "https://cars.tvbs.com.tw/car-news/341969",
-      "published_at": "2026-09-28T03:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 8,
-      "category": "Géopolitique",
-      "summary": "Prix ​​de l'essence aujourd'hui 28 septembre : le pétrole mondial a encore augmenté",
-      "sources": [
-        "eva.vn"
-      ],
-      "url": "https://eva.vn/tin-tuc/gia-xang-dau-hom-nay-28-9-dau-the-gioi-tang-tro-lai-c73a684462.html",
       "published_at": "2026-09-28T03:30:00+02:00",
       "origin": "rss"
     },
@@ -30709,22 +29891,6 @@
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 6,
-      "category": "Géopolitique",
-      "summary": "Le ministère de la Justice a-t-il . Le Russe Usmanov sanctionné est-il une faveur en inculpant Josh Wander ?",
-      "sources": [
-        "niagarafallsreporter.com"
-      ],
-      "url": "https://niagarafallsreporter.com/did-justice-department-do-sanctioned-russian-a-favor-in-usa-v-wander",
-      "published_at": "2026-09-28T03:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
       "summary": "Thélyson Orélien est exclue du prestigieux prix Goncourt pour l'usage de l'IA et le plagiat",
@@ -30750,25 +29916,6 @@
       "url": "https://www.straitstimes.com/world/europe/british-village-on-edge-over-threats-to-us-air-base-in-terror-alert",
       "published_at": "2026-09-28T03:30:00+02:00",
       "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Comment un détroit maritime unique affecte-t-il les coûts de ravitaillement en carburant en Hongrie ?",
-      "sources": [
-        "profitline.hu"
-      ],
-      "url": "https://profitline.hu/hogyan-befolyasolja-egyetlen-tengeri-szoros-mennyibe-kerul-a-tankolas-magyarorszagon-491136",
-      "published_at": "2026-09-28T03:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Hongrie"
-      ]
     },
     {
       "regions": [
@@ -30967,22 +30114,6 @@
     },
     {
       "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Explication : Pourquoi le prix que vous voyez au début d'un achat en ligne n'est-il pas toujours celui que vous payez à la fin ?",
-      "sources": [
-        "e-radio.gr"
-      ],
-      "url": "https://www.e-radio.gr/post/333633/explainer-giati-i-timi-poy-vlepeis-stin-arxi-mias-online-agoras-den-einai-panta-ayti-poy-plirwneis-sto-telos",
-      "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Amérique du Sud"
       ],
       "period": "day",
@@ -30999,22 +30130,6 @@
       "countries": [
         "Pérou"
       ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "SEMAINE 3 : Dimanche soir : Los Angeles Rams vs Denver Broncos - Sport - US - Ballsport, RTL, 28. 09. 2026, 02h00 - diffusion à la TV - TV & Radio",
-      "sources": [
-        "tele.at"
-      ],
-      "url": "https://www.tele.at/sendungsdetails/22865238/week-3-sunday-night-los-angeles-rams-at-denver-broncos.html",
-      "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -31569,26 +30684,6 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 9,
-      "category": "Géopolitique",
-      "summary": "À qui a réellement profité la guerre en RDC ?",
-      "sources": [
-        "insiderzim.com"
-      ],
-      "url": "https://insiderzim.com/who-really-benefitted-from-the-drc-war/",
-      "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Congo (RDC)"
-      ]
-    },
-    {
-      "regions": [
         "Europe"
       ],
       "period": "day",
@@ -31779,38 +30874,6 @@
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 7,
-      "category": "Géopolitique",
-      "summary": "Continuant à répondre aux demandes les plus exigeantes, nous avons expédié plus de 10 000 unités en 40 ans, créant des synergies dans les usines de semi-conducteurs grâce à la construction et à la fabrication d'équipements.",
-      "sources": [
-        "special.nikkeibp.co.jp"
-      ],
-      "url": "https://special.nikkeibp.co.jp/atclh/ONB/26/asahikogyosha0928/",
-      "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "L'escadron indien MiG-21 réapparaît après sa retraite ?",
-      "sources": [
-        "vov.vn"
-      ],
-      "url": "http://vov.vn/the-gioi/phi-doi-mig-21-cua-an-do-se-tai-xuat-sau-khi-ve-huu-post1336441.vov",
-      "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
       "summary": "Allemagne dure - Focus sur la vie - Bilan social",
@@ -31958,28 +31021,6 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 8,
-      "category": "Géopolitique",
-      "summary": "La Grèce surprend l'Allemagne alors que l'Irlande montre son chagrin pour Gaza - Sport",
-      "sources": [
-        "namibian.com.na"
-      ],
-      "url": "https://www.namibian.com.na/greece-stun-klopps-germany-as-ireland-show-sorrow-for-gaza/",
-      "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Allemagne",
-        "Grèce",
-        "Irlande"
-      ]
-    },
-    {
-      "regions": [
         "Asie"
       ],
       "period": "day",
@@ -32015,22 +31056,6 @@
       "countries": [
         "Royaume-Uni"
       ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Madiambal Diagne : et si la République était le véritable sujet ?",
-      "sources": [
-        "seneweb.com"
-      ],
-      "url": "https://www.seneweb.com/fr/news/Opinion/madiambal-diagne-et-si-la-republique-etait-le-veritable-sujet_n_505424.html",
-      "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -32125,22 +31150,6 @@
         "Inde",
         "Sri Lanka"
       ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Calendrier des Jeux asiatiques du 28 septembre à Taiwan》 Lin Yunru figure sur la liste des médailles d'or en simple masculin, diffusion et liste des joueurs | Complet | Sportif",
-      "sources": [
-        "nownews.com"
-      ],
-      "url": "https://www.nownews.com/news/6878629",
-      "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -32295,22 +31304,6 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Pourquoi certains militants zimbabwéens ont-ils été bouleversés par le tweet de Tsitsi Masiyiwa ?",
-      "sources": [
-        "insiderzim.com"
-      ],
-      "url": "https://insiderzim.com/why-were-some-zimbabwean-activists-upset-by-tsitsi-masiyiwas-tweet/",
-      "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "Ibrahim Diabaté: «J'ai vraiment aimé jouer à Alavés»",
       "sources": [
         "elcorreo.com"
@@ -32428,22 +31421,6 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Pourquoi les Européens s’émancipent-ils à 26 ans et les Espagnols à 30 ans ?",
-      "sources": [
-        "elcorreo.com"
-      ],
-      "url": "https://www.elcorreo.com/sociedad/europeos-emancipan-espanoles-20260927004324-nt.html",
-      "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "Joignez-vous à la main pour promouvoir l’initiative de développement mondial afin d’aller plus loin et de manière plus pratique. Le président Xi Jinping a envoyé une lettre de félicitations au dialogue de haut niveau à l'occasion du cinquième anniversaire de l'initiative mondiale de développement, ce qui a suscité une réponse chaleureuse de la communauté internationale.",
       "sources": [
         "news.china.com.cn"
@@ -32548,22 +31525,6 @@
         "seneweb.com"
       ],
       "url": "https://www.seneweb.com/fr/news/Sante/greve-de-72-heures-le-sames-durcit-le-ton-et-annonce-un-nouveau-debrayage_n_505408.html",
-      "published_at": "2026-09-28T03:00:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 6,
-      "category": "Géopolitique",
-      "summary": "La location de voitures particulières surpasse une fois de plus le marché en matière de sécurité",
-      "sources": [
-        "esdiario.com"
-      ],
-      "url": "https://www.esdiario.com/motor/260928/198737/turismos-renting-vuelven-superar-mercado-seguridad.html",
       "published_at": "2026-09-28T03:00:00+02:00",
       "origin": "rss"
     },
