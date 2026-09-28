@@ -92,28 +92,26 @@ def enrich_leader_context(text):
     """Précise fonction et pays d'un responsable connu sans inventer le contenu de la source."""
     out=(text or "").strip()
 
-    # Noms complets : normaliser un éventuel titre déjà présent.
+    # Noms complets : normaliser un titre éventuel.
     for name,label in LEADER_LABELS.items():
         if name.lower() not in out.lower() or label.lower() in out.lower():
             continue
-        out=re.sub(
-            r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances)?\\s*"+re.escape(name),
-            label,out,count=1
-        )
+        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances)?\s*"+re.escape(name)
+        out=re.sub(pattern,label,out,count=1)
 
-    # Noms de famille seuls, fréquents dans les titres de presse.
+    # Noms de famille seuls, très fréquents dans les titres.
     for alias,(full_name,role) in PERSON_SURNAME_ALIASES.items():
         label=LEADER_LABELS.get(full_name)
-        if not label or label.lower() in out.lower() or not re.search(r"(?i)\\b"+re.escape(alias)+r"\\b",out):
+        if not label or label.lower() in out.lower() or not re.search(r"(?i)\b"+re.escape(alias)+r"\b",out):
             continue
-        # Formes grammaticales françaises courantes.
+        # Prépositions françaises : « de Trump » -> « du président Donald Trump (États-Unis) ».
         if role=="président":
-            out=re.sub(r"(?i)\\bde\\s+(?:le\\s+président\\s+)?"+re.escape(alias)+r"\\b",lambda _:"du "+label,out,count=1)
-            out=re.sub(r"(?i)\\bà\\s+(?:le\\s+président\\s+)?"+re.escape(alias)+r"\\b",lambda _:"au "+label,out,count=1)
-        out=re.sub(
-            r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|trésorier(?: fédéral)?|ministre des finances)?\\s*\\b"+re.escape(alias)+r"\\b",
-            label,out,count=1
-        )
+            out=re.sub(r"(?i)\bde\s+(?:le\s+président\s+)?"+re.escape(alias)+r"\b","du "+label,out,count=1)
+            out=re.sub(r"(?i)\bà\s+(?:le\s+président\s+)?"+re.escape(alias)+r"\b","au "+label,out,count=1)
+        if label.lower() in out.lower():
+            continue
+        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|trésorier(?: fédéral)?|ministre des finances)?\s*\b"+re.escape(alias)+r"\b"
+        out=re.sub(pattern,label,out,count=1)
     return out
 
 # Lieux infranationaux fréquemment rencontrés. Ajouter le pays seulement lorsque
@@ -219,7 +217,7 @@ def is_useful_article(text):
       "tarifs douaniers","commerce international","réfugié","réfugiés","justice constitutionnelle",
       "cour constitutionnelle","loi","réforme","régulation","national security"
     )
-    has_strong=any(x in t for x in strong)
+    has_strong=any(term_in_text(t,x) for x in strong)
 
     # Sport, people, divertissement, culture et loisirs : hors produit sauf conséquence publique forte.
     low_value=(
@@ -232,6 +230,31 @@ def is_useful_article(text):
       " sport "," sportif "," sportive "," documentaire "," migration animale "," faune sauvage "
     )
     if any(x in t for x in low_value) and not has_strong:
+        return False
+
+    # Cours d'une action isolée / langage de trading : pas de veille géopolitique
+    # sans sanction, contrôle export, décision publique ou enjeu industriel stratégique.
+    single_stock_noise=(
+      "cours de l'action","cours de l’action","cours des actions","fait chuter le cours",
+      "chute du cours","actions technologiques s'affaiblissent","actions technologiques s’affaiblissent",
+      "chip high flyer","action en hausse","action en baisse","fiche valeur"
+    )
+    strategic_market_context=(
+      "sanction","contrôle des exportations","restriction d'exportation","restriction d’exportation",
+      "droits de douane","tarifs douaniers","gouvernement","ministère","régulateur",
+      "subvention publique","sécurité nationale","embargo","interdiction"
+    )
+    if any(x in t for x in single_stock_noise) and not any(x in t for x in strategic_market_context):
+        return False
+
+    # Ouvertures de commerces, vie culturelle locale et lecture : hors veille.
+    local_lifestyle=("librairie","lecteurs","ouverture du magasin","ouverture d'un magasin","ouverture d’un magasin","nouvelle maison pour feltrinelli")
+    if any(x in t for x in local_lifestyle) and not has_strong:
+        return False
+
+    # Éviter les spéculations/sujets people sur la santé ou l'apparence d'un responsable.
+    health_gossip=("éruption cutanée","rash","ecchymose","bruising","apparence physique")
+    if any(x in t for x in health_gossip) and not any(x in t for x in ("hospitalisé","communiqué médical","bulletin médical","opération","diagnostic officiel")):
         return False
 
     # Faits divers strictement locaux sans portée institutionnelle ou géopolitique.
@@ -310,6 +333,13 @@ def is_useful_article(text):
 
     return True
 
+def term_in_text(text, term):
+    """Cherche un mot/une expression complète, jamais une sous-chaîne accidentelle."""
+    value=(text or "").lower()
+    needle=(term or "").strip().lower()
+    if not needle: return False
+    return re.search(r"(?<![a-z0-9à-ÿ])"+re.escape(needle)+r"(?![a-z0-9à-ÿ])",value,re.I) is not None
+
 def election_score(text):
     """Les élections nationales de dirigeants restent des événements internationaux majeurs."""
     t=" "+(text or "").lower()+" "
@@ -330,7 +360,7 @@ def score(text):
         return 2
     hits=[]
     for level,words in IMPACT.items():
-        count=sum(1 for w in words if w in t)
+        count=sum(1 for w in words if term_in_text(t,w))
         if count:
             hits.append((level,count))
     forced=election_score(text)
@@ -346,7 +376,7 @@ def score(text):
 def category(title):
     t=" "+title.lower()+" "
     for cat,words in CATEGORIES:
-        if any(w in t for w in words): return cat
+        if any(term_in_text(t,w) for w in words): return cat
     return "Géopolitique"
 def key_title(title):
     words=re.findall(r"[a-z0-9à-ÿ]+",(title or "").lower())
@@ -471,7 +501,14 @@ def fetch_article_detail(url):
                 if len(val)>=100:
                     candidates.append(val)
                 if sum(len(x) for x in candidates)>=900: break
-        detail=" ".join(candidates[:3])
+        unique=[]
+        seen_detail=set()
+        for val in candidates:
+            k=key_title(val)
+            if not k or k in seen_detail: continue
+            seen_detail.add(k)
+            unique.append(val)
+        detail=" ".join(unique[:3])
         detail=re.sub(r"\s+"," ",detail).strip()[:1200]
         ARTICLE_DETAIL_CACHE[url]=detail
         return detail
@@ -479,6 +516,17 @@ def fetch_article_detail(url):
         print("ARTICLE DETAIL",url,exc,file=sys.stderr)
         ARTICLE_DETAIL_CACHE[url]=""
         return ""
+
+def dedupe_summary_sentences(text):
+    parts=re.split(r"(?<=[.!?])\s+",clean_summary_text(text))
+    out=[]; seen=set()
+    for part in parts:
+        part=part.strip()
+        if not part: continue
+        k=key_title(part)
+        if not k or k in seen: continue
+        seen.add(k); out.append(part)
+    return " ".join(out)
 
 def article_summary(art, meta=None):
     """Construit un vrai résumé à partir du titre ET d'un extrait/description de l'article."""
@@ -497,7 +545,7 @@ def article_summary(art, meta=None):
     source_text=f"{title}. {detail[:900]}"
     combined=french_summary(source_text,meta)
     if not combined: return None
-    combined=clean_summary_text(enrich_editorial_context(combined))
+    combined=dedupe_summary_sentences(enrich_editorial_context(combined))
     # Résumé lisible : 2-3 phrases / ~700 caractères maximum.
     if len(combined)>700:
         cut=combined[:700]
