@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:21:40.713149+02:00",
+  "generated_at": "2026-09-28T15:24:15.328722+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3691,26 +3691,6 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "International"
-      ],
-      "countries": [
-        "Colombie"
-      ],
-      "period": "day",
-      "bucket": "23 septembre 2026",
-      "score": 7,
-      "category": "Énergie",
-      "summary": "NG Energy International Corp. (GASX) ouvre les marchés",
-      "sources": [
-        "The Globe and Mail"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWGtURFVMemdyeUpaRXdraE1DZ0lDcVQ2dnEtRTdzUlMyendfRmFHQ1M0ajNSNTVveWVYUUIyTlNtUUx5YjJQbk5SNGdPTkJJbTRKWmRMOGMwRDlqdkRLV1lhcGxjVHBVWUhGY2Z1Vk9VMDFlVkpmNHhlX2ZIZ2ZPamlkTWtGSE5mMkVZRWVocnhCQnljTEZjc2VjT2RZelhyN0tkdnBMdmtLZll5aXJCLWc1MXMteVNhUWotSzhtcUNTWE5JU09CbE5lWGE?oc=5",
-      "published_at": "2026-09-23T16:56:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Asie",
         "International"
       ],
@@ -5034,25 +5014,6 @@
     },
     {
       "regions": [
-        "Asie"
-      ],
-      "countries": [
-        "Kazakhstan"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Kazakhstan : Hidden Camera , Special Measure , Expert Analyse , Trial – Jail To Follow ? - Analysis",
-      "sources": [
-        "eurasiareview.com"
-      ],
-      "url": "https://www.eurasiareview.com/25092026-kazakhstan-hidden-camera-special-measures-expert-analyses-trial-jail-to-follow-analysis/",
-      "published_at": "2026-09-25T04:00:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
         "Afrique"
       ],
       "countries": [
@@ -6068,26 +6029,6 @@
         "Asie"
       ],
       "countries": [
-        "Philippines",
-        "Iran"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Conflit",
-      "summary": "Dayanghirang Warns vs . Proposed Facebook Ban in Philippines",
-      "sources": [
-        "sunstar.com.ph"
-      ],
-      "url": "https://www.sunstar.com.ph/davao/dayanghirang-warns-vs-facebook-ban",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "countries": [
         "Philippines"
       ],
       "period": "day",
@@ -6461,25 +6402,6 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Veliaht Prens teyakkuza geçti ! Türkiye ve Pakistana acil kodlu çağrı",
-      "sources": [
-        "bursadabugun.com"
-      ],
-      "url": "https://www.bursadabugun.com/haber/veliaht-prens-teyakkuza-gecti-turkiye-ve-pakistan-a-acil-kodlu-cagri-1951528.html",
-      "published_at": "2026-09-25T10:45:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "countries": [
-        "Pakistan"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "Suudi Arabistandan Türkiye ve Pakistana acil çağrı : Genelkurmay Başkanları toplansın , bize saldırıyorlar",
       "sources": [
         "anlatilaninotesi.com.tr"
@@ -6811,7 +6733,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Suudi Arabistana saldırılar sonrası kritik gelişme ! Türkiye ve Pakistan devreye giriyor",
+      "summary": "Suudi Arabistana saldırılar sonrası kritik gelişme !",
       "sources": [
         "ahaber.com.tr"
       ],
@@ -7488,7 +7410,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Index snimio Horvatinčića za volanom . Uhićen je",
+      "summary": "Index snimio Horvatinčića za volanom .",
       "sources": [
         "index.hr"
       ],
@@ -7507,7 +7429,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Politique",
-      "summary": "Iranian President Denies Nuclear Ambitions | News Radio 94 . 3 WSC",
+      "summary": "Iranian President Denies Nuclear Ambitions | News Radio 94 .",
       "sources": [
         "943wsc.iheart.com"
       ],
@@ -8874,7 +8796,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Maman ! Maman ! MAMAN ! 3 façons de rester calme dans les moments parentaux stressants",
+      "summary": "Maman ! 3 façons de rester calme dans les moments parentaux stressants",
       "sources": [
         "wcsufm.org"
       ],
@@ -9063,20 +8985,6 @@
         "aktiencheck.de"
       ],
       "url": "https://www.aktiencheck.de/news/Artikel-ROUNDUP_Investor_Attestor_uebernimmt_Condor_ganz_Staat_steigt_aus-20122945",
-      "published_at": "2026-09-25T11:45:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Quel métier prend fin ? Un maître de 61 ans laissé seul",
-      "sources": [
-        "onedio.com"
-      ],
-      "url": "https://onedio.com/haber/bir-meslek-bitiyor-kellecilik-ciraksizlik-yuzunden-son-gunlerini-yasiyor-61-yillik-usta-yalniz-kaldi-1383816",
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss"
     },
@@ -9480,7 +9388,7 @@
       "bucket": "25 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "ASCIIjp : Moins de 4000 yens, donc pas cher ! Une montre intelligente trop bon marché était vraiment utile ! (1 / 5)",
+      "summary": "ASCIIjp : Moins de 4000 yens, donc pas cher ! Une montre intelligente trop bon marché était vraiment utile !",
       "sources": [
         "ascii.jp"
       ],
@@ -9736,9 +9644,9 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
-      "summary": "Cela pourrait être une chance pour la Pologne de devenir une puissance. Ce marché va monter en flèche",
+      "summary": "Cela pourrait être une chance pour la Pologne de devenir une puissance.",
       "sources": [
         "wiadomosci.radiozet.pl"
       ],
@@ -9818,7 +9726,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les gens célèbrent les 100 ans du vétéran américain. ils ont envoyé plus de 4 000 cartes papier pour leurs anniversaires",
+      "summary": "Les gens célèbrent les 100 ans du vétéran américain. Ils ont envoyé plus de 4 000 cartes papier pour leurs anniversaires",
       "sources": [
         "novinky.cz"
       ],
@@ -9944,7 +9852,7 @@
       "bucket": "25 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Opération FETO sur l'infrastructure de MASAK. 3 anciens présidents du MASAK témoigneront",
+      "summary": "Opération FETO sur l'infrastructure de MASAK.",
       "sources": [
         "f5haber.com"
       ],
@@ -10023,7 +9931,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Rupiah a subi des pressions à l'approche de 18 ans. 000, le sentiment externe est le coupable",
+      "summary": "Rupiah a subi des pressions à l'approche de 18 ans.",
       "sources": [
         "liputan6.com"
       ],
@@ -10942,7 +10850,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Entrées boursières sur Spotify pour vous. un. Parvin Razavi, Bitcoin, McDonald's",
+      "summary": "Entrées boursières sur Spotify pour vous.",
       "sources": [
         "boerse-social.com"
       ],
@@ -11128,7 +11036,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Index a filmé Horvatinčić au volant. Il a été arrêté",
+      "summary": "Index a filmé Horvatinčić au volant.",
       "sources": [
         "index.hr"
       ],
@@ -11175,7 +11083,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "\"Le président iranien vous appelle\". S. Accord avant la mi-mandat",
+      "summary": "\"Le président iranien vous appelle\". S.",
       "sources": [
         "wtkg.iheart.com"
       ],
@@ -11258,7 +11166,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "[HK] Groupe Shimao (00813) : Rapport intermédiaire 2026 - CFi. Réseau financier CN Chine",
+      "summary": "[HK] Groupe Shimao (00813) : Rapport intermédiaire 2026 - CFi.",
       "sources": [
         "cfi.net.cn"
       ],
@@ -11478,7 +11386,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Sécurité",
-      "summary": "Un résident de Kislovodsk a été condamné à 8 ans de prison pour financement du terrorisme :: 1777. Ru",
+      "summary": "Un résident de Kislovodsk a été condamné à 8 ans de prison pour financement du terrorisme :: 1777.",
       "sources": [
         "news.1777.ru"
       ],
@@ -11577,7 +11485,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Ils cherchent, mais ils ne trouvent pas la majorité parlementaire - 2026. Vendredi 25 septembre",
+      "summary": "Ils cherchent, mais ils ne trouvent pas la majorité parlementaire - 2026.",
       "sources": [
         "3szek.ro"
       ],
@@ -11763,7 +11671,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Nous avons rencontré un autre couple pendant la croisière. Le troisième soir, ma femme m'a dit en secret : Prends soin de ton mari ! (histoire vraie d'une femme slovène)",
+      "summary": "Nous avons rencontré un autre couple pendant la croisière. Le troisième soir, ma femme m'a dit en secret : Prends soin de ton mari !",
       "sources": [
         "cosmopolitan.metropolitan.si"
       ],
@@ -11882,7 +11790,7 @@
       "bucket": "25 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Le ministre de la Défense, à l'hôpital militaire de Sibiu. Le Pavillon Polytraumatologie est inauguré",
+      "summary": "Le ministre de la Défense, à l'hôpital militaire de Sibiu.",
       "sources": [
         "tribuna.ro"
       ],
@@ -12119,7 +12027,7 @@
       "bucket": "25 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "La Corée du Sud voulait à l’origine garder le secret le président Volodymyr Zelensky (Ukraine) révèle que 2 prisonniers de guerre nord-coréens ont été envoyés à Séoul. Lee Jae-myung révèle la raison | International",
+      "summary": "La Corée du Sud voulait à l’origine garder le secret le président Volodymyr Zelensky (Ukraine) révèle que 2 prisonniers de guerre nord-coréens ont été envoyés à Séoul.",
       "sources": [
         "newtalk.tw"
       ],
@@ -12436,7 +12344,7 @@
       "bucket": "25 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "La Grande-Bretagne ne lèvera pas les sanctions contre Usmanov et Friedman Bloomberg Finance. ua.",
+      "summary": "La Grande-Bretagne ne lèvera pas les sanctions contre Usmanov et Friedman Bloomberg Finance. Ua.",
       "sources": [
         "news.finance.ua"
       ],
@@ -12523,7 +12431,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Radev: L'adhésion de la Bulgarie au Mécanisme européen de stabilité est avant tout une responsabilité ᐉ Nouvelles de Fakti. bg - Bulgarie",
+      "summary": "Radev: L'adhésion de la Bulgarie au Mécanisme européen de stabilité est avant tout une responsabilité ᐉ Nouvelles de Fakti.",
       "sources": [
         "fakti.bg"
       ],
@@ -12593,7 +12501,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "EQS - Adhoc : Brockhaus Technologies AG : Brockhaus Technologies lance une offre publique de rachat d'actions d'un volume d'environ 90 millions d'euros par l'acquisition d'un maximum de 3. 592. 000 actions",
+      "summary": "EQS - Adhoc : Brockhaus Technologies AG : Brockhaus Technologies lance une offre publique de rachat d'actions d'un volume d'environ 90 millions d'euros par l'acquisition d'un maximum de 3. 592.",
       "sources": [
         "finanznachrichten.de"
       ],
@@ -12641,7 +12549,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Isabelle Schnabel à partir de janvier 2027. occupe une position élevée au FMI",
+      "summary": "Isabelle Schnabel à partir de janvier 2027.",
       "sources": [
         "politika.rs"
       ],
@@ -13139,7 +13047,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Nous avons rencontré un autre couple pendant la croisière. Le troisième soir, ma femme m'a dit en secret : surveille ton mari ! (histoire vraie d'une femme slovène)",
+      "summary": "Nous avons rencontré un autre couple pendant la croisière. Le troisième soir, ma femme m'a dit en secret : surveille ton mari !",
       "sources": [
         "cosmopolitan.metropolitan.si"
       ],
@@ -13665,7 +13573,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le président Donald Trump (États-Unis) -le président Xi Jinping (Chine), les regards au dîner d'État : Melania en Dolce et Gabbana enchante (et envoie un message à Pékin). Peng en rouge feu. Et Elon Musk apparaît",
+      "summary": "Le président Donald Trump (États-Unis) -le président Xi Jinping (Chine), les regards au dîner d'État : Melania en Dolce et Gabbana enchante (et envoie un message à Pékin). Peng en rouge feu.",
       "sources": [
         "ilgazzettino.it"
       ],
@@ -13903,7 +13811,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "L'Iran a proposé aux États-Unis un plan de sept jours pour mettre fin aux combats. Il veut ouvrir le détroit d'Ormuz",
+      "summary": "L'Iran a proposé aux États-Unis un plan de sept jours pour mettre fin aux combats.",
       "sources": [
         "noviny.sk"
       ],
@@ -13923,7 +13831,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le président iranien nie les ambitions nucléaires | Radio d'information 94 . 3 CSM",
+      "summary": "Le président iranien nie les ambitions nucléaires | Radio d'information 94 .",
       "sources": [
         "943wsc.iheart.com"
       ],
@@ -13943,7 +13851,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Réunion le président Donald Trump (États-Unis)le président Xi Jinping (Chine) : réunion Trump-Xinping... la compétition continue derrière l'atmosphère amicale",
+      "summary": "Réunion le président Donald Trump (États-Unis)le président Xi Jinping (Chine) : réunion Trump-Xinping...",
       "sources": [
         "vaartha.com"
       ],
@@ -14062,25 +13970,6 @@
       "url": "https://www.businesstoday.in/markets/stocks/story/nse-regaining-market-share-in-equity-options-commodities-pick-up-ashish-chauhan-557833-2026-09-25",
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Quelle est la « manosphère » qui favorise la misogynie ? La technologie de l’IA est-elle à l’origine de l’expansion de la pensée ? | Site officiel de Newsweek Japon",
-      "sources": [
-        "newsweekjapan.jp"
-      ],
-      "url": "https://www.newsweekjapan.jp/articles/-/335080",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Japon"
-      ]
     },
     {
       "regions": [
@@ -14461,22 +14350,6 @@
       "countries": [
         "Inde"
       ]
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Le Model Y 2027 est sur le point d’être lancé. Le prix des mises à niveau matérielles de conduite autonome va-t-il augmenter ? 3 dimensions expliquées + FAQ",
-      "sources": [
-        "k.sina.com.cn"
-      ],
-      "url": "https://k.sina.com.cn/article_7879923804_1d5ae185c06801mep2.html",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -14863,7 +14736,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "The Paradise Box Office : la plus grande ouverture de la carrière de Nani. Dussehra, le hit bat 3 records",
+      "summary": "The Paradise Box Office : la plus grande ouverture de la carrière de Nani.",
       "sources": [
         "vaartha.com"
       ],
@@ -14879,7 +14752,7 @@
       "bucket": "25 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "[HK] Ji Cheng Investment (00184) : Lettre aux actionnaires nominatifs existants - Avis de publication des communications institutionnelles sur le site Internet de la société - CFi. Réseau financier CN Chine",
+      "summary": "[HK] Ji Cheng Investment (00184) : Lettre aux actionnaires nominatifs existants - Avis de publication des communications institutionnelles sur le site Internet de la société - CFi.",
       "sources": [
         "cfi.net.cn"
       ],
@@ -14914,7 +14787,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Des millions de dollars de fraude au bureau de Petržalka ont des conséquences : la municipalité poursuit Reného H. et deux banques",
+      "summary": "Des millions de dollars de fraude au bureau de Petržalka ont des conséquences : la municipalité poursuit Reného H.",
       "sources": [
         "noviny.sk"
       ],
@@ -15711,7 +15584,7 @@
       "bucket": "27 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "La Commission de la Défense nationale visite le site d'explosion de la DMZ le 28... Aucune présence",
+      "summary": "La Commission de la Défense nationale visite le site d'explosion de la DMZ le 28...",
       "sources": [
         "edaily.co.kr"
       ],
@@ -15741,7 +15614,7 @@
       "bucket": "27 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Hsiao Bi-khim : La défense de la démocratie à Taiwan ne peut pas compter uniquement sur un soutien extérieur ᐉ Nouvelles de Fakti. bg - Monde",
+      "summary": "Hsiao Bi-khim : La défense de la démocratie à Taiwan ne peut pas compter uniquement sur un soutien extérieur ᐉ Nouvelles de Fakti.",
       "sources": [
         "fakti.bg"
       ],
@@ -16375,7 +16248,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "La Suisse vote pour savoir si la neutralité du pays doit être définie plus strictement dans la Constitution ᐉ Nouvelles de Fakti. bg - Monde",
+      "summary": "La Suisse vote pour savoir si la neutralité du pays doit être définie plus strictement dans la Constitution ᐉ Nouvelles de Fakti.",
       "sources": [
         "fakti.bg"
       ],
@@ -16745,22 +16618,6 @@
       "countries": [
         "Brésil"
       ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Les ordinateurs quantiques sur le point de faire une percée ? Ces 5 ETF en comparaison",
-      "sources": [
-        "finanznachrichten.de"
-      ],
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69684598-quantencomputer-vor-dem-durchbruch-diese-5-etfs-im-vergleich-268.htm",
-      "published_at": "2026-09-27T10:15:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -17168,7 +17025,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Péter Magyar veut répondre du téléphone qu'il a jeté dans le Danube. Il dit qu'il recommencerait",
+      "summary": "Péter Magyar veut répondre du téléphone qu'il a jeté dans le Danube.",
       "sources": [
         "rp.pl"
       ],
@@ -17225,7 +17082,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "AP News en bref à 12h04. m. HAE",
+      "summary": "AP News en bref à 12h04. M.",
       "sources": [
         "gjsentinel.com"
       ],
@@ -18131,7 +17988,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Une ombre ... un murmure : Christian Laborie raconte deux êtres cabossés en quête de lumière",
+      "summary": "Une ombre ... Un murmure : Christian Laborie raconte deux êtres cabossés en quête de lumière",
       "sources": [
         "ici.fr"
       ],
@@ -18743,7 +18600,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le réalisateur Krzysztofik indique où se cacher en cas d'alarme. \"Evitons les espaces ouverts",
+      "summary": "Le réalisateur Krzysztofik indique où se cacher en cas d'alarme.",
       "sources": [
         "dziennikwschodni.pl"
       ],
@@ -19631,7 +19488,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Milan - Meda bloqué pour un clip vidéo, le trappeur 351 Bratan expulsé et rapatrié en Moldavie. La rue transformée en décor",
+      "summary": "Milan - Meda bloqué pour un clip vidéo, le trappeur 351 Bratan expulsé et rapatrié en Moldavie.",
       "sources": [
         "ilmessaggero.it"
       ],
@@ -20004,7 +19861,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "ENNA UNITY FESTIVAL, PLUS DE DEUX MILLE PARTICIPANTS LE DEUXIÈME JOUR. FERMETURE AUJOURD'HUI",
+      "summary": "ENNA UNITY FESTIVAL, PLUS DE DEUX MILLE PARTICIPANTS LE DEUXIÈME JOUR.",
       "sources": [
         "ennapress.it"
       ],
@@ -20439,7 +20296,7 @@
       "bucket": "27 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "Le prix de l’huile alimentaire va baisser dans le pays ; La décision du gouvernement central précède les célébrations à venir. Les prix de l'huile alimentaire dans le pays vont baisser",
+      "summary": "Le prix de l’huile alimentaire va baisser dans le pays ; La décision du gouvernement central précède les célébrations à venir.",
       "sources": [
         "madhyamam.com"
       ],
@@ -20567,7 +20424,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Fragments d'un drone découverts en République de Moldavie. La zone a été sécurisée",
+      "summary": "Fragments d'un drone découverts en République de Moldavie.",
       "sources": [
         "antena3.ro"
       ],
@@ -20891,9 +20748,9 @@
       "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
-      "summary": "L’Europe dépendante des puces asiatiques. Les importations représentent 78 pour cent. consommation du marché",
+      "summary": "L’Europe dépendante des puces asiatiques. Les importations représentent 78 pour cent.",
       "sources": [
         "biznes.interia.pl"
       ],
@@ -21651,7 +21508,7 @@
       "bucket": "27 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "\"Wall Street Journal : l'ambassadeur américain a ordonné à la Bulgarie d'acheter son gaz auprès d'un intermédiaire grec spécifique - Mediapool. bg",
+      "summary": "\"Wall Street Journal : l'ambassadeur américain a ordonné à la Bulgarie d'acheter son gaz auprès d'un intermédiaire grec spécifique - Mediapool.",
       "sources": [
         "mediapool.bg"
       ],
@@ -22617,7 +22474,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Oleshki - Les forces armées ukrainiennes ont livré de la nourriture | Nouvelles sur Gazeta. ua",
+      "summary": "Oleshki - Les forces armées ukrainiennes ont livré de la nourriture | Nouvelles sur Gazeta.",
       "sources": [
         "gazeta.ua"
       ],
@@ -22633,7 +22490,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "La personne assise près de la fenêtre est malheureuse ! Une étudiante n’a pas osé prendre un vol longue distance et a souffert d’urétrite tout le temps | Vie | Réseau d'information Sanli SETN. COM",
+      "summary": "La personne assise près de la fenêtre est malheureuse ! Une étudiante n’a pas osé prendre un vol longue distance et a souffert d’urétrite tout le temps | Vie | Réseau d'information Sanli SETN.",
       "sources": [
         "setn.com"
       ],
@@ -22808,22 +22665,6 @@
         "aol.co.uk"
       ],
       "url": "https://www.aol.co.uk/articles/four-minutes-lasted-lifetime-wallabies-154203000.html",
-      "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "D'où viennent les chauves-souris ? La recherche internationale modifie les connaissances existantes",
-      "sources": [
-        "gazetaprawna.pl"
-      ],
-      "url": "https://www.gazetaprawna.pl/wiadomosci/swiat/artykuly/11319937,skad-pochodza-nietoperze-przeusomowe-odkrycie-bat1k-nature.html",
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss"
     },
@@ -23043,22 +22884,6 @@
       "countries": [
         "Allemagne"
       ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "LES DEMANDES DU PROGRAMME JEUNESSE İŞKUR ONT-ELLES COMMENCÉES ? Quand la candidature au programme jeunesse İŞKUR 2026-2027 commencera-t-elle ? Conditions et détails",
-      "sources": [
-        "cnnturk.com"
-      ],
-      "url": "https://www.cnnturk.com/turkiye/iskur-genclik-programi-basvurulari-basladi-mi-iskur-genclik-programi-basvurusu-2026-2027-ne-zaman-baslayacak-sartlar-ve-detaylar-3472113",
-      "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -23392,7 +23217,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "24Kurier. pl - Grand gala : une communauté de fleurs et de joie",
+      "summary": "24Kurier. Pl - Grand gala : une communauté de fleurs et de joie",
       "sources": [
         "24kurier.pl"
       ],
@@ -23819,7 +23644,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "24Kurier. pl - Tout Szczecin en fleurs. Grand gala : une communauté de fleurs et de joie",
+      "summary": "24Kurier. Pl - Tout Szczecin en fleurs. Grand gala : une communauté de fleurs et de joie",
       "sources": [
         "24kurier.pl"
       ],
@@ -23919,7 +23744,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Sécurité",
-      "summary": "5 personnes arrêtées près d'un U . K. base aérienne utilisée par U . S. soupçonné de préparer un acte terroriste",
+      "summary": "5 personnes arrêtées près d'un U . K. Base aérienne utilisée par U . S.",
       "sources": [
         "nhpr.org"
       ],
@@ -23970,7 +23795,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Fini les listes de prix pour la Sainte-Cène. Pétition adressée au président Karol Narowiecki",
+      "summary": "Fini les listes de prix pour la Sainte-Cène.",
       "sources": [
         "fakt.pl"
       ],
@@ -24623,22 +24448,6 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Nouvelles quotidiennes | nouvelles quotidiennes. de",
-      "sources": [
-        "tagesschau.de"
-      ],
-      "url": "https://www.tagesschau.de/tagesschau_20_uhr/ts-81138.html",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "Quelques pas et vous restez connecté au cosmos",
       "sources": [
         "ilsole24ore.com"
@@ -24690,7 +24499,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Tillis le président Donald Trump (États-Unis) a commis une erreur colossale en ne soutenant pas le sénateur . Cornyn",
+      "summary": "Tillis le président Donald Trump (États-Unis) a commis une erreur colossale en ne soutenant pas le sénateur .",
       "sources": [
         "breitbart.com"
       ],
@@ -24781,7 +24590,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "J'ai été arrêté par les services secrets, l'ancien député du PD parle après qu'on lui ait refusé l'entrée : Ils m'ont pris un drap, ils ont exigé que... - Zhurnal. mk – Nouvelles de Macédoine, Kosovo, Monde, Analyse",
+      "summary": "J'ai été arrêté par les services secrets, l'ancien député du PD parle après qu'on lui ait refusé l'entrée : Ils m'ont pris un drap, ils ont exigé que... - Zhurnal.",
       "sources": [
         "zhurnal.mk"
       ],
@@ -24986,7 +24795,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les Russes vont-ils attaquer Narva en Estonie ? Les analystes de l'ISW soulignent le test de l'art. 5",
+      "summary": "Les Russes vont-ils attaquer Narva en Estonie ? Les analystes de l'ISW soulignent le test de l'art.",
       "sources": [
         "dorzeczy.pl"
       ],
@@ -25010,22 +24819,6 @@
         "wiadomosci.wp.pl"
       ],
       "url": "https://wiadomosci.wp.pl/krakow/to-jest-miazga-pierwsze-komentarze-po-exit-poll-w-krakowie-7334043663202528a",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Élections à Cracovie. Expert : Il y aura quelques obstacles naturels",
-      "sources": [
-        "wiadomosci.wp.pl"
-      ],
-      "url": "https://wiadomosci.wp.pl/krakow/wybory-w-krakowie-ekspert-bedzie-kilka-naturalnych-przeszkod-7334035538178625v",
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss"
     },
@@ -25160,7 +24953,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "L'entraîneur italien Mancini s'est exprimé avant le match contre la Turquie ! Il y aura un bon combat demain",
+      "summary": "L'entraîneur italien Mancini s'est exprimé avant le match contre la Turquie !",
       "sources": [
         "tgrthaber.com"
       ],
@@ -25196,7 +24989,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "DOSSIERS DE FUITES SHELL : 27 SEPTEMBRE 2026 – Royal Dutch Shell Plc. com",
+      "summary": "DOSSIERS DE FUITES SHELL : 27 SEPTEMBRE 2026 – Royal Dutch Shell Plc.",
       "sources": [
         "royaldutchshellplc.com"
       ],
@@ -25729,7 +25522,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "LAdigetto. it - Festival Trentodoc, toast avec 12 mille verres pour la cinquième édition",
+      "summary": "LAdigetto. It - Festival Trentodoc, toast avec 12 mille verres pour la cinquième édition",
       "sources": [
         "ladigetto.it"
       ],
@@ -25936,22 +25729,6 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": []
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Qu'est-il arrivé à André do Rap ? Deux partenaires sont arrêtés",
-      "sources": [
-        "ultimosegundo.ig.com.br"
-      ],
-      "url": "https://ultimosegundo.ig.com.br/brasil/2026-09-27/o-que-aconteceu-com-o-andre-do-rap--dois-parceiros-sao-presos.html",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
     },
     {
       "regions": [
@@ -26256,7 +26033,7 @@
       "bucket": "27 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "La première réunion bilatérale depuis des années entre les chefs de la diplomatie allemande et russe. Wadephul : \"Je n'ai ressenti aucun sérieux",
+      "summary": "La première réunion bilatérale depuis des années entre les chefs de la diplomatie allemande et russe.",
       "sources": [
         "mediafax.ro"
       ],
@@ -26797,7 +26574,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Perturbation des relations entre l'Ukraine et la Corée du Sud. Fausses allégations",
+      "summary": "Perturbation des relations entre l'Ukraine et la Corée du Sud.",
       "sources": [
         "dorzeczy.pl"
       ],
@@ -27378,7 +27155,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "\"le président Donald Trump (États-Unis) aurait montré au le président Xi Jinping (Chine) Jinping (Chine) un U historique\". S.- Traités de Chine aux Archives nationales",
+      "summary": "\"le président Donald Trump (États-Unis) aurait montré au le président Xi Jinping (Chine) Jinping (Chine) un U historique\".",
       "sources": [
         "breitbart.com"
       ],
@@ -27399,7 +27176,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les yeux du monde étaient rivés sur ce match. Protestation historique de l’Irlande contre Israël",
+      "summary": "Les yeux du monde étaient rivés sur ce match.",
       "sources": [
         "ntv.com.tr"
       ],
@@ -27570,7 +27347,7 @@
       "bucket": "27 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Les investisseurs étrangers couvrent-ils de manière agressive les actions taïwanaises ? La probabilité de changements sur le marché de la Fête de la Mi-Automne est exposée | Finances | Réseau d'information Sanli SETN. COM",
+      "summary": "Les investisseurs étrangers couvrent-ils de manière agressive les actions taïwanaises ? La probabilité de changements sur le marché de la Fête de la Mi-Automne est exposée | Finances | Réseau d'information Sanli SETN.",
       "sources": [
         "setn.com"
       ],
@@ -27895,7 +27672,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "L'Université de Maastricht suspend un étudiant de Gaza après avoir posté des allégations contre le . 7 Attaque d'Israël",
+      "summary": "L'Université de Maastricht suspend un étudiant de Gaza après avoir posté des allégations contre le .",
       "sources": [
         "nltimes.nl"
       ],
@@ -28035,7 +27812,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "\"Le président albanais reçoit la nouvelle U\". S. Ambassadeur",
+      "summary": "\"Le président albanais reçoit la nouvelle U\". S.",
       "sources": [
         "fax.al"
       ],
@@ -28267,7 +28044,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Mises à jour : les Ravens prennent une décision sur le meilleur WR contre . Cowboys",
+      "summary": "Mises à jour : les Ravens prennent une décision sur le meilleur WR contre .",
       "sources": [
         "venezuelastar.com"
       ],
@@ -28425,7 +28202,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Diffusion en direct des Jeux asiatiques 2026 : où regarder aux États-Unis. S. En ligne gratuit",
+      "summary": "Diffusion en direct des Jeux asiatiques 2026 : où regarder aux États-Unis. S.",
       "sources": [
         "variety.com"
       ],
@@ -28643,7 +28420,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "U. S. et la Chine – Une amitié basée sur le respect mutuel",
+      "summary": "U. S. Et la Chine – Une amitié basée sur le respect mutuel",
       "sources": [
         "editorials.voa.gov"
       ],
@@ -28748,7 +28525,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le leader d'IDM augmentera ses prix en octobre ! 3 constructeurs taïwanais font un suivi au quatrième trimestre dès que possible | Finances | Réseau d'information Sanli SETN. COM",
+      "summary": "Le leader d'IDM augmentera ses prix en octobre ! 3 constructeurs taïwanais font un suivi au quatrième trimestre dès que possible | Finances | Réseau d'information Sanli SETN.",
       "sources": [
         "setn.com"
       ],
@@ -28812,7 +28589,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "1180 épisodes au compteur : cette série diffusée depuis 1999 sapprête à vivre une pause historique ! - News Séries",
+      "summary": "1180 épisodes au compteur : cette série diffusée depuis 1999 sapprête à vivre une pause historique !",
       "sources": [
         "allocine.fr"
       ],
@@ -28894,7 +28671,7 @@
       "bucket": "28 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le général Keith Kellogg (États-Unis), ancien émissaire du président Donald Trump (États-Unis) (États-Unis) le président Vladimir Poutine (Russie) pourrait mettre fin à la guerre demain s'il faisait une seule chose. La guerre menée par la Russie en Ukraine a dépassé le cap des 4 ans et 7 mois, et le Kremlin ne montre aucun signe de volonté d'arrêter le combat. Aujourd'hui, le général Keith Kellogg, ancien envoyé spécial du président Donald Trump (États-Unis), a déclaré que le président Vladimir Poutine (Russie) pourrait mettre fin à la guerre demain s'il faisait juste une chose : « déclarer la victoire et laisser la Russie rentrer chez elle ».",
+      "summary": "Le général Keith Kellogg (États-Unis), ancien émissaire du président Donald Trump (États-Unis) (États-Unis) le président Vladimir Poutine (Russie) pourrait mettre fin à la guerre demain s'il faisait une seule chose. La guerre menée par la Russie en Ukraine a dépassé le cap des 4 ans et 7 mois, et le Kremlin ne montre aucun signe de volonté d'arrêter le combat.",
       "sources": [
         "ziare.com"
       ],
@@ -28911,13 +28688,14 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "28 septembre 2026",
-      "score": 4,
+      "score": 8,
       "category": "Géopolitique",
-      "summary": "Les États-Unis et la Chine publient des listes de produits réciproques de 30 milliards de dollars pour des réductions tarifaires après la réunion entre le président Donald Trump (États-Unis) et le président Xi Jinping (Chine). Les États-Unis et la Chine ont publié des listes de produits d'une valeur d'environ 30 milliards de dollars chacun qui feront l'objet de réductions tarifaires. Cet accord devrait stimuler le commerce bilatéral. L'annonce",
+      "summary": "Les États-Unis et la Chine publient des listes de produits réciproques de 30 milliards de dollars pour des réductions tarifaires après la réunion entre le président Donald Trump (États-Unis) et le président Xi Jinping (Chine). Les États-Unis et la Chine ont publié des listes de produits d'une valeur d'environ 30 milliards de dollars chacun qui feront l'objet de réductions tarifaires. Cet accord devrait stimuler le commerce bilatéral.",
       "sources": [
         "yakimaherald.com"
       ],
@@ -28963,7 +28741,7 @@
       "bucket": "28 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le président Donald Trump (États-Unis) rejette la dernière proposition de l’Iran alors que la guerre entre dans son huitième mois. le président Donald Trump (États-Unis) a décliné la proposition iranienne de reprendre les négociations nucléaires et de rouvrir le détroit d'Ormuz, se disant convaincu que la guerre prendra bientôt fin.",
+      "summary": "Le président Donald Trump (États-Unis) rejette la dernière proposition de l’Iran alors que la guerre entre dans son huitième mois. Le président Donald Trump (États-Unis) a décliné la proposition iranienne de reprendre les négociations nucléaires et de rouvrir le détroit d'Ormuz, se disant convaincu que la guerre prendra bientôt fin.",
       "sources": [
         "wisn.com"
       ],
@@ -28982,7 +28760,7 @@
       "bucket": "28 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Sumar, Podemos et la gauche parlementaire s'unissent pour faire pression sur le PSOE et faire annuler le décret sur le logement. Le mouvement Sumar, Más Madrid, Izquierda Unida et Comuns tiendront une conférence de presse avec des membres de Podemos, ERC, Bildu et BNG pour soutenir l'approbation du « décret Maricarmen ». Le mouvement Sumar, Más Madrid, Izquierda Unida et Comuns tiendront une conférence de presse avec des membres de Podemos, ERC, Bildu et BNG pour soutenir l'approbation du « décret Maricarmen ».",
+      "summary": "Sumar, Podemos et la gauche parlementaire s'unissent pour faire pression sur le PSOE et faire annuler le décret sur le logement. Le mouvement Sumar, Más Madrid, Izquierda Unida et Comuns tiendront une conférence de presse avec des membres de Podemos, ERC, Bildu et BNG pour soutenir l'approbation du « décret Maricarmen ».",
       "sources": [
         "lasexta.com"
       ],
@@ -28999,7 +28777,7 @@
       "bucket": "28 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "La croissance de l’hydroélectricité en Asie est confrontée à des défis liés à l’eau. Équilibrer le changement climatique avec une demande croissante d'énergie et une diminution des ressources en eau est un défi complexe pour le secteur hydroélectrique en Asie. Équilibrer le changement climatique avec une demande croissante en énergie et une diminution des ressources en eau est un défi complexe pour le secteur hydroélectrique en Asie. Équilibrer le changement climatique avec une demande croissante en énergie et une diminution des ressources en eau est un défi complexe pour le secteur hydroélectrique en Asie.",
+      "summary": "La croissance de l’hydroélectricité en Asie est confrontée à des défis liés à l’eau. Équilibrer le changement climatique avec une demande croissante d'énergie et une diminution des ressources en eau est un défi complexe pour le secteur hydroélectrique en Asie.",
       "sources": [
         "power-technology.com"
       ],
@@ -29007,30 +28785,6 @@
       "published_at": "2026-09-28T13:15:00+02:00",
       "origin": "rss",
       "content_enriched": true
-    },
-    {
-      "regions": [
-        "Europe",
-        "Asie",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "28 septembre 2026",
-      "score": 9,
-      "category": "Diplomatie",
-      "summary": "Sur les sanctions, les détournements en Europe, les prix du pétrole et l'AfD en Allemagne. Menaces pour la sécurité en Europe : l'ombre de l'Iran et de la Russie, sanctions et élections. Dans l'émission \"Spried with Delphi\", Liva Daniela Borisova interroge Mari Andžana et Armanda Astukeviča. Menaces pour la sécurité en Europe : l'ombre de l'Iran et de la Russie, sanctions et élections. Dans l'émission \"Spried with Delphi\", Liva Daniela Borisova interroge Mari Andžana et Armanda Astukeviča. Menaces pour la sécurité en Europe : l'ombre de l'Iran et de la Russie, sanctions et élections. Dans l'émission \"Spried with Delphi\", Liva Daniela Borisova interroge Mari Andžana et Armanda Astukeviča.",
-      "sources": [
-        "delfi.lv"
-      ],
-      "url": "https://www.delfi.lv/52983255/spried-ar-delfi/120136203/par-sankcijam-diversijam-eiropa-naftas-cenam-un-afd-vacija",
-      "published_at": "2026-09-28T13:15:00+02:00",
-      "origin": "rss",
-      "content_enriched": true,
-      "countries": [
-        "Allemagne",
-        "Iran",
-        "Russie"
-      ]
     },
     {
       "regions": [
