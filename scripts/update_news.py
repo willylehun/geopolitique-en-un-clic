@@ -211,7 +211,7 @@ def is_useful_article(text):
         return False
 
     summary_markup_noise=(
-      "<meta","width=device-width","name=\\"viewport","property=\\"og:",
+      "<meta","width=device-width",'name="viewport','property="og:',
       "data-rh=","https://static.","%2c$width","shrink-to-fit"
     )
     if any(x in t for x in summary_markup_noise):
