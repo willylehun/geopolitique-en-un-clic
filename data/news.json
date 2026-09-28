@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T06:37:59.812181+02:00",
+  "generated_at": "2026-09-28T08:33:16.524978+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3758,11 +3758,11 @@
         "Afrique"
       ],
       "countries": [
-        "Kenya",
         "Nigeria",
         "Ouganda",
         "Zambie",
-        "Ghana"
+        "Ghana",
+        "Kenya"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
@@ -23579,8 +23579,8 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -23595,8 +23595,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Kenya",
         "Chine",
+        "Kenya",
         "États-Unis"
       ]
     },
@@ -33714,6 +33714,66 @@
         "Norvège",
         "Portugal"
       ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Kenya"
+      ],
+      "period": "day",
+      "bucket": "28 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "Au Kenya, la poésie comme arme de persuasion politique",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPN2RvLUdVTmM5SklPRFYweDFaUUQ0bHB0aXgxNzFXcDZPbHpVSHprejZkam5odkxvekYySmpqS1VkTmoyMEdDT2FsTmJ3TGdiMWt0VWM5ZEd1TmFReFJub05LVVZNTTJqWG9GRkNnX0JvNjZnY0lPb0xLMGVRMDBaLVhkTm1fUlhSUnNJdWxPc1Zya0VKcGhTbUE1NTVEMGFBaFB3YmF3SjNLTmMwUzlic0dYd0JTTjR6bkNBYVdsVkpEN0pNaVE?oc=5",
+      "published_at": "2026-09-28T05:00:10+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "28 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La population iranienne de plus en plus isolée après des sanctions américaines contre les compagnies aériennes du pays",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNdjl5TXhyYXVvTEEzQ3BVXzlWcE9yeGttcFR6aERwaUJVX2JUaURVVFJHTWFld0pKbVZVQXNReFhSajNUVVBRQzU1ZXJ5RFdkRGt0R0thTlNNd1lMUUZ3bC0zMzhNOHBoQTF1aGsyeFhzUFpBVGxTeFkzX1daQ1lLMUJOMjkzLXg0WVBvZGtqZmFrM2FYYmFkeWZycDlCWUJDdUdUN3pZeEhkWE1wb0tMYUw0YzVRbkN0cEJPRDE2Z0c0Um9rLVkyR1BXRXJ1NEdBRUNKY1BzTlMybXlfLVc4QlFXRFBEY05BYVQtbGRjSkxjYlp0LXAzdm5yWjR4cDBDUFlFYm0tdUZJUDFYdlhLTlp1bTgxWVFWRUgxUg?oc=5",
+      "published_at": "2026-09-28T07:00:14+02:00",
+      "origin": "global"
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "countries": [
+        "Iran",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "28 septembre 2026",
+      "score": 4,
+      "category": "Géopolitique",
+      "summary": "En direct. Europe Today : Aide à l'Ukraine, Trump rejette l'accord iranien sur Hormuz",
+      "sources": [
+        "Euronews.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZGNDNEpiUUtmc0lUYXBSMFB4RnRhVm1IZEhaMExmNUxuR0FtdWtha0drQnV2T2Q3RXFoV1VvaVZqTGJfb0VFaXhoZmxkTjhfOTlXSndwUTZYUXFvNF9CMTZKcHNqaWpFck94Z1VoU2puMGpYeU9vckRqVUttZVMzWmxiUFI2eDhyempDMnRTZ3B4Y3JMaWk4SFRVNkw5UnMxUmdVYjVlUQ?oc=5",
+      "published_at": "2026-09-28T08:01:55+02:00",
+      "origin": "global"
     },
     {
       "regions": [
