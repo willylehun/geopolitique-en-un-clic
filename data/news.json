@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:17:46.594234+02:00",
+  "generated_at": "2026-09-29T22:27:58.112131+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -32728,6 +32728,26 @@
       ],
       "url": "https://fr.cibercuba.com/noticias/2026-09-29-u1-e207888-s27061-nid341481-oea-convoca-reunion-cancilleres-2-octubre-analizar",
       "published_at": "2026-09-29T09:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Hongrie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Hongrie s'apprête à ouvrir un partie importante des archives des anciens services de sécurité communistes. Le Parlement de Budapest a adopté en septembre une loi qui élargit considérablement l’accès aux archives sous l'ère communiste. La base de données bientôt accessible pourrait inclure entre 50 000 et 6 …",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/actualite/other/la-hongrie-s-apprête-à-ouvrir-un-partie-importante-des-archives-des-anciens-services-de-sécurité-communistes/ar-AA2ddOEv",
+      "published_at": "2026-09-29T13:22:16+02:00",
       "origin": "rss",
       "content_enriched": true
     },
