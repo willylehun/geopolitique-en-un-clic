@@ -81,6 +81,8 @@ LEADER_LABELS={
     "Sergueï Lavrov":"le ministre russe des Affaires étrangères Sergueï Lavrov (Russie)",
     "Sergei Lavrov":"le ministre russe des Affaires étrangères Sergueï Lavrov (Russie)",
     "Serghei Lavrov":"le ministre russe des Affaires étrangères Sergueï Lavrov (Russie)",
+    "Marco Rubio":"le secrétaire d’État Marco Rubio (États-Unis)",
+    "Christine Lagarde":"la présidente de la Banque centrale européenne Christine Lagarde (Union européenne)",
 }
 
 PERSON_SURNAME_ALIASES={
@@ -99,6 +101,8 @@ PERSON_SURNAME_ALIASES={
     "Hegseth":("Pete Hegseth","secrétaire à la Défense"),
     "Katz":("Israel Katz","ministre de la Défense"),
     "Lavrov":("Sergueï Lavrov","ministre des Affaires étrangères"),
+    "Rubio":("Marco Rubio","secrétaire d’État"),
+    "Lagarde":("Christine Lagarde","présidente de la Banque centrale européenne"),
 }
 
 def enrich_leader_context(text):
@@ -109,7 +113,7 @@ def enrich_leader_context(text):
     for name,label in LEADER_LABELS.items():
         if name.lower() not in out.lower() or label.lower() in out.lower():
             continue
-        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances|général|ministre des affaires étrangères|secrétaire à la défense|ministre de la défense|secrétaire d['’]état)?\s*"+re.escape(name)+r"(?:\s*\([^)]+\))?"
+        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances|général|ministre des affaires étrangères|secrétaire à la défense|ministre de la défense|secrétaire d['’]état|présidente de la banque centrale européenne)?\s*"+re.escape(name)+r"(?:\s*\([^)]+\))?"
         out=re.sub(pattern,label,out,count=1)
 
     # Noms de famille seuls, très fréquents dans les titres.
@@ -303,6 +307,11 @@ def clean_summary_text(text):
     out=re.sub(r"(?i)\bEtats-Unis\b","États-Unis",out)
     out=re.sub(r"(?i)\bMoyen\s*-\s*Orient\b","Moyen-Orient",out)
     out=re.sub(r"(?i)\bDUBAI\s+—\s+","Dubaï (Émirats arabes unis) — ",out)
+    out=re.sub(r"(?i)\s*\|\s*Actualités sur les conflits","",out)
+    out=re.sub(r"(?i)\bLecture de trois minutes\b","",out)
+    out=re.sub(r"(?i)\s*\|\s*GDA\s*[–—-]\s*Groupe de journaux américain","",out)
+    out=re.sub(r"\.{3,}","…",out)
+    out=re.sub(r"\s+"," ",out).strip()
     return out.strip(" |–—-")
 
 def is_market_listing_noise(text):
@@ -428,7 +437,9 @@ def is_useful_article(text):
       "en direct gratuitement","live gratuitement","via espn","disney plus","programme tv",
       "prix de l'essence aujourd'hui","prix de l’essence aujourd’hui","meilleures offres",
       "guide d'achat","guide d’achat","prix bloqué pendant","offre à prix fixe",
-      "réduction de 30 %","réduction de 30%","sconto del 30"
+      "réduction de 30 %","réduction de 30%","sconto del 30",
+      "retrouvez l'émission","retrouvez l’émission","émission le 18h eco",
+      "programme de l'émission","programme de l’émission"
     )
     if any(x in t for x in service_noise) and not has_strong:
         return False
