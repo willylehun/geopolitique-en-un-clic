@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T23:08:38.800889+02:00",
+  "generated_at": "2026-09-29T23:18:48.984989+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3642,8 +3642,8 @@
       "countries": [
         "Ghana",
         "Kenya",
-        "Ouganda",
         "Nigeria",
+        "Ouganda",
         "Zambie"
       ],
       "period": "day",
@@ -28773,8 +28773,7 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Asie"
       ],
       "countries": [
         "Cambodge",
@@ -30991,7 +30990,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -32169,7 +32167,6 @@
     {
       "regions": [
         "Europe",
-        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -33331,10 +33328,11 @@
       "sources": [
         "AFP via MSN — fiabilité 7/10",
         "Mediapart — fiabilité 6/10",
-        "Noovo Info — fiabilité 6/10"
+        "Noovo Info — fiabilité 6/10",
+        "bluewin — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/fr-fr/actualite/news/birmanie-50-morts-sur-un-marché-bombardé-par-l-armée-selon-des-sources-humanitaires/ar-AA2dd7yv",
-      "published_at": "2026-09-29T06:24:00+02:00",
+      "published_at": "2026-09-29T16:05:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
@@ -33767,9 +33765,10 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Espagne : face à la colère sociale, le gouvernement annonce la suspension des expulsions jusqu'en 2030. Le gouvernement espagnol a annoncé mardi la suspension des expulsions de logements jusqu'en 2030 et le renouvellement automatique des contrats de location, afin d'endiguer la crise du logement qui …",
+      "summary": "Espagne : face à la colère sociale, le gouvernement annonce la suspension des expulsions jusqu'en 2030. [VIDÉO] Après plusieurs jours de manifestations pour une meilleure protection des locataires, le gouvernement espagnol a présenté mardi plusieurs mesures pour répondre à la crise. Il espère les faire …",
       "sources": [
-        "tf1info — fiabilité 6/10"
+        "tf1info — fiabilité 6/10",
+        "TF1 INFO — fiabilité 6/10"
       ],
       "url": "https://www.tf1info.fr/international/espagne-maricarmen-face-a-la-colere-sociale-le-gouvernement-annonce-la-suspension-des-expulsions-jusqu-en-2030-2467108.html",
       "published_at": "2026-09-29T15:52:00+02:00",
@@ -33838,6 +33837,258 @@
       ],
       "url": "https://www.msn.com/fr-be/actualite/other/l-onu-décrit-une-situation-critique-pour-les-civils-après-la-frappe-aérienne-en-birmanie/ar-AA2ddpLc",
       "published_at": "2026-09-29T12:36:53+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les systèmes d’approvisionnement en eau de l’Alabama simulent des cyberattaques alors que les menaces pesant sur les services publics critiques augmentent. Plus de 100 responsables des services d'eau de 40 systèmes de l'Alabama ont participé à une simulation de cyberattaque à Birmingham pour renforcer les défenses, alors que les subventions fédérales offrent une surveillance gratuite des menaces.",
+      "sources": [
+        "WBRC — fiabilité 6/10"
+      ],
+      "url": "https://www.wbrc.com/2026/09/29/alabama-water-systems-run-cyberattack-simulation-threats-critical-utilities-grow/",
+      "published_at": "2026-09-29T15:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La Maison Blanche exploite sa réserve stratégique de pétrole. Les États-Unis proposeront de prêter aux producteurs d'énergie jusqu'à 40…",
+      "sources": [
+        "Semafor — fiabilité 6/10"
+      ],
+      "url": "https://www.semafor.com/article/09/29/2026/white-house-taps-strategic-petroleum-reserve",
+      "published_at": "2026-09-29T15:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Budget 2027 : Le gouvernement réduira la taxe carbone sur le mazout domestique au niveau minimum, déclare Micheál Martin. Les ménages utilisant du kérosène pour se chauffer devraient bénéficier d'une réduction d'impôts dans le budget de la semaine prochaine, les ministres s'apprêtant à atténuer la pression exercée par la hausse des coûts du carburant…",
+      "sources": [
+        "Irish Examiner — fiabilité 6/10"
+      ],
+      "url": "https://www.irishexaminer.com/news/politics/arid-41917561.html",
+      "published_at": "2026-09-29T02:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Lapid après le briefing de sécurité : « Si Netanyahu est inquiet, qu'il recrute les ultra-orthodoxes ». Le chef de l'opposition Yair Lapid a déclaré après un briefing de sécurité avec le Premier ministre Benjamin Netanyahu (Israël), qui a averti qu'Israël pourrait être attaqué avant les élections, que \"les menaces à la sécurité sont …",
+      "sources": [
+        "ynetnews — fiabilité 6/10"
+      ],
+      "url": "https://www.ynetnews.com/article/rynoor8j1",
+      "published_at": "2026-09-29T15:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Tir à Austin ICE : plusieurs manifestants arrêtés pour émeute, indique le DPS. Plusieurs personnes ont été arrêtées par le ministère de la Sécurité publique du Texas après une manifestation de l'ICE à North Austin le 20 septembre.",
+      "sources": [
+        "FOX 7 Austin — fiabilité 6/10"
+      ],
+      "url": "https://www.fox7austin.com/news/austin-ice-shooting-several-protesters-arrested-riot-charges-dps-says",
+      "published_at": "2026-09-29T15:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Saskatchewan. La société de drones affirme qu'aucun « droit spécial » n'est attaché à un investissement américain de 10 millions de dollars lié à Trump Jr.. Le fabricant de drones Draganfly Inc., basé à Saskatoon, reçoit un « investissement stratégique » de 10 millions de dollars américains de deux entreprises américaines, dont une liée à le président Donald Trump (États-Unis) Jr., mais affirme qu'il n'y a pas de sièges au conseil d'administration ou d'autres avantages…",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/canada/saskatchewan/draganfly-no-special-rights-10m-investment-linked-trump-jr-9.7363003",
+      "published_at": "2026-09-29T15:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis se retirent du panel européen anti-corruption dans le cadre de leur dernier abandon des groupes mondiaux. WASHINGTON (AP) — L'administration Trump a retiré les États-Unis de l'organisme de surveillance anti-corruption européen de premier plan alors qu'il poursuit son projet de se désengager des relations internationales et multilatérales…",
+      "sources": [
+        "Boston Herald — fiabilité 6/10"
+      ],
+      "url": "https://www.bostonherald.com/2026/09/29/trump-corruption-watchdog/",
+      "published_at": "2026-09-29T11:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Campetrol a indiqué que le gaz importé représentait 32 % du total vendu. En août, 114 équipements ont fonctionné, soit le même nombre qu'en juillet et deux de plus qu'il y a un an, dont 32 dédiés au forage et 82 à la maintenance des puits…",
+      "sources": [
+        "La República via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/es-co/noticias/otras/campetrol-reportó-que-gas-importado-representó-32-sobre-el-total-comercializado/ar-AA2de9w9",
+      "published_at": "2026-09-29T15:59:48+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "El Nino n’attend pas Noël et influence déjà de manière sournoise la météo aux États-Unis et dans le Michigan. En règle générale, nous commençons à remarquer des situations météorologiques étranges liées à El Niño à l’approche de l’hiver. Les eaux chaudes d'El Niño provoquent déjà d'importants systèmes de tempêtes sur le climat américain.",
+      "sources": [
+        "mlive — fiabilité 6/10"
+      ],
+      "url": "https://www.mlive.com/weather/2026/09/el-nino-not-waiting-until-christmas-already-influencing-us-michigan-weather-in-a-sneaky-way.html",
+      "published_at": "2026-09-29T11:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Sécurité",
+      "summary": "« Un nouveau type de cyber-incident » : OpenAI s'excuse pour le piratage australien de Medicare. L’entreprise a expliqué comment l’IA. Les agents ont eu accès à quatre sites Web du gouvernement et ont reconnu avoir mal géré sa réponse.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/09/29/world/asia/openai-australia-government-hack-apology.html",
+      "published_at": "2026-09-29T00:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Togo"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Togo- 29 septembre 2024 : deux ans après, les journalistes agressés au siège de la CDPA attendent toujours des réponses. Deux ans après leur agression à Lomé, six journalistes togolais dénoncent, dans une tribune, le silence de la justice …",
+      "sources": [
+        "Icilome — fiabilité 6/10"
+      ],
+      "url": "https://icilome.com/2026/09/togo-29-septembre-2024-deux-ans-apres-les-journalistes-agresses-au-siege-de-la-cdpa-attendent-toujours-des-reponses/",
+      "published_at": "2026-09-29T02:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Cambodge",
+        "France",
+        "Vietnam"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Une ONG accuse le Vietnam d’avoir « enlevé » deux de ses membres au Cambodge. Les émissions de gaz à effet de serre de la France ont diminué depuis 2017 mais la baisse n’atteint pas les objectifs. Les secteurs des transports, de l’agriculture et des déchets sont les plus à la …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/290926/une-ong-accuse-le-vietnam-d-avoir-enleve-deux-de-ses-membres-au-cambodge",
+      "published_at": "2026-09-29T08:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Cambodge"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Un voyage solidaire au Cambodge avec des étudiants infirmiers picards. Abby et Hugo ont décidé de partir au Cambodge pour valider un stage dans leur cursus à l'école d'infirmiers d'Amiens. Ils cherchent des fonds pour les aider à boucler leur budget. Retrouvez les sur de …",
+      "sources": [
+        "ici — fiabilité 6/10"
+      ],
+      "url": "https://www.ici.fr/emissions/ici-ca-marche-avec-ici-picardie/un-voyage-solidaire-au-cambodge-avec-des-etudiants-infirmiers-picards-7650352",
+      "published_at": "2026-09-29T03:03:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
