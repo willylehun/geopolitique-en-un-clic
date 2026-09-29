@@ -922,22 +922,42 @@ function renderElectionNews() {
   }
 }
 
+function programSourceLink(source) {
+  const match = String(source || '').match(/https?:\/\/[^\s]+/);
+  const url = match && safeHttpUrl(match[0]);
+  const label = match ? String(source).slice(0, match.index).replace(/\s*:\s*$/, '') : String(source || '');
+  return url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label || 'Consulter la source')} ↗</a>` : escapeHtml(label);
+}
+
 function renderCandidateProgram() {
   const data = state.electionData;
   const candidate = (data?.candidates || []).find(c => c.id === state.candidateId);
   if (!candidate) return;
-
-  const fallback = data.program_fallback || 'Aucune proposition suffisamment documentée à ce stade.';
-  $('#programGrid').innerHTML = (data.sectors || []).map(sector => `
-    <article class="program-card">
-      <h4>${escapeHtml(sector)}</h4>
-      <p class="${candidate.program?.[sector] ? '' : 'program-missing'}">${escapeHtml(candidate.program?.[sector] || fallback)}</p>
-    </article>
-  `).join('');
-
-  $('#candidateSources').innerHTML = candidate.sources?.length
-    ? `<strong>Sources de synthèse :</strong> ${candidate.sources.map(escapeHtml).join(' • ')}`
-    : '';
+  const fallback = 'Proposition 2027 non documentée dans cette fiche. Consulter les sources et pistes ci-dessous.';
+  const review = candidate.program_review;
+  const note = review ? `<article class="program-card program-review"><h4>État de la documentation</h4><p>${escapeHtml(review.review_note)} Revue de fond du ${escapeHtml(formatShortIsoDate(review.reviewed_at))}.</p></article>` : '';
+  $('#programGrid').innerHTML = note + (data.sectors || []).map(sector => {
+    const text = candidate.program?.[sector];
+    const missing = !text || text.startsWith('Aucune proposition');
+    const sources = candidate.program_sources?.[sector] || [];
+    return `<article class="program-card"><h4>${escapeHtml(sector)}</h4>
+      <p class="${missing ? 'program-missing' : ''}">${escapeHtml(missing ? fallback : text)}</p>
+      ${!missing && sources.length ? `<div class="program-provenance">${sources.map(programSourceLink).join('<br>')}</div>` : ''}</article>`;
+  }).join('');
+  const watches = candidate.program_watch || [];
+  const documents = candidate.program_documents || [];
+  const documentList = documents.map(doc => {
+    const check = watches.find(w => w.url === doc.url);
+    const status = check?.status === 'ok' ? `Source accessible le ${formatShortIsoDate(check.successful_at.slice(0,10))}`
+      : check?.status === 'error' ? `Lecture automatique impossible au dernier essai${check.successful_at ? ` ; dernier accès réussi le ${formatShortIsoDate(check.successful_at.slice(0,10))}` : ''}` : 'Contrôle automatique en attente';
+    return `<li>${programSourceLink(`${doc.label} : ${doc.url}`)} — ${escapeHtml(status)}</li>`;
+  }).join('');
+  const changes = candidate.program_source_changes || [];
+  const discoveries = candidate.background_discoveries || [];
+  $('#candidateSources').innerHTML = `${documents.length ? `<details><summary>Documents suivis (${documents.length})</summary><p>L’accessibilité et les changements de contenu sont contrôlés automatiquement. Ce contrôle ne valide pas de nouvelles propositions.</p><ul>${documentList}</ul></details>` : ''}
+    ${changes.length ? `<details open><summary>Sources modifiées — propositions à vérifier</summary><ul>${changes.map(c => `<li>${escapeHtml(formatShortIsoDate(c.date))} : ${programSourceLink(`${c.label} : ${c.url}`)}</li>`).join('')}</ul></details>` : ''}
+    ${discoveries.length ? `<details><summary>Pistes de fond à examiner (${discoveries.length})</summary><p>Articles repérés sur un an : leur présence ne confirme ni une promesse ni une accusation.</p><ul>${discoveries.map(d => `<li>${escapeHtml(formatShortIsoDate(d.date))} — ${programSourceLink(`${d.title} (${d.source}) : ${d.url}`)}</li>`).join('')}</ul></details>` : ''}
+    ${candidate.sources?.length ? `<details><summary>Autres sources de synthèse</summary><ul>${candidate.sources.map(s => `<li>${programSourceLink(s)}</li>`).join('')}</ul></details>` : ''}`;
 }
 
 function renderElectionPage() {

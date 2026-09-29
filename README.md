@@ -23,3 +23,13 @@ Application mobile/web installable pour afficher une veille géopolitique et éc
 - Veille mondiale : environ **6 collectes réelles par heure**, avec réveils GitHub redondants et garde-fou anti-empilement.
 - Veille Présidentielle française 2027 : environ **une collecte réelle par heure**, séparée de la veille mondiale.
 - Les **195 pays** restent en permanence dans la rotation ; la priorité varie selon l'heure mais aucun pays n'est exclu.
+
+## Veille présidentielle : sources de fond
+
+- `data/election-program-reviewed.json` contient la revue datée de chaque candidat, les documents de campagne et les sources de chaque rubrique. Les éditions antérieures, les projets collectifs, les orientations et les annonces personnelles sont distingués.
+- Les synthèses vérifiées complètent les rubriques vides. Une synthèse déjà gérée par cette revue peut être corrigée ; une nouvelle proposition ajoutée séparément n'est pas écrasée.
+- `scripts/election_background.py` contrôle jusqu'à deux sources par candidat actif et par collecte, avec rotation lorsque la fiche comporte plus de documents. Il surveille les pages HTML, les documents PDF et les liens vers de nouveaux programmes. Un premier accès établit une référence ; un échec ne remplace jamais la date du dernier accès réussi.
+- Une modification de source est signalée dans la fiche, sans réécrire automatiquement le programme. Un changement de page ne prouve pas à lui seul une nouvelle proposition.
+- Une recherche complémentaire sur 365 jours couvre 12 candidats par collecte, avec une rotation indépendante des partis et de leur présence médiatique. Les articles repérés restent des pistes à examiner, distinctes des propositions et controverses validées.
+- La surveillance ne garantit pas l'exhaustivité : pages protégées, programmes en images, nouveaux sites et informations hors des sources suivies peuvent exiger une vérification supplémentaire. L'interface affiche l'état des documents suivis.
+- Vérification : `python -m unittest discover -s scripts -p 'test_election_background.py'` et `node --check app.js`.

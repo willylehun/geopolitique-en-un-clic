@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from election_background import apply_reviews, monitor_sources, deep_query, add_discoveries
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"/"election.json"
@@ -239,21 +240,10 @@ def row_is_useful(row):
 with DATA.open(encoding="utf-8") as f:
     data=json.load(f)
 
-# Compléments vérifiés : conserver la date/URL de chaque source et combler
-# les rubriques vides sans écraser une proposition actualisée par la suite.
+# Revue de fond sourcée, indépendante des titres d’actualité.
 reviewed_path=ROOT/"data"/"election-program-reviewed.json"
-if reviewed_path.exists():
-    reviewed=json.loads(reviewed_path.read_text(encoding="utf-8"))
-    for candidate in data.get("candidates",[]):
-        record=reviewed.get(candidate.get("id"),{})
-        for topic, proposal in record.get("program",{}).items():
-            current=candidate.setdefault("program",{}).get(topic,"")
-            if not current or current.startswith("Aucune proposition"):
-                candidate["program"][topic]=proposal
-                for source in record.get("sources",[]):
-                    if source not in candidate.setdefault("sources",[]):
-                        candidate["sources"].append(source)
-                candidate.setdefault("program_sources",{})[topic]=record.get("sources",[])
+reviewed=json.loads(reviewed_path.read_text(encoding="utf-8")) if reviewed_path.exists() else {}
+apply_reviews(data,reviewed)
 
 now=datetime.now(PARIS)
 cut30=now-timedelta(days=30)
@@ -381,6 +371,25 @@ for kind,eid,name in batch:
         if row_matches_entity(row,kind,eid,name):
             matches=all_entity_matches(row,entities)
             attach(row,matches or [(kind,eid,name)])
+
+# Recherche de fond sur un an, avec la même rotation pour tous les candidats.
+# Une piste découverte n’alimente jamais automatiquement une promesse ou accusation.
+background_candidates=[c for c in data.get("candidates",[]) if c.get("status") not in ("withdrawn","removed")]
+background_cursor=int(state.get("background_cursor",0))%max(1,len(background_candidates))
+background_batch=[background_candidates[(background_cursor+i)%len(background_candidates)] for i in range(min(BATCH,len(background_candidates)))]
+for candidate in background_batch:
+    try:
+        rows=google_search(deep_query(candidate["name"]))
+        add_discoveries(candidate,rows,
+            lambda row: row_matches_entity(row,"candidate",candidate["id"],candidate["name"]) and row_is_useful(row),
+            lambda row: trusted(row.get("source",""),row.get("url","")),now.isoformat())
+    except Exception as exc:
+        candidate["background_search_error"]=str(exc)[:200]
+        continue
+    candidate.pop("background_search_error",None)
+state["background_cursor"]=(background_cursor+len(background_batch))%max(1,len(background_candidates))
+state["last_background_batch_count"]=len(background_batch)
+monitor_sources(data,state,reviewed,now.isoformat())
 
 # Réparer les rattachements multi-candidats sur les actualités récentes déjà stockées.
 for item in news:

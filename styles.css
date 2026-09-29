@@ -833,3 +833,8 @@ footer strong {
     max-width:118px !important;
   }
 }
+
+.program-review{grid-column:1/-1;min-height:0}
+.program-provenance{margin-top:10px;font-size:.72rem;line-height:1.5}
+.program-provenance a,.candidate-sources a{color:#a8d4ef;overflow-wrap:anywhere}
+.candidate-sources details{margin:12px 0}.candidate-sources summary{cursor:pointer;font-weight:700;font-size:.82rem}.candidate-sources li{margin:8px 0}

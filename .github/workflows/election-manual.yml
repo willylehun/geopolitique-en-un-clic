@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - "scripts/update_election.py"
+      - "scripts/election_background.py"
+      - "scripts/test_election_background.py"
+      - "data/election-program-reviewed.json"
       - ".github/workflows/election-manual.yml"
   schedule:
     # Plusieurs réveils de secours par heure ; le garde-fou ci-dessous
@@ -59,6 +62,9 @@ jobs:
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
               out.write(f"run={1 if should_run else 0}\n")
           PY
+      - name: Vérifier la collecte de fond
+        if: steps.cadence.outputs.run == '1'
+        run: python -m unittest discover -s scripts -p 'test_election_background.py'
       - name: Collecter la veille présidentielle
         if: steps.cadence.outputs.run == '1'
         env:
@@ -69,7 +75,7 @@ jobs:
         run: |
           python -m json.tool data/election.json >/dev/null
           python -m json.tool data/election-monitor-state.json >/dev/null
-          python -m py_compile scripts/update_election.py
+          python -m py_compile scripts/update_election.py scripts/election_background.py
       - name: Publier les données vérifiées
         if: steps.cadence.outputs.run == '1'
         shell: bash
@@ -96,7 +102,7 @@ jobs:
             ELECTION_BATCH_SIZE=12 python scripts/update_election.py
             python -m json.tool data/election.json >/dev/null
             python -m json.tool data/election-monitor-state.json >/dev/null
-            python -m py_compile scripts/update_election.py
+            python -m py_compile scripts/update_election.py scripts/election_background.py
 
             if git diff --quiet -- data/election.json data/election-monitor-state.json; then
               echo "Aucun changement après resynchronisation."

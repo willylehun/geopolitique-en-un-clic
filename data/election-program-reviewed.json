@@ -3,11 +3,1175 @@
     "program": {
       "Économie": "Propose une baisse de 50 milliards d’euros des impôts de production compensée par la suppression de 50 milliards d’euros d’aides publiques jugées improductives, ainsi qu’un moratoire sur les nouvelles normes et les nouveaux impôts pendant le quinquennat.",
       "Éducation": "Propose une hausse de 20 % de la rémunération moyenne des enseignants pendant le quinquennat, davantage d’autonomie pour les établissements et la publication de leurs résultats.",
-      "Agriculture": "Propose de limiter la surtransposition des règles agricoles, de moderniser les exploitations et de créer 100 territoires de souveraineté alimentaire."
+      "Agriculture": "Propose de limiter la surtransposition des règles agricoles, de moderniser les exploitations et de créer 100 territoires de souveraineté alimentaire.",
+      "Institutions & démocratie": "Propose une règle constitutionnelle encadrant les finances publiques et un objectif de déficit de 2 % à la fin du quinquennat."
     },
     "sources": [
       "Site de campagne d’Édouard Philippe — consulté le 29 septembre 2026 : https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
-      "Public Sénat — 31 août 2026 : https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
-    ]
+      "Public Sénat — 31 août 2026 : https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+      "Source officielle — consultée le 29 septembre 2026 : https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+      "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+    ],
+    "reviewed_at": "2026-09-29",
+    "review_note": "Priorités de campagne détaillées ; les chiffrages sont les objectifs du candidat, pas des effets économiques établis.",
+    "document_kind": "campagne_2027",
+    "source_documents": [
+      {
+        "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      },
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+        "label": "Entretien ou déclaration rapportée",
+        "kind": "campagne_2027"
+      }
+    ],
+    "program_sources": {
+      "Économie": [
+        "Site de campagne d’Édouard Philippe — consulté le 29 septembre 2026 : https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+      ],
+      "Éducation": [
+        "Public Sénat — 31 août 2026 : https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+      ],
+      "Agriculture": [
+        "Site de campagne d’Édouard Philippe — consulté le 29 septembre 2026 : https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+      ],
+      "Institutions & démocratie": [
+        "Site de campagne d’Édouard Philippe — consulté le 29 septembre 2026 : https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+      ]
+    }
+  },
+  "marine-le-pen": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Propositions de rentrée 2026 documentées. Les programmes de 2022 et des législatives 2024 ne valent pas automatiquement engagement pour 2027.",
+    "document_kind": "propositions_2026",
+    "source_documents": [
+      {
+        "url": "https://rassemblementnational.fr/lettre-ouverte",
+        "label": "Source officielle",
+        "kind": "propositions_2026"
+      },
+      {
+        "url": "https://www.lemonde.fr/en/politics/article/2026/09/07/2027-french-presidential-election-marine-le-pen-focuses-on-ac-and-sovereignty-to-tackle-climate-change_6757228_5.html",
+        "label": "Entretien ou déclaration rapportée",
+        "kind": "propositions_2026"
+      }
+    ],
+    "program": {
+      "Écologie & énergie": "En septembre 2026, présente un fonds de 40 milliards d’euros pour l’adaptation climatique, défend une expansion du nucléaire et un recul de l’éolien et du solaire.",
+      "Économie": "Défend une TVA sur l’énergie ramenée à 5,5 % et des prêts aidés pour adapter les logements à la chaleur."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://rassemblementnational.fr/lettre-ouverte",
+      "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.lemonde.fr/en/politics/article/2026/09/07/2027-french-presidential-election-marine-le-pen-focuses-on-ac-and-sovereignty-to-tackle-climate-change_6757228_5.html"
+    ],
+    "program_sources": {
+      "Écologie & énergie": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.lemonde.fr/en/politics/article/2026/09/07/2027-french-presidential-election-marine-le-pen-focuses-on-ac-and-sovereignty-to-tackle-climate-change_6757228_5.html"
+      ],
+      "Économie": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.lemonde.fr/en/politics/article/2026/09/07/2027-french-presidential-election-marine-le-pen-focuses-on-ac-and-sovereignty-to-tackle-climate-change_6757228_5.html"
+      ]
+    }
+  },
+  "eric-zemmour": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Le parti renvoie à une consultation animée par Sarah Knafo : les contributions citoyennes ne sont pas des propositions adoptées par Éric Zemmour. Le programme de 2022 reste distinct.",
+    "document_kind": "programme_en_construction",
+    "source_documents": [
+      {
+        "url": "https://www.parti-reconquete.fr/",
+        "label": "Source officielle",
+        "kind": "programme_en_construction"
+      },
+      {
+        "url": "https://leprogrammepourlafrance.fr/",
+        "label": "Source officielle",
+        "kind": "programme_en_construction"
+      }
+    ],
+    "program": {},
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://www.parti-reconquete.fr/",
+      "Source officielle — consultée le 29 septembre 2026 : https://leprogrammepourlafrance.fr/"
+    ],
+    "program_sources": {}
+  },
+  "bruno-retailleau": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Mesures de campagne publiées en 2026 ; le programme complet reste à suivre.",
+    "document_kind": "propositions_2026",
+    "source_documents": [
+      {
+        "url": "https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/",
+        "label": "Source officielle",
+        "kind": "propositions_2026"
+      },
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+        "label": "Entretien ou déclaration rapportée",
+        "kind": "propositions_2026"
+      }
+    ],
+    "program": {
+      "Économie": "Propose de réduire la fiscalité des successions, de différer l’imposition des entreprises familiales jusqu’à leur vente et de faciliter les donations aux enfants de moins de 30 ans.",
+      "Travail & retraites": "Propose de plafonner le cumul des aides sociales à 70 % du SMIC.",
+      "Éducation": "Propose un examen d’entrée en sixième et l’expérimentation de 1 000 établissements autonomes."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/",
+      "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+    ],
+    "program_sources": {
+      "Économie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/"
+      ],
+      "Travail & retraites": [
+        "Source officielle — consultée le 29 septembre 2026 : https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/"
+      ],
+      "Éducation": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+      ]
+    }
+  },
+  "gabriel-attal": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Chantiers de campagne publiés par thème ; objectifs et financement doivent être examinés séparément.",
+    "document_kind": "campagne_2027",
+    "source_documents": [
+      {
+        "url": "https://attalpresident.fr/programme/education",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      },
+      {
+        "url": "https://attalpresident.fr/programme/travail-salaires",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      },
+      {
+        "url": "https://attalpresident.fr/programme/dette-de-letat",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      }
+    ],
+    "program": {
+      "Éducation": "Propose de relancer le Choc des savoirs, de limiter les classes du primaire à moins de 20 élèves et d’interdire les réseaux sociaux avant 15 ans.",
+      "Travail & retraites": "Propose de diminuer les cotisations salariales, de privilégier la durée de cotisation pour les retraites et de faciliter la semaine de quatre jours à volume mensuel de travail inchangé.",
+      "Économie": "Vise l’équilibre du budget de l’État en dix ans, avec des économies prioritairement sur les dépenses sociales et des investissements dans l’éducation, l’écologie et la défense."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://attalpresident.fr/programme/education",
+      "Source officielle — consultée le 29 septembre 2026 : https://attalpresident.fr/programme/travail-salaires",
+      "Source officielle — consultée le 29 septembre 2026 : https://attalpresident.fr/programme/dette-de-letat"
+    ],
+    "program_sources": {
+      "Éducation": [
+        "Source officielle — consultée le 29 septembre 2026 : https://attalpresident.fr/programme/education"
+      ],
+      "Travail & retraites": [
+        "Source officielle — consultée le 29 septembre 2026 : https://attalpresident.fr/programme/travail-salaires"
+      ],
+      "Économie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://attalpresident.fr/programme/dette-de-letat"
+      ]
+    }
+  },
+  "xavier-bertrand": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Vision générale du mouvement et démarche de candidature. Les orientations ci-dessous ne constituent pas un programme présidentiel 2027 détaillé.",
+    "document_kind": "orientation_du_mouvement",
+    "source_documents": [
+      {
+        "url": "https://www.nousfrance.fr/vision/",
+        "label": "Source officielle",
+        "kind": "orientation_du_mouvement"
+      },
+      {
+        "url": "https://www.nousfrance.fr/",
+        "label": "Source officielle",
+        "kind": "orientation_du_mouvement"
+      }
+    ],
+    "program": {
+      "Institutions & démocratie": "Orientation de Nous France : transférer davantage de décisions sur l’emploi et l’écologie aux territoires et recentrer l’État sur ses missions essentielles."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://www.nousfrance.fr/vision/",
+      "Source officielle — consultée le 29 septembre 2026 : https://www.nousfrance.fr/"
+    ],
+    "program_sources": {
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.nousfrance.fr/vision/",
+        "Source officielle — consultée le 29 septembre 2026 : https://www.nousfrance.fr/"
+      ]
+    }
+  },
+  "david-lisnard": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Projet de Nouvelle Énergie présenté par David Lisnard. L’auteur collectif est conservé ; tous les coûts et calendriers ne sont pas précisés.",
+    "document_kind": "projet_du_mouvement",
+    "source_documents": [
+      {
+        "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+        "label": "Source officielle",
+        "kind": "projet_du_mouvement"
+      },
+      {
+        "url": "https://www.unenouvelleenergie.fr/notre-programme/education/",
+        "label": "Source officielle",
+        "kind": "projet_du_mouvement"
+      },
+      {
+        "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
+        "label": "Source officielle",
+        "kind": "projet_du_mouvement"
+      },
+      {
+        "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
+        "label": "Source officielle",
+        "kind": "projet_du_mouvement"
+      }
+    ],
+    "program": {
+      "Éducation": "Propose un libre choix de l’école avec un chèque-éducation progressif, davantage d’autonomie des établissements et un certificat de fin de primaire conditionnant l’accès au collège.",
+      "Économie": "Propose une règle d’équilibre pour les dépenses publiques de fonctionnement, distinctes de l’investissement.",
+      "Santé": "Propose des remboursements différenciés pour attirer les médecins en zones sous-dotées, des maisons de santé par canton et la suppression des ARS."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://www.unenouvelleenergie.fr/notre-programme/",
+      "Source officielle — consultée le 29 septembre 2026 : https://www.unenouvelleenergie.fr/notre-programme/education/",
+      "Source officielle — consultée le 29 septembre 2026 : https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
+      "Source officielle — consultée le 29 septembre 2026 : https://www.unenouvelleenergie.fr/notre-programme/sante/"
+    ],
+    "program_sources": {
+      "Éducation": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.unenouvelleenergie.fr/notre-programme/education/"
+      ],
+      "Économie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/"
+      ],
+      "Santé": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.unenouvelleenergie.fr/notre-programme/sante/"
+      ]
+    }
+  },
+  "jean-luc-melenchon": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "La campagne annonce 1 069 mesures et une nouvelle édition de L’Avenir en commun disponible le 6 novembre. Les livrets de 2022 et le corpus de 2025 sont distingués de cette édition.",
+    "document_kind": "edition_2027_annoncee",
+    "source_documents": [
+      {
+        "url": "https://melenchon2027.fr/programme/decouvrir/",
+        "label": "Source officielle",
+        "kind": "edition_2027_annoncee"
+      },
+      {
+        "url": "https://melenchon2027.fr/",
+        "label": "Source officielle",
+        "kind": "edition_2027_annoncee"
+      }
+    ],
+    "program": {
+      "Institutions & démocratie": "La campagne défend le passage à une VIe République.",
+      "Écologie & énergie": "La campagne présente la planification écologique comme un axe du projet."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://melenchon2027.fr/programme/decouvrir/",
+      "Source officielle — consultée le 29 septembre 2026 : https://melenchon2027.fr/"
+    ],
+    "program_sources": {
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://melenchon2027.fr/programme/decouvrir/",
+        "Source officielle — consultée le 29 septembre 2026 : https://melenchon2027.fr/"
+      ],
+      "Écologie & énergie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://melenchon2027.fr/programme/decouvrir/",
+        "Source officielle — consultée le 29 septembre 2026 : https://melenchon2027.fr/"
+      ]
+    }
+  },
+  "fabien-roussel": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Le site Vivre ! expose des orientations de campagne et appelle à contribuer sur le travail ; il ne fournit pas encore un chiffrage complet.",
+    "document_kind": "orientations_2027",
+    "source_documents": [
+      {
+        "url": "https://www.fabienroussel2027.fr/",
+        "label": "Source officielle",
+        "kind": "orientations_2027"
+      }
+    ],
+    "program": {
+      "Travail & retraites": "Orientation de campagne : améliorer les rémunérations et permettre de vivre dignement de son travail.",
+      "Santé": "Orientation de campagne : rendre les soins et les services publics accessibles et investir dans la recherche.",
+      "Europe & international": "Orientation de campagne : défendre une diplomatie indépendante, pacifiste et solidaire."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://www.fabienroussel2027.fr/"
+    ],
+    "program_sources": {
+      "Travail & retraites": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.fabienroussel2027.fr/"
+      ],
+      "Santé": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.fabienroussel2027.fr/"
+      ],
+      "Europe & international": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.fabienroussel2027.fr/"
+      ]
+    }
+  },
+  "marine-tondelier": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Le projet 2027 des Écologistes est un document collectif ; il est distingué des annonces personnelles de la candidate.",
+    "document_kind": "projet_du_mouvement",
+    "source_documents": [
+      {
+        "url": "https://marinetondelier.fr/livrets-thematiques",
+        "label": "Source officielle",
+        "kind": "projet_du_mouvement"
+      },
+      {
+        "url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
+        "label": "Source officielle",
+        "kind": "projet_du_mouvement"
+      },
+      {
+        "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf",
+        "label": "Source officielle",
+        "kind": "projet_du_mouvement"
+      }
+    ],
+    "program": {
+      "Travail & retraites": "Le projet 2027 des Écologistes prévoit d’abroger l’âge légal à 64 ans, de revenir immédiatement à 62 ans et de viser 60 ans en priorité pour les carrières précoces et pénibles.",
+      "Économie": "Le projet des Écologistes prévoit une garantie d’autonomie accessible dès 18 ans pour les personnes fiscalement indépendantes, remplaçant le RSA et fixée à 50 % du SMIC net."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://marinetondelier.fr/livrets-thematiques",
+      "Source officielle — consultée le 29 septembre 2026 : https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
+      "Source officielle — consultée le 29 septembre 2026 : https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+    ],
+    "program_sources": {
+      "Travail & retraites": [
+        "Source officielle — consultée le 29 septembre 2026 : https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+      ],
+      "Économie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+      ]
+    }
+  },
+  "francois-ruffin": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Le manifeste de Debout ! précise des orientations et premiers engagements ; ce n’est pas un programme complet chiffré.",
+    "document_kind": "manifeste_du_mouvement",
+    "source_documents": [
+      {
+        "url": "https://debout.fr/notre-manifeste/",
+        "label": "Source officielle",
+        "kind": "manifeste_du_mouvement"
+      },
+      {
+        "url": "https://nouspresident.fr/",
+        "label": "Source officielle",
+        "kind": "manifeste_du_mouvement"
+      }
+    ],
+    "program": {
+      "Travail & retraites": "Le manifeste de Debout ! défend l’abrogation de la retraite à 64 ans.",
+      "Institutions & démocratie": "Le manifeste défend le référendum d’initiative citoyenne comme première étape vers une nouvelle République.",
+      "Écologie & énergie": "Le manifeste identifie l’isolation des passoires thermiques comme une première mesure de transition."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://debout.fr/notre-manifeste/",
+      "Source officielle — consultée le 29 septembre 2026 : https://nouspresident.fr/"
+    ],
+    "program_sources": {
+      "Travail & retraites": [
+        "Source officielle — consultée le 29 septembre 2026 : https://debout.fr/notre-manifeste/",
+        "Source officielle — consultée le 29 septembre 2026 : https://nouspresident.fr/"
+      ],
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://debout.fr/notre-manifeste/",
+        "Source officielle — consultée le 29 septembre 2026 : https://nouspresident.fr/"
+      ],
+      "Écologie & énergie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://debout.fr/notre-manifeste/",
+        "Source officielle — consultée le 29 septembre 2026 : https://nouspresident.fr/"
+      ]
+    }
+  },
+  "delphine-batho": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Annonce de candidature et programme à construire. Le projet du parti fournit un contexte, pas un engagement présidentiel détaillé.",
+    "document_kind": "orientations_2027",
+    "source_documents": [
+      {
+        "url": "https://www.delphinebatho.fr/",
+        "label": "Source officielle",
+        "kind": "orientations_2027"
+      },
+      {
+        "url": "https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/",
+        "label": "Source officielle",
+        "kind": "orientations_2027"
+      }
+    ],
+    "program": {
+      "Santé": "Orientation de candidature : placer la santé environnementale et la réduction de l’exposition aux substances chimiques au cœur de l’action publique.",
+      "Écologie & énergie": "Orientation de candidature : sortir de la dépendance aux énergies fossiles."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://www.delphinebatho.fr/",
+      "Source officielle — consultée le 29 septembre 2026 : https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/"
+    ],
+    "program_sources": {
+      "Santé": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.delphinebatho.fr/",
+        "Source officielle — consultée le 29 septembre 2026 : https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/"
+      ],
+      "Écologie & énergie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.delphinebatho.fr/",
+        "Source officielle — consultée le 29 septembre 2026 : https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/"
+      ]
+    }
+  },
+  "karim-bouamrane": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Manifeste de campagne : plusieurs orientations sont identifiables, sans chiffrage détaillé.",
+    "document_kind": "manifeste_2027",
+    "source_documents": [
+      {
+        "url": "https://www.karimbouamrane2027.org/",
+        "label": "Source officielle",
+        "kind": "manifeste_2027"
+      }
+    ],
+    "program": {
+      "Éducation": "Défend l’égalité des chances par l’école et la formation professionnelle.",
+      "Agriculture": "Défend l’application aux importations agricoles des mêmes exigences que celles imposées aux producteurs français.",
+      "Europe & international": "Défend le renforcement de l’effort de défense et une Europe capable d’agir.",
+      "Immigration": "Défend un accueil digne pour les réfugiés et des reconduites pour les personnes en situation irrégulière, avec coopération des pays d’origine."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://www.karimbouamrane2027.org/"
+    ],
+    "program_sources": {
+      "Éducation": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.karimbouamrane2027.org/"
+      ],
+      "Agriculture": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.karimbouamrane2027.org/"
+      ],
+      "Europe & international": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.karimbouamrane2027.org/"
+      ],
+      "Immigration": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.karimbouamrane2027.org/"
+      ]
+    }
+  },
+  "bernard-cazeneuve": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "La lettre aux Français et sa synthèse présentent un projet de campagne. Les objectifs de long terme et les mesures applicables durant le mandat sont à distinguer.",
+    "document_kind": "campagne_2027",
+    "source_documents": [
+      {
+        "url": "https://bc2027.fr/",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      },
+      {
+        "url": "https://www.la-convention.fr/",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      },
+      {
+        "url": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf?1784135398=",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      }
+    ],
+    "program": {
+      "Travail & retraites": "Privilégie une réforme négociée fondée sur la durée de cotisation, avec prise en compte de la pénibilité et des carrières longues, dans un système par répartition.",
+      "Institutions & démocratie": "Propose le retour au septennat, une dose de proportionnelle et un renforcement du rôle du Premier ministre et du Parlement.",
+      "Santé": "Propose de faire de la santé mentale une grande cause nationale et de former les personnels de santé et d’éducation.",
+      "Sécurité & justice": "Propose une police de proximité et des moyens spécialisés contre le narcotrafic, avec exécution des peines et gel des avoirs."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://bc2027.fr/",
+      "Source officielle — consultée le 29 septembre 2026 : https://www.la-convention.fr/",
+      "Source officielle — consultée le 29 septembre 2026 : https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf?1784135398="
+    ],
+    "program_sources": {
+      "Travail & retraites": [
+        "Source officielle — consultée le 29 septembre 2026 : https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf?1784135398="
+      ],
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf?1784135398="
+      ],
+      "Santé": [
+        "Source officielle — consultée le 29 septembre 2026 : https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf?1784135398="
+      ],
+      "Sécurité & justice": [
+        "Source officielle — consultée le 29 septembre 2026 : https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf?1784135398="
+      ]
+    }
+  },
+  "olivier-faure": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Le site de campagne diffuse ses propositions en images. Les engagements détaillés exigent une lecture de ces supports ; le projet collectif du PS n’est pas attribué indistinctement aux candidats de sa primaire.",
+    "document_kind": "propositions_2026",
+    "source_documents": [
+      {
+        "url": "https://avecfaure2027.fr/mes-propositions",
+        "label": "Source officielle",
+        "kind": "propositions_2026"
+      },
+      {
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+        "label": "Entretien ou déclaration rapportée",
+        "kind": "propositions_2026"
+      }
+    ],
+    "program": {
+      "Éducation": "Défend notamment un petit-déjeuner gratuit à l’école et une meilleure formation et rémunération des AESH."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://avecfaure2027.fr/mes-propositions",
+      "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+    ],
+    "program_sources": {
+      "Éducation": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+      ]
+    }
+  },
+  "jerome-guedj": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Propositions de candidature présentées par thème ; financement et modalités restent à préciser pour plusieurs engagements.",
+    "document_kind": "campagne_2027",
+    "source_documents": [
+      {
+        "url": "https://www.jeromeguedj2027.fr/",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      }
+    ],
+    "program": {
+      "Éducation": "Propose de mieux former et rémunérer les enseignants et de réduire les effectifs des classes dans les territoires défavorisés.",
+      "Écologie & énergie": "Défend une planification publique de la rénovation des logements et des transports, avec une contribution accrue des plus gros pollueurs.",
+      "Immigration": "Propose un débat parlementaire de planification migratoire, une carte de séjour permanente et une intégration facilitée par la langue et le travail."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://www.jeromeguedj2027.fr/"
+    ],
+    "program_sources": {
+      "Éducation": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.jeromeguedj2027.fr/"
+      ],
+      "Écologie & énergie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.jeromeguedj2027.fr/"
+      ],
+      "Immigration": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.jeromeguedj2027.fr/"
+      ]
+    }
+  },
+  "segolene-royal": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Priorités annoncées lors de la candidature à la primaire le 10 juillet 2026 ; elles ne constituent pas encore un programme chiffré.",
+    "document_kind": "priorites_2026",
+    "source_documents": [
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste",
+        "label": "Entretien ou déclaration rapportée",
+        "kind": "priorites_2026"
+      }
+    ],
+    "program": {
+      "Écologie & énergie": "Annonce vouloir mettre en œuvre les engagements de la COP21.",
+      "Économie": "Annonce une action d’urgence sur le coût de l’énergie pour les petites et moyennes entreprises.",
+      "Sécurité & justice": "Défend une tolérance zéro envers les agresseurs et les violences faites aux enfants.",
+      "Europe & international": "Défend une France jouant un rôle de médiation diplomatique."
+    },
+    "sources": [
+      "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste"
+    ],
+    "program_sources": {
+      "Écologie & énergie": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste"
+      ],
+      "Économie": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste"
+      ],
+      "Sécurité & justice": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste"
+      ],
+      "Europe & international": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste"
+      ]
+    }
+  },
+  "raphael-glucksmann": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Le livre et les interventions de 2026 exposent de premières propositions ; elles sont distinguées du projet collectif de Place publique.",
+    "document_kind": "propositions_2026",
+    "source_documents": [
+      {
+        "url": "https://place-publique.eu/",
+        "label": "Source officielle",
+        "kind": "propositions_2026"
+      },
+      {
+        "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme",
+        "label": "Entretien ou déclaration rapportée",
+        "kind": "propositions_2026"
+      }
+    ],
+    "program": {
+      "Immigration": "Propose une convention citoyenne sur l’immigration dont les travaux alimenteraient des textes débattus au Parlement.",
+      "Institutions & démocratie": "Propose un service civique obligatoire de dix mois, avec volet militaire volontaire.",
+      "Europe & international": "Défend un emprunt européen et la suppression du droit de veto dans l’Union européenne.",
+      "Éducation": "Propose de revaloriser les enseignants, de renforcer les personnels au contact des élèves et d’imposer une exigence de mixité sociale au privé.",
+      "Travail & retraites": "Défend une différenciation des départs en retraite tenant compte des parcours professionnels et de l’espérance de vie en bonne santé."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://place-publique.eu/",
+      "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+    ],
+    "program_sources": {
+      "Immigration": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+      ],
+      "Institutions & démocratie": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+      ],
+      "Europe & international": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+      ],
+      "Éducation": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+      ],
+      "Travail & retraites": [
+        "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+      ]
+    }
+  },
+  "emmanuel-maurel": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Entretien du 15 septembre et interventions de rentrée : propositions personnelles documentées, distinctes des communiqués généraux de la GRS.",
+    "document_kind": "propositions_2026",
+    "source_documents": [
+      {
+        "url": "https://g-r-s.fr/la-gauche-doit-rehabiliter-la-lenteur-lattention-aux-etres-et-la-beaute-emmanuel-maurel-candidat-a-la-primaire-de-la-gauche-socialiste-dans-le-nouvel-obs/",
+        "label": "Source officielle",
+        "kind": "propositions_2026"
+      },
+      {
+        "url": "https://g-r-s.fr/category/en-ce-moment/actualites/",
+        "label": "Source officielle",
+        "kind": "propositions_2026"
+      }
+    ],
+    "program": {
+      "Économie": "Défend un emprunt citoyen pour financer la réindustrialisation, la transition écologique, la recherche et la formation.",
+      "Santé": "Propose de sortir les Ehpad du secteur privé et de les prendre en charge collectivement.",
+      "Éducation": "Propose un couvre-feu numérique pour les mineurs entre 22 heures et 6 heures.",
+      "Écologie & énergie": "Défend la relocalisation des productions et une plus grande protection des espaces naturels laissés en libre évolution."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://g-r-s.fr/la-gauche-doit-rehabiliter-la-lenteur-lattention-aux-etres-et-la-beaute-emmanuel-maurel-candidat-a-la-primaire-de-la-gauche-socialiste-dans-le-nouvel-obs/",
+      "Source officielle — consultée le 29 septembre 2026 : https://g-r-s.fr/category/en-ce-moment/actualites/"
+    ],
+    "program_sources": {
+      "Économie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://g-r-s.fr/category/en-ce-moment/actualites/"
+      ],
+      "Santé": [
+        "Source officielle — consultée le 29 septembre 2026 : https://g-r-s.fr/la-gauche-doit-rehabiliter-la-lenteur-lattention-aux-etres-et-la-beaute-emmanuel-maurel-candidat-a-la-primaire-de-la-gauche-socialiste-dans-le-nouvel-obs/"
+      ],
+      "Éducation": [
+        "Source officielle — consultée le 29 septembre 2026 : https://g-r-s.fr/la-gauche-doit-rehabiliter-la-lenteur-lattention-aux-etres-et-la-beaute-emmanuel-maurel-candidat-a-la-primaire-de-la-gauche-socialiste-dans-le-nouvel-obs/"
+      ],
+      "Écologie & énergie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://g-r-s.fr/la-gauche-doit-rehabiliter-la-lenteur-lattention-aux-etres-et-la-beaute-emmanuel-maurel-candidat-a-la-primaire-de-la-gauche-socialiste-dans-le-nouvel-obs/"
+      ]
+    }
+  },
+  "anasse-kazib": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Premières mesures de campagne publiées par Révolution permanente en septembre 2026.",
+    "document_kind": "campagne_2027",
+    "source_documents": [
+      {
+        "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      },
+      {
+        "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      }
+    ],
+    "program": {
+      "Immigration": "Défend la régularisation de toutes les personnes sans papiers.",
+      "Institutions & démocratie": "Porte une perspective de rupture révolutionnaire avec le capitalisme, fondée sur la mobilisation des travailleurs."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature",
+      "Source officielle — consultée le 29 septembre 2026 : https://www.revolutionpermanente.fr/Anasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle"
+    ],
+    "program_sources": {
+      "Immigration": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature",
+        "Source officielle — consultée le 29 septembre 2026 : https://www.revolutionpermanente.fr/Anasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle"
+      ],
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature",
+        "Source officielle — consultée le 29 septembre 2026 : https://www.revolutionpermanente.fr/Anasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle"
+      ]
+    }
+  },
+  "selma-labib": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Le communiqué du 17 juin 2026 définit une candidature ouvrière et révolutionnaire ; il ne fournit pas un programme sectoriel chiffré.",
+    "document_kind": "orientations_2027",
+    "source_documents": [
+      {
+        "url": "https://npa-revolutionnaires.org/presidentielles2027/",
+        "label": "Source officielle",
+        "kind": "orientations_2027"
+      },
+      {
+        "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante",
+        "label": "Source officielle",
+        "kind": "orientations_2027"
+      }
+    ],
+    "program": {
+      "Travail & retraites": "Orientation de campagne : défendre les salaires, les retraites, les emplois et les conditions de travail par la mobilisation collective.",
+      "Europe & international": "Orientation de campagne : communisme internationaliste et opposition à la militarisation et aux guerres impérialistes."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://npa-revolutionnaires.org/presidentielles2027/",
+      "Source officielle — consultée le 29 septembre 2026 : https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    ],
+    "program_sources": {
+      "Travail & retraites": [
+        "Source officielle — consultée le 29 septembre 2026 : https://npa-revolutionnaires.org/presidentielles2027/",
+        "Source officielle — consultée le 29 septembre 2026 : https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+      ],
+      "Europe & international": [
+        "Source officielle — consultée le 29 septembre 2026 : https://npa-revolutionnaires.org/presidentielles2027/",
+        "Source officielle — consultée le 29 septembre 2026 : https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+      ]
+    }
+  },
+  "florian-philippot": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Projet pour la France, édition septembre 2026 des Patriotes ; ses promesses sont attribuées au document, pas présentées comme des conséquences établies du Frexit.",
+    "document_kind": "projet_du_mouvement_2026",
+    "source_documents": [
+      {
+        "url": "https://les-patriotes.fr/projetpourlafrance/",
+        "label": "Source officielle",
+        "kind": "projet_du_mouvement_2026"
+      },
+      {
+        "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+        "label": "Source officielle",
+        "kind": "projet_du_mouvement_2026"
+      }
+    ],
+    "program": {
+      "Europe & international": "Le projet des Patriotes propose de quitter l’Union européenne, l’euro, Schengen, l’OTAN, la CEDH et l’OMS.",
+      "Institutions & démocratie": "Propose un RIC sur tous les sujets et la révision de la Constitution exclusivement par référendum.",
+      "Écologie & énergie": "Propose de quitter le marché européen de l’électricité, de rétablir un monopole public et d’investir dans le nucléaire.",
+      "Agriculture": "Propose de remplacer la PAC par une politique agricole française privilégiant circuits courts, qualité et souveraineté alimentaire.",
+      "Travail & retraites": "Défend une baisse de l’âge de départ à la retraite soumise au choix des Français, sans âge cible dans ce passage.",
+      "Immigration": "Propose d’arrêter l’immigration de travail et d’appliquer les obligations de quitter le territoire."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/projetpourlafrance/",
+      "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf"
+    ],
+    "program_sources": {
+      "Europe & international": [
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/projetpourlafrance/",
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf"
+      ],
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/projetpourlafrance/",
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf"
+      ],
+      "Écologie & énergie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/projetpourlafrance/",
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf"
+      ],
+      "Agriculture": [
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/projetpourlafrance/",
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf"
+      ],
+      "Travail & retraites": [
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/projetpourlafrance/",
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf"
+      ],
+      "Immigration": [
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/projetpourlafrance/",
+        "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf"
+      ]
+    }
+  },
+  "jean-lassalle": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Les propositions accessibles reprennent notamment des textes et engagements de 2021-2022. Leur reconduction dans un programme 2027 n’est pas établie : elles ne sont pas recopiées comme nouvelles promesses.",
+    "document_kind": "archives_a_distinguer",
+    "source_documents": [
+      {
+        "url": "https://resistons-france.fr/",
+        "label": "Source officielle",
+        "kind": "archives_a_distinguer"
+      }
+    ],
+    "program": {},
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://resistons-france.fr/"
+    ],
+    "program_sources": {}
+  },
+  "benoit-mathieu": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Programme institutionnel publié ; le texte du RIC est annoncé en cours de révision. Les autres secteurs ne sont pas documentés par ce programme.",
+    "document_kind": "campagne_2027",
+    "source_documents": [
+      {
+        "url": "https://benoitmathieu2027.fr/programme",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      }
+    ],
+    "program": {
+      "Institutions & démocratie": "Propose une assemblée de 500 citoyens tirés au sort pour rédiger une Constitution, suivie d’un référendum et de la démission du président ; travaille aussi à un texte instituant le RIC."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://benoitmathieu2027.fr/programme"
+    ],
+    "program_sources": {
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://benoitmathieu2027.fr/programme"
+      ]
+    }
+  },
+  "juan-branco": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Projet des Ruches affiché pour 2027 ; les modalités et les financements des propositions doivent être examinés.",
+    "document_kind": "campagne_2027",
+    "source_documents": [
+      {
+        "url": "https://ruches.org/le-projet",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      }
+    ],
+    "program": {
+      "Institutions & démocratie": "Défend le RIC sur tous les sujets et des mandats révocables.",
+      "Économie": "Propose des nationalisations dans des secteurs stratégiques, dont l’énergie, l’eau, les télécommunications et les autoroutes.",
+      "Éducation": "Propose de doubler les budgets de l’éducation et de la recherche.",
+      "Santé": "Défend une couverture universelle et une action contre les déserts médicaux.",
+      "Europe & international": "Propose des référendums sur l’Union européenne, l’euro et l’OTAN ; il ne s’agit pas d’une sortie automatique."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://ruches.org/le-projet"
+    ],
+    "program_sources": {
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://ruches.org/le-projet"
+      ],
+      "Économie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://ruches.org/le-projet"
+      ],
+      "Éducation": [
+        "Source officielle — consultée le 29 septembre 2026 : https://ruches.org/le-projet"
+      ],
+      "Santé": [
+        "Source officielle — consultée le 29 septembre 2026 : https://ruches.org/le-projet"
+      ],
+      "Europe & international": [
+        "Source officielle — consultée le 29 septembre 2026 : https://ruches.org/le-projet"
+      ]
+    }
+  },
+  "francis-lalanne": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Programme commun affiché par la campagne Dieudonné–Lalanne ; les mesures sont attribuées à ce projet, sans validation de leur faisabilité.",
+    "document_kind": "programme_commun_2027",
+    "source_documents": [
+      {
+        "url": "https://dieudolalanne2027.com/programme/",
+        "label": "Source officielle",
+        "kind": "programme_commun_2027"
+      }
+    ],
+    "program": {
+      "Europe & international": "Propose la sortie de l’Union européenne et de l’OTAN, le retour au franc et le retrait des troupes françaises des territoires en guerre.",
+      "Institutions & démocratie": "Défend une assemblée constituante et un RIC sur tous les sujets.",
+      "Économie": "Propose de réduire les impôts et taxes sur les carburants et de rendre les transports publics gratuits.",
+      "Sécurité & justice": "Propose davantage d’effectifs contre la pédocriminalité et les trafics et une refonte de l’indépendance de la justice.",
+      "Agriculture": "Défend la souveraineté alimentaire et une politique agricole fondée sur les besoins des petits exploitants."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://dieudolalanne2027.com/programme/"
+    ],
+    "program_sources": {
+      "Europe & international": [
+        "Source officielle — consultée le 29 septembre 2026 : https://dieudolalanne2027.com/programme/"
+      ],
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://dieudolalanne2027.com/programme/"
+      ],
+      "Économie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://dieudolalanne2027.com/programme/"
+      ],
+      "Sécurité & justice": [
+        "Source officielle — consultée le 29 septembre 2026 : https://dieudolalanne2027.com/programme/"
+      ],
+      "Agriculture": [
+        "Source officielle — consultée le 29 septembre 2026 : https://dieudolalanne2027.com/programme/"
+      ]
+    }
+  },
+  "lydie-massard": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Déclaration du 7 avril 2026 : orientation fédéraliste, sociale et écologique. Un programme sectoriel détaillé n’est pas fourni dans cette déclaration.",
+    "document_kind": "orientations_2027",
+    "source_documents": [
+      {
+        "url": "https://www.udb.bzh/non-classifiee/communiques/lydie-massard-candidate-aux-primaires-de-la-gauche/",
+        "label": "Source officielle",
+        "kind": "orientations_2027"
+      },
+      {
+        "url": "https://www.udb.bzh/",
+        "label": "Source officielle",
+        "kind": "orientations_2027"
+      }
+    ],
+    "program": {
+      "Institutions & démocratie": "Défend une République fédérale donnant davantage de pouvoir aux territoires et rapprochant les décisions des citoyens."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://www.udb.bzh/non-classifiee/communiques/lydie-massard-candidate-aux-primaires-de-la-gauche/",
+      "Source officielle — consultée le 29 septembre 2026 : https://www.udb.bzh/"
+    ],
+    "program_sources": {
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.udb.bzh/non-classifiee/communiques/lydie-massard-candidate-aux-primaires-de-la-gauche/",
+        "Source officielle — consultée le 29 septembre 2026 : https://www.udb.bzh/"
+      ]
+    }
+  },
+  "nathalie-arthaud": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Le discours de février 2026 précise la ligne politique actuelle ; il est distingué d’un programme présidentiel complet.",
+    "document_kind": "positionnement_2026",
+    "source_documents": [
+      {
+        "url": "https://www.nathalie-arthaud.info/",
+        "label": "Source officielle",
+        "kind": "positionnement_2026"
+      },
+      {
+        "url": "https://portail.lutte-ouvriere.org/portail/brochures/meeting-14-fevrier-2026-discours-nathalie-arthaud-191591.html",
+        "label": "Source officielle",
+        "kind": "positionnement_2026"
+      }
+    ],
+    "program": {
+      "Économie": "Orientation défendue en 2026 : renverser le capitalisme et remettre en cause la propriété des grands groupes par les capitalistes.",
+      "Europe & international": "Orientation défendue en 2026 : solidarité internationale des travailleurs et opposition aux politiques de réarmement et aux guerres."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://www.nathalie-arthaud.info/",
+      "Source officielle — consultée le 29 septembre 2026 : https://portail.lutte-ouvriere.org/portail/brochures/meeting-14-fevrier-2026-discours-nathalie-arthaud-191591.html"
+    ],
+    "program_sources": {
+      "Économie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.nathalie-arthaud.info/",
+        "Source officielle — consultée le 29 septembre 2026 : https://portail.lutte-ouvriere.org/portail/brochures/meeting-14-fevrier-2026-discours-nathalie-arthaud-191591.html"
+      ],
+      "Europe & international": [
+        "Source officielle — consultée le 29 septembre 2026 : https://www.nathalie-arthaud.info/",
+        "Source officielle — consultée le 29 septembre 2026 : https://portail.lutte-ouvriere.org/portail/brochures/meeting-14-fevrier-2026-discours-nathalie-arthaud-191591.html"
+      ]
+    }
+  },
+  "nicolas-dupont-aignan": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Discours de rentrée 2026 et site de campagne examinés ; les propositions déjà documentées sont conservées avec leurs sources.",
+    "document_kind": "propositions_2026",
+    "source_documents": [
+      {
+        "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/",
+        "label": "Source officielle",
+        "kind": "propositions_2026"
+      },
+      {
+        "url": "https://www.dupontaignan.fr/",
+        "label": "Source officielle",
+        "kind": "propositions_2026"
+      }
+    ],
+    "program": {},
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/",
+      "Source officielle — consultée le 29 septembre 2026 : https://www.dupontaignan.fr/"
+    ],
+    "program_sources": {}
+  },
+  "francois-asselineau": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "L’UPR annonce explicitement que le programme 2027 sera publié prochainement. Les éditions 2012, 2017 et 2022 restent des archives et ne sont pas transposées.",
+    "document_kind": "programme_2027_a_paraitre",
+    "source_documents": [
+      {
+        "url": "https://upr.fr/notre-programme",
+        "label": "Source officielle",
+        "kind": "programme_2027_a_paraitre"
+      }
+    ],
+    "program": {},
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://upr.fr/notre-programme"
+    ],
+    "program_sources": {}
+  },
+  "clara-egger": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Programme volontairement limité à deux réformes institutionnelles ; le calendrier de référendum est une proposition de la campagne, dont la voie juridique reste à examiner.",
+    "document_kind": "campagne_2027",
+    "source_documents": [
+      {
+        "url": "https://solutiondemocratique.fr/notre-solution/calendrier-president/",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      }
+    ],
+    "program": {
+      "Institutions & démocratie": "Propose un référendum sur le RIC constituant et sur le pouvoir des collectivités de définir leurs règles électorales ; la campagne vise un vote le 9 octobre 2027."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://solutiondemocratique.fr/notre-solution/calendrier-president/"
+    ],
+    "program_sources": {
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://solutiondemocratique.fr/notre-solution/calendrier-president/"
+      ]
+    }
+  },
+  "olivier-becht": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Le Projet France, dossier du 24 septembre 2026 : cinq axes publiés ; les objectifs technologiques ne constituent pas une garantie de résultat.",
+    "document_kind": "campagne_2027",
+    "source_documents": [
+      {
+        "url": "https://becht2027.fr/wp-content/uploads/2026/09/dossier_presse_4p-A4.pdf",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      },
+      {
+        "url": "https://becht2027.fr/",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      }
+    ],
+    "program": {
+      "Écologie & énergie": "Propose de développer les carburants de synthèse pour viser l’indépendance énergétique.",
+      "Santé": "Propose de réorganiser les soins, de développer une alimentation sans phytosanitaires et de financer la recherche contre le cancer, Alzheimer et Parkinson.",
+      "Travail & retraites": "Propose un contrat universel de protection sociale de la naissance à la mort, avec une contrepartie de participation.",
+      "Sécurité & justice": "Propose des détentions longues pour les personnes menaçant la société et des centres de redressement encadrés par d’anciens militaires.",
+      "Institutions & démocratie": "Propose le RIC, la prise en compte du vote blanc et une autonomie réglementaire et financière des collectivités."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://becht2027.fr/wp-content/uploads/2026/09/dossier_presse_4p-A4.pdf",
+      "Source officielle — consultée le 29 septembre 2026 : https://becht2027.fr/"
+    ],
+    "program_sources": {
+      "Écologie & énergie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://becht2027.fr/wp-content/uploads/2026/09/dossier_presse_4p-A4.pdf"
+      ],
+      "Santé": [
+        "Source officielle — consultée le 29 septembre 2026 : https://becht2027.fr/wp-content/uploads/2026/09/dossier_presse_4p-A4.pdf"
+      ],
+      "Travail & retraites": [
+        "Source officielle — consultée le 29 septembre 2026 : https://becht2027.fr/wp-content/uploads/2026/09/dossier_presse_4p-A4.pdf"
+      ],
+      "Sécurité & justice": [
+        "Source officielle — consultée le 29 septembre 2026 : https://becht2027.fr/wp-content/uploads/2026/09/dossier_presse_4p-A4.pdf"
+      ],
+      "Institutions & démocratie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://becht2027.fr/wp-content/uploads/2026/09/dossier_presse_4p-A4.pdf"
+      ]
+    }
+  },
+  "philippe-brun": {
+    "reviewed_at": "2026-09-29",
+    "review_note": "Programme Produire publié pour la primaire socialiste et sociale-démocrate. Candidat ajouté lors de la recherche de fond.",
+    "document_kind": "campagne_2027",
+    "source_documents": [
+      {
+        "url": "https://philippebrun.fr/Programme-P.Brun-Produire.pdf",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      },
+      {
+        "url": "https://philippebrun.fr/",
+        "label": "Source officielle",
+        "kind": "campagne_2027"
+      }
+    ],
+    "program": {
+      "Économie": "Propose un plan industriel France 2040, une compagnie nationale des mines et des impôts davantage concentrés sur les grands patrimoines.",
+      "Écologie & énergie": "Propose un monopole public d’EDF, la relance du nucléaire et un financement citoyen des renouvelables.",
+      "Agriculture": "Propose une loi de souveraineté agricole, une meilleure rémunération des producteurs et des restrictions aux importations ne respectant pas les normes françaises.",
+      "Santé": "Propose de réguler l’installation des médecins et de conditionner les financements des cliniques à des obligations de service public.",
+      "Éducation": "Propose de réduire les effectifs des classes et d’augmenter les salaires des enseignants.",
+      "Travail & retraites": "Propose une capitalisation collective via un fonds souverain public géré par les syndicats."
+    },
+    "sources": [
+      "Source officielle — consultée le 29 septembre 2026 : https://philippebrun.fr/Programme-P.Brun-Produire.pdf",
+      "Source officielle — consultée le 29 septembre 2026 : https://philippebrun.fr/"
+    ],
+    "program_sources": {
+      "Économie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://philippebrun.fr/Programme-P.Brun-Produire.pdf"
+      ],
+      "Écologie & énergie": [
+        "Source officielle — consultée le 29 septembre 2026 : https://philippebrun.fr/Programme-P.Brun-Produire.pdf"
+      ],
+      "Agriculture": [
+        "Source officielle — consultée le 29 septembre 2026 : https://philippebrun.fr/Programme-P.Brun-Produire.pdf"
+      ],
+      "Santé": [
+        "Source officielle — consultée le 29 septembre 2026 : https://philippebrun.fr/Programme-P.Brun-Produire.pdf"
+      ],
+      "Éducation": [
+        "Source officielle — consultée le 29 septembre 2026 : https://philippebrun.fr/Programme-P.Brun-Produire.pdf"
+      ],
+      "Travail & retraites": [
+        "Source officielle — consultée le 29 septembre 2026 : https://philippebrun.fr/Programme-P.Brun-Produire.pdf"
+      ]
+    },
+    "candidate": {
+      "id": "philippe-brun",
+      "name": "Philippe Brun",
+      "party": "Parti socialiste",
+      "status": "primary",
+      "status_label": "Candidat à la primaire socialiste",
+      "bio": "Député de l’Eure, vice-président de la commission des finances de l’Assemblée nationale ; candidat à la primaire socialiste et sociale-démocrate pour 2027.",
+      "controversies": []
+    }
   }
 }
