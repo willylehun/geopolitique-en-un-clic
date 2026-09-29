@@ -2,8 +2,8 @@
   "date": "29 septembre 2026",
   "timezone": "Europe/Paris",
   "target_countries": 195,
-  "covered_count": 68,
-  "missing_count": 127,
+  "covered_count": 71,
+  "missing_count": 124,
   "covered_countries": [
     "Afrique du Sud",
     "Albanie",
@@ -14,6 +14,7 @@
     "Australie",
     "Azerbaïdjan",
     "Bahreïn",
+    "Belgique",
     "Birmanie",
     "Bolivie",
     "Brésil",
@@ -52,6 +53,8 @@
     "Maroc",
     "Monaco",
     "Mozambique",
+    "Niger",
+    "Nigeria",
     "Oman",
     "Pakistan",
     "Philippines",
@@ -76,7 +79,6 @@
   ],
   "missing_countries": [
     "Bangladesh",
-    "Belgique",
     "Cameroun",
     "Danemark",
     "Ghana",
@@ -108,8 +110,6 @@
     "Haïti",
     "Indonésie",
     "Moldavie",
-    "Niger",
-    "Nigeria",
     "Ouganda",
     "Ouzbékistan",
     "Rwanda",
@@ -204,7 +204,7 @@
     "Îles Salomon"
   ],
   "rule": "Couverture cumulative sur la journée civile Europe/Paris : les 195 pays restent dans la rotation ; covered = au moins une actualité du jour publiée ; missing = pays sans actualité publiée à cet instant. Plusieurs articles distincts par pays sont autorisés.",
-  "updated_at": "2026-09-29T21:06:30.364004+02:00",
+  "updated_at": "2026-09-29T21:16:39.959636+02:00",
   "checked_count": 195,
   "checked_countries": [
     "Afghanistan",

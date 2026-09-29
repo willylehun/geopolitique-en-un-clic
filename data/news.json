@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:06:30.364004+02:00",
+  "generated_at": "2026-09-29T21:16:39.959636+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -371,8 +371,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Asie",
+        "Amérique du Sud",
         "Amérique du Nord",
         "International"
       ],
@@ -385,8 +385,8 @@
         "Reuters"
       ],
       "countries": [
-        "Venezuela",
         "Iran",
+        "Venezuela",
         "États-Unis"
       ]
     },
@@ -2297,8 +2297,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Europe",
+        "Amérique du Sud",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -2313,8 +2313,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Venezuela",
         "Royaume-Uni",
+        "Venezuela",
         "États-Unis"
       ]
     },
@@ -4221,12 +4221,12 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Europe"
+        "Europe",
+        "Afrique"
       ],
       "countries": [
-        "Guinée",
-        "France"
+        "France",
+        "Guinée"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
@@ -22600,8 +22600,8 @@
         "Afrique"
       ],
       "countries": [
-        "Guinée",
-        "Niger"
+        "Niger",
+        "Guinée"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -27975,10 +27975,11 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "U. S. Les offres d'emploi sont tombées à 7. 1 million en août mais le marché du travail reste solide. Les offres d'emploi aux États-Unis ont chuté à 7,08 millions contre 7,34 millions révisés en juillet, a rapporté mardi le ministère du Travail.",
+      "summary": "Aux États-Unis, les offres d'emploi sont tombées à 7,1 millions en août, mais le marché du travail reste solide. Les offres d'emploi aux États-Unis ont chuté à 7,08 millions contre 7,34 millions révisés en juillet, a rapporté mardi le ministère du Travail. Les ouvertures ont été inférieures aux 7,2 millions attendus par les prévisionnistes.",
       "sources": [
         "thetimes-tribune.com — fiabilité 6/10",
-        "adn.com — fiabilité 6/10"
+        "adn.com — fiabilité 6/10",
+        "Boston Herald — fiabilité 6/10"
       ],
       "url": "https://www.thetimes-tribune.com/2026/09/29/us-job-openings-august/",
       "published_at": "2026-09-29T19:15:00+02:00",
@@ -28292,7 +28293,7 @@
         "The Times of Israël — fiabilité 6/10"
       ],
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMEUzN29TcUo1OGs5aVZzeW8teUlKY2s2eGhnNFF3SzVBM2xISXo0ajZTamxKb3doSHpFTVZ2T3VHV0trUl9jYU9uV2pUNDk3Y0ZXT2xjZlJPLUo3WmpuRE8ydk1ueWt2bzBna05UdlpfeTZ5UzVpSkZQaXlhT1hJR1JjajZONDN6aXUyOTNKRGthbkVy0gGaAUFVX3lxTFBmaXdLV2xfOWlrNE1wM2FFbFdQWE5rSHItQXcxZjkxZXFOVldadFYtUjRNX0VQbkhlTzJTaDJXRjhGWHNOSmg0ZDR1VmVCU0F2bDd0bG5hQWkyMDdYNzZuaDR2X3hzTTZwT3FYanZxWjBzN2pSaElqbnZMRmNCcE5xOWZmdUZkUk1LTV9oaHByN0d4eUFBMTUxQ2c?oc=5",
-      "published_at": "2026-09-29T14:32:20+02:00",
+      "published_at": "2026-09-29T14:42:39+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -28933,12 +28934,13 @@
       "bucket": "29 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Trump affirme que l’Iran « échoue gravement » dans sa guerre contre les États-Unis. Le président Donald Trump (États-Unis) a déclaré mardi que le conflit avec l'Iran \"sera terminé très bientôt\".",
+      "summary": "Le président Donald Trump (États-Unis) affirme que la guerre en Iran sera « l’une des choses les plus importantes » qu’il ait faites pendant son mandat. Trump a déclaré que l'Iran était « en très mauvais état » et que le conflit prendrait fin « très bientôt » alors que les expéditions de pétrole via le détroit d'Ormuz montraient des signes de reprise…",
       "sources": [
-        "Fox News — fiabilité 6/10"
+        "Fox News — fiabilité 6/10",
+        "Firstpost — fiabilité 6/10"
       ],
       "url": "https://www.foxnews.com/video/6405918049112",
-      "published_at": "2026-09-29T12:39:00+02:00",
+      "published_at": "2026-09-29T14:08:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -29069,7 +29071,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Amérique du Sud"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -29116,7 +29119,7 @@
       "bucket": "29 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Les Brésiliens Lula et Flavio Bolsonaro sont toujours à égalité dans le scénario du second tour de l'élection présidentielle, selon un sondage Atlas. Le président brésilien Luiz Inacio Lula da Silva et le sénateur Flavio Bolsonaro restent statistiquement à égalité lors d'un second tour simulé avant les élections du mois prochain, selon AtlasIntel/ …",
+      "summary": "Les Brésiliens Lula et Flavio Bolsonaro sont toujours à égalité dans le scénario du second tour de l'élection présidentielle, selon un sondage Atlas. Le président brésilien Luiz Inacio Lula da Silva et le sénateur Flavio Bolsonaro restent statistiquement à égalité lors d'un second tour simulé avant les élections du mois prochain, selon une étude d'AtlasIntel/ …",
       "sources": [
         "AOL — fiabilité 6/10"
       ],
@@ -29365,7 +29368,7 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Burnham trace une « nouvelle voie » pour la Grande-Bretagne et s'engage à rechercher un consensus sur les liens avec l'UE. Le Premier ministre britannique Andy Burnham s'est engagé mardi à donner à la Grande-Bretagne \"un nouveau contrat social pour le 21e siècle\", à réformer le système électoral du pays et à construire un consensus sur une nouvelle relation avec le…",
+      "summary": "Burnham trace une « nouvelle voie » pour la Grande-Bretagne et s'engage à rechercher un consensus sur les relations avec l'UE. Le Premier ministre britannique Andy Burnham s'est engagé mardi à donner à la Grande-Bretagne \"un nouveau contrat social pour le 21e siècle\", à réformer le système électoral du pays et à construire un consensus sur une nouvelle relation avec le…",
       "sources": [
         "France 24 (média public) — fiabilité 8/10"
       ],
@@ -30074,9 +30077,10 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "« Vraiment historique » : le roi du Maroc nomme la première femme Premier ministre. Le roi Mohammed VI du Maroc a nommé Fatima Ezzahra El Mansouri première femme Premier ministre du pays et deuxième femme du monde arabe à occuper ce poste.",
+      "summary": "« Vraiment historique » : le roi du Maroc nomme la première femme Premier ministre. Le roi Mohammed VI du Maroc a nommé Fatima Ezzahra El Mansouri première femme Premier ministre du pays et deuxième femme du monde arabe à occuper ce poste. Le palais royal a dit…",
       "sources": [
-        "Yahoo — fiabilité 6/10"
+        "Yahoo — fiabilité 6/10",
+        "Al Jazeera — fiabilité 8/10"
       ],
       "url": "https://www.yahoo.com/news/world/articles/truly-historic-morocco-king-appoints-181037094.html",
       "published_at": "2026-09-29T13:09:00+02:00",
@@ -30835,7 +30839,8 @@
       "category": "Géopolitique",
       "summary": "Trump s’apprête à agrandir le camp du Qatar, abritant plus de 1 000 Afghans qui ont contribué à l’effort de guerre américain. L'administration du président Donald Trump (États-Unis) s'apprête à accorder un sursis de dernière minute à un camp au Qatar qui abrite plus de 1 000 Afghans ayant travaillé avec les forces américaines. Le secrétaire d’État Marco Rubio (États-Unis)…",
       "sources": [
-        "New Haven Register — fiabilité 6/10"
+        "New Haven Register — fiabilité 6/10",
+        "ClickOrlando — fiabilité 6/10"
       ],
       "url": "https://www.nhregister.com/news/article/trump-is-set-to-extend-the-qatar-camp-housing-22454985.php",
       "published_at": "2026-09-29T13:52:00+02:00",
@@ -30964,6 +30969,418 @@
       ],
       "url": "https://www.msn.com/fr-ch/actualite/other/russie-budget-militaire-record-et-244-millions-de-soldats-en-2027/ar-AA2daz6u",
       "published_at": "2026-09-29T01:15:51+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'Espagne va plafonner la hausse des prix du gaz et étendre les réductions sur le carburant. Le gouvernement espagnol a annoncé mardi son intention de limiter la hausse des prix du gaz naturel à 15 pour cent et d'étendre les réductions sur le carburant afin de protéger les consommateurs des retombées de la guerre au Moyen-Orient.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20260929-spain-to-cap-gas-price-hikes-extend-fuel-discounts",
+      "published_at": "2026-09-29T10:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Cour d'appel : une entreprise néerlandaise n'est pas responsable des blessures subies par les victimes iraniennes du gaz moutarde dans les années 1980. La Cour d'appel a statué mardi que la société néerlandaise Otjiaha B. V., anciennement appelée Melchemie, n'était pas responsable de l'approvisionnement en gaz moutarde de l'Irak dans les années 1980. Cinq ressortissants iraniens ont poursuivi le…",
+      "sources": [
+        "NL Times — fiabilité 6/10"
+      ],
+      "url": "https://nltimes.nl/2026/09/29/appeals-court-dutch-firm-liable-injuries-1980s-iranian-mustard-gas-victims",
+      "published_at": "2026-09-29T02:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Politique",
+      "summary": "L'administration Trump a abandonné son projet de détenir les immigrants dans une base militaire du sud de Jersey, a déclaré le GAO. L'administration Trump a abandonné son projet de construire un centre de détention pour immigrants à la base commune McGuire-Dix-Lakehurst, dans le sud de Jersey, selon un nouveau rapport du Government Accountability…",
+      "sources": [
+        "The Philadelphia Inquirer — fiabilité 6/10"
+      ],
+      "url": "https://www.inquirer.com/news/joint-base-mcguire-dix-lakehurst-south-jersey-immigration-detainees-20260929.html",
+      "published_at": "2026-09-29T13:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "EFD répond à l'impact d'une conduite de gaz à Lloyd et Cross Pointe ; impact sur la circulation attendu. Dispatch a confirmé à Eyewitness News que le service d'incendie d'Evansville répondait à une fuite de gaz à l'intersection de Lloyd Expressway et de Cross Pointe…",
+      "sources": [
+        "Eyewitness News (WEHT/WTVW) — fiabilité 6/10"
+      ],
+      "url": "https://www.tristatehomepage.com/news/efd-responding-to-gas-main-hit-at-lloyd-and-cross-pointe-traffic-impact-expected/",
+      "published_at": "2026-09-29T13:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement attribue la hausse du risque pays au conflit au Moyen-Orient et à la hausse des taux aux États-Unis. Le porte-parole présidentiel a assuré que le contexte international pourrait affecter certains indicateurs économiques, mais que ce serait temporaire. Il a également défendu le programme de l'Exécutif et mis en avant celui de…",
+      "sources": [
+        "Todo Noticias — fiabilité 6/10"
+      ],
+      "url": "https://tn.com.ar/economia/2026/09/29/el-gobierno-le-atribuyo-la-suba-del-riesgo-pais-al-conflicto-en-medio-oriente-y-el-alza-de-las-tasas-en-los-estados-unidos/",
+      "published_at": "2026-09-29T13:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'action SPCX ajoute 3 % : le prospectus d'introduction en bourse d'Anthropic indiquerait 84,5 milliards de dollars pour SpaceX en accords de calcul. Anthropic prévoit de dépenser au moins 518 milliards de dollars sur une période de 10 ans pour développer son infrastructure informatique d'intelligence artificielle. ・La société a révélé des accords de calcul avec SpaceX…",
+      "sources": [
+        "Stocktwits via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/spcx-stock-adds-3-anthropics-ipo-prospectus-reportedly-shows-845b-to-spacex-in-compute-agreements/ar-AA2dds9U",
+      "published_at": "2026-09-29T13:12:15+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Célébration de 70 ans de produits, de pâtisseries et d'artisanat locaux à Waterford. Le Waterford Country Market a célébré son 70e anniversaire. Le marché est basé dans la salle St Olaf, sur la rue Peter, à côté de la place de la ville. Pour célébrer cette merveilleuse étape, le marché a organisé un café…",
+      "sources": [
+        "Waterford News & Star — fiabilité 6/10"
+      ],
+      "url": "https://www.waterford-news.ie/news/celebrating-70-years-of-home-grown-produce-bakes-and-crafts-in-waterford_arid-111996.html",
+      "published_at": "2026-09-29T01:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les avocats de Trump reçoivent un nouveau coup dur alors que le juge les accuse d'abuser du système. L’équipe juridique du président Donald Trump (États-Unis) a subi un revers après qu’une cour d’appel fédérale a refusé de suspendre les sanctions imposées dans le cadre de son procès de 10 milliards de dollars contre l’Internal Revenue Service. Bloomberg…",
+      "sources": [
+        "AlterNet via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/trump-lawyers-hit-with-new-blow-as-judge-accuses-them-of-abusing-system/ar-AA2dd3fA",
+      "published_at": "2026-09-29T13:08:43+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Sénégal",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Détention de la basketteuse Aminata Seck aux USA : Le gouvernement sénégalais sort du silence et active ses leviers consulaires. L’affaire suscite une vive émotion au Sénégal comme au sein de la diaspora. Aminata Seck, basketteuse sénégalaise de 26 ans évoluant à la Kentucky State University, a été arrêtée le 7 août 2026 par le …",
+      "sources": [
+        "Seneweb — fiabilité 6/10"
+      ],
+      "url": "https://www.seneweb.com/fr/news/Diplomatie/detention-de-la-basketteuse-aminata-seck-aux-usa-le-gouvernement-senegalais-sort-du-silence-et-active-ses-leviers-consulaires_n_505615.html",
+      "published_at": "2026-09-29T14:04:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Gaspillage », « mascarade »: un gouvernement du PQ couperait les liens avec la monarchie britannique. Un gouvernement du PQ coupera tous les liens avec la monarchie, réitère PSPP, alors qu’un voyage de l’ex-gouverneure générale fait les manchettes.",
+      "sources": [
+        "Le Journal de Québec — fiabilité 6/10"
+      ],
+      "url": "https://www.journaldequebec.com/2026/09/29/gaspillage---mascarade--un-gouvernement-du-pq-couperait-les-liens-avec-la-monarchie-britannique",
+      "published_at": "2026-09-29T10:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Une nouvelle vidéo et un tracker vérifient les mensonges du président Donald Trump (États-Unis) selon lesquels la guerre en Iran se terminera dans « environ deux semaines ». La nouvelle campagne fait partie d'un partenariat plus large entre Home of the Brave et VoteVets pour mobiliser les vétérans et les Américains pro-démocratie contre le programme politique désastreux de Trump.",
+      "sources": [
+        "votevets — fiabilité 6/10"
+      ],
+      "url": "https://votevets.org/press-releases/new-video-and-tracker-fact-check-trumps-lies-that-the-iran-war-will-end-in-about-two-weeks",
+      "published_at": "2026-09-29T04:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Sans femmes obéissantes et peu sûres d’elles-mêmes, l’économie américaine s’effondrerait.",
+      "sources": [
+        "Presse-toi à gauche — fiabilité 5/10"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTlM3WXR4T1BfQ055anRORWF2dE9XTldqR1hDeVEyX2p2cXZiSDZVd2xENnpsT0NMWlpoaktYaG53b3Q3dDF3Rm9QNGVTUlg0R3dEUjJzbldweER1eUhRcm9jd2pnVnJ4djdvRFJPU2J3eGd5cjRzdk1QaGJTZzJqay04bVMxXzRMQ3Ryc3J1eEZvcTg3WFR1Z2N5ZmVCU0JtWVdqQVRR?oc=5",
+      "published_at": "2026-09-29T17:30:13+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Niger"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Uranium au Niger : entre rupture avec Orano et nouveaux alliés, la stratégie de Tiani au banc d’essai. L’uranium nigérien suscite un regain d’appétit. Portés par un marché haussier, de nouveaux projets australiens et canadiens se relancent, mais l’ombre du litige avec Orano plane sur la stratégie miniè …",
+      "sources": [
+        "Jeune Afrique — fiabilité 7/10"
+      ],
+      "url": "https://www.jeuneafrique.com/1846659/economie-entreprises/uranium-au-niger-entre-rupture-avec-orano-et-nouveaux-allies-la-strategie-de-tiani-au-banc-dessai/",
+      "published_at": "2026-09-29T10:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine Un émissaire russe a rencontré des responsables américains à Washington. L’émissaire russe Kirill Dmitriev a rencontré lundi à Washington des responsables américains pour « poursuivre des discussions constructives sur une résolution pacifique du conflit entre la Russie et …",
+      "sources": [
+        "La Presse — fiabilité 6/10"
+      ],
+      "url": "https://www.lapresse.ca/international/2026-09-29/guerre-en-ukraine/un-emissaire-russe-a-rencontre-des-responsables-americains-a-washington.php",
+      "published_at": "2026-09-29T09:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Belgique",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine: la Belgique livrera trois F-16 à l'Ukraine d'ici la fin de l'année 2026. La Belgique livrera d'ici la fin de l'année trois F-16 à l'Ukraine, a annoncé le président Volodymyr Zelensky (Ukraine) sur X.",
+      "sources": [
+        "L'Avenir — fiabilité 6/10"
+      ],
+      "url": "https://www.lavenir.net/actu/belgique/2026/09/29/guerre-en-ukraine-la-belgique-livrera-trois-f-16-a-lukraine-dici-la-fin-de-lannee-2026-IYDGFTOZOFGA5KGGGRWQNQQRJ4/",
+      "published_at": "2026-09-29T09:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "En Ukraine, les \"mafias de l'ambre\" ressuscitent dans l'ombre de la guerre. Debout parmi les souches, Oleksandre soupire. Un marécage stérile, quelques buissons: les restes d'une luxuriante pinède du nord-ouest de l'Ukraine, ravagée par l'extraction …",
+      "sources": [
+        "lepetitjournal.com — fiabilité 6/10"
+      ],
+      "url": "https://lepetitjournal.com/expat-politique/en-ukraine-les-mafias-de-lambre-ressuscitent-dans-lombre-de-la-guerre-454740",
+      "published_at": "2026-09-29T03:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France",
+        "Pologne",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : le président Emmanuel Macron (France) dénonce une « fuite en avant » de Moscou ; fortes explosions à Kiev. De fortes explosions ont été entendues tôt ce matin à Kiev, qui subit depuis plusieurs semaines une augmentation du nombre de frappes russes. À la frontière avec la Pologne, un poste-frontière ukraini …",
+      "sources": [
+        "La Croix — fiabilité 6/10"
+      ],
+      "url": "https://www.la-croix.com/international/ukraine-russie-jour-1675-point-conflit-ukrainien-poutine-aujourdhui-20260929",
+      "published_at": "2026-09-29T00:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "En direct, guerre en Ukraine – De fortes explosions entendues à Kiev. Le président Volodymyr Zelensky (Ukraine) a révélé, devant l'ONU jeudi, le transfert de deux soldats nord-coréens faits prisonniers en 2025. Cette divulgation «viole l'accord de confidentialité entre les deux pays» et const …",
+      "sources": [
+        "Le Temps — fiabilité 8/10"
+      ],
+      "url": "https://www.letemps.ch/monde/en-direct-guerre-en-ukraine-seoul-exige-des-excuses-de-kiev-pour-avoir-revele-le-transfert-de-prisonniers-nord-coreens",
+      "published_at": "2026-09-29T00:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "L'Ukraine réclame des mesures fortes sur les avoirs russes pour combler un déficit de 78 milliards de dollars. Les frappes aériennes incessantes de la Russie creusent un gouffre financier dans le budget de l'Ukraine. Kyiv presse ses alliés européens d'utiliser les avoirs russes gelés. View on euronews …",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/finance/général/l-ukraine-réclame-des-mesures-fortes-sur-les-avoirs-russes-pour-combler-un-déficit-de-78-milliards-de-dollars/ar-AA2ddGZZ",
+      "published_at": "2026-09-29T13:33:12+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria",
+        "Afrique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Abuja réclame justice pour 3 migrants morts en Afrique du Sud - APAnews.",
+      "sources": [
+        "APAnews - Agence de Presse Africaine — fiabilité 6/10"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMjd6c09UX1JqTDdJekVRR3RJY3lHZ3I5Z0gyUGVOd2NIYWxtY1FueGFORWFwNjEtM2k3Nlk4TUNGNmtUQXBHLXVjdVNtMVIzc1B1a2x5ekNOQjBBamFrQ2ZmTUFJdDJyOXBONkRWdGpQS2gwbDhiUHJLQ0p2NGJLUHlqc19sZURaT1NXaUZJRE5VeVg1dEx6ZllURQ?oc=5",
+      "published_at": "2026-09-29T13:24:16+02:00",
       "origin": "rss",
       "content_enriched": true
     },
