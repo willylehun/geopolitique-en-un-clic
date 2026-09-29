@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:10:56.995728+02:00",
+  "generated_at": "2026-09-29T20:14:36.790064+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -125,8 +125,8 @@
         "Reuters"
       ],
       "countries": [
-        "Japon",
         "Chine",
+        "Japon",
         "États-Unis"
       ]
     },
@@ -728,6 +728,7 @@
     {
       "regions": [
         "Océanie",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -930,7 +931,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
@@ -1144,7 +1146,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
@@ -1182,7 +1185,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
@@ -1331,7 +1335,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
@@ -1572,7 +1577,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
@@ -1665,7 +1671,6 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -1680,8 +1685,7 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Yémen",
-        "États-Unis"
+        "Yémen"
       ]
     },
     {
@@ -2211,8 +2215,7 @@
     },
     {
       "regions": [
-        "Europe",
-        "Amérique du Nord"
+        "Europe"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
@@ -2226,8 +2229,7 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Danemark",
-        "États-Unis"
+        "Danemark"
       ]
     },
     {
@@ -2908,7 +2910,7 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -2923,8 +2925,7 @@
       "published_at": "2026-09-04T09:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
-        "États-Unis"
+        "Iran"
       ]
     },
     {
@@ -2990,8 +2991,8 @@
       "published_at": "2026-09-08T09:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Liban",
         "Israël",
+        "Liban",
         "Royaume-Uni"
       ]
     },
@@ -3682,12 +3683,10 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
         "International"
       ],
       "countries": [
-        "Arabie saoudite",
-        "États-Unis"
+        "Arabie saoudite"
       ],
       "period": "day",
       "bucket": "20 septembre 2026",
@@ -3706,8 +3705,8 @@
         "Asie"
       ],
       "countries": [
-        "Liban",
         "Afghanistan",
+        "Liban",
         "Pakistan"
       ],
       "period": "day",
@@ -4250,8 +4249,7 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Nicaragua",
-        "États-Unis"
+        "Nicaragua"
       ],
       "period": "day",
       "bucket": "3 septembre 2026",
@@ -4327,7 +4325,8 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Belize"
+        "Belize",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6517,12 +6516,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Asie"
       ],
       "countries": [
-        "Liban",
         "République dominicaine",
+        "Liban",
         "Pakistan"
       ],
       "period": "day",
@@ -7769,8 +7768,8 @@
         "Asie"
       ],
       "countries": [
-        "Japon",
-        "Chine"
+        "Chine",
+        "Japon"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -13594,8 +13593,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Liban",
-        "Israël"
+        "Israël",
+        "Liban"
       ]
     },
     {
@@ -13685,7 +13684,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "International"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -14279,7 +14279,8 @@
     {
       "regions": [
         "Asie",
-        "Europe"
+        "Europe",
+        "Afrique"
       ],
       "countries": [
         "Palestine",
@@ -15172,7 +15173,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -15686,7 +15688,7 @@
     },
     {
       "regions": [
-        "Europe"
+        "Océanie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -16502,7 +16504,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -16636,7 +16639,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -16706,7 +16710,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -17029,8 +17034,8 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Liban",
-        "Israël"
+        "Israël",
+        "Liban"
       ]
     },
     {
@@ -17567,7 +17572,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -17890,7 +17896,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -18897,7 +18904,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -19538,7 +19546,9 @@
       "origin": "rss"
     },
     {
-      "regions": [],
+      "regions": [
+        "Europe"
+      ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
@@ -20990,7 +21000,7 @@
     },
     {
       "regions": [
-        "Europe"
+        "Afrique"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -21687,7 +21697,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -22038,7 +22049,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -23467,7 +23479,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -24313,7 +24326,8 @@
     {
       "regions": [
         "Europe",
-        "Asie"
+        "Asie",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -24474,7 +24488,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -24629,7 +24644,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -25263,7 +25279,8 @@
     {
       "regions": [
         "Europe",
-        "Asie"
+        "Asie",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -25454,8 +25471,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Japon",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Japon"
       ]
     },
     {
@@ -25896,7 +25913,7 @@
     },
     {
       "regions": [
-        "Asie"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -26982,8 +26999,8 @@
       "published_at": "2026-09-27T22:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Japon",
         "Chine",
+        "Japon",
         "États-Unis"
       ]
     },
@@ -27080,6 +27097,7 @@
       "regions": [
         "Europe",
         "Amérique du Nord",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -27138,7 +27156,9 @@
       "content_enriched": true
     },
     {
-      "regions": [],
+      "regions": [
+        "Asie"
+      ],
       "period": "day",
       "bucket": "28 septembre 2026",
       "score": 4,
@@ -27406,6 +27426,7 @@
     {
       "regions": [
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -27530,23 +27551,6 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Andy Burnham retient ses larmes alors qu'il parle du défunt père Roy lors d'une conférence. Le Premier ministre a semblé retenir ses larmes, avant de faire une pause, ce qui a incité un membre du public à crier « allez Andy »",
-      "sources": [
-        "denbighshirefreepress.co.uk"
-      ],
-      "url": "https://www.denbighshirefreepress.co.uk/news/national/26592049.andy-burnham-holds-back-tears-speaks-late-father-roy-conference/",
-      "published_at": "2026-09-29T18:45:00+02:00",
-      "origin": "rss",
-      "content_enriched": true
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 6,
-      "category": "Géopolitique",
       "summary": "L'Europe sévit contre les hôtels écologiques. Voici ce qui a changé en septembre. 27 | National. Les hôtels utilisent depuis longtemps des mots tels que « éco », « vert » et « durable » pour se démarquer sur un marché de plus en plus encombré. Cependant, les régulateurs européens scrutent désormais ces propos de plus près",
       "sources": [
         "kpcnews.com"
@@ -27615,7 +27619,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -27649,8 +27654,6 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord",
         "Europe",
         "International"
       ],
@@ -27670,7 +27673,7 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -27684,13 +27687,13 @@
       "published_at": "2026-09-29T19:00:00+02:00",
       "origin": "rss",
       "content_enriched": true,
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord",
-        "Europe"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -27795,7 +27798,7 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Netanyahu met en garde l’Iran : la fin du régime est proche, ne plaisantez pas avec nous. Le Premier ministre israélien le Premier ministre Benjamin Netanyahu (Israël) a averti les ennemis d'Israël que toute attaque contre le pays entraînerait une réponse ferme",
+      "summary": "Netanyahu met en garde l’Iran : la fin du régime est proche, ne plaisantez pas avec nous. Le Premier ministre Benjamin Netanyahu (Israël) a averti les ennemis d'Israël que toute attaque contre le pays entraînerait une réponse ferme",
       "sources": [
         "periskopi.com"
       ],
@@ -27854,26 +27857,6 @@
     },
     {
       "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 6,
-      "category": "Géopolitique",
-      "summary": "Réunions des dirigeants des Balkans à la 81e Assemblée de l’ONU : qui a eu le plus de succès ? Albin Kurti peut à juste titre être considéré comme le dirigeant le plus performant « en dehors des portes de l'ONU », tandis qu'le Premier ministre Edi Rama (Albanie) apparaît comme celui qui a le moins réussi dans cette comparaison",
-      "sources": [
-        "botasot.info"
-      ],
-      "url": "https://www.botasot.info/amerika-diaspora/2533402/takimet-e-lidereve-te-ballkanit-ne-asamblene-e-81-te-te-okb-se-kush-doli-me-i-suksesshem/",
-      "published_at": "2026-09-29T19:00:00+02:00",
-      "origin": "rss",
-      "content_enriched": true,
-      "countries": [
-        "Albanie"
-      ]
-    },
-    {
-      "regions": [
         "Asie",
         "International"
       ],
@@ -27897,7 +27880,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "International"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -27911,7 +27895,10 @@
       "published_at": "2026-09-29T19:00:00+02:00",
       "origin": "rss",
       "content_enriched": true,
-      "countries": []
+      "countries": [
+        "Corée du Nord",
+        "Corée du Sud"
+      ]
     },
     {
       "regions": [
@@ -28027,23 +28014,6 @@
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 7,
-      "category": "Technologie",
-      "summary": "Je retourne à nouveau dans Taiwan Semiconductor et je ne m'arrêterai pas cette fois. TSMC continue d'atterrir sur ma liste d'achat trimestre après trimestre, et plus j'étudie ses données financières, plus il devient difficile de justifier son arrêt. Voici pourquoi je continue d’ajouter à une position dont mes amis pensent que je possède déjà suffisamment",
-      "sources": [
-        "aol.com"
-      ],
-      "url": "https://www.aol.com/articles/m-jumping-back-taiwan-semiconductor-161210000.html",
-      "published_at": "2026-09-29T18:45:00+02:00",
-      "origin": "rss",
-      "content_enriched": true
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
       "summary": "L'Inde autorise les certificats d'exportation de défense pour Vinveli et SSS Defence. La DGQA a délivré des certificats « Ajustement selon les spécifications du fournisseur » à Vinveli Automated System et Stumpp Schuele Lewis Machine Tools dans le cadre du programme de promotion des exportations de défense",
@@ -28061,7 +28031,7 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28074,7 +28044,10 @@
       "url": "http://thedialog.org/national-news/equal-employment-opportunity-commission-sues-catholic-health-system-over-alleged-discrimination-against-jewish-surgeon/",
       "published_at": "2026-09-29T18:45:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -28252,7 +28225,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "International"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28298,7 +28272,7 @@
       "bucket": "29 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "La Russie prépare-t-elle une nouvelle mobilisation : détails et plans du Kremlin révélés. Le président russe le président Vladimir Poutine (Russie) a signé un décret augmentant le nombre de membres des forces armées russes, tandis que Moscou prévoit une forte augmentation des dépenses de défense l'année prochaine. Il semble que dans un avenir proche, le dirigeant russe n’envisage pas d’arrêter la campagne militaire contre l’Ukraine, alors que les pays européens se préparent à l’expansion du conflit et à une éventuelle attaque russe.",
+      "summary": "La Russie prépare-t-elle une nouvelle mobilisation : détails et plans du Kremlin révélés. Le président Vladimir Poutine (Russie) a signé un décret augmentant le nombre de membres des forces armées russes, tandis que Moscou prévoit une forte augmentation des dépenses de défense l'année prochaine. Il semble que dans un avenir proche, le dirigeant russe n’envisage pas d’arrêter la campagne militaire contre l’Ukraine, alors que les pays européens se préparent à l’expansion du conflit et à une éventuelle attaque russe.",
       "sources": [
         "blic.rs"
       ],
@@ -28645,14 +28619,14 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Amérique du Nord",
+        "Amérique du Sud",
         "Europe",
         "International"
       ],
       "countries": [
-        "Colombie",
         "Canada",
+        "Colombie",
         "Royaume-Uni"
       ],
       "period": "day",
@@ -28783,13 +28757,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Kazakhstan",
-        "Allemagne"
+        "Allemagne",
+        "Kazakhstan"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28806,12 +28780,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Koweït",
-        "Italie"
+        "Italie",
+        "Koweït"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28828,13 +28802,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Liban",
-        "France"
+        "France",
+        "Liban"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28866,6 +28840,139 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU1YxVVU1Skt4VEdseF82UzhNX3lSQUlUaUJCWlRRcEtSWEdaNWRvNUIyTVZIZGtxc1RqcG4wYlhKWHpITTBqdkZOUFJYaGM4cDZNLURQZTdSbFVrN1RpbUdoX0R2Q3M0LUJTTFhTVHBIS2xJci1NaUlmaXlUeFNxWC12dGFpRWE5YlYxQnZzM1V3c3VBWmo0MjRfa2Q3VzJNVVZsMkdRMDc2VHBMR2fSAa4BQVVfeXFMTVNWMVVVNUpLeFRHbHhfNlM4TV95UkFJVGlCQlpUUXBLUlhHWjVkbzVCMk1WSGRrcXNUanBuMGJYSlh6SE0wanZGTlBSWGhjOHA2TS1EUGU3UmxVazdUaW1HaF9EdkNzNC1CU0xYU1RwSEtsSXItTWlJZml5VHhTcVgtdnRhaUVhOWJWMUJ2czNVd3N1QVpqNDI0X2tkN1cyTVVWbDJHUTA3NlRwTEdn?oc=5",
       "published_at": "2026-09-29T14:36:57+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Birmanie",
+        "Malaisie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Malaisie expulse 1.500 Birmans vers une Birmanie en guerre. Des bus ont convoyé mardi un premier groupe de 1.500 Birmans vers un navire en partance pour leur pays d'origine. Ce convoi lance un programme de ...",
+      "sources": [
+        "lesinguliersete"
+      ],
+      "url": "https://lesinguliersete.fr/la-malaisie-expulse-1-500-birmans-vers-une-birmanie-en-guerre/",
+      "published_at": "2026-09-29T02:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "countries": [
+        "Thaïlande",
+        "Vietnam",
+        "Cambodge",
+        "Malaisie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Vietnam, Thaïlande, Cambodge, Malaisie : l’Asie se lance à la conquête du halal mondial. Longtemps réduit en Europe à un marché surtout alimentaire et communautaire, le halal est devenu en Asie un vrai sujet de politique industrielle. Malaisie, Thaïlande, Vietnam, Cambodge : les gouvernem ...",
+      "sources": [
+        "Oumma"
+      ],
+      "url": "https://oumma.com/vietnam-thailande-cambodge-malaisie-lasie-se-lance-a-la-conquete-du-halal-mondial/",
+      "published_at": "2026-09-29T03:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Philippines"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "UE-Philippines : un accord commercial aux contours encore incertains. Les principales discussions autour de l’accord commercial UE-Philippines sont finalisées, et un compromis a été conclu entre les parties. Un texte dont le contenu reste pour le moment assez flou, même ...",
+      "sources": [
+        "Le Sillon Belge"
+      ],
+      "url": "https://www.sillonbelge.be/17483/article/2026-09-29/ue-philippines-un-accord-commercial-aux-contours-encore-incertains",
+      "published_at": "2026-09-29T07:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Afrique"
+      ],
+      "countries": [
+        "Arabie saoudite",
+        "Qatar",
+        "Israël",
+        "Maroc",
+        "Émirats arabes unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les réunions secrètes de Netanyahu à Abou Dhabi auraient impliqué l’Arabie saoudite, le Qatar et le Maroc. Le Premier ministre Benjamin Netanyahu (Israël) aurait rencontré, pendant sa visite le week-end dernier aux Émirats arabes unis, des représentants de plusieurs pays du Golfe et arabes, ...",
+      "sources": [
+        "L'Orient-Le Jour"
+      ],
+      "url": "https://www.lorientlejour.com/article/1549077/les-reunions-secretes-de-netanyahu-a-abou-dhabi-auraient-implique-larabie-saoudite-le-qatar-et-le-maroc.html",
+      "published_at": "2026-09-29T11:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Singapour"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Technologie",
+      "summary": "La co-entreprise de VIS et NXP ouvre ses portes à Singapour. VSMC (VisionPower Semiconductor Manufacturing Company) a inauguré hier sa première usine de production sur tranches de 300mm à Singapour.",
+      "sources": [
+        "Electroniques"
+      ],
+      "url": "https://www.electroniques.biz/economie/fabricants/la-co-entreprise-de-vis-et-nxp-ouvre-ses-portes-a-singapour/",
+      "published_at": "2026-09-29T02:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Sri Lanka"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Le Sri Lanka mobilise 126 millions de dollars pour freiner le prix du gazole. Face à une inflation au plus haut depuis 38 mois, le Sri Lanka a présenté mardi une aide de 126 millions de dollars pour limiter la hausse du gazole.",
+      "sources": [
+        "Connaissance des énergies"
+      ],
+      "url": "https://www.connaissancedesenergies.org/afp/le-sri-lanka-annonce-une-aide-pour-lachat-de-gazole-260929",
+      "published_at": "2026-09-29T06:10:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
