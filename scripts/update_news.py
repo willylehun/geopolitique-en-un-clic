@@ -188,6 +188,16 @@ def enrich_leader_context(text):
     out=re.sub(r"(?i)\ble président(?:\s+[a-zà-ÿ-]+)?\s+le président\b","le président",out)
     out=re.sub(r"(?i)\ble Premier ministre(?:\s+[a-zà-ÿ-]+)?\s+le Premier ministre\b","le Premier ministre",out)
     out=re.sub(r"(?i)\bla présidente(?:\s+[a-zà-ÿ-]+)?\s+la présidente\b","la présidente",out)
+    for alias,(full_name,_role) in PERSON_SURNAME_ALIASES.items():
+        label=LEADER_LABELS.get(full_name)
+        if not label:
+            continue
+        known_first=full_name.split()[0].lower()
+        pattern=r"\b([A-ZÀ-Ý][a-zà-ÿ'’-]+)\s+"+re.escape(label)
+        def _restore_other_name(m, alias=alias, known_first=known_first):
+            first=m.group(1)
+            return m.group(0) if first.lower()==known_first else f"{first} {alias}"
+        out=re.sub(pattern,_restore_other_name,out)
     if out:
         out=out[0].upper()+out[1:]
     return out
@@ -221,13 +231,13 @@ def enrich_place_context(text):
     out=(text or "").strip()
     # Les noms les plus longs d'abord pour éviter que « Aceh » capture « Aceh du Sud-Est ».
     for place,country in sorted(PLACE_COUNTRIES.items(),key=lambda kv:len(kv[0]),reverse=True):
-        if not re.search(r"(?i)\\b"+re.escape(place)+r"\\b",out):
+        if not re.search(r"(?i)\b"+re.escape(place)+r"\b",out):
             continue
-        if re.search(r"(?i)"+re.escape(place)+r"\\s*\\("+re.escape(country)+r"\\)",out):
+        if re.search(r"(?i)"+re.escape(place)+r"\s*\("+re.escape(country)+r"\)",out):
             continue
-        if re.search(r"(?i)\\b"+re.escape(country)+r"\\b",out):
+        if re.search(r"(?i)\b"+re.escape(country)+r"\b",out):
             continue
-        out=re.sub(r"(?i)\\b"+re.escape(place)+r"\\b",lambda m:f"{m.group(0)} ({country})",out,count=1)
+        out=re.sub(r"(?i)\b"+re.escape(place)+r"\b",lambda m:f"{m.group(0)} ({country})",out,count=1)
     return out
 
 def enrich_editorial_context(text):
@@ -289,6 +299,12 @@ def is_market_listing_noise(text):
     )
     code_like=bool(re.search(r"\\b(?:HK|US|DE|FR|GB|LU|CH)[A-Z0-9]{8,}\\b",raw,re.I) or
                    re.search(r"\\b[A-Z][A-Z0-9]{4,7}\\b",raw))
+    hard_listing_terms=(
+      " pdmr "," director/pdmr "," director / actionnariat "," actionnariat pdmr ",
+      " regulatory announcement "," shareholding announcement "," rns announcement "
+    )
+    if any(x in t for x in hard_listing_terms):
+        return True
     event_verbs=(
       "annonce","publie","signe","acquiert","vend","investit","construit","ferme",
       "ouvre","réduit","augmente","baisse","chute","progresse","licencie","sanction",
@@ -418,6 +434,18 @@ def is_useful_article(text):
     if any(x in t for x in corporate_promo) and not has_strong:
         return False
 
+    private_deal_noise=(
+      "participation majoritaire","private equity","capital-investissement",
+      "rachat par ","acquisition par ","prend une participation","take majority stake"
+    )
+    strategic_deal_context=(
+      "gouvernement","État","état","sanction","régulateur","sécurité nationale",
+      "infrastructure critique","énergie stratégique","défense","contrôle des exportations",
+      "entreprise publique","state-owned","national security","critical infrastructure"
+    )
+    if any(x in t for x in private_deal_noise) and not any(x.lower() in t for x in strategic_deal_context):
+        return False
+
     # Prévisions de marché promotionnelles et communiqués sans décision publique ou enjeu stratégique.
     market_promo=(
       "le marché de l'intelligence artificielle","le marché de l’intelligence artificielle",
@@ -438,6 +466,7 @@ def is_useful_article(text):
     # qu'elles citent le pétrole ou les rendements obligataires.
     market_roundup_noise=(
       "l’ambiance à wall street","l'ambiance à wall street","les bourses du jour",
+      "marchés aujourd'hui","marchés aujourd’hui","markets today",
       "wall street est mitigée","la plupart des sociétés cotées","séance boursière",
       "actions technologiques","nasdaq composite"
     )
