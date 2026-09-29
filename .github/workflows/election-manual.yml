@@ -74,6 +74,7 @@ jobs:
         if: steps.cadence.outputs.run == '1'
         shell: bash
         run: |
+          set -euo pipefail
           if git diff --quiet -- data/election.json data/election-monitor-state.json; then
             echo "Aucun changement"
             exit 0
@@ -82,16 +83,29 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/election.json data/election-monitor-state.json
           git commit -m "Mise à jour automatique de la veille présidentielle"
+
           for attempt in 1 2 3; do
-            git fetch origin main
-            if git rebase origin/main; then
-              if git push origin HEAD:main; then exit 0; fi
-            else
-              git rebase --abort || true
-              echo "Conflit réel pendant la synchronisation avec main."
-              exit 1
+            if git push origin HEAD:main; then
+              exit 0
             fi
+
+            echo "main a avancé ; reconstruction de la veille présidentielle sur le HEAD courant (tentative $attempt)."
+            git fetch origin main
+            git reset --hard origin/main
+
+            ELECTION_BATCH_SIZE=12 python scripts/update_election.py
+            python -m json.tool data/election.json >/dev/null
+            python -m json.tool data/election-monitor-state.json >/dev/null
+            python -m py_compile scripts/update_election.py
+
+            if git diff --quiet -- data/election.json data/election-monitor-state.json; then
+              echo "Aucun changement après resynchronisation."
+              exit 0
+            fi
+            git add data/election.json data/election-monitor-state.json
+            git commit -m "Mise à jour automatique de la veille présidentielle"
             sleep 5
           done
-          echo "Impossible de publier après 3 tentatives."
+
+          echo "Impossible de publier après 3 reconstructions."
           exit 1
