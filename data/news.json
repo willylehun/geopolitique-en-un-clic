@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:58:29.003706+02:00",
+  "generated_at": "2026-09-29T23:08:38.800889+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3747,8 +3747,8 @@
       ],
       "countries": [
         "Soudan",
-        "Libye",
         "Algérie",
+        "Libye",
         "Mali",
         "Émirats arabes unis"
       ],
@@ -29746,7 +29746,8 @@
       "url": "https://www.reuters.com/business/openai-takes-meta-with-always-on-dots-agent-enterprise-ai-push-2026-09-29/",
       "published_at": "2026-09-29T12:17:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -30990,6 +30991,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -32167,6 +32169,7 @@
     {
       "regions": [
         "Europe",
+        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -33028,7 +33031,7 @@
       "bucket": "29 septembre 2026",
       "score": 8,
       "category": "Énergie",
-      "summary": "L'UCC du Qatar est en pourparlers pour une éventuelle entrée dans les zones pétrolières et gazières du Venezuela, a déclaré l'exécutif. Le producteur qatari UCC Oil and Gas Holding est en pourparlers pour son éventuelle entrée dans de nouveaux gisements au Venezuela, a déclaré mardi le directeur de l'amont de la société, Erik Keskula, lors d'une conférence à Caracas.",
+      "summary": "L'UCC du Qatar est en pourparlers pour une éventuelle entrée dans les zones pétrolières et gazières du Venezuela, a déclaré son exécutif. Le producteur qatari UCC Oil and Gas Holding est en pourparlers pour son éventuelle entrée dans de nouveaux gisements au Venezuela, a déclaré mardi le directeur de l'amont de la société, Erik Keskula, lors d'une conférence à Caracas.",
       "sources": [
         "Reuters — fiabilité 9/10"
       ],
@@ -33327,10 +33330,11 @@
       "summary": "Birmanie : 50 morts sur un marché bombardé par l'armée, selon des sources humanitaires. Dans l'ouest de la Birmanie, des familles tentaient mardi de retrouver les corps de leurs proches dans les décombres calcinés d'un marché, au lendemain d'une frappe aérienne de l'armée qui a fait 50 m …",
       "sources": [
         "AFP via MSN — fiabilité 7/10",
-        "Mediapart — fiabilité 6/10"
+        "Mediapart — fiabilité 6/10",
+        "Noovo Info — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/fr-fr/actualite/news/birmanie-50-morts-sur-un-marché-bombardé-par-l-armée-selon-des-sources-humanitaires/ar-AA2dd7yv",
-      "published_at": "2026-09-29T06:05:00+02:00",
+      "published_at": "2026-09-29T06:24:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
@@ -33440,12 +33444,14 @@
       "bucket": "29 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Les académies militaires n'accorderont pas de titularisation aux professeurs civils, ditle secrétaire à la Défense Pete Hegseth (États-Unis). Le ministère de la Défense a décidé de cesser de nommer des civils comme professeurs titulaires dans les académies militaires américaines.",
+      "summary": "Les académies militaires n’accorderont pas de titularisation aux professeurs civils, ditle secrétaire à la Défense Pete Hegseth (États-Unis). WASHINGTON (AP) — Le ministère de la Défense ne nommera plus de civils comme professeurs titulaires dans les académies militaires des États-Unis, selon une note signée mardi par le secrétaire…",
       "sources": [
-        "News4JAX — fiabilité 6/10"
+        "News4JAX — fiabilité 6/10",
+        "The Morning Call — fiabilité 6/10",
+        "Orange County Register — fiabilité 6/10"
       ],
       "url": "https://www.news4jax.com/news/politics/2026/09/29/military-academies-wont-give-tenure-to-civilian-faculty-hegseth-says/",
-      "published_at": "2026-09-29T11:46:00+02:00",
+      "published_at": "2026-09-29T15:59:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -33590,6 +33596,248 @@
       ],
       "url": "https://www.tunisienumerique.com/libye-des-discussions-avec-les-compagnies-petrolieres-sur-les-plans-daugmentation-de-la-production/",
       "published_at": "2026-09-29T11:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La France a l’intention d’emprunter un montant record de 340 milliards d’euros à l’échéance de la dette de l’ère Covid. Le gouvernement français vendra un montant record d'obligations aux investisseurs l'année prochaine alors qu'il fait face à une augmentation de la dette de l'ère Covid qui doit être remboursée et qui doit être refinancée, la gestion de la dette publique …",
+      "sources": [
+        "AOL.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.co.uk/articles/france-intends-borrow-record-340-203410000.html",
+      "published_at": "2026-09-29T15:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Comment les principaux indices boursiers américains se sont comportés mardi 29/09/2026. Les actions ont dérivé à la baisse à Wall Street alors que les rendements du Trésor à long terme ont augmenté, mettant la pression sur le marché. Le S&P 500 a chuté de 0,2% mardi.",
+      "sources": [
+        "AP — fiabilité 9/10"
+      ],
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-69778ade7a033a10cb44b9078b6bb15d",
+      "published_at": "2026-09-29T15:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Regents of California Univ vend près de 1 pc de sa participation dans 360 ONE WAM pour Rs 374 crore. Les régents de l'Université de Californie (États-Unis) ont vendu une participation de près de 1 pour cent dans 360 ONE WAM pour plus de Rs 374 crore grâce à une transaction d'open market mardi.",
+      "sources": [
+        "ABP News — fiabilité 6/10"
+      ],
+      "url": "https://news.abplive.com/business/regents-of-california-univ-sells-nearly-1-pc-stake-in-360-one-wam-for-rs-374-crore-1868960",
+      "published_at": "2026-09-29T14:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Sécurité",
+      "summary": "Pourquoi les voyageurs californiens pourraient être confrontés à des problèmes de bagages à main avec les scanners TSA. La Transportation Security Administration a étendu l'utilisation de nouveaux scanners de tomodensitométrie, ou CT, qui créent des images 3D des bagages à main. La technologie est conçue pour améliorer…",
+      "sources": [
+        "USA TODAY — fiabilité 6/10"
+      ],
+      "url": "https://www.usatoday.com/story/money/business/tourism/2026/09/29/california-tsa-scanners-carry-on-bag-limits/92010959007/",
+      "published_at": "2026-09-29T15:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "L'UCC du Qatar en pourparlers pour entrer dans les zones pétrolières et gazières vénézuéliennes : exécutif. CARACAS, 29 septembre (Reuters) - Le producteur d'énergie qatari UCC Oil and Gas est en pourparlers pour son éventuelle entrée dans les zones pétrolières ou gazières du Venezuela, a déclaré le responsable de l'amont…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/es-mx/noticias/otras/ucc-de-qatar-en-conversaciones-para-entrar-en-áreas-de-petróleo-y-gas-venezuela-ejecutivo/ar-AA2ddsSe",
+      "published_at": "2026-09-29T15:48:49+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Qatar",
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les agents d'OpenAI ont piraté les sites du gouvernement australien, voici ce qui s'est passé. L'Australie est furieuse, OpenAI cherche à se racheter. Les agents d'IA d'OpenAI se sont lancés dans une frénésie de piratage – ils ont piraté Hugging Face, plus tard…",
+      "sources": [
+        "GSMArena — fiabilité 6/10"
+      ],
+      "url": "https://www.gsmarena.com/openai_agents_hacked_australian_government_sites_heres_what_happened-news-74824.php",
+      "published_at": "2026-09-29T16:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement fédéral annonce de nouvelles mesures pour lutter contre les pratiques NDIS sans scrupules dans les communautés éloignées. Le gouvernement fédéral réprime les prestataires du NDIS qui offrent aux résidents des communautés autochtones isolées du Territoire du Nord des cadeaux, notamment de la nourriture, de l'alcool et du tabac.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+      ],
+      "url": "https://www.abc.net.au/news/2026-09-30/ndis-changes-unscrupulous-providers-remote-communities-nt/107207208",
+      "published_at": "2026-09-29T15:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "AUDIO : le piratage de l'IA déclenche la répression des sites Web du gouvernement. Suivez les derniers titres d'ABC News, la source médiatique la plus fiable d'Australie, avec des événements en direct, de l'audio et des vidéos à la demande du diffuseur national.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+      ],
+      "url": "https://www.abc.net.au/news/2026-09-30/ai-hack-sparks-government-website-crackdown/107210010",
+      "published_at": "2026-09-29T11:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Espagne : face à la colère sociale, le gouvernement annonce la suspension des expulsions jusqu'en 2030. Le gouvernement espagnol a annoncé mardi la suspension des expulsions de logements jusqu'en 2030 et le renouvellement automatique des contrats de location, afin d'endiguer la crise du logement qui …",
+      "sources": [
+        "tf1info — fiabilité 6/10"
+      ],
+      "url": "https://www.tf1info.fr/international/espagne-maricarmen-face-a-la-colere-sociale-le-gouvernement-annonce-la-suspension-des-expulsions-jusqu-en-2030-2467108.html",
+      "published_at": "2026-09-29T15:52:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Mauritanie",
+        "Pologne"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Cinéma et diplomatie culturelle à Ifrane : Le Festival du Cèdre du Film Court signe deux partenariats internationaux avec la Pologne et la Mauritanie. Mohammed Drihem Dans un pas majeur pour la diplomatie culturelle parallèle. Le Festival International du Cèdre du Court métrage d’Ifrane confirme son statut de plateforme internationale de dialogue créatif. Dans le cadre de sa 27ème édition, le festival procédera lors de sa cérémonie d’ouverture officielle, prévue le jeudi 08 octobre …",
+      "sources": [
+        "oujdacity.net — fiabilité 6/10"
+      ],
+      "url": "https://www.oujdacity.net/national-article-168770-fr/cinema-et-diplomatie-culturelle-a-ifrane-le-festival-du-cedre-du-film-court-signe-deux-partenariats-internationaux-avec-la-pologne-et-la-mauritanie.html",
+      "published_at": "2026-09-29T04:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Ouganda",
+        "Soudan du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Afrique : le Soudan du Sud signe un accord de coopération sanitaire avec l’Ouganda. En raison de la persistance de l’épidémie de maladie à virus Bundibugyo en Afrique de l’Est, qui a déjà fait 3 269 décès sur 6 778 cas confirmés dans la …",
+      "sources": [
+        "africa24tv — fiabilité 6/10"
+      ],
+      "url": "https://africa24tv.com/afrique-le-soudan-du-sud-signe-un-accord-de-cooperation-sanitaire-avec-louganda/",
+      "published_at": "2026-09-29T12:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Birmanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'ONU décrit une « situation critique » pour les civils après la frappe aérienne en Birmanie. Le Haut-Commissaire de l'ONU aux droits de l'homme a déploré mardi la frappe aérienne menée lundi par l'armée birmane contre un marché de l'ouest du pays, en zone rebelle, dont le bilan s'élève désorm …",
+      "sources": [
+        "Belga via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-be/actualite/other/l-onu-décrit-une-situation-critique-pour-les-civils-après-la-frappe-aérienne-en-birmanie/ar-AA2ddpLc",
+      "published_at": "2026-09-29T12:36:53+02:00",
       "origin": "rss",
       "content_enriched": true
     },
