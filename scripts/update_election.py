@@ -35,7 +35,8 @@ POLITICAL_HINTS=(
  "condamn","procès","proces","mise en examen","diffamation","révélations","revelations","procureur",
  "démenti","dementi","saisit la justice","menaces de mort","assemblée","assemblee","sénat","senat",
  "gouvernement","député","depute","ministre","dévoile","devoile","présente","presente","plan","mesure",
- "discours","meeting","alliance","investiture","débat","debat"
+ "discours","meeting","rencontre","réunion","reunion","alliance","investiture","débat","debat",
+ "presidential","election","campaign","poll","policy","party","candidate","controversy","antisemitism","lawsuit"
 )
 PROGRAM_HINTS=(
  "programme","proposition","propose","projet","retraite","immigration","écologie","ecologie","économie",
@@ -57,14 +58,20 @@ CAMPAIGN_ACTIVITY_HINTS=(
 )
 
 PARTY_ALIASES={
- "Rassemblement national":["Rassemblement national","RN","Jordan Bardella"],
- "Les Républicains":["Les Républicains","LR"],
- "La France insoumise":["La France insoumise","LFI"],
+ "Rassemblement national":["Rassemblement national","Rassemblement National","RN","National Rally","Jordan Bardella"],
+ "Les Républicains":["Les Républicains","Les Republicains","LR"],
+ "La France insoumise":["La France insoumise","La France Insoumise","LFI"],
  "Renaissance":["Renaissance"],
  "Horizons":["Horizons"],
- "Place publique":["Place publique"],
+ "Place publique":["Place publique","Place Publique"],
  "Reconquête !":["Reconquête","Reconquete"],
- "Les Écologistes":["Les Écologistes","Les Ecologistes"],
+ "Les Écologistes":["Les Écologistes","Les Ecologistes","EELV"],
+ "Parti socialiste":["Parti socialiste","Parti Socialiste","PS"],
+ "Parti communiste français":["Parti communiste français","PCF"],
+ "Génération Écologie":["Génération Écologie","Generation Ecologie"],
+ "Nouvelle Énergie":["Nouvelle Énergie","Nouvelle Energie"],
+ "Debout la France":["Debout la France","DLF"],
+ "Union populaire républicaine":["Union populaire républicaine","UPR"],
 }
 GENERIC_PARTIES={"Horizons","Renaissance","La Convention","Debout !","Nouvelle Énergie"}
 
@@ -111,8 +118,10 @@ def topic_for(text):
     low=fold(text)
     if any(fold(x) in low for x in CONTROVERSY_HINTS):
         return "controverse"
-    program_action=("propose","dévoile","devoile","présente","presente","plan","projet","mesure","réforme","reforme")
+    program_action=("propose","dévoile","devoile","présente","presente","plan","projet","mesure","réforme","reforme","veut","relever","augmenter","porter","fixer","instaurer","supprimer","créer","creer","rendre")
     program_subject=("retraite","immigration","écologie","ecologie","économie","economie","fiscal","emploi","travail","santé","sante","éducation","education","sécurité","securite","justice","défense","defense","agriculture","climat","intelligence artificielle")
+    if "retraite" in low:
+        return "programme"
     if any(fold(x) in low for x in program_subject) and any(fold(x) in low for x in program_action):
         return "programme"
     if any(fold(x) in low for x in CANDIDACY_HINTS):
@@ -187,11 +196,13 @@ def entity_aliases(kind,eid,name):
 
 def row_matches_entity(row,kind,eid,name):
     title=row.get("title","")
+    description=strip_html(row.get("description",""))
+    text=norm(title+" "+description)
     aliases=entity_aliases(kind,eid,name)
-    if not any(has_phrase(title,a) for a in aliases):
+    if not any(has_phrase(text,a) for a in aliases):
         return False
     # Évite « Horizons » (livres, associations…), Renaissance artistique, etc.
-    return election_context(title) or campaign_activity_context(title)
+    return election_context(text) or campaign_activity_context(text)
 
 def all_entity_matches(row, entities):
     """Relie un même article à tous les candidats/partis explicitement cités."""
@@ -199,13 +210,15 @@ def all_entity_matches(row, entities):
 
 def row_is_useful(row):
     title=clean_title(row.get("title",""),row.get("source",""))
-    if not election_context(title):
+    description=strip_html(row.get("description",""))
+    text=norm(title+" "+description)
+    if not (election_context(text) or campaign_activity_context(text)):
         return False
     noise=(
       "dernier hommage","people","livres pour","élargir ses horizons","val'horizons","val’horizons",
       "photos amateurs","festival","concert","football","match","horoscope"
     )
-    low=fold(title)
+    low=fold(text)
     return not any(fold(x) in low for x in noise)
 
 with DATA.open(encoding="utf-8") as f:
@@ -280,6 +293,14 @@ for i in range(0,len(entities),chunk_size):
     q="("+ " OR ".join(names) +") (programme OR proposition OR projet OR plan OR dévoile OR présente OR retraite OR immigration OR écologie OR économie OR santé OR éducation OR sécurité OR justice OR controverse OR antisémitisme OR racisme OR révélations OR plainte OR enquête OR procureur OR diffamation OR démenti OR candidature OR retrait OR primaire OR investiture OR meeting OR discours OR alliance OR ralliement OR sondage) when:3d"
     try:
         rows=google_search(q)
+        broad_q="("+ " OR ".join(names) +") when:1d"
+        rows.extend(google_search(broad_q))
+        raw_seen=set(); unique_rows=[]
+        for row in rows:
+            rk=(row.get("url"),key(row.get("title","")))
+            if rk in raw_seen: continue
+            raw_seen.add(rk); unique_rows.append(row)
+        rows=unique_rows
     except Exception as e:
         print("PRIORITE",e)
         continue
@@ -299,7 +320,7 @@ campaign_queries=[
  '"présidentielle 2027" (programme OR proposition OR projet OR plan OR dévoile OR présente OR retraite OR immigration OR écologie OR économie OR santé OR éducation OR sécurité OR justice) when:3d',
  '"présidentielle 2027" (controverse OR antisémitisme OR racisme OR révélations OR plainte OR enquête OR procureur OR diffamation OR démenti OR condamnation OR procès OR "mise en examen") when:3d',
  '"présidentielle 2027" (candidature OR retrait OR primaire OR investiture OR "500 signatures" OR soutien OR ralliement OR alliance) when:3d',
- '"présidentielle 2027" (meeting OR discours OR débat OR sondage OR stratégie OR campagne) when:3d'
+ '"présidentielle 2027" (meeting OR discours OR débat OR sondage OR stratégie OR campagne OR rencontre OR réunion OR entreprise OR syndicat) when:3d'
 ]
 for q in campaign_queries:
     try: rows=google_search(q)
@@ -350,9 +371,13 @@ def news_words(text):
 def event_signature(item):
     text=fold(item.get("summary",""))
     topic=item.get("topic") or topic_for(text)
+    retirement_terms=("retraite","annuite","capitalisation","age legal","age de depart","65 ans","45 ans")
+    retirement_actions=("propose","devoile","presente","veut","relever","augmenter","porter","plan","projet","reforme")
+    if any(x in text for x in retirement_terms) and (topic=="programme" or any(x in text for x in retirement_actions)):
+        return "programme:retraite"
     if topic=="programme":
         families=(
-          ("retraite",("retraite","annuite","capitalisation","age legal","age de depart")),
+          ("retraite",retirement_terms),
           ("immigration",("immigration","asile","frontiere")),
           ("ecologie",("ecologie","climat","energie")),
           ("economie",("economie","fiscal","impot","emploi","travail")),
@@ -363,8 +388,8 @@ def event_signature(item):
         for name,terms in families:
             if any(fold(x) in text for x in terms):
                 return f"programme:{name}"
-    if topic=="controverse":
-        if any(x in text for x in ("antisemit","mediapart","propos antisemites")) and any(x in text for x in ("bardella","rassemblement national","marine le pen"," rn ")):
+    if topic=="controverse" or "affaire bardella" in text or "revelations sur jordan bardella" in text:
+        if any(x in text for x in ("antisemit","mediapart","propos antisemites","affaire bardella","revelations sur jordan bardella")) and any(x in text for x in ("bardella","rassemblement national","marine le pen"," rn ")):
             return "controverse:rn-bardella-antisemitisme"
         if "diffamation" in text and "bardella" in text:
             return "controverse:rn-bardella-antisemitisme"
