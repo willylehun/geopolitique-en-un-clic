@@ -1211,6 +1211,22 @@ def regions_for_countries(countries, importance):
     if importance>=7: regs.append("International")
     return regs
 
+REGION_TEXT_HINTS={
+  "Europe":("europe","union européenne","commission européenne","parlement européen","bruxelles","berlin","rhénanie du nord-westphalie"),
+  "Asie":("asie","moyen-orient","détroit d'ormuz","détroit d’ormuz","golfe persique"),
+  "Amérique du Nord":("amérique du nord","californie","california","ohio","wall street","réserve fédérale","federal reserve","u . s ."),
+  "Amérique du Sud":("amérique du sud","mercosur"),
+  "Afrique":("afrique","union africaine"),
+  "Océanie":("océanie","pacifique sud"),
+}
+def infer_regions_from_text(text):
+    value=(text or "").lower()
+    regs=[]
+    for region,hints in REGION_TEXT_HINTS.items():
+        if any(term_in_text(value,h) for h in hints):
+            regs.append(region)
+    return regs
+
 GDELT_DOC="https://api.gdeltproject.org/api/v2/doc/doc"
 GOOGLE_503_COUNT=0
 GOOGLE_DISABLED=False
@@ -1443,12 +1459,25 @@ def save_monitor_state(state, now, country_step=0, day_step=0):
     MONITOR_STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 SPECIAL_COUNTRY_HINTS={
-    "États-Unis":["états-unis","etats-unis","united states","u.s."," usa ","américain","américaine","américains","américaines","washington"],
+    "États-Unis":["états-unis","etats-unis","united states","u.s.","u . s ."," usa ","américain","américaine","américains","américaines","californie","california","ohio"],
     "Royaume-Uni":["royaume-uni","united kingdom","britain","british","britannique","britanniques","londres","london"],
 }
 
 def country_title_matches(country,title):
     t=(title or "").lower()
+    explicit_specific={
+      "Soudan du Sud":["soudan du sud","south sudan"],
+      "Guinée-Bissau":["guinée-bissau","guinea-bissau"],
+      "Guinée équatoriale":["guinée équatoriale","equatorial guinea"],
+      "Papouasie-Nouvelle-Guinée":["papouasie-nouvelle-guinée","papua new guinea"],
+      "République dominicaine":["république dominicaine","dominican republic"],
+      "Corée du Nord":["corée du nord","north korea"],
+      "Corée du Sud":["corée du sud","south korea"],
+      "Congo (RDC)":["république démocratique du congo","democratic republic of congo","dr congo","drc","rdc","kinshasa"],
+      "Congo (République du)":["république du congo","republic of congo","congo-brazzaville","brazzaville"],
+    }
+    if country in explicit_specific and any(x in t for x in explicit_specific[country]):
+        return True
     # Les États aux noms emboîtés sont validés du plus spécifique au plus général.
     # Une mention explicite d'un autre État de la même famille interdit le classement générique.
     family_exclusions={
@@ -1795,16 +1824,20 @@ def main():
         countries=disambiguate_countries(load_target_countries(),summary)
         if not countries:
             countries=list(y.get("countries",[]) or [])
+        text_regions=infer_regions_from_text(summary)
         if countries:
             y["countries"]=countries
-            regs=regions_for_countries(countries,y["score"])
+            regs=[r for r in regions_for_countries(countries,y["score"]) if r!="International"]
+            for r in text_regions:
+                if r not in regs:
+                    regs.append(r)
         else:
-            # Sujet réellement régional sans pays identifiable : conserver la
-            # région du flux, mais appliquer normalement le seuil International.
-            regs=[r for r in list(y.get("regions",[]) or []) if r!="International"]
-            if y["score"]>=7 and "International" in (x.get("regions",[]) or []):
+            # Sans pays identifié, le texte prime sur le flux de découverte.
+            regs=list(text_regions) if text_regions else [r for r in list(y.get("regions",[]) or []) if r!="International"]
+        if y["score"]>=7:
+            if "International" not in regs:
                 regs.append("International")
-        if y["score"]<7:
+        else:
             regs=[r for r in regs if r!="International"]
         y["regions"]=list(dict.fromkeys(regs))
         rescored.append(y)
