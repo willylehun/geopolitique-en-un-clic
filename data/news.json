@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T23:28:58.015687+02:00",
+  "generated_at": "2026-09-29T23:39:09.627984+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -28301,8 +28301,8 @@
       "content_enriched": true,
       "countries": [
         "Iran",
-        "Israël",
-        "États-Unis"
+        "États-Unis",
+        "Israël"
       ]
     },
     {
@@ -32930,7 +32930,8 @@
       "summary": "Un officier de l’armée de Virginie devient le 19e militaire américain connu à mourir depuis le début de la guerre en Iran. Le capitaine Bianca Wilkerson, âgée de 37 ans, originaire du Norfolk, est décédée dans un incident non lié au combat alors qu'elle était déployée à l'étranger, ont indiqué des responsables.",
       "sources": [
         "The Grio — fiabilité 6/10",
-        "TheGrio — fiabilité 6/10"
+        "TheGrio — fiabilité 6/10",
+        "Yahoo — fiabilité 6/10"
       ],
       "url": "https://thegrio.com/2026/09/29/virginia-army-officer-becomes-19th-known-u-s-service-member-to-die-since-iran-war-began/",
       "published_at": "2026-09-29T15:31:00+02:00",
@@ -33451,10 +33452,11 @@
       "sources": [
         "News4JAX — fiabilité 6/10",
         "The Morning Call — fiabilité 6/10",
-        "Orange County Register — fiabilité 6/10"
+        "Orange County Register — fiabilité 6/10",
+        "The Press Democrat — fiabilité 6/10"
       ],
       "url": "https://www.news4jax.com/news/politics/2026/09/29/military-academies-wont-give-tenure-to-civilian-faculty-hegseth-says/",
-      "published_at": "2026-09-29T15:59:00+02:00",
+      "published_at": "2026-09-29T16:00:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -33967,10 +33969,11 @@
       "category": "Géopolitique",
       "summary": "Les États-Unis se retirent du panel européen anti-corruption dans le cadre de leur dernier abandon des groupes mondiaux. WASHINGTON (AP) — L'administration Trump a retiré les États-Unis de l'organisme de surveillance anti-corruption européen de premier plan alors qu'il poursuit son projet de se désengager des relations internationales et multilatérales…",
       "sources": [
-        "Boston Herald — fiabilité 6/10"
+        "Boston Herald — fiabilité 6/10",
+        "Orlando Sentinel — fiabilité 6/10"
       ],
       "url": "https://www.bostonherald.com/2026/09/29/trump-corruption-watchdog/",
-      "published_at": "2026-09-29T11:16:00+02:00",
+      "published_at": "2026-09-29T16:10:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -33988,12 +33991,16 @@
       "category": "Géopolitique",
       "summary": "Campetrol a indiqué que le gaz importé représentait 32 % du total vendu. En août, 114 équipements ont fonctionné, soit le même nombre qu'en juillet et deux de plus qu'il y a un an, dont 32 dédiés au forage et 82 à la maintenance des puits…",
       "sources": [
-        "La República via MSN — fiabilité 6/10"
+        "La República via MSN — fiabilité 6/10",
+        "La República — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/es-co/noticias/otras/campetrol-reportó-que-gas-importado-representó-32-sobre-el-total-comercializado/ar-AA2de9w9",
       "published_at": "2026-09-29T15:59:48+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": [
+        "Colombie"
+      ]
     },
     {
       "regions": [
@@ -34179,6 +34186,149 @@
       ],
       "url": "https://www.automobile-magazine.fr/economie-politique/article/53265-pour-echapper-aux-surtaxes-europeennes-la-chine-soffre-49-dune-usine-geante-de-batteries-volkswagen-en-espagne",
       "published_at": "2026-09-29T10:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Espagne annonce l'interdiction des expulsions après les manifestations. Le gouvernement de coalition espagnol a approuvé de nouvelles mesures en matière de logement à la suite des protestations contre la crise du logement dans le pays, déclenchées par l'expulsion d'une femme de 87 ans de son domicile à Madrid la semaine dernière.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/audio/play/w1730bn7ctyz7v4",
+      "published_at": "2026-09-29T16:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Syrie arrête une cellule du Hezbollah accusée d'avoir déployé des lance-missiles près de la frontière israélienne. Les forces syriennes ont arrêté trois membres du Hezbollah accusés d'avoir tenté de déployer des lance-missiles près de la frontière israélienne ; L'opération visait les « activités hostiles » dans le bassin du Yarmouk alors que Damas continuait …",
+      "sources": [
+        "ynetnews — fiabilité 6/10"
+      ],
+      "url": "https://www.ynetnews.com/article/b1dewstqgx",
+      "published_at": "2026-09-29T16:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Syrie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les responsables électoraux du comté de Lake mettent les machines à voter à l’épreuve. Après la réunion du conseil d’administration de mardi, les membres du conseil électoral du comté de Lake et d’autres employés ont effectué le deuxième test de l’année sur les machines. Le Conseil d'administration, ainsi que le fournisseur de machines à voter MicroVote, ont…",
+      "sources": [
+        "Chicago Tribune — fiabilité 6/10"
+      ],
+      "url": "https://www.chicagotribune.com/2026/09/29/lake-county-election-officials-put-voting-machines-through-their-paces/",
+      "published_at": "2026-09-29T16:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La baisse de 10,4 % de la production de gaz en Colombie entraîne les importations à un maximum historique de 32 %. La production pétrolière s'est élevée à 732 700 barils par jour (b/j), avec une baisse annuelle de 2,3 pour cent.",
+      "sources": [
+        "El Tiempo via MSN — fiabilité 7/10"
+      ],
+      "url": "https://www.msn.com/es-co/noticias/otras/caída-del-104-en-la-producción-de-gas-en-colombia-dispara-las-importaciones-a-un-máximo-histórico-del-32/ar-AA2de1Zt",
+      "published_at": "2026-09-29T16:07:59+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Colombie"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Perpetuals participera à la conférence virtuelle des investisseurs sur l'IA et la technologie le 1er octobre 2026. Matthew Nicoletti, directeur de la stratégie, présenteraSAN FRANCISCO, 29 septembre 2026 (GLOBE NEWSWIRE) -- Perpetuals. Com Ltd (NASDAQ : PDC), la société de services financiers basée sur l'IA qui nivelle le…",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/technology/ai/articles/perpetuals-participate-ai-technology-virtual-212400643.html",
+      "published_at": "2026-09-29T16:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Palestine",
+        "Qatar",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "« Netanyahu cible le Qatar pour détourner l’attention des crimes de guerre commis à Gaza (Palestine) ». Dans une interview accordée à la chaîne de télévision britannique Piers Morgan, le Premier ministre du Qatar a accusé l'Israélien Netanyahu de crimes de guerre…",
+      "sources": [
+        "Al Jazeera — fiabilité 8/10"
+      ],
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/netanyahu-targets-qatar-to-deflect-from-gaza-war",
+      "published_at": "2026-09-29T16:24:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Corée du Sud",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : le président Volodymyr Zelensky (Ukraine) a-t-il fâché pour de bon la Corée du Sud ?. Les déclarations du président ukrainien Volodymyr Zelensky sur le transfert en Corée du Sud de deux soldats nord-coréens capturés en Russie ont provoqué un incident diplomatique majeur avec Séoul.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/asie-pacifique/20260929-guerre-en-ukraine-volodymyr-zelensky-fâché-pour-de-bon-la-corée-du-sud",
+      "published_at": "2026-09-29T14:58:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
