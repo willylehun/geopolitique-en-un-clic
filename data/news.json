@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:16:39.959636+02:00",
+  "generated_at": "2026-09-29T21:26:51.403914+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3642,9 +3642,9 @@
       "countries": [
         "Ghana",
         "Kenya",
-        "Nigeria",
         "Ouganda",
-        "Zambie"
+        "Zambie",
+        "Nigeria"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
@@ -22600,8 +22600,8 @@
         "Afrique"
       ],
       "countries": [
-        "Niger",
-        "Guinée"
+        "Guinée",
+        "Niger"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -28244,7 +28244,8 @@
       "category": "Géopolitique",
       "summary": "U. S. Les forces américaines devraient quitter l'Irak après leur première arrivée en 2003. Les forces américaines devraient se retirer de leurs dernières bases en Irak d'ici mercredi, un départ célébré comme une victoire par l'Iran et ses alliés qui ont désormais une profonde influence dans le pays où 4 500 Américains sont morts pendant plus de deux décennies de guerre.",
       "sources": [
-        "cbc.ca — fiabilité 8/10"
+        "cbc.ca — fiabilité 8/10",
+        "Reuters — fiabilité 9/10"
       ],
       "url": "https://www.cbc.ca/news/world/iraq-us-forces-withrdrawal-9.7362428",
       "published_at": "2026-09-29T19:30:00+02:00",
@@ -30840,7 +30841,8 @@
       "summary": "Trump s’apprête à agrandir le camp du Qatar, abritant plus de 1 000 Afghans qui ont contribué à l’effort de guerre américain. L'administration du président Donald Trump (États-Unis) s'apprête à accorder un sursis de dernière minute à un camp au Qatar qui abrite plus de 1 000 Afghans ayant travaillé avec les forces américaines. Le secrétaire d’État Marco Rubio (États-Unis)…",
       "sources": [
         "New Haven Register — fiabilité 6/10",
-        "ClickOrlando — fiabilité 6/10"
+        "ClickOrlando — fiabilité 6/10",
+        "News4JAX — fiabilité 6/10"
       ],
       "url": "https://www.nhregister.com/news/article/trump-is-set-to-extend-the-qatar-camp-housing-22454985.php",
       "published_at": "2026-09-29T13:52:00+02:00",
@@ -31368,8 +31370,8 @@
         "Afrique"
       ],
       "countries": [
-        "Nigeria",
-        "Afrique du Sud"
+        "Afrique du Sud",
+        "Nigeria"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -31382,6 +31384,166 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMjd6c09UX1JqTDdJekVRR3RJY3lHZ3I5Z0gyUGVOd2NIYWxtY1FueGFORWFwNjEtM2k3Nlk4TUNGNmtUQXBHLXVjdVNtMVIzc1B1a2x5ekNOQjBBamFrQ2ZmTUFJdDJyOXBONkRWdGpQS2gwbDhiUHJLQ0p2NGJLUHlqc19sZURaT1NXaUZJRE5VeVg1dEx6ZllURQ?oc=5",
       "published_at": "2026-09-29T13:24:16+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le roi du Maroc nomme le maire de Marrakech, El Mansouri, première femme Premier ministre. Le roi Mohammed VI a nommé mardi Fatima Ezzahra El Mansouri première femme Premier ministre du Maroc, après la victoire de son parti libéral-centriste aux élections législatives du 23 septembre.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/africa/20260929-morocco-king-appoints-first-woman-prime-minister-el-mansouri-after-parliamentary-vote",
+      "published_at": "2026-09-29T14:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Maroc"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Cour suprême autorise Trump à reprendre les expulsions vers des pays tiers. La Cour suprême des États-Unis a autorisé mardi l'administration du président Donald Trump (États-Unis) à reprendre les expulsions de migrants vers des pays autres que le leur, sans leur offrir la possibilité de montrer les torts qu'ils pourraient …",
+      "sources": [
+        "U.S. News & World Report — fiabilité 6/10"
+      ],
+      "url": "https://www.usnews.com/news/world/articles/2026-09-29/supreme-court-lets-trump-resume-third-country-deportations",
+      "published_at": "2026-09-29T14:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L'entreprise estime que l'entrée de 4,5 GW de nouvelle capacité renouvelable pourrait générer un besoin compris entre 300 MW et près de 1 GW de stockage par batterie.",
+      "sources": [
+        "Gestión — fiabilité 6/10"
+      ],
+      "url": "https://gestion.pe/economia/empresas/celaris-energy-estima-que-peru-podria-requerir-hasta-1-gw-de-almacenamiento-con-baterias-para-energias-renovables-noticia/",
+      "published_at": "2026-09-29T12:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Tous les deux jours, il y a un déplacement forcé en Colombie, chiffres tragiques laissés par le conflit armé. Entre le 1er janvier et le 31 août 2026, 111 déplacements forcés massifs ont eu lieu en Colombie, ce qui signifie que tous les deux jours, en…",
+      "sources": [
+        "El Colombiano — fiabilité 6/10"
+      ],
+      "url": "https://www.elcolombiano.com/colombia/desplazamiento-forzado-cada-2-dias-colombia-conflicto-armado-defensoria-pueblo-BG41651202",
+      "published_at": "2026-09-29T05:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Colombie"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'ancien président de la Chambre et député travailliste Adrian Rurawhe est décédé. L'ancien président de la Chambre Adrian Rurawhe est décédé, a annoncé sa famille ce matin. Rurawhe était président du gouvernement lors du deuxième mandat du dernier gouvernement travailliste et député de l'électorat de Te Tai Hauāuru …",
+      "sources": [
+        "NZ Herald — fiabilité 6/10"
+      ],
+      "url": "https://www.nzherald.co.nz/nz/politics/former-speaker-of-the-house-and-labour-mp-adrian-rurawhe-dies/664Z5QDSPZASBGDQGQLAMPAHTY/",
+      "published_at": "2026-09-29T13:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le président Donald Trump (États-Unis) vient de refuser d’offrir un allégement des sanctions contre l’Iran ou de restituer les avoirs gelés. Trump affirme n’avoir rien proposé à l’Iran, qualifiant de canular un rapport sur l’allègement des sanctions, mais plusieurs médias citent des responsables américains qui affirment le contraire.",
+      "sources": [
+        "nationalsecurityjournal — fiabilité 6/10"
+      ],
+      "url": "https://nationalsecurityjournal.org/donald-trump-just-denied-offering-iran-sanctions-relief-or-giving-back-frozen-assets/",
+      "published_at": "2026-09-29T14:04:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Maroc : Fatima Ezzahra El Mansouri devient la première femme nommée cheffe du gouvernement. [VIDÉO] Pour la première fois de l'histoire du Maroc, une femme va diriger le gouvernement. Après la victoire de son parti aux élections législatives, Fatima Ezzahra El Mansouri a été \"chargée de form …",
+      "sources": [
+        "TF1 INFO — fiabilité 6/10"
+      ],
+      "url": "https://www.tf1info.fr/international/maroc-fatima-ezzahra-el-mansouri-devient-la-premiere-femme-nommee-cheffe-du-gouvernement-2467070.html",
+      "published_at": "2026-09-29T14:11:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le conseiller de Trump dit aux lobbyistes canadiens de « foutre le camp des États-Unis ». Mises à jour en direct ici. Le président Donald Trump (États-Unis) a intensifié la guerre commerciale entre les États-Unis et le Canada après l'entrée en vigueur à minuit d'une interdiction sur les importations de certains produits canadiens. Suivez les mises à jour en direct.",
+      "sources": [
+        "CTV News — fiabilité 7/10"
+      ],
+      "url": "https://www.ctvnews.ca/world/trumps-tariffs/article/trump-adviser-tells-canadian-lobbyists-to-get-the-hell-out-of-the-us-live-updates-here/",
+      "published_at": "2026-09-29T09:51:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
