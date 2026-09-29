@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:37:06.273011+02:00",
+  "generated_at": "2026-09-29T21:47:12.228299+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3643,8 +3643,8 @@
         "Ghana",
         "Kenya",
         "Ouganda",
-        "Zambie",
-        "Nigeria"
+        "Nigeria",
+        "Zambie"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
@@ -29021,7 +29021,8 @@
       "summary": "Le président Donald Trump (États-Unis) s’engage à ne jamais « étouffer » l’IA alors que les principaux dirigeants appellent à la prudence. Le président Donald Trump a promis mardi que le gouvernement ne limiterait pas le développement de l'intelligence artificielle, alors même que les dirigeants des sociétés d'IA qui ont réclamé des retards se réunissaient à …",
       "sources": [
         "Chicago Tribune — fiabilité 6/10",
-        "KOTA Territory TV — fiabilité 6/10"
+        "KOTA Territory TV — fiabilité 6/10",
+        "KPLC 7 News — fiabilité 6/10"
       ],
       "url": "https://www.chicagotribune.com/2026/09/29/donald-trump-ai-executives/",
       "published_at": "2026-09-29T14:28:00+02:00",
@@ -29073,8 +29074,7 @@
     },
     {
       "regions": [
-        "Europe",
-        "Amérique du Sud"
+        "Europe"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -30705,12 +30705,14 @@
       "category": "Énergie",
       "summary": "L'indien Inox Clean Energy dépose une demande d'introduction en bourse d'un milliard de dollars. La société indienne Inox Clean Energy a déposé une première offre publique d'achat d'une valeur pouvant atteindre 100 milliards de roupies (1,04 milliard de dollars), selon un projet de document publié mardi.",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "CNBCTV18 — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/business/energy/indias-inox-clean-energy-files-1-billion-ipo-2026-09-29/",
-      "published_at": "2026-09-29T12:55:00+02:00",
+      "published_at": "2026-09-29T14:32:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -31854,6 +31856,169 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSXlRanVWS1Y2LVVpRC1PSDJoQTdyNUZhMktoMGl0Z3ZkOUlKT3M3bmRlWG5DZXlMX2wzWHBRcUtlOWFUdFBIWE9Cdi1XNVAzeGRUMXVISnRVaW02cVhZS0NJelAyUWxzTVJncDdpV191SVFlbjR5WFhIMlZ4TEVIaWt3VnY3bGlCekw0Q2V3?oc=5",
       "published_at": "2026-09-29T16:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "« Qu’ils aient peur » : la Russie signale une vague de saisies d’actifs ciblant les entreprises européennes. La Russie intensifie ses actions contre les entreprises européennes en transférant des actifs d’entreprises étrangères sous gestion temporaire à la suite du renouvellement des sanctions de l’UE.",
+      "sources": [
+        "UNITED24 Media — fiabilité 6/10"
+      ],
+      "url": "https://united24media.com/world/let-them-be-afraid-russia-signals-wave-of-asset-seizures-targeting-eu-corporations-22970",
+      "published_at": "2026-09-29T03:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La justice annule les élections municipales d'Etampes. Le tribunal administratif de Versailles vient d'annuler les élections municipales d'Etampes (Essonne) des 15 et 22 mars derniers, invoquant des irrégularités. Des différences de signature entre les de …",
+      "sources": [
+        "Les Echos — fiabilité 6/10"
+      ],
+      "url": "https://www.lesechos.fr/pme-regions/ile-de-france/la-justice-annule-les-elections-municipales-detampes-2254121",
+      "published_at": "2026-09-29T12:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Argentine affiche un excédent de compte courant de 2,21 milliards de dollars au deuxième trimestre. Le gouvernement argentin a enregistré un excédent de compte courant de 2,21 milliards de dollars pour le deuxième trimestre 2026, contre un déficit de 2,45 milliards de dollars enregistré un an plus tôt, selon des données officielles publiées mardi.",
+      "sources": [
+        "The News & Observer — fiabilité 6/10"
+      ],
+      "url": "https://www.newsobserver.com/news/nation-world/national/article317429530.html",
+      "published_at": "2026-09-29T10:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le CGRI iranien exhorte les Américains à « changer » le gouvernement le président Donald Trump (États-Unis), affirmant que les États-Unis n’ont pas réussi à atteindre leurs objectifs de guerre. La lettre cherche à établir une distinction entre le public américain et ses dirigeants élus, en affirmant que les Iraniens ordinaires et les Américains ont tous deux souffert des décisions prises par les politiques …",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/world/iran-s-irgc-urges-americans-to-change-trump-government-claims-us-failed-to-achieve-war-objectives-article-14041431.html",
+      "published_at": "2026-09-29T14:37:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Syrie",
+        "Japon"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Syrie : le Japon lève une partie de ses sanctions pour soutenir la reconstruction. Seize entités, dont des institutions financières et des entreprises pétrolières, sont retirées de la liste des sanctions japonaises, tandis que les mesures visant 59 personnes et 15 entités restent en …",
+      "sources": [
+        "Anadolu Ajansı — fiabilité 6/10"
+      ],
+      "url": "https://www.aa.com.tr/fr/politique/syrie-le-japon-lève-une-partie-de-ses-sanctions-pour-soutenir-la-reconstruction/4072845",
+      "published_at": "2026-09-29T13:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Syrie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Syrie: un gazoduc saboté dans l'est. Une explosion due à un « sabotage » sur un gazoduc dans l'est de la Syrie a provoqué l'interruption de l'alimentation en gaz vers des centrales électriques, a indiqué mardi l'agence …",
+      "sources": [
+        "La Libre — fiabilité 6/10",
+        "L'Orient-Le Jour — fiabilité 6/10"
+      ],
+      "url": "https://www.lalibre.be/dernieres-depeches/2026/09/29/un-gazoduc-sabote-dans-lest-de-la-syrie-PA5G2MBNDFCPPMMCORCGDAITIU/",
+      "published_at": "2026-09-29T02:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Mozambique"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Mozambique : le gouvernement table sur une croissance de 1,54 % en 2027. Fil d'actualité.",
+      "sources": [
+        "africa24tv — fiabilité 6/10"
+      ],
+      "url": "https://africa24tv.com/mozambique-le-gouvernement-table-sur-une-croissance-de-154-en-2027/",
+      "published_at": "2026-09-29T10:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "CANEX WKND 2026 d’Afreximbank : Lagos se prépare à faire rayonner l’économie créative africaine.",
+      "sources": [
+        "African Export-Import Bank — fiabilité 6/10"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbF9udDZBX0NxR2hJTWlIN3JZQVJkMmRTSVYyYWVDNzMtVTVoQ3RIRm5vRlpBME5QUm56Yk9hSVlzenBKcVUxaV83Vm9jUUstSThHWTd6RlMzenRGWG4zaGFwQlROOTBlSWhjNXV2bXVMMkNVVHE4SG40TUo3eGNBdDViVWo4UUh5UHhUVE84Z3F4NW9XaXMxeGJEOGY5NEFZMWtiZEtRZ2RaLUlGY2RhNk8xd05oallkQTdHbEo3LTE?oc=5",
+      "published_at": "2026-09-29T11:07:37+02:00",
       "origin": "rss",
       "content_enriched": true
     },
