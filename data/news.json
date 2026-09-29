@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:03:49.569663+02:00",
+  "generated_at": "2026-09-29T20:07:50.673544+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -8266,8 +8266,8 @@
         "Afrique"
       ],
       "countries": [
-        "Sénégal",
-        "Maroc"
+        "Maroc",
+        "Sénégal"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -28576,6 +28576,47 @@
       "url": "https://www.n-tv.de/wissen/Braune-Stellen-Diese-genveraenderte-Banane-soll-das-Problem-loesen-id31360250.html",
       "published_at": "2026-09-29T19:30:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Arménie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La municipalité d'Erevan aurait reçu l'ordre du gouvernement arménien de ne plus publier de vidéos montrant le mont Ararat, information démentie par la municipalité d'Erevan.",
+      "sources": [
+        "Nouvelles d'Arménie en Ligne"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdnkycXVZcTlrcG0xYWFMWlZlUFNpcFp6V09HRlJrcGtDelVKQkl0b3VzdnFXSDBQN1ZMV1loNmVBZ1gwQ2lNbGVEdkVwUzZHWk5qeUUtT3hXRm1VeHZOZTBuVHZ1WERYZ2t4NjgzV2xFVExsd3kwY2FrMlV0MHJQeTJyTi1kekFuNGsxelRUNlFmb0NXLWU1Z1V4d3A4UEQtRFA2YTlRazB4S1JqZ1FQZ1MwYmtnUm5zb1hhQW9HUUdYOTQxVF9tV0ZoRGQ4STFmZzNXeThsYlR5QmNrNHhj?oc=5",
+      "published_at": "2026-09-29T10:52:43+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Azerbaïdjan"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le prix du pétrole azerbaïdjanais recule sur les bourses.",
+      "sources": [
+        "AZƏRTAC – Azərbaycan Dövlət İnformasiya Agentliyi"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQlNhVkZpTXFWS2JmZm9KZVR2MFhFS003U0laRDBzSjhYQzFGZ1ZoQ0NLbHFCMFdCTzc5UTUzeE1xNUJxNFFhbEVZT1hBNWo3MDJ1VV9zY25wMVpMRnFIc2ZsdGNqQU1VZXlmVzVMUi02dWZUM3kwa25YdWpZSEdyUFNkVnl6QXZySFBzc0ZfOEt2QzVwZGh3?oc=5",
+      "published_at": "2026-09-29T08:21:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
