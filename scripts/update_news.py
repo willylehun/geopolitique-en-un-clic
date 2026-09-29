@@ -831,7 +831,7 @@ def source_reliability_score(label):
     if not raw:
         return 5
     # Grandes agences internationales.
-    if any(x in low for x in ("reuters","associated press","ap news"," afp","agence france-presse")) or low=="ap":
+    if any(x in low for x in ("reuters","associated press","ap news","agence france-presse")) or low in ("ap","afp"):
         return 9
     # Médias reconnus disposant de standards éditoriaux robustes.
     high=(
