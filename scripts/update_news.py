@@ -450,17 +450,18 @@ def article_candidate_priority(art):
     return (0 if has_detail else 1,-score(title),0 if source_ok else 1,-ts)
 
 def prioritize_articles(articles,start_date,end_date,country=None):
-    """Déduplique et trie les titres avant de consommer le budget d'analyse de contenu."""
-    out=[]; seen=set()
+    """Trie les titres avant analyse et garde une source de secours par événement."""
+    out=[]; seen_urls=set(); per_title=defaultdict(int)
     for art in articles:
         title=(art.get("title") or "").strip()
+        url=(art.get("url") or "").strip()
         if len(title)<22:
-            note_rejection("titre_trop_court",title,art.get("url",""))
+            note_rejection("titre_trop_court",title,url)
             continue
         try:
             d=editorial_day(art["date"])
         except Exception:
-            note_rejection("date_invalide",title,art.get("url",""))
+            note_rejection("date_invalide",title,url)
             continue
         if d<start_date or d>end_date:
             continue
@@ -468,12 +469,15 @@ def prioritize_articles(articles,start_date,end_date,country=None):
             continue
         reason=title_rejection_reason(title)
         if reason:
-            note_rejection(reason,title,art.get("url",""))
+            note_rejection(reason,title,url)
             continue
         k=(d,key_title(title))
-        if not k[1] or k in seen:
+        if not k[1]:
             continue
-        seen.add(k); out.append(art)
+        url_key=url or (source_name(art.get("source",""))+"|"+k[1])
+        if url_key in seen_urls or per_title[k]>=2:
+            continue
+        seen_urls.add(url_key); per_title[k]+=1; out.append(art)
     DISCOVERY_STATS["titres_candidats"]+=len(out)
     return sorted(out,key=article_candidate_priority)
 
@@ -1067,9 +1071,9 @@ def global_country_discovery(start_date,end_date,countries):
         if not matched: continue
         k=(d,key_title(title))
         if not k[1] or k in seen: continue
-        seen.add(k); found.update(matched)
         summary=article_summary(art,{"countries":matched,"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
         if not summary: continue
+        seen.add(k); found.update(matched)
         s=score(summary)
         regions=regions_for_countries(matched,s)
         rows.append({"regions":regions,"countries":matched,"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"global","content_enriched":True})
@@ -1136,9 +1140,9 @@ def country_backfill(start_date,end_date,state):
             d=editorial_day(art["date"]); title=art["title"]
             k=(d,key_title(title))
             if not k[1] or k in seen: continue
-            seen.add(k)
             summary=article_summary(art,{"countries":[country],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
             if not summary: continue
+            seen.add(k)
             s=score(summary)
             found.add(country)
             rows.append({"regions":regions_for_countries([country],s),"countries":[country],"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"gdelt" if "GDELT" in source_name(art["source"]) else "rss","content_enriched":True})
@@ -1272,7 +1276,14 @@ def main():
         y["summary"]=trim_incomplete_tail(
             dedupe_summary_sentences(enrich_editorial_context(y.get("summary","")))
         )
-        if is_useful_article(y["summary"]):
+        if y.get("bucket")==today_bucket:
+            reason=content_rejection_reason(y["summary"])
+            if reason:
+                note_rejection("existant_"+reason,y.get("summary",""),y.get("url",""))
+                continue
+            useful_items.append(y)
+        elif is_useful_article(y["summary"]):
+            # Ne pas réécrire massivement l'historique avec le nouveau seuil.
             useful_items.append(y)
     day_items=useful_items
     # Réappliquer la grille courante à tout l'historique Jour à chaque cycle.
