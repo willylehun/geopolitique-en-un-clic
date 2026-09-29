@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:48:21.108607+02:00",
+  "generated_at": "2026-09-29T22:58:29.003706+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3746,9 +3746,9 @@
         "Asie"
       ],
       "countries": [
-        "Algérie",
         "Soudan",
         "Libye",
+        "Algérie",
         "Mali",
         "Émirats arabes unis"
       ],
@@ -32167,7 +32167,6 @@
     {
       "regions": [
         "Europe",
-        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -32301,7 +32300,7 @@
         "WalesOnline — fiabilité 6/10"
       ],
       "url": "https://www.walesonline.co.uk/news/wales-news/what-triple-lock-pension-what-34691217",
-      "published_at": "2026-09-29T01:32:00+02:00",
+      "published_at": "2026-09-29T15:34:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": []
@@ -32825,7 +32824,8 @@
       "category": "Géopolitique",
       "summary": "Pourquoi le gaz est-il si cher ? À quoi ressemblent les prix en Californie ?. Le prix moyen national du gaz est de 4,45 $, selon AAA. La moyenne de la Californie est la plus élevée des États-Unis, près d'un dollar de plus que celle du deuxième État. La moyenne de la Californie est de 6,38 $, tandis que…",
       "sources": [
-        "USA TODAY — fiabilité 6/10"
+        "USA TODAY — fiabilité 6/10",
+        "The Desert Sun — fiabilité 6/10"
       ],
       "url": "https://www.usatoday.com/story/money/2026/09/29/why-has-gas-gotten-so-expensive-in-the-u-s-california-aaa-fuel-prices/92004190007/",
       "published_at": "2026-09-29T15:26:00+02:00",
@@ -32922,9 +32922,10 @@
       "bucket": "29 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Un officier de l’armée de Virginie devient le 19e militaire américain connu à mourir depuis le début de la guerre en Iran. Comme le rapporte…",
+      "summary": "Un officier de l’armée de Virginie devient le 19e militaire américain connu à mourir depuis le début de la guerre en Iran. Le capitaine Bianca Wilkerson, âgée de 37 ans, originaire du Norfolk, est décédée dans un incident non lié au combat alors qu'elle était déployée à l'étranger, ont indiqué des responsables.",
       "sources": [
-        "The Grio — fiabilité 6/10"
+        "The Grio — fiabilité 6/10",
+        "TheGrio — fiabilité 6/10"
       ],
       "url": "https://thegrio.com/2026/09/29/virginia-army-officer-becomes-19th-known-u-s-service-member-to-die-since-iran-war-began/",
       "published_at": "2026-09-29T15:31:00+02:00",
@@ -33211,9 +33212,9 @@
         "International"
       ],
       "countries": [
-        "Vatican",
         "Allemagne",
-        "France"
+        "France",
+        "Vatican"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -33350,6 +33351,245 @@
       ],
       "url": "https://www.senenews.com/actualites/international/birmanie-50-morts-sur-un-marche-bombarde-par-larmee-selon-les-humanitaires_601183.html",
       "published_at": "2026-09-29T07:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La coalition slovaque se débat avec la destitution d'un ministre et des élections anticipées évoquées. Un petit parti de la coalition nationaliste de gauche slovaque a voté mardi avec l'opposition parlementaire en faveur du limogeage d'un ministre, évoquant la possibilité que le Premier ministre pro-russe Robert …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/slovak-coalition-frays-with-ministers-removal-early-election-mooted-2026-09-29/",
+      "published_at": "2026-09-29T14:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis sanctionnent 10 entités pour avoir prétendument soutenu l’armée iranienne. L’administration du président américain le président Donald Trump (États-Unis) a ajouté un groupe de 10 personnes et entreprises à sa liste d’entités mondiales sanctionnées pour leurs liens présumés avec l’armée iranienne. Dans un…",
+      "sources": [
+        "Al Jazeera English — fiabilité 8/10"
+      ],
+      "url": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military",
+      "published_at": "2026-09-29T15:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le roi du Maroc nomme une femme Premier ministre, une première historique. Fatima Ezzahra El Mansouri, avocate et femme politique du parti centriste Authenticité et Modernité, n'est que la deuxième femme à diriger le gouvernement d'un pays d'Afrique du Nord.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/09/29/world/middleeast/morocco-first-woman-prime-minister.html",
+      "published_at": "2026-09-29T15:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Maroc"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Cour suprême des États-Unis déclare que Trump peut poursuivre les expulsions vers des pays tiers – pour le moment. La Cour suprême des États-Unis a autorisé mardi l'administration du président Donald Trump (États-Unis) à reprendre les expulsions de migrants vers des pays autres que le leur, sans leur offrir la possibilité de démontrer les « préjudices » qu'ils pourraient …",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/world/trump-deportations-third-countries-supreme-court-9.7362999",
+      "published_at": "2026-09-29T15:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les académies militaires n'accorderont pas de titularisation aux professeurs civils, ditle secrétaire à la Défense Pete Hegseth (États-Unis). Le ministère de la Défense a décidé de cesser de nommer des civils comme professeurs titulaires dans les académies militaires américaines.",
+      "sources": [
+        "News4JAX — fiabilité 6/10"
+      ],
+      "url": "https://www.news4jax.com/news/politics/2026/09/29/military-academies-wont-give-tenure-to-civilian-faculty-hegseth-says/",
+      "published_at": "2026-09-29T11:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) renverse la réglementation sur l’IA et appelle à une « formidable auto-surveillance » parmi les sociétés de « super renseignement ». Trump a déclaré qu'il comptait sur les sociétés d'IA pour poursuivre leur \"énorme auto-surveillance\", mais il envisage également de créer un conseil d'administration de 10 membres pour superviser l'industrie…",
+      "sources": [
+        "Mediaite — fiabilité 6/10"
+      ],
+      "url": "https://www.mediaite.com/media/news/trump-swats-down-ai-regulation-urges-tremendous-self-policing-among-super-intelligence-companies/",
+      "published_at": "2026-09-29T11:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Énergie",
+      "summary": "Une compagnie pétrolière d'État et une société américaine s'accordent sur une future exploration d'hydrocarbures au Paraguay. La société publique Petróleos Paraguayos (Petropar) a signé un accord avec la société américaine Scorpion Oil & Gas pour mener à bien l'exploration future de pétrole et de gaz dans ce pays d'Amérique du Sud.",
+      "sources": [
+        "Agencia EFE — fiabilité 6/10"
+      ],
+      "url": "https://efe.com/economia/2026-09-29/estatal-petrolera-estados-unidos-acuerdo-exploracion-hidrocarburos-paraguay/",
+      "published_at": "2026-09-29T15:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Paraguay",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Zone froide : le FAM a répudié l'abrogation du régime et mis en garde contre l'impact sur les tarifs du gaz. De la Fédération Argentine des Municipalités (FAM), qui représente plus de 500 maires de tout le pays, nous rejetons la modification du régime de la zone froide sanctionnée par le Sénat de…",
+      "sources": [
+        "Perfil — fiabilité 6/10"
+      ],
+      "url": "https://www.perfil.com/noticias/empresas-y-protagonistas/zona-fria-la-fam-repudio-la-derogacion-del-regimen-y-alerto-por-el-impacto-en-las-tarifas-de-gas.phtml",
+      "published_at": "2026-09-29T14:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "El Niño bat les économies : la consommation d'énergie des foyers a grimpé de 9,4 % et a atteint un record historique en août El Niño bat les économies : la consommation d'énergie des foyers… Par type de marché, le comportement reflète une divergence marquée entre les foyers et l'industrie. Sur le marché réglementé, correspondant à la consommation résidentielle et aux petites entreprises, la demande…",
+      "sources": [
+        "El Tiempo — fiabilité 7/10"
+      ],
+      "url": "https://www.eltiempo.com/economia/sectores/el-nino-le-gana-al-ahorro-consumo-de-energia-en-hogares-se-disparo-9-4-y-alcanzo-record-historico-en-agosto-3589897",
+      "published_at": "2026-09-29T07:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Sécurité",
+      "summary": "Amour de chiot ! Une statue honorant le courageux chien nommé Tsunami qui a aidé à sauver les victimes piégées après le tremblement de terre au Venezuela est dévoilée. Tsunami, le chien de sauvetage Border Collie de neuf ans, a sauvé 26 personnes à La Guarria avec son maître Jorge Beens en fouillant dans les vastes décombres.",
+      "sources": [
+        "Daily Mail — fiabilité 6/10"
+      ],
+      "url": "https://www.dailymail.com/news/article-16170691/Statue-dog-Tsunami-Venezuela-earthquake.html",
+      "published_at": "2026-09-29T15:05:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "U. S. Neuf - Hausse des ventes de maisons en août, l'abordabilité reste un frein. Les ventes de logements neufs aux États-Unis ont rebondi en août, aidées par les meilleurs résultats des constructeurs, mais cette augmentation n'a guère modifié un marché immobilier toujours contraint par des coûts d'emprunt élevés et des pressions sur l'accessibilité financière.",
+      "sources": [
+        "worldpropertyjournal.com — fiabilité 6/10"
+      ],
+      "url": "https://www.worldpropertyjournal.com/real-estate-news/united-states/washington-dc-real-estate-news/august-2026-new-home-sales-data-bill-owens-national-association-of-home-builders-nahb-2026-builder-data-14856.php",
+      "published_at": "2026-09-29T21:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Libye"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Libye : des discussions avec les compagnies pétrolières sur les plans d’augmentation de la production. Lire plus tardEn Libye, la Compagnie nationale de pétrole (NOC) a annoncé que son président du conseil d’administration Massoud Souleiman avait tenu, lundi 28 septembre 2026, une réunion élargie réuni …",
+      "sources": [
+        "Tunisie Numérique — fiabilité 6/10"
+      ],
+      "url": "https://www.tunisienumerique.com/libye-des-discussions-avec-les-compagnies-petrolieres-sur-les-plans-daugmentation-de-la-production/",
+      "published_at": "2026-09-29T11:50:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
