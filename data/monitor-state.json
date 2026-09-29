@@ -1,26 +1,24 @@
 {
-  "country_cursor": 1246,
+  "country_cursor": 1252,
   "day_cursor": 40,
-  "runs": 117,
-  "last_run_at": "2026-09-29T19:14:38.683516+02:00",
+  "runs": 118,
+  "last_run_at": "2026-09-29T19:23:04.455069+02:00",
   "manual_trigger_at": "2026-09-25T14:46:00.018Z",
   "last_rejection_stats": {
-    "contenu_indisponible": 106,
-    "existant_contenu_hors_sujet": 2,
-    "existant_pas_de_signal_geopolitique": 1,
-    "pas_de_signal_geopolitique": 31,
-    "people_sante_speculative": 1,
-    "sport_divertissement_loisirs": 5,
-    "titre_trop_court": 2,
-    "titre_trop_pauvre": 55
+    "contenu_hors_sujet": 1,
+    "contenu_indisponible": 249,
+    "pas_de_signal_geopolitique": 23,
+    "sport_divertissement_loisirs": 1,
+    "titre_trop_court": 14,
+    "titre_trop_pauvre": 89
   },
   "last_discovery_stats": {
-    "articles_valides": 15,
-    "titres_candidats": 183
+    "articles_valides": 35,
+    "titres_candidats": 342
   },
   "last_content_fetches": 48,
   "last_gdelt_429_count": 6,
   "last_gdelt_disabled": true,
   "last_google_disabled": false,
-  "last_generated_count": 15
+  "last_generated_count": 35
 }
