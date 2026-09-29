@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:56:59.820781+02:00",
+  "generated_at": "2026-09-29T20:03:49.569663+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -28429,6 +28429,154 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Nucléaire : le président Donald Trump (États-Unis) nie vouloir lever les sanctions contre l’Iran. Nucléaire : Trump nie vouloir lever les sanctions contre l’Iran The Times of Israël",
+      "sources": [
+        "The Times of Israël"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMEUzN29TcUo1OGs5aVZzeW8teUlKY2s2eGhnNFF3SzVBM2xISXo0ajZTamxKb3doSHpFTVZ2T3VHV0trUl9jYU9uV2pUNDk3Y0ZXT2xjZlJPLUo3WmpuRE8ydk1ueWt2bzBna05UdlpfeTZ5UzVpSkZQaXlhT1hJR1JjajZONDN6aXUyOTNKRGthbkVy0gGaAUFVX3lxTFBmaXdLV2xfOWlrNE1wM2FFbFdQWE5rSHItQXcxZjkxZXFOVldadFYtUjRNX0VQbkhlTzJTaDJXRjhGWHNOSmg0ZDR1VmVCU0F2bDd0bG5hQWkyMDdYNzZuaDR2X3hzTTZwT3FYanZxWjBzN2pSaElqbnZMRmNCcE5xOWZmdUZkUk1LTV9oaHByN0d4eUFBMTUxQ2c?oc=5",
+      "published_at": "2026-09-29T14:32:20+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Israël",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "France : « Les marches pour le climat et la justice sociale doivent être aussi antiracistes et anticoloniales ».",
+      "sources": [
+        "Presse-toi à gauche"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaVNpZTc0clV2cHNoVndDcVZTWlJXY0tOdE9LaElQOXF2SzBHQUlRdjUyVTlQYU1sTzg5S2ZnVGVIb29kalltanB4OXEyNTBGTGJUMGVHd0FlWm5JUGp5ZmplaHl3Z1BPUy1yMG92UUxqZkUyZFZvcWNGOHY4Vmc0STRxeGF3UmdWODRhaHdTNG5GMmFQTURKNGt3bmhRVGVINU1zUlB3?oc=5",
+      "published_at": "2026-09-29T17:30:13+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Sénégal"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Dette , fiscalité , banques publiques : Avis croisés sur les équilibres pour financer les services essentiels au Sénégal. Comment financer les services essentiels sans plomber les finances publiques ni sacrifier la justice fiscale ? Cette question a réuni économistes, politologues et société civile lors du Dialogue d...",
+      "sources": [
+        "dakaractu.com"
+      ],
+      "url": "https://www.dakaractu.com/Dette-fiscalite-banques-publiques-Avis-croises-sur-les-equilibres-pour-financer-les-services-essentiels-au-Senegal_a276491.html",
+      "published_at": "2026-09-29T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les allégations d'antisémitisme contre le colistier nuisent à la campagne de Le Pen en France. Le leader français d'extrême droite a déclaré que Jordan Bardella, 31 ans, serait son Premier ministre si elle remportait la présidence en mai.",
+      "sources": [
+        "harwichandmanningtreestandard.co.uk"
+      ],
+      "url": "https://www.harwichandmanningtreestandard.co.uk/news/national/26592736.antisemitism-allegations-running-mate-cloud-le-pens-campaign-france/",
+      "published_at": "2026-09-29T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Chine",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’ère de l’arrogance, Là-haut : les États-Unis et la Chine utilisent l’économie comme une arme. La discussion sur le livre avec Massolo, Bini Smaghi, Valensise et De Stefano. Dassù explique à Adnkronos : \"Il n'y aura ni collision ni collusion impériale, mais un multipolarisme chaotique\"",
+      "sources": [
+        "adnkronos.com"
+      ],
+      "url": "https://www.adnkronos.com/internazionale/esteri/leta-della-prepotenza-dassu-usa-e-cina-usano-leconomia-come-unarma_3T7Pd8CGNHZhjWVOYwdaao",
+      "published_at": "2026-09-29T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Mozambique"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Mozambique : Le Frelimo peut-il garder le contrôle pour la prochaine décennie ?. Le gaz pourrait rendre le Mozambique relativement riche, mais pas avant une décennie. Une seule petite plateforme flottante est actuellement en production, mais cela a permis d'analyser les contrats. Les revenus sont limités jusqu'à ce que tous les coûts d'exploration et de développement soient remboursés, ce qui prend environ 8 ans, puis il y a une augmentation soudaine des revenus. La zone 1 (TotalEnergies) ne démarrera sa production qu'en 2029-2030, et la zone 4 (Exxon Mobil) trois ans plus tard. Ainsi, au cours de la période 2032-2038, lorsque les coûts initiaux seront remboursés, le gouvernement",
+      "sources": [
+        "allafrica.com"
+      ],
+      "url": "https://allafrica.com/stories/202609290435.html",
+      "published_at": "2026-09-29T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Nouvelle variété avant son lancement sur le marché au Royaume-Uni : taches brunes ? Cette banane génétiquement modifiée est censée résoudre le problème. Elle ressemble à une banane normale et, selon le fabricant, elle a aussi le même goût, mais elle brunit beaucoup plus lentement. Une variété génétiquement modifiée a désormais surmonté un obstacle important à l'approbation en Angleterre. Les développeurs espèrent réduire considérablement le gaspillage alimentaire.",
+      "sources": [
+        "n-tv.de"
+      ],
+      "url": "https://www.n-tv.de/wissen/Braune-Stellen-Diese-genveraenderte-Banane-soll-das-Problem-loesen-id31360250.html",
+      "published_at": "2026-09-29T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
