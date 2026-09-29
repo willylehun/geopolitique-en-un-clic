@@ -1,7 +1,25 @@
 {
-  "country_cursor": 1222,
+  "country_cursor": 1228,
   "day_cursor": 40,
-  "runs": 113,
-  "last_run_at": "2026-09-29T17:05:15.486490+02:00",
-  "manual_trigger_at": "2026-09-25T14:46:00.018Z"
+  "runs": 114,
+  "last_run_at": "2026-09-29T18:59:35.180645+02:00",
+  "manual_trigger_at": "2026-09-25T14:46:00.018Z",
+  "last_rejection_stats": {
+    "contenu_hors_sujet": 1,
+    "contenu_indisponible": 254,
+    "pas_de_signal_geopolitique": 29,
+    "people_sante_speculative": 1,
+    "sport_divertissement_loisirs": 8,
+    "titre_trop_court": 4,
+    "titre_trop_pauvre": 85
+  },
+  "last_discovery_stats": {
+    "articles_valides": 25,
+    "titres_candidats": 340
+  },
+  "last_content_fetches": 48,
+  "last_gdelt_429_count": 4,
+  "last_gdelt_disabled": true,
+  "last_google_disabled": false,
+  "last_generated_count": 18
 }
