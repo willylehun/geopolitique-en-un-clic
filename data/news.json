@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:21:58.159255+02:00",
+  "generated_at": "2026-09-29T20:25:55.342297+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -825,8 +825,7 @@
       ],
       "countries": [
         "Palestine",
-        "Australie",
-        "Jordanie"
+        "Australie"
       ]
     },
     {
@@ -1647,7 +1646,6 @@
       "countries": [
         "Palestine",
         "Israël",
-        "Jordanie",
         "Royaume-Uni"
       ]
     },
@@ -2611,7 +2609,6 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -2626,7 +2623,6 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Brésil",
         "États-Unis"
       ]
     },
@@ -2651,7 +2647,6 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -2666,7 +2661,6 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Colombie",
         "États-Unis"
       ]
     },
@@ -2952,8 +2946,7 @@
       "countries": [
         "Palestine",
         "Canada",
-        "Israël",
-        "Jordanie"
+        "Israël"
       ]
     },
     {
@@ -2976,7 +2969,6 @@
       "countries": [
         "Palestine",
         "Israël",
-        "Jordanie",
         "Royaume-Uni"
       ]
     },
@@ -2999,7 +2991,6 @@
       "origin": "rss",
       "countries": [
         "Israël",
-        "Liban",
         "Royaume-Uni"
       ]
     },
@@ -3045,7 +3036,6 @@
       "countries": [
         "Palestine",
         "Israël",
-        "Jordanie",
         "Royaume-Uni"
       ]
     },
@@ -3527,11 +3517,9 @@
     },
     {
       "regions": [
-        "Asie",
         "Océanie"
       ],
       "countries": [
-        "Laos",
         "Palaos"
       ],
       "period": "day",
@@ -3583,8 +3571,7 @@
       "origin": "rss",
       "countries": [
         "Palestine",
-        "France",
-        "Jordanie"
+        "France"
       ]
     },
     {
@@ -3715,7 +3702,6 @@
       ],
       "countries": [
         "Afghanistan",
-        "Liban",
         "Pakistan"
       ],
       "period": "day",
@@ -3918,12 +3904,10 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Asie"
+        "Amérique du Nord"
       ],
       "countries": [
-        "Barbade",
-        "Iran"
+        "Barbade"
       ],
       "period": "day",
       "bucket": "20 septembre 2026",
@@ -4334,7 +4318,6 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Belize",
         "États-Unis"
       ],
       "period": "day",
@@ -4417,7 +4400,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "El FMI destacó la fortaleza de Uruguay para enfrentar shocks externos , pero proyectó un crecimiento de 1 , 3 % en 2026",
+      "summary": "El FMI destacó la fortaleza de Uruguay para enfrentar shocks externos, pero proyectó un crecimiento de 1, 3 % en 2026",
       "sources": [
         "ambito.com"
       ],
@@ -4455,7 +4438,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Reglamentan el Uso de Monopatines Eléctricos en Uruguay : Exigencias , Casco y Límite de Velocidad",
+      "summary": "Reglamentan el Uso de Monopatines Eléctricos en Uruguay : Exigencias, Casco y Límite de Velocidad",
       "sources": [
         "elpueblodigital.uy"
       ],
@@ -4493,7 +4476,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "La diaria reunirá a referentes de UTE , Ancap , academia y sector privado para discutir sobre el futuro de la energía en Uruguay | la diaria",
+      "summary": "La diaria reunirá a referentes de UTE, Ancap, academia y sector privado para discutir sobre el futuro de la energía en Uruguay | la diaria",
       "sources": [
         "ladiaria.com.uy"
       ],
@@ -4531,7 +4514,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "La Iglesia de Uruguay lanza una rifa para financiar la visita del papa León XIV : sortea un departamento , 10 autos y 3 viajes a Roma",
+      "summary": "La Iglesia de Uruguay lanza una rifa para financiar la visita del papa León XIV : sortea un departamento, 10 autos y 3 viajes a Roma",
       "sources": [
         "clarin.com"
       ],
@@ -4569,7 +4552,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Énergie",
-      "summary": "Ethiopia , Djibouti Launch US$660M Dangote Petroleum Pipeline",
+      "summary": "Ethiopia, Djibouti Launch US$660M Dangote Petroleum Pipeline",
       "sources": [
         "riotimesonline.com"
       ],
@@ -4589,7 +4572,7 @@
       "bucket": "25 septembre 2026",
       "score": 7,
       "category": "Énergie",
-      "summary": "Africa : Ethiopia , Djibouti Hail Dangote $660 Million Pipeline As Energy Security Boost",
+      "summary": "Africa : Ethiopia, Djibouti Hail Dangote $660 Million Pipeline As Energy Security Boost",
       "sources": [
         "allafrica.com",
         "premiumtimesng.com"
@@ -4609,7 +4592,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Énergie",
-      "summary": "Ethiopia , Djibouti presidents laud Dangote $660m pipeline project",
+      "summary": "Ethiopia, Djibouti presidents laud Dangote $660m pipeline project",
       "sources": [
         "thenationonlineng.net"
       ],
@@ -4685,7 +4668,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Un Gabonais , un compteur : 157 000 compteurs et 4 000 kits solaires annoncés",
+      "summary": "Un Gabonais, un compteur : 157 000 compteurs et 4 000 kits solaires annoncés",
       "sources": [
         "gabonactu.com"
       ],
@@ -4837,7 +4820,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Lagos govt unveils sexual , gender - based violence prevention policy",
+      "summary": "Lagos govt unveils sexual, gender - based violence prevention policy",
       "sources": [
         "tribuneonlineng.com"
       ],
@@ -4875,7 +4858,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Eight Years On , OPay Keeps Nigerian Businesses Moving - Blueprint Newspapers Limited",
+      "summary": "Eight Years On, OPay Keeps Nigerian Businesses Moving - Blueprint Newspapers Limited",
       "sources": [
         "blueprint.ng"
       ],
@@ -4914,7 +4897,7 @@
       "bucket": "25 septembre 2026",
       "score": 8,
       "category": "Conflit",
-      "summary": "Nigeria : Conflict - Sensitive Reporting - Olorunyomi Warns Journalists Against Misnaming , Wrong Use of Language",
+      "summary": "Nigeria : Conflict - Sensitive Reporting - Olorunyomi Warns Journalists Against Misnaming, Wrong Use of Language",
       "sources": [
         "allafrica.com"
       ],
@@ -4971,7 +4954,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Africa : Nigeria Restates Demand for Two Permanent UNSC Seats , Veto Powers for Africa",
+      "summary": "Africa : Nigeria Restates Demand for Two Permanent UNSC Seats, Veto Powers for Africa",
       "sources": [
         "allafrica.com",
         "premiumtimesng.com",
@@ -5088,7 +5071,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "UK petrol hits ₦3 , 000 , Nigeria pays less – Okpebholo – The Sun Nigeria",
+      "summary": "UK petrol hits ₦3, 000, Nigeria pays less – Okpebholo – The Sun Nigeria",
       "sources": [
         "thesun.ng"
       ],
@@ -5145,7 +5128,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "NDLEA dismantles suspected Nigerian - Mexican drug network , busts Meth Lab in Enugu",
+      "summary": "NDLEA dismantles suspected Nigerian - Mexican drug network, busts Meth Lab in Enugu",
       "sources": [
         "thechronicle.com.gh"
       ],
@@ -5164,7 +5147,7 @@
       "bucket": "25 septembre 2026",
       "score": 5,
       "category": "Géopolitique",
-      "summary": "Beyond negative stories on social media , Nigeria is open for business - Vice Prez Shettima",
+      "summary": "Beyond negative stories on social media, Nigeria is open for business - Vice Prez Shettima",
       "sources": [
         "thechronicle.com.gh"
       ],
@@ -5183,7 +5166,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Low awareness , stigma undermine Nigeria HIV prevention drive",
+      "summary": "Low awareness, stigma undermine Nigeria HIV prevention drive",
       "sources": [
         "thenationonlineng.net"
       ],
@@ -5240,7 +5223,7 @@
       "bucket": "25 septembre 2026",
       "score": 5,
       "category": "Sécurité",
-      "summary": "UNGA : Nigeria seeks whole - of - society approach , international partnerships to end insecurity",
+      "summary": "UNGA : Nigeria seeks whole - of - society approach, international partnerships to end insecurity",
       "sources": [
         "blueprint.ng"
       ],
@@ -5278,7 +5261,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "China holds Mid - Autumn festival , deepens cultural ties with Nigeria – Daily Trust",
+      "summary": "China holds Mid - Autumn festival, deepens cultural ties with Nigeria – Daily Trust",
       "sources": [
         "dailytrust.com"
       ],
@@ -5335,7 +5318,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Deploy your networks to advance Nigeria devt , FG urges Nigerians abroad – Daily Trust",
+      "summary": "Deploy your networks to advance Nigeria devt, FG urges Nigerians abroad – Daily Trust",
       "sources": [
         "dailytrust.com"
       ],
@@ -5354,7 +5337,7 @@
       "bucket": "25 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "King Jaja Challenge to Nigeria : Power , Defiance and Economic Self - Determination – THISDAYLIVE",
+      "summary": "King Jaja Challenge to Nigeria : Power, Defiance and Economic Self - Determination – THISDAYLIVE",
       "sources": [
         "thisdaylive.com"
       ],
@@ -5411,7 +5394,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "70 % Of Nigeria Food Farmers , Processors Are Women UN – :::… The Tide News Online :::…",
+      "summary": "70 % Of Nigeria Food Farmers, Processors Are Women UN – :::… The Tide News Online :::…",
       "sources": [
         "thetidenewsonline.com"
       ],
@@ -5449,7 +5432,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Utomi to FG : Restore critical institutions , credible polls , laws to rescue Nigeria",
+      "summary": "Utomi to FG : Restore critical institutions, credible polls, laws to rescue Nigeria",
       "sources": [
         "blueprint.ng"
       ],
@@ -5468,7 +5451,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Enugu meth lab : 2 Nigerians , Mexican cartel member docked",
+      "summary": "Enugu meth lab : 2 Nigerians, Mexican cartel member docked",
       "sources": [
         "thesun.ng"
       ],
@@ -5487,7 +5470,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Au Nigeria , le démantèlement de lUSAID a signifié moins de médicaments et plus de morts",
+      "summary": "Au Nigeria, le démantèlement de lUSAID a signifié moins de médicaments et plus de morts",
       "sources": [
         "courrierinternational.com"
       ],
@@ -5506,7 +5489,7 @@
       "bucket": "25 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Nigeria , US Sign Mining Pact to Unlock $700bn Mineral Wealth and Attract Investment",
+      "summary": "Nigeria, US Sign Mining Pact to Unlock $700bn Mineral Wealth and Attract Investment",
       "sources": [
         "tell.ng"
       ],
@@ -5565,7 +5548,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Nigerian pastors , imams and their sex sermon obsession",
+      "summary": "Nigerian pastors, imams and their sex sermon obsession",
       "sources": [
         "punchng.com"
       ],
@@ -5584,7 +5567,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Nigeria petrol exports surge sixfold , near N1tn",
+      "summary": "Nigeria petrol exports surge sixfold, near N1tn",
       "sources": [
         "punchng.com"
       ],
@@ -5622,7 +5605,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Von Panama auf sieben Länder : TempraMed baut Lateinamerika aus : sieben Länder , 470 Mio . Menschen – und die nächste Bestellung ist schon da | wallstreetONLINE",
+      "summary": "Von Panama auf sieben Länder : TempraMed baut Lateinamerika aus : sieben Länder, 470 Mio . Menschen – und die nächste Bestellung ist schon da | wallstreetONLINE",
       "sources": [
         "wallstreet-online.de",
         "finanznachrichten.de"
@@ -5642,7 +5625,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "$18 , 000 Per Kilo Generating More Than $3 Million in Sales at the Best of Panama Auction .",
+      "summary": "$18, 000 Per Kilo Generating More Than $3 Million in Sales at the Best of Panama Auction .",
       "sources": [
         "newsroompanama.com"
       ],
@@ -5671,12 +5654,10 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Asie"
+        "Amérique du Nord"
       ],
       "countries": [
-        "Panama",
-        "Inde"
+        "Panama"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -5701,7 +5682,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Nos mintió y caímos casi todos , dice Leite tras condena de Hernán Rivas - Última Hora | Noticias de Paraguay y el mundo , las 24 horas .",
+      "summary": "Nos mintió y caímos casi todos, dice Leite tras condena de Hernán Rivas - Última Hora | Noticias de Paraguay y el mundo, las 24 horas .",
       "sources": [
         "ultimahora.com"
       ],
@@ -5720,7 +5701,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "La CEP recuerda el derecho al voto y dice a candidatos que un cargo público no es privilegio - Última Hora | Noticias de Paraguay y el mundo , las 24 horas .",
+      "summary": "La CEP recuerda el derecho al voto y dice a candidatos que un cargo público no es privilegio - Última Hora | Noticias de Paraguay y el mundo, las 24 horas .",
       "sources": [
         "ultimahora.com"
       ],
@@ -5739,7 +5720,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Hernán Rivas es condenado a 8 años de cárcel por tener título falso : Un alumno fantasma - Última Hora | Noticias de Paraguay y el mundo , las 24 horas .",
+      "summary": "Hernán Rivas es condenado a 8 años de cárcel por tener título falso : Un alumno fantasma - Última Hora | Noticias de Paraguay y el mundo, las 24 horas .",
       "sources": [
         "ultimahora.com"
       ],
@@ -5758,7 +5739,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Daño institucional : Con estos argumentos jueces condenaron a Hernán Rivas - Última Hora | Noticias de Paraguay y el mundo , las 24 horas .",
+      "summary": "Daño institucional : Con estos argumentos jueces condenaron a Hernán Rivas - Última Hora | Noticias de Paraguay y el mundo, las 24 horas .",
       "sources": [
         "ultimahora.com"
       ],
@@ -5825,18 +5806,16 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Europe"
       ],
       "countries": [
-        "Portugal",
-        "Inde"
+        "Portugal"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Portugal , o tráfico de escravo e os pedidos de indemnizaes",
+      "summary": "Portugal, o tráfico de escravo e os pedidos de indemnizaes",
       "sources": [
         "observador.pt"
       ],
@@ -5855,7 +5834,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Vitória de Portugal , pressão sobre a economia e tensão no palco político",
+      "summary": "Vitória de Portugal, pressão sobre a economia e tensão no palco político",
       "sources": [
         "sapo.pt"
       ],
@@ -6031,7 +6010,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Lanzan 1 , 438 ferias médicas para atender a 156 mil familias en Nicaragua",
+      "summary": "Lanzan 1, 438 ferias médicas para atender a 156 mil familias en Nicaragua",
       "sources": [
         "nuevaya.com.ni"
       ],
@@ -6088,7 +6067,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Situata kritike në Jemen / Arabia Saudite , Turqia dhe Pakistani bisedime urgjente",
+      "summary": "Situata kritike në Jemen / Arabia Saudite, Turqia dhe Pakistani bisedime urgjente",
       "sources": [
         "abcnews.al"
       ],
@@ -6107,7 +6086,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Alarm në Arabinë Saudite pas sulmeve të Huthëve , Turqia dhe Pakistani në anën e Riadit",
+      "summary": "Alarm në Arabinë Saudite pas sulmeve të Huthëve, Turqia dhe Pakistani në anën e Riadit",
       "sources": [
         "top-channel.tv"
       ],
@@ -6145,7 +6124,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Suudi Arabistandan Türkiye ve Pakistana acil çağrı : Genelkurmay Başkanları toplansın , bize saldırıyorlar",
+      "summary": "Suudi Arabistandan Türkiye ve Pakistana acil çağrı : Genelkurmay Başkanları toplansın, bize saldırıyorlar",
       "sources": [
         "anlatilaninotesi.com.tr",
         "haberler.com"
@@ -6178,7 +6157,6 @@
         "Asie"
       ],
       "countries": [
-        "Liban",
         "Pakistan"
       ],
       "period": "day",
@@ -6223,7 +6201,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Husi saldırıları sonrası Mekke İttifakı devrede : Türkiye , Suudi Arabistan ve Pakistan genelkurmay başkanları toplanacak",
+      "summary": "Husi saldırıları sonrası Mekke İttifakı devrede : Türkiye, Suudi Arabistan ve Pakistan genelkurmay başkanları toplanacak",
       "sources": [
         "t24.com.tr"
       ],
@@ -6236,7 +6214,6 @@
         "Asie"
       ],
       "countries": [
-        "Liban",
         "Pakistan"
       ],
       "period": "day",
@@ -6262,7 +6239,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Pumping life into Mecca Pact ? Saudi , Turkey , Pakistan plan urgent meet as Houthis step up attacks",
+      "summary": "Pumping life into Mecca Pact ? Saudi, Turkey, Pakistan plan urgent meet as Houthis step up attacks",
       "sources": [
         "timesofindia.indiatimes.com"
       ],
@@ -6300,7 +6277,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Lahore , Pakistan : cosa vedere , meteo e inquinamento",
+      "summary": "Lahore, Pakistan : cosa vedere, meteo e inquinamento",
       "sources": [
         "viaggi.corriere.it"
       ],
@@ -6319,7 +6296,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Économie",
-      "summary": "PM reiterates Pakistan attachment to purposes , principles of UN Charter",
+      "summary": "PM reiterates Pakistan attachment to purposes, principles of UN Charter",
       "sources": [
         "radio.gov.pk"
       ],
@@ -6339,7 +6316,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Il Pakistan bombarda 10 siti in Afghanistan , Kabul promette una « risposta appropriata »: nuovi scontri al confine",
+      "summary": "Il Pakistan bombarda 10 siti in Afghanistan, Kabul promette una « risposta appropriata »: nuovi scontri al confine",
       "sources": [
         "notiziegeopolitiche.net"
       ],
@@ -6398,7 +6375,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Pakistan , KSA & Turkiye review progress towards establishing institutional structures",
+      "summary": "Pakistan, KSA & Turkiye review progress towards establishing institutional structures",
       "sources": [
         "radio.gov.pk"
       ],
@@ -6438,7 +6415,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Politique",
-      "summary": "Iranian president , Pakistani PM discuss bilateral ties , regional developments",
+      "summary": "Iranian president, Pakistani PM discuss bilateral ties, regional developments",
       "sources": [
         "news.az"
       ],
@@ -6515,7 +6492,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Politique",
-      "summary": "Pakistan PM , Iran president reaffirm closer ties , call for regional peace",
+      "summary": "Pakistan PM, Iran president reaffirm closer ties, call for regional peace",
       "sources": [
         "bignewsnetwork.com"
       ],
@@ -6525,19 +6502,16 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Asie"
+        "Amérique du Nord"
       ],
       "countries": [
-        "République dominicaine",
-        "Liban",
-        "Pakistan"
+        "République dominicaine"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 6,
       "category": "Sécurité",
-      "summary": "Pakistani forces kill Afghan Taliban fighters in border escalation - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "summary": "Pakistani forces kill Afghan Taliban fighters in border escalation - Dominican Republic Post – Caribbean News, Business, Travel & Culture",
       "sources": [
         "dominicanrepublicpost.com"
       ],
@@ -6594,7 +6568,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Pakistan , Saudi Arabia , Turkiye plan urgent chiefs of staff meeting amid Houthi attacks",
+      "summary": "Pakistan, Saudi Arabia, Turkiye plan urgent chiefs of staff meeting amid Houthi attacks",
       "sources": [
         "pakobserver.net"
       ],
@@ -6613,7 +6587,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Pakistan progress hinges on educated , healthy youth : Ahsan",
+      "summary": "Pakistan progress hinges on educated, healthy youth : Ahsan",
       "sources": [
         "pakobserver.net"
       ],
@@ -6689,7 +6663,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Saudija , Turska i Pakistan hitno reagiraju : Nakon napada Huta sprema se važan sastanak",
+      "summary": "Saudija, Turska i Pakistan hitno reagiraju : Nakon napada Huta sprema se važan sastanak",
       "sources": [
         "avaz.ba"
       ],
@@ -6727,7 +6701,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Sécurité",
-      "summary": "Makkah pact : Pakistani , Turkish , Saudi FMs discuss security issues on UNGA sidelines",
+      "summary": "Makkah pact : Pakistani, Turkish, Saudi FMs discuss security issues on UNGA sidelines",
       "sources": [
         "geo.tv"
       ],
@@ -6874,12 +6848,10 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "Afrique"
+        "Amérique du Sud"
       ],
       "countries": [
-        "Pérou",
-        "Maroc"
+        "Pérou"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6961,7 +6933,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Iran News in Brief – September 25 , 2026",
+      "summary": "Iran News in Brief – September 25, 2026",
       "sources": [
         "ncr-iran.org"
       ],
@@ -7018,7 +6990,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Análisis | Guatemala – Estados Unidos : fiscales , seguridad y el tablero electoral de 2027",
+      "summary": "Análisis | Guatemala – Estados Unidos : fiscales, seguridad y el tablero electoral de 2027",
       "sources": [
         "canalantigua.tv"
       ],
@@ -7066,12 +7038,10 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Afrique"
       ],
       "countries": [
-        "Éthiopie",
-        "Inde"
+        "Éthiopie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -7096,7 +7066,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Plagosja me armë e Daniel Pikulit , identifikohen autorët , shpallen në kërkim babë e bir",
+      "summary": "Plagosja me armë e Daniel Pikulit, identifikohen autorët, shpallen në kërkim babë e bir",
       "sources": [
         "botasot.info"
       ],
@@ -7166,7 +7136,6 @@
         "Asie"
       ],
       "countries": [
-        "Arabie saoudite",
         "Bahreïn"
       ],
       "period": "day",
@@ -7230,7 +7199,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Mali i Zi vendos viza për shtetasit nga Rusia , Bjellorusia dhe Turqia",
+      "summary": "Mali i Zi vendos viza për shtetasit nga Rusia, Bjellorusia dhe Turqia",
       "sources": [
         "botasot.info"
       ],
@@ -7268,7 +7237,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Visite de Léon XIV en France : heure par heure , voici le programme complet du pape jusqu à son départ lundi soir",
+      "summary": "Visite de Léon XIV en France : heure par heure, voici le programme complet du pape jusqu à son départ lundi soir",
       "sources": [
         "sudouest.fr"
       ],
@@ -7306,7 +7275,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Avro Bölgesinde şirket kredilerinin büyümesi ağustosta yüzde 4 , 2 ye geriledi",
+      "summary": "Avro Bölgesinde şirket kredilerinin büyümesi ağustosta yüzde 4, 2 ye geriledi",
       "sources": [
         "haberler.com"
       ],
@@ -7382,7 +7351,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Mersinde botoks yaptıran 3 kadın hastanelik oldu – Güncel Haberler , Son Dakika Haberleri , Turktime Haber Portalı",
+      "summary": "Mersinde botoks yaptıran 3 kadın hastanelik oldu – Güncel Haberler, Son Dakika Haberleri, Turktime Haber Portalı",
       "sources": [
         "turktime.com"
       ],
@@ -7661,8 +7630,7 @@
         "Afrique"
       ],
       "countries": [
-        "Côte d’Ivoire",
-        "Soudan"
+        "Côte d’Ivoire"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -7779,8 +7747,7 @@
         "Asie"
       ],
       "countries": [
-        "Chine",
-        "Japon"
+        "Chine"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -7807,7 +7774,7 @@
       "bucket": "26 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Commerce: les Etats-Unis et la Chine se sont donné du temps, mais l'heure tourne",
+      "summary": "Commerce: les États-Unis et la Chine se sont donné du temps, mais l'heure tourne",
       "sources": [
         "France 24 (média public)"
       ],
@@ -7826,7 +7793,6 @@
         "Turkménistan",
         "Azerbaïdjan",
         "Irak",
-        "Iran",
         "Oman",
         "Émirats arabes unis",
         "États-Unis"
@@ -7952,7 +7918,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "L’Iran a soumis aux Etats-Unis un plan de réouverture du détroit d’Ormuz en sept jours",
+      "summary": "L’Iran a soumis aux États-Unis un plan de réouverture du détroit d’Ormuz en sept jours",
       "sources": [
         "Le Monde.fr"
       ],
@@ -8041,8 +8007,7 @@
         "Asie"
       ],
       "countries": [
-        "Palestine",
-        "Jordanie"
+        "Palestine"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -8139,8 +8104,7 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Haïti",
-        "Dominique"
+        "Haïti"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -8176,11 +8140,10 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Asie"
       ],
       "countries": [
-        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -9002,7 +8965,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "🌍 La nature pourrait elle - même réchauffer la planète , et pas quun peu - Actualités",
+      "summary": "🌍 La nature pourrait elle - même réchauffer la planète, et pas quun peu - Actualités",
       "sources": [
         "techno-science.net"
       ],
@@ -9258,7 +9221,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Je nai jamais pris de vacances : à Massignac , Stéphanie Crouton solde la caisse de son épicerie et passe le relais",
+      "summary": "Je nai jamais pris de vacances : à Massignac, Stéphanie Crouton solde la caisse de son épicerie et passe le relais",
       "sources": [
         "charentelibre.fr"
       ],
@@ -11171,7 +11134,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Classée parmi les Plus Beaux Villages de France , cette cité médiévale est lun des joyaux de la Vienne",
+      "summary": "Classée parmi les Plus Beaux Villages de France, cette cité médiévale est lun des joyaux de la Vienne",
       "sources": [
         "notretemps.com"
       ],
@@ -11513,7 +11476,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Visite du pape en France : annoncer la paix , les premiers mots de Léon XIV dans lavion",
+      "summary": "Visite du pape en France : annoncer la paix, les premiers mots de Léon XIV dans lavion",
       "sources": [
         "la-croix.com"
       ],
@@ -12789,7 +12752,6 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Indonésie",
         "Singapour"
       ]
     },
@@ -12941,7 +12903,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Aux Etats-Unis, l'opinion publique sur la Chine s'améliore",
+      "summary": "Aux États-Unis, l'opinion publique sur la Chine s'améliore",
       "sources": [
         "sxdaily.com.cn"
       ],
@@ -13213,7 +13175,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "77ème anniversaire de la fondation de la RPC , célébré à Colombo ( Photos )",
+      "summary": "77ème anniversaire de la fondation de la RPC, célébré à Colombo ( Photos )",
       "sources": [
         "srilankamirror.com"
       ],
@@ -13484,7 +13446,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le président Donald Trump (États-Unis) -le président Xi Jinping (Chine), dîner d'État à la Maison Blanche. Donald : \"Les relations n'ont jamais été aussi bonnes.\" Le président chinois : « Nouveau modèle de coexistence avec les Etats-Unis »",
+      "summary": "Le président Donald Trump (États-Unis) -le président Xi Jinping (Chine), dîner d'État à la Maison Blanche. Donald : \"Les relations n'ont jamais été aussi bonnes.\" Le président chinois : « Nouveau modèle de coexistence avec les États-Unis »",
       "sources": [
         "ilgazzettino.it"
       ],
@@ -13575,7 +13537,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "L'Iran propose un plan de 7 jours aux Etats-Unis / Voici les conditions de réouverture du détroit d'Ormuz",
+      "summary": "L'Iran propose un plan de 7 jours aux États-Unis / Voici les conditions de réouverture du détroit d'Ormuz",
       "sources": [
         "botasot.info"
       ],
@@ -13942,7 +13904,7 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le Népal cherche des subventions , et non des prêts , pour se remettre des inondations après la catastrophe meurtrière des glaciers",
+      "summary": "Le Népal cherche des subventions, et non des prêts, pour se remettre des inondations après la catastrophe meurtrière des glaciers",
       "sources": [
         "asiaone.com"
       ],
@@ -14228,15 +14190,14 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "countries": [
         "France"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Marches pour le climat : des milliers de manifestants partout en France après un été de tous les records",
       "sources": [
@@ -14385,7 +14346,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "La Chine envoie deux pandas géants aux Etats-Unis dans un nouveau geste diplomatique",
+      "summary": "La Chine envoie deux pandas géants aux États-Unis dans un nouveau geste diplomatique",
       "sources": [
         "Le Monde.fr"
       ],
@@ -14417,14 +14378,13 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Haïti",
         "États-Unis"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Aux Etats-Unis, les Haïtiens pourchassés par les agents de l’ICE : « Plus personne ne sort, les rues et les églises sont désertes, les gens ont peur d’être arrêtés »",
+      "summary": "Aux États-Unis, les Haïtiens pourchassés par les agents de l’ICE : « Plus personne ne sort, les rues et les églises sont désertes, les gens ont peur d’être arrêtés »",
       "sources": [
         "Le Monde.fr"
       ],
@@ -14449,8 +14409,7 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Palestine",
-        "Jordanie"
+        "Palestine"
       ]
     },
     {
@@ -14972,7 +14931,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "En direct Religion . Visite du pape : Léon XIV devant la Conférence des évêques de France , avant un nouveau bain de foule",
+      "summary": "En direct Religion . Visite du pape : Léon XIV devant la Conférence des évêques de France, avant un nouveau bain de foule",
       "sources": [
         "republicain-lorrain.fr"
       ],
@@ -15561,7 +15520,7 @@
       "bucket": "27 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Lacteur japonais Kenjiro Tsuda , star de Yu - Gi - Oh !, attaque TikTok en justice , accusant le réseau social de cloner sa voix avec une IA",
+      "summary": "Lacteur japonais Kenjiro Tsuda, star de Yu - Gi - Oh !, attaque TikTok en justice, accusant le réseau social de cloner sa voix avec une IA",
       "sources": [
         "bfmtv.com"
       ],
@@ -15858,7 +15817,7 @@
       "bucket": "27 septembre 2026",
       "score": 6,
       "category": "Économie",
-      "summary": "Sur le budget , Olivier Faure agite la menace de la censure après à la main tendue de Sébastien Lecornu",
+      "summary": "Sur le budget, Olivier Faure agite la menace de la censure après à la main tendue de Sébastien Lecornu",
       "sources": [
         "huffingtonpost.fr"
       ],
@@ -15890,7 +15849,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Burqa , classes - ghettos , « fuite des Blancs » : l école italienne face à limmigration",
+      "summary": "Burqa, classes - ghettos, « fuite des Blancs » : l école italienne face à limmigration",
       "sources": [
         "lejdd.fr"
       ],
@@ -15981,7 +15940,7 @@
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Guerre en Ukraine : Lyman , un succès mais pas un tournant décisif pour Kiev",
+      "summary": "Guerre en Ukraine : Lyman, un succès mais pas un tournant décisif pour Kiev",
       "sources": [
         "lejdd.fr"
       ],
@@ -16024,8 +15983,7 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
-        "Vietnam"
+        "Inde"
       ]
     },
     {
@@ -16065,14 +16023,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Avec TotalEnergies , les affaires reprennent entre la France et lAzerbaïdjan - Nouvelles dArménie en Ligne – Toute lactualité sur le monde arménien",
+      "summary": "Avec TotalEnergies, les affaires reprennent entre la France et lAzerbaïdjan - Nouvelles dArménie en Ligne – Toute lactualité sur le monde arménien",
       "sources": [
         "armenews.com"
       ],
@@ -16080,8 +16037,6 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Arménie",
-        "Azerbaïdjan",
         "France"
       ]
     },
@@ -16375,7 +16330,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Pumpkin spice latte , plaid réconfortant et Gilmore Girls : comment lautomne est devenu la saison chouchou des réseaux sociaux",
+      "summary": "Pumpkin spice latte, plaid réconfortant et Gilmore Girls : comment lautomne est devenu la saison chouchou des réseaux sociaux",
       "sources": [
         "bfmtv.com"
       ],
@@ -16673,7 +16628,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Élections sénatoriales : un suffrage mal connu , mais crucial",
+      "summary": "Élections sénatoriales : un suffrage mal connu, mais crucial",
       "sources": [
         "radiofrance.fr"
       ],
@@ -16738,15 +16693,14 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "countries": [
         "France"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "\"J'ai peur pour mes enfants\": des marches pour le climat partout en France",
       "sources": [
@@ -17045,8 +16999,7 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
-        "Liban"
+        "Israël"
       ]
     },
     {
@@ -17089,7 +17042,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "À Lourdes , Léon XIV face aux victimes de violences sexuelles dans l Église",
+      "summary": "À Lourdes, Léon XIV face aux victimes de violences sexuelles dans l Église",
       "sources": [
         "fr.le360.ma"
       ],
@@ -17099,7 +17052,6 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -17114,7 +17066,6 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
         "États-Unis"
       ]
     },
@@ -17196,7 +17147,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "ENTRETIEN . Aujourdhui , je galère : leader français des fléchettes , Thibault Tricole vit une mauvaise passe",
+      "summary": "ENTRETIEN . Aujourdhui, je galère : leader français des fléchettes, Thibault Tricole vit une mauvaise passe",
       "sources": [
         "brignoles.maville.com"
       ],
@@ -17522,7 +17473,7 @@
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Guerre en Ukraine . Cinq morts dans des nouvelles frappes russes , Kiev attaquée « sans relâche »",
+      "summary": "Guerre en Ukraine . Cinq morts dans des nouvelles frappes russes, Kiev attaquée « sans relâche »",
       "sources": [
         "republicain-lorrain.fr"
       ],
@@ -18147,7 +18098,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "On veut y insuffler de la magie : en Bretagne , ils destinent leur jardin remarquable à une profonde renaissance",
+      "summary": "On veut y insuffler de la magie : en Bretagne, ils destinent leur jardin remarquable à une profonde renaissance",
       "sources": [
         "saint-brieuc.maville.com"
       ],
@@ -18472,7 +18423,7 @@
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Guerre en Ukraine : la Russie accuse lEurope de tout faire pour contrecarrer les plans de paix mais ses objectifs seront atteints , peu importe les circonstances",
+      "summary": "Guerre en Ukraine : la Russie accuse lEurope de tout faire pour contrecarrer les plans de paix mais ses objectifs seront atteints, peu importe les circonstances",
       "sources": [
         "sudouest.fr"
       ],
@@ -18518,7 +18469,6 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -18533,7 +18483,6 @@
       "published_at": "2026-09-27T13:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
         "États-Unis"
       ]
     },
@@ -19126,7 +19075,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "A Kiev , Moscou cible aussi le panier de courses",
+      "summary": "A Kiev, Moscou cible aussi le panier de courses",
       "sources": [
         "linternaute.com"
       ],
@@ -19357,8 +19306,7 @@
       ],
       "countries": [
         "Palestine",
-        "Israël",
-        "Jordanie"
+        "Israël"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -19989,8 +19937,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Nord",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -20005,7 +19953,6 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
         "États-Unis"
       ]
     },
@@ -20061,8 +20008,7 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Palestine",
-        "Jordanie"
+        "Palestine"
       ]
     },
     {
@@ -20081,8 +20027,7 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Afghanistan",
-        "Pakistan"
+        "Afghanistan"
       ]
     },
     {
@@ -20187,8 +20132,7 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Palestine",
-        "Jordanie"
+        "Palestine"
       ]
     },
     {
@@ -20968,7 +20912,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Élie Semoun devenu père pour la seconde fois après 60 ans , il ironise sur son écart d âge avec son fils : Jespère vivre assez longtemps pour …",
+      "summary": "Élie Semoun devenu père pour la seconde fois après 60 ans, il ironise sur son écart d âge avec son fils : Jespère vivre assez longtemps pour …",
       "sources": [
         "femmeactuelle.fr"
       ],
@@ -21794,7 +21738,6 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie"
       ],
       "period": "day",
@@ -21809,7 +21752,6 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Italie",
         "Turquie"
       ]
     },
@@ -23211,7 +23153,6 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
         "Europe",
         "International"
       ],
@@ -23229,7 +23170,6 @@
       "origin": "rss",
       "countries": [
         "Corée du Sud",
-        "Dominique",
         "Ukraine"
       ]
     },
@@ -23618,7 +23558,6 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie"
       ],
       "period": "day",
@@ -23633,7 +23572,6 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Italie",
         "Turquie"
       ]
     },
@@ -24137,7 +24075,6 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -24152,7 +24089,6 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
         "États-Unis"
       ]
     },
@@ -24436,7 +24372,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Les survivants des abus du clergé français louent leur rencontre avec le pape Léon XIV , disent qu'il a écouté et a été informé",
+      "summary": "Les survivants des abus du clergé français louent leur rencontre avec le pape Léon XIV, disent qu'il a écouté et a été informé",
       "sources": [
         "hindustantimes.com"
       ],
@@ -24483,7 +24419,6 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie"
       ],
       "period": "day",
@@ -24498,7 +24433,6 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Ouganda",
         "Émirats arabes unis"
       ]
     },
@@ -25145,7 +25079,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "On a revu la première saison de X - Files , sur M6+ , série culte au complotisme cool",
+      "summary": "On a revu la première saison de X - Files, sur M6+, série culte au complotisme cool",
       "sources": [
         "telerama.fr"
       ],
@@ -25257,7 +25191,6 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe"
       ],
       "period": "day",
@@ -25272,7 +25205,6 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
         "Royaume-Uni"
       ]
     },
@@ -25560,7 +25492,6 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -25575,7 +25506,6 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
         "États-Unis"
       ]
     },
@@ -25610,7 +25540,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "En Arabie saoudite , les troupes rappelées à leur devoir face aux houthistes",
+      "summary": "En Arabie saoudite, les troupes rappelées à leur devoir face aux houthistes",
       "sources": [
         "la-croix.com"
       ],
@@ -25838,8 +25768,7 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Palestine",
-        "Jordanie"
+        "Palestine"
       ]
     },
     {
@@ -25920,7 +25849,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le conflit approche, la base de la RAF utilisée par les Etats-Unis est dans la ligne de mire",
+      "summary": "Le conflit approche, la base de la RAF utilisée par les États-Unis est dans la ligne de mire",
       "sources": [
         "editorialedomani.it"
       ],
@@ -26556,7 +26485,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "150 000 mots , aucune garantie : la révolution des taux d' intérêt de Bullock à enjeux élevés",
+      "summary": "150 000 mots, aucune garantie : la révolution des taux d' intérêt de Bullock à enjeux élevés",
       "sources": [
         "smh.com.au"
       ],
@@ -26828,7 +26757,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "La façon dont il a dominé , c'était formidable à voir : l' entraîneur de l' enfance de Kohli réagit aux jalons des 139 et 15 000 courses",
+      "summary": "La façon dont il a dominé, c'était formidable à voir : l' entraîneur de l' enfance de Kohli réagit aux jalons des 139 et 15 000 courses",
       "sources": [
         "indiagazette.com"
       ],
@@ -27450,7 +27379,7 @@
       "bucket": "29 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "L’armée malienne et les paramilitaires russes ont commis des crimes de guerre contre 34 civils , selon Amnesty. Des meurtres, tortures et exécutions ont été documentés entre 2023 et 2025 dans sept localités du centre et du nord du pays. Les victimes appartenaient principalement aux communautés peules, arabes et touareg",
+      "summary": "L’armée malienne et les paramilitaires russes ont commis des crimes de guerre contre 34 civils, selon Amnesty. Des meurtres, tortures et exécutions ont été documentés entre 2023 et 2025 dans sept localités du centre et du nord du pays. Les victimes appartenaient principalement aux communautés peules, arabes et touareg",
       "sources": [
         "letemps.ch"
       ],
@@ -27493,7 +27422,7 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Manifestation à Dijon (France) : Du fric pour lhôpital , pas pour les Rafales ... Du fric pour la Sécu , pas pour les obus !. Plusieurs centaines de personnes défilent dans les rues de Dijon, ce mardi 29 septembre. Les fonctionnaires réclament plus de moyens pour leurs métiers, et demandent au gouvernement de revoir ses priorités",
+      "summary": "Manifestation à Dijon (France) : Du fric pour lhôpital, pas pour les Rafales ... Du fric pour la Sécu, pas pour les obus !. Plusieurs centaines de personnes défilent dans les rues de Dijon, ce mardi 29 septembre. Les fonctionnaires réclament plus de moyens pour leurs métiers, et demandent au gouvernement de revoir ses priorités",
       "sources": [
         "ici.fr"
       ],
@@ -27612,7 +27541,7 @@
       "bucket": "29 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "La Russie n’a pas reçu de signaux encourageants de la part des États-Unis concernant les propriétés diplomatiques le ministre russe des Affaires étrangères Sergueï Lavrov (Russie). Le chef de la diplomatie russe a souligné que dans les relations entre Moscou et Washington, de nombreux problèmes se sont accumulés sur divers sujets, notamment la restitution des propriétés diplomatiques. \"Et sur ce sujet, de la part des Américains, déjà sous l'administration du président Donald Trump (États-Unis), nous n'entendons aucun commentaire encourageant\" - a déclaré Lavrov",
+      "summary": "Le ministre russe des Affaires étrangères Sergueï Lavrov (Russie) affirme que la Russie n’a pas reçu de signaux encourageants des États-Unis concernant les propriétés diplomatiques. Le chef de la diplomatie russe a souligné que dans les relations entre Moscou et Washington, de nombreux problèmes se sont accumulés sur divers sujets, notamment la restitution des propriétés diplomatiques. \"Et sur ce sujet, de la part des Américains, déjà sous l'administration du président Donald Trump (États-Unis), nous n'entendons aucun commentaire encourageant\" - a déclaré Lavrov",
       "sources": [
         "rador.ro"
       ],
@@ -27884,8 +27813,7 @@
       "content_enriched": true,
       "countries": [
         "Irak",
-        "Iran",
-        "Oman"
+        "Iran"
       ]
     },
     {
@@ -27963,7 +27891,7 @@
       "bucket": "29 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Les exportations de pétrole du Moyen - Orient reprennent et l’emprise de l’Iran sur le détroit d’Ormuz faiblit. DUBAI — La capacité de l’Iran à bloquer le transport de pétrole par le détroit d’Ormuz , et à s’en servir comme moyen de pression dans ses négociations avec les Etats-Unis, s’effrite, laissant craindre que Téhéran ne recoure à des solutions militaires pour renforcer sa position. L’affaiblissement du rapport de force de l’Iran s’explique par le fait que la marine américaine et les producteurs de pétrole du Golfe sont désormais plus à même de repousser ou d’esquiver les attaques iraniennes, ce qui permet à davantage de pétroliers de traverser le détroit",
+      "summary": "Les exportations de pétrole du Moyen-Orient reprennent et l’emprise de l’Iran sur le détroit d’Ormuz faiblit. DUBAI (Émirats arabes unis) — La capacité de l’Iran à bloquer le transport de pétrole par le détroit d’Ormuz, et à s’en servir comme moyen de pression dans ses négociations avec les États-Unis, s’effrite, laissant craindre que Téhéran ne recoure à des solutions militaires pour renforcer sa position. L’affaiblissement du rapport de force de l’Iran s’explique par le fait que la marine américaine et les producteurs de pétrole du Golfe sont désormais plus à même de repousser ou d’esquiver les attaques iraniennes, ce qui permet à davantage de pétroliers de traverser le détroit",
       "sources": [
         "lopinion.fr"
       ],
@@ -27973,6 +27901,7 @@
       "content_enriched": true,
       "countries": [
         "Iran",
+        "Émirats arabes unis",
         "États-Unis"
       ]
     },
@@ -28014,7 +27943,6 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
         "Inde"
       ]
     },
@@ -28373,15 +28301,14 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "countries": [
         "France"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "France : « Les marches pour le climat et la justice sociale doivent être aussi antiracistes et anticoloniales ».",
       "sources": [
@@ -28403,7 +28330,7 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Dette , fiscalité , banques publiques : Avis croisés sur les équilibres pour financer les services essentiels au Sénégal. Comment financer les services essentiels sans plomber les finances publiques ni sacrifier la justice fiscale ? Cette question a réuni économistes, politologues et société civile lors du Dialogue d...",
+      "summary": "Dette, fiscalité, banques publiques : Avis croisés sur les équilibres pour financer les services essentiels au Sénégal. Comment financer les services essentiels sans plomber les finances publiques ni sacrifier la justice fiscale ? Cette question a réuni économistes, politologues et société civile lors du Dialogue d...",
       "sources": [
         "dakaractu.com"
       ],
@@ -28517,15 +28444,14 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Azerbaïdjan"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 8,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le prix du pétrole azerbaïdjanais recule sur les bourses.",
       "sources": [
@@ -28547,7 +28473,7 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Social . « La France privilégie certains lycées » : dans une manifestation , les élèves expliquent leur ras - le - bol. À Chelles, en Seine-et-Marne, une centaine d’élèves se sont rassemblés mardi devant le lycée Jehan pour dénoncer « des conditions d’apprentissage difficiles ».",
+      "summary": "Social . « La France privilégie certains lycées » : dans une manifestation, les élèves expliquent leur ras - le - bol. À Chelles, en Seine-et-Marne, une centaine d’élèves se sont rassemblés mardi devant le lycée Jehan pour dénoncer « des conditions d’apprentissage difficiles ».",
       "sources": [
         "dna.fr"
       ],
@@ -28599,14 +28525,10 @@
     {
       "regions": [
         "Amérique du Nord",
-        "Amérique du Sud",
-        "Europe",
         "International"
       ],
       "countries": [
-        "Canada",
-        "Colombie",
-        "Royaume-Uni"
+        "Canada"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28682,7 +28604,7 @@
       "bucket": "29 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "L'Iran menace de nouvelles frappes, dans l'attente d'une réponse américaine à son plan pour Ormuz. L'Iran s'attend à recevoir mardi une réponse officielle des Etats-Unis aux conditions qu'il a posées pour rouvrir le détroit d'Ormuz, principal point d'achoppement dans la guerre au Moyen-Orient, ...",
+      "summary": "L'Iran menace de nouvelles frappes, dans l'attente d'une réponse américaine à son plan pour Ormuz. L'Iran s'attend à recevoir mardi une réponse officielle des États-Unis aux conditions qu'il a posées pour rouvrir le détroit d'Ormuz, principal point d'achoppement dans la guerre au Moyen-Orient, ...",
       "sources": [
         "France 24 (média public)"
       ],
@@ -29387,12 +29309,10 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Nord",
         "International"
       ],
       "countries": [
-        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -29476,7 +29396,6 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Cuba",
         "États-Unis"
       ],
       "period": "day",
@@ -29494,11 +29413,9 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Europe"
       ],
       "countries": [
-        "Dominique",
         "France"
       ],
       "period": "day",
@@ -29516,12 +29433,10 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Europe",
         "International"
       ],
       "countries": [
-        "Grenade",
         "Ukraine"
       ],
       "period": "day",
@@ -29581,8 +29496,8 @@
     },
     {
       "regions": [
-        "International",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -29658,7 +29573,6 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -29667,14 +29581,14 @@
       "category": "Géopolitique",
       "summary": "Les États-Unis ciblent la chaîne d’approvisionnement militaire iranienne alors que l’état des négociations diplomatiques reste incertain. Les États-Unis ont ciblé mardi des personnes et des entreprises du monde entier qu’ils ont accusées d’être des facilitateurs financiers ou des facilitateurs de la chaîne d’approvisionnement militaire iranienne, alors que l’administration du président Donald Trump (États-Unis) le pousse…",
       "sources": [
-        "Boston Herald"
+        "Boston Herald",
+        "Orange County Register"
       ],
       "url": "https://www.bostonherald.com/2026/09/29/us-iran-sanctions-supply-chain/",
       "published_at": "2026-09-29T12:39:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "États-Unis"
       ]
     },
@@ -29877,6 +29791,296 @@
       "url": "https://www.20minutes.fr/monde/maroc/4249882-20260929-maroc-fatima-ezzahra-el-mansouri-toute-premiere-femme-diriger-gouvernement",
       "published_at": "2026-09-29T13:12:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Andy Burnham est déterminé à prouver que John Swinney avait tort en prétendant qu'il serait le dernier Premier ministre du Royaume-Uni.",
+      "sources": [
+        "Daily Mail"
+      ],
+      "url": "https://www.dailymail.com/news/article-16170425/Andy-Burnham-determined-prove-John-Swinney-wrong-claim-Prime-Minister-UK.html",
+      "published_at": "2026-09-29T12:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'extrême droite allemande vise à diriger le gouvernement de Saxe-Anhalt en décembre. Le leader de l'AfD dans le Land de Saxe-Anhalt, dans l'est de l'Allemagne, a déclaré mardi qu'il espérait devenir premier ministre du Land en décembre après la victoire écrasante du parti au début du mois.",
+      "sources": [
+        "Agence France-Presse via MSN"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/german-far-right-aims-to-lead-saxony-anhalt-govt-in-december/ar-AA2ddpAU",
+      "published_at": "2026-09-29T12:50:09+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les retraités mettent en scène Dharna pour la restauration de l'OPS. Les retraités du gouvernement ont organisé un dharna à Anantapur pour exiger le rétablissement de l'ancien régime de retraite et la protection des droits à la retraite.",
+      "sources": [
+        "Deccan Chronicle"
+      ],
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/pensioners-stage-dharna-for-restoration-of-ops-1991727",
+      "published_at": "2026-09-29T12:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Sitharaman discute de l'expansion du BIT, de l'ALE et de l'UPI avec le Qatar lors de sa visite à Doha. Le ministre des Finances discute de l'engagement d'investissement de 10 milliards de dollars du Qatar, des négociations proposées sur les TBI et les ALE, tout en cherchant une adoption plus large du système de paiement indien UPI...",
+      "sources": [
+        "Business Standard"
+      ],
+      "url": "https://www.business-standard.com/india-news/sitharaman-discusses-bit-fta-upi-expansion-with-qatar-during-doha-visit-126092901505_1.html",
+      "published_at": "2026-09-29T12:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Qatar"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les troupes américaines quittent l’Irak après 12 ans alors que la guerre en Iran remodèle la sécurité régionale. Le Pentagone achève le retrait de ses troupes dans le cadre d'un accord avec Bagdad prévu pour 2024, mais cette décision risque de laisser les alliés kurdes vulnérables aux attaques tout en cédant potentiellement du terrain à ceux de Téhéran ...",
+      "sources": [
+        "Al-Monitor"
+      ],
+      "url": "https://www.al-monitor.com/originals/2026/09/us-troops-exit-iraq-after-12-years-iran-war-reshapes-regional-security",
+      "published_at": "2026-09-29T12:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Détroit d'Ormuz : l'Iran dit attendre une réponse des États-Unis sur son plan. Téhéran espère obtenir mardi une réponse officielle de Washington concernant ses propositions sur la réouverture du détroit d'Ormuz. L'Iran exige notamment un cessez-le-feu de sept jours dans tout ...",
+      "sources": [
+        "France 24 (média public)"
+      ],
+      "url": "https://www.france24.com/fr/moyen-orient/20260929-detroit-ormuz-iran-dit-attendre-reponse-des-etats-unis-sur-son-plan-sanctions",
+      "published_at": "2026-09-29T03:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Petrobras annonce un 2ème contrat en moins d'un mois pour acheter du gaz aux USA. Quinze jours après avoir annoncé un accord similaire avec une autre entreprise nord-américaine, Petrobras a annoncé, ce mardi (29/9), avoir signé un nouveau contrat avec Cheniere Marketing, LLC, le principal...",
+      "sources": [
+        "Metrópoles"
+      ],
+      "url": "https://www.metropoles.com/brasil/petrobras-anuncia-2o-contrato-em-menos-de-um-mes-para-compra-de-gas-dos-eua",
+      "published_at": "2026-09-29T10:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "En cage : le Brésil crée 165 800 postes vacants officiels en août, au-dessus des attentes. Le marché du travail brésilien a créé 165.827 emplois formels en août, selon les données du Registre général des salariés et des chômeurs...",
+      "sources": [
+        "Money Times"
+      ],
+      "url": "https://www.moneytimes.com.br/caged-brasil-cria-1658-mil-vagas-formais-em-agosto-acima-das-expectativas/",
+      "published_at": "2026-09-29T09:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Cheniere signe un accord de fourniture de GNL de 22 ans avec Petrobras. L'exportateur américain de GNL Cheniere Energy a déclaré mardi que son unité de commercialisation avait conclu un accord de vente et d'achat de gaz naturel liquéfié à long terme avec Petrobras pour 22 ans.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/business/energy/cheniere-signs-22-year-lng-supply-deal-with-petrobras-2026-09-29/",
+      "published_at": "2026-09-29T08:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’Argentin Milei déclare la guerre au pétrole des Malouines avec un étrange ultimatum de deux semaines. L'Argentine a donné deux semaines à la Grande-Bretagne pour mettre fin aux forages pétroliers prévus au large des îles Falkland, aggravant ainsi son conflit de souveraineté de longue date avec le Royaume-Uni et menaçant de poursuites judiciaires en vertu de ...",
+      "sources": [
+        "LondonLovesBusiness"
+      ],
+      "url": "https://londonlovesbusiness.com/argentinas-milei-declares-war-on-falklands-oil-with-bizarre-two-week-ultimatum/",
+      "published_at": "2026-09-29T05:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Maroc : Fatima Ezzahra El Mansouri nommée cheffe du gouvernement par le Roi Mohammed VI.",
+      "sources": [
+        "financialafrik.com"
+      ],
+      "url": "https://www.financialafrik.com/2026/09/29/maroc-fatima-ezzahra-el-mansouri-nommee-cheffe-du-gouvernement-par-le-roi-mohammed-vi/",
+      "published_at": "2026-09-29T20:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Sites Web officiels du gouvernement des États-Unis pour faire campagne en faveur de la mesure électorale de Lula. Il existe également des informations qui font croire au grand public que des réductions seront accordées aux guichets.",
+      "sources": [
+        "veja.abril.com.br"
+      ],
+      "url": "https://veja.abril.com.br/brasil/governo-usa-sites-oficiais-para-fazer-campanha-de-medida-eleitoreira-de-lula/",
+      "published_at": "2026-09-29T20:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Fini les non-compétitions ! Les patrons de la technologie préviennent que des règles injustes étouffent la croissance du Royaume-Uni. Certains des principaux fondateurs du secteur technologique britannique ont appelé le gouvernement à supprimer les restrictions « injustes » en matière d'emploi qui, selon eux, étouffent la croissance.",
+      "sources": [
+        "cityam.com"
+      ],
+      "url": "https://www.cityam.com/end-the-non-competes-tech-bosses-warn-unfair-rules-are-choking-uk-growth/",
+      "published_at": "2026-09-29T20:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Brésil : une élection incertaine et une crise politique qui s’aggrave.",
+      "sources": [
+        "Presse-toi à gauche"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkVYRko3Ml9OUXVhQ1FONWo2YUVRV3ktWmdLQ0FkQ1lnWXlKdHVPdElXZVhzUDRGb0VVZWRaN2xaZVhxVkstVUZGb1JScEhuMy1HR2RKQW9ERV9WWGJ1bjhxVDFTOHV4cGE4bzFjNUtOWF9ranI5YkE0NGJiZUdEVk9WdGtlNF9nMXNPbnBabmVSblpwNGpYSjRtWjM?oc=5",
+      "published_at": "2026-09-29T12:40:24+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
