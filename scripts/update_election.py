@@ -49,7 +49,7 @@ CONTROVERSY_HINTS=(
  "condamn","procès","proces","mise en examen","diffamation","accus","perquisition",
  "révélations","revelations","procureur","saisit la justice","menaces de mort","démenti","dementi","mediapart"
 )
-CANDIDACY_HINTS=("candidature","candidat","retrait","retire","primaire","500 signatures","ralliement","soutien","investiture","alliance")
+CANDIDACY_HINTS=("candidature","retrait","retire","primaire","500 signatures","ralliement","soutien","investiture","alliance")
 CAMPAIGN_ACTIVITY_HINTS=(
  "logement","batimat","énergie","energie","nucléaire","nucleaire","edf","entreprise","entreprises","patron",
  "syndicat","cgt","rencontre","meeting","débat","debat","discours","manifestation","lycéens","lyceens",
