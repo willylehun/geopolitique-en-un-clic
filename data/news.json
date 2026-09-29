@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:33:40.605779+02:00",
+  "generated_at": "2026-09-29T20:38:07.882974+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30517,6 +30517,105 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWXVIWFNaV0IyXzkyMXlGbVBlMnExLUxHZEJoaDRnR3l4ZFpwQWp1TG53QVlxX1lPeTRQV1gtTmRET0NGZkprRXNFX3N1MlUzNTA4S3hDUENYNE5nTnBQUnFWTklnVHV2ZEFQSkJiZ1NXOGVLNk9rUUNYRlZVNmkxaGluaEUyRC1jVlBIaURoNUs0VVd6VEJfOUZEdjlnc2FodVF0QlVodw?oc=5",
       "published_at": "2026-09-29T18:37:50+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Rubio a embauché une entreprise technologique après que des avertissements liés au Kremlin ont fait surface : rapport. Le secrétaire d'État du Département d'Étatle secrétaire d’État Marco Rubio (États-Unis) a attribué un contrat de 50 000 $ à Oxygen Forensics quelques mois après que des allégations sur la propriété russe de l'entreprise et ses liens avec les agences du Kremlin aient circulé au sein …",
+      "sources": [
+        "AlterNet via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/news/other/rubio-hired-tech-firm-after-kremlin-link-warnings-surfaced-report/ar-AA2ddM37",
+      "published_at": "2026-09-29T12:59:49+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Reportage : Berlin s'oppose à la vente de l'entreprise de logistique de Hambourg au chinois Cosco. L'Allemagne veut empêcher la compagnie maritime publique chinoise Cosco de reprendre l'entreprise de transport et de logistique Konrad Zippel, basée à Hambourg, rapporte le quotidien économique Handelsblatt …",
+      "sources": [
+        "DPA International via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/money/general/report-berlin-opposes-sale-of-hamburg-logistics-firm-to-china-s-cosco/ar-AA2ddJAH",
+      "published_at": "2026-09-29T13:09:24+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La confiance des consommateurs américains est proche de son plus bas niveau depuis 12 ans et demi en raison des craintes du marché du travail. La confiance des consommateurs américains a plongé à son plus bas niveau depuis 12 ans et demi en septembre, les ménages s'attendant à une détérioration des conditions des affaires et du marché du travail au cours des six prochains mois, dans un contexte de Moyen-Orient…",
+      "sources": [
+        "Charlotte Observer — fiabilité 6/10"
+      ],
+      "url": "https://www.charlotteobserver.com/news/business/article317424551.html",
+      "published_at": "2026-09-29T09:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le ministère de la Justice inculpe un Vénézuélien abattu par un officier de l'ICE à Austin. Un Vénézuélien abattu par un agent fédéral de l'immigration le 20 septembre à Austin, au Texas, a comparu mardi devant un tribunal fédéral après avoir été accusé d'agression, de résistance, d'ingérence et d'entrave à un…",
+      "sources": [
+        "The News Tribune — fiabilité 6/10"
+      ],
+      "url": "https://www.thenewstribune.com/news/nation-world/national/article317428315.html",
+      "published_at": "2026-09-29T06:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La France réaffirme son engagement en faveur de l’accès des femmes à l’interruption volontaire de grossesse. Diplomatie. Gouv.",
+      "sources": [
+        "uk.diplomatie.gouv.fr — fiabilité 6/10"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLXRmUEktUFZFWEFOSFc5QUdlUl9RNXJCZy16aWpKeGtsTTFxYk5zMUVrVjZrWnhNQlBtMVJ1SElNbDBxN2NXMHBLdmtka3M0UHZKeU9vdDNSVHdkRGN3SzhnZnI3UkJYZ2VBckNLTlNYZlQ5ZGkwUFNlb2x2eWtlY2hVOERlbjJhNUxzUHdvYm9EQVQtd0lzUi1mTzJ5MFJod1dlbFdmOGhDaUJDRWdGR1V2S09mTEpCTUwycGppM0FsaVA3?oc=5",
+      "published_at": "2026-09-29T15:18:06+02:00",
       "origin": "rss",
       "content_enriched": true
     },
