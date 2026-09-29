@@ -49,6 +49,12 @@ CONTROVERSY_HINTS=(
  "révélations","revelations","procureur","saisit la justice","menaces de mort","démenti","dementi","mediapart"
 )
 CANDIDACY_HINTS=("candidature","candidat","retrait","retire","primaire","500 signatures","ralliement","soutien","investiture","alliance")
+CAMPAIGN_ACTIVITY_HINTS=(
+ "logement","batimat","énergie","energie","nucléaire","nucleaire","edf","entreprise","entreprises","patron",
+ "syndicat","cgt","rencontre","meeting","débat","debat","discours","manifestation","lycéens","lyceens",
+ "ukraine","russie","europe","défense","defense","intelligence artificielle","ia","pouvoir d'achat","pouvoir d’achat",
+ "travail","salaires","chômage","chomage","fiscalité","fiscalite","agriculture","climat"
+)
 
 PARTY_ALIASES={
  "Rassemblement national":["Rassemblement national","RN","Jordan Bardella"],
