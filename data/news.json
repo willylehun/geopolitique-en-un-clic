@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:38:10.581019+02:00",
+  "generated_at": "2026-09-29T22:48:21.108607+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -814,8 +814,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Océanie",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -827,8 +827,8 @@
         "ABC News"
       ],
       "countries": [
-        "Palestine",
-        "Australie"
+        "Australie",
+        "Palestine"
       ]
     },
     {
@@ -1647,8 +1647,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Palestine",
         "Israël",
+        "Palestine",
         "Royaume-Uni"
       ]
     },
@@ -2932,8 +2932,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Asie"
       ],
       "period": "day",
       "bucket": "8 septembre 2026",
@@ -2947,9 +2947,9 @@
       "published_at": "2026-09-08T09:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Palestine",
         "Canada",
-        "Israël"
+        "Israël",
+        "Palestine"
       ]
     },
     {
@@ -2970,8 +2970,8 @@
       "published_at": "2026-09-08T09:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Palestine",
         "Israël",
+        "Palestine",
         "Royaume-Uni"
       ]
     },
@@ -3037,8 +3037,8 @@
       "published_at": "2026-09-09T09:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Palestine",
         "Israël",
+        "Palestine",
         "Royaume-Uni"
       ]
     },
@@ -3558,8 +3558,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "8 septembre 2026",
@@ -3573,8 +3573,8 @@
       "published_at": "2026-09-08T09:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Palestine",
-        "France"
+        "France",
+        "Palestine"
       ]
     },
     {
@@ -19296,8 +19296,8 @@
         "Asie"
       ],
       "countries": [
-        "Palestine",
-        "Israël"
+        "Israël",
+        "Palestine"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -32769,8 +32769,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Palestine",
-        "Israël"
+        "Israël",
+        "Palestine"
       ]
     },
     {
@@ -32909,6 +32909,447 @@
       ],
       "url": "https://www.ledauphine.com/defense-guerre-conflit/2026/09/29/35-sup-e-sup-anniversaire-de-la-fete-nationale-de-la-republique-d-armenie-samedi",
       "published_at": "2026-09-29T11:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Un officier de l’armée de Virginie devient le 19e militaire américain connu à mourir depuis le début de la guerre en Iran. Comme le rapporte…",
+      "sources": [
+        "The Grio — fiabilité 6/10"
+      ],
+      "url": "https://thegrio.com/2026/09/29/virginia-army-officer-becomes-19th-known-u-s-service-member-to-die-since-iran-war-began/",
+      "published_at": "2026-09-29T15:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'inflation en Espagne atteint 4,9 % en septembre en raison de la hausse des prix du carburant. L'inflation en Espagne a bondi à 4,9% en septembre, soit six dixièmes de point de plus qu'en août, tirée principalement par la hausse du coût du carburant et des lubrifiants pour véhicules, selon l'estimation flash de…",
+      "sources": [
+        "MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/economy/inflation-in-spain-surges-to-4-9-in-september-on-higher-fuel-prices/ar-AA2dcoDC",
+      "published_at": "2026-09-29T07:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Netanyahu poursuit les médias israéliens pour des informations d'avertissement du 7 octobre. Le Premier ministre Benjamin Netanyahu (Israël) a déposé mardi une plainte pour diffamation contre plusieurs grands médias et journalistes israéliens, suite à des informations selon lesquelles il aurait reçu des avertissements préalables de la part des Émirats arabes unis.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/netanyahu-sues-israeli-media-over-193857569.html",
+      "published_at": "2026-09-29T14:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le ministère de la Justice du président Donald Trump (États-Unis) affirme que le Kennedy Center est « malade et malade » et qu’il n’a déjà plus d’argent pour payer ses factures. Le DOJ affirme que le lieu est \"dans un état d'effondrement\" tandis que l'allié du président au Sénat bloque une législation qui l'empêcherait de le démolir complètement…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-doj-says-sick-poorly-203109072.html",
+      "published_at": "2026-09-29T15:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Cour suprême entendra les arguments sur l’expulsion des immigrants vers des pays tiers par l’administration du président Donald Trump (États-Unis). Les trois juges démocrates nommés par la Cour – les juges Sonia Sotomayor, Elena Kagan et Ketanji Brown Jackson – ont indiqué qu'ils auraient rejeté la demande de l'administration Trump (et, par conséquent, …",
+      "sources": [
+        "SCOTUSblog — fiabilité 6/10"
+      ],
+      "url": "https://www.scotusblog.com/2026/09/supreme-court-to-hear-argument-on-trump-administrations-deportation-of-immigrants-to-third-party/",
+      "published_at": "2026-09-29T11:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "L'UCC du Qatar est en pourparlers pour une éventuelle entrée dans les zones pétrolières et gazières du Venezuela, a déclaré l'exécutif. Le producteur qatari UCC Oil and Gas Holding est en pourparlers pour son éventuelle entrée dans de nouveaux gisements au Venezuela, a déclaré mardi le directeur de l'amont de la société, Erik Keskula, lors d'une conférence à Caracas.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/qatars-ucc-talks-possible-entrance-into-oil-gas-areas-venezuela-executive-says-2026-09-29/",
+      "published_at": "2026-09-29T15:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Qatar",
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Lloyd Expressway a été fermé en raison d'une fuite de gaz à l'intersection de Cross Pointe. Actuellement, les voies en direction ouest et est de la Lloyd Expressway sont fermées sur le boulevard Cross Pointe. Les responsables de la répartition affirment que la fuite a été signalée peu avant 13h30. Plusieurs agences…",
+      "sources": [
+        "14 News — fiabilité 6/10"
+      ],
+      "url": "https://www.14news.com/2026/09/29/lloyd-expressway-shut-down-gas-leak-cross-pointe-intersection/",
+      "published_at": "2026-09-29T13:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Israël",
+        "Émirats arabes unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre Benjamin Netanyahu (Israël) s'est rendu secrètement aux Émirats arabes unis dimanche. La visite de Benjamin Netanyahu dimanche à Abu Dhabi, qui n’avait pas été annoncée à l’avance, a finalement été officiellement confirmée lundi par le bureau du Premier ministre israélien et par les Ém …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/moyen-orient/20260929-israël-émirats-arabes-unis-visite-netanyahu",
+      "published_at": "2026-09-29T12:57:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Inde",
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'ONU dans les livres contre l'ONU dans la réalité : l'Iran utilise le Thakur de Sholay pour se moquer du corps mondial en pleine guerre. L'ambassade d'Iran en Inde a utilisé un mème de Sholay pour se moquer des Nations Unies sur X. Le message a souligné l'utilisation plus large par l'Iran de la culture pop et de l'humour sur Internet dans la diplomatie numérique.",
+      "sources": [
+        "India Today — fiabilité 6/10"
+      ],
+      "url": "https://www.indiatoday.in/world/story/un-in-books-vs-un-in-reality-iran-uses-sholays-thakur-to-mock-world-body-limits-amid-raging-war-3006144-2026-09-30",
+      "published_at": "2026-09-29T15:31:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Dernière guerre en Iran : Téhéran affirme que les États-Unis « quitteront inévitablement cette région ».",
+      "sources": [
+        "The Independent via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/iran-war-latest-tehran-says-us-will-inevitably-leave-this-region/ar-AA2da6ux",
+      "published_at": "2026-09-29T15:30:55+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Serbie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Serbie : Le chef de l'État Aleksandar Vučić démissionne de la présidence pour briguer le poste premier ministre. Le chef de l'État de la Serbie, Aleksandar Vučić a démissionné sept mois avant la fin de son mandat. Son objectif, devenir Premier ministre, alors que la rue gronde depuis bientôt deux ans. Il ne po …",
+      "sources": [
+        "Lavenir.ci via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/serbie-le-chef-de-létat-aleksandar-vučić-démissionne-de-la-présidence-pour-briguer-le-poste-premier-ministre/ar-AA2dar0j",
+      "published_at": "2026-09-29T01:40:11+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guy Parmelin défend la révision de la loi sur le matériel de guerre en Suisse. Le gouvernement recommande d’accepter la modification de la loi fédérale sur le matériel de guerre afin de garantir notre sécurité et préserver l'industrie de l'armement.",
+      "sources": [
+        "20 Minuten — fiabilité 6/10"
+      ],
+      "url": "https://www.20min.ch/fr/story/votations-29-novembre-le-conseil-federal-pret-a-assouplir-les-exportations-d-armes-103641201",
+      "published_at": "2026-09-29T11:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'horizon reste dégagé pour l'économie suisse. Les perspectives pour l'économie helvétique restent favorables, selon le baromètre KOF. L'emploi reste toutefois sous pression dans l'industrie et la construction. En septembre, cet indicateur a grimp …",
+      "sources": [
+        "Keystone-ATS via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/actualite/other/lhorizon-reste-dégagé-pour-léconomie-suisse/ar-AA2db0MG",
+      "published_at": "2026-09-29T02:37:56+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suède"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Suède : le bloc de gauche se divise, Magdalena Andersson renonce à former un gouvernement. [Revue de presse] Deux semaines après les législatives du 13 septembre, Magdalena Andersson a annoncé, lundi renoncer, à ce stade, à constituer une coalition. La cheffe des sociaux-démocrates acte l'i …",
+      "sources": [
+        "Touteleurope.eu — fiabilité 6/10"
+      ],
+      "url": "https://www.touteleurope.eu/vie-politique-des-etats-membres/suede-le-bloc-de-gauche-se-divise-magdalena-andersson-renonce-a-former-un-gouvernement/",
+      "published_at": "2026-09-29T06:14:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Vatican",
+        "Allemagne",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Revue de presse Église et Vatican du 29 septembre 2026. Voyage en France – Diplomatie – Allemagne La rédaction d’I. MEDIA vous propose du lundi au samedi une sélection d’articles de tous horizons et du monde entier à ne pas manquer qui font l’actualité …",
+      "sources": [
+        "imedia — fiabilité 6/10"
+      ],
+      "url": "https://imedia.news/revue-de-presse-eglise-et-vatican-du-29-septembre-2026/",
+      "published_at": "2026-09-29T03:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Algérie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "L’Algérie impose un embargo sur la quasi-totalité des produits français. Les autorités algériennes ont subitement décidé fin juillet 2026, dans la plus grande discrétion, d’arrêter les importations de tous les produits français à l’exception des médicaments, aggravant de f …",
+      "sources": [
+        "La Croix — fiabilité 6/10"
+      ],
+      "url": "https://www.la-croix.com/international/l-algerie-met-un-embargo-sur-la-quasi-totalite-des-produits-francais-20260929",
+      "published_at": "2026-09-29T08:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Birmanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Birmanie : une frappe aérienne de l’armée contre un marché fait au moins 50 morts, affirment des sources humanitaires. L’aviation militaire a bombardé lundi vers midi un important carrefour commercial situé au bord d’un fleuve, dans la ville de Kyauktaw, dans l’Etat Rakhine.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/09/29/birmanie-une-frappe-aerienne-de-l-armee-contre-un-marche-fait-au-moins-50-morts-affirment-des-sources-humanitaires_6785617_3210.html",
+      "published_at": "2026-09-29T08:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Birmanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Birmanie : 50 morts dans une frappe aérienne de l’armée selon des humanitaires. Il s’agit d’une des attaques les plus meurtrières de l’année dans l’Etat de Rakhine, une province de l’ouest où le régime affronte un groupe rebelle.",
+      "sources": [
+        "Libération via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/news/birmanie-50-morts-dans-une-frappe-aérienne-de-l-armée-selon-des-humanitaires/ar-AA2d7ld7",
+      "published_at": "2026-09-29T10:58:14+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Birmanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Birmanie : le bilan d'une frappe aérienne de l'armée sur un marché s’élève à 50 morts. Lundi, l’Armée d’Arakan, puissant groupe rebelle qui contrôle Kyauktaw et l’essentiel de l’État de Rakhine, avait fait état de 33 personnes tuées, précisant que ce bilan était susceptible de s’alourdi …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/birmanie-le-bilan-d-une-frappe-aerienne-de-l-armee-sur-un-marche-s-eleve-a-50-morts-20260929",
+      "published_at": "2026-09-29T02:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Birmanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Birmanie : 50 morts sur un marché bombardé par l'armée, selon des sources humanitaires. Dans l'ouest de la Birmanie, des familles tentaient mardi de retrouver les corps de leurs proches dans les décombres calcinés d'un marché, au lendemain d'une frappe aérienne de l'armée qui a fait 50 m …",
+      "sources": [
+        "AFP via MSN — fiabilité 7/10",
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/news/birmanie-50-morts-sur-un-marché-bombardé-par-l-armée-selon-des-sources-humanitaires/ar-AA2dd7yv",
+      "published_at": "2026-09-29T06:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Birmanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Birmanie : 50 morts dans un bombardement de marché selon des humanitaires. D'après les éléments disponibles, la junte affronte des mouvements prodémocratie et des groupes armés issus de minorités ethniques, qui contrôlent désormais de vastes portions du territoire.",
+      "sources": [
+        "Senenews — fiabilité 6/10"
+      ],
+      "url": "https://www.senenews.com/actualites/international/birmanie-50-morts-sur-un-marche-bombarde-par-larmee-selon-les-humanitaires_601183.html",
+      "published_at": "2026-09-29T07:23:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
