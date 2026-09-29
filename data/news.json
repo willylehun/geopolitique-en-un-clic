@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T00:30:03.606626+02:00",
+  "generated_at": "2026-09-30T00:40:14.190889+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -2159,8 +2159,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
@@ -2178,8 +2178,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "États-Unis",
-        "Danemark"
+        "Danemark",
+        "États-Unis"
       ]
     },
     {
@@ -3872,8 +3872,8 @@
         "International"
       ],
       "countries": [
-        "États-Unis",
-        "Bahamas"
+        "Bahamas",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
@@ -5848,12 +5848,12 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "countries": [
-        "États-Unis",
-        "Portugal"
+        "Portugal",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -7797,9 +7797,9 @@
         "Irak",
         "Oman",
         "Émirats arabes unis",
-        "États-Unis",
         "Géorgie",
-        "Turkménistan"
+        "Turkménistan",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -21283,8 +21283,8 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "Afrique"
+        "Afrique",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -21299,8 +21299,8 @@
       "origin": "rss",
       "countries": [
         "Chine",
-        "États-Unis",
-        "Kenya"
+        "Kenya",
+        "États-Unis"
       ]
     },
     {
@@ -24769,8 +24769,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Afrique"
+        "Afrique",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -24784,8 +24784,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "États-Unis",
-        "Tchad"
+        "Tchad",
+        "États-Unis"
       ]
     },
     {
