@@ -250,6 +250,15 @@ def clean_summary_text(text):
     cuts=[lower.find(marker) for marker in boilerplate_markers if lower.find(marker)>=0]
     if cuts:
         out=out[:min(cuts)].rstrip(" .;:-")
+    out=re.sub(r"(?i)\bdu\s+le\s+président\b","du président",out)
+    out=re.sub(r"(?i)\bde\s+le\s+président\b","du président",out)
+    out=re.sub(r"(?i)\bDonald\s+le\s+président\s+Donald\s+Trump\b","Donald Trump",out)
+    out=re.sub(r"(?i)\bLarmée\b","L’armée",out)
+    out=re.sub(r"(?i)\blemprise\b","l’emprise",out)
+    out=re.sub(r"(?i)\blIran\b","l’Iran",out)
+    out=re.sub(r"(?i)\bdOrmuz\b","d’Ormuz",out)
+    out=re.sub(r"(?i)\s*Lire l'article complet sur [^.]+\.?$","",out)
+    out=re.sub(r"(?i)\s*Lire l’article complet sur [^.]+\.?$","",out)
     return out.strip(" |–—-")
 
 def is_market_listing_noise(text):
@@ -555,8 +564,7 @@ def election_score(text):
     elected=(
       "élu président" in t or "élue présidente" in t or "nouveau président" in t or
       "nouvelle présidente" in t or "nouveau premier ministre" in t or
-      "nouvelle première ministre" in t or "remporte l'élection" in t or
-      "remporte l’élection" in t or "victoire électorale" in t
+      "nouvelle première ministre" in t
     )
     if elected:
         return 9
@@ -591,6 +599,19 @@ def score(text):
     signal_count=sum(count for level,count in hits if level>=6)
     if highest in (6,7,8) and signal_count>=3:
         highest+=1
+
+    # « gas » désigne souvent l'essence automobile dans les titres nord-américains :
+    # un prix local à la pompe n'est pas une crise énergétique internationale.
+    retail_fuel=any(x in t for x in ("prix du gaz","prix de l'essence","prix de l’essence","à la pompe","gas prices","pump prices","winter-blend gasoline","summer fuel"))
+    strategic_fuel=any(x in t for x in ("guerre","embargo","sanction","pétrole brut","crude oil","détroit d'ormuz","détroit d’ormuz","pipeline","crise énergétique","réserve stratégique","réserves stratégiques","opec","opep"))
+    if retail_fuel and not strategic_fuel:
+        highest=min(highest,6)
+
+    # Une séance boursière ordinaire ne devient pas géopolitique parce que le pétrole bouge.
+    routine_market=any(x in t for x in ("marchés aujourd'hui","marchés aujourd’hui","markets today","actions chutent","stocks fall","wall street mardi","wall street today"))
+    market_cause=any(x in t for x in ("guerre","sanction","embargo","banque centrale","taux directeur","récession","crise financière","tarifs douaniers","droits de douane"))
+    if routine_market and not market_cause:
+        highest=min(highest,6)
     return min(10,highest)
 def category(title):
     t=" "+title.lower()+" "
@@ -799,7 +820,12 @@ def summaries_same_event(a,b):
     inter=len(wa & wb)
     containment=inter/max(1,min(len(wa),len(wb)))
     jaccard=inter/max(1,len(wa | wb))
-    return containment>=0.82 or jaccard>=0.68
+    if containment>=0.82 or jaccard>=0.68:
+        return True
+    aliases={name.lower() for name in PERSON_SURNAME_ALIASES}
+    ta=" "+(a or "").lower()+" "; tb=" "+(b or "").lower()+" "
+    shared_actor={name for name in aliases if term_in_text(ta,name) and term_in_text(tb,name)}
+    return bool(shared_actor) and containment>=0.58
 
 def merge_item_into(target,source):
     target["score"]=max(int(target.get("score",0) or 0),int(source.get("score",0) or 0))
