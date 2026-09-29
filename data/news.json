@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:07:50.673544+02:00",
+  "generated_at": "2026-09-29T20:10:56.995728+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -7813,8 +7813,8 @@
       ],
       "countries": [
         "Géorgie",
-        "Azerbaïdjan",
         "Turkménistan",
+        "Azerbaïdjan",
         "Irak",
         "Iran",
         "Oman",
@@ -14197,12 +14197,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Arménie",
-        "Chypre"
+        "Chypre",
+        "Arménie"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -22567,8 +22567,8 @@
         "Asie"
       ],
       "countries": [
-        "Azerbaïdjan",
-        "Ouzbékistan"
+        "Ouzbékistan",
+        "Azerbaïdjan"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -28335,29 +28335,10 @@
       ]
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 8,
-      "category": "Géopolitique",
-      "summary": "Réduire les factures d'électricité et de gaz | 30% de réduction et prix bloqué pendant deux ans. À partir du 1er octobre, un énergéticien proposera une réduction de 30 % sur les coûts d’électricité et de gaz par rapport à son offre à prix fixe, qui restera inchangée pendant deux ans.",
-      "sources": [
-        "zazoom.it"
-      ],
-      "url": "https://www.zazoom.it/2026-09-29/taglio-delle-bollette-di-luce-e-gas-sconto-del-30-e-prezzo-bloccato-per-due-anni/19738094/",
-      "published_at": "2026-09-29T19:30:00+02:00",
-      "origin": "rss",
-      "content_enriched": true
-    },
-    {
-      "regions": [
-        "International"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 9,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Kitchener lance un plan pour soutenir les entreprises locales au sein de l'U. S. Guerre commerciale.",
       "sources": [
@@ -28391,23 +28372,6 @@
         "Iran",
         "États-Unis"
       ]
-    },
-    {
-      "regions": [
-        "International"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 7,
-      "category": "Géopolitique",
-      "summary": "Un nouveau chapitre pour l'aviation allemande : Deutsche Aircraft ouvre la chaîne d'assemblage final du D328eco® à Leipzig. Légende de l'image de presse : (de gauche à droite) Nico Neumann, PDG de Deutsche Aircraft, Dirk Panter, ministre d'État chargé de l'économie, du travail, de l'énergie et de la protection du climat de l'État libre de Saxe, Marie-Christine von Hahn, directrice générale de l'Association des industries aérospatiales allemandes (BDLI) et Christian Hirte, secrétaire d'État parlementaire auprès du ministre fédéral des transports lors de la cérémonie d'ouverture officielle de la chaîne d'assemblage final (FAL) de Deutsche Aircraft à Leipzig/Halle.",
-      "sources": [
-        "manilatimes.net"
-      ],
-      "url": "https://www.manilatimes.net/2026/09/30/tmt-newswire/globenewswire/a-new-chapter-for-german-aviation-deutsche-aircraft-opens-d328eco-final-assembly-line-in-leipzig/2435524",
-      "published_at": "2026-09-29T19:30:00+02:00",
-      "origin": "rss",
-      "content_enriched": true
     },
     {
       "regions": [
@@ -28616,6 +28580,292 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQlNhVkZpTXFWS2JmZm9KZVR2MFhFS003U0laRDBzSjhYQzFGZ1ZoQ0NLbHFCMFdCTzc5UTUzeE1xNUJxNFFhbEVZT1hBNWo3MDJ1VV9zY25wMVpMRnFIc2ZsdGNqQU1VZXlmVzVMUi02dWZUM3kwa25YdWpZSEdyUFNkVnl6QXZySFBzc0ZfOEt2QzVwZGh3?oc=5",
       "published_at": "2026-09-29T08:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Social . « La France privilégie certains lycées » : dans une manifestation , les élèves expliquent leur ras - le - bol. À Chelles, en Seine-et-Marne, une centaine d’élèves se sont rassemblés mardi devant le lycée Jehan pour dénoncer « des conditions d’apprentissage difficiles ».",
+      "sources": [
+        "dna.fr"
+      ],
+      "url": "https://www.dna.fr/social/2026/09/29/la-france-privilegie-certains-lycees-dans-une-manifestation-les-eleves-expliquent-leur-ras-le-bol",
+      "published_at": "2026-09-29T19:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Macédoine du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement recommande le travail à domicile aux employés de huit institutions du bâtiment « Nova Makedonija ». Le gouvernement de la Macédoine du Nord a examiné aujourd'hui la situation créée après la panne technique dans le bâtiment \"Nova Makedonija\" à Skopje, où se trouvent huit institutions publiques, et a recommandé à ses employés de travailler temporairement à domicile, comme le rapporte Fokus. Mk. Selon l'annonce du Gouvernement, la mesure est prise en raison de la pénétration de l'eau dans [...]",
+      "sources": [
+        "24-ore.com"
+      ],
+      "url": "https://24-ore.com/qeveria-rekomandon-pune-nga-shtepia-per-punonjesit-e-tete-institucioneve-ne-ndertesen-nova-makedonija/",
+      "published_at": "2026-09-29T19:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Luxembourg"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Luxembourg CTI Systems annonce une coentreprise d'ingénierie avec Shanghai XinGuang. Le mardi 29 septembre 2026, la société luxembourgeoise d'ingénierie et d'automatisation industrielle, CTI Systems, a annoncé...",
+      "sources": [
+        "chronicle.lu"
+      ],
+      "url": "https://www.chronicle.lu/category/business/63689-luxembourgs-cti-systems-announces-joint-engineering-venture-with-shanghai-xinguang",
+      "published_at": "2026-09-29T19:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Colombie",
+        "Canada",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "LNG Canada va lancer la phase 2 de son projet à Kitimat en Colombie - Britannique. VANCOUVER — LNG Canada a annoncé qu'elle ira de l'avant avec le projet d'expansion de son terminal d'exportation de gaz naturel liquéfié, situé à Kitimat, en Colombie-Britannique. La phase 2 du projet permettra de doubler la capacité de LNG Canada pour la porter à 28 millions de tonnes par an. Il s'agit de l'un des cinq projets initiaux qui ont été soumis l'année dernière au Bureau fédéral des grands projets.",
+      "sources": [
+        "enbeauce.com"
+      ],
+      "url": "https://www.enbeauce.com/actualites-nationale/lng-canada-va-lancer-la-phase-2-de-son-projet-a-kitimat-en-colombie-britannique/40769",
+      "published_at": "2026-09-29T19:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Irak",
+        "Égypte"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Pétrole : l’Irak explore une route via l’Égypte pour contourner les risques à Ormuz. Les perturbations du détroit d’Ormuz et de Bab el-Mandeb poussent les producteurs du Moyen-Orient à repenser leurs itinéraires pétroliers.",
+      "sources": [
+        "Agence Ecofin"
+      ],
+      "url": "https://www.agenceecofin.com/actualites/2909-141960-petrole-l-irak-explore-une-route-via-l-egypte-pour-contourner-les-risques-a-ormuz",
+      "published_at": "2026-09-29T02:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Irak",
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les USA quittent l'Irak après plus de 20 ans de présence, l'Iran en embuscade. * La guerre la plus meurtrière pour les USA au XXIe siècle * Un retrait engagé malgré le conflit avec l'Iran * Téhéran et ses alliés pourraient avoir le champ libre * Crainte aussi d'une résurgence de ...",
+      "sources": [
+        "Reuters via MSN"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/les-usa-quittent-l-irak-après-plus-de-20-ans-de-présence-l-iran-en-embuscade/ar-AA2dbVID",
+      "published_at": "2026-09-29T05:27:41+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'Iran menace de nouvelles frappes, dans l'attente d'une réponse américaine à son plan pour Ormuz. L'Iran s'attend à recevoir mardi une réponse officielle des Etats-Unis aux conditions qu'il a posées pour rouvrir le détroit d'Ormuz, principal point d'achoppement dans la guerre au Moyen-Orient, ...",
+      "sources": [
+        "France 24 (média public)"
+      ],
+      "url": "https://www.france24.com/fr/info-en-continu/20260929-l-iran-attend-une-réponse-des-etats-unis-sur-son-plan-pour-rouvrir-ormuz",
+      "published_at": "2026-09-29T12:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’Iran attend une réponse des États-Unis mardi sur le plan d’ouverture du détroit d’Ormuz. Plusieurs mois après le début de la guerre, qui a fait des milliers de morts, les médiateurs sont à la peine pour relancer les négociations.",
+      "sources": [
+        "L'essentiel"
+      ],
+      "url": "https://www.lessentiel.lu/fr/story/guerre-iran-israel-usa-l-iran-attend-une-reponse-des-usa-pour-rouvrir-le-detroit-d-ormuz-103484349",
+      "published_at": "2026-09-29T03:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Pékin presse Tokyo au sujet de Taïwan en recevant un ancien ministre japonais. Le gouvernement japonais a dit mardi s’abstenir de commentaire en minimisant la signification de la rencontre.",
+      "sources": [
+        "Noovo Info"
+      ],
+      "url": "https://www.noovo.info/nouvelles/international/article/pekin-presse-tokyo-au-sujet-de-taiwan-en-recevant-un-ancien-ministre-japonais/",
+      "published_at": "2026-09-29T05:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Kazakhstan",
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Kassym-Jomart Tokaïev en Allemagne : ce que le Kazakhstan propose à Berlin. Matières premières critiques, pétrole, nouvelles chaînes industrielles, transport transcaspien, intelligence artificielle : la visite de Kassym-Jomart Tokaïev en Allemagne s'appuie sur une offre écono ...",
+      "sources": [
+        "La Presse Turquoise via MSN"
+      ],
+      "url": "https://www.msn.com/fr-fr/finance/général/kassym-jomart-tokaïev-en-allemagne-ce-que-le-kazakhstan-propose-à-berlin/ar-AA2db3Xf",
+      "published_at": "2026-09-29T03:14:33+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "countries": [
+        "Koweït",
+        "Italie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Carburants, Meloni : « Merci au Koweït et au groupe Q8 d’avoir répondu à l’appel du gouvernement ». Rome, 29 sept. (LaPresse) - « Je remercie le Koweït et le groupe qui contrôle les stations-service Q8 en Italie d’avoir répondu à l’appel lancé par le gouvernement italien aux entreprises du secteur d ...",
+      "sources": [
+        "fr.lapresse"
+      ],
+      "url": "https://fr.lapresse.it/politique-fr/2026/09/29/carburants-meloni-merci-au-koweit-et-au-groupe-q8-davoir-repondu-a-lappel-du-gouvernement/",
+      "published_at": "2026-09-29T03:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Liban",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre au Liban : une plainte déposée en France contre l’armée israélienne liée à des destructions environnementales dans la zone qu’elle occupe. La plainte vise notamment l’arrachage de plusieurs centaines d’oliviers. Les avocats du plaignant y voient le signe d’un crime environnemental et d’un nettoyage ethnique dans le sud du Liban, une régi ...",
+      "sources": [
+        "Le Monde"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/09/29/guerre-au-liban-une-plainte-deposee-en-france-contre-l-armee-israelienne-liee-a-des-destructions-environnementales-dans-la-zone-qu-elle-occupe_6785641_3210.html",
+      "published_at": "2026-09-29T10:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Liban"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre libanais rencontre Rubio et évoque le retrait de Tsahal.",
+      "sources": [
+        "The Times of Israël"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU1YxVVU1Skt4VEdseF82UzhNX3lSQUlUaUJCWlRRcEtSWEdaNWRvNUIyTVZIZGtxc1RqcG4wYlhKWHpITTBqdkZOUFJYaGM4cDZNLURQZTdSbFVrN1RpbUdoX0R2Q3M0LUJTTFhTVHBIS2xJci1NaUlmaXlUeFNxWC12dGFpRWE5YlYxQnZzM1V3c3VBWmo0MjRfa2Q3VzJNVVZsMkdRMDc2VHBMR2fSAa4BQVVfeXFMTVNWMVVVNUpLeFRHbHhfNlM4TV95UkFJVGlCQlpUUXBLUlhHWjVkbzVCMk1WSGRrcXNUanBuMGJYSlh6SE0wanZGTlBSWGhjOHA2TS1EUGU3UmxVazdUaW1HaF9EdkNzNC1CU0xYU1RwSEtsSXItTWlJZml5VHhTcVgtdnRhaUVhOWJWMUJ2czNVd3N1QVpqNDI0X2tkN1cyTVVWbDJHUTA3NlRwTEdn?oc=5",
+      "published_at": "2026-09-29T14:36:57+02:00",
       "origin": "rss",
       "content_enriched": true
     },
