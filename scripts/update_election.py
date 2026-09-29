@@ -74,7 +74,7 @@ PARTY_ALIASES={
  "Debout la France":["Debout la France","DLF"],
  "Union populaire républicaine":["Union populaire républicaine","UPR"],
 }
-GENERIC_PARTIES={"Horizons","Renaissance","La Convention","Debout !","Nouvelle Énergie"}
+GENERIC_PARTIES={"Horizons","Renaissance","La Convention","Debout !","Nouvelle Énergie","Les Ruches","Sans étiquette"}
 
 def norm(s):
     return re.sub(r"\s+"," ",(s or "").strip())
@@ -203,6 +203,11 @@ def row_matches_entity(row,kind,eid,name):
     aliases=entity_aliases(kind,eid,name)
     if not any(has_phrase(text,a) for a in aliases):
         return False
+    if kind=="party" and name in GENERIC_PARTIES:
+        # Un sujet économique/écologique seul ne prouve pas qu'il s'agit du parti.
+        political_identity=("présidentielle","candidat","campagne","parti","élu","député","sénateur","élection","politique","ministre","primaire")
+        if not any(has_phrase(text, term) for term in political_identity):
+            return False
     # Évite « Horizons » (livres, associations…), Renaissance artistique, etc.
     return election_context(text) or campaign_activity_context(text)
 
@@ -217,7 +222,7 @@ def row_is_useful(row):
     if not (election_context(text) or campaign_activity_context(text)):
         return False
     noise=(
-      "dernier hommage","people","livres pour","élargir ses horizons","val'horizons","val’horizons",
+      "résumé et diffusions","programme tv","programmetv.","dernier hommage","people","livres pour","élargir ses horizons","val'horizons","val’horizons",
       "photos amateurs","festival","concert","football","match","horoscope",
       "avec son bébé","avec son bebe","bébé de 8 jours","bebe de 8 jours",
       "retient ses larmes","vie privée","vie privee"
@@ -233,6 +238,23 @@ def row_is_useful(row):
 
 with DATA.open(encoding="utf-8") as f:
     data=json.load(f)
+
+# Compléments vérifiés : conserver la date/URL de chaque source et combler
+# les rubriques vides sans écraser une proposition actualisée par la suite.
+reviewed_path=ROOT/"data"/"election-program-reviewed.json"
+if reviewed_path.exists():
+    reviewed=json.loads(reviewed_path.read_text(encoding="utf-8"))
+    for candidate in data.get("candidates",[]):
+        record=reviewed.get(candidate.get("id"),{})
+        for topic, proposal in record.get("program",{}).items():
+            current=candidate.setdefault("program",{}).get(topic,"")
+            if not current or current.startswith("Aucune proposition"):
+                candidate["program"][topic]=proposal
+                for source in record.get("sources",[]):
+                    if source not in candidate.setdefault("sources",[]):
+                        candidate["sources"].append(source)
+                candidate.setdefault("program_sources",{})[topic]=record.get("sources",[])
+
 now=datetime.now(PARIS)
 cut30=now-timedelta(days=30)
 cut3=now-timedelta(days=3)
@@ -299,7 +321,9 @@ for i in range(0,len(entities),chunk_size):
     names=[]
     for kind,eid,name in chunk:
         # Les noms complets des candidats et les noms de partis sont quotés.
-        names.append(f'"{name}"')
+        for alias in entity_aliases(kind,eid,name):
+            if alias not in ("RN","LR","PS","LFI","AP"):
+                names.append(f'"{alias}"')
     q="("+ " OR ".join(names) +") (programme OR proposition OR projet OR plan OR dévoile OR présente OR retraite OR immigration OR écologie OR économie OR santé OR éducation OR sécurité OR justice OR controverse OR antisémitisme OR racisme OR révélations OR plainte OR enquête OR procureur OR diffamation OR démenti OR candidature OR retrait OR primaire OR investiture OR meeting OR discours OR alliance OR ralliement OR sondage) when:3d"
     try:
         rows=google_search(q)
