@@ -62,7 +62,7 @@ jobs:
       - name: Collecter la veille présidentielle
         if: steps.cadence.outputs.run == '1'
         env:
-          ELECTION_BATCH_SIZE: "6"
+          ELECTION_BATCH_SIZE: "12"
         run: python scripts/update_election.py
       - name: Valider les sorties
         if: steps.cadence.outputs.run == '1'
