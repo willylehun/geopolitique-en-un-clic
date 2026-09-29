@@ -117,6 +117,10 @@ def enrich_leader_context(text):
         label=LEADER_LABELS.get(full_name)
         if not label or label.lower() in out.lower() or not re.search(r"(?i)\b"+re.escape(alias)+r"\b",out):
             continue
+        # Un nom de famille précédé d'un autre prénom propre n'est pas automatiquement
+        # le responsable connu (ex. « Nirav Modi » n'est pas Narendra Modi).
+        if full_name.lower() not in out.lower() and re.search(r"\b[A-ZÀ-Ý][a-zà-ÿ'’-]+\s+"+re.escape(alias)+r"\b",out):
+            continue
         # Prépositions françaises : « de Trump » -> « du président Donald Trump (États-Unis) ».
         if role=="président":
             bare=label[3:] if label.lower().startswith("le ") else label
@@ -181,6 +185,9 @@ def enrich_leader_context(text):
         r"(?i)\b(?:le\s+)?président\s+Donald\s+Trump\s*\(États-Unis\)\s+(?:le\s+)?président\s+Donald\s+Trump\s*\(États-Unis\)",
         "le président Donald Trump (États-Unis)",out
     )
+    out=re.sub(r"(?i)\ble président(?:\s+[a-zà-ÿ-]+)?\s+le président\b","le président",out)
+    out=re.sub(r"(?i)\ble Premier ministre(?:\s+[a-zà-ÿ-]+)?\s+le Premier ministre\b","le Premier ministre",out)
+    out=re.sub(r"(?i)\bla présidente(?:\s+[a-zà-ÿ-]+)?\s+la présidente\b","la présidente",out)
     if out:
         out=out[0].upper()+out[1:]
     return out
@@ -200,6 +207,13 @@ PLACE_COUNTRIES={
     "Taïwan":"Taïwan",
     "Kitchener":"Canada",
     "Ontario":"Canada",
+    "Californie":"États-Unis",
+    "California":"États-Unis",
+    "Ohio":"États-Unis",
+    "Dijon":"France",
+    "Berlin":"Allemagne",
+    "Rhénanie du Nord-Westphalie":"Allemagne",
+    "Odisha":"Inde",
 }
 
 def enrich_place_context(text):
@@ -269,7 +283,9 @@ def is_market_listing_noise(text):
     t=" "+raw.lower()+" "
     listing_terms=(
       " activité |"," cotation "," cours de l'action "," cours de l’action ",
-      " fiche valeur "," action |"," isin "," wkn "," ticker "," valorisation "
+      " fiche valeur "," action |"," isin "," wkn "," ticker "," valorisation ",
+      " pdmr "," director/pdmr "," director / actionnariat "," actionnariat pdmr ",
+      " annonce réglementaire "," regulatory announcement "," shareholding announcement "
     )
     code_like=bool(re.search(r"\\b(?:HK|US|DE|FR|GB|LU|CH)[A-Z0-9]{8,}\\b",raw,re.I) or
                    re.search(r"\\b[A-Z][A-Z0-9]{4,7}\\b",raw))
@@ -306,7 +322,10 @@ def is_useful_article(text):
       "recette de cuisine","croisière touristique",
       "nou camp","sièges vip","fc barcelone","business vip",
       "théâtre","theatre","mise en scène","spectateur","comédie noire","pièce de théâtre","ubu roi",
-      "service de rencontres","firstdate","célibataires","application de rencontre","dating service"
+      "service de rencontres","firstdate","célibataires","application de rencontre","dating service",
+      "retient ses larmes","holds back tears","défunt père","late father",
+      "ma liste d'achat","ma liste d’achat","je continue d'ajouter","je continue d’ajouter",
+      "je retourne à nouveau dans","my buy list","my position","i'm buying","i am buying"
     )
     if any(x in t for x in always_low_value):
         return False
@@ -464,7 +483,8 @@ def is_useful_article(text):
       "le dividende de l'intelligence artificielle","le dividende de l’intelligence artificielle",
       "l'avenir de l'intelligence artificielle","l’avenir de l’intelligence artificielle",
       "les enjeux de l'intelligence artificielle","les enjeux de l’intelligence artificielle",
-      "réflexions sur ","regard sur "
+      "réflexions sur ","regard sur ","qui a eu le plus de succès",
+      "qui a eu le plus de succes","le plus performant","le moins réussi","le moins reussi"
     )
     if any(x in t for x in vague_topics) and not any(x in t for x in informative):
         return False
