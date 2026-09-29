@@ -780,6 +780,58 @@ def is_google_news_url(url):
     except Exception:
         return False
 
+def decode_google_news_direct_id(art_id):
+    """Résout un identifiant Google News récent directement via batchexecute."""
+    if not art_id:
+        return ""
+    try:
+        ctx0=[
+          "en-US","US",["FINANCE_TOP_INDICES","WEB_TEST_1_0_0"],
+          None,None,1,1,"US:en",None,180,None,None,None,None,None,0,None,None,
+          [1608992183,723341000]
+        ]
+        ctx=[ctx0,"en-US","US",1,[2,3,4,8],1,0,"655000234",0,0,None,0]
+        inner=["garturlreq",ctx,art_id]
+        envelope=["Fbv4je",json.dumps(inner,separators=(",",":")),None,"generic"]
+        f_req=json.dumps([[envelope]],separators=(",",":"))
+        payload=("f.req="+urllib.parse.quote(f_req,safe="")).encode("utf-8")
+        req=urllib.request.Request(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
+            data=payload,
+            headers={
+              "User-Agent":"Mozilla/5.0 GeoClic/3.2",
+              "Content-Type":"application/x-www-form-urlencoded;charset=UTF-8",
+              "Referer":"https://news.google.com/"
+            }
+        )
+        with urllib.request.urlopen(req,timeout=10) as r:
+            raw=r.read().decode("utf-8","replace")
+
+        m=re.search(r'\\\[\\\"garturlres\\\",\\\"(.*?)\\\",',raw,re.S)
+        if not m:
+            m=re.search(r'\["garturlres","(https?://.*?)",',raw,re.S)
+        if not m:
+            DISCOVERY_STATS["google_decode_direct_no_url"]+=1
+            return ""
+
+        value=m.group(1)
+        try:
+            resolved=json.loads('"'+value+'"')
+        except Exception:
+            resolved=value.replace("\\/","/").replace("\\u003d","=").replace("\\u0026","&")
+        host=(urllib.parse.urlparse(resolved).hostname or "").lower()
+        if resolved.startswith(("http://","https://")) and host and host!="news.google.com":
+            DISCOVERY_STATS["google_decode_direct_success"]+=1
+            return resolved
+        DISCOVERY_STATS["google_decode_direct_invalide"]+=1
+    except urllib.error.HTTPError as exc:
+        DISCOVERY_STATS[f"google_decode_direct_http_{exc.code}"]+=1
+        print("GOOGLE NEWS DIRECT HTTP",exc.code,art_id,file=sys.stderr)
+    except Exception as exc:
+        DISCOVERY_STATS["google_decode_direct_error"]+=1
+        print("GOOGLE NEWS DIRECT",art_id,exc,file=sys.stderr)
+    return ""
+
 def decode_google_news_url(source_url):
     """Résout une URL Google News RSS vers l'URL réelle de l'éditeur."""
     global GOOGLE_NEWS_DECODE_USED
@@ -804,6 +856,14 @@ def decode_google_news_url(source_url):
             DISCOVERY_STATS["google_decode_id_invalide"]+=1
             GOOGLE_NEWS_URL_CACHE[source_url]=""
             return source_url
+
+        direct=decode_google_news_direct_id(art_id)
+        if direct:
+            GOOGLE_NEWS_URL_CACHE[source_url]=direct
+            GOOGLE_NEWS_RESOLVED[source_url]=direct
+            DISCOVERY_STATS["google_decode_success"]+=1
+            return direct
+        DISCOVERY_STATS["google_decode_direct_fallback"]+=1
 
         params_url=(
             "https://news.google.com/rss/articles/"+urllib.parse.quote(art_id,safe="")
