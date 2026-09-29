@@ -722,6 +722,61 @@ def score(text):
     ))
     if advocacy_only and not concrete_policy:
         highest=min(highest,6)
+
+    # Un sondage / scénario simulé informe sur la campagne mais n'est pas en lui-même
+    # un résultat électoral ou une décision publique majeure.
+    pre_election_poll=any(x in t for x in (
+      "selon un sondage","sondage atlas","sondage électoral","poll shows","opinion poll",
+      "second tour simulé","scénario du second tour","statistiquement à égalité"
+    ))
+    official_election_event=any(x in t for x in (
+      "résultats officiels","résultat officiel","dépouillement","a été élu","a été élue",
+      "élu président","élue présidente","remporte l'élection","remporte l’élection"
+    ))
+    if pre_election_poll and not official_election_event:
+        highest=min(highest,6)
+
+    # Coupons, bons et aides de consommation destinés aux ménages restent des mesures
+    # domestiques sauf s'ils sont liés à une crise nationale/internationale documentée.
+    consumer_aid=any(x in t for x in (
+      "coupon d'essence","coupon de gaz","coupon d’énergie","coupon d'énergie",
+      "bon d'essence","bon de gaz","chèque énergie","energy voucher","fuel voucher"
+    ))
+    aid_crisis=any(x in t for x in (
+      "état d'urgence","état d’urgence","crise énergétique","pénurie nationale",
+      "rationnement","guerre","sanction","embargo"
+    ))
+    if consumer_aid and not aid_crisis:
+        highest=min(highest,6)
+
+    # Une opération privée de capital-investissement / prise de participation n'entre
+    # pas dans International sans décision étatique, sécurité nationale ou choc d'offre.
+    private_corporate_deal=any(x in t for x in (
+      "capital-investissement","private equity","participation majoritaire",
+      "prise de participation majoritaire","acquisition majoritaire","majority stake"
+    ))
+    strategic_corporate_context=any(x in t for x in (
+      "sécurité nationale","national security","sanction","embargo","contrôle des exportations",
+      "restriction d'exportation","restriction d’exportation","gouvernement","régulateur",
+      "subvention publique","défense nationale","pénurie","rupture d'approvisionnement",
+      "rupture d’approvisionnement"
+    ))
+    if private_corporate_deal and not strategic_corporate_context:
+        highest=min(highest,6)
+
+    # Les demandes administratives de versement de fonds déjà programmés ne sont pas
+    # des crises internationales tant qu'il n'y a ni blocage, ni litige, ni condition nouvelle.
+    administrative_funding=any(x in t for x in (
+      "demande de paiement","demande de versement","payment request",
+      "plan national de relance et de résilience","recovery and resilience plan"
+    ))
+    funding_conflict=any(x in t for x in (
+      "bloque","bloqué","suspend","suspendu","refuse","refusé","conditionne",
+      "litige","sanction","procédure d'infraction","procédure d’infraction"
+    ))
+    if administrative_funding and not funding_conflict:
+        highest=min(highest,6)
+
     return min(10,highest)
 def category(title):
     t=" "+title.lower()+" "
