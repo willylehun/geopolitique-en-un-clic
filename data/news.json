@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:57:24.252248+02:00",
+  "generated_at": "2026-09-29T22:07:32.374712+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29024,7 +29024,9 @@
         "KOTA Territory TV — fiabilité 6/10",
         "KPLC 7 News — fiabilité 6/10",
         "WTVA 9 News — fiabilité 6/10",
-        "WYMT — fiabilité 6/10"
+        "WYMT — fiabilité 6/10",
+        "WVVA — fiabilité 6/10",
+        "KBTX News 3 — fiabilité 6/10"
       ],
       "url": "https://www.chicagotribune.com/2026/09/29/donald-trump-ai-executives/",
       "published_at": "2026-09-29T14:28:00+02:00",
@@ -32221,6 +32223,246 @@
       "url": "https://pakobserver.net/new-petrol-diesel-prices-in-pakistan-for-september-30/",
       "published_at": "2026-09-29T20:30:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Reuters : La Russie prévoit un budget militaire record de 17 100 milliards de roubles en 2027, tout en réduisant les dépenses prévues en matière de protection sociale, d’éducation et de santé. La Russie va réduire le financement des programmes sociaux, de l'éducation et des soins de santé dans son budget 2027 par rapport au plan de l'année dernière pour aider à couvrir l'augmentation des dépenses militaires, a rapporté Reuters après avoir examiné …",
+      "sources": [
+        "Meduza — fiabilité 7/10"
+      ],
+      "url": "https://meduza.io/en/news/2026/09/29/reuters-russia-is-budgeting-a-record-17-1-trillion-rubles-for-the-military-in-2027-while-cutting-planned-spending-on-welfare-education-and-healthcare",
+      "published_at": "2026-09-29T07:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Belgique va transférer trois F-16 vers l'Ukraine cette année, a déclaré Zelenskiy. La Belgique transférera trois avions de combat F-16 à l'Ukraine d'ici la fin de l'année pour l'aider dans sa guerre contre la Russie, a déclaré le président ukrainien Volodymyr Zelenskiy …",
+      "sources": [
+        "Daily Maverick — fiabilité 7/10"
+      ],
+      "url": "https://www.dailymaverick.co.za/article/2026-09-29-belgium-to-transfer-three-f-16s-to-ukraine-this-year-zelenskiy-says/",
+      "published_at": "2026-09-29T02:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Belgique",
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Une mère en deuil craint que la libération anticipée de 700 détenus ne coûte encore plus de vies après que son fils a été poignardé à mort par un voleur. UNE MÈRE dont le fils a été poignardé à mort par un voleur libéré sous licence craint que davantage de familles perdent des êtres chers à cause du programme de libération anticipée du gouvernement. Shane, le fils de Donna Thompson, 32 ans, …",
+      "sources": [
+        "The Sun — fiabilité 6/10"
+      ],
+      "url": "https://www.thesun.co.uk/news/40533394/mum-fears-early-release-inmates-cost-lives/",
+      "published_at": "2026-09-29T02:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Qu'est-ce que la pension triple verrouillage et quels changements ont été annoncés ?. Le triple verrouillage des retraites garantit actuellement que les retraites augmenteront en fonction de l'inflation, de 2,5 % ou du salaire moyen, selon l'augmentation la plus importante. Cependant, M. Burnham a déclaré qu'il…",
+      "sources": [
+        "WalesOnline — fiabilité 6/10"
+      ],
+      "url": "https://www.walesonline.co.uk/news/wales-news/what-triple-lock-pension-what-34691217",
+      "published_at": "2026-09-29T01:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Pourquoi la guerre en Iran pourrait nuire plus que la hausse des prix du gaz. Une analyse des préoccupations économiques suggérant des impacts financiers plus larges au-delà de la hausse des prix du carburant, y compris les pressions sur l’inflation et le coût de la vie.",
+      "sources": [
+        "Keith D via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/why-the-iran-war-could-hurt-more-than-higher-gas-prices/vi-AA25SL7t",
+      "published_at": "2026-09-29T14:23:37+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Mehul Choksi abandonne sa demande de dommages et intérêts contre le gouvernement et une Hongroise au London HC. L'homme d'affaires diamantaire Mehul Choksi a abandonné une action en dommages-intérêts de plusieurs millions de livres devant la Haute Cour de Londres qu'il intentait contre le gouvernement indien et une Hongroise nommée Barbara Jarabik, vivant au Royaume-Uni…",
+      "sources": [
+        "The Times of India via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/mehul-choksi-drops-damages-claim-against-government-hungarian-woman-in-london-hc/ar-AA2dcQpQ",
+      "published_at": "2026-09-29T13:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les ventes de logements au Canada chuteront de 5 % cette année, selon la TD. La Banque Toronto-Dominion a revu à la baisse ses perspectives pour le marché immobilier canadien en 2026 et prévoit une baisse des ventes de maisons de 5 pour cent, alors que la hausse des rendements obligataires aura des conséquences néfastes.",
+      "sources": [
+        "Financial Post — fiabilité 6/10"
+      ],
+      "url": "https://financialpost.com/real-estate/canadian-housing-sales-fall-5-2026-td",
+      "published_at": "2026-09-29T14:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le thème de la journée de communication du pape Léon met en lumière les risques de « l’économie de l’attention » à l’ère du clickbait. Pour communiquer à l’ère du « clickbait », nous sommes appelés à « faire attention » et à retrouver une attention véritablement saine », a déclaré aujourd’hui le Dicastère pour la communication.",
+      "sources": [
+        "America Magazine — fiabilité 6/10"
+      ],
+      "url": "https://www.americamagazine.org/news/2026/09/29/pope-theme-attention-economy/",
+      "published_at": "2026-09-29T14:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Argentine affiche un excédent de compte courant de 2,21 milliards de dollars au deuxième trimestre. BUENOS AIRES, 29 septembre (Reuters) - Le gouvernement argentin a enregistré un excédent de compte courant de 2,21 milliards de dollars pour le deuxième trimestre 2026, contre un déficit de 2,45 milliards de dollars enregistré un an…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/argentina-posts-2-21-billion-current-account-surplus-for-second-quarter/ar-AA2ddWom",
+      "published_at": "2026-09-29T14:11:45+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les règles automobiles du président Donald Trump (États-Unis) promettent une réduction de 1 300 dollars, mais les régulateurs ont estimé jusqu'à 1 431 dollars de plus sur l'essence. La Maison Blanche affirme que l'annulation des règles d'économie de carburant entraînera une réduction de 1 300 dollars sur les voitures neuves. Un CPA explique pourquoi des factures de gaz plus élevées pourraient effacer ces économies au fil du temps.",
+      "sources": [
+        "Money Talks News via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/general/trump-s-car-rules-promise-1-300-off-but-regulators-estimated-up-to-1-431-more-in-gas/vi-AA2dcUZe",
+      "published_at": "2026-09-29T13:08:14+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Ukraine - La guerre en direct : +++ 21:18 La Russie réduit les budgets consacrés à l'éducation, à la santé et aux services sociaux afin d'augmenter ses armements +++. Berlin (Allemagne), Washington, Bruxelles – partout. Ntv rend compte de tous les lieux importants de politique intérieure et étrangère.",
+      "sources": [
+        "n-tv.de — fiabilité 6/10"
+      ],
+      "url": "https://www.n-tv.de/politik/21-18-Fuer-dickes-Ruestungsplus-streicht-Russland-Geld-fuer-Bildung-Gesundheit-und-Soziales-zusammen-id30859357.html",
+      "published_at": "2026-09-29T21:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Haïti"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Haïti - Économie : Le FMI souligne la situation «exceptionnellement difficile» d’Haïti. Le 28 septembre 2026 les services du FMI et les autorités haïtiennes sont parvenus à un accord au titre de la quatrième revue du programme de référence, sous réserve de l’approbation par la direction …",
+      "sources": [
+        "HaitiLibre — fiabilité 6/10"
+      ],
+      "url": "https://www.haitilibre.com/article-48549-haiti-economie-le-fmi-souligne-la-situation-exceptionnellement-difficile-d-haiti.html",
+      "published_at": "2026-09-29T08:51:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
