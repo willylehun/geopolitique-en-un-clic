@@ -1178,7 +1178,15 @@ def google_rss_query(query):
         except: continue
         if dt.tzinfo is None: dt=dt.replace(tzinfo=UTC)
         title,fallback=clean_title(title_el.text or ""); src=(src_el.text if src_el is not None else fallback) or fallback
-        if not trusted_source(src): continue
+        # Ne pas exclure un média local/étranger simplement parce qu'il n'est pas
+        # dans SOURCE_LABELS. La liste sert uniquement à prioriser les sources connues ;
+        # la pertinence est décidée ensuite par l'analyse du contenu.
+        if not (src or "").strip():
+            continue
+        if trusted_source(src):
+            DISCOVERY_STATS["google_sources_connues"]+=1
+        else:
+            DISCOVERY_STATS["google_sources_non_referencees"]+=1
         out.append({"title":title,"source":src,"date":dt,"url":link_el.text if link_el is not None else "","description":strip_html_text(desc_el.text if desc_el is not None else "")})
     return out
 
