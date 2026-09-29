@@ -414,6 +414,12 @@ for item in news:
           "source":(item.get("sources") or [""])[0]
         }
         low=fold(item.get("summary",""))
+        if any(marker in low for marker in ("resume et diffusions","programme tv","programmetv.")):
+            continue
+        parties=set(item.get("party_names",[]))
+        if parties and parties<=GENERIC_PARTIES and not item.get("candidate_ids"):
+            if not all_entity_matches(pseudo,entities):
+                continue
         anecdotal=("avec son bebe","bebe de 8 jours","retient ses larmes")
         ceremonial=("commemoration","hommage aux fusilles","anniversaire historique")
         substantive=("presidentielle","2027","programme","proposition","campagne","debat","sondage","controverse","plainte","alliance","ralliement")
