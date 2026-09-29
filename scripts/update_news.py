@@ -751,6 +751,13 @@ class ArticleHTMLExtractor(HTMLParser):
                     self.paragraphs.append(value)
                 self._p_parts=[]
 
+def article_detail_budget_exhausted(existing=False):
+    if existing:
+        budget=max(1,int(os.getenv("EXISTING_DETAIL_BUDGET","6") or "6"))
+        return EXISTING_DETAIL_USED>=budget
+    budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","96") or "96"))
+    return ARTICLE_DETAIL_USED>=budget
+
 def fetch_article_detail(url, existing=False):
     """Récupère une description ou les premiers paragraphes, avec budget strict pour protéger la veille."""
     global ARTICLE_DETAIL_USED,EXISTING_DETAIL_USED
@@ -763,7 +770,7 @@ def fetch_article_detail(url, existing=False):
             return ""
         EXISTING_DETAIL_USED+=1
     else:
-        budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","48") or "48"))
+        budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","96") or "96"))
         if ARTICLE_DETAIL_USED>=budget:
             return ""
         ARTICLE_DETAIL_USED+=1
@@ -803,10 +810,15 @@ def fetch_article_detail(url, existing=False):
         detail=" ".join(unique[:3])
         detail=re.sub(r"\s+"," ",detail).strip()[:1200]
         ARTICLE_DETAIL_CACHE[url]=detail
+        if detail:
+            DISCOVERY_STATS["contenus_recuperes"]+=1
+        else:
+            DISCOVERY_STATS["contenus_vides"]+=1
         return detail
     except Exception as exc:
         print("ARTICLE DETAIL",url,exc,file=sys.stderr)
         ARTICLE_DETAIL_CACHE[url]=""
+        DISCOVERY_STATS["contenus_inaccessibles"]+=1
         return ""
 
 def sentence_words(text):
@@ -893,6 +905,9 @@ def article_summary(art, meta=None):
 
     detail=(art.get("description") or "").strip()
     if not detail_is_substantive(title,detail):
+        if article_detail_budget_exhausted():
+            note_rejection("budget_analyse_epuise",title,url)
+            return None
         detail=fetch_article_detail(url)
     if not detail_is_substantive(title,detail):
         note_rejection("contenu_indisponible",title,url)
