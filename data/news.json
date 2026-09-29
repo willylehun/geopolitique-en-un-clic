@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T00:09:40.821817+02:00",
+  "generated_at": "2026-09-30T00:19:50.704893+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -604,9 +604,9 @@
         "Reuters"
       ],
       "countries": [
-        "Éthiopie",
         "Afrique du Sud",
-        "Égypte"
+        "Égypte",
+        "Éthiopie"
       ]
     },
     {
@@ -654,9 +654,9 @@
         "Reuters"
       ],
       "countries": [
+        "Mali",
         "Ghana",
-        "Burkina Faso",
-        "Mali"
+        "Burkina Faso"
       ]
     },
     {
@@ -672,15 +672,15 @@
         "Reuters"
       ],
       "countries": [
-        "Ghana",
         "Ouganda",
-        "Zambie"
+        "Zambie",
+        "Ghana"
       ]
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "International"
       ],
       "period": "day",
@@ -692,8 +692,8 @@
         "Reuters"
       ],
       "countries": [
-        "Djibouti",
-        "Yémen"
+        "Yémen",
+        "Djibouti"
       ]
     },
     {
@@ -764,8 +764,8 @@
     },
     {
       "regions": [
-        "Océanie",
-        "Asie"
+        "Asie",
+        "Océanie"
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
@@ -776,8 +776,8 @@
         "Reuters"
       ],
       "countries": [
-        "Nouvelle-Zélande",
-        "Inde"
+        "Inde",
+        "Nouvelle-Zélande"
       ]
     },
     {
@@ -2158,8 +2158,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
@@ -2177,8 +2177,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Danemark",
-        "États-Unis"
+        "États-Unis",
+        "Danemark"
       ]
     },
     {
@@ -3582,8 +3582,8 @@
         "Europe"
       ],
       "countries": [
-        "Lituanie",
-        "Russie"
+        "Russie",
+        "Lituanie"
       ],
       "period": "day",
       "bucket": "15 septembre 2026",
@@ -3640,11 +3640,11 @@
         "Afrique"
       ],
       "countries": [
-        "Ghana",
-        "Kenya",
         "Nigeria",
         "Ouganda",
-        "Zambie"
+        "Zambie",
+        "Ghana",
+        "Kenya"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
@@ -3704,8 +3704,8 @@
         "Asie"
       ],
       "countries": [
-        "Afghanistan",
-        "Pakistan"
+        "Pakistan",
+        "Afghanistan"
       ],
       "period": "day",
       "bucket": "21 septembre 2026",
@@ -3746,11 +3746,11 @@
         "Asie"
       ],
       "countries": [
-        "Soudan",
         "Algérie",
         "Libye",
         "Mali",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Soudan"
       ],
       "period": "day",
       "bucket": "10 septembre 2026",
@@ -3871,8 +3871,8 @@
         "International"
       ],
       "countries": [
-        "Bahamas",
-        "États-Unis"
+        "États-Unis",
+        "Bahamas"
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
@@ -3969,9 +3969,9 @@
         "International"
       ],
       "countries": [
+        "Russie",
         "Biélorussie",
-        "Lituanie",
-        "Russie"
+        "Lituanie"
       ],
       "period": "day",
       "bucket": "21 septembre 2026",
@@ -5847,12 +5847,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "countries": [
-        "Portugal",
-        "États-Unis"
+        "États-Unis",
+        "Portugal"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -5926,12 +5926,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Europe"
       ],
       "countries": [
-        "Portugal",
-        "Venezuela"
+        "Venezuela",
+        "Portugal"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6312,8 +6312,8 @@
         "Asie"
       ],
       "countries": [
-        "Afghanistan",
-        "Pakistan"
+        "Pakistan",
+        "Afghanistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -7792,13 +7792,13 @@
         "International"
       ],
       "countries": [
-        "Géorgie",
-        "Turkménistan",
         "Azerbaïdjan",
         "Irak",
         "Oman",
         "Émirats arabes unis",
-        "États-Unis"
+        "États-Unis",
+        "Géorgie",
+        "Turkménistan"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -10443,8 +10443,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Népal",
-        "Inde"
+        "Inde",
+        "Népal"
       ]
     },
     {
@@ -11715,8 +11715,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Indonésie",
-        "Singapour"
+        "Singapour",
+        "Indonésie"
       ]
     },
     {
@@ -12292,8 +12292,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Moldavie",
-        "Russie"
+        "Russie",
+        "Moldavie"
       ]
     },
     {
@@ -12506,12 +12506,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Géorgie",
-        "Russie"
+        "Russie",
+        "Géorgie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -12713,9 +12713,9 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Népal",
         "Chine",
-        "Inde"
+        "Inde",
+        "Népal"
       ]
     },
     {
@@ -14096,8 +14096,8 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Costa Rica",
-        "Haïti"
+        "Haïti",
+        "Costa Rica"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -14151,12 +14151,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "countries": [
-        "Chypre",
-        "Arménie"
+        "Arménie",
+        "Chypre"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -16736,16 +16736,16 @@
     },
     {
       "regions": [
-        "Afrique",
         "Europe",
         "Amérique du Nord",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "countries": [
-        "Rwanda",
         "Allemagne",
         "Haïti",
-        "Qatar"
+        "Qatar",
+        "Rwanda"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -21281,9 +21281,9 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Afrique"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -21297,9 +21297,9 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Kenya",
         "Chine",
-        "États-Unis"
+        "États-Unis",
+        "Kenya"
       ]
     },
     {
@@ -22542,8 +22542,8 @@
         "Asie"
       ],
       "countries": [
-        "Ouzbékistan",
-        "Azerbaïdjan"
+        "Azerbaïdjan",
+        "Ouzbékistan"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -24768,8 +24768,8 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Afrique"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -24783,8 +24783,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Tchad",
-        "États-Unis"
+        "États-Unis",
+        "Tchad"
       ]
     },
     {
@@ -25730,8 +25730,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Népal",
-        "Inde"
+        "Inde",
+        "Népal"
       ]
     },
     {
@@ -26327,8 +26327,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -26342,8 +26342,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Irlande",
-        "Israël"
+        "Israël",
+        "Irlande"
       ]
     },
     {
