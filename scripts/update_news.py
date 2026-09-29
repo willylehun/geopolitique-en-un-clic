@@ -1205,7 +1205,11 @@ def global_country_discovery(start_date,end_date,countries):
     # GDELT est interrogé séquentiellement et cadencé : les appels parallèles précédents
     # provoquaient des 429 puis coupaient la principale source de liens directs.
     if not GDELT_DISABLED:
-        for q in queries:
+        gdelt_global_queries=[
+          "(geopolitics OR diplomacy OR sanctions OR global economy OR security)",
+          *MAJOR_NEWS_QUERIES,
+        ]
+        for q in gdelt_global_queries:
             try: articles.extend(gdelt_query(q,150,start_date,end_date))
             except Exception as e: print("GDELT GLOBAL",e,file=sys.stderr)
     articles=prioritize_articles(articles,start_date,end_date)
@@ -1259,6 +1263,8 @@ def country_backfill(start_date,end_date,state):
         countries=(ordered+ordered)[offset:offset+min(batch_size,len(ordered))]
     else:
         countries=[]
+    state["last_targeted_countries"]=list(countries)
+    state["last_targeted_count"]=len(countries)
     # Un budget couvre tout le lot : Google prend automatiquement le relais lorsque GDELT est limité.
     google_budget=max(0,int(os.getenv("GOOGLE_FALLBACK_BUDGET",str(batch_size)) or str(batch_size)))
     for country in countries:
