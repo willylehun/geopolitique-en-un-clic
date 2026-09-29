@@ -521,11 +521,12 @@ def article_candidate_priority(art):
     title=(art.get("title") or "").strip()
     has_detail=detail_is_substantive(title,art.get("description") or "")
     source_ok=trusted_source(art.get("source") or "")
+    direct_url=not is_google_news_url(art.get("url",""))
     try:
         ts=art.get("date").timestamp()
     except Exception:
         ts=0
-    return (0 if has_detail else 1,-score(title),0 if source_ok else 1,-ts)
+    return (0 if has_detail else 1,0 if direct_url else 1,-score(title),0 if source_ok else 1,-ts)
 
 def prioritize_articles(articles,start_date,end_date,country=None):
     """Trie les titres avant analyse et garde une source de secours par événement."""
@@ -841,7 +842,11 @@ def decode_google_news_url(source_url):
     if source_url in GOOGLE_NEWS_URL_CACHE:
         return GOOGLE_NEWS_URL_CACHE[source_url] or source_url
 
-    budget=max(1,int(os.getenv("GOOGLE_NEWS_DECODE_BUDGET","72") or "72"))
+    budget=max(0,int(os.getenv("GOOGLE_NEWS_DECODE_BUDGET","12") or "12"))
+    if budget<=0:
+        DISCOVERY_STATS["google_decode_disabled"]+=1
+        GOOGLE_NEWS_URL_CACHE[source_url]=""
+        return source_url
     if GOOGLE_NEWS_DECODE_USED>=budget:
         DISCOVERY_STATS["google_decode_budget_epuise"]+=1
         GOOGLE_NEWS_URL_CACHE[source_url]=""
@@ -966,6 +971,10 @@ def fetch_article_detail(url, existing=False, targeted=False):
     if url in ARTICLE_DETAIL_CACHE:
         ARTICLE_DETAIL_CACHE[original_url]=ARTICLE_DETAIL_CACHE[url]
         return ARTICLE_DETAIL_CACHE[url]
+    if is_google_news_url(url):
+        ARTICLE_DETAIL_CACHE[original_url]=""
+        DISCOVERY_STATS["google_intermediaire_non_resolu"]+=1
+        return ""
     if existing:
         budget=max(1,int(os.getenv("EXISTING_DETAIL_BUDGET","6") or "6"))
         if EXISTING_DETAIL_USED>=budget:
