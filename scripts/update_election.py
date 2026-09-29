@@ -47,7 +47,7 @@ CONTROVERSY_HINTS=(
 CANDIDACY_HINTS=("candidature","candidat","retrait","retire","primaire","500 signatures","ralliement","soutien")
 
 PARTY_ALIASES={
- "Rassemblement national":["Rassemblement national","RN"],
+ "Rassemblement national":["Rassemblement national","RN","Jordan Bardella"],
  "Les Républicains":["Les Républicains","LR"],
  "La France insoumise":["La France insoumise","LFI"],
  "Renaissance":["Renaissance"],
@@ -96,8 +96,8 @@ def election_context(text):
 def topic_for(text):
     low=fold(text)
     if any(fold(x) in low for x in CONTROVERSY_HINTS): return "controverse"
-    if any(fold(x) in low for x in CANDIDACY_HINTS): return "candidature"
     if any(fold(x) in low for x in PROGRAM_HINTS): return "programme"
+    if any(fold(x) in low for x in CANDIDACY_HINTS): return "candidature"
     return "actualité"
 
 def summary_from(title,description,source):
@@ -291,6 +291,41 @@ for kind,eid,name in batch:
         if row["date"]<cut30: continue
         if row_matches_entity(row,kind,eid,name):
             attach(row,[(kind,eid,name)])
+
+def news_words(text):
+    stop={"présidentielle","presidentielle","2027","edouard","édouard","marine","jordan","le","la","les","de","des","du","un","une","et","en","sur","pour","avec"}
+    return {w for w in re.findall(r"[a-zà-ÿ0-9]+",fold(text)) if len(w)>2 and w not in stop}
+
+def same_news_event(a,b):
+    if a.get("date")!=b.get("date") or a.get("topic")!=b.get("topic"):
+        return False
+    ac=set(a.get("candidate_ids",[]) or []); bc=set(b.get("candidate_ids",[]) or [])
+    ap=set(a.get("party_names",[]) or []); bp=set(b.get("party_names",[]) or [])
+    if not ((ac and bc and ac&bc) or (ap and bp and ap&bp)):
+        return False
+    wa=news_words(a.get("summary","")); wb=news_words(b.get("summary",""))
+    if not wa or not wb: return False
+    inter=len(wa&wb)
+    return inter/max(1,min(len(wa),len(wb)))>=0.55
+
+deduped=[]
+for item in news:
+    merged=False
+    for kept in deduped:
+        if same_news_event(kept,item):
+            kept["sources"]=list(dict.fromkeys((kept.get("sources",[]) or [])+(item.get("sources",[]) or [])))
+            urls=list(dict.fromkeys((kept.get("urls",[]) or [])+([kept.get("url")] if kept.get("url") else [])+([item.get("url")] if item.get("url") else [])))
+            if urls: kept["urls"]=urls
+            if len(item.get("summary",""))>len(kept.get("summary","")):
+                kept["summary"]=item.get("summary","")
+            kept["candidate_ids"]=list(dict.fromkeys((kept.get("candidate_ids",[]) or [])+(item.get("candidate_ids",[]) or [])))
+            kept["party_names"]=list(dict.fromkeys((kept.get("party_names",[]) or [])+(item.get("party_names",[]) or [])))
+            merged=True
+            break
+    if not merged:
+        deduped.append(item)
+news=deduped
+data["news"]=news
 
 # Archivage permanent : un candidat sorti reste conservé mais n'est plus recherché activement.
 for c in data.get("candidates",[]):
