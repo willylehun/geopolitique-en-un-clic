@@ -38,8 +38,8 @@ IMPACT={
  10:["guerre nucléaire","guerre mondiale","emploi de l’arme nucléaire","attaque nucléaire","invasion générale","coup d’état réussi","renversement du gouvernement","nuclear war","world war"],
  9:["guerre","invasion","frappe aérienne","frappe de missile","attaque militaire","cessez-le-feu","mobilisation militaire","état d’urgence","coup d’état","sanctions internationales","défaut souverain","séisme majeur","missile","airstrike","ceasefire","military attack","sanctions"],
  8:["conflit armé","élection présidentielle","élections législatives","élection nationale","inflation","taux directeur","banque centrale","récession","embargo","sommet international","accord de paix","traité","crise politique","crise diplomatique","crise énergétique","pétrole","gaz","défense","sécurité nationale","tarifs douaniers","droits de douane","réduction tarifaire","réductions tarifaires","conflict","election","interest rate","central bank","recession","summit","embargo","oil","gas"],
- 7:["gouvernement","premier ministre","parlement","diplomatie","commerce international","budget de l’état","manifestation","frontière","migration","prix de l’énergie","marché de l’énergie","politique énergétique","sécurité énergétique","production électrique","réseau électrique","électricité","énergies renouvelables","climat","inondation majeure","feu de forêt","catastrophe naturelle","cyberattaque","technologie stratégique","régulation de l’intelligence artificielle","loi sur l’intelligence artificielle","semi-conducteur","puces électroniques","accord commercial","government","prime minister","parliament","diplomacy","trade","energy prices","energy market","energy policy","energy security","electricity","renewable energy","protest","border","climate","major flood","wildfire","cyberattack","ai regulation","semiconductor","chip export"],
- 6:["économie","marché","investissement","exportation","importation","santé publique","épidémie","infrastructure","transport maritime","agriculture","justice","economic","market","investment","export","import","health","disease","infrastructure","shipping","agriculture"],
+ 7:["diplomatie","commerce international","frontière internationale","migration internationale","prix de l’énergie","marché de l’énergie","politique énergétique","sécurité énergétique","production électrique","réseau électrique","électricité","énergies renouvelables","climat","inondation majeure","feu de forêt","catastrophe naturelle","cyberattaque","technologie stratégique","régulation de l’intelligence artificielle","loi sur l’intelligence artificielle","semi-conducteur","puces électroniques","accord commercial","diplomacy","international trade","international border","international migration","energy prices","energy market","energy policy","energy security","electricity","renewable energy","climate","major flood","wildfire","cyberattack","ai regulation","semiconductor","chip export"],
+ 6:["gouvernement","premier ministre","parlement","budget de l’état","manifestation","migration","frontière","économie","marché","investissement","exportation","importation","santé publique","épidémie","infrastructure","transport maritime","agriculture","justice","government","prime minister","parliament","budget","protest","migration","border","economic","market","investment","export","import","health","disease","infrastructure","shipping","agriculture"],
  5:["politique locale","administration","entreprise","société","politics","business","society"]
 }
 CATEGORIES=[("Conflit",["war","missile","strike","attack","military","ceasefire","invasion"]),("Économie",["economy","inflation","gdp","market","rate","bank","budget","debt"]),("Énergie",["oil","gas","energy","lng","opec","pipeline"]),("Diplomatie",["summit","diplomacy","talks","treaty","sanctions"]),("Politique",["election","government","president","minister","parliament"]),("Sécurité",["security","terror","border","cyber"]),("Climat",["climate","flood","wildfire","storm","earthquake"]),("Technologie",["technology","artificial intelligence"," ai ","semiconductor","chip"])]
@@ -359,6 +359,26 @@ def is_useful_article(text):
     if t.strip().startswith("que fera ") and " si " in t and not any(x in t for x in decision_terms):
         return False
 
+    # Les chroniques boursières quotidiennes ne deviennent pas géopolitiques parce
+    # qu'elles citent le pétrole ou les rendements obligataires.
+    market_roundup_noise=(
+      "l’ambiance à wall street","l'ambiance à wall street","les bourses du jour",
+      "wall street est mitigée","la plupart des sociétés cotées","séance boursière",
+      "actions technologiques","nasdaq composite"
+    )
+    if any(x in t for x in market_roundup_noise) and not any(x in t for x in (
+        "sanction","embargo","banque centrale","réserve fédérale","fed","taux directeur",
+        "défaut souverain","crise financière","droits de douane","tarifs douaniers"
+    )):
+        return False
+
+    # Un incident mortel sans cause ni portée publique claire ne suffit pas.
+    incomplete_incident=("incident a eu lieu","incident s'est produit","incident s’est produit")
+    if any(x in t for x in incomplete_incident) and any(x in t for x in ("tués","morts","décès")) and not any(x in t for x in (
+        "attaque","attentat","explosion","fusillade","combat","conflit","terror","accident","enquête","armée"
+    )):
+        return False
+
     # Un éditorial/opinion n'est utile que s'il décrit aussi un fait concret, une décision ou une évolution.
     opinion=(" éditorial "," editorial "," opinion "," chronique "," tribune ")
     informative=(
@@ -415,6 +435,8 @@ def title_rejection_reason(title):
     obvious_noise=(
       "coachella","festival de musique","livestream","diffusion en direct de coachella",
       "concert","tournée musicale","billetterie","programme tv","soap opera","spoilers",
+      "théâtre","theatre","mise en scène","spectateur","comédie noire","pièce de théâtre","ubu roi",
+      "service de rencontres","firstdate","célibataires","application de rencontre","dating service",
       "horoscope","recette","mode","sneakers","célébrité","people","shakira","the weeknd",
       "football","uefa","mlb","nba","championnat","match de","buteur","formule 1",
       "croisière","zoo","pandas","concours littéraire","la casa de los famosos"
