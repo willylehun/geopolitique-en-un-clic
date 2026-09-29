@@ -1,18 +1,44 @@
 {
-  "country_cursor": 1282,
+  "country_cursor": 1294,
   "day_cursor": 40,
-  "runs": 123,
-  "last_run_at": "2026-09-29T19:46:59.977581+02:00",
+  "runs": 124,
+  "last_run_at": "2026-09-29T19:56:59.820781+02:00",
   "manual_trigger_at": "2026-09-25T14:46:00.018Z",
   "last_rejection_stats": {
-    "contenu_indisponible": 17
+    "budget_analyse_epuise": 78,
+    "contenu_hors_sujet": 4,
+    "contenu_indisponible": 6,
+    "fiche_boursiere": 1,
+    "pas_de_signal_geopolitique": 57,
+    "sport_divertissement_loisirs": 5,
+    "titre_trop_court": 2,
+    "titre_trop_pauvre": 43
   },
   "last_discovery_stats": {
-    "titres_candidats": 45
+    "articles_valides": 29,
+    "contenus_inaccessibles": 4,
+    "contenus_recuperes": 91,
+    "contenus_vides": 1,
+    "titres_candidats": 205
   },
-  "last_content_fetches": 14,
+  "last_content_fetches": 96,
   "last_gdelt_429_count": 6,
   "last_gdelt_disabled": true,
   "last_google_disabled": false,
-  "last_generated_count": 0
+  "last_generated_count": 8,
+  "last_targeted_countries": [
+    "Namibie",
+    "Niger",
+    "Nigeria",
+    "Ouganda",
+    "Rwanda",
+    "République centrafricaine",
+    "Sao Tomé-et-Principe",
+    "Seychelles",
+    "Sierra Leone",
+    "Somalie",
+    "Soudan",
+    "Soudan du Sud"
+  ],
+  "last_targeted_count": 12
 }

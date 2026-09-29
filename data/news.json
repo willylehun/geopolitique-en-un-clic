@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:46:59.977581+02:00",
+  "generated_at": "2026-09-29T19:56:59.820781+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -27266,10 +27266,11 @@
       "sources": [
         "timescall.com",
         "bnnbloomberg.ca",
-        "akronnewsreporter.com"
+        "akronnewsreporter.com",
+        "coloradohometownweekly.com"
       ],
       "url": "https://www.timescall.com/2026/09/29/consumer-confidence-september/",
-      "published_at": "2026-09-29T19:15:00+02:00",
+      "published_at": "2026-09-29T19:30:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -27837,12 +27838,13 @@
       "bucket": "29 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Qu'est-ce qui est interdit ? La guerre commerciale entre les États-Unis et le Canada frappe l'alcool, les produits laitiers et les motos. La nouvelle interdiction du président Donald Trump (États-Unis) sur environ 1 milliard de dollars de produits canadiens marque une nouvelle escalade avec l'allié de longue date des États-Unis",
+      "summary": "Qu'est-ce qui est interdit ? La guerre commerciale entre les États-Unis et le Canada frappe l'alcool, les produits laitiers et les motos. La nouvelle interdiction du président Donald Trump (États-Unis) sur environ 1 milliard de dollars de produits canadiens marque une nouvelle escalade avec l'allié de longue date des États-Unis.",
       "sources": [
-        "fox10tv.com"
+        "fox10tv.com",
+        "wandtv.com"
       ],
       "url": "https://www.fox10tv.com/2026/09/29/motorcycles-booze-us-ban-1-billion-worth-canadian-imports-goes-into-effect/",
-      "published_at": "2026-09-29T19:00:00+02:00",
+      "published_at": "2026-09-29T19:30:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -27961,13 +27963,14 @@
       "bucket": "29 septembre 2026",
       "score": 8,
       "category": "Économie",
-      "summary": "La confiance des consommateurs américains s’affaiblit à mesure que les craintes inflationnistes augmentent. Les Américains sont devenus plus préoccupés par leurs finances et la hausse des prix en septembre, poussant la confiance des consommateurs à son plus bas niveau en quatre mois alors que les anticipations d'inflation augmentaient",
+      "summary": "La confiance des consommateurs américains s’affaiblit à mesure que les craintes inflationnistes augmentent. Les Américains sont devenus plus préoccupés par leurs finances et la hausse des prix en septembre, poussant la confiance des consommateurs à son plus bas niveau en quatre mois alors que les anticipations d'inflation augmentaient.",
       "sources": [
         "shanghainews.net",
-        "saltlakecitysun.com"
+        "saltlakecitysun.com",
+        "californiatelegraph.com"
       ],
       "url": "http://www.shanghainews.net/news/279331932/us-inflation-expectations-climb-as-consumer-sentiment-falls",
-      "published_at": "2026-09-29T18:45:00+02:00",
+      "published_at": "2026-09-29T19:30:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -28328,6 +28331,102 @@
       "content_enriched": true,
       "countries": [
         "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Réduire les factures d'électricité et de gaz | 30% de réduction et prix bloqué pendant deux ans. À partir du 1er octobre, un énergéticien proposera une réduction de 30 % sur les coûts d’électricité et de gaz par rapport à son offre à prix fixe, qui restera inchangée pendant deux ans.",
+      "sources": [
+        "zazoom.it"
+      ],
+      "url": "https://www.zazoom.it/2026-09-29/taglio-delle-bollette-di-luce-e-gas-sconto-del-30-e-prezzo-bloccato-per-due-anni/19738094/",
+      "published_at": "2026-09-29T19:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Kitchener lance un plan pour soutenir les entreprises locales au sein de l'U. S. Guerre commerciale.",
+      "sources": [
+        "cbc.ca"
+      ],
+      "url": "https://www.cbc.ca/news/canada/kitchener-waterloo/kitchener-launches-plan-to-support-local-businesses-amid-u-s-trade-war-9.7362309",
+      "published_at": "2026-09-29T19:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "U. S. Les forces américaines devraient quitter l'Irak après leur première arrivée en 2003. Les forces américaines devraient se retirer de leurs dernières bases en Irak d'ici mercredi, un départ célébré comme une victoire par l'Iran et ses alliés qui ont désormais une profonde influence dans le pays où 4 500 Américains sont morts pendant plus de deux décennies de guerre.",
+      "sources": [
+        "cbc.ca"
+      ],
+      "url": "https://www.cbc.ca/news/world/iraq-us-forces-withrdrawal-9.7362428",
+      "published_at": "2026-09-29T19:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Un nouveau chapitre pour l'aviation allemande : Deutsche Aircraft ouvre la chaîne d'assemblage final du D328eco® à Leipzig. Légende de l'image de presse : (de gauche à droite) Nico Neumann, PDG de Deutsche Aircraft, Dirk Panter, ministre d'État chargé de l'économie, du travail, de l'énergie et de la protection du climat de l'État libre de Saxe, Marie-Christine von Hahn, directrice générale de l'Association des industries aérospatiales allemandes (BDLI) et Christian Hirte, secrétaire d'État parlementaire auprès du ministre fédéral des transports lors de la cérémonie d'ouverture officielle de la chaîne d'assemblage final (FAL) de Deutsche Aircraft à Leipzig/Halle.",
+      "sources": [
+        "manilatimes.net"
+      ],
+      "url": "https://www.manilatimes.net/2026/09/30/tmt-newswire/globenewswire/a-new-chapter-for-german-aviation-deutsche-aircraft-opens-d328eco-final-assembly-line-in-leipzig/2435524",
+      "published_at": "2026-09-29T19:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "L’IA a le potentiel de contribuer à réduire l’inflation : BCE | GDA – Groupe de journaux américain. La présidente de la Banque centrale européenne (BCE), Christine Lagarde, a assuré que l'intelligence artificielle avait le potentiel de contribuer à réduire les pressions inflationnistes à long terme, même si son impact final dépendra de son degré de pénétration dans l'économie européenne, où il y a encore « du travail à faire ».",
+      "sources": [
+        "gda.com"
+      ],
+      "url": "https://gda.com/detalle-de-la-noticia/?article=6191467",
+      "published_at": "2026-09-29T19:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
         "États-Unis"
       ]
     },
