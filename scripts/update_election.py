@@ -97,6 +97,10 @@ def election_context(text):
     low=fold(text)
     return any(fold(x) in low for x in POLITICAL_HINTS)
 
+def campaign_activity_context(text):
+    low=fold(text)
+    return any(fold(x) in low for x in CAMPAIGN_ACTIVITY_HINTS)
+
 def topic_for(text):
     low=fold(text)
     if any(fold(x) in low for x in CONTROVERSY_HINTS):
@@ -181,7 +185,11 @@ def row_matches_entity(row,kind,eid,name):
     if not any(has_phrase(title,a) for a in aliases):
         return False
     # Évite « Horizons » (livres, associations…), Renaissance artistique, etc.
-    return election_context(title)
+    return election_context(title) or campaign_activity_context(title)
+
+def all_entity_matches(row, entities):
+    """Relie un même article à tous les candidats/partis explicitement cités."""
+    return [e for e in entities if row_matches_entity(row,*e)]
 
 def row_is_useful(row):
     title=clean_title(row.get("title",""),row.get("source",""))
@@ -277,7 +285,7 @@ for i in range(0,len(entities),chunk_size):
             pmap[eid]["last_checked_at"]=now.isoformat()
     for row in rows:
         if row["date"]<cut3: continue
-        matches=[e for e in chunk if row_matches_entity(row,*e)]
+        matches=all_entity_matches(row,entities)
         if matches: attach(row,matches)
 
 # Trois filets thématiques transversaux : programme, controverses, candidatures.
@@ -308,10 +316,26 @@ for kind,eid,name in batch:
     for row in rows:
         if row["date"]<cut30: continue
         if row_matches_entity(row,kind,eid,name):
-            attach(row,[(kind,eid,name)])
+            matches=all_entity_matches(row,entities)
+            attach(row,matches or [(kind,eid,name)])
 
+# Réparer les rattachements multi-candidats sur les actualités récentes déjà stockées.
 for item in news:
     item["topic"]=topic_for(item.get("summary",""))
+    try:
+        item_dt=datetime.fromisoformat(item.get("date","")).replace(tzinfo=PARIS)
+    except Exception:
+        item_dt=None
+    if item_dt and item_dt>=cut30:
+        pseudo={"title":item.get("summary","")}
+        matches=all_entity_matches(pseudo,entities)
+        for kind,eid,name in matches:
+            if kind=="candidate":
+                if eid not in item.setdefault("candidate_ids",[]): item["candidate_ids"].append(eid)
+                party=cmap.get(eid,{}).get("party")
+                if party and party not in item.setdefault("party_names",[]): item["party_names"].append(party)
+            elif eid not in item.setdefault("party_names",[]):
+                item["party_names"].append(eid)
 
 def news_words(text):
     stop={"présidentielle","presidentielle","2027","edouard","édouard","marine","jordan","le","la","les","de","des","du","un","une","et","en","sur","pour","avec"}
@@ -359,6 +383,11 @@ def news_summary_quality(text):
             score-=80
     return score
 
+EVENT_ANCHORS=(
+ "retraite","antisémit","antisemit","logement","batimat","sénatoriales","senatoriales",
+ "lycé","lycee","ukraine","edf","nucléaire","nucleaire","immigration","climat","intelligence artificielle"
+)
+
 def same_news_event(a,b):
     if a.get("date")!=b.get("date"):
         return False
@@ -377,8 +406,11 @@ def same_news_event(a,b):
     containment=inter/max(1,min(len(wa),len(wb)))
     if containment>=0.55:
         return True
-    subjects=("retraite","immigration","écologie","ecologie","économie","economie","santé","sante","éducation","education","sécurité","securite","justice","climat","agriculture","intelligence artificielle")
     ta=fold(a.get("summary","")); tb=fold(b.get("summary",""))
+    shared_anchor=any(fold(x) in ta and fold(x) in tb for x in EVENT_ANCHORS)
+    if shared_anchor and containment>=0.18:
+        return True
+    subjects=("retraite","immigration","écologie","ecologie","économie","economie","santé","sante","éducation","education","sécurité","securite","justice","climat","agriculture","intelligence artificielle")
     shared_subject=any(fold(x) in ta and fold(x) in tb for x in subjects)
     return shared_subject and containment>=0.35
 
