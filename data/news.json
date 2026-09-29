@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:17:51.920219+02:00",
+  "generated_at": "2026-09-29T20:21:58.159255+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -811,19 +811,20 @@
     },
     {
       "regions": [
-        "Océanie",
         "Asie",
+        "Océanie",
         "International"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "L’Australie renonce à rejoindre une initiative de sanctions commerciales visant des entreprises israéliennes liées à la Cisjordanie",
+      "summary": "L’Australie renonce à rejoindre une initiative de sanctions commerciales visant des entreprises israéliennes liées à la Cisjordanie (Palestine)",
       "sources": [
         "ABC News"
       ],
       "countries": [
+        "Palestine",
         "Australie",
         "Jordanie"
       ]
@@ -1495,8 +1496,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Pologne",
-        "France"
+        "France",
+        "Pologne"
       ]
     },
     {
@@ -1636,7 +1637,7 @@
       "bucket": "20 septembre 2026",
       "score": 4,
       "category": "Économie",
-      "summary": "Les relations entre Londres et Israël se dégradent autour de la question des colonies en Cisjordanie",
+      "summary": "Les relations entre Londres et Israël se dégradent autour de la question des colonies en Cisjordanie (Palestine)",
       "sources": [
         "The New York Times"
       ],
@@ -1644,6 +1645,7 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
+        "Palestine",
         "Israël",
         "Jordanie",
         "Royaume-Uni"
@@ -1838,13 +1840,16 @@
       "bucket": "20 septembre 2026",
       "score": 9,
       "category": "Conflit",
-      "summary": "Ed Sheeran prend position sur la guerre à Gaza après l’exclusion de Macklemore de sa tournée",
+      "summary": "Ed Sheeran prend position sur la guerre à Gaza (Palestine) après l’exclusion de Macklemore de sa tournée",
       "sources": [
         "The New York Times"
       ],
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTk9KUWZxZ09GR1Znb3ZVWmhZQkUxbWc3RE1BTERha3VHbkJyNGx4WHZ2V2xvYUF5WHVHekpSZWk4ZUd1WUNWS3JqY1BCZ3NJdjZHbXdlcnJDb25XdXptbmpTdEhTWnFEWGNSNHk0Ym1VemJaQzhlbVdZYnp4aHd0QUNwS3pkZHhubUE?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "Palestine"
+      ]
     },
     {
       "regions": [
@@ -2930,14 +2935,14 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "8 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Onze pays européens et le Canada sanctionnent la politique d’Israël en Cisjordanie qui menace de « détruire la solution à deux Etats »",
+      "summary": "Onze pays européens et le Canada sanctionnent la politique d’Israël en Cisjordanie (Palestine) qui menace de « détruire la solution à deux Etats »",
       "sources": [
         "Le Monde.fr"
       ],
@@ -2945,6 +2950,7 @@
       "published_at": "2026-09-08T09:00:00+02:00",
       "origin": "rss",
       "countries": [
+        "Palestine",
         "Canada",
         "Israël",
         "Jordanie"
@@ -2960,7 +2966,7 @@
       "bucket": "8 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "Consulat du Royaume-Uni fermé, Jeremy Corbyn interdit d’entrée : Israël répond à l’annonce de sanctions contre ses colonies en Cisjordanie",
+      "summary": "Consulat du Royaume-Uni fermé, Jeremy Corbyn interdit d’entrée : Israël répond à l’annonce de sanctions contre ses colonies en Cisjordanie (Palestine)",
       "sources": [
         "Le Monde.fr"
       ],
@@ -2968,6 +2974,7 @@
       "published_at": "2026-09-08T09:00:00+02:00",
       "origin": "rss",
       "countries": [
+        "Palestine",
         "Israël",
         "Jordanie",
         "Royaume-Uni"
@@ -3028,7 +3035,7 @@
       "bucket": "9 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "Israël cible le Royaume-Uni en riposte aux sanctions sur la Cisjordanie",
+      "summary": "Israël cible le Royaume-Uni en riposte aux sanctions sur la Cisjordanie (Palestine)",
       "sources": [
         "Le Monde.fr"
       ],
@@ -3036,6 +3043,7 @@
       "published_at": "2026-09-09T09:00:00+02:00",
       "origin": "rss",
       "countries": [
+        "Palestine",
         "Israël",
         "Jordanie",
         "Royaume-Uni"
@@ -3559,14 +3567,14 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "8 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Cisjordanie occupée : 12 pays, dont la France, veulent sanctionner le commerce avec les colonies",
+      "summary": "Cisjordanie (Palestine) occupée : 12 pays, dont la France, veulent sanctionner le commerce avec les colonies",
       "sources": [
         "France 24"
       ],
@@ -3574,6 +3582,7 @@
       "published_at": "2026-09-08T09:00:00+02:00",
       "origin": "rss",
       "countries": [
+        "Palestine",
         "France",
         "Jordanie"
       ]
@@ -7057,16 +7066,18 @@
     },
     {
       "regions": [
+        "Afrique",
         "Asie"
       ],
       "countries": [
+        "Éthiopie",
         "Inde"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Etyopyanın Tigray Bölgesinde Yeniden Şiddet Patlak Verdi",
+      "summary": "Etyopyanın Tigray (Éthiopie) Bölgesinde Yeniden Şiddet Patlak Verdi",
       "sources": [
         "haberaktuel.com"
       ],
@@ -8030,13 +8041,14 @@
         "Asie"
       ],
       "countries": [
+        "Palestine",
         "Jordanie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Cisjordanie : 214 entreprises liées aux colonies israéliennes placées sur la liste de l’ONU",
+      "summary": "Cisjordanie (Palestine) : 214 entreprises liées aux colonies israéliennes placées sur la liste de l’ONU",
       "sources": [
         "Le Monde.fr"
       ],
@@ -8127,8 +8139,8 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Dominique",
-        "Haïti"
+        "Haïti",
+        "Dominique"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -13302,14 +13314,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Sommet le président Xi Jinping (Chine) et sommet le président Donald Trump (États-Unis) : quelles sont les similitudes et les différences entre les événements dont tant de choses dépendent (Bloomberg, États-Unis)",
+      "summary": "Sommet Xi et sommet le président Donald Trump (États-Unis) : quelles sont les similitudes et les différences entre les événements dont tant de choses dépendent (Bloomberg, États-Unis)",
       "sources": [
         "inosmi.ru"
       ],
@@ -13317,7 +13328,6 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "États-Unis"
       ]
     },
@@ -14431,7 +14441,7 @@
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "Sanctions contre les colonies israéliennes en Cisjordanie",
+      "summary": "Sanctions contre les colonies israéliennes en Cisjordanie (Palestine)",
       "sources": [
         "ilpost.it"
       ],
@@ -14439,6 +14449,7 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
+        "Palestine",
         "Jordanie"
       ]
     },
@@ -17758,13 +17769,16 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "« Bitter » : drame marathon à Berlin sur l’Ethiopien Assefa",
+      "summary": "« Bitter » : drame marathon à Berlin (Allemagne) sur l’Ethiopien Assefa",
       "sources": [
         "traunsteiner-tagblatt.de"
       ],
       "url": "https://www.traunsteiner-tagblatt.de/startseite_artikel,-bitter-marathondrama-in-berlin-um-aethiopierin-assefa-_arid,1018635.html",
       "published_at": "2026-09-27T13:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Allemagne"
+      ]
     },
     {
       "regions": [
@@ -18173,8 +18187,8 @@
       "published_at": "2026-09-27T13:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Pologne",
-        "France"
+        "France",
+        "Pologne"
       ]
     },
     {
@@ -19342,6 +19356,7 @@
         "Asie"
       ],
       "countries": [
+        "Palestine",
         "Israël",
         "Jordanie"
       ],
@@ -19349,7 +19364,7 @@
       "bucket": "27 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Israël : la justice reporte un appel d’offres pour un projet de colonisation en Cisjordanie, pour ne pas perturber les élections législatives",
+      "summary": "Israël : la justice reporte un appel d’offres pour un projet de colonisation en Cisjordanie (Palestine), pour ne pas perturber les élections législatives",
       "sources": [
         "Le Monde.fr"
       ],
@@ -19484,7 +19499,7 @@
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le bilan des morts palestiniens dans la guerre à Gaza dépasse les 74 000 et autres nouvelles au Moyen-Orient",
+      "summary": "Le bilan des morts palestiniens dans la guerre à Gaza (Palestine) dépasse les 74 000 et autres nouvelles au Moyen-Orient",
       "sources": [
         "yankton.net",
         "yakimaherald.com"
@@ -19492,7 +19507,9 @@
       "url": "https://www.yankton.net/news/national_ap/article_87b3f1f4-ab56-55fa-aa15-02a58ce74223.html",
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "Palestine"
+      ]
     },
     {
       "regions": [
@@ -19871,18 +19888,23 @@
       "origin": "global"
     },
     {
-      "regions": [],
+      "regions": [
+        "Asie"
+      ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "13 villages du sud-est d'Aceh submergés par des inondations",
+      "summary": "13 villages du sud-est d'Aceh (Indonésie) submergés par des inondations",
       "sources": [
         "liputan6.com"
       ],
       "url": "https://www.liputan6.com/news/read/8300763/13-desa-di-aceh-tenggara-terendam-banjir",
       "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Indonésie"
+      ]
     },
     {
       "regions": [
@@ -20031,7 +20053,7 @@
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le ministre israélien des Finances appelle à la guerre en Cisjordanie, l’Autorité palestinienne en colère",
+      "summary": "Le ministre israélien des Finances appelle à la guerre en Cisjordanie (Palestine), l’Autorité palestinienne en colère",
       "sources": [
         "international.sindonews.com"
       ],
@@ -20039,6 +20061,7 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
+        "Palestine",
         "Jordanie"
       ]
     },
@@ -20156,7 +20179,7 @@
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le ministre israélien des Finances Smotrich appelle à une guerre en Cisjordanie comme celle de Gaza",
+      "summary": "Le ministre israélien des Finances Smotrich appelle à une guerre en Cisjordanie (Palestine) comme celle de Gaza",
       "sources": [
         "sondakika.com"
       ],
@@ -20164,6 +20187,7 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
+        "Palestine",
         "Jordanie"
       ]
     },
@@ -20253,18 +20277,23 @@
       "origin": "rss"
     },
     {
-      "regions": [],
+      "regions": [
+        "Asie"
+      ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "«Participer au 7 octobre»... L'armée d'occupation annonce l'assassinat de Saher Saqr lors d'un raid dans la bande de Gaza",
+      "summary": "«Participer au 7 octobre»... L'armée d'occupation annonce l'assassinat de Saher Saqr lors d'un raid dans la bande de Gaza (Palestine)",
       "sources": [
         "almasryalyoum.com"
       ],
       "url": "https://www.almasryalyoum.com/news/details/4369215",
       "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Palestine"
+      ]
     },
     {
       "regions": [
@@ -23136,7 +23165,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Tillis le président Donald Trump (États-Unis) a commis une erreur colossale en ne soutenant pas le sénateur",
+      "summary": "Tillis Trump a commis une erreur colossale en ne soutenant pas le sénateur",
       "sources": [
         "breitbart.com"
       ],
@@ -23181,8 +23210,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Asie",
+        "Amérique du Nord",
         "Europe",
         "International"
       ],
@@ -23199,8 +23228,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Dominique",
         "Corée du Sud",
+        "Dominique",
         "Ukraine"
       ]
     },
@@ -23496,19 +23525,22 @@
     },
     {
       "regions": [
-        "Europe"
+        "Afrique"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Ethiopie : la télévision publique du Tigré frappée par un drone ( journalistes )",
+      "summary": "Ethiopie : la télévision publique du Tigré (Éthiopie) frappée par un drone ( journalistes )",
       "sources": [
         "linternaute.com"
       ],
       "url": "https://www.linternaute.com/actualite/depeches/11305867-ethiopie-la-television-publique-du-tigre-frappee-par-un-drone-journalistes/",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Éthiopie"
+      ]
     },
     {
       "regions": [
@@ -25798,7 +25830,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Propos scandaleux du ministre israélien à propos de la Cisjordanie. « Faites là-bas ce que vous avez fait à Gaza",
+      "summary": "Propos scandaleux du ministre israélien à propos de la Cisjordanie (Palestine). « Faites là-bas ce que vous avez fait à Gaza",
       "sources": [
         "bankier.pl"
       ],
@@ -25806,6 +25838,7 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
+        "Palestine",
         "Jordanie"
       ]
     },
@@ -25817,13 +25850,16 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le commandement militaire d'Aceh déroule un drapeau de 81 mètres pour l'anniversaire du TNI",
+      "summary": "Le commandement militaire d'Aceh (Indonésie) déroule un drapeau de 81 mètres pour l'anniversaire du TNI",
       "sources": [
         "en.antaranews.com"
       ],
       "url": "https://en.antaranews.com/news/433111/aceh-military-command-unrolls-81-meter-flag-for-tnis-anniversary",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Indonésie"
+      ]
     },
     {
       "regions": [
@@ -25919,13 +25955,16 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Accélérant l’intégration de l’environnement et de l’IA, la technologie chinoise de transport ferroviaire fait ses débuts à Berlin _ Oriental Fortune Network",
+      "summary": "Accélérant l’intégration de l’environnement et de l’IA, la technologie chinoise de transport ferroviaire fait ses débuts à Berlin (Allemagne) _ Oriental Fortune Network",
       "sources": [
         "finance.eastmoney.com"
       ],
       "url": "https://finance.eastmoney.com/a/202609283884547450.html",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Allemagne"
+      ]
     },
     {
       "regions": [
@@ -26125,7 +26164,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "L'Université de Maastricht suspend un étudiant de Gaza après avoir posté des allégations contre le",
+      "summary": "L'Université de Maastricht suspend un étudiant de Gaza (Palestine) après avoir posté des allégations contre le",
       "sources": [
         "nltimes.nl"
       ],
@@ -26133,7 +26172,7 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël"
+        "Palestine"
       ]
     },
     {
@@ -26332,7 +26371,7 @@
       "bucket": "27 septembre 2026",
       "score": 6,
       "category": "Économie",
-      "summary": "L'administrateur le président Donald Trump (États-Unis) va vider le carburant des voitures - normes d'économie lundi",
+      "summary": "L'administrateur Trump va vider le carburant des voitures - normes d'économie lundi",
       "sources": [
         "hindustantimes.com"
       ],
@@ -27454,14 +27493,17 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Manifestation à Dijon : Du fric pour lhôpital , pas pour les Rafales ... Du fric pour la Sécu , pas pour les obus !. Plusieurs centaines de personnes défilent dans les rues de Dijon, ce mardi 29 septembre. Les fonctionnaires réclament plus de moyens pour leurs métiers, et demandent au gouvernement de revoir ses priorités",
+      "summary": "Manifestation à Dijon (France) : Du fric pour lhôpital , pas pour les Rafales ... Du fric pour la Sécu , pas pour les obus !. Plusieurs centaines de personnes défilent dans les rues de Dijon, ce mardi 29 septembre. Les fonctionnaires réclament plus de moyens pour leurs métiers, et demandent au gouvernement de revoir ses priorités",
       "sources": [
         "ici.fr"
       ],
       "url": "https://www.ici.fr/bourgogne-franche-comte/cote-d-or-21/dijon/a-dijon-du-fric-pour-l-hopital-pas-pour-les-rafales-du-fric-pour-la-secu-pas-pour-les-obus-1552411",
       "published_at": "2026-09-29T18:45:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
     },
     {
       "regions": [
@@ -27591,31 +27633,17 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "À Ankara, le ministre Kacır a rencontré le Premier ministre allemand de Rhénanie du Nord-Westphalie, Wüst. Le ministre de l'Industrie et de la Technologie Mehmet Fatih Kacır a reçu le Premier ministre du Land allemand de Rhénanie du Nord-Westphalie, Hendrik Wüst, et sa délégation qui l'accompagne au ministère. Soyez informé sur Mersin! Il présente des nouvelles, des développements et des événements importants et de dernière minute de Mersin et de ses districts",
+      "summary": "À Ankara, le ministre Kacır a rencontré le Premier ministre allemand de Rhénanie du Nord-Westphalie (Allemagne), Wüst. Le ministre de l'Industrie et de la Technologie Mehmet Fatih Kacır a reçu le Premier ministre du Land allemand de Rhénanie du Nord-Westphalie, Hendrik Wüst, et sa délégation qui l'accompagne au ministère. Soyez informé sur Mersin! Il présente des nouvelles, des développements et des événements importants et de dernière minute de Mersin et de ses districts",
       "sources": [
         "mersinhaber.com"
       ],
       "url": "https://www.mersinhaber.com/haber-ankarada-bakan-kacir-almanyanin-kuzey-ren-vestfalya-eyaleti-basbakani-wust-ile-gorustu/791923",
       "published_at": "2026-09-29T18:45:00+02:00",
       "origin": "rss",
-      "content_enriched": true
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 5,
-      "category": "Géopolitique",
-      "summary": "Directeur / Actionnariat PDMR | Annonce de l'entreprise. Détails complets des annonces réglementaires et non réglementaires des sociétés cotées FTSE 100, 250, AIM et techMARK",
-      "sources": [
-        "investegate.co.uk"
-      ],
-      "url": "https://www.investegate.co.uk/announcement/bzw/totalenergies-se--tte/director-pdmr-shareholding/9797356",
-      "published_at": "2026-09-29T18:45:00+02:00",
-      "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
     },
     {
       "regions": [
@@ -27679,7 +27707,7 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Gouverneur. Newsom décide de baisser les prix du gaz alors que la Californie connaît des coûts record à la pompe. La Californie passe tôt à l'essence à mélange d'hiver alors que Newsom ordonne la suspension du carburant d'été afin de lutter contre les prix élevés de l'essence, a annoncé lundi son bureau.",
+      "summary": "Gouverneur. Newsom décide de baisser les prix du gaz alors que la Californie (États-Unis) connaît des coûts record à la pompe. La Californie passe tôt à l'essence à mélange d'hiver alors que Newsom ordonne la suspension du carburant d'été afin de lutter contre les prix élevés de l'essence, a annoncé lundi son bureau.",
       "sources": [
         "mercurynews.com"
       ],
@@ -27690,24 +27718,6 @@
       "countries": [
         "États-Unis"
       ]
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 6,
-      "category": "Géopolitique",
-      "summary": "Marchés aujourd'hui : U . S. Les actions chutent alors que les prix du pétrole fluctuent fortement. La pression d'une nouvelle hausse des rendements du Trésor a pesé sur les actions à Wall Street mardi. Le S&P 500 a chuté de 0,3 pour cent.",
-      "sources": [
-        "bnnbloomberg.ca"
-      ],
-      "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/09/29/us-indexes-edge-mostly-higher-in-early-trading-on-wall-street/",
-      "published_at": "2026-09-29T19:00:00+02:00",
-      "origin": "rss",
-      "content_enriched": true,
-      "countries": []
     },
     {
       "regions": [
@@ -27908,27 +27918,6 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "La CBI obtient l'expulsion d'un fugitif recherché des Émirats arabes unis dans l'affaire de fraude Nirav le Premier ministre Narendra Modi (Inde) PNB. Le Bureau central d'enquête (CBI), en coordination avec le ministère des Affaires étrangères (MEA) et le ministère de l'Intérieur (MHA), a réussi à obtenir l'expulsion de Sandeep Mistry, sujet de la notice rouge, des Émirats arabes unis vers l'Inde, recherché dans l'affaire de fraude bancaire Nirav Modi PNB, indique le communiqué",
-      "sources": [
-        "britainnews.net"
-      ],
-      "url": "http://www.britainnews.net/news/279340642/cbi-secures-deportation-of-wanted-fugitive-from-uae-in-nirav-modi-pnb-fraud-case",
-      "published_at": "2026-09-29T19:00:00+02:00",
-      "origin": "rss",
-      "content_enriched": true,
-      "countries": [
-        "Inde",
-        "Émirats arabes unis"
-      ]
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 6,
-      "category": "Géopolitique",
       "summary": "Le Premier ministre Shehbaz Sharif entre dans l'histoire en tant que premier Premier ministre pakistanais à ouvrir la session de la LSE ; inaugure une euro-obligation historique de 3 milliards de dollars. Lors de son discours au siège de la LSE sur la place Paternoster, le Premier ministre a souligné l'immense potentiel du Pakistan",
       "sources": [
         "arynews.tv"
@@ -28037,7 +28026,7 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "La Commission pour l’égalité des chances en matière d’emploi poursuit le système de santé catholique pour discrimination présumée à l’encontre d’un chirurgien juif. Une agence fédérale a poursuivi en justice un système de santé catholique basé dans l’Ohio et sa filiale pour discrimination religieuse et raciale présumée à l’encontre d’un médecin juif qui était chirurgien de longue date. La Commission pour l'égalité des chances en matière d'emploi a poursuivi Bon Secours Mercy Health à Youngstown, Ohio, et sa filiale Mercy Health Physicians Youngstown le 23 septembre, affirmant dans un […]",
+      "summary": "La Commission pour l’égalité des chances en matière d’emploi poursuit le système de santé catholique pour discrimination présumée à l’encontre d’un chirurgien juif. Une agence fédérale a poursuivi en justice un système de santé catholique basé dans l’Ohio (États-Unis) et sa filiale pour discrimination religieuse et raciale présumée à l’encontre d’un médecin juif qui était chirurgien de longue date. La Commission pour l'égalité des chances en matière d'emploi a poursuivi Bon Secours Mercy Health à Youngstown, Ohio, et sa filiale Mercy Health Physicians Youngstown le 23 septembre, affirmant dans un […]",
       "sources": [
         "thedialog.org"
       ],
@@ -28101,7 +28090,7 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Les pays de l’Union menacent Berlin de retirer les fonds d’un gouvernement de gauche. Après la victoire électorale du parti La Gauche à Berlin, il pourrait prendre la tête du gouvernement. En matière de financement, les pays dirigés par l’Union menacent de nouveaux problèmes.",
+      "summary": "Les pays de l’Union menacent Berlin (Allemagne) de retirer les fonds d’un gouvernement de gauche. Après la victoire électorale du parti La Gauche à Berlin, il pourrait prendre la tête du gouvernement. En matière de financement, les pays dirigés par l’Union menacent de nouveaux problèmes.",
       "sources": [
         "lto.de"
       ],
@@ -28109,7 +28098,9 @@
       "published_at": "2026-09-29T19:00:00+02:00",
       "origin": "rss",
       "content_enriched": true,
-      "countries": []
+      "countries": [
+        "Allemagne"
+      ]
     },
     {
       "regions": [
@@ -28221,27 +28212,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "États-Unis",
-        "Canada"
+        "États-Unis"
       ]
-    },
-    {
-      "regions": [
-        "Asie",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 8,
-      "category": "Géopolitique",
-      "summary": "KKR va prendre une participation majoritaire dans Cisternina pour construire une plateforme de stockage de liquides. La société de capital-investissement KKR a annoncé mardi qu'elle prendrait une participation majoritaire dans Cisternina Logistics Pvt Ltd, une société de stockage de liquides et de gaz en vrac créée en...",
-      "sources": [
-        "vccircle.com"
-      ],
-      "url": "https://www.vccircle.com/kkrto-take-majority-stake-in-cisternina-to-build-liquid-storage-platform",
-      "published_at": "2026-09-29T19:15:00+02:00",
-      "origin": "rss",
-      "content_enriched": true
     },
     {
       "regions": [
@@ -28311,19 +28283,24 @@
       ]
     },
     {
-      "regions": [],
+      "regions": [
+        "Amérique du Nord"
+      ],
       "period": "day",
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Kitchener lance un plan pour soutenir les entreprises locales au sein de l'U. S. Guerre commerciale.",
+      "summary": "Kitchener (Canada) lance un plan pour soutenir les entreprises locales au sein de l'U. S. Guerre commerciale.",
       "sources": [
         "cbc.ca"
       ],
       "url": "https://www.cbc.ca/news/canada/kitchener-waterloo/kitchener-launches-plan-to-support-local-businesses-amid-u-s-trade-war-9.7362309",
       "published_at": "2026-09-29T19:30:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
     },
     {
       "regions": [
@@ -29600,6 +29577,306 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YT2lXR0NXbGh4ZEpjamRsVlhEbjlHcUcyeWFrREs3cTNTNDl6UDdoLTE2VUFuUVBiSnRBbTY3Zkk0alI1YVNCSFZ5M3FkdVJ6V2xLOF9aTXFfVU9wSUNGNFotejl1WFhT?oc=5",
       "published_at": "2026-09-29T06:58:41+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "\"Le procès pour viol collectif de Cornell soulève une question cruciale : qui a décidé des sanctions contre la fraternité ?\". Qui a décidé les sanctions de la fraternité Chi Phi de Cornell ? L’université affirme qu’une commission d’audience formée a prononcé des expulsions et des suspensions, tandis que les procureurs rouvrent le dossier d’agression sexuelle présumée en 2024.",
+      "sources": [
+        "International Business Times UK"
+      ],
+      "url": "https://www.ibtimes.co.uk/cornell-title-ix-panel-sanctions-chi-phi-assault-case-1822714",
+      "published_at": "2026-09-29T00:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’espionnage de la guerre froide a ajouté 4,6 milliards de dollars à l’économie de l’Allemagne de l’Est. Quel que soit votre camp, l’espionnage était la pierre angulaire de la vie politique de la guerre froide. Mais c’était aussi une grosse affaire. L’espionnage faisait tellement partie intégrante de l’Allemagne de l’Est qu’à la veille de la chute du mur de Berlin…",
+      "sources": [
+        "Popular Science"
+      ],
+      "url": "https://www.popsci.com/technology/cold-war-spy-economy-east-germany/",
+      "published_at": "2026-09-29T13:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Élection 2026 : Debbie Ngarewa-Packer mène le vote des candidats à Te Tai Hauāuru, les travaillistes sont en tête du vote des partis. Debbie Ngarewa-Packer, co-leader de Te Pāti Māori, est en tête du vote des candidats à Te Tai Hauāuru, selon un nouveau sondage réalisé par Curia Market Research pour Whakaata Māori, qui diffuse un débat avec ...",
+      "sources": [
+        "NZ Herald"
+      ],
+      "url": "https://www.nzherald.co.nz/nz/politics/election-2026-debbie-ngarewa-packer-leads-candidate-vote-in-te-tai-hauauru-labour-ahead-on-party-vote/XCKALCEWXBBSDB43Z55QMSM4JE/",
+      "published_at": "2026-09-29T13:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'agence de renseignement russe ouvre une procédure pénale contre le conseiller Lib Dem. Ksenia Maximova, fondatrice de la Société démocratique russe anti-guerre, a déclaré à Sky News que son inscription sur la liste des terroristes russes n'était pas une surprise.",
+      "sources": [
+        "Sky News"
+      ],
+      "url": "https://news.sky.com/story/russias-spy-agency-opens-criminal-case-against-lib-dem-councillor-13593293",
+      "published_at": "2026-09-29T10:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis ciblent la chaîne d’approvisionnement militaire iranienne alors que l’état des négociations diplomatiques reste incertain. Les États-Unis ont ciblé mardi des personnes et des entreprises du monde entier qu’ils ont accusées d’être des facilitateurs financiers ou des facilitateurs de la chaîne d’approvisionnement militaire iranienne, alors que l’administration du président Donald Trump (États-Unis) le pousse…",
+      "sources": [
+        "Boston Herald"
+      ],
+      "url": "https://www.bostonherald.com/2026/09/29/us-iran-sanctions-supply-chain/",
+      "published_at": "2026-09-29T12:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre au Moyen-Orient : l’Iran dit attendre mardi une réponse des États-Unis sur son plan pour rouvrir le détroit d’Ormuz. Les autorités iraniennes disent attendre, mardi 29 septembre, un retour des États-Unis sur les conditions posées pour une réouverture du détroit d’Ormuz.",
+      "sources": [
+        "La Nouvelle République"
+      ],
+      "url": "https://www.lanouvellerepublique.fr/a-la-une/guerre-au-moyen-orient-l-iran-dit-attendre-mardi-une-reponse-des-etats-unis-sur-son-plan-pour-rouvrir-le-detroit-d-ormuz-1790665949",
+      "published_at": "2026-09-29T04:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "3 raisons pour lesquelles Trump et l’Afrique du Sud ne sont pas d’accord sur les allégations de racisme anti-blanc. L’administration Trump a annoncé de nouvelles restrictions de visa dans le pays quelques jours après avoir reçu une lettre dont les responsables sud-africains espéraient qu’elle ferait baisser la température.",
+      "sources": [
+        "The New York Times"
+      ],
+      "url": "https://www.nytimes.com/2026/09/29/world/africa/south-africa-trump-letter-visas-racism.html",
+      "published_at": "2026-09-29T13:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Afrique du Sud"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Bureau de gestion du personnel découvre 500 millions de dollars de fraude et de gaspillage dans les programmes fédéraux de prestations de santé. Le Bureau de gestion du personnel de l'administration du président Donald Trump (États-Unis) a découvert 510 millions de dollars de fraude et de gaspillage dans les programmes fédéraux d'assurance maladie des employés.",
+      "sources": [
+        "Fox News"
+      ],
+      "url": "https://www.foxnews.com/politics/office-personnel-management-uncovers-500m-fraud-waste-federal-health-benefits-programs",
+      "published_at": "2026-09-29T12:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le gaz importé marque un record en Colombie, il couvre déjà 32% du marché : c'est ainsi qu'il impacte la poche. Dans une cuisine de Medellín ou d'Envigado, la flamme bleue sur la cuisinière ne dit pas d'où elle vient, mais les chiffres le disent. En août 2026, près d'un...",
+      "sources": [
+        "El Colombiano"
+      ],
+      "url": "https://www.elcolombiano.com/negocios/gas-importado-record-colombia-produccion-petroleo-campetrol-2026-DE41674272",
+      "published_at": "2026-09-29T07:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Colombie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Climat",
+      "summary": "Semaine du climat à New York : Kara Hurst d'Amazon sur les centres de données IA ; Jason Knopf d'Earthshot sur l'optimisme climatique. Alors que la Climate Week de New York était en effervescence sur les conséquences environnementales du boom de l'IA, le podcast Positive Charge de GeekWire a animé un panel privé avec Kara Hurst, directrice du développement durable d'Amazon, et Earthshot...",
+      "sources": [
+        "GeekWire"
+      ],
+      "url": "https://www.geekwire.com/2026/from-ai-data-centers-to-nasa-beating-wildfire-tech-5-lessons-from-climate-week-nyc/",
+      "published_at": "2026-09-29T05:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Marine colombienne a clôturé sa participation à Unitas 2026 après des manœuvres dans le Pacifique péruvien. Les membres de l'institution ont participé à des exercices de guerre anti-sous-marine, de défense aérienne, d'opérations amphibies et d'intervention d'urgence.",
+      "sources": [
+        "El Tiempo"
+      ],
+      "url": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/armada-de-colombia-cerro-su-participacion-en-unitas-2026-tras-maniobras-en-el-pacifico-peruano-3589845",
+      "published_at": "2026-09-29T04:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Colombie"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les rendements obligataires continuent de grimper ; les actions se relâchent mais l’optimisme des introductions en bourse d’Anthropic stimule la technologie. Les prix du pétrole et les rendements obligataires ont augmenté dans une combinaison inconfortable pour les actions asiatiques mardi, alors que les investisseurs se préparaient à une hausse des taux d'intérêt en Australie et à une époque où les emprunts à court terme...",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-29/",
+      "published_at": "2026-09-29T12:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Ce qu’il faut savoir sur America. Gov, le nouveau site Web de services basés sur l’IA de l’administration Trump. L’administration Trump pense que la bureaucratie fédérale est bien trop complexe pour que les Américains puissent s’y retrouver – et elle estime que l’intelligence artificielle peut aider.",
+      "sources": [
+        "CNN via MSN"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/what-to-know-about-americagov-the-trump-administration-s-new-ai-driven-services-website/ar-AA2dcLhI",
+      "published_at": "2026-09-29T12:29:34+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "OpenAI affronte Meta avec un agent Dots toujours actif dans le push d'IA d'entreprise. OpenAI a dévoilé mardi des agents toujours actifs appelés Dots qui poursuivent seuls les objectifs des utilisateurs dans les applications, renforçant ainsi sa pénétration sur le marché lucratif des entreprises et l'opposant à Meta dans la course...",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/business/openai-takes-meta-with-always-on-dots-agent-enterprise-ai-push-2026-09-29/",
+      "published_at": "2026-09-29T12:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Maroc : Qui est Fatima Ezzahra El Mansouri, toute première femme à diriger le gouvernement ?. Chargée par le roi du Maroc de former un gouvernement, Fatima El Mansouri devra composer avec d’autres partis pour former une coalition pour cinq ans ...",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://www.20minutes.fr/monde/maroc/4249882-20260929-maroc-fatima-ezzahra-el-mansouri-toute-premiere-femme-diriger-gouvernement",
+      "published_at": "2026-09-29T13:12:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
