@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:27:58.112131+02:00",
+  "generated_at": "2026-09-29T22:38:10.581019+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30990,7 +30990,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -31427,12 +31426,13 @@
       "bucket": "29 septembre 2026",
       "score": 5,
       "category": "Géopolitique",
-      "summary": "La Cour suprême autorise Trump à reprendre les expulsions vers des pays tiers. La Cour suprême des États-Unis a autorisé mardi l'administration du président Donald Trump (États-Unis) à reprendre les expulsions de migrants vers des pays autres que le leur, sans leur offrir la possibilité de montrer les torts qu'ils pourraient …",
+      "summary": "La Cour suprême autorise pour l’instant la reprise des expulsions rapides vers des pays tiers le temps d’évaluer la politique de Trump. La Cour suprême a autorisé mardi l'administration du président Donald Trump (États-Unis) à continuer d'expulser rapidement des personnes vers des pays autres que le leur, tandis que les juges examinent si cette politique est …",
       "sources": [
-        "U.S. News & World Report — fiabilité 6/10"
+        "U.S. News & World Report — fiabilité 6/10",
+        "Chicago Tribune — fiabilité 6/10"
       ],
       "url": "https://www.usnews.com/news/world/articles/2026-09-29/supreme-court-lets-trump-resume-third-country-deportations",
-      "published_at": "2026-09-29T14:08:00+02:00",
+      "published_at": "2026-09-29T15:12:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -32748,6 +32748,167 @@
       ],
       "url": "https://www.msn.com/fr-ch/actualite/other/la-hongrie-s-apprête-à-ouvrir-un-partie-importante-des-archives-des-anciens-services-de-sécurité-communistes/ar-AA2ddOEv",
       "published_at": "2026-09-29T13:22:16+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Strock affirme qu’Israël établira des colonies dans les zones A et B de Cisjordanie (Palestine) à mesure que les sanctions commerciales s’intensifieront. En outre, le ministre de la Sécurité nationale, Itamar Ben-Gvir, a déclaré qu'il ne ferait aucune distinction entre les zones A, B et C s'il était nommé ministre de la Défense. Le ministre des Missions nationales, Orit Strock, a déclaré que…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/strock-says-israel-establish-settlements-200725685.html",
+      "published_at": "2026-09-29T15:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Palestine",
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le premier grand terminal d’exportation de GNL du Canada prévoit doubler sa capacité. Les multinationales propriétaires du premier terminal d’exportation de gaz naturel liquéfié à grande échelle au Canada ont convenu d’une expansion de 33 milliards de dollars canadiens en Colombie-Britannique.",
+      "sources": [
+        "The Seattle Times — fiabilité 6/10"
+      ],
+      "url": "https://www.seattletimes.com/nation-world/canadas-first-major-lng-export-terminal-plans-to-double-its-capacity/",
+      "published_at": "2026-09-29T07:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Mamdani dévoile un plan pour lutter contre l'antisémitisme et les crimes haineux à New York. Mamdani dévoile un plan pour lutter contre l'antisémitisme à New York au milieu des inquiétudes suscitées par les critiques envers Israël - le Premier ministre Benjamin Netanyahu (Israël) a consacré une partie de son discours aux Nations Unies la semaine dernière à …",
+      "sources": [
+        "The Independent via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/news/other/mamdani-unveils-plan-to-combat-antisemitism-and-hate-crimes-in-nyc/ar-AA2ddTYR",
+      "published_at": "2026-09-29T15:30:08+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Pourquoi le gaz est-il si cher ? À quoi ressemblent les prix en Californie ?. Le prix moyen national du gaz est de 4,45 $, selon AAA. La moyenne de la Californie est la plus élevée des États-Unis, près d'un dollar de plus que celle du deuxième État. La moyenne de la Californie est de 6,38 $, tandis que…",
+      "sources": [
+        "USA TODAY — fiabilité 6/10"
+      ],
+      "url": "https://www.usatoday.com/story/money/2026/09/29/why-has-gas-gotten-so-expensive-in-the-u-s-california-aaa-fuel-prices/92004190007/",
+      "published_at": "2026-09-29T15:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le diocèse anglican de l'Alberta accepte sa responsabilité du fait d'autrui dans le cadre d'un procès concernant des allégations d'agressions sexuelles sur des détenus adolescents. Le gouvernement de l'Alberta et le Synode anglican du diocèse d'Edmonton ont reconnu leur responsabilité du fait d'autrui dans les agressions sexuelles perpétrées par un prêtre anglican contre des jeunes dans une prison municipale dans les années 1980.",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/canada/edmonton/vicarious-liability-dominey-lawsuit-9.7362983",
+      "published_at": "2026-09-29T15:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Andy Burnham lance une bombe en deux mots sur le Brexit à la conférence travailliste. Le gouvernement mettra fin à l'interdiction de propriété publique des compagnies des eaux, ouvrant ainsi la voie à la nationalisation des entreprises qui ne « servent pas l'intérêt public », a déclaré Andy Burnham au Parti travailliste …",
+      "sources": [
+        "AOL.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.co.uk/articles/andy-burnham-issues-two-word-142700000.html",
+      "published_at": "2026-09-29T09:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France",
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La France a-t-elle levé des sanctions contre un oligarque proche de Poutine pour faire libérer un otage français ?. La France a obtenu la levée des sanctions européennes visant le milliardaire Alisher Usmanov, décrit comme un proche du président Vladimir Poutine (Russie). Selon des sources diplomatiques, la contrepartie serait la lib …",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/monde/la-france-a-t-elle-leve-des-sanctions-contre-un-oligarque-proche-de-poutine-pour-faire-liberer-un-otage-francais_8215409.html",
+      "published_at": "2026-09-29T03:24:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Arménie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Accueil Défense - Guerre - Conflit 35 e anniversaire de la fête nationale de la République d’Arménie samedi. Chaque année, une cérémonie au monument du square d’Arménie, près de l’église de Pont-de-Chéruy, marque l’anniversaire de la fête nationale de la …",
+      "sources": [
+        "Le Dauphiné Libéré — fiabilité 6/10"
+      ],
+      "url": "https://www.ledauphine.com/defense-guerre-conflit/2026/09/29/35-sup-e-sup-anniversaire-de-la-fete-nationale-de-la-republique-d-armenie-samedi",
+      "published_at": "2026-09-29T11:10:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
