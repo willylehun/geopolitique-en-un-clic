@@ -18,7 +18,8 @@ TRUSTED=(
  "Le Monde","Franceinfo","France Info","France Inter","France 24","AFP","Reuters","Associated Press","AP",
  "Public Sénat","LCP","Le Figaro","Libération","Les Echos","La Croix","Ouest-France","20 Minutes",
  "BFMTV","RMC","TF1 INFO","France Télévisions","Mediapart","Le Point","L'Express","Le Parisien",
- "HuffPost","Politico","POLITICO","Euronews"
+ "HuffPost","Politico","POLITICO","Euronews",
+ "Europe 1","CNEWS","Le JDD","Journal du Dimanche","La Dépêche","La Dépêche du Midi"
 )
 OFFICIAL_HINTS=(
  "assemblee-nationale.fr","senat.fr","vie-publique.fr","conseil-constitutionnel.fr",
@@ -126,7 +127,8 @@ def topic_for(text):
         return "programme"
     if any(fold(x) in low for x in CANDIDACY_HINTS):
         return "candidature"
-    if any(fold(x) in low for x in PROGRAM_HINTS):
+    explicit_program=("programme","proposition","propose","projet","plan","dévoile","devoile","présente","presente","mesure")
+    if any(fold(x) in low for x in explicit_program):
         return "programme"
     return "actualité"
 
@@ -216,10 +218,18 @@ def row_is_useful(row):
         return False
     noise=(
       "dernier hommage","people","livres pour","élargir ses horizons","val'horizons","val’horizons",
-      "photos amateurs","festival","concert","football","match","horoscope"
+      "photos amateurs","festival","concert","football","match","horoscope",
+      "avec son bébé","avec son bebe","bébé de 8 jours","bebe de 8 jours",
+      "retient ses larmes","vie privée","vie privee"
     )
     low=fold(text)
-    return not any(fold(x) in low for x in noise)
+    if any(fold(x) in low for x in noise):
+        return False
+    ceremonial=("commémoration","commemoration","hommage aux fusillés","hommage aux fusilles","anniversaire historique")
+    substantive=("présidentielle","presidentielle","2027","programme","proposition","propose","campagne","débat","debat","sondage","controverse","plainte","alliance","ralliement")
+    if any(fold(x) in low for x in ceremonial) and not any(fold(x) in low for x in substantive):
+        return False
+    return True
 
 with DATA.open(encoding="utf-8") as f:
     data=json.load(f)
@@ -320,7 +330,9 @@ campaign_queries=[
  '"présidentielle 2027" (programme OR proposition OR projet OR plan OR dévoile OR présente OR retraite OR immigration OR écologie OR économie OR santé OR éducation OR sécurité OR justice) when:3d',
  '"présidentielle 2027" (controverse OR antisémitisme OR racisme OR révélations OR plainte OR enquête OR procureur OR diffamation OR démenti OR condamnation OR procès OR "mise en examen") when:3d',
  '"présidentielle 2027" (candidature OR retrait OR primaire OR investiture OR "500 signatures" OR soutien OR ralliement OR alliance) when:3d',
- '"présidentielle 2027" (meeting OR discours OR débat OR sondage OR stratégie OR campagne OR rencontre OR réunion OR entreprise OR syndicat) when:3d'
+ '"présidentielle 2027" (meeting OR discours OR débat OR sondage OR stratégie OR campagne OR rencontre OR réunion OR entreprise OR syndicat) when:3d',
+ '("Parti socialiste" OR PS) ("La France insoumise" OR LFI) (sondage OR alliance OR rupture OR primaire) when:3d',
+ '("Jean-Luc Mélenchon" OR "Fabien Roussel" OR "Marine Tondelier") (manifestation OR grève OR mouvement social OR lycéens OR climat) when:3d'
 ]
 for q in campaign_queries:
     try: rows=google_search(q)
@@ -328,7 +340,7 @@ for q in campaign_queries:
         print("CAMPAGNE",e); continue
     for row in rows:
         if row["date"]<cut3: continue
-        matches=[e for e in entities if row_matches_entity(row,*e)]
+        matches=all_entity_matches(row,entities)
         if matches: attach(row,matches)
 
 # Rotation détaillée pour le suivi de fond et last_checked_at.
@@ -363,6 +375,30 @@ for item in news:
                 if party and party not in item.setdefault("party_names",[]): item["party_names"].append(party)
             elif eid not in item.setdefault("party_names",[]):
                 item["party_names"].append(eid)
+
+# Nettoyer uniquement les entrées récentes manifestement hors veille présidentielle.
+cleaned_news=[]
+for item in news:
+    try:
+        item_dt=datetime.fromisoformat(item.get("date","")).replace(tzinfo=PARIS)
+    except Exception:
+        item_dt=None
+    if item_dt and item_dt>=cut30:
+        pseudo={
+          "title":item.get("summary",""),
+          "description":"",
+          "source":(item.get("sources") or [""])[0]
+        }
+        low=fold(item.get("summary",""))
+        anecdotal=("avec son bebe","bebe de 8 jours","retient ses larmes")
+        ceremonial=("commemoration","hommage aux fusilles","anniversaire historique")
+        substantive=("presidentielle","2027","programme","proposition","campagne","debat","sondage","controverse","plainte","alliance","ralliement")
+        if any(x in low for x in anecdotal):
+            continue
+        if any(x in low for x in ceremonial) and not any(x in low for x in substantive):
+            continue
+    cleaned_news.append(item)
+news=cleaned_news
 
 def news_words(text):
     stop={"présidentielle","presidentielle","2027","edouard","édouard","marine","jordan","le","la","les","de","des","du","un","une","et","en","sur","pour","avec"}
