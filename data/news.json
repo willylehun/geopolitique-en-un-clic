@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:06:51.589100+02:00",
+  "generated_at": "2026-09-29T19:14:38.683516+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -126,12 +126,10 @@
       ]
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Sanctions",
       "summary": "Washington adopte une vaste loi visant l’énergie, la défense et la flotte fantôme russes, avec de nouveaux pouvoirs tarifaires.",
       "sources": [
@@ -309,12 +307,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Sécurité",
       "summary": "Le ministre chinois de la Défense appelle à stopper les actes « provocateurs » alors que les tensions persistent autour de Taïwan et de la mer de Chine.",
       "sources": [
@@ -1370,12 +1367,11 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Conflit",
       "summary": "Le Canada cherche à rejoindre la force militaire européenne JEF afin de renforcer sa coopération de défense avec l’Europe du Nord.",
       "sources": [
@@ -1611,12 +1607,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Un éventuel retrait d’une partie des troupes américaines d’Europe relance les inquiétudes sur la défense du continent.",
       "sources": [
@@ -2074,12 +2069,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "20 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "La Turquie se dit prête à répondre aux besoins de défense saoudiens, signe d’un rapprochement sécuritaire régional.",
       "sources": [
@@ -2178,12 +2172,11 @@
     {
       "regions": [
         "Europe",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Conflit",
       "summary": "Le président Donald Trump (États-Unis) annonce un accord de sécurité et de défense avec le Danemark concernant le Groenland.",
       "sources": [
@@ -2260,12 +2253,11 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Washington et Copenhague concluent un nouvel accord sur la défense et les investissements au Groenland.",
       "sources": [
@@ -8117,15 +8109,14 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Arabie saoudite"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "L’envoi de « moyens militaires » français en Arabie saoudite sort de l’ombre la discrète coopération de défense entre Paris et Riyad",
       "sources": [
@@ -11545,12 +11536,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "La Russie, experte en matière de défense : les attaques contre l'UE sont possibles, elles pourraient venir de la mer - Il Fatto Nisseno",
       "sources": [
@@ -11749,12 +11739,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Le ministre de la Défense, à l'hôpital militaire de Sibiu.",
       "sources": [
@@ -15564,12 +15553,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Hsiao Bi-khim : La défense de la démocratie à Taiwan ne peut pas compter uniquement sur un soutien extérieur ᐉ Nouvelles de Fakti.",
       "sources": [
@@ -15940,7 +15927,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Le sans-abri qui a reçu la première condamnation à Vigo pour aporophobie : « Ceux d'entre nous qui vivent dans la rue sont sans défense »",
       "sources": [
@@ -20643,12 +20630,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Suite à la mort de 14 soldats lors d'un exercice au Kazakhstan, le ministre de la Défense a été démis de ses fonctions - Journal Havadis",
       "sources": [
@@ -28778,12 +28764,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 8,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "La victime des abus infligés à l'ex-mari de Mónica Oltra porte plainte auprès de la justice pour le retard injustifié du procès de l'ancien vice-président. La défense de la victime des abus de la part de l'ex-mari de Mónica Oltra s'est tournée vers le Conseil Général du Pouvoir Judiciaire (CGPJ) pour se plaindre du \"retard...",
       "sources": [
@@ -28811,27 +28796,6 @@
       "published_at": "2026-09-29T18:30:00+02:00",
       "origin": "rss",
       "content_enriched": true
-    },
-    {
-      "regions": [
-        "Asie",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 8,
-      "category": "Géopolitique",
-      "summary": "Signal d’opération à l’étranger depuis Israël ! Menace ouverte contre les dirigeants du Hamas. World News - Le ministre israélien de la Défense, Israel Katz, a proféré une nouvelle menace, déclarant qu'il pourrait cibler les dirigeants du Hamas à l'étranger. K....",
-      "sources": [
-        "cnnturk.com"
-      ],
-      "url": "https://www.cnnturk.com/dunya/israilden-yurt-disinda-operasyon-sinyali-hamas-liderlerine-acik-tehdit-3472964",
-      "published_at": "2026-09-29T18:30:00+02:00",
-      "origin": "rss",
-      "content_enriched": true,
-      "countries": [
-        "Israël"
-      ]
     },
     {
       "regions": [
@@ -28894,29 +28858,6 @@
     },
     {
       "regions": [
-        "Europe",
-        "Amérique du Nord",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 9,
-      "category": "Géopolitique",
-      "summary": "Ubu Roi au Thtre de Paris : une comédie noire au sommet du pouvoir ! Au Théâtre de Paris, Daniel Benoin propulse le Père Ubu d’Alfred Jarry dans notre imaginaire politiq Au Théâtre de Paris, Daniel Benoin propulse le Père Ubu d’Alfred Jarry dans notre imaginaire politique contemporain. Entre le président Donald Trump (États-Unis), le président Vladimir Poutine (Russie), Maison-Blanche, chars, guerre médiatisée et propagande, la farce anarchiste de 1896 devient un thriller politique aux accents de série B. Une mise en scène spectaculaire, parfois violente, qui tient le spectateur en haleine de bout …",
-      "sources": [
-        "francenetinfos.com"
-      ],
-      "url": "https://www.francenetinfos.com/ubu-roi-au-theatre-de-paris-une-comedie-noire-au-sommet-du-pouvoir-249405/",
-      "published_at": "2026-09-29T18:30:00+02:00",
-      "origin": "rss",
-      "content_enriched": true,
-      "countries": [
-        "Russie",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
         "International"
       ],
       "period": "day",
@@ -28931,26 +28872,6 @@
       "published_at": "2026-09-29T18:15:00+02:00",
       "origin": "rss",
       "content_enriched": true
-    },
-    {
-      "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 6,
-      "category": "Géopolitique",
-      "summary": "Service de rencontres du gouvernement de Singapour : Le gouvernement de Singapour va-t-il payer votre FirstDate ? Voici comment savoir si vous êtes éligible et comment cela fonctionne. FirstDate est toujours testé en tant que programme pilote par GovTech Singapore. Pour l’instant, il n’est accessible qu’aux agents publics. Le service n’a pas été déployé auprès des célibataires à travers le pays. Les candidats doivent également être âgés de 21 à 35 ans.",
-      "sources": [
-        "economictimes.indiatimes.com"
-      ],
-      "url": "https://economictimes.indiatimes.com/world/us/singapore-government-to-pay-for-your-firstdate-heres-how-to-know-if-you-are-eligible-and-how-it-works/articleshow/134569535.cms",
-      "published_at": "2026-09-29T18:15:00+02:00",
-      "origin": "rss",
-      "content_enriched": true,
-      "countries": [
-        "Singapour"
-      ]
     },
     {
       "regions": [
@@ -29172,7 +29093,7 @@
       "bucket": "29 septembre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "La Russie n’a pas reçu de signaux encourageants de la part des États-Unis concernant les propriétés diplomatiques (Sergueï Lavrov). Le chef de la diplomatie russe a souligné que dans les relations entre Moscou et Washington, de nombreux problèmes se sont accumulés sur divers sujets, notamment la restitution des propriétés diplomatiques. \"Et sur ce sujet, de la part des Américains, déjà sous l'administration du président Donald Trump (États-Unis), nous n'entendons aucun commentaire encourageant\" - a déclaré Lavrov./ssirbu/lalexandrescu \"En l'absence d'un accord écrit avec RADOR, vous pouvez extraire un maximum de 500 caractères d'un texte, sans dépasser la moitié de l'article ou de l'information en question.",
+      "summary": "La Russie n’a pas reçu de signaux encourageants de la part des États-Unis concernant les propriétés diplomatiques (Sergueï Lavrov). Le chef de la diplomatie russe a souligné que dans les relations entre Moscou et Washington, de nombreux problèmes se sont accumulés sur divers sujets, notamment la restitution des propriétés diplomatiques. \"Et sur ce sujet, de la part des Américains, déjà sous l'administration du président Donald Trump (États-Unis), nous n'entendons aucun commentaire encourageant\" - a déclaré Lavrov./ssirbu/lalexandrescu \"",
       "sources": [
         "rador.ro"
       ],
@@ -29252,6 +29173,29 @@
       "published_at": "2026-09-29T18:45:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La Russie n’a pas reçu de signaux encourageants de la part des États-Unis concernant les propriétés diplomatiques (Sergei Lavrov). Le chef de la diplomatie russe a souligné que dans les relations entre Moscou et Washington, de nombreux problèmes se sont accumulés sur divers sujets, notamment en ce qui concerne la restitution des propriétés diplomatiques. \"Et sur ce sujet, de la part des Américains, déjà sous l'administration du président Donald Trump (États-Unis), nous n'entendons aucun commentaire encourageant\" - a déclaré Lavrov./ssirbu/lalexandrescu \"",
+      "sources": [
+        "rador.ro"
+      ],
+      "url": "https://www.rador.ro/2026/09/29/rusia-nu-a-primit-semnale-incurajatoare-din-partea-sua-cu-privire-la-proprietatile-diplomatice-serghei-lavrov/",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "États-Unis"
+      ]
     },
     {
       "regions": [

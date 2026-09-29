@@ -1,13 +1,14 @@
 {
-  "country_cursor": 1240,
+  "country_cursor": 1246,
   "day_cursor": 40,
-  "runs": 116,
-  "last_run_at": "2026-09-29T19:06:51.589100+02:00",
+  "runs": 117,
+  "last_run_at": "2026-09-29T19:14:38.683516+02:00",
   "manual_trigger_at": "2026-09-25T14:46:00.018Z",
   "last_rejection_stats": {
-    "contenu_indisponible": 107,
+    "contenu_indisponible": 106,
     "existant_contenu_hors_sujet": 2,
-    "pas_de_signal_geopolitique": 30,
+    "existant_pas_de_signal_geopolitique": 1,
+    "pas_de_signal_geopolitique": 31,
     "people_sante_speculative": 1,
     "sport_divertissement_loisirs": 5,
     "titre_trop_court": 2,
@@ -15,10 +16,10 @@
   },
   "last_discovery_stats": {
     "articles_valides": 15,
-    "titres_candidats": 182
+    "titres_candidats": 183
   },
   "last_content_fetches": 48,
-  "last_gdelt_429_count": 5,
+  "last_gdelt_429_count": 6,
   "last_gdelt_disabled": true,
   "last_google_disabled": false,
   "last_generated_count": 15
