@@ -12,9 +12,15 @@ on:
     # Un garde-fou ci-dessous limite les collectes réelles à ~1 toutes les 10 minutes.
     - cron: "6-56/5 * * * *"
   workflow_dispatch:
+    inputs:
+      continuous:
+        description: "Continuer automatiquement toutes les ~10 minutes"
+        required: false
+        default: "true"
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: news-update
@@ -33,11 +39,19 @@ jobs:
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.13"
+      - name: Mémoriser le début du cycle
+        id: cycle_start
+        shell: bash
+        run: echo "epoch=$(date +%s)" >> "$GITHUB_OUTPUT"
       - name: Vérifier si une collecte est nécessaire
         id: cadence
         shell: bash
         run: |
-          if [ "${{ github.event_name }}" != "schedule" ]; then
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "run=1" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.continuous }}" != "true" ]; then
             echo "run=1" >> "$GITHUB_OUTPUT"
             exit 0
           fi
@@ -137,6 +151,25 @@ jobs:
           done
           echo "Impossible de publier après 3 tentatives."
           exit 1
+
+      - name: Programmer le prochain cycle autonome
+        if: ${{ success() && (github.event_name == 'push' || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.continuous == 'true')) }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          start="${{ steps.cycle_start.outputs.epoch }}"
+          now="$(date +%s)"
+          target="$((start + 600))"
+          wait_seconds="$((target - now))"
+          if [ "$wait_seconds" -gt 0 ]; then
+            echo "Prochain cycle autonome dans $wait_seconds secondes."
+            sleep "$wait_seconds"
+          else
+            echo "Le cycle a déjà duré au moins 10 minutes : relance immédiate."
+          fi
+          curl --fail-with-body --silent --show-error             -X POST             -H "Accept: application/vnd.github+json"             -H "Authorization: Bearer ${GH_TOKEN}"             -H "X-GitHub-Api-Version: 2022-11-28"             "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/news.yml/dispatches"             -d '{"ref":"main","inputs":{"continuous":"true"}}'
+          echo "Prochain cycle demandé."
 
 # Déclenchement manuel de la veille du 25/09/2026
 
