@@ -258,6 +258,12 @@ for i in range(0,len(entities),chunk_size):
     except Exception as e:
         print("PRIORITE",e)
         continue
+    for kind,eid,name in chunk:
+        checked[f"{kind}:{eid}"]=now.isoformat()
+        if kind=="candidate" and eid in cmap:
+            cmap[eid]["last_checked_at"]=now.isoformat()
+        if kind=="party" and eid in pmap:
+            pmap[eid]["last_checked_at"]=now.isoformat()
     for row in rows:
         if row["date"]<cut3: continue
         matches=[e for e in chunk if row_matches_entity(row,*e)]
@@ -292,6 +298,9 @@ for kind,eid,name in batch:
         if row_matches_entity(row,kind,eid,name):
             attach(row,[(kind,eid,name)])
 
+for item in news:
+    item["topic"]=topic_for(item.get("summary",""))
+
 def news_words(text):
     stop={"présidentielle","presidentielle","2027","edouard","édouard","marine","jordan","le","la","les","de","des","du","un","une","et","en","sur","pour","avec"}
     return {w for w in re.findall(r"[a-zà-ÿ0-9]+",fold(text)) if len(w)>2 and w not in stop}
@@ -306,7 +315,13 @@ def same_news_event(a,b):
     wa=news_words(a.get("summary","")); wb=news_words(b.get("summary",""))
     if not wa or not wb: return False
     inter=len(wa&wb)
-    return inter/max(1,min(len(wa),len(wb)))>=0.55
+    containment=inter/max(1,min(len(wa),len(wb)))
+    if containment>=0.55:
+        return True
+    subjects=("retraite","immigration","écologie","ecologie","économie","economie","santé","sante","éducation","education","sécurité","securite","justice","climat","agriculture","intelligence artificielle")
+    ta=fold(a.get("summary","")); tb=fold(b.get("summary",""))
+    shared_subject=any(fold(x) in ta and fold(x) in tb for x in subjects)
+    return shared_subject and containment>=0.35
 
 deduped=[]
 for item in news:
