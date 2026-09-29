@@ -171,6 +171,16 @@ def enrich_leader_context(text):
     )
     out=re.sub(r"([,:;.!?])(?=[A-Za-zÀ-ÿ])",r"\1 ",out)
     out=re.sub(r"\s+"," ",out).strip()
+    # Normaliser les translittérations et les répétitions introduites par certains titres.
+    out=re.sub(r"(?i)\b(?:Sergei|Sergey)\s+Lavrov\b","Sergueï Lavrov",out)
+    out=re.sub(
+        r"(?i)\b(?:le\s+)?président\s+Donald\s+(?:le\s+président\s+Donald\s+)+Trump\s*\(États-Unis\)",
+        "le président Donald Trump (États-Unis)",out
+    )
+    out=re.sub(
+        r"(?i)\b(?:le\s+)?président\s+Donald\s+Trump\s*\(États-Unis\)\s+(?:le\s+)?président\s+Donald\s+Trump\s*\(États-Unis\)",
+        "le président Donald Trump (États-Unis)",out
+    )
     if out:
         out=out[0].upper()+out[1:]
     return out
@@ -781,6 +791,33 @@ def fetch_article_detail(url, existing=False):
 def sentence_words(text):
     stop={"le","la","les","de","des","du","un","une","et","ou","à","au","aux","en","dans","sur","pour","avec","par","qui","que","se","sa","son","ses","ce","ces","cette","est","sont","a","ont"}
     return {w for w in re.findall(r"[a-zà-ÿ0-9]+",(text or "").lower()) if len(w)>2 and w not in stop}
+
+def summaries_same_event(a,b):
+    """Détecte les reprises/syndications du même événement sans fusionner des sujets seulement voisins."""
+    wa=sentence_words(a); wb=sentence_words(b)
+    if not wa or not wb: return False
+    inter=len(wa & wb)
+    containment=inter/max(1,min(len(wa),len(wb)))
+    jaccard=inter/max(1,len(wa | wb))
+    return containment>=0.82 or jaccard>=0.68
+
+def merge_item_into(target,source):
+    target["score"]=max(int(target.get("score",0) or 0),int(source.get("score",0) or 0))
+    target["countries"]=list(dict.fromkeys(list(target.get("countries",[]) or [])+list(source.get("countries",[]) or [])))
+    target["sources"]=list(dict.fromkeys(list(target.get("sources",[]) or [])+list(source.get("sources",[]) or [])))
+    if not target.get("url") and source.get("url"):
+        target["url"]=source["url"]
+    if (source.get("published_at") or "") > (target.get("published_at") or ""):
+        target["published_at"]=source.get("published_at")
+    if target.get("countries"):
+        target["regions"]=regions_for_countries(target["countries"],target["score"])
+    else:
+        regs=list(dict.fromkeys(list(target.get("regions",[]) or [])+list(source.get("regions",[]) or [])))
+        target["regions"]=[r for r in regs if r!="International" or target["score"]>=7]
+    # Garder le résumé le plus informatif.
+    if len(source.get("summary","")) > len(target.get("summary","")):
+        target["summary"]=source.get("summary","")
+    return target
 
 def trim_incomplete_tail(text):
     value=clean_summary_text(text)
@@ -1399,19 +1436,27 @@ def main():
             order.append(k)
             continue
         z=merged[k]
-        z["score"]=max(int(z.get("score",0) or 0),int(y.get("score",0) or 0))
-        z["countries"]=list(dict.fromkeys(list(z.get("countries",[]) or [])+list(y.get("countries",[]) or [])))
-        z["sources"]=list(dict.fromkeys(list(z.get("sources",[]) or [])+list(y.get("sources",[]) or [])))
-        if not z.get("url") and y.get("url"):
-            z["url"]=y["url"]
-        if (y.get("published_at") or "") > (z.get("published_at") or ""):
-            z["published_at"]=y.get("published_at")
-        if z["countries"]:
-            z["regions"]=regions_for_countries(z["countries"],z["score"])
-        else:
-            regs=list(dict.fromkeys(list(z.get("regions",[]) or [])+list(y.get("regions",[]) or [])))
-            z["regions"]=[r for r in regs if r!="International" or z["score"]>=7]
+        merge_item_into(z,y)
     day_items=[merged[k] for k in order]
+
+    # Deux médias peuvent republier la même dépêche sous des URL différentes.
+    # Fusionner seulement quand le contenu est très proche et que les pays sont compatibles.
+    event_deduped=[]
+    for y in day_items:
+        merged_into_existing=False
+        ycountries=set(y.get("countries",[]) or [])
+        for z in event_deduped:
+            if z.get("bucket")!=y.get("bucket"):
+                continue
+            zcountries=set(z.get("countries",[]) or [])
+            countries_compatible=(not ycountries or not zcountries or bool(ycountries & zcountries))
+            if countries_compatible and summaries_same_event(z.get("summary",""),y.get("summary","")):
+                merge_item_into(z,y)
+                merged_into_existing=True
+                break
+        if not merged_into_existing:
+            event_deduped.append(dict(y))
+    day_items=event_deduped
     non_daily_manual=[x for x in old.get("items",[]) if x.get("period")!="day" and x.get("origin") not in ("rss","gdelt")]
     by_region=defaultdict(list)
     for x in day_items:
