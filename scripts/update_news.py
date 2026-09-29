@@ -76,6 +76,11 @@ LEADER_LABELS={
     "Benjamin Netanyahu":"le Premier ministre Benjamin Netanyahu (Israël)",
     "Jim Chalmers":"le trésorier fédéral Jim Chalmers (Australie)",
     "Keith Kellogg":"le général Keith Kellogg (États-Unis)",
+    "Pete Hegseth":"le secrétaire à la Défense Pete Hegseth (États-Unis)",
+    "Israel Katz":"le ministre de la Défense Israel Katz (Israël)",
+    "Sergueï Lavrov":"le ministre russe des Affaires étrangères Sergueï Lavrov (Russie)",
+    "Sergei Lavrov":"le ministre russe des Affaires étrangères Sergueï Lavrov (Russie)",
+    "Serghei Lavrov":"le ministre russe des Affaires étrangères Sergueï Lavrov (Russie)",
 }
 
 PERSON_SURNAME_ALIASES={
@@ -91,6 +96,9 @@ PERSON_SURNAME_ALIASES={
     "Merz":("Friedrich Merz","chancelier"),
     "Modi":("Narendra Modi","Premier ministre"),
     "Chalmers":("Jim Chalmers","trésorier fédéral"),
+    "Hegseth":("Pete Hegseth","secrétaire à la Défense"),
+    "Katz":("Israel Katz","ministre de la Défense"),
+    "Lavrov":("Sergueï Lavrov","ministre des Affaires étrangères"),
 }
 
 def enrich_leader_context(text):
@@ -101,7 +109,7 @@ def enrich_leader_context(text):
     for name,label in LEADER_LABELS.items():
         if name.lower() not in out.lower() or label.lower() in out.lower():
             continue
-        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances|général|ministre des affaires étrangères|secrétaire d['’]état)?\s*"+re.escape(name)+r"(?:\s*\([^)]+\))?"
+        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances|général|ministre des affaires étrangères|secrétaire à la défense|ministre de la défense|secrétaire d['’]état)?\s*"+re.escape(name)+r"(?:\s*\([^)]+\))?"
         out=re.sub(pattern,label,out,count=1)
 
     # Noms de famille seuls, très fréquents dans les titres.
@@ -116,8 +124,15 @@ def enrich_leader_context(text):
             out=re.sub(r"(?i)\bà\s+(?:le\s+président\s+)?"+re.escape(alias)+r"\b","au "+bare,out,count=1)
         if label.lower() in out.lower():
             continue
-        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|trésorier(?: fédéral)?|ministre des finances)?\s*\b"+re.escape(alias)+r"\b"
+        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|trésorier(?: fédéral)?|ministre des finances|secrétaire à la défense|ministre de la défense|ministre des affaires étrangères)?\s*\b"+re.escape(alias)+r"\b"
         out=re.sub(pattern,label,out,count=1)
+    # Nettoyer les répétitions héritées d'anciens enrichissements.
+    for name,label in LEADER_LABELS.items():
+        first=name.split()[0]
+        out=re.sub(r"(?i)\\b"+re.escape(first)+r"\\s+"+re.escape(label),label,out)
+        out=re.sub(r"(?i)\\b(?:le\\s+)?président\\s+"+re.escape(first)+r"\\s+"+re.escape(label),label,out)
+        out=out.replace(f"({label})",label)
+
     # Nettoyer les contractions/espaces créés par la normalisation des titres.
     out=out.replace("\\1 ","")
     out=re.sub(r"(?i)\bdu\s+le\s+président\b","du président",out)
