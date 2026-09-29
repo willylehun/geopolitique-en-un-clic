@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:56:15.557828+02:00",
+  "generated_at": "2026-09-29T21:06:30.364004+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -27320,7 +27320,8 @@
         "jcpost.com — fiabilité 6/10",
         "pasadenastarnews.com — fiabilité 6/10",
         "Chicago Tribune — fiabilité 6/10",
-        "KOTA Territory TV — fiabilité 6/10"
+        "KOTA Territory TV — fiabilité 6/10",
+        "KKTV — fiabilité 6/10"
       ],
       "url": "https://jcpost.com/posts/371020dc-175d-4691-b4c8-c798fad8c6e4",
       "published_at": "2026-09-29T19:00:00+02:00",
@@ -29068,8 +29069,7 @@
     },
     {
       "regions": [
-        "Europe",
-        "Amérique du Sud"
+        "Europe"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -29258,10 +29258,11 @@
       "category": "Géopolitique",
       "summary": "Guerre en Ukraine : La main de Moscou dans une « attaque » en Estonie et le président Donald Trump (États-Unis) deale avec la Russie. « 20 Minutes » fait le point pour vous tous les soirs sur le conflit en Ukraine. Ce mardi 29 septembre, l'identification d'une nouvelle attaque hybride russe a agacé les Occidentaux …",
       "sources": [
-        "20 Minutes — fiabilité 6/10"
+        "20 Minutes — fiabilité 6/10",
+        "20 Minutes via MSN — fiabilité 6/10"
       ],
       "url": "https://www.20minutes.fr/monde/ukraine/4249768-20260929-guerre-ukraine-main-moscou-attaque-estonie-trump-deale-russie",
-      "published_at": "2026-09-29T12:19:00+02:00",
+      "published_at": "2026-09-29T12:19:18+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -29745,9 +29746,10 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Maroc : Qui est Fatima Ezzahra El Mansouri, toute première femme à diriger le gouvernement ?. Chargée par le roi du Maroc de former un gouvernement, Fatima El Mansouri devra composer avec d’autres partis pour former une coalition pour cinq ans …",
+      "summary": "Maroc : Qui est Fatima Ezzahra El Mansouri, toute première femme à diriger le gouvernement ?. « moment historique » - Chargée par le roi du Maroc de former un gouvernement, Fatima El Mansouri devra composer avec d’autres partis pour former une coalition pour cinq ans …",
       "sources": [
-        "20 Minutes — fiabilité 6/10"
+        "20 Minutes — fiabilité 6/10",
+        "Yahoo Actualités — fiabilité 6/10"
       ],
       "url": "https://www.20minutes.fr/monde/maroc/4249882-20260929-maroc-fatima-ezzahra-el-mansouri-toute-premiere-femme-diriger-gouvernement",
       "published_at": "2026-09-29T13:12:00+02:00",
@@ -30158,10 +30160,11 @@
       "category": "Diplomatie",
       "summary": "L’Iran dit au public américain que la guerre du président Donald Trump (États-Unis) a échoué, ainsi que d’autres développements au Moyen-Orient. Les États-Unis ciblent des personnes et des entreprises dans le monde entier qu’ils accusent de financer ou de permettre la chaîne d’approvisionnement militaire iranienne, en imposant des sanctions à 10 personnes et entités…",
       "sources": [
-        "The Hill — fiabilité 6/10"
+        "The Hill — fiabilité 6/10",
+        "AP — fiabilité 9/10"
       ],
       "url": "https://thehill.com/homenews/ap/ap-international/ap-iran-tells-the-us-public-that-trumps-war-has-failed-and-other-mideast-developments/mlite/",
-      "published_at": "2026-09-29T00:20:00+02:00",
+      "published_at": "2026-09-29T05:46:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -30660,6 +30663,309 @@
       "countries": [
         "Royaume-Uni"
       ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La Cour d'appel refuse la pause des sanctions contre les avocats de Trump dans le cadre du règlement avec l'IRS. Une cour d'appel américaine a refusé mardi de bloquer immédiatement les sanctions contre les avocats du président Donald Trump (États-Unis), accusés par un juge d'avoir abusé du système judiciaire pour régler un procès contre le président.",
+      "sources": [
+        "Newsmax — fiabilité 6/10"
+      ],
+      "url": "https://www.newsmax.com/politics/trump-irs-lawsuit/2026/09/29/id/1271097/",
+      "published_at": "2026-09-29T13:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Énergie",
+      "summary": "L'indien Inox Clean Energy dépose une demande d'introduction en bourse d'un milliard de dollars. La société indienne Inox Clean Energy a déposé une première offre publique d'achat d'une valeur pouvant atteindre 100 milliards de roupies (1,04 milliard de dollars), selon un projet de document publié mardi.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/indias-inox-clean-energy-files-1-billion-ipo-2026-09-29/",
+      "published_at": "2026-09-29T12:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) dit que le Canada reviendra « désolé » dans 3 à 4 semaines, alors que les nouvelles interdictions d'importation américaines entreront en vigueur à minuit. Les tarifs douaniers américains sur les produits canadiens sont entrés en vigueur mardi à 0 h 01, soulignant un différend commercial actuel ayant des implications commerciales immédiates. Les tarifs américains sur les produits canadiens ciblent les boissons alcoolisées…",
+      "sources": [
+        "#Investing via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/food-and-drink/beverages/trump-says-canada-will-come-back-sorry-in-3-4-weeks-as-new-us-import-bans-hit-at-midnight/vi-AA2ddq1t",
+      "published_at": "2026-09-29T13:25:47+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement fédéral met en garde les pirates informatiques après l'arrestation de ShinyHunters pour violation de données sur un chantier du FBI. Le FBI a arrêté un chef présumé du groupe de piratage ShinyHunters, lié à 140 violations et extorsion massive.",
+      "sources": [
+        "USA TODAY — fiabilité 6/10"
+      ],
+      "url": "https://www.usatoday.com/story/news/crime/2026/09/29/fbi-arrests-suspected-leader-of-shinyhunters-group/92003232007/",
+      "published_at": "2026-09-29T11:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "NABEP ajoute des concessions sur 17 champs et fixe l'objectif de dépasser le million de barils par jour. NABEP prend le contrôle opérationnel au Venezuela et annonce un investissement de 100 milliards de dollars pour augmenter la production pétrolière à 1 million de barils par jour.",
+      "sources": [
+        "Global Energy — fiabilité 6/10"
+      ],
+      "url": "https://globalenergy.mx/noticias-especiales/articulos/nabep-venezuela-inversion-100000-millones-produccion-petroleo/",
+      "published_at": "2026-09-29T10:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les voisins de Sierra Grande et de San Antonio Oeste ont participé aux discussions informatives du GNL argentin. En prélude à l'audience publique du projet d'exportation de gaz naturel liquéfié (GNL), les communautés des deux sites étaient présentes à la conférence organisée par le gouvernement de Rio…",
+      "sources": [
+        "Diario Río Negro — fiabilité 6/10"
+      ],
+      "url": "https://www.rionegro.com.ar/energia/vecinos-de-sierra-grande-y-san-antonio-oeste-participaron-de-charlas-informativas-por-argentina-gnl-4740250/",
+      "published_at": "2026-09-29T07:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Que pensent les électeurs des changements apportés au triple verrouillage des retraites ?. Ali Fortescue de Sky s'est adressé aux électeurs de Runcorn après que le Premier ministre Andy Burnham a annoncé qu'il « ajusterait » le triple verrouillage afin de financer son projet de service national de soins lors du prochain parlement.",
+      "sources": [
+        "Sky News — fiabilité 6/10"
+      ],
+      "url": "https://news.sky.com/story/who-do-voters-make-of-changes-to-pension-triple-lock-13593382",
+      "published_at": "2026-09-29T12:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Après des négociations indirectes, de nouvelles sanctions américaines visent l'approvisionnement en armes de l'Iran. Les dernières sanctions interviennent après que les deux parties ont tenu une nouvelle série de pourparlers indirects sur un éventuel accord visant à mettre fin à la guerre.",
+      "sources": [
+        "Al-Monitor — fiabilité 6/10"
+      ],
+      "url": "https://www.al-monitor.com/originals/2026/09/after-indirect-talks-new-us-sanctions-target-irans-weapons-supply",
+      "published_at": "2026-09-29T13:55:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Qatar",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump s’apprête à agrandir le camp du Qatar, abritant plus de 1 000 Afghans qui ont contribué à l’effort de guerre américain. L'administration du président Donald Trump (États-Unis) s'apprête à accorder un sursis de dernière minute à un camp au Qatar qui abrite plus de 1 000 Afghans ayant travaillé avec les forces américaines. Le secrétaire d’État Marco Rubio (États-Unis)…",
+      "sources": [
+        "New Haven Register — fiabilité 6/10"
+      ],
+      "url": "https://www.nhregister.com/news/article/trump-is-set-to-extend-the-qatar-camp-housing-22454985.php",
+      "published_at": "2026-09-29T13:52:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Soudan du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Dans le Soudan du Sud déchiré par la guerre, les girafes conservent un pool génétique étonnamment sain. Les girafes vivant dans les savanes déchirées par la guerre au Soudan du Sud sont génétiquement saines et liées aux populations de girafes voisines par le flux génétique, malgré des décennies de conflit, suggèrent des recherches récentes. Ces résultats montrent que « les régions du monde qui ont été touchées par des conflits peuvent conserver une grande biodiversité et ne devraient donc pas être négligées par la génétique […]",
+      "sources": [
+        "news.mongabay.com — fiabilité 6/10"
+      ],
+      "url": "https://news.mongabay.com/short-article/2026/09/in-war-torn-south-sudan-giraffes-retain-a-surprisingly-healthy-gene-pool/",
+      "published_at": "2026-09-29T20:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Guinée équatoriale"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Page officielle du gouvernement de la République de Guinée équatoriale. Le ministre délégué de la Jeunesse et des Sports, Andrés Ikuga Fernández, a tenu une réunion de travail avec les présidents, secrétaires généraux et trésoriers du Comité olympique de Guinée équatoriale et des différentes fédérations sportives du pays.",
+      "sources": [
+        "guineaecuatorialpress.com — fiabilité 6/10"
+      ],
+      "url": "https://www.guineaecuatorialpress.com/noticias/andres_ikuga_fernandez_reune_a_las_federaciones_deportivas_para_preparar_la_temporada_2026-2027",
+      "published_at": "2026-09-29T20:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Pakistan",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "COMPTE BRILLANT DU PAKISTAN : Initiative nationale d'épargne pour mobiliser jusqu'à 10 milliards de dollars américains auprès des Pakistanais dans le pays et à l'étranger. Proposé pour examen par le Conseil spécial de facilitation des investissements (SIFC) du gouvernement du Pakistan Ministère des Finances Banque d’État du Pakistan Résumé",
+      "sources": [
+        "pakobserver.net — fiabilité 6/10"
+      ],
+      "url": "https://pakobserver.net/shining-pakistan-account-national-savings-initiative-to-mobilise-up-to-us10-billion-from-pakistanis/",
+      "published_at": "2026-09-29T20:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Pologne",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Pologne : un drone russe s’écrase à proximité de la frontière. Un drone Geran-5 russe s'est écrasé à quelques centaines de mètres du passage frontalier de Yagodin, le plus fréquenté entre la Pologne et l'Ukraine. Confirmé par les Forces armées polonaises, l'incid …",
+      "sources": [
+        "Enderi via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/actualite/other/pologne-un-drone-russe-s-écrase-à-proximité-de-la-frontière/ar-AA2dctNi",
+      "published_at": "2026-09-29T07:55:55+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Après les élections législatives en Russie, le président Vladimir Poutine (Russie) intensifie l’effort de guerre. Pour la quatrième fois cette année, le chef du Kremlin a augmenté les effectifs de son armée. Et Moscou accroît de plus d’un quart son objectif de dépenses militaires pour 2027.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/09/29/apres-les-elections-legislatives-vladimir-poutine-intensifie-l-effort-de-guerre_6785677_3210.html",
+      "published_at": "2026-09-29T12:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Russie : budget militaire record et 2,44 millions de soldats en 2027. Le président Vladimir Poutine (Russie) a signé le 28 septembre 2026 un décret portant les effectifs des forces armées russes à 2,44 millions de personnes, la quatrième augmentation de l'année. Parallèlement, Moscou prévoit …",
+      "sources": [
+        "Politique Matin via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/actualite/other/russie-budget-militaire-record-et-244-millions-de-soldats-en-2027/ar-AA2daz6u",
+      "published_at": "2026-09-29T01:15:51+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
