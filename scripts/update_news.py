@@ -211,11 +211,11 @@ def is_french_2027_presidential(text):
 def clean_summary_text(text):
     """Retire le bruit éditorial/SEO sans inventer d'information."""
     raw="".join(ch for ch in (text or "") if unicodedata.category(ch)!="Cf")
-    out=re.sub(r"\\s+"," ",raw).strip()
+    out=re.sub(r"\s+"," ",raw).strip()
     # Suffixes publicitaires ou de portail qui n'apportent rien au fait.
-    out=re.sub(r"(?i)\\s*\\|\\s*actualités gratuites en ligne.*$","",out)
-    out=re.sub(r"(?i)\\s*[–—-]\\s*journal approfondi.*$","",out)
-    out=re.sub(r"(?i)\\s*[–—-]\\s*dernières nouvelles.*$","",out)
+    out=re.sub(r"(?i)\s*\|\s*actualités gratuites en ligne.*$","",out)
+    out=re.sub(r"(?i)\s*[–—-]\s*journal approfondi.*$","",out)
+    out=re.sub(r"(?i)\s*[–—-]\s*dernières nouvelles.*$","",out)
     boilerplate_markers=(
       "en l'absence d'un accord écrit avec",
       "en l’absence d’un accord écrit avec",
@@ -228,7 +228,9 @@ def clean_summary_text(text):
     cuts=[lower.find(marker) for marker in boilerplate_markers if lower.find(marker)>=0]
     if cuts:
         out=out[:min(cuts)].rstrip(" .;:-")
-    out=re.sub(r'(?i)\s*/[a-z0-9_-]{2,}/[a-z0-9_-]{2,}\s*["”\']*\s*
+    # Supprimer une signature technique finale du type /auteur/redacteur.
+    out=re.sub(r"(?i)\s*/[a-z0-9_-]{2,}/[a-z0-9_-]{2,}\s*[\"”']*\s*$","",out).rstrip(" .;:-")
+    return out.strip(" |–—-")
 
 def is_market_listing_noise(text):
     """Détecte fiches boursières/cotations qui ne décrivent aucun événement."""
