@@ -1561,6 +1561,17 @@ def global_country_discovery(start_date,end_date,countries):
         for future,label in jobs:
             try: articles.extend(future.result())
             except Exception as e: print(label,e,file=sys.stderr)
+    if not BING_DISABLED:
+        bing_global_queries=[
+          "(politique OR gouvernement OR diplomatie OR économie OR sécurité OR conflit)",
+          *MAJOR_NEWS_QUERIES,
+        ]
+        for q in bing_global_queries:
+            try:
+                DISCOVERY_STATS["bing_global_queries"]+=1
+                articles.extend(bing_rss_query(q))
+            except Exception as e:
+                print("BING GLOBAL",e,file=sys.stderr)
     # GDELT est interrogé séquentiellement et cadencé : les appels parallèles précédents
     # provoquaient des 429 puis coupaient la principale source de liens directs.
     if not GDELT_DISABLED:
@@ -1612,19 +1623,39 @@ def country_backfill(start_date,end_date,state):
     # Collecte mondiale mutualisée en premier : tous les pays sont traités de manière égale.
     global_rows,global_found=global_country_discovery(start_date,end_date,all_countries)
     rows.extend(global_rows); found.update(global_found)
-    # Traitement par petits lots persistants : chaque run écrit son lot avant que le suivant ne soit traité.
-    # Le lot ciblé complète la collecte mondiale sans priorité liée au niveau de couverture.
+    # Traitement par lots : 75 % des places ciblent les pays encore sans article,
+    # 25 % restent réservées aux pays déjà couverts afin qu'ils continuent à tourner.
     batch_size=max(1,int(os.getenv("COUNTRY_BATCH_SIZE","10") or "10"))
-    # La rotation de 195 pays est conservée, mais l'ordre du lot s'adapte à
-    # l'heure française afin de chercher d'abord là où les rédactions publient.
-    ordered=time_priority_countries(list(all_countries),datetime.now(PARIS))
-    if ordered:
-        offset=int(state.get("country_cursor",0))%len(ordered)
-        countries=(ordered+ordered)[offset:offset+min(batch_size,len(ordered))]
+    coverage_state=load_country_coverage()
+    missing_set=set(coverage_state.get("missing_countries",[]) or [])
+    covered_set=set(coverage_state.get("covered_countries",[]) or [])
+    now_for_priority=datetime.now(PARIS)
+    missing_ordered=time_priority_countries([c for c in all_countries if c in missing_set],now_for_priority)
+    covered_ordered=time_priority_countries([c for c in all_countries if c in covered_set],now_for_priority)
+
+    if missing_ordered and covered_ordered:
+        missing_take=max(1,min(len(missing_ordered),(batch_size*3)//4))
+        covered_take=max(1,min(len(covered_ordered),batch_size-missing_take))
+    elif missing_ordered:
+        missing_take=min(batch_size,len(missing_ordered)); covered_take=0
     else:
-        countries=[]
+        missing_take=0; covered_take=min(batch_size,len(covered_ordered))
+
+    countries=[]
+    if missing_take:
+        moff=int(state.get("country_missing_cursor",0))%len(missing_ordered)
+        countries.extend((missing_ordered+missing_ordered)[moff:moff+missing_take])
+        state["country_missing_cursor"]=int(state.get("country_missing_cursor",0))+missing_take
+    if covered_take:
+        coff=int(state.get("country_covered_cursor",0))%len(covered_ordered)
+        countries.extend((covered_ordered+covered_ordered)[coff:coff+covered_take])
+        state["country_covered_cursor"]=int(state.get("country_covered_cursor",0))+covered_take
+
+    countries=list(dict.fromkeys(countries))
     state["last_targeted_countries"]=list(countries)
     state["last_targeted_count"]=len(countries)
+    state["last_targeted_missing_count"]=sum(1 for c in countries if c in missing_set)
+    state["last_targeted_covered_count"]=sum(1 for c in countries if c in covered_set)
     # Google couvre tout le lot. GDELT, plus précieux car il fournit des liens directs,
     # n'est utilisé que pour quelques pays par cycle afin de respecter son rate-limit.
     google_budget=max(0,int(os.getenv("GOOGLE_FALLBACK_BUDGET",str(batch_size)) or str(batch_size)))
@@ -1672,7 +1703,7 @@ def country_backfill(start_date,end_date,state):
             rows.append({"regions":regions_for_countries([country],s),"countries":[country],"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"gdelt" if "GDELT" in source_name(art["source"]) else "rss","content_enriched":True})
     return rows,found
 
-def update_country_coverage(found,now):
+def update_country_coverage(found,now,checked_countries=None):
     if not COUNTRY_COVERAGE.exists(): return
     try: data=json.loads(COUNTRY_COVERAGE.read_text(encoding="utf-8"))
     except Exception: return
@@ -1687,7 +1718,8 @@ def update_country_coverage(found,now):
     missing=[c for c in targets if key_title(c) not in covered_set]
     data["date"]=fr_date(now.date()); data["target_countries"]=len(targets)
     previous_checked=set(data.get("checked_countries",[])) if data.get("date")==fr_date(now.date()) else set()
-    checked=sorted(previous_checked|set(found))
+    checked_now=set(checked_countries or [])
+    checked=sorted(previous_checked|checked_now)
     data["checked_count"]=len(checked); data["checked_countries"]=checked
     data["covered_countries"]=covered; data["missing_countries"]=missing
     data["covered_count"]=len(covered); data["missing_count"]=len(missing); data["updated_at"]=now.isoformat()
@@ -1726,6 +1758,12 @@ def build_generated(start_date,end_date):
                         articles.extend(google_rss_query(q))
                 except Exception as e:
                     print("RSS",region,a,b,theme,e,file=sys.stderr)
+            if not BING_DISABLED:
+                try:
+                    DISCOVERY_STATS["bing_region_queries"]+=1
+                    articles.extend(bing_rss_query(f'({REGIONS[region]}) ({IMPACT_QUERY})'))
+                except Exception as e:
+                    print("BING REGION",region,a,b,e,file=sys.stderr)
             # Les résultats GDELT mondiaux sont classés localement par pays/région.
             # Ne pas refaire sept appels GDELT par continent : cela provoquait des 429.
             articles=prioritize_articles(articles,start_date,end_date)
@@ -1908,7 +1946,7 @@ def main():
     for item in day_items:
         if item.get("bucket")==today_bucket:
             found.update(item.get("countries",[]))
-    update_country_coverage(found,now)
+    update_country_coverage(found,now,state.get("last_targeted_countries",[]))
     state["last_rejection_stats"]=dict(sorted(REJECTION_STATS.items()))
     state["last_discovery_stats"]=dict(sorted(DISCOVERY_STATS.items()))
     state["last_content_fetches"]=ARTICLE_DETAIL_USED
