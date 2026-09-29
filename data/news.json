@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:03:36.194021+02:00",
+  "generated_at": "2026-09-29T19:06:51.589100+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -471,12 +471,11 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Chine",
       "summary": "Le Trésor américain rencontre le vice-Premier ministre chinois avant le sommet le président Donald Trump (États-Unis)–le président Xi Jinping (Chine) pour parler commerce, IA et sécurité économique.",
       "sources": [
@@ -733,12 +732,11 @@
     },
     {
       "regions": [
-        "Océanie",
-        "International"
+        "Océanie"
       ],
       "period": "day",
       "bucket": "13 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Numérique",
       "summary": "Australie : le gouvernement se dit prêt à modifier son projet sur les dommages numériques pour obtenir un soutien parlementaire plus large.",
       "sources": [
@@ -1356,12 +1354,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Politique",
       "summary": "La dirigeante suédoise de centre gauche Magdalena Andersson est chargée de former un gouvernement après les élections.",
       "sources": [
@@ -1599,7 +1596,7 @@
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
-      "score": 4,
+      "score": 6,
       "category": "Économie",
       "summary": "Le projet de rapprochement de Carney avec l’UE ne prévoit pas de contribution directe du Canada au budget européen.",
       "sources": [
@@ -2922,12 +2919,11 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Sécurité",
       "summary": "At least 26 killed in clashes along Sudan-South Sudan border region",
       "sources": [
@@ -3550,15 +3546,14 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "countries": [
         "Soudan du Sud"
       ],
       "period": "day",
       "bucket": "23 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Soudan du Sud : le président dissout le gouvernement à trois mois d’élections toujours incertaines",
       "sources": [
@@ -3874,15 +3869,14 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "countries": [
         "Albanie"
       ],
       "period": "day",
       "bucket": "9 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Énergie",
       "summary": "Le gouvernement albanais et l’entreprise américaine Argent LNG ont signé un protocole d’accord non contraignant afin d’étudier un terminal terrestre de stockage et de regazéification de GNL pouvant atteindre cinq millions de tonnes par an.",
       "sources": [
@@ -3939,15 +3933,14 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "countries": [
         "Andorre"
       ],
       "period": "day",
       "bucket": "18 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Économie",
       "summary": "L’agence Fitch a maintenu la note souveraine d’Andorre à « A- » avec perspective stable. Le gouvernement souligne notamment le renforcement des mécanismes de liquidité en euros dans son environnement financier.",
       "sources": [
@@ -3959,15 +3952,14 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "countries": [
         "Angola"
       ],
       "period": "day",
       "bucket": "7 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Infrastructures",
       "summary": "L’Angola a autorisé un projet de 658 millions d’euros pour réhabiliter, moderniser et étendre le réseau d’eau potable de Luanda. Le gouvernement estime qu’environ trois millions d’habitants de zones insuffisamment desservies doivent en bénéficier.",
       "sources": [
@@ -4002,15 +3994,14 @@
     },
     {
       "regions": [
-        "Océanie",
-        "International"
+        "Océanie"
       ],
       "countries": [
         "Australie"
       ],
       "period": "day",
       "bucket": "21 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Diplomatie",
       "summary": "L’Australie a officiellement lancé sa candidature à un siège non permanent au Conseil de sécurité des Nations unies. Le gouvernement entend mettre en avant son engagement multilatéral et sa réputation internationale dans cette campagne diplomatique.",
       "sources": [
@@ -4084,15 +4075,14 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "countries": [
         "Bénin"
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Institutions",
       "summary": "Au Bénin, Édouard Ouin-Ouro, ancien secrétaire général du gouvernement, a été nommé administrateur du travail du Sénat, quelques semaines après l’installation de cette institution.",
       "sources": [
@@ -4204,15 +4194,14 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "International"
+        "Amérique du Sud"
       ],
       "countries": [
         "Bolivie"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Économie",
       "summary": "Le Congrès bolivien approuve un accord de prêt de 1,9 milliard de dollars avec le FMI ; le gouvernement supprime ensuite les subventions au diesel dans le cadre du programme de stabilisation.",
       "sources": [
@@ -6602,8 +6591,7 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Liban",
@@ -6611,7 +6599,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Sécurité",
       "summary": "Pakistani forces kill Afghan Taliban fighters in border escalation - Grenada Chronicle – Daily Grenada And Caribbean News",
       "sources": [
@@ -6661,8 +6649,7 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Liban",
@@ -6670,7 +6657,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Sécurité",
       "summary": "Pakistani forces kill several Afghan Taliban fighters in border clash amid escalating tensions",
       "sources": [
@@ -6780,8 +6767,7 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "countries": [
         "Liban",
@@ -6790,7 +6776,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Sécurité",
       "summary": "Pakistani forces kill Afghan Taliban fighters in border escalation - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
       "sources": [
@@ -6916,15 +6902,14 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Pakistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Conflit",
       "summary": "Imran Khan son warns of counterassault as Pakistan cracks down ahead of Sept 27 Tehreek - e - Insaf protest seeking Khan release",
       "sources": [
@@ -6974,8 +6959,7 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Liban",
@@ -6983,7 +6967,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Sécurité",
       "summary": "Pakistani forces kill Afghan Taliban fighters in border escalation",
       "sources": [
@@ -8008,15 +7992,14 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "countries": [
         "Maroc"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Journal de l'Afrique - Maroc: les alliances prennent forme en attente du chef du gouvernement",
       "sources": [
@@ -8028,15 +8011,14 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "countries": [
         "Italie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Énergie",
       "summary": "Italie : le gouvernement adopte un décret interdisant le port du voile à l'école",
       "sources": [
@@ -8405,15 +8387,14 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Géorgie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Shavkat Mirziyoyev félicite le Premier ministre géorgien à l’occasion de son anniversaire",
       "sources": [
@@ -8622,12 +8603,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "L’accusation de génocide contre le Premier ministre Benjamin Netanyahu (Israël) est « le plus grand mensonge du siècle | Tiroler Tageszeitung – Dernières nouvelles sur ttcom",
       "sources": [
@@ -9144,12 +9124,11 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "12 mensonges, et un seul le président Donald Trump (États-Unis) : les propos du Premier ministre Benjamin Netanyahu (Israël) à l'ONU",
       "sources": [
@@ -9181,12 +9160,10 @@
       "countries": []
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "[Exclusif] Le gouvernement 24 a de nouveau violé malgré une amende… Une fuite d'informations personnelles a été connue un mois plus tard",
       "sources": [
@@ -9428,12 +9405,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le Premier ministre Edi Rama (Albanie) au Conseil européen des entreprises : la paix est une condition du développement économique",
       "sources": [
@@ -9518,12 +9494,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "\" Chambre : Celui qui assure la paix au Parlement",
       "sources": [
@@ -9537,12 +9512,11 @@
     {
       "regions": [
         "Europe",
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Une star hollywoodienne arrêtée lors d'une manifestation à New York",
       "sources": [
@@ -10234,12 +10208,11 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Page officielle du gouvernement de la République de Guinée équatoriale",
       "sources": [
@@ -10515,12 +10488,10 @@
       ]
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Les réservistes de l'armée et de la marine accusent le gouvernement de retenir les salaires dus aux employés fédéraux",
       "sources": [
@@ -11681,7 +11652,7 @@
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 4,
+      "score": 6,
       "category": "Économie",
       "summary": "L'ancien député du peuple Pashinsky a reconnu sa culpabilité et a conclu un accord avec l'enquête : 1,1 milliard d'UAH seront transférés au budget et aux forces armées ukrainiennes",
       "sources": [
@@ -11762,12 +11733,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le gouvernement d'Estrémadure met en garde contre les incidents provoqués par le passage de trains de marchandises à travers la région",
       "sources": [
@@ -12381,12 +12351,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Discours du Premier ministre Benjamin Netanyahu (Israël) : Susan Sarandon arrêtée lors d'une manifestation à l'ONU",
       "sources": [
@@ -12625,12 +12594,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le Gouvernement Basque ratifie sa priorité éducative après la débâcle du PISA : Nous voulons que les élèves aiment l'euskara",
       "sources": [
@@ -13160,15 +13128,14 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "countries": [
         "Guinée"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Guinée : Sidya Touré, l’ex-Premier ministre devenu opposant éternel, est mort en exil",
       "sources": [
@@ -13466,12 +13433,11 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le président Donald Trump (États-Unis) et le Premier ministre Benjamin Netanyahu (Israël) arrivent aux Nations Unies après la défaite en Iran",
       "sources": [
@@ -14328,12 +14294,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Déclaration du Premier ministre Narendra Modi (Inde) Varanasi à Vadnagar Bikers | Politique de réforme sociale",
       "sources": [
@@ -14633,12 +14598,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Incendie sur le toit du Pakuwon Trade Center Surabaya, l'incendie a été éteint",
       "sources": [
@@ -14672,12 +14636,11 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "103 personnes arrêtées lors des manifestations du Premier ministre Benjamin Netanyahu (Israël) aux États-Unis",
       "sources": [
@@ -14792,12 +14755,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Déclaration de l'Iran à propos du Premier ministre Benjamin Netanyahu (Israël) : il devrait parler dans la salle d'audience, pas à l'ONU",
       "sources": [
@@ -15519,12 +15481,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Qiu Jianfu a visité le bureau de la porte du temple de Changhua sans aucune extravagance et a tenu une réunion d'information le 6 octobre pour présenter le plan du gouvernement du comté de « Changhua Fu ».",
       "sources": [
@@ -15659,12 +15620,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Bon dimanche Monsieur le Premier ministre : Du monologue de l'ONU à la nécessité d'un consensus national - Vidéo de Terence Quick - HuffPost - Nouvelles et opinions de la Grèce et du monde Dimanche saint Monsieur le Premier ministre : Du monologue de l'ONU à la nécessité nationale...",
       "sources": [
@@ -16841,7 +16801,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 4,
+      "score": 6,
       "category": "Économie",
       "summary": "Sur le budget , Olivier Faure agite la menace de la censure après à la main tendue de Sébastien Lecornu",
       "sources": [
@@ -17384,12 +17344,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Attaque massive Robert Del Naja arrêté lors d'une manifestation d'action pour la Palestine à Liverpool - Noise11 Music News Noise11 Music News | Nouvelles",
       "sources": [
@@ -18182,12 +18141,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Grindeanu rejette les accusations de complot avec les USA et annonce que le PSD ne votera pas pour le gouvernement Muresan",
       "sources": [
@@ -18764,7 +18722,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "ROUNDUP 2 : La colère face à la pénurie de logements met la pression sur le gouvernement espagnol",
       "sources": [
@@ -19068,7 +19026,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Trèves reçoit des millions du gouvernement fédéral - une nouvelle piscine est en construction",
       "sources": [
@@ -19135,12 +19093,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Susan Sarandon arrêtée lors d'une manifestation anti-le Premier ministre Benjamin Netanyahu (Israël) à New York",
       "sources": [
@@ -20290,7 +20247,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le prix de l’huile alimentaire va baisser dans le pays ; La décision du gouvernement central précède les célébrations à venir.",
       "sources": [
@@ -20652,12 +20609,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Plisat se rassemble contre le verdict à La Haye, d'autres groupes de supporters se joignent à la manifestation",
       "sources": [
@@ -20725,12 +20680,10 @@
       "countries": []
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Mobilisation de la police avant la manifestation de tifo - groupes du Kosovo",
       "sources": [
@@ -20755,12 +20708,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "« Débat sur le paysage urbain : Hesse - Premier ministre du Rhin le réédite",
       "sources": [
@@ -20831,12 +20782,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le Premier ministre thaïlandais a inspecté les inondations et a dépensé son propre argent pour soutenir la population.",
       "sources": [
@@ -20882,12 +20831,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le consulat israélien a organisé une manifestation contre le film NAZA à New York | MigNews - Actualités d'Israël et du monde en russe",
       "sources": [
@@ -20901,12 +20849,10 @@
       ]
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le projet de loi du gouvernement Carney sur l’énergie et le travail met le chef conservateur dans le pétrin",
       "sources": [
@@ -21261,12 +21207,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "L'Afghanistan revendique 28 morts et 32 capturés à la frontière pakistanaise",
       "sources": [
@@ -21296,12 +21241,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Déclaration remarquable du Premier ministre grec Mitsotakis à la Turquie ! Il a crié : « Nous sommes condamnés à cela »",
       "sources": [
@@ -21336,12 +21280,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "L'expulsion d'un homme de 87 ans déclenche une manifestation dans un campement à Madrid contre la crise du logement",
       "sources": [
@@ -21353,12 +21296,10 @@
       "countries": []
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le patron du DGB appelle le gouvernement à agir après les manifestations",
       "sources": [
@@ -21910,12 +21851,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "NRW - Premier ministre : Wüst se rend en Turquie pour trois jours",
       "sources": [
@@ -22332,12 +22272,11 @@
     {
       "regions": [
         "Europe",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le message urgent du Premier ministre Edi Rama (Albanie) vient d'arriver des États-Unis (texte intégral)",
       "sources": [
@@ -24026,7 +23965,7 @@
       "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 4,
+      "score": 6,
       "category": "Économie",
       "summary": "Comment les nids-de-poule et l'abandon des infrastructures routières obligent les entreprises de logistique à augmenter leurs prix et finissent par étouffer le budget des familles mexicaines dans les supermarchés",
       "sources": [
@@ -24148,12 +24087,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le président populiste serbe démissionne pour se présenter au poste de Premier ministre lors d'un vote anticipé",
       "sources": [
@@ -24196,12 +24134,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le gouvernement interviendra sur 98 km de canaux et de ravins pour éviter les inondations à Puebla",
       "sources": [
@@ -24240,12 +24176,10 @@
       "origin": "rss"
     },
     {
-      "regions": [
-        "International"
-      ],
+      "regions": [],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Un journaliste juif retiré des ondes de CBC après avoir publié une manifestation anti-israélienne",
       "sources": [
@@ -24287,12 +24221,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Vucic démissionne de son poste du président de Serbie, organisant des élections qui pourraient le voir devenir Premier ministre",
       "sources": [
@@ -24726,7 +24659,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le chanteur critique les médecins. Bosak : Le système pathologique a été construit par le gouvernement de gauche",
       "sources": [
@@ -25463,12 +25396,11 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Sorin Grindeanu rejette les accusations concernant un accord avec les États-Unis pour destituer le gouvernement Bolojan",
       "sources": [
@@ -26412,12 +26344,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Des bijoux d'une valeur de 1,3 million d'euros dans le bureau de l'ancien premier ministre. Zapatero dit qu'il l'a reçu du roi d'Arabie Saoudite",
       "sources": [
@@ -26468,7 +26399,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le camp de Sol se consolide et accroît la pression sur le gouvernement avant le Conseil des ministres de mardi",
       "sources": [
@@ -26512,12 +26443,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Comment est-il possible que je ne le sache pas ?, message du Premier ministre Edi Rama (Albanie) après les accusations du SPAK envers ses proches : j'ai mes défauts, mais je suis là pour écrire l'histoire et non la richesse - Tetova Sot",
       "sources": [
@@ -26847,12 +26777,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Népal, le Premier ministre Shah porte la tragédie climatique à l'ONU : nous sommes ceux qui payent le prix le plus élevé",
       "sources": [
@@ -27088,7 +27017,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Pravesh Sahib Singh gifle : l'AAP organise une manifestation exigeant le FIR, le ministre déclare que les travailleurs du parti Oppn ont abusé de leur famille",
       "sources": [
@@ -27104,7 +27033,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 4,
+      "score": 6,
       "category": "Économie",
       "summary": "Dans quel pays, dans une famille sur quatre, la femme contrôle le budget du ménage et les hommes donnent tout l'argent qu'ils gagnent à leur femme et reçoivent d'elle de l'argent de poche ?",
       "sources": [
@@ -27396,7 +27325,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Lorsque le gouvernement arrive au pouvoir, la dette du ministère de la Santé est de 2 575 crores, ceux qui ont utilisé le lobby privé pendant 10 ans transforment la chèvre en chien : K Muralidharan",
       "sources": [
@@ -27510,12 +27439,11 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "La Maison Blanche diffuse une autre publicité financée par le gouvernement avec le président Donald Trump (États-Unis)",
       "sources": [
@@ -28829,19 +28757,19 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le Premier ministre annonce une nouvelle loi autorisant la propriété publique des entreprises de distribution d'eau. Le Premier ministre a dévoilé son projet de nouvelles lois pour ouvrir la voie à la propriété publique des entreprises de distribution d’eau en faillite, et a promis de mettre en place, sur 10 ans, un « système d’approvisionnement en eau très différent » au Royaume-Uni. Dans son discours à la conférence du Parti travailliste, Andy Burnham a déclaré que la secrétaire à l'Environnement, Dame Angela Eagle, présenterait un « projet de loi sur l'eau renforcé au Parlement ».",
       "sources": [
-        "northsomersettimes.co.uk"
+        "northsomersettimes.co.uk",
+        "worcesternews.co.uk"
       ],
       "url": "https://www.northsomersettimes.co.uk/news/national/26591881.pm-announces-new-law-allow-public-ownership-water-firms/",
-      "published_at": "2026-09-29T18:30:00+02:00",
+      "published_at": "2026-09-29T18:45:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -28928,12 +28856,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "PM tchèque Babis : La République tchèque est prête à répondre si la Russie attaque les pays baltes. Babis, dont le gouvernement comprend un parti pro-russe, a suspendu les contributions tchèques à l'aide militaire à l'Ukraine et s'est également retiré des promesses de financement et d'aide militaire de l'UE et de l'OTAN pour Kiev.",
       "sources": [
@@ -28967,23 +28894,6 @@
     },
     {
       "regions": [
-        "International"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 8,
-      "category": "Géopolitique",
-      "summary": "L’ambiance à Wall Street est mitigée, car le pétrole est moins cher, mais les rendements obligataires continuent d’augmenter. La plupart des sociétés cotées sur les bourses américaines ont chuté en première partie de séance. Cependant, la demande pour les actions technologiques, y compris celles les plus capitalisées, s'est traduite par une légère hausse du Nasdaq Composite.",
-      "sources": [
-        "pb.pl"
-      ],
-      "url": "https://www.pb.pl/na-wall-street-mieszane-nastroje-bo-ropa-tanieje-ale-rentownosci-obligacji-nadal-rosna-1267883",
-      "published_at": "2026-09-29T18:30:00+02:00",
-      "origin": "rss",
-      "content_enriched": true
-    },
-    {
-      "regions": [
         "Europe",
         "Amérique du Nord",
         "International"
@@ -29011,23 +28921,6 @@
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 7,
-      "category": "Géopolitique",
-      "summary": "Quatre membres du CISF, dont le commandant adjoint, tués à Kathua. L'incident a eu lieu vers 19h30 au projet hydroélectrique Sewa-III situé dans le village de Mashka à Basohli, près de la frontière avec l'Himachal […]",
-      "sources": [
-        "orissapost.com"
-      ],
-      "url": "https://www.orissapost.com/four-cisf-personnel-including-assistant-commandant-killed-in-kathua/",
-      "published_at": "2026-09-29T18:30:00+02:00",
-      "origin": "rss",
-      "content_enriched": true
-    },
-    {
-      "regions": [
-        "International"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
       "summary": "Hegseth sur qui gardera le système électoral de mi-mandat de novembre. L'Agence américaine de sécurité nationale et d'autres forces militaires de renseignement et de cybersécurité garderont les systèmes électoraux pendant les élections de mi-novembre, a déclaré lundi le secrétaire à la Défense Pete Hegseth. Les experts militaires en cybersécurité aident régulièrement à surveiller les systèmes et à dissuader les pirates potentiels depuis que l’équipement électoral a été désigné « infrastructure critique » en 2017.",
@@ -29041,12 +28934,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 7,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Service de rencontres du gouvernement de Singapour : Le gouvernement de Singapour va-t-il payer votre FirstDate ? Voici comment savoir si vous êtes éligible et comment cela fonctionne. FirstDate est toujours testé en tant que programme pilote par GovTech Singapore. Pour l’instant, il n’est accessible qu’aux agents publics. Le service n’a pas été déployé auprès des célibataires à travers le pays. Les candidats doivent également être âgés de 21 à 35 ans.",
       "sources": [
@@ -29099,6 +28991,267 @@
       "countries": [
         "Tunisie"
       ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Larmée malienne et les paramilitaires russes ont commis des crimes de guerre contre 34 civils , selon Amnesty. Des meurtres, tortures et exécutions ont été documentés entre 2023 et 2025 dans sept localités du centre et du nord du pays. Les victimes appartenaient principalement aux communautés peules, arabes et touareg",
+      "sources": [
+        "letemps.ch"
+      ],
+      "url": "https://www.letemps.ch/monde/afrique/l-armee-malienne-et-les-paramilitaires-russes-ont-commis-des-crimes-de-guerre-contre-34-civils-selon-amnesty",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Mali"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Bruxelles veut réduire de 80% le remplissage des réserves européennes de gaz pour l'hiver. Il pose ce nouvel objectif d'« atténuer immédiatement » la volatilité des prix de l'énergie, rendus plus chers par la guerre en Iran.",
+      "sources": [
+        "ideal.es"
+      ],
+      "url": "https://www.ideal.es/economia/bruselas-quiere-reducir-llenado-reservas-europeas-gas-20260929181315-ntrc.html",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Manifestation à Dijon : Du fric pour lhôpital , pas pour les Rafales ... Du fric pour la Sécu , pas pour les obus !. Plusieurs centaines de personnes défilent dans les rues de Dijon, ce mardi 29 septembre. Les fonctionnaires réclament plus de moyens pour leurs métiers, et demandent au gouvernement de revoir ses priorités.",
+      "sources": [
+        "ici.fr"
+      ],
+      "url": "https://www.ici.fr/bourgogne-franche-comte/cote-d-or-21/dijon/a-dijon-du-fric-pour-l-hopital-pas-pour-les-rafales-du-fric-pour-la-secu-pas-pour-les-obus-1552411",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les baies mexicaines soutiennent un marché nord-américain de 10 milliards de dollars.",
+      "sources": [
+        "freshplaza.com"
+      ],
+      "url": "https://www.freshplaza.com/north-america/article/9877834/mexican-berries-support-us-10-billion-north-american-market/",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le pétrole a coulé à Ormuz ! Il est transféré de pétrolier en pétrolier, l’Iran est toujours impuissant à l’empêcher. Par rapport à la période d'avant-guerre, environ 80 pour cent du pétrole brut et des condensats de gaz non traités transitent désormais par le détroit, a indiqué la société Vortex.",
+      "sources": [
+        "novilist.hr"
+      ],
+      "url": "https://www.novilist.hr/novosti/gospodarstvo/nafta-potekla-hormuzom-prebacuje-se-s-tankera-na-tanker-iran-zasad-nemocan-to-sprijeciti/",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Fini les arnaques aux passagers. Les compagnies aériennes se préparent à introduire de nouvelles règles. Le Parlement européen a adopté une réforme approfondie des droits des passagers aériens en juillet de cette année. Les changements comprendront, entre autres : interdiction de faire payer les sièges adjacents pour les parents et les enfants, obligation de prendre en compte les bagages...",
+      "sources": [
+        "turystyka.wp.pl"
+      ],
+      "url": "https://turystyka.wp.pl/koniec-z-naciaganiem-pasazerow-linie-szykuja-sie-do-wprowadzenia-nowych-zasad-7334663815944416a",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Satire interdite : un militant d’Extinction Rebellion dénoncé pour les caricatures de Meloni et Trump. Un militant d'Extinction Rebellion a été dénoncé pour outrage à la République et au gouvernement pour une manifestation au cours de laquelle des caricatures de la présidente du Conseil Giorgia Meloni (Italie) et le président Donald Trump (États-Unis) étaient exposées à côté de l'inscription \"Fascistes sur Mars\". «Une attaque surréaliste contre la liberté d'expression et le droit à la dissidence. Si notre mépris envers le gouvernement est le leur, leur mépris envers la Terre.",
+      "sources": [
+        "infoaut.org"
+      ],
+      "url": "https://www.infoaut.org/divise-e-potere/vietata-la-satira-attivista-di-extinction-rebellion-denunciata-per-le-caricature-di-meloni-e-trump",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Italie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Andy Burnham retient ses larmes alors qu'il parle du défunt père Roy lors d'une conférence. Le Premier ministre a semblé retenir ses larmes, avant de faire une pause, ce qui a incité un membre du public à crier « allez Andy ».",
+      "sources": [
+        "denbighshirefreepress.co.uk"
+      ],
+      "url": "https://www.denbighshirefreepress.co.uk/news/national/26592049.andy-burnham-holds-back-tears-speaks-late-father-roy-conference/",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Europe sévit contre les hôtels écologiques. Voici ce qui a changé en septembre. 27 | National. Les hôtels utilisent depuis longtemps des mots tels que « éco », « vert » et « durable » pour se démarquer sur un marché de plus en plus encombré. Cependant, les régulateurs européens scrutent désormais ces propos de plus près.",
+      "sources": [
+        "kpcnews.com"
+      ],
+      "url": "https://www.kpcnews.com/news/national/article_339aee2c-c53c-5699-8c51-268e9ab58e53.html",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La Russie n’a pas reçu de signaux encourageants de la part des États-Unis concernant les propriétés diplomatiques (Sergueï Lavrov). Le chef de la diplomatie russe a souligné que dans les relations entre Moscou et Washington, de nombreux problèmes se sont accumulés sur divers sujets, notamment la restitution des propriétés diplomatiques. \"Et sur ce sujet, de la part des Américains, déjà sous l'administration du président Donald Trump (États-Unis), nous n'entendons aucun commentaire encourageant\" - a déclaré Lavrov./ssirbu/lalexandrescu \"En l'absence d'un accord écrit avec RADOR, vous pouvez extraire un maximum de 500 caractères d'un texte, sans dépasser la moitié de l'article ou de l'information en question.",
+      "sources": [
+        "rador.ro"
+      ],
+      "url": "https://www.rador.ro/2026/09/29/rusia-nu-a-primit-semnale-incurajatoare-din-partea-sua-cu-privire-la-proprietatile-diplomatice-serghei-lavrov/",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "À Ankara, le ministre Kacır a rencontré le Premier ministre allemand de Rhénanie du Nord-Westphalie, Wüst. Le ministre de l'Industrie et de la Technologie Mehmet Fatih Kacır a reçu le Premier ministre du Land allemand de Rhénanie du Nord-Westphalie, Hendrik Wüst, et sa délégation qui l'accompagne au ministère. Soyez informé sur Mersin! Il présente des nouvelles, des développements et des événements importants et de dernière minute de Mersin et de ses districts.",
+      "sources": [
+        "mersinhaber.com"
+      ],
+      "url": "https://www.mersinhaber.com/haber-ankarada-bakan-kacir-almanyanin-kuzey-ren-vestfalya-eyaleti-basbakani-wust-ile-gorustu/791923",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Directeur / Actionnariat PDMR | Annonce de l'entreprise. Détails complets des annonces réglementaires et non réglementaires des sociétés cotées FTSE 100, 250, AIM et techMARK",
+      "sources": [
+        "investegate.co.uk"
+      ],
+      "url": "https://www.investegate.co.uk/announcement/bzw/totalenergies-se--tte/director-pdmr-shareholding/9797356",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre a adressé une demande de paiement du NPOO d'un montant de 2,7 milliards d'euros. L'annonce du gouvernement indique que l'achèvement de toutes les mesures aura lieu le 31 août et que l'évaluation de la Commission européenne et du Comité économique et financier de l'UE, ainsi que les paiements finaux pour les 153 indicateurs restants, sont attendus d'ici la fin de 2026. \"Grâce au plan national de relance et de résilience, nous avons mis en œuvre 78 réformes et réalisé 244 indicateurs d'investissement sur 162 indicateurs de réforme.",
+      "sources": [
+        "poslovni.hr"
+      ],
+      "url": "https://www.poslovni.hr/hrvatska/predsjednik-vlade-poslao-zahtjev-za-placanje-npoo-a-u-iznosu-od-27-milijardi-eura-4557185",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Fachin souligne les progrès dans la traçabilité des décisions de justice et prévoit de nouvelles règles au sein du CNJ. Les mesures visent à assurer la transparence et la sécurité du secteur dans le cadre d'enquêtes sur des irrégularités et des négociations suspectes.",
+      "sources": [
+        "brasil247.com"
+      ],
+      "url": "https://www.brasil247.com/brasil/fachin-destaca-avanco-na-rastreabilidade-de-precatorios-e-preve-novas-regras-no-cnj/",
+      "published_at": "2026-09-29T18:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
