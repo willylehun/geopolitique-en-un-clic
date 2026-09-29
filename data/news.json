@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:47:12.228299+02:00",
+  "generated_at": "2026-09-29T21:57:24.252248+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29022,7 +29022,9 @@
       "sources": [
         "Chicago Tribune — fiabilité 6/10",
         "KOTA Territory TV — fiabilité 6/10",
-        "KPLC 7 News — fiabilité 6/10"
+        "KPLC 7 News — fiabilité 6/10",
+        "WTVA 9 News — fiabilité 6/10",
+        "WYMT — fiabilité 6/10"
       ],
       "url": "https://www.chicagotribune.com/2026/09/29/donald-trump-ai-executives/",
       "published_at": "2026-09-29T14:28:00+02:00",
@@ -29074,7 +29076,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Amérique du Sud"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -29376,7 +29379,7 @@
         "France 24 (média public) — fiabilité 8/10"
       ],
       "url": "https://www.france24.com/en/europe/20260929-burnham-sets-out-new-path-for-britain-vows-to-seek-consensus-on-ties-with-eu",
-      "published_at": "2026-09-29T00:53:00+02:00",
+      "published_at": "2026-09-29T14:54:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -30868,7 +30871,7 @@
       "bucket": "29 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Dans le Soudan du Sud déchiré par la guerre, les girafes conservent un pool génétique étonnamment sain. Les girafes vivant dans les savanes déchirées par la guerre au Soudan du Sud sont génétiquement saines et liées aux populations de girafes voisines par le flux génétique, malgré des décennies de conflit, suggèrent des recherches récentes. Ces résultats montrent que « les régions du monde qui ont été touchées par des conflits peuvent conserver une grande biodiversité et ne devraient donc pas être négligées par la génétique […]",
+      "summary": "Dans le Soudan du Sud déchiré par la guerre, les girafes conservent un patrimoine génétique étonnamment sain. Les girafes vivant dans les savanes déchirées par la guerre au Soudan du Sud sont génétiquement saines et liées aux populations de girafes voisines par le flux génétique, malgré des décennies de conflit, suggèrent des recherches récentes. Ces résultats montrent que « les régions du monde qui ont été touchées par des conflits peuvent conserver une grande biodiversité et ne devraient donc pas être négligées par la génétique […]",
       "sources": [
         "news.mongabay.com — fiabilité 6/10"
       ],
@@ -31944,8 +31947,8 @@
         "International"
       ],
       "countries": [
-        "Syrie",
-        "Japon"
+        "Japon",
+        "Syrie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -32020,6 +32023,204 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbF9udDZBX0NxR2hJTWlIN3JZQVJkMmRTSVYyYWVDNzMtVTVoQ3RIRm5vRlpBME5QUm56Yk9hSVlzenBKcVUxaV83Vm9jUUstSThHWTd6RlMzenRGWG4zaGFwQlROOTBlSWhjNXV2bXVMMkNVVHE4SG40TUo3eGNBdDViVWo4UUh5UHhUVE84Z3F4NW9XaXMxeGJEOGY5NEFZMWtiZEtRZ2RaLUlGY2RhNk8xd05oallkQTdHbEo3LTE?oc=5",
       "published_at": "2026-09-29T11:07:37+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le ministère de la Défense ukrainien charge la défense aérienne de détruire les cibles avant qu'elles n'atteignent Kyiv. Le changement de tactique terroriste de la Russie pose de nouveaux défis à la région de la capitale. La défense aérienne ukrainienne a des tâches claires, selon une déclaration du ministre ukrainien de la Défense Yevhen Khmara …",
+      "sources": [
+        "RBC Ukraine via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/ukraines-mod-tasks-air-defense-with-destroying-targets-before-they-reach-kyiv/ar-AA2ddkXy",
+      "published_at": "2026-09-29T14:25:22+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'ONU s'est alarmée des informations selon lesquelles une frappe aérienne du Myanmar aurait tué 50 personnes.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/asia-pacific/un-alarmed-by-reports-that-myanmar-air-strike-killed-50-2026-09-29/",
+      "published_at": "2026-09-29T14:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "« C’est certainement un défi pour les familles du Nebraska » : sénateur républicain qui soutient la guerre en Iran en raison de son impact économique. Le sénateur républicain Pete Ricketts fait face à une course à la réélection étonnamment difficile contre l'indépendant Dan Osborn dans le Nebraska. L’une des raisons pour lesquelles l’État normalement rouge rubis est à gagner : l’économie…",
+      "sources": [
+        "CNN via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/it-s-certainly-a-challenge-for-nebraska-families-gop-senator-who-supports-war-in-iran-on-its-economic-impact/vi-AA2dd38a",
+      "published_at": "2026-09-29T13:12:58+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Maison Blanche lance America. Gov pour rationaliser l'accès aux informations fédérales. La Maison Blanche a lancé America. Gov, un site Web alimenté par l'IA conçu pour simplifier la navigation au sein du gouvernement fédéral.",
+      "sources": [
+        "KSBW Channel 8 — fiabilité 6/10"
+      ],
+      "url": "https://www.ksbw.com/article/white-house-americagov-streamline-access-federal-information/73946950",
+      "published_at": "2026-09-29T14:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Burundi affirme qu’il acceptera les migrants expulsés des États-Unis, mais les détails restent vagues. L’administration Trump a étendu les expulsions vers des pays tiers dans le cadre de sa lutte contre l’immigration, envoyant des personnes vers des pays dont elles ne sont pas citoyennes et où elles n’ont peut-être jamais vécu.",
+      "sources": [
+        "The Boston Globe — fiabilité 6/10"
+      ],
+      "url": "https://www.bostonglobe.com/2026/09/29/nation/burundi-us-deportees/",
+      "published_at": "2026-09-29T14:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Burundi",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La coalition des soins de santé de l'Ontario (Canada) dénonce le projet de la province de supprimer les pistes cyclables à Toronto. Une coalition de travailleurs de la santé de l’Ontario s’est réunie mardi au centre-ville de Toronto pour dénoncer le projet du gouvernement provincial de supprimer les pistes cyclables sur trois routes principales de la ville.",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/canada/toronto/ontario-health-care-coalition-denounced-bike-lanes-removal-9.7362828",
+      "published_at": "2026-09-29T14:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le premier ministre Scott Moe mise beaucoup sur le nucléaire en envisageant d'explorer deux grands réacteurs nucléaires dans le nord-ouest de la Saskatchewan. La Saskatchewan affirme vouloir disposer d'un grand réacteur nucléaire en service d'ici 2042. Elle a également restreint l'emplacement des études plus approfondies pour sa construction de petits réacteurs modulaires (SMR) au Rafferty…",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/canada/saskatchewan/nuclear-power-generation-9.7362463",
+      "published_at": "2026-09-29T14:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Un juge de l'UE rejette la demande polonaise de suspendre l'accord commercial avec le Mercosur. La Cour de justice de l’UE a rejeté mardi la demande de la Pologne visant à suspendre l’accord commercial intérimaire UE-Mercosur pendant que les juges examinent les arguments de Varsovie contre l’accord. Dans un cadre juridique largement symbolique…",
+      "sources": [
+        "Politico — fiabilité 8/10"
+      ],
+      "url": "https://www.politico.com/news/2026/09/29/eu-judge-dismisses-polish-request-to-suspend-mercosur-trade-deal",
+      "published_at": "2026-09-29T09:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pologne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les Australiens ont mis en garde contre tout voyage en Thaïlande en raison d'inondations meurtrières. Le gouvernement australien a émis un avertissement aux voyageurs contre les voyages dans certaines régions de Thaïlande à la suite d'inondations meurtrières causées par des semaines de pluies torrentielles.",
+      "sources": [
+        "nine.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.nine.com.au/world-news/asia/australians-warned-against-travel-to-thailand-amid-deadly-flooding-20260930-p611ka.html",
+      "published_at": "2026-09-29T07:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Thaïlande"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Nouveaux prix de l'essence et du diesel au Pakistan pour le 30 septembre. ISLAMABAD – Les prix de l'essence et du diesel ont de nouveau été réduits au Pakistan, donnant aux Pakistanais fatigués par l'inflation une autre dose de soulagement alors que le gouvernement a réduit",
+      "sources": [
+        "pakobserver.net — fiabilité 6/10"
+      ],
+      "url": "https://pakobserver.net/new-petrol-diesel-prices-in-pakistan-for-september-30/",
+      "published_at": "2026-09-29T20:30:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
