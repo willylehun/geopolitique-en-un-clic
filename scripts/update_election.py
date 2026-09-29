@@ -32,19 +32,23 @@ POLITICAL_HINTS=(
  "diplomatie","ukraine","europe","défense","defense","agriculture","climat","intelligence artificielle",
  "ia ","parti","élection","election","primaire","sondage","ralliement","soutien","retrait","500 signatures",
  "polémique","polemique","controverse","antisémit","antisemit","racis","plainte","enquête","enquete",
- "condamn","procès","proces","mise en examen","diffamation","assemblée","assemblee","sénat","senat",
- "gouvernement","député","depute","ministre"
+ "condamn","procès","proces","mise en examen","diffamation","révélations","revelations","procureur",
+ "démenti","dementi","saisit la justice","menaces de mort","assemblée","assemblee","sénat","senat",
+ "gouvernement","député","depute","ministre","dévoile","devoile","présente","presente","plan","mesure",
+ "discours","meeting","alliance","investiture","débat","debat"
 )
 PROGRAM_HINTS=(
  "programme","proposition","propose","projet","retraite","immigration","écologie","ecologie","économie",
  "economie","fiscal","emploi","travail","santé","sante","éducation","education","sécurité","securite",
- "justice","défense","defense","agriculture","climat","intelligence artificielle"
+ "justice","défense","defense","agriculture","climat","intelligence artificielle",
+ "dévoile","devoile","présente","presente","plan","mesure"
 )
 CONTROVERSY_HINTS=(
  "controverse","polémique","polemique","antisémit","antisemit","racis","plainte","enquête","enquete",
- "condamn","procès","proces","mise en examen","diffamation","accus","perquisition"
+ "condamn","procès","proces","mise en examen","diffamation","accus","perquisition",
+ "révélations","revelations","procureur","saisit la justice","menaces de mort","démenti","dementi","mediapart"
 )
-CANDIDACY_HINTS=("candidature","candidat","retrait","retire","primaire","500 signatures","ralliement","soutien")
+CANDIDACY_HINTS=("candidature","candidat","retrait","retire","primaire","500 signatures","ralliement","soutien","investiture","alliance")
 
 PARTY_ALIASES={
  "Rassemblement national":["Rassemblement national","RN","Jordan Bardella"],
@@ -95,9 +99,16 @@ def election_context(text):
 
 def topic_for(text):
     low=fold(text)
-    if any(fold(x) in low for x in CONTROVERSY_HINTS): return "controverse"
-    if any(fold(x) in low for x in PROGRAM_HINTS): return "programme"
-    if any(fold(x) in low for x in CANDIDACY_HINTS): return "candidature"
+    if any(fold(x) in low for x in CONTROVERSY_HINTS):
+        return "controverse"
+    program_action=("propose","dévoile","devoile","présente","presente","plan","projet","mesure","réforme","reforme")
+    program_subject=("retraite","immigration","écologie","ecologie","économie","economie","fiscal","emploi","travail","santé","sante","éducation","education","sécurité","securite","justice","défense","defense","agriculture","climat","intelligence artificielle")
+    if any(fold(x) in low for x in program_subject) and any(fold(x) in low for x in program_action):
+        return "programme"
+    if any(fold(x) in low for x in CANDIDACY_HINTS):
+        return "candidature"
+    if any(fold(x) in low for x in PROGRAM_HINTS):
+        return "programme"
     return "actualité"
 
 def summary_from(title,description,source):
@@ -143,7 +154,7 @@ def google_search(query):
 
 def google_exact(name):
     # Recherche détaillée : le nom seul + termes de campagne, sur 30 jours.
-    q=f'"{name}" (présidentielle OR programme OR proposition OR candidat OR campagne OR politique OR retraite OR immigration OR écologie OR économie OR sécurité OR controverse OR plainte) when:30d'
+    q=f'"{name}" (présidentielle OR programme OR proposition OR projet OR plan OR dévoile OR présente OR candidat OR campagne OR politique OR retraite OR immigration OR écologie OR économie OR santé OR éducation OR sécurité OR justice OR controverse OR révélations OR plainte OR procureur OR diffamation OR meeting OR discours OR alliance OR ralliement OR sondage) when:30d'
     return google_search(q)
 
 def load_state():
@@ -252,7 +263,7 @@ for i in range(0,len(entities),chunk_size):
     for kind,eid,name in chunk:
         # Les noms complets des candidats et les noms de partis sont quotés.
         names.append(f'"{name}"')
-    q="("+ " OR ".join(names) +") (programme OR proposition OR retraite OR immigration OR écologie OR économie OR santé OR éducation OR sécurité OR justice OR controverse OR antisémitisme OR racisme OR plainte OR enquête OR candidature OR retrait OR primaire) when:3d"
+    q="("+ " OR ".join(names) +") (programme OR proposition OR projet OR plan OR dévoile OR présente OR retraite OR immigration OR écologie OR économie OR santé OR éducation OR sécurité OR justice OR controverse OR antisémitisme OR racisme OR révélations OR plainte OR enquête OR procureur OR diffamation OR démenti OR candidature OR retrait OR primaire OR investiture OR meeting OR discours OR alliance OR ralliement OR sondage) when:3d"
     try:
         rows=google_search(q)
     except Exception as e:
@@ -271,9 +282,10 @@ for i in range(0,len(entities),chunk_size):
 
 # Trois filets thématiques transversaux : programme, controverses, candidatures.
 campaign_queries=[
- '"présidentielle 2027" (programme OR proposition OR retraite OR immigration OR écologie OR économie OR santé OR éducation OR sécurité OR justice) when:3d',
- '"présidentielle 2027" (controverse OR antisémitisme OR racisme OR plainte OR enquête OR condamnation OR procès OR "mise en examen") when:3d',
- '"présidentielle 2027" (candidature OR retrait OR primaire OR "500 signatures" OR soutien OR ralliement) when:3d'
+ '"présidentielle 2027" (programme OR proposition OR projet OR plan OR dévoile OR présente OR retraite OR immigration OR écologie OR économie OR santé OR éducation OR sécurité OR justice) when:3d',
+ '"présidentielle 2027" (controverse OR antisémitisme OR racisme OR révélations OR plainte OR enquête OR procureur OR diffamation OR démenti OR condamnation OR procès OR "mise en examen") when:3d',
+ '"présidentielle 2027" (candidature OR retrait OR primaire OR investiture OR "500 signatures" OR soutien OR ralliement OR alliance) when:3d',
+ '"présidentielle 2027" (meeting OR discours OR débat OR sondage OR stratégie OR campagne) when:3d'
 ]
 for q in campaign_queries:
     try: rows=google_search(q)
@@ -305,12 +317,59 @@ def news_words(text):
     stop={"présidentielle","presidentielle","2027","edouard","édouard","marine","jordan","le","la","les","de","des","du","un","une","et","en","sur","pour","avec"}
     return {w for w in re.findall(r"[a-zà-ÿ0-9]+",fold(text)) if len(w)>2 and w not in stop}
 
+def event_signature(item):
+    text=fold(item.get("summary",""))
+    topic=item.get("topic") or topic_for(text)
+    if topic=="programme":
+        families=(
+          ("retraite",("retraite","annuite","capitalisation","age legal","age de depart")),
+          ("immigration",("immigration","asile","frontiere")),
+          ("ecologie",("ecologie","climat","energie")),
+          ("economie",("economie","fiscal","impot","emploi","travail")),
+          ("sante",("sante","hopital")),
+          ("education",("education","ecole")),
+          ("securite",("securite","justice","police")),
+        )
+        for name,terms in families:
+            if any(fold(x) in text for x in terms):
+                return f"programme:{name}"
+    if topic=="controverse":
+        if any(x in text for x in ("antisemit","mediapart","propos antisemites")) and any(x in text for x in ("bardella","rassemblement national","marine le pen"," rn ")):
+            return "controverse:rn-bardella-antisemitisme"
+        if "diffamation" in text and "bardella" in text:
+            return "controverse:rn-bardella-antisemitisme"
+    if topic=="candidature":
+        for name,terms in (
+          ("retrait",("retrait","retire","renonce")),
+          ("ralliement",("ralliement","soutien","alliance")),
+          ("investiture",("investiture","primaire","500 signatures")),
+        ):
+            if any(fold(x) in text for x in terms):
+                return f"candidature:{name}"
+    return None
+
+def news_summary_quality(text):
+    value=fold(text)
+    score=min(len(text or ""),700)
+    for marker in ("propose","devoile","presente","attribue","conteste","plainte","65 ans","45 annuite","capitalisation"):
+        if marker in value:
+            score+=60
+    for marker in ("pourquoi ","force de","assume d'aller","strategie","ce que l'affaire implique"):
+        if marker in value:
+            score-=80
+    return score
+
 def same_news_event(a,b):
-    if a.get("date")!=b.get("date") or a.get("topic")!=b.get("topic"):
+    if a.get("date")!=b.get("date"):
         return False
     ac=set(a.get("candidate_ids",[]) or []); bc=set(b.get("candidate_ids",[]) or [])
     ap=set(a.get("party_names",[]) or []); bp=set(b.get("party_names",[]) or [])
     if not ((ac and bc and ac&bc) or (ap and bp and ap&bp)):
+        return False
+    sig_a=event_signature(a); sig_b=event_signature(b)
+    if sig_a and sig_a==sig_b:
+        return True
+    if a.get("topic")!=b.get("topic"):
         return False
     wa=news_words(a.get("summary","")); wb=news_words(b.get("summary",""))
     if not wa or not wb: return False
@@ -331,10 +390,11 @@ for item in news:
             kept["sources"]=list(dict.fromkeys((kept.get("sources",[]) or [])+(item.get("sources",[]) or [])))
             urls=list(dict.fromkeys((kept.get("urls",[]) or [])+([kept.get("url")] if kept.get("url") else [])+([item.get("url")] if item.get("url") else [])))
             if urls: kept["urls"]=urls
-            if len(item.get("summary",""))>len(kept.get("summary","")):
+            if news_summary_quality(item.get("summary",""))>news_summary_quality(kept.get("summary","")):
                 kept["summary"]=item.get("summary","")
             kept["candidate_ids"]=list(dict.fromkeys((kept.get("candidate_ids",[]) or [])+(item.get("candidate_ids",[]) or [])))
             kept["party_names"]=list(dict.fromkeys((kept.get("party_names",[]) or [])+(item.get("party_names",[]) or [])))
+            kept["topic"]=topic_for(kept.get("summary",""))
             merged=True
             break
     if not merged:
