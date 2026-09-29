@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T17:04:00.087110+02:00",
+  "generated_at": "2026-09-29T21:12:26.200628+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -655,7 +655,7 @@
       "sources": [
         "NPA-Révolutionnaires — candidature 2026"
       ],
-      "last_checked_at": "2026-09-27T22:21:57.262463+02:00",
+      "last_checked_at": "2026-09-29T21:12:26.200628+02:00",
       "bio": "Militante du NPA-Révolutionnaires engagée dans la campagne présidentielle de son organisation. Elle se situe dans l’extrême gauche révolutionnaire, avec une orientation centrée sur les luttes sociales, les travailleurs et l’anticapitalisme.",
       "controversies": [],
       "archived": false
@@ -681,7 +681,7 @@
       "sources": [
         "Le Monde — suivi Présidentielle 2027"
       ],
-      "last_checked_at": "2026-09-27T22:21:57.262463+02:00",
+      "last_checked_at": "2026-09-29T21:12:26.200628+02:00",
       "bio": "Ancien député européen, ancien vice-président du Front national et fondateur des Patriotes. Il défend une ligne souverainiste mettant notamment en avant la sortie de l’Union européenne, l’indépendance nationale et le référendum.",
       "controversies": [],
       "archived": false
@@ -707,7 +707,7 @@
       "sources": [
         "Le Monde — suivi Présidentielle 2027"
       ],
-      "last_checked_at": "2026-09-27T22:21:57.262463+02:00",
+      "last_checked_at": "2026-09-29T21:12:26.200628+02:00",
       "bio": "Ancien député des Pyrénées-Atlantiques, ancien maire de Lourdios-Ichère et candidat aux présidentielles de 2017 et 2022. Fondateur de Résistons !, il met en avant les territoires ruraux, les services publics de proximité et la souveraineté.",
       "controversies": [],
       "archived": false
@@ -734,7 +734,7 @@
         "Le Monde — 14 juin 2026",
         "France 3 — campagne 2026"
       ],
-      "last_checked_at": "2026-09-27T22:21:57.262463+02:00",
+      "last_checked_at": "2026-09-29T21:12:26.200628+02:00",
       "bio": "Enseignant contractuel en mathématiques et diplômé en ingénierie agroalimentaire, sans parcours partisan antérieur revendiqué. Sa candidature citoyenne est centrée sur la démocratie directe, les référendums, les conventions citoyennes et une assemblée constituante.",
       "controversies": [],
       "archived": false
@@ -760,7 +760,7 @@
       "sources": [
         "Le Monde — suivi Présidentielle 2027, mise à jour du 14 septembre 2026"
       ],
-      "last_checked_at": "2026-09-27T22:21:57.262463+02:00",
+      "last_checked_at": "2026-09-29T21:12:26.200628+02:00",
       "bio": "Avocat et essayiste, fondateur du mouvement Les Ruches pour sa démarche présidentielle. Il présente un projet institutionnel et politique centré sur une transformation du fonctionnement démocratique et la participation citoyenne.",
       "controversies": [],
       "archived": false
@@ -787,7 +787,7 @@
         "Site officiel Lalanne 2027",
         "Programme publié en septembre 2026"
       ],
-      "last_checked_at": "2026-09-28T00:27:25.868587+02:00",
+      "last_checked_at": "2026-09-29T21:12:26.200628+02:00",
       "bio": "Auteur-compositeur-interprète engagé dans plusieurs campagnes politiques et électorales avant sa candidature de 2027. Sa démarche met notamment en avant le référendum d’initiative citoyenne, la souveraineté nationale et une critique des institutions européennes.",
       "controversies": [],
       "archived": false
@@ -954,6 +954,38 @@
   ],
   "news": [
     {
+      "id": "2026-09-29-xavier-bertrand-45818313",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "xavier-bertrand"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Présidentielle 2027 : Xavier Bertrand, candidat en embuscade",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOek9NNmRYQlNRX2FnMVd1UXZmVlhWaFpXWUFuLWIzU21XdTJMWl9qNGs2ak0xNk9jeFh4R3Z0Zkc3andrRUVHSFNSZGNRc2dSMXFEQmVSbkVxX2YwQXEwS3U0TWdfalZMRk5CazJWT29ic1BNNERQMVJzLVVXRkNpYVN3a25tRlk5amJBT1hhajBKRXRTWFZtSEpjZXFXZWFpX0JyNnlIbXhEY0taeW5IODNKVVJMOFlfWm5qbDZramFQVHUwM2U1VQ?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-29-segolene-royal-12843244",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "segolene-royal"
+      ],
+      "party_names": [
+        "Parti socialiste"
+      ],
+      "summary": "Une proposition pour la France : Ségolène Royal veut diriger les adeptes de rodéos urbains vers des ateliers de mécanique - 29/09",
+      "sources": [
+        "rmc.bfmtv.com"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQTmRjT0drVWNZWEJvYkJxQWprd3o3RV9SaF90aTJkNV9ZR3ZlOUtRcEtoTkYwYldKQUx1U3hhWmluNlVHcGRFNUpiYTdVaUtpN0hqRkR0X1hwQjJhQlFLSm1OVDAwZ3VkTllnZjNlWUtheW5iWmJVRG5VZGw4WG81eDNVRTlQRkEwVHhhYTdKVFNzZ1lVTDkxNUhJTkxVdFg2d1Bvb0k0cjQtMUJhNnB4R1d5LTMzdTVhZVhrb25XaHdxX19PbzhvNnE4OTc0RnYzbFc4NFdORlgtMkVCZDNMcVRjbjdCaHh5YUFnZ0g3bV9td3dDRmg0NDFBYzluWkJmaGZES0Mzd0g5dkpMb2FjRGJlMXRkODlHSW4xbktSV2wyaWtDT245b2JXTWx0NjhjOFByMQ?oc=5",
+      "topic": "programme"
+    },
+    {
       "id": "2026-09-29-s-gol-ne-royal-09579937",
       "date": "2026-09-29",
       "candidate_ids": [
@@ -966,7 +998,24 @@
       "sources": [
         "Les Echos"
       ],
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdUNzeWZ3bVFmOWpESDV6aG5GdU9ONWItalpsMmx0T0JQM1JfbVlQTEE0QUVzQ2dYaWpaUzdZZFhNMHJyQWZrenRGaHZOcUNPbDFrLThiMDZkckYzVDZGbFlTNjVmNW40dG5GRGVxMWt4RERxblpVRXdDaEU5ZjRLWTBIc0F3UFJwa0VZaUJtTUJTLThhQ0NtaE1YUXQ5VXZ6QVRrTzI5NUhJUjhPTlVwQzlR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdUNzeWZ3bVFmOWpESDV6aG5GdU9ONWItalpsMmx0T0JQM1JfbVlQTEE0QUVzQ2dYaWpaUzdZZFhNMHJyQWZrenRGaHZOcUNPbDFrLThiMDZkckYzVDZGbFlTNjVmNW40dG5GRGVxMWt4RERxblpVRXdDaEU5ZjRLWTBIc0F3UFJwa0VZaUJtTUJTLThhQ0NtaE1YUXQ5VXZ6QVRrTzI5NUhJUjhPTlVwQzlR?oc=5",
+      "topic": "actualité"
+    },
+    {
+      "id": "2026-09-29-raphael-glucksmann-88707349",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Place publique"
+      ],
+      "summary": "Présidentielle 2027. Après Stéphane Le Foll, une trentaine d’élus sarthois apportent leur soutien à Raphaël Glucksmann",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPYkdqTC0zcEQzTDliRDU1c09HTjExVWdMQUpwWnhueE92X0tXT1Nfand0NGJ4el82cnZnUmZaNVJQVGUtMHRHVUJZUzVTeGNxUXh0RGttNGNXb0xBWXZNYjRoQlUzT1UzeVN1UU9vZjdoRnlfRmd3YmVIR09NVTdFNzVMRTFIZmxYbGdjWEN1VlVTbXM3eFVHUlFET2E3UWRLTGRFbGE0ZlJHVmJrWEdDNk5RRlBVLW5KQm5CTkpNYVVEcFRIeC00WkYxVC1HLTVPb1BuZVdSaXVrcVRFc1lJSDlmUUNyWHdqUHVhb3NuNkRZYk1YYjV5QnBVWDFpWmcyQzVDbkVxazBWQmREdkMydWVnVEhDcWVOUWduaFdaa0dybVVCcnN1LW1ILXQwdw?oc=5",
+      "topic": "candidature"
     },
     {
       "id": "2026-09-29-rapha-l-glucksmann-74484316",
@@ -1014,6 +1063,170 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMC14RFFBNVZpRnI5bnNPWklvOTk3QURmMWNMRmVzanFCRUQxNmdYWUpJZERXX0toQVlJRC1kWnZNQXlKdVVmWHp1Z0M1ZkRXcl9jV0Y2T2hzNEJadkpibF9hamZ3QlhtaFVRY2dQeVBuZllTS0tTQmFrWVIzV0VkTUJCWG5QTmNmOERnNTJNN2NfZmRqQ3lvQlpjNGtSS3ZtQnc?oc=5"
     },
     {
+      "id": "2026-09-29-edouard-philippe-98418435",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Retraites : Edouard Philippe propose de « porter progressivement la durée de cotisation à 45 ans et l’âge de départ à 65 ans »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNeFhhTU9yYlBLN3VOWWZVMDBLTmNJR0NkNVh6ZDdhUmoyNkRETTFzN2Z3RF9DZTZMc3NWYVd5RFpsY0VCTHRlTEJsbk85dURJVVl4ekJLempjOTdaMGxDeW1YbVlLSjJmRGhQMHRNRjBSak80Rkx1QUVGVEN1VDlMcWZiSnZYRS1BOUVRQkc5Z2VVbUlxNjU3ZTh0WmJ4bFJBazF5RlJIVnF5bFR5R1l4eU1jRmRveC10Z0pMU0VkTzM2Z0ZSbkYyeEdUdWhHR2pUTVE4aFVsa0diY0dXUmFKZDVOS2J6VGcwSkxyNkVadjZ6dHNoMkJxVWx2MHNlZzU1QU44dHZhb2tFNm8yV3lOcnFiNTNsQ1hXVjZwdA?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-29-edouard-philippe-89764164",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Edouard Philippe propose de repousser (encore) l’âge de la retraite",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQN2M5Z1gzSlVjdENyNGFWcFUtRDVzb3p4NkVPbFhtZzBaOGNhWU4xQlVBdkRqY0JGNTl1R19EVmNhQTFvaWVhWS12QUh6UXo5SkNBbi1BaHZ4SzZfTDJKTld4TC1oejVocE51a002b24wQzAwT3pQNkpSX0NHY3pISEp4Tmc2SzJ0SWJpZHpWSXVZdzMwYUFmU0tiSE04MldQMFNUejM2dnREQ1lmRGQtWldyT09MVXpzdWRQREN2dFhXZGVhZU92ZG5EWHlGa2VqdUxiajhIRlFZS0ZhYWxjYQ?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-29-edouard-philippe-79944441",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : pourquoi Edouard Philippe assume d'aller plus loin que les autres sur les retraites",
+      "sources": [
+        "Les Echos"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcDZHUkJTNldvUEFPZmpaRGozbXk0MTRkN3I4STJieFlZT19lZXh2Z0NoRkFDbkRTYm93WFRhcm5uNWlHSmxjcFZzcWlfTlJ2RTF3bUF0RkNKZU5SZUJlNF9HYS1zZzJKRGRZZHR4VU9yTFBuQUYybFR0M3BhS05zSXpsMzRCVDhqdzM2MjRVbTF5WXludHlTdE1mZ1BOYUpQMGpnc0psNC1GUWZadHFXX1FlV2podDJrcjQ2cE5KYUgyeG5tWDRZQjI0cnFFbktNck1sSHRicG1oZXVMRXptMS0xQnUzSUpnc3RwUUZka3Y?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-29-edouard-philippe-79926606",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : Édouard Philippe assume le risque de porter l’âge de la retraite à 65 ans",
+      "sources": [
+        "La Croix"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMXFzdWpQM2pDd1ZJQlB5OFE2TkRhTGtBbnYzQURYajVjYlV6Y0FKR3BXM20wbnd6S0ctS1ZpU1JjR1NuUmh6MjZsVml4aDdCY3E4UTVOUFZQM2J1REpMWDFKRldGUFZJNURIZnVlZ2x6LW9fRGlCblpNU2Q1QU5naWpuNjU2SnZ5akx3RTViWENkNmw1WkVUeVR1cDJuTlc2amk1cmwtazIyZFpvU2FTUVFVVnZfVlZMWHNzSkVZalNtR3JmLU10VTNPN3JmTjRpNW1B?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-29-edouard-philippe-68578453",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Réforme des retraites : Edouard Philippe forcé de prendre des risques pour éviter l’écueil du favori fragile pour 2027",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQQTBNT0JkSDNBZFhGVTdwcHliVmR4MS1NS1FTRjFXTk1wVFY3SDZSWUpVd0dlb3A0Y2RWdVlXd2JZSjZsNUtYaWl6RnduRDBOT1E2TEdMbkE4ZHRDb1VBaFlaeUdMVHM4Y1VBTjhlVlE3dy1iUHlsZk9jbks2QVhxb2N0X21GRWttUE9RQ0JXSVZXRzNnMFBXVGZpb0ROZGNrdXpZUjFtUGh1elJUaTRPU1JXLVRRUjBMLThlY1BZeThKbDMzYTZlUFZrOWlaSkxxZjVtajI2QkVBajRHblZIVXRPS0JCWFJqMTIxNWJ6SzBFY3kxRHFRS19WNTJBUDVZOV8zc181UFZGNVo0RTJRZ2hBeFpVMGc?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-29-edouard-philippe-56691132",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "« Il est temps » : sur la réforme des retraites, Édouard Philippe propose un départ à 65 ans",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPUjNuOWVBZlRscEgxTnBTRjREVzNPTGlzWmthbkc2UXpWYk1MS24yTzBhSFRZSEN0SlI1Tm5RZ1VnZU96LUNjMnM1VDFPenBObV9qQ2JGNm9HM2ZZWm5BZWZfRFROTTNIaVBhSXBDLUE4OVdFY1c2S0d0VUY3ell6YUE4NEtENHdBOFhfUXhCVWZKREQ0MmFvNFJndkpHM05kbVRwV1hhN0tiTEg3RmFQRFpsbUdwb0NGV1ZrSU1ZUVJtM3FGU2IwMXlhT2lmUkxaNUNCN1NqM0xQWGJ1MWJvVWdFRVk0Z0h3Y3BMSVNqdVd4a2EtNEEyOGgxNDh0WE5NOWkyX2pISVBjdw?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-29-edouard-philippe-46190222",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Retraite à 65 ans et 45 ans de cotisation : pourquoi Edouard Philippe a arraché le sparadrap des 67 ans",
+      "sources": [
+        "Libération"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOME4ydVZpcGtrdm9VT0Zab2ZyQ0dfVFJiR0ZuWFplZ3MtcllnWjhuRmszQVcxTzRsNWZxaldNQ21SMTdFYnFzM2UxdS10MlZJUFJkTjNNN1VXTFozSGJxcU9SNmh3OFBRc2htNHY2V0otWEM0LVdoanBoakdzVkxhS3JDbjUybVBlRXR6VTdZU1U0Tmx6VU5hR3pZWDIyY0RBSmFxcTBGajNLZFAtQnBkVWhRMEFvd1EyZ2ItNW5nWFp6TlE2SmhEZmljTmxMREpGQmoyelF0cWFUdi05LVp2V1ozTG9LUDNwUmJOcml2c3FWcG9INXhrVUVUTzdWWDJ6WGpUeGtUUk5mNkl1YUlMWG1n?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-29-edouard-philippe-42878354",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "« Il n’y a pas de plan B » : Édouard Philippe détaille sa réforme des retraites",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbUZKTzhQMU5Qd3Z4dkpJQ290em1ZVW5FM0h6RmJGWlJNLTJvX2hCdi1DUTNHM1RJczBwZ3VGTlZSYU44SGZ4SzVBTEF2LXR5OFFhTUFVWGljUEJHS3l0M3F0Tlp2Z2xhREcxeU12Qnk5WFF1R1lpd1JhRDdIbzdFM1RNUVVDTkx3N0hyVXpWRXVwRnc3YThpSWpKY3RDcDNIc2E4TWVjb1pDMkw5RTRxWUhIRW5DczZvY1NRMmJZV19lSmxzT0hrd0pjYUZCdE9PNERqMWppY19sNjhxZDFYMHZXalRITVRicTVtNnZ5YTJmTk14U2FZZw?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-29-edouard-philippe-38593356",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Age de départ à 65 ans, 45 annuités de cotisation… Edouard Philippe, candidat Horizons à la présidentielle, dévoile son projet de réforme des retraites",
+      "sources": [
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPY2pLT0Z1SERsQjEzVWppdHdFZUIwWFM0VmJQbDFhWTQzcXp0Wm03Wk9oX0NLT3J3Q3FHcFhGQzNYd19wOFIyOW54dGhQNkRoclhsbXRjNjc4ZEpsVFlQcTJXd0xkZmZ5WGJvQ19zNGcxelBuY0NVUHJ2QktUclZURzB1X3g4eTNMbm1MajZ2RUdwOG93RlRGTDVEM3M5UmpnS2NNLXRFRzJ4Y0hxbE1uZmFid0hBaWZMX0R1ZXdFZ0ZwRi1PaGR3c3VkUm9rQll3Wm9jU3dQUFliMjU2YVVLR2VQaUkwQkRCSXA2b2tDV3VSbmhJQmFZV25pMnlKQ1FRWEZsTU5tVm16ZlowcVhZbWRCQWZCaDk3bW96YXQyekNsekdWd2x1MlpTQ2FKek1QZEdjWjFB?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-29-bruno-retailleau-04591510",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "bruno-retailleau",
+        "gabriel-attal",
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Les Républicains",
+        "Renaissance",
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : âge légal, capitalisation… Ce que change le «plan retraites» d’Édouard Philippe par rapport à Bruno Retailleau et Gabriel Attal",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQRUdlbXlJX0NjdXBEVHlzeVIySGN5SkE2WEpSeFdhV0VOd1JWOFV3blhxQVlnTzhKUmsydzIxaDh3ZjQ0Uk5BTTlleEtMQlJuMEdsdnZJb2RlN19vSS1yOGFVc1JMYWVfVHFXYjhPQVVQeXNobEc3Z3Y4S1JBWnpSX2RXZ1ZXY28weFVIcHBnWS1YOTVpX1pPU09Ib1diX2FKdlhQS2ZFQkJVTVV3OXlHN1VGOVJJQVRlaFAzWWVOd2t4Rmk4dXBROXF2VDdkdVgtbFRiblBGVzlCUVpYaVh1SzlHajlsZWp4MXZNRHRtN2dXXzFINDl1QWFmcXJidmNsWF9KVzJkOTBiNkVXVXhkbFlGdTZjSHUzUEl4cTJCTjJJRGNnV2JWMXNXTHJtNlhHQVJjaXVpYjA?oc=5",
+      "topic": "candidature"
+    },
+    {
       "id": "2026-09-28-olivier-faure-82271401",
       "date": "2026-09-28",
       "candidate_ids": [
@@ -1056,7 +1269,60 @@
       "sources": [
         "France 24"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUHE2b3ZZNjg1QkxpWldBNFVZQVBCQndyYU1GRlRzRWR5QmpIV0o2ZlZYMnpvdmRfTm9VZDlsbkVTUVhoYnNtZDhNQ0FITGVPcE0xZy1EOHczMkwtWUw3LUdIc0ZNWGZUQXBaa3p4a25fOHM0QkNLUU53a25PcndCdWxHTktPcXpDbDJkc05TRnB1VGxCOUY3NkU2WndZWG1DZ3Mwd1dtc19pT0hqZXpOMTc5dW5lb1VKbmpWY0JUN3c3b0FQc2lpSDJ3TE4zNlpVeWJrSlVqTHlCVk13?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUHE2b3ZZNjg1QkxpWldBNFVZQVBCQndyYU1GRlRzRWR5QmpIV0o2ZlZYMnpvdmRfTm9VZDlsbkVTUVhoYnNtZDhNQ0FITGVPcE0xZy1EOHczMkwtWUw3LUdIc0ZNWGZUQXBaa3p4a25fOHM0QkNLUU53a25PcndCdWxHTktPcXpDbDJkc05TRnB1VGxCOUY3NkU2WndZWG1DZ3Mwd1dtc19pT0hqZXpOMTc5dW5lb1VKbmpWY0JUN3c3b0FQc2lpSDJ3TE4zNlpVeWJrSlVqTHlCVk13?oc=5",
+      "topic": "actualité"
+    },
+    {
+      "id": "2026-09-28-marine-le-pen-46200874",
+      "date": "2026-09-28",
+      "candidate_ids": [
+        "marine-le-pen",
+        "edouard-philippe",
+        "jean-luc-melenchon"
+      ],
+      "party_names": [
+        "Rassemblement national",
+        "Horizons",
+        "La France insoumise"
+      ],
+      "summary": "Présidentielle 2027 : Marine Le Pen creuse l'écart au second tour face à Édouard Philippe comme face à Jean-Luc Mélenchon, selon un sondage",
+      "sources": [
+        "Le Figaro"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNUlUyUTc2QTBYMEZoWWRtRjRhMG5Ua3JCX1FtLXJqMFJfdWNBTldpeFo0cFNURlZCQmFhaHQ0cU0wX09VU1R3UnU0c1NCRmJpUmYxcVhwVDNVZEtNbkNZVHVVdEh6Q0F1SlhHWWhTQWFiQmhkQ0trOU9veWZJdUtkM0phRl9NWF9xbDRHd1ZzMW5ZT2FfbEo4TnBTTC1DdGotR2VsaDRmMWtWTUpVZGZZcTFNaERfXzZwWXpMYlRMd3V4NkZ0cXFfaUx4N3pZUldONkxpQVh4akpaR1E1NTItbUtBSzlrbjZWTUNtaU5wSmhRZWdmYzRGbXMzX05MbjI0MUhMcjVoTGx6U29jR0xFdW42bjZ4R3YyY1Nkb3c4bFFRckEyOV9IU1Jua3c?oc=5",
+      "topic": "actualité"
+    },
+    {
+      "id": "2026-09-28-marine-le-pen-45498745",
+      "date": "2026-09-28",
+      "candidate_ids": [
+        "marine-le-pen"
+      ],
+      "party_names": [
+        "Rassemblement national"
+      ],
+      "summary": "« À Jordan de s’expliquer » : la campagne de Marine Le Pen percutée par des propos antisémites attribués à Bardella",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQVWlPdlV6cUlwU3JVeG91R2ZnS0p2SmZwdi1XVkR4VTU3dGs1UzQzZ2taTzRLZTlTdUg0YktMSUFBSkxJSWx6d0wxU0FDc2s4aGdxdk1ld1pfRDhfQ21NYkxrN0Y4ZWV1UFFtTkFfVHNINDRBdlhDbHdfZkNmaTFscjU0ME9QTzV5UW9hR2Fua3l6eTZKUGlIclJWMElwRW80eXBhQ3RGb3AwZHlTMFJ5MXZOcklidXBYejdKSXA0d1U3akJKaXlVcGE2Wmo1VGRRVVN4QjNlYkIxVzF3amp4TnV6S0NNOGRhdXNVb3ZfMmRGejJqa2hER05pdVBYcTgwSGtIbnY5T0k2bmIxUGFhSHhvejFZcmc5U1Judm5vZ013X0VQ?oc=5",
+      "topic": "controverse"
+    },
+    {
+      "id": "2026-09-28-marine-le-pen-04440125",
+      "date": "2026-09-28",
+      "candidate_ids": [
+        "marine-le-pen"
+      ],
+      "party_names": [
+        "Rassemblement national"
+      ],
+      "summary": "VIDEO Propos antisémites de Jordan Bardella : Marine Le Pen réagit à l’enquête de « Mediapart »",
+      "sources": [
+        "Le Monde.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOc3NuUW1kcUJrR0o1VV9GbHBQTzZyUFY0YlNBYXNhM0JIUWl4UnlJTFZvQkE3LV9DZzJqTmVpSllFbWhKVkM0Y1pPUDN3ZjVmc0FxT0xCV2pBTkF0ZGlLOXhOaXJkRy1WTkVoRzlualMyRUd0Rng0V3ZBU3dwcjE0OEJrQ1BzTWhSWjZQZy0xdTQ2UjIwV0FONWNqNHdPcWxfUDFyOTA3S3RxVV83Uy1mR1BVd1R5YVBmU1VqTkZGUkhRa2I1Y1F1MlZjUG0xeDljY0JSdXVKVThOQlB4RldvVEdTclJwOUJp?oc=5",
+      "topic": "controverse"
     },
     {
       "id": "2026-09-28-les-r-publicains-65112501",
@@ -1114,7 +1380,22 @@
       "sources": [
         "Le Figaro"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeGV5Qml3NDltQU91UjFjTk8xMlFqLVpTUkdnaDRjVTU3OEQ2NHJBMnpxSENHbGhIemxna2gyYkloSHk1cFg5WF8taUs4YW9QRU5yZDR4MUpTbm1wU0VJRjhxZDBiZVc5b21WV2RJbjlkbENJVzhfMjV1REd2bFgyVHQyVUhMR3JGaDlud3JZel92eFNycWJpSWNZM3QzZ2IwbkFJSTFnaEF6REZqbnZxZ0JhaS0yeFl2cWpPa01FRHBvWmY4ZGtMbEp4RFg5MTlLNHowY01ITWY4YUtqY0Jlcw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeGV5Qml3NDltQU91UjFjTk8xMlFqLVpTUkdnaDRjVTU3OEQ2NHJBMnpxSENHbGhIemxna2gyYkloSHk1cFg5WF8taUs4YW9QRU5yZDR4MUpTbm1wU0VJRjhxZDBiZVc5b21WV2RJbjlkbENJVzhfMjV1REd2bFgyVHQyVUhMR3JGaDlud3JZel92eFNycWJpSWNZM3QzZ2IwbkFJSTFnaEF6REZqbnZxZ0JhaS0yeFl2cWpPa01FRHBvWmY4ZGtMbEp4RFg5MTlLNHowY01ITWY4YUtqY0Jlcw?oc=5",
+      "topic": "actualité"
+    },
+    {
+      "id": "2026-09-27-rassemblement-national-96387832",
+      "date": "2026-09-27",
+      "candidate_ids": [],
+      "party_names": [
+        "Rassemblement national"
+      ],
+      "summary": "Le RN tend la main aux Républicains, soutien mortel de Bellamy à Glucksmann",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNaUdhVU1HNVFYNWtDU3ExRTVXUm5qRHFlUGpQQXFiSjIxTjhiSWc3MHlfNzhUNEp4SmQ2d0xzbTQwRzY5RV8zeUpkTWRKMXNXU2R4OXZja3FWbENBcEZCRFE0YWpud2t5UTl3dk5lOTJoRE5IaWpHY3l3blVlU21uTDdGUWFOd2EwRXZmcmw4VVJ1RWlZU3lWV2RkM0Vja1AtRW1Nd2tzQWx3OGhFTkoxYjdWY3VVOUU2b1g1NHFEQlNlX2VjM1FnUjFzbWZ6TG5kdjNJRGQ2ODQ?oc=5",
+      "topic": "candidature"
     },
     {
       "id": "2026-09-27-rassemblement-national-80579104",
@@ -1141,6 +1422,20 @@
         "TF1 Info"
       ],
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOQXpLNjNmWlRmc2RkVThoeVpGZlhacC11R0VaM3Bxdk9WSHU2ay16ZkNuTlEzSXMzbUMyQUxEak1yek94OV9SbjdpdTlhdTB1eWxNSW5pRlI4VnpBZjNQZm5SWE54ZGlFY3dkSlFtUDg1dThTZnl3MU9xdlhSdko5MXdPVEI3TFdOREkwZ1ZwbjhHX0Z0LU9oR2lNSmJaNzZCMWpCMS1ZZkdhMmMtUU5pdWhWckc0alAxZW9tWFN5bGV2dGttYVp3a0xDRnlhQng5aUxibkVlYWRKXzJCaXVZc1pRRWJlLVpZekJKMHZwSHNPNHh1di0ybjRnMmc5NWtqSVFqZ19QN21CdEZ4SUUzZjFDbWJCQk1HLVhB?oc=5"
+    },
+    {
+      "id": "2026-09-27-rassemblement-national-59617723",
+      "date": "2026-09-27",
+      "candidate_ids": [],
+      "party_names": [
+        "Rassemblement national"
+      ],
+      "summary": "Présidentielle 2027. Dominique de Villepin : « La France va devenir un tout petit pays » si le RN accède au pouvoir",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQWjdtMGxUN3BrR2F3QUszM2hmU0M4ZGxJRkFKT1NKRzhfb0pNZnZrVVByTF91RTFNc1VKZGd0NWJrS3pwc1JLMEpEMmZXWUNyYS0wRVBQMkxXLXR5al9VdkRiRHNhUERWaGJxOW1BYUJmYjdJVWRzSmJYbmNIRzZyMDlmOWVod2xyZnlselBNaUZGbG1vUl9lbENrc0NHNExQcGpCbHpIUjJRVkd5MmxqX2lTVlp4QW5IV2p2ckg4ZFdSQ3YtZlVzZDlvZGhGdnRUMGNaRG53b0lXZktOVENhQlU0cGYtWHJLWWE5bVU3YnRGcHYzajc3LTRXNWFBQkNZcTB6c001QVhIRXc4M0xHLXlQM1RYZ1plR3FXOFhrUDVBTEhfQXBweVowc3NfUQ?oc=5",
+      "topic": "actualité"
     },
     {
       "id": "2026-09-27-olivier-faure-84357503",
@@ -1268,6 +1563,22 @@
         "Mediapart"
       ],
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeGNxZ3JPTVF5VXdhRkcxcjc1NUFVZkcwbjBTc3E3Q1NaQWUwVjhDMU5Qc01MQXBPc0V0QzJmd1U5NW0ySlhrYzV4SXVDa2x0a255eXpFODFsZ1FOaGIwRWlPdGdvbjk4NnMxU0ZRN05tZTBxNHEtS1M0Wnk0aVFxNDE2M1hDQjQ4aGdXdXZiYjN2Q1FhYUR1a1o2ZE9kSEJkaTlF?oc=5"
+    },
+    {
+      "id": "2026-09-27-edouard-philippe-62674097",
+      "date": "2026-09-27",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Retraites selon Édouard Philippe : ce qui pourrait changer en 2027",
+      "sources": [
+        "capital.fr"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYnJQUWNkWE1iN19lSFR1cEoxRk1PdEdDaFhlczBQZnh1NGZ3c1hEOEZUSWRveHdrZjlJVkxRQWtJZ1QtMXk3RUNHMExDQW1LZHpmbGNKRHRucy0wQWdhb3JRbFI4NkY2aFlKX3RNVHp3N1c3R2JGR2F4RzQ4SXdoYUp4M1hranBUbGtHcGJFMldQQWNRQzlJSGxfel9WVElPdThma2ttR1BQTXhrUndj?oc=5",
+      "topic": "candidature"
     },
     {
       "id": "2026-09-27-douard-philippe-42705133",
@@ -3167,7 +3478,8 @@
       "sources": [
         "TF1 Info"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQWJOckJvTGVKRXd2WkJpcThoLWctMXBmWk1hbTlLMDdpSjBwQlVNOEZoV2F5RHctcERhWTR1WG9hSVh0MVkxbnpWT1hNQ2hOM2xZRWVoNVYyLUxHQ1ZqVUVjNzdhN004VmIzcjJsWmluYndkeHBlVUxDbkd1RHY2aktYSVpuZFJaQV8xWmc4OVVkLVh1WUlneWtIYl9uZ0p2TzFiRVBVN1d1ZFZ1OGpnVUNOLWF6cEJSNGRNX19uSGNiYXAzbmNaQ0lnTXZackVOcTdCRUhmMHZBeU1GZllqYW5B?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQWJOckJvTGVKRXd2WkJpcThoLWctMXBmWk1hbTlLMDdpSjBwQlVNOEZoV2F5RHctcERhWTR1WG9hSVh0MVkxbnpWT1hNQ2hOM2xZRWVoNVYyLUxHQ1ZqVUVjNzdhN004VmIzcjJsWmluYndkeHBlVUxDbkd1RHY2aktYSVpuZFJaQV8xWmc4OVVkLVh1WUlneWtIYl9uZ0p2TzFiRVBVN1d1ZFZ1OGpnVUNOLWF6cEJSNGRNX19uSGNiYXAzbmNaQ0lnTXZackVOcTdCRUhmMHZBeU1GZllqYW5B?oc=5",
+      "topic": "actualité"
     },
     {
       "id": "2026-09-24-jean-lassalle-45362994",
@@ -3182,7 +3494,8 @@
       "sources": [
         "TF1 Info"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMXhWZUZXekRmYmxzekJzZkZoZzRQc1l1TDhtZXZrRU5BbXhxcEowUXhEOGFMOVdIQ3hRb3hNTm9JT0xTamlBRVROZXZXQ1kwWUNjOXp5U2lpWDlqUE5WeUhoQ2hGbDJ3QTVMc0l0UmdFSXRVMzh2eHFFUGJUNXY0VFZvLVlfVjB5ZjdleVNrUnFQTG9IR2ZEbVlaYmsxOEFFYkU2ekJLb3VRWkxUVFRYOFBtTG9YWjdPbl9qMVRkWEVnVDJYSG40ZllneWk4RkNhdzhwMV9VS201UHBZSnF4bEZkWUVWdWdQQTBFTm1MMC0?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMXhWZUZXekRmYmxzekJzZkZoZzRQc1l1TDhtZXZrRU5BbXhxcEowUXhEOGFMOVdIQ3hRb3hNTm9JT0xTamlBRVROZXZXQ1kwWUNjOXp5U2lpWDlqUE5WeUhoQ2hGbDJ3QTVMc0l0UmdFSXRVMzh2eHFFUGJUNXY0VFZvLVlfVjB5ZjdleVNrUnFQTG9IR2ZEbVlaYmsxOEFFYkU2ekJLb3VRWkxUVFRYOFBtTG9YWjdPbl9qMVRkWEVnVDJYSG40ZllneWk4RkNhdzhwMV9VS201UHBZSnF4bEZkWUVWdWdQQTBFTm1MMC0?oc=5",
+      "topic": "actualité"
     },
     {
       "id": "2026-09-24-jean-lassalle-29048987",
@@ -8036,7 +8349,8 @@
       "sources": [
         "Le Figaro Etudiant"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxObzhoYTJuNXlMeDNKR3BuLUdtUW5DNGktb3Y0bWVVT2JIWGxuVlhkNnlNV3lSTzFITUJpeVdvY1Jha2dRYzVBNnJFNFZmZ0xXSV9qZVNreDdrdkxUU2tERjNBcnV2T2ZMSk1oeVFKWVNNUmRPNnN5Ylk3NXY0UzdUWjBsVXpmR2ZmNGJJWU95bU5fVkRHa1o1TEx6aVNpNzJIZWUyRGZpUUd2LTFqa0tPWUx6U2UxT29fcjJzamZob2s5UGhjZDdXTnZaZE43d0gtT1poeVB5S2VMZGpKZFpIOXMwRFVGSXd0c0E?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxObzhoYTJuNXlMeDNKR3BuLUdtUW5DNGktb3Y0bWVVT2JIWGxuVlhkNnlNV3lSTzFITUJpeVdvY1Jha2dRYzVBNnJFNFZmZ0xXSV9qZVNreDdrdkxUU2tERjNBcnV2T2ZMSk1oeVFKWVNNUmRPNnN5Ylk3NXY0UzdUWjBsVXpmR2ZmNGJJWU95bU5fVkRHa1o1TEx6aVNpNzJIZWUyRGZpUUd2LTFqa0tPWUx6U2UxT29fcjJzamZob2s5UGhjZDdXTnZaZE43d0gtT1poeVB5S2VMZGpKZFpIOXMwRFVGSXd0c0E?oc=5",
+      "topic": "controverse"
     },
     {
       "id": "2026-09-16-jean-luc-m-lenchon-12831013",
@@ -10457,7 +10771,8 @@
       "sources": [
         "Le Parisien"
       ],
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxObDg4MGVMYTZpa1lNV0JRNFJPXy1fXzBFRTJpTWs1NUdEelJldm9ZTnBCdDRycXRZa0JTQy15S0lUaHc2bDV2NTRENGZiQmVfSWUwNUlyRWs3WXZabllEMDd3YVBPamV2alR5UXQxeHNOaFJGOEZ0LUttT2pvd0FDT1p6MVpxTmhScnkwVk1UVTdmSkhkVG1mcUFmbTN6bHBCWUJPMS1YSk5ZWVJEZGQyT2VDaG1rdjhRU0Z1WktnbjBqN3l6c1oxT3R4dDVld3ZIWHpZTUJxWWFKVWFIRUV2SUpXd3R2NkJRRjJuSElRaUczZThRQ1k2a190Mm5tUE1iSjIzYThkb2Q0cDd3WWhlODdDa2ZuQTlsZ2hWSVp2U2swQlFwc1Jv?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxObDg4MGVMYTZpa1lNV0JRNFJPXy1fXzBFRTJpTWs1NUdEelJldm9ZTnBCdDRycXRZa0JTQy15S0lUaHc2bDV2NTRENGZiQmVfSWUwNUlyRWs3WXZabllEMDd3YVBPamV2alR5UXQxeHNOaFJGOEZ0LUttT2pvd0FDT1p6MVpxTmhScnkwVk1UVTdmSkhkVG1mcUFmbTN6bHBCWUJPMS1YSk5ZWVJEZGQyT2VDaG1rdjhRU0Z1WktnbjBqN3l6c1oxT3R4dDVld3ZIWHpZTUJxWWFKVWFIRUV2SUpXd3R2NkJRRjJuSElRaUczZThRQ1k2a190Mm5tUE1iSjIzYThkb2Q0cDd3WWhlODdDa2ZuQTlsZ2hWSVp2U2swQlFwc1Jv?oc=5",
+      "topic": "actualité"
     },
     {
       "id": "2026-09-09-gabriel-attal-86085713",
@@ -12551,7 +12866,8 @@
       "sources": [
         "franceinfo"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxON3FQTW5vT3lNVU1NVWd1NDlTM1BxYmI0dEFpNlNYcHEtMkRibTZmY2YwUmhSTzB6aWJCcnVKRWhEa3RiYmw1VjdUQVlodFFtcDZabHJJakZ2a3RiOWNIZFZiNTlEM3ZvUWs3YTdxU0dnN041Ym03U2JCWGFnX2xsTm53RkxUOFloZ3g5Vzh1bjNIQnQtYklLVUtCaC1fT2RSZWR6bTFVdkhzZ0tweUwxNlJabVlGOW1nMU1pTTIzZzIwVk5tb3lzNDRaOFJFcVpGOWdlTGZTSF9hSGpON2UzNTJn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxON3FQTW5vT3lNVU1NVWd1NDlTM1BxYmI0dEFpNlNYcHEtMkRibTZmY2YwUmhSTzB6aWJCcnVKRWhEa3RiYmw1VjdUQVlodFFtcDZabHJJakZ2a3RiOWNIZFZiNTlEM3ZvUWs3YTdxU0dnN041Ym03U2JCWGFnX2xsTm53RkxUOFloZ3g5Vzh1bjNIQnQtYklLVUtCaC1fT2RSZWR6bTFVdkhzZ0tweUwxNlJabVlGOW1nMU1pTTIzZzIwVk5tb3lzNDRaOFJFcVpGOWdlTGZTSF9hSGpON2UzNTJn?oc=5",
+      "topic": "controverse"
     },
     {
       "id": "2026-09-01-juan-branco-71318252",
@@ -12566,7 +12882,8 @@
       "sources": [
         "Le Parisien"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRjhhdXBYd0Q3MmxpNVlfLUl3aTItcFNMM0JHaGZXMDR2TkpJY0dpbHdXQms1VFNUMTV1R3RxS08ybzN2Uy10RUxxUkIxT0t2eXRSWGhCRk9TNl9sQWZ5VUtKY1dKRHJ0SkNBOFVLNVVNTDFDakVwRFNoUy1ISnp4aUpyWlNtb2hFVTNiY1c0RUVIaklINlY5WmpSNFljSUhUTWx5dUs5akloZ0tNdGNmaFJCdkJHUHJsYUVNUXkyeHlIY2VkQmZ6UjFnZXJMNzVkTlE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRjhhdXBYd0Q3MmxpNVlfLUl3aTItcFNMM0JHaGZXMDR2TkpJY0dpbHdXQms1VFNUMTV1R3RxS08ybzN2Uy10RUxxUkIxT0t2eXRSWGhCRk9TNl9sQWZ5VUtKY1dKRHJ0SkNBOFVLNVVNTDFDakVwRFNoUy1ISnp4aUpyWlNtb2hFVTNiY1c0RUVIaklINlY5WmpSNFljSUhUTWx5dUs5akloZ0tNdGNmaFJCdkJHUHJsYUVNUXkyeHlIY2VkQmZ6UjFnZXJMNzVkTlE?oc=5",
+      "topic": "controverse"
     },
     {
       "id": "2026-09-01-juan-branco-57738385",
@@ -12596,7 +12913,8 @@
       "sources": [
         "Le Monde.fr"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSzZ6RlYyUW9PRHdMVGtfNmRZVE5ES25VZnlMSXoyMWhxNHdQc3dldkpzcF9nODZWcnpsVmhHRFVLVGdqSnhmS2cwNTQ0ZExfUEdMdzBLbFJwN21EbFlQZzFSWDA3QTAzOURJTnk1U2JnRTA0OTFfMWUzYjhfOEN5NGQzd2tzWkJwY0QzS1FpOVdrdUwzUV92TkJJSmpQQ0J6Vi1hQlZtNS16LXR5dEF6VnM0bjF1RkpfSEg5MDBfeXFCOHJFenF2N3F0bVhHMk5leTllZjcyNlUtN3pyaDhDSWVrQ1g?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSzZ6RlYyUW9PRHdMVGtfNmRZVE5ES25VZnlMSXoyMWhxNHdQc3dldkpzcF9nODZWcnpsVmhHRFVLVGdqSnhmS2cwNTQ0ZExfUEdMdzBLbFJwN21EbFlQZzFSWDA3QTAzOURJTnk1U2JnRTA0OTFfMWUzYjhfOEN5NGQzd2tzWkJwY0QzS1FpOVdrdUwzUV92TkJJSmpQQ0J6Vi1hQlZtNS16LXR5dEF6VnM0bjF1RkpfSEg5MDBfeXFCOHJFenF2N3F0bVhHMk5leTllZjcyNlUtN3pyaDhDSWVrQ1g?oc=5",
+      "topic": "controverse"
     },
     {
       "id": "2026-09-01-juan-branco-22011090",
@@ -12611,7 +12929,8 @@
       "sources": [
         "Ouest-France"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMnpjcXdId1BkTUp5M2VOVUM3a0M1OUt3ZHJGa21ULUlIc01DekZfTzZDalZqUkhuc1lMaTk4Z3owQTBlel9WUGJ2YWhWRG5jM0oyRjhwX0FBTmZMT09yMm5BUER2V1pnbTRIclVKOHNCWG5ITHFiUVUwbXdGQmFTN0tRakh5XzFoejhXaTEtMzZ3aEx1aFgtMFB3VUVwUHo1YjJGU3pfc001Wm9HME9zNVltdXJ5RDRWbThPb2Q0emoxTjZVQ0FoNlhuTnRpVzFXSHpKd1hVNHlzS0piTjFkb2V5RQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMnpjcXdId1BkTUp5M2VOVUM3a0M1OUt3ZHJGa21ULUlIc01DekZfTzZDalZqUkhuc1lMaTk4Z3owQTBlel9WUGJ2YWhWRG5jM0oyRjhwX0FBTmZMT09yMm5BUER2V1pnbTRIclVKOHNCWG5ITHFiUVUwbXdGQmFTN0tRakh5XzFoejhXaTEtMzZ3aEx1aFgtMFB3VUVwUHo1YjJGU3pfc001Wm9HME9zNVltdXJ5RDRWbThPb2Q0emoxTjZVQ0FoNlhuTnRpVzFXSHpKd1hVNHlzS0piTjFkb2V5RQ?oc=5",
+      "topic": "programme"
     },
     {
       "id": "2026-09-01-juan-branco-19896800",

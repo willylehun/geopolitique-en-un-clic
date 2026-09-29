@@ -1,6 +1,6 @@
 {
-  "cursor": 20,
-  "runs": 23,
+  "cursor": 26,
+  "runs": 24,
   "checked": {
     "candidate:marine-le-pen": "2026-09-29T00:30:33.386247+02:00",
     "candidate:eric-zemmour": "2026-09-29T00:30:33.386247+02:00",
@@ -22,12 +22,12 @@
     "candidate:raphael-glucksmann": "2026-09-29T17:04:00.087110+02:00",
     "candidate:emmanuel-maurel": "2026-09-29T17:04:00.087110+02:00",
     "candidate:anasse-kazib": "2026-09-29T17:04:00.087110+02:00",
-    "candidate:selma-labib": "2026-09-27T22:21:57.262463+02:00",
-    "candidate:florian-philippot": "2026-09-27T22:21:57.262463+02:00",
-    "candidate:jean-lassalle": "2026-09-27T22:21:57.262463+02:00",
-    "candidate:benoit-mathieu": "2026-09-27T22:21:57.262463+02:00",
-    "candidate:juan-branco": "2026-09-27T22:21:57.262463+02:00",
-    "candidate:francis-lalanne": "2026-09-28T00:27:25.868587+02:00",
+    "candidate:selma-labib": "2026-09-29T21:12:26.200628+02:00",
+    "candidate:florian-philippot": "2026-09-29T21:12:26.200628+02:00",
+    "candidate:jean-lassalle": "2026-09-29T21:12:26.200628+02:00",
+    "candidate:benoit-mathieu": "2026-09-29T21:12:26.200628+02:00",
+    "candidate:juan-branco": "2026-09-29T21:12:26.200628+02:00",
+    "candidate:francis-lalanne": "2026-09-29T21:12:26.200628+02:00",
     "candidate:lydie-massard": "2026-09-28T00:27:25.868587+02:00",
     "candidate:nathalie-arthaud": "2026-09-28T00:27:25.868587+02:00",
     "candidate:nicolas-dupont-aignan": "2026-09-28T00:27:25.868587+02:00",
@@ -62,5 +62,7 @@
     "party:Union populaire républicaine": "2026-09-29T00:30:33.386247+02:00",
     "party:Solution démocratique": "2026-09-29T00:30:33.386247+02:00"
   },
-  "last_run_at": "2026-09-29T17:04:00.087110+02:00"
+  "last_run_at": "2026-09-29T21:12:26.200628+02:00",
+  "last_priority_entity_count": 59,
+  "last_detailed_batch_count": 6
 }
