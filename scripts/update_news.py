@@ -770,7 +770,7 @@ def decode_google_news_url(source_url):
     if source_url in GOOGLE_NEWS_URL_CACHE:
         return GOOGLE_NEWS_URL_CACHE[source_url] or source_url
 
-    budget=max(1,int(os.getenv("GOOGLE_NEWS_DECODE_BUDGET","36") or "36"))
+    budget=max(1,int(os.getenv("GOOGLE_NEWS_DECODE_BUDGET","72") or "72"))
     if GOOGLE_NEWS_DECODE_USED>=budget:
         DISCOVERY_STATS["google_decode_budget_epuise"]+=1
         GOOGLE_NEWS_URL_CACHE[source_url]=""
@@ -868,15 +868,17 @@ def decode_google_news_url(source_url):
     GOOGLE_NEWS_URL_CACHE[source_url]=""
     return source_url
 
-def article_detail_budget_exhausted(existing=False):
+def article_detail_budget_exhausted(existing=False, targeted=False):
     if existing:
         budget=max(1,int(os.getenv("EXISTING_DETAIL_BUDGET","6") or "6"))
         return EXISTING_DETAIL_USED>=budget
-    budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","96") or "96"))
+    env_name="TARGETED_DETAIL_BUDGET" if targeted else "ARTICLE_DETAIL_BUDGET"
+    default="160" if targeted else "96"
+    budget=max(1,int(os.getenv(env_name,default) or default))
     return ARTICLE_DETAIL_USED>=budget
 
-def fetch_article_detail(url, existing=False):
-    """Récupère une description ou les premiers paragraphes, avec budget strict pour protéger la veille."""
+def fetch_article_detail(url, existing=False, targeted=False):
+    """Récupère le contenu avec une réserve supplémentaire pour les pays ciblés."""
     global ARTICLE_DETAIL_USED,EXISTING_DETAIL_USED
     original_url=(url or "").strip()
     if not original_url: return ""
@@ -891,7 +893,9 @@ def fetch_article_detail(url, existing=False):
             return ""
         EXISTING_DETAIL_USED+=1
     else:
-        budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","96") or "96"))
+        env_name="TARGETED_DETAIL_BUDGET" if targeted else "ARTICLE_DETAIL_BUDGET"
+        default="160" if targeted else "96"
+        budget=max(1,int(os.getenv(env_name,default) or default))
         if ARTICLE_DETAIL_USED>=budget:
             return ""
         ARTICLE_DETAIL_USED+=1
@@ -1016,8 +1020,8 @@ def dedupe_summary_sentences(text):
         seen_keys.add(k); seen_sets.append(words); out.append(part)
     return trim_incomplete_tail(" ".join(out))
 
-def article_summary(art, meta=None):
-    """Le titre découvre l'article ; le contenu décide s'il mérite d'être publié."""
+def article_summary(art, meta=None, targeted=False):
+    """Le titre découvre l'article ; le contenu décide, avec une réserve pour les pays ciblés."""
     title=(art.get("title") or "").strip()
     url=art.get("url","")
     if not title:
@@ -1030,10 +1034,10 @@ def article_summary(art, meta=None):
 
     detail=(art.get("description") or "").strip()
     if not detail_is_substantive(title,detail):
-        if article_detail_budget_exhausted():
-            note_rejection("budget_analyse_epuise",title,url)
+        if article_detail_budget_exhausted(targeted=targeted):
+            note_rejection("budget_analyse_epuise_cible" if targeted else "budget_analyse_epuise",title,url)
             return None
-        detail=fetch_article_detail(url)
+        detail=fetch_article_detail(url,targeted=targeted)
         resolved_url=GOOGLE_NEWS_RESOLVED.get(url)
         if resolved_url:
             art["url"]=resolved_url
@@ -1438,11 +1442,12 @@ def country_backfill(start_date,end_date,state):
             d=editorial_day(art["date"]); title=art["title"]
             k=(d,key_title(title))
             if not k[1] or k in seen: continue
-            summary=article_summary(art,{"countries":[country],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
+            summary=article_summary(art,{"countries":[country],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]},targeted=True)
             if not summary: continue
             seen.add(k)
             s=score(summary)
             found.add(country)
+            DISCOVERY_STATS["articles_valides_cibles"]+=1
             rows.append({"regions":regions_for_countries([country],s),"countries":[country],"period":"day","bucket":fr_date(d),"score":s,"category":category(summary),"summary":summary,"sources":[source_name(art["source"])],"url":art["url"],"published_at":art["date"].astimezone(PARIS).isoformat(),"origin":"gdelt" if "GDELT" in source_name(art["source"]) else "rss","content_enriched":True})
     return rows,found
 
