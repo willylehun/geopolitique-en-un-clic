@@ -217,6 +217,8 @@ PLACE_COUNTRIES={
     "Taïwan":"Taïwan",
     "Kitchener":"Canada",
     "Ontario":"Canada",
+    "Colombie-Britannique":"Canada",
+    "British Columbia":"Canada",
     "Californie":"États-Unis",
     "California":"États-Unis",
     "Ohio":"États-Unis",
@@ -285,6 +287,16 @@ def clean_summary_text(text):
     out=re.sub(r"(?i)\bdOrmuz\b","d’Ormuz",out)
     out=re.sub(r"(?i)\s*Lire l'article complet sur [^.]+\.?$","",out)
     out=re.sub(r"(?i)\s*Lire l’article complet sur [^.]+\.?$","",out)
+    out=re.sub(
+        r"(?i)La Russie n’a pas reçu de signaux encourageants de la part des États-Unis concernant les propriétés diplomatiques\s+le ministre russe des Affaires étrangères Sergueï Lavrov \(Russie\)",
+        "Le ministre russe des Affaires étrangères Sergueï Lavrov (Russie) affirme que la Russie n’a pas reçu de signaux encourageants des États-Unis concernant les propriétés diplomatiques",
+        out
+    )
+    out=re.sub(
+        r"(?i)\ble président russe\s+le président Vladimir Poutine \(Russie\)",
+        "le président Vladimir Poutine (Russie)",out
+    )
+    out=re.sub(r"\s+,",",",out)
     return out.strip(" |–—-")
 
 def is_market_listing_noise(text):
@@ -680,6 +692,29 @@ def score(text):
       "banque centrale","ministère fédéral","federal government","national government","congress"
     ))
     if local_response and not national_decision:
+        highest=min(highest,6)
+
+    standalone_commodity=any(x in t for x in (
+      "prix du pétrole azerbaïdjanais","prix du pétrole recule","prix du pétrole baisse",
+      "oil price falls","oil price declines","oil price rises","cours du pétrole recule"
+    ))
+    commodity_cause=any(x in t for x in (
+      "guerre","sanction","embargo","opec","opep","détroit d'ormuz","détroit d’ormuz",
+      "attaque","frappe","rupture d'approvisionnement","rupture d’approvisionnement",
+      "réserve stratégique","tarifs douaniers","droits de douane"
+    ))
+    if standalone_commodity and not commodity_cause:
+        highest=min(highest,6)
+
+    advocacy_only=any(x in t for x in (
+      "marches pour le climat","marche pour le climat","appel à manifester",
+      "doivent être aussi antiracistes","tribune militante"
+    ))
+    concrete_policy=any(x in t for x in (
+      "adopte","adopté","loi","vote","gouvernement","parlement","interdit",
+      "accord","budget","sanction","élection","décision","décret","règlement"
+    ))
+    if advocacy_only and not concrete_policy:
         highest=min(highest,6)
     return min(10,highest)
 def category(title):
@@ -1548,6 +1583,25 @@ def country_title_matches(country,title):
 def disambiguate_countries(countries,title):
     """Reclasse les familles de noms ambigus sans confondre un État avec un autre."""
     matched=[c for c in countries if country_title_matches(c,title)]
+    t=(title or "").lower()
+
+    # Colombie-Britannique / British Columbia = Canada, jamais Colombie ou Royaume-Uni.
+    if "colombie-britannique" in t or "british columbia" in t:
+        matched=[c for c in matched if c not in ("Colombie","Royaume-Uni")]
+        if "Canada" in countries and "Canada" not in matched:
+            matched.append("Canada")
+
+    # Un nom de média du type « Groupe de journaux américain » n'est pas le sujet
+    # géographique de l'article. Il faut un autre indice explicite pour classer USA.
+    outlet_us=("groupe de journaux américain" in t or "american newspaper group" in t)
+    explicit_us=any(x in t for x in (
+      "états-unis","etats-unis","united states","washington","réserve fédérale",
+      "federal reserve","donald trump","maison-blanche","white house","congrès américain",
+      "congress","américains","americans"
+    ))
+    if outlet_us and not explicit_us:
+        matched=[c for c in matched if c!="États-Unis"]
+
     # Un seul membre d'une famille géographique ambiguë est conservé, sauf article
     # mentionnant explicitement plusieurs États complets.
     families=[
