@@ -38,7 +38,7 @@ IMPACT={
  10:["guerre nucléaire","guerre mondiale","emploi de l’arme nucléaire","attaque nucléaire","invasion générale","coup d’état réussi","renversement du gouvernement","nuclear war","world war"],
  9:["guerre","invasion","frappe aérienne","frappe de missile","attaque militaire","cessez-le-feu","mobilisation militaire","état d’urgence","coup d’état","sanctions internationales","défaut souverain","séisme majeur","missile","airstrike","ceasefire","military attack","sanctions"],
  8:["conflit armé","élection présidentielle","élections législatives","élection nationale","inflation","taux directeur","banque centrale","récession","embargo","sommet international","accord de paix","traité","crise politique","crise diplomatique","crise énergétique","pétrole","gaz","défense","sécurité nationale","tarifs douaniers","droits de douane","réduction tarifaire","réductions tarifaires","conflict","election","interest rate","central bank","recession","summit","embargo","oil","gas"],
- 7:["gouvernement","premier ministre","parlement","diplomatie","commerce international","budget de l’état","manifestation","frontière","migration","énergie","climat","inondation majeure","feu de forêt","catastrophe naturelle","cyberattaque","technologie stratégique","régulation de l’intelligence artificielle","loi sur l’intelligence artificielle","semi-conducteur","puces électroniques","accord commercial","government","prime minister","parliament","diplomacy","trade","energy","protest","border","climate","major flood","wildfire","cyberattack","ai regulation","semiconductor","chip export"],
+ 7:["gouvernement","premier ministre","parlement","diplomatie","commerce international","budget de l’état","manifestation","frontière","migration","prix de l’énergie","marché de l’énergie","politique énergétique","sécurité énergétique","production électrique","réseau électrique","électricité","énergies renouvelables","climat","inondation majeure","feu de forêt","catastrophe naturelle","cyberattaque","technologie stratégique","régulation de l’intelligence artificielle","loi sur l’intelligence artificielle","semi-conducteur","puces électroniques","accord commercial","government","prime minister","parliament","diplomacy","trade","energy prices","energy market","energy policy","energy security","electricity","renewable energy","protest","border","climate","major flood","wildfire","cyberattack","ai regulation","semiconductor","chip export"],
  6:["économie","marché","investissement","exportation","importation","santé publique","épidémie","infrastructure","transport maritime","agriculture","justice","economic","market","investment","export","import","health","disease","infrastructure","shipping","agriculture"],
  5:["politique locale","administration","entreprise","société","politics","business","society"]
 }
@@ -57,6 +57,8 @@ COUNTRY_REGIONS={
 COUNTRY_TO_REGION={country:region for region,countries in COUNTRY_REGIONS.items() for country in countries}
 TRANSLATION_CACHE={}
 PENDING=[]
+REJECTION_STATS=defaultdict(int)
+DISCOVERY_STATS=defaultdict(int)
 
 # Désambiguïsation éditoriale des dirigeants fréquemment cités. Cette table
 # n'ajoute aucun fait à l'événement : elle explicite uniquement fonction et pays.
@@ -393,6 +395,88 @@ def is_useful_article(text):
 
     return True
 
+def note_rejection(reason, title="", url=""):
+    REJECTION_STATS[reason]+=1
+    # Garder les logs lisibles : seulement les trois premiers exemples par motif.
+    if REJECTION_STATS[reason]<=3:
+        print(f"REJET {reason}: {(title or '')[:180]} | {(url or '')[:160]}",file=sys.stderr)
+
+def title_rejection_reason(title):
+    """Le titre sert à découvrir. On ne rejette ici que les hors-sujet manifestes."""
+    raw=clean_summary_text(title)
+    t=" "+raw.lower()+" "
+    if not raw or len(re.findall(r"[a-zà-ÿ0-9]+",t))<4:
+        return "titre_trop_pauvre"
+    if is_market_listing_noise(raw):
+        return "fiche_boursiere"
+
+    # Ces contenus ne deviennent pas géopolitiques parce qu'ils contiennent un mot
+    # comme « énergie », « accord », « marché » ou le nom d'un pays.
+    obvious_noise=(
+      "coachella","festival de musique","livestream","diffusion en direct de coachella",
+      "concert","tournée musicale","billetterie","programme tv","soap opera","spoilers",
+      "horoscope","recette","mode","sneakers","célébrité","people","shakira","the weeknd",
+      "football","uefa","mlb","nba","championnat","match de","buteur","formule 1",
+      "croisière","zoo","pandas","concours littéraire","la casa de los famosos"
+    )
+    if any(x in t for x in obvious_noise):
+        return "sport_divertissement_loisirs"
+
+    health_gossip=("éruption cutanée","rash","ecchymose","bruising","apparence physique")
+    if any(x in t for x in health_gossip):
+        return "people_sante_speculative"
+    return None
+
+def content_rejection_reason(text):
+    """Analyse le résumé tiré du contenu, après découverte par le titre."""
+    raw=clean_summary_text(text)
+    if not is_useful_article(raw):
+        return "contenu_hors_sujet"
+    # Un contenu sans aucun signal géopolitique/économique/public concret n'est pas
+    # publié, même si son titre a été découvert par un flux thématique.
+    if score(raw)<5:
+        return "pas_de_signal_geopolitique"
+    return None
+
+def article_candidate_priority(art):
+    """Priorise d'abord les articles dont le flux fournit déjà du contenu, puis les titres à fort signal."""
+    title=(art.get("title") or "").strip()
+    has_detail=detail_is_substantive(title,art.get("description") or "")
+    source_ok=trusted_source(art.get("source") or "")
+    try:
+        ts=art.get("date").timestamp()
+    except Exception:
+        ts=0
+    return (0 if has_detail else 1,-score(title),0 if source_ok else 1,-ts)
+
+def prioritize_articles(articles,start_date,end_date,country=None):
+    """Déduplique et trie les titres avant de consommer le budget d'analyse de contenu."""
+    out=[]; seen=set()
+    for art in articles:
+        title=(art.get("title") or "").strip()
+        if len(title)<22:
+            note_rejection("titre_trop_court",title,art.get("url",""))
+            continue
+        try:
+            d=editorial_day(art["date"])
+        except Exception:
+            note_rejection("date_invalide",title,art.get("url",""))
+            continue
+        if d<start_date or d>end_date:
+            continue
+        if country and not country_title_matches(country,title):
+            continue
+        reason=title_rejection_reason(title)
+        if reason:
+            note_rejection(reason,title,art.get("url",""))
+            continue
+        k=(d,key_title(title))
+        if not k[1] or k in seen:
+            continue
+        seen.add(k); out.append(art)
+    DISCOVERY_STATS["titres_candidats"]+=len(out)
+    return sorted(out,key=article_candidate_priority)
+
 def term_in_text(text, term):
     """Cherche un mot/une expression complète, jamais une sous-chaîne accidentelle."""
     value=(text or "").lower()
@@ -583,7 +667,7 @@ def fetch_article_detail(url, existing=False):
             return ""
         EXISTING_DETAIL_USED+=1
     else:
-        budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","12") or "12"))
+        budget=max(1,int(os.getenv("ARTICLE_DETAIL_BUDGET","48") or "48"))
         if ARTICLE_DETAIL_USED>=budget:
             return ""
         ARTICLE_DETAIL_USED+=1
@@ -668,30 +752,42 @@ def dedupe_summary_sentences(text):
     return trim_incomplete_tail(" ".join(out))
 
 def article_summary(art, meta=None):
-    """Construit un vrai résumé à partir du titre ET d'un extrait/description de l'article."""
+    """Le titre découvre l'article ; le contenu décide s'il mérite d'être publié."""
     title=(art.get("title") or "").strip()
-    if not title: return None
+    url=art.get("url","")
+    if not title:
+        note_rejection("titre_absent",title,url)
+        return None
+    reason=title_rejection_reason(title)
+    if reason:
+        note_rejection(reason,title,url)
+        return None
 
     detail=(art.get("description") or "").strip()
     if not detail_is_substantive(title,detail):
-        detail=fetch_article_detail(art.get("url",""))
+        detail=fetch_article_detail(url)
     if not detail_is_substantive(title,detail):
-        # Qualité avant quantité : ne pas publier une simple fiche/titre sans contenu.
+        note_rejection("contenu_indisponible",title,url)
         return None
 
-    # Une seule traduction par article : le titre sert de contexte et la description
-    # apporte le fond. Cela garde les cycles assez courts pour la veille fréquente.
     source_text=f"{title}. {detail[:900]}"
     combined=french_summary(source_text,meta)
-    if not combined: return None
+    if not combined:
+        note_rejection("traduction_indisponible",title,url)
+        return None
     combined=clean_summary_text(dedupe_summary_sentences(enrich_editorial_context(combined)))
-    # Résumé lisible : 2-3 phrases / ~700 caractères maximum.
     if len(combined)>700:
         cut=combined[:700]
         stop=max(cut.rfind(". "),cut.rfind("! "),cut.rfind("? "))
         combined=(cut[:stop+1] if stop>320 else cut.rstrip()+"…")
     combined=trim_incomplete_tail(combined)
-    return combined if is_useful_article(combined) else None
+
+    reason=content_rejection_reason(combined)
+    if reason:
+        note_rejection(reason,title,url)
+        return None
+    DISCOVERY_STATS["articles_valides"]+=1
+    return combined
 
 def enrich_existing_item(item):
     """Améliore progressivement les anciennes entrées du jour qui n'ont encore qu'un titre."""
@@ -733,10 +829,16 @@ GOOGLE_503_COUNT=0
 GOOGLE_DISABLED=False
 GDELT_429_COUNT=0
 GDELT_DISABLED=False
+GDELT_LAST_CALL=0.0
+GDELT_MIN_INTERVAL=1.2
 
 def gdelt_query(query,maxrecords=250,start_date=None,end_date=None):
-    global GDELT_429_COUNT,GDELT_DISABLED
+    global GDELT_429_COUNT,GDELT_DISABLED,GDELT_LAST_CALL
     if GDELT_DISABLED: return []
+    wait=GDELT_MIN_INTERVAL-(time.monotonic()-GDELT_LAST_CALL)
+    if wait>0:
+        time.sleep(wait)
+    GDELT_LAST_CALL=time.monotonic()
     params={"query":query,"mode":"ArtList","format":"json","maxrecords":str(maxrecords),"sort":"DateDesc"}
     if start_date and end_date:
         start_dt=datetime.combine(start_date,dtime.min,tzinfo=PARIS).astimezone(UTC)
@@ -747,16 +849,26 @@ def gdelt_query(query,maxrecords=250,start_date=None,end_date=None):
         params["timespan"]="1d"
     url=GDELT_DOC+"?"+urllib.parse.urlencode(params)
     req=urllib.request.Request(url,headers={"User-Agent":"GeoClic/2.0 (+GitHub Actions)"})
-    try:
-        with urllib.request.urlopen(req,timeout=25) as r: data=json.loads(r.read().decode("utf-8","replace"))
-    except urllib.error.HTTPError as e:
-        if e.code==429:
+    data=None
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(req,timeout=25) as r:
+                data=json.loads(r.read().decode("utf-8","replace"))
+            break
+        except urllib.error.HTTPError as e:
+            if e.code!=429:
+                raise
             GDELT_429_COUNT+=1
-            if GDELT_429_COUNT>=2:
+            print(f"GDELT 429 tentative {attempt+1}/2",file=sys.stderr)
+            if attempt==0:
+                time.sleep(4)
+                continue
+            if GDELT_429_COUNT>=4:
                 GDELT_DISABLED=True
-                print("GDELT désactivé pour ce run après limitations 429; bascule Google News",file=sys.stderr)
+                print("GDELT désactivé pour ce run après limitations répétées; bascule Google News",file=sys.stderr)
             return []
-        raise
+    if data is None:
+        return []
     out=[]
     for art in data.get("articles",[]):
         title=(art.get("title") or "").strip()
@@ -934,14 +1046,19 @@ def global_country_discovery(start_date,end_date,countries):
     # Google News est volontairement mutualisé : deux appels pour tout le monde, pas 195.
     # Les fournisseurs sont interrogés en parallèle. Une source lente ne bloque plus les autres.
     jobs=[]
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    with ThreadPoolExecutor(max_workers=6) as pool:
         if not GOOGLE_DISABLED:
-            jobs += [(pool.submit(google_rss_query,q+" when:1d"),"GOOGLE GLOBAL") for q in queries]
-        if not GDELT_DISABLED:
-            jobs += [(pool.submit(gdelt_query,q,150,start_date,end_date),"GDELT GLOBAL") for q in queries]
+            jobs=[(pool.submit(google_rss_query,q+" when:1d"),"GOOGLE GLOBAL") for q in queries]
         for future,label in jobs:
             try: articles.extend(future.result())
             except Exception as e: print(label,e,file=sys.stderr)
+    # GDELT est interrogé séquentiellement et cadencé : les appels parallèles précédents
+    # provoquaient des 429 puis coupaient la principale source de liens directs.
+    if not GDELT_DISABLED:
+        for q in queries:
+            try: articles.extend(gdelt_query(q,150,start_date,end_date))
+            except Exception as e: print("GDELT GLOBAL",e,file=sys.stderr)
+    articles=prioritize_articles(articles,start_date,end_date)
     rows=[]; found=set(); seen=set()
     for art in articles:
         d=editorial_day(art["date"]); title=art.get("title","")
@@ -1013,10 +1130,10 @@ def country_backfill(start_date,end_date,state):
             except Exception as e:
                 print("GOOGLE FALLBACK",country,e,file=sys.stderr)
             time.sleep(0.15)
+        articles=prioritize_articles(articles,start_date,end_date,country=country)
         seen=set()
         for art in articles:
             d=editorial_day(art["date"]); title=art["title"]
-            if d<start_date or d>end_date or len(title)<22 or not country_title_matches(country,title): continue
             k=(d,key_title(title))
             if not k[1] or k in seen: continue
             seen.add(k)
@@ -1085,9 +1202,9 @@ def build_generated(start_date,end_date):
             if not GDELT_DISABLED:
                 try: articles.extend(gdelt_query(f'({REGIONS[region]})',200,a,b))
                 except Exception as e: print("GDELT REGION",region,a,b,e,file=sys.stderr)
+            articles=prioritize_articles(articles,start_date,end_date)
             for art in articles:
                 d=editorial_day(art["date"]); title=art["title"]
-                if d<start_date or d>end_date or len(title)<22: continue
                 k=(d,key_title(title))
                 if not k[1] or k in seen: continue
                 summary=article_summary(art,{"regions":[region],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
@@ -1242,6 +1359,15 @@ def main():
         if item.get("bucket")==today_bucket:
             found.update(item.get("countries",[]))
     update_country_coverage(found,now)
+    state["last_rejection_stats"]=dict(sorted(REJECTION_STATS.items()))
+    state["last_discovery_stats"]=dict(sorted(DISCOVERY_STATS.items()))
+    state["last_content_fetches"]=ARTICLE_DETAIL_USED
+    state["last_gdelt_429_count"]=GDELT_429_COUNT
+    state["last_gdelt_disabled"]=GDELT_DISABLED
+    state["last_google_disabled"]=GOOGLE_DISABLED
+    state["last_generated_count"]=len(generated)
+    print("rejections",dict(sorted(REJECTION_STATS.items())),"discovery",dict(sorted(DISCOVERY_STATS.items())),
+          "content_fetches",ARTICLE_DETAIL_USED,"gdelt_429",GDELT_429_COUNT,file=sys.stderr)
     save_monitor_state(state,now,
         country_step=int(os.getenv("COUNTRY_BATCH_SIZE","12")),
         day_step=int(os.getenv("DAY_BATCH_SIZE","3")) if backfill else 0)
