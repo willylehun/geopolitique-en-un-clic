@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:26:46.049569+02:00",
+  "generated_at": "2026-09-29T19:30:47.538721+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -84,6 +84,7 @@
     },
     {
       "regions": [
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -93,6 +94,9 @@
       "summary": "Le pétrole dépasse 108 $ et le taux américain à 10 ans atteint 5 %, renforçant les craintes d’inflation et de hausse des taux",
       "sources": [
         "Reuters"
+      ],
+      "countries": [
+        "États-Unis"
       ]
     },
     {
@@ -126,7 +130,9 @@
       ]
     },
     {
-      "regions": [],
+      "regions": [
+        "Amérique du Nord"
+      ],
       "period": "day",
       "bucket": "18 septembre 2026",
       "score": 4,
@@ -135,6 +141,9 @@
       "sources": [
         "Reuters",
         "AP"
+      ],
+      "countries": [
+        "États-Unis"
       ]
     },
     {
@@ -188,7 +197,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "15 septembre 2026",
@@ -200,7 +210,8 @@
       ],
       "countries": [
         "Russie",
-        "Ukraine"
+        "Ukraine",
+        "États-Unis"
       ]
     },
     {
@@ -335,8 +346,8 @@
         "Reuters"
       ],
       "countries": [
-        "Chine",
         "Japon",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -402,6 +413,9 @@
       "summary": "Le Nasdaq recule avec les semi-conducteurs après les appels à ralentir l’IA ; les marchés américains restent sous pression des taux longs",
       "sources": [
         "Reuters"
+      ],
+      "countries": [
+        "États-Unis"
       ]
     },
     {
@@ -415,6 +429,9 @@
       "summary": "Le rendement du Treasury américain à 10 ans atteint 5 %, son plus haut niveau depuis 2007, avant la décision de la Fed",
       "sources": [
         "Reuters"
+      ],
+      "countries": [
+        "États-Unis"
       ]
     },
     {
@@ -506,12 +523,11 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "International"
+        "Amérique du Sud"
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Brésil",
       "summary": "Deux sondages donnent Lula et Flávio Bolsonaro statistiquement à égalité avant l’élection présidentielle brésilienne d’octobre",
       "sources": [
@@ -619,9 +635,9 @@
         "Reuters"
       ],
       "countries": [
-        "Afrique du Sud",
         "Égypte",
-        "Éthiopie"
+        "Éthiopie",
+        "Afrique du Sud"
       ]
     },
     {
@@ -848,6 +864,7 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -862,7 +879,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Inde"
+        "Inde",
+        "États-Unis"
       ]
     },
     {
@@ -1435,6 +1453,7 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
+        "Royaume-Uni",
         "Russie",
         "Ukraine"
       ]
@@ -1607,7 +1626,7 @@
     },
     {
       "regions": [
-        "Europe"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
@@ -1619,7 +1638,10 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTlNZjh5WUxyRmw0a1ZyNGlmWjF5b2xablNUTTNRRDdyYXpYb2JtZ1dIcFZKTjVfX2JKSXo1UGJiUjE1RVF1U2VuSkdtQzhUMU9BQnJmNklIY1F2czVnbjJEMklNSlhHSkNoSVNwVVl2VnJscTM2THE2ZFNvb2JrMFloeVplRHFxdzFVeU1wMC1GLW5CYmhBQ3BRRDROX21TR01LLTZLMlNDUkXSAbABQVVfeXFMTVloYmZDZUcza3pMRW9qWWFmNTBQS3NvRzRyNUpudEQ4em1OaGlQeDBfUHlWRnlDZ0wxeG9hUDRoV2JvQ2lQc0F4WTRVdERtTHh1djdGVWl2Wk1YY3RFQ3h6ak9ERldQRVJwTFNEZEVVRV80XzBBNll6SzgtRHVHWXUwMFczQkRqUkR3SktCdU5RdVZBU1pyRm10Ym9FNmRJeHJJZDVzazI1VEJuVFI0V2U?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -1655,7 +1677,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "20 septembre 2026",
@@ -1670,7 +1693,8 @@
       "language": "fr",
       "countries": [
         "Israël",
-        "Jordanie"
+        "Jordanie",
+        "Royaume-Uni"
       ]
     },
     {
@@ -1695,6 +1719,7 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -1709,7 +1734,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Yémen"
+        "Yémen",
+        "États-Unis"
       ]
     },
     {
@@ -1757,6 +1783,7 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -1771,7 +1798,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Inde"
+        "Inde",
+        "États-Unis"
       ]
     },
     {
@@ -1812,8 +1840,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Pakistan",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Pakistan"
       ]
     },
     {
@@ -1870,7 +1898,7 @@
     },
     {
       "regions": [
-        "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -1883,7 +1911,10 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdkJ1aGZOVHowUUNJZmxGNFR5RFgzMGZEbkFVQ0lMdUs4TlFhenV3WmZPRjZnREFXVzJRWVNiVVp2V3M2X0dia3JKUWRFcmJVdDlGWm0zem5fbk9MdnpVWThwT3IyVDAwVjNOQ1JzeEJFR1RORVR4ZjVsSkFWVDV5NU1GY0hmajdHMmZtaDJxSjJwSXMzaWowbU9HMlFaak1KR0HSAacBQVVfeXFMUFc0UzNFTTFSX2NTaWVHT1pncHJoMDdCS0x1czIxbFJHeUszT3ZSelhvX2RmeXk1SjVYM3NlNTZoZjRpN2Rhb245bG8wX3BwQVBjR0VvNm45UDE2dGRKN2ZQTmZwbEJ2d1pwZHVVRE4zZW1nMnZIbnZMMGktYWxuT0F0MmNhdmxMTUpTQzNjcjVrelczWnZERVQ5SEFGMGI1NnlLTmtNVkE?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -2265,7 +2296,10 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNekJ6LTQ2WEZmWmQwcGdVb2dWNWx2MTI3YW1hQ0N3ZVNZd0hMcVRyU2d2MXN5NlRHeXRFSy1xemZMOUp4bGZzNlpmMjV6VEdNdjk1VEt5TjNodUNndnNvM2JQSHY0VXYwR2gweXZ3ZFhvR216Nml1OGFPYk5VVWFWbFdlS1hvRDRNdmViRXdDNktaNEVlRGV0X1kzbjU?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -2326,7 +2360,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
@@ -2340,7 +2375,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Danemark"
+        "Danemark",
+        "États-Unis"
       ]
     },
     {
@@ -2376,7 +2412,10 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbTlET3pDUkYyWnAyN3hGbGZRZkdtZ1BiVzZ2d3lPZHFzWnV2bURaT1JWdnFJUzA3MVgtM1h0cGllaGdfT0pkd3c2TTAyTDliMEUwN0o2dkR3QjdHTENwZG84ZGRFajRRbU1mdEFjaTZrYmoyT1Z3TzR5OGowZm00NnpMdHhwUzd3VlhRYXFvZjNNdS15UWk2QUtIUQ?oc=5",
       "origin": "rss",
-      "language": "fr"
+      "language": "fr",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -2536,7 +2575,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "1 septembre 2026",
@@ -2550,7 +2590,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Venezuela"
+        "Venezuela",
+        "États-Unis"
       ]
     },
     {
@@ -2636,12 +2677,11 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "International"
+        "Amérique du Sud"
       ],
       "period": "day",
       "bucket": "11 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Politique",
       "summary": "Flávio Bolsonaro fait face à une enquête pour corruption à quelques semaines de l’élection présidentielle brésilienne",
       "sources": [
@@ -2675,12 +2715,11 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "International"
+        "Amérique du Sud"
       ],
       "period": "day",
       "bucket": "15 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Politique",
       "summary": "De fortes tensions éclatent au sein de la Cour suprême brésilienne à l’approche de l’élection présidentielle",
       "sources": [
@@ -2753,12 +2792,11 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "International"
+        "Amérique du Sud"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Politique",
       "summary": "Lula annonce une hausse des aides sociales avant l’élection présidentielle brésilienne",
       "sources": [
@@ -2774,12 +2812,11 @@
     {
       "regions": [
         "Amérique du Sud",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Politique",
       "summary": "Un candidat de droite soutenu par le président Donald Trump (États-Unis) semble remporter l’élection présidentielle colombienne",
       "sources": [
@@ -3038,6 +3075,7 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -3052,7 +3090,8 @@
       "published_at": "2026-09-04T09:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -3103,6 +3142,7 @@
     {
       "regions": [
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -3118,12 +3158,14 @@
       "origin": "rss",
       "countries": [
         "Liban",
-        "Israël"
+        "Israël",
+        "Royaume-Uni"
       ]
     },
     {
       "regions": [
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -3138,7 +3180,8 @@
       "published_at": "2026-09-08T09:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël"
+        "Israël",
+        "Royaume-Uni"
       ]
     },
     {
@@ -3187,6 +3230,7 @@
     {
       "regions": [
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -3201,7 +3245,8 @@
       "published_at": "2026-09-09T09:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël"
+        "Israël",
+        "Royaume-Uni"
       ]
     },
     {
@@ -3226,6 +3271,7 @@
     {
       "regions": [
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -3240,7 +3286,8 @@
       "published_at": "2026-09-11T09:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël"
+        "Israël",
+        "Royaume-Uni"
       ]
     },
     {
@@ -3323,6 +3370,7 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -3337,7 +3385,8 @@
       "published_at": "2026-09-23T11:48:36+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -3675,12 +3724,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "7 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "En Israël, les risques inédits des élections législatives du 27 octobre",
       "sources": [
@@ -3736,15 +3784,14 @@
     },
     {
       "regions": [
-        "Afrique",
-        "International"
+        "Afrique"
       ],
       "countries": [
         "Maroc"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Politique",
       "summary": "À l’approche des élections législatives du 23 septembre, les partis marocains ont placé l’emploi des jeunes et le logement au cœur de leur campagne, dans un contexte de défiance politique et de chômage élevé chez les 18-24 ans",
       "sources": [
@@ -3820,10 +3867,12 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "countries": [
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "20 septembre 2026",
@@ -3843,8 +3892,8 @@
       ],
       "countries": [
         "Liban",
-        "Pakistan",
-        "Afghanistan"
+        "Afghanistan",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "21 septembre 2026",
@@ -3861,10 +3910,10 @@
     },
     {
       "regions": [
-        "Europe"
+        "Amérique du Nord"
       ],
       "countries": [
-        "Albanie"
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "9 septembre 2026",
@@ -3881,15 +3930,15 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Émirats arabes unis",
         "Algérie",
         "Soudan",
         "Libye",
-        "Mali"
+        "Mali",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "10 septembre 2026",
@@ -4010,7 +4059,8 @@
         "International"
       ],
       "countries": [
-        "Bahamas"
+        "Bahamas",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
@@ -4208,9 +4258,9 @@
         "Asie"
       ],
       "countries": [
-        "Oman",
         "Bahreïn",
-        "Iran"
+        "Iran",
+        "Oman"
       ],
       "period": "day",
       "bucket": "13 septembre 2026",
@@ -4248,8 +4298,8 @@
         "Asie"
       ],
       "countries": [
-        "Birmanie",
-        "Cambodge"
+        "Cambodge",
+        "Birmanie"
       ],
       "period": "day",
       "bucket": "11 septembre 2026",
@@ -4385,7 +4435,8 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Nicaragua"
+        "Nicaragua",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "3 septembre 2026",
@@ -6317,10 +6368,7 @@
         "Asie"
       ],
       "countries": [
-        "Pakistan",
-        "Turquie",
-        "Arabie saoudite",
-        "Yémen"
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6569,8 +6617,8 @@
         "Asie"
       ],
       "countries": [
-        "Pakistan",
-        "Afghanistan"
+        "Afghanistan",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6667,8 +6715,8 @@
         "Asie"
       ],
       "countries": [
-        "Pakistan",
-        "Iran"
+        "Iran",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6744,8 +6792,8 @@
         "Asie"
       ],
       "countries": [
-        "Pakistan",
-        "Iran"
+        "Iran",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6766,8 +6814,8 @@
       ],
       "countries": [
         "Liban",
-        "Pakistan",
-        "République dominicaine"
+        "République dominicaine",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -7013,6 +7061,7 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -7028,7 +7077,8 @@
       "published_at": "2026-09-25T10:34:40+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -7285,8 +7335,7 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Guatemala",
-        "États-Unis"
+        "Guatemala"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -7305,12 +7354,11 @@
         "Afrique"
       ],
       "countries": [
-        "Guinée",
-        "Guinée équatoriale"
+        "Guinée"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
-      "score": 6,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Página Oficial del Gobierno de la República de Guinea Ecuatorial",
       "sources": [
@@ -7341,12 +7389,10 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Asie"
       ],
       "countries": [
-        "Inde",
-        "Éthiopie"
+        "Inde"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -8054,8 +8100,8 @@
         "Asie"
       ],
       "countries": [
-        "Chine",
-        "Japon"
+        "Japon",
+        "Chine"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -8071,10 +8117,12 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "countries": [
-        "Chine"
+        "Chine",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -8091,16 +8139,18 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "countries": [
         "Géorgie",
+        "Azerbaïdjan",
+        "Turkménistan",
+        "Irak",
+        "Iran",
         "Oman",
         "Émirats arabes unis",
-        "Azerbaïdjan",
-        "Irak",
-        "Turkménistan",
-        "Iran"
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -8212,10 +8262,12 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -8634,7 +8686,7 @@
     },
     {
       "regions": [
-        "Europe"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -8647,7 +8699,9 @@
       "url": "https://www.ilpost.it/2026/09/04/sinistra-americana-woke/?homepagePosition=2.1&referrerPost=3687343",
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -9223,7 +9277,7 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -9236,7 +9290,9 @@
       "url": "https://biz.heraldcorp.com/article/10884650",
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -9285,7 +9341,9 @@
       "url": "https://www.24matins.fr/pr/repenser-le-stockage-denergie-domestique-en-fonction-des-besoins-reels-des-foyers-samduo-au-salon-solar-storage-live-uk",
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "Royaume-Uni"
+      ]
     },
     {
       "regions": [
@@ -9592,7 +9650,7 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -9605,7 +9663,9 @@
       "url": "https://www.novinky.cz/clanek/koktejl-americkemu-veteranovi-lide-ke-100-narozeninam-poslali-pres-4000-papirovych-prani-40597588",
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [],
@@ -9828,7 +9888,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -9842,7 +9903,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine"
+        "Chine",
+        "États-Unis"
       ]
     },
     {
@@ -12279,8 +12341,7 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -12293,7 +12354,9 @@
       "url": "https://www.cnnindonesia.com/ekonomi/20260925155156-78-1408208/rupiah-bangkit-ke-rp17903-per-dolar-as-jumat-sore",
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -13049,8 +13112,8 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Népal",
+        "Chine",
         "Inde"
       ]
     },
@@ -13257,7 +13320,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -13271,7 +13335,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine"
+        "Chine",
+        "États-Unis"
       ]
     },
     {
@@ -13738,7 +13803,7 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -13750,7 +13815,10 @@
       ],
       "url": "https://www.wmra.org/2026-09-25/american-farmers-are-hurting-and-worried-about-their-futures",
       "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -13970,7 +14038,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -13984,7 +14053,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -14554,8 +14624,8 @@
       ],
       "countries": [
         "Brésil",
-        "Chine",
-        "Chili"
+        "Chili",
+        "Chine"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -14833,10 +14903,12 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "countries": [
-        "Chine"
+        "Chine",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -14874,7 +14946,8 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Haïti"
+        "Haïti",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -15067,8 +15140,8 @@
     },
     {
       "regions": [
-        "International",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -17557,7 +17630,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -17571,7 +17645,8 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde"
+        "Inde",
+        "États-Unis"
       ]
     },
     {
@@ -17959,6 +18034,7 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
+        "Royaume-Uni",
         "Russie"
       ]
     },
@@ -18563,7 +18639,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -18577,7 +18654,8 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Grèce"
+        "Grèce",
+        "États-Unis"
       ]
     },
     {
@@ -19720,7 +19798,7 @@
     },
     {
       "regions": [
-        "Europe"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -19732,7 +19810,10 @@
       ],
       "url": "https://www.chinatechnews.com/2026/09/27/129879-from-new-delhi-to-washington-the-new-geometry-of-global-power",
       "published_at": "2026-09-27T13:00:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -19806,8 +19887,7 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "countries": [
         "Israël",
@@ -19815,7 +19895,7 @@
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Israël : la justice reporte un appel d’offres pour un projet de colonisation en Cisjordanie, pour ne pas perturber les élections législatives",
       "sources": [
@@ -20281,15 +20361,14 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "International"
+        "Amérique du Sud"
       ],
       "countries": [
         "Brésil"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 8,
+      "score": 4,
       "category": "Politique",
       "summary": "Election présidentielle au Brésil : malgré les effets d’un El Niño historique, l’enjeu climatique reste en marge de la campagne",
       "sources": [
@@ -20541,8 +20620,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Pakistan",
-        "Afghanistan"
+        "Afghanistan",
+        "Pakistan"
       ]
     },
     {
@@ -20595,6 +20674,7 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
+        "Royaume-Uni",
         "Russie"
       ]
     },
@@ -20751,6 +20831,7 @@
     {
       "regions": [
         "Europe",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -20765,7 +20846,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Bulgarie"
+        "Bulgarie",
+        "États-Unis"
       ]
     },
     {
@@ -20916,6 +20998,7 @@
     },
     {
       "regions": [
+        "Europe",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -20930,6 +21013,7 @@
       "published_at": "2026-09-27T18:45:00+02:00",
       "origin": "rss",
       "countries": [
+        "Royaume-Uni",
         "États-Unis"
       ]
     },
@@ -21049,7 +21133,10 @@
       ],
       "url": "https://www.dostor.org/5717914",
       "published_at": "2026-09-27T18:45:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Royaume-Uni"
+      ]
     },
     {
       "regions": [
@@ -21393,6 +21480,7 @@
     {
       "regions": [
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -21407,7 +21495,8 @@
       "published_at": "2026-09-27T18:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "Royaume-Uni"
       ]
     },
     {
@@ -21828,8 +21917,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Afrique",
+        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -21844,8 +21933,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Kenya",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -22198,7 +22287,10 @@
       ],
       "url": "https://londonlovesbusiness.com/raf-fairford-cordoned-off-after-counter-terror-police-arrest-suspects-for-explosives-offences/",
       "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Royaume-Uni"
+      ]
     },
     {
       "regions": [
@@ -23238,7 +23330,9 @@
       "origin": "rss"
     },
     {
-      "regions": [],
+      "regions": [
+        "Amérique du Nord"
+      ],
       "period": "day",
       "bucket": "27 septembre 2026",
       "score": 4,
@@ -23249,7 +23343,10 @@
       ],
       "url": "https://listindiario.com/economia/20260927/ministro-santos-abordara-washington-potencial-tierras-raras_923882.html",
       "published_at": "2026-09-27T22:00:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [],
@@ -23267,7 +23364,7 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -23281,7 +23378,9 @@
       "url": "https://www.whtimes.co.uk/news/national/26585520.giant-pandas-arrive-atlanta-us-china-government-agreement/",
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -23409,6 +23508,7 @@
     },
     {
       "regions": [
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -23421,7 +23521,10 @@
       ],
       "url": "https://24-ore.com/ghalibaf-sfidon-pretendimin-e-shba-se-per-hormuzin-nafta-eshte-35-dollare-me-lart-se-para-luftes/",
       "published_at": "2026-09-27T22:00:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [],
@@ -24542,6 +24645,7 @@
     },
     {
       "regions": [
+        "Europe",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -24556,6 +24660,7 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
+        "Royaume-Uni",
         "États-Unis"
       ]
     },
@@ -24690,7 +24795,7 @@
     },
     {
       "regions": [
-        "Europe"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -24702,7 +24807,10 @@
       ],
       "url": "https://www.dagelijksestandaard.nl/politiek/jetten-strafhof-icc-amerikaanse-ambassadeur-popolo-handen-af-navo?comment=1039772",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -25026,8 +25134,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -25041,8 +25149,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Émirats arabes unis",
-        "Ouganda"
+        "Ouganda",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -25455,6 +25563,7 @@
     {
       "regions": [
         "Asie",
+        "Europe",
         "Amérique du Nord",
         "International"
       ],
@@ -25471,6 +25580,7 @@
       "origin": "rss",
       "countries": [
         "Iran",
+        "Royaume-Uni",
         "États-Unis"
       ]
     },
@@ -25894,7 +26004,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -25908,7 +26019,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "Royaume-Uni"
       ]
     },
     {
@@ -25975,7 +26087,10 @@
       ],
       "url": "https://www.smh.com.au/traveller/reviews-and-advice/it-s-172-years-old-but-this-iconic-train-station-is-charming-and-efficient-20260928-p610hb.html",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "Royaume-Uni"
+      ]
     },
     {
       "regions": [
@@ -26032,6 +26147,7 @@
     },
     {
       "regions": [
+        "Europe",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -26046,6 +26162,7 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
+        "Royaume-Uni",
         "États-Unis"
       ]
     },
@@ -26579,7 +26696,7 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -26591,7 +26708,10 @@
       ],
       "url": "https://www.editorialedomani.it/politica/mondo/base-raf-regno-unito-usa-iran-il-conflitto-si-avvicina-oghp5w5o",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -26732,7 +26852,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -26746,7 +26867,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -27024,7 +27146,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -27038,12 +27161,13 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "États-Unis"
       ]
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -27055,7 +27179,10 @@
       ],
       "url": "https://www.tribune.gr/world/news/article/956295/vretania-pente-syllipseis-gia-pithani-tromokratiki-epithesi-konta-stin-amerikaniki-aeroporiki-vasi-raf-ferfornt.html",
       "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss"
+      "origin": "rss",
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -27189,7 +27316,9 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Europe",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -27203,7 +27332,9 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran"
+        "Iran",
+        "Royaume-Uni",
+        "États-Unis"
       ]
     },
     {
@@ -27800,8 +27931,8 @@
       "published_at": "2026-09-27T22:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Japon",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -28011,6 +28142,7 @@
     {
       "regions": [
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -28026,7 +28158,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine"
+        "Chine",
+        "Royaume-Uni"
       ]
     },
     {
@@ -28070,24 +28203,8 @@
     },
     {
       "regions": [
-        "International"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 8,
-      "category": "Géopolitique",
-      "summary": "Deux millions de subventions électorales de Pro Markkinataloude pour les élections législatives de printemps. Pro Markkinatalous distribuera au total environ deux millions d'euros de soutien électoral pour les élections législatives du printemps 2027, a annoncé mardi l'organisation de défense",
-      "sources": [
-        "karjalainen.fi"
-      ],
-      "url": "https://www.karjalainen.fi/uutissuomalainen/9832718",
-      "published_at": "2026-09-29T18:30:00+02:00",
-      "origin": "rss",
-      "content_enriched": true
-    },
-    {
-      "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -28103,7 +28220,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -28129,6 +28247,7 @@
     },
     {
       "regions": [
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -28142,10 +28261,14 @@
       "url": "https://www.ambito.com/uruguay/el-mercado-envia-senales-las-tasas-la-presion-la-fed-y-el-riesgo-la-inflacion-n6327926",
       "published_at": "2026-09-29T18:30:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -28159,7 +28282,10 @@
       "url": "https://jcpost.com/posts/371020dc-175d-4691-b4c8-c798fad8c6e4",
       "published_at": "2026-09-29T18:15:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -28262,8 +28388,7 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28277,7 +28402,9 @@
       "published_at": "2026-09-29T18:45:00+02:00",
       "origin": "rss",
       "content_enriched": true,
-      "countries": []
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -28602,7 +28729,7 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28615,7 +28742,10 @@
       "url": "https://www.bnnbloomberg.ca/business/international/2026/09/29/americans-view-of-the-economy-sinks-to-the-lowest-level-since-2014-conference-board-survey-says/",
       "published_at": "2026-09-29T19:00:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -28632,7 +28762,8 @@
       "url": "https://efeagro.com/gobierno-ayudas-gasoleo-sector-primario/",
       "published_at": "2026-09-29T19:00:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -28657,8 +28788,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28672,7 +28803,9 @@
       "published_at": "2026-09-29T19:00:00+02:00",
       "origin": "rss",
       "content_enriched": true,
-      "countries": []
+      "countries": [
+        "Royaume-Uni"
+      ]
     },
     {
       "regions": [
@@ -28734,9 +28867,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Oman",
         "Irak",
-        "Iran"
+        "Iran",
+        "Oman"
       ]
     },
     {
@@ -28754,7 +28887,8 @@
       "url": "https://www.faz.net/aktuell/politik/ausland/warum-suedkorea-nordkorea-einen-bruch-des-waffenstillstands-vorwirft-201271978.html",
       "published_at": "2026-09-29T19:00:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -28773,8 +28907,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
-        "Inde"
+        "Inde",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -28821,6 +28955,7 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -28836,7 +28971,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -28862,7 +28998,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28875,7 +29012,10 @@
       "url": "http://www.saltlakecitysun.com/news/279331932/us-consumer-confidence-weakens-as-inflation-fears-rise",
       "published_at": "2026-09-29T18:45:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
