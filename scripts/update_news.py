@@ -37,7 +37,7 @@ SOURCE_LABELS=["Reuters","Associated Press","AP News","BBC","France 24","DW","Al
 IMPACT={
  10:["guerre nucléaire","guerre mondiale","emploi de l’arme nucléaire","attaque nucléaire","invasion générale","coup d’état réussi","renversement du gouvernement","nuclear war","world war"],
  9:["guerre","invasion","frappe aérienne","frappe de missile","attaque militaire","cessez-le-feu","mobilisation militaire","état d’urgence","coup d’état","sanctions internationales","défaut souverain","séisme majeur","missile","airstrike","ceasefire","military attack","sanctions"],
- 8:["conflit armé","élection présidentielle","élections législatives","élection nationale","inflation","taux directeur","banque centrale","récession","embargo","sommet international","accord de paix","traité","crise politique","crise diplomatique","crise énergétique","pétrole","gaz","défense","sécurité nationale","tarifs douaniers","droits de douane","réduction tarifaire","réductions tarifaires","conflict","election","interest rate","central bank","recession","summit","embargo","oil","gas"],
+ 8:["conflit armé","élection présidentielle","élections législatives","élection nationale","inflation","taux directeur","banque centrale","récession","embargo","sommet international","accord de paix","traité","crise politique","crise diplomatique","crise énergétique","pétrole","gaz","défense nationale","ministère de la défense","dépenses de défense","politique de défense","sécurité nationale","tarifs douaniers","droits de douane","réduction tarifaire","réductions tarifaires","conflict","election","interest rate","central bank","recession","summit","embargo","oil","gas","national defense","defense ministry","defence ministry","defense spending"],
  7:["diplomatie","commerce international","frontière internationale","migration internationale","prix de l’énergie","marché de l’énergie","politique énergétique","sécurité énergétique","production électrique","réseau électrique","électricité","énergies renouvelables","climat","inondation majeure","feu de forêt","catastrophe naturelle","cyberattaque","technologie stratégique","régulation de l’intelligence artificielle","loi sur l’intelligence artificielle","semi-conducteur","puces électroniques","accord commercial","diplomacy","international trade","international border","international migration","energy prices","energy market","energy policy","energy security","electricity","renewable energy","climate","major flood","wildfire","cyberattack","ai regulation","semiconductor","chip export"],
  6:["gouvernement","premier ministre","parlement","budget de l’état","manifestation","migration","frontière","économie","marché","investissement","exportation","importation","santé publique","épidémie","infrastructure","transport maritime","agriculture","justice","government","prime minister","parliament","budget","protest","migration","border","economic","market","investment","export","import","health","disease","infrastructure","shipping","agriculture"],
  5:["politique locale","administration","entreprise","société","politics","business","society"]
@@ -213,6 +213,18 @@ def clean_summary_text(text):
     out=re.sub(r"(?i)\\s*\\|\\s*actualités gratuites en ligne.*$","",out)
     out=re.sub(r"(?i)\\s*[–—-]\\s*journal approfondi.*$","",out)
     out=re.sub(r"(?i)\\s*[–—-]\\s*dernières nouvelles.*$","",out)
+    boilerplate_markers=(
+      "en l'absence d'un accord écrit avec",
+      "en l’absence d’un accord écrit avec",
+      "vous pouvez extraire un maximum de",
+      "tous droits réservés",
+      "all rights reserved",
+      "reproduction interdite"
+    )
+    lower=out.lower()
+    cuts=[lower.find(marker) for marker in boilerplate_markers if lower.find(marker)>=0]
+    if cuts:
+        out=out[:min(cuts)].rstrip(" .;:-")
     return out.strip(" |–—-")
 
 def is_market_listing_noise(text):
@@ -256,7 +268,9 @@ def is_useful_article(text):
       "migration animale","migration des oiseaux","migration des baleines",
       "documentaire animalier","documentaire nature","programme tv","horoscope",
       "recette de cuisine","croisière touristique",
-      "nou camp","sièges vip","fc barcelone","business vip"
+      "nou camp","sièges vip","fc barcelone","business vip",
+      "théâtre","theatre","mise en scène","spectateur","comédie noire","pièce de théâtre","ubu roi",
+      "service de rencontres","firstdate","célibataires","application de rencontre","dating service"
     )
     if any(x in t for x in always_low_value):
         return False
@@ -856,7 +870,7 @@ GOOGLE_DISABLED=False
 GDELT_429_COUNT=0
 GDELT_DISABLED=False
 GDELT_LAST_CALL=0.0
-GDELT_MIN_INTERVAL=1.2
+GDELT_MIN_INTERVAL=3.0
 
 def gdelt_query(query,maxrecords=250,start_date=None,end_date=None):
     global GDELT_429_COUNT,GDELT_DISABLED,GDELT_LAST_CALL
@@ -887,9 +901,9 @@ def gdelt_query(query,maxrecords=250,start_date=None,end_date=None):
             GDELT_429_COUNT+=1
             print(f"GDELT 429 tentative {attempt+1}/2",file=sys.stderr)
             if attempt==0:
-                time.sleep(4)
+                time.sleep(8)
                 continue
-            if GDELT_429_COUNT>=4:
+            if GDELT_429_COUNT>=6:
                 GDELT_DISABLED=True
                 print("GDELT désactivé pour ce run après limitations répétées; bascule Google News",file=sys.stderr)
             return []
