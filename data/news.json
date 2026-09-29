@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T23:49:18.808288+02:00",
+  "generated_at": "2026-09-29T23:59:29.326642+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -28301,8 +28301,7 @@
       "content_enriched": true,
       "countries": [
         "Iran",
-        "États-Unis",
-        "Israël"
+        "États-Unis"
       ]
     },
     {
@@ -31430,13 +31429,14 @@
       "bucket": "29 septembre 2026",
       "score": 5,
       "category": "Géopolitique",
-      "summary": "La Cour suprême autorise pour l’instant la reprise des expulsions rapides vers des pays tiers le temps d’évaluer la politique de Trump. La Cour suprême a autorisé mardi l'administration du président Donald Trump (États-Unis) à continuer d'expulser rapidement des personnes vers des pays autres que le leur, tandis que les juges examinent si cette politique est …",
+      "summary": "La Cour suprême autorise pour l’instant la reprise des expulsions rapides vers des pays tiers le temps d’évaluer la politique de Trump. WASHINGTON (AP) — La Cour suprême a autorisé mardi l'administration du président Donald Trump (États-Unis) à continuer pour l'instant d'expulser des personnes vers des pays autres que le leur, tandis que les juges examinent si le…",
       "sources": [
         "U.S. News & World Report — fiabilité 6/10",
-        "Chicago Tribune — fiabilité 6/10"
+        "Chicago Tribune — fiabilité 6/10",
+        "The Mercury News — fiabilité 6/10"
       ],
       "url": "https://www.usnews.com/news/world/articles/2026-09-29/supreme-court-lets-trump-resume-third-country-deportations",
-      "published_at": "2026-09-29T15:12:00+02:00",
+      "published_at": "2026-09-29T15:38:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -34371,6 +34371,92 @@
       "content_enriched": true,
       "countries": [
         "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les États-Unis imposent des sanctions contre 13 pays liés à l’achat d’armes par l’Iran. Par Andrea ShalalWASHINGTON, 29 septembre - Le gouvernement américain a annoncé mardi de nouvelles sanctions contre 13 personnes et entités, dont certaines basées en Russie, en Chine, à Hong Kong et au Pakistan, affirmant…",
+      "sources": [
+        "Al-Monitor — fiabilité 6/10"
+      ],
+      "url": "https://www.al-monitor.com/originals/2026/09/us-imposes-sanctions-13-tied-iran-weapons-procurement",
+      "published_at": "2026-09-29T16:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "Iran",
+        "Pakistan",
+        "Russie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Manchin à Newsmax : les partis ont pris le contrôle. L'ancien sénateur Joe Manchin a déclaré mardi à Newsmax que l'inflation, la flambée des prix de l'énergie et la dette nationale devraient être au premier plan alors que les électeurs se préparent pour les élections de mi-mandat, arguant que…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/manchin-newsmax-parties-taken-control-205051972.html",
+      "published_at": "2026-09-29T15:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’ancien procureur de Trump, Smith, défend avec force les enquêtes alors que les républicains attaquent les tactiques de son équipe. WASHINGTON (AP) — L'ancien conseiller spécial du ministère de la Justice, Jack Smith, qui a déposé deux actes d'accusation fédéraux contre le président Donald Trump (États-Unis), dira mardi aux législateurs qu'il « ne sera pas réduit au silence…",
+      "sources": [
+        "Boston Herald — fiabilité 6/10"
+      ],
+      "url": "https://www.bostonherald.com/2026/09/29/jack-smith-senate-hearing-trump/",
+      "published_at": "2026-09-29T12:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "La RBA relève les taux d’intérêt jusqu’à leur sommet sur 15 ans. La gouverneure de la RBA, Michele Bullock, a déclaré que la stratégie du conseil d'administration consiste à lutter contre l'inflation tout en préservant les gains du marché du travail, mais que la croissance médiocre de la productivité en Australie rend la tâche difficile (Le …",
+      "sources": [
+        "The Saturday Paper — fiabilité 6/10"
+      ],
+      "url": "https://www.thesaturdaypaper.com.au/post/rba-hikes-interest-rates-15-year-peak",
+      "published_at": "2026-09-29T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
       ]
     },
     {
