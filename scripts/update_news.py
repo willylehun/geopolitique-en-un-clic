@@ -512,6 +512,19 @@ def is_useful_article(text):
     )):
         return False
 
+    # Une rétrospective historique n'est pas une actualité du jour sans fait nouveau actuel.
+    historical_retrospective=(
+      "guerre froide","cold war","chute du mur de berlin","fall of the berlin wall",
+      "archives historiques","historical archives","il y a plusieurs décennies"
+    )
+    current_hook=(
+      "aujourd'hui","aujourd’hui","ce mardi","ce mercredi","ce jeudi","ce vendredi",
+      "a annoncé","a déclaré","annonce","publie","publication","nouvelle étude",
+      "rapport publié","vient de","2026","message officiel","décision"
+    )
+    if any(x in t for x in historical_retrospective) and not any(x in t for x in current_hook):
+        return False
+
     # Un éditorial/opinion n'est utile que s'il décrit aussi un fait concret, une décision ou une évolution.
     opinion=(" éditorial "," editorial "," opinion "," chronique "," tribune ")
     informative=(
@@ -788,6 +801,14 @@ def score(text):
     if administrative_funding and not funding_conflict:
         highest=min(highest,6)
 
+    disciplinary_sanction=any(x in t for x in (
+      "sanctions disciplinaires","sanctions de la fraternité","sanctions universitaires",
+      "expulsions et suspensions","disciplinary sanctions","university sanctions",
+      "fraternity sanctions","commission d'audience","commission d’audience"
+    ))
+    if disciplinary_sanction:
+        highest=min(highest,6)
+
     return min(10,highest)
 def category(title):
     t=" "+title.lower()+" "
@@ -802,6 +823,49 @@ def clean_title(raw):
     raw=re.sub(r"\s+"," ",raw or "").strip(); parts=raw.rsplit(" - ",1)
     return (parts[0].strip(),parts[1].strip()) if len(parts)==2 and len(parts[1])<70 else (raw,"")
 def trusted_source(label): return any(s.lower() in (label or "").lower() for s in SOURCE_LABELS)
+
+def source_reliability_score(label):
+    """Note éditoriale indicative 1-10, distincte de l'importance géopolitique."""
+    raw=(label or "").strip()
+    low=raw.lower()
+    if not raw:
+        return 5
+    # Grandes agences internationales.
+    if any(x in low for x in ("reuters","associated press","ap news"," afp","agence france-presse")) or low=="ap":
+        return 9
+    # Médias reconnus disposant de standards éditoriaux robustes.
+    high=(
+      "bbc","france 24","dw","deutsche welle","financial times","le monde","nhk",
+      "cbc","abc australia","abc.net.au","rnz","npr","pbs","propublica","politico",
+      "the guardian","new york times","washington post","wall street journal",
+      "bloomberg","al jazeera","euronews","le temps","faz.net","el mundo",
+      "the times of israel","the globe and mail","sydney morning herald","the age"
+    )
+    if any(x in low for x in high):
+        return 8
+    # Sources étatiques / institutionnelles : utiles pour leurs propres positions,
+    # mais à lire comme source institutionnelle plutôt que comme média indépendant.
+    state_or_official=(
+      "xinhua","rt.com","russia today","azərtac","azertac","correodelorinoco",
+      "média public / contrôlé par l’état","media public / controle par l'etat",
+      "agence publique","state media","government media"
+    )
+    if any(x in low for x in state_or_official):
+        return 6
+    # Sources explicitement militantes / de plaidoyer ou portails syndiqués opaques.
+    advocacy_or_syndication=(
+      "ncr-iran.org","infoaut.org","presse-toi à gauche","europesun.com","iraqsun.com",
+      "shanghainews.net","coloradostar.com","californiatelegraph.com","britainnews.net",
+      "indiagazette.com"
+    )
+    if any(x in low for x in advocacy_or_syndication):
+        return 5
+    # Une source déjà reconnue dans la liste de veille obtient un niveau élevé mais prudent.
+    if trusted_source(raw):
+        return 7
+    # Média national/local non référencé : utilisable, avec prudence et recoupement si sensible.
+    return 6
+
 STATE_MEDIA_HINTS={
  "CRTV":"média public / contrôlé par l’État","Cameroon Tribune":"média public / contrôlé par l’État",
  "Agence Ivoirienne de Presse":"agence publique","Agence Nigérienne de Presse":"agence publique",
@@ -814,11 +878,15 @@ STATE_MEDIA_HINTS={
 }
 def source_name(label):
     l=(label or "").strip()
+    if "fiabilité " in l.lower():
+        return l
     if "associated press" in l.lower() or l.lower()=="ap news": l="AP"
     if "abc.net.au" in l.lower(): l="ABC Australia"
     base=l or "Source"
     note=STATE_MEDIA_HINTS.get(base)
-    return f"{base} ({note})" if note else base
+    display=f"{base} ({note})" if note else base
+    score_value=source_reliability_score(display)
+    return f"{display} — fiabilité {score_value}/10"
 def editorial_day(dt): return dt.astimezone(PARIS).date()
 def looks_english(text):
     words=re.findall(r"[a-zà-ÿ]+",(text or "").lower())
@@ -1597,6 +1665,7 @@ def save_monitor_state(state, now, country_step=0, day_step=0):
 SPECIAL_COUNTRY_HINTS={
     "États-Unis":["états-unis","etats-unis","united states","u.s.","u . s ."," usa ","américain","américaine","américains","américaines","californie","california","ohio"],
     "Royaume-Uni":["royaume-uni","united kingdom","britain","british","britannique","britanniques","londres","london"],
+    "Allemagne":["allemagne","germany","deutschland","allemand","allemande","allemands","allemandes","berlin","berlinoise","berliner"],
 }
 
 def country_title_matches(country,title):
@@ -1992,6 +2061,7 @@ def main():
             dedupe_summary_sentences(enrich_editorial_context(y.get("summary","")))
         )
         if y.get("bucket")==today_bucket:
+            y["sources"]=list(dict.fromkeys(source_name(src) for src in (y.get("sources",[]) or [])))
             reason=content_rejection_reason(y["summary"])
             if reason:
                 note_rejection("existant_"+reason,y.get("summary",""),y.get("url",""))
