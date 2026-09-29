@@ -198,6 +198,8 @@ PLACE_COUNTRIES={
     "Gaza":"Palestine",
     "Cisjordanie":"Palestine",
     "Taïwan":"Taïwan",
+    "Kitchener":"Canada",
+    "Ontario":"Canada",
 }
 
 def enrich_place_context(text):
@@ -372,7 +374,8 @@ def is_useful_article(text):
     service_noise=(
       "en direct gratuitement","live gratuitement","via espn","disney plus","programme tv",
       "prix de l'essence aujourd'hui","prix de l’essence aujourd’hui","meilleures offres",
-      "guide d'achat","guide d’achat"
+      "guide d'achat","guide d’achat","prix bloqué pendant","offre à prix fixe",
+      "réduction de 30 %","réduction de 30%","sconto del 30"
     )
     if any(x in t for x in service_noise) and not has_strong:
         return False
@@ -387,7 +390,12 @@ def is_useful_article(text):
         return False
 
     # Langage typique de contenu promotionnel d'entreprise.
-    corporate_promo=("nous avons expédié","créant des synergies","répondre aux demandes les plus exigeantes","unités en 40 ans","présente sa nouvelle gamme")
+    corporate_promo=(
+      "nous avons expédié","créant des synergies","répondre aux demandes les plus exigeantes",
+      "unités en 40 ans","présente sa nouvelle gamme","légende de l'image de presse",
+      "légende de l’image de presse","cérémonie d'ouverture officielle","cérémonie d’ouverture officielle",
+      "ouvre la chaîne d'assemblage final","ouvre la chaîne d’assemblage final","globenewswire"
+    )
     if any(x in t for x in corporate_promo) and not has_strong:
         return False
 
@@ -611,6 +619,17 @@ def score(text):
     routine_market=any(x in t for x in ("marchés aujourd'hui","marchés aujourd’hui","markets today","actions chutent","stocks fall","wall street mardi","wall street today"))
     market_cause=any(x in t for x in ("guerre","sanction","embargo","banque centrale","taux directeur","récession","crise financière","tarifs douaniers","droits de douane"))
     if routine_market and not market_cause:
+        highest=min(highest,6)
+
+    local_response=any(x in t for x in (
+      "entreprises locales","commerce local","municipalité","conseil municipal","ville de ",
+      "city council","local businesses","local business","municipal plan"
+    ))
+    national_decision=any(x in t for x in (
+      "gouvernement fédéral","gouvernement national","président","premier ministre","parlement",
+      "banque centrale","ministère fédéral","federal government","national government","congress"
+    ))
+    if local_response and not national_decision:
         highest=min(highest,6)
     return min(10,highest)
 def category(title):
@@ -1106,6 +1125,10 @@ def regions_for_countries(countries, importance):
 GDELT_DOC="https://api.gdeltproject.org/api/v2/doc/doc"
 GOOGLE_503_COUNT=0
 GOOGLE_DISABLED=False
+BING_ERROR_COUNT=0
+BING_DISABLED=False
+BING_LAST_CALL=0.0
+BING_MIN_INTERVAL=0.8
 GDELT_429_COUNT=0
 GDELT_DISABLED=False
 GDELT_LAST_CALL=0.0
@@ -1156,6 +1179,80 @@ def gdelt_query(query,maxrecords=250,start_date=None,end_date=None):
         try: dt=datetime.strptime(seen[:14],"%Y%m%dT%H%M%S").replace(tzinfo=UTC)
         except Exception: dt=datetime.now(UTC)
         out.append({"title":title,"source":art.get("domain") or "GDELT","date":dt,"url":art.get("url") or "","description":art.get("description") or art.get("snippet") or ""})
+    return out
+
+def bing_direct_url(raw):
+    raw=(raw or "").strip()
+    if not raw:
+        return ""
+    try:
+        parsed=urllib.parse.urlparse(raw)
+        if parsed.netloc.lower().endswith("bing.com") and parsed.path.lower().endswith("/news/apiclick.aspx"):
+            q=urllib.parse.parse_qs(parsed.query)
+            direct=(q.get("url") or [""])[0]
+            if direct:
+                return urllib.parse.unquote(direct)
+    except Exception:
+        pass
+    return raw
+
+def bing_rss_query(query):
+    """Fallback ciblé : Bing News RSS, avec URL éditeur quand disponible."""
+    global BING_ERROR_COUNT,BING_DISABLED,BING_LAST_CALL
+    if BING_DISABLED:
+        return []
+    wait=BING_MIN_INTERVAL-(time.monotonic()-BING_LAST_CALL)
+    if wait>0:
+        time.sleep(wait)
+    BING_LAST_CALL=time.monotonic()
+    params={"q":query,"format":"RSS","qft":'interval="7"',"setlang":"fr-fr","cc":"FR"}
+    url="https://www.bing.com/news/search?"+urllib.parse.urlencode(params)
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/3.0"})
+    root=None
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(req,timeout=20) as r:
+                root=ET.fromstring(r.read())
+            break
+        except Exception as exc:
+            BING_ERROR_COUNT+=1
+            print("BING RSS",query,exc,file=sys.stderr)
+            if attempt==0:
+                time.sleep(2)
+    if root is None:
+        if BING_ERROR_COUNT>=4:
+            BING_DISABLED=True
+            print("Bing News RSS désactivé pour ce run après erreurs répétées",file=sys.stderr)
+        return []
+
+    out=[]
+    for item in root.findall(".//item"):
+        title_el=item.find("title"); link_el=item.find("link"); date_el=item.find("pubDate"); desc_el=item.find("description")
+        if title_el is None or date_el is None:
+            continue
+        try:
+            dt=parsedate_to_datetime(date_el.text)
+        except Exception:
+            continue
+        if dt.tzinfo is None:
+            dt=dt.replace(tzinfo=UTC)
+        title,fallback=clean_title(title_el.text or "")
+        direct=bing_direct_url(link_el.text if link_el is not None else "")
+        src=""
+        for child in list(item):
+            if child.tag.lower().endswith("source") and (child.text or "").strip():
+                src=(child.text or "").strip()
+                break
+        if not src:
+            try:
+                src=urllib.parse.urlparse(direct).netloc.replace("www.","")
+            except Exception:
+                src=fallback
+        out.append({
+          "title":title,"source":src or fallback or "Bing News","date":dt,"url":direct,
+          "description":strip_html_text(desc_el.text if desc_el is not None else "")
+        })
+    DISCOVERY_STATS["bing_resultats"]+=len(out)
     return out
 
 def google_rss_query(query):
@@ -1436,6 +1533,12 @@ def country_backfill(start_date,end_date,state):
             except Exception as e:
                 print("GOOGLE FALLBACK",country,e,file=sys.stderr)
             time.sleep(0.15)
+        if not BING_DISABLED:
+            try:
+                DISCOVERY_STATS["bing_country_queries"]+=1
+                articles.extend(bing_rss_query(f'{country_query_name(country)} (politique OR économie OR sécurité OR diplomatie OR conflit OR climat OR énergie)'))
+            except Exception as e:
+                print("BING COUNTRY",country,e,file=sys.stderr)
         articles=prioritize_articles(articles,start_date,end_date,country=country)
         seen=set()
         for art in articles:
@@ -1692,6 +1795,8 @@ def main():
     state["last_gdelt_429_count"]=GDELT_429_COUNT
     state["last_gdelt_disabled"]=GDELT_DISABLED
     state["last_google_disabled"]=GOOGLE_DISABLED
+    state["last_bing_error_count"]=BING_ERROR_COUNT
+    state["last_bing_disabled"]=BING_DISABLED
     state["last_generated_count"]=len(generated)
     print("rejections",dict(sorted(REJECTION_STATS.items())),"discovery",dict(sorted(DISCOVERY_STATS.items())),
           "content_fetches",ARTICLE_DETAIL_USED,"gdelt_429",GDELT_429_COUNT,file=sys.stderr)
