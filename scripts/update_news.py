@@ -676,6 +676,9 @@ def french_summary(text, meta=None):
 ARTICLE_DETAIL_CACHE={}
 ARTICLE_DETAIL_USED=0
 EXISTING_DETAIL_USED=0
+GOOGLE_NEWS_URL_CACHE={}
+GOOGLE_NEWS_RESOLVED={}
+GOOGLE_NEWS_DECODE_USED=0
 
 def strip_html_text(raw):
     if not raw: return ""
@@ -751,6 +754,120 @@ class ArticleHTMLExtractor(HTMLParser):
                     self.paragraphs.append(value)
                 self._p_parts=[]
 
+def is_google_news_url(url):
+    try:
+        p=urllib.parse.urlparse(url or "")
+        return p.hostname=="news.google.com" and "/articles/" in p.path
+    except Exception:
+        return False
+
+def decode_google_news_url(source_url):
+    """Résout une URL Google News RSS vers l'URL réelle de l'éditeur."""
+    global GOOGLE_NEWS_DECODE_USED
+    source_url=(source_url or "").strip()
+    if not is_google_news_url(source_url):
+        return source_url
+    if source_url in GOOGLE_NEWS_URL_CACHE:
+        return GOOGLE_NEWS_URL_CACHE[source_url] or source_url
+
+    budget=max(1,int(os.getenv("GOOGLE_NEWS_DECODE_BUDGET","36") or "36"))
+    if GOOGLE_NEWS_DECODE_USED>=budget:
+        DISCOVERY_STATS["google_decode_budget_epuise"]+=1
+        GOOGLE_NEWS_URL_CACHE[source_url]=""
+        return source_url
+    GOOGLE_NEWS_DECODE_USED+=1
+
+    try:
+        p=urllib.parse.urlparse(source_url)
+        parts=[x for x in p.path.split("/") if x]
+        art_id=parts[-1] if len(parts)>=2 and parts[-2]=="articles" else ""
+        if not art_id:
+            DISCOVERY_STATS["google_decode_id_invalide"]+=1
+            GOOGLE_NEWS_URL_CACHE[source_url]=""
+            return source_url
+
+        params_url=(
+            "https://news.google.com/rss/articles/"+urllib.parse.quote(art_id,safe="")
+            +"?hl=fr&gl=FR&ceid=FR%3Afr"
+        )
+        req=urllib.request.Request(params_url,headers={"User-Agent":"Mozilla/5.0 GeoClic/3.1"})
+        with urllib.request.urlopen(req,timeout=8) as r:
+            final_url=r.geturl()
+            body=r.read(280000).decode("utf-8","replace")
+
+        # Certains liens se résolvent déjà par redirection HTTP.
+        final_host=(urllib.parse.urlparse(final_url).hostname or "").lower()
+        if final_host and final_host!="news.google.com":
+            GOOGLE_NEWS_URL_CACHE[source_url]=final_url
+            GOOGLE_NEWS_RESOLVED[source_url]=final_url
+            DISCOVERY_STATS["google_decode_success"]+=1
+            return final_url
+
+        sg_m=re.search(r'data-n-a-sg="([^"]+)"',body)
+        ts_m=re.search(r'data-n-a-ts="([^"]+)"',body)
+        if not sg_m or not ts_m:
+            DISCOVERY_STATS["google_decode_params_absents"]+=1
+            GOOGLE_NEWS_URL_CACHE[source_url]=""
+            return source_url
+
+        ctx=[
+          ["X","X",["X","X"],None,None,1,1,"US:en",None,1,None,None,None,None,None,0,1],
+          "X","X",1,[1,1,1],1,1,None,0,0,None,0
+        ]
+        inner=["garturlreq",ctx,art_id,int(ts_m.group(1)) if ts_m.group(1).isdigit() else ts_m.group(1),sg_m.group(1)]
+        envelope=["Fbv4je",json.dumps(inner,separators=(",",":")),None,"0"]
+        f_req=json.dumps([[envelope]],separators=(",",":"))
+        payload=("f.req="+urllib.parse.quote(f_req,safe="")).encode("utf-8")
+        post=urllib.request.Request(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute",
+            data=payload,
+            headers={
+              "User-Agent":"Mozilla/5.0 GeoClic/3.1",
+              "Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"
+            }
+        )
+        with urllib.request.urlopen(post,timeout=10) as r:
+            raw=r.read().decode("utf-8","replace")
+
+        decoded_body=raw.split("\n\n",1)[1] if "\n\n" in raw else raw
+        decoded_body=decoded_body.lstrip()
+        if decoded_body.startswith(")]}'"):
+            decoded_body=decoded_body.split("\n",1)[1] if "\n" in decoded_body else decoded_body[4:]
+            decoded_body=decoded_body.lstrip()
+        rows=json.loads(decoded_body)
+        resolved=""
+        for row in rows:
+            if not isinstance(row,list) or len(row)<3:
+                continue
+            if row[0]!="wrb.fr" and (len(row)<2 or row[1]!="Fbv4je"):
+                continue
+            cell=row[2]
+            if isinstance(cell,str):
+                try: cell=json.loads(cell)
+                except Exception: continue
+            if isinstance(cell,list) and len(cell)>1 and cell[0]=="garturlres":
+                candidate=str(cell[1] or "")
+                host=(urllib.parse.urlparse(candidate).hostname or "").lower()
+                if candidate.startswith(("http://","https://")) and host!="news.google.com":
+                    resolved=candidate
+                    break
+
+        if resolved:
+            GOOGLE_NEWS_URL_CACHE[source_url]=resolved
+            GOOGLE_NEWS_RESOLVED[source_url]=resolved
+            DISCOVERY_STATS["google_decode_success"]+=1
+            return resolved
+        DISCOVERY_STATS["google_decode_no_url"]+=1
+    except urllib.error.HTTPError as exc:
+        DISCOVERY_STATS[f"google_decode_http_{exc.code}"]+=1
+        print("GOOGLE NEWS DECODE HTTP",exc.code,source_url,file=sys.stderr)
+    except Exception as exc:
+        DISCOVERY_STATS["google_decode_error"]+=1
+        print("GOOGLE NEWS DECODE",source_url,exc,file=sys.stderr)
+
+    GOOGLE_NEWS_URL_CACHE[source_url]=""
+    return source_url
+
 def article_detail_budget_exhausted(existing=False):
     if existing:
         budget=max(1,int(os.getenv("EXISTING_DETAIL_BUDGET","6") or "6"))
@@ -761,9 +878,13 @@ def article_detail_budget_exhausted(existing=False):
 def fetch_article_detail(url, existing=False):
     """Récupère une description ou les premiers paragraphes, avec budget strict pour protéger la veille."""
     global ARTICLE_DETAIL_USED,EXISTING_DETAIL_USED
-    url=(url or "").strip()
-    if not url: return ""
-    if url in ARTICLE_DETAIL_CACHE: return ARTICLE_DETAIL_CACHE[url]
+    original_url=(url or "").strip()
+    if not original_url: return ""
+    if original_url in ARTICLE_DETAIL_CACHE: return ARTICLE_DETAIL_CACHE[original_url]
+    url=decode_google_news_url(original_url)
+    if url in ARTICLE_DETAIL_CACHE:
+        ARTICLE_DETAIL_CACHE[original_url]=ARTICLE_DETAIL_CACHE[url]
+        return ARTICLE_DETAIL_CACHE[url]
     if existing:
         budget=max(1,int(os.getenv("EXISTING_DETAIL_BUDGET","6") or "6"))
         if EXISTING_DETAIL_USED>=budget:
@@ -782,9 +903,11 @@ def fetch_article_detail(url, existing=False):
         with urllib.request.urlopen(req,timeout=5) as r:
             final_url=r.geturl()
             body=r.read(350000).decode("utf-8","replace")
-        # Les pages intermédiaires Google News n'apportent pas le contenu éditorial.
-        if "news.google.com" in urllib.parse.urlparse(final_url).netloc.lower():
+        # Si la résolution Google a échoué, la page intermédiaire n'est pas du contenu éditorial.
+        if "news.google.com" in (urllib.parse.urlparse(final_url).netloc or "").lower():
             ARTICLE_DETAIL_CACHE[url]=""
+            ARTICLE_DETAIL_CACHE[original_url]=""
+            DISCOVERY_STATS["google_intermediaire_non_resolu"]+=1
             return ""
         parser=ArticleHTMLExtractor()
         try:
@@ -810,6 +933,7 @@ def fetch_article_detail(url, existing=False):
         detail=" ".join(unique[:3])
         detail=re.sub(r"\s+"," ",detail).strip()[:1200]
         ARTICLE_DETAIL_CACHE[url]=detail
+        ARTICLE_DETAIL_CACHE[original_url]=detail
         if detail:
             DISCOVERY_STATS["contenus_recuperes"]+=1
         else:
@@ -818,6 +942,7 @@ def fetch_article_detail(url, existing=False):
     except Exception as exc:
         print("ARTICLE DETAIL",url,exc,file=sys.stderr)
         ARTICLE_DETAIL_CACHE[url]=""
+        ARTICLE_DETAIL_CACHE[original_url]=""
         DISCOVERY_STATS["contenus_inaccessibles"]+=1
         return ""
 
@@ -909,6 +1034,13 @@ def article_summary(art, meta=None):
             note_rejection("budget_analyse_epuise",title,url)
             return None
         detail=fetch_article_detail(url)
+        resolved_url=GOOGLE_NEWS_RESOLVED.get(url)
+        if resolved_url:
+            art["url"]=resolved_url
+            url=resolved_url
+            if meta is not None:
+                meta=dict(meta)
+                meta["url"]=resolved_url
     if not detail_is_substantive(title,detail):
         note_rejection("contenu_indisponible",title,url)
         return None
@@ -1542,6 +1674,8 @@ def main():
     state["last_rejection_stats"]=dict(sorted(REJECTION_STATS.items()))
     state["last_discovery_stats"]=dict(sorted(DISCOVERY_STATS.items()))
     state["last_content_fetches"]=ARTICLE_DETAIL_USED
+    state["last_google_decode_used"]=GOOGLE_NEWS_DECODE_USED
+    state["last_google_decode_success"]=int(DISCOVERY_STATS.get("google_decode_success",0))
     state["last_gdelt_429_count"]=GDELT_429_COUNT
     state["last_gdelt_disabled"]=GDELT_DISABLED
     state["last_google_disabled"]=GOOGLE_DISABLED
