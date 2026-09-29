@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:33:33.098181+02:00",
+  "generated_at": "2026-09-29T19:40:25.231824+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -120,13 +120,14 @@
       "bucket": "17 septembre 2026",
       "score": 4,
       "category": "USA–Chine",
-      "summary": "Les alliés asiatiques des États-Unis réclament des garanties sur Taïwan avant le sommet le président Donald Trump (États-Unis)–le président Xi Jinping (Chine) du 24 septembre",
+      "summary": "Taïwan, le Japon et d’autres alliés s’inquiètent d’éventuelles concessions américaines à Pékin lors du sommet le président Donald Trump (États-Unis)–le président Xi Jinping (Chine)",
       "sources": [
         "Reuters"
       ],
       "countries": [
         "Chine",
-        "États-Unis"
+        "États-Unis",
+        "Japon"
       ]
     },
     {
@@ -334,25 +335,6 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "17 septembre 2026",
-      "score": 4,
-      "category": "Taïwan",
-      "summary": "Taïwan, le Japon et d’autres alliés s’inquiètent d’éventuelles concessions américaines à Pékin lors du sommet le président Donald Trump (États-Unis)–le président Xi Jinping (Chine)",
-      "sources": [
-        "Reuters"
-      ],
-      "countries": [
-        "Japon",
-        "Chine",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
         "Asie"
       ],
       "period": "day",
@@ -370,8 +352,8 @@
     {
       "regions": [
         "Asie",
-        "International",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "19 septembre 2026",
@@ -395,7 +377,7 @@
       "bucket": "13 septembre 2026",
       "score": 8,
       "category": "Énergie",
-      "summary": "Le président Donald Trump (États-Unis) évoque la possibilité de maintenir une présence américaine en Iran pour le pétrole, en la comparant à l’accord américain au Venezuela",
+      "summary": "Le président Donald Trump (États-Unis) compare une éventuelle stratégie pétrolière en Iran à l’accord conclu avec le Venezuela, signe du poids croissant du pétrole vénézuélien dans la politique américaine",
       "sources": [
         "Reuters"
       ],
@@ -478,12 +460,14 @@
       "summary": "Le président Donald Trump (États-Unis) signe une loi de sanctions contre la Russie visant énergie, défense et pétroliers clandestins, avec tarifs secondaires possibles",
       "sources": [
         "Reuters",
-        "AP"
+        "AP",
+        "BBC"
       ],
       "countries": [
         "Russie",
         "États-Unis"
-      ]
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vSHg0WFRlY1pCUkotVTE1N3pUOHdfak53ZVFjaVRUa3hpUEtKWTN5ZzBUOEpIQ25DQzJnZlVlM2JpU2tJcnVraG1rZkR2SUotSEEwNUxJMmRKT28?oc=5"
     },
     {
       "regions": [
@@ -500,27 +484,6 @@
       ],
       "countries": [
         "Chine",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Sud",
-        "Asie",
-        "Amérique du Nord",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "13 septembre 2026",
-      "score": 8,
-      "category": "Venezuela",
-      "summary": "Le président Donald Trump (États-Unis) compare une éventuelle stratégie pétrolière en Iran à l’accord conclu avec le Venezuela, signe du poids croissant du pétrole vénézuélien dans la politique américaine",
-      "sources": [
-        "Reuters"
-      ],
-      "countries": [
-        "Venezuela",
-        "Iran",
         "États-Unis"
       ]
     },
@@ -638,9 +601,9 @@
         "Reuters"
       ],
       "countries": [
-        "Égypte",
         "Éthiopie",
-        "Afrique du Sud"
+        "Afrique du Sud",
+        "Égypte"
       ]
     },
     {
@@ -1308,26 +1271,6 @@
       "language": "fr",
       "countries": [
         "Ukraine"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Nord",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "18 septembre 2026",
-      "score": 9,
-      "category": "Énergie",
-      "summary": "Le président Donald Trump (États-Unis) vise le secteur énergétique russe avec une nouvelle loi de sanctions",
-      "sources": [
-        "BBC"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vSHg0WFRlY1pCUkotVTE1N3pUOHdfak53ZVFjaVRUa3hpUEtKWTN5ZzBUOEpIQ25DQzJnZlVlM2JpU2tJcnVraG1rZkR2SUotSEEwNUxJMmRKT28?oc=5",
-      "origin": "rss",
-      "language": "fr",
-      "countries": [
-        "États-Unis"
       ]
     },
     {
@@ -2212,73 +2155,15 @@
       "bucket": "18 septembre 2026",
       "score": 4,
       "category": "Conflit",
-      "summary": "Le président Donald Trump (États-Unis) annonce un accord de sécurité et de défense avec le Danemark concernant le Groenland",
-      "sources": [
-        "Axios"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yTzNFMERzSHJxZ3ZYaW41MHR5VUZabnRMTWNlSTRLYWpBQzlQX2NrNmMyTjVlbnBQOFB5eERYWV94V1d0clpiTDJnUW40OE1jZ2VIS3V3X04yUDBfN1F4MUtLTllZdzhXX2ZhTTV3?oc=5",
-      "origin": "rss",
-      "language": "fr",
-      "countries": [
-        "Danemark",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
-        "Europe",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "18 septembre 2026",
-      "score": 4,
-      "category": "Sécurité",
-      "summary": "Le président Donald Trump (États-Unis) affirme que les États-Unis et le Danemark ont conclu un accord de sécurité sur le Groenland",
-      "sources": [
-        "ABC News - Breaking News, Latest News and Videos"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRnFFUE00amhVMG1WMmZZMTQ2Smt4cXFrbDlodUg0cnVNZGhyY2lIZEVNaG1uNUUta1dMd2IxeFVBMS1BLURpUlcxOXliQVQtaGhscFVXTkJmZ040ekdpM1V0djF2WXlZYzJ4alVCMmhtNmQzaHlwMTB0TzF4aUVDckRvdzdDMXpVRklvdGpScFFONVpjNmZhVEhvNGhiUlZvMjNPdkJrc1bSAa4BQVVfeXFMTXNXaW41TXQ4WFpCeUh2N3ZxLUJvNmhmUkhlX2pnQU5UakdWZ203VHVMTi1OR0tFTXNHeWxrN0ZrdTRHQ3MtWkVHM1pfNDFJMUhZOFNPX1k3cm9JUGVWT2Zqby1ibTN6OTNJRy0yeXZzQlJ6b1hHZXlDY3EzLWFSeC1ieHBwUlZYdEN2OTBOd2gwWTRGdjJWVl82S3NuQXRLbmc3MDc4a2ZNSDFsLURB?oc=5",
-      "origin": "rss",
-      "language": "fr",
-      "countries": [
-        "Danemark",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "18 septembre 2026",
-      "score": 4,
-      "category": "Conflit",
-      "summary": "Le président Donald Trump (États-Unis) annonce un accord visant à renforcer la présence militaire américaine au Groenland",
-      "sources": [
-        "CBC"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZGR4QWxnMUVoRWoxOElSNG9UQXE5NjVSdHFoVzlBOFpzOUZ6SE93eDQ1NDc3ZFVjRThtd1JfLUttNnA1WWpfUldENF96SGRVU3dfMnBUVV9SUWIyY0V4dWUxVlFRREM2N3lRUl9HY2FnNnJ2OGVqbnRKLXpkcGhXSEpTTE9zZkgxSnp3?oc=5",
-      "origin": "rss",
-      "language": "fr",
-      "countries": [
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
-        "Europe",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "18 septembre 2026",
-      "score": 4,
-      "category": "Sécurité",
       "summary": "Les États-Unis et le Danemark concluent un accord sécuritaire après les menaces du président Donald Trump (États-Unis) concernant le Groenland",
       "sources": [
+        "Axios",
+        "ABC News - Breaking News, Latest News and Videos",
+        "CBC",
         "bbc.co.uk",
         "The Guardian"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTNTNFZTNPeDduRTVNTnkwTDZwTW1ERUZpbG5EbEwwQkhNOUtHaG52dDFEM1lidEpHVko2bk5Ec1JqVkp6cVMzVzQxYm1yVU90bGg1M0FQQ0lPdnIyU3c?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yTzNFMERzSHJxZ3ZYaW41MHR5VUZabnRMTWNlSTRLYWpBQzlQX2NrNmMyTjVlbnBQOFB5eERYWV94V1d0clpiTDJnUW40OE1jZ2VIS3V3X04yUDBfN1F4MUtLTllZdzhXX2ZhTTV3?oc=5",
       "origin": "rss",
       "language": "fr",
       "countries": [
@@ -2435,7 +2320,8 @@
       "category": "Conflit",
       "summary": "Le président Donald Trump (États-Unis) affirme que son projet d’arche monumentale à Washington intégrera des fonctions de sécurité militaire avec drones et tireurs d’élite",
       "sources": [
-        "NPR"
+        "NPR",
+        "Al Jazeera"
       ],
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTUNPNHZzWkhCWVlyR0Y0Sm1zLVFzNWpkRDdPTWZ5TFpPYTZJUlo5Ulh5aTVoWjlvRGRNTDl6VGUwa05LbzJYdzZlT2VlRmxBLUNCaGIzRWQ0YVltREwtWmNNQUJmMnFSUGZrOUp0OUtsZzBaTnV0Qk54bUtSY1RvQjFfTFBnM29VTzdyNEtsQkR4RkJGUkN5djN0TUFqbjE2U3Iw?oc=5",
       "origin": "rss",
@@ -2457,25 +2343,6 @@
         "Politico"
       ],
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWi1oaWpac0h1a1Z2YllaTXVYVW1TWHZUSGxMWkNxZ3IzMFFVbUtyNmljdUZuTTdzUFVxSVNkRnRqNUR3WDhVMkR4R0tGUmRlcHV3RXZDZVlZRjdIc1dEbHpCdGFKdVhGYkRzRElsUmE4Nm9IdlBQVmw5aGFZcGhRWWF2dTBDRG0tNE4xQXk3a0o?oc=5",
-      "origin": "rss",
-      "language": "fr",
-      "countries": [
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "20 septembre 2026",
-      "score": 4,
-      "category": "Conflit",
-      "summary": "Le président Donald Trump (États-Unis) affirme que son projet d’arche monumentale à Washington servira également de complexe militaire",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLWhlWmRoczFDS2ZTZThZOUtjd29iQXptS3NGSHpwaWlZMXR4UHlTTWdJbkxYR21zMm9JYVhrYjhhdk92X3NNcGcxVG9zV01VbnVVSDJoVkVXX3JBSHhxc0pmWUdYNEE3TjhSdDc0M2lJV0dpeFlhMnMxSERnWHNoYmFUSHJhTy1vWTBacldROUtmR082T0ZzWGdCd2VnOWFyM01kUW5GV25rOVhPWFRJUTl5QlnSAboBQVVfeXFMTXVzWGN0QUJCTHctazg1RGlkWE02OWpFeGFNMS1ZTkxVWUlCWHBKSDFWV0xrWGRIS0V2d05qeUFjUkh1M1pHbldPYnludGFnWm81YnFpR3gxdXVhZFJSelZzMTlWdnZMSWdNY0ZzV1dhWldtMUR2QjFkaTc1QjJoU2Z6X2xLSlN0b3FRMWtMYkpiREVSMDZHU01EZjluUzIxSzVQYVVDb0hEQXlzVmhVYjlITTBua2lSS21R?oc=5",
       "origin": "rss",
       "language": "fr",
       "countries": [
@@ -3286,28 +3153,10 @@
       "category": "Géopolitique",
       "summary": "« South Park » rebaptisé « South America » : la série satirique raille les changements de noms voulus par le président Donald Trump (États-Unis)",
       "sources": [
-        "Le Monde.fr"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPcDhzazZwdVUxM2o0Z1Atb0FNYTNGZG9MZlN4d29xS3FCTGRCMi1XWERjN0U2QUhVNUlOQmlncTBEZXVQQmg0a204cFJFN25OdnRELUliNEZ3aUhzMTFOcDRsWDBucVRxTkhtYXFaeHloSjZlbHdsTU9sRkdqc2RCTlJSMXloQlVFdlpMVldJNHFVUnVTUFpzUFNsNXdmeWdXeG5uNzlGOGZFOVljLURNdHBITk5PQXFVQUZ3QWdJWkI1WXlfN1R1eVA1UkF4OTNqX21OX1JneHpPa0IzcWdRaFZJMGMtVlBtTm0xVFFwanpXNkQ5YU54X3RrOW8yZG9iMkVER21UcmFueHR1Y19wTEt3?oc=5",
-      "published_at": "2026-09-09T09:00:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "9 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Les créateurs de South Park se moquent du président Donald Trump (États-Unis) en rebaptisant la série \"South America\"",
-      "sources": [
+        "Le Monde.fr",
         "Euronews"
       ],
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcm1qWkZjSWY2NF96Sk9GQkNaYTQxcWR2QjR3dzg3eThqVlM2WnBQYko3YXlvUXZmNTVJalhpZHJXZ2VqVkFqbHNOUzZtOGZHMGlGUS1BNDAxX0ZjY2VCUHpPeFZvVmN1amc4cTcxd1hwVndqLUFqamh0ajVKUm5vNDdUMldZWXlBX3JMMjltcUU3WGgwdjdfd25uYXYySl9zU3RfZ25pYlVZZXdDcjMtMUxvdkZmN21iQmFEQw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPcDhzazZwdVUxM2o0Z1Atb0FNYTNGZG9MZlN4d29xS3FCTGRCMi1XWERjN0U2QUhVNUlOQmlncTBEZXVQQmg0a204cFJFN25OdnRELUliNEZ3aUhzMTFOcDRsWDBucVRxTkhtYXFaeHloSjZlbHdsTU9sRkdqc2RCTlJSMXloQlVFdlpMVldJNHFVUnVTUFpzUFNsNXdmeWdXeG5uNzlGOGZFOVljLURNdHBITk5PQXFVQUZ3QWdJWkI1WXlfN1R1eVA1UkF4OTNqX21OX1JneHpPa0IzcWdRaFZJMGMtVlBtTm0xVFFwanpXNkQ5YU54X3RrOW8yZG9iMkVER21UcmFueHR1Y19wTEt3?oc=5",
       "published_at": "2026-09-09T09:00:00+02:00",
       "origin": "rss",
       "countries": [
@@ -6021,10 +5870,11 @@
       "category": "Énergie",
       "summary": "E se le président Donald Trump (États-Unis) limitar as exportaes de gasóleo ? Analista de mercados financeiros diz que Portugal estaria entre os mais expostos",
       "sources": [
-        "executivedigest.sapo.pt"
+        "executivedigest.sapo.pt",
+        "haberaktuel.com"
       ],
       "url": "https://executivedigest.sapo.pt/e-se-trump-limitar-as-exportacoes-de-gasoleo-analista-de-mercados-financeiros-diz-que-portugal-estaria-entre-os-mais-expostos/",
-      "published_at": "2026-09-25T10:15:00+02:00",
+      "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss"
     },
     {
@@ -8216,12 +8066,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Turquie",
-        "France"
+        "France",
+        "Turquie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -8328,10 +8178,11 @@
       "category": "Géopolitique",
       "summary": "Le président Donald Trump (États-Unis) refuse l'offre iranienne pour rouvrir le détroit d'Ormuz, rapporte le Wall Street Journal",
       "sources": [
-        "France 24 (média public)"
+        "France 24 (média public)",
+        "Le Monde.fr"
       ],
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWjdwM2MwTDlQSUl6UVhXU0xuRnBmTDhicGh5YTNfbmEzQVBKSlgxZUxnS05qdGtpQXdvbm02WTU4YlN3X1dLQlhtUWUtMUpGalZpazZoVk9welhBbmZxWHhJTmNSWlc3NnRkbGlPeEgtQTNWNXJhVFZfMXR4WU14Z3EtU3cwQWpFaWZSNWtHM05qb3pzeDI0Q1VlX2ZpMXYyeW1yWTNESUFvT2t6OFNsRnNOeWFsQk1UOEpUUFVVRFN1ZjE3a2U0QzgxWTgxNE12Y0dmM0Exd1ZKT1NtcDAtYmRfSQ?oc=5",
-      "published_at": "2026-09-26T04:40:10+02:00",
+      "published_at": "2026-09-26T18:11:14+02:00",
       "origin": "global"
     },
     {
@@ -8983,16 +8834,19 @@
       "bucket": "25 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "12 mensonges, et un seul le président Donald Trump (États-Unis) : les propos du Premier ministre Benjamin Netanyahu (Israël) à l'ONU",
+      "summary": "Le président Donald Trump (États-Unis) et le Premier ministre Benjamin Netanyahu (Israël) arrivent aux Nations Unies après la défaite en Iran",
       "sources": [
-        "ynet.co.il"
+        "ynet.co.il",
+        "razon.com.mx",
+        "ensonhaber.com"
       ],
       "url": "https://www.ynet.co.il/news/article/bkn5dtqcml",
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
         "Israël",
-        "États-Unis"
+        "États-Unis",
+        "Iran"
       ]
     },
     {
@@ -9716,7 +9570,8 @@
       "category": "Géopolitique",
       "summary": "100 000 en 5 ans, le président Xi Jinping (Chine) lance une nouvelle invitation aux adolescents américains | Relations sino-américaines | Maison Blanche",
       "sources": [
-        "163.com"
+        "163.com",
+        "zhurnal.mk"
       ],
       "url": "https://www.163.com/news/article/L7MH57QR000189FH.html",
       "published_at": "2026-09-25T11:30:00+02:00",
@@ -10294,25 +10149,6 @@
     },
     {
       "regions": [
-        "Asie"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Banquet à la Maison Blanche en l'honneur du président chinois le président Xi Jinping (Chine)",
-      "sources": [
-        "zhurnal.mk"
-      ],
-      "url": "https://zhurnal.mk/banket-ne-shtepine-e-bardhe-per-nder-te-presidentit-kinez-xi-jinping/",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Chine"
-      ]
-    },
-    {
-      "regions": [
         "Europe",
         "Asie"
       ],
@@ -10529,7 +10365,8 @@
       "category": "Géopolitique",
       "summary": "Le président Emmanuel Macron (France) va envoyer des troupes en Arabie Saoudite pour protéger un terminal pétrolier clé",
       "sources": [
-        "portalb.mk"
+        "portalb.mk",
+        "zhurnal.mk"
       ],
       "url": "https://portalb.mk/makron-do-te-dergoje-trupa-ne-arabine-saudite-per-mbrojtjen-e-nje-terminali-kyc-te-naftes/",
       "published_at": "2026-09-25T11:30:00+02:00",
@@ -11891,9 +11728,12 @@
       "bucket": "25 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le président Donald Trump (États-Unis) et le président Xi Jinping (Chine) au dîner : ces patrons américains étaient à la table",
+      "summary": "Le rire bruyant du président Xi Jinping (Chine) Jinping (Chine) lorsque le président Donald Trump (États-Unis) lui a montré le portrait « autopen-Biden » [vidéo]",
       "sources": [
-        "fnp.de"
+        "fnp.de",
+        "inewsgr.com",
+        "vaartha.com",
+        "merkur.de"
       ],
       "url": "http://www.fnp.de/politik/trump-und-xi-beim-dinner-diese-us-bosse-sassen-mit-am-tisch-zr-94509870.html",
       "published_at": "2026-09-25T11:30:00+02:00",
@@ -12578,8 +12418,8 @@
       ],
       "countries": [
         "Algérie",
-        "Égypte",
-        "Maroc"
+        "Maroc",
+        "Égypte"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -12924,49 +12764,6 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 6,
-      "category": "Géopolitique",
-      "summary": "Le président Donald Trump (États-Unis) et le Premier ministre Benjamin Netanyahu (Israël) arrivent aux Nations Unies après la défaite en Iran",
-      "sources": [
-        "razon.com.mx"
-      ],
-      "url": "https://www.razon.com.mx/opinion/2026/09/25/trump-y-netanyahu-llegan-a-naciones-unidas-despues-de-la-derrota-en-iran/",
-      "published_at": "2026-09-25T11:45:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Iran",
-        "Israël",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Le rire bruyant du président Xi Jinping (Chine) Jinping (Chine) lorsque le président Donald Trump (États-Unis) lui a montré le portrait « autopen-Biden » [vidéo]",
-      "sources": [
-        "inewsgr.com"
-      ],
-      "url": "https://www.inewsgr.com/351/to-dynato-gelio-tou-si-otan-o-trab-tou-edeixe-to-portreto-tou-autopen--bainten-vinteo.htm",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Chine",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
         "Asie"
       ],
       "period": "day",
@@ -13028,7 +12825,8 @@
       "category": "Géopolitique",
       "summary": "Le président Donald Trump (États-Unis) -le président Xi Jinping (Chine), les regards au dîner d'État : Melania en Dolce et Gabbana enchante (et envoie un message à Pékin)",
       "sources": [
-        "ilgazzettino.it"
+        "ilgazzettino.it",
+        "news.prairiepublic.org"
       ],
       "url": "https://www.ilgazzettino.it:443/esteri/pagelle_look_melania_trump_peng_cena_di_stato_elon_musk-9784648.html",
       "published_at": "2026-09-25T11:30:00+02:00",
@@ -13186,27 +12984,6 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Le dîner d'État du président Donald Trump (États-Unis) pour le président Xi Jinping (Chine) comprend du bar et une longue liste de titans de la technologie",
-      "sources": [
-        "news.prairiepublic.org"
-      ],
-      "url": "https://news.prairiepublic.org/news-from-npr/2026-09-25/trumps-state-dinner-for-xi-features-sea-bass-and-a-long-list-of-tech-titans",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Chine",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
         "Asie"
       ],
       "period": "day",
@@ -13258,27 +13035,6 @@
       "origin": "rss",
       "countries": [
         "Iran",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Réunion le président Donald Trump (États-Unis)le président Xi Jinping (Chine) : réunion Trump-Xinping",
-      "sources": [
-        "vaartha.com"
-      ],
-      "url": "https://vaartha.com/international/trump-xi-meeting-fostered-a-positive-atmosphere-in-us-china-relations/781590/",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Chine",
         "États-Unis"
       ]
     },
@@ -13528,27 +13284,6 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Le président Emmanuel Macron (France) : la France protégera l’important terminal pétrolier d’Arabie Saoudite",
-      "sources": [
-        "zhurnal.mk"
-      ],
-      "url": "https://zhurnal.mk/macron-franca-do-te-mbroje-terminalin-e-rendesishem-te-naftes-ne-arabine-saudite/",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Arabie saoudite",
-        "France"
-      ]
-    },
-    {
-      "regions": [
         "Asie"
       ],
       "period": "day",
@@ -13584,25 +13319,6 @@
       "origin": "rss",
       "countries": [
         "Chine",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "La loi tarifaire du président Donald Trump (États-Unis) est illégale",
-      "sources": [
-        "haberaktuel.com"
-      ],
-      "url": "https://www.haberaktuel.com/trumpin-tarife-yasasi-yasal-degil-3496681",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss",
-      "countries": [
         "États-Unis"
       ]
     },
@@ -13712,8 +13428,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -13727,8 +13443,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Turquie",
-        "Russie"
+        "Russie",
+        "Turquie"
       ]
     },
     {
@@ -14052,48 +13768,6 @@
       "url": "https://www.cnnindonesia.com/nasional/20260925151626-20-1408183/kebakaran-di-rooftop-pakuwon-trade-centre-surabaya-api-telah-padam",
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Le président Donald Trump (États-Unis) tressaille à côté du président Xi Jinping (Chine) Jinping (Chine) au survol bruyant",
-      "sources": [
-        "merkur.de"
-      ],
-      "url": "http://www.merkur.de/politik/trump-zuckt-neben-xi-bei-lautem-ueberflug-zusammen-zr-94509837.html",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Chine",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "25 septembre 2026",
-      "score": 6,
-      "category": "Géopolitique",
-      "summary": "103 personnes arrêtées lors des manifestations du Premier ministre Benjamin Netanyahu (Israël) aux États-Unis",
-      "sources": [
-        "ensonhaber.com"
-      ],
-      "url": "https://www.ensonhaber.com/abdde-netanyahu-protestolarinda-103-kisiye-gozalti-h1568428",
-      "published_at": "2026-09-25T11:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Israël",
-        "États-Unis"
-      ]
     },
     {
       "regions": [
@@ -14583,12 +14257,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Turquie",
-        "France"
+        "France",
+        "Turquie"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -14600,27 +14274,6 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPUUZyZ1ZZUVRIdDFxQ3ZCbmRTVm52SklZVnlyYnE3ZFoxMTVOUnd5WW13ZEZ5RHdFZ2dUb28yQ21DSEpSZnBVd2NlcGcyQkFYR1U3RGlQNkg3QzZDdVNQRmg5cTc4N1lVZ0xsc0YwVVZqcTJSVWk4RVMwRDUyang2alluMldSNmtYcGpVWVNjTkRDNW56eHVkNXB1UXkxMDVFeWo5RUZCSEhOWkdDRXNjT0JCS0tsU1dLQmp6Z25QdTRseUJHaXU3Z0RYSGtpR3lOekE1OXZLV0FtSHRySjN3MmwxLXBCb0M2RTk2cDFqWjJEQVVHN0h0Zg?oc=5",
       "published_at": "2026-09-26T20:30:26+02:00",
-      "origin": "global"
-    },
-    {
-      "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "countries": [
-        "Iran",
-        "États-Unis"
-      ],
-      "period": "day",
-      "bucket": "26 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Le président Donald Trump (États-Unis) rejette le plan de réouverture iranien du détroit d’Ormuz",
-      "sources": [
-        "Le Monde.fr"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZGdueUE4MENZSUlXNkpQOXNxeVhCeTMxeU1WRGR1a0xvazBfUHNWN2drOWFCcElqNG1uSHR3Mnk3dzMwcHhXMFR6TmtfUTFRekpCNGZodDFITmNHVVZ0cEJRNG1YNWZ4eGZTNXZsYVg1eUFMbGJJZUI1QjRsbGpkREN1andPVnNqYVowUnFiV2JKYUpXenZudTRIRExxMlFLSl9nSlRrZnV1MWlCVjlEZ3U0eDIzZGJuRDUzeUpNQURvNXNUMG12TlJ0MGpTbWRVRVNxWE9yYy1jTjdo?oc=5",
-      "published_at": "2026-09-26T18:11:14+02:00",
       "origin": "global"
     },
     {
@@ -14678,12 +14331,14 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Takaichi Sanae informée par le président Donald Trump (États-Unis) du sommet États-Unis-Chine",
+      "summary": "À propos de l'échange automatique le président Donald Trump (États-Unis)-le président Xi Jinping (Chine) et de l'échec comique de CNN",
       "sources": [
-        "nhk.or.jp"
+        "nhk.or.jp",
+        "breitbart.com",
+        "redstate.com"
       ],
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96YXlqUlduc2R3VUo1bUtUdGNwV2o5R2swNmFrQXJWUlhic2pDSWtnUVNyOTF1VnU2Wml6MEJKSEhkbDhBd1l5TF9JWDA4NDFDOFhucHFfTFJYRkxxelpqYzhwYVhnMWM?oc=5",
-      "published_at": "2026-09-27T07:25:05+02:00",
+      "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "global"
     },
     {
@@ -15737,7 +15392,7 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Nous navons jamais renoncé à nos droits : LIran maintient ses conditions pour rouvrir le détroit dOrmuz",
+      "summary": "Nous navons jamais renoncé à nos droits : l’Iran maintient ses conditions pour rouvrir le détroit d’Ormuz",
       "sources": [
         "nouvelobs.com"
       ],
@@ -15984,10 +15639,11 @@
       "category": "Géopolitique",
       "summary": "Le ministre russe des Affaires étrangères Sergueï Lavrov (Russie) rejette les demandes allemandes visant à freiner l'escalade",
       "sources": [
-        "abcnyheter.no"
+        "abcnyheter.no",
+        "dw.com"
       ],
       "url": "https://www.abcnyheter.no/nyheter/lavrov-avviser-tysk-krav-om-a-dempe-opptrapping/1680979",
-      "published_at": "2026-09-27T10:15:00+02:00",
+      "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
         "Russie"
@@ -16533,10 +16189,11 @@
       "category": "Géopolitique",
       "summary": "L'Allemagne et la Russie sont pour la première fois à la même table depuis le début de la guerre -le ministre russe des Affaires étrangères Sergueï Lavrov (Russie) a déclaré : Vous auriez pu m'appeler",
       "sources": [
-        "net.hr"
+        "net.hr",
+        "bumm.sk"
       ],
       "url": "https://net.hr/danas/svijet/njemacka-i-rusija-prvi-put-za-istim-stolom-od-pocetka-rata-lavrov-porucio-mogao-si-me-nazvati-d196fcf6-ba46-11f1-936f-9600040c8f8e",
-      "published_at": "2026-09-27T10:15:00+02:00",
+      "published_at": "2026-09-27T18:45:00+02:00",
       "origin": "rss",
       "countries": [
         "Allemagne",
@@ -16750,8 +16407,8 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -16765,8 +16422,8 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Égypte",
-        "Israël"
+        "Israël",
+        "Égypte"
       ]
     },
     {
@@ -17285,8 +16942,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -17294,14 +16951,15 @@
       "category": "Géopolitique",
       "summary": "Le ministre russe des Affaires étrangères Sergueï Lavrov (Russie): la Russie envisagera le transfert de S-400 depuis la Turquie sous certaines conditions",
       "sources": [
-        "inewsgr.com"
+        "inewsgr.com",
+        "e-radio.gr"
       ],
       "url": "https://www.inewsgr.com/93/lavrof-i-rosia-tha-exetasei-ti-metafora-ton-S-400-apo-tin-tourkia-ypo-orous.htm",
-      "published_at": "2026-09-27T13:30:00+02:00",
+      "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Turquie",
-        "Russie"
+        "Russie",
+        "Turquie"
       ]
     },
     {
@@ -17554,25 +17212,6 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le ministre allemand des Affaires étrangères a rencontréle ministre russe des Affaires étrangères Sergueï Lavrov (Russie)",
-      "sources": [
-        "dw.com"
-      ],
-      "url": "https://www.dw.com/pl/szef-dyplomacji-niemiec-spotka%C5%82-si%C4%99-z-%C5%82awrowem-trzeba-rozmawia%C4%87-z-przeciwnikami/a-79447679",
-      "published_at": "2026-09-27T13:30:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Russie"
-      ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "Le syndicat des locataires réclame des contrats de location à durée indéterminée et n'exclut pas de camper dans d'autres villes",
       "sources": [
         "europapress.es"
@@ -17638,8 +17277,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Ukraine",
-        "Russie"
+        "Russie",
+        "Ukraine"
       ]
     },
     {
@@ -18356,12 +17995,13 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "ROUNDUP : Cuba critique la menace militaire américaine -le président Donald Trump (États-Unis) : un accord possible",
+      "summary": "Le président Donald Trump (États-Unis) espère un accord avec Cuba et déclare qu'il ne pense pas qu'une action militaire soit nécessaire",
       "sources": [
-        "finanzen.net"
+        "finanzen.net",
+        "theepochtimes.com"
       ],
       "url": "https://www.finanzen.net/nachricht/aktien/roundup-kuba-kritisiert-us-militaerandrohung-trump-deal-moeglich-15954931",
-      "published_at": "2026-09-27T13:30:00+02:00",
+      "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
         "Cuba",
@@ -20237,8 +19877,8 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
         "Europe",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -20255,8 +19895,8 @@
       "origin": "rss",
       "countries": [
         "Iran",
-        "États-Unis",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "États-Unis"
       ]
     },
     {
@@ -20289,12 +19929,13 @@
       "bucket": "27 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Iran - Guerre le président Donald Trump (États-Unis) : attendez-vous à de nouvelles négociations avec l'Iran",
+      "summary": "Le président Donald Trump (États-Unis) espère reprendre les négociations avec l'Iran pour parvenir à une paix définitive",
       "sources": [
-        "zeit.de"
+        "zeit.de",
+        "libertaddigital.com"
       ],
       "url": "https://www.zeit.de/news/2026-09/27/trump-erwarte-weitere-gespraeche-mit-dem-iran",
-      "published_at": "2026-09-27T18:15:00+02:00",
+      "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
         "Iran",
@@ -20924,26 +20565,6 @@
       "origin": "rss",
       "countries": [
         "Royaume-Uni"
-      ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Extraordinaire : le ministre russe des Affaires étrangères Sergueï Lavrov (Russie) a été dur envers l'Allemagne à l'ONU",
-      "sources": [
-        "bumm.sk"
-      ],
-      "url": "https://www.bumm.sk/2026/09/27/rendkivuli-lavrov-kemenyen-nekiment-nemetorszagnak-az-ensz-ben",
-      "published_at": "2026-09-27T18:45:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Allemagne",
-        "Russie"
       ]
     },
     {
@@ -22134,8 +21755,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -22149,8 +21770,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Turquie",
-        "Italie"
+        "Italie",
+        "Turquie"
       ]
     },
     {
@@ -22593,25 +22214,6 @@
       "bucket": "27 septembre 2026",
       "score": 4,
       "category": "Géopolitique",
-      "summary": "Le ministre russe des Affaires étrangères Sergueï Lavrov (Russie): Oui au transfert des S-400 turcs vers un pays tiers - mais avec le veto russe",
-      "sources": [
-        "e-radio.gr"
-      ],
-      "url": "https://www.e-radio.gr/post/333736/lavrof-nai-sti-metafora-twn-s-400-tis-toyrkias-se-triti-xwra-alla-me-rwsiko-veto",
-      "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Russie"
-      ]
-    },
-    {
-      "regions": [
-        "Europe"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
       "summary": "Le danger apparent de l’IA est son argument de vente",
       "sources": [
         "scoop.co.nz"
@@ -22720,26 +22322,6 @@
       "origin": "rss",
       "countries": [
         "Russie"
-      ]
-    },
-    {
-      "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Le président Donald Trump (États-Unis) espère un accord avec Cuba et déclare qu'il ne pense pas qu'une action militaire soit nécessaire",
-      "sources": [
-        "theepochtimes.com"
-      ],
-      "url": "https://www.theepochtimes.com/us/trump-expects-deal-with-cuba-says-he-doesnt-think-military-action-necessary-6095570",
-      "published_at": "2026-09-27T18:15:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Cuba",
-        "États-Unis"
       ]
     },
     {
@@ -23521,25 +23103,6 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Sécurité",
-      "summary": "RAF Fairford le président Donald Trump (États-Unis) et Burnham parlent d'un complot terroriste présumé | La Gazette et le Herald du Wiltshire",
-      "sources": [
-        "gazetteandherald.co.uk"
-      ],
-      "url": "https://www.gazetteandherald.co.uk/news/26585496.raf-fairford-trump-burnham-speak-suspected-terror-plot/",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
         "Europe"
       ],
       "period": "day",
@@ -24011,8 +23574,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -24026,8 +23589,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Turquie",
-        "Italie"
+        "Italie",
+        "Turquie"
       ]
     },
     {
@@ -26076,27 +25639,6 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "\"le président Donald Trump (États-Unis) aurait montré au le président Xi Jinping (Chine) Jinping (Chine) un U historique\"",
-      "sources": [
-        "breitbart.com"
-      ],
-      "url": "https://www.breitbart.com/politics/2026/09/27/trump-reportedly-showed-xi-historic-u-s-china-treaties-at-national-archives/",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Chine",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
         "Europe",
         "Asie"
       ],
@@ -26481,27 +26023,6 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "Le président Donald Trump (États-Unis) espère reprendre les négociations avec l'Iran pour parvenir à une paix définitive",
-      "sources": [
-        "libertaddigital.com"
-      ],
-      "url": "https://www.libertaddigital.com/internacional/estados-unidos/2026-09-27/trump-espera-retomar-las-conversaciones-con-iran-para-conseguir-la-paz-definitiva-7466618/",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Iran",
-        "États-Unis"
-      ]
-    },
-    {
-      "regions": [
         "Asie"
       ],
       "period": "day",
@@ -26821,27 +26342,6 @@
       "url": "https://www.indusage.com.au/?p=99394",
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss"
-    },
-    {
-      "regions": [
-        "Asie",
-        "Amérique du Nord"
-      ],
-      "period": "day",
-      "bucket": "27 septembre 2026",
-      "score": 4,
-      "category": "Géopolitique",
-      "summary": "À propos de l'échange automatique le président Donald Trump (États-Unis)-le président Xi Jinping (Chine) et de l'échec comique de CNN",
-      "sources": [
-        "redstate.com"
-      ],
-      "url": "https://redstate.com/nick-arama/2026/09/27/trump-xi-autopen-exchange-n2207439",
-      "published_at": "2026-09-27T22:15:00+02:00",
-      "origin": "rss",
-      "countries": [
-        "Chine",
-        "États-Unis"
-      ]
     },
     {
       "regions": [
@@ -27766,10 +27266,11 @@
       "summary": "La vision américaine de l’économie tombe à son plus bas niveau depuis 2014. La confiance des Américains dans l’économie s’est détériorée ce mois-ci alors que les prix du gaz restent élevés et que les salaires stagnent dans le contexte de la guerre en Iran. Les Américains restent inquiets face à l’économie après cinq années d’inflation élevée",
       "sources": [
         "timescall.com",
-        "bnnbloomberg.ca"
+        "bnnbloomberg.ca",
+        "akronnewsreporter.com"
       ],
       "url": "https://www.timescall.com/2026/09/29/consumer-confidence-september/",
-      "published_at": "2026-09-29T19:00:00+02:00",
+      "published_at": "2026-09-29T19:15:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -27830,10 +27331,11 @@
       "category": "Géopolitique",
       "summary": "Hegseth sur qui gardera le système électoral de mi-mandat de novembre. L'Agence américaine de sécurité nationale et d'autres forces militaires de renseignement et de cybersécurité garderont les systèmes électoraux pendant les élections de mi-novembre, a déclaré lundi le secrétaire à la Défense Pete Hegseth (États-Unis). Les experts militaires en cybersécurité aident régulièrement à surveiller les systèmes et à dissuader les pirates potentiels depuis que l’équipement électoral a été désigné « infrastructure critique » en 2017",
       "sources": [
-        "jcpost.com"
+        "jcpost.com",
+        "pasadenastarnews.com"
       ],
       "url": "https://jcpost.com/posts/371020dc-175d-4691-b4c8-c798fad8c6e4",
-      "published_at": "2026-09-29T18:15:00+02:00",
+      "published_at": "2026-09-29T19:00:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -27889,7 +27391,7 @@
       "bucket": "29 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Larmée malienne et les paramilitaires russes ont commis des crimes de guerre contre 34 civils , selon Amnesty. Des meurtres, tortures et exécutions ont été documentés entre 2023 et 2025 dans sept localités du centre et du nord du pays. Les victimes appartenaient principalement aux communautés peules, arabes et touareg",
+      "summary": "L’armée malienne et les paramilitaires russes ont commis des crimes de guerre contre 34 civils , selon Amnesty. Des meurtres, tortures et exécutions ont été documentés entre 2023 et 2025 dans sept localités du centre et du nord du pays. Les victimes appartenaient principalement aux communautés peules, arabes et touareg",
       "sources": [
         "letemps.ch"
       ],
@@ -28149,8 +27651,8 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
-        "International",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28168,12 +27670,11 @@
     },
     {
       "regions": [
-        "Asie",
-        "International"
+        "Asie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 8,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Gouverneur. Newsom décide de baisser les prix du gaz alors que la Californie connaît des coûts record à la pompe. La Californie passe tôt à l'essence à mélange d'hiver alors que Newsom ordonne la suspension du carburant d'été afin de lutter contre les prix élevés de l'essence, a annoncé lundi son bureau.",
       "sources": [
@@ -28189,12 +27690,11 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
-        "International",
         "Europe"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 8,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Marchés aujourd'hui : U . S. Les actions chutent alors que les prix du pétrole fluctuent fortement. La pression d'une nouvelle hausse des rendements du Trésor a pesé sur les actions à Wall Street mardi. Le S&P 500 a chuté de 0,3 pour cent.",
       "sources": [
@@ -28215,7 +27715,7 @@
       "bucket": "29 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Les réserves stratégiques de pétrole des États-Unis chutent à leur plus bas niveau depuis 44 ans. Les réserves pétrolières d'urgence des États-Unis chutent à leur plus bas niveau depuis 1982 après que Washington a commencé à libérer du brut en mars. Lire l'article complet sur RT.",
+      "summary": "Les réserves stratégiques de pétrole des États-Unis chutent à leur plus bas niveau depuis 44 ans. Les réserves pétrolières d'urgence des États-Unis chutent à leur plus bas niveau depuis 1982 après que Washington a commencé à libérer du brut en mars.",
       "sources": [
         "iraqsun.com"
       ],
@@ -28236,7 +27736,7 @@
       "bucket": "29 septembre 2026",
       "score": 5,
       "category": "Géopolitique",
-      "summary": "L’administration Trump dévoile un nouveau super robot de renseignement. Le président Donald Trump (États-Unis) a déclaré mardi que les États-Unis devaient continuer à développer l'intelligence artificielle tout en conservant leur avance sur la Chine. L’administration Trump a dévoilé America. Gov à Washington alors que le président Donald Trump exposait sa vision de l’intelligence artificielle et qualifiait cette technologie de « super intelligence »",
+      "summary": "L’administration Trump dévoile un nouveau super robot de renseignement. Le président Donald Trump (États-Unis) a déclaré mardi que les États-Unis devaient continuer à développer l'intelligence artificielle tout en conservant leur avance sur la Chine. L’administration Trump a dévoilé America. Gov à Washington alors que le président Donald Trump exposait sa vision de l’intelligence artificielle et qualifiait cette technologie de « super intelligence ».",
       "sources": [
         "newson6.com"
       ],
@@ -28338,7 +27838,7 @@
       "bucket": "29 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Qu'est-ce qui est interdit ? La guerre commerciale entre les États-Unis et le Canada frappe l'alcool, les produits laitiers et les motos. La nouvelle interdiction du le président Donald Trump (États-Unis) sur environ 1 milliard de dollars de produits canadiens marque une nouvelle escalade avec l'allié de longue date des États-Unis",
+      "summary": "Qu'est-ce qui est interdit ? La guerre commerciale entre les États-Unis et le Canada frappe l'alcool, les produits laitiers et les motos. La nouvelle interdiction du président Donald Trump (États-Unis) sur environ 1 milliard de dollars de produits canadiens marque une nouvelle escalade avec l'allié de longue date des États-Unis",
       "sources": [
         "fox10tv.com"
       ],
@@ -28485,7 +27985,7 @@
       "bucket": "29 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Les exportations de pétrole du Moyen - Orient reprennent et lemprise de lIran sur le détroit dOrmuz faiblit. DUBAI — La capacité de l’Iran à bloquer le transport de pétrole par le détroit d’Ormuz , et à s’en servir comme moyen de pression dans ses négociations avec les Etats-Unis, s’effrite, laissant craindre que Téhéran ne recoure à des solutions militaires pour renforcer sa position. L’affaiblissement du rapport de force de l’Iran s’explique par le fait que la marine américaine et les producteurs de pétrole du Golfe sont désormais plus à même de repousser ou d’esquiver les attaques iraniennes, ce qui permet à davantage de pétroliers de traverser le détroit",
+      "summary": "Les exportations de pétrole du Moyen - Orient reprennent et l’emprise de l’Iran sur le détroit d’Ormuz faiblit. DUBAI — La capacité de l’Iran à bloquer le transport de pétrole par le détroit d’Ormuz , et à s’en servir comme moyen de pression dans ses négociations avec les Etats-Unis, s’effrite, laissant craindre que Téhéran ne recoure à des solutions militaires pour renforcer sa position. L’affaiblissement du rapport de force de l’Iran s’explique par le fait que la marine américaine et les producteurs de pétrole du Golfe sont désormais plus à même de repousser ou d’esquiver les attaques iraniennes, ce qui permet à davantage de pétroliers de traverser le détroit",
       "sources": [
         "lopinion.fr"
       ],
@@ -28576,20 +28076,24 @@
     },
     {
       "regions": [
-        "Asie"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Les offres d'emploi sont tombées à 7. 1M en août mais le marché du travail reste solide",
+      "summary": "U. S. Les offres d'emploi sont tombées à 7. 1 million en août mais le marché du travail reste solide. Les offres d'emploi aux États-Unis ont chuté à 7,08 millions contre 7,34 millions révisés en juillet, a rapporté mardi le ministère du Travail.",
       "sources": [
-        "thetimes-tribune.com"
+        "thetimes-tribune.com",
+        "adn.com"
       ],
       "url": "https://www.thetimes-tribune.com/2026/09/29/us-job-openings-august/",
-      "published_at": "2026-09-29T18:30:00+02:00",
+      "published_at": "2026-09-29T19:15:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
@@ -28616,12 +28120,11 @@
     },
     {
       "regions": [
-        "International",
         "Europe"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
-      "score": 9,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Les pays de l’Union menacent Berlin de retirer les fonds d’un gouvernement de gauche. Après la victoire électorale du parti La Gauche à Berlin, il pourrait prendre la tête du gouvernement. En matière de financement, les pays dirigés par l’Union menacent de nouveaux problèmes.",
       "sources": [
@@ -28632,27 +28135,6 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": []
-    },
-    {
-      "regions": [
-        "Amérique du Nord",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "29 septembre 2026",
-      "score": 9,
-      "category": "Géopolitique",
-      "summary": "Le secrétaire à la Défense Pete Hegseth (États-Unis) parle de sécurité nationale et de cyberforces pour protéger les systèmes électoraux. L’Agence américaine de sécurité nationale et les forces de renseignement militaires devraient surveiller les systèmes électoraux pendant les élections de mi-mandat de novembre. Le président Donald Trump (États-Unis) a vidé l’agence civile spécialement créée pour protéger l’infrastructure électorale.",
-      "sources": [
-        "pasadenastarnews.com"
-      ],
-      "url": "https://www.pasadenastarnews.com/2026/09/29/pete-hegseth-national-security-military-cyber-forces-midterms/",
-      "published_at": "2026-09-29T19:00:00+02:00",
-      "origin": "rss",
-      "content_enriched": true,
-      "countries": [
-        "États-Unis"
-      ]
     },
     {
       "regions": [
@@ -28708,6 +28190,147 @@
       "published_at": "2026-09-29T19:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Hatsun Agro Produit Ltd. S'associe au gouvernement d'Odisha et à la State Bank of India pour lancer Go - Dhan afin d'autonomiser les producteurs laitiers. Hatsun Agro Product Ltd. (HAPL), la plus grande laiterie du secteur privé en Inde, a lancé « Go-Dhan », une initiative phare visant à autonomiser les producteurs laitiers d'Odisha en améliorant l'accès au soutien financier, aux programmes gouvernementaux, aux pratiques laitières modernes et à la technologie.",
+      "sources": [
+        "indiagazette.com"
+      ],
+      "url": "http://www.indiagazette.com/news/279340139/hatsun-agro-product-ltd-partners-with-government-of-odisha-and-state-bank-of-india-to-launch-go-dhan-to-empower-dairy-farmers",
+      "published_at": "2026-09-29T19:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La fiscalité se resserre, l'APBN est testé pour soutenir l'économie. L’expansion des dépenses doit se faire sans sacrifier la discipline budgétaire et la crédibilité, de sorte que la qualité et l’exactitude des objectifs budgétaires soient essentielles.",
+      "sources": [
+        "koran-jakarta.com"
+      ],
+      "url": "https://koran-jakarta.com/2026-09-30/fiskal-makin-ketat-apbn-diuji-menopang-ekonomi",
+      "published_at": "2026-09-29T19:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis interdisent les importations canadiennes d’une valeur d’un milliard de dollars – Correo del Orinoco | L'artillerie de la pensée. Le 8 septembre, le gouvernement américain a imposé une interdiction totale sur l'importation de divers produits canadiens évalués à environ un milliard de dollars. La mesure entrée en vigueur ce mardi 29 septembre, promue par l'administration du président Donald Trump (États-Unis) en réponse aux tarifs de rémunération appliqués par Ottawa face aux tensions commerciales croissantes et à la pression du discours du président américain, et l'interdiction couvre des produits tels que les boissons alcoolisées, les produits laitiers et les motos de grande c…",
+      "sources": [
+        "correodelorinoco.gob.ve"
+      ],
+      "url": "http://www.correodelorinoco.gob.ve/eeuu-prohibe-importaciones-canadienses-mil-millones-de-dolares/",
+      "published_at": "2026-09-29T19:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "KKR va prendre une participation majoritaire dans Cisternina pour construire une plateforme de stockage de liquides. La société de capital-investissement KKR a annoncé mardi qu'elle prendrait une participation majoritaire dans Cisternina Logistics Pvt Ltd, une société de stockage de liquides et de gaz en vrac créée en...",
+      "sources": [
+        "vccircle.com"
+      ],
+      "url": "https://www.vccircle.com/kkrto-take-majority-stake-in-cisternina-to-build-liquid-storage-platform",
+      "published_at": "2026-09-29T19:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le démocrate Pete Buttigieg critique le recul par le président Donald Trump (États-Unis) des normes d'économie de carburant. L’ancien secrétaire aux Transports affirme que des normes plus faibles en matière d’économie de carburant pourraient augmenter les coûts à long terme pour les conducteurs et laisser les constructeurs automobiles américains encore plus loin derrière la Chine.",
+      "sources": [
+        "wuky.org"
+      ],
+      "url": "https://www.wuky.org/npr-news/2026-09-29/democrat-pete-buttigieg-criticizes-trumps-rollback-of-fuel-economy-standards",
+      "published_at": "2026-09-29T19:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La Russie prépare-t-elle une nouvelle mobilisation : détails et plans du Kremlin révélés. Le président russe le président Vladimir Poutine (Russie) a signé un décret augmentant le nombre de membres des forces armées russes, tandis que Moscou prévoit une forte augmentation des dépenses de défense l'année prochaine. Il semble que dans un avenir proche, le dirigeant russe n’envisage pas d’arrêter la campagne militaire contre l’Ukraine, alors que les pays européens se préparent à l’expansion du conflit et à une éventuelle attaque russe.",
+      "sources": [
+        "blic.rs"
+      ],
+      "url": "https://www.blic.rs/vesti/svet/da-li-rusija-sprema-novu-mobilizaciju-otkriveni-detalji-i-planovi-kremlja/rl70gtc",
+      "published_at": "2026-09-29T19:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La vision américaine de l'économie tombe à son plus bas niveau depuis 2014, selon une enquête du Conference Board. La confiance des Américains dans l’économie a chuté ce mois-ci à son plus bas niveau depuis plus d’une décennie, alors que les prix restent élevés et que les salaires stagnent dans le contexte de la guerre en Iran.",
+      "sources": [
+        "news4jax.com"
+      ],
+      "url": "https://www.news4jax.com/business/2026/09/29/americans-growing-more-pessimistic-about-the-economy-as-prices-for-gas-other-items-remain-elevated/",
+      "published_at": "2026-09-29T19:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
     },
     {
       "regions": [
