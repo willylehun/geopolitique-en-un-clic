@@ -37,7 +37,7 @@ SOURCE_LABELS=["Reuters","Associated Press","AP News","BBC","France 24","DW","Al
 IMPACT={
  10:["guerre nucléaire","guerre mondiale","emploi de l’arme nucléaire","attaque nucléaire","invasion générale","coup d’état réussi","renversement du gouvernement","nuclear war","world war"],
  9:["guerre","invasion","frappe aérienne","frappe de missile","attaque militaire","cessez-le-feu","mobilisation militaire","état d’urgence","coup d’état","sanctions internationales","défaut souverain","séisme majeur","missile","airstrike","ceasefire","military attack","sanctions"],
- 8:["conflit armé","élection présidentielle","élections législatives","élection nationale","inflation","taux directeur","banque centrale","récession","embargo","sommet international","accord de paix","traité","crise politique","crise diplomatique","crise énergétique","pétrole","gaz","défense nationale","ministère de la défense","dépenses de défense","politique de défense","sécurité nationale","tarifs douaniers","droits de douane","réduction tarifaire","réductions tarifaires","conflict","election","interest rate","central bank","recession","summit","embargo","oil","gas","national defense","defense ministry","defence ministry","defense spending"],
+ 8:["conflit armé","inflation","taux directeur","banque centrale","récession","embargo","sommet international","accord de paix","traité","crise politique","crise diplomatique","crise énergétique","pétrole","gaz","défense nationale","ministère de la défense","dépenses de défense","politique de défense","sécurité nationale","tarifs douaniers","droits de douane","réduction tarifaire","réductions tarifaires","conflict","interest rate","central bank","recession","summit","embargo","oil","gas","national defense","defense ministry","defence ministry","defense spending"],
  7:["diplomatie","commerce international","frontière internationale","migration internationale","prix de l’énergie","marché de l’énergie","politique énergétique","sécurité énergétique","production électrique","réseau électrique","électricité","énergies renouvelables","climat","inondation majeure","feu de forêt","catastrophe naturelle","cyberattaque","technologie stratégique","régulation de l’intelligence artificielle","loi sur l’intelligence artificielle","semi-conducteur","puces électroniques","accord commercial","diplomacy","international trade","international border","international migration","energy prices","energy market","energy policy","energy security","electricity","renewable energy","climate","major flood","wildfire","cyberattack","ai regulation","semiconductor","chip export"],
  6:["gouvernement","premier ministre","parlement","budget de l’état","manifestation","migration","frontière","économie","marché","investissement","exportation","importation","santé publique","épidémie","infrastructure","transport maritime","agriculture","justice","government","prime minister","parliament","budget","protest","migration","border","economic","market","investment","export","import","health","disease","infrastructure","shipping","agriculture"],
  5:["politique locale","administration","entreprise","société","politics","business","society"]
@@ -91,9 +91,6 @@ PERSON_SURNAME_ALIASES={
     "Merz":("Friedrich Merz","chancelier"),
     "Modi":("Narendra Modi","Premier ministre"),
     "Chalmers":("Jim Chalmers","trésorier fédéral"),
-    "Hegseth":("Pete Hegseth","secrétaire à la Défense"),
-    "Katz":("Israel Katz","ministre de la Défense"),
-    "Lavrov":("Sergueï Lavrov","ministre des Affaires étrangères"),
 }
 
 def enrich_leader_context(text):
@@ -104,7 +101,7 @@ def enrich_leader_context(text):
     for name,label in LEADER_LABELS.items():
         if name.lower() not in out.lower() or label.lower() in out.lower():
             continue
-        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances|secrétaire à la défense|ministre de la défense|ministre des affaires étrangères|général|ministre des affaires étrangères|secrétaire d['’]état)?\s*"+re.escape(name)+r"(?:\s*\([^)]+\))?"
+        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|présidente du conseil|trésorier(?: fédéral)?|ministre des finances|général|ministre des affaires étrangères|secrétaire d['’]état)?\s*"+re.escape(name)+r"(?:\s*\([^)]+\))?"
         out=re.sub(pattern,label,out,count=1)
 
     # Noms de famille seuls, très fréquents dans les titres.
@@ -119,7 +116,7 @@ def enrich_leader_context(text):
             out=re.sub(r"(?i)\bà\s+(?:le\s+président\s+)?"+re.escape(alias)+r"\b","au "+bare,out,count=1)
         if label.lower() in out.lower():
             continue
-        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|trésorier(?: fédéral)?|ministre des finances|secrétaire à la défense|ministre de la défense|ministre des affaires étrangères)?\s*\b"+re.escape(alias)+r"\b"
+        pattern=r"(?i)(?:le |la )?(?:président(?:e)?|premier ministre|première ministre|chancelier|trésorier(?: fédéral)?|ministre des finances)?\s*\b"+re.escape(alias)+r"\b"
         out=re.sub(pattern,label,out,count=1)
     # Nettoyer les contractions/espaces créés par la normalisation des titres.
     out=out.replace("\\1 ","")
@@ -211,11 +208,11 @@ def is_french_2027_presidential(text):
 def clean_summary_text(text):
     """Retire le bruit éditorial/SEO sans inventer d'information."""
     raw="".join(ch for ch in (text or "") if unicodedata.category(ch)!="Cf")
-    out=re.sub(r"\s+"," ",raw).strip()
+    out=re.sub(r"\\s+"," ",raw).strip()
     # Suffixes publicitaires ou de portail qui n'apportent rien au fait.
-    out=re.sub(r"(?i)\s*\|\s*actualités gratuites en ligne.*$","",out)
-    out=re.sub(r"(?i)\s*[–—-]\s*journal approfondi.*$","",out)
-    out=re.sub(r"(?i)\s*[–—-]\s*dernières nouvelles.*$","",out)
+    out=re.sub(r"(?i)\\s*\\|\\s*actualités gratuites en ligne.*$","",out)
+    out=re.sub(r"(?i)\\s*[–—-]\\s*journal approfondi.*$","",out)
+    out=re.sub(r"(?i)\\s*[–—-]\\s*dernières nouvelles.*$","",out)
     boilerplate_markers=(
       "en l'absence d'un accord écrit avec",
       "en l’absence d’un accord écrit avec",
@@ -228,8 +225,6 @@ def clean_summary_text(text):
     cuts=[lower.find(marker) for marker in boilerplate_markers if lower.find(marker)>=0]
     if cuts:
         out=out[:min(cuts)].rstrip(" .;:-")
-    # Supprimer une signature technique finale du type /auteur/redacteur.
-    out=re.sub(r"(?i)\s*/[a-z0-9_-]{2,}/[a-z0-9_-]{2,}\s*[\"”']*\s*$","",out).rstrip(" .;:-")
     return out.strip(" |–—-")
 
 def is_market_listing_noise(text):
@@ -530,11 +525,21 @@ def term_in_text(text, term):
     return re.search(r"(?<![a-z0-9à-ÿ])"+re.escape(needle)+r"(?![a-z0-9à-ÿ])",value,re.I) is not None
 
 def election_score(text):
-    """Les élections nationales de dirigeants restent des événements internationaux majeurs."""
+    """Une élection nationale est majeure quand le texte décrit le scrutin, son résultat ou une étape décisive."""
     t=" "+(text or "").lower()+" "
-    elected=("élu président" in t or "élue présidente" in t or "nouveau président" in t or "nouvelle présidente" in t or "nouveau premier ministre" in t or "nouvelle première ministre" in t)
-    national=("élection présidentielle" in t or "élections présidentielles" in t or "élection nationale" in t or "élections législatives" in t)
-    return 9 if elected else (8 if national else 0)
+    elected=(
+      "élu président" in t or "élue présidente" in t or "nouveau président" in t or
+      "nouvelle présidente" in t or "nouveau premier ministre" in t or
+      "nouvelle première ministre" in t or "remporte l'élection" in t or
+      "remporte l’élection" in t or "victoire électorale" in t
+    )
+    if elected:
+        return 9
+    national_terms=("élection présidentielle","élections présidentielles","élection nationale","élections législatives")
+    decisive_terms=("scrutin","vote","urnes","résultat","résultats","second tour","premier tour","électeurs","dépouillement","majorité","sièges","participation")
+    if any(x in t for x in national_terms) and any(x in t for x in decisive_terms):
+        return 8
+    return 0
 
 def score(text):
     """Importance géopolitique 1-10, calculée sur le texte français quand disponible."""
@@ -1014,6 +1019,11 @@ def save_monitor_state(state, now, country_step=0, day_step=0):
     state["last_run_at"]=now.isoformat()
     MONITOR_STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
+SPECIAL_COUNTRY_HINTS={
+    "États-Unis":["états-unis","etats-unis","united states","u.s."," usa ","américain","américaine","américains","américaines","washington"],
+    "Royaume-Uni":["royaume-uni","united kingdom","britain","british","britannique","britanniques","londres","london"],
+}
+
 def country_title_matches(country,title):
     t=(title or "").lower()
     # Les États aux noms emboîtés sont validés du plus spécifique au plus général.
@@ -1050,6 +1060,8 @@ def country_title_matches(country,title):
       "Congo (RDC)":["rdc","république démocratique du congo","dr congo","drc","kinshasa"],
       "Dominique":["dominique","dominica","roseau"],"République dominicaine":["république dominicaine","dominican republic","santo domingo"],
     }
+    if country in SPECIAL_COUNTRY_HINTS and any(x in t for x in SPECIAL_COUNTRY_HINTS[country]):
+        return True
     return any(x in t for x in hints.get(country,[country.lower()]))
 
 def disambiguate_countries(countries,title):
