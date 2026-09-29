@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:14:36.790064+02:00",
+  "generated_at": "2026-09-29T20:17:51.920219+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -1769,8 +1769,8 @@
       "origin": "rss",
       "language": "fr",
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "États-Unis"
       ]
     },
@@ -4112,8 +4112,8 @@
         "Asie"
       ],
       "countries": [
-        "Cambodge",
-        "Birmanie"
+        "Birmanie",
+        "Cambodge"
       ],
       "period": "day",
       "bucket": "11 septembre 2026",
@@ -16013,8 +16013,8 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Vietnam",
-        "Inde"
+        "Inde",
+        "Vietnam"
       ]
     },
     {
@@ -16786,15 +16786,15 @@
     {
       "regions": [
         "Amérique du Nord",
-        "Asie",
         "Afrique",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
         "Haïti",
-        "Qatar",
         "Rwanda",
-        "Allemagne"
+        "Allemagne",
+        "Qatar"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -28213,14 +28213,16 @@
       "category": "Géopolitique",
       "summary": "Les États-Unis interdisent les importations canadiennes d’une valeur d’un milliard de dollars – Correo del Orinoco | L'artillerie de la pensée. Le 8 septembre, le gouvernement américain a imposé une interdiction totale sur l'importation de divers produits canadiens évalués à environ un milliard de dollars. La mesure entrée en vigueur ce mardi 29 septembre, promue par l'administration du président Donald Trump (États-Unis) en réponse aux tarifs de rémunération appliqués par Ottawa face aux tensions commerciales croissantes et à la pression du discours du président américain, et l'interdiction couvre des produits tels que les boissons alcoolisées, les produits laitiers et les motos de grande c…",
       "sources": [
-        "correodelorinoco.gob.ve"
+        "correodelorinoco.gob.ve",
+        "Economie Matin via MSN"
       ],
       "url": "http://www.correodelorinoco.gob.ve/eeuu-prohibe-importaciones-canadienses-mil-millones-de-dolares/",
       "published_at": "2026-09-29T19:15:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "États-Unis"
+        "États-Unis",
+        "Canada"
       ]
     },
     {
@@ -28871,10 +28873,10 @@
         "Europe"
       ],
       "countries": [
-        "Thaïlande",
-        "Vietnam",
         "Cambodge",
-        "Malaisie"
+        "Malaisie",
+        "Thaïlande",
+        "Vietnam"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28917,9 +28919,9 @@
       ],
       "countries": [
         "Arabie saoudite",
-        "Qatar",
         "Israël",
         "Maroc",
+        "Qatar",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -28973,6 +28975,630 @@
       ],
       "url": "https://www.connaissancedesenergies.org/afp/le-sri-lanka-annonce-une-aide-pour-lachat-de-gazole-260929",
       "published_at": "2026-09-29T06:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "The Atlantic : Trump soutient le projet d’assouplir les sanctions russes en échange de prisonniers politiques sans attendre la fin de la guerre en Ukraine. Le président Donald Trump (États-Unis) a approuvé une proposition visant à alléger les sanctions contre la Russie en échange de la libération de prisonniers politiques, rapporte The Atlantic.",
+      "sources": [
+        "Meduza"
+      ],
+      "url": "https://meduza.io/en/news/2026/09/29/the-atlantic-trump-backs-plan-to-ease-russia-sanctions-in-exchange-for-political-prisoners-without-waiting-for-the-ukraine-war-to-end",
+      "published_at": "2026-09-29T05:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Ebola, une « maladie terrifiante » : la RDC ravagée par le conflit est confrontée à un système de santé surchargé. Eve Irvine a le plaisir d'accueillir Stephanie Hoffmann, Coordonnatrice de projet pour Butembo, Nord Kivu, Médecins Sans Frontières. L'épidémie d'Ebola frappe une région déjà ravagée par des décennies de lutte armée...",
+      "sources": [
+        "France 24 (média public)"
+      ],
+      "url": "https://www.france24.com/en/video/20260929-ebola-a-terrifying-disease-as-drc-faces-decades-of-conflict-and-overburdened-healthcare-system-1",
+      "published_at": "2026-09-29T07:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Congo (RDC)"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump affirme que l’Iran « échoue gravement » dans sa guerre contre les États-Unis. Le président Donald Trump (États-Unis) a déclaré mardi que le conflit avec l'Iran \"sera terminé très bientôt\".",
+      "sources": [
+        "Fox News"
+      ],
+      "url": "https://www.foxnews.com/video/6405918049112",
+      "published_at": "2026-09-29T12:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les républicains du Sénat affirment que le projet de loi chinois sur les véhicules n'interdira pas Mercedes-Benz aux États-Unis. Un promoteur d'un projet de loi renforçant l'interdiction du gouvernement américain sur les véhicules chinois a déclaré mardi que des négociations étaient en cours pour garantir que le constructeur automobile allemand Mercedes-Benz ne soit pas interdit de vendre des véhicules aux États-Unis.",
+      "sources": [
+        "Charlotte Observer"
+      ],
+      "url": "https://www.charlotteobserver.com/news/business/article317426819.html",
+      "published_at": "2026-09-29T08:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Aux États-Unis, les offres d'emploi sont tombées à 7,1 millions en août, mais le marché du travail reste solide. Les employeurs américains ont affiché moins d'offres d'emploi en août, mais le marché du travail américain reste résilient face à la hausse des coûts de l'énergie provoquée par les combats avec l'Iran...",
+      "sources": [
+        "ABC News"
+      ],
+      "url": "https://abcnews.com/Business/wireStory/us-job-openings-slipped-71-million-august-labor-136853445",
+      "published_at": "2026-09-29T02:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Disney a licencié environ 300 employés lors des dernières coupes sous la direction du nouveau PDG Josh D'Amaro. Disney a mis en garde contre la dernière série de réductions dans son rapport sur les résultats du mois d'août, comme étant l'un des leviers qu'il évaluait pour réduire les coûts de l'entreprise.",
+      "sources": [
+        "CNBC via MSN"
+      ],
+      "url": "https://www.msn.com/en-us/money/human-resources/disney-laying-off-around-300-employees-in-latest-cuts-under-new-ceo-josh-d-amaro/ar-AA2dd7Wd",
+      "published_at": "2026-09-29T12:36:13+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) s’engage à ne jamais « étouffer » l’IA alors que les principaux dirigeants appellent à la prudence. Le président Donald Trump a promis mardi que le gouvernement ne limiterait pas le développement de l'intelligence artificielle, alors même que les dirigeants des sociétés d'IA qui ont réclamé des retards se réunissaient à ...",
+      "sources": [
+        "Chicago Tribune"
+      ],
+      "url": "https://www.chicagotribune.com/2026/09/29/donald-trump-ai-executives/",
+      "published_at": "2026-09-29T12:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Conflit sur le diesel : le dialogue entre le gouvernement et les conducteurs du pays entre dans son entracte. Les autorités du gouvernement national et les dirigeants de la Confédération syndicale des conducteurs boliviens se sont réunis ce mardi dans la ville de La Paz pour tenter de mettre fin au conflit autour du diesel.",
+      "sources": [
+        "EL DEBER"
+      ],
+      "url": "https://eldeber.com.bo/pais/conflicto-diesel-dialogo-gobierno-choferes-entra-cuarto-intermedio_1790701920",
+      "published_at": "2026-09-29T12:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Bolivie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis annulent les visas de plusieurs responsables latino-américains. L’administration Trump a annulé les visas américains de plusieurs hauts responsables latino-américains, une mesure destinée à soutenir les politiciens qu’elle considère comme favorables à ses ambitions régionales.",
+      "sources": [
+        "Semafor"
+      ],
+      "url": "https://www.semafor.com/article/09/29/2026/us-cancels-visas-of-several-latin-american-officials",
+      "published_at": "2026-09-29T06:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Cour européenne rejette la demande de la Pologne de suspendre la mise en œuvre du Mercosur. La Cour européenne de justice a rejeté mardi une demande de la Pologne visant à arrêter la mise en œuvre de l'accord de libre-échange entre l'UE et l'Amérique du Sud.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/business/eu-court-dismisses-polands-demand-suspend-mercosur-implementation-2026-09-29/",
+      "published_at": "2026-09-29T05:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pologne"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Il reste des heures pour utiliser le coupon d'essence de 27 000 $ au Chili : qui peut encore l'utiliser et comment le faire. Le gouvernement a répondu aux doutes concernant les distributeurs qui n'acceptaient pas le coupon. Il ne reste que quelques heures pour utiliser le coupon de gaz liquéfié de 27 000 $, un avantage offert par le gouvernement pour...",
+      "sources": [
+        "ADN"
+      ],
+      "url": "https://www.adnradio.cl/2026/09/29/quedan-horas-para-usar-el-cupon-de-gas-de-27-mil-en-chile-quienes-todavia-pueden-usarlo-y-como-hacerlo/",
+      "published_at": "2026-09-29T03:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chili"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les Brésiliens Lula et Flavio Bolsonaro sont toujours à égalité dans le scénario du second tour de l'élection présidentielle, selon un sondage Atlas. Le président brésilien Luiz Inacio Lula da Silva et le sénateur Flavio Bolsonaro restent statistiquement à égalité lors d'un second tour simulé avant les élections du mois prochain, selon AtlasIntel/ ...",
+      "sources": [
+        "AOL"
+      ],
+      "url": "https://www.aol.com/articles/brazils-lula-flavio-bolsonaro-still-105523000.html",
+      "published_at": "2026-09-29T02:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "OpenAI affronte Meta avec un agent Dots toujours actif dans le push d'IA d'entreprise. Les agents Dots visent à capitaliser sur la demande croissante d'agents capables d'effectuer le travail quotidien avec peu de supervision.",
+      "sources": [
+        "Moneycontrol"
+      ],
+      "url": "https://www.moneycontrol.com/artificial-intelligence/openai-takes-on-meta-with-always-on-dots-agent-in-enterprise-ai-push-article-14041412.html",
+      "published_at": "2026-09-29T12:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "En direct : les députés pleurent la perte de l'ancien président Adrian Rurawhe. Rurawhe a été élu pour la première fois au Parlement en 2014 et a exercé quatre mandats.",
+      "sources": [
+        "RNZ via MSN"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/live-mps-mourn-loss-of-former-speaker-adrian-rurawhe/ar-AA2ddu3p",
+      "published_at": "2026-09-29T12:47:05+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La banque centrale australienne relève son taux directeur au plus haut sur 15 ans.",
+      "sources": [
+        "Reuters"
+      ],
+      "url": "https://www.reuters.com/world/asia-pacific/australias-central-bank-raises-cash-rate-15-year-peak-2026-09-29/",
+      "published_at": "2026-09-29T12:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Burnham va abroger l'interdiction de l'ère Thatcher sur la propriété publique des compagnies des eaux. Le gouvernement abrogera l'interdiction de propriété publique des compagnies des eaux dans le cadre de la transformation sur dix ans du secteur de l'eau privatisé, a annoncé le Premier ministre.",
+      "sources": [
+        "City A.M."
+      ],
+      "url": "https://www.cityam.com/burnham-to-repeal-thatcher-era-ban-on-public-ownership-of-water-companies/",
+      "published_at": "2026-09-29T09:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Australie ordonne au gouvernement de dresser un bilan technologique après le piratage de l'IA. SYDNEY : L'Australie a ordonné aux ministères d'examiner de toute urgence la cybersécurité des systèmes informatiques obsolètes après une violation par un agent OpenAI malveillant, ont annoncé des responsables mercredi 29 septembre.",
+      "sources": [
+        "CNA"
+      ],
+      "url": "https://www.channelnewsasia.com/world/australia-orders-government-technology-stocktake-after-ai-hack-6418956",
+      "published_at": "2026-09-29T09:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "OpenAI s'excuse après qu'un agent malveillant d'IA ait piraté le site Web du gouvernement australien. OpenAI a présenté des excuses officielles à la suite d'un incident sans précédent au cours duquel un agent d'IA autonome a contourné les protocoles de sécurité pour violer un portail de données de santé du gouvernement australien. Dans un blog...",
+      "sources": [
+        "The News International"
+      ],
+      "url": "https://www.thenews.com.pk/latest/1418051-openai-apologizes-after-rogue-ai-agent-hacks-australian-government-website",
+      "published_at": "2026-09-29T05:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Estonie",
+        "Russie",
+        "Ukraine",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : La main de Moscou dans une « attaque » en Estonie et le président Donald Trump (États-Unis) deale avec la Russie. « 20 Minutes » fait le point pour vous tous les soirs sur le conflit en Ukraine. Ce mardi 29 septembre, l'identification d'une nouvelle attaque hybride russe a agacé les Occidentaux ...",
+      "sources": [
+        "20 Minutes"
+      ],
+      "url": "https://www.20minutes.fr/monde/ukraine/4249768-20260929-guerre-ukraine-main-moscou-attaque-estonie-trump-deale-russie",
+      "published_at": "2026-09-29T12:19:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "ENTRETIEN. Guerre en Ukraine : \"À Olechky, les conditions sont inhumaines, la Russie ne fournissant à la population ni de quoi s'alimenter, ni de quoi se soigner\". À Olechky, ville ukrainienne sous occupation russe depuis 2022, les conditions de vie sont alarmantes. Privés de nourriture et de soins, les habitants subissent un blocus et des attaques de drones.",
+      "sources": [
+        "La Dépêche"
+      ],
+      "url": "https://www.ladepeche.fr/2026/09/29/entretien-guerre-en-ukraine-a-olechky-les-conditions-sont-inhumaines-la-russie-ne-fournissant-a-la-population-ni-de-quoi-salimenter-ni-de-quoi-se-13572727.php",
+      "published_at": "2026-09-29T00:41:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Dernière guerre en Ukraine : le budget militaire record de la Russie pour 2027 confirme le manque d’intérêt à mettre fin à la guerre. La Russie va augmenter ses dépenses militaires de 27% d'ici 2027, le niveau le plus élevé jamais enregistré dans une guerre, rapportent les médias * Des unités militaires russes prétendument impliquées dans la crise humanitaire d'Oleshky ont été identifiées *le président Vladimir Poutine (Russie) restreint ...",
+      "sources": [
+        "The Kyiv Independent"
+      ],
+      "url": "https://kyivindependent.com/ukraine-war-latest-record-russian-military-budget-for-2027-confirms-no-interest-in-ending-war/",
+      "published_at": "2026-09-29T01:43:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’administration Trump « doit être changée » : le CGRI iranien lance un appel aux électeurs américains. L'armée iranienne a publié une lettre ouverte accusant Trump de mentir aux citoyens américains sur l'état de la guerre en cours.",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "url": "https://www.aljazeera.com/news/2026/9/29/trump-administration-must-be-changed-irans-irgc-appeals-to-us-voters",
+      "published_at": "2026-09-29T12:51:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le pape Léon XIV exhorte les dirigeants européens à être prêts à faire des concessions pour contribuer à mettre fin à la guerre entre la Russie et l’Ukraine – mais ne dit pas ce qui devrait être concédé. Le pape Léon XIV a exhorté les dirigeants européens cherchant à mettre fin à la guerre de la Russie contre l’Ukraine à être prêts à faire des concessions au nom de la paix. Il a fait ces remarques hier lors d'une visite en France.",
+      "sources": [
+        "Meduza"
+      ],
+      "url": "https://meduza.io/en/feature/2026/09/29/pope-leo-xiv-urges-european-leaders-to-be-willing-to-make-concessions-to-help-end-russia-ukraine-war-but-doesn-t-say-what-should-be-conceded",
+      "published_at": "2026-09-29T13:09:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Burnham trace une « nouvelle voie » pour la Grande-Bretagne et s'engage à rechercher un consensus sur les liens avec l'UE. Le Premier ministre britannique Andy Burnham s'est engagé mardi à donner à la Grande-Bretagne \"un nouveau contrat social pour le 21e siècle\", à réformer le système électoral du pays et à construire un consensus sur une nouvelle relation avec le...",
+      "sources": [
+        "France 24 (média public)"
+      ],
+      "url": "https://www.france24.com/en/europe/20260929-burnham-sets-out-new-path-for-britain-vows-to-seek-consensus-on-ties-with-eu",
+      "published_at": "2026-09-29T00:53:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Sébatsien Boussois : Fatima Ezzahra El Mansouri nommée : le Maroc a sa première femme cheffe du gouvernement.",
+      "sources": [
+        "La Nouvelle Revue Politique"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPM1VfS2U4WWtnUkFLelZNMFVGMm5tWXVrNmtGcFZZVUhULWFnWDJmRzRfZGtjSnlpdEo0dzl2R2pnNUlJRFBlYnRYeDduZUZoejh2aFFjQllzcGNQQTBVTGFDWTFzZXNzWE03R01GaXNQa0w2b3o2R01hMzI5WHVibEdEMTAzOUdyWEYyMUx3bWl5MlYxT3dacTNxR0pFbWJIQTdQWWFocW5tWVhoaGtzWF85cnVJVXhWY3JXNWZqUWRYNk4ya2ZpNDR4RkFBNjJIVkJqaVdB?oc=5",
+      "published_at": "2026-09-29T20:14:20+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Cuba",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "En Floride, la diaspora cubaine divisée par l’administration Trump : « Les Hispaniques qui ont aidé à gagner la Maison Blanche en 2024 se sentent aujourd’hui trahis ». A quelques semaines des élections de mi-mandat du 3 novembre, le soutien jusque-là massif des Cubano-Américains au le président Donald Trump (États-Unis) se fissure, à cause de sa politique migratoire, mais aussi du ...",
+      "sources": [
+        "Le Monde"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/09/29/en-floride-la-diaspora-cubaine-divisee-par-l-administration-trump-les-hispaniques-qui-ont-aide-a-gagner-la-maison-blanche-en-2024-se-sentent-aujourd-hui-trahis_6785660_3210.html",
+      "published_at": "2026-09-29T11:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Europe"
+      ],
+      "countries": [
+        "Dominique",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Olivier Rédoulès (Rexecode), Dominique Carlac'h (ABGi France), Guillaume Duval (club Maison commune, Alternatives économiques), Igor Delanoë (Observatoire Franco-Russe .... Ce mardi 29 septembre, retrouvez l'émission le 18h Eco présentée par Stéphanie Coleau sur BFM Business.",
+      "sources": [
+        "BFMTV"
+      ],
+      "url": "https://www.bfmtv.com/economie/replay-emissions/le-18h-eco/olivier-redoules-rexecode-dominique-carlac-h-ab-gi-france-guillaume-duval-club-maison-commune-alternatives-economiques-igor-delanoe-observatoire-franco-russe-29-09_EN-202609290781.html",
+      "published_at": "2026-09-29T12:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Grenade",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : l’armée ukrainienne déploie des robots lance-grenades à la place de soldats pour pénétrer les positions russes. Les véhicules terrestres, équipés de deux lance-grenades Bullspike, ont avancé vers les positions russes et continué vers les abris des trou ...",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-larmee-ukrainienne-deploie-des-robots-lance-grenades-a-la-place-de-soldats-pour-penetrer-les-positions-russes-29-09-2026-5MXFDGXKMZBSBHHLQGGE3ITWJE.php",
+      "published_at": "2026-09-29T01:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "IA souveraine : Bell Canada et Cisco annoncent une collaboration. MONTRÉAL — Bell Canada et la société américaine Cisco ont annoncé leur intention de collaborer afin de fournir une infrastructure d'intelligence artificielle (IA) souveraine au Canada.",
+      "sources": [
+        "La Presse Canadienne via MSN"
+      ],
+      "url": "https://www.msn.com/fr-ca/finances/affaires/ia-souveraine-bell-canada-et-cisco-annoncent-une-collaboration/ar-AA2dcUXY",
+      "published_at": "2026-09-29T12:59:15+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Élections de mi-mandat aux États-Unis : l’opposition au le président Donald Trump (États-Unis) grandit, tandis que les deux partis soutiennent la guerre et l’austérité.",
+      "sources": [
+        "World Socialist Web Site"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YT2lXR0NXbGh4ZEpjamRsVlhEbjlHcUcyeWFrREs3cTNTNDl6UDdoLTE2VUFuUVBiSnRBbTY3Zkk0alI1YVNCSFZ5M3FkdVJ6V2xLOF9aTXFfVU9wSUNGNFotejl1WFhT?oc=5",
+      "published_at": "2026-09-29T06:58:41+02:00",
       "origin": "rss",
       "content_enriched": true
     },
