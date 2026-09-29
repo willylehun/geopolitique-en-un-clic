@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:40:25.231824+02:00",
+  "generated_at": "2026-09-29T19:46:59.977581+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -125,9 +125,9 @@
         "Reuters"
       ],
       "countries": [
+        "Japon",
         "Chine",
-        "États-Unis",
-        "Japon"
+        "États-Unis"
       ]
     },
     {
@@ -8844,9 +8844,9 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
+        "Iran",
         "Israël",
-        "États-Unis",
-        "Iran"
+        "États-Unis"
       ]
     },
     {
@@ -19922,12 +19922,11 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
-      "score": 9,
+      "score": 4,
       "category": "Géopolitique",
       "summary": "Le président Donald Trump (États-Unis) espère reprendre les négociations avec l'Iran pour parvenir à une paix définitive",
       "sources": [
