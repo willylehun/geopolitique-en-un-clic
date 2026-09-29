@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T23:18:48.984989+02:00",
+  "generated_at": "2026-09-29T23:28:58.015687+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -28290,9 +28290,10 @@
       "bucket": "29 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "Nucléaire : le président Donald Trump (États-Unis) nie vouloir lever les sanctions contre l’Iran. Nucléaire : Trump nie vouloir lever les sanctions contre l’Iran The Times of Israël",
+      "summary": "Guerre au Moyen-Orient : l’Iran menace les infrastructures du Golfe… Le bilan du mardi 29 septembre. L’Iran menace s’en prendre à des infrastructures pétrolières des pays du golfe si la sécurité de son pays n’était pas garantie. Le président Donald Trump (États-Unis) assure n’avoir pas proposé de lever les sanctions contre Téhéran.",
       "sources": [
-        "The Times of Israël — fiabilité 6/10"
+        "The Times of Israël — fiabilité 6/10",
+        "La Croix — fiabilité 6/10"
       ],
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMEUzN29TcUo1OGs5aVZzeW8teUlKY2s2eGhnNFF3SzVBM2xISXo0ajZTamxKb3doSHpFTVZ2T3VHV0trUl9jYU9uV2pUNDk3Y0ZXT2xjZlJPLUo3WmpuRE8ydk1ueWt2bzBna05UdlpfeTZ5UzVpSkZQaXlhT1hJR1JjajZONDN6aXUyOTNKRGthbkVy0gGaAUFVX3lxTFBmaXdLV2xfOWlrNE1wM2FFbFdQWE5rSHItQXcxZjkxZXFOVldadFYtUjRNX0VQbkhlTzJTaDJXRjhGWHNOSmg0ZDR1VmVCU0F2bDd0bG5hQWkyMDdYNzZuaDR2X3hzTTZwT3FYanZxWjBzN2pSaElqbnZMRmNCcE5xOWZmdUZkUk1LTV9oaHByN0d4eUFBMTUxQ2c?oc=5",
       "published_at": "2026-09-29T14:42:39+02:00",
@@ -28773,7 +28774,8 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "countries": [
         "Cambodge",
@@ -30990,6 +30992,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -31130,7 +31133,8 @@
       "category": "Diplomatie",
       "summary": "Les avocats de Trump reçoivent un nouveau coup dur alors que le juge les accuse d'abuser du système. L’équipe juridique du président Donald Trump (États-Unis) a subi un revers après qu’une cour d’appel fédérale a refusé de suspendre les sanctions imposées dans le cadre de son procès de 10 milliards de dollars contre l’Internal Revenue Service. Bloomberg…",
       "sources": [
-        "AlterNet via MSN — fiabilité 6/10"
+        "AlterNet via MSN — fiabilité 6/10",
+        "Scripps News — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-nz/news/other/trump-lawyers-hit-with-new-blow-as-judge-accuses-them-of-abusing-system/ar-AA2dd3fA",
       "published_at": "2026-09-29T13:08:43+02:00",
@@ -32167,6 +32171,7 @@
     {
       "regions": [
         "Europe",
+        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -34089,6 +34094,91 @@
       ],
       "url": "https://www.ici.fr/emissions/ici-ca-marche-avec-ici-picardie/un-voyage-solidaire-au-cambodge-avec-des-etudiants-infirmiers-picards-7650352",
       "published_at": "2026-09-29T03:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les candidats à la présidentielle face à la crise des énergies vertes. Le secteur des énergies renouvelables est en crise, avec des milliers d’emplois supprimés depuis 2025. La principale organisation professionnelle du secteur a invité les partis des principaux candidat …",
+      "sources": [
+        "Ouest-France — fiabilité 6/10"
+      ],
+      "url": "https://www.ouest-france.fr/economie/energie/energies-renouvelables/les-candidats-a-la-presidentielle-face-a-la-crise-des-energies-vertes-1c9e28d4-bc02-11f1-81a4-4fea3020cab7",
+      "published_at": "2026-09-29T13:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "UCC Oil and Gas négocie pour pénétrer de nouvelles zones pétrolières et gazières au Venezuela. La déclaration élargit l'engagement de l'entreprise au Venezuela, où UCC participe déjà au développement du projet gazier Loran, dans les eaux vénézuéliennes, aux côtés des britanniques BP et XRG.",
+      "sources": [
+        "Bloomberg Línea — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/ucc-oil-and-gas-negocia-entrar-en-nuevas-areas-de-petroleo-y-gas-en-venezuela/",
+      "published_at": "2026-09-29T16:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni",
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Cuba"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L'OFAC renforce les sanctions contre Cuba et cible directement les entrepreneurs privés. La nouvelle réglementation entre en vigueur ce mercredi 30 septembre et couvre les opérations financières et les catégories de voyages.",
+      "sources": [
+        "OnCubaNews — fiabilité 6/10"
+      ],
+      "url": "https://oncubanews.com/cuba-ee-uu/ofac-endurece-las-sanciones-a-cuba-y-apunta-directamente-a-los-emprendedores-privados/",
+      "published_at": "2026-09-29T16:17:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "countries": [
+        "Allemagne",
+        "Chine",
+        "Espagne"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Pour échapper aux surtaxes européennes, la Chine s'offre 49 % d'une usine géante de batteries Volkswagen en Espagne. Volkswagen n’arrive plus à se faire une place en Chine au milieu des constructeurs chinois, mais une entreprise du pays, elle, se fait très bien une place chez le groupe allemand. Alors qu’il fait con …",
+      "sources": [
+        "L'Automobile Magazine — fiabilité 6/10"
+      ],
+      "url": "https://www.automobile-magazine.fr/economie-politique/article/53265-pour-echapper-aux-surtaxes-europeennes-la-chine-soffre-49-dune-usine-geante-de-batteries-volkswagen-en-espagne",
+      "published_at": "2026-09-29T10:52:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
