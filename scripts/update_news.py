@@ -226,6 +226,8 @@ PLACE_COUNTRIES={
     "Berlin":"Allemagne",
     "Rhénanie du Nord-Westphalie":"Allemagne",
     "Odisha":"Inde",
+    "Dubaï":"Émirats arabes unis",
+    "Dubai":"Émirats arabes unis",
 }
 
 def enrich_place_context(text):
@@ -297,6 +299,10 @@ def clean_summary_text(text):
         "le président Vladimir Poutine (Russie)",out
     )
     out=re.sub(r"\s+,",",",out)
+    out=re.sub(r"(?i)\bU\.\s*S\.\b","États-Unis",out)
+    out=re.sub(r"(?i)\bEtats-Unis\b","États-Unis",out)
+    out=re.sub(r"(?i)\bMoyen\s*-\s*Orient\b","Moyen-Orient",out)
+    out=re.sub(r"(?i)\bDUBAI\s+—\s+","Dubaï (Émirats arabes unis) — ",out)
     return out.strip(" |–—-")
 
 def is_market_listing_noise(text):
@@ -1574,11 +1580,11 @@ def country_title_matches(country,title):
       "Papouasie-Nouvelle-Guinée":["papouasie-nouvelle-guinée","papua new guinea","port moresby"],
       "Congo (République du)":["congo-brazzaville","république du congo","republic of congo","brazzaville"],
       "Congo (RDC)":["rdc","république démocratique du congo","dr congo","drc","kinshasa"],
-      "Dominique":["dominique","dominica","roseau"],"République dominicaine":["république dominicaine","dominican republic","santo domingo"],
+      "Dominique":["la dominique","île de la dominique","dominica","roseau","commonwealth of dominica"],"République dominicaine":["république dominicaine","dominican republic","santo domingo"],
     }
-    if country in SPECIAL_COUNTRY_HINTS and any(x in t for x in SPECIAL_COUNTRY_HINTS[country]):
+    if country in SPECIAL_COUNTRY_HINTS and any(term_in_text(t,x) for x in SPECIAL_COUNTRY_HINTS[country]):
         return True
-    return any(x in t for x in hints.get(country,[country.lower()]))
+    return any(term_in_text(t,x) for x in hints.get(country,[country.lower()]))
 
 def disambiguate_countries(countries,title):
     """Reclasse les familles de noms ambigus sans confondre un État avec un autre."""
