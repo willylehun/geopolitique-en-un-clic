@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:07:32.374712+02:00",
+  "generated_at": "2026-09-29T22:17:46.594234+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -14096,8 +14096,8 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Haïti",
-        "Costa Rica"
+        "Costa Rica",
+        "Haïti"
       ],
       "period": "day",
       "bucket": "26 septembre 2026",
@@ -16736,15 +16736,15 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Afrique",
         "Europe",
+        "Amérique du Nord",
         "Asie"
       ],
       "countries": [
-        "Haïti",
         "Rwanda",
         "Allemagne",
+        "Haïti",
         "Qatar"
       ],
       "period": "day",
@@ -27321,7 +27321,8 @@
         "pasadenastarnews.com — fiabilité 6/10",
         "Chicago Tribune — fiabilité 6/10",
         "KOTA Territory TV — fiabilité 6/10",
-        "KKTV — fiabilité 6/10"
+        "KKTV — fiabilité 6/10",
+        "Boston Herald — fiabilité 6/10"
       ],
       "url": "https://jcpost.com/posts/371020dc-175d-4691-b4c8-c798fad8c6e4",
       "published_at": "2026-09-29T19:00:00+02:00",
@@ -32254,12 +32255,13 @@
       "bucket": "29 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "La Belgique va transférer trois F-16 vers l'Ukraine cette année, a déclaré Zelenskiy. La Belgique transférera trois avions de combat F-16 à l'Ukraine d'ici la fin de l'année pour l'aider dans sa guerre contre la Russie, a déclaré le président ukrainien Volodymyr Zelenskiy …",
+      "summary": "La Belgique va transférer trois F-16 vers l'Ukraine cette année, a déclaré Zelenskiy. La Belgique transférera trois avions de combat F-16 à l'Ukraine d'ici la fin de l'année pour l'aider dans sa guerre contre la Russie, a déclaré mardi le président ukrainien Volodymyr Zelenskiy. \"Il y a un élément important…",
       "sources": [
-        "Daily Maverick — fiabilité 7/10"
+        "Daily Maverick — fiabilité 7/10",
+        "KFGO — fiabilité 6/10"
       ],
       "url": "https://www.dailymaverick.co.za/article/2026-09-29-belgium-to-transfer-three-f-16s-to-ukraine-this-year-zelenskiy-says/",
-      "published_at": "2026-09-29T02:55:00+02:00",
+      "published_at": "2026-09-29T09:29:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -32301,7 +32303,8 @@
       "url": "https://www.walesonline.co.uk/news/wales-news/what-triple-lock-pension-what-34691217",
       "published_at": "2026-09-29T01:32:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -32462,6 +32465,269 @@
       ],
       "url": "https://www.haitilibre.com/article-48549-haiti-economie-le-fmi-souligne-la-situation-exceptionnellement-difficile-d-haiti.html",
       "published_at": "2026-09-29T08:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le président Donald Trump (États-Unis) rejette les informations faisant état d'un allègement des sanctions contre Téhéran. Le président iranien Masoud Pezeshkian a déclaré que Téhéran était ouvert aux discussions nucléaires et aux solutions diplomatiques. Il a souligné que l’Iran ne tolérerait pas l’intimidation ou la coercition de la part de forces extérieures. NOUS …",
+      "sources": [
+        "The Economic Times via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/donald-trump-rejects-reports-of-sanctions-relief-for-tehran/ar-AA2dcVCl",
+      "published_at": "2026-09-29T15:03:13+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Ratcliffe, de la CIA, a mis en garde Moscou contre un effondrement économique de type soviétique. Selon le diplomate, Ratcliffe a transmis les évaluations des services de renseignement américains selon lesquelles la Russie était en train de perdre la guerre contre l'Ukraine. Le rapport indique que l'avertissement ne concernait pas principalement le champ de bataille : militairement…",
+      "sources": [
+        "The New Voice of Ukraine via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/cia-s-ratcliffe-warned-moscow-of-soviet-style-economic-collapse/ar-AA2dd5CX",
+      "published_at": "2026-09-29T14:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le Qatar poursuit la navette diplomatique entre les États-Unis et l’Iran pour mettre fin à la guerre au Moyen-Orient. Le ministère qatari des Affaires étrangères a confirmé mardi qu'il poursuivait la navette diplomatique entre les États-Unis et l'Iran dans le cadre des efforts de médiation visant à mettre fin…",
+      "sources": [
+        "Daily Sabah — fiabilité 6/10"
+      ],
+      "url": "https://www.dailysabah.com/world/mid-east/qatar-continues-us-iran-shuttle-diplomacy-to-end-middle-east-war",
+      "published_at": "2026-09-29T13:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Qatar",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Inde prévoit d'augmenter la capacité de son industrie sidérurgique à 600 millions de tonnes d'ici 2047. On s'attend à ce que, sur la même période, la demande de minerai de fer dans le pays s'élève à 772 millions de tonnes. Le gouvernement indien a élaboré une nouvelle stratégie nationale pour le développement du …",
+      "sources": [
+        "GMK Center — fiabilité 6/10"
+      ],
+      "url": "https://gmk.center/en/news/india-plans-to-increase-the-capacity-of-its-steel-industry-to-600-million-tonnes-by-2047/",
+      "published_at": "2026-09-29T07:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Des tarifs douaniers à l'interdiction commerciale : le président Donald Trump (États-Unis) verrouille l'accès à l'alcool, aux motos et plus encore au Canada. Les relations entre les États-Unis et le Canada, déjà tendues, risquent de se détériorer davantage après que les États-Unis ont pris mardi la décision d'interdire pour près d'un milliard de dollars d'importations canadiennes, y compris…",
+      "sources": [
+        "Boston Herald — fiabilité 6/10"
+      ],
+      "url": "https://www.bostonherald.com/2026/09/29/from-tariffs-to-trade-ban-trump-locks-out-canadian-booze-motorcycles-and-more/",
+      "published_at": "2026-09-29T15:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Les troupes américaines se retirent complètement de la base de Bagdad après deux décennies. Les soldats de l'armée américaine se sont complètement retirés de la base américaine de Bagdad, marquant la fin d'une présence qui a commencé avec l'invasion américaine contre Saddam Hussein en 2003. Jack Hewson d'Al Jazeera rapporte…",
+      "sources": [
+        "Al Jazeera — fiabilité 8/10"
+      ],
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/us-troops-fully-withdraw-from-baghdad-base-after-two-decades",
+      "published_at": "2026-09-29T15:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis resserrent les règles de voyage à Cuba et restreignent les opérations bancaires du secteur privé. Les États-Unis restreignent encore davantage les voyages à Cuba et interdisent aux banques de travailler avec le secteur privé naissant de l’île, alors que l’administration du président Donald Trump (États-Unis) s’efforce de mettre fin à près de sept décennies de parti unique.",
+      "sources": [
+        "Bloomberg — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/us-tightens-cuba-travel-rules-restricts-private-sector-banking",
+      "published_at": "2026-09-29T14:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Cuba",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Énergie",
+      "summary": "La compagnie pétrolière d'État et la société américaine s'accordent sur la future exploration d'hydrocarbures au Paraguay. Asunción, 29 septembre (EFE).- La société publique Petróleos Paraguayos (Petropar) a signé un accord avec l'américain Scorpion Oil & Gas dans le but de faire progresser l'exploration future de pétrole et de gaz dans le …",
+      "sources": [
+        "ABC Color — fiabilité 7/10"
+      ],
+      "url": "https://www.abc.com.py/internacionales/2026/09/29/estatal-petrolera-y-firma-de-eeuu-acuerdan-futura-exploracion-de-hidrocarburos-en-paraguay/",
+      "published_at": "2026-09-29T04:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Paraguay",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des bancs d’une fac française à la mairie de Marrakech… qui est Fatima Ezzahra El Mansouri, la première femme nommée chef du gouvernement au Maroc. PORTRAIT - Après la victoire de son parti aux législatives de la semaine dernière, cette ancienne avocate a été nommée chef du gouvernement par le roi Mohammed VI.",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/des-bancs-d-une-fac-francaise-a-la-mairie-de-marrakech-qui-est-fatima-ezzahra-el-mansouri-la-premiere-femme-nommee-chef-du-gouvernement-au-maroc-20260929",
+      "published_at": "2026-09-29T15:01:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump dit qu’il ne sait pas si l’Iran « abandonnera encore », affirmant que ses résultats sont « très mauvais ». WASHINGTON — le président Donald Trump (États-Unis) a déclaré mardi qu'il ne savait pas si l'Iran allait « abandonner » sa guerre contre les États-Unis, mais il a qualifié le pays de « très mauvais état ».",
+      "sources": [
+        "The Times of Israel — fiabilité 8/10"
+      ],
+      "url": "https://www.timesofisrael.com/liveblog_entry/trump-says-he-doesnt-know-if-iran-will-give-up-yet-claims-theyre-doing-very-poorly/",
+      "published_at": "2026-09-29T15:13:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Mexique"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Vents \"potentiellement mortels\", crues soudaines… L'ouragan Polo, de catégorie 3, frappe la côte pacifique du Mexique. L'ouragan Polo a touché terre ce mardi, entraînant des conditions météorologiques extrêmes, notamment des vents violents, des coupures d'électricité et des crues soudaines.",
+      "sources": [
+        "BFMTV — fiabilité 6/10"
+      ],
+      "url": "https://www.bfmtv.com/international/amerique-latine/mexique/vents-potentiellement-mortels-crues-soudaines-l-ouragan-polo-de-categorie-3-frappe-la-cote-pacifique-du-mexique_AD-202609290259.html",
+      "published_at": "2026-09-29T02:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Nicaragua"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "L'OEA convoque une réunion de ministres des Affaires étrangères le 2 octobre pour analyser la situation au Nicaragua. L'OEA célébrera le 2 octobre sa 31e Réunion des Ministres des Affaires Étrangères pour analyser la crise politique au Nicaragua suite à la réforme qui supprime les élections et exclut l'opposition.",
+      "sources": [
+        "fr.cibercuba — fiabilité 6/10"
+      ],
+      "url": "https://fr.cibercuba.com/noticias/2026-09-29-u1-e207888-s27061-nid341481-oea-convoca-reunion-cancilleres-2-octubre-analizar",
+      "published_at": "2026-09-29T09:03:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
