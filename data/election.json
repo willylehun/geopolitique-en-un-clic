@@ -181,13 +181,15 @@
         "Économie": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Santé": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Éducation": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
-        "Travail & retraites": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
+        "Travail & retraites": "Propose de porter progressivement l’âge légal de départ à 65 ans et la durée de cotisation à 45 annuités en moins de dix ans. Il prévoit qu’environ un Français sur trois puisse partir entre 60 et 64 ans selon la carrière et la pénibilité, et souhaite compléter le système par répartition par un volet de capitalisation et un plan d’épargne-retraite.",
         "Sécurité & justice": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Immigration": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies.",
         "Agriculture": "Aucune proposition 2027 suffisamment détaillée n’est encore documentée dans les sources suivies."
       },
       "sources": [
-        "Le Monde — 8 et 16 septembre 2026"
+        "Le Monde — 8 et 16 septembre 2026",
+        "Reuters — 29 septembre 2026",
+        "Le Monde — 29 septembre 2026"
       ],
       "last_checked_at": "2026-09-29T04:12:54.654167+02:00",
       "bio": "Maire du Havre, ancien député et Premier ministre de 2017 à 2020. Fondateur d’Horizons, il vient de la droite modérée et construit une offre de centre droit autour de l’autorité, des finances publiques, du travail et de l’adaptation climatique.",
@@ -1000,6 +1002,22 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdUNzeWZ3bVFmOWpESDV6aG5GdU9ONWItalpsMmx0T0JQM1JfbVlQTEE0QUVzQ2dYaWpaUzdZZFhNMHJyQWZrenRGaHZOcUNPbDFrLThiMDZkckYzVDZGbFlTNjVmNW40dG5GRGVxMWt4RERxblpVRXdDaEU5ZjRLWTBIc0F3UFJwa0VZaUJtTUJTLThhQ0NtaE1YUXQ5VXZ6QVRrTzI5NUhJUjhPTlVwQzlR?oc=5",
       "topic": "actualité"
+    },
+    {
+      "id": "2026-09-29-rn-bardella-antisemitisme",
+      "date": "2026-09-29",
+      "candidate_ids": [],
+      "party_names": [
+        "Rassemblement national"
+      ],
+      "summary": "Mediapart attribue à Jordan Bardella, président du Rassemblement national, des propos antisémites et complotistes dans des messages privés de 2013 à 2015. Jordan Bardella les conteste, affirme que les documents sont faux et a déposé une plainte pour diffamation. Marine Le Pen a publiquement soutenu son démenti.",
+      "sources": [
+        "Reuters",
+        "Le Monde",
+        "Euronews"
+      ],
+      "url": "https://www.reuters.com/world/europe/french-far-right-leader-bardella-denies-media-claim-he-made-antisemitic-remarks-2026-09-28/",
+      "topic": "controverse"
     },
     {
       "id": "2026-09-29-raphael-glucksmann-88707349",
@@ -13644,8 +13662,22 @@
         "Europe & international": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle.",
         "Institutions & démocratie": "Aucune proposition de parti suffisamment détaillée et vérifiée pour ce secteur dans la veille actuelle."
       },
-      "controversies": [],
-      "sources": [],
+      "controversies": [
+        {
+          "date": "2026-09-29",
+          "summary": "Mediapart a publié une enquête attribuant à Jordan Bardella, président du Rassemblement national, des propos antisémites et complotistes dans des messages privés de 2013 à 2015. Jordan Bardella conteste l’authenticité de ces messages et a déposé une plainte pour diffamation. Marine Le Pen a publiquement soutenu son démenti. Il s’agit à ce stade d’allégations contestées, et non d’une décision judiciaire établissant les faits.",
+          "sources": [
+            "Reuters — 29 septembre 2026",
+            "Le Monde — 28-29 septembre 2026",
+            "Euronews — 29 septembre 2026"
+          ],
+          "url": "https://www.reuters.com/world/europe/french-far-right-leader-bardella-denies-media-claim-he-made-antisemitic-remarks-2026-09-28/"
+        }
+      ],
+      "sources": [
+        "Reuters — 29 septembre 2026",
+        "Le Monde — 28-29 septembre 2026"
+      ],
       "last_checked_at": "2026-09-28T01:23:06.814068+02:00",
       "news": []
     },
