@@ -973,7 +973,7 @@ GOOGLE_DISABLED=False
 GDELT_429_COUNT=0
 GDELT_DISABLED=False
 GDELT_LAST_CALL=0.0
-GDELT_MIN_INTERVAL=3.0
+GDELT_MIN_INTERVAL=8.0
 
 def gdelt_query(query,maxrecords=250,start_date=None,end_date=None):
     global GDELT_429_COUNT,GDELT_DISABLED,GDELT_LAST_CALL
@@ -1206,10 +1206,11 @@ def global_country_discovery(start_date,end_date,countries):
     # provoquaient des 429 puis coupaient la principale source de liens directs.
     if not GDELT_DISABLED:
         gdelt_global_queries=[
-          "(geopolitics OR diplomacy OR sanctions OR global economy OR security)",
-          *MAJOR_NEWS_QUERIES,
+          "(government OR election OR diplomacy OR sanctions OR conflict OR security OR economy OR trade OR energy OR climate)",
+          "(war OR invasion OR missile OR ceasefire OR coup OR sanctions OR state of emergency OR diplomatic crisis OR peace agreement OR national election OR sovereign default)",
         ]
         for q in gdelt_global_queries:
+            DISCOVERY_STATS["gdelt_global_queries"]+=1
             try: articles.extend(gdelt_query(q,150,start_date,end_date))
             except Exception as e: print("GDELT GLOBAL",e,file=sys.stderr)
     articles=prioritize_articles(articles,start_date,end_date)
@@ -1265,12 +1266,16 @@ def country_backfill(start_date,end_date,state):
         countries=[]
     state["last_targeted_countries"]=list(countries)
     state["last_targeted_count"]=len(countries)
-    # Un budget couvre tout le lot : Google prend automatiquement le relais lorsque GDELT est limité.
+    # Google couvre tout le lot. GDELT, plus précieux car il fournit des liens directs,
+    # n'est utilisé que pour quelques pays par cycle afin de respecter son rate-limit.
     google_budget=max(0,int(os.getenv("GOOGLE_FALLBACK_BUDGET",str(batch_size)) or str(batch_size)))
+    gdelt_budget=max(0,int(os.getenv("GDELT_COUNTRY_BUDGET","2") or "2"))
     for country in countries:
         articles=[]
         q=f'{country_query_name(country)} (government OR election OR economy OR security OR conflict OR diplomacy OR climate OR energy OR health OR justice)'
-        if not GDELT_DISABLED:
+        if gdelt_budget>0 and not GDELT_DISABLED:
+            gdelt_budget-=1
+            DISCOVERY_STATS["gdelt_country_queries"]+=1
             try: articles.extend(gdelt_query(q,100,start_date,end_date))
             except Exception as e: print("GDELT COUNTRY",country,e,file=sys.stderr)
         # Google News n'est plus la source primaire. Il ne sert qu'aux trous, avec budget et coupe-circuit 429/503.
@@ -1282,6 +1287,7 @@ def country_backfill(start_date,end_date,state):
             # Une seule requête large par pays : beaucoup plus rapide et moins exposée aux 429/503
             # que la boucle historique sur de nombreux thèmes.
             try:
+                DISCOVERY_STATS["google_country_queries"]+=1
                 articles.extend(google_rss_query(f'{country_query_name(country)} (actualité OR politique OR économie OR sécurité OR diplomatie OR climat OR santé) when:1d'))
             except Exception as e:
                 print("GOOGLE FALLBACK",country,e,file=sys.stderr)
@@ -1354,10 +1360,8 @@ def build_generated(start_date,end_date):
                         articles.extend(google_rss_query(q))
                 except Exception as e:
                     print("RSS",region,a,b,theme,e,file=sys.stderr)
-            # GDELT complète les continents lorsque Google News est limité ou incomplet.
-            if not GDELT_DISABLED:
-                try: articles.extend(gdelt_query(f'({REGIONS[region]})',200,a,b))
-                except Exception as e: print("GDELT REGION",region,a,b,e,file=sys.stderr)
+            # Les résultats GDELT mondiaux sont classés localement par pays/région.
+            # Ne pas refaire sept appels GDELT par continent : cela provoquait des 429.
             articles=prioritize_articles(articles,start_date,end_date)
             for art in articles:
                 d=editorial_day(art["date"]); title=art["title"]
