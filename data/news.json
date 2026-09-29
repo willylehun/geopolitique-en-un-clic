@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:26:51.403914+02:00",
+  "generated_at": "2026-09-29T21:37:06.273011+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29020,10 +29020,11 @@
       "category": "Géopolitique",
       "summary": "Le président Donald Trump (États-Unis) s’engage à ne jamais « étouffer » l’IA alors que les principaux dirigeants appellent à la prudence. Le président Donald Trump a promis mardi que le gouvernement ne limiterait pas le développement de l'intelligence artificielle, alors même que les dirigeants des sociétés d'IA qui ont réclamé des retards se réunissaient à …",
       "sources": [
-        "Chicago Tribune — fiabilité 6/10"
+        "Chicago Tribune — fiabilité 6/10",
+        "KOTA Territory TV — fiabilité 6/10"
       ],
       "url": "https://www.chicagotribune.com/2026/09/29/donald-trump-ai-executives/",
-      "published_at": "2026-09-29T12:32:00+02:00",
+      "published_at": "2026-09-29T14:28:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -29175,9 +29176,10 @@
       "bucket": "29 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "La banque centrale australienne relève son taux directeur au plus haut sur 15 ans.",
+      "summary": "La banque centrale australienne relève son taux directeur à son plus haut niveau depuis 15 ans.",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "France 24 (média public) — fiabilité 8/10"
       ],
       "url": "https://www.reuters.com/world/asia-pacific/australias-central-bank-raises-cash-rate-15-year-peak-2026-09-29/",
       "published_at": "2026-09-29T12:30:00+02:00",
@@ -29548,7 +29550,8 @@
       "summary": "Les États-Unis ciblent la chaîne d’approvisionnement militaire iranienne alors que l’état des négociations diplomatiques reste incertain. Les États-Unis ont ciblé mardi des personnes et des entreprises du monde entier qu’ils ont accusées d’être des facilitateurs financiers ou des facilitateurs de la chaîne d’approvisionnement militaire iranienne, alors que l’administration du président Donald Trump (États-Unis) le pousse…",
       "sources": [
         "Boston Herald — fiabilité 6/10",
-        "Orange County Register — fiabilité 6/10"
+        "Orange County Register — fiabilité 6/10",
+        "Orlando Sentinel — fiabilité 6/10"
       ],
       "url": "https://www.bostonherald.com/2026/09/29/us-iran-sanctions-supply-chain/",
       "published_at": "2026-09-29T12:39:00+02:00",
@@ -29980,9 +29983,11 @@
       "bucket": "29 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Maroc : Fatima Ezzahra El Mansouri nommée cheffe du gouvernement par le Roi Mohammed VI.",
+      "summary": "Au Maroc, Fatima Ezzahra El Mansouri devient la première cheffe du gouvernement. Par AFP Par Kaouthar OUDRHIRI © 2026 AFP Le roi du Maroc Mohammed VI a nommé mardi Fatima Ezzahra El Mansouri cheffe du gouvernement après la victoire de son parti aux élections législatives de la sem …",
       "sources": [
-        "financialafrik.com — fiabilité 6/10"
+        "financialafrik.com — fiabilité 6/10",
+        "Agence de Presse Africaine via MSN — fiabilité 6/10",
+        "TV5MONDE - Informations via MSN — fiabilité 6/10"
       ],
       "url": "https://www.financialafrik.com/2026/09/29/maroc-fatima-ezzahra-el-mansouri-nommee-cheffe-du-gouvernement-par-le-roi-mohammed-vi/",
       "published_at": "2026-09-29T20:00:00+02:00",
@@ -31544,6 +31549,312 @@
       "url": "https://www.ctvnews.ca/world/trumps-tariffs/article/trump-adviser-tells-canadian-lobbyists-to-get-the-hell-out-of-the-us-live-updates-here/",
       "published_at": "2026-09-29T09:51:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Énergie",
+      "summary": "La société LNG Canada, dirigée par Shell, donne son feu vert à l’expansion de la phase 2, doublant ainsi la capacité d’exportation. Shell et ses partenaires ont donné mardi leur feu vert à une expansion de phase 2 de LNG Canada à Kitimat, en Colombie-Britannique, un pari de plusieurs milliards de dollars qui doublera la capacité de production de l'installation…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/shell-led-lng-canada-greenlights-phase-2-expansion-doubling-export-capacity-2026-09-29/",
+      "published_at": "2026-09-29T02:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le PDG d'OpenAI annonce un nouvel agent IA et évite de mentionner les problèmes de sécurité lors de la conférence des développeurs. OpenAI a lancé des agents d'intelligence artificielle proactifs pour aider les utilisateurs ; la société a élargi sa gamme de logiciels…",
+      "sources": [
+        "LA NACION — fiabilité 6/10"
+      ],
+      "url": "https://www.lanacion.com.ar/usa/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference-nid29092026/",
+      "published_at": "2026-09-29T14:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les États-Unis imposent 10 sanctions concernant l’achat d’armes à l’Iran. Washington Le département du Trésor américain a sanctionné mardi 10 personnes et entités pour avoir prétendument aidé le ministère iranien de la Défense à se procurer des armes et des composants via un réseau…",
+      "sources": [
+        "Shafaq News — fiabilité 6/10"
+      ],
+      "url": "https://shafaq.com/en/World/US-sanctions-10-over-Iran-weapons-procurement",
+      "published_at": "2026-09-29T14:35:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Zambie"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Zambie : de la stabilisation à l’expansion, le gouvernement change de cap économique. Entre 2027 et 2029, la Zambie vise une croissance économique moyenne de près de 7 % dans un contexte de stabilisation macroéconomique.",
+      "sources": [
+        "Agence Ecofin — fiabilité 6/10"
+      ],
+      "url": "https://www.agenceecofin.com/actualites/2909-141975-zambie-de-la-stabilisation-a-l-expansion-le-gouvernement-change-de-cap-economique",
+      "published_at": "2026-09-29T08:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Zimbabwe"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Zimbabwe : la Banque centrale abaisse son taux directeur à 27,5 % sur fond d’inflation maîtrisée. La Banque de réserve du Zimbabwe ajuste sa politique monétaire alors que les tensions inflationnistes restent limitées et que l’activité économique …",
+      "sources": [
+        "Agence Ecofin — fiabilité 6/10"
+      ],
+      "url": "https://www.agenceecofin.com/actualites/2909-141980-zimbabwe-la-banque-centrale-abaisse-son-taux-directeur-a-27-5-sur-fond-d-inflation-maitrisee",
+      "published_at": "2026-09-29T09:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Bangladesh"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Bangladesh envisage un accord avec Airbus portant sur 10 appareils après sa commande à Boeing. Le Bangladesh cherche à acheter 10 appareils auprès de l’avionneur français Airbus pour Biman Bangladesh Airlines, a déclaré mardi un ministre, alors que le gouvernement poursuit ses …",
+      "sources": [
+        "Zonebourse — fiabilité 6/10"
+      ],
+      "url": "https://www.zonebourse.com/actualite-bourse/le-bangladesh-envisage-un-accord-avec-airbus-portant-sur-10-appareils-apres-sa-commande-a-boeing-ce785adddf89fe27",
+      "published_at": "2026-09-29T09:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Mali : Amnesty International accuse l’armée et le Groupe Wagner de « crimes de guerre ». Les forces armées maliennes et les paramilitaires russes ont été plusieurs fois accusés d’avoir tué des civils lors d’opérations ces dernières années.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/afrique/article/2026/09/29/mali-amnesty-international-accuse-l-armee-et-le-groupe-wagner-de-crimes-de-guerre_6785575_3212.html",
+      "published_at": "2026-09-29T03:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Mali : Amnesty accuse les FAMa et Wagner de crimes de guerre. Amnesty International a indiqué, mardi, dans un nouveau rapport que des membres des Forces armées maliennes (FAMa), agissant avec des éléments du groupe Wagner, auraient commis des crimes de guerre co …",
+      "sources": [
+        "Anadolu Ajansı — fiabilité 6/10"
+      ],
+      "url": "https://www.aa.com.tr/fr/afrique/mali-amnesty-accuse-les-fama-et-wagner-de-crimes-de-guerre/4072733",
+      "published_at": "2026-09-29T11:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Mali: Des preuves accablantes de crimes de guerre commis par les forces armées de l'État et des membres du groupe Wagner. Communiqué De Presse - Des civil·e·s tués lors d'opérations militaires conjointes Des civil·e·s torturés à mort en détention ; d'autres battus, soumis à des simulations de noyade et à des électrocutio …",
+      "sources": [
+        "AllAfrica.com — fiabilité 6/10"
+      ],
+      "url": "https://fr.allafrica.com/stories/202609290133.html",
+      "published_at": "2026-09-29T04:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Mali : Amnesty International accuse l’armée et Wagner de crimes de guerre contre des civils. Amnesty International impute aux Forces armées maliennes et au groupe paramilitaire russe Wagner la mort d'au moins 34 civils tués lors d'opérations …",
+      "sources": [
+        "Afrik.com — fiabilité 6/10"
+      ],
+      "url": "https://www.afrik.com/mali-amnesty-international-accuse-l-armee-et-wagner-de-crimes-de-guerre-contre-des-civils",
+      "published_at": "2026-09-29T04:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Mali : l’armée et les paramilitaires russes accusés de « crimes de guerre » par Amnesty International. Amnesty International accuse les Forces armées maliennes et les paramilitaires russes de Wagner de crimes de guerre contre des civils. Un rapport publié mardi 29 janvier documente meurtres, tortures e …",
+      "sources": [
+        "La Croix — fiabilité 6/10"
+      ],
+      "url": "https://www.la-croix.com/international/mali-l-armee-et-les-paramilitaires-russes-accuses-de-crimes-de-guerre-par-amnesty-international-20260929",
+      "published_at": "2026-09-29T03:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Maroc : Fatima-Ezzahra El Mansouri devient la première femme cheffe du gouvernement. Son nom circulait depuis des années. Six jours après la victoire du PAM aux législatives, le roi a nommé Fatima-Ezzahra El Mansouri à la tête du gouvernement. À 50 ans, la maire de Marrakech et minist …",
+      "sources": [
+        "Jeune Afrique — fiabilité 7/10"
+      ],
+      "url": "https://www.jeuneafrique.com/1847603/politique/maroc-fatima-ezzahra-el-mansouri-devient-la-premiere-femme-cheffe-du-gouvernement/",
+      "published_at": "2026-09-29T11:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Au Maroc, Fatima Ezzahra El Mansouri devient la première femme nommée cheffe du gouvernement. Le Maroc s’apprête à tourner une page historique avec la nomination de Fatima Ezzahra El Mansouri à la tête du gouvernement, une première pour une femme dans le pays. La nouvelle cheffe du gouvernemen …",
+      "sources": [
+        "Sudinfo.be — fiabilité 6/10"
+      ],
+      "url": "https://www.sudinfo.be/id1200187/article/2026-09-29/au-maroc-fatima-ezzahra-el-mansouri-devient-la-premiere-femme-nommee-cheffe-du",
+      "published_at": "2026-09-29T13:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Maroc : nommée par le roi Mohammed VI, Fatima Ezzahra El Mansouri devient la première femme chef du gouvernement. Le monarque a reçu Fatima Ezzahra El Mansouri, coordinatrice nationale du Parti Authenticité et Modernité (PAM), au palais royal de Rabat et «l’a chargée de former le nouveau gouvernement», a précisé …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/le-roi-du-maroc-mohammed-vi-nomme-fatima-ezzahra-el-mansouri-a-la-tete-du-gouvernement-une-premiere-pour-une-femme-20260929",
+      "published_at": "2026-09-29T11:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "29 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Au Maroc, l’avocate Fatima Ezzahra El Mansouri nommée cheffe du gouvernement - APS.",
+      "sources": [
+        "APS - Agence de Presse Sénégalaise — fiabilité 6/10"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSXlRanVWS1Y2LVVpRC1PSDJoQTdyNUZhMktoMGl0Z3ZkOUlKT3M3bmRlWG5DZXlMX2wzWHBRcUtlOWFUdFBIWE9Cdi1XNVAzeGRUMXVISnRVaW02cVhZS0NJelAyUWxzTVJncDdpV191SVFlbjR5WFhIMlZ4TEVIaWt3VnY3bGlCekw0Q2V3?oc=5",
+      "published_at": "2026-09-29T16:31:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
