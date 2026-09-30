@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:01:46.811446+02:00",
+  "generated_at": "2026-09-30T15:12:06.607170+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -648,9 +648,9 @@
         "Reuters"
       ],
       "countries": [
-        "Mali",
         "Ghana",
-        "Burkina Faso"
+        "Burkina Faso",
+        "Mali"
       ]
     },
     {
@@ -975,9 +975,9 @@
       ],
       "countries": [
         "Libye",
-        "Mali",
         "Soudan",
         "Algérie",
+        "Mali",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -29848,12 +29848,10 @@
     {
       "regions": [
         "Amérique du Nord",
-        "Asie",
         "International"
       ],
       "countries": [
-        "États-Unis",
-        "Iran"
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -34547,7 +34545,8 @@
       "category": "Géopolitique",
       "summary": "L'économie américaine a connu une solide croissance de 2,2 % au deuxième trimestre, selon le gouvernement, revalorisant ses estimations précédentes. L'économie américaine a connu une croissance solide de 2,2 % entre avril et juin, grâce à la vigueur des dépenses de consommation et des investissements des entreprises.",
       "sources": [
-        "AP — fiabilité 9/10"
+        "AP — fiabilité 9/10",
+        "ABC News — fiabilité 7/10"
       ],
       "url": "https://apnews.com/article/economic-growth-inflation-trump-trade-b759367e9e6149fe145652cc95887aa0",
       "published_at": "2026-09-30T07:44:00+02:00",
@@ -34931,6 +34930,81 @@
       "published_at": "2026-09-30T01:12:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Polémique sur la CWC : le gouvernement rejette les affirmations de Rahul Gandhi concernant le Premier ministre Modi. Le différend politique porte sur une affirmation que Rahul Gandhi aurait faite lors d'une réunion du comité de travail du Congrès au sujet d'une discussion impliquant le Premier ministre Narendra Modi (Inde), le ministre de l'Intérieur Amit Shah et …",
+      "sources": [
+        "ABP News via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/cwc-controversy-government-rejects-rahul-gandhi-s-claim-about-pm-modi/vi-AA2dfGi7",
+      "published_at": "2026-09-30T07:56:55+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Blue Dart augmentera les prix du transport intérieur jusqu'à 12 % à partir de janvier 2027. L'entreprise de logistique a déclaré que la révision annuelle des prix contribuerait à compenser la hausse des coûts d'exploitation et à financer les investissements dans son réseau et sa technologie.",
+      "sources": [
+        "CNBCTV18 — fiabilité 6/10"
+      ],
+      "url": "https://www.cnbctv18.com/business/companies/blue-dart-share-price-shipping-price-increase-january-2027-20002247.htm",
+      "published_at": "2026-09-30T07:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "SBI Research recommande une nouvelle loi NTA, un conseil d'administration indépendant et une équipe interne plus forte. Le rapport propose des pouvoirs juridiques plus clairs pour la NTA, une surveillance indépendante des examens, une surveillance plus stricte des fournisseurs et un organe d'appel suite aux préoccupations concernant la sécurité des examens., Education, Times Now…",
+      "sources": [
+        "Times Now — fiabilité 6/10"
+      ],
+      "url": "https://www.timesnownews.com/education/sbi-research-recommends-new-nta-law-independent-board-stronger-in-house-team-article-156252137",
+      "published_at": "2026-09-30T07:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L’inflation américaine augmente à nouveau et maintient la pression sur la Fed. Le principal indicateur d'inflation utilisé par la Réserve fédérale pour fixer les taux d'intérêt américains a fortement augmenté en août, soulignant pourquoi la banque centrale a augmenté les taux d'intérêt plus tôt ce mois-ci pour la première fois depuis…",
+      "sources": [
+        "MarketWatch — fiabilité 6/10"
+      ],
+      "url": "https://www.marketwatch.com/story/inflation-rises-again-and-keeps-pressure-on-fed-f64d2ced",
+      "published_at": "2026-09-30T07:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
