@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:15:42.507780+02:00",
+  "generated_at": "2026-09-30T13:25:55.380052+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30869,7 +30869,7 @@
         "The Washington Post — fiabilité 8/10"
       ],
       "url": "https://www.washingtonpost.com/world/2026/09/30/flydubai-flight-tel-aviv-diverted-saudi-arabia-after-onboard-altercation/",
-      "published_at": "2026-09-30T03:54:00+02:00",
+      "published_at": "2026-09-30T05:00:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -32759,7 +32759,8 @@
       "url": "https://www.msn.com/en-us/news/other/factbox-latvia-s-pro-ukraine-prime-minister-leads-in-poll-ahead-of-saturday-election/ar-AA2dfZj1",
       "published_at": "2026-09-30T05:25:30+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -32924,6 +32925,86 @@
         "Le Dauphiné Libéré — fiabilité 6/10"
       ],
       "url": "https://www.ledauphine.com/defense-guerre-conflit/2026/09/30/quatre-morts-a-kiev-apres-des-frappes-russes-contre-des-infrastructures-energetiques",
+      "published_at": "2026-09-30T04:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "L'inflation française des coûts de l'énergie bondit à 3% en septembre. Selon l'Insee, la hausse de l'inflation s'explique en grande partie par la hausse des prix de l'énergie et des carburants, en hausse de 21,2% en septembre, liée essentiellement à la guerre du Moyen-Orient.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/en/economy/article/2026/09/30/french-inflation-on-energy-costs-jumps-to-3-in-september_6758102_19.html",
+      "published_at": "2026-09-30T04:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Cameroun",
+        "Tchad"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Bassin du Lac Tchad : les survivants de Boko Haram refusent de céder. Droit à l’information : la CDHC sonne l’alerte sur les deepfakes et le désordre informationnel au Cameroun Dans son ouvrage intitulé « Violentées, pas anéanties », Ramat Abadjida raconte celles et ceux que Boko Haram a meurtris, mais… Il y a les cartes de la guerre, les bilans humanitaires, les statistiques des déplacements forcés. Et puis il y a les vies derrière les chiffres. C’est ce que cherche à retrouver Ramat Abadjida dans « Violentées, pas anéanties : la résilience des populations affectées par Boko Haram dans le bassin du Lac Tchad », publié chez Guiguess Éditions.",
+      "sources": [
+        "Journal du Cameroun — fiabilité 6/10"
+      ],
+      "url": "https://fr.journalducameroun.com/bassin-du-lac-tchad-les-survivants-de-boko-haram-refusent-de-ceder/",
+      "published_at": "2026-09-30T03:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Togo"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Togo : la BIDC lance l’EIF 2027, plus de 500 participants et 40 projets annoncés à Lomé. Au Togo, la Banque d’investissement et de développement de la CEDEAO (BIDC) a officiellement lancé, mardi 29 septembre à Lomé, la préparation de la …",
+      "sources": [
+        "Togo First — fiabilité 6/10"
+      ],
+      "url": "https://www.togofirst.com/fr/gouvernance-economique/3009-20207-togo-la-bidc-lance-l-eif-2027-plus-de-500-participants-et-40-projets-annonces-a-lome",
+      "published_at": "2026-09-30T03:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Zambie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Zambie entame des discussions avec une mission du Fonds monétaire international sur un nouveau programme de prêts, annonce le ministère des Finances. Le gouvernement zambien a entamé des discussions avec une mission du Fonds monétaire international au sujet d’un nouveau programme de prêts, a annoncé mercredi le ministère des Finances de …",
+      "sources": [
+        "Zonebourse — fiabilité 6/10"
+      ],
+      "url": "https://ch.zonebourse.com/actualite-bourse/la-zambie-entame-des-discussions-avec-une-mission-du-fonds-monetaire-international-sur-un-nouveau-pr-ce785ad2dd81f620",
       "published_at": "2026-09-30T04:32:00+02:00",
       "origin": "rss",
       "content_enriched": true
