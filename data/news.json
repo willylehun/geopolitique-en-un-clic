@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:34:35.196113+02:00",
+  "generated_at": "2026-09-30T22:44:48.553891+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -40016,8 +40016,8 @@
     },
     {
       "regions": [
-        "International",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -40262,6 +40262,165 @@
       "url": "https://www.kreiszeitung.de/politik/trumps-arroganz-hat-alles-kaputtgeschlagen-eu-koennte-riesengeschaeft-der-usa-uebernehmen-zr-94518983.html",
       "published_at": "2026-09-30T22:15:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Meurtres en Namibie : « Il doit y avoir des excuses ouvertes pour que nous puissions parler de réparations ». Retrouvez votre émission de radio BBC préférée avec votre DJ préféré ici, quand vous le souhaitez. Écoutez sans limites avec BBC Sounds. Le gouvernement namibien rejette l'offre d'indemnisation de l'Allemagne pour les meurtres de Nama et Herero",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/sounds/play/p08ng53q",
+      "published_at": "2026-09-30T15:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Namibie",
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« De fortes indications montrent que l’Iran a joué un rôle dans l’incident de la RAF Fairford », a déclaré le Premier ministre Andy Burnham. Le commentaire du Premier ministre Andy Burnham selon lequel son gouvernement pense que l'Iran a joué un rôle dans l'incident de la RAF Fairford intervient après que le secrétaire d'État américainle secrétaire d’État Marco Rubio (États-Unis) a déclaré à Fox News que l'incident « implique clairement…",
+      "sources": [
+        "WION — fiabilité 6/10"
+      ],
+      "url": "https://www.wionews.com/world/uk-believes-iran-has-a-hand-in-raf-fairford-incident-says-pm-andy-burnham-1790798484578",
+      "published_at": "2026-09-30T15:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Message déchirant de la mère de la victime Christa Pike qui s'est rendue pour assister à l'exécution et s'est vu refuser justice sous le choc. LA mère en deuil de la victime adolescente de Christa Pike a lancé un appel déchirant pour que justice soit rendue quelques jours seulement avant de parcourir des centaines de kilomètres pour voir mourir l'assassin de sa fille, seulement pour être exécuté à…",
+      "sources": [
+        "The US Sun — fiabilité 6/10"
+      ],
+      "url": "https://www.the-sun.com/news/17080701/christa-pike-victim-mom-justice-denied/",
+      "published_at": "2026-09-30T11:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Amazon tente de développer l'énergie nucléaire dans le Maryland après avoir abandonné l'accord sur le centre de données. Le géant de la technologie contribuera à développer la production d’électricité à la centrale de Constellation Energy à Calvert Cliffs et étudiera la possibilité d’y ajouter de nouveaux réacteurs.",
+      "sources": [
+        "The Wall Street Journal — fiabilité 8/10"
+      ],
+      "url": "https://www.wsj.com/business/energy-oil/amazon-tries-to-boost-nuclear-power-in-maryland-after-scrapping-data-center-deal-d551385e",
+      "published_at": "2026-09-30T15:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les économistes du KOF revoient nettement la croissance suisse à la hausse. A l'image d'autres économistes, les experts du Centre de recherches conjoncturelles (KOF) de l'EPFZ relèvent à leur tour leur prévision de croissance de l'économie suisse cette année. Après avoir tabl …",
+      "sources": [
+        "Radio Télévision Suisse — fiabilité 6/10"
+      ],
+      "url": "https://www.rts.ch/info/economie/2026/article/croissance-suisse-le-kof-monte-sa-prevision-2026-a-1-9-29372055.html",
+      "published_at": "2026-09-30T08:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Optimisme chancelant pour la conjoncture suisse en septembre. L'optimisme a fléchi en septembre chez les analystes financiers, selon le sondage réalisé par UBS et CFA Society Switzerland. Les experts sondés misant sur une évolution favorable de la conjoncture so …",
+      "sources": [
+        "Keystone-ATS via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/finance/other/optimisme-chancelant-pour-la-conjoncture-suisse-en-septembre/ar-AA2dgSw9",
+      "published_at": "2026-09-30T06:04:30+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suède"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Suède: un rapport réclame des excuses de l’État pour les injustices subies par le peuple sami. Les injustices subies par les Sami ont été présentées au gouvernement suédois mercredi 30 septembre. Seul peuple autochtone d’Europe juridiquement reconnu comme tel, les Sami sont près de 100 000, rép …",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/fr/europe/20260930-suède-un-rapport-réclame-des-excuses-de-l-état-pour-les-injustices-subies-par-le-peuple-sami",
+      "published_at": "2026-09-30T12:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suède"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Qui pour gouverner la Suède ? Les tractations continuent. La droite va-t-elle tenter de former un gouvernement en Suède, ou contraindre la gauche à reprendre les tractations? Le suspense reste entier mercredi à l’issue de nouvelles consultations au Parleme…",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/300926/qui-veut-gouverner-la-suede-les-tractations-continuent",
+      "published_at": "2026-09-30T18:57:19+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
