@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:10:17.208171+02:00",
+  "generated_at": "2026-09-30T11:22:55.128527+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29758,7 +29758,7 @@
         "Bloomberg — fiabilité 8/10"
       ],
       "url": "https://www.bloomberg.com/news/articles/2026-09-30/china-crude-comeback-loses-steam-as-iran-war-enters-eighth-month",
-      "published_at": "2026-09-30T01:48:00+02:00",
+      "published_at": "2026-09-30T03:26:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -30501,7 +30501,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "countries": [
@@ -30953,6 +30952,132 @@
       "url": "https://www.nytimes.com/2026/09/30/world/europe/ukraine-naval-drones-russia.html",
       "published_at": "2026-09-30T04:01:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis retirent leurs dernières troupes d’Irak. Comment cela affectera-t-il le Moyen-Orient. Michel Martin de NPR s'entretient avec le lieutenant-général à la retraite H. R. McMaster, ancien conseiller américain à la sécurité nationale, de l'impact qu'aura le retrait final des troupes américaines d'Irak sur le Moyen-Orient.",
+      "sources": [
+        "Boise State Public Radio — fiabilité 6/10"
+      ],
+      "url": "https://www.boisestatepublicradio.org/2026-09-30/the-u-s-is-pulling-its-last-troops-out-of-iraq-how-will-it-affect-the-middle-east",
+      "published_at": "2026-09-30T03:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre au Moyen-Orient : l’Iran affirme avoir reçu une réponse des États-Unis sur son plan pour mettre fin au conflit. Téhéran a annoncé mercredi avoir reçu une réponse officielle de Washington à ses conditions pour mettre fin au conflit, sans en dévoiler le contenu. Les échanges indirects ont repris la semaine derniè …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/guerre-au-moyen-orient-l-iran-affirme-avoir-recu-une-reponse-des-etats-unis-sur-son-plan-pour-mettre-fin-au-conflit-20260930",
+      "published_at": "2026-09-30T04:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La Russie bombarde la région de Kyiv, tuant 4 personnes et ciblant le réseau électrique. KIEV, Ukraine (AP) — La Russie a poursuivi son barrage de missiles et de drones sur Kiev et les zones autour de la capitale ukrainienne, tuant quatre personnes, dont un enfant, alors qu'elle visait le réseau électrique…",
+      "sources": [
+        "The Canadian Press via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/news/other/russia-pounds-the-kyiv-region-killing-4-and-targeting-the-power-grid/ar-AA2dgaKQ",
+      "published_at": "2026-09-30T04:07:55+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les IRM seront disponibles à Grand Falls-Windsor en 2028, selon la province. Grand Falls-Windsor offrira un service d'IRM localement pour la première fois à compter de 2028, selon les services de santé de Terre-Neuve-et-Labrador et le gouvernement provincial.",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/grand-falls-windsor-mri-9.7363583",
+      "published_at": "2026-09-30T04:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Près de 40 % de la population mondiale sera exposée à des niveaux nocifs d'ozone en 2026, selon l'agence européenne pour le climat. Seulement 5 pour cent de la population mondiale est exposée à de « bons » niveaux d’ozone, l’Asie, l’Europe et l’Amérique du Nord étant les régions les plus touchées.",
+      "sources": [
+        "TRT World — fiabilité 6/10"
+      ],
+      "url": "https://www.trtworld.com/article/d9c4d5de3118",
+      "published_at": "2026-09-30T03:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre au Moyen-Orient: l'Iran a reçu une réponse officielle de Washington à sa dernière offre. L'Iran a reçu une réponse officielle de Washington à sa dernière offre, selon un média d'Etat cité par l'AFP. Téhéran a posé plusieurs conditions, vendredi dernier, pour rouvrir le détroit …",
+      "sources": [
+        "L'Orient-Le Jour — fiabilité 6/10"
+      ],
+      "url": "https://www.lorientlejour.com/article/1549145/guerre-au-moyen-orient-liran-a-recu-une-reponse-officielle-de-washington-a-sa-derniere-offre.html",
+      "published_at": "2026-09-30T03:33:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
