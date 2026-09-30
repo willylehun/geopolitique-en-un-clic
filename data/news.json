@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:44:20.035703+02:00",
+  "generated_at": "2026-09-30T16:54:36.188675+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -36017,13 +36017,195 @@
       "bucket": "30 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "En Espagne, le gouvernement de Pedro Sanchez tente d’apaiser la fronde sur le logement. Le gouvernement espagnol veut renforcer la protection contre les expulsions et interdire jusqu’en 2028 les achats immobiliers par les fonds dits « vautours ». Mobilisés depuis qu’une Madrilène de 87 a …",
+      "summary": "En Espagne, le gouvernement de Pedro Sanchez tente de contenir la colère sociale sur le logement. Le gouvernement espagnol veut renforcer la protection contre les expulsions et interdire jusqu’en 2028 les achats immobiliers par les fonds dits « vautours ». Mobilisés depuis qu’une Madrilène de 87 …",
       "sources": [
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/article/2026/09/30/en-espagne-le-gouvernement-de-pedro-sanchez-tente-d-apaiser-la-fronde-sur-le-logement_6786082_3210.html",
       "published_at": "2026-09-30T09:30:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les candidats au poste de commissaire à l’Agriculture prétendent chacun que l’autre n’est pas éligible. Deux hommes en lice pour le poste de prochain commissaire à l'agriculture du Texas ont chacun affirmé mardi que l'autre n'était pas éligible en vertu de la loi de l'État.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/agriculture-commissioner-candidates-claim-other-142558167.html",
+      "published_at": "2026-09-30T09:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L'envoyé américain partage un plan en 5 points pour lever les restrictions sur les visas en Afrique du Sud. Le premier groupe de 49 Afrikaners est arrivé aux États-Unis en mai 2025 dans le cadre de ce programme. En mai 2026, l'administration du président Donald Trump (États-Unis) a augmenté le plafond d'admission des réfugiés aux États-Unis de 10 000 places…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/us/articles/us-envoy-shares-5-point-135418124.html",
+      "published_at": "2026-09-30T08:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Afrique du Sud",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'introduction en bourse potentielle de plus de 2 000 milliards de dollars d'Anthropic soutient des dépenses robustes en matière d'infrastructure d'IA, déclare Wedbush. L'introduction en bourse prévue d'Anthropic, qui pourrait potentiellement valoriser l'entreprise à plus de 2 000 milliards de dollars, conforte l'idée selon laquelle l'infrastructure d'intelligence artificielle coûte …",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-apos-potential-2-trillion-143410227.html",
+      "published_at": "2026-09-30T09:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La hausse des taux d’intérêt efface la baisse des prix de l’immobilier alors que la RBA augmente le taux de trésorerie. La hausse des taux d’intérêt a complètement anéanti tout bénéfice de la baisse des prix de l’immobilier, exerçant une pression supplémentaire sur les acheteurs d’une première maison qui tentent de pénétrer le marché.",
+      "sources": [
+        "news.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.news.com.au/finance/economy/interest-rates/rising-interest-rates-wipe-out-house-price-falls-as-rba-lifts-cash-rate/news-story/361a29db6366ef5d67e84487a2a98222",
+      "published_at": "2026-09-30T09:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Espagne",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Que prévoit le traité d'amitié entre la France et l'Espagne, que le Sénat espagnol a refusé de ratifier ?. [VIDÉO] Le Sénat espagnol a rejeté mardi 29 septembre la ratification du traité d'amitié avec la France, lequel a déjà été approuvé par le Congrès des députés à Madrid et l'Assemblée nationale et le S …",
+      "sources": [
+        "TF1 INFO — fiabilité 6/10"
+      ],
+      "url": "https://www.tf1info.fr/international/que-prevoit-le-traite-d-amitie-entre-la-france-et-l-espagne-que-le-senat-espagnol-a-refuse-de-ratifier-2467209.html",
+      "published_at": "2026-09-30T08:38:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "L’UE rejette la proposition de l’Ukraine de renégocier ses quotas d’exportation. L'Union européenne n'envisage pas de renégocier les quotas d'exportation avec l'Ukraine, a déclaré mardi un porte-parole de la Commission européenne, rejetant la demande de Kiev d'un accès commercial supplémentaire alors que les frappes russes mettent son économie à rude épreuve, a rapporté Reuters. Les conditions commerciales avec l'Ukraine sont devenues une question sensible au sein de l'UE après que l'accès sans droits de douane et sans quota accordé à Kiev au début de l'invasion à grande échelle de la Russie en 2022 a entraîné un afflux de produits agricoles, provoquant la colère des agriculteurs européens.",
+      "sources": [
+        "thepigsite.com — fiabilité 6/10"
+      ],
+      "url": "https://www.thepigsite.com/news/2026/09/eu-rebuffs-ukraines-bid-to-renegotiate-export-quotas",
+      "published_at": "2026-09-30T16:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement américain poursuit les entreprises de soins de santé de l’Ohio (États-Unis) après le licenciement d’un médecin parce qu’il est juif. La Commission pour l'égalité des chances en matière d'emploi affirme que le chirurgien \"a fait face à un déluge de commentaires sur son lieu de travail accusant les Juifs\" le 7 octobre",
+      "sources": [
+        "thejc.com — fiabilité 6/10"
+      ],
+      "url": "https://www.thejc.com/news/usa/us-government-sues-ohio-healthcare-firms-after-doctor-fired-for-being-jewish-snzx4ryq",
+      "published_at": "2026-09-30T16:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Afrique"
+      ],
+      "countries": [
+        "Qatar",
+        "Tanzanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Tanzanie et le Qatar explorent les moyens d'élargir leurs liens dans le secteur de la santé. NEW YORK : LE ministre des Affaires étrangères et de la Coopération de l'Afrique de l'Est, l'ambassadeur Dr Mahmoud Thabit Kombo, s'est entretenu avec le conseiller du Premier ministre du Qatar pour les affaires de santé publique, le Dr Hanan Mohamed, sur les moyens de renforcer la coopération entre la Tanzanie et le Qatar, en particulier dans le secteur de la santé. Les deux se sont rencontrés en marge de la 81e Session…",
+      "sources": [
+        "dailynews.co.tz — fiabilité 6/10"
+      ],
+      "url": "https://dailynews.co.tz/tanzania-qatar-explores-ways-to-broaden-their-ties-in-health-sector/",
+      "published_at": "2026-09-30T16:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Détroit d'Ormuz: les États-Unis ont répondu à la dernière offre de l'Iran. Des responsables iraniens ont indiqué mercredi avoir reçu une réponse officielle des États-Unis à la dernière proposition de Téhéran visant à mettre fin à la guerre qui dure depuis sept mois, proposit …",
+      "sources": [
+        "La Voix de l'Est — fiabilité 6/10"
+      ],
+      "url": "https://www.lavoixdelest.ca/affaires/2026/09/30/detroit-d-ormuz-les-etats-unis-ont-repondu-a-la-derniere-offre-de-l-iran-6FWYUF67GBA5VA5PNR6N6FI56A/",
+      "published_at": "2026-09-30T08:11:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
