@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:03:51.634577+02:00",
+  "generated_at": "2026-09-30T12:14:05.016613+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -598,9 +598,9 @@
         "Reuters"
       ],
       "countries": [
-        "Afrique du Sud",
         "Égypte",
-        "Éthiopie"
+        "Éthiopie",
+        "Afrique du Sud"
       ]
     },
     {
@@ -31537,6 +31537,197 @@
       ],
       "url": "https://www.msn.com/fr-fr/finance/economie/france-linflation-ipch-accélère-à-34-en-septembre-avec-les-prix-de-lénergie/ar-AA2dgfNf",
       "published_at": "2026-09-30T03:57:30+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le tribunal commercial américain doit examiner la contestation des tarifs douaniers imposés par Trump. Par Dietrich Knauth NEW YORK, 30 septembre (Reuters) - La Cour américaine du commerce international entendra mercredi une contestation des droits de douane imposés par le président Donald Trump (États-Unis) sur les marchandises provenant de 60 partenaires commerciaux qu'il accuse…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/companies/us-trade-court-to-weigh-challenge-to-trumps-forced-labor-tariffs/ar-AA2dggFs",
+      "published_at": "2026-09-30T05:05:43+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Trump fait face à une résistance bipartite concernant un éventuel allègement des sanctions russes. Un groupe bipartisan de législateurs américains a exhorté le 29 septembre le président Donald Trump (États-Unis) à ne pas assouplir les sanctions contre la Russie, alors que son administration envisageait d'alléger les sanctions en échange de…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-faces-bipartisan-pushback-over-095118619.html",
+      "published_at": "2026-09-30T04:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'inflation italienne dépasse les 4%, un casse-tête pour le Premier ministre Meloni. Les prix à la consommation harmonisés dans l'UE (IPCH) italiens ont augmenté de 2,0 % en septembre par rapport au mois précédent, le taux d'inflation annuel passant à 4,1 %, contre 3,2 % en août, dans un contexte de coûts énergétiques exorbitants dus à…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/europe/italian-inflation-surges-above-4-headache-pm-meloni-2026-09-30/",
+      "published_at": "2026-09-30T04:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Si la Floride pouvait réduire la taxe sur l’essence sous Biden, pourquoi pas maintenant ? | Avis. Boca Raton affirme que l’allègement de la taxe sur l’essence adopté par la Floride lorsque les prix ont grimpé sous l’administration Biden est tout aussi nécessaire aujourd’hui.",
+      "sources": [
+        "Sun Sentinel — fiabilité 6/10"
+      ],
+      "url": "https://www.sun-sentinel.com/2026/09/30/if-florida-could-cut-the-gas-tax-under-biden-why-not-now-opinion/",
+      "published_at": "2026-09-30T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Irak",
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’Iran fait appel aux électeurs américains alors que les troupes américaines quittent l’Irak. L'Iran a publié une lettre exhortant les Américains à rejeter la guerre du président Donald Trump (États-Unis), tout en célébrant le départ…",
+      "sources": [
+        "theadvocate.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.theadvocate.com.au/story/9360455/iran-appeals-to-us-voters-as-american-troops-leave-iraq/",
+      "published_at": "2026-09-30T11:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Émirats arabes unis",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"Octane Rent vous lance\". S. Opérations avec Miami Expansion. La société de location de voitures de luxe basée à Dubaï (Émirats arabes unis) apporte sa flotte de plus de 400 véhicules et 31 marques en Floride, prolongeant ainsi un modèle construit sur 27 ans d'histoire d'exploitation combinée. Octane Rent, la société de location de voitures de luxe basée à Dubaï avec 27 ans d'expérience cumulée, a étendu ses opérations à Miami, en Floride, marquant ainsi sa première entrée sur le marché américain.",
+      "sources": [
+        "manilatimes.net — fiabilité 6/10"
+      ],
+      "url": "https://www.manilatimes.net/2026/09/30/tmt-newswire/globenewswire/octane-rent-launches-us-operations-with-miami-expansion/2435821",
+      "published_at": "2026-09-30T11:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Iran",
+        "Israël",
+        "Émirats arabes unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’Iran met en garde contre les conséquences dangereuses du voyage du Premier ministre Benjamin Netanyahu (Israël) aux Émirats arabes unis. Alors que le conflit dans le golfe Persique continue d'avoir un impact et de façonner la région, les journalistes de la salle de presse centrale de RFE/RL et du service iranien Radio Farda,",
+      "sources": [
+        "texasguardian.com — fiabilité 6/10"
+      ],
+      "url": "http://www.texasguardian.com/news/279342443/iran-warns-of-dangerous-consequences-of-netanyahu-trip-to-uae",
+      "published_at": "2026-09-30T11:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Burundi",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Burundi accepte d'accueillir des migrants expulsés des USA. Le pays rejoint la liste des pays africains ayant conclu un accord migratoire avec l'administration du président Donald Trump (États-Unis).",
+      "sources": [
+        "Africanews via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-be/actualite/other/le-burundi-accepte-daccueillir-des-migrants-expulsés-des-usa/ar-AA2dfOAo",
+      "published_at": "2026-09-30T04:56:15+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : le ministre ukrainien de la défense annule sa visite en Allemagne. Evgueniï Khmara, ministre ukrainien de la Défense, a annulé ses visites prévues à Berlin et Oslo le 29 septembre 2026 en raison de l'intensification des frappes russes sur Kiev. Cette décision intervi …",
+      "sources": [
+        "Politique Matin via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/guerre-en-ukraine-le-ministre-ukrainien-de-la-défense-annule-sa-visite-en-allemagne/ar-AA2dgazk",
+      "published_at": "2026-09-30T03:42:20+02:00",
       "origin": "rss",
       "content_enriched": true
     },
