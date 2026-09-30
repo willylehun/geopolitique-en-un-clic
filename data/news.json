@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T23:15:35.979011+02:00",
+  "generated_at": "2026-09-30T23:25:48.702524+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -32093,10 +32093,11 @@
       "category": "Géopolitique",
       "summary": "Elle devient la première cheffe de gouvernement au Maroc : qui est Fatima Ezzahra El Mansouri ?. [VIDÉO] Le roi du Maroc Mohammed VI a nommé mardi Fatima Ezzahra El Mansouri Première ministre. Âgée de 50 ans, elle avait été élue maire de Marrakech en 2009, une première dans l'histoire de la ville …",
       "sources": [
-        "TF1 INFO — fiabilité 6/10"
+        "TF1 INFO — fiabilité 6/10",
+        "France 24 (média public) — fiabilité 8/10"
       ],
       "url": "https://www.tf1info.fr/international/elle-devient-la-premiere-cheffe-de-gouvernement-au-maroc-qui-est-fatima-ezzahra-el-mansouri-2467208.html",
-      "published_at": "2026-09-30T05:32:00+02:00",
+      "published_at": "2026-09-30T13:00:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -36650,6 +36651,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -37279,9 +37281,10 @@
       "bucket": "30 septembre 2026",
       "score": 6,
       "category": "Énergie",
-      "summary": "Glencore, Peabody et Heeney Capital évaluent les accords sur le charbon au Venezuela, rapporte Bloomberg News. Glencore, Peabody Energy et la société d'investissement Heeney Capital envisagent des accords pour produire du charbon au Venezuela, a rapporté mercredi Bloomberg News.",
+      "summary": "Glencore, Peabody et Heeney Capital évaluent les accords sur le charbon au Venezuela, rapporte Bloomberg News. Glencore (LON : GLEN), Peabody Energy (NYSE : BTU) et la société d'investissement Heeney Capital envisagent des accords pour produire du charbon au Venezuela, a rapporté mercredi Bloomberg News.",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "MINING.COM — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/business/energy/glencore-peabody-heeney-capital-weigh-venezuela-coal-deals-bloomberg-news-2026-09-30/",
       "published_at": "2026-09-30T12:11:00+02:00",
@@ -40681,6 +40684,254 @@
       "countries": [
         "Corée du Sud"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Burnham laisse entendre que le Royaume-Uni pourrait rejoindre l’UE. Le Premier ministre britannique Andy Burnham a indiqué que son gouvernement pourrait envisager de réintégrer l'Union européenne.",
+      "sources": [
+        "NHK (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www3.nhk.or.jp/nhkworld/news/20261001de53518/",
+      "published_at": "2026-09-30T16:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement défend l'achat de 45 véhicules pare-balles pour le sommet de l'OCSPublié le : 30 septembre 2026 23:23. Pakistan, 30 septembre -- Le gouvernement fédéral a défendu sa décision d'acheter 45 véhicules pare-balles pour le sommet de l'Organisation de coopération de Shanghai (OCS).",
+      "sources": [
+        "Daily Times via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-xl/asia/pakistan/govt-defends-purchase-of-45-bulletproof-vehicles-for-sco-summitpublished-on-september-30-2026-1123-pm/ar-AA2dinwE",
+      "published_at": "2026-09-30T04:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pakistan"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La Russie avertit que les usines européennes darmement destinées à lUkraine sont des cibles militaires potentielles. Une usine d'armement n'a pas besoin de se trouver en Ukraine pour devenir un objectif aux yeux de Moscou. En effet, la porte-parole de la diplomatie russe, Maria Zakharova, a déclaré ce mercredi 30 septembre, lors d'un point de presse, que les sites européens qui fabriquent des armes pour Kiev pouva",
+      "sources": [
+        "lanouvelletribune.info — fiabilité 6/10"
+      ],
+      "url": "https://lanouvelletribune.info/2026/09/la-russie-avertit-que-les-usines-europeennes-darmement-destinees-a-lukraine-sont-des-cibles-militaires-potentielles/",
+      "published_at": "2026-09-30T23:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Dominique"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Briggs : Roseau contre . La rivalité sur la route de guerre s'attaque à Washington. Deux vétérans ont apporté un peu de rivalité au hockey – et beaucoup de rires – lors de leur escadrille d'honneur.",
+      "sources": [
+        "duluthnewstribune.com — fiabilité 6/10"
+      ],
+      "url": "https://www.duluthnewstribune.com/lifestyle/briggs-roseau-vs-warroad-rivalry-takes-on-washington",
+      "published_at": "2026-09-30T23:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Canada a importé pour 63 $. 3 milliards de biens liés au travail des enfants et au travail forcé risquent d'être vendus en 2025. /CNW/ -- Alors que le Canada s'efforce activement de diversifier ses relations commerciales et de bâtir une économie plus résiliente, Vision Mondiale Canada affirme que de nouvelles opportunités commerciales…",
+      "sources": [
+        "newswire.ca — fiabilité 6/10"
+      ],
+      "url": "https://www.newswire.ca/news-releases/canada-imported-63-3-billion-in-goods-linked-to-child-and-forced-labour-risk-in-2025-855535587.html",
+      "published_at": "2026-09-30T23:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Ecopetrol busca negocios en Venezuela con Joaquín Gutiérrez. El presidente de Ecopetrol, Joaquín Gutiérrez Caballero, participa en el Congreso Internacional de Petróleo y Gas que se desarrolla en Caracas, Venezuela, …",
+      "sources": [
+        "lafm.com.co — fiabilité 6/10"
+      ],
+      "url": "https://www.lafm.com.co/economia/ecopetrol-joaquin-gonzalez-negocios-venezuela-412582",
+      "published_at": "2026-09-30T23:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le Nigeria ne peut pas se permettre de jouer avec le secteur électrique Shettima. Le vice-président Kashim Shettima a déclaré que le Nigeria ne pouvait pas se permettre de jouer avec sa sécurité énergétique, soulignant qu'un système électrique fiable",
+      "sources": [
+        "tribuneonlineng.com — fiabilité 6/10"
+      ],
+      "url": "https://tribuneonlineng.com/nigeria-cant-afford-to-gamble-with-power-sector-shettima/",
+      "published_at": "2026-09-30T23:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Malte"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "À Malte, l’acquittement du commanditaire présumé de l’assassinat de la journaliste Daphne Caruana Galizia ravive les fractures de la société. Après le plus long procès pour meurtre de l'histoire maltaise, l'acquittement de Yorgen Fenech laisse l'assassinat de Daphne Caruana Galizia sans commanditaire – et Malte face à ses propres failles.",
+      "sources": [
+        "Voxeurop — fiabilité 6/10"
+      ],
+      "url": "https://voxeurop.eu/fr/justice-malte-assassinat-journaliste-daphne-caruana-galizia/",
+      "published_at": "2026-09-30T09:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Malte"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "« C’était à l’opposé de ce que j’avais imaginé » : elle rêvait de retraite à Malte, elle en repart après un mois. Louise Slyth voulait finir sa vie au soleil à Malte. Après un mois d'essai, elle plie bagage : foule, manque de verdure, budget. Son récit.",
+      "sources": [
+        "Tribunal Du Net — fiabilité 6/10"
+      ],
+      "url": "https://www.letribunaldunet.fr/voyage/retraite-malte-desillusion-louise-slyth.html",
+      "published_at": "2026-09-30T02:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Monaco"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Monaco : Actualité, Mercato, Transfert, Résultats.. L'AS Monaco préparerait un gros coup double sur le marché des transferts. Histoire de concrétiser un peu plus son gros début de saison sous la houlette de Filipe Luis. Lire la suite …",
+      "sources": [
+        "live foot — fiabilité 6/10"
+      ],
+      "url": "https://www.livefoot.fr/france/ligue1/as-monaco.php",
+      "published_at": "2026-09-30T16:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Pays-Bas",
+        "Palestine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Pays-Bas : Pour un responsable juif, l’embargo sur les implantations est un signe supplémentaire de l’hostilité croissante du pays. Un officiel de la communauté juive affirme que les restrictions sur les produits provenant de Cisjordanie (Palestine) s’inscrivent dans une tendance plus large qui a rendu la vie \"difficile et désagréable\" pour l …",
+      "sources": [
+        "The Times of Israël — fiabilité 6/10"
+      ],
+      "url": "https://fr.timesofisrael.com/pays-bas-pour-un-responsable-juif-lembargo-sur-les-implantations-est-un-signe-supplementaire-de-lhostilite-croissante-du-pays/",
+      "published_at": "2026-09-30T10:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Pays-Bas"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "RWE prend la décision finale d'investissement pour un projet de stockage par batteries de 400 MW/1,1 GWh aux Pays-Bas. Le 21 septembre, RWE a pris la décision finale d'investissement pour construire un système de stockage d'énergie par batteries lithium-ion de 400 MW/1,1 GWh sur sa centrale de Moerdijk …",
+      "sources": [
+        "Shanghai Metals Market — fiabilité 6/10"
+      ],
+      "url": "https://news.metal.com/fr/newscontent/104140155-rwe-prend-la-décision-finale-dinvestissement-pour-un-projet-de-stockage-par-batteries-de-400-mw11-gwh-aux-pays-bas",
+      "published_at": "2026-09-30T03:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
