@@ -10,6 +10,11 @@ from html.parser import HTMLParser
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+try:
+    import httpx
+except ImportError:  # urllib fallback for local environments without HTTP/2 extras.
+    httpx=None
+
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"/"news.json"
 COUNTRY_COVERAGE=ROOT/"data"/"country-coverage.json"
@@ -1123,6 +1128,25 @@ def decode_google_news_direct_id(art_id):
     return ""
 
 def _request_google_page(url):
+    headers={
+        "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36",
+        "Accept":"text/html,application/xhtml+xml",
+        "Accept-Language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+    }
+    if httpx is not None:
+        current=url
+        with httpx.Client(http2=True,follow_redirects=False,timeout=10,headers=headers) as client:
+            for _ in range(4):
+                response=client.get(current,follow_redirects=False)
+                if response.status_code in (301,302,303,307,308):
+                    destination=urllib.parse.urljoin(current,response.headers.get("location", ""))
+                    if urllib.parse.urlparse(destination).hostname=="news.google.com":
+                        current=destination
+                        continue
+                    return destination,""
+                response.raise_for_status()
+                return str(response.url),response.content[:400000].decode("utf-8","replace")
+        return current,""
     req=urllib.request.Request(url,headers={
         "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36",
         "Accept":"text/html,application/xhtml+xml",
@@ -1173,15 +1197,22 @@ def _post_google_article_decode(art_id, timestamp, signature):
     inner=["garturlreq",context,art_id,int(timestamp) if str(timestamp).isdigit() else timestamp,signature]
     envelope=["Fbv4je",json.dumps(inner,separators=(",",":")),None,"0"]
     f_req=json.dumps([[envelope]],separators=(",",":"))
-    req=urllib.request.Request(
-        "https://news.google.com/_/DotsSplashUi/data/batchexecute",
-        data=("f.req="+urllib.parse.quote(f_req,safe="")).encode("utf-8"),
-        headers={
-          "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36",
-          "Content-Type":"application/x-www-form-urlencoded;charset=UTF-8",
-          "Referer":"https://news.google.com/"
-        }
-    )
+    headers={
+      "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36",
+      "Content-Type":"application/x-www-form-urlencoded;charset=UTF-8",
+      "Referer":"https://news.google.com/"
+    }
+    body="f.req="+urllib.parse.quote(f_req,safe="")
+    if httpx is not None:
+        with httpx.Client(http2=True,timeout=10,headers={"User-Agent":headers["User-Agent"]}) as client:
+            response=client.post(
+                "https://news.google.com/_/DotsSplashUi/data/batchexecute",
+                content=body,
+                headers={k:v for k,v in headers.items() if k!="User-Agent"}
+            )
+            response.raise_for_status()
+            return response.text
+    req=urllib.request.Request("https://news.google.com/_/DotsSplashUi/data/batchexecute",data=body.encode("utf-8"),headers=headers)
     with urllib.request.urlopen(req,timeout=10) as response:
         return response.read().decode("utf-8","replace")
 

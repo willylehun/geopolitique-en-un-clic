@@ -26,6 +26,22 @@ class FakeResponse:
     def geturl(self): return self.url
     def read(self,_size=-1): return self.body
 
+class FakeHTTPXResponse:
+    status_code=200
+    headers={}
+    url="https://news.google.com/rss/articles/test"
+    content=b"<html>article splash</html>"
+    text="rpc response"
+    def raise_for_status(self): pass
+
+class FakeHTTPXClient:
+    options=[]
+    def __init__(self,**kwargs): self.options.append(kwargs)
+    def __enter__(self): return self
+    def __exit__(self,*_args): return False
+    def get(self,*_args,**_kwargs): return FakeHTTPXResponse()
+    def post(self,*_args,**_kwargs): return FakeHTTPXResponse()
+
 class GoogleNewsDecodeTests(unittest.TestCase):
     def setUp(self):
         news.GOOGLE_NEWS_URL_CACHE.clear()
@@ -89,9 +105,21 @@ class GoogleNewsDecodeTests(unittest.TestCase):
             self.assertEqual(news.decode_google_news_url(source),"https://publisher.example/world/story")
         self.assertEqual(get_page.call_args.args[0],f"https://news.google.com/rss/articles/{article_id}?hl=de-DE&gl=DE&ceid=DE%3Ade")
 
+    def test_google_requests_use_http2_transport_when_available(self):
+        FakeHTTPXClient.options=[]
+        fake_httpx=type("FakeHTTPX",(),{"Client":FakeHTTPXClient})
+        with patch.object(news,"httpx",fake_httpx):
+            final_url,body=news._request_google_page("https://news.google.com/rss/articles/test")
+            rpc=news._post_google_article_decode(RECENT_ARTICLE_IDS[0],"1790722000","signature")
+        self.assertEqual(final_url,"https://news.google.com/rss/articles/test")
+        self.assertIn("article splash",body)
+        self.assertEqual(rpc,"rpc response")
+        self.assertEqual(len(FakeHTTPXClient.options),2)
+        self.assertTrue(all(options["http2"] for options in FakeHTTPXClient.options))
+
     def test_batchexecute_request_uses_expected_rpc_envelope(self):
         article_id=RECENT_ARTICLE_IDS[0]
-        with patch.object(news.urllib.request,"urlopen",return_value=FakeResponse("ok","https://news.google.com")) as urlopen:
+        with patch.object(news,"httpx",None), patch.object(news.urllib.request,"urlopen",return_value=FakeResponse("ok","https://news.google.com")) as urlopen:
             news._post_google_article_decode(article_id,"1790722000","signature")
         req=urlopen.call_args.args[0]
         form=json.loads(news.urllib.parse.parse_qs(req.data.decode())["f.req"][0])
