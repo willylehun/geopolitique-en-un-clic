@@ -36,11 +36,12 @@ class FakeHTTPXResponse:
 
 class FakeHTTPXClient:
     options=[]
+    requests=[]
     def __init__(self,**kwargs): self.options.append(kwargs)
     def __enter__(self): return self
     def __exit__(self,*_args): return False
-    def get(self,*_args,**_kwargs): return FakeHTTPXResponse()
-    def post(self,*_args,**_kwargs): return FakeHTTPXResponse()
+    def get(self,*args,**kwargs): self.requests.append(("get",args,kwargs)); return FakeHTTPXResponse()
+    def post(self,*args,**kwargs): self.requests.append(("post",args,kwargs)); return FakeHTTPXResponse()
 
 class GoogleNewsDecodeTests(unittest.TestCase):
     def setUp(self):
@@ -107,6 +108,7 @@ class GoogleNewsDecodeTests(unittest.TestCase):
 
     def test_google_requests_use_http2_transport_when_available(self):
         FakeHTTPXClient.options=[]
+        FakeHTTPXClient.requests=[]
         fake_httpx=type("FakeHTTPX",(),{"Client":FakeHTTPXClient})
         with patch.object(news,"httpx",fake_httpx):
             final_url,body=news._request_google_page("https://news.google.com/rss/articles/test")
@@ -116,7 +118,12 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         self.assertEqual(rpc,"rpc response")
         self.assertEqual(len(FakeHTTPXClient.options),2)
         self.assertTrue(all(options["http2"] for options in FakeHTTPXClient.options))
-        self.assertTrue(all("headers" not in options for options in FakeHTTPXClient.options))
+        get_headers=FakeHTTPXClient.requests[0][2]["headers"]
+        post_headers=FakeHTTPXClient.requests[1][2]["headers"]
+        self.assertEqual(get_headers["User-Agent"],news.GOOGLE_NEWS_REQUEST_HEADERS["User-Agent"])
+        self.assertEqual(get_headers["Sec-Fetch-Mode"],"navigate")
+        self.assertEqual(post_headers["Sec-Fetch-Mode"],"cors")
+        self.assertEqual(post_headers["Origin"],"https://news.google.com")
 
     def test_batchexecute_request_uses_expected_rpc_envelope(self):
         article_id=RECENT_ARTICLE_IDS[0]
