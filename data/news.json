@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T17:56:09.417360+02:00",
+  "generated_at": "2026-09-30T18:06:26.426974+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -32331,10 +32331,11 @@
       "bucket": "30 septembre 2026",
       "score": 8,
       "category": "Économie",
-      "summary": "France : l'inflation grimpe à 3% sur un an en septembre, selon l'Insee. Paris (France) (AFP) – Les prix à la consommation ont augmenté de 3% sur un an en septembre, contre une hausse de 2,4% en août, selon une estimation provisoire publiée mercredi par l'Institut national …",
+      "summary": "France : l'inflation grimpe à 3 % sur un an en septembre, selon l'Insee. Les prix à la consommation ont augmenté de 3% sur un an en septembre, contre une hausse de 2,4% en août, selon une estimation provisoire publiée mercredi par l'Institut national de la statistique et d …",
       "sources": [
         "France 24 (média public) — fiabilité 8/10",
-        "Le Dauphiné Libéré — fiabilité 6/10"
+        "Le Dauphiné Libéré — fiabilité 6/10",
+        "AFP via MSN — fiabilité 7/10"
       ],
       "url": "https://www.france24.com/fr/info-en-continu/20260930-france-l-inflation-grimpe-à-3-sur-un-an-en-septembre-selon-l-insee",
       "published_at": "2026-09-30T04:18:00+02:00",
@@ -35141,7 +35142,8 @@
       "url": "https://www.lesechos.fr/economie-france/conjoncture/la-baisse-du-pouvoir-dachat-touchera-beaucoup-plus-de-menages-la-grande-inquietude-des-francais-face-a-linflation-2254270",
       "published_at": "2026-09-30T08:08:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -36205,6 +36207,326 @@
       ],
       "url": "https://www.lavoixdelest.ca/affaires/2026/09/30/detroit-d-ormuz-les-etats-unis-ont-repondu-a-la-derniere-offre-de-l-iran-6FWYUF67GBA5VA5PNR6N6FI56A/",
       "published_at": "2026-09-30T08:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’Iran mobilise les femmes pour la guerre, les volontaires de Téhéran s’entraînent avec des fusils, des drones FPV et des armes antichar. New Delhi, 30 septembre -- L'Iran étend sa campagne de mobilisation Janfada, les femmes recevant apparemment une formation de type militaire impliquant des fusils, des drones FPV et des armes antichar. Images diffusées…",
+      "sources": [
+        "Hindustan Times via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/iran-mobilises-women-for-war-tehran-volunteers-train-with-rifles-fpv-drones-and-anti-tank-weapons/vi-AA2dfUfq",
+      "published_at": "2026-09-30T10:59:34+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La faiblesse de l’économie devrait limiter les hausses de taux de la Banque du Canada : Capital Economics. L'incertitude commerciale et le ralentissement des niveaux d'immigration pourraient empêcher la Banque du Canada de trop augmenter les taux d'intérêt dans les mois à venir.",
+      "sources": [
+        "The Hamilton Spectator — fiabilité 6/10"
+      ],
+      "url": "https://www.thespec.com/business/soft-economy-should-limit-bank-of-canada-s-rate-hikes-capital-economics/article_0155c19c-f949-5974-9c6b-4700cacede12.html",
+      "published_at": "2026-09-30T10:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre Modi et Trump examinent la coopération bilatérale et réaffirment leur engagement à faire progresser le partenariat stratégique mondial global entre l'Inde et les États-Unis. Le Premier ministre Narendra Modi (Inde) a eu mercredi une conversation téléphonique avec le président Donald Trump (États-Unis) et a passé en revue les progrès de la coopération bilatérale dans les domaines du commerce, de la défense, de l'énergie et des domaines critiques.",
+      "sources": [
+        "ddindia — fiabilité 6/10"
+      ],
+      "url": "https://ddindia.co.in/2026/09/pm-modi-trump-review-bilateral-cooperation-reaffirm-commitment-to-advancing-india-us-comprehensive-global-strategic-partnership/",
+      "published_at": "2026-09-30T09:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Trump s'apprête à dévoiler un investissement sud-coréen de 200 milliards de dollars aux États-Unis, rapporte Bloomberg News. Le président Donald Trump (États-Unis) devrait dévoiler des plans d'investissements sud-coréens d'une valeur de 200 milliards de dollars dans des projets énergétiques à travers les États-Unis, couvrant des centrales nucléaires, une production d'électricité…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/trump-set-unveil-200-billion-south-korean-investment-us-bloomberg-news-reports-2026-09-30/",
+      "published_at": "2026-09-30T09:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "L'Inde approuve 19 milliards de dollars pour un programme d'énergies renouvelables. NEW DELHI, 30 septembre (Reuters) - Le cabinet indien a approuvé un programme d'énergie renouvelable de 1,86 billion de roupies (19,42 milliards de dollars) pour aider à améliorer les réseaux existants et à ajouter du stockage, selon les informations du pays…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/general/india-approves-19-billion-for-renewable-energy-programme/ar-AA2dgCbY",
+      "published_at": "2026-09-30T07:30:11+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le propriétaire américain de Stelco devra faire face à « toute la rigueur de la loi » en cas de licenciements : PM Carney. Le premier ministre Mark Carney a déclaré que le gouvernement fédéral utiliserait « tous les pouvoirs » à sa disposition pour poursuivre les propriétaires américains de Stelco « dans toute la mesure de la loi ».",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/business/stelco-layoffs-legal-carney-9.7363928",
+      "published_at": "2026-09-30T10:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "REGARDER EN DIRECT : AG Blanche et le secrétaire du DHS Mullin dévoilent de nouvelles actions pour sécuriser les élections. Les responsables du DOJ détaillent les récentes poursuites et enquêtes impliquant des violations présumées de la loi électorale fédérale alors que l’administration du président Donald Trump (États-Unis) étend ses efforts en matière d’intégrité électorale.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6405965842112",
+      "published_at": "2026-09-30T08:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'administration Trump envisage de réduire le projet de frontière dans le parc national Big Bend au Texas.",
+      "sources": [
+        "ABC News — fiabilité 7/10"
+      ],
+      "url": "https://abcnews.com/US/wireStory/trump-administration-considers-scaling-back-border-project-texas-136890653",
+      "published_at": "2026-09-30T03:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les dirigeants africains annoncent la raffinerie de pétrole Dangote au Kenya, d’une valeur de 16 milliards de dollars. Une raffinerie de pétrole sur la côte kenyane devrait être achevée dans 40 mois et traitera environ 700 000 barils de pétrole par jour. L'homme le plus riche d'Afrique, Aliko Dangote, dirigera le projet.",
+      "sources": [
+        "DW via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/other/african-leaders-herald-16b-dangote-oil-refinery-in-kenya/ar-AA2dhBst",
+      "published_at": "2026-09-30T10:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Kenya"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Meloni fait face à un vote crucial alors que les législateurs débattent d'une réforme électorale contestée. Le Parlement italien a entamé mercredi ses dernières délibérations sur les projets de la présidente du Conseil Giorgia Meloni (Italie) concernant une nouvelle loi électorale qui pourrait aider sa coalition de droite à obtenir une autre majorité.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/meloni-faces-crunch-vote-lawmakers-143339690.html",
+      "published_at": "2026-09-30T09:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Italie"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’une des plus grandes villes du monde s’effondre sous son propre poids. Huit villes énormes. Des millions de personnes. Et des catastrophes qu’il est peut-être déjà impossible d’arrêter complètement. Jakarta coule tandis que le gouvernement s'apprête à déplacer sa capitale. La Nouvelle-Orléans reste…",
+      "sources": [
+        "Sideprojects via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-za/news/other/one-of-the-world-s-largest-cities-is-sinking-beneath-its-own-weight-95-of-north-jakarta-could-be-submerged/vi-AA29RclI",
+      "published_at": "2026-09-30T09:20:16+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "La société australienne Amplitude Energy approuve la décision finale d'investissement pour le projet East Coast Supply. Le producteur de gaz australien Amplitude Energy a annoncé mercredi avoir pris une décision finale d'investissement sur la phase de développement du projet d'approvisionnement de la côte Est, « qui comprend la construction de…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/australias-amplitude-energy-approves-final-investment-decision-east-coast-supply-2026-09-30/",
+      "published_at": "2026-09-30T06:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : des coupures d’urgence d’électricité à Kiev et dans trois régions d’Ukraine après de nouvelles attaques russes. Ces coupures dans certains secteurs de la capitale ukrainienne et des régions de Kiev, Tchernihiv et Jytomyr ont été décidées par l’opérateur Ukrenergo en raison d’une surcharge des équipements provoq …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/09/30/en-direct-guerre-en-ukraine-des-coupures-d-urgence-d-electricite-a-kiev-et-dans-trois-regions-d-ukraine-apres-de-nouvelles-attaques-russes_6783795_3210.html",
+      "published_at": "2026-09-30T10:59:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "L’Allemagne ordonne à SEFE d’ajouter 8 TWh de gaz au stockage.",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/energy/articles/germany-orders-sefe-add-8-143000452.html",
+      "published_at": "2026-09-30T09:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Enquête de l'AP : les avertissements ont été ignorés alors que les tours côtières du Venezuela étaient confrontées à des forces sismiques qu'elles ne pouvaient pas supporter. Les scientifiques avaient averti le gouvernement de ne pas construire le long de la bande côtière vénézuélienne de La Guaira. Les communautés caribéennes côtières de la région, non loin de Caracas, se trouvaient à proximité d'une ligne de faille majeure et d'un …",
+      "sources": [
+        "The Virginian-Pilot — fiabilité 6/10"
+      ],
+      "url": "https://www.pilotonline.com/2026/09/30/venezuela-coastal-towers-earthquakes/",
+      "published_at": "2026-09-30T09:59:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Ouganda"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Home»Administration»Ouganda : un monopole sur les plaques d’immatriculation dénoncé. La principale organisation patronale représentant le secteur manufacturier en Ouganda a appelé le Parlement à examiner la situation de monopole dont jouit une entreprise étrangère fabriquant des plaqu …",
+      "sources": [
+        "APAnews — fiabilité 6/10"
+      ],
+      "url": "https://fr.apanews.net/russie/ouganda-un-monopole-sur-les-plaques-dimmatriculation-denonce/",
+      "published_at": "2026-09-30T10:09:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
