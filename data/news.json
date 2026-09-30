@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:33:10.421174+02:00",
+  "generated_at": "2026-09-30T11:43:26.013089+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -8519,8 +8519,8 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Népal",
+        "Chine",
         "Inde"
       ]
     },
@@ -16239,8 +16239,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Afrique",
+        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -16255,8 +16255,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Kenya",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -20275,8 +20275,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Japon",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Japon"
       ]
     },
     {
@@ -26468,8 +26468,8 @@
         "International"
       ],
       "countries": [
-        "Japon",
-        "Syrie"
+        "Syrie",
+        "Japon"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28662,13 +28662,13 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Chine",
         "Espagne",
-        "Allemagne"
+        "Allemagne",
+        "Chine"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -30502,7 +30502,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "countries": [
@@ -31122,7 +31121,8 @@
       "url": "https://www.msn.com/en-us/news/other/russian-troops-break-through-ukraine-s-lines-on-motorcycles-then-the-assault-collapses-into-grenades-drones-and-surrender/vi-AA2dfDLf",
       "published_at": "2026-09-30T03:31:05+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -31305,6 +31305,86 @@
       ],
       "url": "https://www.armenews.com/ces-dernieres-semaines-la-hausse-du-prix-de-lessence-en-armenie-est-sans-commune-mesure-avec-les-fluctuations-du-marche-international/",
       "published_at": "2026-09-30T03:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Turquie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Scandale financier en Turquie: les avoirs d’une ex-ministre gelés. La justice turque a annoncé mercredi le gel des avoirs d’une ex-ministre et numéro deux du parti du président Recep Tayyip Erdogan, dans le cadre d’un scandale boursier qui secoue l’échiquier …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/300926/scandale-financier-en-turquie-les-avoirs-d-une-ex-ministre-geles",
+      "published_at": "2026-09-30T03:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Turquie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Turquie : le président Erdogan officiellement candidat à sa réélection début 2028. Le leader turc, au pouvoir depuis 24 ans comme Premier ministre puis chef de l’État, entend briguer un nouveau mandat, en mettant à profit la faiblesse de son opposition.",
+      "sources": [
+        "Ouest-France — fiabilité 6/10"
+      ],
+      "url": "https://www.ouest-france.fr/monde/turquie/recep-tayyip-erdogan/turquie-le-president-erdogan-officiellement-candidat-a-sa-reelection-debut-2028-1c864f92-bbfe-11f1-8ea4-97dc4d7cca62",
+      "published_at": "2026-09-30T00:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Ebola en RDC : l’épidémie dépasse les 8 000 cas confirmés.",
+      "sources": [
+        "Maliactu — fiabilité 6/10"
+      ],
+      "url": "https://maliactu.net/ebola-en-rdc-lepidemie-depasse-les-8-000-cas-confirmes/",
+      "published_at": "2026-09-30T04:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Maroc : Fatima Ezzahra El Mansouri, première femme à la tête du gouvernement. Fatima Ezzahra El Mansouri a été choisie pour diriger le gouvernement marocain, devenant la première femme de l’histoire du royaume à accéder à cette fonction.",
+      "sources": [
+        "Africanews via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/maroc-fatima-ezzahra-el-mansouri-première-femme-à-la-tête-du-gouvernement/ar-AA2dd82B",
+      "published_at": "2026-09-30T03:06:47+02:00",
       "origin": "rss",
       "content_enriched": true
     },
