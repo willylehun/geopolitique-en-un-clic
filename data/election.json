@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T04:22:00.421752+02:00",
+  "generated_at": "2026-09-30T10:44:18.573219+02:00",
   "timezone": "Europe/Paris",
   "election": "Présidentielle française 2027",
   "official_list": false,
@@ -44,7 +44,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://rassemblementnational.fr/lettre-ouverte",
         "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.lemonde.fr/en/politics/article/2026/09/07/2027-french-presidential-election-marine-le-pen-focuses-on-ac-and-sovereignty-to-tackle-climate-change_6757228_5.html"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Députée du Pas-de-Calais et ancienne présidente du Front national puis du Rassemblement national. Candidate aux présidentielles de 2012, 2017 et 2022, elle porte une ligne nationaliste axée notamment sur l’immigration, la sécurité, la souveraineté et le pouvoir d’achat.",
       "controversies": [
         {
@@ -226,23 +226,23 @@
       "background_searched_at": "2026-09-30T04:22:00.421752+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://rassemblementnational.fr/lettre-ouverte",
           "label": "Source officielle",
           "status": "ok",
           "digest": "62e75826deb00ff8292ae17344f3d7615b420bec66508e1708ce4035fe0a319a",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://rassemblementnational.fr/programme-patriotes-pour-leurope"
           ]
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.lemonde.fr/en/politics/article/2026/09/07/2027-french-presidential-election-marine-le-pen-focuses-on-ac-and-sovereignty-to-tackle-climate-change_6757228_5.html",
           "label": "Entretien ou déclaration rapportée",
           "status": "ok",
           "digest": "9f048dac0f4b9a7f215003e29919161d603234a8c9d32ee8cd48c31bacfacfca",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         }
       ]
@@ -270,7 +270,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://www.parti-reconquete.fr/",
         "Source officielle — consultée le 29 septembre 2026 : https://leprogrammepourlafrance.fr/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Ancien journaliste et éditorialiste, candidat à la présidentielle de 2022 puis fondateur et président de Reconquête !. Sa ligne politique est nationaliste et identitaire, avec l’immigration, l’assimilation, la sécurité et la souveraineté au centre de ses prises de position.",
       "controversies": [
         {
@@ -424,24 +424,34 @@
       "background_searched_at": "2026-09-30T04:22:00.421752+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.parti-reconquete.fr/",
           "label": "Source officielle",
           "status": "ok",
-          "digest": "c5cf867ae3b7473d6c3c8fc2007e691eb7f78adddf28dbfc821db8276b2e822e",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "digest": "3f49685b07a1c8a04d47a479e2f23a16dd1df30fdff1a20104b75e841acfc2ff",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://leprogrammepourlafrance.fr/"
-          ]
+          ],
+          "changed_at": "2026-09-30T10:44:18.573219+02:00"
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://leprogrammepourlafrance.fr/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "ec8d178e504a6de634e3849c58ea90b53229002f07d18e5fff68fdacd4164516",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
+        }
+      ],
+      "program_source_changes": [
+        {
+          "date": "2026-09-30",
+          "detected_at": "2026-09-30T10:44:18.573219+02:00",
+          "url": "https://www.parti-reconquete.fr/",
+          "label": "Source officielle",
+          "summary": "Le contenu ou les documents liés de cette source ont changé. Les propositions modifiées restent à vérifier."
         }
       ]
     },
@@ -470,7 +480,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/",
         "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Ancien président du groupe Les Républicains au Sénat, ancien président du conseil régional des Pays de la Loire et ancien ministre de l’Intérieur. Président de LR, il défend une ligne de droite conservatrice, notamment sur l’autorité, la sécurité, l’immigration et les finances publiques.",
       "controversies": [
         {
@@ -632,24 +642,22 @@
       "background_searched_at": "2026-09-30T04:22:00.421752+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/",
           "label": "Source officielle",
           "status": "ok",
-          "digest": "c5a0e649b73bfb813b28fc0e30766fe69dcb8a4c5ebf84a35387229cf65f0536",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
-          "document_links": [
-            "https://republicains.fr/actualites/2025/10/22/bruno-retailleau-en-letat-le-projet-de-budget-est-invotable/"
-          ],
-          "changed_at": "2026-09-30T04:22:00.421752+02:00"
+          "digest": "26a2f4e95d3c9dd7273a67a20b86331c44c6e56cea36d5d028f4a4f1360ecdf0",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
+          "document_links": [],
+          "changed_at": "2026-09-30T10:44:18.573219+02:00"
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
           "label": "Entretien ou déclaration rapportée",
           "status": "ok",
           "digest": "a5a9ceeff85f67db663adde743801b7580c9ec4fbd05fde8bbf4326c4e646fcb",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://melenchon2027.fr/programme2025/livre/chapitre5/s3/",
             "https://www.lemonde.fr/societe/article/2026/08/25/gabriel-attal-je-souhaite-une-loi-de-programmation-pour-l-ecole-et-un-ministre-de-l-education-qui-restera-en-poste-cinq-ans_6756157_3224.html"
@@ -657,6 +665,13 @@
         }
       ],
       "program_source_changes": [
+        {
+          "date": "2026-09-30",
+          "detected_at": "2026-09-30T10:44:18.573219+02:00",
+          "url": "https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/",
+          "label": "Source officielle",
+          "summary": "Le contenu ou les documents liés de cette source ont changé. Les propositions modifiées restent à vérifier."
+        },
         {
           "date": "2026-09-30",
           "detected_at": "2026-09-30T04:22:00.421752+02:00",
@@ -698,7 +713,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://attalpresident.fr/programme/travail-salaires",
         "Source officielle — consultée le 29 septembre 2026 : https://attalpresident.fr/programme/dette-de-letat"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Député des Hauts-de-Seine, ancien ministre de l’Éducation nationale et Premier ministre en 2024. Secrétaire général de Renaissance, il se situe dans le bloc central et met notamment en avant l’école, le travail, les finances publiques et l’intégration européenne.",
       "controversies": [],
       "archived": false,
@@ -862,26 +877,26 @@
           "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-29T22:27:37.064664+02:00",
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T01:39:50.030682+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://attalpresident.fr/programme/education",
           "label": "Source officielle",
           "status": "ok",
           "digest": "958c1821059b052be54ebb609dee935ed261989d3fd2f7fe61f1b29c45ae60c4",
-          "successful_at": "2026-09-30T01:39:50.030682+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://attalpresident.fr/programme"
           ]
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://attalpresident.fr/programme/travail-salaires",
           "label": "Source officielle",
           "status": "ok",
           "digest": "45e0f46970f2df5b75476e649600510bde9d4b454cb0f037ab8eeffd65d87ed3",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://attalpresident.fr/programme"
           ]
@@ -926,7 +941,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
         "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Maire du Havre, ancien député et Premier ministre de 2017 à 2020. Fondateur d’Horizons, il vient de la droite modérée et construit une offre de centre droit autour de l’autorité, des finances publiques, du travail et de l’adaptation climatique.",
       "controversies": [
         {
@@ -974,6 +989,14 @@
         "Agriculture": "Propose de limiter la surtransposition des règles agricoles, de moderniser les exploitations et de créer 100 territoires de souveraineté alimentaire."
       },
       "background_discoveries": [
+        {
+          "title": "Présidentielle 2027 : Raphaël Glucksmann juge «injuste» le projet de réforme des retraites d'Edouard Philippe - CNews",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ2xRalpUZEFadTJzTUVhWWNzOWtiM1V3SXVfWUExbHV3a3g4R05LUHhyTVdqaTh6cTFjMjZwSzl6eUppeWFvTW1YYW5YdkFvT2dreG1ndjBrN0RFbV9BNXNma1pUMXAxTnZ4TkROOGp1eEhnS3pNTnBCbUZpUElrZmd3SFk5WTFsc3dhRkNON25FZzVYb1BqdllkSHRELS1RbkhfVENIQ3dzYUlRNzFkUnl4Um13d9IBuwFBVV95cUxPd1BXMkNuNkdEV1BGaV9GRTlnUmdnNTJjMkRNVlF6TWJSX2Jhd3BsUVo4SndPX3JkbEVUT1g4TVpwV2ZMME9LZDdLZkdBNkRyZFJpZ0c2WjhKeGNBR20wTm9GZVlCMFJmOUdRcVRTSjloaGpZdGI2N0VJR0NtUWRoVzBWUEJkU2hLZlZRc3duMjl0MW5pZUo0X2QzY1pZZW9IbndLbU02T2I5ME5KN1pacDFGNkRVUEdQWjIw?oc=5",
+          "source": "CNews",
+          "date": "2026-09-30",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
+          "status": "to_review"
+        },
         {
           "title": "Réforme des retraites : Edouard Philippe forcé de prendre des risques pour éviter l’écueil du favori fragile pour 2027 - Le Monde.fr",
           "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQQTBNT0JkSDNBZFhGVTdwcHliVmR4MS1NS1FTRjFXTk1wVFY3SDZSWUpVd0dlb3A0Y2RWdVlXd2JZSjZsNUtYaWl6RnduRDBOT1E2TEdMbkE4ZHRDb1VBaFlaeUdMVHM4Y1VBTjhlVlE3dy1iUHlsZk9jbks2QVhxb2N0X21GRWttUE9RQ0JXSVZXRzNnMFBXVGZpb0ROZGNrdXpZUjFtUGh1elJUaTRPU1JXLVRRUjBMLThlY1BZeThKbDMzYTZlUFZrOWlaSkxxZjVtajI2QkVBajRHblZIVXRPS0JCWFJqMTIxNWJ6SzBFY3kxRHFRS19WNTJBUDVZOV8zc181UFZGNVo0RTJRZ2hBeFpVMGc?oc=5",
@@ -1085,34 +1108,26 @@
           "date": "2026-09-17",
           "found_at": "2026-09-29T22:27:37.064664+02:00",
           "status": "to_review"
-        },
-        {
-          "title": "Présidentielle 2027 : au siège de sa campagne, Édouard Philippe avance avec son noyau de fidèles - Le Figaro",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPLVBWM24wOTl2dlFmOXlBOC1YUzVmbjVGOHNHN2lyNjRsWlRXbXFEWUhsdHZNWWxSTkFudW5hejJpQm9IenlSb25ITS1ibG02MEVIcDhwWkMyNmZiZXZtcEpFUkVSVE16U3BZM1BTUDk2RzFvR1pXSWRfeUJBS25TQTdKLWVKMWY1a0duLXZBRTFhSWQxNTJPY2w5bHljT1ZZWHNoZU80WksxRHJrSGp4TXh2OGRMZl9JRmg2aFRvMnhMX20zQzM4UmVsa3dqanRkMGNxcmlVenVNS0gyVVprZ1NGaEF1S3BuMFNfSU9GTFhMdF9m?oc=5",
-          "source": "Le Figaro",
-          "date": "2026-09-16",
-          "found_at": "2026-09-29T22:27:37.064664+02:00",
-          "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-29T22:27:37.064664+02:00",
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
           "label": "Source officielle",
           "status": "ok",
           "digest": "d2b37ee31986f9ec86ef0ae67fa641945d162817bd89fc83bf8d77edd8180736",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
           "label": "Entretien ou déclaration rapportée",
           "status": "ok",
           "digest": "a5a9ceeff85f67db663adde743801b7580c9ec4fbd05fde8bbf4326c4e646fcb",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://melenchon2027.fr/programme2025/livre/chapitre5/s3/",
             "https://www.lemonde.fr/societe/article/2026/08/25/gabriel-attal-je-souhaite-une-loi-de-programmation-pour-l-ecole-et-un-ministre-de-l-education-qui-restera-en-poste-cinq-ans_6756157_3224.html"
@@ -1143,7 +1158,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://www.nousfrance.fr/vision/",
         "Source officielle — consultée le 29 septembre 2026 : https://www.nousfrance.fr/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Président des Hauts-de-France, ancien député et ancien ministre de la Santé puis du Travail. Issu de la droite républicaine, il met régulièrement en avant le travail, l’industrie, la sécurité et les territoires.",
       "controversies": [],
       "archived": false,
@@ -1215,6 +1230,14 @@
           "status": "to_review"
         },
         {
+          "title": "Présidentielle 2027 : Xavier Bertrand se lance, « pas pour être un candidat en plus, mais à la place » - Le Point",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeTFHNHVlUFAxUU5yZlJyVURwZjZjLW9ZUHgxTnRMd3NXb3NKRFl6VVlYeGVDbWJDYnBuby1nN00tOFBQRTdLdW5QVndMTzFTT3lLcFZUdjlKWjZVZXNzTmNpN0VKaUlLQWZIcENtd0hIamdvZmZmR0xLYlV5bU9VT24zekpYZUZZcE5jS2tza2JFdXBIN2hROWFWVkdESEZJU3pXU3NDajkxdTh6aWEyQnZkMFBNQzNSaUNvb0tCeTk?oc=5",
+          "source": "Le Point",
+          "date": "2026-08-27",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
+          "status": "to_review"
+        },
+        {
           "title": "Xavier Bertrand se rapproche (encore un peu plus) de la présidentielle - Libération",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM2dXNEVDUDA0cG0zeWxTT0NUVDdCOGsyUnJaZ1A4ZkpyaHZSZzE5ZG9XaVBxOHRwa0kzcElTdWJINW9pVmpzdVJGYW5ROWdCbzBjZjNHb3BRdWZSb2p0QnZfZkFCTXNQQnV5SkxUTVVVUzFHMGY0ZFBFVTlRM0JsNXJVYU9XMXBvTldjSzZTUzdqT0VnaE52OUJUcExjalpOR0I5Z0RMSHFKellzUW1NNngxeUpWVHJZcjhRSFJxY05Kc2R4dVhjZ0MycXRiY29GSFRsWmItSC0?oc=5",
           "source": "Libération",
@@ -1247,6 +1270,14 @@
           "status": "to_review"
         },
         {
+          "title": "L’increvable Xavier Bertrand rêve toujours de la présidentielle - Le Point",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMXhtMlNJU0FIaHItLVQ1ZmpJZ05rMFdiNnNxRUNrbGtmQzNodWZ1Nl9PcFc1OU1PNlFLVHBHek1XNWR0T2hQbGhKOXdZVUY2RzRfM1doVmdUZ0VsRW9BQVN3V0dobmV3ZkxSdHhDNl82NmRVaHQ2ZWpNVERKYkJzUHRBamJ2Y0Y3NHVMRmVrX2d3LXdvWVQxUzNkNkZDeFNHRnM4STVqdTlvSFBuQTdrTUxxa2dOYXI5eUh2a044ckgtMGNZWjhYNGZTTQ?oc=5",
+          "source": "Le Point",
+          "date": "2026-05-20",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
+          "status": "to_review"
+        },
+        {
           "title": "Présidentielle 2027 : Dominique de Villepin de plus en plus candidat, Xavier Bertrand aussi - Ouest-France",
           "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOV0RJSlJQa0JSdE1hY0FVbnZfdU9ocXhYZ19qb19CYWZHTm9WSnhjV3YyNkx1NGs0YlZTdlZFdXg1NkRfa0c1by05T2FKR0UyOXEtS29Bd05Ic3hJdUF1amNqTDJaTVUwTzlwNFMtRzlHY0lpeUluLUswM0RQalNHNmVNQ2JqRTRmaGVaLWJLVXdYUnV0eVZ6SjlpMkhSblBxdk9ybTcyUXpWUFgyNjVFeS1faDEweU1oSU92QzJnOG1RNEZNLTFSTTZjVzliVmN3dnpCSkZvY3ZmSXZ5NjF5WWFTUVVwa3gyQS1yVkhtbnhWYktOVG1jWGR4S2F5NHJVWEhoM3oxczJPdw?oc=5",
           "source": "Ouest-France",
@@ -1261,26 +1292,34 @@
           "date": "2025-11-08",
           "found_at": "2026-09-29T22:27:37.064664+02:00",
           "status": "to_review"
+        },
+        {
+          "title": "« Que l’État arrête de nous faire les poches » : à Saint-Quentin, Xavier Bertrand s’échauffe pour la présidentielle - Le Point",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPemJKNk5KWDhlRF9wMWFDWHd5SHBLY0NZemZKSjJmaWVrN2hGOWJkX3lxaGYza2JVWVBJUThhd2wxNVlUd3AyeU1QZllRRktHMF9wZV8zNWFVOWdYTjBjc05UX2J6WXozekFWYnl0RGE1SjZqdGl1UW5BbmJjakhSLTVCTnB4ZFphM2VOVTdYSVZ0VUIxOVk2SnU4cGMzNFhmMTdQRzM0dVJVekt4TnFPbVZVMmd3d3pkVTdCRVUwV2Frd1A4UlRRcHhVSU5OdE1BejlFYnJyaFpCV0w2cEdsam5GTGZUNEpTaUlXYTExeDlzdmhSM1RoY2g0SQ?oc=5",
+          "source": "Le Point",
+          "date": "2025-10-26",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
+          "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-29T22:27:37.064664+02:00",
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.nousfrance.fr/vision/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "54da47428fd84ada9cd53477caf6b7085b49e32b54177efa19d442a8ff1fdd5f",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.nousfrance.fr/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "02b1e413735c893cd26e02588c6ec833d096aecbbd22e4e38d54b035bc97df42",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://www.nousfrance.fr/programme/autorite/",
             "https://www.nousfrance.fr/programme/environnement/",
@@ -1319,7 +1358,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
         "Source officielle — consultée le 29 septembre 2026 : https://www.unenouvelleenergie.fr/notre-programme/sante/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Maire de Cannes, président de l’Association des maires de France et fondateur de Nouvelle Énergie. Issu de la droite libérale, il défend notamment la baisse de la dépense publique, la liberté économique, la décentralisation et l’autorité.",
       "controversies": [],
       "archived": false,
@@ -1484,7 +1523,7 @@
           "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-29T22:27:37.064664+02:00",
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00",
       "program_watch": [
         {
           "attempted_at": "2026-09-30T04:22:00.421752+02:00",
@@ -1519,21 +1558,21 @@
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T01:39:50.030682+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "5feb57872bd24532f49bae7433e9031cf0997cd2192e807fa9170134af9069a7",
-          "successful_at": "2026-09-30T01:39:50.030682+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T01:39:50.030682+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "1d4bb8338e9933fe86531cf9e18bb59a8afa5dab82ef982e70ea589e935606a8",
-          "successful_at": "2026-09-30T01:39:50.030682+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/05/Livret-Sante-Nouvelle-Energie.pdf"
           ]
@@ -1564,7 +1603,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://melenchon2027.fr/programme/decouvrir/",
         "Source officielle — consultée le 29 septembre 2026 : https://melenchon2027.fr/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Ancien sénateur, ancien ministre délégué à l’Enseignement professionnel, ancien député européen et député. Fondateur de La France insoumise et candidat en 2012, 2017 et 2022, il défend une ligne de gauche radicale fondée notamment sur la VIe République, la redistribution, la planification écologique et une diplomatie non alignée.",
       "controversies": [
         {
@@ -1711,6 +1750,14 @@
           "status": "to_review"
         },
         {
+          "title": "Présidentielle 2027 : Philippe Aghion étrille les propositions économiques de Marine Le Pen et Jean-Luc Mélenchon - Le Figaro",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNNHppUDhnbFlIdU5lR0hRNHlycUZOY25aRmwtcklrME5lMTZHc0dCMUMxclNlUFA4ZnJtQXJNbkh2NUZzemYwQlJlY25sLVpGWGhYMWRfSUpvM0J0UElRSHF4NjkzWVV3bDYtQnBUWkJlWG1MNVl1X2p3RnhLREJNZUZwS3dhWkt6Q0p5Y3F4TDJzanZVbGNSOFlVV2V2WHdtZXpnQWNCRGE2VEN2STJrcElhaE8wazNQQ3o0NFZfNV9zZ2dudFhTUGJxaGk5M01XcmswSkZYM2M5Z2htZWFveGE3WmhDUWxRWlQwSHFLVGduZlE4eHZGdWptVGF0Q2s?oc=5",
+          "source": "Le Figaro",
+          "date": "2026-09-05",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
+          "status": "to_review"
+        },
+        {
           "title": "Présidentielle 2027 : pour Jean-Luc Mélenchon, la transition écologique passe par une forte reprise en main de l’Etat - Le Monde.fr",
           "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQa29LQ2ZUbnRZZ2N0Rk1vLU8wM0JzeHB1QVpIRzFURGZlWEdoZ0tuX3FVT2NDSHJRQ1FFTlRuU1pQY2tnUTdiSHoxNFN0RHA1TDFwa3o5cWt2UGcxQWpaejBNU1l3NHFGTi1vYU9ZSUhvVzBZUnBIUXVhNkpkRVc1Y2I5VkhGUE8xaFNJc0szcDBJREM5UjlZTVJPUnRCNUwzOUMwQ1ZwZ2NTb0FiVDZSWGd3andwSjYzZnJYTlpCNlhLOUEtVlEtYzBBNG9XaXU2OHBhTlpOb3JhYkhzOUs2YmxhbkVvX3B4TlV3ZWNwQ283WGtiNTVYYk5rN0UtcXRfay05UWUwb0RQS0NXQ2djclN1R1doVmdaRldJ?oc=5",
           "source": "Le Monde.fr",
@@ -1733,25 +1780,17 @@
           "date": "2026-08-26",
           "found_at": "2026-09-29T22:27:37.064664+02:00",
           "status": "to_review"
-        },
-        {
-          "title": "Présidentielle 2027 : Jean-Luc Mélenchon peut de nouveau croire au second tour selon un sondage - Euronews.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNUFETzB2RE9lVTVmal9RNjRQNzFZaEozWWN1cXBUN08teGtVaW52OUdBZC1mMmJ6TGVPdTVYVGF6LXV6ejJFeGE2SmZBZ2NkNjhxSTliV2hFUnFBakdrT1pjUm55S1BVS281WWpuYjhfUmdxM1BxUmhhYldoUGxabEpyTl9PY2l5cFVUemVIYmVER29LLWRJUldwc0k5Y2g2bHo2QS1BeFRoNVFRSXM4MXo5dWhxZm8zbjdSeDZXamZBWVE?oc=5",
-          "source": "Euronews.com",
-          "date": "2026-08-24",
-          "found_at": "2026-09-29T22:27:37.064664+02:00",
-          "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-29T22:27:37.064664+02:00",
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://melenchon2027.fr/programme/decouvrir/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "1d55173a0fd4be650e8a12515519e94aa590ce21517735b1be1c546b0f8b8f5e",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://melenchon2027.fr/auditions-programmatiques/",
             "https://melenchon2027.fr/comment-a-ete-concu-le-programme/",
@@ -1759,12 +1798,12 @@
           ]
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://melenchon2027.fr/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "e795a5f005696b515caf2f5a125b1ea880082e68255eed9c771895c20a1773e5",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://melenchon2027.fr/programme/decouvrir/",
             "https://melenchon2027.fr/programme2025/livre/"
@@ -1794,7 +1833,7 @@
         "Le Monde — 12 septembre 2026",
         "Source officielle — consultée le 29 septembre 2026 : https://www.fabienroussel2027.fr/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Député du Nord et secrétaire national du Parti communiste français, candidat à la présidentielle de 2022. Il défend une ligne communiste mettant en avant salaires, industrie, services publics, énergie et souveraineté productive.",
       "controversies": [],
       "archived": false,
@@ -1900,6 +1939,14 @@
           "status": "to_review"
         },
         {
+          "title": "« J’ai fait le choix d’un projet de rupture » : Fabien Roussel, candidat solitaire pour 2027 - Le Point",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbnVpVHNKX1RHV2hDUkdWeWU5MkY3YTU0dXdxZUtMTnRLdXNXSV83QVJRdnBVbk0zUTduMUVGSE9oa1pyeGU3WnpnTndtQWoyUFhFV2RfWDBEWHdkcXE5cjZaRTZlNHg4THdxMEVHX1Z5N3pIdERiMGRxX25nNUJFMGQ4MUE1a3FXNGNSZ1UtaG5fdTNjcWxtNlR5RDduN0ZwME8tYTVmeVdNVnhNQ3NHNTVtdHNPRUdTaGpIVjVUa0xJREg2V0VUU0ZJYWljQnZlZ3NvTVVWNlVsb0xh?oc=5",
+          "source": "Le Point",
+          "date": "2026-09-06",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
+          "status": "to_review"
+        },
+        {
           "title": "INFO OUEST-FRANCE. Présidentielle 2027 : le communiste Fabien Roussel sera l’invité du 20 Heures de TF1 ce dimanche - Ouest-France",
           "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOLUFBVERUTXdTcVlRWEZZS3h5QjNhMl9nVlF2RzkzUFZicnZCd29mdVotQWxGS05mVGZiWFE2bm13MGxaV1hQQ2hycUcyVzJ3LUZYdEdzU01PMmQzZ2xRanJjc2VTUmI5ZXE2MURJR0J5NnpEcHdfZTlJbmNKdUp2OEI0WDM4dWhwWUozWlhNZ1JnWVljaHBLYjgwbnZRZ3AyM2lGVHd6SjFUZlZLYmpuMWlSVkh6OHVZQURuRXRWcFpkNktfZU1QXzlJbHA5SXA3bTZTYlBjLWxVZmdtRXgzd0NudWcweXNFUXQ1MUR6LXJ5R2NEZFpVNDh3N2xtTVlnTW8zZnViaG5uc2xyNG1OQklNTjdNNzhlRElfZ0pyMHJGYXFTNzNxNQ?oc=5",
           "source": "Ouest-France",
@@ -1938,20 +1985,12 @@
           "date": "2026-06-11",
           "found_at": "2026-09-29T22:27:37.064664+02:00",
           "status": "to_review"
-        },
-        {
-          "title": "Conforté mais contesté, Fabien Roussel en route vers une deuxième candidature à la présidentielle - Libération",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPbXR6a0NONFQ3UDBZSXVhVnRjckstQ3ZBTFFrQ3FWekZoQjhJN1dmTWdrRTRsVmc4cnc5NjQwZ1JhbWVEeGcwN0VMcUhJdHVaSU9lcnRKY0hxazQycXVBYVFMWmdvVUhlUmM0a09zd3YtNzR6aG5QMUJFWndvU3NiYWxfOWEyWGVrMXNsRlp0RW41dEZwZlVoTTZGWGdadWlzVE5kS1N6ckVtdjhvUGNTd2Z1ZEJ3dlhtV0stMXhReld1enFxSnRuX0ZoWkctTXZYLWhnbF90V192c2VxSmx3S0FNWkU0QXY3U2VFYkd3NzRRSV9UMng1R3dEM1BHZw?oc=5",
-          "source": "Libération",
-          "date": "2026-06-11",
-          "found_at": "2026-09-29T22:27:37.064664+02:00",
-          "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-29T22:27:37.064664+02:00",
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.fabienroussel2027.fr/",
           "label": "Source officielle",
           "status": "error",
@@ -1984,7 +2023,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
         "Source officielle — consultée le 29 septembre 2026 : https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Secrétaire nationale des Écologistes et conseillère régionale des Hauts-de-France. Elle porte une ligne écologiste axée sur la transition climatique, la justice sociale, les services publics et la coopération des forces de gauche.",
       "controversies": [],
       "archived": false,
@@ -2144,15 +2183,15 @@
           "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-29T22:27:37.064664+02:00",
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T01:39:50.030682+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://marinetondelier.fr/livrets-thematiques",
           "label": "Source officielle",
           "status": "ok",
           "digest": "3a5917515cdb0b24076680e89f8964416b890a8163368a4db0c37e9cc1cee958",
-          "successful_at": "2026-09-30T01:39:50.030682+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
             "https://marinetondelier.fr/s/Livret-littoraux.pdf",
@@ -2164,12 +2203,12 @@
           ]
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
           "label": "Source officielle",
           "status": "ok",
           "digest": "b5bb61294d7a94cdd002ef1dd259e8d859f129158824386f5c1fb1111d41246b",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://bsky.app/intent/compose?text=http://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
             "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf",
@@ -2213,7 +2252,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://debout.fr/notre-manifeste/",
         "Source officielle — consultée le 29 septembre 2026 : https://nouspresident.fr/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Député de la Somme, journaliste et réalisateur, fondateur du mouvement Debout ! et ancien membre du groupe LFI. Il défend une gauche sociale centrée sur les salaires, les services publics, l’industrie, les classes populaires et la transition écologique.",
       "controversies": [],
       "archived": false,
@@ -2370,29 +2409,36 @@
           "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-29T22:27:37.064664+02:00",
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://debout.fr/notre-manifeste/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "44b94aa9d22a3b7d15b447acb66fdaacaa7911b5423f51f5c9dd3df4649ef1b9",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://nouspresident.fr/",
           "label": "Source officielle",
           "status": "ok",
-          "digest": "d6feda8a8d518fc12cce24dc0c52247e3ab13cb81d87a5c70e18390e14f6dfbf",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "digest": "05b76f38eae0af38659c502e6bea807719bbd6bfab0be12a3f067d29c0cc4d1c",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [],
-          "changed_at": "2026-09-30T01:39:50.030682+02:00"
+          "changed_at": "2026-09-30T10:44:18.573219+02:00"
         }
       ],
       "program_source_changes": [
+        {
+          "date": "2026-09-30",
+          "detected_at": "2026-09-30T10:44:18.573219+02:00",
+          "url": "https://nouspresident.fr/",
+          "label": "Source officielle",
+          "summary": "Le contenu ou les documents liés de cette source ont changé. Les propositions modifiées restent à vérifier."
+        },
         {
           "date": "2026-09-30",
           "detected_at": "2026-09-30T01:39:50.030682+02:00",
@@ -2425,7 +2471,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://www.delphinebatho.fr/",
         "Source officielle — consultée le 29 septembre 2026 : https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Députée des Deux-Sèvres, ancienne ministre de l’Écologie et présidente de Génération Écologie. Elle défend une ligne écologiste structurée notamment autour de la sobriété, de la transformation écologique et des institutions.",
       "controversies": [],
       "archived": false,
@@ -2561,24 +2607,24 @@
           "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-29T22:27:37.064664+02:00",
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.delphinebatho.fr/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "d6fd70f7a2ed4f6ff3fe4f4472a4aee90d085afffb3a22aa2fe80a7c27ca5141",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "b9b5404816e681ef838289044aa8c1409ca1afdc3ff61472eaf87339fa84d788",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         }
       ]
@@ -2605,7 +2651,7 @@
         "Le Monde — 9 juin 2026",
         "Source officielle — consultée le 29 septembre 2026 : https://www.karimbouamrane2027.org/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Maire de Saint-Ouen-sur-Seine et membre du Parti socialiste. Il se situe dans la social-démocratie et met en avant les services publics, l’égalité des chances, la sécurité du quotidien et le développement économique local.",
       "controversies": [],
       "archived": false,
@@ -2643,12 +2689,12 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.karimbouamrane2027.org/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "04d3b5cf649f1945dac2367929ec0fcdf5ad2092c973c5bf33033e5963c878cb",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         }
       ],
@@ -2683,6 +2729,14 @@
           "source": "Le Figaro",
           "date": "2026-08-26",
           "found_at": "2026-09-30T01:39:50.030682+02:00",
+          "status": "to_review"
+        },
+        {
+          "title": "Karim Bouamrane, Jérôme Guedj, Philippe Brun... L’été en campagne des socialistes déjà candidats à la présidentielle - Le Parisien",
+          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNQ2d1VDlZdFdCNE8teUpjb3FIMjJfeEVFRWZ1cTIyNzlsOERKU0ptcGxUdnZZX2J5VjV4eWJxVHNuTktjaUFRVFlmQ3lmWHBudGNJdlZuV0NUOVhHa2ZLZWxyV2FERmliSVhJTnpzNUtNdndJUEt0Z0Z4SzZIeGJFejZ6emFZZnBCU1pHNzFrZ01YVVBnbEJSTUpHODRLbjB5YS1fb3FsaUVtdTVIa2JaMlEwckVqSVZYSHo3R2dfdnBhLU8zSHNUS0ltbzlQRWpGU0ExLXlPTFRYZldNUFJ2REwxN0dLUjRUVWdIN29SRVVabnlsXzYxeFhHVS1UQnl3UkdMUGhkaXF4Vjd1clkwNkpfakJ0NkZrWUd1MWNUQml4RWN6UHRXSHdEWQ?oc=5",
+          "source": "Le Parisien",
+          "date": "2026-08-01",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
           "status": "to_review"
         },
         {
@@ -2726,6 +2780,22 @@
           "status": "to_review"
         },
         {
+          "title": "« Dans sa tête, il se prend pour Obama » : pourquoi Karim Bouamrane est candidat à la présidentielle - Le Parisien",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxON2RPYVBERDVlSVVYTEZpaXVmOS11Q3dadjNRd3JFaG9DYjUxaHNPSU9KanR3bDd1eExablNKWFE4cXRuOFRsNFRXS2p0enlMaDNWVmxhU0tWN0VXQ1lPSTVoQnlOeFNiSWR1TmpUblFWOXFZWTlLakU5bTdNYlZPM0FqeU5Xa2lKUFc4X2JMT0wyT0VoRlp5cWdiRlpTY3NZTlBLRE1ybzNDbHZPdy05WlE0dWxETE0ycmJnaXhvejJmR1VrSzZIQzVSR2dQeUhnc2otUkFSSmNLRFBnMDhUbVNEbWZDRTFITTR4U29qZ2Z2NmZrcUExMHNpTmdGR0ZSZHdBdEc3RUJabWpGdkNFdDBTMU0?oc=5",
+          "source": "Le Parisien",
+          "date": "2026-06-09",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
+          "status": "to_review"
+        },
+        {
+          "title": "Karim Bouamrane, maire PS de Saint-Ouen, annonce sa candidature à l'élection présidentielle de 2027 - CNews",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVVMtZnRJbXNldDFkeHB2WDBsQURvNGdMbGdwdlV3UmlNeVJ6WjluRzVaMVhKZnczdVFjVDhuNUpxcWhPcEJsVnU2UWtnYmpGVFFzalpwT1p6SjNrR0puX25teUhHWWVpa0JINkU1dmJWbXRUU1BLVndEcTZOTVNROFo5bEJVMlEzcEZEckRVdFpobEVKay1rbk0tVVgxclRNUWVsSXVKVlhNYnNWWEdR0gG0AUFVX3lxTE4ySjdoMGp4TVZVWkxuS1pTSjZZb1dobkRYZXBPOTdnbHBvalNkUnNYajUtOGtDYU1LV2RHcEV2eGEybUwtbmRtYnVGbThrWkljcFJ3Z081UDVBZ2xiVktUdVdSeGF3LXpvVllONzB2U21vVDM2OGVlUUl0eHJ5ZzBBWTBpUHZoT2FlWlJIeXY0Vi1JQWhMaHBxeTVLLWlUdlFydzl2V2hGMVhSZE1vOVBzMk91dA?oc=5",
+          "source": "CNews",
+          "date": "2026-06-09",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
+          "status": "to_review"
+        },
+        {
           "title": "Présidentielle 2027 : \"Tout le projet primaire\" de la gauche \"prend du plomb dans l'aile\", estime Karim Bouamrane, maire socialiste de Saint-Ouen - franceinfo",
           "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNWkpkQ09sa2F4VVB2aTMycWk2UWp5R0kwMl91RW5IdnJSYVZPQU1zaHRUUzNaS2NJb0gxY0xTQ081YzctbTU1d0ZoeE1mRDZQT1dtVmIxUXl1Nk1BajlPSDJacEQzRFBrS0VHVHVFU3RGelVkWWYwUTJKRzJieWY3ZzByU01tU0E5aGJWUV9KZnlEVXd4TEFlUmVaLTh3RUJ2c1l0OWIwbXZ0SWFKZm1aVnd5VGdJNjl3TF81WU1Kcnl5YWcxTVNjbXViQ2ZZemFzLWFwS2Y5TWhFU1MxLWl0THh0ajdtUU1sSzNMS05FTlByM2dCSjF6NzlZdURfQ1pyd3hXa1hOUWR5Q29OZXJHLUgxOXJ5ODZu?oc=5",
           "source": "franceinfo",
@@ -2748,17 +2818,9 @@
           "date": "2026-04-09",
           "found_at": "2026-09-30T01:39:50.030682+02:00",
           "status": "to_review"
-        },
-        {
-          "title": "Présidentielle : le socialiste Karim Bouamrane se voit comme une «solution» pour 2027 - Libération",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNeFVObDhrREhsNEJkSFR6NG4zTEJ0Mlp3VUdsZGtkSUNZZmU4NFlYSl83MVgwRFpMa1lZNDdlc0FaMjhvZ2JOdkhraGhuQkRlQ2FNQi1FdkRtcUZGZWFxaHdnanVGcmpmTTVyOURUcDEwQXFBQUpGdzZSMExMVnJ6VGxmR3BKQWlQVlVRZlZjT0VyMGVVdXM0VGx1ZktHUGk5QnRuVlpXMEMxRUtycmxOUkw1LUtmOWo2ZnpmdFdtNU85UDNTZ2VqNXFkN0Z3c09iRktHbjVvenNuZWlIN0dDbUExSjZJcEFxZXFJWjRJM3NrVEt1WnFj?oc=5",
-          "source": "Libération",
-          "date": "2026-04-09",
-          "found_at": "2026-09-30T01:39:50.030682+02:00",
-          "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-30T01:39:50.030682+02:00"
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00"
     },
     {
       "id": "bernard-cazeneuve",
@@ -2784,7 +2846,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://www.la-convention.fr/",
         "Source officielle — consultée le 29 septembre 2026 : https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf?1784135398="
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Ancien député, ancien ministre de l’Intérieur et Premier ministre de 2016 à 2017. Fondateur de La Convention après avoir quitté le Parti socialiste, il défend une ligne social-démocrate républicaine attachée à la laïcité, à l’ordre républicain et à la construction européenne.",
       "controversies": [],
       "archived": false,
@@ -2828,16 +2890,16 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T01:39:50.030682+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://bc2027.fr/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "d5966fb0ae8c58eadc778eed28bc1e5e9005523ae676a184acc19b906ece5ee8",
-          "successful_at": "2026-09-30T01:39:50.030682+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.la-convention.fr/",
           "label": "Source officielle",
           "status": "error",
@@ -2975,7 +3037,7 @@
           "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-30T01:39:50.030682+02:00"
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00"
     },
     {
       "id": "olivier-faure",
@@ -3003,7 +3065,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://avecfaure2027.fr/mes-propositions",
         "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Député de Seine-et-Marne et premier secrétaire du Parti socialiste. Il représente une ligne socialiste favorable au rassemblement de la gauche, à la redistribution, aux services publics et à la transition écologique.",
       "controversies": [],
       "archived": false,
@@ -3034,21 +3096,21 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://avecfaure2027.fr/mes-propositions",
           "label": "Source officielle",
           "status": "ok",
           "digest": "15990a2addb919ba42313358a167e423f26c198357f494578320ac45cf8460e7",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
           "label": "Entretien ou déclaration rapportée",
           "status": "ok",
           "digest": "a5a9ceeff85f67db663adde743801b7580c9ec4fbd05fde8bbf4326c4e646fcb",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://melenchon2027.fr/programme2025/livre/chapitre5/s3/",
             "https://www.lemonde.fr/societe/article/2026/08/25/gabriel-attal-je-souhaite-une-loi-de-programmation-pour-l-ecole-et-un-ministre-de-l-education-qui-restera-en-poste-cinq-ans_6756157_3224.html"
@@ -3056,6 +3118,14 @@
         }
       ],
       "background_discoveries": [
+        {
+          "title": "Présidentielle : Olivier Faure a (déjà) réuni ses 500 parrainages d’élus - Le Parisien",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSjl2T0dvemVwQXNzS0VDQ1BFZEIyMFpDOVhPS2ctbHc5V1dxaVpWVFFzWjNqRVN6R3hKMTV0X1g2aGFGZjRSU0hZOXk4WG91SUJla0VvbnlzaThZckstcXlzcXlickNMdHZMVUMtWDNsZ0t0cThEZGJTenpqV2l0Xy1ZRHNMcXNnZVBXVEI4X1BCM1o3RE9JVDJkRVBYNHBleXNiY0owSWlnTUVqbWE1YkluUS1mV09BSkJIa0Y4V29aVVJNYm90Z0ZCMGNFcjRFMEwyMk5HdnRTYkJ6WnN5UlAybjV2LUhpclJjSEhiY3BtUQ?oc=5",
+          "source": "Le Parisien",
+          "date": "2026-09-23",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
+          "status": "to_review"
+        },
         {
           "title": "Présidentielle 2027 : « la radicalité tranquille » ou quand le flegmatique Olivier Faure passe la seconde - Les Echos",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQjlBN1ZRa2NMWkhIR2dmY1BzcHlNQUE1c2tGVGZMYUoxOWpLZGR3bG5qYThDdTUxTXEyRFF6RVBJVVFpWnoyM3Y2ZF9rN1N3V0tLSkticFJtMzZkdmQ3SjhURGFKYWRQc2xRQnRwUVlOdjNLcFZaM3ExQkJ4RXh3eTBLek4tNmZ1b3VubEt0bXlhTlpYdEp2RVNlbFcxX1dvMWFkREd2ZHNCbVRrNjY2R0VXQVdqajV5Ql9qeUhMWmZqcEliZkotRnA0Tklvbzgtd240T2ZDWUtMd2hMMXR4TFhvT1hiUFc0enpWYg?oc=5",
@@ -3105,11 +3175,35 @@
           "status": "to_review"
         },
         {
+          "title": "Présidentielle 2027 : Olivier Faure sous pression face à un PS divisé sur la primaire - France 24",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRHhSaWxFSDZWVGJQS1VYa3Q3OExhR2FMLUo3cGt4NXF0YXVIMmJrM3dMNzc1blE5N2tMdnZldVVOaTc3X25PazNNTDNqaUhJczRhUXRLTnJ3SWY3QVVmWjhSN3p6elJvNXdDNkV3NkpQdHl2YkpZcE0tUk0yVjZHMlZGb2FmSEx4NDM4Y0ZuZFpnQWhSeHJHdl84M2lGWnpfaTVHT0tUTXlJSHI4ZkxTcjhyTUdlQ3loZXVKQzdmYmFfYmZPcVFBWnR6eG1NVEswTUpyRG1ITmdlMWk0WkE?oc=5",
+          "source": "France 24",
+          "date": "2026-08-29",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
+          "status": "to_review"
+        },
+        {
           "title": "Budget 2027: le socialiste Olivier Faure juge \"le suspense inexistant\", \"il y aura une censure\" - lcp.fr",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTDBfYzJfVU4wbDVoN0l6d21vNmViSEJUbHhYSlNNdzlGeGlLSGxIUE9ZaG52NnlmVEhlOFFObGpleGlJZXVVSUs3NURZMmhDbHVGN0JJTFVtd0d6U0NEMWJsTW1Sam5NVnZ2bW44Nm9keUpyM2c4WEM1d3lqNkVTMnZuSWYzNUhEWnZuVjV1ZHprZ25YRlV5TWFsSVNjXzFDNUJvRHFpRXFyVXM?oc=5",
           "source": "lcp.fr",
           "date": "2026-08-28",
           "found_at": "2026-09-30T01:39:50.030682+02:00",
+          "status": "to_review"
+        },
+        {
+          "title": "Une primaire du PS à la droite ? Olivier Faure dit non à François Bayrou - 20 Minutes",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOExRaFNubWVRRmF3OHIyWEkwbW1EdEtiU2pMbGJjdjRVV18wZWFNZU0yQjk1REt3Y1dHX1laMFFpSTJ0dFN2Y2t0QmRrQU4zN2Z6SFFhX0d4RXAxdmh1VllDNTRFV25wb0NCeUZFRklRQUtKVHJFVVdoOFJfN1NkcHlhSTdqS3ZOMEEtRElHNnh3cWdsWnNaY1JrZ3czWTBMOEtTQVQtRzBwYzdhREJvNV9GMDc1dWFFMjdpM1M2OWxMTWQzbGhXbEJOMmd1SHExU01V?oc=5",
+          "source": "20 Minutes",
+          "date": "2026-08-10",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
+          "status": "to_review"
+        },
+        {
+          "title": "Présidentielle 2027 : Olivier Faure rejette l’idée de François Bayrou d’une primaire du PS à la droite - Le Parisien",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQczBNYlhtOVJPTWxpeWtRTEhZaEc2LUppdlk4LTN1a1Fyd2pLdjFzUlNwUld3b01zanp3Zlo4b1Ztc3ZFQTYxQjBmMEhIbzhSUGI5dFpOZ1czVVY2UEwyNlVfbk1ReW14SXVyd09rRVMxSjRzRWxHRjh6VDByVFBTYW5FM3lvbFJjUmJvbW5kUzZpbjVGQ251akdvQ3JkTW5Ia0R1dk9vRHZkN05SLWlsLXlIM3cxbHdfRGh0dDNCY091cnZIQy1ZQVZBbmV4U2xzUlVzTENpc3hUQkdvQmlxMkc3N3hic24yWU1YY0lWekZURUx5Wmtpc0NIRlZ1Ym5JeThPQ1NacU5vN0NTcU5OZGIyeng3RmJPM1Zr?oc=5",
+          "source": "Le Parisien",
+          "date": "2026-08-10",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
           "status": "to_review"
         },
         {
@@ -3137,15 +3231,15 @@
           "status": "to_review"
         },
         {
-          "title": "Présidentielle 2027 : «Jean-Luc Mélenchon rentre sur un terrain qui est celui de l’extrême droite», déclare le patron du PS Olivier Faure - CNews",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS2JRWTR1U3RIMGZXdS1aMzhnQ0l2bkUzM1EyNENpdWdLdEJEXzdwQWY3R0ZwM2xPUkxselNsMEMwTVZWYktHaWFmdVY5bGk2ekM2UXFvT20xOW5HSWo2dUgwemhMQzFRUHd5U09GWVJTRjVDV0pkOVByRXRSSzhkUkx0UmFLcEIxYVBHVzFrYUdyUlNLbkRaWkV0LThVdV9BdWM2WFZ3U05FTW01aHBGM29zVmd5ZWfSAbwBQVVfeXFMTkNPUzhETE9xWnNMSU1xTUNVSEE3cFFSSEczWmtYY0dzeU5laXBMMlVxQ20wVnhzNDBEVEs5NEdDNGFoNmZYY1RfUmhrVUV5RTBVUW11TEJEYmo2OFJINVhWOFIyWGJyaFN6WE9DTTV2eERiZlpiUURZejUzSi1PM09wVVJaU3VOYWNHcjhoNDB2enREeHBXNUhSSlNuNGowTVdOZU1CR0VPbnp3NURRMTA1bzktQ3JhMjZQV1Q?oc=5",
-          "source": "CNews",
-          "date": "2026-06-30",
-          "found_at": "2026-09-30T01:39:50.030682+02:00",
+          "title": "« Oui, je censurerai » : l’avertissement d’Olivier Faure au gouvernement - Le Parisien",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNN09odEUxdEJtcVBaYlRtMEkyQ0xualpSY3V1X0d1RFdlMWZlSHVrVmNnbjJLVDRDeGdxWTk5UVkwY2NneTE5NXpNX1RDeGVFQ3duaUdzQ3AyMXRJSVE1NVVUWlhtOWFpZ01hOUFSSFM0dV9CcFZGTHp5NmM2WG91NUZBY3I2Wm1hVV9lcGxVSG45Q1Mzbk16TXdOWjlua3lqaVpUZ296Z3lsVzVRQVl5bDJrbGVHek5PQWVMZzhFWUMxZ19CTG95YXEzWnJmd20xRW92RnBZWDQ?oc=5",
+          "source": "Le Parisien",
+          "date": "2026-07-05",
+          "found_at": "2026-09-30T10:44:18.573219+02:00",
           "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-30T01:39:50.030682+02:00"
+      "background_searched_at": "2026-09-30T10:44:18.573219+02:00"
     },
     {
       "id": "jerome-guedj",
@@ -3172,7 +3266,7 @@
         "Public Sénat — synthèse détaillée du premier débat, 24 septembre 2026",
         "Source officielle — consultée le 29 septembre 2026 : https://www.jeromeguedj2027.fr/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Député de l’Essonne et ancien président du conseil général de l’Essonne. Membre du Parti socialiste, il travaille notamment sur les questions sociales, le vieillissement, les services publics et la lutte contre les inégalités.",
       "controversies": [],
       "archived": false,
@@ -3202,12 +3296,12 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.jeromeguedj2027.fr/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "017ed6bf4c9d6c8ffaf3b7a90c586d976d7314a425ecefd8dbfcfa4041f0c2be",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://www.ifop.com/wp-content/uploads/2026/05/122507-le-barometre-de-lambition-presidentielle-%E2%80%93-vague-4-ensemble.pdf"
           ]
@@ -3362,7 +3456,7 @@
         "Public Sénat — synthèse détaillée du premier débat, 24 septembre 2026",
         "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Ancienne députée, ancienne ministre, ancienne présidente de Poitou-Charentes et candidate socialiste à la présidentielle de 2007. Elle a également été ministre de l’Écologie et se rattache à la famille socialiste, avec des thèmes récurrents liés à l’écologie, la démocratie participative et la justice sociale.",
       "controversies": [],
       "archived": false,
@@ -3380,15 +3474,16 @@
       ],
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste",
           "label": "Entretien ou déclaration rapportée",
           "status": "ok",
-          "digest": "057aa8155d0a6d1991cc1c9762007a8de95820b14bad1f0a6b1faa1379600322",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "digest": "a6943e70d7c5ed100872d6f380fd173ae37f5efe86d96d118502b99664f6b640",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://lcp.fr/programmes/conversation-francaise/conversation-francaise-edouard-philippe-et-olivier-norek-441482"
-          ]
+          ],
+          "changed_at": "2026-09-30T10:44:18.573219+02:00"
         }
       ],
       "background_discoveries": [
@@ -3505,7 +3600,16 @@
           "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-30T01:39:50.030682+02:00"
+      "background_searched_at": "2026-09-30T01:39:50.030682+02:00",
+      "program_source_changes": [
+        {
+          "date": "2026-09-30",
+          "detected_at": "2026-09-30T10:44:18.573219+02:00",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste",
+          "label": "Entretien ou déclaration rapportée",
+          "summary": "Le contenu ou les documents liés de cette source ont changé. Les propositions modifiées restent à vérifier."
+        }
+      ]
     },
     {
       "id": "raphael-glucksmann",
@@ -3533,7 +3637,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://place-publique.eu/",
         "Entretien ou déclaration rapportée — consultée le 29 septembre 2026 : https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Député européen, essayiste et cofondateur de Place publique. Il se situe dans la social-démocratie pro-européenne et met notamment en avant la justice fiscale, l’écologie, l’école, la défense européenne et le soutien à l’Ukraine.",
       "controversies": [],
       "archived": false,
@@ -3564,27 +3668,28 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://place-publique.eu/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "25aa2fdd19c1812ce83dc5c709dc3d608a6989daf5a07eadeb1fa8bd86ed3d87",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://place-publique.eu/pages/69jA2SKIG5udlNX7wI3dmc/le-projet"
           ]
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme",
           "label": "Entretien ou déclaration rapportée",
           "status": "ok",
-          "digest": "a6f318592fd7037994f0e3b43f9dfcde8dd18eb4a4e333fc142824bf55fcfe60",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "digest": "7697430ccc1193fa93a1600dbc32537f057c95ade42b8644afd83f30bac95cc8",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://lcp.fr/programmes/conversation-francaise/conversation-francaise-edouard-philippe-et-olivier-norek-441482",
             "https://www.addtoany.com/share#url=https%3A%2F%2Flcp.fr%2Factualites%2Fpresidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme&title=Pr%C3%A9sidentielle%3A%20Rapha%C3%ABl%20Glucksmann%20d%C3%A9voile%20les%20premi%C3%A8res%20lignes%20de%20son%20possible%20programme"
-          ]
+          ],
+          "changed_at": "2026-09-30T10:44:18.573219+02:00"
         }
       ],
       "background_discoveries": [
@@ -3709,7 +3814,16 @@
           "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-30T01:39:50.030682+02:00"
+      "background_searched_at": "2026-09-30T01:39:50.030682+02:00",
+      "program_source_changes": [
+        {
+          "date": "2026-09-30",
+          "detected_at": "2026-09-30T10:44:18.573219+02:00",
+          "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme",
+          "label": "Entretien ou déclaration rapportée",
+          "summary": "Le contenu ou les documents liés de cette source ont changé. Les propositions modifiées restent à vérifier."
+        }
+      ]
     },
     {
       "id": "emmanuel-maurel",
@@ -3737,7 +3851,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://g-r-s.fr/la-gauche-doit-rehabiliter-la-lenteur-lattention-aux-etres-et-la-beaute-emmanuel-maurel-candidat-a-la-primaire-de-la-gauche-socialiste-dans-le-nouvel-obs/",
         "Source officielle — consultée le 29 septembre 2026 : https://g-r-s.fr/category/en-ce-moment/actualites/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Député européen, ancien vice-président de la région Île-de-France et fondateur de la Gauche républicaine et socialiste après son départ du PS. Il défend une gauche républicaine critique du libéralisme économique et attachée à la souveraineté.",
       "controversies": [],
       "archived": false,
@@ -3772,12 +3886,12 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://g-r-s.fr/la-gauche-doit-rehabiliter-la-lenteur-lattention-aux-etres-et-la-beaute-emmanuel-maurel-candidat-a-la-primaire-de-la-gauche-socialiste-dans-le-nouvel-obs/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "8d39c2b86c35f27a4c3444483c54bbc8636dcd0c7ecc521a94de369eb51e2598",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://g-r-s.fr/wp-content/uploads/2023/09/Adopted-Documents-EL-Congress-2022_FR.pdf",
             "https://g-r-s.fr/wp-content/uploads/2023/09/Manifesto-European-Left_FR.pdf",
@@ -3785,12 +3899,12 @@
           ]
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://g-r-s.fr/category/en-ce-moment/actualites/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "aff951f95803cdd0b64508136cd8ed686e1f2d00437fc8f04ff456aab84e3672",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://www.nouvelobs.com/societe/20260102.OBS111137/le-botaniste-francis-halle-est-mort-en-2020-il-nous-avait-raconte-avec-passion-son-projet-de-recreer-une-foret-primaire-en-europe.html"
           ]
@@ -3848,7 +3962,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature",
         "Source officielle — consultée le 29 septembre 2026 : https://www.revolutionpermanente.fr/Anasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Cheminot, syndicaliste SUD-Rail et porte-parole de Révolution permanente, après un passage au NPA. Il se réclame du trotskisme et met en avant les salaires, les luttes sociales, l’expropriation des grands groupes et l’organisation des travailleurs.",
       "controversies": [],
       "archived": false,
@@ -3880,21 +3994,21 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature",
           "label": "Source officielle",
           "status": "ok",
           "digest": "9c6c199642e29a8f78a194982fa2620f01ed57fd523203a0dfbe543f1ab3733c",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle",
           "label": "Source officielle",
           "status": "ok",
           "digest": "47e83d33db4fda34cbf60d21fccd033833d0ebfeb2cea0a721603241c88ff7fa",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://api.whatsapp.com/send?text=*Annonce. Anasse+Kazib+2027+%3A+une+candidature+ouvri%C3%A8re%2C+communiste+et+r%C3%A9volutionnaire+%C3%A0+la+pr%C3%A9sidentielle*%0AAlors+que+le+monde+du+travail+a+%C3%A9t%C3%A9+la+premi%C3%A8re+opposition+%C3%A0+Macron+depuis+2017%2C+il+est+invisible+dans+les+d%C3%A9bats+politiques+et+dans+l%E2%80%99%C3%A9lection+pr%C3%A9sidentielle+%C3%A0+venir.+Pourtant%2C+la+classe+ouvri%C3%A8re+n%E2%80%99a+pas+disparu%2C+au+contraire%2C+elle+est+majoritaire.+Avec+R%C3%A9volution+Permanente%2C+Anasse+Kazib+est+candidat+%C3%A0+la+pr%C3%A9sidentielle+pour+faire+entendre+la+voix+de+la+nouvelle+classe+ouvri%C3%A8re%2C+d%C3%A9fendre+ses+int%C3%A9r%C3%AAts+face+aux+grandes+fortunes+capitalistes%2C+et+porter+un+programme+anticapitaliste+pour+affronter+l%E2%80%99%C3%A8re+de+crise+et+de+guerres+qui+s%E2%80%99est+ouverte.%0Ahttps%3A%2F%2Fwww.revolutionpermanente.fr%2FAnasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle%3Futm_source%3Dlid%26utm_medium%3Dwp%26utm_campaign%3Darticle-social-actions",
             "https://t.me/share/url?url=**Annonce.**+**Anasse+Kazib+2027+%3A+une+candidature+ouvri%C3%A8re%2C+communiste+et+r%C3%A9volutionnaire+%C3%A0+la+pr%C3%A9sidentielle**%0AAlors+que+le+monde+du+travail+a+%C3%A9t%C3%A9+la+premi%C3%A8re+opposition+%C3%A0+Macron+depuis+2017%2C+il+est+invisible+dans+les+d%C3%A9bats+politiques+et+dans+l%E2%80%99%C3%A9lection+pr%C3%A9sidentielle+%C3%A0+venir.+Pourtant%2C+la+classe+ouvri%C3%A8re+n%E2%80%99a+pas+disparu%2C+au+contraire%2C+elle+est+majoritaire.+Avec+R%C3%A9volution+Permanente%2C+Anasse+Kazib+est+candidat+%C3%A0+la+pr%C3%A9sidentielle+pour+faire+entendre+la+voix+de+la+nouvelle+classe+ouvri%C3%A8re%2C+d%C3%A9fendre+ses+int%C3%A9r%C3%AAts+face+aux+grandes+fortunes+capitalistes%2C+et+porter+un+programme+anticapitaliste+pour+affronter+l%E2%80%99%C3%A8re+de+crise+et+de+guerres+qui+s%E2%80%99est+ouverte.%0Ahttps%3A%2F%2Fwww.revolutionpermanente.fr%2FAnasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle%3Futm_source%3Dlid%26utm_medium%3Dtg%26utm_campaign%3Darticle-social-actions",
@@ -3961,7 +4075,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://npa-revolutionnaires.org/presidentielles2027/",
         "Source officielle — consultée le 29 septembre 2026 : https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Militante du NPA-Révolutionnaires engagée dans la campagne présidentielle de son organisation. Elle se situe dans l’extrême gauche révolutionnaire, avec une orientation centrée sur les luttes sociales, les travailleurs et l’anticapitalisme.",
       "controversies": [],
       "archived": false,
@@ -3993,22 +4107,22 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://npa-revolutionnaires.org/presidentielles2027/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "a128116b9a0514c6c23cfbf45f7be8b025e73575c6b0f08d2acfda3360350957",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [],
           "changed_at": "2026-09-30T04:22:00.421752+02:00"
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante",
           "label": "Source officielle",
           "status": "ok",
           "digest": "1b9e146d41a701bbd052d4c8564bd1bdeeedcb018d2d7afb4ca1d7f50476e2c7",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://npa-revolutionnaires.org/wp-content/uploads/2026/06/260616_Communique-candidature-pour-site.pdf"
           ],
@@ -4066,7 +4180,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/projetpourlafrance/",
         "Source officielle — consultée le 29 septembre 2026 : https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Ancien député européen, ancien vice-président du Front national et fondateur des Patriotes. Il défend une ligne souverainiste mettant notamment en avant la sortie de l’Union européenne, l’indépendance nationale et le référendum.",
       "controversies": [],
       "archived": false,
@@ -4123,23 +4237,24 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://les-patriotes.fr/projetpourlafrance/",
           "label": "Source officielle",
           "status": "ok",
-          "digest": "bbe00da9a0d7928389fde9b2cc14c16be11146717908c240592cfcc662fd61f8",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "digest": "83eb639ac47db8bf2e5334435b73d5e4f1b3b6aa3121a34e1fe19e62556095c3",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
-            "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf"
-          ]
+            "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf"
+          ],
+          "changed_at": "2026-09-30T10:44:18.573219+02:00"
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
           "label": "Source officielle",
           "status": "ok",
           "digest": "bf8fa1aa8420d6ec84793f83b9908a9f1f78aca4864235e817b35886802c5b79",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         }
       ],
@@ -4177,7 +4292,16 @@
           "status": "to_review"
         }
       ],
-      "background_searched_at": "2026-09-30T01:39:50.030682+02:00"
+      "background_searched_at": "2026-09-30T01:39:50.030682+02:00",
+      "program_source_changes": [
+        {
+          "date": "2026-09-30",
+          "detected_at": "2026-09-30T10:44:18.573219+02:00",
+          "url": "https://les-patriotes.fr/projetpourlafrance/",
+          "label": "Source officielle",
+          "summary": "Le contenu ou les documents liés de cette source ont changé. Les propositions modifiées restent à vérifier."
+        }
+      ]
     },
     {
       "id": "jean-lassalle",
@@ -4201,7 +4325,7 @@
         "Le Monde — suivi Présidentielle 2027",
         "Source officielle — consultée le 29 septembre 2026 : https://resistons-france.fr/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Ancien député des Pyrénées-Atlantiques, ancien maire de Lourdios-Ichère et candidat aux présidentielles de 2017 et 2022. Fondateur de Résistons !, il met en avant les territoires ruraux, les services publics de proximité et la souveraineté.",
       "controversies": [],
       "archived": false,
@@ -4219,12 +4343,12 @@
       ],
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://resistons-france.fr/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "fa24e3272c1c896f7636e9cc61c3f5d00b240a70fc4ca1765b2f0d5cc6a87e06",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://resistons-france.fr/wp-content/uploads/2022/03/Programme-A4-V5-25_02_22.pdf"
           ]
@@ -4297,7 +4421,7 @@
         "France 3 — campagne 2026",
         "Source officielle — consultée le 29 septembre 2026 : https://benoitmathieu2027.fr/programme"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Enseignant contractuel en mathématiques et diplômé en ingénierie agroalimentaire, sans parcours partisan antérieur revendiqué. Sa candidature citoyenne est centrée sur la démocratie directe, les référendums, les conventions citoyennes et une assemblée constituante.",
       "controversies": [],
       "archived": false,
@@ -4315,12 +4439,12 @@
       ],
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://benoitmathieu2027.fr/programme",
           "label": "Source officielle",
           "status": "ok",
           "digest": "e1275490495452bb1f2c179b09aed7f96729811e8ec36bf9df8b2abd60f59466",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         }
       ],
@@ -4349,7 +4473,7 @@
         "Le Monde — suivi Présidentielle 2027, mise à jour du 14 septembre 2026",
         "Source officielle — consultée le 29 septembre 2026 : https://ruches.org/le-projet"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Avocat et essayiste, fondateur du mouvement Les Ruches pour sa démarche présidentielle. Il présente un projet institutionnel et politique centré sur une transformation du fonctionnement démocratique et la participation citoyenne.",
       "controversies": [],
       "archived": false,
@@ -4391,12 +4515,12 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://ruches.org/le-projet",
           "label": "Source officielle",
           "status": "ok",
           "digest": "14f4ee3aa63bb18dc6773e9d3e23c1d1093a8aed09e7d87cba874d2c463fef60",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://ruches.org/projet-1784217879253.pdf"
           ]
@@ -4461,7 +4585,7 @@
         "Programme publié en septembre 2026",
         "Source officielle — consultée le 29 septembre 2026 : https://dieudolalanne2027.com/programme/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Auteur-compositeur-interprète engagé dans plusieurs campagnes politiques et électorales avant sa candidature de 2027. Sa démarche met notamment en avant le référendum d’initiative citoyenne, la souveraineté nationale et une critique des institutions européennes.",
       "controversies": [],
       "archived": false,
@@ -4487,12 +4611,12 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://dieudolalanne2027.com/programme/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "82b92a29d0224ec31e27238f6ed633f20111d1679c29cecad66a84b2dc8c7e21",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         }
       ],
@@ -4579,7 +4703,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://www.udb.bzh/non-classifiee/communiques/lydie-massard-candidate-aux-primaires-de-la-gauche/",
         "Source officielle — consultée le 29 septembre 2026 : https://www.udb.bzh/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Députée européenne élue en 2023 et membre de l’Union démocratique bretonne. Issue du mouvement autonomiste breton, elle défend notamment le fédéralisme, la décentralisation et une autonomie accrue des territoires.",
       "controversies": [],
       "archived": false,
@@ -4602,21 +4726,21 @@
       ],
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.udb.bzh/non-classifiee/communiques/lydie-massard-candidate-aux-primaires-de-la-gauche/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "ea349103e97854a13af1660c59008e1342d7bf6b20e1fe001d239c7047aca86e",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.udb.bzh/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "18958865abc4bcc9f0a20ada7d84c1833c43d7733a38eca56d7cfd741abe04ba",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         }
       ],
@@ -4663,7 +4787,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://www.nathalie-arthaud.info/",
         "Source officielle — consultée le 29 septembre 2026 : https://portail.lutte-ouvriere.org/portail/brochures/meeting-14-fevrier-2026-discours-nathalie-arthaud-191591.html"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Enseignante d’économie-gestion, porte-parole de Lutte ouvrière et candidate aux présidentielles de 2012, 2017 et 2022. Elle défend un programme communiste révolutionnaire centré sur les travailleurs, les salaires, l’emploi et la contestation de la propriété capitaliste.",
       "controversies": [],
       "archived": false,
@@ -4700,23 +4824,23 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.nathalie-arthaud.info/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "a4015f68de5c05c9ff06d35697f1ee10b69cede1062f25a769a1f56660b65820",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://www.nathalie-arthaud.info/medias/document/fichiers/2026/06/brochure-ete-2026.pdf"
           ]
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://portail.lutte-ouvriere.org/portail/brochures/meeting-14-fevrier-2026-discours-nathalie-arthaud-191591.html",
           "label": "Source officielle",
           "status": "ok",
           "digest": "1d1ac095a765db1981787beb548086a8c7ba4d0ef1017f17ec670f3f87511055",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         }
       ],
@@ -4804,7 +4928,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/",
         "Source officielle — consultée le 29 septembre 2026 : https://www.dupontaignan.fr/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Député de l’Essonne, ancien maire de Yerres et fondateur de Debout la France après avoir quitté l’UMP. Candidat en 2012, 2017 et 2022, il défend une ligne souverainiste autour de l’indépendance nationale, du protectionnisme, de la démocratie directe et de la sortie de l’Union européenne.",
       "controversies": [],
       "archived": false,
@@ -4827,30 +4951,36 @@
       ],
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "af4151218816b688f3d988a404e4b01ea9c170875bd2e7a995a530dbb170e40c",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://www.dupontaignan.fr/",
           "label": "Source officielle",
           "status": "ok",
-          "digest": "15e897ae338b70182f15bad9d42f46bc1010960665999b8dc70e93b8178c152b",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "digest": "efbe1ae888d5896b6a973f6a2bf13ee1f8ad654dc0059531b205b2cfe72eb61e",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://www.debout-la-france.fr/notre-projet/",
-            "https://www.debout-la-france.fr/projet/logement/",
-            "https://www.debout-la-france.fr/wp-content/uploads/2025/01/Produire-en-France-2024_Livret.pdf"
+            "https://www.debout-la-france.fr/projet/logement/"
           ],
-          "changed_at": "2026-09-30T04:22:00.421752+02:00"
+          "changed_at": "2026-09-30T10:44:18.573219+02:00"
         }
       ],
       "program_source_changes": [
+        {
+          "date": "2026-09-30",
+          "detected_at": "2026-09-30T10:44:18.573219+02:00",
+          "url": "https://www.dupontaignan.fr/",
+          "label": "Source officielle",
+          "summary": "Le contenu ou les documents liés de cette source ont changé. Les propositions modifiées restent à vérifier."
+        },
         {
           "date": "2026-09-30",
           "detected_at": "2026-09-30T04:22:00.421752+02:00",
@@ -4959,7 +5089,7 @@
         "Le Monde — suivi Présidentielle 2027",
         "Source officielle — consultée le 29 septembre 2026 : https://upr.fr/notre-programme"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "archived": false,
       "program_review": {
         "reviewed_at": "2026-09-29",
@@ -4975,12 +5105,12 @@
       ],
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://upr.fr/notre-programme",
           "label": "Source officielle",
           "status": "ok",
           "digest": "f1796c9bf007f65a7dee6ff6dcf06fcef092db9f452dbffd7883c5a318120d39",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://upr.fr/notre-programme/programme-2012",
             "https://upr.fr/notre-programme/programme-2017",
@@ -5048,7 +5178,7 @@
         "Solution démocratique — annonce de candidature, 19 avril 2026",
         "Source officielle — consultée le 29 septembre 2026 : https://solutiondemocratique.fr/notre-solution/calendrier-president/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "archived": false,
       "program_review": {
         "reviewed_at": "2026-09-29",
@@ -5064,12 +5194,12 @@
       ],
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://solutiondemocratique.fr/notre-solution/calendrier-president/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "1977c76133bd69fa4f01f48f292aaa49a558c384a9d9a71bb756dbc8cdf733e5",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": [
             "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
             "https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fsolutiondemocratique.fr%2Fnotre-solution%2Fcalendrier-president%2F&linkname=Pr%C3%A9sidentielle%202027%20%3A%20d%C3%A9couvrez%20le%20programme%20de%20notre%20candidat",
@@ -5108,7 +5238,7 @@
         "Source officielle — consultée le 29 septembre 2026 : https://becht2027.fr/wp-content/uploads/2026/09/dossier_presse_4p-A4.pdf",
         "Source officielle — consultée le 29 septembre 2026 : https://becht2027.fr/"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "bio": "Député de la 5e circonscription du Haut-Rhin depuis 2017, ancien maire de Rixheim de 2008 à 2017 et ancien ministre délégué chargé du commerce extérieur, de l’attractivité et des Français de l’étranger entre 2022 et 2024. Ancien président du groupe Agir ensemble à l’Assemblée nationale, il se présente sans étiquette partisane et se revendique de l’« extrême centre ».",
       "controversies": [],
       "archived": false,
@@ -5155,21 +5285,21 @@
       },
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://becht2027.fr/wp-content/uploads/2026/09/dossier_presse_4p-A4.pdf",
           "label": "Source officielle",
           "status": "ok",
           "digest": "7cdefb73b31d53fd1c6afd412c8e7c5c1bbd64440ddb17719036c1685707aa7e",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://becht2027.fr/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "8c751523a5c5730a3e9e2b062c785c0ca9951482214814a4ce0c971ee602c9eb",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         }
       ],
@@ -5266,24 +5396,24 @@
           "Source officielle — consultée le 29 septembre 2026 : https://philippebrun.fr/Programme-P.Brun-Produire.pdf"
         ]
       },
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "program_watch": [
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://philippebrun.fr/Programme-P.Brun-Produire.pdf",
           "label": "Source officielle",
           "status": "ok",
           "digest": "6ddf7a589554a0aa4e403480485e8ba584647f28709c735823fd190c15656f5d",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         },
         {
-          "attempted_at": "2026-09-30T04:22:00.421752+02:00",
+          "attempted_at": "2026-09-30T10:44:18.573219+02:00",
           "url": "https://philippebrun.fr/",
           "label": "Source officielle",
           "status": "ok",
           "digest": "65545b102fc50d5b0be2f936ac2b0e095ffeba3d33c8b5b43197965c4d009429",
-          "successful_at": "2026-09-30T04:22:00.421752+02:00",
+          "successful_at": "2026-09-30T10:44:18.573219+02:00",
           "document_links": []
         }
       ],
@@ -5414,6 +5544,221 @@
     }
   ],
   "news": [
+    {
+      "id": "2026-09-30-gabriel-attal-78374222",
+      "date": "2026-09-30",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance",
+        "La France insoumise"
+      ],
+      "summary": "Blocus des lycées : «LFI met les jeunes en danger en les encourageant à participer à ces violences», regrette Gabriel Attal",
+      "sources": [
+        "CNews",
+        "Europe 1"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUC1QcTJMaHl6WV9UM29WdEk5NkYtelRMN2IzSUI5RllmLW8xVFdWOGhGQVFPMXYtNUZPckU0aVBnSzhVc0JLa091ZTVoNmYyYWdNekE4NTdpS2RPcXBnWDllX1EyNDVSOGpYa21HNWxmSWdwLVBHX25KME1vRE5rZ28xd1ViV2ZvWnNEcnAzUTZHWG9NWTc0TUxnUjRCZk5weGs5MmRyaXUwekEtbXdEVUY4YWw0dHhyQkRVVtIBwgFBVV95cUxQYi1Xak5RRVZuNzZTd2UzUEg2X3JlaXZtRUpBZFZzTVNBS0l3M2x0YWdvT1J0dGhGOFl2RVBCTFgyWUdhZEVMcWFFV1VHUEM3TzRicnFLNVFiMVIwSzQ4RXdHeDJKV2QxNmVKQm0wUTNOTEp1cTZDZlJDb05IcmZVWmcyaW52cEo4UXNvdUd1QV9XRzBDeVZEZDZYMWp3bUtvUVZuZ0Y5Ml9RWXk5RjBaWW1ZXzBrbWRsNno1QWZPT3B3Zw?oc=5",
+      "topic": "actualité",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUC1QcTJMaHl6WV9UM29WdEk5NkYtelRMN2IzSUI5RllmLW8xVFdWOGhGQVFPMXYtNUZPckU0aVBnSzhVc0JLa091ZTVoNmYyYWdNekE4NTdpS2RPcXBnWDllX1EyNDVSOGpYa21HNWxmSWdwLVBHX25KME1vRE5rZ28xd1ViV2ZvWnNEcnAzUTZHWG9NWTc0TUxnUjRCZk5weGs5MmRyaXUwekEtbXdEVUY4YWw0dHhyQkRVVtIBwgFBVV95cUxQYi1Xak5RRVZuNzZTd2UzUEg2X3JlaXZtRUpBZFZzTVNBS0l3M2x0YWdvT1J0dGhGOFl2RVBCTFgyWUdhZEVMcWFFV1VHUEM3TzRicnFLNVFiMVIwSzQ4RXdHeDJKV2QxNmVKQm0wUTNOTEp1cTZDZlJDb05IcmZVWmcyaW52cEo4UXNvdUd1QV9XRzBDeVZEZDZYMWp3bUtvUVZuZ0Y5Ml9RWXk5RjBaWW1ZXzBrbWRsNno1QWZPT3B3Zw?oc=5",
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOak9NMGxtQUJIRC0zQjg3UFExQXBYYm5VM0JYTVl0SUhHS2dQSmJadHg3enlMdTZXbXVBemRCbk4zenZuVGhZX0JSaDNkck5vMHFQd3lpZ2pxSlJQQXZzVzR1N0hCZmg4VEVRRWRsRC05MDJLNi1DOEY3alJKN2l4X0RRSzQxLTRBUWRXSWdpbjlOOVdoMzU4emdmc3plWXhqWHBTSmk3WTJDc1kyTlBtRkk3NzEyZlRzM2VBUzdWS2o5TFpwSHF6bFN2VE80bTdVYjVR0gHYAUFVX3lxTFBrb3BEckhoV2hTTGRndEtKeXdCVFVtdElRN3RsWFZpYzVoWmhYQWUwX1BxcVpDbjJPUno3ekd6dnJQTDZrNFZudEZMaHBqVE1HeVBaNmY5WjhQMmR4OE5CWTFrS2F6VElBYTVwS3g3N1kxT3VDTU5hb2pCTXZtbVRSZEFoUXlaZFRoREJBcDItYTVLNk8wcFB5VWhUQlFXWEFXdWUzSmRKTVlkMkxEdzhlRjBmRWRsX1ZCaTMyTUlYcDlBVzBCRFdIS1V5Z19uallOS3ZlRG5TYg?oc=5"
+      ]
+    },
+    {
+      "id": "2026-09-30-gabriel-attal-68603368",
+      "date": "2026-09-30",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "«Une vraie décote si vous partez tôt, une vraie surcote si vous partez tard» : Gabriel Attal appelle à «changer de système de retraite»",
+      "sources": [
+        "Europe 1"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOTXAxNVZoTHZBMXBnZm5PUVNoeWRLRFNuVlBPRUpYM0ZfUG5JcU9ucmhGR0drS2pEQXR4bDdWV3RkaVhUMUIzejl4MHhNZUFGeVotWGpaYmhNQUNtS1k4ZTMxbmZ5cVdtRmw3RFBjZUtjSGJ6ZmlGZEl5RC1IeEw3Z2JlQmo5Vk5oY2pORWxHTzEtbkh4ZldBV3dPMGlmSjRveFNSSlVLS3NZanJfQzNacWpKclR3QlJDY1ZSVzVIcTZrekJfQzFfNG9xY0ZXdGVyQ3pWX2JET1c1RFJSMW5TeGF1bmN3MElGcFlXSTB0MFR0SnlqTmxyY1pyak5sQdIBgwJBVV95cUxNSmM4eXVJUUVZUXc4NmNUZ2NOQXF2RTRfMDk0X2hmem1YQlp0OTBqY2E4cFQwQ3hIejZwSnlGeW4xUUdxelhCdmZSUWtRTkJvSkh5SWtmRzA2ZFN4endfVFVFWFJoOTdSZGVKTkF5ZnRiajd3RVFCZ1dXcUhHbWxvdjdtc2JYMzJNYWtLeWQ5cVpobldvWlhoNmlRQ2hCbF9yeGlMQ21pZmh1MHQ4VnlHTmZobzQ3SGozWDI0Mi1ydUJyRWJYd3U4UktUX2llZkFsUmlwdTdxajVobGRPNlRjRjRxQjRBdlZxMTRnM0oyOWZZZFJnZDA0Ym5XN2JGTmNJRjNz?oc=5",
+      "topic": "programme"
+    },
+    {
+      "id": "2026-09-30-gabriel-attal-57313644",
+      "date": "2026-09-30",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "Budget 2027 : «On doit éviter une crise de la dette», alerte Gabriel Attal",
+      "sources": [
+        "Europe 1"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaktmMldjZFpGNEdCbTJneHJSbk4zYUhJUUlKdzJWVWhkTVpIWDJvT2JMSjlUWW5US1lxQWE5TS1OZGxiMG9NcEVZR3FTZWdzeENJMmRNUEFMeEpCUGNITVVxNk9LRk1NWFpvRmZBNno0cmRYVU1ZVTNiVGJ2MWRyckQ4N2VNcVZFT083UDdHczBCQ1pzcVV1SEJmYTdkenp3OHFlcko5d2ZyUVlmd3ExRjBMelAtTVhQekYwNFo1TlNmeWlzVkxJXzJPa1RJYlVoVkpwLTZKSjlISzQyVVE?oc=5",
+      "topic": "actualité"
+    },
+    {
+      "id": "2026-09-30-gabriel-attal-32525536",
+      "date": "2026-09-30",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "«Je propose de créer un conseil de discipline dès l'école primaire», annonce Gabriel Attal",
+      "sources": [
+        "CNews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbjgtR2dVQ0FLNks3VVo1YUtRQWhGRjZ4UTJUcVZzVU1ROUUwb0FNU25SeXJLSzVrMXhvLXBhQnRmcjVzdFRlMjBzQ3F3ZkRpZVo2VG9WVXdWMmFhSTJyYjh1RXhpYk1JZ3pTVlBOemktbzBmRkhXa0RSOVEyNXI4eGZQcDZta0FkUjRKUzJROVU5bHNORXhpTGlWekUzaU80MjR6MGRBMllvdUdGUFE5OF92Y3B5c3g2OGl30gHAAUFVX3lxTE1Md1Atd3d5ajAzZXJQNGhvenFWMXN5NXUzUTNpS3I3b2JmM09RNXpsRlRvQnRhZXVoRi1ibHZldEs2WjVVc1dCamczdlpiM0t3VkhxQlRpVHFfM1ZjRU5iZVE5UjZ0RGJKOE9ucWVCeGFwRXFubm9zdGpfblhfUVVUVlhCX0s5WUlSUHBkM3daSzcxcHBwaG1yS2sxSlkxWDBQcmU3aVRzejJkNjNSV3BMWjFYZzJBcVQ4bk5YVTNaOA?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-30-gabriel-attal-29104537",
+      "date": "2026-09-30",
+      "candidate_ids": [
+        "gabriel-attal",
+        "marine-le-pen",
+        "francois-ruffin"
+      ],
+      "party_names": [
+        "Renaissance",
+        "Rassemblement national",
+        "Les Républicains",
+        "Debout !"
+      ],
+      "summary": "\"Le RN a changé en surface, il a refait la façade\", commente François Ruffin, après des écrits antisémites attribués à Jordan Bardella par Mediapart",
+      "sources": [
+        "CNews",
+        "France 24",
+        "franceinfo"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQd0FnVW5RT3Q1WE9sSlRTdmNZQzVjdk9ZVTJPUXR1WnUtdmdxZ05BTXhyelIycTMzazl5YVF6MXhBTHNuNWlIbU45eFhlUWRpaVlCTWgtbXB5QURYSlZrSzJ1d3prcmJJV1BPVldEY0V5OTRUclpFa1ZubWVmNzhfeEpxREhsRzM0UmNmQWtWRzNON2Mtc0hKSXdoSElaWHY2V2paWjd6azFxa2FyMFdPV1I4ZG9lTy1mM3hKQ1dDRdIBvwFBVV95cUxQd0FnVW5RT3Q1WE9sSlRTdmNZQzVjdk9ZVTJPUXR1WnUtdmdxZ05BTXhyelIycTMzazl5YVF6MXhBTHNuNWlIbU45eFhlUWRpaVlCTWgtbXB5QURYSlZrSzJ1d3prcmJJV1BPVldEY0V5OTRUclpFa1ZubWVmNzhfeEpxREhsRzM0UmNmQWtWRzNON2Mtc0hKSXdoSElaWHY2V2paWjd6azFxa2FyMFdPV1I4ZG9lTy1mM3hKQ1dDRQ?oc=5",
+      "topic": "controverse",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQd0FnVW5RT3Q1WE9sSlRTdmNZQzVjdk9ZVTJPUXR1WnUtdmdxZ05BTXhyelIycTMzazl5YVF6MXhBTHNuNWlIbU45eFhlUWRpaVlCTWgtbXB5QURYSlZrSzJ1d3prcmJJV1BPVldEY0V5OTRUclpFa1ZubWVmNzhfeEpxREhsRzM0UmNmQWtWRzNON2Mtc0hKSXdoSElaWHY2V2paWjd6azFxa2FyMFdPV1I4ZG9lTy1mM3hKQ1dDRdIBvwFBVV95cUxQd0FnVW5RT3Q1WE9sSlRTdmNZQzVjdk9ZVTJPUXR1WnUtdmdxZ05BTXhyelIycTMzazl5YVF6MXhBTHNuNWlIbU45eFhlUWRpaVlCTWgtbXB5QURYSlZrSzJ1d3prcmJJV1BPVldEY0V5OTRUclpFa1ZubWVmNzhfeEpxREhsRzM0UmNmQWtWRzNON2Mtc0hKSXdoSElaWHY2V2paWjd6azFxa2FyMFdPV1I4ZG9lTy1mM3hKQ1dDRQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQdmlqMU9aRHA0ZXBnZk9TSUp3WUhLRWlQSDFSSnE0VU1adlNZOUxwRU9sUWhfU25jNkhzc1EwVEpWMTNRbXpxQlBvSWh3TUlWcTNfNV92V0tuYkZXN2hWNWZZb0NsUUp5UGNoWDhYLUYxV0NwUXJWMFc5Wi1sdWpNNlZPbE1hT1JNM0FySS1iRFJ0clpEdXB6Y1laTnYzV3czTGowQmU0NUs2Q01vT19fMmUzN2pXNFc4NjFBeGdyc0RCSkxzVmgxSnh3MWt6ME1GNW5UT05zX0VINlZkNW5NMUl2R3diME16VHh5bmc0SXZwSzI0aHVSeW1GX21UOTdVaDhtS1ZUZ3o?oc=5",
+        "https://news.google.com/rss/articles/CBMisgJBVV95cUxOQ2JKOVFvMlhFenJXNHNraC1oY2J2Q1VpQ2U0TnpqNnpHdDBSVDkxb0NVSU95cnBGeE1RS2dHeGpGTVZnZHNHZlVwWWpWaTJlTHZLM3M5djJUVXFiUUFsU0N5bWhENnBjSzhyOXF0dFFCS1JIdFZTdmtwNktIMFB6RWZsZEw4UGVQc1gwQUl5VGFBU1VLSy00Ump4WDRqcUZzQnFUMVotT2ItUm4td1VrV2RDd2xOTVloSVBmaGk3R3hrV1R1bVFpUnYxSU9qOUY5dmFRVGFHSnJvUTNWNjJacEl4dmhmV09GRHRjeFI4ZXAxR3N0S1Fnd0FaOEJQbjZZa3NTNDhaMzhsT1h5dDNxN3BsbmlhWnVQckZOX1pTQUg4Uk1weG81VzA4WlgxSVd3MkE?oc=5"
+      ]
+    },
+    {
+      "id": "2026-09-30-gabriel-attal-12706075",
+      "date": "2026-09-30",
+      "candidate_ids": [
+        "gabriel-attal"
+      ],
+      "party_names": [
+        "Renaissance"
+      ],
+      "summary": "«La violence peut être légitime» : Gabriel Attal regrette les propos de Bally Bagayoko",
+      "sources": [
+        "Europe 1"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZkx5Z25GX25udVNzVmhFZFJpVktiUzFxck9YMWRUczVaTHdTbkRWcVVfRFZ0UUN0NjI5R0VtY1lZTnFyQTB1bVJQbVNBZVM5VkFvMWlRVFl5dy1lTk5tbmh5YzN4S1lmN293akZVU29Bb2tmUHFNWks3eDNpOE1kMFpLTjRtbGE1NUlOTVNBTFRJQ2pQUHdwQVVKOUhNSVZRZFl4Q0VaZEQ2OU9neDV5RklBdEYydV8tRVl3MGRGRHPSAcYBQVVfeXFMT25WUWJaYVJHWkNyTk5VUElnT2tZX3o1VVZDZkRTdXZJU0tNNVRYbWN6N1dBY28xVVdXWGJLS0VMejdhNGxDRHdVUVFKMTFhbGhUQWF2dTRvNmhUUkRoVWlNdXBXMVRXSUF1ODdWanVXdWhJbmRQdk5ydVcxUEoyQjJOa0tXcVRaTEw4b2RxV2tXUTdGQzRlSVltR05fVXBYbVJLS0ZOQS1Yb3pYR0x2V2RGLU9ING1XcFh6cnpjUWlBN3J6NU93?oc=5",
+      "topic": "actualité"
+    },
+    {
+      "id": "2026-09-30-emmanuel-maurel-81908196",
+      "date": "2026-09-30",
+      "candidate_ids": [
+        "emmanuel-maurel"
+      ],
+      "party_names": [
+        "Gauche républicaine et socialiste"
+      ],
+      "summary": "« Emmanuel Maurel, c’est qui ? » : portrait de ce député du Val-d’Oise qui pourrait créer la surprise lors de la primaire socialiste",
+      "sources": [
+        "Le Parisien"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPMlZHcmxQRjNMU2NQOGNycS1HTEstTy1MUWhKVVhRNEpIMzJLWXNoQjhFMWdjYmxPN3hiVEF0dDhVUXcyWmRDUnVFZ3Fia3BaOVRfdEtBNFA4MU95bXltUHJ2Uno5blA5QmRfdHZKSGJxS3hvQy10MGNmLUtoNDU0WHY2NzRyZEF0d2FBeWwtVDNOa1BIZno2d09UOFRqYWVFRkl6VEZ4UVZUZnJJdXhuamFZQVU2RjFjcVZNc19UdGN3YXNwcnBYODhZSEpJWHo5dUtrT2pLUU5BV0JZRHlVbFljc1hBZDBLdEtIR3kzMllHWS15LUl6elBXXzBkX2EtX0xTdE4yY0pvX2ozM28ySVNyTWl0VGdmM1NrUzU5UG15WTFzY25XWHVNMi1RbXFyeS12dlNZTEVuVkhsNXc?oc=5",
+      "topic": "candidature"
+    },
+    {
+      "id": "2026-09-30-edouard-philippe-23915386",
+      "date": "2026-09-30",
+      "candidate_ids": [
+        "edouard-philippe"
+      ],
+      "party_names": [
+        "Horizons"
+      ],
+      "summary": "Présidentielle 2027 : pour Edouard Philippe, le principal danger s’appelle TINA",
+      "sources": [
+        "L'Express"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQ1FNaW5ZbWdUakg1dktENTFoLWUzcWVZekJUX3l4OC04ckRjLU1SREV4RFNqSXRUczlfbkVDUmRFS2dZT2NwNlAyZC1ZRzdseU80YTNmRUlpOHp5cWpMb1gzOG9kelBjQWxWYW1TSjNnNExCSllvdlhUZXQwTGgzSVRJSDJuWnVCWmY0WTd1N3ozNjVDQUJzbHdiN0V4OEpBWTVIUDFHZmhhaENlNVZJOFItaF9ZdW9uVVBkQUN4czNQMW4tSm5HdGd6VjZ3LVM5ZU1v?oc=5",
+      "topic": "actualité"
+    },
+    {
+      "id": "2026-09-30-edouard-philippe-23651921",
+      "date": "2026-09-30",
+      "candidate_ids": [
+        "edouard-philippe",
+        "bruno-retailleau",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Horizons",
+        "Les Républicains",
+        "Place publique"
+      ],
+      "summary": "Retraite à 65 ans, 45 annuités... Édouard Philippe dévoile son projet",
+      "sources": [
+        "RMC",
+        "Europe 1",
+        "franceinfo",
+        "Le Point",
+        "CNews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWm9RSUZWTnEyNXFVei1oTzVYM25pdXpEMG9EdDlaQmw2VUlHQlQwQTFoWGNJVEZTb0lfOHRnLWVZQzBsTUhNMHRQcDBmemx0emE3ZmpDenZOenJwbzVOQVFTUXBBWm0wNmlaaFFXMWNsUkg3VDhmVjYzU1kyS3pZamZ5YWtDOGZUTGEweG9yY3pxTzhSemp6SHJhZFlsU0EwVUhtWTRxcHExX082OE9ueE1UVWg3TU00MDBzNGJESG9xSFU?oc=5",
+      "topic": "programme",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWm9RSUZWTnEyNXFVei1oTzVYM25pdXpEMG9EdDlaQmw2VUlHQlQwQTFoWGNJVEZTb0lfOHRnLWVZQzBsTUhNMHRQcDBmemx0emE3ZmpDenZOenJwbzVOQVFTUXBBWm0wNmlaaFFXMWNsUkg3VDhmVjYzU1kyS3pZamZ5YWtDOGZUTGEweG9yY3pxTzhSemp6SHJhZFlsU0EwVUhtWTRxcHExX082OE9ueE1UVWg3TU00MDBzNGJESG9xSFU?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRWZvdUwzRGgwSHNiVTM4Um9Yc2RIbUU5Mi1fMlBKNVpJb25VWlVKQTZMWXJYdnFuV0t2ZUp1UDA3VVRHQWJxVy1WU3FSZ0lVTk1pbElyRjJJU2xvVUZ5NTQxTlRPLW9pLWNWa1pkM2tPU0Fqald6dDhMUFFidmRDLU1fN3l5ZFpnSTdpb0NSMHlHaV96YmwtVlljRUhIdVc5ZWJlekFDVGl2SHdMRU5vMDdrT1ZuV21PX1RGQW5oZGszemxCdWfSAcsBQVVfeXFMTlVYeTVjRXc5R1FScHdNZ3U2ZGxGOEdBdjlpTFowcGZURXc3QmctT2pheTBDbW5hX1JPcHBnUHpDOE5yeWZmVDJjYWpVcUEtYjZsQWx0bk9qa2hkcnBMNUhZbXNHRU5PdGZ1MmZPczI2WC1vck9pOTlYSVJHR0tMVS1ka1FtMGE5REhYOWlCbHYtZU5SUlhvR3hLaDJFYW5ZTVM2dzNuQnFPdWRHYWZ3djl6SkNLVmJJanFEcnpVYkhROHFEeDBNNHBLaDA?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUThqNGNEamdYQXJLcTV4ODFPNldvcVBlYVFFekFZRE5xSDV4aWJqTHEwcFR1SGd6NC1FLXNtTlFqX241U1RELTF1NEZIV19VZFhoUFlsYm1DNUY3bmpGRFNTUU55X2xocEs0V2FjcmIzYnhVX2pmTG03aHgyeTZteUlhWm5yWU5qVkxQWXZUa2l1TGFNMjRDcHJfeHhFV2otbVdQLVhlTmZ1YjhsMUVBaGtqZ1VBQndLZm1wWFd1RWNSRHlWWWc?oc=5",
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVmdXeVNTUGJzdk1BR0JIYlcyUDI5ZmgwaTg5MzZpb2tUWkJqLVdTbXZZY1RHNHduR0hKNXJWcm5BcWVWSWVmTU9lUDRlNk9YZGpTTlJ0Sk1jTGhPWUNtb0s4Vjh5Qm5YeXNzXzEwRHNQSEZfUHJ3dUJFaFRJRURmLU5GajZ1amFjdy0xQW5lTVhzVzdHMGw2M1VtcE5yRHlhY0FmUkFWcDZ2OUNwMDZWeEhTcy1TZGhHOUxUaUFUS0dTS3BmZlpIaXZyS0g1NHMxWTJ6QmpDMk1HODVrQl9v?oc=5",
+        "https://news.google.com/rss/articles/CBMisAJBVV95cUxPZVN3R2RhRG9kVGNSektxQVF0Q3dyRkV1akpCSWhPYVN5YlpzbTRIT0Z0VE03SGw4NDNlVWNlYWdoMmNqLTlhd0JWZXFyMW1BLUpaa0tMQU9aSE40YnpIRkRqYnZkMjJaVHkyQkFzdndmdlhtSm96ZWIzRFdWcW9HNy1INDJmaUVLbTlxellCZllNS2w5Z29VemwwNFNqYWppVGxzRHk3NzRFZURzODRtV2hPRjdfU2QxVGRvUmNKRDFFWGloU2hQQ0xQZjF4MXJfd2U0b09DNDRGNFVCSm1laWpvSHJWQ2xnUlFPeXhiQ3BTLUkxZC1zTUZCVHpCU3BvZVhaaFV1QkJzb0Q2YnNnS2Fkek4tbVR2XzVnamNnOFZXdGxzaWx5aDRiV2RtTzJC?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR1Q3MFhCN05DSlVJZGtTV0hfZWhiZEJlYUVBbWRINzFKZUZkREo2T2lHRGk1Vi14NElXRnZORXoySklqVWgyYUExOFRIOXVkT3M2c0JLTWZtUlZvUGxxenhEQ3dPbTNCVVc3RGd5VmlBZ2cwOWJSQ0RuM0RKWU9iZDFyNjVEMkp5N183X3lRTXhJWXpGd1pjbkNZRFlsb3I3TWx1NnMtbGlzdw?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ2xRalpUZEFadTJzTUVhWWNzOWtiM1V3SXVfWUExbHV3a3g4R05LUHhyTVdqaTh6cTFjMjZwSzl6eUppeWFvTW1YYW5YdkFvT2dreG1ndjBrN0RFbV9BNXNma1pUMXAxTnZ4TkROOGp1eEhnS3pNTnBCbUZpUElrZmd3SFk5WTFsc3dhRkNON25FZzVYb1BqdllkSHRELS1RbkhfVENIQ3dzYUlRNzFkUnl4Um13d9IBuwFBVV95cUxPd1BXMkNuNkdEV1BGaV9GRTlnUmdnNTJjMkRNVlF6TWJSX2Jhd3BsUVo4SndPX3JkbEVUT1g4TVpwV2ZMME9LZDdLZkdBNkRyZFJpZ0c2WjhKeGNBR20wTm9GZVlCMFJmOUdRcVRTSjloaGpZdGI2N0VJR0NtUWRoVzBWUEJkU2hLZlZRc3duMjl0MW5pZUo0X2QzY1pZZW9IbndLbU02T2I5ME5KN1pacDFGNkRVUEdQWjIw?oc=5",
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY0dBcVFibEt3bV9UNzkyS1I1bjMtRGxlR1FUMFhrbDFHS1BEZWJiR29zRE5ZODliSVZKWElsX0VPa3VvQ05Ub2lrZmZ3VERmTl9qbVV3VXMxdGdIbkU0X2hycmJNQnVTTG5CU0JJOVVVMVhnQUdWVnJUaU9JOV8zWkxoYzRmYm5pa2lQMmFLUnY5Yk5lcmpRTEhDeHlCSWV3WlFhWnE1NXRvNlQ2TkRYbllvWVF0XzRrNUJuSmRoYkhTT1k1N1pnMndxOU9EVzl0VlVYOS00TQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWUd4VFlpWFYyZGhxNU9xUTJVYmZIY0VaRXluM19uS29jME83UVhzWGwtVXhkcmh1V1FIM3p5QmRKVHZhQVJISHJDRjJpNUZibEh2OWRUQXI3aGJXZ21GNzdESnhzVTcweUVLQk1fRUotS0FBSVVCNDRhYVB3N0lNZFFEcVVJRTlSODBHWm9XTkdMMDNLNWdYLVJEaDRsYlczdExmVVB6aWlPcHhSZDBEM2hmUWd3MU1BSjJPV1pjYTVqRkJreUhqUzFMcm9BeEk3MVRScUF3c1p2R2M3MEpHbHlIZXVoSXVzbHgweW5lX2tVX2FjUWFFUFJrcXJtekw1S3QtZ2lRZjl6MzZTbnFYaWk4QzV2dWJ4SUdHdmRrSVJORUZKYVY5QXh1Tnh3YmtRVXAyREJFRzE?oc=5"
+      ]
+    },
+    {
+      "id": "2026-09-30-bruno-retailleau-89533919",
+      "date": "2026-09-30",
+      "candidate_ids": [
+        "bruno-retailleau"
+      ],
+      "party_names": [
+        "Les Républicains"
+      ],
+      "summary": "Présidentielle 2027. Bruno Retailleau veut passer la constitution « en dessous » de la constitution française",
+      "sources": [
+        "Ouest-France"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPSTVDdG1tMG9SUHhRUFNPSTh3cHJMbGN2akxRVG1pZ0tpU3JxbGpCZnlEOWpZMlVRTHpzcno2cXhkNlRnRVk5U05JRkdLSnd2c21zNHRKYmRqWkpJS3oyZS10dm5UMmJuRGpiTmtaaGVYWVZDd3dqN3JlMlRubjRyQ2hDSFZfNjd5bWE0QjU5UFI2bk1hejdmbXIxaHBXRVYtajdYRVdWMXhDZ2t2U0U1ZDZJelktRjJhbnp0dkFReU9wX2lnc2RCNHdKLWU2cVMycENLb0lRcVktWUhORVBiYU5VVFNEVG1MMnJNYmVpeXZOQXFWX29lOTlGNlVyQlA0YUlmS1dYVTNvOE45Y1FmbTQ5andHaE1fYVlFY3N4Yw?oc=5",
+      "topic": "actualité"
+    },
+    {
+      "id": "2026-09-30-bruno-retailleau-21041775",
+      "date": "2026-09-30",
+      "candidate_ids": [
+        "bruno-retailleau",
+        "david-lisnard"
+      ],
+      "party_names": [
+        "Les Républicains",
+        "Nouvelle Énergie"
+      ],
+      "summary": "Refus de marier un étranger sous OQTF : à son procès, le maire de Béziers Robert Ménard sait qu'il pourra compter sur les soutiens de Bruno Retailleau et David Lisnard",
+      "sources": [
+        "Europe 1"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNeUVBTXphV1BURXZmSVhxYl9jRHlZRl9RNUd6SGtYeTFnWXN3QXR0NkhlZ25JV1BxZGZzRTBYUk1lMUpsM1dMOU1GU1JFMm40MUJqYzhPbFlKekJ3LXN0dVY4dkxnVDhYdmI2X2lEVTBabzBnZWtINks2eWdqdnVGTURNQUg1cU9iRlRTRFQ3SzJzUUlpa1dBRVlyX283NmQwNDV4SjFNQ1dCS3dVNFdtbk5oTFd0TGZPOXg1SWM1alNTRzNtdjBnZWFrS2FtNHVZN1dsb0wzVFBubzFOWWdJbTVZZVB5bUwzSmJremNuTmE3eXZkdEtDSm83RzhnR0VmYlh0RE5nU1JvSE0td2MyVFc2VGNVcjNrb21WbF9SWWh6amFhZ1BLMWhHcDDSAbICQVVfeXFMUGxhT055UlBqa0R6YTF0dUdGcXU2bFJ0Y25hcndvN3lJUjlmQW5IOUdsQ1J2emlZQkhzd0VPYzdhQTdoMGhfSUVBeGxUSUJIbEtvQm01MDExX0RuOThudjhVYm0tY0lHRkI1Q0t1ckhaWXQ2cXVYbm1SSWQ0R2hjS2xWbkVJeVptY3BTNmZjRGprdlFqb0JULWZVcWxZZHpDRVFZSjg2RFlMMjBxYzdmckpjTzVOTjgtemUzOWZNVFRtUmJublI3WE5jR3ZtZ0ZMT0JHS2JkcGJPT05fTUNIYTBxMXdzbFVkRkpuRGFWeXBlWkM1ZTNZTnVLc0d2ODAtWXRuUS1sckxHbmhmV1hORDY5SkFDaHdabVpIYVg3bjJmRWthb3NxTzlBcnhOdjR1YkNn?oc=5",
+      "topic": "controverse"
+    },
     {
       "id": "2026-09-29-xavier-bertrand-45818313",
       "date": "2026-09-29",
@@ -5889,6 +6234,26 @@
       ],
       "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxONWlxdlE1c1I1RXRuN2x1cVZRSjQ1UTRVbDZPbVFOeC05NHl1VXF2aTAxMjRIMWdTNlk2VzYyMnlmeXdwWkJBZUdPSU1fMkkyaDRUTW1maXpZbHRGd3BSWDlCWHNQcW1NWVQzNUtBaHZ6RkFNQnBBbkFDUGNYZnVOcUMta1BWcHkxTEV5cVdrQ2lHUmVKWVJkRVZvcE9yTVVvMjQ3aTdlN2hiV3ZYWjJTQ3BJNWRBM0Z0V0g4UjJHby1oMERnaGpQM3RhUVJJRi1QZ3FKLU10T2l4Q1QzWmpHYVJBb0tGSWFlVm5BbGtYQ2lzOE5hVWhIRXdwbzA5aDZZUVNsQmJ3RUF0TVdCSFpXYUw0T2ZoN1JmNVd5b1ZnTGNSdzBlRUlfZmVJN2pEbHdZUkFfYWE3THlrNmFvMjR5cTVWTGZnSDJMLXdIQTV0STk4VjU2?oc=5",
       "topic": "controverse"
+    },
+    {
+      "id": "2026-09-29-marine-le-pen-20886862",
+      "date": "2026-09-29",
+      "candidate_ids": [
+        "marine-le-pen",
+        "edouard-philippe",
+        "raphael-glucksmann"
+      ],
+      "party_names": [
+        "Rassemblement national",
+        "Horizons",
+        "Place publique"
+      ],
+      "summary": "Sondage : les cotes de popularité de Marine Le Pen et d’Edouard Philippe reculent fortement, Raphaël Glucksmann progresse légèrement",
+      "sources": [
+        "Public Sénat"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNYnZrMTBFeTliSWJBRFhBR1kzNUoxdEpkdThfei1vSkI3UXV4dWNuSV9XMS1Ua3RlWHZ0eXZBR1JvSnUzMFl1cVVmTXRxS0ZIbGxGN18xR3Q5SnAxeDk0X3RucnVWNmt6clFIQWxGV2dJX29NTGZYUUxLbmplNWpNcy1OQ0lEblp5MWx4WklUT3hXWnFxVnFuZTBHYmY0OFREbmxOMjJIVExQSFVtX2lrelZYRHpLbG5uUDJCYXI4a3JwODRSNE9TOEhkUFRoaGNuWUg1TXZid3lRbzUxTnlfb24xSEFKMkRmUzdRLUx1Vk9EYnI0SmYycw?oc=5",
+      "topic": "actualité"
     },
     {
       "id": "2026-09-29-les-ecologistes-12593594",
@@ -6847,7 +7212,7 @@
       "party_names": [
         "Horizons"
       ],
-      "summary": "Retraites selon Édouard Philippe : ce qui pourrait changer en 2027",
+      "summary": "Retraites selon Édouard Philippe : âge de départ, pension… ce qui pourrait changer en 2027",
       "sources": [
         "capital.fr",
         "Capital.fr"
@@ -12086,6 +12451,22 @@
       "party_names": [
         "Rassemblement national"
       ]
+    },
+    {
+      "id": "2026-09-18-fabien-roussel-91832830",
+      "date": "2026-09-18",
+      "candidate_ids": [
+        "fabien-roussel"
+      ],
+      "party_names": [
+        "Parti communiste français"
+      ],
+      "summary": "Crise des carburants : «Le gouvernement peut baisser les taxes mais il en a rajouté ces derniers mois», dénonce Fabien Roussel",
+      "sources": [
+        "CNews"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNzR4SWoxcFI4aHpEY3lZbXN3dFh2NnhEdXRQaTdvYWF1LU5EM3BodVVoNDNyQnBad1pMVzRzSnJBbTFJcmNHUE1oY0NJM3NXdU9TaXJIQWVxVy1Xa3pDTnUtcmRpY0VDNkFXUV9md2hmaHhTU1dfdUtRZlFHYVk0M0RwQ2t3djFmQ0hOVC1ZczFaT0FORjB1YUtlUWNuZWRVRlNRc1ZYZXpDVGl3ZmdBbUlYU3ZTTGZM0gG-AUFVX3lxTFBURW5NN2hwcC1haWF4UlZVTWpZOFNDYWtGcWJXNmQxMWxlc0dsN3pKSDhLTkdJbmxXLTJkR1F1YTlnWURnQVduaFVlT0xFVUNMSUJWV0xLNG16dFU4Z0NZQnAxeC1EbW9ReF9SQkdiUHVRLVRJNFY0bjJ3MUNkcjdzcmJsVWtXVjJhT2xoRG5HZnM2NkJKM0t6MTB1V0JhdTZrdWdad0Jsc25QVXVNQzdpWGZlYlg4cGlhdU9XUkE?oc=5",
+      "topic": "actualité"
     },
     {
       "id": "2026-09-18-fabien-roussel-45201601",
@@ -17631,10 +18012,15 @@
       ],
       "summary": "Présidentielle 2027 : «Pas une voix pour le RN, pas une voix pour LFI», affirme le socialiste Karim Bouamrane",
       "sources": [
-        "CNews"
+        "CNews",
+        "Europe 1"
       ],
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTGV5dEdGUC1XNUR3LWxhZG81Qy1VaGZWbnc4dWFybVNHT1Rfa1ZkV1lzd3hXRW1JTVpxWmVfdk5MRnlma2lWQS12c1FVcmlVdl81UWkyMUh3MWJTZUpFVDZNZFQxZ1JyV01hS0s4WS1WSm0yMXdzUTZNTURXS3NiZ245TC02THRibmYyQ0VyTDZZM0pUemdueFpTT01TdDdpOWhJODhsTlFzMlVsUWJNSy1QZWM3QdIBuwFBVV95cUxNUXQwTjk4Z1JYYmNIOVI0ZU9CcEx5TWpoejVnWGVVMU1ZQUJkQmFWN3dydzZHMWVfVWZNblphU3lVZ2M4SHFsdm1SczA1eUxLalZWLUR3QTU3d05iS0pPS1V0bUp6ODhDSWhHODVmQzVFd242Z1U1d0puNHlETDRONFJmNHA2UWViMGNJd1JGdGltQ0tPSlp4MWE1UTRpMTJYeUQ3S0IzdjdxYWQwbTlPQ1FPT3NPWjlqYWg4?oc=5",
-      "topic": "actualité"
+      "topic": "actualité",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTGV5dEdGUC1XNUR3LWxhZG81Qy1VaGZWbnc4dWFybVNHT1Rfa1ZkV1lzd3hXRW1JTVpxWmVfdk5MRnlma2lWQS12c1FVcmlVdl81UWkyMUh3MWJTZUpFVDZNZFQxZ1JyV01hS0s4WS1WSm0yMXdzUTZNTURXS3NiZ245TC02THRibmYyQ0VyTDZZM0pUemdueFpTT01TdDdpOWhJODhsTlFzMlVsUWJNSy1QZWM3QdIBuwFBVV95cUxNUXQwTjk4Z1JYYmNIOVI0ZU9CcEx5TWpoejVnWGVVMU1ZQUJkQmFWN3dydzZHMWVfVWZNblphU3lVZ2M4SHFsdm1SczA1eUxLalZWLUR3QTU3d05iS0pPS1V0bUp6ODhDSWhHODVmQzVFd242Z1U1d0puNHlETDRONFJmNHA2UWViMGNJd1JGdGltQ0tPSlp4MWE1UTRpMTJYeUQ3S0IzdjdxYWQwbTlPQ1FPT3NPWjlqYWg4?oc=5",
+        "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSWI1ZmlkclBQTmVjQkR2UVpZYjBEUEUyMElORXpTeW5NQUFWMVAwMDBoYlpsZXZfUFJUVHlOVGJkSUdHZ0RUMnZHY0p5bHFRTWt4aVNRTERlRW4xQUs0NEJjdkVFSGNWam5aQk1JNG02SklERlhlX1E1VHVZTjRqVzU0ZkhNNE13LUUtalVLV3lpUWZrUFRiWVVLQ01FWDRoS0xab3hwYWd1YjdHNDVOYnVXOHhFWDFkRGJHazM2OU02WVh1cDdiNmNTLVpYbXFHbTZPeTA3Tk03TzB2Z1BRdmM3UQ?oc=5"
+      ]
     },
     {
       "id": "2026-09-07-karim-bouamrane-67703049",
@@ -20858,7 +21244,7 @@
         "Reuters — 29 septembre 2026",
         "Le Monde — 28-29 septembre 2026"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -20883,7 +21269,7 @@
         "TF1 Info",
         "RTL"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": [
         "2026-09-17-zemmour-attal-philippe"
       ]
@@ -20910,7 +21296,7 @@
       "sources": [
         "LCP — retraites, 23 septembre 2026"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": [
         "2026-09-23-retailleau-retraites"
       ]
@@ -20939,7 +21325,7 @@
         "RTL",
         "LCP"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": [
         "2026-08-25-ecole-philippe-attal",
         "2026-09-17-zemmour-attal-philippe",
@@ -20971,7 +21357,7 @@
         "Le Monde",
         "TF1 Info"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": [
         "2026-08-25-ecole-philippe-attal",
         "2026-09-07-philippe-calendrier",
@@ -21000,7 +21386,7 @@
       "sources": [
         "Le Monde"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": [
         "2026-08-30-lisnard-primaire-droite"
       ]
@@ -21024,7 +21410,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21048,7 +21434,7 @@
       "sources": [
         "TF1 Info"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": [
         "2026-09-06-roussel-candidature"
       ]
@@ -21074,7 +21460,7 @@
       "sources": [
         "Le Monde"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": [
         "2026-09-20-ecologistes-strategie"
       ]
@@ -21098,7 +21484,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21120,7 +21506,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21151,7 +21537,7 @@
         "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
         "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": [
         "2026-08-30-faure-primaire",
         "2026-09-16-primaire-socialdemocrate",
@@ -21177,7 +21563,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21205,7 +21591,7 @@
         "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
         "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": [
         "2026-08-24-glucksmann-programme",
         "2026-09-16-primaire-socialdemocrate",
@@ -21236,7 +21622,7 @@
         "Le Monde — premier débat de la primaire à gauche, 24 septembre 2026",
         "Public Sénat — bilan du premier débat de la primaire à gauche, 24 septembre 2026"
       ],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": [
         "2026-09-16-primaire-socialdemocrate",
         "2026-09-23-primary-first-debate"
@@ -21261,7 +21647,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21283,7 +21669,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21305,7 +21691,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21327,7 +21713,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21350,7 +21736,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": [
         "2026-09-24-becht-candidature"
       ]
@@ -21374,7 +21760,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21396,7 +21782,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21418,7 +21804,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21440,7 +21826,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21462,7 +21848,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21484,7 +21870,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     },
     {
@@ -21506,7 +21892,7 @@
       },
       "controversies": [],
       "sources": [],
-      "last_checked_at": "2026-09-30T04:22:00.421752+02:00",
+      "last_checked_at": "2026-09-30T10:44:18.573219+02:00",
       "news": []
     }
   ]
