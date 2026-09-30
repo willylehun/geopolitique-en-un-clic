@@ -145,6 +145,13 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         fetch.assert_not_called()
         self.assertEqual(news.DISCOVERY_STATS["google_intermediaire_non_resolu"],1)
 
+    def test_automatic_items_with_stale_google_urls_are_purged(self):
+        google=f"https://news.google.com/rss/articles/{RECENT_ARTICLE_IDS[0]}"
+        self.assertTrue(news.has_unresolved_google_article_url({"origin":"rss","url":google}))
+        self.assertTrue(news.has_unresolved_google_article_url({"origin":"global","url":google}))
+        self.assertFalse(news.has_unresolved_google_article_url({"origin":"rss","url":"https://www.reuters.com/world/story"}))
+        self.assertFalse(news.has_unresolved_google_article_url({"origin":"manual","url":google}))
+
     def test_google_intermediate_is_never_fetched_as_article_content(self):
         source=f"https://news.google.com/rss/articles/{RECENT_ARTICLE_IDS[0]}"
         with patch.object(news,"decode_google_news_url",return_value=source), patch.object(news.urllib.request,"urlopen") as urlopen:

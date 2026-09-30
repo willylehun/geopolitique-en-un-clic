@@ -1015,6 +1015,11 @@ def is_google_news_url(url):
     except Exception:
         return False
 
+def has_unresolved_google_article_url(item):
+    """True when an automatically sourced article still points at Google News."""
+    return (item.get("origin") in ("rss","gdelt","global") and
+            is_google_news_url(item.get("url","")))
+
 def _is_google_host(host):
     host=(host or "").lower().rstrip(".")
     return host=="google.com" or host.endswith(".google.com") or host=="googleusercontent.com" or host.endswith(".googleusercontent.com") or host=="gstatic.com" or host.endswith(".gstatic.com")
@@ -2302,6 +2307,9 @@ def main():
         k=(x.get("bucket"),tuple(x.get("regions",[])),key_title(x.get("summary","")))
         if k not in existing: fresh.append(x); existing.add(k)
     day_items=old_daily+fresh
+    # Purge intermediate URLs left by earlier runs so they cannot survive in
+    # today's feed after the stricter unresolved-link rejection was introduced.
+    day_items=[item for item in day_items if not has_unresolved_google_article_url(item)]
     # Les anciennes entrées du jour peuvent provenir de l'ancienne logique « titre seul ».
     # Les enrichir progressivement, sans réécrire massivement tout l'historique.
     today_bucket=fr_date(now.date())
