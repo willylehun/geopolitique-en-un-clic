@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T06:05:54.826268+02:00",
+  "generated_at": "2026-09-30T06:16:01.109989+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -34735,6 +34735,50 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUHZ0bmZRQUI1RHNkVTRqejZzOHRmQ0hXQnBfT1AzY05lYVp1UWdFWjZqX2RNWWtGOFlxWlhZQmpRaTI0YUxULV9hNUdXcWU3NTlYVFFxdUwyU05zakhZNi10QWdYWmlLUUd4bkNyMDR0ejZ4X1dkODBzbnVXYTQzNmduRWw5UDJxMnUydUM2X2Y3TkRBVkY0ZlNFeEQ1ZDYyZmxITVg4clVYc2c4VFVCQThqT3lYalVpMHpLU2s1VWRTY3RSY0xrVU1PdVJNZw?oc=5",
       "published_at": "2026-09-30T00:43:58+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L’Iran dit au public américain que la guerre du président Donald Trump (États-Unis) a échoué, ainsi que d’autres développements au Moyen-Orient. Les États-Unis ciblent des personnes et des entreprises dans le monde entier qu'ils accusent de financer ou de permettre la chaîne d'approvisionnement militaire iranienne, en imposant des sanctions à 10 personnes et entités.",
+      "sources": [
+        "woonsocketcall.com — fiabilité 6/10"
+      ],
+      "url": "https://www.woonsocketcall.com/news/national_and_world_news/iran-tells-the-us-public-that-trumps-war-has-failed-and-other-mideast-developments/article_2ec12a7c-2e5c-5937-b4e6-4e7fc156366b.html",
+      "published_at": "2026-09-30T05:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Conflit américano-iranien : les États-Unis imposent de nouvelles sanctions, Téhéran met en garde contre des frappes préventives en cas de menace. Le 29 septembre, les États-Unis ont annoncé l'imposition de sanctions contre 10 personnes et entités dans de nombreuses juridictions, accusées d'avoir acheté des armes et des composants d'armes pour le ministère iranien de la Défense et de la Logistique des forces armées (MODAFL).",
+      "sources": [
+        "baomoi.com — fiabilité 6/10"
+      ],
+      "url": "https://baomoi.com/xung-dot-my-iran-my-ap-trung-phat-moi-tehran-canh-bao-don-phu-dau-neu-bi-de-doa-c56162350.epi",
+      "published_at": "2026-09-30T05:45:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
