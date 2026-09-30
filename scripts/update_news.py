@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import base64, html as html_lib
 import json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+from difflib import SequenceMatcher
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
 from datetime import datetime, timedelta, time as dtime
@@ -1404,31 +1405,41 @@ def _source_identity(label):
     raw=re.sub(r"[^a-z0-9]+","",raw)
     return {"associatedpress":"ap","apnews":"ap","afp":"agencefrancepresse"}.get(raw,raw)
 
+def _same_publisher(left, right):
+    a=_source_identity(left); b=_source_identity(right)
+    if not a or not b: return False
+    return a==b or (min(len(a),len(b))>=5 and (a.startswith(b) or b.startswith(a)))
+
+def _title_similarity(left, right):
+    a=key_title(left); b=key_title(right)
+    if not a or not b: return 0.0
+    aw=set(a.split()); bw=set(b.split())
+    overlap=len(aw & bw)/max(1,len(aw | bw))
+    return max(overlap,SequenceMatcher(None,a,b).ratio())
+
 def matching_publisher_article_url(article, candidates):
-    """Fait le lien uniquement sur un titre exact, une même journée et une source compatible."""
+    """Fait le lien par titre proche, même jour et même éditeur, sans deviner le média."""
     title=key_title(article.get("title",""))
     if not title: return ""
     try: day=editorial_day(article["date"])
     except Exception: return ""
-    source=_source_identity(article.get("source",""))
     matches=[]
     for candidate in candidates or ():
         candidate_url=(candidate.get("url") or "").strip()
         if not candidate_url or _is_google_host(urllib.parse.urlparse(candidate_url).hostname):
             continue
-        if key_title(candidate.get("title",""))!=title:
-            continue
         try:
             if editorial_day(candidate["date"])!=day: continue
         except Exception:
             continue
-        candidate_source=_source_identity(candidate.get("source",""))
-        matches.append((candidate_url,source and source==candidate_source))
+        similarity=_title_similarity(article.get("title",""),candidate.get("title",""))
+        if similarity<0.78 or not _same_publisher(article.get("source",""),candidate.get("source","")):
+            continue
+        matches.append((candidate_url,similarity))
     if not matches: return ""
-    source_matches={url for url,matched in matches if matched}
-    if len(source_matches)==1:
-        return next(iter(source_matches))
-    return ""
+    best=max(similarity for _,similarity in matches)
+    best_urls={url for url,similarity in matches if similarity>=best-0.04}
+    return next(iter(best_urls)) if len(best_urls)==1 else ""
 
 def article_summary(art, meta=None, targeted=False, candidates=None):
     """Le titre découvre l'article ; le contenu décide, avec une réserve pour les pays ciblés."""
@@ -1438,6 +1449,7 @@ def article_summary(art, meta=None, targeted=False, candidates=None):
         note_rejection("titre_absent",title,url)
         return None
     if is_google_news_url(url):
+        DISCOVERY_STATS["google_cross_feed_match_attempts"]+=1
         publisher_url=matching_publisher_article_url(art,candidates)
         if publisher_url:
             GOOGLE_NEWS_URL_CACHE[url]=publisher_url
@@ -1449,6 +1461,8 @@ def article_summary(art, meta=None, targeted=False, candidates=None):
                 meta["url"]=publisher_url
             DISCOVERY_STATS["google_decode_cross_feed_fallback"]+=1
             DISCOVERY_STATS["google_decode_success"]+=1
+        else:
+            DISCOVERY_STATS["google_cross_feed_no_match"]+=1
     reason=title_rejection_reason(title)
     if reason:
         note_rejection(reason,title,url)

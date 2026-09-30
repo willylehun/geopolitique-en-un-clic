@@ -98,6 +98,13 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         other_source={"title":google["title"],"source":"BBC","date":day,"url":"https://www.bbc.com/news/world-1"}
         self.assertEqual(news.matching_publisher_article_url(google,[wrong_day,other_source]),"")
 
+    def test_near_identical_title_can_match_same_publisher(self):
+        article_id=RECENT_ARTICLE_IDS[0]
+        day=news.datetime.now(news.UTC)
+        google={"title":"Government announces new sanctions after border conflict","source":"Reuters","date":day,"url":f"https://news.google.com/rss/articles/{article_id}?oc=5"}
+        bing={"title":"Government announces new sanctions after border clashes","source":"www.reuters.com","date":day,"url":"https://www.reuters.com/world/europe/sanctions-border-conflict/"}
+        self.assertEqual(news.matching_publisher_article_url(google,[bing]),bing["url"])
+
     def test_direct_bing_item_survives_per_title_limit(self):
         day=news.datetime.now(news.UTC)
         title="Government announces new sanctions after border conflict"
