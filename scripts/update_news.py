@@ -1242,13 +1242,13 @@ def _post_google_article_decode(art_id, timestamp, signature):
     body="f.req="+urllib.parse.quote(f_req,safe="")
     if httpx is not None:
         client=_google_news_http_client()
-            response=client.post(
-                "https://news.google.com/_/DotsSplashUi/data/batchexecute",
-                content=body,
-                headers={**headers,"Sec-Fetch-Dest":"empty","Sec-Fetch-Mode":"cors","Sec-Fetch-Site":"same-origin"}
-            )
-            response.raise_for_status()
-            return response.text
+        response=client.post(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute",
+            content=body,
+            headers={**headers,"Sec-Fetch-Dest":"empty","Sec-Fetch-Mode":"cors","Sec-Fetch-Site":"same-origin"}
+        )
+        response.raise_for_status()
+        return response.text
     req=urllib.request.Request("https://news.google.com/_/DotsSplashUi/data/batchexecute",data=body.encode("utf-8"),headers=headers)
     with urllib.request.urlopen(req,timeout=10) as response:
         return response.read().decode("utf-8","replace")
