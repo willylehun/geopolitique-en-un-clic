@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import html as html_lib
+import base64, html as html_lib
 import json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
@@ -1001,64 +1001,145 @@ class ArticleHTMLExtractor(HTMLParser):
 def is_google_news_url(url):
     try:
         p=urllib.parse.urlparse(url or "")
-        return p.hostname=="news.google.com" and "/articles/" in p.path
+        return _is_google_host(p.hostname) and "/articles/" in p.path
     except Exception:
         return False
 
+def _is_google_host(host):
+    host=(host or "").lower().rstrip(".")
+    return host=="google.com" or host.endswith(".google.com") or host=="googleusercontent.com" or host.endswith(".googleusercontent.com") or host=="gstatic.com" or host.endswith(".gstatic.com")
+
+def _publisher_url(value):
+    """Retourne une URL éditoriale, jamais une page intermédiaire Google."""
+    value=html_lib.unescape(str(value or "")).replace("\\/","/").strip()
+    if not value.startswith(("http://","https://")):
+        return ""
+    try:
+        parsed=urllib.parse.urlsplit(value)
+        if parsed.scheme not in ("http","https") or not parsed.hostname or _is_google_host(parsed.hostname):
+            return ""
+        if parsed.username or parsed.password:
+            return ""
+        return value
+    except Exception:
+        return ""
+
+class _GoogleArticleParams(HTMLParser):
+    def __init__(self, article_id):
+        super().__init__(convert_charrefs=True)
+        self.article_id=article_id
+        self.params={}
+        self.publisher_candidates=[]
+
+    def handle_starttag(self, tag, attrs):
+        attrs=dict(attrs)
+        if attrs.get("data-n-a-id")==self.article_id:
+            self.params={
+                "signature":attrs.get("data-n-a-sg") or "",
+                "timestamp":attrs.get("data-n-a-ts") or "",
+            }
+        if tag=="meta":
+            key=(attrs.get("property") or attrs.get("name") or "").lower()
+            if key in ("og:url","twitter:url"):
+                self.publisher_candidates.append(attrs.get("content") or "")
+        elif tag=="link" and "canonical" in (attrs.get("rel") or "").lower().split():
+            self.publisher_candidates.append(attrs.get("href") or "")
+
+def _google_article_decode_params(body, article_id):
+    parser=_GoogleArticleParams(article_id)
+    try:
+        parser.feed(body or "")
+    except Exception:
+        pass
+    sig=parser.params.get("signature","").strip()
+    ts=parser.params.get("timestamp","").strip()
+    return (ts,sig) if sig and ts else ("","")
+
+def _google_batchexecute_publisher(raw):
+    """Déplie le JSON imbriqué de batchexecute et extrait garturlres."""
+    text=str(raw or "").lstrip()
+    if text.startswith(")]}'"):
+        text=text[4:].lstrip("\r\n")
+    pending=[text]
+    seen=set()
+    for _ in range(6):
+        next_pending=[]
+        for item in pending:
+            if isinstance(item,list):
+                if len(item)>1 and item[0]=="garturlres":
+                    resolved=_publisher_url(item[1])
+                    if resolved: return resolved
+                next_pending.extend(v for v in item if isinstance(v,(list,str)))
+                continue
+            candidate=(item or "").strip()
+            if not candidate or candidate in seen:
+                continue
+            seen.add(candidate)
+            candidate=re.sub(r"^\d+\s*\n","",candidate)
+            for line in candidate.splitlines():
+                line=line.strip()
+                if line and line not in seen: next_pending.append(line)
+            try:
+                parsed=json.loads(candidate)
+            except Exception:
+                continue
+            if isinstance(parsed,list): next_pending.append(parsed)
+        pending=next_pending
+    return ""
+
 def decode_google_news_direct_id(art_id):
-    """Résout un identifiant Google News récent directement via batchexecute."""
+    """Décode les anciens identifiants qui encapsulent l'URL éditeur."""
     if not art_id:
         return ""
     try:
-        ctx0=[
-          "en-US","US",["FINANCE_TOP_INDICES","WEB_TEST_1_0_0"],
-          None,None,1,1,"US:en",None,180,None,None,None,None,None,0,None,None,
-          [1608992183,723341000]
-        ]
-        ctx=[ctx0,"en-US","US",1,[2,3,4,8],1,0,"655000234",0,0,None,0]
-        inner=["garturlreq",ctx,art_id]
-        envelope=["Fbv4je",json.dumps(inner,separators=(",",":")),None,"generic"]
-        f_req=json.dumps([[envelope]],separators=(",",":"))
-        payload=("f.req="+urllib.parse.quote(f_req,safe="")).encode("utf-8")
-        req=urllib.request.Request(
-            "https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
-            data=payload,
-            headers={
-              "User-Agent":"Mozilla/5.0 GeoClic/3.2",
-              "Content-Type":"application/x-www-form-urlencoded;charset=UTF-8",
-              "Referer":"https://news.google.com/"
-            }
-        )
-        with urllib.request.urlopen(req,timeout=10) as r:
-            raw=r.read().decode("utf-8","replace")
-
-        m=re.search(r'\\\[\\\"garturlres\\\",\\\"(.*?)\\\",',raw,re.S)
-        if not m:
-            m=re.search(r'\["garturlres","(https?://.*?)",',raw,re.S)
-        if not m:
-            DISCOVERY_STATS["google_decode_direct_no_url"]+=1
-            return ""
-
-        value=m.group(1)
-        try:
-            resolved=json.loads('"'+value+'"')
-        except Exception:
-            resolved=value.replace("\\/","/").replace("\\u003d","=").replace("\\u0026","&")
-        host=(urllib.parse.urlparse(resolved).hostname or "").lower()
-        if resolved.startswith(("http://","https://")) and host and host!="news.google.com":
-            DISCOVERY_STATS["google_decode_direct_success"]+=1
-            return resolved
-        DISCOVERY_STATS["google_decode_direct_invalide"]+=1
-    except urllib.error.HTTPError as exc:
-        DISCOVERY_STATS[f"google_decode_direct_http_{exc.code}"]+=1
-        print("GOOGLE NEWS DIRECT HTTP",exc.code,art_id,file=sys.stderr)
+        padded=art_id+"="*((4-len(art_id)%4)%4)
+        decoded=base64.urlsafe_b64decode(padded.encode("ascii"))
+        # Les anciens IDs stockaient parfois l'URL en clair dans le protobuf.
+        # Les IDs récents CBMi contiennent plutôt un jeton à résoudre côté Google.
+        for match in re.finditer(rb"https?://[A-Za-z0-9._~:/?#\[\]@!$&'()*+,;=%-]+",decoded):
+            resolved=_publisher_url(match.group(0).decode("utf-8","replace"))
+            if resolved:
+                DISCOVERY_STATS["google_decode_direct_success"]+=1
+                return resolved
+        DISCOVERY_STATS["google_decode_direct_no_url"]+=1
     except Exception as exc:
         DISCOVERY_STATS["google_decode_direct_error"]+=1
         print("GOOGLE NEWS DIRECT",art_id,exc,file=sys.stderr)
     return ""
 
+def _request_google_page(url):
+    req=urllib.request.Request(url,headers={
+        "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36",
+        "Accept":"text/html,application/xhtml+xml",
+        "Accept-Language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+    })
+    with urllib.request.urlopen(req,timeout=10) as response:
+        final_url=response.geturl()
+        body=response.read(400000).decode("utf-8","replace")
+    return final_url,body
+
+def _post_google_article_decode(art_id, timestamp, signature):
+    context=[
+      ["X","X",["X","X"],None,None,1,1,"US:en",None,1,None,None,None,None,None,0,1],
+      "X","X",1,[1,1,1],1,1,None,0,0,None,0
+    ]
+    inner=["garturlreq",context,art_id,int(timestamp) if str(timestamp).isdigit() else timestamp,signature]
+    envelope=["Fbv4je",json.dumps(inner,separators=(",",":")),None,"0"]
+    f_req=json.dumps([[envelope]],separators=(",",":"))
+    req=urllib.request.Request(
+        "https://news.google.com/_/DotsSplashUi/data/batchexecute",
+        data=("f.req="+urllib.parse.quote(f_req,safe="")).encode("utf-8"),
+        headers={
+          "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36",
+          "Content-Type":"application/x-www-form-urlencoded;charset=UTF-8",
+          "Referer":"https://news.google.com/"
+        }
+    )
+    with urllib.request.urlopen(req,timeout=10) as response:
+        return response.read().decode("utf-8","replace")
+
 def decode_google_news_url(source_url):
-    """Résout une URL Google News RSS vers l'URL réelle de l'éditeur."""
+    """Résout les URL RSS Google News vers une URL réelle de l'éditeur."""
     global GOOGLE_NEWS_DECODE_USED
     source_url=(source_url or "").strip()
     if not is_google_news_url(source_url):
@@ -1077,101 +1158,67 @@ def decode_google_news_url(source_url):
         return source_url
     GOOGLE_NEWS_DECODE_USED+=1
 
-    try:
-        p=urllib.parse.urlparse(source_url)
-        parts=[x for x in p.path.split("/") if x]
-        art_id=parts[-1] if len(parts)>=2 and parts[-2]=="articles" else ""
-        if not art_id:
-            DISCOVERY_STATS["google_decode_id_invalide"]+=1
-            GOOGLE_NEWS_URL_CACHE[source_url]=""
-            return source_url
+    p=urllib.parse.urlparse(source_url)
+    parts=[x for x in p.path.split("/") if x]
+    art_id=parts[-1] if len(parts)>=2 and parts[-2]=="articles" else ""
+    if not art_id:
+        DISCOVERY_STATS["google_decode_id_invalide"]+=1
+        GOOGLE_NEWS_URL_CACHE[source_url]=""
+        return source_url
 
-        direct=decode_google_news_direct_id(art_id)
-        if direct:
-            GOOGLE_NEWS_URL_CACHE[source_url]=direct
-            GOOGLE_NEWS_RESOLVED[source_url]=direct
-            DISCOVERY_STATS["google_decode_success"]+=1
-            return direct
-        DISCOVERY_STATS["google_decode_direct_fallback"]+=1
+    direct=decode_google_news_direct_id(art_id)
+    if direct:
+        GOOGLE_NEWS_URL_CACHE[source_url]=direct
+        GOOGLE_NEWS_RESOLVED[source_url]=direct
+        DISCOVERY_STATS["google_decode_success"]+=1
+        return direct
+    DISCOVERY_STATS["google_decode_direct_fallback"]+=1
 
-        params_url=(
-            "https://news.google.com/rss/articles/"+urllib.parse.quote(art_id,safe="")
-            +"?hl=fr&gl=FR&ceid=FR%3Afr"
-        )
-        req=urllib.request.Request(params_url,headers={"User-Agent":"Mozilla/5.0 GeoClic/3.1"})
-        with urllib.request.urlopen(req,timeout=8) as r:
-            final_url=r.geturl()
-            body=r.read(280000).decode("utf-8","replace")
+    # Google's RSS wrapper may omit its decode attributes; the regular article
+    # page still exposes the matching id, signature and timestamp.
+    page_urls=[
+        "https://news.google.com/articles/"+urllib.parse.quote(art_id,safe="")+"?hl=fr&gl=FR&ceid=FR%3Afr",
+        "https://news.google.com/rss/articles/"+urllib.parse.quote(art_id,safe="")+"?hl=fr&gl=FR&ceid=FR%3Afr",
+    ]
+    for page_url in page_urls:
+        try:
+            final_url,body=_request_google_page(page_url)
+            resolved=_publisher_url(final_url)
+            if resolved:
+                GOOGLE_NEWS_URL_CACHE[source_url]=resolved
+                GOOGLE_NEWS_RESOLVED[source_url]=resolved
+                DISCOVERY_STATS["google_decode_success"]+=1
+                return resolved
 
-        # Certains liens se résolvent déjà par redirection HTTP.
-        final_host=(urllib.parse.urlparse(final_url).hostname or "").lower()
-        if final_host and final_host!="news.google.com":
-            GOOGLE_NEWS_URL_CACHE[source_url]=final_url
-            GOOGLE_NEWS_RESOLVED[source_url]=final_url
-            DISCOVERY_STATS["google_decode_success"]+=1
-            return final_url
-
-        sg_m=re.search(r'data-n-a-sg="([^"]+)"',body)
-        ts_m=re.search(r'data-n-a-ts="([^"]+)"',body)
-        if not sg_m or not ts_m:
-            DISCOVERY_STATS["google_decode_params_absents"]+=1
-            GOOGLE_NEWS_URL_CACHE[source_url]=""
-            return source_url
-
-        ctx=[
-          ["X","X",["X","X"],None,None,1,1,"US:en",None,1,None,None,None,None,None,0,1],
-          "X","X",1,[1,1,1],1,1,None,0,0,None,0
-        ]
-        inner=["garturlreq",ctx,art_id,int(ts_m.group(1)) if ts_m.group(1).isdigit() else ts_m.group(1),sg_m.group(1)]
-        envelope=["Fbv4je",json.dumps(inner,separators=(",",":")),None,"0"]
-        f_req=json.dumps([[envelope]],separators=(",",":"))
-        payload=("f.req="+urllib.parse.quote(f_req,safe="")).encode("utf-8")
-        post=urllib.request.Request(
-            "https://news.google.com/_/DotsSplashUi/data/batchexecute",
-            data=payload,
-            headers={
-              "User-Agent":"Mozilla/5.0 GeoClic/3.1",
-              "Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"
-            }
-        )
-        with urllib.request.urlopen(post,timeout=10) as r:
-            raw=r.read().decode("utf-8","replace")
-
-        decoded_body=raw.split("\n\n",1)[1] if "\n\n" in raw else raw
-        decoded_body=decoded_body.lstrip()
-        if decoded_body.startswith(")]}'"):
-            decoded_body=decoded_body.split("\n",1)[1] if "\n" in decoded_body else decoded_body[4:]
-            decoded_body=decoded_body.lstrip()
-        rows=json.loads(decoded_body)
-        resolved=""
-        for row in rows:
-            if not isinstance(row,list) or len(row)<3:
-                continue
-            if row[0]!="wrb.fr" and (len(row)<2 or row[1]!="Fbv4je"):
-                continue
-            cell=row[2]
-            if isinstance(cell,str):
-                try: cell=json.loads(cell)
-                except Exception: continue
-            if isinstance(cell,list) and len(cell)>1 and cell[0]=="garturlres":
-                candidate=str(cell[1] or "")
-                host=(urllib.parse.urlparse(candidate).hostname or "").lower()
-                if candidate.startswith(("http://","https://")) and host!="news.google.com":
-                    resolved=candidate
-                    break
-
-        if resolved:
-            GOOGLE_NEWS_URL_CACHE[source_url]=resolved
-            GOOGLE_NEWS_RESOLVED[source_url]=resolved
-            DISCOVERY_STATS["google_decode_success"]+=1
-            return resolved
-        DISCOVERY_STATS["google_decode_no_url"]+=1
-    except urllib.error.HTTPError as exc:
-        DISCOVERY_STATS[f"google_decode_http_{exc.code}"]+=1
-        print("GOOGLE NEWS DECODE HTTP",exc.code,source_url,file=sys.stderr)
-    except Exception as exc:
-        DISCOVERY_STATS["google_decode_error"]+=1
-        print("GOOGLE NEWS DECODE",source_url,exc,file=sys.stderr)
+            timestamp,signature=_google_article_decode_params(body,art_id)
+            if timestamp and signature:
+                raw=_post_google_article_decode(art_id,timestamp,signature)
+                resolved=_google_batchexecute_publisher(raw)
+                if resolved:
+                    GOOGLE_NEWS_URL_CACHE[source_url]=resolved
+                    GOOGLE_NEWS_RESOLVED[source_url]=resolved
+                    DISCOVERY_STATS["google_decode_success"]+=1
+                    return resolved
+                DISCOVERY_STATS["google_decode_no_url"]+=1
+            else:
+                parser=_GoogleArticleParams(art_id)
+                try: parser.feed(body)
+                except Exception: pass
+                for candidate in parser.publisher_candidates:
+                    resolved=_publisher_url(candidate)
+                    if resolved:
+                        GOOGLE_NEWS_URL_CACHE[source_url]=resolved
+                        GOOGLE_NEWS_RESOLVED[source_url]=resolved
+                        DISCOVERY_STATS["google_decode_metadata_fallback"]+=1
+                        DISCOVERY_STATS["google_decode_success"]+=1
+                        return resolved
+                DISCOVERY_STATS["google_decode_params_absents"]+=1
+        except urllib.error.HTTPError as exc:
+            DISCOVERY_STATS[f"google_decode_http_{exc.code}"]+=1
+            print("GOOGLE NEWS DECODE HTTP",exc.code,page_url,file=sys.stderr)
+        except Exception as exc:
+            DISCOVERY_STATS["google_decode_error"]+=1
+            print("GOOGLE NEWS DECODE",page_url,exc,file=sys.stderr)
 
     GOOGLE_NEWS_URL_CACHE[source_url]=""
     return source_url
@@ -1195,7 +1242,7 @@ def fetch_article_detail(url, existing=False, targeted=False):
     if url in ARTICLE_DETAIL_CACHE:
         ARTICLE_DETAIL_CACHE[original_url]=ARTICLE_DETAIL_CACHE[url]
         return ARTICLE_DETAIL_CACHE[url]
-    if is_google_news_url(url):
+    if _is_google_host(urllib.parse.urlparse(url).hostname):
         ARTICLE_DETAIL_CACHE[original_url]=""
         DISCOVERY_STATS["google_intermediaire_non_resolu"]+=1
         return ""
@@ -1220,7 +1267,7 @@ def fetch_article_detail(url, existing=False, targeted=False):
             final_url=r.geturl()
             body=r.read(350000).decode("utf-8","replace")
         # Si la résolution Google a échoué, la page intermédiaire n'est pas du contenu éditorial.
-        if "news.google.com" in (urllib.parse.urlparse(final_url).netloc or "").lower():
+        if _is_google_host(urllib.parse.urlparse(final_url).hostname):
             ARTICLE_DETAIL_CACHE[url]=""
             ARTICLE_DETAIL_CACHE[original_url]=""
             DISCOVERY_STATS["google_intermediaire_non_resolu"]+=1
