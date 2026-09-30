@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:06:48.132560+02:00",
+  "generated_at": "2026-09-30T14:20:43.777619+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29848,10 +29848,12 @@
     {
       "regions": [
         "Amérique du Nord",
+        "Asie",
         "International"
       ],
       "countries": [
-        "États-Unis"
+        "États-Unis",
+        "Iran"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -29862,7 +29864,7 @@
         "CBS News — fiabilité 7/10"
       ],
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/",
-      "published_at": "2026-09-30T03:41:00+02:00",
+      "published_at": "2026-09-30T07:06:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -32802,7 +32804,8 @@
       "sources": [
         "WRAL — fiabilité 6/10",
         "Hartford Courant — fiabilité 6/10",
-        "Pioneer Press — fiabilité 6/10"
+        "Pioneer Press — fiabilité 6/10",
+        "AP — fiabilité 9/10"
       ],
       "url": "https://www.wral.com/news/ap/2c42d-iran-indicates-its-received-an-official-us-response-to-its-latest-offer-on-ending-the-war/",
       "published_at": "2026-09-30T06:31:00+02:00",
@@ -33746,6 +33749,214 @@
         "Corée du Sud",
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Andy Burnham souhaite revoir les relations du Royaume-Uni avec l’UE. Quelles sont les options ?. Le Premier ministre a déclaré que le Brexit avait « fait plus de mal que de bien » et souhaite une évaluation avant le prochain sommet Royaume-Uni-UE…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/politics/2026/sep/30/andy-burnham-review-uk-relationship-with-eu-options",
+      "published_at": "2026-09-30T06:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'avenir de la monétisation des données, c'est maintenant : les leçons des États-Unis et de la Chine sur l'économie des données. Construire une culture qui mesure la valeur économique tangible des initiatives de données marque un bond significatif en termes de maturité organisationnelle pour toute entreprise.",
+      "sources": [
+        "Forbes — fiabilité 6/10"
+      ],
+      "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/30/the-future-of-data-monetization-is-now-lessons-from-the-us-and-china-on-the-data-economy/",
+      "published_at": "2026-09-30T06:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La différence entre les gouvernements locaux et le gouvernement provincial en Colombie-Britannique (Canada). Le chef du NPD, David Eby, a déclenché des élections anticipées et les électeurs de la Colombie-Britannique ont décidé de le faire. Se préparent pour des élections aux niveaux municipal et provincial, à seulement une semaine d’intervalle. Les experts de l’administration publique sont d’accord…",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/canada/british-columbia/local-governments-british-columbia-what-is-difference-9.7362643",
+      "published_at": "2026-09-30T07:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Mauvaise nouvelle pour les républicains : le président Donald Trump (États-Unis) a réparé la frontière. La migration via le Darién Gap au Panama a chuté de 97 pour cent. Aujourd’hui, 7 % des électeurs souhaitent que les candidats parlent d’immigration.",
+      "sources": [
+        "Newsweek — fiabilité 6/10"
+      ],
+      "url": "https://www.newsweek.com/republicans-trump-border-migration-venezuela-12505353",
+      "published_at": "2026-09-30T07:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Panama",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Japon ouvre son marché au bœuf argentin après 20 ans, a déclaré le ministre.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/asia-pacific/japan-opens-its-market-argentine-beef-after-20-years-minister-says-2026-09-30/",
+      "published_at": "2026-09-30T06:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Japon"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "13 millions de dollars de cocaïne volée au palais de justice, remplacée par de la farine. Selon des informations, plus de 13 millions de dollars de cocaïne ont été volés dans un palais de justice et remplacés par de la farine.",
+      "sources": [
+        "cleveland.com — fiabilité 6/10"
+      ],
+      "url": "https://www.cleveland.com/news/2026/09/13m-worth-of-cocaine-stolen-from-courthouse-replaced-with-flour.html",
+      "published_at": "2026-09-30T03:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L'Iran a reçu la dernière contre-proposition de cessez-le-feu des États-Unis. Des pétroliers auraient été touchés à Ormuz peu de temps après. Le président Donald Trump (États-Unis) a démenti les informations affirmant qu'il aurait offert un allègement des sanctions en échange de concessions nucléaires de l'Iran.",
+      "sources": [
+        "International Business Times via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/iran-received-the-us-s-latest-ceasefire-counterproposal-tankers-were-reportedly-hit-in-hormuz-shortly-after/ar-AA2dgGLG",
+      "published_at": "2026-09-30T07:04:42+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : des frappes sur Kiev font deux morts et quatre blessés. Des frappes russes sur Kiev ont tué un enfant et une femme et ont blessé quatre autres personnes, a annoncé mercredi l’administration militaire locale.",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-des-frappes-sur-kiev-font-deux-morts-et-quatre-blesses-20260930",
+      "published_at": "2026-09-30T00:39:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Espagne",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le président Emmanuel Macron (France) en Espagne : revers avant le dîner de gala au Palais royal, le Sénat espagnol rejette le Traité d’amitié avec la France. Le Sénat espagnol a rejeté la ratification du Traité d’amitié franco-espagnol, alors qu’Emmanuel Macron était en visite d’État en Espagne. Le texte, signé en janvier 2023, a été refusé par 142 voix co …",
+      "sources": [
+        "L'Indépendant — fiabilité 6/10"
+      ],
+      "url": "https://www.lindependant.fr/2026/09/30/emmanuel-macron-en-espagne-revers-avant-le-diner-de-gala-au-palais-royal-le-senat-espagnol-rejette-le-traite-damitie-avec-la-france-13576313.php",
+      "published_at": "2026-09-30T07:13:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "« Guerre économique » : l’Iran perd-il son influence sur le détroit d’Ormuz ? Les flux de brut transitant par Ormuz se sont rétablis, mais les coûts d’assurance des pétroliers et les risques géopolitiques restent des obstacles au retour à la normale.",
+      "sources": [
+        "Al Jazeera — fiabilité 8/10"
+      ],
+      "url": "https://www.aljazeera.com/news/2026/9/30/economic-war-is-iran-losing-its-leverage-over-the-strait-of-hormuz",
+      "published_at": "2026-09-30T07:05:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
