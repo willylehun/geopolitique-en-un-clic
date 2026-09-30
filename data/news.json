@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:49:44.950821+02:00",
+  "generated_at": "2026-09-30T19:59:57.587179+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -36646,7 +36646,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -36981,7 +36980,8 @@
       "url": "https://www.rfi.fr/en/africa/20260930-mali-army-and-russian-fighters-accused-of-killing-dozens-of-civilians-amnesty",
       "published_at": "2026-09-30T02:39:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -37764,6 +37764,277 @@
       "published_at": "2026-09-30T10:50:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Guerre au Moyen-Orient, canicules : cette hausse des prix qui se profile dans les grandes surfaces. DÉCRYPTAGE - Tirée par la flambée des prix de l’énergie et la forte hausse de ceux des produits frais, l’inflation (à 3 % en septembre) accélère. Elle devrait se propager aux produits de grande consom …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/societes/guerre-au-moyen-orient-canicules-cette-hausse-des-prix-qui-se-profile-dans-les-grandes-surfaces-20260930",
+      "published_at": "2026-09-30T12:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Vol dérouté, pilotes blessés, piste terroriste évoquée… Ce que l'on sait de l'atterrissage d'urgence d'un avion FlyDubai à destination de Tel-Aviv. Mercredi matin, un avion parti de Dubaï (Émirats arabes unis) et à destination de Tel-Aviv a dû atterrir en urgence en Arabie saoudite. Le ministre de la Sécurité nationale israélien n'exclut pas une attaque \"terroriste\".",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/monde/israel/vol-deroute-pilotes-blesses-piste-terroriste-evoquee-ce-que-l-on-sait-de-l-atterrissage-d-urgence-d-un-avion-flydubai-a-destination-de-tel-aviv_8216356.html",
+      "published_at": "2026-09-30T11:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite",
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "En direct : le gestionnaire du réseau ukrainien ordonne des coupures d’électricité d’urgence à Kiev après les frappes russes. Au moins trois personnes, dont un enfant, sont mortes après que la Russie a lancé une nouvelle série de frappes sur Kiev et ses régions environnantes dans la nuit de mercredi, ont indiqué des responsables. Plusieurs personnes étaient…",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/europe/20260930-live-several-people-killed-as-russia-launches-new-round-of-strikes-on-kyiv",
+      "published_at": "2026-09-30T12:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "REGARDER EN DIRECT : Audition du Sénat sur la sécurisation du pays contre les attaques d’agents malveillants de l’IA. Le sénateur Josh Hawley préside une audience du sous-comité de la sécurité intérieure examinant les menaces liées aux attaques d'agents malveillants de l'IA et explorant des stratégies pour protéger la sécurité nationale.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6405974128112",
+      "published_at": "2026-09-30T12:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le système de migration « un entré, un sorti » entre le Royaume-Uni et la France a été abandonné. Le gouvernement britannique a annoncé que l'accord \"one in, one out\" avec la France visant à renvoyer certains migrants qui traversent la Manche avait été abandonné. Le projet pilote a permis au Royaume-Uni de restituer quelques petits…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/c64gvnv4eqylo",
+      "published_at": "2026-09-30T12:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Que savoir sur le choc dans le cockpit de Flydubai alors que le pilote est arrêté. Le Premier ministre Benjamin Netanyahu (Israël) a annoncé mercredi qu'un copilote à bord d'un vol Flydubai détourné avait été arrêté après avoir prétendument poignardé l'autre pilote et failli faire décoller l'avion.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/us/articles/know-flydubai-cockpit-clash-pilot-150412170.html",
+      "published_at": "2026-09-30T10:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Mamelodi Sundowns News Today : Mokoena et Modiba soufflent, sanctions de la FIFA évitées et plus encore. Dernières nouvelles sur les Mamelodi Sundowns, y compris la nouvelle que Teboho Mokoena et Aubrey Modiba sont blessés et que les Brésiliens évitent les amendes de la FIFA.",
+      "sources": [
+        "Afrik-Foot — fiabilité 6/10"
+      ],
+      "url": "https://www.afrik-foot.com/en-za/mamelodi-sundowns-news-today-30-9-26",
+      "published_at": "2026-09-30T04:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Après deux décennies, les forces américaines quittent l’Irak au milieu d’une guerre en cours avec l’Iran. Le retrait met fin à deux décennies de présence américaine en Irak, à un moment où la guerre américaine contre l’Iran a créé une importante instabilité régionale.",
+      "sources": [
+        "USA TODAY via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/after-two-decades-us-forces-exit-iraq-amid-an-ongoing-war-with-iran/ar-AA2dhW9D",
+      "published_at": "2026-09-30T12:48:57+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Moscou menace de réagir nucléairement face à une petite forteresse coincée entre les alliés américains alors que les craintes d'un affrontement grandissent. La menace nucléaire russe sur Kaliningrad est alarmante alors que les experts préviennent que l'enclave baltique est déjà une plaque tournante d'une guerre hybride contre les alliés de l'OTAN.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/world/moscow-threatens-nuclear-response-over-tiny-fortress-wedged-between-us-allies-clash-fears-grow",
+      "published_at": "2026-09-30T12:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Mises à jour EN DIRECT sur la guerre Iran-États-Unis : « De fortes indications que l'Iran a joué un rôle », déclare le Premier ministre britannique à propos de l'incident de la RAF Fairford. L'Iran a proposé de rouvrir le détroit d'Ormuz le sixième jour d'un plan proposé de sept jours et de reprendre les négociations nucléaires avec les États-Unis le septième, mais Washington a rejeté …",
+      "sources": [
+        "Times Now — fiabilité 6/10"
+      ],
+      "url": "https://www.timesnownews.com/world/middle-east/iran-war-live-today-tehran-warns-of-doomsday-war-as-trump-rejects-iran-peace-roadmap-hormuz-crisis-deepens-and-oil-prices-rise-middle-east-news-liveblog-156238991",
+      "published_at": "2026-09-30T12:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le secrétaire à la Défense Pete Hegseth (États-Unis) s’attendait à licencier davantage d’armées américaines de haut rang. Une vingtaine d'amiraux et de généraux ont déjà été licenciés ou ont démissionné depuis que Hegseth a pris la direction du ministère de la Défense.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/crq5xvnq8yzqo",
+      "published_at": "2026-09-30T10:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Les indices boursiers se redressent grâce aux données sur l’inflation, même si le Dow Jones s’en est sorti. Le Dow Jones raconte l’autre moitié de cette histoire. Les poids lourds Caterpillar et Goldman Sachs ont chuté d'environ 1 % chacun, et ces deux-là ont annulé tout ce qu'Alphabet, Microsoft et Apple ont mis en place.",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-indexes-rally-inflation-172301520.html",
+      "published_at": "2026-09-30T12:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les militants pour le climat exigent des comptes du gouvernement dans le cadre d’une plainte commerciale historique de l’UE. Les militants pour le climat soutiennent de tout leur poids que la Nouvelle-Zélande a rompu ses promesses en matière de changement climatique dans l'accord de libre-échange avec l'UE.",
+      "sources": [
+        "RNZ (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.rnz.co.nz/news/politics/1660535/climate-activists-demand-government-accountability-in-landmark-eu-trade-complaint",
+      "published_at": "2026-09-30T10:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Nouvelle-Zélande"
+      ]
     },
     {
       "regions": [
