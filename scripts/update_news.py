@@ -1156,9 +1156,11 @@ def _google_article_page_url(source_url):
     """Build the RSS splash URL that returns the article decode parameters."""
     p=urllib.parse.urlsplit(source_url)
     query=dict(urllib.parse.parse_qsl(p.query,keep_blank_values=True))
-    hl=query.get("hl") or "fr"
-    gl=query.get("gl") or "FR"
-    ceid=query.get("ceid") or f"{gl}:{hl.split('-')[0]}"
+    # Google exposes article splash parameters consistently with its default locale.
+    # Preserve an explicit locale from the incoming RSS URL.
+    hl=query.get("hl") or "en-US"
+    gl=query.get("gl") or "US"
+    ceid=query.get("ceid") or "US:en"
     article_id=next((part for part in reversed(p.path.split("/")) if part),"")
     query=urllib.parse.urlencode({"hl":hl,"gl":gl,"ceid":ceid})
     return urllib.parse.urlunsplit(("https","news.google.com",f"/rss/articles/{urllib.parse.quote(article_id,safe='')}",query,""))

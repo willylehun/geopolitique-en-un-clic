@@ -48,7 +48,7 @@ class GoogleNewsDecodeTests(unittest.TestCase):
                 self.assertEqual(news.decode_google_news_url(source),publisher)
                 page.assert_called_once()
                 self.assertIn("/rss/articles/"+article_id,page.call_args.args[0])
-                self.assertIn("ceid=FR%3Afr",page.call_args.args[0])
+                self.assertIn("hl=en-US&gl=US&ceid=US%3Aen",page.call_args.args[0])
                 self.assertNotIn("oc=5",page.call_args.args[0])
         self.assertEqual(news.DISCOVERY_STATS["google_decode_success"],len(RECENT_ARTICLE_IDS))
         self.assertEqual(news.GOOGLE_NEWS_DECODE_USED,len(RECENT_ARTICLE_IDS))
@@ -78,6 +78,16 @@ class GoogleNewsDecodeTests(unittest.TestCase):
             self.assertEqual(news.decode_google_news_url(source),publisher)
         self.assertEqual(get_page.call_count,1)
         self.assertEqual(get_page.call_args.args[0],f"https://news.google.com/rss/articles/{article_id}?hl=en-US&gl=US&ceid=US%3Aen")
+
+    def test_explicit_google_locale_is_preserved_for_splash_request(self):
+        article_id=RECENT_ARTICLE_IDS[0]
+        source=f"https://news.google.com/rss/articles/{article_id}?hl=de-DE&gl=DE&ceid=DE%3Ade&oc=5"
+        page=f'<div data-n-a-id="{article_id}" data-n-a-ts="1790722000" data-n-a-sg="locale-signature"></div>'
+        rpc=json.dumps([["wrb.fr","Fbv4je",json.dumps(["garturlres","https://publisher.example/world/story",None]),None]])
+        with patch.object(news,"_request_google_page",return_value=("https://news.google.com/rss/articles/"+article_id,page)) as get_page, \\
+             patch.object(news,"_post_google_article_decode",return_value=")]}'\\n\\n"+rpc):
+            self.assertEqual(news.decode_google_news_url(source),"https://publisher.example/world/story")
+        self.assertEqual(get_page.call_args.args[0],f"https://news.google.com/rss/articles/{article_id}?hl=de-DE&gl=DE&ceid=DE%3Ade")
 
     def test_batchexecute_request_uses_expected_rpc_envelope(self):
         article_id=RECENT_ARTICLE_IDS[0]
