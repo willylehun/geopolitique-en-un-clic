@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:18:57.260870+02:00",
+  "generated_at": "2026-09-30T19:29:11.186453+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -32733,7 +32733,7 @@
     },
     {
       "regions": [
-        "Océanie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -32742,13 +32742,16 @@
       "category": "Géopolitique",
       "summary": "Factbox : Le Premier ministre letton pro-ukrainien est en tête des sondages avant les élections de samedi. Par Andrius Sytas RIGA, 30 septembre (Reuters) - La Liste unie centriste du Premier ministre letton Andris Kulbergs devrait remporter la plus grande part des sièges aux élections législatives de samedi, mais elle est …",
       "sources": [
-        "Reuters via MSN — fiabilité 9/10"
+        "Reuters via MSN — fiabilité 9/10",
+        "AOL — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-us/news/other/factbox-latvia-s-pro-ukraine-prime-minister-leads-in-poll-ahead-of-saturday-election/ar-AA2dfZj1",
       "published_at": "2026-09-30T05:25:30+02:00",
       "origin": "rss",
       "content_enriched": true,
-      "countries": []
+      "countries": [
+        "Ukraine"
+      ]
     },
     {
       "regions": [
@@ -36642,6 +36645,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -37094,7 +37098,8 @@
       "url": "https://www.ouest-france.fr/societe/faits-divers/155-personnes-evacuees-apres-une-fuite-de-gaz-dans-une-station-balneaire-en-vendee-d2a2676e-bce1-11f1-8ea4-97dc4d7cca62",
       "published_at": "2026-09-30T10:32:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -37236,6 +37241,123 @@
       ],
       "url": "https://www.courrierinternational.com/article/reportage-la-mer-est-notre-terre-au-senegal-le-peuple-de-l-eau-observe-l-ineluctable-erosion-cotiere_269486",
       "published_at": "2026-09-30T03:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La France à la rescousse d'un oligarque russe. La France a obtenu la levée des sanctions européennes visant un milliardaire russo-ouzbek. Selon des sources diplomatiques, la contrepartie serait la libération de Français détenus en Azerbaïjan. À qu …",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/monde/russie/la-france-a-la-rescousse-d-un-oligarque-russe_8216800.html",
+      "published_at": "2026-09-30T12:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Énergie",
+      "summary": "Glencore, Peabody et Heeney Capital évaluent les accords sur le charbon au Venezuela, rapporte Bloomberg News. Glencore, Peabody Energy et la société d'investissement Heeney Capital envisagent des accords pour produire du charbon au Venezuela, a rapporté mercredi Bloomberg News.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/glencore-peabody-heeney-capital-weigh-venezuela-coal-deals-bloomberg-news-2026-09-30/",
+      "published_at": "2026-09-30T12:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La société brésilienne Petrobras exploite la blockchain Cardano pour un projet de carburant à faible teneur en carbone. La société brésilienne Petrobras teste la blockchain Cardano pour suivre les allégations environnementales et les chaînes d'approvisionnement durables en matière de carburant d'aviation et de Diesel R.",
+      "sources": [
+        "Coingape — fiabilité 6/10"
+      ],
+      "url": "https://coingape.com/brazils-petrobras-taps-cardano-blockchain-for-low-carbon-fuel-project/",
+      "published_at": "2026-09-30T11:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Discussion sur le marché : Anthropic a acheminé près de la moitié des ventes de 2025 vers des clients via Amazon et Google. Anthropic a acheminé près de la moitié de ses ventes de 2025 vers des clients via des partenaires cloud et des bailleurs de fonds clés Amazon. Com (AMZN) et Google d'Alphabet (GOOG, GOOGL), a rapporté Reuters mardi, cit…",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-routed-nearly-092336110.html",
+      "published_at": "2026-09-30T04:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Afrique"
+      ],
+      "countries": [
+        "Sri Lanka",
+        "Kenya"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Kenya/Sri Lanka : vers le renforcement des liens dans l’économie numérique.",
+      "sources": [
+        "Agence de Presse Africaine via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/kenyasri-lanka-renforcer-les-liens-dans-l-économie-numérique/ar-AA2dhJOU",
+      "published_at": "2026-09-30T11:10:31+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Yémen"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Qui sont les Houthis du Yémen ?. Les Houthis viennent de prendre le contrôle du détroit de Bab el-Mandeb qui relie la mer Rouge au Golfe d’Aden, ce qui provoque de nouvelles craintes pour l’économie mondiale. Le Point J décrypte les …",
+      "sources": [
+        "Radio Télévision Suisse — fiabilité 6/10"
+      ],
+      "url": "https://www.rts.ch/audio-podcast/2026/audio/qui-sont-les-houthis-du-yemen-29372314.html",
+      "published_at": "2026-09-30T09:59:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
