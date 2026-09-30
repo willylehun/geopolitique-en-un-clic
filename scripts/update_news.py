@@ -622,7 +622,9 @@ def article_candidate_priority(art):
 def prioritize_articles(articles,start_date,end_date,country=None):
     """Trie les titres avant analyse et garde une source de secours par événement."""
     out=[]; seen_urls=set(); per_title=defaultdict(int)
-    for art in articles:
+    # Choisir les candidats par qualité avant la limite par titre pour qu'un lien
+    # éditeur Bing/GDELT ne soit pas écarté derrière deux enveloppes Google.
+    for art in sorted(articles,key=article_candidate_priority):
         title=(art.get("title") or "").strip()
         url=(art.get("url") or "").strip()
         if len(title)<22:
