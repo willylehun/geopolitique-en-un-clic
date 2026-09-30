@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:05:27.920433+02:00",
+  "generated_at": "2026-09-30T13:15:42.507780+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -12436,8 +12436,8 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Grèce",
-        "Allemagne"
+        "Allemagne",
+        "Grèce"
       ]
     },
     {
@@ -18815,8 +18815,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Grèce",
-        "Allemagne"
+        "Allemagne",
+        "Grèce"
       ]
     },
     {
@@ -32010,7 +32010,7 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "La guerre en Iran en direct : Trump affirme que la guerre prendra fin très bientôt, ne donne aucun détail | Guerre des États-Unis et d’Israël contre l’Iran News. Le président Donald Trump (États-Unis) a réaffirmé que Téhéran ne disposerait pas d’armes nucléaires.",
+      "summary": "La guerre en Iran en direct : le président Donald Trump (États-Unis) affirme que la guerre prendra fin très bientôt, ne donne aucun détail | Guerre États-Unis-Israël contre l’Iran News. Les hauts dirigeants iraniens examinent la dernière offre américaine de mettre fin à la guerre alors que les troubles économiques et les inquiétudes politiques grandissent.",
       "sources": [
         "aljazeera.com — fiabilité 6/10"
       ],
@@ -32482,12 +32482,12 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Europe"
+        "Europe",
+        "Afrique"
       ],
       "countries": [
-        "Tunisie",
-        "Autriche"
+        "Autriche",
+        "Tunisie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -32563,6 +32563,368 @@
       ],
       "url": "https://www.lefigaro.fr/culture/athenes-restitue-a-sofia-les-restes-attribues-au-tsar-samuel-de-bulgarie-20260930",
       "published_at": "2026-09-30T02:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le Cabinet approuve le programme PM-DHARA de 1,86 lakh crore ₹ pour le transport d'énergie verte. Le Cabinet de l'Union, présidé par le Premier ministre Narendra Modi (Inde), a approuvé le programme PM-DHARA (PM-Développement d'un accès harmonisé et accéléré aux énergies renouvelables) visant à renforcer le réseau intra-étatique…",
+      "sources": [
+        "ddindia — fiabilité 6/10"
+      ],
+      "url": "https://ddindia.co.in/2026/09/cabinet-approves-₹1-86-lakh-crore-pm-dhara-scheme-for-green-energy-transmission/",
+      "published_at": "2026-09-30T05:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’Ukraine peine à combler son déficit de financement face à l’augmentation des coûts de guerre. Le coût total de la guerre en Ukraine atteindra 155 milliards de dollars cette année et le gouvernement a du mal à combler un déficit de financement de 27 milliards de dollars pour pouvoir toujours mener des opérations de combat au début de 2027.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/ukraine-struggling-cover-funding-gap-war-costs-surge-2026-09-30/",
+      "published_at": "2026-09-30T05:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Le FTSE 100 grimpe grâce au renforcement du PIB britannique, en passe de connaître son pire mois depuis mars. L'indice FTSE 100 de Londres a augmenté mercredi alors que les investisseurs évaluaient des données sur le PIB plus fortes que prévu et était « sur la bonne voie pour une perte mensuelle alors que les préoccupations persistantes en matière d'inflation et la hausse des rendements obligataires ont atténué…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/uk/ftse-100-climbs-stronger-uk-gdp-track-worst-month-since-march-2026-09-30/",
+      "published_at": "2026-09-30T05:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un centre de données aurait un impact « horrible » dans le North Ayrshire, affirment les manifestants. Une petite manifestation de la campagne Reject Hunterston Data Center a eu lieu…",
+      "sources": [
+        "London Evening Standard — fiabilité 6/10"
+      ],
+      "url": "https://www.standard.co.uk/news/tech/north-ayrshire-b1298977.html",
+      "published_at": "2026-09-30T05:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La police britannique demande aux procureurs d'examiner les accusations d'homicide involontaire suite à l'incendie de Grenfell. La police britannique a déclaré mercredi avoir demandé aux procureurs d'examiner des accusations, notamment d'homicide involontaire coupable en entreprise et d'homicide involontaire par négligence grave, contre des dizaines de personnes lors de l'attentat de Grenfell 2017.",
+      "sources": [
+        "KFGO — fiabilité 6/10"
+      ],
+      "url": "https://kfgo.com/2026/09/30/uk-police-ask-prosecutors-to-consider-manslaughter-charges-over-grenfell-fire/",
+      "published_at": "2026-09-30T00:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le déficit budgétaire de l’Inde se creuse à 41,9 % de l’objectif pour l’exercice 27 ; les investissements s’élèvent à Rs 7,1 lakh crore. Le gouvernement a fixé son objectif de déficit budgétaire pour l’exercice 27 à 4,3 % du PIB, soit Rs 16,96 lakh crore.",
+      "sources": [
+        "NDTV Profit via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/money/economy/india-s-fiscal-deficit-widens-to-41-9-of-fy27-target-capex-rises-to-rs-7-1-lakh-crore/ar-AA2dfPbK",
+      "published_at": "2026-09-30T05:49:43+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'Iran indique avoir reçu une réponse officielle des États-Unis à sa dernière offre de mettre fin à la guerre. Des motos passent devant des missiles iraniens et des banderoles montrant les portraits du guide suprême iranien, l'ayatollah Mojtaba Khamenei, au centre, ainsi que des défunts commandants des forces armées et scientifiques nucléaires, qui …",
+      "sources": [
+        "KSAT — fiabilité 6/10"
+      ],
+      "url": "https://www.ksat.com/gallery/news/2026/09/30/iran-indicates-its-received-an-official-us-response-to-its-latest-offer-on-ending-the-war/",
+      "published_at": "2026-09-30T01:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le nouveau leader des Verts, David Shoebridge, devient ému avant de lancer une attaque contre les travaillistes. Le chef des Nouveaux Verts, David Shoebridge, se montre ému lors de sa première entrevue en tant que chef, tout en rendant hommage à son mentor politique avant de critiquer le gouvernement fédéral sur le coût de la vie.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+      ],
+      "url": "https://www.abc.net.au/news/2026-09-30/greens-leader-david-shoebridge-remembers-kaye-lambasts-labor/107214232",
+      "published_at": "2026-09-30T05:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "Jaymes Winters, président-directeur général de Solidion Technology, justifie un prix d'acquisition inférieur au marché pour Flux Power, Inc. (Nasdaq : FLUX).",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/solidion-technology-chairman-ceo-jaymes-104500823.html",
+      "published_at": "2026-09-30T05:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Factbox : Le Premier ministre letton pro-ukrainien est en tête des sondages avant les élections de samedi. Par Andrius Sytas RIGA, 30 septembre (Reuters) - La Liste unie centriste du Premier ministre letton Andris Kulbergs devrait remporter la plus grande part des sièges aux élections législatives de samedi, mais elle est …",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/factbox-latvia-s-pro-ukraine-prime-minister-leads-in-poll-ahead-of-saturday-election/ar-AA2dfZj1",
+      "published_at": "2026-09-30T05:25:30+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Mozambique"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Mozambique : Pas de pénurie de carburant malgré les files d’attente aux pompes à carburant – gouvernement. Le gouvernement du Mozambique a déclaré mercredi que l'approvisionnement en carburant du pays était sécurisé, malgré de nouvelles files d'attente, et que Maputo disposait de suffisamment de réserves d'essence pour durer jusqu'à une …",
+      "sources": [
+        "Club of Mozambique — fiabilité 6/10"
+      ],
+      "url": "https://clubofmozambique.com/news/mozambique-no-fuel-shortage-despite-fuel-pump-queues-government/",
+      "published_at": "2026-09-30T06:10:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'Iran indique avoir reçu une réponse officielle des États-Unis à sa dernière offre de mettre fin à la guerre. Des responsables iraniens ont indiqué mercredi avoir reçu une réponse officielle des États-Unis à la dernière proposition de Téhéran visant à mettre fin à la guerre de sept mois, que le président Donald Trump (États-Unis) avait publiquement rejetée il y a peu.",
+      "sources": [
+        "WRAL — fiabilité 6/10"
+      ],
+      "url": "https://www.wral.com/news/ap/2c42d-iran-indicates-its-received-an-official-us-response-to-its-latest-offer-on-ending-the-war/",
+      "published_at": "2026-09-30T06:03:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Gabon"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Gabon : plus de 80 % des entreprises informelles détenues par des expatriés. C’est un chiffre qui interpelle et remet en question la structure même de l’économie de proximité au Gabon. Selon le Rapport pays 2026 de la Banque …",
+      "sources": [
+        "Gabon Media Time — fiabilité 6/10"
+      ],
+      "url": "https://gabonmediatime.com/gabon-plus-de-80-des-entreprises-informelles-detenues-par-des-expatries/",
+      "published_at": "2026-09-30T05:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Gabon"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Gabon : le CESEC clôture sa session ordinaire de 2026 sur un appel aux réformes sociales et foncières. Le CESEC a clôturé sa session ordinaire de 2026 en mettant en avant des réformes cruciales pour la gabonaise société. À l’issue de plusieurs semaines d’auditions et de concertations intenses, le Conseil économique, social, environnemental et culturel (CESEC) a clôturé ce",
+      "sources": [
+        "Gabon Media Time — fiabilité 6/10"
+      ],
+      "url": "https://gabonmediatime.com/gabon-le-cesec-cloture-sa-session-ordinaire-de-2026-sur-un-appel-aux-reformes-sociales-et-foncieres/",
+      "published_at": "2026-09-30T11:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La Russie bombarde la région de Kiev et cible le réseau électrique. La Russie a poursuivi ses frappes de missiles et de drones sur Kyiv et ses environs, mercredi, tuant quatre personnes, dont un enfant, tout en ciblant le réseau électrique et un nœud d'échange Interne …",
+      "sources": [
+        "La Tribune — fiabilité 6/10"
+      ],
+      "url": "https://www.latribune.ca/monde/2026/09/30/la-russie-bombarde-la-region-de-kyiv-faisant-4-morts-et-cible-le-reseau-electrique-YNFDMNQIPFDSPPO6CC26RBWLIM/",
+      "published_at": "2026-09-30T05:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Russie frappe à nouveau Kiev: un enfant et une femme tués. Des frappes russes sur Kiev ont tué un enfant et une femme et ont blessé quatre autres personnes, a annoncé mercredi l'administration militaire locale. Des journalistes de l'AFP avaient entendu dans …",
+      "sources": [
+        "7SUR7 — fiabilité 6/10"
+      ],
+      "url": "https://www.7sur7.be/monde/un-cratere-de-10-metres-decouvert-apres-une-explosion-en-pologne~a33fdd82/",
+      "published_at": "2026-09-30T00:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Moldavie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : un drone militaire viole l’espace aérien moldave et explose à quelques kilomètres de la frontière ukrainienne. Un nouveau drone militaire a explosé en Moldavie, à une quarantaine de kilomètres de la frontière ukrainienne, illustrant la vulnérabilité c …",
+      "sources": [
+        "Le Parisien — fiabilité 6/10"
+      ],
+      "url": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-un-drone-militaire-viole-lespace-aerien-moldave-et-explose-a-quelques-kilometres-de-la-frontiere-ukrainienne-30-09-2026-SHHWNPUCAZAPFGATZHVZDTN7AE.php",
+      "published_at": "2026-09-30T04:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine Quatre morts à Kiev après des frappes russes contre des infrastructures énergétiques. Le principal fournisseur d'électricité ukrainien a confirmé que le réseau avait été endommagé, entraînant des coupures de courant.",
+      "sources": [
+        "Le Dauphiné Libéré — fiabilité 6/10"
+      ],
+      "url": "https://www.ledauphine.com/defense-guerre-conflit/2026/09/30/quatre-morts-a-kiev-apres-des-frappes-russes-contre-des-infrastructures-energetiques",
+      "published_at": "2026-09-30T04:32:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
