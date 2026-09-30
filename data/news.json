@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:12:06.607170+02:00",
+  "generated_at": "2026-09-30T15:22:21.860779+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -35005,6 +35005,93 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Kenya"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Kenya : Le gouvernement va déployer des actifs et un fonds d'infrastructure pour Sh2. Investissement de 2 milliards de dollars dans la raffinerie de Lamu - Ruto. Le président William Ruto a déclaré que le gouvernement kenyan prendrait une participation dans le projet de raffinerie de pétrole de Lamu, d'un montant de 2 200 milliards de shillings, et que l'État devrait déployer des actifs publics et utiliser le Fonds national d'infrastructure pour investir dans le projet.",
+      "sources": [
+        "allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://allafrica.com/stories/202609300435.html",
+      "published_at": "2026-09-30T14:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Tous les commentaires - Iran : les médicaments sont devenus plus chers en raison des sanctions et du blocus. Les prix des médicaments en Iran augmentent considérablement et certains traitements sont devenus presque inabordables, plaçant les patients dans une situation extrêmement difficile, tandis que le blocus naval américain et les sanctions accrues exercent une pression énorme sur le secteur pharmaceutique du pays.",
+      "sources": [
+        "b92.net — fiabilité 6/10"
+      ],
+      "url": "https://www.b92.net/svi-komentari/272028",
+      "published_at": "2026-09-30T14:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les responsables américains s’attendent à ce que Trump reprenne la guerre majeure contre l’Iran après la mi-mandat. Des responsables américains penseraient que le président Donald Trump (États-Unis) pourrait ordonner la reprise des opérations de combat majeures contre l'Iran après les élections de mi-mandat de novembre.",
+      "sources": [
+        "iranherald.com — fiabilité 6/10"
+      ],
+      "url": "http://www.iranherald.com/news/279341986/us-officials-expect-trump-to-resume-major-iran-war-after-midterms-axios",
+      "published_at": "2026-09-30T14:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Bertsch, Correa et San Román avec des offres très exceptionnelles sur Screen Uruguay. La société Bertsch, Correa et San Román présente une offre très exceptionnelle entre mardi et mercredi, les deux jours à partir de la 9ème heure, dans la 320ème édition de la vente aux enchères Screen Uruguay, intitulée \"Une vente aux enchères avec une histoire\". La vente aux enchères aura lieu dans le cadre de la célébration des 25 ans du consortium, comme",
+      "sources": [
+        "eltelegrafo.com — fiabilité 6/10"
+      ],
+      "url": "https://www.eltelegrafo.com/2026/09/bertsch-correa-y-san-roman-con-muy-destacada-oferta-en-pantalla-uruguay-8/",
+      "published_at": "2026-09-30T09:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
