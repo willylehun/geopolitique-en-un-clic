@@ -609,7 +609,7 @@ def content_rejection_reason(text):
     return None
 
 def article_candidate_priority(art):
-    """Priorise d'abord les articles dont le flux fournit déjà du contenu, puis les titres à fort signal."""
+    """Priorise les URL éditeur directes, puis le contenu et les titres à fort signal."""
     title=(art.get("title") or "").strip()
     has_detail=detail_is_substantive(title,art.get("description") or "")
     source_ok=trusted_source(art.get("source") or "")
@@ -618,7 +618,7 @@ def article_candidate_priority(art):
         ts=art.get("date").timestamp()
     except Exception:
         ts=0
-    return (0 if has_detail else 1,0 if direct_url else 1,-score(title),0 if source_ok else 1,-ts)
+    return (0 if direct_url else 1,0 if has_detail else 1,-score(title),0 if source_ok else 1,-ts)
 
 def prioritize_articles(articles,start_date,end_date,country=None):
     """Trie les titres avant analyse et garde une source de secours par événement."""

@@ -109,7 +109,7 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         day=news.datetime.now(news.UTC)
         title="Government announces new sanctions after border conflict"
         google=[{"title":title,"source":"Reuters","date":day,"url":f"https://news.google.com/rss/articles/{article_id}?oc=5"} for article_id in RECENT_ARTICLE_IDS[:2]]
-        bing={"title":title,"source":"Reuters","date":day,"url":"https://www.reuters.com/world/europe/sanctions-border-conflict/","description":"The government announced sanctions after border incidents, describing diplomatic measures and regional consequences in a detailed report with official reactions."}
+        bing={"title":title,"source":"Reuters","date":day,"url":"https://www.reuters.com/world/europe/sanctions-border-conflict/"}
         today=news.editorial_day(day)
         retained=news.prioritize_articles([*google,bing],today,today)
         self.assertIn(bing,retained)
