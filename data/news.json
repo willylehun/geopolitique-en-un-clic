@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:22:37.996441+02:00",
+  "generated_at": "2026-09-30T21:32:55.579273+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -27712,9 +27712,9 @@
         "International"
       ],
       "countries": [
-        "Vatican",
         "Allemagne",
-        "France"
+        "France",
+        "Vatican"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -38435,7 +38435,8 @@
       "category": "Géopolitique",
       "summary": "Non, les résidents du Kentucky ne sont pas éligibles aux chèques de 500 $ du président Donald Trump (États-Unis). Voici pourquoi. Les chèques du Département du Trésor commenceront à être envoyés le 30 septembre à plus de 950 000 Américains dans 30 États, selon un responsable de l'administration.",
       "sources": [
-        "Yahoo — fiabilité 6/10"
+        "Yahoo — fiabilité 6/10",
+        "AOL — fiabilité 6/10"
       ],
       "url": "https://www.yahoo.com/news/politics/articles/no-ky-residents-arent-eligible-175143704.html",
       "published_at": "2026-09-30T12:52:00+02:00",
@@ -39411,7 +39412,8 @@
       "url": "https://pulsetasmania.com.au/news/underwater-drone-company-chooses-beauty-point-for-first-asia-pacific-base/",
       "published_at": "2026-09-30T14:00:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -39463,9 +39465,9 @@
         "International"
       ],
       "countries": [
-        "Vatican",
         "Russie",
-        "Ukraine"
+        "Ukraine",
+        "Vatican"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -39499,6 +39501,69 @@
       "published_at": "2026-09-30T21:00:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Des pannes d'électricité d'urgence commencent dans certaines parties de l'Ukraine. Des pannes de courant d'urgence ont eu lieu dans certaines parties de l'Ukraine à la suite de multiples attaques russes contre les infrastructures énergétiques du pays.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/emergency-power-outages-begin-parts-152100682.html",
+      "published_at": "2026-09-30T10:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "1 électeur sur 5 détruirait Israël pour mettre fin à la guerre en Iran : sondage. Même si une nette majorité de 74 % espère toujours que l’Amérique gagnera la guerre, une majorité accuse Washington ou Israël d’avoir déclenché le conflit au lieu de l’Iran.",
+      "sources": [
+        "Just The News — fiabilité 6/10"
+      ],
+      "url": "https://justthenews.com/government/security/15-voters-would-destroy-israel-end-iran-war-poll",
+      "published_at": "2026-09-30T13:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’Inde réduit les taxes exceptionnelles sur les exportations de diesel et de carburant d’aviation. 30 septembre (Reuters) - L'Inde a réduit les taxes exceptionnelles sur les exportations de diesel et de carburéacteur à compter du 1er octobre, selon un décret gouvernemental publié mercredi soir. • Le droit d'exportation sur …",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/economy/india-cuts-windfall-taxes-on-diesel-aviation-fuel-exports/ar-AA2ditKI",
+      "published_at": "2026-09-30T12:47:23+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
     },
     {
       "regions": [
