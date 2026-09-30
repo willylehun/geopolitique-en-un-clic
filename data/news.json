@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:00:04.448859+02:00",
+  "generated_at": "2026-09-30T11:10:17.208171+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -20275,8 +20275,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Corée du Sud",
-        "Japon"
+        "Japon",
+        "Corée du Sud"
       ]
     },
     {
@@ -23537,13 +23537,13 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "countries": [
-        "Maroc",
         "Arabie saoudite",
         "Israël",
+        "Maroc",
         "Qatar",
         "Émirats arabes unis"
       ],
@@ -30534,7 +30534,8 @@
       "category": "Géopolitique",
       "summary": "Les indices de référence asiatiques augmentent pour la plupart malgré les inquiétudes persistantes concernant la guerre en Iran. Les actions asiatiques s'échangent généralement à la hausse, stimulées par l'optimisme concernant l'intelligence artificielle et les puces informatiques, malgré les inquiétudes persistantes concernant la guerre en Iran.",
       "sources": [
-        "ksat.com — fiabilité 6/10"
+        "ksat.com — fiabilité 6/10",
+        "KIRO 7 News Seattle — fiabilité 6/10"
       ],
       "url": "https://www.ksat.com/business/2026/09/30/asian-benchmarks-mostly-rise-despite-ongoing-worries-about-the-iran-war/",
       "published_at": "2026-09-30T10:00:00+02:00",
@@ -30828,6 +30829,130 @@
       "url": "https://www.sudouest.fr/economie/inflation/l-inflation-progresse-et-atteint-3-sur-un-an-en-septembre-en-france-portee-par-l-energie-et-les-produits-frais-30846635.php",
       "published_at": "2026-09-30T02:10:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre britannique Burnham présente des plans pour remodeler les services publics. Le Premier ministre britannique Andy Burnham promet une amélioration majeure des services publics, notamment les services sociaux, le logement et l'énergie.",
+      "sources": [
+        "Al Jazeera — fiabilité 8/10"
+      ],
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/uks-pm-burnham-sets-out-plans-to-reshape-public-services",
+      "published_at": "2026-09-30T03:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le vol Flydubai à destination de Tel Aviv a été détourné vers l'Arabie Saoudite après une altercation à bord. Les avions de guerre israéliens se sont précipités après qu'un signal d'urgence ait fait craindre un détournement. L'avion, transportant 180 passagers, a atterri en toute sécurité à Tabuk. Les pilotes ont eu une altercation.",
+      "sources": [
+        "The Washington Post — fiabilité 8/10"
+      ],
+      "url": "https://www.washingtonpost.com/world/2026/09/30/flydubai-flight-tel-aviv-diverted-saudi-arabia-after-onboard-altercation/",
+      "published_at": "2026-09-30T03:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Énergie",
+      "summary": "\"Les actions d'IOC, HPCL et BPCL augmentent : qu'est-ce qui motive le rallye des stocks pétroliers ?\". Toutefois, les actions des sociétés d’exploration et de production en amont, telles qu’ONGC et Oil India, ont baissé jusqu’à 4 pour cent. Ces entreprises sont impliquées dans l'exploration et la production de pétrole et de gaz, donc…",
+      "sources": [
+        "Times Now — fiabilité 6/10"
+      ],
+      "url": "https://www.timesnownews.com/business-economy/markets/ioc-hpcl-bpcl-shares-rise-whats-driving-the-rally-in-oil-stocks-article-156250771",
+      "published_at": "2026-09-30T03:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : les bombardements russes ont fait cinq morts et quatorze blessés. La principale cible a été le secteur énergétique de Kiev et de sa région. Des immeubles d’habitation ont également été endommagés et des travaux sont en cours pour rétablir « l’électricité et l’approv …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/09/30/en-direct-guerre-en-ukraine-les-bombardements-russes-font-cinq-morts-et-quatorze-blesses-en-ukraine_6783795_3210.html",
+      "published_at": "2026-09-30T03:33:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Trump promet que l’inflation disparaîtra après la guerre en Iran, mais un analyste repère une faille gênante dans son argument. Le président Donald Trump (États-Unis) a une prédiction rassurante pour les Américains frustrés par la hausse des prix : attendre la fin de la guerre avec l’Iran. Le président a profité d'une apparition dans le Bureau Ovale cette semaine pour affirmer que l'inflation…",
+      "sources": [
+        "Dagens.com via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/trump-promises-inflation-will-disappear-after-the-iran-war-but-an-analyst-spots-an-awkward-flaw-in-his-argument/ar-AA2dgnoz",
+      "published_at": "2026-09-30T04:01:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Comment les drones navals ukrainiens refont la guerre en mer. Ils ont commencé comme des bateaux à moteur modifiés. Désormais, les drones maritimes ukrainiens font office de porte-avions miniatures, et d'autres pays souhaitent les rejoindre. Testez le lancement d'un drone intercepteur depuis une plate-forme de drones aquatiques à …",
+      "sources": [
+        "nytimes.com — fiabilité 6/10"
+      ],
+      "url": "https://www.nytimes.com/2026/09/30/world/europe/ukraine-naval-drones-russia.html",
+      "published_at": "2026-09-30T04:01:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
