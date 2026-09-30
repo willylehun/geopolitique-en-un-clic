@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "scripts/update_news.py"
+      - "scripts/test_google_news_decode.py"
       - "scripts/manual_backfill.py"
       - "scripts/build_api.py"
       - ".github/workflows/news.yml"
