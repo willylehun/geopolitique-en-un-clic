@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:25:42.584805+02:00",
+  "generated_at": "2026-09-30T08:35:55.931063+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3641,11 +3641,11 @@
         "Afrique"
       ],
       "countries": [
-        "Nigeria",
         "Ouganda",
         "Zambie",
         "Ghana",
-        "Kenya"
+        "Kenya",
+        "Nigeria"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
@@ -16737,15 +16737,15 @@
     },
     {
       "regions": [
-        "Europe",
         "Amérique du Nord",
         "Afrique",
+        "Europe",
         "Asie"
       ],
       "countries": [
-        "Allemagne",
         "Haïti",
         "Rwanda",
+        "Allemagne",
         "Qatar"
       ],
       "period": "day",
@@ -17190,8 +17190,8 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Allemagne",
-        "Grèce"
+        "Grèce",
+        "Allemagne"
       ]
     },
     {
@@ -18767,8 +18767,8 @@
       "published_at": "2026-09-27T13:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Allemagne",
-        "France"
+        "France",
+        "Allemagne"
       ]
     },
     {
@@ -23974,8 +23974,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Allemagne",
-        "Grèce"
+        "Grèce",
+        "Allemagne"
       ]
     },
     {
@@ -28664,13 +28664,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Allemagne",
-        "Kazakhstan"
+        "Kazakhstan",
+        "Allemagne"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -33219,9 +33219,9 @@
         "International"
       ],
       "countries": [
-        "Allemagne",
         "France",
-        "Vatican"
+        "Vatican",
+        "Allemagne"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -34169,13 +34169,13 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "countries": [
-        "Allemagne",
         "Chine",
-        "Espagne"
+        "Espagne",
+        "Allemagne"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -35191,6 +35191,26 @@
       "published_at": "2026-09-30T03:15:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’économie britannique est « légèrement plus forte » que prévu après la révision à la hausse de la croissance d’avril à juin – les affaires sont en direct. Bonjour et bienvenue dans notre couverture continue des affaires, des marchés financiers et de l’économie mondiale. L'économie britannique a connu une croissance plus rapide que prévu au deuxième trimestre de l'année, malgré…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/business/live/2026/sep/30/uk-economy-growth-revised-up-stock-markets-greggs-job-cuts-energy-prices-latest-news-updates",
+      "published_at": "2026-09-30T01:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
     },
     {
       "regions": [
