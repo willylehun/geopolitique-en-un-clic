@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T10:39:35.342778+02:00",
+  "generated_at": "2026-09-30T10:49:49.545196+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -758,8 +758,8 @@
     },
     {
       "regions": [
-        "Océanie",
-        "Asie"
+        "Asie",
+        "Océanie"
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
@@ -770,8 +770,8 @@
         "Reuters"
       ],
       "countries": [
-        "Nouvelle-Zélande",
-        "Inde"
+        "Inde",
+        "Nouvelle-Zélande"
       ]
     },
     {
@@ -30543,8 +30543,8 @@
     },
     {
       "regions": [
-        "Océanie",
         "Asie",
+        "Océanie",
         "International"
       ],
       "period": "day",
@@ -30560,8 +30560,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Nouvelle-Zélande",
-        "Inde"
+        "Inde",
+        "Nouvelle-Zélande"
       ]
     },
     {
@@ -30624,6 +30624,65 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "L’Allemagne demande à la société d’État SEFE de stocker du gaz à l’approche de l’hiver. Le gouvernement allemand a chargé la société énergétique publique SEFE Securing Energy for Europe GmbH de se procurer et de stocker du gaz naturel dans les semaines à venir, alors que la région fait face à des pressions pour renforcer …",
+      "sources": [
+        "Bloomberg — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/german-government-instructs-energy-company-sefe-to-store-gas",
+      "published_at": "2026-09-30T03:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'inflation a augmenté dans cinq Länder allemands en septembre, ce qui laisse présager une hausse nationale. L'inflation a augmenté dans cinq Länder allemands clés en septembre, selon des données préliminaires publiées mercredi, suggérant que le taux d'inflation national allemand pourrait « augmenter ce mois-ci ».",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/inflation-up-five-german-states-september-pointing-national-rise-2026-09-30/",
+      "published_at": "2026-09-30T03:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Pas de droit fondamental : la Haute Cour de Delhi dans une affaire PIL alléguant que le gouvernement n'a pas tenu sa promesse concernant le mémorial de l'INA. La Haute Cour de Delhi a refusé mercredi d'ordonner l'établissement d'un mémorial pour l'Armée nationale indienne (INA) de Subhash Chandra Bose dans le Fort Rouge de Delhi. Un Di…",
+      "sources": [
+        "Bar and Bench — fiabilité 6/10"
+      ],
+      "url": "https://www.barandbench.com/news/no-fundamental-right-delhi-high-court-on-pil-alleging-government-failed-to-act-on-promise-for-ina-memorial",
+      "published_at": "2026-09-30T03:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
