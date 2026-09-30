@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:20:43.777619+02:00",
+  "generated_at": "2026-09-30T14:30:56.739620+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -28666,9 +28666,9 @@
         "Asie"
       ],
       "countries": [
-        "Espagne",
         "Allemagne",
-        "Chine"
+        "Chine",
+        "Espagne"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -29848,12 +29848,10 @@
     {
       "regions": [
         "Amérique du Nord",
-        "Asie",
         "International"
       ],
       "countries": [
-        "États-Unis",
-        "Iran"
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33956,6 +33954,147 @@
       "url": "https://www.aljazeera.com/news/2026/9/30/economic-war-is-iran-losing-its-leverage-over-the-strait-of-hormuz",
       "published_at": "2026-09-30T07:05:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Les troupes américaines terminent leur mission en Irak, 12 ans après l'offensive de l'État islamique. L’Irak ferme un chapitre majeur de son histoire post-2003 alors que la coalition dirigée par les États-Unis contre l’État islamique met fin à sa mission – plus de deux décennies après que la France s’est opposée à l’invasion qui a renversé Saddam…",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/en/international/20260930-us-troops-wrap-up-iraq-mission-12-years-after-islamic-state-offensive",
+      "published_at": "2026-09-30T07:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France",
+        "Irak",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Sécurité",
+      "summary": "Fini de rester assis au travail : la TSA retire les chaises aux points de contrôle des aéroports. La Transportation Security Administration qualifie cette décision de changement bienvenu, mais un syndicat fédéral des travailleurs affirme qu'elle ne tient pas compte des droits et de la sécurité des travailleurs.",
+      "sources": [
+        "USA TODAY — fiabilité 6/10"
+      ],
+      "url": "https://www.usatoday.com/story/travel/airline-news/2026/09/30/tsa-remove-chairs-airport-checkpoints/92018654007/",
+      "published_at": "2026-09-30T07:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le français Sekoia déploie une plateforme de cybersécurité IA auprès de ses clients. La société française de cybersécurité Sekoia a déployé son outil agent d'IA de cybersécurité Elevate auprès de ses clients, à la suite d'un programme d'accès anticipé avec environ 2 000 clients, a-t-elle annoncé mercredi.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/legal/litigation/frances-sekoia-rolls-out-ai-cybersecurity-platform-its-clients-2026-09-30/",
+      "published_at": "2026-09-30T07:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": []
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les soldats nord-coréens ont fait irruption dans la MDL une cinquantaine de fois entre août et septembre. Période : législateur. Les soldats nord-coréens auraient franchi la frontière intercoréenne fortement fortifiée une cinquantaine de fois entre août et septembre seulement, selon une loi …",
+      "sources": [
+        "The Korea Herald — fiabilité 7/10"
+      ],
+      "url": "https://www.koreaherald.com/article/10889593",
+      "published_at": "2026-09-30T07:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Pas de réunions officielles, pas de pourparlers » : l’Arabie Saoudite nie toute discussion avec le Premier ministre Benjamin Netanyahu (Israël). Un responsable saoudien a déclaré mardi à l'AFP qu'aucun représentant saoudien n'avait participé à la réunion, rejetant les informations relayées par les médias israéliens.",
+      "sources": [
+        "ABP News — fiabilité 6/10"
+      ],
+      "url": "https://news.abplive.com/news/world/no-official-meetings-no-talks-saudi-denies-talks-with-netanyahu-1869081",
+      "published_at": "2026-09-30T07:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite",
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les étudiants de Gaza (Palestine) poursuivent l’Irlande en justice pour refus de visa. Une équipe juridique estime que la décision du ministre de la Justice est irrationnelle et discriminatoire, alors que 26 autres affaires sont en cours …",
+      "sources": [
+        "Middle East Eye — fiabilité 6/10"
+      ],
+      "url": "https://www.middleeasteye.net/news/gaza-students-take-ireland-court-over-visa-refusals",
+      "published_at": "2026-09-30T05:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irlande",
+        "Palestine"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Madagascar"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Madagascar Airlines : un Boeing 737 - 700 pour reprendre de la hauteur – Newsmada. Le Conseil des ministres d’hier a validé l’achat. L’État malgache financera l’opération. L’appareil renforcera les vols intérieurs et internationaux. La compagnie exploite aujourd’hui cinq ATR 72. Le Boeing élargira donc sa capacité et son rayon d’action. Plusieurs points restent à éclaircir. Le montant de l’achat n’a pas été communiqué. La date de livraison demeure inconnue. Le mode de financement n’est pas détaillé. Le gouvernement doit clarifier ces éléments dans les prochains jours. La compagnie devra aussi annoncer les lignes desservies par le Boeing. Un changement de nom est également attendu.",
+      "sources": [
+        "newsmada.com — fiabilité 6/10"
+      ],
+      "url": "https://newsmada.com/2026/09/30/madagascar-airlines-un-boeing-737-700-pour-reprendre-de-la-hauteur/",
+      "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
