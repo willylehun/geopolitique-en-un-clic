@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:43:26.013089+02:00",
+  "generated_at": "2026-09-30T11:53:40.962336+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -9187,8 +9187,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -9202,8 +9202,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Turquie",
-        "Russie"
+        "Russie",
+        "Turquie"
       ]
     },
     {
@@ -12145,8 +12145,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -12161,8 +12161,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Turquie",
-        "Russie"
+        "Russie",
+        "Turquie"
       ]
     },
     {
@@ -30502,6 +30502,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
@@ -30897,18 +30898,19 @@
         "International"
       ],
       "countries": [
-        "Ukraine"
+        "Ukraine",
+        "Russie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "EN DIRECT, guerre en Ukraine : les bombardements russes ont fait cinq morts et quatorze blessés. La principale cible a été le secteur énergétique de Kiev et de sa région. Des immeubles d’habitation ont également été endommagés et des travaux sont en cours pour rétablir « l’électricité et l’approv …",
+      "summary": "EN DIRECT, guerre en Ukraine : la Russie est passée à des « frappes massives contre les infrastructures énergétiques », dénonce Kiev. La principale cible a été le secteur énergétique de Kiev et de sa région. Des immeubles d’habitation ont également été endommagés et des travaux sont en cours pour rétablir « l’électricité et l’approv …",
       "sources": [
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/09/30/en-direct-guerre-en-ukraine-les-bombardements-russes-font-cinq-morts-et-quatorze-blesses-en-ukraine_6783795_3210.html",
-      "published_at": "2026-09-30T03:33:00+02:00",
+      "published_at": "2026-09-30T04:42:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -31216,7 +31218,7 @@
         "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
       ],
       "url": "https://www.abc.net.au/news/programs/the-business/2026-09-30/oil-shipping-costs-rise-to-us25-a-barrel/107214208",
-      "published_at": "2026-09-30T00:15:00+02:00",
+      "published_at": "2026-09-30T04:15:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -31387,6 +31389,92 @@
       "published_at": "2026-09-30T03:06:47+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les groupes de paiement européens unissent leurs forces pour réduire la dépendance des États-Unis. Des groupes de paiement nationaux européens au service de 130 millions de personnes, dont l'espagnol Bizum, l'italien Bancomat et Wero, ont annoncé mercredi qu'ils unissaient leurs forces pour former une société commune chargée de superviser…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/finance/european-payments-groups-join-forces-lessen-us-reliance-2026-09-30/",
+      "published_at": "2026-09-30T04:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les navires sont confrontés à des retards de carburant à Zhoushan en Chine en raison de la compression de l’approvisionnement. Les navires sont obligés d’attendre beaucoup plus longtemps pour se ravitailler à Zhoushan, la principale plate-forme de ravitaillement de Chine, où les retombées de la guerre entre les États-Unis et l’Iran ont resserré les approvisionnements et fait grimper les prix.",
+      "sources": [
+        "Bloomberg — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/ships-face-fuel-delays-at-china-s-zhoushan-on-supply-squeeze",
+      "published_at": "2026-09-30T04:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les services deviennent un moteur clé. Soutenu par un soutien politique soutenu, le secteur des services chinois joue un rôle plus important dans le rééquilibrage de l'économie et le déblocage de la demande intérieure, contribuant ainsi à soutenir la croissance à long terme dans un contexte persistant…",
+      "sources": [
+        "China Daily - Global Edition — fiabilité 6/10"
+      ],
+      "url": "https://usa.chinadaily.com.cn/a/202609/30/WS6abc60ede4b06d4aa0560ee8.html",
+      "published_at": "2026-09-30T04:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord",
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'école de guerre à haute altitude accueille des attachés de défense de Nouvelle-Zélande, du Canada et du Pérou.",
+      "sources": [
+        "ssbcrack — fiabilité 6/10"
+      ],
+      "url": "https://www.ssbcrack.com/2026/09/high-altitude-warfare-school-hosts-defence-attaches-from-new-zealand-canada-and-peru.html",
+      "published_at": "2026-09-30T02:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pérou",
+        "Canada",
+        "Nouvelle-Zélande"
+      ]
     },
     {
       "regions": [
