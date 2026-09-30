@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:43:12.577048+02:00",
+  "generated_at": "2026-09-30T21:53:38.161287+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -36650,7 +36650,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -37370,7 +37369,8 @@
     },
     {
       "regions": [
-        "International"
+        "International",
+        "Europe"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -37383,7 +37383,8 @@
       "url": "https://www.ouest-france.fr/societe/faits-divers/le-conducteur-flashe-a-312-km-h-sur-une-autoroute-de-haute-savoie-va-t-il-echapper-aux-sanctions-8cb3ea4c-bcce-11f1-8ea4-97dc4d7cca62",
       "published_at": "2026-09-30T11:01:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -38248,6 +38249,7 @@
     {
       "regions": [
         "Océanie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -39775,6 +39777,26 @@
       "published_at": "2026-09-30T19:16:16+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Prix élevés du pétrole sous le président Donald Trump (États-Unis) : lettres à l’éditeur – 1er octobre 2026. Les prix de l’essence sous l’ancien président Joe Biden dépassaient les 5 dollars le gallon (« Trump à la pompe », 18 septembre). Les démocrates ont applaudi, espérant nous imposer le Green New Deal et les véhicules électriques. Avec du gaz…",
+      "sources": [
+        "New York Post — fiabilité 6/10"
+      ],
+      "url": "https://nypost.com/2026/09/30/opinion/high-oil-prices-under-trump-letters/",
+      "published_at": "2026-09-30T01:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
