@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:03:17.589414+02:00",
+  "generated_at": "2026-09-30T16:13:34.751830+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -33742,10 +33742,11 @@
       "category": "Géopolitique",
       "summary": "Le président républicain met le président Donald Trump (États-Unis) en garde contre les relations de la Corée du Sud avec la Chine. Le président républicain de la commission du Congrès a exhorté l'administration Trump à examiner de près les liens étroits entre la Corée du Sud et la Chine, en mettant en garde contre les risques importants qui pèsent sur …",
       "sources": [
-        "The News International — fiabilité 6/10"
+        "The News International — fiabilité 6/10",
+        "thenews.com.pk — fiabilité 6/10"
       ],
       "url": "https://www.thenews.com.pk/latest/1418199-republican-chair-warns-trump-over-south-koreas-china-ties",
-      "published_at": "2026-09-30T06:43:00+02:00",
+      "published_at": "2026-09-30T15:45:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -35462,7 +35463,8 @@
       "url": "https://www.lecho.be/les-marches/live-blog/les-bourses-en-direct-les-chiffres-de-l-inflation-plus-hauts-qu-attendus-en-europe-le-spread-olo-bund-a-dix-ans-au-plus-haut-depuis-fevrier-2014/10687969.html",
       "published_at": "2026-09-30T01:46:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -35548,6 +35550,121 @@
       ],
       "url": "https://www.boursier.com/actualites/reuters/les-forces-americaines-se-retirent-d-irak-l-iran-et-l-ei-en-embuscade-427016.html",
       "published_at": "2026-09-30T01:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Suzuki présente sa stratégie technologique pour l’avenir. Des lancements sur le marché accélérés grâce à une réduction de moitié du temps de développement des nouveaux véhicules d’ici 2030.",
+      "sources": [
+        "Motor1.com France via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ca/actualites/other/suzuki-présente-sa-stratégie-technologique-pour-l-avenir/ar-AA2dh91G",
+      "published_at": "2026-09-30T07:41:22+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Rapport : Les exportations de pétrole brut du Golfe atteignent les niveaux d'avant-guerre. Malgré les menaces iraniennes, les exportations de pétrole des producteurs arabes du golfe Persique sont en hausse depuis un certain temps. Selon le fournisseur de données Kpler, une « flotte de navettes » dans le détroit d'Ormuz est…",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/report-crude-oil-exports-from-the-gulf-reach-prewar-levels-li.3619404",
+      "published_at": "2026-09-30T07:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Comment les actions d’Amazon peuvent lutter contre la menace de l’IA et grimper de 46 %. Certains investisseurs craignent que les agents d’IA ne représentent un risque pour Amazon, mais un analyste de Rosenblatt pense que l’entreprise « peut traverser cette période de transition sans être affectée ».",
+      "sources": [
+        "MarketWatch — fiabilité 6/10"
+      ],
+      "url": "https://www.marketwatch.com/story/how-amazons-stock-can-fight-off-the-ai-threat-and-soar-46-5af77a03",
+      "published_at": "2026-09-30T08:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "FG vise une alimentation électrique 24 heures sur 24 à Lagos, Abuja, Kano et autres. Le gouvernement fédéral a entamé des négociations avec les sociétés de distribution d'électricité sur des projets visant à fournir une alimentation électrique 24 heures sur 24 à",
+      "sources": [
+        "tribuneonlineng.com — fiabilité 6/10"
+      ],
+      "url": "https://tribuneonlineng.com/fg-targets-24-hour-power-supply-in-lagos-abuja-kano-others/",
+      "published_at": "2026-09-30T15:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Asie"
+      ],
+      "countries": [
+        "Malawi",
+        "Émirats arabes unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Malawi : K4 . Une entreprise malawienne de fournitures médicales a lancé une bataille juridique explosive de plusieurs millions de dollars contre un homme d'affaires basé à Dubaï (Émirats arabes unis), l'accusant de saboter un lucratif contrat gouvernemental après que des gazes destinées aux hôpitaux seraient devenues périmées et inutilisables.",
+      "sources": [
+        "allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://allafrica.com/stories/202609300315.html",
+      "published_at": "2026-09-30T15:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Tanzanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Infrastructure numérique : la Tanzanie prévoit 2,6 milliards $ d’investissements d’ici 2031. Les autorités tanzaniennes veulent attirer davantage d’investisseurs dans le secteur technologique. En août dernier, elles avaient annoncé la …",
+      "sources": [
+        "Agence Ecofin — fiabilité 6/10"
+      ],
+      "url": "https://www.agenceecofin.com/actualites-numerique/3009-142012-infrastructure-numerique-la-tanzanie-prevoit-2-6-milliards-d-investissements-d-ici-2031",
+      "published_at": "2026-09-30T08:13:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
