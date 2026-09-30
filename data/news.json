@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:43:26.693761+02:00",
+  "generated_at": "2026-09-30T03:53:37.705333+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3583,8 +3583,8 @@
         "Europe"
       ],
       "countries": [
-        "Russie",
-        "Lituanie"
+        "Lituanie",
+        "Russie"
       ],
       "period": "day",
       "bucket": "15 septembre 2026",
@@ -3831,8 +3831,8 @@
       ],
       "countries": [
         "Arménie",
-        "Russie",
-        "Iran"
+        "Iran",
+        "Russie"
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
@@ -3970,9 +3970,9 @@
         "International"
       ],
       "countries": [
-        "Russie",
         "Biélorussie",
-        "Lituanie"
+        "Lituanie",
+        "Russie"
       ],
       "period": "day",
       "bucket": "21 septembre 2026",
@@ -12293,8 +12293,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Russie",
-        "Moldavie"
+        "Moldavie",
+        "Russie"
       ]
     },
     {
@@ -12507,12 +12507,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "countries": [
-        "Russie",
-        "Géorgie"
+        "Géorgie",
+        "Russie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -13382,8 +13382,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -13397,8 +13397,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Russie",
-        "Turquie"
+        "Turquie",
+        "Russie"
       ]
     },
     {
@@ -16899,8 +16899,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -16915,8 +16915,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Russie",
-        "Turquie"
+        "Turquie",
+        "Russie"
       ]
     },
     {
@@ -34395,9 +34395,9 @@
       "content_enriched": true,
       "countries": [
         "Chine",
-        "Russie",
         "Iran",
         "Pakistan",
+        "Russie",
         "États-Unis"
       ]
     },
@@ -34715,6 +34715,26 @@
       "url": "https://www.wz-net.de/weltweit/politik/usa-supreme-court-erlaubt-trump-regierung-abschiebungen-drit-id310122.html",
       "published_at": "2026-09-30T03:15:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Une nouvelle étude révèle qu’électrifier le Canada pourrait ajouter 3 000 milliards de dollars à l’économie.",
+      "sources": [
+        "Canadian Chamber of Commerce — fiabilité 6/10"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUHZ0bmZRQUI1RHNkVTRqejZzOHRmQ0hXQnBfT1AzY05lYVp1UWdFWjZqX2RNWWtGOFlxWlhZQmpRaTI0YUxULV9hNUdXcWU3NTlYVFFxdUwyU05zakhZNi10QWdYWmlLUUd4bkNyMDR0ejZ4X1dkODBzbnVXYTQzNmduRWw5UDJxMnUydUM2X2Y3TkRBVkY0ZlNFeEQ1ZDYyZmxITVg4clVYc2c4VFVCQThqT3lYalVpMHpLU2s1VWRTY3RSY0xrVU1PdVJNZw?oc=5",
+      "published_at": "2026-09-30T00:43:58+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
