@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import atexit
 import base64, html as html_lib
 import json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from difflib import SequenceMatcher
@@ -1147,12 +1148,33 @@ GOOGLE_NEWS_REQUEST_HEADERS={
     "Upgrade-Insecure-Requests":"1",
 }
 
+GOOGLE_NEWS_HTTP_CLIENT=None
+
+def _google_news_http_client():
+    """Reuse one session so Google can carry RSS-splash cookies into its RPC."""
+    global GOOGLE_NEWS_HTTP_CLIENT
+    if httpx is None:
+        return None
+    if GOOGLE_NEWS_HTTP_CLIENT is None:
+        GOOGLE_NEWS_HTTP_CLIENT=httpx.Client(http2=True,follow_redirects=False,timeout=10)
+    return GOOGLE_NEWS_HTTP_CLIENT
+
+def _close_google_news_http_client():
+    global GOOGLE_NEWS_HTTP_CLIENT
+    client=GOOGLE_NEWS_HTTP_CLIENT
+    GOOGLE_NEWS_HTTP_CLIENT=None
+    if client is not None:
+        try: client.close()
+        except Exception: pass
+
+atexit.register(_close_google_news_http_client)
+
 def _request_google_page(url):
     if httpx is not None:
         current=url
         # A coherent browser navigation profile avoids the JS shell returned to
         # a bare HTTP client and exposes the article decode parameters.
-        with httpx.Client(http2=True,follow_redirects=False,timeout=10) as client:
+        client=_google_news_http_client()
             for _ in range(4):
                 response=client.get(current,follow_redirects=False,headers=GOOGLE_NEWS_REQUEST_HEADERS)
                 if response.status_code in (301,302,303,307,308):
@@ -1219,7 +1241,7 @@ def _post_google_article_decode(art_id, timestamp, signature):
     }
     body="f.req="+urllib.parse.quote(f_req,safe="")
     if httpx is not None:
-        with httpx.Client(http2=True,timeout=10) as client:
+        client=_google_news_http_client()
             response=client.post(
                 "https://news.google.com/_/DotsSplashUi/data/batchexecute",
                 content=body,
