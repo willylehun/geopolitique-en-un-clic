@@ -117,6 +117,21 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         self.assertEqual(news.GOOGLE_NEWS_URL_CACHE[google["url"]],bing["url"])
         self.assertEqual(news.DISCOVERY_STATS["google_bing_fallback_success"],1)
 
+    def test_google_rss_description_recovers_matching_publisher_link(self):
+        title="Government announces new sanctions after border conflict"
+        raw='<a href="https://www.reuters.com/world/europe/sanctions-border-conflict/">Government announces new sanctions after border conflict</a>'
+        self.assertEqual(
+            news.google_rss_publisher_url(raw,title,"Reuters"),
+            "https://www.reuters.com/world/europe/sanctions-border-conflict/",
+        )
+
+    def test_google_rss_description_rejects_google_and_unrelated_links(self):
+        title="Government announces new sanctions after border conflict"
+        google='<a href="https://news.google.com/articles/CBMi">Government announces new sanctions after border conflict</a>'
+        unrelated='<a href="https://www.reuters.com/world/europe/old-story/">Sports results from the weekend</a>'
+        self.assertEqual(news.google_rss_publisher_url(google,title,"Reuters"),"")
+        self.assertEqual(news.google_rss_publisher_url(unrelated,title,"Reuters"),"")
+
     def test_direct_bing_item_survives_per_title_limit(self):
         day=news.datetime.now(news.UTC)
         title="Government announces new sanctions after border conflict"

@@ -1411,6 +1411,51 @@ def _same_publisher(left, right):
     if not a or not b: return False
     return a==b or (min(len(a),len(b))>=5 and (a.startswith(b) or b.startswith(a)))
 
+class _RSSAnchorParser(HTMLParser):
+    """Conserve les liens d'article présents dans le descriptif HTML de Google RSS."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.links=[]
+        self._href=""
+        self._parts=[]
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower()=="a":
+            self._href=dict(attrs).get("href","") or ""
+            self._parts=[]
+
+    def handle_data(self, data):
+        if self._href and data and data.strip():
+            self._parts.append(data.strip())
+
+    def handle_endtag(self, tag):
+        if tag.lower()=="a" and self._href:
+            self.links.append((self._href," ".join(self._parts)))
+            self._href=""
+            self._parts=[]
+
+def google_rss_publisher_url(raw_description, title, source):
+    """Use only an external RSS anchor whose editor and label match the item."""
+    parser=_RSSAnchorParser()
+    try:
+        parser.feed(html_lib.unescape(raw_description or ""))
+    except Exception:
+        return ""
+    matches=[]
+    for href,label in parser.links:
+        url=_publisher_url(href)
+        if not url or not _same_publisher(source,urllib.parse.urlparse(url).hostname or ""):
+            continue
+        similarity=_title_similarity(title,label)
+        if similarity<0.70:
+            continue
+        matches.append((url,similarity))
+    if not matches:
+        return ""
+    best=max(score for _,score in matches)
+    urls={url for url,score in matches if score>=best-0.04}
+    return next(iter(urls)) if len(urls)==1 else ""
+
 def _title_similarity(left, right):
     a=key_title(left); b=key_title(right)
     if not a or not b: return 0.0
@@ -1751,7 +1796,18 @@ def google_rss_query(query):
             DISCOVERY_STATS["google_sources_connues"]+=1
         else:
             DISCOVERY_STATS["google_sources_non_referencees"]+=1
-        out.append({"title":title,"source":src,"date":dt,"url":link_el.text if link_el is not None else "","description":strip_html_text(desc_el.text if desc_el is not None else "")})
+        google_url=link_el.text if link_el is not None else ""
+        raw_description=desc_el.text if desc_el is not None else ""
+        publisher_url=google_rss_publisher_url(raw_description,title,src)
+        if publisher_url and is_google_news_url(google_url):
+            GOOGLE_NEWS_URL_CACHE[google_url]=publisher_url
+            GOOGLE_NEWS_RESOLVED[google_url]=publisher_url
+            DISCOVERY_STATS["google_rss_description_fallback"]+=1
+            DISCOVERY_STATS["google_decode_success"]+=1
+            article_url=publisher_url
+        else:
+            article_url=google_url
+        out.append({"title":title,"source":src,"date":dt,"url":article_url,"description":strip_html_text(raw_description)})
     return out
 
 def google_rss(region,start_date,end_date):
