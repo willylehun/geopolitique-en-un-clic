@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T23:05:17.264793+02:00",
+  "generated_at": "2026-09-30T23:15:35.979011+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -36553,10 +36553,11 @@
         "The Baltimore Sun — fiabilité 6/10",
         "The San Diego Union-Tribune — fiabilité 6/10",
         "AP — fiabilité 9/10",
-        "NZ Herald — fiabilité 6/10"
+        "NZ Herald — fiabilité 6/10",
+        "CNA — fiabilité 7/10"
       ],
       "url": "https://www.baltimoresun.com/2026/09/30/britain-us-air-base-attack-iran/",
-      "published_at": "2026-09-30T12:41:00+02:00",
+      "published_at": "2026-09-30T16:04:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -37830,7 +37831,7 @@
         "France 24 (média public) — fiabilité 8/10"
       ],
       "url": "https://www.france24.com/en/europe/20260930-live-several-people-killed-as-russia-launches-new-round-of-strikes-on-kyiv",
-      "published_at": "2026-09-30T12:55:00+02:00",
+      "published_at": "2026-09-30T15:33:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -40045,12 +40046,13 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "L’Ukraine va présenter une « liste de souhaits » pour de nouvelles sanctions contre la Russie dans le cadre de la loi Graham. L'Ukraine présentera cette semaine à l'administration du président Donald Trump (États-Unis) et au Congrès une liste de souhaits d'entreprises, de navires et d'individus russes qu'elle aimerait voir toucher …",
+      "summary": "L’Ukraine va présenter une « liste de souhaits » pour de nouvelles sanctions contre la Russie dans le cadre de la loi Graham. WASHINGTON (AP) — L'Ukraine présentera cette semaine à l'administration du président Donald Trump (États-Unis) et au Congrès une liste de souhaits d'entreprises, de navires et d'individus russes qu'elle aimerait voir frappés de sanctions américaines en vertu…",
       "sources": [
-        "The Hamilton Spectator — fiabilité 6/10"
+        "The Hamilton Spectator — fiabilité 6/10",
+        "New York Daily News — fiabilité 6/10"
       ],
       "url": "https://www.thespec.com/news/world/united-states/ukraine-to-present-wish-list-for-new-russia-sanctions-under-graham-law/article_4ca1945f-b175-5c49-b4fe-f7d3d31f58ad.html",
-      "published_at": "2026-09-30T14:48:00+02:00",
+      "published_at": "2026-09-30T15:46:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -40555,6 +40557,130 @@
       "published_at": "2026-09-30T22:30:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "countries": [],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les travaillistes répriment le système de visa de jeu des agents de l’éducation. Le gouvernement affirme que les établissements d'enseignement qui tentent de contourner les nouvelles restrictions imposées aux étudiants étrangers qui souhaitent obtenir un diplôme en gestion en subiront les conséquences …",
+      "sources": [
+        "Australian Financial Review — fiabilité 7/10"
+      ],
+      "url": "https://www.afr.com/politics/federal/labor-cracks-down-on-education-agents-gaming-visa-system-20261001-p611ui",
+      "published_at": "2026-09-30T15:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"Les législateurs de l'Ohio (États-Unis) adoptent une suspension temporaire de la taxe sur l'essence et le projet de loi est envoyé au bureau du gouverneur\". Pour la plupart des conducteurs, la suspension fiscale équivaut à une économie de six à dix dollars par plein, qui, selon les législateurs, s'accumule avec le temps.",
+      "sources": [
+        "13abc.com — fiabilité 6/10"
+      ],
+      "url": "https://www.13abc.com/2026/09/30/ohio-lawmakers-pass-gas-tax-suspension-heads-governors-desk/",
+      "published_at": "2026-09-30T22:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'accord entre le Royaume-Uni et la France visant à réduire le nombre de migrants traversant la Manche à bord de petits bateaux est abandonné. Le gouvernement britannique a abandonné un programme pilote avec la France visant à limiter le passage des migrants dans la Manche.",
+      "sources": [
+        "clickondetroit.com — fiabilité 6/10"
+      ],
+      "url": "https://www.clickondetroit.com/news/world/2026/09/30/uk-france-deal-aimed-at-reducing-number-of-migrants-crossing-channel-in-small-boats-is-scrapped/",
+      "published_at": "2026-09-30T22:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Wall Street clôture sans direction claire après l'inflation américaine. La Bourse de New York a clôturé en ordre dispersé mercredi, jonglant entre la publication d'un indice d'inflation aux États-Unis en deçà des attentes et des taux obligataires toujours élevés.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/info-en-continu/20260930-wall-street-clôture-sans-direction-claire-après-l-inflation-américaine",
+      "published_at": "2026-09-30T03:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Jeffries promet que les démocrates utiliseront leurs pouvoirs de guerre pour bloquer le conflit du président Donald Trump (États-Unis) avec l'Iran s'ils obtiennent la majorité. Le leader de la minorité parlementaire, Hakeem Jeffries, a déclaré que les démocrates s'engagent à utiliser les résolutions sur les pouvoirs de guerre et d'autres outils législatifs pour mettre fin au conflit en Iran.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6405981657112",
+      "published_at": "2026-09-30T15:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le stock de Progress Software chute après que les revenus trimestriels soient insuffisants. Les actions de Progress Software ont chuté après que la société de logiciels d’intelligence artificielle a annoncé des revenus fiscaux pour le troisième trimestre inférieurs aux estimations de Wall Street. La Corée du Sud s'apprête à investir 200 $…",
+      "sources": [
+        "Barron's — fiabilité 6/10"
+      ],
+      "url": "https://www.barrons.com/articles/progress-software-earnings-stock-price-ed5207a6",
+      "published_at": "2026-09-30T15:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud"
+      ]
     },
     {
       "regions": [
