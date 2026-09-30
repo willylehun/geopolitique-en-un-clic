@@ -1595,6 +1595,10 @@ def article_summary(art, meta=None, targeted=False, candidates=None):
         publisher_url=cross_feed_url
         if not publisher_url:
             publisher_url=resolve_google_news_with_bing(art)
+        if not publisher_url:
+            decoded_url=decode_google_news_url(url)
+            if decoded_url and not is_google_news_url(decoded_url):
+                publisher_url=decoded_url
         if publisher_url:
             GOOGLE_NEWS_URL_CACHE[url]=publisher_url
             GOOGLE_NEWS_RESOLVED[url]=publisher_url

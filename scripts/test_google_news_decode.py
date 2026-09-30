@@ -139,9 +139,11 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         meta={"countries":["France"],"date":"30 septembre 2026","source":"Reuters","url":source}
         with patch.object(news,"matching_publisher_article_url",return_value=""), \
              patch.object(news,"resolve_google_news_with_bing",return_value=""), \
+             patch.object(news,"decode_google_news_url",return_value=source) as decode, \
              patch.object(news,"detail_is_substantive",return_value=True), \
              patch.object(news,"fetch_article_detail") as fetch:
             self.assertIsNone(news.article_summary(article,meta,candidates=[article]))
+        decode.assert_called_once_with(source)
         fetch.assert_not_called()
         self.assertEqual(news.DISCOVERY_STATS["google_intermediaire_non_resolu"],1)
 
