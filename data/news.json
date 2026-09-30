@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:33:17.867654+02:00",
+  "generated_at": "2026-09-30T03:43:26.693761+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -34603,10 +34603,11 @@
       "category": "Géopolitique",
       "summary": "Le président Donald Trump (États-Unis) ne sait pas encore si l’Iran va abandonner. Alors que les médiateurs travaillent avec l’Iran et les États-Unis pour tenter de négocier un accord visant à mettre fin à la guerre…",
       "sources": [
-        "dailyadvertiser.com.au — fiabilité 6/10"
+        "dailyadvertiser.com.au — fiabilité 6/10",
+        "standard.net.au — fiabilité 6/10"
       ],
       "url": "https://www.dailyadvertiser.com.au/story/9359850/trump-doesnt-know-if-iran-is-going-to-give-up-yet/",
-      "published_at": "2026-09-30T02:45:00+02:00",
+      "published_at": "2026-09-30T03:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -34627,6 +34628,92 @@
       ],
       "url": "https://www.chroniclejournal.com/news/national/carney-says-he-has-no-plans-to-apply-further-trade-pressure-as-u-s-midterms/article_c7181422-164e-5617-b48f-def7ad9b8413.html",
       "published_at": "2026-09-30T02:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Estonie",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L'Estonie accuse la Russie d'avoir incendié une entreprise de défense fournissant l'Ukraine. La Russie était à l'origine d'un incendie criminel contre une entreprise de défense estonienne dans la capitale Tallinn le mois dernier, selon les autorités. La Première ministre Kristen Michal a déclaré que l'attaque contre Milrem Robotics – qui fournit à l'Ukraine des véhicules militaires sans pilote – avait été ordonnée par les services spéciaux russes, mais n'a donné aucun détail. Moscou a été accusé d'avoir lancé des sabotages […]",
+      "sources": [
+        "thechronicle.com.gh — fiabilité 6/10"
+      ],
+      "url": "https://thechronicle.com.gh/estonia-blames-russia-for-arson-at-defence-company-supplying-ukraine/",
+      "published_at": "2026-09-30T03:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L'ex-mari du gouverneur de Basse-Californie (États-Unis) parmi les personnes sanctionnées par l'U. S. Dans la répression du cartel de Sinaloa. Le Bureau de contrôle des avoirs étrangers du Département du Trésor américain a annoncé des sanctions contre 25 entités et 21 individus.",
+      "sources": [
+        "sandiegouniontribune.com — fiabilité 6/10"
+      ],
+      "url": "https://www.sandiegouniontribune.com/2026/09/29/ex-husband-of-baja-california-governor-among-those-sanctioned-by-u-s-in-sinaloa-cartel-crackdown/",
+      "published_at": "2026-09-30T03:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump dit qu’il ne sait pas encore si l’Iran va abandonner. Le président Donald Trump (États-Unis) a déclaré mardi qu'il ne savait pas si l'Iran \"allait encore abandonner\", mais il a qualifié le pays de \"très mauvais\" dans sa guerre avec les États-Unis. \"Je ne sais pas s'ils vont abandonner pour l'instant, mais ils vont abandonner\", a déclaré Trump aux journalistes. \"Ils se portent très mal\", a-t-il ajouté. Le blocus américain a coupé la bouée de sauvetage financière de l'Iran : les exportations de pétrole et les coûts économiques de la guerre ont rendu la vie plus difficile aux Iraniens.",
+      "sources": [
+        "english.aawsat.com — fiabilité 6/10"
+      ],
+      "url": "https://english.aawsat.com/world/5324109-trump-says-he-does-not-know-if-iran-going-%E2%80%98give-yet%E2%80%99",
+      "published_at": "2026-09-30T03:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "États-Unis : La Cour suprême autorise pour le moment les expulsions du gouvernement Trump vers des pays tiers. Selon une décision de la Cour suprême des États-Unis, le gouvernement américain du président Donald Trump (États-Unis) est actuellement autorisé à poursuivre l'expulsion de migrants vers des pays dits tiers. La Cour suprême a fait droit à la demande du gouvernement d'annuler temporairement la décision d'un tribunal inférieur.",
+      "sources": [
+        "wz-net.de — fiabilité 6/10"
+      ],
+      "url": "https://www.wz-net.de/weltweit/politik/usa-supreme-court-erlaubt-trump-regierung-abschiebungen-drit-id310122.html",
+      "published_at": "2026-09-30T03:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
