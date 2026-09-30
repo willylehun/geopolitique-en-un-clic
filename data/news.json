@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:58:37.559176+02:00",
+  "generated_at": "2026-09-30T10:08:51.105136+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -977,8 +977,8 @@
         "Algérie",
         "Libye",
         "Mali",
-        "Émirats arabes unis",
-        "Soudan"
+        "Soudan",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "10 septembre 2026",
@@ -6409,8 +6409,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6425,8 +6425,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "France",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "France"
       ]
     },
     {
@@ -13372,8 +13372,8 @@
       "published_at": "2026-09-27T13:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "France",
-        "Pologne"
+        "Pologne",
+        "France"
       ]
     },
     {
@@ -14013,8 +14013,8 @@
       "published_at": "2026-09-27T13:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "France",
-        "Allemagne"
+        "Allemagne",
+        "France"
       ]
     },
     {
@@ -22725,8 +22725,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Iran",
+        "Émirats arabes unis",
         "États-Unis"
       ]
     },
@@ -23425,12 +23425,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "countries": [
-        "Italie",
-        "Koweït"
+        "Koweït",
+        "Italie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -23447,13 +23447,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "France",
-        "Liban"
+        "Liban",
+        "France"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -23542,10 +23542,10 @@
       ],
       "countries": [
         "Maroc",
-        "Émirats arabes unis",
         "Arabie saoudite",
         "Israël",
-        "Qatar"
+        "Qatar",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -25876,8 +25876,8 @@
         "International"
       ],
       "countries": [
-        "France",
         "Pologne",
+        "France",
         "Ukraine"
       ],
       "period": "day",
@@ -27474,8 +27474,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -27564,8 +27564,8 @@
         "Asie"
       ],
       "countries": [
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -27712,9 +27712,9 @@
         "International"
       ],
       "countries": [
-        "France",
         "Vatican",
-        "Allemagne"
+        "Allemagne",
+        "France"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28562,8 +28562,8 @@
       ],
       "countries": [
         "Cambodge",
-        "France",
-        "Vietnam"
+        "Vietnam",
+        "France"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -30011,9 +30011,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Arabie saoudite",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -30129,7 +30129,8 @@
       "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-30-september-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/134578559.cms",
       "published_at": "2026-09-30T01:15:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -30231,6 +30232,88 @@
       "url": "https://www.msn.com/fr-fr/actualite/other/économie-guerre-en-iran-à-un-mois-des-midterms-le-désamour-des-américains-pour-donald-trump-na-jamais-été-aussi-grand/ar-AA2dfPW0",
       "published_at": "2026-09-30T02:38:26+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Compter chaque watt de l’avenir énergétique du Guyana. L’économie en croissance rapide de la GUYANE présente un défi énergétique qui ne peut plus être mesuré en regardant simplement le flux d’électricité à travers le …",
+      "sources": [
+        "Guyana Chronicle — fiabilité 6/10"
+      ],
+      "url": "https://guyanachronicle.com/2026/09/30/counting-every-watt-of-guyanas-energy-future/",
+      "published_at": "2026-09-30T02:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Guyana"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Au Royaume-Uni, Andy Burnham lance sa campagne pour 2029. Dans son plan, esquissé le 29 septembre lors de son discours devant le congrès travailliste, le premier ministre britannique a dit souhaiter revenir sur les politiques de privatisation engagées dans l …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/09/30/au-royaume-uni-andy-burnham-lance-sa-campagne-pour-2029_6786020_3210.html",
+      "published_at": "2026-09-30T03:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "En pleine visite d le président Emmanuel Macron (France) à Madrid, le Sénat espagnol rejette le traité damitié avec la France. [VIDÉO] ▶️ Le Sénat espagnol a rejeté mardi soir la ratification du traité d'amitié avec la France. Un couac lié à un article prévoyant qu'un membre du gouvernement d'un des deux pays soit invité au Conseil des ministres de l'autre, qui survient en pleine visite d'Emmanuel Macron.",
+      "sources": [
+        "tf1info.fr — fiabilité 6/10"
+      ],
+      "url": "https://www.tf1info.fr/international/en-pleine-visite-d-emmanuel-macron-a-madrid-le-senat-espagnol-rejette-le-traite-d-amitie-avec-la-france-2467131.html",
+      "published_at": "2026-09-30T09:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Salvador"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le risque du train Sagunt - Teruel, de Salvador Enguix. Le ministère des Transports du gouvernement espagnol est sur le point de commettre la même erreur avec la connexion Sagunt-Teruel du corridor ferroviaire Cantabrique-Méditerranée qui avait été commise il y a 25 ans lors de la proposition du premier projet du corridor méditerranéen. Pourquoi faire semblant…",
+      "sources": [
+        "lavanguardia.com — fiabilité 6/10"
+      ],
+      "url": "https://www.lavanguardia.com/local/valencia/20260930/11646907/riesgo-tren-sagunt-teruel.html",
+      "published_at": "2026-09-30T09:45:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
