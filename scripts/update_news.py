@@ -1137,7 +1137,9 @@ def _post_google_article_decode(art_id, timestamp, signature):
       "X","X",1,[1,1,1],1,1,None,0,0,None,0
     ]
     inner=["garturlreq",context,art_id,int(timestamp) if str(timestamp).isdigit() else timestamp,signature]
-    envelope=["Fbv4je",json.dumps(inner,separators=(",",":")),None,"0"]
+    # batchexecute expects the RPC name and its serialized payload only. Extra
+    # positional fields can produce an empty response even with a valid signature.
+    envelope=["Fbv4je",json.dumps(inner,separators=(",",":"))]
     f_req=json.dumps([[envelope]],separators=(",",":"))
     req=urllib.request.Request(
         "https://news.google.com/_/DotsSplashUi/data/batchexecute",
@@ -1191,6 +1193,7 @@ def decode_google_news_url(source_url):
     # page still exposes the matching id, signature and timestamp.
     page_urls=[
         _google_article_page_url(source_url),
+        "https://news.google.com/read/"+urllib.parse.quote(art_id,safe="")+"?hl=fr&gl=FR&ceid=FR%3Afr",
         "https://news.google.com/articles/"+urllib.parse.quote(art_id,safe="")+"?hl=fr&gl=FR&ceid=FR%3Afr",
         "https://news.google.com/rss/articles/"+urllib.parse.quote(art_id,safe="")+"?hl=fr&gl=FR&ceid=FR%3Afr",
     ]
