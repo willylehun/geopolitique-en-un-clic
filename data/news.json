@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:24:21.264001+02:00",
+  "generated_at": "2026-09-30T22:34:35.196113+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -37727,10 +37727,11 @@
         "northkoreatimes.com — fiabilité 6/10",
         "newzealandstar.com — fiabilité 6/10",
         "neworleanssun.com — fiabilité 6/10",
-        "sierraleonetimes.com — fiabilité 6/10"
+        "sierraleonetimes.com — fiabilité 6/10",
+        "europesun.com — fiabilité 5/10"
       ],
       "url": "http://www.northkoreatimes.com/news/279343449/uk-pm-says-strong-indications-iran-linked-to-airbase-incident",
-      "published_at": "2026-09-30T20:45:00+02:00",
+      "published_at": "2026-09-30T22:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -38675,7 +38676,6 @@
     {
       "regions": [
         "Océanie",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -38709,7 +38709,7 @@
         "Radio France Internationale via MSN — fiabilité 6/10"
       ],
       "url": "https://www.rfi.fr/fr/amériques/20260930-cuba-les-états-unis-durcissent-leurs-sanctions-financières-le-secteur-privé-également-touché",
-      "published_at": "2026-09-30T13:30:15+02:00",
+      "published_at": "2026-09-30T15:30:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -39664,10 +39664,11 @@
       "category": "Géopolitique",
       "summary": "Plainte de l'UE déposée concernant les violations présumées de l'accord climatique par la Nouvelle-Zélande. L'organisation environnementale néerlandaise Both ENDS a déposé une plainte auprès de la Commission européenne contre la Nouvelle-Zélande pour violations présumées d'un accord commercial avec l'UE, a confirmé la commission le …",
       "sources": [
-        "Yahoo — fiabilité 6/10"
+        "Yahoo — fiabilité 6/10",
+        "DPA International via MSN — fiabilité 6/10"
       ],
       "url": "https://www.yahoo.com/news/world/articles/eu-complaint-filed-over-zealands-191827437.html",
-      "published_at": "2026-09-30T14:18:00+02:00",
+      "published_at": "2026-09-30T14:18:27+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -40015,7 +40016,8 @@
     },
     {
       "regions": [
-        "International"
+        "International",
+        "Europe"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -40028,7 +40030,8 @@
       "url": "https://www.cnews.fr/france/2026-09-30/sanctions-de-lue-contre-xenia-fedorova-ca-me-choque-de-voir-ces-attaques-contre",
       "published_at": "2026-09-30T03:04:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -40077,8 +40080,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Océanie",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -40094,8 +40097,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Philippines",
-        "Australie"
+        "Australie",
+        "Philippines"
       ]
     },
     {
@@ -40130,6 +40133,135 @@
       "url": "https://www.news.com.au/finance/real-estate/aldi-unveils-1bn-western-syndey-centre/news-story/5c697b52c846dafcf162b396cb56ca0c",
       "published_at": "2026-09-30T14:00:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Premier ministre Andy Burnham : L'incident de la base de la RAF est lié à l'Iran. Le gouvernement britannique estime que l'Iran est impliqué dans l'incident survenu à la RAF Fairford, a déclaré le Premier ministre Andy Burnham.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/pm-andy-burnham-raf-incident-195901002.html",
+      "published_at": "2026-09-30T14:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Royaume-Uni estime que l’Iran a « joué un rôle » dans l’attaque déjouée, dit Burnham. Le Premier ministre britannique Andy Burnham a déclaré mercredi que son gouvernement estimait que l'Iran \"avait joué un rôle\" dans l'attaque déjouée présumée contre une base aérienne américaine au Royaume-Uni en début de semaine. \"Là …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/uk-believes-iran-played-part-180744292.html",
+      "published_at": "2026-09-30T13:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "PM : Si le projet de loi modifiant la Constitution échoue, nous nous arrêtons. Le Premier ministre Sitiveni Rabuka a déclaré que les Fidji se rendraient directement à des élections si le Parlement ne parvenait pas à adopter le projet de loi modifiant la Constitution de 2026 à la majorité des deux tiers lors de la deuxième lecture de demain. \"Si c'est…",
+      "sources": [
+        "Fiji Sun — fiabilité 6/10"
+      ],
+      "url": "https://fijisun.com.fj/news/nation/pm-if-constitution-amendment-bill-fails-we-stop",
+      "published_at": "2026-09-30T15:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Fidji"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Un commentateur balbutiant de MAGA a critiqué sa propre émission à propos de la flambée des prix du diesel. L'animateur de Fox Business, Larry Kudlow, ancien directeur du Conseil économique national pendant le premier mandat du président Donald Trump (États-Unis), a été fermé mercredi à sa propre émission après avoir dissipé les inquiétudes concernant…",
+      "sources": [
+        "Raw Story via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/stammering-maga-commentator-slammed-on-his-own-show-over-surging-diesel-prices/ar-AA2dimHJ",
+      "published_at": "2026-09-30T13:19:55+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : la Russie a lancé 285 drones dans la journée de mercredi, selon l’armée ukrainienne. Dans un bilan provisoire, la défense antiaérienne ukrainienne affirmait avoir abattu ou neutralisé 254 drones, dont 146 à réaction, entre 6 h 30 et 18 h 30, mercredi. Moscou a également tiré plusieurs …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/09/30/en-direct-guerre-en-ukraine-la-russie-a-lance-285-drones-dans-la-journee-de-mercredi-selon-l-armee-ukrainienne_6783795_3210.html",
+      "published_at": "2026-09-30T14:13:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "\" L'arrogance du président Donald Trump (États-Unis) a tout gâché : l'UE pourrait \" s'emparer de l'immense business des États-Unis. Le Canada va devenir le premier membre non européen d’une association de l’UE. Selon l'expert Keupp, cela pourrait devenir un modèle pour l'avenir.",
+      "sources": [
+        "kreiszeitung.de — fiabilité 6/10"
+      ],
+      "url": "https://www.kreiszeitung.de/politik/trumps-arroganz-hat-alles-kaputtgeschlagen-eu-koennte-riesengeschaeft-der-usa-uebernehmen-zr-94518983.html",
+      "published_at": "2026-09-30T22:15:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
