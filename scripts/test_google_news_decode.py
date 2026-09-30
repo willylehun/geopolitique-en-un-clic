@@ -213,6 +213,17 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         self.assertEqual(news.GOOGLE_NEWS_URL_CACHE[google["url"]],bing["url"])
         self.assertEqual(news.DISCOVERY_STATS["google_bing_fallback_success"],1)
 
+    def test_rss_publisher_host_constrains_bing_and_validates_candidate_domain(self):
+        day=news.datetime.now(news.UTC)
+        title="Government announces new sanctions after border conflict"
+        google={"title":title,"source":"Reuters World","publisher_url":"https://www.reuters.com/","date":day,
+                "url":f"https://news.google.com/rss/articles/{RECENT_ARTICLE_IDS[0]}?oc=5"}
+        candidate={"title":title,"source":"International Desk","date":day,
+                   "url":"https://www.reuters.com/world/europe/sanctions-border-conflict/"}
+        with patch.object(news,"bing_rss_query",return_value=[candidate]) as search:
+            self.assertEqual(news.resolve_google_news_with_bing(google),candidate["url"])
+        self.assertIn("site:reuters.com",search.call_args.args[0])
+
     def test_google_rss_description_recovers_matching_publisher_link(self):
         title="Government announces new sanctions after border conflict"
         raw='<a href="https://www.reuters.com/world/europe/sanctions-border-conflict/">Government announces new sanctions after border conflict</a>'
@@ -241,6 +252,7 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         with patch.object(news.urllib.request,"urlopen",return_value=FakeResponse(feed,"https://news.google.com/rss/search")):
             article=news.google_rss_query("test query")[0]
         self.assertEqual(article["url"],publisher_url)
+        self.assertEqual(article["publisher_url"],"https://www.reuters.com")
         self.assertEqual(news.GOOGLE_NEWS_URL_CACHE[google_url],publisher_url)
         self.assertEqual(news.DISCOVERY_STATS["google_rss_description_fallback"],1)
 
