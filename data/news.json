@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:47:33.372667+02:00",
+  "generated_at": "2026-09-30T07:57:43.652069+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -34843,7 +34843,7 @@
         "The Independent via MSN — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-us/news/other/iran-war-latest-tehran-says-us-will-inevitably-leave-this-region/ar-AA2da6ux",
-      "published_at": "2026-09-30T00:23:02+02:00",
+      "published_at": "2026-09-30T00:46:12+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -34865,6 +34865,144 @@
       ],
       "url": "https://www.msn.com/fr-fr/actualite/other/photos-interdites-à-la-pompe-et-chute-des-revenus-liés-au-pétrole-la-russie-aussi-connaît-sa-crise-du-carburant/ar-AA2deWmb",
       "published_at": "2026-09-30T00:32:37+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "\"Opération Korag : le terroriste de Lashkar 'Hashim Moosa' lors d'une rencontre à Badgam, des magasins de guerre récupérés\" . Les forces de sécurité ont également récupéré des magasins de guerre lors d'une opération de recherche dans la zone générale de Palmaidan, dans le district. L'armée et d'autres agences de sécurité ont lancé l'opération KORAG à Yousmarg…",
+      "sources": [
+        "Times Now — fiabilité 6/10"
+      ],
+      "url": "https://www.timesnownews.com/india/operation-korag-lashkar-terrorist-hashim-moosa-in-badgam-encounter-war-like-stores-recovered-article-156249870",
+      "published_at": "2026-09-30T00:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Des milliers de chrétiens visitent les colonies de Cisjordanie (Palestine) en soutien aux sanctions européennes et aux interdictions commerciales. \"Les lois adoptées en Europe interdisant l'achat de produits provenant des communautés juives de Judée et de Samarie sont de l'antisémitisme pur et simple\", a déclaré un leader chrétien norvégien.",
+      "sources": [
+        "The Jerusalem Post — fiabilité 6/10"
+      ],
+      "url": "https://www.jpost.com/christianworld/article-910146",
+      "published_at": "2026-09-30T00:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Palestine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement prolonge la validité de l’exemption FASTag pour les personnes handicapées. À partir du 2 octobre, les propriétaires de véhicules handicapés bénéficieront de périodes d'exemption FASTag prolongées pouvant aller jusqu'à cinq ans, réduisant ainsi le besoin de renouvellements annuels aux gares de péage des autoroutes nationales.",
+      "sources": [
+        "Mirror Now via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/health/disability/government-extends-fastag-exemption-validity-for-persons-with-disabilities/ar-AA2dfaHW",
+      "published_at": "2026-09-30T00:24:16+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Adani Group obtient le feu vert du gouvernement d’Odisha (Inde) pour la création d’un parc de centres de données de Rs 1,04 billion. Adani Group est sur le point d'étendre sa présence dans l'industrie indienne des centres de données après que High Density Data Center Limited, une filiale d'Adani Infra (India) Limited, ait reçu l'approbation de l'Odisha …",
+      "sources": [
+        "tele — fiabilité 6/10"
+      ],
+      "url": "https://tele.net.in/national-news/adani-group-gets-odisha-governments-nod-for-setting-up-rs-104-trillion-data-centre-park-12592528",
+      "published_at": "2026-09-30T00:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'organisme australien Metrics gèle certains rachats de fonds en signe de tensions sur le marché du crédit privé. Metrics Credit Partners, l'une des plus grandes sociétés de crédit privées d'Australie, a déclaré avoir gelé les rachats d'investisseurs de certains fonds et retardé la publication des résultats financiers…",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/real-estate/articles/australias-metrics-freezes-fund-redemptions-053835836.html",
+      "published_at": "2026-09-30T00:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Dernière guerre en Ukraine : le président Vladimir Poutine (Russie) va injecter 150 milliards de livres sterling dans l’effort de guerre.",
+      "sources": [
+        "The Independent via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/ukraine-war-latest-six-dead-after-russian-bomber-crash/ar-AA2daxQB",
+      "published_at": "2026-09-30T00:46:10+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La RDC veut renforcer son arsenal juridique contre la corruption. Le gouvernement congolais veut adapter le dispositif anticorruption à l’évolution de la criminalité financière. Le projet de loi déclaré recevable …",
+      "sources": [
+        "Agence Ecofin — fiabilité 6/10"
+      ],
+      "url": "https://www.agenceecofin.com/actualites/3009-142001-la-rdc-veut-renforcer-son-arsenal-juridique-contre-la-corruption",
+      "published_at": "2026-09-30T00:48:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
