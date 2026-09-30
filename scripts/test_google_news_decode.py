@@ -33,6 +33,7 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         news.ARTICLE_DETAIL_CACHE.clear()
         news.DISCOVERY_STATS.clear()
         news.GOOGLE_NEWS_DECODE_USED=0
+        news.GOOGLE_BING_FALLBACK_USED=0
         news.ARTICLE_DETAIL_USED=0
         news.EXISTING_DETAIL_USED=0
 
@@ -104,6 +105,17 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         google={"title":"Government announces new sanctions after border conflict","source":"Reuters","date":day,"url":f"https://news.google.com/rss/articles/{article_id}?oc=5"}
         bing={"title":"Government announces new sanctions after border clashes","source":"www.reuters.com","date":day,"url":"https://www.reuters.com/world/europe/sanctions-border-conflict/"}
         self.assertEqual(news.matching_publisher_article_url(google,[bing]),bing["url"])
+
+    def test_unresolved_google_link_can_use_a_targeted_bing_publisher_result(self):
+        article_id=RECENT_ARTICLE_IDS[0]
+        day=news.datetime.now(news.UTC)
+        google={"title":"Government announces new sanctions after border conflict","source":"Reuters","date":day,"url":f"https://news.google.com/rss/articles/{article_id}?oc=5"}
+        bing={"title":"Government announces new sanctions after border clashes","source":"www.reuters.com","date":day,"url":"https://www.reuters.com/world/europe/sanctions-border-conflict/"}
+        with patch.object(news,"bing_rss_query",return_value=[bing]) as search:
+            self.assertEqual(news.resolve_google_news_with_bing(google),bing["url"])
+        self.assertIn('"Government announces new sanctions after border conflict"',search.call_args.args[0])
+        self.assertEqual(news.GOOGLE_NEWS_URL_CACHE[google["url"]],bing["url"])
+        self.assertEqual(news.DISCOVERY_STATS["google_bing_fallback_success"],1)
 
     def test_direct_bing_item_survives_per_title_limit(self):
         day=news.datetime.now(news.UTC)

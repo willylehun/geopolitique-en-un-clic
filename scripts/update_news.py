@@ -926,6 +926,7 @@ EXISTING_DETAIL_USED=0
 GOOGLE_NEWS_URL_CACHE={}
 GOOGLE_NEWS_RESOLVED={}
 GOOGLE_NEWS_DECODE_USED=0
+GOOGLE_BING_FALLBACK_USED=0
 
 def strip_html_text(raw):
     if not raw: return ""
@@ -1441,6 +1442,31 @@ def matching_publisher_article_url(article, candidates):
     best_urls={url for url,similarity in matches if similarity>=best-0.04}
     return next(iter(best_urls)) if len(best_urls)==1 else ""
 
+def resolve_google_news_with_bing(article):
+    """Cherche un lien éditeur Bing pour un titre Google News non résolu."""
+    global GOOGLE_BING_FALLBACK_USED
+    source_url=(article.get("url") or "").strip()
+    if not is_google_news_url(source_url) or BING_DISABLED:
+        return ""
+    budget=max(0,int(os.getenv("GOOGLE_BING_FALLBACK_BUDGET","12") or "12"))
+    if GOOGLE_BING_FALLBACK_USED>=budget:
+        DISCOVERY_STATS["google_bing_fallback_budget_epuise"]+=1
+        return ""
+    title=(article.get("title") or "").strip()
+    if not title: return ""
+    GOOGLE_BING_FALLBACK_USED+=1
+    DISCOVERY_STATS["google_bing_fallback_queries"]+=1
+    results=bing_rss_query('"'+title.replace('"',' ')+'"')
+    publisher_url=matching_publisher_article_url(article,results)
+    if not publisher_url:
+        DISCOVERY_STATS["google_bing_fallback_no_match"]+=1
+        return ""
+    GOOGLE_NEWS_URL_CACHE[source_url]=publisher_url
+    GOOGLE_NEWS_RESOLVED[source_url]=publisher_url
+    DISCOVERY_STATS["google_bing_fallback_success"]+=1
+    DISCOVERY_STATS["google_decode_success"]+=1
+    return publisher_url
+
 def article_summary(art, meta=None, targeted=False, candidates=None):
     """Le titre découvre l'article ; le contenu décide, avec une réserve pour les pays ciblés."""
     title=(art.get("title") or "").strip()
@@ -1450,7 +1476,10 @@ def article_summary(art, meta=None, targeted=False, candidates=None):
         return None
     if is_google_news_url(url):
         DISCOVERY_STATS["google_cross_feed_match_attempts"]+=1
-        publisher_url=matching_publisher_article_url(art,candidates)
+        cross_feed_url=matching_publisher_article_url(art,candidates)
+        publisher_url=cross_feed_url
+        if not publisher_url:
+            publisher_url=resolve_google_news_with_bing(art)
         if publisher_url:
             GOOGLE_NEWS_URL_CACHE[url]=publisher_url
             GOOGLE_NEWS_RESOLVED[url]=publisher_url
@@ -1459,8 +1488,9 @@ def article_summary(art, meta=None, targeted=False, candidates=None):
             if meta is not None:
                 meta=dict(meta)
                 meta["url"]=publisher_url
-            DISCOVERY_STATS["google_decode_cross_feed_fallback"]+=1
-            DISCOVERY_STATS["google_decode_success"]+=1
+            if cross_feed_url:
+                DISCOVERY_STATS["google_decode_cross_feed_fallback"]+=1
+                DISCOVERY_STATS["google_decode_success"]+=1
         else:
             DISCOVERY_STATS["google_cross_feed_no_match"]+=1
     reason=title_rejection_reason(title)
