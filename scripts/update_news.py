@@ -1132,19 +1132,29 @@ def decode_google_news_direct_id(art_id):
         print("GOOGLE NEWS DIRECT",art_id,exc,file=sys.stderr)
     return ""
 
+GOOGLE_NEWS_REQUEST_HEADERS={
+    "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language":"en-US,en;q=0.9",
+    "Cache-Control":"no-cache",
+    "Sec-Ch-Ua":'"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
+    "Sec-Ch-Ua-Mobile":"?0",
+    "Sec-Ch-Ua-Platform":'"Linux"',
+    "Sec-Fetch-Dest":"document",
+    "Sec-Fetch-Mode":"navigate",
+    "Sec-Fetch-Site":"none",
+    "Sec-Fetch-User":"?1",
+    "Upgrade-Insecure-Requests":"1",
+}
+
 def _request_google_page(url):
-    headers={
-        "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36",
-        "Accept":"text/html,application/xhtml+xml",
-        "Accept-Language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
-    }
     if httpx is not None:
         current=url
-        # Keep httpx's native User-Agent instead of claiming to be Chrome; its
-        # HTTP/2 transport and matching client fingerprint avoids the JS shell.
+        # A coherent browser navigation profile avoids the JS shell returned to
+        # a bare HTTP client and exposes the article decode parameters.
         with httpx.Client(http2=True,follow_redirects=False,timeout=10) as client:
             for _ in range(4):
-                response=client.get(current,follow_redirects=False)
+                response=client.get(current,follow_redirects=False,headers=GOOGLE_NEWS_REQUEST_HEADERS)
                 if response.status_code in (301,302,303,307,308):
                     destination=urllib.parse.urljoin(current,response.headers.get("location", ""))
                     if urllib.parse.urlparse(destination).hostname=="news.google.com":
@@ -1154,11 +1164,7 @@ def _request_google_page(url):
                 response.raise_for_status()
                 return str(response.url),response.content[:400000].decode("utf-8","replace")
         return current,""
-    req=urllib.request.Request(url,headers={
-        "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36",
-        "Accept":"text/html,application/xhtml+xml",
-        "Accept-Language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
-    })
+    req=urllib.request.Request(url,headers=GOOGLE_NEWS_REQUEST_HEADERS)
     class SameGoogleNewsRedirect(urllib.request.HTTPRedirectHandler):
         def redirect_request(self,request,response,code,message,headers,new_url):
             if urllib.parse.urlparse(new_url).hostname=="news.google.com":
@@ -1205,8 +1211,10 @@ def _post_google_article_decode(art_id, timestamp, signature):
     envelope=["Fbv4je",json.dumps(inner,separators=(",",":")),None,"0"]
     f_req=json.dumps([[envelope]],separators=(",",":"))
     headers={
-      "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36",
+      **GOOGLE_NEWS_REQUEST_HEADERS,
       "Content-Type":"application/x-www-form-urlencoded;charset=UTF-8",
+      "Accept":"*/*",
+      "Origin":"https://news.google.com",
       "Referer":"https://news.google.com/"
     }
     body="f.req="+urllib.parse.quote(f_req,safe="")
@@ -1215,7 +1223,7 @@ def _post_google_article_decode(art_id, timestamp, signature):
             response=client.post(
                 "https://news.google.com/_/DotsSplashUi/data/batchexecute",
                 content=body,
-                headers={k:v for k,v in headers.items() if k!="User-Agent"}
+                headers={**headers,"Sec-Fetch-Dest":"empty","Sec-Fetch-Mode":"cors","Sec-Fetch-Site":"same-origin"}
             )
             response.raise_for_status()
             return response.text
