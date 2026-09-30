@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:37:24.784185+02:00",
+  "generated_at": "2026-09-30T07:47:33.372667+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -34801,6 +34801,71 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMnVEeld6eXV0azl0bjdRMTJtbkhEcjZHeUVLbm02X2lLMXpYampmSjRJTkh6c01IUFNKOG1VR3d1NHptS29BajZ2LVZ1YnZpSFlneWNrXzd5S01HcDJLdkw0SFhXRHk0TnU1ajMyaUZ6b1Nxa19CM2F2dmtPa3NKNk4zdW9PMkkyREdaZEVWZ3pKa2tTZDYtS2NsRDFCTUMzMy1sNGNFQlN6cWtHNGZIWnl6Y2ttX3QxRUpLQ2dBZDZSVTExZmtvLQ?oc=5",
       "published_at": "2026-09-30T00:13:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Au Québec, au Canada, les séparatistes s’apprêtent à remporter les élections, nouveau casse-tête pour Carney et victoire pour le président Donald Trump (États-Unis). Dans la province canadienne du Québec, les séparatistes semblent prêts à remporter les élections de la semaine prochaine. Leur retour au pouvoir ne manquera pas de créer un nouveau casse-tête pour le Premier ministre Mark Carney, qui s'est engagé à conserver …",
+      "sources": [
+        "Firstpost — fiabilité 6/10"
+      ],
+      "url": "https://www.firstpost.com/world/in-canadas-quebec-separatists-set-to-win-election-in-fresh-headache-for-carney-victory-for-trump-14049327.html",
+      "published_at": "2026-09-30T00:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les prix du pétrole augmentent après que le président Donald Trump (États-Unis) ait déclaré qu'il n'avait « rien offert » à l'Iran : en direct. Guerre Iran-États-Unis en direct : les prix du pétrole augmentent après que Trump a déclaré qu'il n'avait « rien » proposé à Téhéran dans les pourparlers de paix - Trump a affirmé que les États-Unis gagneraient leur guerre en Iran « très bientôt » après de nouveaux pourparlers de paix à New York …",
+      "sources": [
+        "The Independent via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/iran-war-latest-tehran-says-us-will-inevitably-leave-this-region/ar-AA2da6ux",
+      "published_at": "2026-09-30T00:23:02+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Photos interdites à la pompe et chute des revenus liés au pétrole, la Russie aussi connaît sa crise du carburant. Entre frappes de drones ukrainiens sur les raffineries et production au plus bas depuis 2009, la crise énergétique s’invite dans le quotidien des Russes …",
+      "sources": [
+        "20 Minutes via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/photos-interdites-à-la-pompe-et-chute-des-revenus-liés-au-pétrole-la-russie-aussi-connaît-sa-crise-du-carburant/ar-AA2deWmb",
+      "published_at": "2026-09-30T00:32:37+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
