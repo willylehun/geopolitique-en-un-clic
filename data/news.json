@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:32:35.338292+02:00",
+  "generated_at": "2026-09-30T15:42:47.478692+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -32359,7 +32359,8 @@
       "url": "https://www.msn.com/fr-fr/finance/économie/hausse-des-prix-l-inflation-grimpe-à-3-sur-un-an-en-septembre-son-plus-haut-niveau-depuis-début-2024/ar-AA2dfjXB",
       "published_at": "2026-09-30T02:15:09+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -33837,22 +33838,25 @@
     },
     {
       "regions": [
-        "Asie"
+        "Asie",
+        "Amérique du Sud"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Le Japon ouvre son marché au bœuf argentin après 20 ans, a déclaré le ministre.",
+      "summary": "Le Japon ouvre son marché au bœuf argentin après 20 ans, a déclaré le ministre. L'Argentine et le Japon sont parvenus à un accord après des mesures sanitaires…",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "Reuters via MSN — fiabilité 9/10"
       ],
       "url": "https://www.reuters.com/world/asia-pacific/japan-opens-its-market-argentine-beef-after-20-years-minister-says-2026-09-30/",
-      "published_at": "2026-09-30T06:50:00+02:00",
+      "published_at": "2026-09-30T07:33:47+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Japon"
+        "Japon",
+        "Argentine"
       ]
     },
     {
@@ -34102,7 +34106,8 @@
     },
     {
       "regions": [
-        "International"
+        "International",
+        "Europe"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -34115,7 +34120,8 @@
       "url": "https://www.france24.com/fr/vidéo/20260930-premier-league-manchester-city-face-à-de-lourdes-sanctions",
       "published_at": "2026-09-30T07:22:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -34754,12 +34760,13 @@
       "bucket": "30 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Les États-Unis retirent leurs derniers soldats d’Irak – le vide du pouvoir menace. Bagdad/Washington (dpa) – Après le retrait de l'armée américaine, le gouvernement irakien doit assurer sa propre sécurité. Le prévu…",
+      "summary": "L’armée américaine au Moyen-Orient : les États-Unis retirent leurs derniers soldats d’Irak – menace de vide de pouvoir. Après le retrait de l’armée américaine, le gouvernement irakien doit assurer sa propre sécurité. Le désarmement prévu des milices puissantes a été reporté. L'un d'eux menace le gouvernement.",
       "sources": [
-        "berchtesgadener-anzeiger.de — fiabilité 6/10"
+        "berchtesgadener-anzeiger.de — fiabilité 6/10",
+        "volksstimme.de — fiabilité 6/10"
       ],
       "url": "https://www.berchtesgadener-anzeiger.de/startseite_artikel,-usa-ziehen-letzte-soldaten-aus-irak-ab-machtvakuum-droht-_arid,1019150.html",
-      "published_at": "2026-09-30T14:30:00+02:00",
+      "published_at": "2026-09-30T15:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -35113,6 +35120,265 @@
       "countries": [
         "Ukraine"
       ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "« La baisse du pouvoir d'achat touchera beaucoup plus de ménages » : la grande inquiétude des Français face à l'inflation. La hausse des prix a atteint 3 % en septembre sur un an, alimentée par la flambée des cours de l'énergie. Les ménages redoutent un impact durable sur leur situation financière à un moment où le projet …",
+      "sources": [
+        "Les Echos — fiabilité 6/10"
+      ],
+      "url": "https://www.lesechos.fr/economie-france/conjoncture/la-baisse-du-pouvoir-dachat-touchera-beaucoup-plus-de-menages-la-grande-inquietude-des-francais-face-a-linflation-2254270",
+      "published_at": "2026-09-30T08:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'inflation franchit le seuil des 3 % en France. En septembre, les prix à la consommation ont augmenté de 3 % sur un an, contre une hausse de 2,4 % en août, selon l'Insee. L'Institut note aussi de façon inattendue une baisse des dépenses de consomma …",
+      "sources": [
+        "Les Echos — fiabilité 6/10"
+      ],
+      "url": "https://www.lesechos.fr/economie-france/conjoncture/la-flambee-des-prix-de-lenergie-fait-monter-linflation-dun-nouveau-cran-en-france-2254224",
+      "published_at": "2026-09-30T07:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Pendjab est aux prises avec un grave problème de drogue en raison de la mauvaise gouvernance du gouvernement de l'Aapda : Amit Shah.",
+      "sources": [
+        "Press Trust of India via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/punjab-grappling-with-serious-drug-problem-due-to-poor-governance-of-aapda-govt-amit-shah/ar-AA2dftWf",
+      "published_at": "2026-09-30T08:20:40+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La startup d'intérieurs d'intérieur Gravity lève 15 millions de dollars sous la direction de 3one4 Capital et Info Edge Ventures. Gravity utilisera ce cycle de financement pour renforcer son infrastructure technologique, de distribution et de comptes clés, et soutenir l'expansion des catégories.",
+      "sources": [
+        "YourStory — fiabilité 6/10"
+      ],
+      "url": "https://yourstory.com/2026/09/home-interiors-startup-gravity-raises-15-million-led-by-3one4-capital-and-info-edge-ventures",
+      "published_at": "2026-09-30T08:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Roi et reine d'Espagne avec le coup le président Emmanuel Macron (France). Trahi par un membre de sa famille, le prince Wiliam accuse le coup… et cette fois-ci, Harry n’y est pour rien ! Le président Donald Trump (États-Unis) admet finalement que ces deux affirmations sur la guerre en Iran étaient …",
+      "sources": [
+        "Dailymotion via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/roi-et-reine-d-espagne-avec-le-couple-macron/vi-AA2dfiEE",
+      "published_at": "2026-09-30T01:34:36+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne",
+        "France",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Ripple apporte les enregistrements des fonds brésiliens au XRP Ledger lors du déploiement du marché réglementé en direct. Ripple et CSD BR ont placé les enregistrements des fonds BTG Pactual sur XRP Ledger, introduisant ainsi la blockchain dans l'infrastructure du marché réglementé du Brésil.",
+      "sources": [
+        "bitcoinfoundation — fiabilité 6/10"
+      ],
+      "url": "https://bitcoinfoundation.org/news/companies/ripple-brings-brazilian-fund-records-to-xrp-ledger-in-live-regulated-market-rollout/",
+      "published_at": "2026-09-30T02:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Ce sont les meilleures compagnies aériennes au monde pour voyager en classe affaires, classées par passagers. Consultez la liste complète. Ces 20 compagnies aériennes sont les meilleures du secteur. En classe affaires, bien sûr. Skytrax, une société de notation aéronautique, a mené la plus grande enquête de satisfaction des passagers aériens au monde pour …",
+      "sources": [
+        "AOL — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.com/articles/worlds-best-airlines-flying-business-113201000.html",
+      "published_at": "2026-09-30T06:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les inondations en Thaïlande perturbent les usines et les capitaux sont toujours en danger, a déclaré le Premier ministre. BANGKOK, 30 septembre (Reuters) - Les inondations en Thaïlande ont provoqué la fermeture temporaire de quatre usines Toyota et la suspension des opérations de fret de la compagnie nationale Thai Airways, ont annoncé les compagnies le 30 septembre.",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/thai-floods-disrupt-factories-capital-still-at-risk-pm-says/ar-AA2dgeID",
+      "published_at": "2026-09-30T05:47:25+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Thaïlande"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Andy Burnham rouvre le débat risqué sur un retour du Royaume-Uni dans l'UE. Le Premier ministre travailliste Andy Burnham a relancé mercredi l'idée d'un retour du Royaume-Uni dans l'Union européenne parmi d'autres options possibles, une première pour un chef du …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/info-en-continu/20260930-andy-burnham-rouvre-le-débat-risqué-sur-un-retour-du-royaume-uni-dans-l-ue",
+      "published_at": "2026-09-30T08:12:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Niger"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "On craint cinq morts dans la bousculade du siège du gouvernement du Niger. Par Clare Nnabuike, Minna Au moins cinq jeunes auraient été tués mardi à la suite d'une bousculade au siège du gouvernement de l'État du Niger, à Minna, lors d'un rassemblement convoqué par le gouverneur Mohammed Umaru Bago à l'occasion d'une manifestation prévue pour le Jour de l'Indépendance. Vanguard a constaté que plus de 5 000 jeunes auraient envahi la Maison du Gouvernement pour la réunion lorsque […]",
+      "sources": [
+        "vanguardngr.com — fiabilité 6/10"
+      ],
+      "url": "https://www.vanguardngr.com/2026/09/five-feared-dead-in-niger-government-house-stampede/",
+      "published_at": "2026-09-30T15:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Congo - Kinshasa : Masisi, l épicentre des combats AFC / M23 - FARDC à cause de ses richesses. Depuis plusieurs mois, le territoire de Masisi, dans la province du Nord-Kivu, reste marqué par des affrontements entre les forces armées congolaises, leurs alliés Wazalendo et les rebelles de la coalition AFC/M23, selon plusieurs sources civiles et militaires. Les combats se poursuivent notamment autour de Ngungu, Rubaya, Nyabiondo et sur l'axe menant vers Pinga, malgré les appels au cessez-le-feu.",
+      "sources": [
+        "fr.allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://fr.allafrica.com/stories/202609300388.html",
+      "published_at": "2026-09-30T15:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Soudan"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Soudan : Agar senquiert des programmes de lAutorité nationale des femmes soudanaises. Le vice-président du Conseil Souverain de Transitoire, Malik Agar a réaffirmé le soutien indéfectible du gouvernement aux femmes soudanaises, afin de leur permettre de jouer pleinement le rôle national qui leur incombe.",
+      "sources": [
+        "fr.allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://fr.allafrica.com/stories/202609300233.html",
+      "published_at": "2026-09-30T15:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Air Liquide investit plus de 170 MEUR pour un fabricant de puces au Japon. Air Liquide fait part d'un nouvel investissement de plus de 170 MEUR pour fournir des gaz ultra-purs à l'un des principaux fabricants de semi-conducteurs au Japon, dans le cadre d'un accord à long ter …",
+      "sources": [
+        "Boursorama — fiabilité 6/10"
+      ],
+      "url": "https://www.boursorama.com/bourse/actualites/air-liquide-investit-plus-de-170-meur-pour-un-fabricant-de-puces-au-japon-59c5418eb0bc5c662ccba3d98dc61a89",
+      "published_at": "2026-09-30T08:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
