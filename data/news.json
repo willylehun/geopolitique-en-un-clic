@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:14:05.016613+02:00",
+  "generated_at": "2026-09-30T12:24:16.908632+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29289,12 +29289,12 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Les prix du pétrole augmentent après que le président Donald Trump (États-Unis) ait déclaré qu'il n'avait « rien offert » à l'Iran : en direct. Guerre Iran-États-Unis en direct : les prix du pétrole augmentent après que Trump a déclaré qu'il n'avait « rien » proposé à Téhéran dans les pourparlers de paix - Trump a affirmé que les États-Unis gagneraient leur guerre en Iran « très bientôt » après de nouveaux pourparlers de paix à New York …",
+      "summary": "L'Iran en direct : les prix du pétrole augmentent après que le président Donald Trump (États-Unis) ait déclaré qu'il n'avait « rien » proposé à l'Iran. Dernière guerre entre l'Iran et les États-Unis : les prix du pétrole augmentent après que Trump a déclaré qu'il n'avait « rien » proposé à Téhéran dans les pourparlers de paix - Les Gardiens de la révolution iraniens exhortent les électeurs américains à punir Trump lors des urnes à la mi-novembre.",
       "sources": [
         "The Independent via MSN — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-us/news/other/iran-war-latest-tehran-says-us-will-inevitably-leave-this-region/ar-AA2da6ux",
-      "published_at": "2026-09-30T00:46:12+02:00",
+      "published_at": "2026-09-30T05:19:56+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -31549,9 +31549,11 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le tribunal commercial américain doit examiner la contestation des tarifs douaniers imposés par Trump. Par Dietrich Knauth NEW YORK, 30 septembre (Reuters) - La Cour américaine du commerce international entendra mercredi une contestation des droits de douane imposés par le président Donald Trump (États-Unis) sur les marchandises provenant de 60 partenaires commerciaux qu'il accuse…",
+      "summary": "Le tribunal du commerce américain va évaluer la contestation des tarifs douaniers sur le travail forcé de Trump. NEW YORK, 30 septembre (Reuters) - La Cour américaine du commerce international entendra mercredi une contestation des droits de douane imposés par le président Donald Trump (États-Unis) sur les marchandises provenant de 60 partenaires commerciaux qu'il accuse de ne pas avoir respecté…",
       "sources": [
-        "Reuters via MSN — fiabilité 9/10"
+        "Reuters via MSN — fiabilité 9/10",
+        "U.S. News & World Report — fiabilité 6/10",
+        "Reuters — fiabilité 9/10"
       ],
       "url": "https://www.msn.com/en-us/money/companies/us-trade-court-to-weigh-challenge-to-trumps-forced-labor-tariffs/ar-AA2dggFs",
       "published_at": "2026-09-30T05:05:43+02:00",
@@ -31600,7 +31602,8 @@
       "url": "https://www.reuters.com/world/europe/italian-inflation-surges-above-4-headache-pm-meloni-2026-09-30/",
       "published_at": "2026-09-30T04:56:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -31728,6 +31731,130 @@
       ],
       "url": "https://www.msn.com/fr-fr/actualite/other/guerre-en-ukraine-le-ministre-ukrainien-de-la-défense-annule-sa-visite-en-allemagne/ar-AA2dgazk",
       "published_at": "2026-09-30T03:42:20+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le chef d’EDF exhorte le Royaume-Uni à exploiter le pétrole et le gaz de la mer du Nord à l’approche de la crise hivernale. Le directeur britannique du principal fournisseur d'énergie EDF a exhorté le gouvernement du pays à ouvrir la voie à une production nationale accrue de pétrole et de gaz, en prévision d'une crise énergétique hivernale imminente. La guerre en Iran a poussé…",
+      "sources": [
+        "Upstream Online — fiabilité 6/10"
+      ],
+      "url": "https://www.upstreamonline.com/politics/edf-chief-urges-uk-to-tap-north-sea-oil-and-gas-as-winter-squeeze-looms/2-1-2051560",
+      "published_at": "2026-09-30T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Italie: l’inflation bondit en septembre à +4,2% sur un an à cause du carburant. L’inflation a connu une nette accélération en septembre en Italie, à 4,2 % sur un an, principalement en raison de la hausse des prix des carburants, selon la première estimation publiée mercredi …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/300926/italie-l-inflation-bondit-en-septembre-42-sur-un-cause-du-carburant",
+      "published_at": "2026-09-30T04:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Italie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L'unité DFI Retail va reprendre les activités Starbucks de Maxim en Asie pour 340 millions de dollars. DFI Retail Group, coté à Singapour, a déclaré mercredi que son unité assumerait les intérêts existants des traiteurs de Maxim dans l'entreprise sous licence Starbucks, qui exploite un réseau de plus de 1 100 euros.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/retail-consumer/dfi-retail-unit-take-over-maxims-starbucks-business-asia-340-million-2026-09-30/",
+      "published_at": "2026-09-30T05:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Singapour"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Brunings : une législation contre la pollution plastique existe, mais son application échoue. Le Suriname dispose déjà de lois et de réglementations pour empêcher l'utilisation de plastiques à usage unique (SUP) et le déversement de déchets, mais selon le ministre Patrick Brunings du Pétrole, du Gaz et de l'Environnement, ces …",
+      "sources": [
+        "Suriname Herald — fiabilité 6/10"
+      ],
+      "url": "https://www.srherald.com/suriname/2026/09/30/brunings-wetgeving-tegen-plasticvervuiling-bestaat-maar-handhaving-faalt/",
+      "published_at": "2026-09-30T01:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Suriname"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Troisième location en trois mois dans le Northamptonshire, à côté de l'A45, alors qu'une société australienne sécurise sa première base au Royaume-Uni. L'investisseur et promoteur immobilier mondial Hillwood a loué l'unité Q10 de Quattro à Raunds à Industrial Decontamination Services d'Australie.",
+      "sources": [
+        "Northamptonshire Telegraph — fiabilité 6/10"
+      ],
+      "url": "https://www.northantstelegraph.co.uk/news/people/third-letting-in-three-months-at-northamptonshire-scheme-next-to-a45-as-australian-company-secures-first-uk-base-9232149",
+      "published_at": "2026-09-30T05:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "OpenAI s'excuse après que des agents d'IA soient entrés dans les systèmes du gouvernement australien. OpenAI déclare qu'elle renforcera les garanties après que des agents d'IA ont accédé aux systèmes du gouvernement australien et déclenché une enquête officielle.",
+      "sources": [
+        "Windows Report — fiabilité 6/10"
+      ],
+      "url": "https://windowsreport.com/openai-apologizes-after-ai-agents-enter-australian-government-systems/",
+      "published_at": "2026-09-30T05:04:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
