@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:12:25.209466+02:00",
+  "generated_at": "2026-09-30T21:22:37.996441+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29848,12 +29848,10 @@
     {
       "regions": [
         "Amérique du Nord",
-        "Asie",
         "International"
       ],
       "countries": [
-        "États-Unis",
-        "Iran"
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38672,7 +38670,6 @@
     {
       "regions": [
         "Océanie",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -39237,8 +39234,8 @@
         "Afrique"
       ],
       "countries": [
-        "Botswana",
         "Afrique du Sud",
+        "Botswana",
         "Zimbabwe"
       ],
       "period": "day",
@@ -39293,6 +39290,214 @@
       "url": "https://www.boursorama.com/bourse/actualites/les-dirigeants-du-secteur-petrolier-s-inquietent-du-manque-d-un-element-essentiel-a-l-expansion-du-venezuela-l-electricite-47603e745acafb329b9dd858abe6d253",
       "published_at": "2026-09-30T11:14:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L’inflation grimpe à 3% en France, au plus haut depuis début 2024. Les prix n’avaient plus augmenté à un tel rythme depuis plus de deux ans : selon les données provisoires de l’Insee publiées mercredi, l’inflation a atteint 3% sur un an en septembre, toujours …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/300926/l-inflation-grimpe-3-en-france-au-plus-haut-depuis-debut-2024",
+      "published_at": "2026-09-30T04:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"Un ancien économiste de la Fed 'dupé' par un espion chinois présumé\". Rogers, alors économiste principal à la Fed, a rencontré un homme se faisant appeler Hummin Lee lors d'une conférence en 2013 à Shanghai. Le gouvernement américain pense que le vrai nom de Lee est Jin Chuan. Selon CNBC, Rogers était un…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/us/articles/ex-fed-economist-duped-alleged-173148119.html",
+      "published_at": "2026-09-30T12:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre britannique affirme qu'il existe de « fortes indications » que l'Iran soit impliqué dans l'incident de la base aérienne de Fairford. Le Premier ministre britannique Andy Burnham a insisté mercredi sur le fait qu'il y avait de \"fortes indications\" selon lesquelles Téhéran était impliqué dimanche dans un incident de sécurité près d'une base aérienne en Angleterre que l'armée américaine avait impliquée.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/europe/20260930-british-pm-alleges-there-are-strong-indications-iran-was-involved-in-fairford-airbase-incident",
+      "published_at": "2026-09-30T02:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "GeoPark en pourparlers avec le Venezuela sur un diluant pour expédier du pétrole lourd. GeoPark Ltd., un producteur de pétrole soutenu par la famille la plus riche de Colombie, est en pourparlers avec la société énergétique nationale du Venezuela pour l’approvisionnement en un produit pétrolier léger utilisé pour fluidifier le brut lourd.",
+      "sources": [
+        "Bloomberg — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/geopark-in-talks-with-venezuela-over-thinner-to-ship-heavy-oil",
+      "published_at": "2026-09-30T13:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Colombie",
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Ubisoft adopte Massive Entertainment comme nom du groupe de studios dirigé par Christoph Hartmann. La société de jeux Ubisoft a choisi Massive Entertainment pour nommer ce qu'elle appelle « Creative House 2 », dirigé par le directeur général Christoph Hartmann.",
+      "sources": [
+        "Variety — fiabilité 6/10"
+      ],
+      "url": "https://variety.com/2026/gaming/news/ubisoft-massive-entertainment-christoph-hartmann-1236893830/",
+      "published_at": "2026-09-30T01:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Une société de drones sous-marins choisit Beauty Point pour sa première base en Asie-Pacifique.",
+      "sources": [
+        "Pulse Tasmania — fiabilité 6/10"
+      ],
+      "url": "https://pulsetasmania.com.au/news/underwater-drone-company-chooses-beauty-point-for-first-asia-pacific-base/",
+      "published_at": "2026-09-30T14:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Watchdog éviscère l'affirmation du président Donald Trump (États-Unis) selon laquelle Nemesis a bâclé un projet massif. L'inspecteur général de la Réserve fédérale a conclu mercredi que la rénovation du siège de la banque centrale, d'un coût de plusieurs milliards de dollars, ne violait pas la loi fédérale. Le projet avait été attaqué par…",
+      "sources": [
+        "Raw Story via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/watchdog-eviscerates-trump-s-claim-that-nemesis-botched-massive-project/ar-AA2dip0v",
+      "published_at": "2026-09-30T13:05:34+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Corée du Sud",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Le président Donald Trump (États-Unis) s'attendait à annoncer un investissement de 54 milliards de dollars en Corée du Sud dans Alaska LNG, selon des sources. Le projet Alaska LNG comprendrait un pipeline transportant du gaz naturel du versant nord jusqu'à une installation de liquéfaction sur la côte sud de l'État, permettant au carburant d'être expédié vers les marchés asiatiques.",
+      "sources": [
+        "parkrapidsenterprise.com — fiabilité 6/10"
+      ],
+      "url": "https://www.parkrapidsenterprise.com/news/national/trump-expected-to-announce-54-billion-south-korea-investment-in-alaska-lng-sources-say",
+      "published_at": "2026-09-30T21:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Vatican",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'envoyé du Vatican discute de questions humanitaires et rend visite à des prisonniers de guerre en Russie, selon le ministère des Affaires étrangères. L'envoyé pontifical, le cardinal Matteo Zuppi, a discuté des questions humanitaires liées à la guerre en Ukraine lors de ses entretiens avec des responsables russes et a rendu visite à des prisonniers de guerre ukrainiens, a déclaré mercredi le ministère russe des Affaires étrangères.",
+      "sources": [
+        "themoscowtimes.com — fiabilité 6/10"
+      ],
+      "url": "https://www.themoscowtimes.com/2026/09/30/vatican-envoy-discusses-humanitarian-issues-visits-pows-in-russia-foreign-ministry-says-a93833",
+      "published_at": "2026-09-30T21:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Kenya"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Kenya renforce la réglementation des médicaments pour renforcer la chaîne d'approvisionnement. Le Kenya renforce ses systèmes de réglementation des médicaments pour garantir que les produits médicaux entrant sur le marché sont sûrs, efficaces et de qualité garantie.",
+      "sources": [
+        "standardmedia.co.ke — fiabilité 6/10"
+      ],
+      "url": "https://www.standardmedia.co.ke/health/health-science/article/2001559093/kenya-steps-up-medicine-regulations-to-strengthen-supply-chain",
+      "published_at": "2026-09-30T21:00:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
