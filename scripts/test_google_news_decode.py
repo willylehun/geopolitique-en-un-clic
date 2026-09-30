@@ -38,6 +38,7 @@ class FakeHTTPXClient:
     options=[]
     requests=[]
     def __init__(self,**kwargs): self.options.append(kwargs)
+    def close(self): pass
     def __enter__(self): return self
     def __exit__(self,*_args): return False
     def get(self,*args,**kwargs): self.requests.append(("get",args,kwargs)); return FakeHTTPXResponse()
@@ -116,7 +117,8 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         self.assertEqual(final_url,"https://news.google.com/rss/articles/test")
         self.assertIn("article splash",body)
         self.assertEqual(rpc,"rpc response")
-        self.assertEqual(len(FakeHTTPXClient.options),2)
+        self.assertEqual(len(FakeHTTPXClient.options),1)
+        self.assertIs(news.GOOGLE_NEWS_HTTP_CLIENT.__class__,FakeHTTPXClient)
         self.assertTrue(all(options["http2"] for options in FakeHTTPXClient.options))
         get_headers=FakeHTTPXClient.requests[0][2]["headers"]
         post_headers=FakeHTTPXClient.requests[1][2]["headers"]
