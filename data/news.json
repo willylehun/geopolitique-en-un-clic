@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:25:55.380052+02:00",
+  "generated_at": "2026-09-30T13:36:10.566229+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -667,8 +667,8 @@
       ],
       "countries": [
         "Ouganda",
-        "Zambie",
-        "Ghana"
+        "Ghana",
+        "Zambie"
       ]
     },
     {
@@ -869,10 +869,10 @@
       ],
       "countries": [
         "Ouganda",
-        "Zambie",
         "Ghana",
         "Kenya",
-        "Nigeria"
+        "Nigeria",
+        "Zambie"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
@@ -32798,10 +32798,11 @@
       "category": "Géopolitique",
       "summary": "L'Iran indique avoir reçu une réponse officielle des États-Unis à sa dernière offre de mettre fin à la guerre. Des responsables iraniens ont indiqué mercredi avoir reçu une réponse officielle des États-Unis à la dernière proposition de Téhéran visant à mettre fin à la guerre de sept mois, que le président Donald Trump (États-Unis) avait publiquement rejetée il y a peu.",
       "sources": [
-        "WRAL — fiabilité 6/10"
+        "WRAL — fiabilité 6/10",
+        "Hartford Courant — fiabilité 6/10"
       ],
       "url": "https://www.wral.com/news/ap/2c42d-iran-indicates-its-received-an-official-us-response-to-its-latest-offer-on-ending-the-war/",
-      "published_at": "2026-09-30T06:03:00+02:00",
+      "published_at": "2026-09-30T06:20:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -33007,6 +33008,193 @@
       "url": "https://ch.zonebourse.com/actualite-bourse/la-zambie-entame-des-discussions-avec-une-mission-du-fonds-monetaire-international-sur-un-nouveau-pr-ce785ad2dd81f620",
       "published_at": "2026-09-30T04:32:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le conseil d'administration de la CPI regrette le retrait de Nauru. L'organe directeur de la Cour pénale internationale a exprimé mercredi ses regrets concernant le retrait annoncé de Nauru, intervenu alors que les États-Unis intensifient leurs pressions sur les pays pour qu'ils quittent le …",
+      "sources": [
+        "The Manila Times — fiabilité 6/10"
+      ],
+      "url": "https://www.manilatimes.net/2026/09/30/world/icc-board-regrets-nauru-withdrawal/2435951",
+      "published_at": "2026-09-30T06:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Nauru",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Inde n'a pas encore décidé d'abandonner les inspections avant expédition des importations de ferraille. L'Inde n'a pas encore décidé d'abandonner ou non les règles d'importation de ferraille basées sur une certification à l'étranger, conformément à la demande d'un groupe de recycleurs qui soutient « l'inspection nationale dans les ports indiens…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/india/india-has-yet-decide-dropping-pre-shipment-inspections-scrap-metal-imports-2026-09-30/",
+      "published_at": "2026-09-30T06:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La SAT gèle des milliers de comptes en octobre 2026 auprès de BBVA, Banamex, Banco Azteca, Santander et d'autres banques. Le Service de l'administration fiscale (SAT) a annoncé le gel de milliers de comptes bancaires de toutes les banques opérant au Mexique en octobre 2026, y compris BBVA, Ba…",
+      "sources": [
+        "Ámbito Financiero — fiabilité 6/10"
+      ],
+      "url": "https://www.ambito.com/mexico/economia/el-sat-congela-miles-cuentas-octubre-2026-bbva-banamex-banco-azteca-santander-y-mas-bancos-n6328299",
+      "published_at": "2026-09-30T06:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Mexique"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les acteurs du marché d'aujourd'hui : Focus sur les actions de Boeing, GameStop, Robinhood et Micron. Les actions de Boeing (BA) ont augmenté de 3 % après avoir remporté un contrat d'avions de combat de la Marine de 20 milliards de dollars, tandis que les actions de Northrop Grumman ont chuté en raison de la perte.",
+      "sources": [
+        "CoinCentral — fiabilité 6/10"
+      ],
+      "url": "https://coincentral.com/todays-market-movers-boeing-gamestop-robinhood-and-micron-stocks-in-focus/",
+      "published_at": "2026-09-30T06:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Inflation : Les prix à la consommation ont augmenté de 3 % en France depuis un an. Selon l’étude provisoire d’indice des prix de l’Insee, l’inflation s'accélère nettement en ce mois de septembre, les prix à la consommation ayant progressé de 3,0 % sur un an",
+      "sources": [
+        "20minutes.fr — fiabilité 6/10"
+      ],
+      "url": "https://www.20minutes.fr/economie/4250010-20260930-inflation-prix-consommation-augmente-3-france-depuis-an",
+      "published_at": "2026-09-30T13:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Allemagne",
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le nouvel ordre mondial à l’ère le président Donald Trump (États-Unis) : l’Allemagne n’a pas ce que le Canada possède déjà. L’Allemagne et le Canada cherchent leur place dans un monde basé sur l’ordre américain. Le Premier ministre Mark Carney est bien plus avancé à cet égard – ce que le chancelier Friedrich Merz (Allemagne) devrait apprendre de lui.",
+      "sources": [
+        "tagesspiegel.de — fiabilité 6/10"
+      ],
+      "url": "https://www.tagesspiegel.de/internationales/die-neue-weltordnung-in-der-trump-ara-deutschland-fehlt-was-kanada-schon-hat-16093397.html",
+      "published_at": "2026-09-30T13:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Quand Lagos envisage de saboter la politique fédérale sur les salaires des professeurs – THISDAYLIVE. Lorsque le président Bola Tinubu a pris ses fonctions le 29 mai 2023, il n’a pas perdu de temps pour lancer son programme d’espoir renouvelé. Immédiatement, dès le premier jour, il a lancé son programme de réformes en commençant par la suppression des subventions pétrolières, puis par la réforme de l’économie, de la politique monétaire, de la sécurité et plus tard, de l’éducation.",
+      "sources": [
+        "thisdaylive.com — fiabilité 6/10"
+      ],
+      "url": "https://www.thisdaylive.com/2026/09/30/when-lagos-plans-to-sabotage-federal-policy-on-lecturers-salaries/",
+      "published_at": "2026-09-30T13:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Cinquième hiver de guerre : le chancelier Friedrich Merz (Allemagne) promet son aide à l'Ukraine. Guerre d'Ukraine au cinquième hiver : Merz promet de l'aide, le président Vladimir Poutine (Russie) arme. Ce que dit la chancelière sur la situation et ce que cela signifie pour l’Ukraine.",
+      "sources": [
+        "merkur.de — fiabilité 6/10"
+      ],
+      "url": "http://www.merkur.de/politik/fuenfter-kriegswinter-merz-verspricht-ukraine-hilfe-zr-94517772.html",
+      "published_at": "2026-09-30T13:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Guerre en Ukraine, missiles et drones sur la région de Kiev : un enfant et une femme tués. Le corps d'un enfant a été retrouvé dans les décombres de sa maison, touchée dans la nuit par une attaque de missile et de drone, dans le… Lire la suite",
+      "sources": [
+        "odnako.org — fiabilité 6/10"
+      ],
+      "url": "https://www.odnako.org/war-in-ukraine-missiles-and-drones-over-the-kiev-region-a-child-and-a-woman-killed/",
+      "published_at": "2026-09-30T13:15:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
