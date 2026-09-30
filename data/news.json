@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T23:46:27.871354+02:00",
+  "generated_at": "2026-09-30T23:56:43.383567+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -974,8 +974,8 @@
         "Asie"
       ],
       "countries": [
-        "Libye",
         "Algérie",
+        "Libye",
         "Mali",
         "Soudan",
         "Émirats arabes unis"
@@ -36652,6 +36652,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -38524,7 +38525,7 @@
       "bucket": "30 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "En Turquie, l’un des derniers médias indépendants contraint de cesser ses activités. Média de centre gauche critique du gouvernement islamo-nationaliste du président Recep Tayyip Erdogan, « T24 » a reçu l’ordre de fermer son site, pour 118 contenus jugés comme relevant de la propagand …",
+      "summary": "« T24 », l’un des derniers médias indépendants de Turquie, contraint de fermer par les autorités. Média de centre gauche critique du gouvernement islamo-nationaliste du président Recep Tayyip Erdogan, « T24 » a reçu l’ordre de fermer son site, pour 118 contenus jugés comme relevant de la propagand …",
       "sources": [
         "Le Monde — fiabilité 8/10"
       ],
@@ -40050,14 +40051,15 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "L’Ukraine va présenter une « liste de souhaits » pour de nouvelles sanctions contre la Russie dans le cadre de la loi Graham. L'Ukraine présentera cette semaine à l'administration du président Donald Trump (États-Unis) et au Congrès une liste de souhaits d'entreprises, de navires et d'individus russes qu'elle aimerait voir frappés de sanctions américaines en vertu d'une nouvelle loi signée …",
+      "summary": "L'Ukraine va proposer une liste de souhaits pour de nouvelles sanctions contre la Russie en vertu de la loi Graham. L'Ukraine présentera cette semaine à l'administration Trump et au Congrès une liste de souhaits d'entreprises, de navires et d'individus russes qu'elle aimerait voir frappés de sanctions américaines en vertu d'une nouvelle loi signée par le président Donald Trump (États-Unis) ce mois-ci.",
       "sources": [
         "The Hamilton Spectator — fiabilité 6/10",
         "New York Daily News — fiabilité 6/10",
-        "Orlando Sentinel — fiabilité 6/10"
+        "Orlando Sentinel — fiabilité 6/10",
+        "wdbo.com — fiabilité 6/10"
       ],
       "url": "https://www.thespec.com/news/world/united-states/ukraine-to-present-wish-list-for-new-russia-sanctions-under-graham-law/article_4ca1945f-b175-5c49-b4fe-f7d3d31f58ad.html",
-      "published_at": "2026-09-30T15:46:00+02:00",
+      "published_at": "2026-09-30T23:30:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -40951,7 +40953,8 @@
       "url": "https://www.msn.com/fr-fr/actualite/news/sanctions-de-l-ue-contre-xenia-fedorova-régis-le-sommier-dénonce-un-acharnement/vi-AA2dhQ19",
       "published_at": "2026-09-30T14:38:14+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -41201,14 +41204,16 @@
       "bucket": "30 septembre 2026",
       "score": 7,
       "category": "Énergie",
-      "summary": "Constellation et Amazon signent un accord énergétique de 20 ans pour soutenir la centrale nucléaire du Maryland. Constellation Energy et Amazon. Com ont annoncé mercredi un accord d'achat d'électricité d'une durée de 20 ans qui soutiendra l'expansion de la centrale nucléaire de Calvert Cliffs dans le Maryland.",
+      "summary": "Constellation et Amazon signent un accord énergétique de 20 ans pour soutenir la centrale nucléaire du Maryland. Constellation Energy et Amazon. Com ont annoncé mercredi un accord d'achat d'électricité d'une durée de 20 ans qui soutiendra l'expansion de la centrale nucléaire de Calvert Cliffs dans le Maryland. La demande d'énergie nucléaire…",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "CNA — fiabilité 7/10"
       ],
       "url": "https://www.reuters.com/business/energy/constellation-amazon-sign-20-year-power-deal-support-maryland-nuclear-plant-2026-09-30/",
-      "published_at": "2026-09-30T16:20:00+02:00",
+      "published_at": "2026-09-30T16:57:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -41270,6 +41275,256 @@
       ],
       "url": "https://www.msn.com/fr-ch/actualite/other/le-cartel-de-sinaloa-fabrique-de-la-méthamphétamine-en-afrique-australe-pour-viser-l-australie/ar-AA2dhzuk",
       "published_at": "2026-09-30T10:55:45+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Royaume-Uni affirme qu'il existe de fortes indications que l'Iran a joué un rôle dans un incident de sécurité survenu sur une base aérienne gérée par les États-Unis. Le Premier ministre britannique Andy Burnham a de \"fortes indications\" selon lesquelles l'Iran a joué un rôle dans l'incident qui a vu cinq hommes arrêtés près d'une base aérienne militaire américaine en Angleterre tard dans la nuit.",
+      "sources": [
+        "The Sydney Morning Herald — fiabilité 8/10"
+      ],
+      "url": "https://www.smh.com.au/world/europe/uk-says-there-are-strong-indications-iran-played-a-part-in-a-security-incident-at-a-us-run-air-base-20261001-p611x8.html",
+      "published_at": "2026-09-30T12:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "\"le président Donald Trump (États-Unis) détourne l'événement\" Hispanic Heritage \"pour vanter la salle de bal, la guerre en Irak et … le quart des géants Jaxson Dart\". ANALYSE : En cours de route, il a fait de fausses déclarations sur son soutien parmi les Latinos, le résultat des élections de 2020, puis a couronné le tout en proférant un stéréotype racial sur les Hispaniques, écrit John…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-hijacks-hispanic-heritage-event-212723649.html",
+      "published_at": "2026-09-30T16:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Énergie",
+      "summary": "Constellation Energy et Amazon signent un accord à long terme pour agrandir la centrale nucléaire du Maryland. Constellation Energy (CEG) et Amazon (AMZN) ont conclu un accord à long terme pour soutenir l'investissement et l'expansion du Calvert Cliffs Clean Energy Center dans le Maryland, le c …",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/energy/articles/constellation-energy-amazon-sign-long-203019838.html",
+      "published_at": "2026-09-30T06:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L'Ukraine va présenter une liste de souhaits pour de nouvelles sanctions contre la Russie dans le cadre de la loi Graham. L’Ukraine souhaiterait également voir des mesures plus strictes contre les navires soupçonnés de faire partie de la flotte fantôme russe.",
+      "sources": [
+        "reporterherald.com — fiabilité 6/10"
+      ],
+      "url": "https://www.reporterherald.com/2026/09/30/ukraine-russia/",
+      "published_at": "2026-09-30T23:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Arabie saoudite"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L'Arabie saoudite ne fera pas de compromis sur la sécurité alors que les Houthis choisissent le chaos : MBS - Dominicaine Republic Post – Caribbean News, Business, Travel & Culture. Le prince héritier d’Arabie saoudite Mohammed ben Salmane (MBS) a promis de ne pas faire de compromis sur la sécurité du royaume face aux attaques du groupe armé Houthi, affirmant que les rebelles yéménites ont choisi « le chaos et la destruction, menaçant le peuple yéménite et la région ».",
+      "sources": [
+        "dominicanrepublicpost.com — fiabilité 6/10"
+      ],
+      "url": "https://dominicanrepublicpost.com/saudi-arabia-not-to-compromise-on-security-as-houthis-choose-chaos-mbs/",
+      "published_at": "2026-09-30T23:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Russie met en garde l'OTAN contre une éventuelle réponse nucléaire si Kaliningrad est coupée - Dominicaine Republic Post – Caribbean News, Business, Travel & Culture. La Russie a averti l'OTAN qu'elle était prête à utiliser tout son arsenal, y compris les armes nucléaires, si l'alliance occidentale tentait de couper l'enclave baltique de Kaliningrad, selon un document diplomatique envoyé aux États membres. La note diplomatique envoyée mercredi affirme que Moscou dispose « d’informations selon lesquelles l’OTAN prépare un blocus aérien et naval de Kaliningrad ».",
+      "sources": [
+        "dominicanrepublicpost.com — fiabilité 6/10"
+      ],
+      "url": "https://dominicanrepublicpost.com/russia-warns-nato-of-possible-nuclear-response-if-kaliningrad-is-cut-off/",
+      "published_at": "2026-09-30T23:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "République dominicaine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Caso Julián Oro Duro : Familiares de Zeneida piden investigar posibilidad de un quinto sospechoso - Dominican Republic Post – Caribbean News, Business, Travel & Culture. Tras la imposición de 18 meses de prisión preventiva a cuatro implicados en caso Julián Oro Duro, los familiares de Zeneida Socorro Castillo, esposa del",
+      "sources": [
+        "dominicanrepublicpost.com — fiabilité 6/10"
+      ],
+      "url": "https://dominicanrepublicpost.com/caso-julian-oro-duro-familiares-de-zeneida-piden-investigar-posibilidad-de-un-quinto-sospechoso/",
+      "published_at": "2026-09-30T23:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La Russie bombarde l'Ukraine avec des missiles et des drones, tuant 7 personnes et ciblant le réseau électrique, dit Zelenskyy. La Russie a intensifié ses attaques de missiles et de drones contre l’Ukraine, tuant sept personnes, dont un enfant. Les responsables affirment que Moscou cible principalement le réseau électrique du pays.",
+      "sources": [
+        "wxow.com — fiabilité 6/10"
+      ],
+      "url": "https://www.wxow.com/news/russia-pounds-ukraine-with-missiles-and-drones-killing-7-and-targeting-power-grid-zelenskyy-says/article_40f7cc85-00ca-5589-bb18-bbfc9fab5035.html",
+      "published_at": "2026-09-30T23:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Rwanda",
+        "Kenya"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le transit du carburant rwandais via le Kenya devrait augmenter. Le Kenya et le Rwanda ont signé un accord en juin pour établir une nouvelle route d'approvisionnement en pétrole et faciliter un transport plus efficace du carburant vers le Rwanda.",
+      "sources": [
+        "standardmedia.co.ke — fiabilité 6/10"
+      ],
+      "url": "https://www.standardmedia.co.ke/business/business/article/2001559087/rwanda-fuel-transit-through-kenya-set-to-rise",
+      "published_at": "2026-09-30T23:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Turquie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Turquie: la justice bloque l’un des principaux médias en ligne du pays pour «propagande LGBT». En Turquie, les autorités poursuivent leurs opérations anti-LGBT+. Après l’arrestation de dizaines de militants mi-septembre et la fermeture de nombreux comptes sur les réseaux sociaux ces …",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/fr/moyen-orient/20260930-turquie-la-justice-bloque-l-un-des-principaux-médias-en-ligne-du-pays-pour-propagande-lgbt",
+      "published_at": "2026-09-30T14:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Turquie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Turquie : le gouvernement ferme l’un des plus importants sites d'information en ligne pour «propagande LGBT». Le site T 24, l’un des plus lus dans le pays, dénonce «une attaque contre l’activité journalistique elle-même».",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/flash-actu/turquie-le-gouvernement-ferme-l-un-des-plus-importants-sites-d-information-en-ligne-pour-propagande-lgbt-20260930",
+      "published_at": "2026-09-30T12:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Turquie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Turquie : les autorités ferment le site d’information en ligne T24 pour « propagande LGBT ». Depuis le début du mois de septembre le gouvernement turc mène une vaste campagne de répression contre la communauté LGBT.",
+      "sources": [
+        "Le Parisien — fiabilité 6/10"
+      ],
+      "url": "https://www.leparisien.fr/international/turquie-les-autorites-ferment-le-site-dinformation-en-ligne-t24-pour-propagande-lgbt-30-09-2026-S23E2HB63JE3PF4GMKFRD3VV74.php",
+      "published_at": "2026-09-30T13:51:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
