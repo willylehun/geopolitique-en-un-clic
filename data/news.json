@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:02:07.265244+02:00",
+  "generated_at": "2026-09-30T21:12:25.209466+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29848,10 +29848,12 @@
     {
       "regions": [
         "Amérique du Nord",
+        "Asie",
         "International"
       ],
       "countries": [
-        "États-Unis"
+        "États-Unis",
+        "Iran"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -29862,7 +29864,7 @@
         "CBS News — fiabilité 7/10"
       ],
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/",
-      "published_at": "2026-09-30T07:06:00+02:00",
+      "published_at": "2026-09-30T13:40:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -31553,15 +31555,16 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le tribunal du commerce américain va évaluer la contestation des tarifs douaniers sur le travail forcé de Trump. NEW YORK, 30 septembre (Reuters) - La Cour américaine du commerce international entendra mercredi une contestation des droits de douane imposés par le président Donald Trump (États-Unis) sur les marchandises provenant de 60 partenaires commerciaux qu'il accuse de ne pas avoir respecté…",
+      "summary": "U. S. Le tribunal examine la contestation des tarifs douaniers imposés par Trump. La Cour du commerce international des États-Unis a examiné mercredi les fondements juridiques et factuels des derniers droits de douane mondiaux imposés par le président Donald Trump (États-Unis), qui ont été imposés sur presque toutes les importations américaines, en raison d'allégations que les partenaires commerciaux n'en font pas assez pour mettre fin au travail forcé.",
       "sources": [
         "Reuters via MSN — fiabilité 9/10",
         "U.S. News & World Report — fiabilité 6/10",
         "Reuters — fiabilité 9/10",
-        "KFGO — fiabilité 6/10"
+        "KFGO — fiabilité 6/10",
+        "cp24.com — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-us/money/companies/us-trade-court-to-weigh-challenge-to-trumps-forced-labor-tariffs/ar-AA2dggFs",
-      "published_at": "2026-09-30T05:05:43+02:00",
+      "published_at": "2026-09-30T20:45:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -33509,7 +33512,7 @@
         "AOL — fiabilité 6/10"
       ],
       "url": "https://www.aol.com/articles/flydubai-flight-treated-terrorism-israel-090035000.html",
-      "published_at": "2026-09-30T04:01:00+02:00",
+      "published_at": "2026-09-30T06:53:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -36649,6 +36652,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -37722,10 +37726,11 @@
       "sources": [
         "northkoreatimes.com — fiabilité 6/10",
         "newzealandstar.com — fiabilité 6/10",
-        "neworleanssun.com — fiabilité 6/10"
+        "neworleanssun.com — fiabilité 6/10",
+        "sierraleonetimes.com — fiabilité 6/10"
       ],
       "url": "http://www.northkoreatimes.com/news/279343449/uk-pm-says-strong-indications-iran-linked-to-airbase-incident",
-      "published_at": "2026-09-30T20:30:00+02:00",
+      "published_at": "2026-09-30T20:45:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -38245,7 +38250,6 @@
     {
       "regions": [
         "Océanie",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -38912,8 +38916,8 @@
         "International"
       ],
       "countries": [
-        "Lituanie",
         "Allemagne",
+        "Lituanie",
         "Ukraine"
       ],
       "period": "day",
@@ -38970,6 +38974,325 @@
       "url": "https://www.lapresse.tn/2026/09/30/kiosque-international-29/",
       "published_at": "2026-09-30T20:30:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le juge remet en question le secret entourant le mémo de l’administration du président Donald Trump (États-Unis) sur les grèves de bateaux. Le juge a également ordonné au ministère de la Justice de montrer en privé au tribunal le document contesté, qui bénit les meurtres contestés en mer.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/09/30/us/politics/judge-trump-memo-boat-strikes.html",
+      "published_at": "2026-09-30T13:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Dans la tourmente, Jordan Bardella reçoit un soutien inattendu depuis Israël. Un ministre du gouvernement du Premier ministre Benjamin Netanyahu (Israël) a pris la défense du président du RN, après les révélations de Mediapart sur des écrits antisémites.",
+      "sources": [
+        "Le HuffPost via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/dans-la-tourmente-jordan-bardella-reçoit-un-soutien-inattendu-depuis-israël/ar-AA2dfMJ9",
+      "published_at": "2026-09-30T01:01:50+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "\"J'ai tiré sur les commandes\" : un passager raconte au Premier ministre israélien comment il a aidé à arrêter l'attaquant. L'homme, qui a été accueilli par le Premier ministre à l'aéroport Ben Gourion, près de Tel-Aviv, a expliqué comment il avait contribué à clouer l'agresseur présumé au sol et à tirer les commandes de l'avion vers l'arrière pour l'arrêter…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/videos/c6rered722j5o",
+      "published_at": "2026-09-30T13:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La création s’en prend à son propre créateur : l’IA de Trump démystifie plusieurs de ses propres affirmations. Le président Donald Trump (États-Unis) a passé une grande partie de sa seconde présidence à placer l’intelligence artificielle au cœur de ses projets pour le gouvernement fédéral. Mardi a été l’une des mesures les plus importantes jamais prises par l’administration…",
+      "sources": [
+        "Dagens.com via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/news/the-creation-turns-on-its-own-creator-trump-s-own-ai-debunks-several-of-his-own-claims/ar-AA2ditTw",
+      "published_at": "2026-09-30T14:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les responsables de l’administration du président Donald Trump (États-Unis) seront-ils tenus responsables d’avoir défié une ordonnance du tribunal ? Les tribunaux sont encore en train de décider… L'ACLU a soutenu aujourd'hui que l'administration Trump doit être tenue responsable d'avoir défié les ordres d'un juge de ne pas envoyer 100 hommes vénézuéliens au CECOT.",
+      "sources": [
+        "American Civil Liberties Union — fiabilité 6/10"
+      ],
+      "url": "https://www.aclu.org/news/immigrants-rights/will-trump-administration-officials-be-held-accountable-for-defying-a-court-order-the-courts-are-still-deciding",
+      "published_at": "2026-09-30T12:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "CBS et Amazon Prime envisageaient d’entrer en guerre pour le successeur du TNF d’Al Michael – comme l’a identifié la cible n°1. Amazon Prime semble avoir identifié son remplaçant cible pour Al Michaels sur Thursday Night Football. Michaels a été une voix extrêmement reconnaissable du football de la NFL et d'autres sports…",
+      "sources": [
+        "Talksport — fiabilité 6/10"
+      ],
+      "url": "https://talksport.com/nfl/4613241/al-michaels-tnf-successor-ian-eagle-cbs-amazon-prime/",
+      "published_at": "2026-09-30T03:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Les appels des propriétaires en difficulté hypothécaire doublent à mesure que les taux d’intérêt et autres coûts s’accumulent. Un service victorien gratuit qui aide les propriétaires confrontés à des difficultés liées aux prêts hypothécaires a été contraint de fermer temporairement ses comptes, alors que les taux d’intérêt augmentent et que l’inflation se fait sentir.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+      ],
+      "url": "https://www.abc.net.au/news/2026-10-01/mortgage-stress-interest-rates-victoria/107212756",
+      "published_at": "2026-09-30T14:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Pourquoi le Premier ministre britannique Andy Burnham a désigné l'Iran comme le coupable probable du complot sur la base aérienne. Andy Burnham a déclaré qu'il y avait « de fortes indications selon lesquelles l'Iran a joué un rôle » dans l'incident de la RAF Fairford, où cinq hommes ont été arrêtés avant d'être libérés sous caution.",
+      "sources": [
+        "The Sydney Morning Herald via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/other/why-british-pm-andy-burnham-named-iran-as-likely-culprit-in-air-base-plot/ar-AA2di9MD",
+      "published_at": "2026-09-30T13:25:59+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Qui est responsable des agents d’IA « voyous » ? Les piratages d'entreprises privées et de dossiers du gouvernement australien ont fait passer cette question d'hypothétique à une question urgente aux enjeux élevés…",
+      "sources": [
+        "observer — fiabilité 6/10"
+      ],
+      "url": "https://observer.co.uk/news/technology/article/who-is-liable-for-rogue-ai-agents",
+      "published_at": "2026-09-30T06:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les marchés européens clôturent en faiblesse face à la hausse des prix du pétrole, selon l'U. S.- Incertitude concernant l’accord avec l’Iran. Les actions européennes ont chuté mercredi, pénalisées par la hausse des rendements obligataires et la hausse des prix du pétrole, dans un contexte d'incertitude persistante quant à la conclusion d'un accord entre l'Iran et les États-Unis pour mettre fin à leur conflit et ouvrir la voie à la réouverture du détroit d'Ormuz.",
+      "sources": [
+        "rttnews.com — fiabilité 6/10"
+      ],
+      "url": "https://www.rttnews.com/3695443/european-markets-close-weak-on-higher-oil-prices-u-s-iran-deal-uncertainty.aspx",
+      "published_at": "2026-09-30T20:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Une nouvelle étude montre qu’une politique de santé instable dissuade les investissements des plus grandes marques alimentaires du Royaume-Uni. L'étude, menée par le cabinet de conseil en gestion d'entreprise Argon & Co et la Fédération de l'alimentation et des boissons (FDF), a révélé qu'une plus grande certitude réglementaire",
+      "sources": [
+        "retailtimes.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://retailtimes.co.uk/new-research-shows-unstable-health-policy-deterring-investment-from-uks-biggest-food-brands/",
+      "published_at": "2026-09-30T20:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "\"La guerre commerciale incite une entreprise technologique d'Ottawa à ouvrir l'U\". S. Bureau | Journal des affaires d'Ottawa. Au moins une entreprise d'Ottawa s'implante aux États-Unis en réponse aux tarifs imprévisibles et aux défis économiques.",
+      "sources": [
+        "obj.ca — fiabilité 6/10"
+      ],
+      "url": "https://obj.ca/trade-war-prompts-ottawa-tech-company-us-office/",
+      "published_at": "2026-09-30T20:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Botswana"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Botswana condamné pour le massacre d'éléphants lors des célébrations de l'indépendance. Le gouvernement autorise la chasse aux éléphants et à des dizaines d'autres animaux sauvages à l'occasion des fêtes de l'indépendance.",
+      "sources": [
+        "bbc.com — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/cxm2qmpy57ggo",
+      "published_at": "2026-09-30T16:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Botswana",
+        "Afrique du Sud",
+        "Zimbabwe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Botswana se retire de la candidature commune à la CAN 2028 en raison du refus de la garantie financière – Channel Africa. Le Botswana s'est officiellement retiré de sa candidature conjointe avec l'Afrique du Sud (SA) et le Zimbabwe pour accueillir la Coupe d'Afrique des Nations (CAN) 2028 après que son gouvernement national a refusé de fournir la garantie financière nécessaire, invoquant des contraintes budgétaires pressantes et des priorités nationales concurrentes.",
+      "sources": [
+        "channelafrica.co.za — fiabilité 6/10"
+      ],
+      "url": "https://www.channelafrica.co.za/channelafrica/news/botswana-withdraws-from-joint-2028-afcon-bid-over-financial-guarantee-refusal/",
+      "published_at": "2026-09-30T20:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Botswana"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Botswana condamné pour le massacre de 23 éléphants lors des célébrations de l'indépendance. Une licence délivrée par le gouvernement autorise la chasse de 23 éléphants et autres animaux sauvages à des « fins gratuites ».",
+      "sources": [
+        "the-star.co.ke — fiabilité 6/10"
+      ],
+      "url": "https://www.the-star.co.ke/news/africa/2026-09-30-botswana-faces-backlash-over-23-elephant-killings",
+      "published_at": "2026-09-30T19:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les dirigeants du secteur pétrolier s'inquiètent du manque d'un élément essentiel à l'expansion du Venezuela : l'électricité. ((Traduction automatisée par Reuters à l'aide de l'apprentissage automatique et de l'IA générative, veuillez vous référer à l'avertissement suivant: https://bit. Ly/rtrsauto)) * Les experts doutent de …",
+      "sources": [
+        "Boursorama — fiabilité 6/10"
+      ],
+      "url": "https://www.boursorama.com/bourse/actualites/les-dirigeants-du-secteur-petrolier-s-inquietent-du-manque-d-un-element-essentiel-a-l-expansion-du-venezuela-l-electricite-47603e745acafb329b9dd858abe6d253",
+      "published_at": "2026-09-30T11:14:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
