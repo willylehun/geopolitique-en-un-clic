@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:44:48.553891+02:00",
+  "generated_at": "2026-09-30T22:55:02.929185+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30698,13 +30698,14 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "La Corée du Sud affirme que la révélation par Zelensky d'un transfert secret de prisonniers de guerre était probablement une tentative d'obtenir davantage de soutien. L'agence de renseignement sud-coréenne affirme que la récente révélation par le président Volodymyr Zelensky (Ukraine)y du transfert secret de deux prisonniers de guerre nord-coréens vers la Corée du Sud avait probablement pour but d'obtenir le soutien du public.",
+      "summary": "La révélation du transfert des prisonniers de guerre de Zelensky était probablement un jeu pour obtenir le soutien du public, affirment les services de renseignement sud-coréens. La révélation par le président Volodymyr Zelensky (Ukraine) d'un transfert soi-disant secret de deux prisonniers de guerre nord-coréens vers le Sud était probablement destinée à susciter un soutien public en faveur d'une plus grande aide, a déclaré hier l'agence de renseignement sud-coréenne.",
       "sources": [
         "The News International — fiabilité 6/10",
-        "ABC News — fiabilité 7/10"
+        "ABC News — fiabilité 7/10",
+        "morningstaronline.co.uk — fiabilité 6/10"
       ],
       "url": "https://www.thenews.com.pk/latest/1418179-south-korea-reveals-why-zelenskyy-disclosed-secret-pow-transfer",
-      "published_at": "2026-09-30T03:33:00+02:00",
+      "published_at": "2026-09-30T22:30:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -36650,7 +36651,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -38645,7 +38645,8 @@
         "Reuters — fiabilité 9/10",
         "KFGO — fiabilité 6/10",
         "AOL — fiabilité 6/10",
-        "The Kansas City Star — fiabilité 6/10"
+        "The Kansas City Star — fiabilité 6/10",
+        "Miami Herald — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/world/americas/brazil-us-set-up-working-group-discuss-potential-trade-agreement-2026-09-30/",
       "published_at": "2026-09-30T13:18:00+02:00",
@@ -40266,8 +40267,8 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Europe"
+        "Europe",
+        "Afrique"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -40282,8 +40283,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Namibie",
-        "Allemagne"
+        "Allemagne",
+        "Namibie"
       ]
     },
     {
@@ -40341,7 +40342,8 @@
       "url": "https://www.wsj.com/business/energy-oil/amazon-tries-to-boost-nuclear-power-in-maryland-after-scrapping-data-center-deal-d551385e",
       "published_at": "2026-09-30T15:00:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -40421,6 +40423,135 @@
       "url": "https://www.mediapart.fr/journal/fil-dactualites/300926/qui-veut-gouverner-la-suede-les-tractations-continuent",
       "published_at": "2026-09-30T18:57:19+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Un colon a filmé un Palestinien de 90 ans en train d'utiliser du gaz poivré lors d'un raid dans un village de Cisjordanie (Palestine) ; aucune arrestation n’a été signalée. Un colon israélien a été filmé en train d'appliquer du gaz poivré sur un Palestinien de 90 ans lors d'un raid sur le village d'al-Mughayyir, au centre de la Cisjordanie, plus tôt dans la journée. Le Jameel Al-Na'asan, qui détient les droits américains …",
+      "sources": [
+        "The Times of Israel — fiabilité 8/10"
+      ],
+      "url": "https://www.timesofisrael.com/liveblog_entry/settler-filmed-pepper-spraying-90-year-old-palestinian-during-raid-of-west-bank-village-no-arrests-reported/",
+      "published_at": "2026-09-30T15:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Palestine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le secrétaire à la Défense Pete Hegseth (États-Unis) qualifie les reportages critiques sur la guerre en Iran de « trahison ». Le secrétaire à la Défense, Pete Hegseth, prononce un discours sur « l'état de la force » devant un groupe de hauts dirigeants militaires de la base du Corps des Marines de Quantico, en Virginie, où, après s'être plaint de la diversité, il…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/pete-hegseth-calls-critical-reporting-195232521.html",
+      "published_at": "2026-09-30T14:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Un financement de 200 millions de dollars annoncé pour l'aluminerie Bell Bay. Les gouvernements fédéral et étatique affirment que l'avenir de l'aluminerie Bell Bay est assuré, grâce à la conclusion d'un accord d'électricité et à l'annonce d'un montage financier de 200 $.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/money/markets/200-million-funding-package-announced-for-bell-bay-aluminium-smelter/ar-AA2diB89",
+      "published_at": "2026-09-30T14:24:18+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Décideurs politiques : les retards dans le captage et le stockage du carbone pourraient coûter au Royaume-Uni 40 milliards de livres sterling par an. Le coût de la décarbonation du système énergétique britannique pourrait doubler si le gouvernement ne parvient pas à développer le captage et le stockage du carbone…",
+      "sources": [
+        "carbonbrief.org — fiabilité 6/10"
+      ],
+      "url": "https://www.carbonbrief.org/policymakers-carbon-capture-and-storage-delays-could-cost-the-uk-40-billion-per-year",
+      "published_at": "2026-09-30T22:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le MI5 émet une alerte d’espionnage aux universités britanniques concernant le vol de recherches par une société écran chinoise – The Frontier Post. Les services de renseignement chinois ont utilisé une société écran pour verser des subventions aux universités britanniques et voler des recherches cruciales sur des projets technologiques, a déclaré mercredi le MI5 Les services de renseignement chinois ont utilisé une société écran pour verser des subventions aux universités britanniques et voler des recherches cruciales sur des projets technologiques, a déclaré mercredi le MI5 dans un rare avertissement public d'espionnage…",
+      "sources": [
+        "thefrontierpost.com — fiabilité 6/10"
+      ],
+      "url": "https://thefrontierpost.com/mi5-issues-spy-alert-to-uk-universities-over-chinese-front-company-stealing-research/",
+      "published_at": "2026-09-30T22:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "Israël",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le chef de l’OTAN considère que la guerre américaine contre l’Iran est absolument essentielle. Le secrétaire général de l'OTAN, Mark Rutte, a déclaré qu'il était \"absolument essentiel que les États-Unis affrontent l'Iran\" dans une interview accordée mercredi au sommet d'Euronews sur la Défense et l'Espace. Seuls les États-Unis sont « capables de détruire la capacité nucléaire de l'Iran », a déclaré Rutte, décrivant le programme nucléaire du pays comme une menace potentielle à court terme « non seulement pour Israël et le Moyen-Orient », mais aussi pour l'Europe.",
+      "sources": [
+        "middleeasteye.net — fiabilité 6/10"
+      ],
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/nato-chief-calls-us-war-iran-absolutely-essential",
+      "published_at": "2026-09-30T22:30:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
