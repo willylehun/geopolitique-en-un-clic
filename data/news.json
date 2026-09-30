@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:20:29.548249+02:00",
+  "generated_at": "2026-09-30T20:31:23.261492+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -36445,8 +36445,8 @@
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Russie"
+        "Russie",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38457,7 +38457,8 @@
       "url": "https://www.msn.com/en-nz/weather/climate-change/shrinking-glaciers-vanishing-lakes-and-oil-fields-in-the-desert-10-places-transformed-by-satellite/vi-AA2dhIX5",
       "published_at": "2026-09-30T10:24:32+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -38539,6 +38540,149 @@
       "published_at": "2026-09-30T20:00:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Klopp : j'ai un profond respect pour Guardiola, et je n'ai rien à voir avec les sanctions infligées à City. Jürgen Klopp, le sélectionneur de l'équipe d'Allemagne, a réagi ce mercredi aux accusations visant Manchester City, ainsi qu'à la possibilité pour son ancien club de Liverpool de remporter deux titres …",
+      "sources": [
+        "GOAL — fiabilité 6/10"
+      ],
+      "url": "https://www.goal.com/fr/news/klopp-j-ai-un-profond-respect-pour-guardiola-et-je-n-ai-rien-a-voir-avec-les-sanctions-infligees-a-city/bltae48890548b108f3",
+      "published_at": "2026-09-30T13:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Manchester City : la Premier League attend DES SANCTIONS ! (Trophées perdus, retraits de points…). Les explications de Julien Laurens, correspondant RMC en Angleterre.",
+      "sources": [
+        "RMC Sport via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/manchester-city-la-premier-league-attend-des-sanctions-trophées-perdus-retraits-de-points/vi-AA2dhP4n",
+      "published_at": "2026-09-30T12:12:15+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les dirigeants du secteur pétrolier préviennent que la volatilité de la guerre en Iran rend la planification difficile. Les dirigeants pétroliers américains ont du mal à planifier leurs investissements et leur production alors que la guerre en Iran entraîne de fortes fluctuations des prix du brut, selon le dernier rapport trimestriel sur l'énergie de la Banque fédérale de réserve de Dallas.",
+      "sources": [
+        "Seeking Alpha — fiabilité 6/10"
+      ],
+      "url": "https://seekingalpha.com/news/4648693-oil-executives-warn-iran-war-volatility-makes-planning-difficult",
+      "published_at": "2026-09-30T00:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La règle Head Start « en anglais uniquement » proposée par l’administrateur du président Donald Trump (États-Unis) suscite le feu du candidat à la mairie de Los Angeles. Nithya Raman s'engage à lutter contre le mandat Head Start proposé uniquement en anglais par l'administration Trump, menaçant de poursuites judiciaires pour protéger les familles de Los Angeles.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/media/trump-admins-proposed-english-only-head-start-rule-draws-fire-from-los-angeles-mayoral-candidate",
+      "published_at": "2026-09-30T13:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le Brésil et les États-Unis ont créé un groupe de travail pour discuter d'un éventuel accord commercial.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/americas/brazil-us-set-up-working-group-discuss-potential-trade-agreement-2026-09-30/",
+      "published_at": "2026-09-30T13:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L'action ServiceNow augmente mercredi : que se passe-t-il ?. Les actions du fournisseur de logiciels d'entreprise ServiceNow Inc. Se négocient MAINTENANT à la hausse mercredi, se joignant à une offre de secours plus large dans le secteur des logiciels à la suite des rapports d'une enquête de la Federal Trade Commission…",
+      "sources": [
+        "Benzinga via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/servicenow-stock-rises-wednesday-whats-happening/ar-AA2dhZe9",
+      "published_at": "2026-09-30T11:11:04+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Un groupe environnemental néerlandais accuse la Nouvelle-Zélande de violer l'accord sur le climat. Le groupe environnemental néerlandais Both ENDS a déposé une plainte auprès de la Commission européenne, accusant la Nouvelle-Zélande de manquer à ses obligations environnementales dans le cadre de l'accord de libre-échange de l'UE. C'est fini…",
+      "sources": [
+        "Newstalk ZB — fiabilité 6/10"
+      ],
+      "url": "https://www.newstalkzb.co.nz/on-air/heather-du-plessis-allan-drive/audio/bronwyn-hayward-canterbury-university-politics-professor-on-dutch-environmental-group-both-ends-accusing-nz-of-breaching-climate-agreement/",
+      "published_at": "2026-09-30T13:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Nouvelle-Zélande"
+      ]
     },
     {
       "regions": [
