@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:22:21.860779+02:00",
+  "generated_at": "2026-09-30T15:32:35.338292+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -35092,6 +35092,27 @@
       "published_at": "2026-09-30T09:45:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Guerre en Ukraine : l'UE prolonge des mesures restrictives contre plus de 3 000 personnes et entités. Afin d'affirmer son soutien à l'Ukraine, le Conseil de l'Union européenne a décidé d'appliquer pour trois années supplémentaires des sanctions restrictives à l'encontre de personnes et d'entités \"visa …",
+      "sources": [
+        "Vie publique — fiabilité 6/10"
+      ],
+      "url": "https://www.vie-publique.fr/en-bref/304747-guerre-en-ukraine-lue-proroge-des-mesures-restrictives-pour-trois-ans",
+      "published_at": "2026-09-30T07:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
     },
     {
       "regions": [
