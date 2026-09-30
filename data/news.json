@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:12:56.772023+02:00",
+  "generated_at": "2026-09-30T03:23:07.550275+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -34539,6 +34539,95 @@
       "url": "http://www.iraqsun.com/news/279341083/matters-relating-to-rivers-will-be-discussed-as-part-of-joint-river-commission-mea-on-ganges-water-treaty-with-bangladesh",
       "published_at": "2026-09-30T00:00:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Arabie saoudite",
+        "Iran",
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Pakistan s’engage à défendre l’Arabie saoudite contre les Houthis soutenus par l’Iran par tous les moyens | Monde. Le ministre pakistanais de la Défense a déclaré que son gouvernement utiliserait « tous les moyens disponibles » pour défendre l'Arabie saoudite contre les rebelles Houthis soutenus par l'Iran. Ces commentaires constituent l'une des indications les plus claires du Pakistan à ce jour :",
+      "sources": [
+        "the-messenger.com — fiabilité 6/10"
+      ],
+      "url": "https://www.the-messenger.com/news/world/article_60350f15-b618-5fe1-989d-89f6e6c51b77.html",
+      "published_at": "2026-09-30T02:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "Qatar",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les médiateurs qataris insistent sur un accord de paix entre les États-Unis et l'Iran. Par Steve Holland et Menna AlaaElDinWASHINGTON/CAIRE, 29 septembre (Reuters) - Le Qatar a déclaré mardi qu'il espérait que la navette diplomatique entre l'Iran et les États-Unis puisse conduire à une avancée décisive, malgré le démenti du président américain le président Donald Trump (États-Unis) des informations médiatiques selon lesquelles il était prêt à assouplir les sanctions et à débloquer des fonds gelés en échange de concessions iraniennes sur son programme nucléaire.",
+      "sources": [
+        "al-monitor.com — fiabilité 6/10"
+      ],
+      "url": "https://www.al-monitor.com/originals/2026/09/qatari-mediators-press-peace-deal-between-us-and-iran",
+      "published_at": "2026-09-30T02:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) ne sait pas encore si l’Iran va abandonner. Alors que les médiateurs travaillent avec l’Iran et les États-Unis pour tenter de négocier un accord visant à mettre fin à la guerre…",
+      "sources": [
+        "dailyadvertiser.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.dailyadvertiser.com.au/story/9359850/trump-doesnt-know-if-iran-is-going-to-give-up-yet/",
+      "published_at": "2026-09-30T02:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Carney dit qu'il n'a pas l'intention d'exercer davantage de pression commerciale alors que les États-Unis . S. Approche à mi-parcours. WASHINGTON - Le Premier ministre Mark Carney a déclaré mardi qu'il n'avait pas l'intention d'exercer de nouvelles pressions commerciales sur les États-Unis alors que les Américains se préparent à des élections cruciales de mi-mandat qui pourraient se terminer.",
+      "sources": [
+        "chroniclejournal.com — fiabilité 6/10"
+      ],
+      "url": "https://www.chroniclejournal.com/news/national/carney-says-he-has-no-plans-to-apply-further-trade-pressure-as-u-s-midterms/article_c7181422-164e-5617-b48f-def7ad9b8413.html",
+      "published_at": "2026-09-30T02:45:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
