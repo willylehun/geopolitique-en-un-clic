@@ -137,9 +137,9 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         article={"title":"Government announces new sanctions after border conflict","source":"Reuters","date":day,"url":source,
                  "description":"A detailed RSS snippet that describes the sanctions, the border conflict, the government response, regional effects, and diplomatic consequences."}
         meta={"countries":["France"],"date":"30 septembre 2026","source":"Reuters","url":source}
-        with patch.object(news,"matching_publisher_article_url",return_value=""), \\
-             patch.object(news,"resolve_google_news_with_bing",return_value=""), \\
-             patch.object(news,"detail_is_substantive",return_value=True), \\
+        with patch.object(news,"matching_publisher_article_url",return_value=""), \
+             patch.object(news,"resolve_google_news_with_bing",return_value=""), \
+             patch.object(news,"detail_is_substantive",return_value=True), \
              patch.object(news,"fetch_article_detail") as fetch:
             self.assertIsNone(news.article_summary(article,meta,candidates=[article]))
         fetch.assert_not_called()
