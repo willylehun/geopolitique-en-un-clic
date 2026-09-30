@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:58:43.241479+02:00",
+  "generated_at": "2026-10-01T01:08:56.011822+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -368,8 +368,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Sud",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -382,8 +382,8 @@
         "Reuters"
       ],
       "countries": [
-        "Iran",
         "Venezuela",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -980,8 +980,8 @@
         "Algérie",
         "Libye",
         "Mali",
-        "Soudan",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Soudan"
       ],
       "period": "day",
       "bucket": "10 septembre 2026",
@@ -1102,8 +1102,8 @@
         "International"
       ],
       "countries": [
-        "États-Unis",
-        "Bahamas"
+        "Bahamas",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
@@ -1201,8 +1201,8 @@
       ],
       "countries": [
         "Lituanie",
-        "Russie",
-        "Biélorussie"
+        "Biélorussie",
+        "Russie"
       ],
       "period": "day",
       "bucket": "21 septembre 2026",
@@ -1300,8 +1300,8 @@
       ],
       "countries": [
         "Bahreïn",
-        "Iran",
-        "Oman"
+        "Oman",
+        "Iran"
       ],
       "period": "day",
       "bucket": "13 septembre 2026",
@@ -3507,8 +3507,8 @@
         "Asie"
       ],
       "countries": [
-        "Iran",
-        "Pakistan"
+        "Pakistan",
+        "Iran"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -4900,8 +4900,8 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
         "Israël",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -9190,8 +9190,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -9205,8 +9205,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Russie",
-        "Turquie"
+        "Turquie",
+        "Russie"
       ]
     },
     {
@@ -9647,8 +9647,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
-        "Israël"
+        "Israël",
+        "Iran"
       ]
     },
     {
@@ -12148,8 +12148,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -12164,8 +12164,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Russie",
-        "Turquie"
+        "Turquie",
+        "Russie"
       ]
     },
     {
@@ -15254,8 +15254,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -15270,8 +15270,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Ukraine",
-        "Corée du Nord"
+        "Corée du Nord",
+        "Ukraine"
       ]
     },
     {
@@ -19484,8 +19484,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Ukraine",
-        "Hongrie"
+        "Hongrie",
+        "Ukraine"
       ]
     },
     {
@@ -20370,8 +20370,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
         "Israël",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -22574,8 +22574,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Israël"
+        "Israël",
+        "Iran"
       ]
     },
     {
@@ -22728,8 +22728,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Émirats arabes unis",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -27035,8 +27035,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Qatar",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -27126,8 +27126,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Amérique du Sud",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -27143,8 +27143,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "États-Unis",
-        "Paraguay"
+        "Paraguay",
+        "États-Unis"
       ]
     },
     {
@@ -27982,8 +27982,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Amérique du Sud",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -27999,8 +27999,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "États-Unis",
-        "Paraguay"
+        "Paraguay",
+        "États-Unis"
       ]
     },
     {
@@ -28621,8 +28621,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Amérique du Sud",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -28638,8 +28638,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Royaume-Uni",
-        "Venezuela"
+        "Venezuela",
+        "Royaume-Uni"
       ]
     },
     {
@@ -28788,8 +28788,8 @@
         "International"
       ],
       "countries": [
-        "Palestine",
         "Qatar",
+        "Palestine",
         "Royaume-Uni"
       ],
       "period": "day",
@@ -28891,8 +28891,8 @@
       "content_enriched": true,
       "countries": [
         "Chine",
-        "Iran",
         "Pakistan",
+        "Iran",
         "Russie",
         "États-Unis"
       ]
@@ -29043,8 +29043,8 @@
       ],
       "countries": [
         "Arabie saoudite",
-        "Iran",
-        "Pakistan"
+        "Pakistan",
+        "Iran"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -29066,8 +29066,8 @@
         "International"
       ],
       "countries": [
-        "Iran",
         "Qatar",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -30447,8 +30447,8 @@
         "International"
       ],
       "countries": [
-        "Iran",
         "Qatar",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -31681,9 +31681,9 @@
         "Asie"
       ],
       "countries": [
-        "Iran",
         "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Iran"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -32007,8 +32007,8 @@
         "International"
       ],
       "countries": [
-        "Iran",
         "Israël",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -32043,8 +32043,8 @@
       "content_enriched": true,
       "countries": [
         "Bahreïn",
-        "Iran",
-        "Malaisie"
+        "Malaisie",
+        "Iran"
       ]
     },
     {
@@ -34201,8 +34201,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Émirats arabes unis",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -38344,10 +38344,10 @@
       "content_enriched": true,
       "countries": [
         "Inde",
-        "Iran",
         "Israël",
         "Qatar",
         "Égypte",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -38856,8 +38856,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Israël",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -39482,9 +39482,9 @@
         "International"
       ],
       "countries": [
+        "Vatican",
         "Russie",
-        "Ukraine",
-        "Vatican"
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -39558,8 +39558,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Israël"
+        "Israël",
+        "Iran"
       ]
     },
     {
@@ -40553,8 +40553,8 @@
         "International"
       ],
       "countries": [
-        "Iran",
         "Israël",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -40901,13 +40901,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Palestine",
-        "Pays-Bas"
+        "Pays-Bas",
+        "Palestine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -41640,6 +41640,48 @@
       ],
       "url": "https://www.sondakika.com/politika/haber-slovenya-basbakani-jansa-gazze-fotografini-sudan-d-20286389/",
       "published_at": "2026-10-01T00:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Espagne",
+        "Portugal"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Tandis que l'Espagne bloque les expulsions, le Portugal poursuit son projet de loi pour les accélérer. LISBONNE, 30 septembre (Reuters) - Le Parlement portugais a approuvé mercredi, en première lecture, une refonte controversée du marché locatif visant à accélérer les expulsions et à mettre fin au contrôle des loyers sur les nouveaux baux, ce que le gouvernement de centre-droit espère qu'elle permettra…",
+      "sources": [
+        "whbl.com — fiabilité 6/10"
+      ],
+      "url": "https://whbl.com/2026/09/30/portugal-parliament-backs-swifter-evictions-end-of-rent-caps/",
+      "published_at": "2026-10-01T00:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "U. S. La Chambre organise une table ronde sur l'entreprise gratuite avec One Louisville et la Chambre de commerce du Kentucky dans le cadre de la tournée des opportunités Free Enterprise Express. LOUISVILLE – La Chambre de commerce des États-Unis a réuni aujourd'hui des dirigeants d'entreprises et des dirigeants communautaires, dans le cadre de son Free Enterprise Express Opportunity Tour, en partenariat avec One Louisville et la Chambre de commerce du Kentucky. La discussion s'est concentrée sur le rôle de la libre entreprise pour relever les défis de l'abordabilité, élargir les opportunités de logement et soutenir la croissance économique à long terme.",
+      "sources": [
+        "uschamber.com — fiabilité 6/10"
+      ],
+      "url": "https://www.uschamber.com/economy/u-s-chamber-hosts-free-enterprise-roundtable-with-one-louisville-and-the-kentucky-chamber-of-commerce-as-part-of-the-free-enterprise-express-opportunity-tour",
+      "published_at": "2026-10-01T00:45:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
