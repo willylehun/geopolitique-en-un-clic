@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:55:02.929185+02:00",
+  "generated_at": "2026-09-30T23:05:17.264793+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30690,7 +30690,6 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
         "International"
       ],
@@ -30709,7 +30708,6 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Corée du Sud",
         "Ukraine"
       ]
     },
@@ -37728,10 +37726,11 @@
         "newzealandstar.com — fiabilité 6/10",
         "neworleanssun.com — fiabilité 6/10",
         "sierraleonetimes.com — fiabilité 6/10",
-        "europesun.com — fiabilité 5/10"
+        "europesun.com — fiabilité 5/10",
+        "utahindependent.com — fiabilité 6/10"
       ],
       "url": "http://www.northkoreatimes.com/news/279343449/uk-pm-says-strong-indications-iran-linked-to-airbase-incident",
-      "published_at": "2026-09-30T22:15:00+02:00",
+      "published_at": "2026-09-30T22:45:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -38677,6 +38676,7 @@
     {
       "regions": [
         "Océanie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -39355,7 +39355,7 @@
         "France 24 (média public) — fiabilité 8/10"
       ],
       "url": "https://www.france24.com/en/europe/20260930-british-pm-alleges-there-are-strong-indications-iran-was-involved-in-fairford-airbase-incident",
-      "published_at": "2026-09-30T02:01:00+02:00",
+      "published_at": "2026-09-30T16:01:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -39458,10 +39458,11 @@
       "category": "Énergie",
       "summary": "Le président Donald Trump (États-Unis) s'attendait à annoncer un investissement de 54 milliards de dollars en Corée du Sud dans Alaska LNG, selon des sources. Le projet Alaska LNG comprendrait un pipeline transportant du gaz naturel du versant nord jusqu'à une installation de liquéfaction sur la côte sud de l'État, permettant au carburant d'être expédié vers les marchés asiatiques.",
       "sources": [
-        "parkrapidsenterprise.com — fiabilité 6/10"
+        "parkrapidsenterprise.com — fiabilité 6/10",
+        "wadenapj.com — fiabilité 6/10"
       ],
       "url": "https://www.parkrapidsenterprise.com/news/national/trump-expected-to-announce-54-billion-south-korea-investment-in-alaska-lng-sources-say",
-      "published_at": "2026-09-30T21:00:00+02:00",
+      "published_at": "2026-09-30T22:45:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -40487,7 +40488,8 @@
       "url": "https://www.msn.com/en-au/money/markets/200-million-funding-package-announced-for-bell-bay-aluminium-smelter/ar-AA2diB89",
       "published_at": "2026-09-30T14:24:18+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
