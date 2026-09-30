@@ -100,7 +100,7 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         source=f"https://news.google.com/rss/articles/{article_id}?hl=de-DE&gl=DE&ceid=DE%3Ade&oc=5"
         page=f'<div data-n-a-id="{article_id}" data-n-a-ts="1790722000" data-n-a-sg="locale-signature"></div>'
         rpc=json.dumps([["wrb.fr","Fbv4je",json.dumps(["garturlres","https://publisher.example/world/story",None]),None]])
-        with patch.object(news,"_request_google_page",return_value=("https://news.google.com/rss/articles/"+article_id,page)) as get_page, \\
+        with patch.object(news,"_request_google_page",return_value=("https://news.google.com/rss/articles/"+article_id,page)) as get_page, \
              patch.object(news,"_post_google_article_decode",return_value=")]}'\\n\\n"+rpc):
             self.assertEqual(news.decode_google_news_url(source),"https://publisher.example/world/story")
         self.assertEqual(get_page.call_args.args[0],f"https://news.google.com/rss/articles/{article_id}?hl=de-DE&gl=DE&ceid=DE%3Ade")
