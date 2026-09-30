@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:53:40.962336+02:00",
+  "generated_at": "2026-09-30T12:03:51.634577+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30898,8 +30898,8 @@
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Russie"
+        "Russie",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -31453,9 +31453,9 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Amérique du Nord",
         "Océanie",
+        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -31471,10 +31471,74 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Pérou",
         "Canada",
-        "Nouvelle-Zélande"
+        "Nouvelle-Zélande",
+        "Pérou"
       ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "L'Inde approuve 1,86 billion de roupies pour un programme d'énergie renouvelable. 30 septembre (Reuters) - Le cabinet indien a approuvé 1,86 billion de roupies (19,42 milliards de dollars) pour un programme d'énergies renouvelables visant à améliorer les réseaux existants et à introduire de « nouvelles » innovations, a indiqué le…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/india-approves-186-trillion-rupees-renewable-energy-programme-2026-09-30/",
+      "published_at": "2026-09-30T04:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Kriel d’AfriForum dénonce la démarche de Pretoria de l’envoyé américain Bozell alors que le fossé diplomatique s’approfondit. Kallie Kriel, PDG d'AfriForum, a condamné la décision du gouvernement de faire appel à l'ambassadeur américain en Afrique du Sud, Brent Bozell.",
+      "sources": [
+        "News24 — fiabilité 7/10"
+      ],
+      "url": "https://www.news24.com/politics/afriforums-kriel-slams-pretorias-demarche-of-us-envoy-bozell-as-diplomatic-rift-deepens-20260930-0594",
+      "published_at": "2026-09-30T04:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Afrique du Sud",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "France : L'inflation IPCH accélère à 3,4 % en septembre avec les prix de l'énergie. 30 septembre (Reuters) - L'inflation en France, harmonisée selon les normes européennes (IPCH), s'est accélérée plus que prévu et ressort à 3,4% sur un an en septembre, son plus haut niveau depuis jan …",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/finance/economie/france-linflation-ipch-accélère-à-34-en-septembre-avec-les-prix-de-lénergie/ar-AA2dgfNf",
+      "published_at": "2026-09-30T03:57:30+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
