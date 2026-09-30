@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:30:56.739620+02:00",
+  "generated_at": "2026-09-30T14:41:13.200495+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29848,10 +29848,12 @@
     {
       "regions": [
         "Amérique du Nord",
+        "Asie",
         "International"
       ],
       "countries": [
-        "États-Unis"
+        "États-Unis",
+        "Iran"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -30971,13 +30973,14 @@
       "bucket": "30 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Les États-Unis retirent leurs dernières troupes d’Irak. Comment cela affectera-t-il le Moyen-Orient. Michel Martin de NPR s'entretient avec le lieutenant-général à la retraite H. R. McMaster, ancien conseiller américain à la sécurité nationale, de l'impact qu'aura le retrait final des troupes américaines d'Irak sur le Moyen-Orient.",
+      "summary": "Le U. S. Est en train de retirer ses dernières troupes d'Irak. Comment cela affectera-t-il le Moyen-Orient. Michel Martin de NPR s'entretient avec le lieutenant-général à la retraite H. R. McMaster, ancien conseiller américain à la sécurité nationale, de l'impact qu'aura le retrait final des troupes américaines d'Irak sur le Moyen-Orient.",
       "sources": [
         "Boise State Public Radio — fiabilité 6/10",
-        "WUNC — fiabilité 6/10"
+        "WUNC — fiabilité 6/10",
+        "wknofm.org — fiabilité 6/10"
       ],
       "url": "https://www.boisestatepublicradio.org/2026-09-30/the-u-s-is-pulling-its-last-troops-out-of-iraq-how-will-it-affect-the-middle-east",
-      "published_at": "2026-09-30T03:42:00+02:00",
+      "published_at": "2026-09-30T14:15:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -32798,15 +32801,16 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "L'Iran indique avoir reçu une réponse officielle des États-Unis à sa dernière offre de mettre fin à la guerre. Des responsables iraniens ont indiqué mercredi avoir reçu une réponse officielle des États-Unis à la dernière proposition de Téhéran visant à mettre fin à la guerre de sept mois, que le président Donald Trump (États-Unis) avait publiquement rejetée il y a peu.",
+      "summary": "L'Iran indique avoir reçu une réponse officielle des États-Unis à sa dernière offre de mettre fin à la guerre. Les responsables iraniens ont indiqué mercredi avoir reçu une réponse officielle des États-Unis à la dernière proposition de Téhéran visant à mettre fin à la guerre de sept mois, que le président Donald Trump (États-Unis) avait publiquement rejetée il y a quelques jours seulement.",
       "sources": [
         "WRAL — fiabilité 6/10",
         "Hartford Courant — fiabilité 6/10",
         "Pioneer Press — fiabilité 6/10",
-        "AP — fiabilité 9/10"
+        "AP — fiabilité 9/10",
+        "WJCL — fiabilité 6/10"
       ],
       "url": "https://www.wral.com/news/ap/2c42d-iran-indicates-its-received-an-official-us-response-to-its-latest-offer-on-ending-the-war/",
-      "published_at": "2026-09-30T06:31:00+02:00",
+      "published_at": "2026-09-30T07:07:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -33706,7 +33710,8 @@
       "url": "https://www.lanouvellerepublique.fr/a-la-une/l-inflation-en-hausse-de-3-sur-un-an-en-septembre-portee-par-les-produits-frais-et-l-energie-selon-l-insee-1790753712",
       "published_at": "2026-09-30T05:08:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -34094,6 +34099,343 @@
       ],
       "url": "https://newsmada.com/2026/09/30/madagascar-airlines-un-boeing-737-700-pour-reprendre-de-la-hauteur/",
       "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Premier League : Manchester City face à de lourdes sanctions. Manchester City a été reconnu coupable de 114 infractions aux règles financières de la Premier League, commises entre 2009 et 2018, pour un montant dépassant le milliard d’euros selon une …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/vidéo/20260930-premier-league-manchester-city-face-à-de-lourdes-sanctions",
+      "published_at": "2026-09-30T07:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trois nouveaux navires ont été touchés dans le détroit d'Ormuz. Les prix du pétrole grimpent à nouveau. Les incidents ont eu lieu peu de temps après que les médias iraniens ont rapporté que le ministre des Affaires étrangères Abbas Araghchi avait présenté au président Masoud Pezeshkian la contre-proposition des États-Unis pour un cessez-le-feu de 7 jours.",
+      "sources": [
+        "International Business Times — fiabilité 6/10"
+      ],
+      "url": "https://www.ibtimes.com/three-new-vessels-were-hit-strait-hormuz-oil-prices-are-climbing-again-3808041",
+      "published_at": "2026-09-30T07:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Technologie",
+      "summary": "J'étais juste à Kiev - j'ai vu les « lignes de front de la démocratie défendues » depuis la Russie : Alan Armstrong. Le sénateur Alan Armstrong (Républicain-OK) a rejoint « Forbes Newsroom » pour discuter de son récent voyage à Kiev au milieu de la guerre entre la Russie et l'Ukraine.",
+      "sources": [
+        "Forbes — fiabilité 6/10"
+      ],
+      "url": "https://www.forbes.com/sites/forbestv/2026/09/30/i-was-just-in-kyiv-i-saw-the-front-lines-of-democracy-being-defended-from-russia-alan-armstrong/",
+      "published_at": "2026-09-30T07:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Burnham mise sur la suppression du système uninominal majoritaire à un tour lors des prochaines élections. Le Premier ministre a profité de son premier discours à la conférence travailliste pour promettre un manifeste visant à remplacer le système électoral britannique, sans nommer une seule fois Nigel Farage.",
+      "sources": [
+        "brusselssignal — fiabilité 6/10"
+      ],
+      "url": "https://brusselssignal.eu/2026/09/burnham-stakes-next-election-on-scrapping-first-past-the-post/",
+      "published_at": "2026-09-30T07:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La guerre en Iran atténue les rivalités dans le Golfe. La « visite fraternelle » de mardi indique que les rivalités au sein du Golfe passent au second plan alors que la guerre entre les États-Unis et l’Iran menace les milliards de dollars investis dans la transformation des économies de la région. Les Émirats arabes unis…",
+      "sources": [
+        "Semafor — fiabilité 6/10"
+      ],
+      "url": "https://www.semafor.com/article/09/30/2026/iran-war-mutes-gulf-rivalries",
+      "published_at": "2026-09-30T07:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Émirats arabes unis",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'inflation allemande s'accélère légèrement plus que prévu en septembre.",
+      "sources": [
+        "The Sacramento Bee — fiabilité 6/10"
+      ],
+      "url": "https://www.sacbee.com/news/nation-world/national/article317437760.html",
+      "published_at": "2026-09-30T00:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "États-Unis : inflation sous-jacente plus faible que prévu. L'inflation sous-jacente aux États-Unis est tombée à 3,0 pour cent en août, selon la mesure dite PCE. C'était inférieur à ce qui était prévu. Le chiffre d'août peut être comparé à 3,3 pour cent en juillet et à une prévision moyenne parmi les analystes…",
+      "sources": [
+        "TV4 — fiabilité 6/10"
+      ],
+      "url": "https://www.tv4.se/artikel/tt-260930-usainflation1-c2c46b1f/usa-karninflationen-lagre-an-vantat",
+      "published_at": "2026-09-30T07:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le gaz au Brésil coûte 5 fois plus cher que chez ses voisins, explique le PDG d'Usiminas. L'industrie brésilienne paie 15 dollars américains par million de BTU (acronyme de British Thermal Unit) de gaz naturel, tandis que les pays voisins paient entre 3 et 4 dollars américains pour le même…",
+      "sources": [
+        "Poder360 — fiabilité 6/10"
+      ],
+      "url": "https://www.poder360.com.br/poder-economia/gas-no-brasil-custa-5-vezes-mais-que-em-vizinhos-diz-ceo-da-usiminas/",
+      "published_at": "2026-09-30T07:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil",
+        "Royaume-Uni",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Boeing, GameStop, Robinhood, Micron et d'autres actions qui expliquent le marché actuel. Boeing progresse après que le constructeur aéronautique a remporté un contrat de plusieurs milliards de dollars avec la Marine, tandis que Robinhood bénéficie d'un coup de pouce grâce au déploiement d'agents d'IA.",
+      "sources": [
+        "Barron's — fiabilité 6/10"
+      ],
+      "url": "https://www.barrons.com/articles/stock-movers-81984569",
+      "published_at": "2026-09-30T03:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Technologie",
+      "summary": "Thyssenkrupp Automotive Technology va supprimer jusqu'à 180 emplois sur ses sites allemands. Thyssenkrupp Automotive Technology va supprimer environ 160 à 180 emplois sur ses sites d'Essen et d'Ennepetal dans le cadre d'une réorganisation de son activité châssis, a annoncé mercredi l'entreprise.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/world-at-work/thyssenkrupp-automotive-technology-shed-up-180-jobs-german-sites-2026-09-30/",
+      "published_at": "2026-09-30T07:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Hegseth va annoncer une nouvelle purge au Pentagone alors que la guerre se prolonge : rapport. Alors que la guerre contre l’Iran en est à son septième mois et qu’elle n’en voit pas la fin, le secrétaire à la Défense Pete Hegseth (États-Unis) exige une nouvelle purge des officiers de haut rang au Pentagone, selon des informations.",
+      "sources": [
+        "Raw Story via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/hegseth-to-announce-new-purge-at-pentagon-as-war-drags-on-report/ar-AA2dh5BK",
+      "published_at": "2026-09-30T06:20:20+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Vietnam"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le Vietnam plaide pour le dialogue et l élimination totale des armes nucléaires. L’ambassadeur Dô Hùng Viêt a appelé les États dotés d’armes nucléaires à signer et à ratifier le Protocole au Traité sur la zone exempte d’armes nucléaires de l’Asie du Sud-Est (SEANWFZ) et a réaffirmé la contribution active et continue du Vietnam aux efforts internationaux visant à promouvoir le désarmement et la non-prolifération, à renforcer le multilatéralisme et le droit international, et à œuvrer pour un monde sans armes nucléaires.",
+      "sources": [
+        "lecourrier.vn — fiabilité 6/10"
+      ],
+      "url": "https://lecourrier.vn/le-vietnam-plaide-pour-le-dialogue-et-lelimination-totale-des-armes-nucleaires/1356424.html",
+      "published_at": "2026-09-30T14:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Égypte",
+        "Madagascar"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "DIPLOMATIE – L’installation d’une ambassade de Madagascar en Égypte validée en Conseil des ministres. Madagascar renforce ses relations diplomatiques avec l’Égypte. Le Conseil des ministres de ce mardi a officiellement validé la mise en …",
+      "sources": [
+        "2424.mg — fiabilité 6/10"
+      ],
+      "url": "https://www.2424.mg/diplomatie-linstallation-dune-ambassade-de-madagascar-en-egypte-validee-en-conseil-des-ministres/",
+      "published_at": "2026-09-30T03:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Madagascar"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Madagascar : le solaire au service de l’électrification rurale. Deux centrales solaires assurent un accès durable à l'électricité aux populations de deux communautés rurales de la Grande Ile.",
+      "sources": [
+        "pv magazine France — fiabilité 6/10"
+      ],
+      "url": "https://www.pv-magazine.fr/2026/09/30/madagascar-le-solaire-au-service-de-lelectrification-rurale/",
+      "published_at": "2026-09-30T07:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Au Maroc, une femme nommée cheffe du gouvernement pour la première fois. Une première au Maroc : Fatima Ezzahra El Mansouri a été nommée cheffe du gouvernement par le roi Mohammed VI. Sans majorité absolue, elle doit désormais former une coalition gouvernementale. #francei …",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/monde/afrique/maroc/au-maroc-une-femme-nommee-cheffe-du-gouvernement-pour-la-premiere-fois_8215980.html",
+      "published_at": "2026-09-30T05:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Maroc : Fatima Ezzahra El Mansouri, une première ministre sous pression sociale. Codirigeante du Parti authenticité et modernité (PAM) arrivé en tête des législatives, Fatima Ezzahra El Mansouri, 50 ans, vient incarner la promotion du droit des femmes. La réponse au climat de défi …",
+      "sources": [
+        "La Croix — fiabilité 6/10"
+      ],
+      "url": "https://www.la-croix.com/international/maroc-fatima-ezzahra-el-mansouri-une-premiere-ministre-sous-pression-sociale-20260930",
+      "published_at": "2026-09-30T05:18:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
