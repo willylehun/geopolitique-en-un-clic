@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:10:14.743566+02:00",
+  "generated_at": "2026-09-30T20:20:29.548249+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -648,8 +648,8 @@
         "Reuters"
       ],
       "countries": [
-        "Ghana",
         "Burkina Faso",
+        "Ghana",
         "Mali"
       ]
     },
@@ -32336,7 +32336,8 @@
         "France 24 (média public) — fiabilité 8/10",
         "Le Dauphiné Libéré — fiabilité 6/10",
         "AFP via MSN — fiabilité 7/10",
-        "Le Parisien via MSN — fiabilité 6/10"
+        "Le Parisien via MSN — fiabilité 6/10",
+        "Mediapart — fiabilité 6/10"
       ],
       "url": "https://www.france24.com/fr/info-en-continu/20260930-france-l-inflation-grimpe-à-3-sur-un-an-en-septembre-selon-l-insee",
       "published_at": "2026-09-30T04:18:00+02:00",
@@ -32787,16 +32788,17 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "L'Iran indique avoir reçu une réponse officielle des États-Unis à sa dernière offre de mettre fin à la guerre. Les responsables iraniens ont indiqué mercredi avoir reçu une réponse officielle des États-Unis à la dernière proposition de Téhéran visant à mettre fin à la guerre de sept mois, que le président Donald Trump (États-Unis) avait publiquement rejetée il y a quelques jours seulement.",
+      "summary": "L’Iran indique avoir reçu une réponse officielle des États-Unis à sa dernière offre de mettre fin à la guerre. Les responsables iraniens affirment avoir reçu une réponse officielle des États-Unis à la propre proposition de Téhéran de mettre fin à la guerre de sept mois, que le président Donald Trump (États-Unis) a rejetée quelques jours plus tôt. Le ministre iranien des Affaires étrangères Abbas Araghchi a présenté mercredi la réponse américaine au président Masoud Pezeshkian lors d'une réunion du Cabinet.",
       "sources": [
         "WRAL — fiabilité 6/10",
         "Hartford Courant — fiabilité 6/10",
         "Pioneer Press — fiabilité 6/10",
         "AP — fiabilité 9/10",
-        "WJCL — fiabilité 6/10"
+        "WJCL — fiabilité 6/10",
+        "krmg.com — fiabilité 6/10"
       ],
       "url": "https://www.wral.com/news/ap/2c42d-iran-indicates-its-received-an-official-us-response-to-its-latest-offer-on-ending-the-war/",
-      "published_at": "2026-09-30T07:13:00+02:00",
+      "published_at": "2026-09-30T20:00:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -36443,18 +36445,19 @@
         "International"
       ],
       "countries": [
-        "Ukraine"
+        "Ukraine",
+        "Russie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "EN DIRECT, guerre en Ukraine : des coupures d’urgence d’électricité à Kiev et dans trois régions d’Ukraine après de nouvelles attaques russes. Ces coupures dans certains secteurs de la capitale ukrainienne et des régions de Kiev, Tchernihiv et Jytomyr ont été décidées par l’opérateur Ukrenergo en raison d’une surcharge des équipements provoq …",
+      "summary": "EN DIRECT, guerre en Ukraine : la Russie rappelle qu’elle considère les usines en Europe qui produisent des armes pour Kiev comme des « potentielles cibles militaires ». Ces coupures dans certains secteurs de la capitale ukrainienne et des régions de Kiev, Tchernihiv et Jytomyr ont été décidées par l’opérateur Ukrenergo en raison d’une surcharge des équipements provoq …",
       "sources": [
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/09/30/en-direct-guerre-en-ukraine-des-coupures-d-urgence-d-electricite-a-kiev-et-dans-trois-regions-d-ukraine-apres-de-nouvelles-attaques-russes_6783795_3210.html",
-      "published_at": "2026-09-30T10:59:00+02:00",
+      "published_at": "2026-09-30T12:13:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -37718,10 +37721,11 @@
       "category": "Géopolitique",
       "summary": "Le Premier ministre britannique affirme que l’Iran est fortement lié à un incident sur une base aérienne. Alors que le conflit dans le golfe Persique continue d'avoir un impact et de façonner la région, les journalistes de la salle de presse centrale de RFE/RL et du service iranien Radio Farda,",
       "sources": [
-        "northkoreatimes.com — fiabilité 6/10"
+        "northkoreatimes.com — fiabilité 6/10",
+        "newzealandstar.com — fiabilité 6/10"
       ],
       "url": "http://www.northkoreatimes.com/news/279343449/uk-pm-says-strong-indications-iran-linked-to-airbase-incident",
-      "published_at": "2026-09-30T19:30:00+02:00",
+      "published_at": "2026-09-30T20:00:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -38086,7 +38090,6 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -38166,7 +38169,8 @@
       "url": "https://www.yahoo.com/news/politics/articles/rep-jamie-raskin-investigates-big-174626845.html",
       "published_at": "2026-09-30T12:45:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -38235,6 +38239,305 @@
       "url": "https://thebftonline.com/article/uk-ghana-trade-resource-centre-launched-to-unlock-new-trade-opportunities",
       "published_at": "2026-09-30T19:30:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Écologistes : la Nouvelle-Zélande viole les accords de protection du climat avec l'UE. L'organisation environnementale néerlandaise Both Ends a déposé une plainte auprès de la Commission européenne contre la Nouvelle-Zélande pour violation présumée d'un accord commercial avec l'UE. D'après le…",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/environmentalists-new-zealand-is-violating-climate-protection-agreements-with-the-eu-li.3619836",
+      "published_at": "2026-09-30T13:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Nouvelle-Zélande"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Sud",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La Chine impose des droits de douane de 55 % sur le bœuf brésilien et rejette la proposition d’emprunter le quota de l’Uruguay. La surtaxe sur son plus grand marché inquiète l'industrie, qui est déjà exclue de l'UE et confrontée à des droits de douane américains plus élevés.",
+      "sources": [
+        "South China Morning Post — fiabilité 6/10"
+      ],
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3369390/china-slaps-55-cent-tariff-brazilian-beef-rebuffs-bid-borrow-uruguays-quota",
+      "published_at": "2026-09-30T07:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "Uruguay",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement réduit les taxes exceptionnelles sur les exportations de diesel et d'ATF ; taxe sur l'essence inchangée. L'Inde réduit les taxes exceptionnelles sur les exportations de diesel et d'ATF pendant deux semaines, maintient les droits sur l'essence intacts ; autorisations intérieures inchangées.",
+      "sources": [
+        "The Hindu BusinessLine — fiabilité 7/10"
+      ],
+      "url": "https://www.thehindubusinessline.com/economy/policy/government-cuts-windfall-tax-on-diesel-atf-exports-petrol-duty-unchanged/article71530122.ece",
+      "published_at": "2026-09-30T06:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Afrique",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Dernières nouvelles en direct sur la guerre entre les États-Unis, Israël et l’Iran : le CGRI revendique des attaques quotidiennes de navires dans le détroit d’Ormuz alors que le Qatar et l’Égypte cherchent une désescalade régionale. Inde, 30 septembre - Dernières nouvelles en direct sur la guerre entre les États-Unis, Israël et l'Iran : Le conflit entre les États-Unis, Israël et l'Iran est sur le point d'entrer dans une nouvelle étape critique alors que la diplomatie et la sécurité maritime deviennent des éléments importants de la…",
+      "sources": [
+        "The Sunday Guardian Live via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/us-israel-iran-war-latest-live-news-irgc-claims-daily-ship-attacks-in-strait-of-hormuz-as-qatar-and-egypt-seek-regional-de-escalation/ar-AA2dhlEF",
+      "published_at": "2026-09-30T13:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "Iran",
+        "Israël",
+        "Qatar",
+        "Égypte",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Le président Donald Trump (États-Unis) célèbre le départ des dernières forces américaines d’Irak, 23 ans après l’invasion : « Nous nous enfuyons ». Le président Trump a célébré mercredi le retrait des troupes américaines d’Irak et a insisté sur le fait que sa guerre avec l’Iran ne durerait pas des décennies.",
+      "sources": [
+        "New York Post — fiabilité 6/10"
+      ],
+      "url": "https://nypost.com/2026/09/30/us-news/trump-celebrates-departure-of-last-us-forces-from-iraq-23-years-after-invasion/",
+      "published_at": "2026-09-30T00:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Brésil : une course présidentielle très serrée | demande à Ian. Dans cette « question », Ian Bremmer analyse l'élection présidentielle brésilienne, une course trop serrée pour être déclenchée avant le vote de dimanche. Abonnez-vous à la chaîne YouTube de Ian_Bremmer…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/videos/brazils-razor-close-presidential-race-180735229.html",
+      "published_at": "2026-09-30T13:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le programme d'immigration du président Donald Trump (États-Unis) a remporté une victoire temporaire majeure à la Cour suprême. La Cour suprême a statué hier que l'administration Trump peut continuer à expulser des étrangers illégaux vers des pays tiers, accordant un sursis temporaire qui a bloqué une décision de la cour d'appel qui avait …",
+      "sources": [
+        "Townhall — fiabilité 6/10"
+      ],
+      "url": "https://townhall.com/news/amy-curtis/2026/09/30/scotus-3rd-country-deportations-n2683858",
+      "published_at": "2026-09-30T06:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La Russie lance une attaque majeure contre le réseau énergétique ukrainien à l'approche de l'hiver, faisant sept morts. Des coupures d'électricité d'urgence sont en vigueur et certains systèmes de transports publics sont suspendus après de lourdes grèves à travers le pays.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+      ],
+      "url": "https://www.abc.net.au/news/2026-10-01/russia-hits-ukrainian-energy-grid/107214710",
+      "published_at": "2026-09-30T12:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Non, les résidents du Kentucky ne sont pas éligibles aux chèques de 500 $ du président Donald Trump (États-Unis). Voici pourquoi. Les chèques du Département du Trésor commenceront à être envoyés le 30 septembre à plus de 950 000 Américains dans 30 États, selon un responsable de l'administration.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/no-ky-residents-arent-eligible-175143704.html",
+      "published_at": "2026-09-30T12:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Glaciers en diminution, lacs en voie de disparition et champs de pétrole dans le désert : 10 lieux transformés par satellite. De la mer d'Aral asséchée au littoral chinois en expansion rapide, l'imagerie satellite révèle à quelle vitesse le changement climatique, l'industrialisation et l'activité humaine remodèlent la planète. Ces …",
+      "sources": [
+        "TDC via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/weather/climate-change/shrinking-glaciers-vanishing-lakes-and-oil-fields-in-the-desert-10-places-transformed-by-satellite/vi-AA2dhIX5",
+      "published_at": "2026-09-30T10:24:32+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Canadien Carney est désormais à la tête du monde libre. Dans le vide laissé par le président Donald Trump (États-Unis), le Premier ministre a ouvert la voie en cherchant à établir un nouvel ordre international qui ne dépende pas des États-Unis.",
+      "sources": [
+        "The Seattle Times — fiabilité 6/10"
+      ],
+      "url": "https://www.seattletimes.com/opinion/canadas-carney-leads-the-free-world-now/",
+      "published_at": "2026-09-30T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : une nouvelle demande d’aide financière qui passe mal à Bruxelles. Alors que l’Union européenne commence à débourser 90 milliards d’euros pour soutenir Kiev d’ici à la fin de 2027, l’Ukraine demande déjà une rallonge de plusieurs dizaines de milliards d’euros. L’Euro …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/09/30/guerre-en-ukraine-une-nouvelle-demande-d-aide-financiere-qui-passe-mal-a-bruxelles_6786112_3210.html",
+      "published_at": "2026-09-30T12:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Turquie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "En Turquie, l’un des derniers médias indépendants contraint de cesser ses activités. Média de centre gauche critique du gouvernement islamo-nationaliste du président Recep Tayyip Erdogan, « T24 » a reçu l’ordre de fermer son site, pour 118 contenus jugés comme relevant de la propagand …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/09/30/en-turquie-l-un-des-derniers-medias-independants-contraint-de-cesser-ses-activites_6786116_3210.html",
+      "published_at": "2026-09-30T13:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) va dévoiler 54 milliards de dollars d'investissements sud-coréens en Alaska. Le président Trump devrait annoncer un investissement sud-coréen de 54 milliards de dollars dans un gazoduc en Alaska – la deuxième annonce majeure d’investissement étranger cette semaine liée aux courses compétitives au Sénat.",
+      "sources": [
+        "10news.com — fiabilité 6/10"
+      ],
+      "url": "https://www.10news.com/us-news/trump-will-unveil-54-billion-in-south-korean-investment-in-alaska-site-of-a-tight-senate-race",
+      "published_at": "2026-09-30T20:00:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
