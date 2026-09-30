@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:24:16.908632+02:00",
+  "generated_at": "2026-09-30T12:34:43.365347+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -7812,8 +7812,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Singapour",
-        "Indonésie"
+        "Indonésie",
+        "Singapour"
       ]
     },
     {
@@ -31856,6 +31856,162 @@
       "url": "https://windowsreport.com/openai-apologizes-after-ai-agents-enter-australian-government-systems/",
       "published_at": "2026-09-30T05:04:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "L'inflation grimpe à 3% sur un an en septembre, portée par la hausse des prix de l'énergie et des produits frais. La vague d'inflation qui touche la France, comme le reste de l'Europe, s'explique principalement par le déclenchement de la guerre en Iran et le blocage du détroit d'Ormuz.",
+      "sources": [
+        "franceinfo.fr — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/economie/inflation/l-inflation-grimpe-a-3-sur-un-an-en-septembre-portee-par-la-hausse-des-prix-de-l-energie-et-des-produits-frais_8215880.html",
+      "published_at": "2026-09-30T08:59:26+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France",
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Les coûts de l’énergie déclenchent des poussées d’inflation en France et en Italie. Les taux d'inflation ont bondi en France et en Italie en septembre alors que les coûts de l'énergie et du carburant ont grimpé en raison de la guerre au Moyen-Orient, selon des données officielles publiées mercredi. Le taux annuel atteint 3 pour cent en France, …",
+      "sources": [
+        "Times of Malta — fiabilité 6/10"
+      ],
+      "url": "https://timesofmalta.com/article/energy-costs-spark-inflation-surges-france-italy.1134856",
+      "published_at": "2026-09-30T05:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France",
+        "Italie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Tom Tiffany a-t-il voté cinq fois contre la fin de la guerre en Iran ?. Le représentant américain Tom Tiffany a voté contre cinq résolutions de la Chambre ordonnant au le président Donald Trump (États-Unis) de retirer les forces américaines des hostilités avec l'Iran.",
+      "sources": [
+        "USA TODAY — fiabilité 6/10"
+      ],
+      "url": "https://www.usatoday.com/story/news/factcheck/2026/09/30/has-tom-tiffany-voted-five-times-against-ending-the-iran-war/92006161007/",
+      "published_at": "2026-09-30T05:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Face aux poursuites liées au climat, les grandes sociétés pétrolières se tournent à nouveau vers la Cour suprême des États-Unis. Confrontées à une éventuelle responsabilité pour les dommages liés au changement climatique, les grandes compagnies pétrolières se sont de nouveau tournées vers la Cour suprême des États-Unis, lançant une affaire qui pourrait déterminer le sort de dizaines de …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/legal/government/facing-climate-lawsuits-big-oil-again-turns-us-supreme-court-2026-09-30/",
+      "published_at": "2026-09-30T05:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Ce que « l’arc de triomphe » du président Donald Trump (États-Unis) signifie réellement pour l’Amérique. Construire l’arche sous prétexte de « sécurité nationale » soulève des questions sur le type de menace envisagée par le président.",
+      "sources": [
+        "Los Angeles Times — fiabilité 7/10"
+      ],
+      "url": "https://www.latimes.com/opinion/story/2026-09-30/trumps-triumphal-arch",
+      "published_at": "2026-09-30T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "LEE CARTER : le président Donald Trump (États-Unis) peut encore attirer l’attention, peut-il détourner les électeurs de leurs projets de loi ?. L'approbation du président Donald Trump (États-Unis) sur l'inflation se situe à seulement 24 %, alors que les sondages montrent que 62 % des électeurs considèrent les prix des produits alimentaires comme un problème majeur avant les élections de mi-mandat de 2026.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/opinion/lee-carter-trump-get-attention-distract-voters-bills",
+      "published_at": "2026-09-30T04:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "Israël",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La guerre en Iran en direct : Trump affirme que la guerre prendra fin très bientôt, ne donne aucun détail | Guerre des États-Unis et d’Israël contre l’Iran News. Le président Donald Trump (États-Unis) a réaffirmé que Téhéran ne disposerait pas d’armes nucléaires.",
+      "sources": [
+        "aljazeera.com — fiabilité 6/10"
+      ],
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/30/iran-war-live-trump-claims-war-will-end-very-soon-provides-no-details?update=5000932",
+      "published_at": "2026-09-30T11:45:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
