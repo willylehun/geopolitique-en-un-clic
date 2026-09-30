@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:13:34.751830+02:00",
+  "generated_at": "2026-09-30T16:23:49.641869+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -35666,6 +35666,91 @@
       "url": "https://www.agenceecofin.com/actualites-numerique/3009-142012-infrastructure-numerique-la-tanzanie-prevoit-2-6-milliards-d-investissements-d-ici-2031",
       "published_at": "2026-09-30T08:13:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "La crise énergétique fait grimper l’inflation en Europe et met la BCE sous pression. Principaux renseignements La flambée des coûts énergétiques provoquée par le conflit en Iran a poussé l’inflation bien au-delà des prévisions dans les principales économies européennes, renforçant ain …",
+      "sources": [
+        "Business AM via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-be/actualite/other/la-crise-énergétique-fait-grimper-l-inflation-en-europe-et-met-la-bce-sous-pression/ar-AA2dhyhH",
+      "published_at": "2026-09-30T09:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Israël",
+        "Palestine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les attaques israéliennes sur Gaza (Palestine) font sept morts alors que les violations du cessez-le-feu se poursuivent | Israël - Conflit palestinien Actualités. Au moins six personnes tuées dans une attaque de drone contre une camionnette et une personne tuée dans une frappe contre un appartement résidentiel.",
+      "sources": [
+        "aljazeera.com — fiabilité 6/10"
+      ],
+      "url": "https://www.aljazeera.com/news/2026/9/30/israeli-attacks-on-gaza-kill-several-as-ceasefire-violations-continue",
+      "published_at": "2026-09-30T16:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les réserves de gaz allemandes ne sont remplies qu à moitié : Berlin (Allemagne) donne à l énergéticien public jusquau 15 décembre pour renforcer les stocks avant lhiver. SEFE, ancienne filiale allemande du géant russe Gazprom, détenue par l'Etat fédéral, a été chargée d'acquérir et de stocker huit térawattheures (TWh) de gaz supplémentaires d'ici au 15 décembre.",
+      "sources": [
+        "bfmtv.com — fiabilité 6/10"
+      ],
+      "url": "https://www.bfmtv.com/economie/entreprises/energie/les-reserves-de-gaz-allemandes-ne-sont-remplies-qu-a-moitie-berlin-donne-a-l-energeticien-public-jusqu-au-15-decembre-pour-renforcer-les-stocks-avant-l-hiver_AD-202609300507.html",
+      "published_at": "2026-09-30T16:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "U. S. La coopérative Doug OBrien prendra la parole lors des événements Reuters Transform Food & Agriculture États-Unis 2026. L'Association des coopératives américaines (U. Co�ops) annonce aujourd'hui que le président et chef de la direction, Doug O�Brien, rejoindra un groupe influent de leaders mondiaux de l'alimentation, de l'agriculture, de la vente au détail et du développement durable en tant que conférencier invité à Reuters Events Transform Food & Agriculture USA 2026, qui aura lieu les 27 et 28 octobre à Minneapolis.,,,, La conférence réunira des cadres supérieurs et des décideurs politiques pour examiner comment le système alimentaire peut renforcer la résilience, améliorer les perfo…",
+      "sources": [
+        "webwire.com — fiabilité 6/10"
+      ],
+      "url": "https://www.webwire.com/ViewPressRel.asp?aId=361179",
+      "published_at": "2026-09-30T16:00:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
