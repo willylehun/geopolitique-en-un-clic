@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:41:13.200495+02:00",
+  "generated_at": "2026-09-30T14:51:28.689413+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -598,9 +598,9 @@
         "Reuters"
       ],
       "countries": [
-        "Égypte",
         "Éthiopie",
-        "Afrique du Sud"
+        "Afrique du Sud",
+        "Égypte"
       ]
     },
     {
@@ -11690,8 +11690,8 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -11705,8 +11705,8 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Égypte",
-        "Israël"
+        "Israël",
+        "Égypte"
       ]
     },
     {
@@ -23289,13 +23289,13 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "International"
       ],
       "countries": [
-        "Égypte",
-        "Irak"
+        "Irak",
+        "Égypte"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -23498,8 +23498,8 @@
       "countries": [
         "Cambodge",
         "Thaïlande",
-        "Vietnam",
-        "Malaisie"
+        "Malaisie",
+        "Vietnam"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28562,8 +28562,8 @@
       ],
       "countries": [
         "Cambodge",
-        "Vietnam",
-        "France"
+        "France",
+        "Vietnam"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -34361,8 +34361,8 @@
         "International"
       ],
       "countries": [
-        "Égypte",
-        "Madagascar"
+        "Madagascar",
+        "Égypte"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -34436,6 +34436,416 @@
       ],
       "url": "https://www.la-croix.com/international/maroc-fatima-ezzahra-el-mansouri-une-premiere-ministre-sous-pression-sociale-20260930",
       "published_at": "2026-09-30T05:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Nifty H1FY27 Review : Meilleurs gagnants et perdants | H2FY27 peut-il offrir de meilleurs rendements ?. Alors que le Nifty 50 conclut le S1FY27 avec un modeste gain de 1,3 %, le marché est confronté aux défis de la hausse des prix du pétrole et des rendements obligataires dans un contexte de tensions géopolitiques. Les actions Seven Nifty ont baissé de plus de 10 % en…",
+      "sources": [
+        "Mint — fiabilité 6/10"
+      ],
+      "url": "https://www.livemint.com/market/stock-market-news/nifty-h1fy27-review-top-gainers-and-losers-can-h2fy27-deliver-better-returns-11790767405138.html",
+      "published_at": "2026-09-30T07:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Carburant, produits frais, tabac… L’inflation grimpe à 3 % en France, le plus haut niveau depuis 2 ans. Selon les données provisoires de l’Insee publiées ce mercredi 30 septembre 2026, l’inflation en France devrait atteindre 3 % en septembre. Un niveau inédit depuis février 2024.",
+      "sources": [
+        "L'Indépendant — fiabilité 6/10"
+      ],
+      "url": "https://www.lindependant.fr/2026/09/30/carburant-produits-frais-tabac-linflation-grimpe-a-3-en-france-le-plus-haut-niveau-depuis-2-ans-13576423.php",
+      "published_at": "2026-09-30T07:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Pep Guardiola brise le silence et prend parti alors que Man City et la Premier League entrent en guerre. Pep Guardiola s'est prononcé après que Manchester City ait été reconnu coupable. Pep Guardiola a publié une déclaration à la suite du verdict de culpabilité retentissant de Manchester City dans son affaire avec le Premier ministre…",
+      "sources": [
+        "AOL.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.co.uk/articles/pep-guardiola-breaks-silence-picks-122200000.html",
+      "published_at": "2026-09-30T07:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Sécurité",
+      "summary": "Les incidents de piratage de l’IA augmentent les risques pour la sécurité financière, prévient la Banque d’Angleterre. Le Comité de politique financière de la Banque a déclaré que les perspectives de risque pour l’économie britannique se sont détériorées depuis juillet. L'augmentation des incidents de sécurité liés aux tests d'IA a accru la nécessité pour les entreprises de se préparer aux cyber…",
+      "sources": [
+        "London Evening Standard — fiabilité 6/10"
+      ],
+      "url": "https://www.standard.co.uk/business/business-news/bank-of-england-claude-andrew-bailey-b1298989.html",
+      "published_at": "2026-09-30T06:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Un avion à destination d'Israël contraint d'atterrir en Arabie Saoudite, les deux pilotes étant hospitalisés après un « incident ». Un communiqué de la société exploitant l'aéroport indique que \"le commandant de bord et le copilote de l'avion ont été blessés\", ajoutant que les passagers ont reçu les soins nécessaires.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/en/international/article/2026/09/30/plane-bound-for-israel-forced-to-land-in-saudi-arabia-both-pilots-hospitalized-after-incident_6758104_4.html",
+      "published_at": "2026-09-30T06:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite",
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'économie américaine a connu une solide croissance de 2,2 % au deuxième trimestre, selon le gouvernement, revalorisant ses estimations précédentes. L'économie américaine a connu une croissance solide de 2,2 % entre avril et juin, grâce à la vigueur des dépenses de consommation et des investissements des entreprises.",
+      "sources": [
+        "AP — fiabilité 9/10"
+      ],
+      "url": "https://apnews.com/article/economic-growth-inflation-trump-trade-b759367e9e6149fe145652cc95887aa0",
+      "published_at": "2026-09-30T07:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'indicateur d'inflation préféré de la Fed s'est refroidi en août mais est resté élevé. Le Département du Commerce a indiqué que l'inflation PCE est restée élevée en août, à un niveau bien supérieur à l'objectif de 2 % de la Réserve fédérale.",
+      "sources": [
+        "Fox Business — fiabilité 6/10"
+      ],
+      "url": "https://www.foxbusiness.com/economy/august-2026-pce-inflation",
+      "published_at": "2026-09-30T07:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Cabinet approuve une augmentation de Rs 25 du prix MSP du blé à Rs 2 610 : voir la liste des tarifs de carthame, gramme d'orge, lentilles, moutarde. Zee Business fournit les dernières nouvelles commerciales telles que les nouvelles et les mises à jour du marché boursier indien, les nouvelles en direct de Sensex et les nouvelles astucieuses. Découvrez l'actualité des finances personnelles du monde de l'entreprise, dont l'ESB…",
+      "sources": [
+        "Zee Business — fiabilité 6/10"
+      ],
+      "url": "https://www.zeebiz.com/economy-infra/news-cabinet-approves-rs-25-hike-in-wheat-msp-price-to-rs-2610-see-barley-gram-lentil-mustart-safflower-rate-list-403127",
+      "published_at": "2026-09-30T07:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Telkom nomme Nanang Hendarno au poste de PDG, en remplacement de Dian Siswarini. Djakarta. Telkom Indonesia (IDX : TLKM), la plus grande entreprise de télécommunications d'Indonésie, a nommé Nanang Hendarno au poste de nouveau président-directeur, en remplacement de Dian Siswarini dans le cadre d'un remaniement de la direction…",
+      "sources": [
+        "Jakarta Globe — fiabilité 6/10"
+      ],
+      "url": "https://jakartaglobe.id/business/telkom-names-nanang-hendarno-as-ceo-replacing-dian-siswarini",
+      "published_at": "2026-09-30T00:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Indonésie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Dow Jones | Nasdaq | Marché boursier américain aujourd'hui | En direct : les contrats à terme sur actions américaines sont en légère baisse avant le rapport clé sur l'inflation. Le mois de septembre a été marqué par une immense volatilité sur les marchés obligataires et une hausse des prix du pétrole brut en raison du conflit en cours entre les États-Unis et l'Iran, déclenchant des craintes d'inflation et affectant les actifs à risque…",
+      "sources": [
+        "The Economic Times — fiabilité 6/10"
+      ],
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-stock-market-live-updates-nasdaq-sp-500-iran-war-hormuz-deal-brent-crude-oil-fed-warsh-treasury-bond-meta-openai-boeing-northrop-grumman-ai-chip-stock-price-news-30th-september-2026/liveblog/134594254.cms",
+      "published_at": "2026-09-30T07:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Monarch Private Capital clôture quatre investissements dans des logements abordables en août, soutenant 418 logements dans quatre communautés. Près de 158 millions de dollars de développement en Caroline du Sud, au Missouri et en Géorgie démontrent un investissement continu dans le logement abordable…",
+      "sources": [
+        "The Manila Times — fiabilité 6/10"
+      ],
+      "url": "https://www.manilatimes.net/2026/09/30/tmt-newswire/globenewswire/monarch-private-capital-closes-four-affordable-housing-investments-in-august-supporting-418-homes-across-four-communities/2436045",
+      "published_at": "2026-09-30T07:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Géorgie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "« Sera prête à utiliser tout l’arsenal » : la Russie met en garde l’OTAN contre une réponse nucléaire si Kaliningrad est isolée. La Russie a déclaré que toute tentative visant à couper l’enclave baltique pourrait déclencher un conflit armé direct, tandis que l’OTAN a condamné la « rhétorique nucléaire irresponsable » de Moscou et a promis de continuer à soutenir l’Ukraine.",
+      "sources": [
+        "Firstpost — fiabilité 6/10"
+      ],
+      "url": "https://www.firstpost.com/world/will-be-ready-to-use-entire-arsenal-russia-warns-nato-of-nuclear-response-if-kaliningrad-is-isolated-14049434.html",
+      "published_at": "2026-09-30T07:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Lula annonce sa candidature pour un quatrième mandat lors de l’élection présidentielle brésilienne de 2026. Lula annonce sa candidature pour un quatrième mandat aux élections brésiliennes de 2026. Lula remportera le plus grand nombre de voix au premier tour avec 74,5 % de OUI.",
+      "sources": [
+        "Crypto Briefing — fiabilité 6/10"
+      ],
+      "url": "https://cryptobriefing.com/lula-announces-bid-for-fourth-term-in-brazils-2026-presidential-election/",
+      "published_at": "2026-09-30T07:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : l’Europe doit se préparer à une multiplication des attaques hybrides russes au cours des prochains mois, avertit le ministre de la défense belge. « Il y aura davantage d’actions liées aux menaces hybrides dans les prochains mois. Ce sera un hiver sombre pour l’Europe », a averti mercredi Theo Francken.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/09/30/en-direct-guerre-en-ukraine-l-europe-doit-se-preparer-a-une-multiplication-des-attaques-hybrides-russes-au-cours-des-prochains-mois-avertit-le-ministre-de-la-defense-belge_6783795_3210.html",
+      "published_at": "2026-09-30T07:21:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Pologne",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Comment Poutine sème le chaos en Pologne alors que la guerre en Ukraine s’étend à toute l’Europe. La Pologne accuse la Russie de mener une campagne de sabotage coordonnée et multiforme pour dissuader les partisans de l'Ukraine, écrit …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/articles/putin-sowing-chaos-poland-ukraine-091101707.html",
+      "published_at": "2026-09-30T04:12:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Irak",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis retirent leurs derniers soldats d’Irak – le vide du pouvoir menace. Bagdad/Washington (dpa) – Après le retrait de l'armée américaine, le gouvernement irakien doit assurer sa propre sécurité. Le prévu…",
+      "sources": [
+        "berchtesgadener-anzeiger.de — fiabilité 6/10"
+      ],
+      "url": "https://www.berchtesgadener-anzeiger.de/startseite_artikel,-usa-ziehen-letzte-soldaten-aus-irak-ab-machtvakuum-droht-_arid,1019150.html",
+      "published_at": "2026-09-30T14:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe"
+      ],
+      "countries": [
+        "Guinée équatoriale",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Page officielle du gouvernement de la République de Guinée équatoriale. La délégation de Casa Moda Lucas Escalada est revenue ce lundi 28 septembre en Guinée équatoriale après une participation exceptionnelle à Paris, où le designer équato-guinéen Lucas Nguema Escalada a présenté sa nouvelle collection « Revivir-Un monde sans VIH/SIDA », dans le cadre de FIMO228 Édition France 2026, une rencontre internationale de mode organisée lors de l'ouverture de la Fashion Week de Paris.",
+      "sources": [
+        "guineaecuatorialpress.com — fiabilité 6/10"
+      ],
+      "url": "https://www.guineaecuatorialpress.com/noticias/lucas_nguema_escalada_regresa_tras_llevar_la_moda_de_guinea_ecuatorial_a_paris",
+      "published_at": "2026-09-30T14:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Kazakhstan",
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le Kazakhstan va accroître ses exportations de pétrole vers l’Allemagne. Lors d’une conférence de press …",
+      "sources": [
+        "Business AM via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-be/finance/économie/le-kazakhstan-va-accroître-ses-exportations-de-pétrole-vers-l-allemagne/ar-AA2dhiXW",
+      "published_at": "2026-09-30T07:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Kazakhstan"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le Kazakhstan veut faire tourner ses mineurs de Bitcoin au gaz torché de ses champs pétroliers. Après un décret signé en juillet, le Kazakhstan finalise les règles pour brancher ses mineurs de Bitcoin sur le gaz associé qu'il torchait encore en 2024.",
+      "sources": [
+        "Journal Du Coin — fiabilité 6/10"
+      ],
+      "url": "https://journalducoin.com/bitcoin/kazakhstan-mineurs-bitcoin-gaz/",
+      "published_at": "2026-09-30T07:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe"
+      ],
+      "countries": [
+        "Algérie",
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "AAPI : examen des opportunités de renforcement du partenariat entre l'Algérie et la Russie. Le Directeur général de l'Agence algérienne de promotion de l'investissement (AAPI), Omar Rekkache, a examiné, mardi, avec le président du Conseil d'affaires algéro-russe, Ahmed Azimov, les opportunit …",
+      "sources": [
+        "L'Expression via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/afrique-du-nord/algerie-actualite/aapi-examen-des-opportunités-de-renforcement-du-partenariat-entre-lalgérie-et-la-russie/ar-AA2dgE2c",
+      "published_at": "2026-09-30T05:43:12+02:00",
       "origin": "rss",
       "content_enriched": true
     },
