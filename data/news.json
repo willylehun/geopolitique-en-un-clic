@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:57:43.652069+02:00",
+  "generated_at": "2026-09-30T08:25:42.584805+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -765,8 +765,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Océanie"
+        "Océanie",
+        "Asie"
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
@@ -777,8 +777,8 @@
         "Reuters"
       ],
       "countries": [
-        "Inde",
-        "Nouvelle-Zélande"
+        "Nouvelle-Zélande",
+        "Inde"
       ]
     },
     {
@@ -1649,8 +1649,8 @@
       "language": "fr",
       "countries": [
         "Israël",
-        "Palestine",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Palestine"
       ]
     },
     {
@@ -2949,8 +2949,8 @@
       "origin": "rss",
       "countries": [
         "Israël",
-        "Palestine",
-        "Canada"
+        "Canada",
+        "Palestine"
       ]
     },
     {
@@ -2972,8 +2972,8 @@
       "origin": "rss",
       "countries": [
         "Israël",
-        "Palestine",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Palestine"
       ]
     },
     {
@@ -3039,8 +3039,8 @@
       "origin": "rss",
       "countries": [
         "Israël",
-        "Palestine",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Palestine"
       ]
     },
     {
@@ -10444,8 +10444,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -12715,8 +12715,8 @@
       "origin": "rss",
       "countries": [
         "Chine",
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -25731,8 +25731,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -34287,13 +34287,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Palestine",
         "Royaume-Uni",
+        "Palestine",
         "Qatar"
       ],
       "period": "day",
@@ -35003,6 +35003,192 @@
       ],
       "url": "https://www.agenceecofin.com/actualites/3009-142001-la-rdc-veut-renforcer-son-arsenal-juridique-contre-la-corruption",
       "published_at": "2026-09-30T00:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT Guerre en Ukraine : le chancelier Friedrich Merz (Allemagne) considère que Moscou refuse des pourparlers sérieux …. Suivez avec nous les informations de ce mercredi 30 septembre 2026 concernant le conflit russo-ukrainien",
+      "sources": [
+        "20minutes.fr — fiabilité 6/10"
+      ],
+      "url": "https://www.20minutes.fr/monde/ukraine/4249940-20260930-direct-guerre-ukraine-merz-considere-moscou-refuse-pourparlers-serieux",
+      "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Cuba",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Cuba accuse les États-Unis. Les États-Unis entravent ses réformes économiques. Le gouvernement cubain a accusé mardi les États-Unis d'« entraver » le processus de réformes économiques lancé sur l'île.",
+      "sources": [
+        "rtve.es — fiabilité 6/10"
+      ],
+      "url": "https://www.rtve.es/noticias/20260930/cuba-acusa-eeuu-obstaculizar-proceso-reformas-economicas/17246643.shtml",
+      "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Nigeria : Exclusion, inégalités, aggravation du conflit, insécurité au Nigeria, déclare AUSS-NG. La série de séminaires des universités africaines-Nigéria (AUSS-NG) a appelé à la reconstruction de la citoyenneté nigériane autour de l'inclusion, de l'égalité, de la participation et de la justice sociale, avertissant que les inégalités structurelles et l'exclusion continuent d'aggraver les conflits et l'insécurité à travers le pays.",
+      "sources": [
+        "allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://allafrica.com/stories/202609300026.html",
+      "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Nigeria : La raffinerie de Dangote dépasse sa capacité nominale et renforce la sécurité énergétique et la position d'exportation du Nigeria. La raffinerie de pétrole de Dangote a franchi une étape opérationnelle importante, enregistrant une utilisation moyenne de sa capacité de 105,21 % en août 2026, selon les données publiées par l'Autorité nigériane de régulation du pétrole du secteur intermédiaire et en aval (NMDPRA).",
+      "sources": [
+        "allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://allafrica.com/stories/202609300089.html",
+      "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Nigeria : Une fois de plus, le Sénat prolonge l'exécution du budget 2025 après l'échec de la promesse de Tinubu. Les législateurs ont prolongé le calendrier de mise en œuvre de la composante capital du budget jusqu'au 31 décembre 2026 afin de donner aux MDA suffisamment de temps pour achever les projets d'investissement pour lesquels des fonds ont été affectés et débloqués.",
+      "sources": [
+        "allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://allafrica.com/stories/202609300061.html",
+      "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Nigeria : Les réformes de Tinubu ont mis l'économie nigériane sur la voie d'une croissance durable - Otedola. M. Otedola a fait ces distinctions lundi à Paris lors d'un dîner privé avec le président, qui est en vacances-travail de 28 jours en Europe.",
+      "sources": [
+        "allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://allafrica.com/stories/202609300067.html",
+      "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Nigéria : Un tribunal kenyan arrête la construction de la raffinerie de Dangote, selon une entreprise, les travaux d'inauguration sont toujours valables. Un tribunal kenyan a ordonné l'arrêt temporaire des activités de la raffinerie proposée de Dangote, dans le comté de Lamu, à la suite d'une contestation judiciaire intentée par des agriculteurs et des habitants de Chandavai, qui alléguaient une expulsion forcée et la destruction de leurs propriétés.",
+      "sources": [
+        "allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://allafrica.com/stories/202609300069.html",
+      "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Nigeria va battre les records du CANEX alors que 10 000 délégués sont attendus - Oduwole. Le gouvernement fédéral prévoit que plus de 10 000 participants assisteront au week-end Creative Africa Nexus (CANEX) 2026 à Lagos. Le ministre de l'Industrie, du Commerce et de l'Investissement, le Dr Jumoke Oduwole, a déclaré que le Nigeria est sur le point de battre les précédents records du CANEX.",
+      "sources": [
+        "allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://allafrica.com/stories/202609300090.html",
+      "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Nigeria : à Bille, des lenteurs administratives causent des tensions [ 3 / 3 ] - Reportage Afrique. Dernier épisode de cette série de Reportage Afrique, à Bille dans le delta du Niger. Depuis fin octobre 2025, une pollution au gaz touche ce grand village de pêcheurs accessible uniquement par bateau.…",
+      "sources": [
+        "rfi.fr — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260929-nigeria-%C3%A0-bille-des-lenteurs-administratives-causent-des-tensions-3-3",
+      "published_at": "2026-09-30T03:15:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
