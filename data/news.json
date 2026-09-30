@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:37:31.954960+02:00",
+  "generated_at": "2026-09-30T09:48:21.430740+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29662,6 +29662,334 @@
       "countries": [
         "Royaume-Uni"
       ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Burnham met en garde contre une crise énergétique alors que les factures devraient atteindre 2 000 £. Andy Burnham a averti que les ménages britanniques seraient confrontés à une crise énergétique cet hiver alors que les factures grimperaient le plus en quatre ans. Le Premier ministre a déclaré mercredi qu'il envisagerait des mesures pour tenter d'atténuer le…",
+      "sources": [
+        "The Telegraph — fiabilité 6/10"
+      ],
+      "url": "https://www.telegraph.co.uk/business/2026/09/30/burnham-warns-of-energy-crisis-bills-to-soar/",
+      "published_at": "2026-09-30T02:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Russie prolonge d’un mois l’interdiction d’exporter du diesel jusqu’en octobre. La Russie a prolongé l'interdiction sur la plupart des exportations de diesel jusqu'en octobre, resserrant encore davantage le marché mondial au moment même où la demande augmente à l'approche de l'hiver dans l'hémisphère Nord et où les États-Unis considèrent que leur propre …",
+      "sources": [
+        "Bloomberg — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/russia-extends-diesel-export-ban-by-a-month-through-october",
+      "published_at": "2026-09-30T02:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L’inflation grimpe à 3 % en septembre sur un an, selon l’Insee. Les prix à la consommation ont bondi de 3 % sur un an en septembre, après 2,4 % en août, selon les chiffres de l’Insee. La hausse est de nouveau portée par « les prix de l’énergie ».",
+      "sources": [
+        "Ouest-France — fiabilité 6/10"
+      ],
+      "url": "https://www.ouest-france.fr/economie/inflation/linflation-grimpe-a-3-pourcent-en-septembre-sur-un-an-selon-linsee-8ea620a8-bc98-11f1-8ea4-97dc4d7cca62",
+      "published_at": "2026-09-30T02:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La production économique britannique a été révisée à la hausse pour afficher une croissance plus forte au deuxième trimestre. LONDRES, 30 septembre (Reuters) - L'économie britannique a connu une croissance plus rapide que prévu au deuxième trimestre, avec des signes positifs concernant les finances des ménages et les investissements des entreprises qui pourraient encourager…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-gb/money/economy/uk-economic-output-revised-up-to-show-stronger-q2-growth/ar-AA2dfqeJ",
+      "published_at": "2026-09-30T01:52:28+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le retour du pétrole brut chinois s'essouffle alors que la guerre en Iran entre dans son huitième mois. La reprise naissante de la demande pétrolière chinoise a commencé à faiblir, alors que la poursuite des combats au Moyen-Orient et l'offre limitée de l'Iran maintiennent les prix du brut trop élevés pour les raffineurs privés, ce qui incite certains …",
+      "sources": [
+        "Bloomberg — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/china-crude-comeback-loses-steam-as-iran-war-enters-eighth-month",
+      "published_at": "2026-09-30T01:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les éléments voyous dans les institutions doivent être identifiés et étudiés – Rabuka. Aucune institution n'est parfaite, et s'il existe des éléments voyous au sein de ces institutions, ils doivent être identifiés et enquêter. Le Premier ministre Sitiveni …",
+      "sources": [
+        "Fijivillage — fiabilité 6/10"
+      ],
+      "url": "https://www.fijivillage.com/news/rogue-elements-in-institutions-must-be-identified-and-investigated-rabuka-e53004/",
+      "published_at": "2026-09-30T02:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Les actions européennes devraient connaître leur première perte mensuelle en six alors que les rendements obligataires pèsent. Les actions européennes se dirigeaient vers leur première baisse mensuelle en six mercredi, alors que les risques d'inflation découlant de la guerre au Moyen-Orient ont frappé les marchés obligataires du monde entier, augmentant les coûts d'emprunt…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/asia-pacific/european-shares-set-first-monthly-loss-six-bond-yields-weigh-2026-09-30/",
+      "published_at": "2026-09-30T02:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre israélien tient une réunion d’urgence alors qu’un vol de passagers de Tel Aviv se détourne mystérieusement vers l’Arabie Saoudite. Un avion de ligne à destination de Tel-Aviv a été mystérieusement détourné mercredi matin, incitant le Premier ministre israélien à tenir une réunion d'urgence.",
+      "sources": [
+        "Daily Mail via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/australia/israeli-pm-holds-emergency-meeting-as-tel-aviv-passenger-flight-mysteriously-diverts-to-saudi-arabia/ar-AA2dfIrm",
+      "published_at": "2026-09-30T02:05:54+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : dix blessés dans une attaque de drones contre la région de Kherson, selon les autorités prorusses. Le président Volodymyr Zelensky (Ukraine) veut accélérer la production de moyens permettant d’intercepter les drones à réaction russes et a fixé des objectifs précis pour octobre.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/09/30/en-direct-guerre-en-ukraine-un-enfant-tue-par-des-frappes-russes-dans-la-region-de-kiev_6783795_3210.html",
+      "published_at": "2026-09-30T02:35:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Mises à jour en direct : L'armée iranienne affirme que la guerre ne prendra fin que lorsque les États-Unis admettront leur défaite et demandent au public américain de protester contre le président Donald Trump (États-Unis). Le Corps des Gardiens de la révolution iraniens a publié une « lettre au peuple américain » l’exhortant à reconsidérer le leadership du président Trump.",
+      "sources": [
+        "CBS News — fiabilité 7/10"
+      ],
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/",
+      "published_at": "2026-09-30T02:27:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "La Grande-Bretagne se dirige vers une deuxième crise énergétique, prévient le patron de l’industrie, alors que les factures des ménages devraient grimper de 276 £ en janvier. Simone Rossi, directeur général du fournisseur EDF Energy, a déclaré que le prix de l'essence, du diesel et du gaz augmenterait en raison de « forces géopolitiques que nous ne contrôlons pas ».",
+      "sources": [
+        "Daily Mail — fiabilité 6/10"
+      ],
+      "url": "https://www.dailymail.com/news/article-16171623/Britain-second-energy-crisis-EDF-household-bills-electricity-gas.html",
+      "published_at": "2026-09-30T02:38:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Mises à jour en direct sur la guerre contre l'Iran par les États-Unis : l'Iran reçoit des « commentaires » américains sur la proposition de 7 jours de rouvrir le détroit d'Ormuz. Le président Donald Trump (États-Unis) a déclaré qu'il n'avait « rien » proposé à l'Iran pour mettre fin à la guerre, rejetant les informations selon lesquelles il était prêt à assouplir les sanctions et à libérer les gelés.",
+      "sources": [
+        "The Times of India — fiabilité 6/10"
+      ],
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-donald-trump-tehran-sanction-relief-irgc-talks-strait-of-hormuz-oil-prices-ceasefire-proposal-latest-news/liveblog/134577206.cms",
+      "published_at": "2026-09-30T01:55:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "countries": [
+        "Arménie",
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Russie réaffirme sa volonté de construire une nouvelle centrale nucléaire en Arménie - Nouvelles dArménie en Ligne – Toute lactualité sur le monde arménien. Le directeur général de Rosatom, la société d’État russe chargée de l’énergie nucléaire, a longuement discuté avec le Premier ministre Nikol Pashinian de sa proposition de construire une nouvelle centrale nucléaire en Arménie, lors d’une visite à Erevan mardi. « Rosatom propose à l’Arménie des technologies nucléaires éprouvées couvrant différentes gammes de puissance, notamment des […]",
+      "sources": [
+        "armenews.com — fiabilité 6/10"
+      ],
+      "url": "https://www.armenews.com/344128-2/",
+      "published_at": "2026-09-30T09:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Acquisition d'actifs de propriété intellectuelle nucléaire aux États-Unis | Annonce de l'entreprise. Détails complets des annonces réglementaires et non réglementaires des sociétés cotées FTSE 100, 250, AIM et techMARK",
+      "sources": [
+        "investegate.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://www.investegate.co.uk/announcement/rns/avingtrans--avg/acquisition-of-nuclear-ip-assets-in-the-usa/9797860",
+      "published_at": "2026-09-30T09:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le président Vladimir Poutine (Russie) : La machine de guerre du Kremlin s’effondre – La Russie humiliée par les nouvelles armes ukrainiennes. La machine de guerre de Vladimir Poutine présente des fissures évidentes. Alors que l’Ukraine s’appuie sur des robots de combat largués et des missiles intercepteurs de drones, la Russie, dans son désespoir croissant, installe des filets d’acier pour protéger ses infrastructures. Mais les défenses de Moscou s’effondrent.",
+      "sources": [
+        "news.de — fiabilité 6/10"
+      ],
+      "url": "https://www.news.de/politik/860043631/wladimir-putin-gedemuetigt-durch-ukraine-waffen-im-krieg-aktuell-kreml-kriegsmaschinerie-zeigt-risse-kiew-setzt-auf-killerroboter/1/",
+      "published_at": "2026-09-30T09:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Israël",
+        "Palestine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Palestine au cœur du capitalisme mondial. Alors que certains analystes insistent sur l’extrémisme du gouvernement israélien actuel ou l’activité du lobby pro-Israël en Occident, les auteurs de cet ouvrage proposent d’examiner les convergences …",
+      "sources": [
+        "Le Monde Diplomatique — fiabilité 8/10"
+      ],
+      "url": "https://www.monde-diplomatique.fr/2026/10/LEVERBE/70071",
+      "published_at": "2026-09-30T02:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
