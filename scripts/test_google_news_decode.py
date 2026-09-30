@@ -75,5 +75,28 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         raw=")]}'\\n\\n"+json.dumps([["wrb.fr","Fbv4je",json.dumps(["garturlres","https://news.google.com/articles/CBMi",None]),None]])
         self.assertEqual(news._google_batchexecute_publisher(raw),"")
 
+    def test_exact_same_day_bing_match_supplies_publisher_url(self):
+        article_id=RECENT_ARTICLE_IDS[0]
+        day=news.datetime.now(news.UTC)
+        google={"title":"Government announces new sanctions after border conflict","source":"Reuters","date":day,"url":f"https://news.google.com/rss/articles/{article_id}?oc=5","description":"A sufficiently detailed article description from Reuters describes the policy, the government response, the regional impact, and the next diplomatic steps."}
+        bing={"title":google["title"],"source":"www.reuters.com","date":day,"url":"https://www.reuters.com/world/europe/sanctions-border-conflict/"}
+        meta={"countries":["France"],"date":"30 septembre 2026","source":"Reuters","url":google["url"]}
+        with patch.object(news,"detail_is_substantive",return_value=True), \
+             patch.object(news,"french_summary",return_value="Le gouvernement annonce de nouvelles sanctions après un conflit frontalier."), \
+             patch.object(news,"content_rejection_reason",return_value=None):
+            self.assertIsNotNone(news.article_summary(google,meta,candidates=[google,bing]))
+        self.assertEqual(google["url"],bing["url"])
+        self.assertEqual(news.GOOGLE_NEWS_RESOLVED[f"https://news.google.com/rss/articles/{article_id}?oc=5"],bing["url"])
+        self.assertEqual(news.DISCOVERY_STATS["google_decode_cross_feed_fallback"],1)
+
+    def test_cross_feed_match_rejects_wrong_date_or_ambiguous_publisher(self):
+        article_id=RECENT_ARTICLE_IDS[0]
+        day=news.datetime.now(news.UTC)
+        google={"title":"Government announces new sanctions after border conflict","source":"Reuters","date":day,"url":f"https://news.google.com/rss/articles/{article_id}?oc=5"}
+        wrong_day={"title":google["title"],"source":"Reuters","date":day-news.timedelta(days=1),"url":"https://www.reuters.com/world/europe/old/"}
+        self.assertEqual(news.matching_publisher_article_url(google,[wrong_day]),"")
+        other_source={"title":google["title"],"source":"BBC","date":day,"url":"https://www.bbc.com/news/world-1"}
+        self.assertEqual(news.matching_publisher_article_url(google,[wrong_day,other_source]),"")
+
 if __name__=="__main__":
     unittest.main()

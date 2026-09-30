@@ -1389,13 +1389,64 @@ def dedupe_summary_sentences(text):
         seen_keys.add(k); seen_sets.append(words); out.append(part)
     return trim_incomplete_tail(" ".join(out))
 
-def article_summary(art, meta=None, targeted=False):
+def _source_identity(label):
+    raw=(label or "").strip()
+    if not raw: return ""
+    raw=re.sub(r"\s*[—-]\s*fiabilité\s+\d+/10.*$","",raw,flags=re.I)
+    raw=re.sub(r"\([^)]*\)","",raw).strip()
+    host=(urllib.parse.urlparse(raw if "://" in raw else "//"+raw).hostname or "").lower()
+    if host:
+        raw=host.removeprefix("www.").split(".")[0]
+    else:
+        raw=raw.lower()
+    raw=re.sub(r"[^a-z0-9]+","",raw)
+    return {"associatedpress":"ap","apnews":"ap","afp":"agencefrancepresse"}.get(raw,raw)
+
+def matching_publisher_article_url(article, candidates):
+    """Fait le lien uniquement sur un titre exact, une même journée et une source compatible."""
+    title=key_title(article.get("title",""))
+    if not title: return ""
+    try: day=editorial_day(article["date"])
+    except Exception: return ""
+    source=_source_identity(article.get("source",""))
+    matches=[]
+    for candidate in candidates or ():
+        candidate_url=(candidate.get("url") or "").strip()
+        if not candidate_url or _is_google_host(urllib.parse.urlparse(candidate_url).hostname):
+            continue
+        if key_title(candidate.get("title",""))!=title:
+            continue
+        try:
+            if editorial_day(candidate["date"])!=day: continue
+        except Exception:
+            continue
+        candidate_source=_source_identity(candidate.get("source",""))
+        matches.append((candidate_url,source and source==candidate_source))
+    if not matches: return ""
+    source_matches={url for url,matched in matches if matched}
+    if len(source_matches)==1:
+        return next(iter(source_matches))
+    return ""
+
+def article_summary(art, meta=None, targeted=False, candidates=None):
     """Le titre découvre l'article ; le contenu décide, avec une réserve pour les pays ciblés."""
     title=(art.get("title") or "").strip()
     url=art.get("url","")
     if not title:
         note_rejection("titre_absent",title,url)
         return None
+    if is_google_news_url(url):
+        publisher_url=matching_publisher_article_url(art,candidates)
+        if publisher_url:
+            GOOGLE_NEWS_URL_CACHE[url]=publisher_url
+            GOOGLE_NEWS_RESOLVED[url]=publisher_url
+            art["url"]=publisher_url
+            url=publisher_url
+            if meta is not None:
+                meta=dict(meta)
+                meta["url"]=publisher_url
+            DISCOVERY_STATS["google_decode_cross_feed_fallback"]+=1
+            DISCOVERY_STATS["google_decode_success"]+=1
     reason=title_rejection_reason(title)
     if reason:
         note_rejection(reason,title,url)
@@ -1873,7 +1924,7 @@ def global_country_discovery(start_date,end_date,countries):
         if not matched: continue
         k=(d,key_title(title))
         if not k[1] or k in seen: continue
-        summary=article_summary(art,{"countries":matched,"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
+        summary=article_summary(art,{"countries":matched,"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]},candidates=articles)
         if not summary: continue
         seen.add(k); found.update(matched)
         s=score(summary)
@@ -1975,7 +2026,7 @@ def country_backfill(start_date,end_date,state):
             d=editorial_day(art["date"]); title=art["title"]
             k=(d,key_title(title))
             if not k[1] or k in seen: continue
-            summary=article_summary(art,{"countries":[country],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]},targeted=True)
+            summary=article_summary(art,{"countries":[country],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]},targeted=True,candidates=articles)
             if not summary: continue
             seen.add(k)
             s=score(summary)
@@ -2052,7 +2103,7 @@ def build_generated(start_date,end_date):
                 d=editorial_day(art["date"]); title=art["title"]
                 k=(d,key_title(title))
                 if not k[1] or k in seen: continue
-                summary=article_summary(art,{"regions":[region],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]})
+                summary=article_summary(art,{"regions":[region],"date":fr_date(d),"source":source_name(art["source"]),"url":art["url"]},candidates=articles)
                 if not summary: continue
                 importance=score(summary)
                 # International est strictement réservé aux événements d’importance >= 7.
