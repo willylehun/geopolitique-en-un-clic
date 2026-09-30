@@ -54,6 +54,12 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         news.GOOGLE_BING_FALLBACK_USED=0
         news.ARTICLE_DETAIL_USED=0
         news.EXISTING_DETAIL_USED=0
+        news.TRANSLATION_CACHE.clear()
+        news.PENDING.clear()
+        news.RETRY_PENDING.clear()
+        news._TRANSLATION_LAST_REQUEST=0.0
+        news.TRANSLATION_INTERVAL=0
+        news.TRANSLATION_MAX_ATTEMPTS=4
 
     def test_recent_cbmi_ids_resolve_via_rss_splash_and_nested_rpc(self):
         publisher="https://www.reuters.com/world/europe/europe-policy-update-2026-09-30/"
@@ -266,6 +272,70 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         today=news.editorial_day(day)
         retained=news.prioritize_articles([*google,bing],today,today)
         self.assertIn(bing,retained)
+
+    def test_translation_retries_429_then_caches_the_real_translation(self):
+        source="Government announces new sanctions after border conflict"
+        rate_limited=news.urllib.error.HTTPError(
+            "https://translate.googleapis.com/",429,"Too Many Requests",{"Retry-After":"3"},None
+        )
+        translated="Le gouvernement annonce de nouvelles sanctions après le conflit frontalier"
+        response=FakeResponse(json.dumps([[[translated,source,None,None,10]]]),"https://translate.googleapis.com/")
+        with patch.object(news.urllib.request,"urlopen",side_effect=[rate_limited,response]) as request, \
+             patch.object(news.time,"sleep") as sleep:
+            result=news.french_summary(source,{"url":"https://publisher.example/story"})
+        self.assertEqual(result,translated)
+        self.assertEqual(request.call_count,2)
+        sleep.assert_any_call(3.0)
+        self.assertEqual(news.french_summary(source),translated)
+        self.assertEqual(request.call_count,2)
+        self.assertEqual(news.PENDING,[])
+
+    def test_french_text_bypasses_google_translate(self):
+        source="Le gouvernement annonce de nouvelles sanctions après le conflit frontalier."
+        with patch.object(news.urllib.request,"urlopen") as request:
+            self.assertEqual(news.french_summary(source),source)
+        request.assert_not_called()
+
+    def test_exhausted_429_preserves_source_and_metadata_for_later_retry(self):
+        source="Government announces sanctions after a border conflict"
+        metadata={"title":"Government announces sanctions after a border conflict",
+                  "date":"30 septembre 2026","url":"https://publisher.example/story"}
+        error=news.urllib.error.HTTPError(
+            "https://translate.googleapis.com/",429,"Too Many Requests",{},None
+        )
+        news.TRANSLATION_MAX_ATTEMPTS=2
+        news.TRANSLATION_BACKOFF_BASE=0.1
+        with patch.object(news.urllib.request,"urlopen",side_effect=error) as request, \
+             patch.object(news.time,"sleep"):
+            self.assertIsNone(news.french_summary(source,metadata))
+        self.assertEqual(request.call_count,2)
+        self.assertEqual(news.PENDING,[{**metadata,"original_summary":source}])
+
+    def test_saved_pending_translation_is_retried_and_recovered(self):
+        import tempfile
+        source="Government announces new sanctions after a border conflict. The cabinet says the measures will begin this week."
+        pending={"title":"Government announces new sanctions after a border conflict",
+                 "countries":["France"],"date":"30 septembre 2026",
+                 "source":"Reuters","url":"https://publisher.example/story",
+                 "original_summary":source}
+        translated="Le gouvernement annonce de nouvelles sanctions après un conflit frontalier. Le cabinet indique que les mesures commenceront cette semaine."
+        with tempfile.TemporaryDirectory() as tmp:
+            path=Path(tmp)/"pending-translations.json"
+            path.write_text(json.dumps({"items":[pending]}),encoding="utf-8")
+            original_path=news.PENDING_TRANSLATIONS
+            news.PENDING_TRANSLATIONS=path
+            response=FakeResponse(json.dumps([[[translated,source,None,None,10]]]),"https://translate.googleapis.com/")
+            try:
+                with patch.object(news.urllib.request,"urlopen",return_value=response) as request, \
+                     patch.object(news.time,"sleep"):
+                    recovered=news.retry_pending_translations()
+            finally:
+                news.PENDING_TRANSLATIONS=original_path
+        request.assert_called_once()
+        self.assertEqual(news.RETRY_PENDING,[])
+        self.assertEqual(len(recovered),1)
+        self.assertEqual(recovered[0]["url"],pending["url"])
+        self.assertIn("sanctions",recovered[0]["summary"])
 
 if __name__=="__main__":
     unittest.main()
