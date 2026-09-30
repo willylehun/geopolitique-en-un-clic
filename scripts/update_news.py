@@ -1545,6 +1545,8 @@ def matching_publisher_article_url(article, candidates):
     """Fait le lien par titre proche, même jour et même éditeur, sans deviner le média."""
     title=key_title(article.get("title",""))
     if not title: return ""
+    expected_publisher=article.get("publisher_url") or article.get("source","")
+    expected_host=urllib.parse.urlparse(_publisher_url(expected_publisher)).hostname or expected_publisher
     try: day=editorial_day(article["date"])
     except Exception: return ""
     matches=[]
@@ -1557,7 +1559,10 @@ def matching_publisher_article_url(article, candidates):
         except Exception:
             continue
         similarity=_title_similarity(article.get("title",""),candidate.get("title",""))
-        if similarity<0.78 or not _same_publisher(article.get("source",""),candidate.get("source","")):
+        candidate_host=urllib.parse.urlparse(candidate_url).hostname or ""
+        same_publisher=(_same_publisher(expected_host,candidate.get("source","")) or
+                        _same_publisher(expected_host,candidate_host))
+        if similarity<0.78 or not same_publisher:
             continue
         matches.append((candidate_url,similarity))
     if not matches: return ""
@@ -1579,7 +1584,9 @@ def resolve_google_news_with_bing(article):
     if not title: return ""
     GOOGLE_BING_FALLBACK_USED+=1
     DISCOVERY_STATS["google_bing_fallback_queries"]+=1
-    results=bing_rss_query('"'+title.replace('"',' ')+'"')
+    publisher_host=urllib.parse.urlparse(_publisher_url(article.get("publisher_url",""))).hostname or ""
+    publisher_filter=f" site:{publisher_host.removeprefix('www.')}" if publisher_host else ""
+    results=bing_rss_query('"'+title.replace('"',' ')+'"'+publisher_filter)
     publisher_url=matching_publisher_article_url(article,results)
     if not publisher_url:
         DISCOVERY_STATS["google_bing_fallback_no_match"]+=1
@@ -1884,17 +1891,18 @@ def google_rss_query(query):
         else:
             DISCOVERY_STATS["google_sources_non_referencees"]+=1
         google_url=link_el.text if link_el is not None else ""
+        publisher_home_url=_publisher_url(src_el.attrib.get("url", "")) if src_el is not None else ""
         raw_description=desc_el.text if desc_el is not None else ""
-        publisher_url=google_rss_publisher_url(raw_description,title,src)
-        if publisher_url and is_google_news_url(google_url):
-            GOOGLE_NEWS_URL_CACHE[google_url]=publisher_url
-            GOOGLE_NEWS_RESOLVED[google_url]=publisher_url
+        publisher_article_url=google_rss_publisher_url(raw_description,title,src)
+        if publisher_article_url and is_google_news_url(google_url):
+            GOOGLE_NEWS_URL_CACHE[google_url]=publisher_article_url
+            GOOGLE_NEWS_RESOLVED[google_url]=publisher_article_url
             DISCOVERY_STATS["google_rss_description_fallback"]+=1
             DISCOVERY_STATS["google_decode_success"]+=1
-            article_url=publisher_url
+            article_url=publisher_article_url
         else:
             article_url=google_url
-        out.append({"title":title,"source":src,"date":dt,"url":article_url,"description":strip_html_text(raw_description)})
+        out.append({"title":title,"source":src,"publisher_url":publisher_home_url,"date":dt,"url":article_url,"description":strip_html_text(raw_description)})
     return out
 
 def google_rss(region,start_date,end_date):
