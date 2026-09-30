@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:34:43.365347+02:00",
+  "generated_at": "2026-09-30T12:44:56.470553+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29428,12 +29428,12 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Dernière guerre en Ukraine : le président Vladimir Poutine (Russie) va injecter 150 milliards de livres sterling dans l’effort de guerre.",
+      "summary": "Dernière guerre en Ukraine : le président Vladimir Poutine (Russie) va injecter 150 milliards de livres sterling dans l’effort de guerre. Dernière guerre entre l'Ukraine et la Russie : l'OTAN répond à la menace nucléaire du président Vladimir Poutine (Russie) contre les pays membres - Moscou s'engage à utiliser « tout son arsenal, y compris les armes nucléaires » en cas de menace…",
       "sources": [
         "The Independent via MSN — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-gb/news/other/ukraine-war-latest-six-dead-after-russian-bomber-crash/ar-AA2daxQB",
-      "published_at": "2026-09-30T00:46:10+02:00",
+      "published_at": "2026-09-30T05:14:24+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -31870,7 +31870,8 @@
       "category": "Économie",
       "summary": "L'inflation grimpe à 3% sur un an en septembre, portée par la hausse des prix de l'énergie et des produits frais. La vague d'inflation qui touche la France, comme le reste de l'Europe, s'explique principalement par le déclenchement de la guerre en Iran et le blocage du détroit d'Ormuz.",
       "sources": [
-        "franceinfo.fr — fiabilité 6/10"
+        "franceinfo.fr — fiabilité 6/10",
+        "franceinfo — fiabilité 6/10"
       ],
       "url": "https://www.franceinfo.fr/economie/inflation/l-inflation-grimpe-a-3-sur-un-an-en-septembre-portee-par-la-hausse-des-prix-de-l-energie-et-des-produits-frais_8215880.html",
       "published_at": "2026-09-30T08:59:26+02:00",
@@ -32012,6 +32013,151 @@
       "url": "https://www.aljazeera.com/news/liveblog/2026/9/30/iran-war-live-trump-claims-war-will-end-very-soon-provides-no-details?update=5000932",
       "published_at": "2026-09-30T11:45:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Pourquoi la Malaisie accueille le Grand Prix de F1 de Bahreïn dans un brouillard de pollution atmosphérique. Le « Grand Prix de Bahreïn en Malaisie » est l’un des noms les plus étranges pour une course dans l’histoire de la Formule 1. La guerre en Iran, les incendies de forêt et beaucoup de nostalgie sont autant de sujets de discussion cette semaine alors que la F1 se prépare…",
+      "sources": [
+        "AP — fiabilité 9/10"
+      ],
+      "url": "https://apnews.com/article/f1-bahrain-malaysia-explainer-0c15556ddd3fed1fe2f55d7317349c3d",
+      "published_at": "2026-09-30T05:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Bahreïn",
+        "Malaisie",
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Marché boursier aujourd'hui (30 septembre 2026) : les contrats à terme sur le Dow augmentent avant le rapport clé sur l'inflation alors que les rendements du Trésor augmentent. Les investisseurs se tournent vers l’indice des prix des dépenses de consommation personnelle publié ce matin pour obtenir des indices sur le prochain mouvement de taux d’intérêt de la Réserve fédérale.",
+      "sources": [
+        "TheStreet — fiabilité 6/10"
+      ],
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-30-2026",
+      "published_at": "2026-09-30T05:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": []
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les lunettes intelligentes des conducteurs d'Amazon vont être un problème d'image. Bientôt dans une allée de jardin près de chez vous : un conducteur d'Amazon. Com Inc. Portant des lunettes intelligentes, prenant presque constamment des photos et les renvoyant à l'entreprise pour qu'elles soient analysées par des humains et introduites dans un…",
+      "sources": [
+        "Bloomberg — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberg.com/opinion/articles/2026-09-30/amazon-drivers-smart-glasses-are-going-to-be-an-image-problem",
+      "published_at": "2026-09-30T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Elle devient la première cheffe de gouvernement au Maroc : qui est Fatima Ezzahra El Mansouri ?. [VIDÉO] Le roi du Maroc Mohammed VI a nommé mardi Fatima Ezzahra El Mansouri Première ministre. Âgée de 50 ans, elle avait été élue maire de Marrakech en 2009, une première dans l'histoire de la ville …",
+      "sources": [
+        "TF1 INFO — fiabilité 6/10"
+      ],
+      "url": "https://www.tf1info.fr/international/elle-devient-la-premiere-cheffe-de-gouvernement-au-maroc-qui-est-fatima-ezzahra-el-mansouri-2467208.html",
+      "published_at": "2026-09-30T05:32:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Zimbabwe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Zimbabwe : Mnangagwa alerte sur le climat et mise sur la transformation minière. Le président zimbabwéen Emmerson Mnangagwa s'exprime lors d'une conférence de presse à la State House, à Harare, ce dimanche 27 août 2023.",
+      "sources": [
+        "Africanews via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/zimbabwe-mnangagwa-alerte-sur-le-climat-et-mise-sur-la-transformation-minière/vi-AA2dggnZ",
+      "published_at": "2026-09-30T04:43:20+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Irak",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Les troupes américaines quittent l'Irak après 20 ans : quel est leur héritage et que nous réserve l'avenir ?. Les États-Unis prévoient de retirer leurs dernières troupes d'Irak d'ici le 30 septembre, mettant ainsi fin à une présence militaire qui avait débuté avec l'invasion menée par les États-Unis en 2003, …",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/afrique/articles/cr7802jg1w6no",
+      "published_at": "2026-09-30T02:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Irak",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Coalition antidjihadiste en Irak : l’armée américaine s’est retirée du pays, après 12 ans de mission. La mission de la coalition antidjihadiste dirigée par les États-Unis a officiellement pris fin après douze ans de présence en Irak. Lors d’une cérémonie mercredi, le premier ministre irakien Ali al-Za …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/coalition-antidjihadiste-en-irak-l-armee-americaine-s-est-retiree-du-pays-apres-12-ans-de-mission-20260930",
+      "published_at": "2026-09-30T04:16:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
