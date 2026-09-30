@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:36:10.566229+02:00",
+  "generated_at": "2026-09-30T13:46:22.887128+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -33195,6 +33195,169 @@
       "url": "https://www.odnako.org/war-in-ukraine-missiles-and-drones-over-the-kiev-region-a-child-and-a-woman-killed/",
       "published_at": "2026-09-30T13:15:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Les contrats à terme sur actions américaines dépassent le rapport sur l’inflation. Par Shashwat Chauhan et Tharuniyaa Lakshmi, 30 septembre (Reuters) - Les contrats à terme sur indices boursiers américains ont chuté mercredi dans des échanges agités, alors que les valeurs technologiques lourdes se sont relâchées avant un rapport clé sur l'inflation et…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-ca/money/top-stocks/us-stock-futures-slip-ahead-of-inflation-report/ar-AA2dhfLp",
+      "published_at": "2026-09-30T06:34:32+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le Kremlin nie que la Russie ait des prisonniers politiques alors que le président Donald Trump (États-Unis) envisage un allégement des sanctions en échange de leur libération. \"Nous nions catégoriquement l'existence de prisonniers politiques et estimons que formuler la question de cette manière est totalement inapproprié\", a déclaré le porte-parole du Kremlin, Dmitri Peskov.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/kremlin-denies-russia-political-prisoners-112540647.html",
+      "published_at": "2026-09-30T06:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "\"Il y aura des sanctions\": des rugbymans de Dax font polémique après des insultes racistes et sexistes envers des femmes. Le club de l'US Dax (Landes) va prendre des sanctions à l'encontre de joueurs de l'équipe première qui auraient eu des propos injurieux, racistes et sexistes envers des femmes.",
+      "sources": [
+        "Actu.fr — fiabilité 6/10"
+      ],
+      "url": "https://actu.fr/nouvelle-aquitaine/dax_40088/il-y-aura-des-sanctions-des-rugbymans-de-dax-font-polemique-apres-des-insultes-racistes-et-sexistes-envers-des-femmes_64858140.html",
+      "published_at": "2026-09-30T05:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le sondage le plus sinistre à ce jour signifie une catastrophe pour le président Donald Trump (États-Unis). La cote de popularité du président Donald Trump (États-Unis) a chuté depuis qu’il a lancé sa guerre en Iran en février. La guerre a fait monter en flèche les prix de l’énergie. Les chiffres AAA montrent le prix moyen du carburant à 4,43 $ le gallon,…",
+      "sources": [
+        "The Daily Beast — fiabilité 6/10"
+      ],
+      "url": "https://www.thedailybeast.com/grimmest-poll-yet-spells-doom-for-trump/",
+      "published_at": "2026-09-30T06:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les dernières troupes britanniques et américaines quittent l’Irak à la fin de la mission anti-État islamique. Le retrait des forces de la coalition, conformément à un accord conclu il y a deux ans, était une exigence clé du gouvernement irakien.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/c65ym1dyn92mo",
+      "published_at": "2026-09-30T06:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak",
+        "Royaume-Uni",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les prix du gaz sont élevés, mais le prix de la liberté l’est aussi. L’administration Trump doit convaincre le public des raisons pour lesquelles le prix de l’essence est élevé et commencer à parler du prix de la liberté. Exhortez le public à se sacrifier pour la victoire contre une nation déterminée à…",
+      "sources": [
+        "RealClearPolitics — fiabilité 6/10"
+      ],
+      "url": "https://www.realclearpolitics.com/articles/2026/09/30/gas_prices_are_high_but_so_is_the_price_of_liberty_154546.html",
+      "published_at": "2026-09-30T00:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La reprise boursière argentine se limite aux sociétés pétrolières. Le marché boursier argentin commence à refléter la croissance inégale de l'économie sous la présidence de Javier Milei, alors que les actions du secteur de l'énergie bénéficient d'une…",
+      "sources": [
+        "Bloomberg — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/repunte-bursatil-de-argentina-se-limita-a-empresas-petroleras-muo0fw3n",
+      "published_at": "2026-09-30T06:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le ministère des Mines lève le rationnement préventif du gaz après avoir surmonté les imprévus à Cartagena. Pendant la période d'urgence, les autorités ont veillé à ce que l'approvisionnement destiné aux utilisateurs considérés comme essentiels ne soit pas affecté.",
+      "sources": [
+        "Noticias RCN — fiabilité 6/10"
+      ],
+      "url": "https://www.noticiasrcn.com/colombia/ministerio-de-minas-levanta-racionamiento-preventivo-de-gas-tras-superar-contingencia-en-cartagena-1066621",
+      "published_at": "2026-09-30T01:26:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
