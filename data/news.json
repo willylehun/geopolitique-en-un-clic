@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T10:49:49.545196+02:00",
+  "generated_at": "2026-09-30T11:00:04.448859+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -29860,7 +29860,7 @@
         "CBS News — fiabilité 7/10"
       ],
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/",
-      "published_at": "2026-09-30T02:27:00+02:00",
+      "published_at": "2026-09-30T03:41:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -30681,6 +30681,152 @@
       ],
       "url": "https://www.barandbench.com/news/no-fundamental-right-delhi-high-court-on-pil-alleging-government-failed-to-act-on-promise-for-ina-memorial",
       "published_at": "2026-09-30T03:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Corée du Sud révèle pourquoi Zelensky a divulgué le transfert secret de prisonniers de guerre. L’agence de renseignement sud-coréenne a révélé les motifs du président ukrainien le président Volodymyr Zelensky (Ukraine)y qui a révélé unilatéralement le transfert secret de deux prisonniers de guerre nord-coréens vers Séoul.",
+      "sources": [
+        "The News International — fiabilité 6/10"
+      ],
+      "url": "https://www.thenews.com.pk/latest/1418179-south-korea-reveals-why-zelenskyy-disclosed-secret-pow-transfer",
+      "published_at": "2026-09-30T03:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Marché boursier aujourd'hui : les contrats à terme sur le Dow, le S&P 500 et le Nasdaq ont peu changé avant les données sur l'inflation du PCE. Les contrats à terme sur les actions américaines se sont stabilisés mercredi après que les rendements du Trésor aient atteint de nouveaux sommets sur plusieurs décennies et que les investisseurs attendaient le dernier signal d'une inflation persistante.",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-30-dow-sp-500-nasdaq-080339262.html",
+      "published_at": "2026-09-30T03:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "The Huddle : Le gouvernement s'éloigne-t-il d'apporter des modifications à NZ Super ?. Ce soir sur The Huddle, l'animateur de Wellington Mornings Nick Mills et Jack Tame de ZB's Saturday Mornings et Q&A ont participé à une discussion sur le suivi…",
+      "sources": [
+        "Newstalk ZB — fiabilité 6/10"
+      ],
+      "url": "https://www.newstalkzb.co.nz/on-air/heather-du-plessis-allan-drive/audio/the-huddle-is-the-govt-walking-away-from-making-changes-to-nz-super/",
+      "published_at": "2026-09-30T00:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Maroc : Fatima-Zahra Mansouri entre dans l'histoire en devenant cheffe du Gouvernement. Le roi Mohammed VI a nommé mardi Fatima-Zahra Mansouri au poste de cheffe du Gouvernement, la chargeant de former la nouvelle équipe ministérielle.",
+      "sources": [
+        "Seneweb — fiabilité 6/10"
+      ],
+      "url": "https://www.seneweb.com/fr/news/Afrique/maroc-fatima-zahra-mansouri-entre-dans-lhistoire-en-devenant-cheffe-du-gouvernement_n_505655.html",
+      "published_at": "2026-09-30T03:40:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Estonie",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Incendie criminel : l’Estonie convoque l’ambassadeur russe et annonce des sanctions. Le 29 septembre 2026, l'Estonie a officiellement accusé la Russie d'avoir orchestré l'incendie criminel du 15 août contre Milrem Robotics, fabricant de robots militaires pour l'Ukraine. Tallinn a conv …",
+      "sources": [
+        "Politique Matin via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/actualite/other/incendie-criminel-l-estonie-convoque-l-ambassadeur-russe-et-annonce-des-sanctions/ar-AA2dfema",
+      "published_at": "2026-09-30T02:41:34+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "France: L'inflation harmonisée ressort à 3,4 % en septembre (flash). 30 septembre (Reuters) - L'inflation en France, harmonisée selon les normes européennes (IPCH), s'est accélérée plus que prévu, ressortant à 3,4% sur un an en septembre, montrent les données prélimina …",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/finance/économie/france-l-inflation-harmonisée-ressort-à-3-4-en-septembre-flash/ar-AA2dfy0j",
+      "published_at": "2026-09-30T01:51:02+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L’inflation progresse et atteint 3 % sur un an en septembre en France, portée par l’énergie et les produits frais. Selon l’estimation provisoire de l’Insee, la hausse des prix s’est accélérée par rapport au mois d’août. La consommation des ménages, elle, a encore reculé cet été …",
+      "sources": [
+        "Sud Ouest — fiabilité 6/10"
+      ],
+      "url": "https://www.sudouest.fr/economie/inflation/l-inflation-progresse-et-atteint-3-sur-un-an-en-septembre-en-france-portee-par-l-energie-et-les-produits-frais-30846635.php",
+      "published_at": "2026-09-30T02:10:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
