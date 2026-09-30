@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:42:47.478692+02:00",
+  "generated_at": "2026-09-30T15:53:02.693946+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -975,9 +975,9 @@
       ],
       "countries": [
         "Libye",
-        "Soudan",
         "Algérie",
         "Mali",
+        "Soudan",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -23497,8 +23497,8 @@
       ],
       "countries": [
         "Cambodge",
-        "Thaïlande",
         "Malaisie",
+        "Thaïlande",
         "Vietnam"
       ],
       "period": "day",
@@ -32346,7 +32346,8 @@
     {
       "regions": [
         "Europe",
-        "International"
+        "International",
+        "Asie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33838,8 +33839,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Asie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33855,8 +33856,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Japon",
-        "Argentine"
+        "Argentine",
+        "Japon"
       ]
     },
     {
@@ -34106,8 +34107,8 @@
     },
     {
       "regions": [
-        "International",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -35379,6 +35380,26 @@
       "published_at": "2026-09-30T08:36:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Royaume-Uni demande aux universitaires de rompre leurs liens avec l'institut chinois que le MI5 présente comme une façade d'espionnage. Le gouvernement britannique a demandé mercredi aux universités britanniques de cesser de travailler avec un institut de recherche chinois qui, selon les services de sécurité britanniques, constitue une façade pour l'espionnage. Le ministre de la Sécurité Dan…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/uk-tells-academics-cut-ties-133705384.html",
+      "published_at": "2026-09-30T08:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
     },
     {
       "regions": [
