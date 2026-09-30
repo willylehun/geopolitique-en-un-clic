@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T23:25:48.702524+02:00",
+  "generated_at": "2026-09-30T23:36:14.370654+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -32796,7 +32796,8 @@
         "Pioneer Press — fiabilité 6/10",
         "AP — fiabilité 9/10",
         "WJCL — fiabilité 6/10",
-        "krmg.com — fiabilité 6/10"
+        "krmg.com — fiabilité 6/10",
+        "CNA — fiabilité 7/10"
       ],
       "url": "https://www.wral.com/news/ap/2c42d-iran-indicates-its-received-an-official-us-response-to-its-latest-offer-on-ending-the-war/",
       "published_at": "2026-09-30T20:00:00+02:00",
@@ -36558,7 +36559,7 @@
         "CNA — fiabilité 7/10"
       ],
       "url": "https://www.baltimoresun.com/2026/09/30/britain-us-air-base-attack-iran/",
-      "published_at": "2026-09-30T16:04:00+02:00",
+      "published_at": "2026-09-30T16:36:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -37614,7 +37615,7 @@
       "bucket": "30 septembre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "La course présidentielle au Brésil est très serrée. Dans cette « question », Ian Bremmer analyse l'élection présidentielle brésilienne, une course trop serrée pour être convoquée avant le vote de dimanche. L'élection présidentielle de dimanche oppose Luiz Inácio Lula da Silva, …",
+      "summary": "La course présidentielle au Brésil est très serrée. Dans cette « question », Ian Bremmer analyse l'élection présidentielle brésilienne, une course trop serrée pour être convoquée avant le vote de dimanche. L'élection présidentielle de dimanche oppose Luiz Inácio Lula da Silva, président du …",
       "sources": [
         "Yahoo — fiabilité 6/10"
       ],
@@ -37731,10 +37732,11 @@
         "neworleanssun.com — fiabilité 6/10",
         "sierraleonetimes.com — fiabilité 6/10",
         "europesun.com — fiabilité 5/10",
-        "utahindependent.com — fiabilité 6/10"
+        "utahindependent.com — fiabilité 6/10",
+        "britainnews.net — fiabilité 5/10"
       ],
       "url": "http://www.northkoreatimes.com/news/279343449/uk-pm-says-strong-indications-iran-linked-to-airbase-incident",
-      "published_at": "2026-09-30T22:45:00+02:00",
+      "published_at": "2026-09-30T23:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -38254,6 +38256,7 @@
     {
       "regions": [
         "Océanie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -40049,10 +40052,11 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "L’Ukraine va présenter une « liste de souhaits » pour de nouvelles sanctions contre la Russie dans le cadre de la loi Graham. WASHINGTON (AP) — L'Ukraine présentera cette semaine à l'administration du président Donald Trump (États-Unis) et au Congrès une liste de souhaits d'entreprises, de navires et d'individus russes qu'elle aimerait voir frappés de sanctions américaines en vertu…",
+      "summary": "L’Ukraine va présenter une « liste de souhaits » pour de nouvelles sanctions contre la Russie dans le cadre de la loi Graham. L'Ukraine présentera cette semaine à l'administration du président Donald Trump (États-Unis) et au Congrès une liste de souhaits d'entreprises, de navires et d'individus russes qu'elle aimerait voir frappés de sanctions américaines en vertu d'une nouvelle loi signée …",
       "sources": [
         "The Hamilton Spectator — fiabilité 6/10",
-        "New York Daily News — fiabilité 6/10"
+        "New York Daily News — fiabilité 6/10",
+        "Orlando Sentinel — fiabilité 6/10"
       ],
       "url": "https://www.thespec.com/news/world/united-states/ukraine-to-present-wish-list-for-new-russia-sanctions-under-graham-law/article_4ca1945f-b175-5c49-b4fe-f7d3d31f58ad.html",
       "published_at": "2026-09-30T15:46:00+02:00",
@@ -40698,7 +40702,7 @@
         "NHK (média public) — fiabilité 8/10"
       ],
       "url": "https://www3.nhk.or.jp/nhkworld/news/20261001de53518/",
-      "published_at": "2026-09-30T16:25:00+02:00",
+      "published_at": "2026-09-30T16:36:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -40892,13 +40896,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Pays-Bas",
-        "Palestine"
+        "Palestine",
+        "Pays-Bas"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -40930,6 +40934,201 @@
       ],
       "url": "https://news.metal.com/fr/newscontent/104140155-rwe-prend-la-décision-finale-dinvestissement-pour-un-projet-de-stockage-par-batteries-de-400-mw11-gwh-aux-pays-bas",
       "published_at": "2026-09-30T03:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions de l’UE contre Xenia Fedorova : Régis Le Sommier dénonce un « acharnement ». L’Union européenne a décidé de sanctionner la journaliste Xenia Fedorova, déjà interdite de territoire français pour propagande en faveur de Moscou, selon un avis publié au Journal officiel de l’UE. P …",
+      "sources": [
+        "Dailymotion via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/news/sanctions-de-l-ue-contre-xenia-fedorova-régis-le-sommier-dénonce-un-acharnement/vi-AA2dhQ19",
+      "published_at": "2026-09-30T14:38:14+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un sous-comité sénatorial met en garde contre les cyberattaques d’agents d’IA malveillants ciblant le gouvernement. Une sous-commission sénatoriale met en garde contre une augmentation rapide des cyberattaques menées par des agents malveillants de l'IA, au milieu d'attaques récentes qui ont ciblé plusieurs agences gouvernementales américaines, des entreprises privées et…",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6405983119112",
+      "published_at": "2026-09-30T16:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Énergie",
+      "summary": "Constellation et Amazon signent un accord sur l'énergie nucléaire de 20 ans. Constellation Energy (CEG) et Amazon (AMZN) ont signé un accord énergétique de 20 ans qui soutiendra plus de 3 milliards de dollars d'investissement dans la centrale nucléaire de Constellation à Calvert Cliffs dans le Maryland,…",
+      "sources": [
+        "Seeking Alpha via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/constellation-amazon-sign-20-yr-nuclear-power-agreement/ar-AA2diW0t",
+      "published_at": "2026-09-30T16:10:33+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Le stock de Constellation augmente alors qu'Amazon soutient l'expansion de la centrale nucléaire. Constellation Energy, le plus grand fournisseur d'électricité du pays, a annoncé un accord avec Amazon pour fournir au géant de la technologie l'électricité d'une centrale nucléaire du Maryland pendant 20 ans.",
+      "sources": [
+        "Barron's — fiabilité 6/10"
+      ],
+      "url": "https://www.barrons.com/articles/constellation-amazon-nuclear-plant-deal-ecf40154",
+      "published_at": "2026-09-30T16:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Administrateur de Trump. Commence à émettre des chèques de remboursement Obamacare de 500 $ aux résidents de 30 États. L'administration du président Donald Trump (États-Unis) a commencé à émettre des chèques de remboursement de 500 $ aux inscrits à l'Obamacare qui ont été surfacturés par le biais de l'échange fédéral de l'Affordable Care Act (ACA) sous l'ancien…",
+      "sources": [
+        "One America News Network — fiabilité 6/10"
+      ],
+      "url": "https://www.oann.com/newsroom/trump-admin-begins-to-issue-500-obamacare-refund-checks-to-residents-in-30-states/",
+      "published_at": "2026-09-30T08:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "TRG de Gemspring Capital acquiert la société de cybersécurité et de conseil Fentron de l’Ohio (États-Unis). La société basée à Westerville, dans l'Ohio, fournit des services de conseil RSSI, de préparation aux ransomwares, de gestion des vulnérabilités et de préparation aux réponses aux incidents.",
+      "sources": [
+        "PE Hub — fiabilité 6/10"
+      ],
+      "url": "https://www.pehub.com/gemspring-capitals-trg-acquires-ohio-cybersecurity-and-advisory-firm-fentron/",
+      "published_at": "2026-09-30T07:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Diplomatie",
+      "summary": "Le ministère américain de la Justice demande des sanctions contre des juges pour avoir parlé aux médias. Le ministère américain de la Justice a réclamé mercredi à une cour d’appel des sanctions disciplinaires contre des juges fédéraux du Minnesota qui ont critiqué dans les médias des arrestations …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/300926/le-ministere-americain-de-la-justice-demande-des-sanctions-contre-des-juges-pour-avoir-parle-aux",
+      "published_at": "2026-09-30T16:25:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Les groupes de gauche d'Abuja exigent une enquête sur des allégations de corruption et de victimisation des travailleurs de la Bibliothèque nationale. Le Réseau des groupes de gauche d'Abuja a appelé à une enquête indépendante et transparente sur les allégations d'irrégularités financières, de violations des marchés publics, d'inflation des contrats et de victimisation des travailleurs et des militants syndicaux de la Bibliothèque nationale du Nigeria.",
+      "sources": [
+        "saharareporters.com — fiabilité 6/10"
+      ],
+      "url": "https://saharareporters.com/2026/09/30/abuja-left-groups-demand-probe-alleged-corruption-worker-victimisation-national-library",
+      "published_at": "2026-09-30T23:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "U. S. \"La croissance des véhicules électriques ralentit\". L’électrification de la moitié de la flotte pourrait-elle permettre d’économiser 130 milliards de dollars par an ?. L’EIA rapporte une croissance plus lente de la consommation d’électricité des véhicules électriques. Un scénario de flotte transparent estime les économies de carburant potentielles, tandis que les chiffres de ventes montrent les principaux véhicules électriques et hybrides américains.",
+      "sources": [
+        "finchannel.com — fiabilité 6/10"
+      ],
+      "url": "https://finchannel.com/u-s-ev-growth-slows-could-electrifying-half-the-fleet-save-130-billion-a-year/136723/american-business-trends/auto-en/2026/09/",
+      "published_at": "2026-09-30T23:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Danemark"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Danemark achète des drones terrestres à une entreprise fondée par des Ukrainiens. Le Danemark reçoit neuf drones terrestres Dropla 4×4 pour l'entraînement militaire et envisage d'intégrer des armes et de nouveaux systèmes de communication.",
+      "sources": [
+        "Carro e Motos via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/le-danemark-achète-des-drones-terrestres-à-une-entreprise-fondée-par-des-ukrainiens/ar-AA2dhuRO",
+      "published_at": "2026-09-30T12:15:10+02:00",
       "origin": "rss",
       "content_enriched": true
     },
