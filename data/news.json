@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:26:59.617732+02:00",
+  "generated_at": "2026-09-30T18:37:16.127499+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -36540,7 +36540,8 @@
       "category": "Géopolitique",
       "summary": "La Grande-Bretagne cite des indications selon lesquelles l’Iran aurait joué un rôle dans un incident de sécurité survenu sur une base aérienne gérée par les États-Unis. Le Premier ministre britannique Andy Burnham a déclaré que le Royaume-Uni disposait de « fortes indications » selon lesquelles l'Iran a joué un rôle dans l'incident au cours duquel cinq hommes ont été arrêtés près d'un complexe géré par les États-Unis.",
       "sources": [
-        "The Baltimore Sun — fiabilité 6/10"
+        "The Baltimore Sun — fiabilité 6/10",
+        "The San Diego Union-Tribune — fiabilité 6/10"
       ],
       "url": "https://www.baltimoresun.com/2026/09/30/britain-us-air-base-attack-iran/",
       "published_at": "2026-09-30T11:05:00+02:00",
@@ -36588,6 +36589,50 @@
       "published_at": "2026-09-30T17:30:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Royaume-Uni pense que l'Iran est impliqué dans l'incident de la RAF Fairford, a déclaré Burnham. Les commentaires du Premier ministre interviennent quelques jours après que les suspects ont été libérés aux « conditions de libération sous caution les plus strictes possibles ».",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/cjwyz59k5y75o",
+      "published_at": "2026-09-30T10:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"De fortes indications\" L'Iran est impliqué dans l'incident de la RAF Fairford, a déclaré le Premier ministre britannique. Dans une interview accordée à la BBC, Andy Burnham a déclaré que les autorités britanniques « pensent que l'Iran a joué un rôle » dans le complot qui s'est déroulé ce week-end près d'une base aérienne vitale du Royaume-Uni.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/australia/strong-indications-iran-involved-raf-fairford-incident-uk-prime-minister-says/ar-AA2dhGM6",
+      "published_at": "2026-09-30T11:14:30+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ]
     },
     {
       "regions": [
