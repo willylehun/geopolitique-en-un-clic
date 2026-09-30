@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:06:26.426974+02:00",
+  "generated_at": "2026-09-30T18:16:41.826891+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -365,8 +365,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Asie",
+        "Amérique du Sud",
         "Amérique du Nord",
         "International"
       ],
@@ -379,8 +379,8 @@
         "Reuters"
       ],
       "countries": [
-        "Venezuela",
         "Iran",
+        "Venezuela",
         "États-Unis"
       ]
     },
@@ -666,8 +666,8 @@
         "Reuters"
       ],
       "countries": [
-        "Ouganda",
         "Ghana",
+        "Ouganda",
         "Zambie"
       ]
     },
@@ -868,10 +868,10 @@
         "Afrique"
       ],
       "countries": [
-        "Ouganda",
         "Ghana",
         "Kenya",
         "Nigeria",
+        "Ouganda",
         "Zambie"
       ],
       "period": "day",
@@ -2942,12 +2942,12 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "Europe"
+        "Europe",
+        "Amérique du Sud"
       ],
       "countries": [
-        "Venezuela",
-        "Portugal"
+        "Portugal",
+        "Venezuela"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -27520,8 +27520,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Asie",
+        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -27537,8 +27537,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Venezuela",
-        "Qatar"
+        "Qatar",
+        "Venezuela"
       ]
     },
     {
@@ -28177,8 +28177,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Asie",
+        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -28194,8 +28194,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Venezuela",
-        "Qatar"
+        "Qatar",
+        "Venezuela"
       ]
     },
     {
@@ -28304,8 +28304,8 @@
         "Afrique"
       ],
       "countries": [
-        "Ouganda",
-        "Soudan du Sud"
+        "Soudan du Sud",
+        "Ouganda"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28618,8 +28618,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Europe",
+        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -28635,8 +28635,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Venezuela",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Venezuela"
       ]
     },
     {
@@ -32331,11 +32331,12 @@
       "bucket": "30 septembre 2026",
       "score": 8,
       "category": "Économie",
-      "summary": "France : l'inflation grimpe à 3 % sur un an en septembre, selon l'Insee. Les prix à la consommation ont augmenté de 3% sur un an en septembre, contre une hausse de 2,4% en août, selon une estimation provisoire publiée mercredi par l'Institut national de la statistique et d …",
+      "summary": "Hausse des prix : l’inflation grimpe à 3 % sur un an en septembre, son plus haut niveau depuis début 2024. Les prix à la consommation ont augmenté de 3 % sur un an en septembre, contre une hausse de 2,4 % en août, selon une estimation provisoire publiée ce mercredi 30 septembre par l’Institut national de l …",
       "sources": [
         "France 24 (média public) — fiabilité 8/10",
         "Le Dauphiné Libéré — fiabilité 6/10",
-        "AFP via MSN — fiabilité 7/10"
+        "AFP via MSN — fiabilité 7/10",
+        "Le Parisien via MSN — fiabilité 6/10"
       ],
       "url": "https://www.france24.com/fr/info-en-continu/20260930-france-l-inflation-grimpe-à-3-sur-un-an-en-septembre-selon-l-insee",
       "published_at": "2026-09-30T04:18:00+02:00",
@@ -32344,26 +32345,6 @@
       "countries": [
         "France"
       ]
-    },
-    {
-      "regions": [
-        "Europe",
-        "Asie",
-        "International"
-      ],
-      "period": "day",
-      "bucket": "30 septembre 2026",
-      "score": 8,
-      "category": "Économie",
-      "summary": "Hausse des prix : l’inflation grimpe à 3 % sur un an en septembre, son plus haut niveau depuis début 2024. Les prix à la consommation ont augmenté de 3 % sur un an en septembre, contre une hausse de 2,4 % en août, selon une estimation provisoire publiée ce mercredi 30 septembre par l’Institut national de l …",
-      "sources": [
-        "Le Parisien via MSN — fiabilité 6/10"
-      ],
-      "url": "https://www.msn.com/fr-fr/finance/économie/hausse-des-prix-l-inflation-grimpe-à-3-sur-un-an-en-septembre-son-plus-haut-niveau-depuis-début-2024/ar-AA2dfjXB",
-      "published_at": "2026-09-30T02:15:09+02:00",
-      "origin": "rss",
-      "content_enriched": true,
-      "countries": []
     },
     {
       "regions": [
@@ -36528,6 +36509,84 @@
       "url": "https://fr.apanews.net/russie/ouganda-un-monopole-sur-les-plaques-dimmatriculation-denonce/",
       "published_at": "2026-09-30T10:09:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Manchester City menacé de sanction : Roy Keane veut voir les médailles des Citizens finir à la poubelle. L’affaire financière qui concerne Manchester City continue de faire réagir dans le monde du football. Alors que le club anglais attend toujours de connaître les éventuelles sanctions liées aux infract …",
+      "sources": [
+        "Seneweb — fiabilité 6/10"
+      ],
+      "url": "https://www.seneweb.com/fr/news/Sport/manchester-city-menace-de-sanction-roy-keane-veut-voir-les-medailles-des-citizens-finir-a-la-poubelle_n_505695.html",
+      "published_at": "2026-09-30T09:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Grande-Bretagne cite des indications selon lesquelles l’Iran aurait joué un rôle dans un incident de sécurité survenu sur une base aérienne gérée par les États-Unis. Le Premier ministre britannique Andy Burnham a déclaré que le Royaume-Uni disposait de « fortes indications » selon lesquelles l'Iran a joué un rôle dans l'incident au cours duquel cinq hommes ont été arrêtés près d'un complexe géré par les États-Unis.",
+      "sources": [
+        "The Baltimore Sun — fiabilité 6/10"
+      ],
+      "url": "https://www.baltimoresun.com/2026/09/30/britain-us-air-base-attack-iran/",
+      "published_at": "2026-09-30T11:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement prolonge le soutien aux exportations RELIEF jusqu'en mars 2027 dans un contexte de crise en Asie occidentale. La Direction générale du commerce extérieur (DGFT), dans une notification en date du 30 septembre, a indiqué que les critères d'éligibilité et de validité du volet II de l'intervention resteront applicables jusqu'au …",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/news/economy/policy/govt-extends-relief-export-support-till-march-2027-amid-west-asia-crisis-14042263.html",
+      "published_at": "2026-09-30T10:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Panama"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement panaméen recommandera le redémarrage des mines de cuivre par le biais d'un rapprochement de l'État, selon des sources. Par Divya Rajagopal, Emily Green et Kylie Madry MEXICO/TORONTO, 30 septembre (Reuters) - Une commission gouvernementale panaméenne recommandera mercredi au président José Raul Mulino de redémarrer la mine suspendue de Cobre Panama, deux sources familières avec…",
+      "sources": [
+        "hot96.com — fiabilité 6/10"
+      ],
+      "url": "https://hot96.com/2026/09/30/panama-government-to-recommend-copper-mine-restart-through-state-tie-up-sources-say/",
+      "published_at": "2026-09-30T17:30:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
