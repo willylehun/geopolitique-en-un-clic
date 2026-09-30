@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:46:22.887128+02:00",
+  "generated_at": "2026-09-30T13:56:35.365932+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -32440,7 +32440,8 @@
       "url": "https://www.news.com.au/technology/online/hacking/queensland-governments-cyber-security-department-hit-by-800k-cyber-attack/news-story/5430fff9cbe8d3bc5e53c76142dda37e",
       "published_at": "2026-09-30T05:49:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -32799,10 +32800,11 @@
       "summary": "L'Iran indique avoir reçu une réponse officielle des États-Unis à sa dernière offre de mettre fin à la guerre. Des responsables iraniens ont indiqué mercredi avoir reçu une réponse officielle des États-Unis à la dernière proposition de Téhéran visant à mettre fin à la guerre de sept mois, que le président Donald Trump (États-Unis) avait publiquement rejetée il y a peu.",
       "sources": [
         "WRAL — fiabilité 6/10",
-        "Hartford Courant — fiabilité 6/10"
+        "Hartford Courant — fiabilité 6/10",
+        "Pioneer Press — fiabilité 6/10"
       ],
       "url": "https://www.wral.com/news/ap/2c42d-iran-indicates-its-received-an-official-us-response-to-its-latest-offer-on-ending-the-war/",
-      "published_at": "2026-09-30T06:20:00+02:00",
+      "published_at": "2026-09-30T06:31:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -33291,7 +33293,7 @@
       "bucket": "30 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Les dernières troupes britanniques et américaines quittent l’Irak à la fin de la mission anti-État islamique. Le retrait des forces de la coalition, conformément à un accord conclu il y a deux ans, était une exigence clé du gouvernement irakien.",
+      "summary": "Les dernières troupes britanniques et américaines quittent l’Irak alors que la mission anti-État islamique prend fin. Le retrait des forces de la coalition, conformément à un accord conclu il y a deux ans, était une exigence clé du gouvernement irakien.",
       "sources": [
         "BBC (média public) — fiabilité 8/10"
       ],
@@ -33357,6 +33359,311 @@
       ],
       "url": "https://www.noticiasrcn.com/colombia/ministerio-de-minas-levanta-racionamiento-preventivo-de-gas-tras-superar-contingencia-en-cartagena-1066621",
       "published_at": "2026-09-30T01:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "La Bourse de Paris décroche en Europe comme la France. La Bourse de Paris décroche mercredi après avoir tenté de profiter comme les autres marchés européens de la baisse provisoire du pétrole, rattrapée par l'inflation à la veille de la présentation du bu …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/info-en-continu/20260930-la-bourse-de-paris-décroche-en-europe-comme-la-france",
+      "published_at": "2026-09-30T06:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Le développeur énergétique Rezolv obtient un prêt de 561 millions d'euros pour le plus grand parc solaire de l'UE en Roumanie. Le développeur d'énergies renouvelables Rezolv Energy, soutenu par l'investisseur britannique en infrastructures durables Actis, a annoncé mercredi avoir obtenu un prêt vert de 561 millions d'euros (637 millions de dollars) auprès d'un groupe de 14 prêteurs…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/energy-developer-rezolv-secures-561-million-loan-eus-largest-solar-park-romania-2026-09-30/",
+      "published_at": "2026-09-30T06:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Roumanie",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Énergie",
+      "summary": "Le gouvernement a été invité à taxer les sociétés énergétiques sur les bénéfices générés par la hausse des prix de l’électricité et du gaz. Les sociaux-démocrates ont présenté une motion du Dail appelant à taxer les sociétés énergétiques sur leurs bénéfices croissants. Energia, Bord Gais Energy et SSE Airtricity augmentent leurs ventes de gaz et d'électricité…",
+      "sources": [
+        "Highland Radio — fiabilité 6/10"
+      ],
+      "url": "https://highlandradio.com/2026/09/30/government-urged-to-tax-energy-companies-on-profits-from-rising-electricity-and-gas-prices/",
+      "published_at": "2026-09-30T06:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Xi qualifie l’économie chinoise de résiliente et appelle à des efforts pour atteindre ses objectifs. Le président Xi Jinping (Chine) a déclaré que l'économie chinoise s'était révélée résiliente et dynamique, appelant à des efforts pour atteindre les objectifs annuels et assurer un bon démarrage du 15e plan quinquennal.",
+      "sources": [
+        "Bloomberg — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/xi-calls-china-s-economy-resilient-urges-efforts-to-reach-goals",
+      "published_at": "2026-09-30T06:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "NEET UG pourrait passer en ligne : le ministère de l'Éducation prévoit une infrastructure nationale de TCC. Le cadre proposé élargira et normalisera les centres d'examen tout en étudiant l'impact des tests informatisés sur les candidats ruraux, les femmes et les candidats à faible connectivité., Education, Times Now…",
+      "sources": [
+        "Times Now — fiabilité 6/10"
+      ],
+      "url": "https://www.timesnownews.com/education/neet-ug-may-shift-online-education-ministry-plans-national-cbt-infrastructure-article-156250568",
+      "published_at": "2026-09-30T06:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Jensen Huang, PDG de Nvidia : La construction de centres de données IA pourrait créer 1 million d'emplois et remodeler l'économie américaine. Le PDG Jensen Huang, assis à côté du PDG de SpaceX (SPCX) et de Tesla (TSLA), Elon Musk, a déclaré que la construction du centre de données d'IA créerait « probablement environ un million d'emplois ».",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-jensen-huang-ai-data-center-buildout-could-create-1-million-jobs-and-reshape-the-us-economy-110706514.html",
+      "published_at": "2026-09-30T06:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Moins d'Américains de 55 ans et plus travaillent, et Bank of America accuse la hausse de 35 % du marché boursier. La participation au marché du travail des Américains de 55 ans et plus est tombée à 36,9 % en juillet. Les économistes soulignent les gains boursiers, le vieillissement de la population et les questions sur les données d'enquête.",
+      "sources": [
+        "Money Talks News via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/economy/fewer-americans-55-are-working-and-bank-of-america-blames-the-stock-market-s-35-surge/vi-AA2dfZke",
+      "published_at": "2026-09-30T05:37:58+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le vol Flydubai \"traité comme terrorisme\" par Israël après que le pilote ait été \"poignardé\" alors qu'il se dirigeait vers Tel Aviv. L'avion flydubai voyageait de Dubaï aux Émirats arabes unis à destination de Tel Aviv, en Israël, lorsqu'il a été contraint d'effectuer un atterrissage d'urgence en Arabie Saoudite après un incident…",
+      "sources": [
+        "AOL — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.com/articles/flydubai-flight-treated-terrorism-israel-090035000.html",
+      "published_at": "2026-09-30T04:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite",
+        "Israël",
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "Green Circle Decarbonize Technology Limited soumet des propositions d'appel d'offres pour l'ingénierie de remplacement des refroidisseurs au centre MOS ainsi que pour la modernisation, l'exploitation et la maintenance de la climatisation. Green Circle Decarbonize Technology Limited (la « Société ») (NYSE : GCDT), un fournisseur de premier plan de solutions personnalisées d'économie d'énergie, a annoncé aujourd'hui sa filiale en propriété exclusive, Boca International…",
+      "sources": [
+        "The Manila Times — fiabilité 6/10"
+      ],
+      "url": "https://www.manilatimes.net/2026/09/30/tmt-newswire/globenewswire/green-circle-decarbonize-technology-limited-submits-tender-proposals-for-chiller-replacement-engineering-at-mos-centre-and-air-conditioning-retrofit-operation-and-maintenance-at-nan-fung-centre-in-hong-kong/2435987",
+      "published_at": "2026-09-30T06:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Fatima Ezzahra El Mansouri entre dans l’histoire en tant que première femme Premier ministre du Maroc. Le roi Mohammed VI a nommé l’avocate et ancienne maire de Marrakech, Fatima Ezzahra El Mansouri, première femme Premier ministre du Maroc à l’issue des élections de septembre 2026.",
+      "sources": [
+        "BellaNaija — fiabilité 6/10"
+      ],
+      "url": "https://www.bellanaija.com/2026/09/fatima-ezzahra-el-mansouri-morocco-first-female-prime-minister/",
+      "published_at": "2026-09-30T04:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Maroc"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : deux morts à Kiev ; la Russie brandit la menace nucléaire. Des frappes russes ont tué une femme et un enfant à Kiev et blessé quatre personnes ce mercredi 30 septembre. La veille, Moscou a menacé de recourir à l’arme nucléaire si l’Otan tentait d’isoler Kalin …",
+      "sources": [
+        "La Croix — fiabilité 6/10"
+      ],
+      "url": "https://www.la-croix.com/international/ukraine-russie-jour-1676-point-conflit-ukrainien-poutine-aujourdhui-20260930",
+      "published_at": "2026-09-30T06:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les attaques russes contre la région ukrainienne de Kiev font quatre morts et ciblent le réseau électrique. Les autorités municipales font état de trois morts dans la capitale ukrainienne, tandis que les services d'urgence affirment qu'un enfant a été tué dans la région environnante.",
+      "sources": [
+        "Al Jazeera — fiabilité 8/10"
+      ],
+      "url": "https://www.aljazeera.com/news/2026/9/30/russian-attacks-on-ukraines-kyiv-region-kill-four-target-power-grid",
+      "published_at": "2026-09-30T06:32:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Afrique du Sud",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’Afrique du Sud convoque l’ambassadeur américain pour la 3e fois, un record. Le gouvernement sud-africain a convoqué l’ambassadeur des États-Unis pour lui demander de « s’expliquer sur son comportement peu diplomatique », pour la troisième fois depuis son entrée en fonction …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/300926/l-afrique-du-sud-convoque-l-ambassadeur-americain-pour-la-3e-fois-un-record",
+      "published_at": "2026-09-30T06:25:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Malaisie",
+        "Qatar"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "M'sia et le Qatar appellent à la fin immédiate de la guerre au Moyen-Orient et à une livraison plus rapide de l'aide humanitaire, a déclaré le Premier ministre. La Malaisie et le Qatar sont d'accord sur le fait qu'il faut mettre un terme immédiat à la guerre au Moyen-Orient, que l'acheminement de l'aide humanitaire doit être accéléré et que tous les efforts de paix doivent être renforcés pour mettre fin…",
+      "sources": [
+        "The Star — fiabilité 6/10"
+      ],
+      "url": "https://www.thestar.com.my/news/nation/2026/09/30/m039sia-qatar-call-for-immediate-end-to-middle-east-war-faster-humanitarian-aid-delivery-says-pm",
+      "published_at": "2026-09-30T00:49:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Argentine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Javier Milei à Paris : un président-VRP au secours d’une économie argentine déprimée. Le dirigeant argentin ultralibéral inaugure, ce mercredi dans la capitale française, un forum pour vanter les possibilités de ses matières premières, au moment où les indicateurs économiques du pays m …",
+      "sources": [
+        "Libération — fiabilité 6/10"
+      ],
+      "url": "https://www.liberation.fr/economie/javier-milei-a-paris-un-president-vrp-au-secours-dune-economie-deprimee-20260930_OMQEYPE2EBFCRF252CC6L77E4Y/",
+      "published_at": "2026-09-30T00:03:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
