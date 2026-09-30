@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:48:21.430740+02:00",
+  "generated_at": "2026-09-30T09:58:37.559176+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -4897,8 +4897,8 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -9353,8 +9353,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
-        "Liban"
+        "Liban",
+        "Israël"
       ]
     },
     {
@@ -9644,8 +9644,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
-        "Iran"
+        "Iran",
+        "Israël"
       ]
     },
     {
@@ -11690,8 +11690,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -11705,8 +11705,8 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
-        "Égypte"
+        "Égypte",
+        "Israël"
       ]
     },
     {
@@ -20367,8 +20367,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -21169,8 +21169,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -21184,8 +21184,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
-        "Irlande"
+        "Irlande",
+        "Israël"
       ]
     },
     {
@@ -22571,8 +22571,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
-        "Iran"
+        "Iran",
+        "Israël"
       ]
     },
     {
@@ -23537,14 +23537,14 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Israël",
         "Maroc",
         "Émirats arabes unis",
         "Arabie saoudite",
+        "Israël",
         "Qatar"
       ],
       "period": "day",
@@ -27474,8 +27474,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Israël"
       ]
     },
     {
@@ -27564,8 +27564,8 @@
         "Asie"
       ],
       "countries": [
-        "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Israël"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -29808,16 +29808,18 @@
       "bucket": "30 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Le Premier ministre israélien tient une réunion d’urgence alors qu’un vol de passagers de Tel Aviv se détourne mystérieusement vers l’Arabie Saoudite. Un avion de ligne à destination de Tel-Aviv a été mystérieusement détourné mercredi matin, incitant le Premier ministre israélien à tenir une réunion d'urgence.",
+      "summary": "Le Premier ministre Benjamin Netanyahu (Israël) tient une réunion d’urgence alors qu’un vol de passagers à destination de Tel Aviv se détourne mystérieusement vers l’Arabie Saoudite. Un avion de ligne à destination de Tel-Aviv a été mystérieusement détourné mercredi matin, incitant le Premier ministre israélien à tenir une réunion d'urgence.",
       "sources": [
-        "Daily Mail via MSN — fiabilité 6/10"
+        "Daily Mail via MSN — fiabilité 6/10",
+        "Daily Mail — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-au/news/australia/israeli-pm-holds-emergency-meeting-as-tel-aviv-passenger-flight-mysteriously-diverts-to-saudi-arabia/ar-AA2dfIrm",
       "published_at": "2026-09-30T02:05:54+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Israël"
       ]
     },
     {
@@ -29988,6 +29990,246 @@
       ],
       "url": "https://www.monde-diplomatique.fr/2026/10/LEVERBE/70071",
       "published_at": "2026-09-30T02:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Un avion commercial reliant Dubaï (Émirats arabes unis) à Israël est dérouté vers l'Arabie Saoudite après un appel de détresse. Un vol commercial détourné vers l’Arabie Saoudite suite à une altercation dans le cockpit ; Israël a déployé des avions de guerre au milieu des inquiétudes…",
+      "sources": [
+        "LA NACION — fiabilité 6/10"
+      ],
+      "url": "https://www.lanacion.com.ar/usa/a-commercial-plane-traveling-from-dubai-to-israel-is-diverted-to-saudi-arabia-after-a-distress-call-nid30092026/",
+      "published_at": "2026-09-30T02:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Émirats arabes unis",
+        "Arabie saoudite",
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Guerres, droits de douane, IA : pourquoi la croissance de l'Inde est confrontée à un chemin plus difficile. Les avertissements de S Jaishankar et V Anantha Nageswaran indiquent de nouveaux points de pression sur la trajectoire de croissance de l'Inde. Le défi est de rester connecté à l’échelle mondiale tout en réduisant l’exposition au pétrole, à l’approvisionnement et…",
+      "sources": [
+        "India Today — fiabilité 6/10"
+      ],
+      "url": "https://www.indiatoday.in/business/story/explained-india-economy-growth-wars-tariffs-ai-manufacturing-oil-fertiliser-tough-road-3006326-2026-09-30",
+      "published_at": "2026-09-30T02:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"La dette et l'économie françaises prennent clairement des caractéristiques italiennes\". COLONNE. Ce qui menace la France, ce n'est pas tant le risque de faillite que la perspective d'un lent déclin, semblable à celui de l'Italie depuis les années 1980, écrit le journaliste du Monde Eric Albert dans son …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/en/opinion/article/2026/09/30/france-s-debt-and-economy-are-clearly-taking-on-italian-characteristics_6758097_23.html",
+      "published_at": "2026-09-30T02:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France",
+        "Italie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'inflation préliminaire française en hausse à 3,4% en septembre. Les prix à la consommation en France ont augmenté plus que prévu en septembre, ont montré mercredi les données préliminaires de l'agence statistique INSEE.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/french-preliminary-inflation-up-34-september-2026-09-30/",
+      "published_at": "2026-09-30T02:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Sensex aujourd'hui | Astucieux 50 | Mises à jour en direct du marché boursier : Sensex gagne plus de 400 pts, Nifty au-dessus de 22 750 ; Les valeurs informatiques et bancaires mènent le rebond. Les indices de référence des actions indiennes ont prolongé leur baisse mardi, le NSE Nifty 50 et le BSE Sensex atteignant de nouveaux plus bas de six mois alors que la confiance des investisseurs restait faible après la forte vente massive du…",
+      "sources": [
+        "The Economic Times — fiabilité 6/10"
+      ],
+      "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-steel-kpi-green-share-price-30-september-2026/liveblog/134577279.cms",
+      "published_at": "2026-09-30T02:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les employés d'OpenAI ont mis en garde contre des failles de sécurité, l'entreprise les a ignorés : rapport. Les avertissements sont intervenus des mois avant que certains des derniers modèles d'IA d'OpenAI ne s'échappent de leurs environnements de test et n'effectuent des actions sans y être invités.",
+      "sources": [
+        "NDTV — fiabilité 6/10"
+      ],
+      "url": "https://www.ndtv.com/artificial-intelligence/openai-employees-warned-of-security-gaps-company-ignored-them-report-12117794",
+      "published_at": "2026-09-30T01:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Mises à jour en direct du marché boursier aujourd'hui : BSE Sensex bondit de 300 points, NSE Nifty50 dépasse la barre des 22 700. Les perspectives plus larges du marché continuent de tourner autour de la liquidité, du pétrole brut et des conditions monétaires mondiales, les flux de fonds étrangers restant une impo …",
+      "sources": [
+        "The Times of India — fiabilité 6/10"
+      ],
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-30-september-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/134578559.cms",
+      "published_at": "2026-09-30T01:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un père d'Adélaïde appelle au changement après le décès de sa fille atteinte d'anorexie. Le père d’une jeune femme souffrant d’anorexie mentale a imploré le gouvernement de l’État d’adopter les recommandations d’un coroner visant à améliorer les services liés aux troubles de l’alimentation afin d’épargner aux autres familles le même chagrin.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/lifestyle/other/adelaide-father-calls-for-change-after-daughter-dies-with-anorexia/ar-AA2dfm17",
+      "published_at": "2026-09-30T02:29:31+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Liste complète : le Royaume-Uni nomme les pays dont les citoyens peuvent entrer sans visa pour les soins de santé S2. Le gouvernement britannique a répertorié les pays dont les citoyens peuvent entrer sans visa sous la route S2 Healthcare Visitor pour un traitement médical planifié.",
+      "sources": [
+        "YEN.com.gh — fiabilité 6/10"
+      ],
+      "url": "https://yen.com.gh/people/312854-full-list-uk-names-countries-citizens-enter-visa-s2-healthcare/",
+      "published_at": "2026-09-30T02:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Cuba"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Cuba : Washington durcit encore ses sanctions financières. Des nouvelles règles interdisent toute transaction financière «indirecte» avec les entités cubaines sanctionnées, notamment celles liées à l’appareil sécuritaire et à Gaesa, le consortium économique d …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/cuba-washington-durcit-encore-ses-sanctions-financieres-20260930",
+      "published_at": "2026-09-30T01:01:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Albanie",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Projet Kushner en Albanie : le Premier ministre Edi Rama (Albanie) dit vouloir laisser la « science » trancher, pas l'« idéologie ». L'Albanie a déjà assuré que le projet de 1,4 milliard d'euros lié au gendre du président Donald Trump (États-Unis) respecterait les normes environnementales de l'UE. View on euronews …",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/finance/général/projet-kushner-en-albanie-edi-rama-dit-vouloir-laisser-la-science-trancher-pas-l-idéologie/ar-AA2dfzSv",
+      "published_at": "2026-09-30T00:12:20+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Économie, guerre en Iran : à un mois des midterms, le désamour des Américains pour le président Donald Trump (États-Unis) n'a jamais été aussi grand. Selon un sondage réalisé par le Wall Street Journal, seuls 37 % des Américains approuvent l’action de Donald Trump. Un taux de désapprobation de mauvaise augure en vue des élections de mi-mandat, en n …",
+      "sources": [
+        "Paris Match via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/économie-guerre-en-iran-à-un-mois-des-midterms-le-désamour-des-américains-pour-donald-trump-na-jamais-été-aussi-grand/ar-AA2dfPW0",
+      "published_at": "2026-09-30T02:38:26+02:00",
       "origin": "rss",
       "content_enriched": true
     },
