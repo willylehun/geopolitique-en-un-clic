@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:55:14.094620+02:00",
+  "generated_at": "2026-09-30T13:05:27.920433+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -16239,8 +16239,8 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -16255,8 +16255,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Kenya",
         "Chine",
+        "Kenya",
         "États-Unis"
       ]
     },
@@ -29717,12 +29717,14 @@
       "category": "Économie",
       "summary": "L’inflation grimpe à 3 % en septembre sur un an, selon l’Insee. Les prix à la consommation ont bondi de 3 % sur un an en septembre, après 2,4 % en août, selon les chiffres de l’Insee. La hausse est de nouveau portée par « les prix de l’énergie ».",
       "sources": [
-        "Ouest-France — fiabilité 6/10"
+        "Ouest-France — fiabilité 6/10",
+        "CNEWS — fiabilité 6/10"
       ],
       "url": "https://www.ouest-france.fr/economie/inflation/linflation-grimpe-a-3-pourcent-en-septembre-sur-un-an-selon-linsee-8ea620a8-bc98-11f1-8ea4-97dc4d7cca62",
-      "published_at": "2026-09-30T02:07:00+02:00",
+      "published_at": "2026-09-30T03:54:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -30724,7 +30726,7 @@
         "Yahoo Finance — fiabilité 6/10"
       ],
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-30-dow-sp-500-nasdaq-080339262.html",
-      "published_at": "2026-09-30T03:03:00+02:00",
+      "published_at": "2026-09-30T05:00:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -31660,7 +31662,7 @@
       "bucket": "30 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "\"Octane Rent vous lance\". S. Opérations avec Miami Expansion. La société de location de voitures de luxe basée à Dubaï (Émirats arabes unis) apporte sa flotte de plus de 400 véhicules et 31 marques en Floride, prolongeant ainsi un modèle construit sur 27 ans d'histoire d'exploitation combinée. Octane Rent, la société de location de voitures de luxe basée à Dubaï avec 27 ans d'expérience cumulée, a étendu ses opérations à Miami, en Floride, marquant ainsi sa première entrée sur le marché américain.",
+      "summary": "\"Octane Rent vous lance\" . S. Opérations avec Miami Expansion. La société de location de voitures de luxe basée à Dubaï (Émirats arabes unis) apporte sa flotte de plus de 400 véhicules et 31 marques en Floride, prolongeant ainsi un modèle construit sur 27 ans d'histoire d'exploitation combinée. Octane Rent, la société de location de voitures de luxe basée à Dubaï avec 27 ans d'expérience cumulée, a étendu ses opérations à Miami, en Floride, marquant ainsi sa première entrée sur le marché américain.",
       "sources": [
         "manilatimes.net — fiabilité 6/10"
       ],
@@ -31918,7 +31920,8 @@
       "category": "Géopolitique",
       "summary": "Tom Tiffany a-t-il voté cinq fois contre la fin de la guerre en Iran ?. Le représentant américain Tom Tiffany a voté contre cinq résolutions de la Chambre ordonnant au le président Donald Trump (États-Unis) de retirer les forces américaines des hostilités avec l'Iran.",
       "sources": [
-        "USA TODAY — fiabilité 6/10"
+        "USA TODAY — fiabilité 6/10",
+        "Yahoo — fiabilité 6/10"
       ],
       "url": "https://www.usatoday.com/story/news/factcheck/2026/09/30/has-tom-tiffany-voted-five-times-against-ending-the-iran-war/92006161007/",
       "published_at": "2026-09-30T05:02:00+02:00",
@@ -32263,8 +32266,8 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -32279,9 +32282,289 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Kenya",
-        "Chine"
+        "Chine",
+        "Kenya"
       ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Man. City - Quelles sanctions possibles après la condamnation pour infractions financières ?. Quelles sont les sanctions que risquent Manchester City suite à sa condamnation de tous tous les chefs d'accusation liés à des infractions aux règles financières de la ligue entre les saisons 2009-201 …",
+      "sources": [
+        "Dailymotion via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/man-city-quelles-sanctions-possibles-après-la-condamnation-pour-infractions-financières/vi-AA2dfJQs",
+      "published_at": "2026-09-30T05:00:34+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Victoire 49-7, mais lourdes sanctions : la FFR frappe fort contre ce club de Nationale 2. Le manager de Nîmes Guillaume Aguilar et le capitaine Baptiste Phalip ont été sévèrement sanctionnés après des incidents survenus face à Mauléon.",
+      "sources": [
+        "Actu.fr — fiabilité 6/10"
+      ],
+      "url": "https://actu.fr/occitanie/nimes_30189/victoire-49-7-mais-lourdes-sanctions-la-ffr-frappe-fort-contre-ce-club-de-nationale-2_64857144.html",
+      "published_at": "2026-09-30T04:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "France : l'inflation grimpe à 3% sur un an en septembre, selon l'Insee. Paris (France) (AFP) – Les prix à la consommation ont augmenté de 3% sur un an en septembre, contre une hausse de 2,4% en août, selon une estimation provisoire publiée mercredi par l'Institut national …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/info-en-continu/20260930-france-l-inflation-grimpe-à-3-sur-un-an-en-septembre-selon-l-insee",
+      "published_at": "2026-09-30T04:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Hausse des prix : l’inflation grimpe à 3 % sur un an en septembre, son plus haut niveau depuis début 2024. Les prix à la consommation ont augmenté de 3 % sur un an en septembre, contre une hausse de 2,4 % en août, selon une estimation provisoire publiée ce mercredi 30 septembre par l’Institut national de l …",
+      "sources": [
+        "Le Parisien via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/finance/économie/hausse-des-prix-l-inflation-grimpe-à-3-sur-un-an-en-septembre-son-plus-haut-niveau-depuis-début-2024/ar-AA2dfjXB",
+      "published_at": "2026-09-30T02:15:09+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "À regarder : Burnham affirme que le Royaume-Uni pourrait aller « jusqu’au bout » vers son adhésion à l’UE. Andy Burnham a déclaré que le retour à l'UE faisait partie des options que le gouvernement pourrait envisager - déclarant à la BBC que le règlement actuel du Brexit a causé \"plus de mal que de bien\".",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/videos/ck1e5w239epjo",
+      "published_at": "2026-09-30T01:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement iranien examine actuellement la proposition de négociation américaine. Selon des sources gouvernementales, l'Iran envisage une proposition de négociation de la part des États-Unis. À son retour des États-Unis, le ministre des Affaires étrangères Abbas Aragchi a présenté une réponse…",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/iran-s-government-is-reviewing-the-u.s.-proposal-for-negotiations-li.3619188",
+      "published_at": "2026-09-30T04:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Maison Blanche gère les attentes d’une percée iranienne. Alors que les États-Unis et l’Iran continuent de dialoguer via des médiateurs pour tenter de mettre fin à la guerre, la Maison Blanche tempère toute attente d’une avancée imminente. S'adressant aux journalistes devant le Blanc…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/white-house-manages-expectations-iran-085418476.html",
+      "published_at": "2026-09-30T03:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le département de cybersécurité du gouvernement du Queensland touché par une cyberattaque de 800 000 $. L’équipe de cybersécurité d’un État a perdu plus de 800 000 dollars d’argent public après avoir été prise pour cible par les personnes mêmes qu’elle est chargée d’arrêter.",
+      "sources": [
+        "news.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.news.com.au/technology/online/hacking/queensland-governments-cyber-security-department-hit-by-800k-cyber-attack/news-story/5430fff9cbe8d3bc5e53c76142dda37e",
+      "published_at": "2026-09-30T05:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'inflation australienne grimpe à 4 pour cent à mesure que les prix de l'immobilier et du carburant augmentent. La décision de la RBA de relever les taux n’aurait pas pu arriver trop tôt ; en fait, certains pourraient dire qu’elle est trop tard, après que les chiffres de l’inflation d’aujourd’hui ont révélé une forte hausse par rapport au mois précédent.",
+      "sources": [
+        "news.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.news.com.au/finance/real-estate/australian-inflation-jumps-to-4-per-cent-as-housing-and-fuel-prices-surge/news-story/4b345f11f53e2306e4ad28fdf0869e26",
+      "published_at": "2026-09-30T05:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Maroc : Fatima Ezzahra El Mansouri, de la mairie de Marrakech à la tête du gouvernement. Elle dit vouloir \"redonner espoir\" aux jeunes. Fatima Ezzahra El Mansouri est devenue mardi la première femme cheffe de gouvernement au Maroc. Retour sur le parcours de cette avocate de formation …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/afrique/20260930-maroc-fatima-ezzahra-el-mansouri-mairie-marrakech-députée-cheffe-gouvernement-avocate-formation",
+      "published_at": "2026-09-30T06:04:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe"
+      ],
+      "countries": [
+        "Tunisie",
+        "Autriche"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Tunisie-Autriche : 502 MD d’investissements et 24.000 emplois générés par 26 entreprises. Les investissements autrichiens en Tunisie atteignent quelque 502 millions de dinars, portés par 26 entreprises qui génèrent 24.000 emplois. Quatre Le forum tuniso-autrichien met en lumière les opportunités d'investissement en Tunisie. En savoir plus sur Tunisie-Autriche.",
+      "sources": [
+        "webdo — fiabilité 6/10"
+      ],
+      "url": "https://www.webdo.tn/fr/actualite/national/tunisie-autriche-502-md-dinvestissements-et-24-000-emplois-generes-par-26-entreprises/404730/",
+      "published_at": "2026-09-30T10:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Belgique",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : la Belgique livre ses premiers avions de chasse F-16 à Kiev, le président Volodymyr Zelensky (Ukraine) salue « des mesures décisives ». La Belgique s’apprête à céder ses premiers avions de chasse F-16 à l’Ukraine. Cette livraison accélérée s’inscrit dans un accord de sécurité …",
+      "sources": [
+        "Le Parisien — fiabilité 6/10"
+      ],
+      "url": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-la-belgique-livre-ses-premiers-avions-de-chasse-f-16-a-kiev-zelensky-salue-des-mesures-decisives-30-09-2026-P4BJB65HABBOJBROCO3S3VMIX4.php",
+      "published_at": "2026-09-30T03:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Bulgarie",
+        "Grèce"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Athènes : restitution historique des restes du tsar Samuel à la Bulgarie. Ce mardi 29 septembre, le premier ministre bulgare, Roumen Radev a annoncé que la Grèce allait remettre à la Bulgarie les restes du Tsar Samuel. Le premier ministre salue le courage politique de son h …",
+      "sources": [
+        "Figaro Live — fiabilité 6/10"
+      ],
+      "url": "https://video.lefigaro.fr/figaro/culture/athenes-restitution-historique-des-restes-du-tsar-samuel-a-la-bulgarie-20260930",
+      "published_at": "2026-09-30T02:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Bulgarie",
+        "Grèce"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Athènes restitue à Sofia les restes attribués au tsar Samuel de Bulgarie. La Grèce et la Bulgarie ont signé un accord de valeur «historique et patrimonial» a souligné le premier ministre bulgare Roumen Radev en rendant hommage au «courage politique» de son homologue Kyriako …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/culture/athenes-restitue-a-sofia-les-restes-attribues-au-tsar-samuel-de-bulgarie-20260930",
+      "published_at": "2026-09-30T02:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
