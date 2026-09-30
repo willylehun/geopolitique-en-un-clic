@@ -2,6 +2,7 @@
 import atexit
 import base64, html as html_lib
 import json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import threading
 from difflib import SequenceMatcher
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
@@ -64,8 +65,19 @@ COUNTRY_REGIONS={
 COUNTRY_TO_REGION={country:region for region,countries in COUNTRY_REGIONS.items() for country in countries}
 TRANSLATION_CACHE={}
 PENDING=[]
+RETRY_PENDING=[]
 REJECTION_STATS=defaultdict(int)
 DISCOVERY_STATS=defaultdict(int)
+TRANSLATION_INTERVAL=max(0.0,float(os.getenv("TRANSLATION_INTERVAL_SECONDS","1.25") or "1.25"))
+TRANSLATION_MAX_ATTEMPTS=max(1,int(os.getenv("TRANSLATION_MAX_ATTEMPTS","4") or "4"))
+TRANSLATION_BACKOFF_BASE=max(0.1,float(os.getenv("TRANSLATION_BACKOFF_BASE_SECONDS","2") or "2"))
+_TRANSLATION_REQUEST_LOCK=threading.Lock()
+_TRANSLATION_LAST_REQUEST=0.0
+try:
+    _translation_state=json.loads(PENDING_TRANSLATIONS.read_text(encoding="utf-8"))
+    TRANSLATION_CACHE.update(_translation_state.get("cache",{}))
+except Exception:
+    pass
 
 # Désambiguïsation éditoriale des dirigeants fréquemment cités. Cette table
 # n'ajoute aucun fait à l'événement : elle explicite uniquement fonction et pays.
@@ -902,28 +914,116 @@ def looks_english(text):
     en=sum(w in EN_WORDS for w in words); fr=sum(w in FR_WORDS for w in words)
     return en>=2 and en>fr
 
+def looks_french(text):
+    """Détecte avec prudence un texte français pour éviter un aller-retour inutile."""
+    words=re.findall(r"[a-zà-ÿ]+",(text or "").lower())
+    fr=sum(w in FR_WORDS for w in words)
+    en=sum(w in EN_WORDS for w in words)
+    return fr>=2 and fr>en
+
+def _retry_after_seconds(error, fallback):
+    value=(getattr(error,"headers",None) or {}).get("Retry-After")
+    if value:
+        try:
+            return max(0.0,float(value))
+        except (TypeError,ValueError):
+            try:
+                retry_at=parsedate_to_datetime(value)
+                return max(0.0,(retry_at-datetime.now(retry_at.tzinfo or UTC)).total_seconds())
+            except Exception:
+                pass
+    return fallback
+
 def french_summary(text, meta=None):
     """Produit un résumé français exploitable. Les nouveaux résumés doivent préciser les acteurs/pays lorsque le titre source les donne."""
+    global _TRANSLATION_LAST_REQUEST
 
     text=re.sub(r"\\s+"," ",text or "").strip()
     if not text: return None
     if text in TRANSLATION_CACHE: return TRANSLATION_CACHE[text]
+    if looks_french(text):
+        translated=enrich_editorial_context(text)
+        TRANSLATION_CACHE[text]=translated
+        return translated
     params={"client":"gtx","sl":"auto","tl":"fr","dt":"t","q":text}
     url="https://translate.googleapis.com/translate_a/single?"+urllib.parse.urlencode(params)
-    try:
-        req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/2.1"})
-        with urllib.request.urlopen(req,timeout=15) as r:
-            payload=json.loads(r.read().decode("utf-8","replace"))
-        translated="".join(part[0] for part in payload[0] if part and part[0]).strip()
-        if translated:
-            translated=enrich_editorial_context(translated)
-            TRANSLATION_CACHE[text]=translated
-            return translated
-    except Exception as e:
-        print("TRANSLATION",e,file=sys.stderr)
+    with _TRANSLATION_REQUEST_LOCK:
+        if text in TRANSLATION_CACHE: return TRANSLATION_CACHE[text]
+        for attempt in range(TRANSLATION_MAX_ATTEMPTS):
+            wait=max(0.0,_TRANSLATION_LAST_REQUEST+TRANSLATION_INTERVAL-time.monotonic())
+            if wait: time.sleep(wait)
+            _TRANSLATION_LAST_REQUEST=time.monotonic()
+            try:
+                req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GeoClic/2.1"})
+                with urllib.request.urlopen(req,timeout=15) as r:
+                    payload=json.loads(r.read().decode("utf-8","replace"))
+                translated="".join(part[0] for part in payload[0] if part and part[0]).strip()
+                if translated and not looks_english(translated):
+                    translated=enrich_editorial_context(translated)
+                    TRANSLATION_CACHE[text]=translated
+                    # Le cache persistant est borné lors de l'écriture du fichier d'attente.
+                    return translated
+                if translated:
+                    raise ValueError("Google Translate a renvoyé un texte qui semble toujours anglais")
+                raise ValueError("Google Translate a renvoyé une réponse vide")
+            except urllib.error.HTTPError as e:
+                retryable=e.code==429 or 500<=e.code<600
+                if not retryable or attempt+1>=TRANSLATION_MAX_ATTEMPTS:
+                    print("TRANSLATION",e,file=sys.stderr)
+                    break
+                delay=_retry_after_seconds(e,min(30.0,TRANSLATION_BACKOFF_BASE*(2**attempt)))
+                print(f"TRANSLATION HTTP {e.code}; nouvelle tentative dans {delay:.1f}s",file=sys.stderr)
+                time.sleep(delay)
+            except Exception as e:
+                print("TRANSLATION",e,file=sys.stderr)
+                break
     if meta is not None:
         PENDING.append({**meta,"original_summary":text})
     return None
+
+def retry_pending_translations():
+    """Retente le lot sauvegardé et reconstitue les articles traduits avec leurs seules données source."""
+    global RETRY_PENDING
+    try:
+        pending=json.loads(PENDING_TRANSLATIONS.read_text(encoding="utf-8")).get("items",[])
+    except Exception:
+        pending=[]
+    recovered=[]
+    RETRY_PENDING=[]
+    for item in pending:
+        original=(item.get("original_summary") or "").strip()
+        if not original:
+            continue
+        translated=french_summary(original)
+        if not translated:
+            RETRY_PENDING.append(item)
+            REJECTION_STATS["traduction_indisponible"]+=1
+            continue
+        title=(item.get("title") or original.split(". ",1)[0]).strip()
+        bucket=item.get("date") or ""
+        if not item.get("url") or not bucket or title_rejection_reason(title):
+            continue
+        summary=trim_incomplete_tail(clean_summary_text(
+            dedupe_summary_sentences(enrich_editorial_context(translated))))
+        reason=content_rejection_reason(summary)
+        if reason:
+            continue
+        countries=list(item.get("countries") or [])
+        regions=list(item.get("regions") or [])
+        importance=max(score(summary),election_score(summary))
+        if countries:
+            regions=list(dict.fromkeys(regions_for_countries(countries,importance)+regions))
+        elif not regions:
+            regions=infer_regions_from_text(summary)
+        if importance>=7 and "International" not in regions:
+            regions.append("International")
+        recovered.append({
+            "regions":regions,"countries":countries,"period":"day","bucket":bucket,
+            "score":importance,"category":category(summary),"summary":summary,
+            "sources":[source_name(item.get("source") or "Source")],"url":item["url"],
+            "published_at":item.get("published_at"),"origin":"rss","content_enriched":True
+        })
+    return recovered
 
 
 ARTICLE_DETAIL_CACHE={}
@@ -1677,7 +1777,12 @@ def article_summary(art, meta=None, targeted=False, candidates=None):
         return None
 
     source_text=f"{title}. {detail[:900]}"
-    combined=french_summary(source_text,meta)
+    translation_meta=dict(meta or {})
+    translation_meta.setdefault("title",title)
+    published=art.get("date")
+    if isinstance(published,datetime):
+        translation_meta.setdefault("published_at",published.astimezone(PARIS).isoformat())
+    combined=french_summary(source_text,translation_meta)
     if not combined:
         note_rejection("traduction_indisponible",title,url)
         return None
@@ -2339,7 +2444,8 @@ def main():
     include_previous=os.getenv("INCLUDE_PREVIOUS_DAY","0")=="1"
     start_date=now.date().replace(day=1) if backfill else (now.date()-timedelta(days=1) if include_previous else now.date()); end_date=now.date()
     state=load_monitor_state()
-    generated=build_generated(start_date,end_date)
+    generated=retry_pending_translations()
+    generated.extend(build_generated(start_date,end_date))
     country_rows,found=country_backfill(start_date,end_date,state)
     generated.extend(country_rows)
     old_daily=[x for x in old.get("items",[]) if x.get("period")=="day"]
@@ -2489,12 +2595,12 @@ def main():
     out={"generated_at":now.isoformat(),"timezone":"Europe/Paris","window_rule":"Une date couvre de 00h00 à 23h59 heure de Paris.","target_per_region_per_day":60,"buckets":{"day":day_buckets,"week":week_names,"month":month_names},"coverage":coverage,"items":day_items+non_daily_manual}
     DATA.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
     # Les articles dont la traduction a échoué sont conservés pour un prochain passage.
-    previous_pending=[]
-    if PENDING_TRANSLATIONS.exists():
-        try: previous_pending=json.loads(PENDING_TRANSLATIONS.read_text(encoding="utf-8")).get("items",[])
-        except Exception: previous_pending=[]
-    pending_by_url={x.get("url") or (x.get("date","")+x.get("original_summary","")):x for x in previous_pending+PENDING}
-    PENDING_TRANSLATIONS.write_text(json.dumps({"updated_at":now.isoformat(),"items":list(pending_by_url.values())},ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    pending_by_key={(x.get("url","")+"\n"+x.get("original_summary","")):x for x in RETRY_PENDING+PENDING}
+    cache_items=list(TRANSLATION_CACHE.items())[-500:]
+    PENDING_TRANSLATIONS.write_text(json.dumps({
+        "updated_at":now.isoformat(),"items":list(pending_by_key.values()),
+        "cache":dict(cache_items)
+    },ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     # Reconstituer aussi la couverture à partir de toutes les actualités déjà
     # conservées pour aujourd'hui : un pays trouvé par un lot précédent reste couvert.
     today_bucket=fr_date(now.date())
