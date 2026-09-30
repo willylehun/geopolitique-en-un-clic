@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:47:34.328847+02:00",
+  "generated_at": "2026-09-30T18:57:48.425685+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -26468,8 +26468,8 @@
         "International"
       ],
       "countries": [
-        "Syrie",
-        "Japon"
+        "Japon",
+        "Syrie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -36688,7 +36688,8 @@
       "category": "Géopolitique",
       "summary": "Le Pentagone affirme qu'il augmentera ses opérations en Amérique latine. Le ministère de la Défense se prépare à de nouvelles attaques à travers l’Amérique latine alors que le président Donald Trump (États-Unis) intensifie sa campagne militaire contre les cartels de la drogue. Le général Francis Donovan, nommé par Trump…",
       "sources": [
-        "The Daily Beast via MSN — fiabilité 6/10"
+        "The Daily Beast via MSN — fiabilité 6/10",
+        "Yahoo — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-us/news/other/pentagon-says-it-will-increase-operations-in-latin-america/ar-AA2dhwba",
       "published_at": "2026-09-30T09:55:22+02:00",
@@ -36739,6 +36740,101 @@
       "countries": [
         "Royaume-Uni"
       ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Blocus des lycées : « On est dans un système scolaire qui ne connaît plus la sanction », regrette… Face aux blocages de lycées et aux violences, l'enseignante Ève Vaguerlant dénonce dans l'émission \"Pascal Praud et vous\" un \"laxisme total\" et plaide pour davantage d'autorité et de sanctions contre …",
+      "sources": [
+        "Dailymotion via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/blocus-des-lycées-on-est-dans-un-système-scolaire-qui-ne-connaît-plus-la-sanction-regrette/vi-AA2dhTF5",
+      "published_at": "2026-09-30T11:36:03+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Royaume-Uni pense que l'Iran a été impliqué dans un incident survenu sur une base aérienne, déclare Burnham. Le Premier ministre britannique, Andy Burnham, a déclaré qu'il y avait de « fortes indications » que l'Iran avait joué un rôle dans les événements de la R. F. Fairford dimanche, sans fournir de détails sur les raisons.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/09/30/world/europe/uk-iran-raf-fairford-burnham.html",
+      "published_at": "2026-09-30T11:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le Venezuela et la Colombie doivent rouvrir le gazoduc, selon l'association. Le gazoduc reliant les voisins Venezuela et Colombie, qui est resté inutilisé ces dernières années, doit être réparé et rouvert le plus rapidement possible, a déclaré le président de l'Association colombienne du gaz …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/venezuela-colombia-must-reopen-gas-pipeline-association-says-2026-09-30/",
+      "published_at": "2026-09-30T11:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Colombie",
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Technologie",
+      "summary": "Kanu AI sort de la furtivité avec 11,7 millions de dollars pour transformer les flux de travail des employés en logiciels personnalisés. Fondée par Karan Grover, ancien élève de Y Combinator et ancien ingénieur en apprentissage automatique, Kanu AI, basée à Seattle, a levé 11,7 millions de dollars pour résoudre un problème d'entreprise persistant : des connaissances opérationnelles précieuses…",
+      "sources": [
+        "GeekWire via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/technology/kanu-ai-emerges-from-stealth-with-11-7m-to-turn-employee-workflows-into-custom-software/ar-AA2dhpmZ",
+      "published_at": "2026-09-30T09:59:13+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le robot aspirateur Roborock Saros Z70 atteint un prix record sur Amazon – économisez 1 000 $. Au 30 septembre, le robot aspirateur et vadrouille Roborock Saros Z70 était au prix de 999,98 $ sur Amazon. Cela représente une économie de 50 % sur le prix catalogue de 1 999,99 $. On pourrait croire qu'il n'y a jamais de bon moment pour s'éclabousser…",
+      "sources": [
+        "Mashable — fiabilité 6/10"
+      ],
+      "url": "https://mashable.com/tech/sept-30-roborock-saros-robot-vacuum-deal",
+      "published_at": "2026-09-30T03:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
