@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:02:47.387150+02:00",
+  "generated_at": "2026-09-30T03:12:56.772023+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -34518,6 +34518,27 @@
       "url": "https://www.cpapracticeadvisor.com/2026/09/29/heres-how-much-you-need-to-make-to-afford-the-typical-house-in-the-u-s-in-2026/190788/",
       "published_at": "2026-09-30T00:00:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Bangladesh"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les questions relatives aux rivières seront discutées dans le cadre de la Commission mixte fluviale : MEA sur le Traité sur l'eau du Gange avec le Bangladesh. Le ministère des Affaires étrangères (MEA) a déclaré mardi que les discussions sur le Traité sur l'eau du Gange avec le Bangladesh se poursuivaient au niveau technique, tout en notant que les questions concernant le Gange et d'autres fleuves partagés par les deux pays étaient traitées par la Commission fluviale conjointe.",
+      "sources": [
+        "iraqsun.com — fiabilité 5/10"
+      ],
+      "url": "http://www.iraqsun.com/news/279341083/matters-relating-to-rivers-will-be-discussed-as-part-of-joint-river-commission-mea-on-ganges-water-treaty-with-bangladesh",
+      "published_at": "2026-09-30T00:00:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
