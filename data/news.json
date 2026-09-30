@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:22:55.128527+02:00",
+  "generated_at": "2026-09-30T11:33:10.421174+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23289,13 +23289,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Afrique",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Irak",
-        "Égypte"
+        "Égypte",
+        "Irak"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -29923,7 +29923,8 @@
       "category": "Géopolitique",
       "summary": "La Russie réaffirme sa volonté de construire une nouvelle centrale nucléaire en Arménie - Nouvelles dArménie en Ligne – Toute lactualité sur le monde arménien. Le directeur général de Rosatom, la société d’État russe chargée de l’énergie nucléaire, a longuement discuté avec le Premier ministre Nikol Pashinian de sa proposition de construire une nouvelle centrale nucléaire en Arménie, lors d’une visite à Erevan mardi. « Rosatom propose à l’Arménie des technologies nucléaires éprouvées couvrant différentes gammes de puissance, notamment des […]",
       "sources": [
-        "armenews.com — fiabilité 6/10"
+        "armenews.com — fiabilité 6/10",
+        "Nouvelles d'Arménie en Ligne — fiabilité 6/10"
       ],
       "url": "https://www.armenews.com/344128-2/",
       "published_at": "2026-09-30T09:15:00+02:00",
@@ -30501,6 +30502,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
@@ -30694,9 +30696,10 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "La Corée du Sud révèle pourquoi Zelensky a divulgué le transfert secret de prisonniers de guerre. L’agence de renseignement sud-coréenne a révélé les motifs du président ukrainien le président Volodymyr Zelensky (Ukraine)y qui a révélé unilatéralement le transfert secret de deux prisonniers de guerre nord-coréens vers Séoul.",
+      "summary": "La Corée du Sud affirme que la révélation par Zelensky d'un transfert secret de prisonniers de guerre était probablement une tentative d'obtenir davantage de soutien. L'agence de renseignement sud-coréenne affirme que la récente révélation par le président Volodymyr Zelensky (Ukraine)y du transfert secret de deux prisonniers de guerre nord-coréens vers la Corée du Sud avait probablement pour but d'obtenir le soutien du public.",
       "sources": [
-        "The News International — fiabilité 6/10"
+        "The News International — fiabilité 6/10",
+        "ABC News — fiabilité 7/10"
       ],
       "url": "https://www.thenews.com.pk/latest/1418179-south-korea-reveals-why-zelenskyy-disclosed-secret-pow-transfer",
       "published_at": "2026-09-30T03:33:00+02:00",
@@ -30966,7 +30969,8 @@
       "category": "Géopolitique",
       "summary": "Les États-Unis retirent leurs dernières troupes d’Irak. Comment cela affectera-t-il le Moyen-Orient. Michel Martin de NPR s'entretient avec le lieutenant-général à la retraite H. R. McMaster, ancien conseiller américain à la sécurité nationale, de l'impact qu'aura le retrait final des troupes américaines d'Irak sur le Moyen-Orient.",
       "sources": [
-        "Boise State Public Radio — fiabilité 6/10"
+        "Boise State Public Radio — fiabilité 6/10",
+        "WUNC — fiabilité 6/10"
       ],
       "url": "https://www.boisestatepublicradio.org/2026-09-30/the-u-s-is-pulling-its-last-troops-out-of-iraq-how-will-it-affect-the-middle-east",
       "published_at": "2026-09-30T03:42:00+02:00",
@@ -31077,6 +31081,230 @@
       ],
       "url": "https://www.lorientlejour.com/article/1549145/guerre-au-moyen-orient-liran-a-recu-une-reponse-officielle-de-washington-a-sa-derniere-offre.html",
       "published_at": "2026-09-30T03:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Russie envoie des drones Shahed d'une valeur de 30 000 $ en Ukraine. La Russie envoie des drones explosifs Shahed vers les villes ukrainiennes, créant un problème économique brutal : le document indique qu'un Shahed peut coûter entre 30 000 et 40 000 dollars, tandis qu'un missile intercepteur traditionnel…",
+      "sources": [
+        "Generation-Z-Productions via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/technology/general/russia-sends-30-000-shahed-drones-at-ukraine-ukraine-s-2-000-hunter-chases-them-at-300-km-h/vi-AA2dg0zI",
+      "published_at": "2026-09-30T03:31:09+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les troupes russes franchissent les lignes ukrainiennes à moto, puis l’assaut se transforme en grenades, drones et capitulation. Des groupes d'assaut russes se précipitent vers les lignes ukrainiennes à l'aide de motos, de VTT et de voitures avant de se réfugier à l'intérieur d'une colonie. Ce qui suit est une guerre rapprochée brutale impliquant des drones FPV,…",
+      "sources": [
+        "Generation-Z-Productions via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/russian-troops-break-through-ukraine-s-lines-on-motorcycles-then-the-assault-collapses-into-grenades-drones-and-surrender/vi-AA2dfDLf",
+      "published_at": "2026-09-30T03:31:05+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le passage de la Chine aux camions électriques offre une certaine résilience face à la hausse des prix du diesel. Les ventes de camions électriques ont bondi de près de 80 % au premier semestre par rapport à l'année précédente, dans un contexte de guerre entre les États-Unis et l'Iran et d'attaques ukrainiennes contre les raffineries russes.",
+      "sources": [
+        "The Japan Times — fiabilité 7/10"
+      ],
+      "url": "https://www.japantimes.co.jp/business/2026/09/30/tech/china-ev-global-diesel/",
+      "published_at": "2026-09-30T04:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Une phrase du président de la Fed, Kevin Warsh, lance un terrible avertissement à Wall Street et aux investisseurs. Le président de la Fed, Warsh, vient de montrer son point de vue sur les taux d’intérêt – et c’est une terrible nouvelle pour le catalyseur n°1 du marché boursier.",
+      "sources": [
+        "The Motley Fool via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/economy/one-sentence-from-fed-chair-kevin-warsh-delivers-a-dire-warning-to-wall-street-and-investors/ar-AA2dfJpS",
+      "published_at": "2026-09-30T04:06:01+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le dossier éthique montre que la famille Leavitt détenait Trump Media, Tesla Stock. Les investissements familiaux de l’ancienne secrétaire de presse de la Maison Blanche, Karoline Leavitt, alors qu’elle travaillait avec le président Donald Trump (États-Unis), comprenaient des actions dans la société de médias sociaux du président. Un document d'éthique examiné par The …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/ethics-filing-shows-leavitt-family-082046488.html",
+      "published_at": "2026-09-30T03:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les jeunes travailleurs en détention concluent un accord de principe sur leur rémunération avec le gouvernement du Queensland. Les négociations ont débuté début mars, le Syndicat des travailleurs australiens faisant pression pour de meilleures conditions suite à des centaines d'agressions signalées contre des employés de centres de détention au cours de l'année écoulée.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/australia/youth-detention-workers-reach-in-principle-pay-deal-with-queensland-government/ar-AA2dgq4a",
+      "published_at": "2026-09-30T04:20:28+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "VIDÉO : Les coûts de transport du pétrole s’élèvent à 25 dollars le baril. Suivez les derniers titres d'ABC News, la source médiatique la plus fiable d'Australie, avec des événements en direct, de l'audio et des vidéos à la demande du diffuseur national.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+      ],
+      "url": "https://www.abc.net.au/news/programs/the-business/2026-09-30/oil-shipping-costs-rise-to-us25-a-barrel/107214208",
+      "published_at": "2026-09-30T00:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Chine",
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La stratégie iranienne du président Donald Trump (États-Unis) a un problème avec la Chine | Avis. Mais la Chine a clairement d’autres idées. La RPC est devenue la principale bouée de sauvetage économique de l'Iran, et les achats continus de pétrole iranien par la Chine ont joué un rôle important dans le maintien de la …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-iran-strategy-china-problem-090000542.html",
+      "published_at": "2026-09-30T04:01:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "La Banque du Japon relève son taux à 1,25 %, au plus haut depuis 31 ans. L'inflation sous-jacente se rapproche de son objectif de 2 %.",
+      "sources": [
+        "Le Nouvel Économiste — fiabilité 6/10"
+      ],
+      "url": "https://www.lenouveleconomiste.fr/la-banque-du-japon-releve-son-taux-a-125-au-plus-haut-depuis-31-ans-141571/",
+      "published_at": "2026-09-30T03:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Arabie saoudite"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Un incident » en plein vol : un avion de Flydubai à destination de Tel-Aviv obligé d’atterrir d’urgence en Arabie saoudite. Le gouvernement israélien a d’ores et déjà annoncé prendre des mesures pour rapatrier les passagers israéliens qui se trouvaient à bord de l …",
+      "sources": [
+        "Le Parisien — fiabilité 6/10"
+      ],
+      "url": "https://www.leparisien.fr/international/un-incident-en-plein-vol-un-avion-de-flydubai-a-destination-de-tel-aviv-oblige-datterrir-durgence-en-arabie-saoudite-30-09-2026-HJLCRDCX2NBGDLEAQUSUVMB7NU.php",
+      "published_at": "2026-09-30T03:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Arménie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Ces dernières semaines, la hausse du prix de l’essence en Arménie est sans commune mesure avec les fluctuations du marché international. Dans les stations-service arméniennes, le litre d’essence premium, vendu en moyenne 621 drams, a augmenté de 10,53 % en un mois. Or, une hausse d’une telle ampleur n’est constatée ni dans les principa …",
+      "sources": [
+        "Nouvelles d'Arménie en Ligne — fiabilité 6/10"
+      ],
+      "url": "https://www.armenews.com/ces-dernieres-semaines-la-hausse-du-prix-de-lessence-en-armenie-est-sans-commune-mesure-avec-les-fluctuations-du-marche-international/",
+      "published_at": "2026-09-30T03:30:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
