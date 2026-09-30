@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:59:57.587179+02:00",
+  "generated_at": "2026-09-30T20:10:14.743566+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -36646,6 +36646,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -37781,7 +37782,8 @@
       "url": "https://www.lefigaro.fr/societes/guerre-au-moyen-orient-canicules-cette-hausse-des-prix-qui-se-profile-dans-les-grandes-surfaces-20260930",
       "published_at": "2026-09-30T12:02:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -37829,8 +37831,8 @@
     {
       "regions": [
         "Asie",
-        "International",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38013,7 +38015,8 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-indexes-rally-inflation-172301520.html",
       "published_at": "2026-09-30T12:24:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -38035,6 +38038,204 @@
       "countries": [
         "Nouvelle-Zélande"
       ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La Russie vise l’approvisionnement en électricité de Kyiv à l’approche d’un hiver glacial. La Russie a frappé mercredi les infrastructures énergétiques ukrainiennes lors d'une vague de frappes meurtrières de drones et de missiles, ce qui a déclenché un appel urgent à des mesures civiles d'urgence à l'approche d'un hiver glacial.",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/en/international-news/20260930-russia-targets-kyiv-power-supply-as-freezing-winter-approaches",
+      "published_at": "2026-09-30T09:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Ce qu'il faut savoir sur le terrifiant vol FlyDubai contraint d'atterrir en Arabie Saoudite. Un pilote en poignarde un autre alors qu’il tente de prendre le contrôle d’un vol reliant les Émirats arabes unis à destination d’Israël dans le but de l’écraser, selon le Premier ministre israélien. Des passagers, dont beaucoup…",
+      "sources": [
+        "The Baltimore Sun — fiabilité 6/10"
+      ],
+      "url": "https://www.baltimoresun.com/2026/09/30/flydubai-flight-emergency-landing-explained/",
+      "published_at": "2026-09-30T12:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite",
+        "Israël",
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Un responsable de l’OTAN s’exprime sur le « schéma familier » des attaques à réaction israéliennes. L'ambassadeur des États-Unis auprès de l'OTAN, Matthew Whitaker, explique dans quelles circonstances une attaque de drone russe contre l'Europe constitue un acte de guerre. Whitaker réagit également à l’incident de l’avion détourné en Israël.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6405972163112",
+      "published_at": "2026-09-30T12:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Troy Jackson affirme que les Juifs du Maine ne qualifieront pas la guerre à Gaza (Palestine) de génocide uniquement parce qu’ils sont juifs. WASHINGTON — Troy Jackson, candidat démocrate au Sénat du Maine, s'est excusé mercredi après s'être plaint du fait que les résidents juifs de son État étaient réticents à qualifier la guerre menée par Israël contre le Hamas dans la bande de Gaza…",
+      "sources": [
+        "New York Post via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/troy-jackson-claims-maine-jews-won-t-call-gaza-war-a-genocide-only-because-they-re-jewish/ar-AA2dgPv1",
+      "published_at": "2026-09-30T12:57:53+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Palestine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Regardez-vous Streeting ? Le trésor de guerre de Poutine devrait atteindre un niveau record de 35 % du budget de l'État d'ici l'année prochaine, alors qu'il coupe dans les domaines de l'aide sociale, de l'éducation et des soins de santé pour financer 17 100 milliards de roubles (£). Le président Vladimir Poutine (Russie) a envoyé hier soir un message aux ministres britanniques hésitants en augmentant les dépenses de défense russes à un niveau record de 35 % du budget global du Kremlin.",
+      "sources": [
+        "Daily Mail — fiabilité 6/10"
+      ],
+      "url": "https://www.dailymail.com/news/article-16172369/Are-you-watching-Streeting-Putins-war-chest-rise-record-35-state-budget-year-slashes-welfare-education-healthcare-fund-17-1trillion-ruble-154bn-military.html",
+      "published_at": "2026-09-30T12:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni",
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le représentant Jamie Raskin enquête sur les accords NDA des centres de données Big Tech. Le représentant Jamie Raskin exige que les entreprises remettent les accords de secret signés avec les autorités locales et divulguent les prévisions de consommation d'électricité et d'eau…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/rep-jamie-raskin-investigates-big-174626845.html",
+      "published_at": "2026-09-30T12:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Trump s'apprête à dévoiler un investissement sud-coréen de 54 milliards de dollars dans Alaska LNG. Le président Donald Trump (États-Unis) envisage de dévoiler un ensemble d'investissements de 200 milliards de dollars de la Corée du Sud, y compris des fonds proposés pour un projet de gaz naturel liquéfié en Alaska, au point mort depuis longtemps, a déclaré la Maison Blanche…",
+      "sources": [
+        "Politico — fiabilité 8/10"
+      ],
+      "url": "https://www.politico.com/news/2026/09/30/trump-south-korea-investment-alaska-lng-01100024",
+      "published_at": "2026-09-30T12:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Ghana",
+        "Nigeria",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Atiku demande à FG de publier l'accord sur la santé entre le Nigeria et les États-Unis après le rejet du Ghana - Dernières nouvelles au Nigeria, Nigeria News Today, votre journal nigérian en ligne. L’ancien vice-président Atiku Abubakar a demandé au gouvernement fédéral de publier l’accord de santé entre le Nigeria et les États-Unis, suite au rejet par le Ghana d’un accord proposé avec Washington. Atiku, le candidat présidentiel du Congrès démocratique africain (ADC), a pris la parole dans un communiqué publié par Phrank Shaibu, directeur de la communication stratégique de son conseil de campagne.",
+      "sources": [
+        "nigerianeye.com — fiabilité 6/10"
+      ],
+      "url": "https://www.nigerianeye.com/2026/09/atiku-asks-fg-to-publish-nigeria-us.html",
+      "published_at": "2026-09-30T17:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ghana",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Royaume-Uni – Lancement du Centre de ressources commerciales du Ghana pour débloquer de nouvelles opportunités commerciales. Dans le but de stimuler considérablement les relations commerciales et d'investissement entre le Royaume-Uni et le Ghana, la Chambre de commerce Royaume-Uni-Ghana (UKGCC), en partenariat avec le programme Royaume-Uni-Ghana pour l'emploi et la transformation économique (JET), a lancé le Centre de ressources commerciales Royaume-Uni-Ghana, une plateforme pratique d'accès au marché conçue pour aider les entreprises à identifier les opportunités, à s'adapter aux exigences d'exportation et à établir des partenariats commerciaux entre le Ghana et le Royaume-Uni.",
+      "sources": [
+        "thebftonline.com — fiabilité 6/10"
+      ],
+      "url": "https://thebftonline.com/article/uk-ghana-trade-resource-centre-launched-to-unlock-new-trade-opportunities",
+      "published_at": "2026-09-30T19:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
