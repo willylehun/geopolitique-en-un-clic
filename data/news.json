@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:29:11.186453+02:00",
+  "generated_at": "2026-09-30T19:39:23.629440+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -284,8 +284,8 @@
         "Reuters"
       ],
       "countries": [
-        "Yémen",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Yémen"
       ]
     },
     {
@@ -673,8 +673,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Afrique",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -686,8 +686,8 @@
         "Reuters"
       ],
       "countries": [
-        "Yémen",
-        "Djibouti"
+        "Djibouti",
+        "Yémen"
       ]
     },
     {
@@ -36859,7 +36859,8 @@
       "url": "https://www.ouest-france.fr/economie/commerce/prix/des-hausses-de-prix-hors-normes-pourquoi-linflation-a-fait-un-tel-bond-en-septembre-4b6b0ad0-bcc8-11f1-8ea4-97dc4d7cca62",
       "published_at": "2026-09-30T10:09:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -37258,7 +37259,7 @@
         "France Info — fiabilité 6/10"
       ],
       "url": "https://www.franceinfo.fr/monde/russie/la-france-a-la-rescousse-d-un-oligarque-russe_8216800.html",
-      "published_at": "2026-09-30T12:28:00+02:00",
+      "published_at": "2026-09-30T12:39:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -37321,12 +37322,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Sri Lanka",
-        "Kenya"
+        "Kenya",
+        "Sri Lanka"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -37358,6 +37359,197 @@
       ],
       "url": "https://www.rts.ch/audio-podcast/2026/audio/qui-sont-les-houthis-du-yemen-29372314.html",
       "published_at": "2026-09-30T09:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le conducteur flashé à 312 km/h sur une autoroute de Haute-Savoie va-t-il échapper aux sanctions ?. Le chauffard auteur d’un excès de vitesse record à 312 km/h sur l’A40 dans la nuit du 26 au 27 septembre pourrait-il bénéficier d’une relaxe ? La question se pose puisque, selon un avocat spécialisé, …",
+      "sources": [
+        "Ouest-France — fiabilité 6/10"
+      ],
+      "url": "https://www.ouest-france.fr/societe/faits-divers/le-conducteur-flashe-a-312-km-h-sur-une-autoroute-de-haute-savoie-va-t-il-echapper-aux-sanctions-8cb3ea4c-bcce-11f1-8ea4-97dc4d7cca62",
+      "published_at": "2026-09-30T11:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "“Tous les avertissements ont été ignorés”: Moscou convoque l’ambassadeur danois après un incident. La Russie a convoqué mercredi l'ambassadeur danois à Moscou pour protester après un incident qui avait impliqué mi-septembre un navire de guerre russe et un hélicoptère de l'armée danoise en mer Balti …",
+      "sources": [
+        "7sur7.be — fiabilité 6/10"
+      ],
+      "url": "https://www.7sur7.be/monde/tous-les-avertissements-ont-ete-ignores-moscou-convoque-lambassadeur-danois-apres-un-incident~a38e490b/",
+      "published_at": "2026-09-30T05:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "RC Lens : Deux supporters condamnés à des amendes pour l'utilisation de fumigènes à Bollaert. Ce mardi 29 septembre, la justice s'est penchée sur l'usage de pyrochnie dans l'enceinte du stade Bollaert-Delelis. Le tribunal judiciaire de Béthune a jugé deux affaires distinctes impliquant des sup …",
+      "sources": [
+        "Score.fr via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/rc-lens-deux-supporters-condamnés-à-des-amendes-pour-lutilisation-de-fumigènes-à-bollaert/ar-AA2dhGhk",
+      "published_at": "2026-09-30T10:15:02+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Manifestation du LPU : « Grande conspiration » derrière le vandalisme sur le campus, affirme le chancelier Ashok Mittal. Ashok Mittal, fondateur-chancelier de la Lovely Professional University (LPU) et député du BJP, a déclaré mercredi qu'il y avait une \"grande conspiration\" derrière la violence et le vandalisme…",
+      "sources": [
+        "The New Indian Express — fiabilité 6/10"
+      ],
+      "url": "https://www.newindianexpress.com/india/2026/Sep/30/lpu-protest-big-conspiracy-behind-campus-vandalism-claims-chancellor-ashok-mittal",
+      "published_at": "2026-09-30T12:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre britannique Burnham suggère que l'Iran est impliqué dans l'incident de la base aérienne. Andy Burnham a déclaré qu'il y avait de « fortes indications » selon lesquelles l'Iran pourrait avoir participé à un incident, au cours duquel trois camionnettes blanches sont apparues se diriger vers la RAF Fairford aux premières heures de dimanche.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/en/international/article/2026/09/30/uk-pm-burnham-suggests-iran-involved-in-airbase-incident_6758117_4.html",
+      "published_at": "2026-09-30T12:14:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les États-Unis ciblent le réseau Tren de Aragua derrière un projet de piratage de distributeurs automatiques de 40 millions de dollars. Le département américain du Trésor a annoncé mercredi des sanctions contre 10 personnes et entités liées à Tren de Aragua, ciblant un réseau financier accusé d'utiliser des logiciels malveillants pour…",
+      "sources": [
+        "Tampa Free Press via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/us-targets-tren-de-aragua-network-behind-40-million-atm-hacking-scheme/ar-AA2dhQCQ",
+      "published_at": "2026-09-30T10:18:53+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Élection 2026 : Coral Raukawa du National affirme qu’il existe des moyens plus « dignes » d’aider les sans-abri que les mesures prises par le gouvernement. Coral Raukawa, la seule candidate de National à un siège maori, affirme qu'il existe des moyens plus « dignes » d'aider les personnes qui dorment dans la rue que les ordres de déplacement du gouvernement de coalition. Cette politique controversée…",
+      "sources": [
+        "NZ Herald — fiabilité 6/10"
+      ],
+      "url": "https://www.nzherald.co.nz/nz/politics/election-2026-nationals-coral-raukawa-says-there-are-more-dignified-ways-to-help-homeless-than-govts-move-on-orders/EXNOGKIQEBCJRGEQQ56PSGBQ2M/",
+      "published_at": "2026-09-30T12:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les collèges ont averti de « ne pas essayer de jouer avec » les visas étudiants après la montée en flèche des inscriptions de dernière minute pour des diplômes annulés. Julian Hill affirme que les prestataires d'enseignement sont étroitement surveillés par le gouvernement après que les cours ont attiré des étudiants non authentiques…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/australia-news/2026/oct/01/australia-private-colleges-student-visa-enrolments-soar-for-cancelled-diploma-ntwnfb",
+      "published_at": "2026-09-30T09:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Maroc Gen Z, Ceuta, place des femmes… Que peut changer Fatima Ezzahra El Mansouri, première cheffe du gouvernement ?. Première femme à occuper ce poste, elle hérite de plusieurs dossiers chauds dans un pays en proie aux difficultés socio-économiques.",
+      "sources": [
+        "Le Dauphiné Libéré — fiabilité 6/10"
+      ],
+      "url": "https://www.ledauphine.com/politique/2026/09/30/gen-z-ceuta-place-des-femmes-que-peut-changer-fatima-ezzahra-el-mansouri-premiere-cheffe-du-gouvernement",
+      "published_at": "2026-09-30T12:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Pour Justin Trudeau, les droits de douane américains imposés au Canada nuisent aux deux pays. Justin Trudeau a critiqué la politique commerciale américaine lors d’une conférence à l’Université Brown, le 22 septembre. L’ancien premier ministre canadien estime que les droits de douane imposés pa …",
+      "sources": [
+        "Espresso via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ca/actualites/other/pour-justin-trudeau-les-droits-de-douane-américains-imposés-au-canada-nuisent-aux-deux-pays/ar-AA2dh5HM",
+      "published_at": "2026-09-30T08:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
