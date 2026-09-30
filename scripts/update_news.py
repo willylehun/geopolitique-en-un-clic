@@ -1135,7 +1135,9 @@ def _request_google_page(url):
     }
     if httpx is not None:
         current=url
-        with httpx.Client(http2=True,follow_redirects=False,timeout=10,headers=headers) as client:
+        # Keep httpx's native User-Agent instead of claiming to be Chrome; its
+        # HTTP/2 transport and matching client fingerprint avoids the JS shell.
+        with httpx.Client(http2=True,follow_redirects=False,timeout=10) as client:
             for _ in range(4):
                 response=client.get(current,follow_redirects=False)
                 if response.status_code in (301,302,303,307,308):
@@ -1204,7 +1206,7 @@ def _post_google_article_decode(art_id, timestamp, signature):
     }
     body="f.req="+urllib.parse.quote(f_req,safe="")
     if httpx is not None:
-        with httpx.Client(http2=True,timeout=10,headers={"User-Agent":headers["User-Agent"]}) as client:
+        with httpx.Client(http2=True,timeout=10) as client:
             response=client.post(
                 "https://news.google.com/_/DotsSplashUi/data/batchexecute",
                 content=body,

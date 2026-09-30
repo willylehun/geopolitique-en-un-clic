@@ -116,6 +116,7 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         self.assertEqual(rpc,"rpc response")
         self.assertEqual(len(FakeHTTPXClient.options),2)
         self.assertTrue(all(options["http2"] for options in FakeHTTPXClient.options))
+        self.assertTrue(all("headers" not in options for options in FakeHTTPXClient.options))
 
     def test_batchexecute_request_uses_expected_rpc_envelope(self):
         article_id=RECENT_ARTICLE_IDS[0]
