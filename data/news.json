@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:51:52.616294+02:00",
+  "generated_at": "2026-09-30T21:02:07.265244+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -36649,7 +36649,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -37722,10 +37721,11 @@
       "summary": "Le Premier ministre britannique affirme que l’Iran est fortement lié à un incident sur une base aérienne. Alors que le conflit dans le golfe Persique continue d'avoir un impact et de façonner la région, les journalistes de la salle de presse centrale de RFE/RL et du service iranien Radio Farda,",
       "sources": [
         "northkoreatimes.com — fiabilité 6/10",
-        "newzealandstar.com — fiabilité 6/10"
+        "newzealandstar.com — fiabilité 6/10",
+        "neworleanssun.com — fiabilité 6/10"
       ],
       "url": "http://www.northkoreatimes.com/news/279343449/uk-pm-says-strong-indications-iran-linked-to-airbase-incident",
-      "published_at": "2026-09-30T20:00:00+02:00",
+      "published_at": "2026-09-30T20:30:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -38816,6 +38816,159 @@
       ],
       "url": "https://www.lemonde.fr/international/article/2026/09/30/visite-d-emmanuel-macron-a-madrid-entre-la-france-et-l-espagne-des-relations-extraordinaires-mais-toujours-sans-traite-d-amitie_6786114_3210.html",
       "published_at": "2026-09-30T12:56:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Rasmussen : 19 % soutiennent le démantèlement d’Israël pour du gaz bon marché. Près de deux électeurs américains probables sur dix déclarent qu'ils soutiendraient la destruction d'Israël et la création d'un État pro-palestinien en échange de la fin de la guerre en Iran et de la baisse des prix du pétrole et du gaz, rapporte Rasmussen…",
+      "sources": [
+        "Newsmax — fiabilité 6/10"
+      ],
+      "url": "https://www.newsmax.com/newsfront/rasmussen-reports-israel-gas-prices/2026/09/30/id/1271255/",
+      "published_at": "2026-09-30T13:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Israël",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les compagnies pétrolières se rapprochent du Venezuela malgré les obstacles. Les compagnies pétrolières étrangères se sont précipitées pour obtenir une part du brut vénézuélien lors du sommet pétrolier tenu cette semaine à Caracas, malgré des années de sanctions, de sous-investissement et de mauvaise gestion qui ont paralysé le …",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/en/international-news/20260930-oil-companies-close-in-on-venezuela-despite-hurdles",
+      "published_at": "2026-09-30T12:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Qatar"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les alliés afghans bénéficient d’un sursis puisque l’administrateur Trump accepte de maintenir ouvert le camp de réfugiés du Qatar. L’administration Trump a accepté de maintenir ouvert le camp As Sayliyah au Qatar pendant neuf mois supplémentaires, accordant ainsi un sursis temporaire à plus de 1 000 alliés afghans.",
+      "sources": [
+        "lex18.com — fiabilité 6/10"
+      ],
+      "url": "https://www.lex18.com/us-news/afghan-allies-get-9-month-reprieve-as-trump-administration-agrees-to-keep-qatar-refugee-camp-open",
+      "published_at": "2026-09-30T20:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe"
+      ],
+      "countries": [
+        "Ghana",
+        "Luxembourg"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Ghana et le Luxembourg ouvrent des négociations sur un éventuel accord d'exemption de visa. Le Ghana et le Luxembourg ont convenu d'entamer des discussions sur un éventuel accord d'exemption de visa entre les deux pays et la région du Benelux au sens large. L’accord a été conclu lors d’une rencontre entre le ministre ghanéen des Affaires étrangères, Samuel Okudzeto Ablakwa, et le vice-Premier ministre et ministre luxembourgeois des Affaires étrangères, Xavier Bettel, en marge du 81e […]",
+      "sources": [
+        "theheraldghana.com — fiabilité 6/10"
+      ],
+      "url": "https://theheraldghana.com/ghana-luxembourg-open-talks-on-potential-visa-waiver-agreement/",
+      "published_at": "2026-09-30T20:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Lituanie",
+        "Allemagne",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Ukraine - Guerre en direct : +++ 19:47 La Lituanie restreint les achats de biens immobiliers pour les Russes +++. Berlin (Allemagne), Washington, Bruxelles – partout. Ntv rend compte de tous les lieux importants de politique intérieure et étrangère.",
+      "sources": [
+        "n-tv.de — fiabilité 6/10"
+      ],
+      "url": "https://www.n-tv.de/politik/19-47-Litauen-schraenkt-Immobilienkaeufe-fuer-Russen-ein-id30859357.html",
+      "published_at": "2026-09-30T20:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Libéria",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le président Boakai appelle à un partenariat plus fort avec la diaspora et fixe cinq engagements pour le développement national | Ambassade de la République du Libéria aux États-Unis. C. 29 septembre 2026. Le président Joseph Nyuma Boakai, Sr. A appelé à un partenariat plus fort et plus axé sur les résultats entre le gouvernement du Libéria et les Libériens de la diaspora, exhortant les citoyens à l'étranger à passer du dialogue à l'action concrète en faveur du développement national.",
+      "sources": [
+        "liberianembassyus.org — fiabilité 6/10"
+      ],
+      "url": "https://www.liberianembassyus.org/in-the-news/president-boakai-calls-for-stronger-diaspora-partnership-sets-five-commitments-for",
+      "published_at": "2026-09-30T20:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Algérie",
+        "Tunisie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Kiosque international - La Presse de Tunisie. Algérie : Les points de vigilance du FMI La Presse — Le Fonds monétaire international (FMI) prévoit une croissance de 3,8 % pour l’économie algérienne en Algérie : Les points de vigilance du FMI La Presse — Le Fonds monétaire international (FMI) prévoit une croissance de 3,8 % pour l’économie algérienne en 2026, contre 3,9 % en 2025. Ce léger ralentissement intervient dans un contexte marqué par des déficits budgétaires et extérieurs élevés, une hausse de la dette publique et une baisse progressive des réserves internationales, selon les…",
+      "sources": [
+        "lapresse.tn — fiabilité 6/10"
+      ],
+      "url": "https://www.lapresse.tn/2026/09/30/kiosque-international-29/",
+      "published_at": "2026-09-30T20:30:00+02:00",
       "origin": "global",
       "content_enriched": true
     },

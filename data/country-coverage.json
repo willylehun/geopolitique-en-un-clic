@@ -2,8 +2,8 @@
   "date": "30 septembre 2026",
   "timezone": "Europe/Paris",
   "target_countries": 195,
-  "covered_count": 95,
-  "missing_count": 100,
+  "covered_count": 97,
+  "missing_count": 98,
   "covered_countries": [
     "Afrique du Sud",
     "Albanie",
@@ -51,6 +51,8 @@
     "Japon",
     "Kazakhstan",
     "Kenya",
+    "Libéria",
+    "Lituanie",
     "Luxembourg",
     "Madagascar",
     "Malaisie",
@@ -168,9 +170,7 @@
     "Laos",
     "Lesotho",
     "Lettonie",
-    "Libéria",
     "Liechtenstein",
-    "Lituanie",
     "Maldives",
     "Malte",
     "Micronésie",
@@ -204,7 +204,7 @@
     "Îles Salomon"
   ],
   "rule": "Couverture cumulative sur la journée civile Europe/Paris : les 195 pays restent dans la rotation ; covered = au moins une actualité du jour publiée ; missing = pays sans actualité publiée à cet instant. Plusieurs articles distincts par pays sont autorisés.",
-  "updated_at": "2026-09-30T20:51:52.616294+02:00",
+  "updated_at": "2026-09-30T21:02:07.265244+02:00",
   "checked_count": 195,
   "checked_countries": [
     "Afghanistan",
