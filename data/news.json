@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:34:04.922427+02:00",
+  "generated_at": "2026-09-30T16:44:20.035703+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -32333,7 +32333,8 @@
       "category": "Économie",
       "summary": "France : l'inflation grimpe à 3% sur un an en septembre, selon l'Insee. Paris (France) (AFP) – Les prix à la consommation ont augmenté de 3% sur un an en septembre, contre une hausse de 2,4% en août, selon une estimation provisoire publiée mercredi par l'Institut national …",
       "sources": [
-        "France 24 (média public) — fiabilité 8/10"
+        "France 24 (média public) — fiabilité 8/10",
+        "Le Dauphiné Libéré — fiabilité 6/10"
       ],
       "url": "https://www.france24.com/fr/info-en-continu/20260930-france-l-inflation-grimpe-à-3-sur-un-an-en-septembre-selon-l-insee",
       "published_at": "2026-09-30T04:18:00+02:00",
@@ -35391,9 +35392,10 @@
       "bucket": "30 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Le Royaume-Uni demande aux universitaires de rompre leurs liens avec l'institut chinois que le MI5 présente comme une façade d'espionnage. Le gouvernement britannique a demandé mercredi aux universités britanniques de cesser de travailler avec un institut de recherche chinois qui, selon les services de sécurité britanniques, constitue une façade pour l'espionnage. Le ministre de la Sécurité Dan…",
+      "summary": "Le Royaume-Uni demande aux universitaires de rompre leurs liens avec l'institut chinois, que le MI5 présente comme une façade d'espionnage. Le gouvernement britannique a demandé mercredi aux universités britanniques de cesser de travailler avec un institut de recherche chinois qui, selon les services de sécurité britanniques, constitue une façade pour l'espionnage. Le ministre de la Sécurité, Dan Jarvis…",
       "sources": [
-        "Yahoo — fiabilité 6/10"
+        "Yahoo — fiabilité 6/10",
+        "AP — fiabilité 9/10"
       ],
       "url": "https://www.yahoo.com/news/world/articles/uk-tells-academics-cut-ties-133705384.html",
       "published_at": "2026-09-30T08:36:00+02:00",
@@ -35672,6 +35674,7 @@
     {
       "regions": [
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -35793,6 +35796,235 @@
       "countries": [
         "Inde"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement nigérian va mettre en place une équipe de travail nationale sur le vaccin contre le Covid-19. En prévision d'un déploiement, le ministre nigérian de la Santé, Osagie Ehanire, a annoncé la formation d'une équipe spéciale. Alors sur quoi devraient-ils se concentrer ? Bola Mosuro a posé cette question au Dr.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/sounds/play/p08zjrty",
+      "published_at": "2026-09-30T09:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "France : l'inflation grimpe à 3% sur un an en septembre, selon l'Insee. L'alimentation globale, qui englobe les produits frais, voit ses prix augmenter de 1,5% (contre 1,1% en août). Autre catégorie de produit dont le prix augmente: le tabac, en hausse de 3,3% sur un an …",
+      "sources": [
+        "TV5MONDE - Informations — fiabilité 6/10"
+      ],
+      "url": "https://information.tv5monde.com/economie/france-linflation-grimpe-3-sur-un-en-septembre-selon-linsee-2839622",
+      "published_at": "2026-09-30T02:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "PM Modi et le président Donald Trump (États-Unis) parlent au téléphone et discutent du commerce, de la défense et de l'énergie. Le Premier ministre Narendra Modi (Inde) et le président américain Donald Trump se sont entretenus par téléphone et ont discuté de questions telles que le commerce, la défense et l'énergie. Les deux dirigeants ont tenu la conversation alors que les trois domaines restaient…",
+      "sources": [
+        "ABP News — fiabilité 6/10"
+      ],
+      "url": "https://news.abplive.com/news/india/pm-modi-donald-trump-speak-on-phone-discuss-trade-defence-and-energy-1869098",
+      "published_at": "2026-09-30T09:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le ministère des Mines va mettre aux enchères deux blocs miniers offshore dans la mer d'Andaman. Deux blocs de la mer d'Andaman seront proposés sous licence composite alors que le gouvernement cherche à attirer les investissements, à stimuler l'exploration et à renforcer la sécurité minière à long terme…",
+      "sources": [
+        "Business Standard — fiabilité 6/10"
+      ],
+      "url": "https://www.business-standard.com/industry/news/mines-ministry-to-auction-two-offshore-mineral-blocks-in-andaman-sea-126093001310_1.html",
+      "published_at": "2026-09-30T09:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "K'taka : explosion massive à la raffinerie de pétrole MRPL à Mangaluru.",
+      "sources": [
+        "Press Trust of India via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/k-taka-massive-explosion-at-mrpl-oil-refinery-in-mangaluru/ar-AA2dg0Ni",
+      "published_at": "2026-09-30T09:10:04+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Laissons les travailleurs s’exprimer : les manifestants ciblent la conférence OpenAI. Des dizaines de militants ont manifesté devant la conférence des développeurs d'OpenAI à San Francisco, appelant l'entreprise à mettre fin à ses contrats avec l'armée américaine et les services d'immigration et de douane et…",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/let-workers-have-a-say-protesters-target-openai-conference/ar-AA2dhbQY",
+      "published_at": "2026-09-30T09:06:29+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les États-Unis durcissent davantage les sanctions contre Cuba. Les États-Unis ont annoncé un durcissement des sanctions contre Cuba, avec de nouvelles restrictions concernant les opérations financières liées à l'île, …",
+      "sources": [
+        "Medi1 News — fiabilité 6/10"
+      ],
+      "url": "https://www.medi1news.com/fr/article/410131.html",
+      "published_at": "2026-09-30T02:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Cuba",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Amazon conclut un accord énergétique majeur avec le nouveau parc éolien des Shetland. Le géant américain de la livraison Amazon a conclu un accord majeur pour recevoir l'électricité d'un nouveau parc éolien aux Shetland. Les patrons d'Amazon ont confirmé avoir conclu un accord d'achat d'électricité pour prendre la production de 36 MW de…",
+      "sources": [
+        "The National — fiabilité 6/10"
+      ],
+      "url": "https://www.thenational.scot/news/26595177.amazon-makes-major-power-deal-new-shetland-wind-farm/",
+      "published_at": "2026-09-30T09:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Synopsys annonce un accord de propriété intellectuelle pluriannuel de plus d'un milliard de dollars avec Amazon. Synopsys (SNPS) et Amazon. Com (AMZN) ont conclu un accord pluriannuel évalué à plus d'un milliard de dollars pour accélérer l'infrastructure cloud personnalisée d'Amazon basée sur le silicium et l'IA, le…",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/technology/ai/articles/synopsys-announces-1-billion-plus-134432308.html",
+      "published_at": "2026-09-30T08:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les prix de l'immobilier australien chutent pour le sixième mois consécutif en septembre et les ventes chutent. Les prix de l'immobilier australien ont chuté pour un sixième mois en septembre alors que la baisse des volumes de transactions s'est accentuée, selon les données publiées jeudi, avec une nouvelle hausse des taux d'intérêt cette semaine susceptible de faire basculer le marché dans…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/asia-pacific/australian-home-prices-fall-sixth-straight-month-september-sales-tumble-2026-09-30/",
+      "published_at": "2026-09-30T09:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Budget 2027 : Pourquoi Simon Harris n'a-t-il pas de diplôme universitaire ? Simon Harris s’apprête à présenter son premier budget en tant que ministre des Finances, mais l’homme désormais en charge des cordons de la bourse de l’État n’a jamais obtenu son diplôme universitaire. Le Tanaiste, 39 ans, a étudié…",
+      "sources": [
+        "Extra.ie via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/money/general/budget-2027-why-does-simon-harris-have-no-college-degree/ar-AA2dh78g",
+      "published_at": "2026-09-30T08:35:42+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "En Espagne, le gouvernement de Pedro Sanchez tente d’apaiser la fronde sur le logement. Le gouvernement espagnol veut renforcer la protection contre les expulsions et interdire jusqu’en 2028 les achats immobiliers par les fonds dits « vautours ». Mobilisés depuis qu’une Madrilène de 87 a …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/09/30/en-espagne-le-gouvernement-de-pedro-sanchez-tente-d-apaiser-la-fronde-sur-le-logement_6786082_3210.html",
+      "published_at": "2026-09-30T09:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
