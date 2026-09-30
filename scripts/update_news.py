@@ -1005,7 +1005,8 @@ class ArticleHTMLExtractor(HTMLParser):
 def is_google_news_url(url):
     try:
         p=urllib.parse.urlparse(url or "")
-        return _is_google_host(p.hostname) and "/articles/" in p.path
+        parts=[part for part in p.path.split("/") if part]
+        return _is_google_host(p.hostname) and len(parts)>=2 and parts[-2] in ("articles","read")
     except Exception:
         return False
 
@@ -1033,15 +1034,19 @@ class _GoogleArticleParams(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.article_id=article_id
         self.params={}
+        self.unmatched_params=[]
         self.publisher_candidates=[]
 
     def handle_starttag(self, tag, attrs):
         attrs=dict(attrs)
-        if attrs.get("data-n-a-id")==self.article_id:
-            self.params={
-                "signature":attrs.get("data-n-a-sg") or "",
-                "timestamp":attrs.get("data-n-a-ts") or "",
-            }
+        signature=attrs.get("data-n-a-sg") or ""
+        timestamp=attrs.get("data-n-a-ts") or ""
+        if signature and timestamp:
+            candidate={"signature":signature,"timestamp":timestamp}
+            if attrs.get("data-n-a-id")==self.article_id:
+                self.params=candidate
+            else:
+                self.unmatched_params.append(candidate)
         if tag=="meta":
             key=(attrs.get("property") or attrs.get("name") or "").lower()
             if key in ("og:url","twitter:url"):
@@ -1057,7 +1062,13 @@ def _google_article_decode_params(body, article_id):
         pass
     sig=parser.params.get("signature","").strip()
     ts=parser.params.get("timestamp","").strip()
-    return (ts,sig) if sig and ts else ("","")
+    if sig and ts:
+        return ts,sig
+    if len(parser.unmatched_params)==1:
+        candidate=parser.unmatched_params[0]
+        DISCOVERY_STATS["google_decode_params_id_absent"]+=1
+        return candidate["timestamp"],candidate["signature"]
+    return "",""
 
 def _google_batchexecute_publisher(raw):
     """Déplie le JSON imbriqué de batchexecute et extrait garturlres."""
@@ -1117,19 +1128,40 @@ def _request_google_page(url):
         "Accept":"text/html,application/xhtml+xml",
         "Accept-Language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
     })
-    with urllib.request.urlopen(req,timeout=10) as response:
-        final_url=response.geturl()
-        body=response.read(400000).decode("utf-8","replace")
-    return final_url,body
+    class SameGoogleNewsRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self,request,response,code,message,headers,new_url):
+            if urllib.parse.urlparse(new_url).hostname=="news.google.com":
+                return super().redirect_request(request,response,code,message,headers,new_url)
+            return None
+    opener=urllib.request.build_opener(SameGoogleNewsRedirect)
+    current=url
+    for _ in range(4):
+        try:
+            with opener.open(urllib.request.Request(current,headers=dict(req.header_items())),timeout=10) as response:
+                final_url=response.geturl()
+                body=response.read(400000).decode("utf-8","replace")
+                return final_url,body
+        except urllib.error.HTTPError as exc:
+            location=exc.headers.get("Location") if exc.headers else ""
+            destination=urllib.parse.urljoin(current,location) if location else ""
+            if exc.code in (301,302,303,307,308) and urllib.parse.urlparse(destination).hostname=="news.google.com":
+                current=destination
+                continue
+            if destination:
+                return destination,""
+            raise
+    return current,""
 
 def _google_article_page_url(source_url):
-    """Garde les marqueurs RSS tels que oc=5 pendant l'ajout du contexte régional."""
+    """Build the RSS splash URL that returns the article decode parameters."""
     p=urllib.parse.urlsplit(source_url)
     query=dict(urllib.parse.parse_qsl(p.query,keep_blank_values=True))
-    query.setdefault("hl","fr")
-    query.setdefault("gl","FR")
-    query.setdefault("ceid","FR:fr")
-    return urllib.parse.urlunsplit((p.scheme,p.netloc,p.path,urllib.parse.urlencode(query),p.fragment))
+    hl=query.get("hl") or "fr"
+    gl=query.get("gl") or "FR"
+    ceid=query.get("ceid") or f"{gl}:{hl.split('-')[0]}"
+    article_id=next((part for part in reversed(p.path.split("/")) if part),"")
+    query=urllib.parse.urlencode({"hl":hl,"gl":gl,"ceid":ceid})
+    return urllib.parse.urlunsplit(("https","news.google.com",f"/rss/articles/{urllib.parse.quote(article_id,safe='')}",query,""))
 
 def _post_google_article_decode(art_id, timestamp, signature):
     context=[
@@ -1137,9 +1169,7 @@ def _post_google_article_decode(art_id, timestamp, signature):
       "X","X",1,[1,1,1],1,1,None,0,0,None,0
     ]
     inner=["garturlreq",context,art_id,int(timestamp) if str(timestamp).isdigit() else timestamp,signature]
-    # batchexecute expects the RPC name and its serialized payload only. Extra
-    # positional fields can produce an empty response even with a valid signature.
-    envelope=["Fbv4je",json.dumps(inner,separators=(",",":"))]
+    envelope=["Fbv4je",json.dumps(inner,separators=(",",":")),None,"0"]
     f_req=json.dumps([[envelope]],separators=(",",":"))
     req=urllib.request.Request(
         "https://news.google.com/_/DotsSplashUi/data/batchexecute",
@@ -1175,7 +1205,7 @@ def decode_google_news_url(source_url):
 
     p=urllib.parse.urlparse(source_url)
     parts=[x for x in p.path.split("/") if x]
-    art_id=parts[-1] if len(parts)>=2 and parts[-2]=="articles" else ""
+    art_id=parts[-1] if len(parts)>=2 and parts[-2] in ("articles","read") else ""
     if not art_id:
         DISCOVERY_STATS["google_decode_id_invalide"]+=1
         GOOGLE_NEWS_URL_CACHE[source_url]=""
@@ -1189,14 +1219,8 @@ def decode_google_news_url(source_url):
         return direct
     DISCOVERY_STATS["google_decode_direct_fallback"]+=1
 
-    # Google's RSS wrapper may omit its decode attributes; the regular article
-    # page still exposes the matching id, signature and timestamp.
-    page_urls=[
-        _google_article_page_url(source_url),
-        "https://news.google.com/read/"+urllib.parse.quote(art_id,safe="")+"?hl=fr&gl=FR&ceid=FR%3Afr",
-        "https://news.google.com/articles/"+urllib.parse.quote(art_id,safe="")+"?hl=fr&gl=FR&ceid=FR%3Afr",
-        "https://news.google.com/rss/articles/"+urllib.parse.quote(art_id,safe="")+"?hl=fr&gl=FR&ceid=FR%3Afr",
-    ]
+    # Only the RSS splash route returns signatures to non-browser clients.
+    page_urls=[_google_article_page_url(source_url)]
     for page_url in dict.fromkeys(page_urls):
         try:
             final_url,body=_request_google_page(page_url)
@@ -1229,6 +1253,9 @@ def decode_google_news_url(source_url):
                         DISCOVERY_STATS["google_decode_metadata_fallback"]+=1
                         DISCOVERY_STATS["google_decode_success"]+=1
                         return resolved
+                attrs=sorted(set(re.findall(r"data-n-a-(?:id|sg|ts)",body or "")))
+                preview=strip_html_text(body)[:180]
+                print("GOOGLE NEWS PARAMS ABSENTS",page_url,"final",final_url,"attrs",attrs,"preview",preview,file=sys.stderr)
                 DISCOVERY_STATS["google_decode_params_absents"]+=1
         except urllib.error.HTTPError as exc:
             DISCOVERY_STATS[f"google_decode_http_{exc.code}"]+=1

@@ -37,7 +37,7 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         news.ARTICLE_DETAIL_USED=0
         news.EXISTING_DETAIL_USED=0
 
-    def test_recent_cbmi_ids_resolve_via_article_page_and_nested_rpc(self):
+    def test_recent_cbmi_ids_resolve_via_rss_splash_and_nested_rpc(self):
         publisher="https://www.reuters.com/world/europe/europe-policy-update-2026-09-30/"
         for article_id in RECENT_ARTICLE_IDS:
             source=f"https://news.google.com/rss/articles/{article_id}?oc=5"
@@ -47,7 +47,9 @@ class GoogleNewsDecodeTests(unittest.TestCase):
                  patch.object(news,"_post_google_article_decode",return_value=")]}'\n\n"+rpc):
                 self.assertEqual(news.decode_google_news_url(source),publisher)
                 page.assert_called_once()
-                self.assertIn("oc=5",page.call_args.args[0])
+                self.assertIn("/rss/articles/"+article_id,page.call_args.args[0])
+                self.assertIn("ceid=FR%3Afr",page.call_args.args[0])
+                self.assertNotIn("oc=5",page.call_args.args[0])
         self.assertEqual(news.DISCOVERY_STATS["google_decode_success"],len(RECENT_ARTICLE_IDS))
         self.assertEqual(news.GOOGLE_NEWS_DECODE_USED,len(RECENT_ARTICLE_IDS))
 
@@ -65,22 +67,19 @@ class GoogleNewsDecodeTests(unittest.TestCase):
             self.assertEqual(news.decode_google_news_url(source),"https://publisher.example/world/story")
         self.assertEqual(news.DISCOVERY_STATS["google_decode_metadata_fallback"],1)
 
-    def test_recent_google_read_route_supplies_missing_decode_parameters(self):
+    def test_read_input_uses_only_rss_splash_route_for_decode_parameters(self):
         article_id=RECENT_ARTICLE_IDS[0]
-        source=f"https://news.google.com/rss/articles/{article_id}?oc=5"
+        source=f"https://news.google.com/read/{article_id}?hl=en-US&gl=US&ceid=US%3Aen"
         publisher="https://publisher.example/world/current-story"
-        empty="<html><body>Google News</body></html>"
         page=f'<div data-n-a-id="{article_id}" data-n-a-ts="1790722000" data-n-a-sg="read-signature"></div>'
         rpc=json.dumps([["wrb.fr","Fbv4je",json.dumps(["garturlres",publisher,None]),None]])
-        with patch.object(news,"_request_google_page",side_effect=[
-            ("https://news.google.com/rss/articles/"+article_id,empty),
-            ("https://news.google.com/read/"+article_id,page),
-        ]) as get_page, patch.object(news,"_post_google_article_decode",return_value=")]}'\n\n"+rpc):
+        with patch.object(news,"_request_google_page",return_value=("https://news.google.com/rss/articles/"+article_id,page)) as get_page, \
+             patch.object(news,"_post_google_article_decode",return_value=")]}'\n\n"+rpc):
             self.assertEqual(news.decode_google_news_url(source),publisher)
-        self.assertEqual(get_page.call_count,2)
-        self.assertIn("/read/"+article_id,get_page.call_args_list[1].args[0])
+        self.assertEqual(get_page.call_count,1)
+        self.assertEqual(get_page.call_args.args[0],f"https://news.google.com/rss/articles/{article_id}?hl=en-US&gl=US&ceid=US%3Aen")
 
-    def test_batchexecute_request_uses_expected_two_field_rpc_envelope(self):
+    def test_batchexecute_request_uses_expected_rpc_envelope(self):
         article_id=RECENT_ARTICLE_IDS[0]
         with patch.object(news.urllib.request,"urlopen",return_value=FakeResponse("ok","https://news.google.com")) as urlopen:
             news._post_google_article_decode(article_id,"1790722000","signature")
@@ -88,7 +87,9 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         form=json.loads(news.urllib.parse.parse_qs(req.data.decode())["f.req"][0])
         rpc=form[0][0]
         self.assertEqual(rpc[0],"Fbv4je")
-        self.assertEqual(len(rpc),2)
+        self.assertEqual(len(rpc),4)
+        self.assertEqual(rpc[2],None)
+        self.assertEqual(rpc[3],"0")
         self.assertEqual(json.loads(rpc[1])[2],article_id)
 
     def test_google_intermediate_is_never_fetched_as_article_content(self):
