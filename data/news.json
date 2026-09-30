@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:51:28.689413+02:00",
+  "generated_at": "2026-09-30T15:01:46.811446+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -974,10 +974,10 @@
         "Asie"
       ],
       "countries": [
-        "Algérie",
         "Libye",
         "Mali",
         "Soudan",
+        "Algérie",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -13372,8 +13372,8 @@
       "published_at": "2026-09-27T13:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Pologne",
-        "France"
+        "France",
+        "Pologne"
       ]
     },
     {
@@ -23402,13 +23402,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Kazakhstan",
-        "Allemagne"
+        "Allemagne",
+        "Kazakhstan"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -25876,8 +25876,8 @@
         "International"
       ],
       "countries": [
-        "Pologne",
         "France",
+        "Pologne",
         "Ukraine"
       ],
       "period": "day",
@@ -34493,7 +34493,8 @@
       "url": "https://www.aol.co.uk/articles/pep-guardiola-breaks-silence-picks-122200000.html",
       "published_at": "2026-09-30T07:22:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -34572,7 +34573,8 @@
       "url": "https://www.foxbusiness.com/economy/august-2026-pce-inflation",
       "published_at": "2026-09-30T07:35:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -34693,7 +34695,8 @@
       "url": "https://cryptobriefing.com/lula-announces-bid-for-fourth-term-in-brazils-2026-presidential-election/",
       "published_at": "2026-09-30T07:34:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -34763,12 +34766,12 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Europe"
+        "Europe",
+        "Afrique"
       ],
       "countries": [
-        "Guinée équatoriale",
-        "France"
+        "France",
+        "Guinée équatoriale"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -34785,13 +34788,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Kazakhstan",
-        "Allemagne"
+        "Allemagne",
+        "Kazakhstan"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -34846,6 +34849,86 @@
       ],
       "url": "https://www.msn.com/fr-xl/afrique-du-nord/algerie-actualite/aapi-examen-des-opportunités-de-renforcement-du-partenariat-entre-lalgérie-et-la-russie/ar-AA2dgE2c",
       "published_at": "2026-09-30T05:43:12+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Maroc : Fatima el Mansouri devient la première femme nommée cheffe du gouvernement. Fatima el Mansouri n'est que la deuxième femme du monde arabe à accéder au poste de Première ministre. Sa longue carrière politique l'a menée à la mairie de Marrakech puis au Parlement. View on eurone …",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/fr-ca/actualites/other/maroc-fatima-el-mansouri-devient-la-première-femme-nommée-cheffe-du-gouvernement/ar-AA2dgCcM",
+      "published_at": "2026-09-30T07:47:08+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Guinée-Bissau"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Guinée-Bissau : Le gouvernement rassure après des rumeurs de mécontentement dans la garde présidentielle. Le Gl Horta N'TamLes autorités de Guinée-Bissau ont appelé mardi la population au calme après la diffusion de rumeurs f… - KOACI l'Info au Coeur de l'Afrique …",
+      "sources": [
+        "KOACI — fiabilité 6/10"
+      ],
+      "url": "https://www.koaci.com/index.php/article/2026/09/30/guinee-bissau/politique/guinee-bissau-le-gouvernement-rassure-apres-des-rumeurs-de-mecontentement-dans-la-garde-presidentielle_201116.html",
+      "published_at": "2026-09-30T07:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La société russe Rosatom construira une mine de lithium au Mali. Rosatom exploitrera le lithium du gisement de Bugula au Mali via Uranium One Group : étude de faisabilité en 2027, usine de concentré de spodumène en 2028.",
+      "sources": [
+        "Malijet — fiabilité 6/10"
+      ],
+      "url": "https://malijet.com/actualite_economique_du_mali/312088-la-societe-russe-rosatom-construira-une-mine-de-lithium-au-m.html",
+      "published_at": "2026-09-30T03:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maurice"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "À Maurice, le MMM fête ses 57 ans sans son ancien Premier ministre et leader historique Paul Bérenger. Quelques mois après la rupture avec Paul Bérenger, le MMM affiche sa volonté de poursuivre son histoire sans son ancien leader.",
+      "sources": [
+        "Zinfos 974 — fiabilité 6/10"
+      ],
+      "url": "https://www.zinfos974.com/a-maurice-le-mmm-fete-ses-57-ans-sans-son-ancien-premier-ministre-et-leader-historique-paul-berenger/",
+      "published_at": "2026-09-30T01:12:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
