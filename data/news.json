@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:03:52.881147+02:00",
+  "generated_at": "2026-09-30T22:14:06.377962+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -33562,7 +33562,6 @@
         "International"
       ],
       "countries": [
-        "Russie",
         "Ukraine"
       ],
       "period": "day",
@@ -38250,6 +38249,7 @@
     {
       "regions": [
         "Océanie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -38675,6 +38675,7 @@
     {
       "regions": [
         "Océanie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -39945,6 +39946,71 @@
       "url": "https://actualite.cd/index.php/2026/09/30/la-rdc-et-la-colombie-seuls-pays-ou-des-femmes-ont-signe-un-accord-de-paix-en-2025",
       "published_at": "2026-09-30T09:55:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le problème mondial du diesel est plus profond que la guerre en Iran. La crise actuelle du diesel et du carburéacteur reflète une contrainte de longue date dans l’approvisionnement en distillats moyens qui pourrait, à terme, nécessiter une production plus élevée de pétrole lourd et une consommation de carburant plus faible.",
+      "sources": [
+        "oilprice.com — fiabilité 6/10"
+      ],
+      "url": "https://oilprice.com/Energy/Energy-General/The-Worlds-Diesel-Problem-Runs-Deeper-Than-the-Iran-War.html",
+      "published_at": "2026-09-30T21:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Rencontrez les candidats LGBTQ en lice pour U. S. Chambre, Sénat. Les élections de mi-mandat sont souvent considérées comme un bilan du parti au pouvoir, donnant aux électeurs l'occasion de peser sur la direction du pays après deux ans de contrôle unifié du gouvernement fédéral. Alors que les Républicains contrôlent la Maison Blanche, le Congrès et la Cour suprême, les élections de 2026 pourraient remodeler l’équilibre des pouvoirs à Washington et déterminer à quoi ressembleront les deux prochaines années de politique fédérale. Parmi les candidats qui cherchent à façonner cet avenir figurent un grand nombre de politiciens ouvertement LGBTQ qui se présentent aux élections fédérales.",
+      "sources": [
+        "washingtonblade.com — fiabilité 6/10"
+      ],
+      "url": "https://www.washingtonblade.com/2026/09/30/meet-the-lgbtq-candidates-running-for-u-s-house-senate/",
+      "published_at": "2026-09-30T21:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Iran",
+        "Royaume-Uni",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Royaume-Uni affirme que de fortes indications indiquent que l'Iran a joué un rôle dans l'incident de sécurité. Le Premier ministre britannique Andy Burnham a déclaré que le Royaume-Uni disposait de « fortes indications » selon lesquelles l’Iran aurait joué un rôle dans un incident impliquant cinq hommes arrêtés près d’une base aérienne américaine en Angleterre. Burnham a déclaré que les responsables britanniques et américains menaient une enquête « complexe et sérieuse ».",
+      "sources": [
+        "bostonherald.com — fiabilité 6/10"
+      ],
+      "url": "https://www.bostonherald.com/2026/09/30/britain-us-air-base-attack-iran/",
+      "published_at": "2026-09-30T21:30:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
