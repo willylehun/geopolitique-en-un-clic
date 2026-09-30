@@ -1603,6 +1603,11 @@ def article_summary(art, meta=None, targeted=False, candidates=None):
                 DISCOVERY_STATS["google_decode_success"]+=1
         else:
             DISCOVERY_STATS["google_cross_feed_no_match"]+=1
+            # A substantive RSS snippet is not a reason to publish an
+            # unresolved news.google.com redirect as an article source.
+            DISCOVERY_STATS["google_intermediaire_non_resolu"]+=1
+            note_rejection("contenu_indisponible",title,url)
+            return None
     reason=title_rejection_reason(title)
     if reason:
         note_rejection(reason,title,url)

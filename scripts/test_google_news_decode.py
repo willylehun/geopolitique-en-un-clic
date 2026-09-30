@@ -131,6 +131,20 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         self.assertEqual(rpc[3],"0")
         self.assertEqual(json.loads(rpc[1])[2],article_id)
 
+    def test_unresolved_google_link_is_not_published_from_a_rss_snippet(self):
+        day=news.datetime.now(news.UTC)
+        source=f"https://news.google.com/rss/articles/{RECENT_ARTICLE_IDS[0]}"
+        article={"title":"Government announces new sanctions after border conflict","source":"Reuters","date":day,"url":source,
+                 "description":"A detailed RSS snippet that describes the sanctions, the border conflict, the government response, regional effects, and diplomatic consequences."}
+        meta={"countries":["France"],"date":"30 septembre 2026","source":"Reuters","url":source}
+        with patch.object(news,"matching_publisher_article_url",return_value=""), \\
+             patch.object(news,"resolve_google_news_with_bing",return_value=""), \\
+             patch.object(news,"detail_is_substantive",return_value=True), \\
+             patch.object(news,"fetch_article_detail") as fetch:
+            self.assertIsNone(news.article_summary(article,meta,candidates=[article]))
+        fetch.assert_not_called()
+        self.assertEqual(news.DISCOVERY_STATS["google_intermediaire_non_resolu"],1)
+
     def test_google_intermediate_is_never_fetched_as_article_content(self):
         source=f"https://news.google.com/rss/articles/{RECENT_ARTICLE_IDS[0]}"
         with patch.object(news,"decode_google_news_url",return_value=source), patch.object(news.urllib.request,"urlopen") as urlopen:
