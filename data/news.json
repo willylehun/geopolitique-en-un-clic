@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T10:19:03.809537+02:00",
+  "generated_at": "2026-09-30T10:29:21.827594+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30432,6 +30432,113 @@
       "url": "https://www.msn.com/fr-be/actualite/other/les-émirats-arabes-unis-prévoient-un-investissement-de-plusieurs-milliards-en-inde-axé-sur-l-énergie/ar-AA2df5hn",
       "published_at": "2026-09-30T00:04:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "Qatar",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le pétrole progresse après que Trump ait nié sa volonté d’assouplir les sanctions contre l’Iran. Les prix du pétrole ont augmenté mercredi après que le président Donald Trump (États-Unis) a nié sa volonté d'alléger les sanctions contre l'Iran tandis que le Qatar a poussé à des pourparlers de paix, après avoir chuté lors de la séance précédente en raison d'une reprise de l'offre de brut en provenance du Moyen-Orient. Le contrat à terme sur le Brent de novembre, qui expire mercredi, a augmenté de 71 cents, ou 0,69%, à 103,30 dollars le baril à 04h08 GMT. Le contrat de décembre, plus actif, a augmenté de 35 cents à 96,51 $.",
+      "sources": [
+        "english.aawsat.com — fiabilité 6/10"
+      ],
+      "url": "https://english.aawsat.com/business/5324198-oil-gains-after-trump-denies-he-willing-ease-sanctions-iran",
+      "published_at": "2026-09-30T10:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "LUnicef France pousse le gouvernement à revaloriser les salaires des enseignants. L'Unicef estime que la marge qui devrait être dégagée par la baisse démographique devrait servir entièrement à « l'amélioration du système éducatif français »",
+      "sources": [
+        "20minutes.fr — fiabilité 6/10"
+      ],
+      "url": "https://www.20minutes.fr/societe/4249958-20260930-unicef-france-pousse-gouvernement-revaloriser-salaires-enseignants",
+      "published_at": "2026-09-30T10:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Qatar"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Qatar déterminé à rester actif dans la médiation : Premier ministre. Doha, Qatar : les dirigeants du Qatar sont déterminés à rester activement engagés dans les efforts visant à résoudre les conflits régionaux, la médiation constituant un pilier clé…",
+      "sources": [
+        "thepeninsulaqatar.com — fiabilité 6/10"
+      ],
+      "url": "http://thepeninsulaqatar.com/article/30/09/2026/pm-qatar-determined-to-remain-active-in-mediation",
+      "published_at": "2026-09-30T10:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Portugal"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Carburants au - dessus de deux euros : qui paiera la facture la plus élevée au Portugal ?. De la pêche à l'agriculture, en passant par le transport de marchandises et de passagers, de nombreux secteurs subissent la hausse marquée des prix des carburants au Portugal depuis le début de la guerre au Moyen-Orient.",
+      "sources": [
+        "fr.euronews.com — fiabilité 8/10"
+      ],
+      "url": "https://fr.euronews.com/2026/09/30/carburants-au-dessus-de-deux-euros-qui-paiera-la-facture-la-plus-elevee-au-portugal",
+      "published_at": "2026-09-30T10:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les indices de référence asiatiques augmentent pour la plupart malgré les inquiétudes persistantes concernant la guerre en Iran. Les actions asiatiques s'échangent généralement à la hausse, stimulées par l'optimisme concernant l'intelligence artificielle et les puces informatiques, malgré les inquiétudes persistantes concernant la guerre en Iran.",
+      "sources": [
+        "ksat.com — fiabilité 6/10"
+      ],
+      "url": "https://www.ksat.com/business/2026/09/30/asian-benchmarks-mostly-rise-despite-ongoing-worries-about-the-iran-war/",
+      "published_at": "2026-09-30T10:00:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
