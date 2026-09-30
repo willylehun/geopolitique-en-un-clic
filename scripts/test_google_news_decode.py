@@ -46,6 +46,7 @@ class GoogleNewsDecodeTests(unittest.TestCase):
                  patch.object(news,"_post_google_article_decode",return_value=")]}'\n\n"+rpc):
                 self.assertEqual(news.decode_google_news_url(source),publisher)
                 page.assert_called_once()
+                self.assertIn("oc=5",page.call_args.args[0])
         self.assertEqual(news.DISCOVERY_STATS["google_decode_success"],len(RECENT_ARTICLE_IDS))
         self.assertEqual(news.GOOGLE_NEWS_DECODE_USED,len(RECENT_ARTICLE_IDS))
 

@@ -1118,6 +1118,15 @@ def _request_google_page(url):
         body=response.read(400000).decode("utf-8","replace")
     return final_url,body
 
+def _google_article_page_url(source_url):
+    """Garde les marqueurs RSS tels que oc=5 pendant l'ajout du contexte régional."""
+    p=urllib.parse.urlsplit(source_url)
+    query=dict(urllib.parse.parse_qsl(p.query,keep_blank_values=True))
+    query.setdefault("hl","fr")
+    query.setdefault("gl","FR")
+    query.setdefault("ceid","FR:fr")
+    return urllib.parse.urlunsplit((p.scheme,p.netloc,p.path,urllib.parse.urlencode(query),p.fragment))
+
 def _post_google_article_decode(art_id, timestamp, signature):
     context=[
       ["X","X",["X","X"],None,None,1,1,"US:en",None,1,None,None,None,None,None,0,1],
@@ -1177,10 +1186,11 @@ def decode_google_news_url(source_url):
     # Google's RSS wrapper may omit its decode attributes; the regular article
     # page still exposes the matching id, signature and timestamp.
     page_urls=[
+        _google_article_page_url(source_url),
         "https://news.google.com/articles/"+urllib.parse.quote(art_id,safe="")+"?hl=fr&gl=FR&ceid=FR%3Afr",
         "https://news.google.com/rss/articles/"+urllib.parse.quote(art_id,safe="")+"?hl=fr&gl=FR&ceid=FR%3Afr",
     ]
-    for page_url in page_urls:
+    for page_url in dict.fromkeys(page_urls):
         try:
             final_url,body=_request_google_page(page_url)
             resolved=_publisher_url(final_url)
