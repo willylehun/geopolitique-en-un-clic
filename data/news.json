@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T23:36:14.370654+02:00",
+  "generated_at": "2026-09-30T23:46:27.871354+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -36652,7 +36652,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -38256,7 +38255,6 @@
     {
       "regions": [
         "Océanie",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -40702,7 +40700,7 @@
         "NHK (média public) — fiabilité 8/10"
       ],
       "url": "https://www3.nhk.or.jp/nhkworld/news/20261001de53518/",
-      "published_at": "2026-09-30T16:36:00+02:00",
+      "published_at": "2026-09-30T16:46:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -41129,6 +41127,149 @@
       ],
       "url": "https://www.msn.com/fr-fr/actualite/other/le-danemark-achète-des-drones-terrestres-à-une-entreprise-fondée-par-des-ukrainiens/ar-AA2dhuRO",
       "published_at": "2026-09-30T12:15:10+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "France : la justice annule l’élection de deux maires LFI d’origine algériennes. En France, la justice a annulé l’élection de deux maires LFI d’origine algérienne. Il s’agit de Idir Boumertit et Abdelkader Lahmar.",
+      "sources": [
+        "TSA — fiabilité 6/10"
+      ],
+      "url": "https://www.tsa-algerie.com/france-la-justice-annule-lelection-de-deux-maires-lfi-dorigine-algeriennes/",
+      "published_at": "2026-09-30T04:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "MI5 : un groupe a financé la recherche britannique et l'a confiée au gouvernement chinois. Le MI5 britannique a averti les universités de ne pas accepter de financement de recherche d'une organisation chinoise qui, selon lui, renvoie des recherches en Chine.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/mi5-group-funded-british-research-190222385.html",
+      "published_at": "2026-09-30T14:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Toyota va investir 1,34 milliard de dollars dans une usine de véhicules électriques en Argentine. Le constructeur automobile Toyota Motor investira 1,34 milliard de dollars pour développer une usine destinée à produire un véhicule entièrement électrifié en Argentine, a déclaré mercredi le ministre de l'Économie, Luis Caputo.",
+      "sources": [
+        "CNA — fiabilité 7/10"
+      ],
+      "url": "https://www.channelnewsasia.com/business/toyota-invest-134-billion-in-argentina-ev-plant-6422591",
+      "published_at": "2026-09-30T16:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Constellation et Amazon signent un accord énergétique de 20 ans pour soutenir la centrale nucléaire du Maryland. Constellation Energy et Amazon. Com ont annoncé mercredi un accord d'achat d'électricité d'une durée de 20 ans qui soutiendra l'expansion de la centrale nucléaire de Calvert Cliffs dans le Maryland.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/constellation-amazon-sign-20-year-power-deal-support-maryland-nuclear-plant-2026-09-30/",
+      "published_at": "2026-09-30T16:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Libye",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Home»Administration»Libye : appel des USA à accélérer l’unification des institutions. Le conseiller principal du président américain pour les affaires arabes et africaines, Massad Boulos, a appelé lundi à accélérer l’unification des institutions militaires, sécuritaires et économiques …",
+      "sources": [
+        "APAnews — fiabilité 6/10"
+      ],
+      "url": "https://fr.apanews.net/diplomacy/libye-appel-des-usa-a-accelerer-lunification-des-institutions/",
+      "published_at": "2026-09-30T11:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "République centrafricaine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "République centrafricaine : la Banque africaine de développement mobilisée pour accélérer les investissements prioritaires. Routes, énergie, eau et assainissement, agriculture, aéroport : la Banque africaine de développement veut accélérer la cadence de ses investissements en République centrafricaine.",
+      "sources": [
+        "Banque Africaine de Développement — fiabilité 6/10"
+      ],
+      "url": "https://www.afdb.org/fr/news-and-events/republique-centrafricaine-la-banque-africaine-de-developpement-mobilisee-pour-accelerer-les-investissements-prioritaires-97184",
+      "published_at": "2026-09-30T10:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "Afrique"
+      ],
+      "countries": [
+        "Australie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le cartel de Sinaloa fabrique de la méthamphétamine en Afrique australe pour viser l’Australie. La police sud-africaine soupçonne le cartel de Sinaloa d’avoir disséminé des laboratoires industriels de méthamphétamine en Afrique australe pour alimenter l’Australie, marché particulièrement lucrati …",
+      "sources": [
+        "Blick via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/actualite/other/le-cartel-de-sinaloa-fabrique-de-la-méthamphétamine-en-afrique-australe-pour-viser-l-australie/ar-AA2dhzuk",
+      "published_at": "2026-09-30T10:55:45+02:00",
       "origin": "rss",
       "content_enriched": true
     },
