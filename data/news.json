@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:53:02.693946+02:00",
+  "generated_at": "2026-09-30T16:03:17.589414+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -32346,8 +32346,8 @@
     {
       "regions": [
         "Europe",
-        "International",
-        "Asie"
+        "Asie",
+        "International"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33027,12 +33027,13 @@
       "bucket": "30 septembre 2026",
       "score": 5,
       "category": "Géopolitique",
-      "summary": "Le conseil d'administration de la CPI regrette le retrait de Nauru. L'organe directeur de la Cour pénale internationale a exprimé mercredi ses regrets concernant le retrait annoncé de Nauru, intervenu alors que les États-Unis intensifient leurs pressions sur les pays pour qu'ils quittent le …",
+      "summary": "Le conseil d'administration de la CPI regrette le retrait de Nauru. LA HAYE — L'organe directeur de la Cour pénale internationale a exprimé mercredi ses regrets concernant le retrait annoncé de Nauru, intervenu alors que les États-Unis intensifient leurs pressions sur les pays pour qu'ils quittent…",
       "sources": [
-        "The Manila Times — fiabilité 6/10"
+        "The Manila Times — fiabilité 6/10",
+        "The Manila Times via MSN — fiabilité 6/10"
       ],
       "url": "https://www.manilatimes.net/2026/09/30/world/icc-board-regrets-nauru-withdrawal/2435951",
-      "published_at": "2026-09-30T06:08:00+02:00",
+      "published_at": "2026-09-30T06:18:04+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -34630,7 +34631,7 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Économie",
-      "summary": "Dow Jones | Nasdaq | Marché boursier américain aujourd'hui | En direct : les contrats à terme sur actions américaines sont en légère baisse avant le rapport clé sur l'inflation. Le mois de septembre a été marqué par une immense volatilité sur les marchés obligataires et une hausse des prix du pétrole brut en raison du conflit en cours entre les États-Unis et l'Iran, déclenchant des craintes d'inflation et affectant les actifs à risque…",
+      "summary": "Dow Jones | Nasdaq | Marché boursier américain aujourd'hui | En direct : le marché américain ouvre en hausse alors que les faibles données sur l'inflation atténuent les craintes d'une hausse des taux. Le mois de septembre a été marqué par une immense volatilité sur les marchés obligataires et une hausse des prix du pétrole brut en raison du conflit en cours entre les États-Unis et l'Iran, déclenchant des craintes d'inflation et affectant les actifs à risque…",
       "sources": [
         "The Economic Times — fiabilité 6/10"
       ],
@@ -35400,6 +35401,155 @@
       "countries": [
         "Royaume-Uni"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "France : Les Girondins de Bordeaux vendus pour 1€. Ce mercredi, Bordeaux a annoncé la signature d’un accord de cession avec le fonds d’investissement britannique Park Bench …",
+      "sources": [
+        "Les Transferts — fiabilité 6/10"
+      ],
+      "url": "https://www.les-transferts.com/rumeurs-transferts/france-les-girondins-de-bordeaux-vendus-pour-1e/",
+      "published_at": "2026-09-30T08:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Trump s'attendait à annoncer un investissement de 54 milliards de dollars en Corée du Sud dans Alaska LNG, selon des sources. Le président Donald Trump (États-Unis) devrait annoncer mercredi son intention d'exploiter le programme d'investissement stratégique de 350 milliards de dollars promis par la Corée du Sud pour environ 54 milliards de dollars pour aider à construire une centrale de gaz naturel liquéfié…",
+      "sources": [
+        "The Sacramento Bee — fiabilité 6/10"
+      ],
+      "url": "https://www.sacbee.com/news/nation-world/national/article317438575.html",
+      "published_at": "2026-09-30T01:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Les bourses en direct | Les chiffres de l'inflation plus hauts qu'attendus en Europe | Le spread OLO-Bund à dix ans au plus haut depuis février 2014. WDP parvient à lever 400 millions. Les marchés européens ont ouvert en hausse mercredi matin.",
+      "sources": [
+        "L'Echo — fiabilité 6/10"
+      ],
+      "url": "https://www.lecho.be/les-marches/live-blog/les-bourses-en-direct-les-chiffres-de-l-inflation-plus-hauts-qu-attendus-en-europe-le-spread-olo-bund-a-dix-ans-au-plus-haut-depuis-fevrier-2014/10687969.html",
+      "published_at": "2026-09-30T01:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La technologie WeTouch fournit une mise à jour sur le dividende spécial en espèces précédemment annoncé. La société continue de coordonner les procédures administratives, de dossiers des actionnaires et de traitement des paiements ; la date d'enregistrement et le plan de dividende restent inchangésCHENGDU, Chine, 30 septembre 2026 (GLOBE NEWSWIRE) -- …",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wetouch-technology-provides-previously-announced-133000489.html",
+      "published_at": "2026-09-30T08:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Mauritanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "30-09-2026 13:51 - 1,4 milliard de dollars de financements : la Mauritanie face au débat sur la dette et la transparence. - Le débat sur les financements extérieurs de la Mauritanie oppose les critiques de l’opposition sur la transparence aux explications du gouvernement sur la distinction …",
+      "sources": [
+        "cridem — fiabilité 6/10"
+      ],
+      "url": "https://cridem.org/C_Info.php?article=796899",
+      "published_at": "2026-09-30T01:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Irak",
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Irak: les États-Unis quittent définitivement le pays en laissant derrière eux les menaces liées à leur guerre contre l'Iran. Après plus de 20 ans de présence militaire en Irak, les derniers soldats américains quittent l'Irak ce mercredi 30 septembre. Mais derrière eux, reste un pays en proie au conflit que le président Donald Trump (États-Unis) mène …",
+      "sources": [
+        "Yahoo Actualités — fiabilité 6/10"
+      ],
+      "url": "https://fr.news.yahoo.com/irak-états-unis-quittent-définitivement-064339813.html",
+      "published_at": "2026-09-30T01:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Irak",
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les forces américaines se retirent d'Irak, l'Iran et l'EI en embuscade. Les États-Unis ont envahi l'Irak en 2003 pour renverser le dirigeant sunnite Saddam Hussein, puis ont occupé le pays, installé un gouvernement à dominante chiite et combattu pendant des années une …",
+      "sources": [
+        "Boursier.com — fiabilité 6/10"
+      ],
+      "url": "https://www.boursier.com/actualites/reuters/les-forces-americaines-se-retirent-d-irak-l-iran-et-l-ei-en-embuscade-427016.html",
+      "published_at": "2026-09-30T01:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
