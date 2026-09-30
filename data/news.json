@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T01:39:33.944212+02:00",
+  "generated_at": "2026-10-01T01:49:49.293607+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -41841,6 +41841,92 @@
       ],
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hegseth-says-american-forces-have-destroyed-irans-military",
       "published_at": "2026-10-01T01:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Arabie saoudite",
+        "Israël",
+        "Émirats arabes unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Chronologie du Flydubai FZ1073 : Comment s'est déroulée l'urgence du vol à destination d'Israël - Dominicaine Republic Post – Caribbean News, Business, Travel & Culture. Un vol Flydubai reliant Dubaï (Émirats arabes unis) à Tel Aviv a été détourné vers l'Arabie saoudite mercredi après avoir émis des signaux d'urgence.",
+      "sources": [
+        "dominicanrepublicpost.com — fiabilité 6/10"
+      ],
+      "url": "https://dominicanrepublicpost.com/flydubai-fz1073-timeline-how-the-israel-bound-flight-emergency-unfolded/",
+      "published_at": "2026-10-01T01:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Diesel, le président Donald Trump (États-Unis) minaccia lEuropa . Gli united states allItalia : « Usate le scorte ». Il ministro Pichetto Fratin: Il segretario Usa Wright mi ha detto di utilizzare le riserve strategiche per abbassare i prezzi, come hanno fatto loro. Lo stop all’export Usa? Ha ributtato la palla nel nostro campo» Salgono ancora le tensioni sul diesel. Mentre la Russia ha annunciato ufficialmente ieri l'estensione dello stop alle esportazioni per l'intero ottobre, arriva un messaggio non…",
+      "sources": [
+        "ilmessaggero.it — fiabilité 6/10"
+      ],
+      "url": "https://www.ilmessaggero.it/economia/news/diesel_trump_minaccia_europa_usa_italia_usate_le_scorte-9795819.html",
+      "published_at": "2026-10-01T01:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Lara Trump affirme que la guerre en Iran pourrait coûter à le président Donald Trump (États-Unis) les élections de mi-mandat. Lara Trump a déclaré que la guerre en Iran « pourrait coûter » à son beau-père, le président Donald Trump, les élections de mi-mandat, mais que cela en vaut la peine.",
+      "sources": [
+        "wset.com — fiabilité 6/10"
+      ],
+      "url": "https://wset.com/news/nation-world/lara-trump-says-iran-war-could-cost-donald-trump-the-midterms-nuclear-weapons-rnc-house-senate-gas-prices-republicans-strait-of-hormuz",
+      "published_at": "2026-10-01T01:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Kenya"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Dangote va vendre 500 MW d’électricité excédentaire au Kenya.",
+      "sources": [
+        "punchng.com — fiabilité 6/10"
+      ],
+      "url": "https://punchng.com/dangote-to-sell-500mw-excess-power-in-kenya/",
+      "published_at": "2026-10-01T01:30:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
