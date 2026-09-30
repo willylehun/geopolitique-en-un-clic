@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:31:23.261492+02:00",
+  "generated_at": "2026-09-30T20:41:36.392017+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -38634,7 +38634,8 @@
       "category": "Géopolitique",
       "summary": "Le Brésil et les États-Unis ont créé un groupe de travail pour discuter d'un éventuel accord commercial.",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "KFGO — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/world/americas/brazil-us-set-up-working-group-discuss-potential-trade-agreement-2026-09-30/",
       "published_at": "2026-09-30T13:18:00+02:00",
@@ -38665,7 +38666,6 @@
     {
       "regions": [
         "Océanie",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -38683,6 +38683,137 @@
       "countries": [
         "Nouvelle-Zélande"
       ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Cuba: les États-Unis durcissent leurs sanctions financières, le secteur privé également touché. Les États-Unis ont annoncé, mardi 29 septembre, un durcissement de leurs sanctions contre Cuba, avec notamment de nouvelles restrictions concernant les opérations financières impliquant le régime comm …",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/fr/amériques/20260930-cuba-les-états-unis-durcissent-leurs-sanctions-financières-le-secteur-privé-également-touché",
+      "published_at": "2026-09-30T01:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Cuba",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le secrétaire à la Défense Pete Hegseth (États-Unis) convoque des troupes pour un discours sur « l’état de la force ». Ce rassemblement intervient alors que le secrétaire à la Défense traverse une période précaire en tant que visage public de la guerre impopulaire de l’administration du président Donald Trump (États-Unis) contre l’Iran.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/09/30/us/hegseth-troops-address.html",
+      "published_at": "2026-09-30T13:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Rockhopper envisage son premier pétrole en 2028 alors que l'Argentine cherche à obtenir des sanctions plus sévères. Rockhopper, une compagnie pétrolière axée sur le territoire britannique autonome d'outre-mer des îles Falkland revendiqué par l'Argentine, a annoncé mercredi son projet Sea Lion …",
+      "sources": [
+        "Baird Maritime — fiabilité 6/10"
+      ],
+      "url": "https://www.bairdmaritime.com/offshore/drilling-production/rockhopper-eyes-2028-first-oil-as-argentina-seeks-tougher-sanctions",
+      "published_at": "2026-09-30T13:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) : Les États-Unis contrôlent presque totalement le détroit d’Ormuz. Trump signale des développements sur l’Iran « très prochainement » et affirme que les flux de pétrole via Ormuz ont été historiques au cours des trois derniers jours.",
+      "sources": [
+        "investinglive — fiabilité 6/10"
+      ],
+      "url": "https://investinglive.com/news/trump-us-has-almost-total-control-of-the-strait-of-hormuz/",
+      "published_at": "2026-09-30T06:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le sénateur MAGA cible Jack Smith avec des sanctions juridiques. Un sénateur républicain a déposé une plainte officielle demandant au conseil disciplinaire des avocats du Tennessee d'enquêter sur l'ancien avocat spécial Jack Smith et de poursuivre sa radiation du barreau. Le sénateur Bill Hagerty (R-TN)…",
+      "sources": [
+        "Raw Story via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/maga-senator-targets-jack-smith-with-legal-sanctions/ar-AA2dioxE",
+      "published_at": "2026-09-30T11:59:28+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Espagne",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Visite d’le président Emmanuel Macron (France) à Madrid : entre la France et l’Espagne, des relations « extraordinaires », mais toujours sans traité d’amitié. A Madrid, le président français, Emmanuel Macron, et le premier ministre de l’Espagne, Pedro Sanchez, ont affiché leur proximité malgré le rejet par le Sénat espagnol, dominé par la droite, du traité …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/09/30/visite-d-emmanuel-macron-a-madrid-entre-la-france-et-l-espagne-des-relations-extraordinaires-mais-toujours-sans-traite-d-amitie_6786114_3210.html",
+      "published_at": "2026-09-30T12:56:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
