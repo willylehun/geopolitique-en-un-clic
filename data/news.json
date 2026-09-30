@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:56:35.365932+02:00",
+  "generated_at": "2026-09-30T14:06:48.132560+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30828,10 +30828,11 @@
       "category": "Économie",
       "summary": "L’inflation progresse et atteint 3 % sur un an en septembre en France, portée par l’énergie et les produits frais. Selon l’estimation provisoire de l’Insee, la hausse des prix s’est accélérée par rapport au mois d’août. La consommation des ménages, elle, a encore reculé cet été …",
       "sources": [
-        "Sud Ouest — fiabilité 6/10"
+        "Sud Ouest — fiabilité 6/10",
+        "France 24 (média public) — fiabilité 8/10"
       ],
       "url": "https://www.sudouest.fr/economie/inflation/l-inflation-progresse-et-atteint-3-sur-un-an-en-septembre-en-france-portee-par-l-energie-et-les-produits-frais-30846635.php",
-      "published_at": "2026-09-30T02:10:00+02:00",
+      "published_at": "2026-09-30T06:08:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
@@ -33666,6 +33667,85 @@
       "published_at": "2026-09-30T00:03:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le nouveau Premier ministre britannique Andy Burnham donne le coup d'envoi de son mandat de Premier ministre en réduisant ses factures d'électricité. Le nouveau Premier ministre britannique, Andy Burnham, s'engage à agir immédiatement pour lutter contre le coût de la vie, en supprimant la TVA sur les factures d'électricité lors du premier acte de son mandat. Ritika discute des perspectives politiques…",
+      "sources": [
+        "CNBC via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/new-uk-pm-andy-burnham-kicks-off-premiership-by-cutting-electricity-bills/vi-AA28ljxV",
+      "published_at": "2026-09-30T06:26:14+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L’inflation en hausse de 3 % sur un an en septembre, portée par les produits frais et l’énergie, selon l’Insee. Les prix à la consommation ont augmenté de 3 % sur un an, selon les données de l’Insee publiées mercredi 30 septembre. Dans le même temps, la consommation des ménages français accuse une légère baisse …",
+      "sources": [
+        "La Nouvelle République — fiabilité 6/10"
+      ],
+      "url": "https://www.lanouvellerepublique.fr/a-la-une/l-inflation-en-hausse-de-3-sur-un-an-en-septembre-portee-par-les-produits-frais-et-l-energie-selon-l-insee-1790753712",
+      "published_at": "2026-09-30T05:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Haute Cour de Delhi demande la réponse du Centre sur le PIL contre l'authentification Aadhaar pour les bouteilles de GPL nationales. La Haute Cour de Delhi a demandé mercredi des réponses au gouvernement central et aux sociétés pétrolières et gazières concernant un plaidoyer contestant le mandat qui, d'ici le 1er octobre, ne …",
+      "sources": [
+        "Bar and Bench — fiabilité 6/10"
+      ],
+      "url": "https://www.barandbench.com/news/delhi-high-court-seeks-centres-reply-on-pil-against-aadhaar-authentication-for-domestic-lpg-cylinders",
+      "published_at": "2026-09-30T06:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le président républicain met le président Donald Trump (États-Unis) en garde contre les relations de la Corée du Sud avec la Chine. Le président républicain de la commission du Congrès a exhorté l'administration Trump à examiner de près les liens étroits entre la Corée du Sud et la Chine, en mettant en garde contre les risques importants qui pèsent sur …",
+      "sources": [
+        "The News International — fiabilité 6/10"
+      ],
+      "url": "https://www.thenews.com.pk/latest/1418199-republican-chair-warns-trump-over-south-koreas-china-ties",
+      "published_at": "2026-09-30T06:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "Corée du Sud",
+        "États-Unis"
+      ]
     },
     {
       "regions": [
