@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T10:29:21.827594+02:00",
+  "generated_at": "2026-09-30T10:39:35.342778+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30540,6 +30540,90 @@
       "published_at": "2026-09-30T10:00:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "L'ALE entre l'Inde et la Nouvelle-Zélande vise à stimuler les exportations de produits agricoles et d'aliments transformés : organisme commercial. Les droits de douane sur les aliments transformés, les épices, les confiseries, les produits de boulangerie et autres produits tomberont à zéro le premier jour de la mise en œuvre de l'accord commercial…",
+      "sources": [
+        "Business Standard — fiabilité 6/10"
+      ],
+      "url": "https://www.business-standard.com/economy/news/india-new-zealand-fta-to-boost-agri-processed-food-exports-trade-body-126093000518_1.html",
+      "published_at": "2026-09-30T03:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Nouvelle-Zélande",
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "Les investissements trompeurs de Karoline Leavitt dévoilés. Un document d'éthique examiné par le Washington Sun a révélé que Leavitt a divulgué un investissement compris entre 1 001 et 15 000 dollars dans le président Donald Trump (États-Unis) Media & Technology Group, qui gère le Truth Social du président Donald Trump (États-Unis).",
+      "sources": [
+        "The Daily Beast — fiabilité 6/10"
+      ],
+      "url": "https://www.thedailybeast.com/karoline-leavitts-trumpy-investments-exposed/",
+      "published_at": "2026-09-30T03:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Mehul Choksi abandonne l'affaire d'enlèvement contre l'Inde et est condamné à payer 677 000 £ de frais de justice. L'homme d'affaires diamantaire en fuite Mehul Choksi a retiré sa plainte contre le gouvernement indien pour une tentative présumée de l'enlever à Antigua en 2021…",
+      "sources": [
+        "Firstpost — fiabilité 6/10"
+      ],
+      "url": "https://www.firstpost.com/world/mehul-choksi-drops-kidnapping-case-against-india-ordered-to-pay-677000-in-legal-costs-14049397.html",
+      "published_at": "2026-09-30T03:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La guerre des drones est là : l'armée américaine parie 99 millions de dollars sur un détecteur de drones porté par les soldats. L'armée américaine a attribué à Heaviside un contrat de 99 millions de dollars sur cinq ans pour MOTH, un détecteur léger porté par les soldats conçu pour identifier les signaux de communication des drones et de l'ennemi., US News, Times Now…",
+      "sources": [
+        "Times Now — fiabilité 6/10"
+      ],
+      "url": "https://www.timesnownews.com/world/us/us-news/drone-war-is-here-us-army-bets-99-million-on-soldier-worn-drone-detector-article-156250549",
+      "published_at": "2026-09-30T03:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
