@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:53:38.161287+02:00",
+  "generated_at": "2026-09-30T22:03:52.881147+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -33569,7 +33569,7 @@
       "bucket": "30 septembre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Guerre en Ukraine : deux morts à Kiev ; la Russie brandit la menace nucléaire. Des frappes russes ont tué une femme et un enfant à Kiev et blessé quatre personnes ce mercredi 30 septembre. La veille, Moscou a menacé de recourir à l’arme nucléaire si l’Otan tentait d’isoler Kalin …",
+      "summary": "Guerre en Ukraine : ce qu’il faut retenir de la situation du mercredi 30 septembre. Des frappes russes ont tué une femme et un enfant à Kiev et blessé quatre personnes ce mercredi 30 septembre. La veille, Moscou a menacé de recourir à l’arme nucléaire si l’Otan tentait d’isoler Kalin …",
       "sources": [
         "La Croix — fiabilité 6/10"
       ],
@@ -36554,10 +36554,11 @@
       "sources": [
         "The Baltimore Sun — fiabilité 6/10",
         "The San Diego Union-Tribune — fiabilité 6/10",
-        "AP — fiabilité 9/10"
+        "AP — fiabilité 9/10",
+        "NZ Herald — fiabilité 6/10"
       ],
       "url": "https://www.baltimoresun.com/2026/09/30/britain-us-air-base-attack-iran/",
-      "published_at": "2026-09-30T11:05:00+02:00",
+      "published_at": "2026-09-30T12:41:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -37369,8 +37370,8 @@
     },
     {
       "regions": [
-        "International",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38249,7 +38250,6 @@
     {
       "regions": [
         "Océanie",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -38643,7 +38643,8 @@
       "sources": [
         "Reuters — fiabilité 9/10",
         "KFGO — fiabilité 6/10",
-        "AOL — fiabilité 6/10"
+        "AOL — fiabilité 6/10",
+        "The Kansas City Star — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/world/americas/brazil-us-set-up-working-group-discuss-potential-trade-agreement-2026-09-30/",
       "published_at": "2026-09-30T13:18:00+02:00",
@@ -38674,7 +38675,6 @@
     {
       "regions": [
         "Océanie",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -39655,7 +39655,6 @@
     {
       "regions": [
         "Océanie",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -39797,6 +39796,156 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "John Husted nie son vote pour la guerre en Iran. Alors que les prix du carburant grimpaient et que les navires commerciaux étaient de nouveau sous le feu des critiques dans le détroit d'Ormuz, le sénateur de l'Ohio (États-Unis), Jon Husted, a blâmé l'Iran, la Russie et les démocrates du Congrès après avoir voté contre l'ordre de retirer…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/videos/john-husted-denies-iran-war-190117812.html",
+      "published_at": "2026-09-30T14:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Russie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "« Super Intelligence » à la Maison-Blanche, mais pas pour l’orthographe -. La Maison-Blanche veut inaugurer l’ère de la « Super Intelligence ». Elle a peut-être commencé par un exercice plus terre-à-terre : l’orthographe. En présentant son nouvel accord avec les géants américains de la technologie sur l’intelligence artificielle, l’administration du président Donald Trump (États-Unis) a laissé passer une coquille pour le moins savoureuse.",
+      "sources": [
+        "- Rezo Nòdwès — fiabilité 8/10"
+      ],
+      "url": "https://rezonodwes.com/2026/09/__trashed-35/",
+      "published_at": "2026-09-30T21:37:28+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La mission chinoise Chang'e-6 a atterri sur la face cachée de la Lune. La mission chinoise Chang'e-6 a atterri sur le bassin d'Aitken du pôle Sud de la Lune, selon l'Administration spatiale nationale de Chine (CNSA). Crédit : Space. Com | images avec l'aimable autorisation de : Télévision centrale de Chine (CCT…",
+      "sources": [
+        "Space via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/chinas-change-6-mission-landed-on-the-far-side-of-the-moon/vi-AA2dhQ0G",
+      "published_at": "2026-09-30T14:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le secrétaire à la Défense Pete Hegseth (États-Unis) s'est moqué d'une vidéo bizarre montrant des troupes s'exerçant. Le secrétaire à la Défense, Pete Hegseth, a été ridiculisé en ligne mercredi après avoir fait la promotion d'une étrange vidéo de 36 secondes montrant des militaires s'exerçant à l'extérieur du Pentagone sous la bannière « C'est la guerre ».",
+      "sources": [
+        "Raw Story via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/pete-hegseth-ridiculed-over-bizarre-video-featuring-troops-exercising/ar-AA2dhHRm",
+      "published_at": "2026-09-30T14:02:45+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Allemagne - Klopp sur les sanctions contre City : « Pas soudainement besoin de titres de champion ». Interrogé sur les possibles sanctions qui pourraient être infligées à Manchester City après avoir été reconnu coupable de multiples infractions financières en Premier League, Jürgen Klopp a réagi avec …",
+      "sources": [
+        "Dailymotion via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/sport/football/allemagne-klopp-sur-les-sanctions-contre-city-pas-soudainement-besoin-de-titres-de-champion/vi-AA2diyHX",
+      "published_at": "2026-09-30T14:25:20+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Seychelles"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Seychelles : le FMI table sur une croissance du PIB réel de 1 % en 2026. Après avoir enregistré une forte progression en 2025, l’économie seychelloise devrait nettement ralentir cette année, sous l’effet notamment du recul …",
+      "sources": [
+        "Agence Ecofin — fiabilité 6/10"
+      ],
+      "url": "https://www.agenceecofin.com/actualites/3009-142025-seychelles-le-fmi-table-sur-une-croissance-du-pib-reel-de-1-en-2026",
+      "published_at": "2026-09-30T11:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Colombie",
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La RDC et la Colombie, seuls pays où des femmes ont signé un accord de paix en 2025.",
+      "sources": [
+        "Actualite.cd — fiabilité 7/10"
+      ],
+      "url": "https://actualite.cd/index.php/2026/09/30/la-rdc-et-la-colombie-seuls-pays-ou-des-femmes-ont-signe-un-accord-de-paix-en-2025",
+      "published_at": "2026-09-30T09:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
