@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:32:55.579273+02:00",
+  "generated_at": "2026-09-30T21:43:12.577048+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -38640,7 +38640,8 @@
       "summary": "Le Brésil et les États-Unis ont créé un groupe de travail pour discuter d'un éventuel accord commercial.",
       "sources": [
         "Reuters — fiabilité 9/10",
-        "KFGO — fiabilité 6/10"
+        "KFGO — fiabilité 6/10",
+        "AOL — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/world/americas/brazil-us-set-up-working-group-discuss-potential-trade-agreement-2026-09-30/",
       "published_at": "2026-09-30T13:18:00+02:00",
@@ -38671,6 +38672,7 @@
     {
       "regions": [
         "Océanie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -39564,6 +39566,215 @@
       "countries": [
         "Inde"
       ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'inflation atteint 3% sur un an en septembre 2026, portée par la hausse des prix de l'énergie et des produits frais. L'inflation accélère en France, principalement sous l'effet de la flambée des prix de l'énergie et des produits frais, selon l'Insee.",
+      "sources": [
+        "Journal du Net — fiabilité 6/10"
+      ],
+      "url": "https://www.journaldunet.com/business/1555633-l-inflation-atteint-3-sur-un-an-en-septembre-2026-portee-par-la-hausse-des-prix-de-l-energie-et-des-produits-frais/",
+      "published_at": "2026-09-30T11:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Joe Biden aurait insulté Netanyahu lors d’un appel privé tendu, selon un livre. L’ancien président Joe Biden aurait eu un appel privé tendu avec le Premier ministre Benjamin Netanyahu (Israël) en avril 2024, au cours duquel il a menacé de suspendre l’aide militaire américaine à Israël.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/joe-biden-reportedly-cursed-netanyahu-184931724.html",
+      "published_at": "2026-09-30T13:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les prix des médicaments montent en flèche en Iran alors que les États-Unis imposent un blocus et que les sanctions frappent durement. La guerre est devenue une épreuve d’endurance économique. L’Iran a tenté de faire monter les prix mondiaux de l’énergie en attaquant les routes de transport du pétrole de la région ; les États-Unis, à leur tour, ont cherché à détruire l’Iran…",
+      "sources": [
+        "New York Post — fiabilité 6/10"
+      ],
+      "url": "https://nypost.com/2026/09/30/world-news/medication-prices-skyrocket-in-iran-as-us-blockade-sanctions-hit-hard/",
+      "published_at": "2026-09-30T01:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Austin veut freiner les nouvelles politiques de développement économique. Le personnel municipal d'Austin souhaite retarder la publication de deux projets de développement économique clés destinés à stimuler la croissance de l'économie et de l'assiette fiscale de la ville.",
+      "sources": [
+        "The Business Journals — fiabilité 6/10"
+      ],
+      "url": "https://www.bizjournals.com/austin/news/2026/09/30/austin-wants-delay-economic-development-projects.html",
+      "published_at": "2026-09-30T14:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Plainte de l'UE déposée concernant les violations présumées de l'accord climatique par la Nouvelle-Zélande. L'organisation environnementale néerlandaise Both ENDS a déposé une plainte auprès de la Commission européenne contre la Nouvelle-Zélande pour violations présumées d'un accord commercial avec l'UE, a confirmé la commission le …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/eu-complaint-filed-over-zealands-191827437.html",
+      "published_at": "2026-09-30T14:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Nouvelle-Zélande"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Roumanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La crise politique en Roumanie s'intensifie alors que le Parlement rejette le Premier ministre pro-UE - Dominicaine Republic Post – Caribbean News, Business, Travel & Culture. Le Premier ministre roumain désigné, pro-européen, Siegfried Muresan, n'a pas réussi à remporter un vote de confiance au Parlement, prolongeant une crise politique considérée comme un coup de pouce pour l'extrême droite montante. Muresan, un député libéral du Parlement européen qui était le dernier des trois premiers ministres désignés, n'a obtenu mercredi que 182 voix sur les 233 requises pour obtenir la motion de confiance, selon le décompte officiel.",
+      "sources": [
+        "dominicanrepublicpost.com — fiabilité 6/10"
+      ],
+      "url": "https://dominicanrepublicpost.com/romanias-political-crisis-intensifies-as-parliament-rejects-pro-eu-pm/",
+      "published_at": "2026-09-30T21:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "République dominicaine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Gobierno asumirá gastos para tratamiento de Berlín de León Castro una vez obtenga visa humanitaria - Dominican Republic Post – Caribbean News, Business, Travel & Culture. El Gobierno informó que, a través de la Oficina de la Primera Dama y del Ministerio Administrativo de la Presidencia, el Estado dominicano ha dado seguimiento",
+      "sources": [
+        "dominicanrepublicpost.com — fiabilité 6/10"
+      ],
+      "url": "https://dominicanrepublicpost.com/gobierno-asumira-gastos-para-tratamiento-de-berlin-de-leon-castro-una-vez-obtenga-visa-humanitaria/",
+      "published_at": "2026-09-30T21:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "République dominicaine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "PLD suspende consulta para medir aspirantes presidenciales y escogerá candidato en 2027 - Dominican Republic Post – Caribbean News, Business, Travel & Culture. El Partido de la Liberación Dominicana (PLD) comunicó este miércoles la suspensión de la consulta que realizaría para determinar cuál de sus aspirantes",
+      "sources": [
+        "dominicanrepublicpost.com — fiabilité 6/10"
+      ],
+      "url": "https://dominicanrepublicpost.com/pld-suspende-consulta-para-medir-aspirantes-presidenciales-y-escogera-candidato-en-2027/",
+      "published_at": "2026-09-30T21:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Irak",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Retraité. Gén. David Petraeus sur U. S. Retrait d’Irak. L’armée américaine a désormais quitté l’Irak, après l’avoir envahi il y a plus de deux décennies dans le cadre d’une guerre terminée depuis longtemps.",
+      "sources": [
+        "wbaa.org — fiabilité 6/10"
+      ],
+      "url": "https://www.wbaa.org/npr-news/2026-09-30/ret-gen-david-petraeus-on-u-s-withdrawal-from-iraq",
+      "published_at": "2026-09-30T21:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Haïti"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Haïti : ASA demande un débat sur la nouvelle version du décret électoral. L’organisation dit saluer la décision du Conseil électoral provisoire (CEP) et du gouvernement d’apporter des modifications au texte",
+      "sources": [
+        "rezonodwes.com — fiabilité 8/10"
+      ],
+      "url": "https://rezonodwes.com/2026/09/haiti-asa-demande-un-debat-sur-la-nouvelle-version-du-decret-electoral/",
+      "published_at": "2026-09-30T19:16:16+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
