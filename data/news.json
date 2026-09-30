@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T10:08:51.105136+02:00",
+  "generated_at": "2026-09-30T10:19:03.809537+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30314,6 +30314,124 @@
       "url": "https://www.lavanguardia.com/local/valencia/20260930/11646907/riesgo-tren-sagunt-teruel.html",
       "published_at": "2026-09-30T09:45:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les factures d'énergie devraient connaître en janvier leur plus forte hausse depuis quatre ans, préviennent les experts. Les factures d'énergie des ménages devraient connaître la plus forte hausse en quatre ans, les experts avertissant qu'une facture typique pourrait grimper de près de 300 £ en janvier en raison de la guerre en Iran. Les experts de Cornwall Insight ont…",
+      "sources": [
+        "AOL.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.co.uk/articles/energy-bills-set-see-biggest-072238000.html",
+      "published_at": "2026-09-30T02:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les pilotes d'avions de ligne se bagarrent dans le cockpit en plein air, forçant l'avion à se dérouter, suscitant des craintes de détournement. Un avion de ligne à destination de Tel-Aviv a été mystérieusement détourné mercredi matin, incitant le Premier ministre israélien à tenir une réunion d'urgence.",
+      "sources": [
+        "Daily Mail — fiabilité 6/10"
+      ],
+      "url": "https://www.dailymail.com/news/article-16171731/Passenger-jet-heading-Tel-Aviv-activates-hijack-distress-code-Israel-scrambles-fighter-jets.html",
+      "published_at": "2026-09-30T02:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La victoire du Parti québécois séparatiste constituerait un nouveau test politique pour Carney. Dès la semaine prochaine, un test politique immédiat se profile pour le Premier ministre Mark Carney et son gouvernement, un test qui n'a pas été sur le radar politique fédéral depuis plus d'une décennie.",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/politics/pq-majority-carney-analysis-9.7363284",
+      "published_at": "2026-09-30T03:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "countries": [
+        "Finlande",
+        "Qatar"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Qatar et la Finlande explorent de nouvelles voies de coopération commerciale. Doha, Qatar : La volonté du Qatar de construire une économie diversifiée, basée sur la connaissance et durable dans le cadre de la Vision nationale du Qatar 2030 ouvre de nouvelles voies pour…",
+      "sources": [
+        "thepeninsulaqatar.com — fiabilité 6/10"
+      ],
+      "url": "http://thepeninsulaqatar.com/article/30/09/2026/qatar-and-finland-explore-new-avenues-for-business-cooperation",
+      "published_at": "2026-09-30T10:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Burkina Faso"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Burkina Faso lance la première raffinerie d'or. Selon un communiqué du Service d'information du gouvernement burkinabè, M. Traoré a déclaré que le Burkina Faso avait « franchi une étape historique dans sa quête de l'indépendance économique ».",
+      "sources": [
+        "allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://allafrica.com/stories/202609300060.html",
+      "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Inde",
+        "Émirats arabes unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les Émirats arabes unis prévoient un investissement de plusieurs milliards en Inde, axé sur l’énergie. Principaux renseignements Lors d’une récente réunion de haut niveau à Mumbai, Piyush Goyal, ministre indien du Commerce et de l’Industrie, a révélé que les Émirats arabes unis prévoyaient d’injecter 2 …",
+      "sources": [
+        "Business AM via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-be/actualite/other/les-émirats-arabes-unis-prévoient-un-investissement-de-plusieurs-milliards-en-inde-axé-sur-l-énergie/ar-AA2df5hn",
+      "published_at": "2026-09-30T00:04:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
