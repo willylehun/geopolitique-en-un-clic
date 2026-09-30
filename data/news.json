@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:14:06.377962+02:00",
+  "generated_at": "2026-09-30T22:24:21.264001+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -36650,6 +36650,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -38249,7 +38250,6 @@
     {
       "regions": [
         "Océanie",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -40011,6 +40011,125 @@
       "url": "https://www.bostonherald.com/2026/09/30/britain-us-air-base-attack-iran/",
       "published_at": "2026-09-30T21:30:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions de l'UE contre Xenia Fedorova : «Ça me choque de voir ces attaques contre une femme seule», s'indigne Régis Le Sommier.",
+      "sources": [
+        "CNEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.cnews.fr/france/2026-09-30/sanctions-de-lue-contre-xenia-fedorova-ca-me-choque-de-voir-ces-attaques-contre",
+      "published_at": "2026-09-30T03:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L’Ukraine va présenter une « liste de souhaits » pour de nouvelles sanctions contre la Russie dans le cadre de la loi Graham. L'Ukraine présentera cette semaine à l'administration du président Donald Trump (États-Unis) et au Congrès une liste de souhaits d'entreprises, de navires et d'individus russes qu'elle aimerait voir toucher …",
+      "sources": [
+        "The Hamilton Spectator — fiabilité 6/10"
+      ],
+      "url": "https://www.thespec.com/news/world/united-states/ukraine-to-present-wish-list-for-new-russia-sanctions-under-graham-law/article_4ca1945f-b175-5c49-b4fe-f7d3d31f58ad.html",
+      "published_at": "2026-09-30T14:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Troy Jackson s’excuse pour ses remarques sur les opinions des résidents juifs du Maine sur la guerre à Gaza (Palestine). Troy Jackson, le candidat démocrate dans la course au Sénat du Maine, s'est excusé mercredi d'avoir déclaré qu'il était « malheureux » que les résidents juifs de l'État n'aiment pas qualifier la guerre à Gaza de …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/troy-jackson-apologizes-remarks-jewish-191443192.html",
+      "published_at": "2026-09-30T14:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Palestine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le forum des Nations Unies plaide en faveur d'un financement accessible des océans et de l'eau pour le climat. L'Australie, les Philippines et les pays insulaires du Pacifique ont appelé à des réformes du financement climatique mondial, exhortant les institutions de financement internationales à mieux intégrer l'eau, la sécurité alimentaire et les océans…",
+      "sources": [
+        "Daily Tribune — fiabilité 6/10"
+      ],
+      "url": "https://tribune.net.ph/2026/09/30/un-forum-pushes-accessible-ocean-water-climate-funding",
+      "published_at": "2026-09-30T15:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Philippines",
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Stratolaunch choisit le Boeing 777 comme nouveau transporteur pour les tests hypersoniques. Stratolaunch a sélectionné un Boeing 777-200ER comme dernier ajout à sa flotte de transporteurs de plates-formes de lancement aérien pour rejoindre les avions Roc et 747-400 existants de la société de tests hypersoniques. La surprise…",
+      "sources": [
+        "Aviation Week Network — fiabilité 6/10"
+      ],
+      "url": "https://aviationweek.com/defense/missile-defense-weapons/stratolaunch-selects-boeing-777-new-carrier-hypersonic-tests",
+      "published_at": "2026-09-30T14:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "ALDI dévoile le centre Western Syndey d'un milliard de dollars. Un investissement combiné de plus d'un milliard de dollars dans l'ouest de Sydney amènera le nouveau centre de distribution automatisé d'ALDI à Bradfield, alors qu'il se prépare à une expansion majeure de son réseau de supermarchés à travers…",
+      "sources": [
+        "news.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.news.com.au/finance/real-estate/aldi-unveils-1bn-western-syndey-centre/news-story/5c697b52c846dafcf162b396cb56ca0c",
+      "published_at": "2026-09-30T14:00:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
