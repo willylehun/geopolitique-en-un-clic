@@ -1175,16 +1175,16 @@ def _request_google_page(url):
         # A coherent browser navigation profile avoids the JS shell returned to
         # a bare HTTP client and exposes the article decode parameters.
         client=_google_news_http_client()
-            for _ in range(4):
-                response=client.get(current,follow_redirects=False,headers=GOOGLE_NEWS_REQUEST_HEADERS)
-                if response.status_code in (301,302,303,307,308):
-                    destination=urllib.parse.urljoin(current,response.headers.get("location", ""))
-                    if urllib.parse.urlparse(destination).hostname=="news.google.com":
-                        current=destination
-                        continue
-                    return destination,""
-                response.raise_for_status()
-                return str(response.url),response.content[:400000].decode("utf-8","replace")
+        for _ in range(4):
+            response=client.get(current,follow_redirects=False,headers=GOOGLE_NEWS_REQUEST_HEADERS)
+            if response.status_code in (301,302,303,307,308):
+                destination=urllib.parse.urljoin(current,response.headers.get("location", ""))
+                if urllib.parse.urlparse(destination).hostname=="news.google.com":
+                    current=destination
+                    continue
+                return destination,""
+            response.raise_for_status()
+            return str(response.url),response.content[:400000].decode("utf-8","replace")
         return current,""
     req=urllib.request.Request(url,headers=GOOGLE_NEWS_REQUEST_HEADERS)
     class SameGoogleNewsRedirect(urllib.request.HTTPRedirectHandler):
