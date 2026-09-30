@@ -132,6 +132,22 @@ class GoogleNewsDecodeTests(unittest.TestCase):
         self.assertEqual(news.google_rss_publisher_url(google,title,"Reuters"),"")
         self.assertEqual(news.google_rss_publisher_url(unrelated,title,"Reuters"),"")
 
+    def test_google_rss_query_returns_verified_publisher_url_from_description(self):
+        title="Government announces new sanctions after border conflict"
+        google_url=f"https://news.google.com/rss/articles/{RECENT_ARTICLE_IDS[0]}?oc=5"
+        publisher_url="https://www.reuters.com/world/europe/sanctions-border-conflict/"
+        feed=("<?xml version='1.0'?><rss><channel><item>"
+              f"<title>{title} - Reuters</title><link>{google_url}</link>"
+              "<pubDate>Wed, 30 Sep 2026 05:00:00 GMT</pubDate>"
+              "<source url='https://www.reuters.com'>Reuters</source>"
+              f"<description>&lt;a href='{publisher_url}'&gt;{title}&lt;/a&gt;</description>"
+              "</item></channel></rss>")
+        with patch.object(news.urllib.request,"urlopen",return_value=FakeResponse(feed,"https://news.google.com/rss/search")):
+            article=news.google_rss_query("test query")[0]
+        self.assertEqual(article["url"],publisher_url)
+        self.assertEqual(news.GOOGLE_NEWS_URL_CACHE[google_url],publisher_url)
+        self.assertEqual(news.DISCOVERY_STATS["google_rss_description_fallback"],1)
+
     def test_direct_bing_item_survives_per_title_limit(self):
         day=news.datetime.now(news.UTC)
         title="Government announces new sanctions after border conflict"
