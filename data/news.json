@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:39:23.629440+02:00",
+  "generated_at": "2026-09-30T19:49:44.950821+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -34538,13 +34538,14 @@
       "bucket": "30 septembre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "L'économie américaine a connu une solide croissance de 2,2 % au deuxième trimestre, selon le gouvernement, revalorisant ses estimations précédentes. L'économie américaine a connu une croissance solide de 2,2 % entre avril et juin, grâce à la vigueur des dépenses de consommation et des investissements des entreprises.",
+      "summary": "L'économie américaine a connu une solide croissance de 2,2 % au deuxième trimestre, selon le gouvernement, revalorisant ses estimations précédentes. L'économie américaine a connu une croissance solide de 2,2 % entre avril et juin, grâce à la vigueur des dépenses de consommation et des investissements des entreprises. Croissance du produit intérieur brut – la production nationale de biens et…",
       "sources": [
         "AP — fiabilité 9/10",
-        "ABC News — fiabilité 7/10"
+        "ABC News — fiabilité 7/10",
+        "Boston Herald — fiabilité 6/10"
       ],
       "url": "https://apnews.com/article/economic-growth-inflation-trump-trade-b759367e9e6149fe145652cc95887aa0",
-      "published_at": "2026-09-30T07:44:00+02:00",
+      "published_at": "2026-09-30T08:46:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -37259,7 +37260,7 @@
         "France Info — fiabilité 6/10"
       ],
       "url": "https://www.franceinfo.fr/monde/russie/la-france-a-la-rescousse-d-un-oligarque-russe_8216800.html",
-      "published_at": "2026-09-30T12:39:00+02:00",
+      "published_at": "2026-09-30T12:49:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -37550,6 +37551,217 @@
       ],
       "url": "https://www.msn.com/fr-ca/actualites/other/pour-justin-trudeau-les-droits-de-douane-américains-imposés-au-canada-nuisent-aux-deux-pays/ar-AA2dh5HM",
       "published_at": "2026-09-30T08:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Irak célèbre le retrait des dernières troupes américaines du pays. Le Premier ministre irakien Ali al-Zaidi remporte une victoire avec le retrait des troupes américaines de la région du Kurdistan, mais avec peu de succès dans la maîtrise des milices …",
+      "sources": [
+        "Middle East Eye — fiabilité 6/10"
+      ],
+      "url": "https://www.middleeasteye.net/news/iraq-celebrates-last-us-troops-withdraw-country",
+      "published_at": "2026-09-30T11:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La société brésilienne Petrobras utilise Cardano pour suivre le carburant d'aviation durable et le diesel renouvelable. Petrobras utilise des applications basées sur Cardano pour suivre les déclarations environnementales et les données sur les émissions de carburant d'aviation durable et de diesel renouvelable au Brésil.",
+      "sources": [
+        "Cointelegraph — fiabilité 6/10"
+      ],
+      "url": "https://cointelegraph.com/news/brazils-petrobras-uses-cardano-to-track-sustainable-aviation-fuel-renewable-diesel",
+      "published_at": "2026-09-30T12:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La course présidentielle au Brésil est très serrée. Dans cette « question », Ian Bremmer analyse l'élection présidentielle brésilienne, une course trop serrée pour être convoquée avant le vote de dimanche. L'élection présidentielle de dimanche oppose Luiz Inácio Lula da Silva, …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/brazils-razor-close-presidential-race-165738038.html",
+      "published_at": "2026-09-30T11:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "En République Démocratique du Congo, une guerre financée par le Minerai. Alors que les négociations diplomatiques se multiplient concernant la République démocratique du Congo, les combats se poursuivent dans l’Est, où Alors que les négociations diplomatiques se multiplient concernant la République démocratique du Congo, les combats se poursuivent dans l’Est, où le M23",
+      "sources": [
+        "toulouse7.com — fiabilité 6/10"
+      ],
+      "url": "https://toulouse7.com/2026/09/30/en-republique-democratique-du-congo-une-guerre-financee-par-le-minerai/",
+      "published_at": "2026-09-30T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Portugal"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Embaucher un gestionnaire immobilier au Portugal – Ce que les propriétaires doivent savoir. L'embauche d'un gestionnaire immobilier au Portugal peut simplifier les complexités de la gestion de votre investissement, en assurant l'entretien, les relations avec les locataires et les aspects juridiques…",
+      "sources": [
+        "zimbio.com — fiabilité 6/10"
+      ],
+      "url": "https://www.zimbio.com/hiring-a-property-manager-in-portugal-what-owners-need-to-know/",
+      "published_at": "2026-09-30T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "WeatherUnderground NatureBucketWeatherWednesday : Vague Kelvin à l'échelle planétaire se dirigeant vers la Californie (États-Unis). Le Nature Bucket quotidien est un refuge naturel. Nous discutons amicalement des animaux, de la météo, du climat, du changement climatique, du sol, des plantes, des eaux et notons les différents modèles de vie. Nous vous invitons à noter ce que vous êtes…",
+      "sources": [
+        "dailykos.com — fiabilité 6/10"
+      ],
+      "url": "https://www.dailykos.com/stories/2026/9/30/800104814/community/climate-brief/",
+      "published_at": "2026-09-30T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Ukraine - Guerre en direct : +++ 19:04 La Russie limite le montant d'argent liquide que les voyageurs peuvent transporter +++. Berlin (Allemagne), Washington, Bruxelles – partout. Ntv rend compte de tous les lieux importants de politique intérieure et étrangère.",
+      "sources": [
+        "n-tv.de — fiabilité 6/10"
+      ],
+      "url": "https://www.n-tv.de/politik/19-04-Russland-begrenzt-mitgefuehrtes-Bargeld-bei-Reisenden-id30859357.html",
+      "published_at": "2026-09-30T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre britannique affirme que l’Iran est fortement lié à un incident sur une base aérienne. Alors que le conflit dans le golfe Persique continue d'avoir un impact et de façonner la région, les journalistes de la salle de presse centrale de RFE/RL et du service iranien Radio Farda,",
+      "sources": [
+        "northkoreatimes.com — fiabilité 6/10"
+      ],
+      "url": "http://www.northkoreatimes.com/news/279343449/uk-pm-says-strong-indications-iran-linked-to-airbase-incident",
+      "published_at": "2026-09-30T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Luxembourg"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions contre la RussieQuels enjeux pour le Luxembourg après le retrait de Fridman ?. La semaine dernière, l’oligarque russe Mikhaïl Fridman a été retiré de la liste des sanctions de l’Union européenne à la demande du Luxembourg. Cette décision a suscité des critiques tant au niveau na …",
+      "sources": [
+        "RTL Infos — fiabilité 6/10"
+      ],
+      "url": "https://infos.rtl.lu/news/luxembourg/quels-enjeux-pour-le-luxembourg-apres-le-retrait-de-fridman-110443981",
+      "published_at": "2026-09-30T01:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Luxembourg"
+      ],
+      "period": "day",
+      "bucket": "30 septembre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Migration légale au Luxembourg: l'ASTI dénonce un «véritable obstacle». L'Association de soutien aux travailleurs immigrés (ASTI), se positionne mercredi face au «durcissement» des politiques migratoires, chemin que suit le Luxembourg.",
+      "sources": [
+        "L'essentiel — fiabilité 6/10"
+      ],
+      "url": "https://www.lessentiel.lu/fr/story/l-asti-reagit-un-veritable-obstacle-pour-les-migrants-legaux-au-luxembourg-103641882",
+      "published_at": "2026-09-30T10:50:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
