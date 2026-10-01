@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:45:31.503636+02:00",
+  "generated_at": "2026-10-01T12:55:47.191829+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -45200,7 +45200,28 @@
       "url": "https://www.msn.com/en-us/money/economy/rupee-drops-to-two-month-low-as-global-bond-rout-deepens-oil-jumps/ar-AA2dkqVO",
       "published_at": "2026-10-01T05:07:27+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le procureur général bolivien, inscrit sur la liste noire des États-Unis, a été arrêté pour des liens présumés avec un cartel de la drogue, selon une source gouvernementale. Le Département d'État américain a déclaré que Roger Mariaca avait reçu « des pots-de-vin pour faciliter le trafic de drogue et aider des criminels violents à échapper à la justice ».",
+      "sources": [
+        "CBS News — fiabilité 7/10"
+      ],
+      "url": "https://www.cbsnews.com/news/bolivia-attorney-general-roger-mariaca-arrested-drug-cartel-ties",
+      "published_at": "2026-10-01T05:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
