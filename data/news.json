@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:32:34.596989+02:00",
+  "generated_at": "2026-10-01T10:42:47.964273+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -44051,6 +44051,40 @@
       "countries": [
         "Ukraine"
       ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le conseil de développement technologique clôt un appel de financement pour la R&D en invoquant des raisons administratives et nie le manque de financement. Le rapport de situation officiel du TDB jusqu'en avril 2026 montre qu'il a reçu 124 propositions de projets dans le cadre du programme, en a examiné 51 et en a approuvé 22. 73 autres étaient répertoriées comme en cours d'examen. Le conseil d'administration a reçu 35 …",
+      "sources": [
+        "The Economic Times — fiabilité 6/10"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/startups/tech-development-board-closes-rd-funding-call-citing-administrative-reasons-denies-funding-shortage/articleshow/134612870.cms",
+      "published_at": "2026-10-01T03:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre japonais s'engage à soutenir le yen en stimulant la compétitivité économique. Le Premier ministre japonais Sanae Takaichi a déclaré que les efforts de l'administration visant à « renforcer la compétitivité économique du pays contribueront à garantir la confiance du marché dans le yen, selon un rapport enregistré…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/asia-pacific/japan-pm-vows-underpin-yen-by-boosting-economic-competitiveness-2026-10-01/",
+      "published_at": "2026-10-01T03:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
