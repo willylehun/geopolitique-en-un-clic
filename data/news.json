@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:58:46.848179+02:00",
+  "generated_at": "2026-10-01T15:09:07.316176+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -46922,6 +46922,64 @@
       "url": "https://www.msn.com/fr-fr/finance/économie/de-211-à-33-d-inflation-comment-le-président-javier-milei-a-stabilisé-l-économie-de-l-argentine/ar-AA2dlPyx",
       "published_at": "2026-10-01T07:25:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Personne n'est intéressé par Shah Rukh aujourd'hui » : une fan girl le dit au fondateur du CJP, Abhijeet Dipke, alors qu'ils se réunissent à l'extérieur de Mannat avant la manifestation du 2 octobre à Mumbai. Une fan girl a arrêté sa voiture pour rencontrer Abhijeet Dipke devant le Mannat de Shah Rukh Khan avant la manifestation du 2 octobre. Elle a souligné en plaisantant que la foule regardait vers Abhijeet, l'incitant à…",
+      "sources": [
+        "Free Press Journal — fiabilité 6/10"
+      ],
+      "url": "https://www.freepressjournal.in/entertainment/no-one-is-interested-in-shah-rukh-today-fan-girl-tells-cjp-founder-abhijeet-dipke-as-they-meet-outside-mannat-ahead-of-october-2-mumbai-protest-video",
+      "published_at": "2026-10-01T07:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La Terre a franchi 7 des 9 limites planétaires, préviennent les scientifiques. Sept des neuf frontières planétaires de la Terre ont désormais été franchies, les scientifiques avertissant que la pression croissante sur le climat, la biodiversité, l'eau douce et d'autres systèmes naturels augmente le risque…",
+      "sources": [
+        "NDTV — fiabilité 6/10"
+      ],
+      "url": "https://www.ndtv.com/science/earth-has-breached-7-of-9-planetary-boundaries-scientists-warn-12124906",
+      "published_at": "2026-10-01T05:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "L’Iran se prépare à des représailles plus sévères en cas d’attaque, alors que la diplomatie fait face à de grandes difficultés. L’Iran intensifie ses plans de réponse militaire face aux craintes d’une escalade militaire américaine dans la région. Dans leurs discussions stratégiques, les commandants supérieurs envisagent des cibles plus larges, au-delà des ressources liées aux États-Unis. Sur le plan diplomatique, l'Iran a proposé, par l'intermédiaire de médiateurs qataris, un plan visant à mettre fin aux combats et à reprendre les exportations de pétrole. Les pressions économiques et les craintes de troubles en Iran compliquent la situation pour les dirigeants.",
+      "sources": [
+        "economictimes.indiatimes.com — fiabilité 6/10"
+      ],
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/iran-prepares-for-escalation-major-military-response-looms-amid-uncertain-diplomacy-with-us/articleshow/134618268.cms",
+      "published_at": "2026-10-01T14:45:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
