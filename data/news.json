@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:03:11.862754+02:00",
+  "generated_at": "2026-10-01T11:13:25.987978+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -44208,6 +44208,269 @@
       "url": "https://www.therecord.com/business/a-look-at-france-s-public-debt-as-economy-takes-center-stage-in-french-election/article_9056e2d5-4dc6-5bcb-a502-9a7614f79194.html",
       "published_at": "2026-10-01T10:15:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Quatre hommes arrêtés et libérés pour abus présumé des réglementations du marché de l'UE. Les hommes ont été libérés sans inculpation et un dossier sera préparé pour le directeur des poursuites pénales.",
+      "sources": [
+        "TheJournal.ie via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ie/news/other/four-men-arrested-and-released-over-alleged-abuse-of-eu-market-regulations/ar-AA2dkJLG",
+      "published_at": "2026-10-01T04:03:55+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les frappes aériennes pakistanaises font 9 morts en Afghanistan, selon les talibans. Les frappes aériennes pakistanaises sur l'Afghanistan ont touché trois maisons jeudi 1er octobre, tuant neuf personnes, a déclaré le gouvernement taliban afghan, tandis qu'Islamabad a déclaré que les frappes avaient tué 22 \"terroristes\" après…",
+      "sources": [
+        "AsiaOne — fiabilité 6/10"
+      ],
+      "url": "https://www.asiaone.com/asia/pakistani-airstrikes-kill-9-afghanistan-taliban-say",
+      "published_at": "2026-10-01T03:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Afghanistan"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Pourquoi les actions indiennes chutent : CA Sarthak Ahuja explique l'impact des rendements obligataires américains sur les marchés. Les actions indiennes ont été confrontées à de nouvelles pressions alors que la hausse des rendements du Trésor américain, la hausse des prix du pétrole brut et les ventes des investisseurs étrangers pèsent sur le sentiment du marché. CA Sarthak Ahuja a souligné à quel point …",
+      "sources": [
+        "Business Today — fiabilité 6/10"
+      ],
+      "url": "https://www.businesstoday.in/markets/story/why-indian-stocks-are-falling-ca-sarthak-ahuja-explains-us-bond-yield-impact-on-markets-559042-2026-10-01",
+      "published_at": "2026-10-01T03:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Les rendements des obligations britanniques à 30 ans ont atteint 6 % pour la première fois depuis 1998 et le FTSE 100 s'effondre. Les rendements des obligations d'État britanniques à 30 ans ont atteint 6 pour cent pour la première fois depuis le début de 1998, accentuant ainsi la pression sur la chancelière avant le budget.",
+      "sources": [
+        "This is Money via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/money/investment/uk-30-year-gilt-yields-hit-6-for-the-first-time-since-1998-and-ftse-100-tumbles/ar-AA2dk6us",
+      "published_at": "2026-10-01T03:24:58+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'armée américaine prévoit un nouveau commandement de drones alors quele secrétaire à la Défense Pete Hegseth (États-Unis) présente une refonte majeure de sa défense. Le Pentagone prévoit de créer un commandement quatre étoiles pour la guerre autonome, de construire une nouvelle base militaire et d'associer Elon Musk et Palmer Luckey à un projet examinant l'avenir du combat…",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/world/us-military-plans-new-drone-command-as-hegseth-outlines-major-defence-overhaul-article-14042741.html",
+      "published_at": "2026-10-01T03:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Mozambique | Jafete Fremo élu Président du Bureau de l'Assemblée Générale de l'UIJLP. Le 1er vice-président de l'Association mozambicaine des juges (AMJ), Jafete Fremo, a été élu président du conseil d'administration de l'Assemblée générale de l'Association internationale …",
+      "sources": [
+        "Club of Mozambique — fiabilité 6/10"
+      ],
+      "url": "https://clubofmozambique.com/news/mozambique-jafete-fremo-elected-president-of-the-board-of-the-general-assembly-of-the-uijlp/",
+      "published_at": "2026-10-01T03:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Mozambique"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le Cabinet est en guerre contre le complot de Burnham visant à réintégrer l’UE. Les hauts ministres estiment qu'il n'y a « aucun appétit » pour un retour au bloc, après que le Premier ministre a déclaré que cela serait examiné parmi les idées visant à améliorer les relations et le commerce transmanche.",
+      "sources": [
+        "Daily Mail via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/australia/cabinet-at-war-over-burnham-plot-to-rejoin-the-eu/ar-AA2dkFee",
+      "published_at": "2026-10-01T03:25:46+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : le président Volodymyr Zelensky (Ukraine) revendique des frappes ukrainiennes contre plusieurs sites en Russie. Le président ukrainien a fait état de « résultats importants » pour des frappes menées en profondeur sur le territoire russe, notamment en mer Noire ou dans les régions de Samara et Briansk, et visant …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/10/01/en-direct-guerre-en-ukraine-volodymyr-zelensky-revendique-des-frappes-ukrainiennes-contre-plusieurs-sites-en-russie_6783795_3210.html",
+      "published_at": "2026-10-01T03:59:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Bénin"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Diplomatie: Romuald Wadagni reçoit les lettres de créance de six nouveaux ambassadeurs accrédités au Bénin. Le ballet diplomatique s’intensifie au Palais de la Marina. Le président de la République, Romuald Wadagni, a officiellement reçu les lettres de créance …",
+      "sources": [
+        "beninwebtv — fiabilité 6/10"
+      ],
+      "url": "https://beninwebtv.bj/diplomatie-romuald-wadagni-recoit-les-lettres-de-creance-de-six-nouveaux-ambassadeurs-accredites-au-benin/",
+      "published_at": "2026-10-01T03:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Bénin",
+        "Niger"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Amnesty International lance une campagne intitulée \"six millions de voix pour la justice au Congo\". Au Bénin, les bus universitaires reprennent du service ! Au Niger, des agricultrices s'engagent pour la paix.",
+      "sources": [
+        "DW (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.dw.com/fr/info-matin-700-tu-01102026/audio-79497335",
+      "published_at": "2026-10-01T02:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Turquie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "En Turquie, la fermeture du site T24 marque un nouveau tour de vis contre la communauté LGBT+. Le ministère de la Justice accuse le site d'information indépendant T24 d'avoir publié 118 contenus de propagande LGBT en 2025. Les actions contre la communauté LGBT turque s'accélèrent.",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/replay-radio/d-un-monde-a-l-autre/en-turquie-la-fermeture-du-site-t24-marque-un-nouveau-tour-de-vis-contre-la-communaute-lgbt_8196380.html",
+      "published_at": "2026-10-01T02:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Vietnam"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "[SMM PV Flash] La marque Solavita de Skyworth PV entre au Vietnam pour déployer des micro-réseaux intelligents. Skyworth PV a annoncé le lancement officiel de sa marque haut de gamme, Solavita, sur le marché vietnamien, en mettant l'accent sur le déploiement de micro-réseaux intelligents dans la région …",
+      "sources": [
+        "Shanghai Metals Market — fiabilité 6/10"
+      ],
+      "url": "https://news.metal.com/fr/newscontent/104143278-smm-pv-flash-la-marque-solavita-de-skyworth-pv-entre-au-vietnam-pour-déployer-des-micro-réseaux-intelligents",
+      "published_at": "2026-10-01T03:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Thaïlande",
+        "Vietnam"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le joaillier Pandora ouvre une vaste usine au Vietnam. La plus grande marque de joaillerie au monde, Pandora, a inauguré jeudi un vaste site de production à Hô Chi Minh-Ville, au Vietnam, son premier en dehors de la Thaïlande. Présentée par l'entreprise d …",
+      "sources": [
+        "Belga via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-be/finance/actualite/le-joaillier-pandora-ouvre-une-vaste-usine-au-vietnam/ar-AA2dkDaM",
+      "published_at": "2026-10-01T03:34:43+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
