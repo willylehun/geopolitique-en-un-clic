@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:14:48.257760+02:00",
+  "generated_at": "2026-10-01T12:25:04.393014+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -43426,10 +43426,11 @@
       "category": "Géopolitique",
       "summary": "Des agents d'IA ont tenté de pirater un site Web du gouvernement canadien, selon une société de recherche. La société d'IA Transluce a rapporté que des agents d'IA avaient tenté de pirater un site Web du gouvernement canadien, mais le Canada a déclaré que ses systèmes n'étaient pas compromis. OpenAI examine les résultats.",
       "sources": [
-        "Firstpost — fiabilité 6/10"
+        "Firstpost — fiabilité 6/10",
+        "BNN Bloomberg — fiabilité 8/10"
       ],
       "url": "https://www.firstpost.com/tech/ai-agents-tried-to-hack-a-canadian-government-website-research-firm-says-14049657.html",
-      "published_at": "2026-10-01T02:21:00+02:00",
+      "published_at": "2026-10-01T04:56:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -44921,16 +44922,17 @@
       "url": "https://www.nytimes.com/2026/10/01/business/energy-environment/oil-prices-iran-war-trump.html",
       "published_at": "2026-10-01T05:06:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "countries": [
-        "Gabon",
-        "Chine"
+        "Chine",
+        "Gabon"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -44942,6 +44944,180 @@
       ],
       "url": "https://www.gabonreview.com/zero-tarif-la-chine-ouvre-ses-portes-le-gabon-doit-desormais-apprendre-a-produire/",
       "published_at": "2026-10-01T01:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "ConocoPhillips étudie la vente de ses activités en Norvège et de ses actifs au Royaume-Uni à Teesside. L'entreprise a fait…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/conocophillips-explores-sale-of-norway-business-and-uk-teesside-asset/ar-AA2dk9bY",
+      "published_at": "2026-10-01T03:58:33+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Norvège",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Tous les samedis seront-ils fériés ? Le gouvernement clarifie la notification virale. Cette clarification intervient quelques jours après que les syndicats du secteur bancaire ont reporté une grève nationale de trois jours prévue du 28 au 30 septembre …",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/banking/will-all-saturdays-be-bank-holidays-government-clarifies-viral-notification-article-14042840.html",
+      "published_at": "2026-10-01T05:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre irakien fixe au 30 juin la date limite pour que les factions pro-iraniennes désarment alors que la coalition américaine se retire. Les factions soutenues par l'Iran, dont le Kataeb Hezbollah, ont immédiatement rejeté le calendrier, déclarant qu'elles n'étaient « liées par aucun calendrier ou accord »…",
+      "sources": [
+        "i24NEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iraqi-pm-sets-june-30-deadline-for-pro-iran-factions-to-disarm-as-us-coalition-withdraws",
+      "published_at": "2026-10-01T05:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "« Il est plus orange que le président Donald Trump (États-Unis) » : Adam Schiff dit quele secrétaire à la Défense Pete Hegseth (États-Unis) lui rappelle « The Mask ». Le secrétaire américain à la Guerre, Pete Hegseth, a prononcé son discours sur l'état de la force à la base du Corps des Marines de Quantico le 30 septembre.",
+      "sources": [
+        "PRIMETIMER — fiabilité 6/10"
+      ],
+      "url": "https://www.primetimer.com/news/he-s-more-orange-than-donald-trump-adam-schiff-says-pete-hegseth-reminds-him-of-the-mask",
+      "published_at": "2026-10-01T04:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Les contrats à terme sur le Dow ont atteint leur plus bas niveau depuis trois mois alors que les rendements augmentent, les bénéfices de Micron offrent un soutien. 1er octobre (Reuters) - Les contrats à terme sur le Dow Jones ont chuté jeudi à leur plus bas niveau depuis plus de trois mois, les inquiétudes concernant l'inflation et la hausse de la dette publique ayant poussé les rendements du Trésor à des sommets de plusieurs décennies, tandis que l'explosion…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/economy/dow-futures-hit-three-month-low-as-yields-surge-micron-earnings-offer-support/ar-AA2dkPK5",
+      "published_at": "2026-10-01T04:31:56+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Énergie",
+      "summary": "Micron, Paramount, Nike, Constellation Energy, Vicor et bien d’autres actions qui expliquent le marché actuel. Micron publie un excellent rapport sur les résultats financiers du quatrième trimestre, mais le titre se négocie légèrement à la baisse.",
+      "sources": [
+        "Barron's via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/top-stocks/micron-paramount-nike-constellation-energy-vicor-and-more-stocks-that-explain-today-s-market/ar-AA2dkNd4",
+      "published_at": "2026-10-01T04:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Australienne Anika Wells figure sur la liste Time100 après la lutte contre l'interdiction des médias sociaux. Lorsque le moment est venu, Anika Wells a cherché une métaphore sportive. À Brisbane, nous savons que les postes de Premier ministre sont remportés par l'ensemble de l'équipe et non par un seul joueur, a déclaré le ministre australien des Communications …",
+      "sources": [
+        "The News International — fiabilité 6/10"
+      ],
+      "url": "https://www.thenews.com.pk/latest/1418323-australias-anika-wells-makes-time100-list-after-social-media-ban-fight",
+      "published_at": "2026-10-01T04:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Togo"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Nord du Togo : le colonel N’Guwaki prend Koundjoaré sous la pression des incursions. Nommé le 29 septembre, le nouveau commandant hérite d’un dispositif en alerte, après deux attaques signalées à la frontière …",
+      "sources": [
+        "Icilome — fiabilité 6/10"
+      ],
+      "url": "https://icilome.com/2026/10/nord-du-togo-le-colonel-nguwaki-prend-koundjoare-sous-la-pression-des-incursions/",
+      "published_at": "2026-10-01T03:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Zambie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Zambie : le taux directeur passe à 10,75 % dans un contexte de ralentissement de l’inflation. Le taux d’inflation en Zambie se situe dans la fourchette cible de la banque centrale depuis le deuxième trimestre 2026, porté notamment par la …",
+      "sources": [
+        "Agence Ecofin — fiabilité 6/10"
+      ],
+      "url": "https://www.agenceecofin.com/actualites/0110-142035-zambie-le-taux-directeur-passe-a-10-75-dans-un-contexte-de-ralentissement-de-l-inflation",
+      "published_at": "2026-10-01T02:27:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
