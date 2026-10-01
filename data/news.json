@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T03:42:24.345982+02:00",
+  "generated_at": "2026-10-01T03:52:47.646519+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42080,6 +42080,28 @@
       ],
       "url": "https://www.schwaebische.de/politik/iran-freilassung-vermeintlicher-terroristen-spricht-baende-4905112",
       "published_at": "2026-10-01T03:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L'Ukraine va présenter une liste de souhaits pour de nouvelles sanctions contre la Russie dans le cadre de la loi Graham. L’Ukraine souhaiterait également voir des mesures plus strictes contre les navires soupçonnés de faire partie de la flotte fantôme russe.",
+      "sources": [
+        "greeleytribune.com — fiabilité 6/10"
+      ],
+      "url": "https://www.greeleytribune.com/2026/09/30/ukraine-russia/",
+      "published_at": "2026-10-01T03:30:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
