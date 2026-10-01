@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:00:58.457839+02:00",
+  "generated_at": "2026-10-01T22:11:15.188199+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -52749,6 +52749,171 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump fait des affirmations illusoires sur les effets de la guerre en Iran à mi-mandat. Le président Donald Trump (États-Unis) ne semble pas vraiment préoccupé par la question de savoir si la guerre en cours en Iran nuira à son parti lors des élections de mi-mandat de novembre. Jeudi, à la Maison Blanche, un journaliste a fait remarquer à Trump que…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-makes-delusional-claim-iran-182349736.html",
+      "published_at": "2026-10-01T13:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La famille de Renee Nicole Good poursuit l'administration du président Donald Trump (États-Unis) et les responsables de l'immigration pour son meurtre. Ces affaires sont les premières actions civiles majeures engagées contre le président pour les expulsions sans précédent qu'il a ordonnées à Minneapolis l'hiver dernier, baptisées Opération Metro Surge.",
+      "sources": [
+        "Sky News — fiabilité 6/10"
+      ],
+      "url": "https://news.sky.com/story/renee-nicole-goods-family-sues-trump-administration-and-immigration-officials-over-her-killing-13594076",
+      "published_at": "2026-10-01T15:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Un expert révèle que les propriétaires d’entreprises américaines devraient subir le plus gros des retombées des tarifs douaniers canadiens alors que l’incertitude liée à la guerre commerciale se profile. Karan Ramchandani affirme que les interdictions d'importation imposées par le président Donald Trump (États-Unis) sur les produits laitiers, l'alcool et les automobiles canadiens pourraient déclencher l'inflation à mesure que les coûts de production pèsent sur les consommateurs.",
+      "sources": [
+        "Fox Business — fiabilité 6/10"
+      ],
+      "url": "https://www.foxbusiness.com/politics/expert-reveals-us-business-owners-bear-brunt-canadian-tariff-fallout-trade-war-uncertainty-looms",
+      "published_at": "2026-10-01T14:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Trump dévoile America. Gov, alimenté par l'IA. Mardi, le président Donald Trump (États-Unis) a lancé America. Gov en tant que passerelle alimentée par l'IA vers les informations et les services du gouvernement américain, mais la sénatrice Elizabeth Warren (Démocrate du Mass.) a attiré l'attention sur la plateforme après…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trumps-ai-powered-government-website-183016737.html",
+      "published_at": "2026-10-01T13:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le président Vladimir Poutine (Russie) prévient que la Russie occidentale utilisera « toutes les armes » si Kaliningrad le menace. Le président russe lance un avertissement brutal à ses alliés en reconnaissant que les frappes ukrainiennes ont un impact sur l'économie de son pays.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+      ],
+      "url": "https://www.abc.net.au/news/2026-10-02/putin-kaliningrad-threat-nuclear-weapons/107219366",
+      "published_at": "2026-10-01T14:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Buc-ee's règle un procès avec la chaîne de stations-service de l'Ohio (États-Unis) concernant les mascottes. Buc-ee's règle un procès avec une chaîne de stations-service de l'Ohio après avoir intenté une action en justice parce que les deux ont des mascottes de dessins animés « tournées vers la droite » - Le procès est l'un des nombreux procès intentés par Buc-ee's contre les entreprises qu'il prétend…",
+      "sources": [
+        "The Independent via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/buc-ee-s-settles-lawsuit-with-ohio-gas-station-chain-over-mascots/ar-AA2dnqj7",
+      "published_at": "2026-10-01T14:05:48+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Crise du pouvoir d’achat en France : faire face aux difficultés. À l’approche des élections et d’un projet de budget visant à répondre à un besoin de financement de 305,7 milliards d’euros, les ménages français sont de plus en plus dans le rouge. Les salaires parviendront-ils un jour à dépasser l’inflation énergétique ?",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/economy/20261001-france-s-purchasing-power-crisis-navigating-the-pinch",
+      "published_at": "2026-10-01T02:26:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Estonie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Estonie : la chasse à la langue russe bute sur le réel !. Après le vote cet été d'une loi linguistique, plusieurs dirigeants de médias ont écrit au gouvernement pour demander à pouvoir doubler les (…) …",
+      "sources": [
+        "AgoraVox — fiabilité 6/10"
+      ],
+      "url": "https://www.agoravox.fr/tribune-libre/article/estonie-la-chasse-a-la-langue-272527",
+      "published_at": "2026-10-01T00:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
