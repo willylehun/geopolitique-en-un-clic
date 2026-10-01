@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:16:34.437230+02:00",
+  "generated_at": "2026-10-01T19:26:53.890898+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -50244,6 +50244,83 @@
       ],
       "url": "https://www.juno7.ht/haiti-budget-401-milliards-gourdes-2026-2027/",
       "published_at": "2026-10-01T11:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Sénat : Gérard Larcher réélu, sans surprise, président de la chambre haute du Parlement. Gérard Larcher a été réélu à la présidence du Sénat. L’élu des Yvelines, à la tête de la chambre haute du Parlement depuis 2014, était le seul candidat …",
+      "sources": [
+        "CNEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.cnews.fr/france/2026-10-01/senat-gerard-larcher-reelu-sans-surprise-president-de-la-chambre-haute-du",
+      "published_at": "2026-10-01T12:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La coalition dirigée par l'Arabie saoudite affirme que les Houthis ont attaqué la centrale électrique de Médine. La coalition dirigée par l'Arabie saoudite qui combat les Houthis au Yémen a déclaré jeudi que le groupe militant avait attaqué cette semaine une station de distribution d'électricité à Médine, mettant un transformateur hors service, mais sans …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/saudi-led-coalition-says-houthis-attacked-power-station-medina-2026-10-01/",
+      "published_at": "2026-10-01T11:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite",
+        "Yémen"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Trump veut une interdiction des exportations de diesel, mais le secrétaire à l'Énergie dit que cela ne fonctionnera pas. Le président Donald Trump (États-Unis) envisage d’empêcher l’exportation de diesel américain alors que son administration cherche des moyens de maîtriser les prix record du carburant. Mais son propre secrétaire à l'énergie…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-wants-diesel-export-ban-170046404.html",
+      "published_at": "2026-10-01T12:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Climat",
+      "summary": "La récusation d’Alito d’une affaire climatique clé est peut-être trop petite, trop tard. Cet article a été initialement publié par Inside Climate News et est reproduit ici dans le cadre de la collaboration Climate Desk. Le juge Samuel Alito a décidé lundi de ne pas participer à l'un des…",
+      "sources": [
+        "Mother Jones — fiabilité 6/10"
+      ],
+      "url": "https://www.motherjones.com/politics/2026/10/samuel-alito-supreme-court-recusal-suncor-boulder-climate-fossil-fuel-oil-stocks-ethics/",
+      "published_at": "2026-10-01T11:49:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
