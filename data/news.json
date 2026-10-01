@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T21:29:57.154705+02:00",
+  "generated_at": "2026-10-01T21:40:11.404246+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42985,7 +42985,7 @@
         "CNA — fiabilité 7/10"
       ],
       "url": "https://www.msn.com/en-ca/money/technology/jera-teams-up-with-dell-rhaelm-on-ai-infrastructure-development-in-japan/ar-AA2djFNv",
-      "published_at": "2026-10-01T01:31:38+02:00",
+      "published_at": "2026-10-01T09:31:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -45064,14 +45064,16 @@
       "bucket": "1 octobre 2026",
       "score": 6,
       "category": "Énergie",
-      "summary": "Micron, Paramount, Nike, Constellation Energy, Vicor et bien d’autres actions qui expliquent le marché actuel. Micron publie un excellent rapport sur les résultats financiers du quatrième trimestre, mais le titre se négocie légèrement à la baisse.",
+      "summary": "Accenture, IBM, Micron, Google, Synopsys, Constellation Energy et d'autres actions qui expliquent le marché actuel. Micron publie un excellent rapport sur les résultats financiers du quatrième trimestre, mais le titre se négocie légèrement à la baisse.",
       "sources": [
-        "Barron's via MSN — fiabilité 6/10"
+        "Barron's via MSN — fiabilité 6/10",
+        "Barron's — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-us/money/top-stocks/micron-paramount-nike-constellation-energy-vicor-and-more-stocks-that-explain-today-s-market/ar-AA2dkNd4",
       "published_at": "2026-10-01T04:48:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -50459,7 +50461,8 @@
     {
       "regions": [
         "Asie",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "countries": [
         "Iran",
@@ -50468,7 +50471,7 @@
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 6,
+      "score": 9,
       "category": "Géopolitique",
       "summary": "Projet d’attaque contre une base militaire en Angleterre: Netanyahu dit avoir averti Londres. Israël avait averti les autorités britanniques que l’Iran planifiait une attaque contre une base britannique, a déclaré son dirigeant le Premier ministre Benjamin Netanyahu (Israël), s’offusquant que Londres ait malgré tout pris …",
       "sources": [
@@ -52346,6 +52349,212 @@
       "url": "https://www.journaldemontreal.com/2026/10/01/rubio-ira-en-islande-poursuivre-loffensive-des-etats-unis-dans-larctique",
       "published_at": "2026-10-01T09:57:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre Shehbaz appelle à une coopération plus forte pour améliorer l'économiePublié le : 1 octobre 2026 19:09. Pakistan, 1er octobre -- Le Premier ministre Shehbaz Sharif a souligné l'importance de la coopération entre les dirigeants politiques et militaires pour améliorer les conditions économiques du Pakistan.",
+      "sources": [
+        "Daily Times via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-xl/asia/pakistan/pm-shehbaz-calls-for-stronger-cooperation-to-improve-economypublished-on-october-1-2026-709-pm/ar-AA2dn5Sa",
+      "published_at": "2026-10-01T14:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pakistan"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le congé de la taxe sur l'essence a été promulgué jusqu'à la fin de 2026. Le gouverneur de l'Ohio (États-Unis), Mike DeWine, a promulgué jeudi matin le projet de loi 519, qui réduit temporairement le prix à la pompe jusqu'à la fin de 2026. Le projet de loi prévoit une fenêtre de trois jours pour permettre au gaz…",
+      "sources": [
+        "WHIZ News — fiabilité 6/10"
+      ],
+      "url": "https://www.whiznews.com/gas-tax-holiday-signed-into-law-through-the-rest-of-2026/",
+      "published_at": "2026-10-01T14:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les États membres de l’ONU pèsent sur le dernier veto du Conseil de sécurité, cette fois sur l’Iran. L’Assemblée générale s’est réunie jeudi pour examiner le dernier veto du Conseil de sécurité, opposé par la Chine et la Russie à un groupe d’experts en sanctions soutenu par les États-Unis sur les installations nucléaires iraniennes.",
+      "sources": [
+        "UN News — fiabilité 6/10"
+      ],
+      "url": "https://news.un.org/en/story/2026/10/1168505",
+      "published_at": "2026-10-01T14:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "Iran",
+        "Russie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "\"Les juges se saisissent de l'affaire d'immigration du président Donald Trump (États-Unis) qui pourrait relancer le système de capture et de libération\". La Cour suprême a accepté jeudi d'entendre une affaire majeure en matière d'immigration qui pourrait déterminer si l'administration Trump peut poursuivre sa politique de détention obligatoire ou s'il s'agit d'une forme de \"catch and…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/justices-trump-immigration-case-may-191505475.html",
+      "published_at": "2026-10-01T14:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’État du champ de bataille confronté aux conséquences de la guerre commerciale du président Donald Trump (États-Unis) avec le Canada. L'expert en commerce David Clement prévient que les fabricants du Michigan pourraient être confrontés à des coûts plus élevés alors que la lutte contre les droits de douane menée par Trump au Canada menace l'industrie automobile profondément liée de l'État.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6406047419112",
+      "published_at": "2026-10-01T14:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Amazon, le meilleur constructeur de navires de guerre ajouté à la liste des condamnations de Goldman. Goldman Sachs a ajouté Amazon et Huntington Ingalls à sa liste de condamnations pour octobre, malgré des années ternes jusqu'à présent.",
+      "sources": [
+        "Investor's Business Daily — fiabilité 6/10"
+      ],
+      "url": "https://www.investors.com/news/amazon-goldman-sachs-huntington-ingalls-occidental-petroleum-stocks-to-buy/",
+      "published_at": "2026-10-01T14:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le coton démarre jeudi avec des pertes. Les contrats à terme ont clôturé la séance de mercredi avec des contrats de 16 à 43 pintes inférieurs dans tous les domaines. Le pétrole brut est de retour en hausse de 2,06 $ le baril sur le…",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/markets/commodities/articles/cotton-starting-off-thursday-losses-123421370.html",
+      "published_at": "2026-10-01T07:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le Canada se préparera-t-il à la guerre ou à la paix ? - Le Hill Times. L’establishment militaire canadien étant désormais réticent à contribuer aux opérations de paix de l’ONU, un plan national pour un Service de paix d’urgence fournirait à l’organisme une capacité rapide et fiable pour prévenir les conflits armés et protéger les personnes à risque.",
+      "sources": [
+        "hilltimes.com — fiabilité 6/10"
+      ],
+      "url": "https://www.hilltimes.com/2026/10/01/will-canada-prepare-for-war-or-for-peace/520182/",
+      "published_at": "2026-10-01T21:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le commerce de l’or vénézuélien est confronté à un nouveau test alors que les lingots de Trafigura restent entreposés. Six mois après que les États-Unis ont décidé de rouvrir un canal pour les importations d'or vénézuélien, une importante cargaison achetée dans le cadre du nouvel accord reste entreposée, soulevant des questions sur les défis pratiques de la reconstruction d'un commerce qui a été interrompu pendant des années par les sanctions et les inquiétudes concernant l'exploitation minière illégale.",
+      "sources": [
+        "weeklyblitz.net — fiabilité 6/10"
+      ],
+      "url": "https://weeklyblitz.net/2026/10/02/venezuelas-gold-trade-faces-a-new-test-as-trafiguras-bullion-remains-in-storage/",
+      "published_at": "2026-10-01T21:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "POCO apporte POCO X8 et POCO C95 Pro en Allemagne – matériel. POCO, une marque technologique particulièrement appréciée de la jeune génération passionnée de technologie, lance le 1er octobre 2026 deux nouveaux smartphones, le POCO X8 et le POCO C95 Pro, sur le marché allemand. Le POCO X8 poursuit la route. Après 1 600 cycles de charge, la batterie conserve 80 % de sa capacité, ce qui équivaut à environ six ans d'utilisation régulière³, et a obtenu la note 5 étoiles du TÜV SÜD en termes de performances de batterie. Certification⁴. L’endurance est complétée par une HyperCharge⁵ de 67 W et une charge inversée filaire de 22,5 W⁶.",
+      "sources": [
+        "hartware.de — fiabilité 6/10"
+      ],
+      "url": "https://www.hartware.de/2026/10/01/poco-bringt-poco-x8-und-poco-c95-pro-nach-deutschland/",
+      "published_at": "2026-10-01T21:15:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
