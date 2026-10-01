@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:10:49.308805+02:00",
+  "generated_at": "2026-10-01T16:21:05.320092+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -44816,7 +44816,7 @@
       "bucket": "1 octobre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Saudi Aramco et Sonatrach augmentent les prix du GPL pour octobre. Le producteur de pétrole d'État d'Arabie Saoudite, Saudi Aramco, a augmenté les prix de vente officiels du gaz de pétrole liquéfié de 9 à 11 % pour octobre en raison de la hausse des prix du pétrole et de la demande accrue sur les marchés mondiaux.",
+      "summary": "Saudi Aramco et Sonatrach augmentent les prix du GPL pour octobre. Le producteur national de pétrole d'Arabie Saoudite, Saudi Aramco, a augmenté les prix de vente officiels du gaz de pétrole liquéfié de 9 à 11 % pour octobre en raison de la hausse des prix du pétrole et de la demande accrue sur les marchés mondiaux.",
       "sources": [
         "Reuters — fiabilité 9/10"
       ],
@@ -47196,7 +47196,8 @@
     },
     {
       "regions": [
-        "International"
+        "International",
+        "Europe"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -47209,7 +47210,8 @@
       "url": "https://www.ouest-france.fr/societe/securite-routiere/controles-sanctions-sensibilisation-le-nouveau-plan-de-la-ville-dangers-pour-endiguer-les-infractions-routieres-960ddf7e-bcd0-11f1-8ea4-97dc4d7cca62",
       "published_at": "2026-10-01T08:19:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -47295,6 +47297,7 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -47704,6 +47707,214 @@
       "url": "https://www.bluewin.ch/fr/infos/monde/l-ukraine-regagne-du-terrain-dans-l-est-par-une-contre-offensive-li.3620855",
       "published_at": "2026-10-01T08:52:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "De nouvelles images satellite de Gaza (Palestine) montrent une ville en ruine complète. Israël a commencé sa guerre contre Gaza après les attaques du 7 octobre 2023. Un cessez-le-feu est en vigueur depuis octobre de l’année dernière. Google Maps vient de mettre à jour ses photos satellite et révèle le…",
+      "sources": [
+        "Dagens.com via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/news/other/new-satellite-images-from-gaza-show-a-city-in-complete-ruin/ar-AA2dmkHc",
+      "published_at": "2026-10-01T08:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Palestine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les actions de Vicor bondissent grâce à des prévisions plus élevées et à d'autres acteurs précoces du marché. Voici quelques actions ayant réalisé des mouvements notables lors de l'action pré-commercialisation de jeudi : les actions Vicor ont bondi de plus de 10 % après que la société d'électronique de puissance [a relevé ses prévisions de croissance séquentielle pour le troisième trimestre] (…",
+      "sources": [
+        "MarketWatch — fiabilité 6/10"
+      ],
+      "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-fears-further-fed-rate-hikes-ease-micron-stock-earnings/card/vicor-shares-jump-on-raised-guidance-and-other-early-market-movers-6XDKgudz4FQCt4MqxMrz",
+      "published_at": "2026-10-01T02:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Bolivie",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Bolivie : enquête pour narcotrafic contre le procureur général arrêté après des sanctions américaines. Le gouvernement bolivien a annoncé jeudi avoir démantelé une organisation criminelle \"infiltrée\" dans la justice, au lendemain de l'arrestation du procureur général Roger Mariaca, intervenue après le …",
+      "sources": [
+        "TV5MONDE - Informations — fiabilité 6/10"
+      ],
+      "url": "https://information.tv5monde.com/international/bolivie-enquete-pour-narcotrafic-contre-le-procureur-general-arrete-apres-des-sanctions-americaines-2839781",
+      "published_at": "2026-10-01T03:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Éthiopie",
+        "Kenya"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Qu'est-ce que Safaricom, Kenya M - Pesa Giant expliqué. Comment la plus grande entreprise du Kenya gagne de l'argent grâce à M-Pesa, qui en est propriétaire après l'accord contesté avec Vodacom, son pari sur l'Éthiopie et les principaux risques.",
+      "sources": [
+        "riotimesonline.com — fiabilité 6/10"
+      ],
+      "url": "https://www.riotimesonline.com/what-is-safaricom-explained-2026/",
+      "published_at": "2026-10-01T16:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Produire en France, la meilleure des solutions écologiques. Le Télégramme. Après la vague de sécheresse que la France vient de vivre, le gouvernement a débloqué une aide d’un milliard. Les agriculteurs disent que ce n’est pas assez. Ont-ils raison ? Bruno Retailleau. Cela ne peut pas couvrir les dégâts. Mais ce qui est plus grave, c’est que cette sécheresse survient […]",
+      "sources": [
+        "republicains.fr — fiabilité 6/10"
+      ],
+      "url": "https://republicains.fr/actualites/2026/09/16/produire-en-france-la-meilleure-des-solutions-ecologiques/",
+      "published_at": "2026-10-01T16:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Sommeil ensorcelé : points de vue russes sur l'Ukraine et le monde – Conseil européen des relations étrangères. De nouvelles recherches montrent que les Russes voient peu de chances d’influencer la guerre en Ukraine, mais s’attendent à une amélioration des relations avec l’Europe à l’avenir.",
+      "sources": [
+        "ecfr.eu — fiabilité 6/10"
+      ],
+      "url": "https://ecfr.eu/publication/bewitched-sleep-russians-views-on-ukraine-and-the-world/",
+      "published_at": "2026-10-01T16:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Mali : Amnesty publie un rapport accusant les FAMa et Wagner de crimes de guerre contre des civils. Soldat malienAmnesty International accuse, dans un rapport publié mardi, des membres des Forces armées maliennes (FAMa),… - KOACI l'Info au Coeur de l'Afrique …",
+      "sources": [
+        "KOACI — fiabilité 6/10"
+      ],
+      "url": "https://www.koaci.com/article/2026/10/01/afrique/politique/mali-amnesty-publie-un-rapport-accusant-les-fama-et-wagner-de-crimes-de-guerre-contre-des-civils_201149.html",
+      "published_at": "2026-10-01T06:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Mali : le Conseil des ministres crée une École des Mines et du Pétrole et renouvelle 10 permis d’or. Le Conseil des ministres du Mali, réuni le mercredi 30 septembre 2026 au Palais de Koulouba sous la présidence du Général d’Armée …",
+      "sources": [
+        "YOP L-FRII — fiabilité 6/10"
+      ],
+      "url": "https://yop.l-frii.com/mali-le-conseil-des-ministres-cree-une-ecole-des-mines-et-du-petrole-et-renouvelle-10-permis-dor/",
+      "published_at": "2026-10-01T08:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Mali : Bloomfield Investment Corporation évalue le climat des affaires.",
+      "sources": [
+        "Maliactu — fiabilité 6/10"
+      ],
+      "url": "https://maliactu.net/mali-bloomfield-investment-corporation-evalue-le-climat-des-affaires/",
+      "published_at": "2026-10-01T06:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Sénégal",
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Partenariat économique Maroc-Sénégal : le droit OHADA et le contenu local au cœur des échanges. Un déjeuner-débat consacré au partenariat économique entre le Maroc et le Sénégal a réuni des responsables institutionnels, des opérateurs économiques et des chefs d’entreprise des deux pays. Les écha …",
+      "sources": [
+        "Senego — fiabilité 6/10"
+      ],
+      "url": "https://senego.com/partenariat-economique-maroc-senegal-le-droit-ohada-et-le-contenu-local-au-coeur-des-echanges_2007739.html",
+      "published_at": "2026-10-01T05:15:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
