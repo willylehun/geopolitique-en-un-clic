@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:46:58.949843+02:00",
+  "generated_at": "2026-10-01T13:57:17.807034+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23405,13 +23405,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Kazakhstan",
-        "Allemagne"
+        "Allemagne",
+        "Kazakhstan"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -34790,13 +34790,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Kazakhstan",
-        "Allemagne"
+        "Allemagne",
+        "Kazakhstan"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -43764,10 +43764,11 @@
       "category": "Géopolitique",
       "summary": "Guerre au Moyen-Orient : l’Irak réclame le désarmement des factions pro-Iran ; cinq morts en Syrie. Le premier ministre irakien a annoncé fixer au 30 juin 2027 la date butoir pour le désarmement des factions pro-iraniennes. Cinq personnes ont été tuées lors d’une « attaque contre un bus » de transpo …",
       "sources": [
-        "La Croix — fiabilité 6/10"
+        "La Croix — fiabilité 6/10",
+        "DH Les Sports+ — fiabilité 6/10"
       ],
       "url": "https://www.la-croix.com/international/direct-guerre-iran-israel-usa-jour-111-moyen-orient-bilan-resume-aujourdhui-20261001",
-      "published_at": "2026-10-01T02:40:00+02:00",
+      "published_at": "2026-10-01T05:24:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -45772,6 +45773,173 @@
       "url": "https://www.msn.com/fr-fr/actualite/other/kazakhstan-un-colloque-à-paris-décrypte-sa-stratégie-de-puissance-moyenne/ar-AA2dk1TZ",
       "published_at": "2026-10-01T00:11:05+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'Europe ouvre dans le rouge, l'inflation et les taux inquiètent. Les principales Bourses européennes sont dans le rouge jeudi à l'entame d'un trimestre décisif pour les marchés alors que les rendements obligataires et les cours du pétrole restent à des niveaux él …",
+      "sources": [
+        "Boursorama — fiabilité 6/10"
+      ],
+      "url": "https://www.boursorama.com/bourse/actualites/l-europe-ouvre-dans-le-rouge-l-inflation-et-les-taux-inquietent-4c7f8fa7c43ad6a13c47ebc507a77dbc",
+      "published_at": "2026-10-01T04:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Budget 2027 : gel des APL et des allocations familiales, retraites, suppression de fonctionnaires… Le gouvernement Lecornu présente sa copie. Le chef du gouvernement a présenté ses projets de loi de finances (PLF) et de financement de la Sécurité sociale (PLFSS) en conseil des ministres ce jeudi matin.",
+      "sources": [
+        "Libération — fiabilité 6/10"
+      ],
+      "url": "https://www.liberation.fr/economie/budget-2027-le-gouvernement-lecornu-propose-un-effort-de-43-milliards-deuros-20261001_K3Y5WG3ZOBG4TM66W2CLSEKOLY/",
+      "published_at": "2026-10-01T03:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "L’Inde demandera aux détaillants privés de carburant de mettre fin au rationnement des ventes. L’Inde demandera aux détaillants privés de carburant de cesser de rationner leurs ventes, a déclaré jeudi le secrétaire au Pétrole, Neeraj Mittal.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/india-will-ask-private-fuel-retailers-end-sales-rationing-2026-10-01/",
+      "published_at": "2026-10-01T06:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Vous pensez que la demande du président Donald Trump (États-Unis) de 1,5 billion de dollars au Pentagone est scandaleuse ? Cela va vous époustoufler. Le Congrès a donné à l’armée un budget officiel de près de 1 100 milliards de dollars pour l’exercice 2025, soit plus que les cinq finalistes suivants (Chine, Russie, Allemagne, Inde et Royaume-Uni) réunis. Maintenant, je compte…",
+      "sources": [
+        "Mother Jones — fiabilité 6/10"
+      ],
+      "url": "https://www.motherjones.com/politics/2026/10/donald-trump-pete-hegseth-pentagon-budget-request-trillion-department-war-true-cost-military-spending/",
+      "published_at": "2026-10-01T06:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne",
+        "Chine",
+        "Inde",
+        "Royaume-Uni",
+        "Russie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre Benjamin Netanyahu (Israël) : Israël a donné au Royaume-Uni des informations sur l’incident de Fairford. ISRAËL a donné à la Grande-Bretagne des renseignements sur un complot terroriste présumé près de la RAF Fairford, a affirmé Benjamin Netanyahu.",
+      "sources": [
+        "Swindon Advertiser — fiabilité 6/10"
+      ],
+      "url": "https://www.swindonadvertiser.co.uk/news/26597814.benjamin-netanyahu-israel-gave-uk-intel-fairford-incident/",
+      "published_at": "2026-10-01T06:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "À l’intérieur du royaume sous-marin : la bataille secrète et sinistre pour contrôler ce qui se cache sous les vagues. Chaque jour, des milliards de dollars, du pétrole et du gaz, ainsi que 99 % du trafic Web mondial transitent par des pipelines sous-marins sans la protection d’un État. Alors que les superpuissances et les entreprises se disputent désormais le contrôle,…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/01/inside-the-undersea-kingdom-the-secret-sinister-battle-to-control-what-lies-beneath-the-waves",
+      "published_at": "2026-10-01T05:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Soudan"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La bataille du Kordofan : le corridor reliant le Soudan à l'est et à l'ouest - Dominicaine Republic Post – Caribbean News, Business, Travel & Culture. Les combats dans la région soudanaise du Kordofan se sont intensifiés depuis fin 2025, faisant de cette région l’un des principaux champs de bataille de la guerre entre les forces armées soudanaises.",
+      "sources": [
+        "dominicanrepublicpost.com — fiabilité 6/10"
+      ],
+      "url": "https://dominicanrepublicpost.com/the-battle-for-kordofan-the-corridor-linking-sudans-east-and-west/",
+      "published_at": "2026-10-01T13:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Arménie",
+        "Turquie",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Vous ne ferez pas taire la diaspora . Nous n écoutons ni ce que disent Pachinian, Bakou ou la Turquie : nous faisons notre travail . » Élisabeth Tchouljian - Nouvelles dArménie en Ligne – Toute lactualité sur le monde arménien. Dans l’émission « Pressing », animée par Satik Seyranian, l’invitée est Élisabeth Tchouljian, porte-parole du Comité de la cause arménienne des États-Unis (ANCA). Voici les principales thèses développées au cours de l’entretien : Lorsque le gouvernement azerbaïdjanais a appelé l’Arménie à modifier sa Constitution, les autorités arméniennes ont immédiatement engagé une procédure de réforme constitutionnelle.",
+      "sources": [
+        "armenews.com — fiabilité 6/10"
+      ],
+      "url": "https://www.armenews.com/vous-ne-ferez-pas-taire-la-diaspora-nous-necoutons-ni-ce-que-disent-pachinian-bakou-ou-la-turquie-nous-faisons-notre-travail-elisabeth-tchouljian/",
+      "published_at": "2026-10-01T13:30:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
