@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:16:12.689085+02:00",
+  "generated_at": "2026-10-01T13:26:31.271783+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -34360,8 +34360,8 @@
         "International"
       ],
       "countries": [
-        "Madagascar",
-        "Égypte"
+        "Égypte",
+        "Madagascar"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -45426,13 +45426,13 @@
     },
     {
       "regions": [
-        "Afrique",
         "Europe",
+        "Afrique",
         "International"
       ],
       "countries": [
-        "Madagascar",
-        "France"
+        "France",
+        "Madagascar"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -45444,6 +45444,81 @@
       ],
       "url": "https://www.2424.mg/diplomatie-jean-marc-grosgurin-prend-officiellement-ses-fonctions-dambassadeur-de-france-a-madagascar/",
       "published_at": "2026-10-01T02:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La retraite dépasse 16 000 £ par an après une augmentation de 4,7 %. Les retraités de Jersey recevront une augmentation de 734 £ par an de leur pension de vieillesse à mesure qu'un complément entrera en vigueur. Le gouvernement de Jersey a annoncé une augmentation de 4,7 %, soit 14 £ supplémentaires par semaine pour…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/crd686gw2lgjo",
+      "published_at": "2026-10-01T05:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "La mousson indienne se termine avec un déficit de 12,5 % : ce que cela signifie pour l'inflation et la demande rurale. La mousson en Inde s'est terminée à 12,5 % en dessous de la normale, les stocks alimentaires atténuant les risques d'inflation mais la sécheresse et El Nino menaçant la demande rurale ; voyez ce qui est en jeu.",
+      "sources": [
+        "The Financial Express — fiabilité 6/10"
+      ],
+      "url": "https://www.financialexpress.com/policy/economy/india-monsoon-ends-with-12-5-deficit-what-it-means-for-inflation-rural-demand/4351564/",
+      "published_at": "2026-10-01T06:14:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement syrien et le Hezbollah ont tenu des pourparlers secrets en Turquie. Les représentants du gouvernement syrien et du Hezbollah ont tenu le mois dernier leur premier face-à-face connu en Turquie, dans le but d'apaiser les tensions entre les ennemis de longue date …",
+      "sources": [
+        "i24NEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.i24news.tv/en/news/middle-east/artc-syrian-government-and-hezbollah-held-secret-talks-in-turkey-report",
+      "published_at": "2026-10-01T06:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Turquie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "SC demande une réponse du gouvernement du Bengale et d'autres sur le plaidoyer de Mahua Moitra en faveur de la protection lors de la visite dans la circonscription. La Cour suprême a demandé jeudi au gouvernement du Bengale occidental et à d'autres de déposer des réponses au plaidoyer de la députée Mahua Moitra demandant une protection adéquate lors de sa visite dans sa circonscription parlementaire,…",
+      "sources": [
+        "The New Indian Express via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/sc-seeks-response-from-bengal-govt-others-on-mahua-moitra-s-plea-for-protection-during-constituency-visit/ar-AA2dlfAL",
+      "published_at": "2026-10-01T05:40:07+02:00",
       "origin": "rss",
       "content_enriched": true
     },
