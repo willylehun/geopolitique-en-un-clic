@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:55:59.083038+02:00",
+  "generated_at": "2026-10-01T19:06:18.562851+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -45377,7 +45377,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -45388,9 +45389,10 @@
         "Reuters via MSN — fiabilité 9/10"
       ],
       "url": "https://www.msn.com/en-gb/news/other/ai-cybersecurity-startup-armadin-valued-at-over-25-billion-after-new-funding-round/ar-AA2dkwuc",
-      "published_at": "2026-10-01T05:43:12+02:00",
+      "published_at": "2026-10-01T11:45:49+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -48870,10 +48872,11 @@
       "summary": "La famille de Renee Good poursuit l'administration Trump pour la fusillade mortelle de Minneapolis ICE. Mme Good était l'une des deux personnes abattues par des agents de l'ICE lors d'une opération d'immigration massive dans la ville américaine de Minneapolis, qui a intensifié l'opposition à la politique migratoire du président Donald Trump (États-Unis).",
       "sources": [
         "Forbes — fiabilité 6/10",
-        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10",
+        "Le Dauphiné Libéré — fiabilité 6/10"
       ],
       "url": "https://www.forbes.com/sites/conormurray/2026/10/01/renee-goods-family-sues-trump-administration-ice-agent-after-fatal-shooting/",
-      "published_at": "2026-10-01T10:06:00+02:00",
+      "published_at": "2026-10-01T11:14:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -49549,7 +49552,7 @@
         "The Independent via MSN — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-za/news/other/retired-general-slams-incompetent-hegseth-after-leadership-purge/ar-AA2dm1pX",
-      "published_at": "2026-10-01T11:11:47+02:00",
+      "published_at": "2026-10-01T11:52:45+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -50077,6 +50080,172 @@
         "Iran",
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les exportations américaines de GNL ont augmenté en septembre alors que l’Europe a surenchéri sur l’Asie pour les cargaisons, selon les données du LSEG. Les exportations américaines de gaz naturel liquéfié ont augmenté en septembre alors que la demande européenne plus forte a fait monter les prix et encouragé les producteurs à maximiser leur production malgré les interruptions de maintenance dans une installation d'exportation.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/us-lng-exports-rise-september-europe-outbids-asia-cargoes-lseg-data-show-2026-10-01/",
+      "published_at": "2026-10-01T11:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les licenciements aux États-Unis chuteront de près de 40 % en 2026 pour atteindre leur plus bas niveau depuis quatre ans, selon de nouvelles données. Les projets d'embauche ont augmenté de 3 % depuis le début de l'année, ce qui indique que le marché du travail reste résilient, selon les experts.",
+      "sources": [
+        "CBS News via MSN — fiabilité 7/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/general/us-layoffs-drop-nearly-40-in-2026-to-four-year-low-new-data-shows/ar-AA2dmI3g",
+      "published_at": "2026-10-01T10:54:28+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les Américains sont profondément frustrés par la gestion de l économie et de la hausse des prix par le président Donald Trump (États-Unis), selon un sondage. À un mois des élections de mi-mandat, moins de 20% des Américains approuvent la manière dont il gère cet enjeu crucial.",
+      "sources": [
+        "ledevoir.com — fiabilité 6/10"
+      ],
+      "url": "https://www.ledevoir.com/monde/etats-unis/1013537/plupart-americains-tiennent-trump-responsable-cout-vie",
+      "published_at": "2026-10-01T18:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Ghana"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Attijariwafa Bank signe un accord pour acquérir 55, 22 % de Société Générale Ghana. Attijariwafa Bank rachète 55,22% du capital, tandis que l’organisme ghanéen de sécurité sociale SSNIT …",
+      "sources": [
+        "atlasinfo.fr — fiabilité 6/10"
+      ],
+      "url": "https://atlasinfo.fr/attijariwafa-bank-signe-un-accord-pour-acquerir-5522-de-societe-generale-ghana.html",
+      "published_at": "2026-10-01T18:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Politique - CDU - Le secrétaire général met en garde le SPD contre une alliance de gauche à Berlin (Allemagne). Berlin - La secrétaire générale de la CDU, Franziska Hoppermann, met en garde le SPD contre les conséquences pour le gouvernement fédéral en cas de…",
+      "sources": [
+        "unternehmen-heute.de — fiabilité 6/10"
+      ],
+      "url": "https://unternehmen-heute.de/news.php?newsid=6713329",
+      "published_at": "2026-10-01T18:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Irak"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les derniers soldats de la Bundeswehr sont revenus d'Irak. Après plus d’une décennie de présence de la Bundeswehr en Irak, le dernier contingent est désormais de retour en Allemagne. Le ministère de la Défense travaille déjà sur une nouvelle collaboration.",
+      "sources": [
+        "infranken.de — fiabilité 6/10"
+      ],
+      "url": "https://www.infranken.de/deutschland/letzte-bundeswehr-soldaten-aus-irak-zurueckgekehrt-art-6400130",
+      "published_at": "2026-10-01T18:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Guinée"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Lutte contre la chicha en Guinée : Fallou Doumbouya réquisitionne trois corps de sécurité … – Africa Guinee. CONAKRY- Le Procureur général près la Cour d’appel de Conakry, Fallou Doumbouya, a transmis des instructions fermes aux magistrats du parquet de son ressort pour traquer l’importation, la distribution et la vente de la chicha. Cette directive fait suite à une réquisition administrative et judiciaire délivrée aux forces de défense et de sécurité. La justice guinéenne passe à la vitesse supérieure pour faire appliquer la réglementation interdisant la chicha sur le territoire national.",
+      "sources": [
+        "africaguinee.com — fiabilité 6/10"
+      ],
+      "url": "https://www.africaguinee.com/lutte-contre-la-chicha-en-guinee-fallou-doumbouya-requisitionne-trois-corps-de-securite/",
+      "published_at": "2026-10-01T18:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Haïti"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Haïti adopte un budget de 401,2 milliards de gourdes pour l’exercice 2026-2027. Le gouvernement adopte un budget de 401,2 milliards de gourdes pour 2026-2027, avec la sécurité, les élections et la relance économique comme priorités.",
+      "sources": [
+        "juno7 — fiabilité 6/10"
+      ],
+      "url": "https://www.juno7.ht/haiti-budget-401-milliards-gourdes-2026-2027/",
+      "published_at": "2026-10-01T11:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
