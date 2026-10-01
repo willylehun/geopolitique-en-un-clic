@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:53:00.099865+02:00",
+  "generated_at": "2026-10-01T11:03:11.862754+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -44125,6 +44125,90 @@
       "countries": [
         "Inde"
       ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis pourraient-ils sanctionner le Premier ministre Benjamin Netanyahu (Israël) ? Les démocrates poussent un projet de loi anti-règlement à la Chambre. La loi Stop the Settlements ciblerait les personnes et entités étrangères derrière l’expansion des colonies en Cisjordanie (Palestine) et à Gaza et interdirait les biens des colonies ; le passage est peu probable maintenant, mais les sponsors se tournent vers le…",
+      "sources": [
+        "ynetnews — fiabilité 6/10"
+      ],
+      "url": "https://www.ynetnews.com/article/h1yjyqj5zg",
+      "published_at": "2026-10-01T03:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Palestine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les résidents californiens sont avertis d'une panne intentionnelle du SCE et se demandent pourquoi les lignes électriques ne sont toujours pas souterraines. Les habitants de Santa Barbara se préparent à une autre possible panne d'électricité intentionnelle après que Southern California (États-Unis) Edison a averti qu'il pourrait couper l'électricité en cas de vents violents et de zones sujettes aux incendies.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/us/articles/california-residents-warning-intentional-sce-074700695.html",
+      "published_at": "2026-10-01T02:47:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) annonce un investissement sud-coréen de 200 milliards de dollars dans des projets américains. Le projet comprend huit centrales nucléaires, un gazoduc pour l'Alaska et une centrale électrique de 6 GW au Texas, bien que Séoul ait déclaré que le projet de 54 milliards de dollars en Alaska n'était pas encore finalisé.",
+      "sources": [
+        "business-standard.com — fiabilité 6/10"
+      ],
+      "url": "https://www.business-standard.com/world-news/trump-announces-200-billion-south-korean-investment-in-us-projects-126100100442_1.html",
+      "published_at": "2026-10-01T10:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un regard sur la dette publique française alors que l’économie occupe le devant de la scène électorale française. PARIS (AP) — La dette publique française a atteint un niveau record au cours des deux mandats du président Emmanuel Macron (France), déstabilisant les investisseurs et apparaissant comme un problème déterminant pour le prochain mandat.",
+      "sources": [
+        "therecord.com — fiabilité 6/10"
+      ],
+      "url": "https://www.therecord.com/business/a-look-at-france-s-public-debt-as-economy-takes-center-stage-in-french-election/article_9056e2d5-4dc6-5bcb-a502-9a7614f79194.html",
+      "published_at": "2026-10-01T10:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
