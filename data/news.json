@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-10-02T00:24:45.748059+02:00",
+  "generated_at": "2026-10-02T00:35:00.263449+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
   "buckets": {
     "day": [
+      "2 octobre 2026",
       "1 octobre 2026",
       "30 septembre 2026",
       "29 septembre 2026",
@@ -54180,6 +54181,26 @@
       "url": "https://ecomatin.net/republique-centrafricaine-le-gouvernement-procede-a-une-nouvelle-hausse-du-prix-des-carburants-a-la-pompe",
       "published_at": "2026-10-01T13:32:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "RAAG appelle à convoquer le chargé d'affaires du haut-commissariat du Pakistan ; questions J - K Assemblée silence sur PoJK. Le groupe de recherche et de défense (RAAG), basé à Jammu, a exhorté le gouvernement indien à convoquer le chargé d'affaires du haut-commissariat du Pakistan à New Delhi et à déposer une forte protestation diplomatique contre les meurtres, les blessures, les arrestations, les restrictions et les difficultés humanitaires auxquelles sont confrontés les habitants du Jammu-et-Cachemire (PoJK) occupé par le Pakistan.",
+      "sources": [
+        "iraqsun.com — fiabilité 5/10"
+      ],
+      "url": "http://www.iraqsun.com/news/279346417/raag-calls-for-summoning-pakistan-high-commission-charge-daffaires-questions-j-k-assembly-silence-on-pojk",
+      "published_at": "2026-10-02T00:15:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
