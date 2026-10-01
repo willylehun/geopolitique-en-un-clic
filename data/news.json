@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:54:22.961858+02:00",
+  "generated_at": "2026-10-01T12:04:37.053510+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -37334,12 +37334,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Sri Lanka",
-        "Kenya"
+        "Kenya",
+        "Sri Lanka"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -44276,12 +44276,12 @@
       "bucket": "1 octobre 2026",
       "score": 6,
       "category": "Économie",
-      "summary": "Les rendements des obligations britanniques à 30 ans ont atteint 6 % pour la première fois depuis 1998 et le FTSE 100 s'effondre. Les rendements des obligations d'État britanniques à 30 ans ont atteint 6 pour cent pour la première fois depuis le début de 1998, accentuant ainsi la pression sur la chancelière avant le budget.",
+      "summary": "La Grande-Bretagne a été frappée par la déroute du marché obligataire mondial alors que les coûts d'emprunt ont atteint leur plus haut niveau depuis 28 ans et que les actions ont chuté. Les rendements des obligations d'État britanniques à 30 ans ont atteint 6 pour cent pour la première fois depuis le début de 1998, accentuant ainsi la pression sur la chancelière avant le budget.",
       "sources": [
         "This is Money via MSN — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-au/money/investment/uk-30-year-gilt-yields-hit-6-for-the-first-time-since-1998-and-ftse-100-tumbles/ar-AA2dk6us",
-      "published_at": "2026-10-01T03:24:58+02:00",
+      "published_at": "2026-10-01T04:10:53+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -44600,7 +44600,8 @@
       "category": "Géopolitique",
       "summary": "Des responsables du gouvernement syrien et du Hezbollah ont eu des entretiens secrets en Turquie, selon des sources. Des représentants du gouvernement syrien et du groupe militant libanais Hezbollah ont eu des entretiens face à face pour tenter d'apaiser les tensions entre eux, selon six sources informées des premiers événements connus.",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "Yahoo — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/world/middle-east/syrian-government-officials-hezbollah-held-secret-talks-turkey-sources-say-2026-10-01/",
       "published_at": "2026-10-01T04:36:00+02:00",
@@ -44678,9 +44679,9 @@
         "Asie"
       ],
       "countries": [
-        "Singapour",
         "Cambodge",
         "Laos",
+        "Singapour",
         "Thaïlande",
         "Vietnam"
       ],
@@ -44777,6 +44778,86 @@
       ],
       "url": "https://www.lorientlejour.com/article/1549323/arrestation-dun-suspect-majeur-du-double-attentat-de-reyhanli-pres-de-la-syrie-en-2013.html",
       "published_at": "2026-10-01T03:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "SC demande une réponse du gouvernement du Bengale au plaidoyer de Mahua Moitra concernant l'expulsion de Nadia Circuit House. La Cour suprême a demandé jeudi une réponse du gouvernement du Bengale occidental à un plaidoyer déposé par le député du Trinamool Congress (TMC), Mahua Moitra, qui alléguait que les responsables de l'administration du district de Nadia…",
+      "sources": [
+        "Times Now — fiabilité 6/10"
+      ],
+      "url": "https://www.timesnownews.com/india/sc-seeks-bengal-govt-response-on-mahua-moitras-plea-over-nadia-circuit-house-eviction-article-156258439",
+      "published_at": "2026-10-01T04:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Saudi Aramco et Sonatrach augmentent les prix du GPL pour octobre. Le producteur de pétrole d'État d'Arabie Saoudite, Saudi Aramco, a augmenté les prix de vente officiels du gaz de pétrole liquéfié de 9 à 11 % pour octobre en raison de la hausse des prix du pétrole et de la demande accrue sur les marchés mondiaux.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/saudi-aramco-sonatrach-raise-lpg-prices-october-2026-10-01/",
+      "published_at": "2026-10-01T04:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Grèce",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’ambassadrice américaine à Athènes a-t-elle tenté d’intimider le gouvernement grec ?. Un article du “Wall Street Journal” publié le 25 septembre rapporte des propos prêtés à l’ambassadrice américaine en Grèce, Kimberly Guilfoyle. En mars, cette …",
+      "sources": [
+        "Courrier International — fiabilité 6/10"
+      ],
+      "url": "https://www.courrierinternational.com/article/diplomatie-l-ambassadrice-americaine-a-athenes-a-t-elle-tente-d-intimider-le-gouvernement-grec_275189",
+      "published_at": "2026-10-01T04:52:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Au Maroc, malgré la nomination d’une première ministre, le plafond de verre demeure pour les femmes. Sur 395 députés élus au Parlement après le scrutin du 23 septembre, la représentation des femmes reste minoritaire (107) et cantonnée aux quotas. Toutefois, la nomination de Fatima Ezzahra El-Mansouri …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/afrique/article/2026/10/01/au-maroc-malgre-la-nomination-d-une-premiere-ministre-le-plafond-de-verre-demeure-pour-les-femmes_6786492_3212.html",
+      "published_at": "2026-10-01T04:45:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
