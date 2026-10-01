@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:08:48.767474+02:00",
+  "generated_at": "2026-10-01T08:19:00.104043+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42718,9 +42718,10 @@
         "RNZ (média public) — fiabilité 8/10"
       ],
       "url": "https://www.rnz.co.nz/news/regions/1673512/world-war-i-medals-of-far-north-soldier-uncovered-in-christchurch",
-      "published_at": "2026-10-01T01:09:00+02:00",
+      "published_at": "2026-10-01T01:19:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -42740,6 +42741,107 @@
       ],
       "url": "https://www.lecho.be/economie-politique/international/asie/afghanistan-neufs-personnes-tuees-dans-des-frappes-pakistanaises/10688130.html",
       "published_at": "2026-10-01T00:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Viol collectif, sanctions dérisoires: scandale dans une prestigieuse université. L’affaire des «Cornell 7» secoue les États-Unis. Une étudiante accuse sept hommes de l’avoir violée pendant plusieurs heures en 2024. Aucune poursuite pénale n’avait suivi et certaines sanctions unive …",
+      "sources": [
+        "Blick — fiabilité 6/10"
+      ],
+      "url": "https://www.blick.ch/fr/monde/cornell-luniversite-secouee-par-une-affaire-de-viol-collectif/llt3h58",
+      "published_at": "2026-10-01T00:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La collecte des taxes sur les produits et services en Inde en septembre a augmenté de 14,7 % par rapport à l'année dernière. L'Inde a collecté 2,04 billions de roupies (21,25 milliards de dollars) au titre de la taxe totale brute sur les produits et services en septembre, soit une augmentation de 14,7 % sur un an, a indiqué jeudi un communiqué du gouvernement.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/india/indias-september-goods-services-tax-collection-rises-147-year-ago-2026-10-01/",
+      "published_at": "2026-10-01T01:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le secrétaire à la Défense Pete Hegseth (États-Unis) dirige des centaines de personnes autour du Pentagone dans des chemises « C'EST LA GUERRE » et se moque. Le secrétaire à la Défense, Pete Hegseth, a enfilé ses chaussures de course cette semaine et a conduit des centaines de militaires dans une boucle de jogging matinale autour du Pentagone, tous portant des chemises identiques qui…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/pete-hegseth-leads-hundreds-around-054348865.html",
+      "published_at": "2026-10-01T00:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Cour fédérale se prononce contre la contestation des projets de golf du gouvernement sud-africain. La Cour fédérale s'est prononcée contre une contestation déposée par le fonctionnaire Edwin Kemp Attrill et la femme de Kaurna Arabana Janette Milera contre les projets du gouvernement sud-africain de réaménager le nord d'Adélaïde…",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/money/general/federal-court-rules-against-challenge-to-sa-government-s-golf-course-plans/ar-AA2djFmx",
+      "published_at": "2026-10-01T00:59:24+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Europe"
+      ],
+      "countries": [
+        "Argentine",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le dirigeant argentin Milei en mission pour renforcer l'économie lors de sa visite à Paris. Dans le cadre d'une visite de quatre jours visant à promouvoir les opportunités d'investissement en Argentine, où l'économie est en difficulté, le président Javier Milei s'adressera jeudi à l'Organisation de coopération et de développement économiques et rencontrera le président Emmanuel Macron (France).",
+      "sources": [
+        "aol.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.co.uk/articles/argentine-leader-milei-mission-beef-051232000.html",
+      "published_at": "2026-10-01T08:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
