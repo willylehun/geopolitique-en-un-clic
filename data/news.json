@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:29:11.562350+02:00",
+  "generated_at": "2026-10-01T08:39:25.221791+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42535,14 +42535,15 @@
       "bucket": "1 octobre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Sensex aujourd'hui | Astucieux 50 | Mises à jour en direct du marché boursier : Sensex se négocie à plat, Nifty en dessous de 22 600 ; les actions automobiles entraînent des pertes. Les indices de référence ont réduit leurs gains par rapport aux plus hauts de la journée et ont terminé près des plus bas de la journée dans un contexte de volatilité accrue au début de la nouvelle série. Incertitude mondiale persistante et pic intrajournalier du Brent…",
+      "summary": "Sensex aujourd'hui | Astucieux 50 | Mises à jour en direct du marché boursier : Sensex chute de plus de 100 pts, Nifty en dessous de 22 550 ; les actions automobiles entraînent des pertes. Les indices de référence ont réduit leurs gains par rapport aux plus hauts de la journée et ont terminé près des plus bas de la journée dans un contexte de volatilité accrue au début de la nouvelle série. Incertitude mondiale persistante et pic intrajournalier du Brent…",
       "sources": [
         "The Economic Times — fiabilité 6/10"
       ],
       "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-infosys-hdfc-bank-share-price-01-october-2026/liveblog/134606042.cms",
-      "published_at": "2026-10-01T00:24:00+02:00",
+      "published_at": "2026-10-01T01:26:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -42718,7 +42719,7 @@
         "RNZ (média public) — fiabilité 8/10"
       ],
       "url": "https://www.rnz.co.nz/news/regions/1673512/world-war-i-medals-of-far-north-soldier-uncovered-in-christchurch",
-      "published_at": "2026-10-01T01:28:00+02:00",
+      "published_at": "2026-10-01T01:39:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": []
@@ -42884,6 +42885,83 @@
       "url": "https://allafrica.com/stories/202610010060.html",
       "published_at": "2026-10-01T08:00:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Pakistan lance des frappes aériennes meurtrières sur l'Afghanistan. Le Pakistan a mené de nouvelles frappes aériennes sur l'Afghanistan, tuant neuf civils et en blessant 11 autres, a déclaré le gouvernement taliban. Le ministère de l'Information d'Islamabad a confirmé les frappes, qu'il…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/cw4grg92lmr5o",
+      "published_at": "2026-10-01T01:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Afghanistan",
+        "Pakistan"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Infineon ouvre une usine thaïlandaise d'une valeur de 1,4 milliard de dollars alors que le pays accélère ses efforts dans le domaine des semi-conducteurs. BANGKOK, 1er octobre (Reuters) - Le fabricant allemand de puces Infineon Technologies a ouvert jeudi une nouvelle usine en Thaïlande, alors que la deuxième économie d'Asie du Sud-Est s'efforce d'attirer des investissements dans le…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-ca/money/general/infineon-opens-1-4-billion-thailand-plant-as-country-ramps-up-semiconductor-push/ar-AA2djIDp",
+      "published_at": "2026-10-01T01:06:40+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Thaïlande",
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Ampol va acquérir un réseau de recharge pour véhicules électriques dans le cadre d'un accord de 225 millions de dollars. Le patron de l’entreprise a déclaré que cet achat intervient alors que de plus en plus d’Australiens se tournent vers les véhicules électriques.",
+      "sources": [
+        "nine.com.au via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/motoring/general/ampol-to-acquire-ev-charging-network-in-255m-deal/ar-AA2djS04",
+      "published_at": "2026-10-01T00:45:01+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Amazon prend des mesures car sa tentative de réduire les factures pourrait se terminer par un choc ou un incendie. Les dispositifs frauduleux d'économie d'énergie qui promettent de réduire les factures pourraient en revanche entraîner des chocs électriques et des incendies, dont deux explosant lors des tests, ont averti les militants de la sécurité. Sécurité électrique Première découverte…",
+      "sources": [
+        "Surrey Live — fiabilité 6/10"
+      ],
+      "url": "https://www.getsurrey.co.uk/news/cost-of-living/amazon-takes-action-bid-cut-34698405",
+      "published_at": "2026-10-01T01:36:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
