@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T17:44:05.104098+02:00",
+  "generated_at": "2026-10-01T17:54:18.266951+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -49014,6 +49014,84 @@
       "published_at": "2026-10-01T03:56:52+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L'Europe donne son feu vert aux centres d'expulsion pour étrangers dans les pays tiers avec le « non » de l'Espagne. Le règlement oblige les étrangers en situation irrégulière à coopérer avec les autorités car sinon ils pourraient s'exposer à des sanctions économiques ou pénales si la loi nationale le permet, et même être …",
+      "sources": [
+        "La Voz de Lanzarote — fiabilité 6/10"
+      ],
+      "url": "https://www.lavozdelanzarote.com/en/news/people/europe-gives-green-light-to-deportation-centers-for-foreigners-in-third-countries-with-spain-no_246389_102.html",
+      "published_at": "2026-10-01T09:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) envisage de freiner les exportations de diesel alors que les prix américains grimpent à 6,3 dollars le gallon. Avec des prix du diesel proches de 6,50 dollars le gallon, des rapports suggèrent que l’administration Trump pourrait prendre des mesures drastiques pour faire baisser les prix, comme une interdiction de 90 jours sur les exportations de diesel. Selon AAA, le…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-eyes-diesel-export-curbs-151822281.html",
+      "published_at": "2026-10-01T10:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Op-Ed : La solution abordable bien en vue. Alors que les membres du Congrès retournent dans leurs districts et dans leurs États pour faire campagne sur la manière de rendre la vie plus abordable, ils devraient s'intéresser à une ressource juste sous leurs pieds : toutes les terres que le gouvernement fédéral …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/op-ed-affordability-solution-sitting-145700823.html",
+      "published_at": "2026-10-01T09:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les législateurs démocrates demandent une enquête sur les publicités du gouvernement américain mettant en vedette Trump. Deux législateurs démocrates ont demandé jeudi l'ouverture d'enquêtes indépendantes sur des publicités télévisées financées par les contribuables mettant en vedette le président Donald Trump (États-Unis) qui…",
+      "sources": [
+        "AOL — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.com/articles/democratic-lawmakers-seek-probe-us-084800000.html",
+      "published_at": "2026-10-01T03:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
