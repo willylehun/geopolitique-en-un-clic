@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:21:05.320092+02:00",
+  "generated_at": "2026-10-01T16:31:21.987404+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -47196,8 +47196,8 @@
     },
     {
       "regions": [
-        "International",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -47776,8 +47776,8 @@
         "Afrique"
       ],
       "countries": [
-        "Éthiopie",
-        "Kenya"
+        "Kenya",
+        "Éthiopie"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -47901,8 +47901,8 @@
         "Afrique"
       ],
       "countries": [
-        "Sénégal",
-        "Maroc"
+        "Maroc",
+        "Sénégal"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -47914,6 +47914,183 @@
       ],
       "url": "https://senego.com/partenariat-economique-maroc-senegal-le-droit-ohada-et-le-contenu-local-au-coeur-des-echanges_2007739.html",
       "published_at": "2026-10-01T05:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le pétrole augmente alors que les problèmes d’approvisionnement persistent malgré le retour des exportations de brut du Moyen-Orient aux niveaux d’avant-guerre. Les contrats de référence ont d'abord baissé avant de rebondir alors que les risques liés au transport maritime régional et au conflit américano-iranien continuent de peser.",
+      "sources": [
+        "The Wall Street Journal — fiabilité 8/10"
+      ],
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-as-supply-concerns-persist-despite-middle-east-crude-exports-recovering-to-prewar-levels-067a47d8",
+      "published_at": "2026-10-01T09:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Cour suprême doit déterminer si une action en justice peut être intentée pour tenir les sociétés énergétiques responsables du changement climatique. Lorsque les juges reviendront dans la salle d'audience lundi après leurs vacances d'été, ils entendront les débats dans l'une des affaires les plus importantes actuellement inscrites au rôle de la Cour suprême - et certainement l'une des …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/us/articles/supreme-court-consider-whether-suit-133000098.html",
+      "published_at": "2026-10-01T08:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Guerre en Ukraine : Kiev et Bruxelles affirment avoir trouvé des solutions pour le budget 2026 du pays en conflit. L'Union européenne et l’Ukraine annoncent avoir identifié les moyens de couvrir les besoins financiers et de défense de Kiev pour l’année 2026 …",
+      "sources": [
+        "Sud Ouest — fiabilité 6/10"
+      ],
+      "url": "https://www.sudouest.fr/international/europe/ukraine/volodymyr-zelensky/guerre-en-ukraine-kiev-et-bruxelles-affirment-avoir-trouve-des-solutions-pour-le-budget-2026-du-pays-en-conflit-30870732.php",
+      "published_at": "2026-10-01T09:21:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Taux d’intérêt à zéro, inflation au plancher : l’exception mondiale Suisse. DÉCRYPTAGE - La banque centrale helvétique a maintenu ses taux d’intérêt à 0 %, à rebours d’un mouvement généralisé de hausse. La BCE, la Fed ou la Banque d’Angleterre affichent des taux de court term …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/conjoncture/taux-d-interet-a-zero-inflation-au-plancher-l-exception-mondiale-suisse-20261001",
+      "published_at": "2026-10-01T08:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Blocage des lycées en France : le gouvernement estime que le mouvement a basculé vers des « violences urbaines ». Le mouvement de blocus des lycées en France a basculé vers des « violences urbaines », a affirmé jeudi le gouvernement français, qui s’appuie sur les services de renseignement pour évoquer une …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/011026/blocage-des-lycees-en-france-le-gouvernement-estime-que-le-mouvement-bascule-vers-des-violences-u",
+      "published_at": "2026-10-01T09:05:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Roumanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Roumanie : toujours pas de Premier ministre. Pour Clarice Dinu, rédactrice en chef du site Hotnews, le PSD et l'AUR sont déjà sur la voie du pouvoir : «Même si le gouvernement de Siegfried Mureșan était confirmé, ce ne sont pas le PNL, l'USR et …",
+      "sources": [
+        "eurotopics — fiabilité 6/10"
+      ],
+      "url": "https://www.eurotopics.net/fr/364908/roumanie-toujours-pas-de-premier-ministre",
+      "published_at": "2026-10-01T01:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Finlande"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Finlande : Après des « intrusions » aux domiciles de plusieurs députés, une ingérence étrangère pas écartée. Après un nombre « significatif » d'intrusions suspectées chez des députés en Finlande, le Premier ministre n'exclue pas une piste étrangère dans cette affaire …",
+      "sources": [
+        "20 Minutes — fiabilité 6/10"
+      ],
+      "url": "https://www.20minutes.fr/monde/ukraine/4250447-20261001-finlande-apres-intrusions-domiciles-plusieurs-deputes-ingerence-etrangere-ecartee",
+      "published_at": "2026-10-01T08:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Finlande"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Finlande enquête sur des signes d’intrusions aux domiciles de députés. Les autorités finlandaises ont annoncé jeudi enquêter sur un nombre « significatif » de signes d’intrusions aux domiciles de députés, le Premier ministre n’excluant pas une piste étrangère dans …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/011026/la-finlande-enquete-sur-des-signes-d-intrusions-aux-domiciles-de-deputes",
+      "published_at": "2026-10-01T08:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Dette : \"la signature de la France est solide\" sur les marchés, assure le ministre de l’Économie. Alors que les taux d’intérêt auxquels le pays emprunte sur le marché obligataire ont atteint des records, le ministre français de l’Économie, Roland Lescure, a déclaré que \"le papier français se vend …",
+      "sources": [
+        "La Provence — fiabilité 6/10"
+      ],
+      "url": "https://www.laprovence.com/article/economie/8138398800739914/dette-la-signature-de-la-france-est-solide-sur-les-marches-assure-le-ministre-de-l-economie",
+      "published_at": "2026-10-01T06:32:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
