@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T03:11:47.231168+02:00",
+  "generated_at": "2026-10-01T03:21:59.773613+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -41970,6 +41970,50 @@
       ],
       "url": "https://www.acadiananewsfirst.com/2026/09/30/made-acadiana-metal-shark-set-build-13-patrol-boats-vietnam/",
       "published_at": "2026-10-01T02:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Nigeria @ 66 : David Mark appelle à l'unité, à la justice, à l'équité et à l'inclusion. L'ancien président du Sénat et président national du Congrès démocratique africain (ADC), le sénateur David Mark, a félicité les Nigérians.",
+      "sources": [
+        "tribuneonlineng.com — fiabilité 6/10"
+      ],
+      "url": "https://tribuneonlineng.com/nigeria66-david-mark-calls-for-unity-justice-equity-inclusion/",
+      "published_at": "2026-10-01T03:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Iran",
+        "Royaume-Uni",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Burnham voit l’Iran impliqué dans un incident sur une base militaire. Le Premier ministre Andy Burnham a confirmé les preuves d'un lien possible avec l'Iran suite à l'arrestation de cinq hommes accusés de terrorisme près d'une base aérienne américaine en Grande-Bretagne. \"Il y a de fortes indications que l'Iran a été impliqué dans les événements du week-end à la RAF Fairford\", a déclaré le dirigeant britannique à la BBC. Cependant, cela « reste une enquête policière en cours, complexe et sérieuse ».",
+      "sources": [
+        "news.at — fiabilité 6/10"
+      ],
+      "url": "https://www.news.at/politik/burnham-sieht-iran-beteiligung-bei-vorfall-an-militarbasis",
+      "published_at": "2026-10-01T03:00:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
