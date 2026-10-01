@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:33:54.835931+02:00",
+  "generated_at": "2026-10-01T11:44:07.560582+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -44346,7 +44346,8 @@
       "url": "https://www.msn.com/en-au/news/australia/cabinet-at-war-over-burnham-plot-to-rejoin-the-eu/ar-AA2dkFee",
       "published_at": "2026-10-01T03:25:46+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -44489,7 +44490,8 @@
       "url": "https://www.hindustantimes.com/genesis/from-diplomacy-to-dealmaking-a-new-route-for-russia-india-trade-101790844861571.html",
       "published_at": "2026-10-01T03:56:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -44513,6 +44515,43 @@
         "Iran",
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Pourquoi les enfants pris en charge par le gouvernement sont confrontés à un risque plus élevé d'exploitation sexuelle. Les jeunes pris en charge par le gouvernement peuvent être des cibles privilégiées d'exploitation sexuelle, comme le démontrent des affaires récentes portées devant les tribunaux de la Nouvelle-Écosse. Selon un procureur principal de la Couronne, les prédateurs sexuels…",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/canada/nova-scotia/children-government-care-higher-risk-sexual-exploitation-9.7358302",
+      "published_at": "2026-10-01T04:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Indiana prolonge le congé de la taxe sur l'essence, l'Ohio (États-Unis) va réduire les taxes sur l'essence à partir de ce week-end, le Sénat du Michigan pourrait voter sur la proposition aujourd'hui. INDIANAPOLIS, IN (WTVB) - Dans un contexte de perturbations croissantes de l'approvisionnement mondial en pétrole et de prix toujours élevés à la pompe…",
+      "sources": [
+        "wtvbam.com — fiabilité 6/10"
+      ],
+      "url": "https://wtvbam.com/2026/10/01/indiana-extends-gas-tax-holiday-ohio-to-cut-gas-taxes-beginning-this-weekend/",
+      "published_at": "2026-10-01T11:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
