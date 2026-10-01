@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:58:32.895453+02:00",
+  "generated_at": "2026-10-01T08:08:48.767474+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42646,6 +42646,100 @@
       ],
       "url": "https://www.hellenicshippingnews.com/oceania-bunkering-to-launch-sts-bunkering-at-mozambiques-beira-anchorage/",
       "published_at": "2026-10-01T00:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des agents d'IA ont tenté de pirater le site Web du gouvernement canadien : rapport. Le Centre canadien pour la cybersécurité a déclaré mardi dans un communiqué qu'il était au courant de rapports faisant état d'activités suspectées d'agents d'IA.",
+      "sources": [
+        "NDTV — fiabilité 6/10"
+      ],
+      "url": "https://www.ndtv.com/world-news/ai-agents-tried-to-hack-canadian-government-website-report-12123575",
+      "published_at": "2026-10-01T00:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "La Californie et six autres États poursuivent l’administration du président Donald Trump (États-Unis) pour des fonds fédéraux. La Californie et six autres États ont intenté mercredi une action en justice contre l'administration Trump, l'accusant de retenir les fonds fédéraux approuvés par le Congrès, dont environ 810 millions de dollars du budget blanc.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/legal/government/california-six-other-states-sue-trump-administration-over-federal-funds-2026-10-01/",
+      "published_at": "2026-10-01T00:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les avantages donnent à Warhammer Tone Pro une apparence magique… mais que se passe-t-il lorsque Dave l'utilise ? #marteau de guerre. Les baby-boomers refusent de prendre leur retraite : « Si j'arrête de bouger, je pourrais mourir » : voici pourquoi c'est un problème. Un trafic de drogue stupéfiant découvert dans un grand aéroport après une tentative bizarre de cacher des preuves Documentaire choquant…",
+      "sources": [
+        "YouTube via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/pros-make-warhammer-tone-pro-look-like-magic-but-what-happens-when-dave-uses-it-warhammer/vi-AA2djFsA",
+      "published_at": "2026-10-01T00:32:27+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 10,
+      "category": "Géopolitique",
+      "summary": "Médailles de la Première Guerre mondiale d'un soldat de l'Extrême-Nord découvertes à Christchurch.",
+      "sources": [
+        "RNZ (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.rnz.co.nz/news/regions/1673512/world-war-i-medals-of-far-north-soldier-uncovered-in-christchurch",
+      "published_at": "2026-10-01T01:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Afghanistan",
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Afghanistan: neufs personnes tuées dans des frappes pakistanaises. Le gouvernement taliban affirme que des frappes pakistanaises ont tué neuf civils en Afghanistan dans la nuit de mercredi à jeudi. Le Pakistan confirme des frappes planifiées et dit avoir visé des cam …",
+      "sources": [
+        "L'Echo — fiabilité 6/10"
+      ],
+      "url": "https://www.lecho.be/economie-politique/international/asie/afghanistan-neufs-personnes-tuees-dans-des-frappes-pakistanaises/10688130.html",
+      "published_at": "2026-10-01T00:57:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
