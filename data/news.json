@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T05:55:40.011322+02:00",
+  "generated_at": "2026-10-01T06:05:53.601070+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42362,6 +42362,28 @@
       ],
       "url": "https://www.freitag.de/autoren/der-freitag/die-linke-und-der-antisemitismus-so-gibt-es-in-berlin-kein-happy-end-fuer-uns",
       "published_at": "2026-10-01T05:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Abbas Araghchi : L’Iran n’est pas impliqué dans l’attaque terroriste contre la RAF Fairford. Le Premier ministre britannique Andy Burnham est « sur la mauvaise voie » avec son évaluation, a écrit Araghtschi sur la plateforme X.",
+      "sources": [
+        "watson.ch — fiabilité 6/10"
+      ],
+      "url": "https://www.watson.ch/international/armee/545827539-abbas-araghchi-iran-nicht-an-terroanschlag-auf-raf-fairford-beteiligt",
+      "published_at": "2026-10-01T05:45:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
