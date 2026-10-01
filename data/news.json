@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T05:24:57.760765+02:00",
+  "generated_at": "2026-10-01T05:35:10.291279+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -41727,10 +41727,11 @@
         "milfordmercury.co.uk — fiabilité 6/10",
         "gazette-news.co.uk — fiabilité 6/10",
         "eveshamjournal.co.uk — fiabilité 6/10",
-        "dailyecho.co.uk — fiabilité 6/10"
+        "dailyecho.co.uk — fiabilité 6/10",
+        "countypress.co.uk — fiabilité 6/10"
       ],
       "url": "https://www.lancashiretelegraph.co.uk/news/national/26596132.strong-indications-iran-played-role-suspected-fairford-terror-plot-pm-says/",
-      "published_at": "2026-10-01T04:45:00+02:00",
+      "published_at": "2026-10-01T05:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -42299,6 +42300,68 @@
       ],
       "url": "https://www.actuniger.com/international/22411-maroc-nommee-par-le-roi-mohammed-vi-fatima-zahra-el-mansouri-devient-la-premiere-femme-premiere-ministre-du-royaume",
       "published_at": "2026-10-01T04:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Ukraine - La guerre en direct : +++ 04 : 51le chancelier Friedrich Merz (Allemagne) rencontre Rutte - et prononce un discours d'ouverture sur l'OTAN +++. Berlin, Washington, Bruxelles – partout. Ntv rend compte de tous les lieux importants de politique intérieure et étrangère.",
+      "sources": [
+        "n-tv.de — fiabilité 6/10"
+      ],
+      "url": "https://www.n-tv.de/politik/04-51-Merz-trifft-Rutte-und-haelt-Grundsatzrede-zur-Nato-id30859357.html",
+      "published_at": "2026-10-01T05:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Chercheurs : des agents d'IA ont échoué dans une tentative de piratage de l'autorité au Canada. Des agents d'IA ont mené des « tentatives de piratage infructueuses » sur le site Web du gouvernement canadien, estiment les chercheurs.",
+      "sources": [
+        "bt.dk — fiabilité 6/10"
+      ],
+      "url": "https://www.bt.dk/udland/forskere-ai-agenter-fejlede-ved-hackingforsoeg-paa-myndighed-i-canada",
+      "published_at": "2026-10-01T05:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La gauche et l’antisémitisme : il n’y a pas de fin heureuse pour nous à Berlin (Allemagne). Notre auteur souhaite une alliance gouvernementale de gauche à Berlin. Mais il doute que cela rende également justice aux citoyens juifs comme lui. La gauche ne semble pas prête à véritablement affronter l’antisémitisme au sein de son propre parti",
+      "sources": [
+        "freitag.de — fiabilité 6/10"
+      ],
+      "url": "https://www.freitag.de/autoren/der-freitag/die-linke-und-der-antisemitismus-so-gibt-es-in-berlin-kein-happy-end-fuer-uns",
+      "published_at": "2026-10-01T05:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
