@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:29:42.794485+02:00",
+  "generated_at": "2026-10-01T15:40:02.896631+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -47191,6 +47191,203 @@
       "url": "http://www.wdtimes.com/news/world/a-russian-drone-hits-a-kyiv-school-as-moscow-presses-its-aerial-campaign-against-ukraine/article_48422b83-2630-5dc2-bff7-05ddd849b475.html",
       "published_at": "2026-10-01T15:00:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Contrôles, sanctions, sensibilisation… Le nouveau plan de la Ville d’Angers pour endiguer les infractions routières. [Courrier de l'Ouest] La Ville d’Angers se dote d’un plan d’actions pour lutter contre l’insécurité routière. Avec de la pédagogie et de la communication, mais aussi des contrôles et des sanctions.",
+      "sources": [
+        "Ouest-France — fiabilité 6/10"
+      ],
+      "url": "https://www.ouest-france.fr/societe/securite-routiere/controles-sanctions-sensibilisation-le-nouveau-plan-de-la-ville-dangers-pour-endiguer-les-infractions-routieres-960ddf7e-bcd0-11f1-8ea4-97dc4d7cca62",
+      "published_at": "2026-10-01T08:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le Royaume-Uni étend les sanctions contre la Russie avec 31 nouvelles mesures : voici pourquoi. Jeudi, le gouvernement britannique a annoncé 31 nouvelles sanctions contre la Russie en raison de sa guerre en Ukraine, ces mesures d'escalade visant à accroître la pression sur les individus …",
+      "sources": [
+        "The News International — fiabilité 6/10"
+      ],
+      "url": "https://www.thenews.com.pk/latest/1418352-uk-expands-russia-sanctions-with-31-new-measures-heres-why",
+      "published_at": "2026-10-01T07:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni",
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le secrétaire à la Défense Pete Hegseth (États-Unis) annonce la création de l'Autonomous Warfare Command. Le secrétaire américain à la Défense, Pete Hegseth, a annoncé la création d’un « Commandement de guerre autonome (Autowarcom) » pour diriger l’utilisation par l’armée d’armes sans pilote. Hegseth crée le nouveau commandement à un…",
+      "sources": [
+        "Financial Times — fiabilité 8/10"
+      ],
+      "url": "https://www.ft.com/content/04fcaf7d-09f3-4cc9-9261-02adf8c13756?syn-25a6b1a6=1",
+      "published_at": "2026-10-01T08:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le DOJ du président Donald Trump (États-Unis) prend une mesure extraordinaire en demandant au tribunal d’annuler sa propre victoire. Le ministère de la Justice de l'administration Trump a demandé à une cour d'appel fédérale d'annuler la victoire judiciaire remportée par le gouvernement contre la Floride concernant la manière dont les enfants atteints de …",
+      "sources": [
+        "AlterNet via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/news/other/trump-doj-takes-extraordinary-step-of-asking-court-to-undo-its-own-victory/ar-AA2dm4UJ",
+      "published_at": "2026-10-01T07:45:23+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le groupe Nebius acquiert Inferize. Nebius Group (NBIS) a annoncé jeudi avoir acquis la startup technologique d'infrastructure d'intelligence artificielle Inferize, qui possède une technologie exclusive conçue pour raccourcir le temps…",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/technology/ai/articles/nebius-group-acquires-inferize-114045884.html",
+      "published_at": "2026-10-01T07:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Euro : les perspectives s’affaiblissent à mesure que les risques augmentent – Rabobank. L'étude RaboResearch Global Economics & Markets de Rabobank discute de la dynamique EUR/USD depuis la guerre en Iran, soulignant à quel point les attentes changeantes concernant la politique de la Réserve fédérale et la sous-performance de l'euro ont …",
+      "sources": [
+        "FXStreet — fiabilité 6/10"
+      ],
+      "url": "https://www.fxstreet.com/news/euro-outlook-weakens-as-risks-build-rabobank-202610011321",
+      "published_at": "2026-10-01T08:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Technologie",
+      "summary": "M2i Global et Regenerate Technology Global étendent leur partenariat pour inclure le recyclage mondial des batteries et l'intelligence des données pour l'industrie des minéraux critiques. M2i Global, Inc. (OTCQB : MTWO), une société spécialisée dans le développement et l'exécution d'une chaîne d'approvisionnement mondiale complète pour les minéraux critiques, a annoncé l'expansion de son partenariat avec…",
+      "sources": [
+        "The Manila Times — fiabilité 6/10"
+      ],
+      "url": "https://www.manilatimes.net/2026/10/01/tmt-newswire/globenewswire/m2i-global-and-regenerate-technology-global-expand-partnership-to-include-global-battery-recycling-and-data-intelligence-for-the-critical-minerals-industry/2437189",
+      "published_at": "2026-10-01T08:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Belgique"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Emploi en Belgique : le nombre de travailleurs de plus de 65 ans bondit de 52 % en deux ans. Le marché du travail belge marque le pas, mais une catégorie de travailleurs continue de progresser nettement. Le nombre de personnes âgées de 65 ans et plus encore en activité a augmenté de plus de m …",
+      "sources": [
+        "Econostrum via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-be/finance/ressources-humaines/emploi-en-belgique-le-nombre-de-travailleurs-de-plus-de-65-ans-bondit-de-52-en-deux-ans/ar-AA2dkBCs",
+      "published_at": "2026-10-01T05:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Finlande"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Finlande Intrusions répétées chez des élus, le Premier ministre Petteri Orpo n'écarte pas une piste étrangère. Le Premier ministre finlandais Petteri Orpo n'a pas écarté jeudi la possibilité qu'une puissance étrangère soit derrière les intrusions aux domiciles de plusieurs élus du Parlement.",
+      "sources": [
+        "Le Dauphiné Libéré — fiabilité 6/10"
+      ],
+      "url": "https://www.ledauphine.com/politique/2026/10/01/intrusions-repetees-chez-des-elus-le-premier-ministre-petteri-orpo-n-ecarte-pas-une-piste-etrangere",
+      "published_at": "2026-10-01T07:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Finlande"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Finlande : le Premier ministre n'écarte pas une piste étrangère après des intrusions chez des élus. Budget 2027 : un effort \"important\" est nécessaire pour \"reprendre le contrôle de la dette\", selon le Haut Conseil des finances publiques …",
+      "sources": [
+        "Ici Beyrouth — fiabilité 6/10"
+      ],
+      "url": "https://icibeyrouth.com/dernieres-nouvelles/130030/finlande--le-premier-ministre-n-ecarte-pas-une-piste-etrangere-apres-des-intrusions-chez-des-elus",
+      "published_at": "2026-10-01T07:10:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
