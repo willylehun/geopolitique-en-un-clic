@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T04:54:10.705363+02:00",
+  "generated_at": "2026-10-01T05:04:28.716785+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -122,8 +122,8 @@
         "Reuters"
       ],
       "countries": [
-        "Chine",
         "Japon",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -6412,8 +6412,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6428,8 +6428,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "France",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "France"
       ]
     },
     {
@@ -8522,8 +8522,8 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Népal",
+        "Chine",
         "Inde"
       ]
     },
@@ -9190,8 +9190,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -9205,8 +9205,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Turquie",
-        "Russie"
+        "Russie",
+        "Turquie"
       ]
     },
     {
@@ -12148,8 +12148,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -12164,8 +12164,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Turquie",
-        "Russie"
+        "Russie",
+        "Turquie"
       ]
     },
     {
@@ -13375,8 +13375,8 @@
       "published_at": "2026-09-27T13:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "France",
-        "Pologne"
+        "Pologne",
+        "France"
       ]
     },
     {
@@ -14016,8 +14016,8 @@
       "published_at": "2026-09-27T13:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "France",
-        "Allemagne"
+        "Allemagne",
+        "France"
       ]
     },
     {
@@ -21810,8 +21810,8 @@
       "published_at": "2026-09-27T22:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Japon",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -23450,13 +23450,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "France",
-        "Liban"
+        "Liban",
+        "France"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -23477,8 +23477,8 @@
         "International"
       ],
       "countries": [
-        "Malaisie",
-        "Birmanie"
+        "Birmanie",
+        "Malaisie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -23499,9 +23499,9 @@
         "Europe"
       ],
       "countries": [
-        "Malaisie",
         "Thaïlande",
         "Cambodge",
+        "Malaisie",
         "Vietnam"
       ],
       "period": "day",
@@ -23540,14 +23540,14 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "countries": [
-        "Maroc",
         "Qatar",
         "Arabie saoudite",
         "Israël",
+        "Maroc",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -25879,8 +25879,8 @@
         "International"
       ],
       "countries": [
-        "France",
         "Pologne",
+        "France",
         "Ukraine"
       ],
       "period": "day",
@@ -27715,9 +27715,9 @@
         "International"
       ],
       "countries": [
-        "France",
         "Vatican",
-        "Allemagne"
+        "Allemagne",
+        "France"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28559,13 +28559,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "France",
         "Cambodge",
+        "France",
         "Vietnam"
       ],
       "period": "day",
@@ -28665,12 +28665,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Chine",
         "Allemagne",
+        "Chine",
         "Espagne"
       ],
       "period": "day",
@@ -30060,8 +30060,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "France",
-        "Italie"
+        "Italie",
+        "France"
       ]
     },
     {
@@ -31909,8 +31909,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "France",
-        "Italie"
+        "Italie",
+        "France"
       ]
     },
     {
@@ -32043,8 +32043,8 @@
       "content_enriched": true,
       "countries": [
         "Bahreïn",
-        "Malaisie",
-        "Iran"
+        "Iran",
+        "Malaisie"
       ]
     },
     {
@@ -33630,8 +33630,8 @@
         "International"
       ],
       "countries": [
-        "Malaisie",
-        "Qatar"
+        "Qatar",
+        "Malaisie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33742,8 +33742,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
         "Corée du Sud",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -33921,8 +33921,8 @@
         "International"
       ],
       "countries": [
-        "France",
-        "Espagne"
+        "Espagne",
+        "France"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33960,8 +33960,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "Amérique du Nord",
         "International"
       ],
@@ -33978,8 +33978,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "France",
         "Irak",
+        "France",
         "États-Unis"
       ]
     },
@@ -34768,12 +34768,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Afrique"
+        "Afrique",
+        "Europe"
       ],
       "countries": [
-        "France",
-        "Guinée équatoriale"
+        "Guinée équatoriale",
+        "France"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -35211,8 +35211,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "France",
         "Espagne",
+        "France",
         "Iran",
         "États-Unis"
       ]
@@ -36099,8 +36099,8 @@
         "International"
       ],
       "countries": [
-        "France",
-        "Espagne"
+        "Espagne",
+        "France"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38280,8 +38280,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Sud",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -38298,8 +38298,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
         "Uruguay",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -38821,8 +38821,8 @@
         "International"
       ],
       "countries": [
-        "France",
-        "Espagne"
+        "Espagne",
+        "France"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -41726,10 +41726,11 @@
         "irvinetimes.com — fiabilité 6/10",
         "milfordmercury.co.uk — fiabilité 6/10",
         "gazette-news.co.uk — fiabilité 6/10",
-        "eveshamjournal.co.uk — fiabilité 6/10"
+        "eveshamjournal.co.uk — fiabilité 6/10",
+        "dailyecho.co.uk — fiabilité 6/10"
       ],
       "url": "https://www.lancashiretelegraph.co.uk/news/national/26596132.strong-indications-iran-played-role-suspected-fairford-terror-plot-pm-says/",
-      "published_at": "2026-10-01T04:30:00+02:00",
+      "published_at": "2026-10-01T04:45:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -42078,10 +42079,11 @@
       "category": "Géopolitique",
       "summary": "Iran : \"La libération de terroristes présumés en dit long. Après l'incident survenu sur une base militaire américaine en Grande-Bretagne, le Premier ministre Andy Burnham confirme un possible lien avec un acteur étranger. Le ministre iranien des Affaires étrangères le considère comme \"sur une mauvaise voie\".",
       "sources": [
-        "schwaebische.de — fiabilité 6/10"
+        "schwaebische.de — fiabilité 6/10",
+        "az-online.de — fiabilité 6/10"
       ],
       "url": "https://www.schwaebische.de/politik/iran-freilassung-vermeintlicher-terroristen-spricht-baende-4905112",
-      "published_at": "2026-10-01T03:15:00+02:00",
+      "published_at": "2026-10-01T04:45:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -42259,11 +42261,11 @@
         "Amérique du Nord"
       ],
       "countries": [
+        "Afghanistan",
         "Chine",
         "Malaisie",
-        "Turquie",
-        "Afghanistan",
         "Pakistan",
+        "Turquie",
         "Vietnam",
         "États-Unis"
       ],
