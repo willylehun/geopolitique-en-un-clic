@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:18:11.918109+02:00",
+  "generated_at": "2026-10-01T20:28:26.949646+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -51235,7 +51235,7 @@
         "NHK (média public) — fiabilité 8/10"
       ],
       "url": "https://www3.nhk.or.jp/nhkworld/news/20261002de53767/",
-      "published_at": "2026-10-01T13:18:00+02:00",
+      "published_at": "2026-10-01T13:27:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -51404,6 +51404,26 @@
       "published_at": "2026-10-01T01:53:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Kataib Sayyid al-Shuhada soutient la promesse d'armes du Premier ministre. Shuhada, une faction armée irakienne alignée sur l'Iran, a déclaré jeudi son attachement à un accord conclu entre les parties impliquées et au gouvernement souverain du Premier ministre Ali Faleh al-Zaidi.",
+      "sources": [
+        "Shafaq News — fiabilité 6/10"
+      ],
+      "url": "https://shafaq.com/en/Security/Kataib-Sayyid-al-Shuhada-backs-PM-s-weapons-pledge",
+      "published_at": "2026-10-01T12:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
     },
     {
       "regions": [
