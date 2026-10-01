@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T04:43:58.240555+02:00",
+  "generated_at": "2026-10-01T04:54:10.705363+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -41725,10 +41725,11 @@
         "lancashiretelegraph.co.uk — fiabilité 6/10",
         "irvinetimes.com — fiabilité 6/10",
         "milfordmercury.co.uk — fiabilité 6/10",
-        "gazette-news.co.uk — fiabilité 6/10"
+        "gazette-news.co.uk — fiabilité 6/10",
+        "eveshamjournal.co.uk — fiabilité 6/10"
       ],
       "url": "https://www.lancashiretelegraph.co.uk/news/national/26596132.strong-indications-iran-played-role-suspected-fairford-terror-plot-pm-says/",
-      "published_at": "2026-10-01T04:00:00+02:00",
+      "published_at": "2026-10-01T04:30:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -42167,6 +42168,136 @@
       "url": "https://punchng.com/three-vigilantes-feared-killed-in-kebbi-niger-border-attack/",
       "published_at": "2026-10-01T03:30:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Guinée"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "ActuNiger | Guinée : décès à Paris de lancien Premier ministre Sidya Touré, figure politique du pays. L'ancien Premier ministre guinéen Sidya Touré, président de l'Union des forces républicaines (UFR), est décédé à Paris, selon une annonce publiée tard dans l",
+      "sources": [
+        "actuniger.com — fiabilité 6/10"
+      ],
+      "url": "https://www.actuniger.com/international/22394-guinee-deces-a-paris-de-lancien-premier-ministre-sidya-toure-figure-politique-du-pays",
+      "published_at": "2026-10-01T04:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Comment le Vermont pourrait légaliser son chemin vers le Canada : The Canadian Business Daily. Le Canadien est le journal national à but non lucratif du Canada, socialement progressiste, qui présente des nouvelles nationales et internationales. BURLINGTON, VERMONT -- Techniquement, il est très difficile pour un État américain de rechercher l'indépendance ou de rejoindre le Canada. L'acte d'une tentative d'État Lire la suite…",
+      "sources": [
+        "agoracosmopolitan.com — fiabilité 6/10"
+      ],
+      "url": "https://www.agoracosmopolitan.com/news/editorial/2026/09/30/15135-how-vermont-could-legalize-its-path-to-canada.html",
+      "published_at": "2026-10-01T04:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Pourquoi le Vermont devrait déjà rejoindre le Canada : The Canadian Business Daily. Le Canadien est le journal national à but non lucratif du Canada, socialement progressiste, qui présente des nouvelles nationales et internationales. Les États-Unis sont enfermés dans un état d’épuisement politique perpétuel, une réalité à laquelle les citoyens d’un océan à l’autre sont confrontés quotidiennement. Mais pour un Lire la suite…",
+      "sources": [
+        "agoracosmopolitan.com — fiabilité 6/10"
+      ],
+      "url": "https://www.agoracosmopolitan.com/news/editorial/2026/10/01/15133-why-vermont-should-join-canada-already.html",
+      "published_at": "2026-10-01T04:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Bon retour : le président Emmanuel Macron (France) a salué le désir de la Grande-Bretagne de rejoindre l'UE. Le Premier ministre britannique Andy Burnham n'a pas exclu la possibilité d'un retour du pays dans l'Union européenne, relançant ainsi le débat sur le Brexit.",
+      "sources": [
+        "astroawani.com — fiabilité 6/10"
+      ],
+      "url": "https://www.astroawani.com/berita-dunia/welcome-back-macron-sambut-hasrat-britain-kembali-sertai-eu",
+      "published_at": "2026-10-01T04:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Chine",
+        "Malaisie",
+        "Turquie",
+        "Afghanistan",
+        "Pakistan",
+        "Vietnam",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les vols iraniens vers la Turquie et l'Asie de l'Est se poursuivent malgré les États-Unis. S.- A mené des restrictions aériennes, selon Téhéran – NaturalNews. Com. Les vols commerciaux iraniens vers la Turquie, la Chine, la Malaisie, le Vietnam, l'Afghanistan et le Pakistan continuent de fonctionner malgré une campagne de restrictions aériennes menée par les États-Unis ciblant le pays, a déclaré le directeur général du principal aéroport international de Téhéran le 26 septembre 2026. Ramin Kashef-Azar, PDG de la société exploitant l'aéroport international Imam Khomeini, a déclaré à l'agence de presse Tasnim que […]",
+      "sources": [
+        "naturalnews.com — fiabilité 6/10"
+      ],
+      "url": "https://www.naturalnews.com/2026-09-30-iranian-flights-turkiye-east-asia-continue-air-restrictions.html",
+      "published_at": "2026-10-01T04:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "ActuNiger | Maroc : nommée par le Roi Mohammed VI, Fatima Zahra El Mansouri devient la première femme Première ministre du Royaume. Le Roi Mohammed VI du Maroc a nommé, mardi 29 septembre par décret royal, Fatima Zahra El Mansouri, Cheffe du gouvernement, après la victoire de son parti, le",
+      "sources": [
+        "actuniger.com — fiabilité 6/10"
+      ],
+      "url": "https://www.actuniger.com/international/22411-maroc-nommee-par-le-roi-mohammed-vi-fatima-zahra-el-mansouri-devient-la-premiere-femme-premiere-ministre-du-royaume",
+      "published_at": "2026-10-01T04:30:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
