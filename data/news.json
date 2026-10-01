@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:25:16.975084+02:00",
+  "generated_at": "2026-10-01T18:35:30.471790+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23544,10 +23544,10 @@
         "Afrique"
       ],
       "countries": [
-        "Qatar",
         "Arabie saoudite",
         "Israël",
         "Maroc",
+        "Qatar",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -27035,8 +27035,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "États-Unis"
       ]
     },
@@ -28788,8 +28788,8 @@
         "International"
       ],
       "countries": [
-        "Qatar",
         "Palestine",
+        "Qatar",
         "Royaume-Uni"
       ],
       "period": "day",
@@ -29066,8 +29066,8 @@
         "International"
       ],
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "États-Unis"
       ],
       "period": "day",
@@ -30379,12 +30379,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Qatar",
-        "Finlande"
+        "Finlande",
+        "Qatar"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -30447,8 +30447,8 @@
         "International"
       ],
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "États-Unis"
       ],
       "period": "day",
@@ -33630,8 +33630,8 @@
         "International"
       ],
       "countries": [
-        "Qatar",
-        "Malaisie"
+        "Malaisie",
+        "Qatar"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -36159,12 +36159,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Qatar",
-        "Tanzanie"
+        "Tanzanie",
+        "Qatar"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38343,10 +38343,10 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Qatar",
         "Inde",
         "Iran",
         "Israël",
+        "Qatar",
         "Égypte",
         "États-Unis"
       ]
@@ -38904,12 +38904,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Afrique"
+        "Afrique",
+        "Europe"
       ],
       "countries": [
-        "Luxembourg",
-        "Ghana"
+        "Ghana",
+        "Luxembourg"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -43005,10 +43005,11 @@
       "category": "Géopolitique",
       "summary": "Le président Donald Trump (États-Unis) dévoile un plan d'investissement sud-coréen de 200 milliards de dollars pour des projets énergétiques américains. Le paquet comprend un programme électronucléaire de 120 milliards de dollars pour construire 8 réacteurs nucléaires, selon le président | Anadolu",
       "sources": [
-        "aa.com.tr — fiabilité 6/10"
+        "aa.com.tr — fiabilité 6/10",
+        "Fox News — fiabilité 6/10"
       ],
       "url": "https://aa.com.tr/en/asia-pacific/trump-unveils-200b-south-korean-investment-plan-for-us-energy-projects/4074361",
-      "published_at": "2026-10-01T08:30:00+02:00",
+      "published_at": "2026-10-01T09:03:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -48864,7 +48865,7 @@
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 6,
+      "score": 5,
       "category": "Géopolitique",
       "summary": "La famille de Renee Good poursuit l'administration Trump pour la fusillade mortelle de Minneapolis ICE. Mme Good était l'une des deux personnes abattues par des agents de l'ICE lors d'une opération d'immigration massive dans la ville américaine de Minneapolis, qui a intensifié l'opposition à la politique migratoire du président Donald Trump (États-Unis).",
       "sources": [
@@ -49528,8 +49529,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Qatar",
         "Arabie saoudite",
+        "Qatar",
         "Syrie",
         "Yémen"
       ]
@@ -49641,6 +49642,207 @@
       ],
       "url": "https://www.lequotidien.re/article/societe/2026/10/01/maurice-un-vol-en-provenance-disrael-interdit-datterrissage-sur-fond-de-tensions-autour-de-gaza",
       "published_at": "2026-10-01T06:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Presque 50 centimes d'écart avec la France : le prix des carburants baisse en Espagne grâce à la nouvelle ristourne. Après les annonces du gouvernement, les tarifs ont baissé dans les stations-service d'Espagne. Une bonne nouvelle pour le portefeuille des Français vivant près de la frontière.",
+      "sources": [
+        "Actu.fr — fiabilité 6/10"
+      ],
+      "url": "https://actu.fr/occitanie/perpignan_66136/presque-50-centimes-d-ecart-avec-la-france-le-prix-des-carburants-baisse-en-espagne-grace-a-la-nouvelle-ristourne_64866576.html",
+      "published_at": "2026-10-01T09:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne",
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La famille de Renee Good poursuit le gouvernement américain, un officier de l'ICE et d'autres personnes pour le meurtre de Minneapolis. Les poursuites intentées par la famille de Renee Good allèguent une mort injustifiée, un complot et d'autres violations dans la fusillade mortelle de l'homme de 37 ans par un agent de l'immigration américain lors d'une répression de l'immigration à…",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/world/renee-good-lawsuits-minneapolis-9.7365279",
+      "published_at": "2026-10-01T10:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’administration Trump est accusée d’avoir diffusé des publicités « manifestement illégales » financées par les contribuables pour promouvoir le président. Les démocrates de la Chambre des représentants affirment que les responsables pourraient avoir utilisé illégalement des fonds publics pour financer les « voyages narcissiques de l’ego » de Trump…",
+      "sources": [
+        "AOL — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.com/articles/trump-administration-accused-pushing-plainly-153943000.html",
+      "published_at": "2026-10-01T10:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Amazon signe un accord d'énergie nucléaire de 20 ans avec Constellation Energy. Mark Tepper, PDG de Strategic Wealth Partners, explique pourquoi l'énergie propre est vitale alors que la demande d'électricité devrait…",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6406042374112",
+      "published_at": "2026-10-01T11:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Royaume-Uni impose une nouvelle taxe sur le vapotage de 2,20 £ pour freiner le vapotage des jeunes. Le gouvernement britannique a introduit une taxe sur les produits de vapotage de 2,20 £ par 10 ml d'e-liquide afin de réduire l'attrait du vapotage chez les enfants et les jeunes. Les vendeurs ont six mois pour vendre leurs stocks existants à…",
+      "sources": [
+        "Amazon S3 via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/uk-imposes-new-220-vape-tax-to-curb-youth-vaping/vi-AA2dm1yr",
+      "published_at": "2026-10-01T11:08:19+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 10,
+      "category": "Géopolitique",
+      "summary": "Un aviateur Timaru perdu au-dessus de Berlin (Allemagne). Un projet de la South Canterbury Genealogy Society veille à ce que les histoires des hommes et des femmes du sud de Canterbury qui ont servi pendant la Seconde Guerre mondiale soient préservées et mémorisées. Au fur et à mesure que le projet avance…",
+      "sources": [
+        "Otago Daily Times — fiabilité 6/10"
+      ],
+      "url": "https://www.odt.co.nz/canterbury/south-canterbury/a-timaru-airman-lost-over-berlin-jxzd43o9",
+      "published_at": "2026-10-01T11:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les règles de résidence permanente au Japon se sont durcies. TOKYO — Le Japon a durci jeudi les exigences pour les étrangers souhaitant obtenir la résidence permanente, dans le cadre des efforts du Premier ministre Sanae Takaichi pour renforcer les contrôles d'immigration.",
+      "sources": [
+        "The Manila Times — fiabilité 6/10"
+      ],
+      "url": "https://www.manilatimes.net/2026/10/02/world/asia-oceania/permanent-residency-rules-in-japan-tightened/2437247",
+      "published_at": "2026-10-01T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Japon"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Iran",
+        "Royaume-Uni",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Royaume-Uni: le Premier ministre Andy Burnham évoque de « fortes indications » d’une implication iranienne. Un incident près d’une base utilisée par les États-Unis Le Premier ministre britannique, Andy Burnham, déclare mercredi à la BBC: « Il existe de fortes indications selon lesquelles l’Iran aurait joué …",
+      "sources": [
+        "Atlasinfo — fiabilité 6/10"
+      ],
+      "url": "https://atlasinfo.fr/royaume-uni-le-premier-ministre-andy-burnham-evoque-de-fortes-indications-dune-implication-iranienne.html",
+      "published_at": "2026-10-01T09:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Brexit : vers un retour du Royaume-Uni dans l'Union européenne ?. Le Premier ministre Andy Burnham a relancé mercredi l'idée d'un retour possible du Royaume-Uni dans l'Union européenne, une première pour un chef du gouvernement …",
+      "sources": [
+        "CNEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.cnews.fr/monde/2026-10-01/brexit-vers-un-retour-du-royaume-uni-dans-lunion-europeenne-1927212",
+      "published_at": "2026-10-01T03:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Brexit : et si le Royaume-Uni revenait dans l'Union européenne ?. Le Premier ministre britannique a évoqué l'option d'un retour dans l'Union européenne. Il a affirmé que la sortie de l'UE fait plus de mal que de bien à son pays.",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/replay-jt/franceinfo/21h-minuit/23-heures/brexit-et-si-le-royaume-uni-revenait-dans-l-union-europeenne_8217730.html",
+      "published_at": "2026-10-01T02:56:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
