@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T21:19:44.348698+02:00",
+  "generated_at": "2026-10-01T21:29:57.154705+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -49350,13 +49350,11 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie",
-        "International"
+        "Europe"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 9,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Le gouvernement exclusivement allemand relève ses prévisions pour 2026 et 2027, a indiqué une source. Par Holger Hansen BERLIN (Allemagne), 1er octobre (Reuters) - Le gouvernement allemand a relevé ses prévisions de croissance économique à 1,3% en 2026 et à 1,1% en 2027, a déclaré jeudi à Reuters une personne proche du projet.",
       "sources": [
@@ -49367,8 +49365,7 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Allemagne",
-        "Iran"
+        "Allemagne"
       ]
     },
     {
@@ -50349,7 +50346,7 @@
         "L'Orient-Le Jour — fiabilité 6/10"
       ],
       "url": "https://www.rfi.fr/fr/en-bref/20261001-les-constructeurs-automobiles-iraniens-à-leur-tour-placés-sur-la-liste-noire-de-washington",
-      "published_at": "2026-10-01T14:15:00+02:00",
+      "published_at": "2026-10-01T14:28:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -51911,7 +51908,8 @@
       "category": "Géopolitique",
       "summary": "Le pilote de FlyDubai a fait preuve au monde de « la plus grande forme de courage », a déclaré le Premier ministre indien. Le Premier ministre Narendra Modi (Inde) a déclaré que l'Inde saluait Smit Machchhar pour ses exploits à bord d'un avion FlyDubai qui a effectué un atterrissage d'urgence.",
       "sources": [
-        "Yahoo — fiabilité 6/10"
+        "Yahoo — fiabilité 6/10",
+        "Fox News — fiabilité 6/10"
       ],
       "url": "https://www.yahoo.com/news/us/articles/flydubai-pilot-showed-world-highest-155231674.html",
       "published_at": "2026-10-01T10:52:00+02:00",
@@ -52023,6 +52021,330 @@
       ],
       "url": "https://www.msn.com/fr-fr/actualite/other/guerre-en-ukraine-la-russie-coupe-le-pont-poutine-menace-l-europe-et-dit-niet-à-trump/ar-AA2dmQev",
       "published_at": "2026-10-01T12:52:38+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Un budget “réversible” ? Ce que le prochain gouvernement pourra vraiment défaire. Pour rendre son projet de loi de finances acceptable, le gouvernement insiste sur le fait qu’une partie de son contenu sera modifiable “dès sa première semaine” par le prochain exécutif.",
+      "sources": [
+        "Politico Europe — fiabilité 8/10"
+      ],
+      "url": "https://www.politico.eu/article/un-budget-reversible-ce-que-le-prochain-gouvernement-pourra-vraiment-defaire/",
+      "published_at": "2026-10-01T13:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les constructeurs automobiles chinois envisagent de réaliser un record de 12 millions de ventes à l’étranger en 2026, alors que leur plan de « mondialisation » porte ses fruits. Le dynamisme des ventes à l'étranger pourrait également amortir la faiblesse du marché intérieur, qui a chuté de 20 pour cent au cours des huit premiers mois de l'année.",
+      "sources": [
+        "South China Morning Post — fiabilité 6/10"
+      ],
+      "url": "https://www.scmp.com/business/china-business/article/3369423/chinas-carmakers-eye-record-12-million-overseas-sales-2026-go-global-plan-pays",
+      "published_at": "2026-10-01T14:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Lara Trump rompt le classement en affirmant que la guerre en Iran « pourrait coûter » à le président Donald Trump (États-Unis) les élections de mi-mandat. On a demandé à Lara Trump si elle pensait que la guerre en Iran pourrait avoir un impact sur les chances des Républicains lors des élections de mi-mandat, et sa réponse pourrait ne pas plaire au président …",
+      "sources": [
+        "AOL — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.com/articles/lara-trump-breaks-rank-saying-182023000.html",
+      "published_at": "2026-10-01T13:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre Benjamin Netanyahu (Israël) affirme que l'attaquant de Flydubai a été victime d'un « endoctrinement islamiste radical ». Le Premier ministre israélien a déclaré que le pilote qui a tenté de prendre le contrôle de l'avion Flydubai avait clairement l'intention de « faire tomber l'avion ».",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/crje8edqyej9o",
+      "published_at": "2026-10-01T10:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "8 Américains sur 10 désapprouvent Trump en matière d’inflation. C’est extrêmement rare pour un président. Ce que nous pouvons dire à l’heure actuelle, c’est que la gestion de l’inflation par le président Donald Trump (États-Unis) constitue un handicap historique – comme nous en avons rarement vu dans la politique américaine moderne. Jusqu'à 8 sur 10…",
+      "sources": [
+        "CNN — fiabilité 6/10"
+      ],
+      "url": "https://www.cnn.com/2026/10/01/politics/inflation-polling-trump-disapproval",
+      "published_at": "2026-10-01T01:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La plupart des enfants américains sont automatiquement inscrits sur des comptes Trump. Ce qu'il faut savoir… L'administration Trump vient peut-être d'inscrire votre enfant – et plus de 60 millions d'autres – à un compte d'épargne 530A (si vous ne l'avez pas déjà fait).",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/01/business/trump-accounts-auto-enrollment.html",
+      "published_at": "2026-10-01T14:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Dow Jones | Nasdaq | Marché boursier américain aujourd'hui | En direct : les actions américaines réduisent leurs pertes dans un contexte d'inquiétudes en matière d'inflation et d'optimisme décroissant en matière d'IA. Les contrats à terme sur indices boursiers américains ont augmenté jeudi, soutenus par les gains des valeurs de puces et de conseil, alors même que l'inflation et les inquiétudes croissantes concernant la dette publique ont poussé les rendements du Trésor à des sommets de plus de deux décennies.",
+      "sources": [
+        "The Economic Times — fiabilité 6/10"
+      ],
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-war-hormuz-deal-brent-crude-oil-fed-rate-hike-treasury-bond-yield-accenture-micron-alphabet-nvidia-amd-ai-chip-stock-price-news-1st-october-2026/liveblog/134619190.cms",
+      "published_at": "2026-10-01T13:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La menace du président Donald Trump (États-Unis) d’interdire les exportations de diesel déclenche l’alarme mondiale. La réduction du nombre de raffineries a déjà fait grimper le prix du diesel à des niveaux records, menaçant les économies. Une interdiction d’exportation américaine serait « un choc et un coup terribles ».",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/01/business/diesel-prices-us-exports.html",
+      "published_at": "2026-10-01T13:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "L’impasse commerciale indo-américaine prendra-t-elle un jour fin ? Les perspectives ne sont pas claires, selon les responsables. Une multitude de facteurs ont entravé les progrès vers l’accord commercial tant attendu entre les États-Unis et l’Inde cette année.",
+      "sources": [
+        "Women's Wear Daily — fiabilité 6/10"
+      ],
+      "url": "https://wwd.com/sourcing-journal/trade/india-us-bilateral-trade-agreement-trump-tariffs-modi-g20-1239301637/",
+      "published_at": "2026-10-01T08:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La famille de Renee Good poursuit le gouvernement fédéral après qu'elle ait été abattue par un agent de l'ICE à Minneapolis. Renee Good est décédée après une altercation avec un officier de l'ICE au Minnesota plus tôt cette année.",
+      "sources": [
+        "Daily Mail via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/renee-good-s-family-sues-the-federal-government-after-she-was-shot-dead-by-ice-agent-in-minneapolis/ar-AA2dn1a5",
+      "published_at": "2026-10-01T13:34:05+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Technologie",
+      "summary": "Trump trahit ses propres juges : \"Je leur ai donné le poste de leur vie, et ils votent souvent contre moi\". Une séance enflammée à la Maison Blanche a mis en lumière de profondes fractures au sein de l’administration alors que la frustration interne se reflète dans l’opinion publique. Le président Donald Trump (États-Unis) a éclaté pendant une heure…",
+      "sources": [
+        "Dagens.com via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/trump-betraying-his-own-justices-i-gave-them-the-position-of-a-lifetime-and-they-vote-against-me-often/ar-AA2dndrh",
+      "published_at": "2026-10-01T13:22:55+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Comment la hausse des taux d’intérêt et la hausse des prix vous affectent-elles ? Le mois dernier, la Réserve fédérale a relevé ses taux d'intérêt pour la première fois depuis plus de trois ans, dans le but de maîtriser l'inflation. Mais des taux plus élevés rendent les emprunts plus chers pour…",
+      "sources": [
+        "CNN — fiabilité 6/10"
+      ],
+      "url": "https://www.cnn.com/2026/10/01/economy/interest-rates-inflation-impact-callout",
+      "published_at": "2026-10-01T00:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les États-Unis font pression pour qu’un nouvel organisme multilatéral de l’ONU surveille les sanctions contre l’Iran. Cette décision intervient dans un contexte de débat sur la légalité des sanctions imposées par l'ONU à Téhéran",
+      "sources": [
+        "thenationalnews.com — fiabilité 6/10"
+      ],
+      "url": "https://www.thenationalnews.com/news/us/2026/10/01/us-pushes-for-new-un-multilateral-body-to-monitor-iran-sanctions/",
+      "published_at": "2026-10-01T21:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Duresky et McKinney se disputent sur l'immigration, l'inflation et le débat sur l'Iran à Richland. Dès la première question d'un débat mercredi soir, John Duresky et Amanda McKinney se sont affrontés sur de grandes questions dans le 4e district du Congrès de Washington.",
+      "sources": [
+        "yakimaherald.com — fiabilité 6/10"
+      ],
+      "url": "https://www.yakimaherald.com/news/northwest/duresky-mckinney-spar-over-immigration-inflation-iran-in-richland-debate/article_7e04c06c-782e-4ad3-b5b4-7ab67b62344e.html",
+      "published_at": "2026-10-01T21:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Tchéquie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Baťa et la production de chaussures en Tchéquie, c’est fini. Une page de l’histoire industrielle tchèque va se tourner. La société de chaussures Baťa a annoncé qu’elle s’apprêtait à fermer sa dernière usine en Europe centrale.",
+      "sources": [
+        "Radio Prague International — fiabilité 6/10"
+      ],
+      "url": "https://francais.radio.cz/bata-et-la-production-de-chaussures-en-tchequie-cest-fini-8898790",
+      "published_at": "2026-10-01T05:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Islande",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le secrétaire d’État Marco Rubio (États-Unis) ira en Islande, poursuivre l'offensive des États-Unis dans l'Arctique. Le chef de la diplomatie américaine se rendra en Islande la semaine prochaine renforçant l'offensive des États-Unis dans l'Arctique.",
+      "sources": [
+        "Le Journal de Montréal — fiabilité 6/10"
+      ],
+      "url": "https://www.journaldemontreal.com/2026/10/01/rubio-ira-en-islande-poursuivre-loffensive-des-etats-unis-dans-larctique",
+      "published_at": "2026-10-01T09:57:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
