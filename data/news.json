@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:07:25.130454+02:00",
+  "generated_at": "2026-10-01T07:17:38.274010+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42386,6 +42386,67 @@
       "published_at": "2026-10-01T05:45:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) affirme que l’interdiction des exportations de diesel est toujours d’actualité. Le secrétaire à l'Energie, Chris Wright, a déclaré que l'administration, ainsi que les gouvernements européens, annonceraient bientôt des mesures visant à faire baisser les prix du diesel.",
+      "sources": [
+        "Politico Europe — fiabilité 8/10"
+      ],
+      "url": "https://www.politico.eu/article/donald-trump-diesel-export-ban-on-table/",
+      "published_at": "2026-10-01T00:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les actions asiatiques ont été mitigées, les données américaines positives étant compensées par la hausse des rendements pétroliers et obligataires. Les actions asiatiques étaient mitigées jeudi après une journée largement baissière à Wall Street avec des données américaines positives compensées par des rendements obligataires d'État et des prix du pétrole élevés.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20261001-asian-stocks-mixed-as-positive-us-data-offset-by-elevated-oil-bond-yields",
+      "published_at": "2026-10-01T00:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Bitcoin démarre en octobre à près de 84 000 $ : qu'est-ce qui motive le marché de la cryptographie aujourd'hui ? Bitcoin a démarré le mois d'octobre autour de 84 000 dollars après un mois de septembre solide, mais les rendements élevés du Trésor américain et l'incertitude des taux d'intérêt tempèrent le marché plus large de la cryptographie.",
+      "sources": [
+        "CNBCTV18 — fiabilité 6/10"
+      ],
+      "url": "https://www.cnbctv18.com/market/cryptocurrency/bitcoin-starts-october-near-dollar-84000-crypto-market-drivers-20002759.htm",
+      "published_at": "2026-10-01T00:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
