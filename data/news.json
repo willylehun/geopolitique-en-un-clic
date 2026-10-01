@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:57:17.807034+02:00",
+  "generated_at": "2026-10-01T14:07:32.616321+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42015,10 +42015,11 @@
       "category": "Géopolitique",
       "summary": "Burnham voit l’Iran impliqué dans un incident sur une base militaire. Le Premier ministre Andy Burnham a confirmé les preuves d'un lien possible avec l'Iran suite à l'arrestation de cinq hommes accusés de terrorisme près d'une base aérienne américaine en Grande-Bretagne. \"Il y a de fortes indications que l'Iran a été impliqué dans les événements du week-end à la RAF Fairford\", a déclaré le dirigeant britannique à la BBC. Cependant, cela « reste une enquête policière en cours, complexe et sérieuse ».",
       "sources": [
-        "news.at — fiabilité 6/10"
+        "news.at — fiabilité 6/10",
+        "Fox News — fiabilité 6/10"
       ],
       "url": "https://www.news.at/politik/burnham-sieht-iran-beteiligung-bei-vorfall-an-militarbasis",
-      "published_at": "2026-10-01T03:00:00+02:00",
+      "published_at": "2026-10-01T06:38:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -43150,7 +43151,8 @@
       "category": "Géopolitique",
       "summary": "Neufs civils tués dans des frappes pakistanaises dans le sud de l'Afghanistan. Neuf civils ont été tués dans une série de frappes menées par le Pakistan en Afghanistan dans la nuit de mercredi à jeudi, a affirmé jeudi le gouvernement taliban. Islamabad a confirmé des frappes …",
       "sources": [
-        "L'Orient-Le Jour — fiabilité 6/10"
+        "L'Orient-Le Jour — fiabilité 6/10",
+        "Mediapart — fiabilité 6/10"
       ],
       "url": "https://www.lorientlejour.com/article/1549299/neufs-civils-tues-dans-des-frappes-pakistanaises-dans-le-sud-de-lafghanistan.html",
       "published_at": "2026-10-01T02:01:00+02:00",
@@ -44370,7 +44372,7 @@
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/10/01/en-direct-guerre-en-ukraine-volodymyr-zelensky-revendique-des-frappes-ukrainiennes-contre-plusieurs-sites-en-russie_6783795_3210.html",
-      "published_at": "2026-10-01T03:59:00+02:00",
+      "published_at": "2026-10-01T06:02:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -45940,6 +45942,131 @@
       "url": "https://www.armenews.com/vous-ne-ferez-pas-taire-la-diaspora-nous-necoutons-ni-ce-que-disent-pachinian-bakou-ou-la-turquie-nous-faisons-notre-travail-elisabeth-tchouljian/",
       "published_at": "2026-10-01T13:30:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les attaques russes ont endommagé un établissement d’enseignement sur trois à Kyiv. Source : Olena Fidanian, directrice du département de l'administration d'État de la ville de Kiev…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/russian-attacks-damaged-one-three-104800119.html",
+      "published_at": "2026-10-01T05:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Zimbabwe",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La guerre en Ukraine offre des leçons à l'Afrique - CAJ News Africa. Par SAVIOUS KWINIKA JOHANNESBURG, (CAJ News) – Les dirigeants AFRICAINS ont été invités à tirer d’importantes leçons politiques et économiques de la guerre en cours entre la Russie et l’Ukraine, en particulier l’évolution des intérêts des puissances mondiales et les conséquences pour les pays qui entrent dans des conflits géopolitiques sans avoir établi au préalable ce qu’ils ont à y gagner. Analyste politique, économiste et ancien diaspora du Zimbabwe",
+      "sources": [
+        "cajnewsafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://cajnewsafrica.com/2026/10/01/ukraine-war-offers-lessons-for-africa/",
+      "published_at": "2026-10-01T13:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "LUE bientôt bailleur de fonds au Maroc ? – Aujourdhui le Maroc. «Face à une nouvelle crise énergétique, il est urgent de renforcer notre système énergétique et d’intégrer nos marchés. C’est essentiel pour faire baisser les coûts de l’énergie, améliorer notre compétitivité et intégrer davantage d’énergies renouvelables produites localement». Le regards se tournent vers Bruxelles, siège de la Commission européenne. Et pour cause. La deadline d’un appel à propositions dans le domaine énergétique vient d’expirer il y a quelques heures.",
+      "sources": [
+        "aujourdhui.ma — fiabilité 6/10"
+      ],
+      "url": "https://aujourdhui.ma/economie/lue-bientot-bailleur-de-fonds-au-maroc",
+      "published_at": "2026-10-01T13:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Grande-Bretagne et la France renoncent à un accord historique sur les migrants. Le gouvernement français s'est détérioré à cause d'un accord de réciprocité qui permettait aux autorités britanniques de refouler certains migrants qui traversaient illégalement la Manche à bord de petites embarcations.",
+      "sources": [
+        "article.wn.com — fiabilité 6/10"
+      ],
+      "url": "https://article.wn.com/view/2026/10/01/Britain_and_France_Give_Up_Landmark_Migrant_Agreement/",
+      "published_at": "2026-10-01T13:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Home»Affaires»Mali : projets locaux sur un fonds minier de 18,4 milliards FCFA. Le Comité national de suivi du Fonds minier de développement local (FMDL) a validé, mardi 29 septembre 2026, des projets d’investissement proposés par les collectivités territoriales, qui seront finan …",
+      "sources": [
+        "APAnews — fiabilité 6/10"
+      ],
+      "url": "https://fr.apanews.net/business/mali-des-projets-locaux-valides-sur-un-fonds-minier-de-184-milliards-fcfa/",
+      "published_at": "2026-10-01T06:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Afghanistan"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Dix civils tués dans de nouvelles frappes pakistanaises en Afghanistan. L’armée pakistanaise a mené de nouvelles frappes en Afghanistan dans la nuit de mercredi à jeudi, visant notamment la province d’Helmand (Sud) selon des témoignages d’habitants et le gouvernement tali …",
+      "sources": [
+        "AFP via MSN — fiabilité 7/10",
+        "La Presse — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/monde/afghanistan-dix-civils-tués-dans-de-nouvelles-frappes-pakistanaises/ar-AA2dkyuZ",
+      "published_at": "2026-10-01T05:19:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
