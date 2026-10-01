@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:28:26.949646+02:00",
+  "generated_at": "2026-10-01T20:38:42.762841+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -50342,10 +50342,11 @@
       "summary": "Les constructeurs automobiles iraniens à leur tour placés sur la liste noire de Washington. Les États-Unis ont à nouveau durci jeudi 1er octobre leur régime de sanctions contre l'Iran en plaçant sur leur liste noire les principaux constructeurs automobiles du pays, la compagnie …",
       "sources": [
         "Radio France Internationale — fiabilité 6/10",
-        "7sur7.be — fiabilité 6/10"
+        "7sur7.be — fiabilité 6/10",
+        "L'Orient-Le Jour — fiabilité 6/10"
       ],
       "url": "https://www.rfi.fr/fr/en-bref/20261001-les-constructeurs-automobiles-iraniens-à-leur-tour-placés-sur-la-liste-noire-de-washington",
-      "published_at": "2026-10-01T00:27:00+02:00",
+      "published_at": "2026-10-01T12:17:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -50456,7 +50457,8 @@
     {
       "regions": [
         "Asie",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "countries": [
         "Iran",
@@ -50465,14 +50467,15 @@
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 6,
+      "score": 9,
       "category": "Géopolitique",
       "summary": "Projet d’attaque contre une base militaire en Angleterre: Netanyahu dit avoir averti Londres. Israël avait averti les autorités britanniques que l’Iran planifiait une attaque contre une base britannique, a déclaré son dirigeant le Premier ministre Benjamin Netanyahu (Israël), s’offusquant que Londres ait malgré tout pris …",
       "sources": [
-        "7sur7.be — fiabilité 6/10"
+        "7sur7.be — fiabilité 6/10",
+        "bluewin — fiabilité 6/10"
       ],
       "url": "https://www.7sur7.be/monde/projet-dattaque-contre-une-base-militaire-en-angleterre-netanyahu-dit-avoir-averti-londres~a45bc39f/",
-      "published_at": "2026-10-01T05:22:00+02:00",
+      "published_at": "2026-10-01T13:16:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -51423,6 +51426,107 @@
       "content_enriched": true,
       "countries": [
         "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Marché boursier aujourd'hui : les principaux indices progressent alors que le rendement du Trésor à 10 ans recule après avoir atteint un nouveau sommet sur 24 ans. Les principaux indices boursiers américains ont augmenté jeudi, premier jour de négociation du quatrième trimestre et d'octobre, alors que le rendement du Trésor à 10 ans a reculé après avoir atteint un nouveau sommet sur 24 ans. Le axé sur la technologie…",
+      "sources": [
+        "Investopedia via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-major-indexes-advance-as-10-year-treasury-yield-retreats-after-hitting-fresh-24-year-high/ar-AA2dkYie",
+      "published_at": "2026-10-01T12:56:42+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Des milliers de personnes se rassemblent alors que le chef de l'UE appelle au respect du tribunal pour crimes de guerre du Kosovo. Des milliers de personnes se sont rassemblées jeudi au Kosovo contre les condamnations pour crimes de guerre de l'ancien président Hashim Thaci, alors que la chef de l'UE, Ursula von der Leyen, a appelé au respect du tribunal lors d'une visite à Pristina.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20261001-thousands-rally-as-eu-chief-urges-respect-for-kosovo-war-crimes-court",
+      "published_at": "2026-10-01T12:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Musk retourne au gouvernement américain pour une étude sur la guerre au Pentagone.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20261001-musk-returns-to-us-government-for-pentagon-war-study",
+      "published_at": "2026-10-01T13:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un Anglo-Iranien arrêté parce qu'il est soupçonné de « préparation d'actes terroristes » en lien avec le complot sur la base aérienne du Royaume-Uni. L'homme de 27 ans a été arrêté à Londres, un jour après que le Premier ministre britannique Andy Burnham a déclaré qu'il y avait de « fortes indications » que l'Iran était impliqué dans l'incident.",
+      "sources": [
+        "nine.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.nine.com.au/world-news/uk-europe/raf-fairford-plot-british-iranian-man-arrested-on-suspicion-of-preparation-of-terrorist-acts-20261002-p6127q.html",
+      "published_at": "2026-10-01T12:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les ministres de l’UE étudient de nouvelles mesures d’urgence en matière de migration. Athènes propose de suspendre temporairement les demandes d'asile dans les situations d'urgence – et cette idée bénéficie du soutien de Berlin (Allemagne) et de Vienne.",
+      "sources": [
+        "Politico Europe — fiabilité 8/10"
+      ],
+      "url": "https://www.politico.eu/article/eu-ministers-new-emergency-migration-measures-ceuta-spain-morocco/",
+      "published_at": "2026-10-01T00:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
       ]
     },
     {
