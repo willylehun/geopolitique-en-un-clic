@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:55:47.191829+02:00",
+  "generated_at": "2026-10-01T13:05:59.156015+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -45222,6 +45222,149 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Énergie",
+      "summary": "Trump dévoile un investissement énergétique sud-coréen de 200 milliards de dollars dans un contexte d'incertitude concernant le pipeline de l'Alaska. Dans une mise à jour majeure, le président Donald Trump (États-Unis) a annoncé un vaste programme d'investissement énergétique de 200 milliards de dollars de la part de la Corée du Sud, comprenant un engagement très médiatisé de 54 milliards de dollars en faveur d'un…",
+      "sources": [
+        "The News International — fiabilité 6/10"
+      ],
+      "url": "https://www.thenews.com.pk/latest/1418328-trump-unveils-200-billion-south-korean-energy-investment-amid-alaska-pipeline-uncertainty",
+      "published_at": "2026-10-01T05:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"Pas d'Azaad Maidan, cabinet du CJP sur le parc Shivaji pour la manifestation du 2 octobre\" Mumbai Chalo \". Le fondateur du Cockroach Janta Party (CJP), Abhijeet Dipke, a précisé jeudi que l'organisation poursuivrait son lieu prévu - le parc Shivaji à Mumbai - pour sa manifestation du 2 octobre contre les élections…",
+      "sources": [
+        "Times Now — fiabilité 6/10"
+      ],
+      "url": "https://www.timesnownews.com/india/no-azaad-maidan-cjp-firm-on-shivaji-park-for-oct-2-mumbai-chalo-protest-article-156258736",
+      "published_at": "2026-10-01T05:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Exclusif - Des responsables du gouvernement syrien et du Hezbollah ont eu des entretiens secrets en Turquie, selon des sources. Par Feras Dalatey, Laila Bassam et Timour Azhari, 1er octobre (Reuters) - Des représentants du gouvernement syrien et du groupe militant libanais Hezbollah ont eu des entretiens face à face en Turquie pour tenter de calmer…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/exclusive-syrian-government-officials-and-hezbollah-held-secret-talks-in-turkey-sources-say/ar-AA2dl5mF",
+      "published_at": "2026-10-01T05:16:32+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Turquie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Aux Pays-Bas, le projet d'introduire un impôt sur la fortune pour les investisseurs est abandonné. Le Premier ministre Rob Jetten souhaitait taxer la hausse de la valeur des actions, des obligations et des crypto-monnaies avant que les investisseurs ne les vendent.",
+      "sources": [
+        "Daily Mail via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/australia/plan-to-introduce-wealth-tax-on-investors-is-axed-in-the-netherlands/ar-AA2dkrnc",
+      "published_at": "2026-10-01T05:31:44+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pays-Bas"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'Inde envisage de réduire les droits d'importation sur les légumineuses pour faire baisser les prix, selon des sources. L'Inde envisage de réduire les droits d'importation sur une gamme de légumineuses pour augmenter les approvisionnements et freiner l'inflation alimentaire, après qu'une mousson inégale a soulevé des inquiétudes sur la production intérieure, \"deux sources gouvernementales et …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/americas/india-considers-cutting-import-duties-pulses-cool-prices-sources-say-2026-10-01/",
+      "published_at": "2026-10-01T05:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : un site de recherche nucléaire frappé à Kiev ; Kasparov menacé par la Russie. Un drone russe a frappé à Kiev un site de recherche nucléaire. Le champion d’échecs Garry Kasparov, opposant au Kremlin, figure sur « une liste de cibles à assassiner » par la Russie. Suivez l’actuali …",
+      "sources": [
+        "La Croix — fiabilité 6/10"
+      ],
+      "url": "https://www.la-croix.com/international/ukraine-russie-jour-1677-point-conflit-ukrainien-poutine-aujourdhui-20261001",
+      "published_at": "2026-10-01T05:57:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Malaisie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Malaisie renvoie 1500 ressortissants birmans vers leur pays toujours en guerre, l'ONU dénonce un retour à haut risque. Mardi 29 septembre, la Malaisie a lancé une opération visant à renvoyer près de 1500 ressortissants birmans vers leur pays d’origine. Le Myanmar étant encore en proie au conflit, l’ONU et d’autres org …",
+      "sources": [
+        "Geo via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/actualite/other/la-malaisie-renvoie-1500-ressortissants-birmans-vers-leur-pays-toujours-en-guerre-l-onu-dénonce-un-retour-à-haut-risque/ar-AA2dl0oB",
+      "published_at": "2026-10-01T05:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
