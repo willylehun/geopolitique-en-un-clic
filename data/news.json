@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:47:28.447675+02:00",
+  "generated_at": "2026-10-01T19:57:41.542375+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -49856,12 +49856,13 @@
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 5,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "La Cour suprême accepte de revoir la politique de l'ICE refusant les audiences aux immigrants. La Cour suprême des États-Unis a annoncé jeudi qu'elle avait accepté de réexaminer une politique de l'administration du président Donald Trump (États-Unis) visant à ce que les autorités américaines de l'immigration et des douanes refusent les audiences de cautionnement pour les immigrants dans le cadre de…",
       "sources": [
         "Yahoo — fiabilité 6/10",
-        "AOL — fiabilité 6/10"
+        "AOL — fiabilité 6/10",
+        "WCVB Channel 5 — fiabilité 6/10"
       ],
       "url": "https://www.yahoo.com/news/us/articles/supreme-court-agrees-review-ice-151851636.html",
       "published_at": "2026-10-01T10:18:00+02:00",
@@ -50085,6 +50086,8 @@
     {
       "regions": [
         "Amérique du Nord",
+        "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -50630,6 +50633,251 @@
       "url": "https://www.msn.com/fr-be/finance/économie/la-grèce-demande-à-l-ue-d-assouplir-les-règles-budgétaires-face-à-la-crise-énergétique/ar-AA2dmqIr",
       "published_at": "2026-10-01T10:28:48+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : un pont de Kiev frappé par des drones russes. Deux drones russes ont frappé jeudi un important pont de Kiev enjambant le fleuve Dniepr et reliant l'est et l'ouest de la ville, a annoncé le maire, dans un contexte de nette intensification des frap …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/vidéo/20261001-guerre-en-ukraine-un-pont-de-kiev-frappé-par-des-drones-russes",
+      "published_at": "2026-10-01T00:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Un haut responsable d'une entreprise gouvernementale interrogé pour des crimes présumés — police. Un haut responsable d'une entreprise publique a été interrogé aujourd'hui pour des soupçons de fraude, d'abus de confiance, de faux et de parjure, a indiqué la police. Des agents de la police israélienne Lahav 433 ont commis des crimes majeurs…",
+      "sources": [
+        "The Times of Israel — fiabilité 8/10"
+      ],
+      "url": "https://www.timesofisrael.com/liveblog_entry/senior-official-in-government-run-company-interrogated-for-suspected-crimes-police/",
+      "published_at": "2026-10-01T12:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis exclusifs ralentissent les exportations de pièces d’avion vers la Chine alors que Trump cherche à exercer un effet de levier dans les négociations commerciales, selon des sources. Par Karen Freifeld et Allison Lampert NEW YORK, 1er octobre (Reuters) - L'administration Trump a pris des mesures pour transformer la dépendance de la Chine à l'égard des fournisseurs d'aviation américains en un levier pour le commerce…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-ca/news/other/exclusive-us-slows-aircraft-part-exports-to-china-as-trump-seeks-leverage-in-trade-negotiations-sources-say/ar-AA2dmcpM",
+      "published_at": "2026-10-01T12:16:41+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "« Vous allez voir un véritable miracle » : Javier Milei en opération séduction auprès des investisseurs à Paris. A Paris pour l'« Argentina Week », Javier Milei a mis en avant un cadre juridique solide, la baisse de l'inflation et un fort potentiel énergétique. Total a annoncé un investissement de dix milliards …",
+      "sources": [
+        "Les Echos — fiabilité 6/10"
+      ],
+      "url": "https://www.lesechos.fr/monde/ameriques/vous-allez-voir-un-veritable-miracle-javier-milei-en-operation-seduction-aupres-des-investisseurs-a-paris-2254622",
+      "published_at": "2026-10-01T12:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "LIV Golf Adelaide « semble improbable » en 2027 alors que le site hôte fixe la date limite légale pour les réponses. Le trésorier sud-australien, Tom Koutsantonis, a déclaré qu'il était \"peu probable\" que le LIV Golf Adelaide se déroule en 2027 alors que le site hôte a lancé une action en justice pour exiger des réponses sur l'avenir de l'événement…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/lifestyle/articles/liv-golf-adelaide-looking-unlikely-120725423.html",
+      "published_at": "2026-10-01T07:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : le président Vladimir Poutine (Russie) rejette l'idée d'un arrêt des frappes à longue portée. Le président russe a rejeté jeudi l'idée d'un arrêt mutuel des frappes à longue portée avec l'Ukraine. Il a ainsi répondu à des propositions formulées par Kiev et Washington.",
+      "sources": [
+        "bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/fr/infos/monde/poutine-rejette-l-id-e-d-un-arr-t-des-frappes-longue-port-e-li.3621084",
+      "published_at": "2026-10-01T12:43:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : des drones russes frappent un pont de Kiev, un institut de recherche nucléaire et une école. Des drones russes ont frappé, jeudi 1er octobre, un pont majeur à Kiev, et l'agence nucléaire ukrainienne a révélé qu'un autre engin avait frappé la veille un institut de recherche atomique sans touch …",
+      "sources": [
+        "Radio France Internationale via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/france/guerre-en-ukraine-des-drones-russes-frappent-un-pont-de-kiev-un-institut-de-recherche-nucléaire-et-une-école/ar-AA2dmNKu",
+      "published_at": "2026-10-01T12:36:29+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Canada accélère l'oléoduc du Pacifique pour réduire la dépendance des États-Unis. Le Premier ministre canadien Mark Carney a accéléré le projet d'un oléoduc vers la côte du Pacifique. Cette décision vise à réduire la dépendance du Canada à l'égard des États-Unis et à améliorer les relations avec l'Alberta, où les séparatistes font pression pour un référendum sur la sortie du Canada.",
+      "sources": [
+        "mendocinobeacon.com — fiabilité 6/10"
+      ],
+      "url": "https://www.mendocinobeacon.com/2026/10/01/canada-carney-pacific-pipeline/",
+      "published_at": "2026-10-01T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Vietnam"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Pandora ouvre une usine de bijoux au Vietnam alimentée par des énergies renouvelables. Pandora a ouvert au Vietnam la plus grande usine de fabrication de bijoux raffinés au monde, entièrement alimentée par de l’électricité renouvelable.",
+      "sources": [
+        "sandiegouniontribune.com — fiabilité 6/10"
+      ],
+      "url": "https://www.sandiegouniontribune.com/2026/10/01/pandora-vietnam-jewelry-factory/",
+      "published_at": "2026-10-01T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "République dominicaine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les renseignements marocains utilisent la surveillance pour faire taire les journalistes : Amnesty - Dominicaine Republic Post – Caribbean News, Business, Travel & Culture. Amnesty International a dénoncé les services de renseignement marocains pour avoir utilisé des logiciels espions, des microphones cachés et des téléphones pré-infectés dans le cadre d'une « surveillance illégale ».",
+      "sources": [
+        "dominicanrepublicpost.com — fiabilité 6/10"
+      ],
+      "url": "https://dominicanrepublicpost.com/moroccan-intelligence-uses-surveillance-to-silence-journalists-amnesty/",
+      "published_at": "2026-10-01T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Autriche",
+        "France",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Philippe Narbeburu ( DS ) nommé directeur de la coentreprise Stellantis - Dongfeng avant le lancement de la marque Voyah en France. Six mois après l’annonce de la création d’une coentreprise avec le groupe Dongfeng, Stellantis confirme la nomination de Philippe Narbeburu à sa direction. Il aura notamment pour missions de piloter le lancement et la distribution de Voyah, la marque premium électrique de Dongfeng. Diplômé de la TBS Education et de la London Business School, Philippe Narbeburu a rejoint le groupe Stellantis en 2005 en tant que directeur général des marques Citroën et DS en Autriche.",
+      "sources": [
+        "largus.fr — fiabilité 6/10"
+      ],
+      "url": "https://www.largus.fr/pros/actualite-automobile/philippe-narbeburu-ds-nomme-directeur-de-la-coentreprise-stellantis-dongfeng-avant-le-lancement-de-la-marque-voyah-en-france-40010351.html",
+      "published_at": "2026-10-01T19:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Russie : le chancelier Friedrich Merz (Allemagne) met en garde contre « le pire hiver de guerre jamais enregistré en Ukraine. Migrations massives, déstabilisation, insécurité : une victoire russe sur l'Ukraine serait catastrophique, souligne la chancelière. Son message s'adresse non seulement à Moscou, mais aussi à l'AfD.",
+      "sources": [
+        "handelsblatt.com — fiabilité 6/10"
+      ],
+      "url": "https://www.handelsblatt.com/politik/international/russland-merz-warnt-vor-bislang-schwerstem-kriegswinter-in-der-ukraine/100258890.html",
+      "published_at": "2026-10-01T19:30:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
