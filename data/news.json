@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T17:12:36.068846+02:00",
+  "generated_at": "2026-10-01T17:23:28.747019+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -48500,7 +48500,8 @@
       "url": "https://www.yahoo.com/news/science/articles/most-data-centers-still-refusing-123630411.html",
       "published_at": "2026-10-01T07:36:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
