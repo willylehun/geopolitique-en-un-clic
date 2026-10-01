@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:31:21.987404+02:00",
+  "generated_at": "2026-10-01T16:41:39.846127+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -48091,6 +48091,189 @@
       ],
       "url": "https://www.laprovence.com/article/economie/8138398800739914/dette-la-signature-de-la-france-est-solide-sur-les-marches-assure-le-ministre-de-l-economie",
       "published_at": "2026-10-01T06:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Conseil de crise du gouvernement français concernant les manifestations scolaires. En réponse aux manifestations parfois violentes et croissantes dans les écoles en France, le Premier ministre Sébastien Lecornu a convoqué une réunion de crise. Plusieurs ministres devraient discuter de la situation à…",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/crisis-counseling-from-the-french-government-regarding-school-protests-li.3620706",
+      "published_at": "2026-10-01T06:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis renoncent aux conditions de droits pour une aide militaire de 320 millions de dollars à l’Égypte, indique une lettre. Le Département d'État américain a renoncé aux conditions relatives aux droits de l'homme pour une aide militaire de plus de 300 millions de dollars à l'Égypte, à la lumière du « rôle utile » du Caire depuis le déclenchement de la guerre entre les États-Unis et l'Iran, selon…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/africa/us-waives-rights-conditions-320-million-military-aid-egypt-letter-shows-2026-10-01/",
+      "published_at": "2026-10-01T09:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Égypte",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Tir de Renee Good : 2 poursuites civiles déposées dans la fusillade mortelle à Minneapolis par un officier de l'ICE. La famille de Renee Good, la femme de Minneapolis abattue par un agent de l'immigration et des douanes lors de l'opération Metro Surge en janvier, poursuit le gouvernement des États-Unis, l'ICE…",
+      "sources": [
+        "FOX 9 Minneapolis-St. Paul — fiabilité 6/10"
+      ],
+      "url": "https://www.fox9.com/news/renee-good-minneapolis-ice-shooting-family-civil-lawsuits-oct-1-2026",
+      "published_at": "2026-10-01T09:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "L'organisme de surveillance du budget affirme que la construction du chemin de fer Alto pourrait coûter plus cher que ne le prévoit Ottawa. OTTAWA — L'organisme fédéral de surveillance du budget affirme que la construction d'une ligne ferroviaire à grande vitesse entre Toronto et Québec pourrait coûter plus cher que l'estimation d'Ottawa.",
+      "sources": [
+        "The Canadian Press via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/news/other/budget-watchdog-says-alto-rail-construction-could-cost-more-than-ottawa-predicts/ar-AA2dlrzd",
+      "published_at": "2026-10-01T08:47:20+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Ghana"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Accra | Expansion bancaire : Attijariwafa bank s’offre Société Générale Ghana et consolide son empire ouest-africain. Attijariwafa bank franchit une étape décisive dans sa présence continentale. Le groupe marocain a signé un accord pour racheter 60,22 % du capital de Société Générale Ghana, opérant ainsi un transfert …",
+      "sources": [
+        "Afrimag — fiabilité 6/10"
+      ],
+      "url": "https://afrimag.net/maroc-expansion-bancaire-attijariwafa-bank-soffre-societe-generale-ghana-et-consolide-son-empire-ouest-africain/",
+      "published_at": "2026-10-01T09:14:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Ghana"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Société Générale prépare son départ du Ghana : une banque marocaine reprend sa filiale. Attijariwafa bank a signé un accord pour devenir l'actionnaire majoritaire de Société Générale Ghana. Le groupe marocain doit reprendre 55,22 % du capital, (…) …",
+      "sources": [
+        "Bladi.net — fiabilité 6/10"
+      ],
+      "url": "https://www.bladi.net/societe-generale-prepare-depart-ghana-banque-marocaine-reprend-filiale,124094.html",
+      "published_at": "2026-10-01T07:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Ghana"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Attijariwafa bank acquiert 55,22 % de Société Générale Ghana. À l’issue de cette opération, le groupe marocain deviendra …",
+      "sources": [
+        "Medi1 News — fiabilité 6/10"
+      ],
+      "url": "https://www.medi1news.com/fr/article/410297.html",
+      "published_at": "2026-10-01T05:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Libye"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "La Libye étudie le recours au GNL regazéifié pour ses centrales électriques. A Libyan commission is studying regasified LNG to supply the country's power plants amid declining domestic gas production.",
+      "sources": [
+        "energynews.pro — fiabilité 6/10"
+      ],
+      "url": "https://energynews.pro/la-libye-etudie-le-recours-au-gnl-regazeifie-pour-ses-centrales-electriques",
+      "published_at": "2026-10-01T14:02:29+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maurice"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Résidences pour seniors : L’essor des complexes haut de gamme à Maurice. L’île Maurice confirme sa position de destination privilégiée pour les retraités aisés. En réponse à une demande croissante, tant locale qu’internationale, le marché immobilier mauricien voit émerger …",
+      "sources": [
+        "IONNEWS — fiabilité 6/10"
+      ],
+      "url": "https://ionnews.mu/residences-pour-seniors-lessor-des-complexes-haut-de-gamme-a-maurice/",
+      "published_at": "2026-10-01T09:14:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
