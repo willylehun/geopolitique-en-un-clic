@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:52:07.612086+02:00",
+  "generated_at": "2026-10-01T23:02:26.049458+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -45042,8 +45042,8 @@
     {
       "regions": [
         "Amérique du Nord",
-        "International",
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "International"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -50630,7 +50630,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "countries": [
@@ -53243,7 +53242,7 @@
         "The New York Times — fiabilité 8/10"
       ],
       "url": "https://www.nytimes.com/2026/10/01/us/politics/mcgurk-biden-netanyahu-gaza.html",
-      "published_at": "2026-10-01T01:57:00+02:00",
+      "published_at": "2026-10-01T15:56:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -53370,6 +53369,27 @@
       "published_at": "2026-10-01T06:59:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Lara Trump a déclaré que la guerre en Iran pourrait coûter aux républicains les élections de mi-mandat. Voici comment le président a répondu. Un membre de la famille Trump a évoqué un risque que la Maison Blanche a largement cherché à minimiser : la guerre en Iran pourrait coûter aux Républicains les élections de mi-mandat.",
+      "sources": [
+        "Insider — fiabilité 6/10"
+      ],
+      "url": "https://www.businessinsider.com/donald-trump-iran-war-lara-trump-2026-10",
+      "published_at": "2026-10-01T15:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
     },
     {
       "regions": [
