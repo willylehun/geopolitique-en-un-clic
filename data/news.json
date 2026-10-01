@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T03:32:12.392434+02:00",
+  "generated_at": "2026-10-01T03:42:24.345982+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -41723,10 +41723,11 @@
       "summary": "Une forte indication que l'Iran a joué un rôle dans le complot terroriste présumé de Fairford, a déclaré le Premier ministre. Le Royaume-Uni travaille en étroite collaboration avec les États-Unis et les autorités ont la situation sous « la plus forte emprise », a insisté le Premier ministre.",
       "sources": [
         "lancashiretelegraph.co.uk — fiabilité 6/10",
-        "irvinetimes.com — fiabilité 6/10"
+        "irvinetimes.com — fiabilité 6/10",
+        "milfordmercury.co.uk — fiabilité 6/10"
       ],
       "url": "https://www.lancashiretelegraph.co.uk/news/national/26596132.strong-indications-iran-played-role-suspected-fairford-terror-plot-pm-says/",
-      "published_at": "2026-10-01T02:30:00+02:00",
+      "published_at": "2026-10-01T03:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -42014,6 +42015,71 @@
       ],
       "url": "https://www.news.at/politik/burnham-sieht-iran-beteiligung-bei-vorfall-an-militarbasis",
       "published_at": "2026-10-01T03:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Ukraine",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L'Ukraine fera appel aux États-Unis pour qu'ils imposent des sanctions au russe Starlink. L'Ukraine demandera aux États-Unis d'imposer des sanctions aux entreprises liées au système satellitaire russe Rasswiet, a déclaré mercredi Denys Sienik, chef de l'ambassade d'Ukraine à Washington.",
+      "sources": [
+        "wnp.pl — fiabilité 6/10"
+      ],
+      "url": "https://www.wnp.pl/rynki/ukraina-zwroci-sie-z-apelem-do-usa-o-objecie-sankcjami-rosyjskiego-starlinka,1104421.html",
+      "published_at": "2026-10-01T03:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "U. S. La Cour suprême doit déterminer si la portée du titre IX s'étend aux employés. La Cour suprême des États-Unis a décidé d'entendre une affaire explorant la portée du titre IX de l'Education Amendments Act de 1972. Au prochain mandat, la Cour suprême déterminera si les employés des établissements d'enseignement financés par le gouvernement fédéral disposent d'un droit d'action privé en cas de discrimination sexuelle sur le lieu de travail.",
+      "sources": [
+        "mondaq.com — fiabilité 6/10"
+      ],
+      "url": "https://www.mondaq.com:443/unitedstates/employee-rights-labour-relations/1849496/us-supreme-court-to-consider-whether-title-ix-scope-extends-to-employees",
+      "published_at": "2026-10-01T03:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Iran : \"La libération de terroristes présumés en dit long. Après l'incident survenu sur une base militaire américaine en Grande-Bretagne, le Premier ministre Andy Burnham confirme un possible lien avec un acteur étranger. Le ministre iranien des Affaires étrangères le considère comme \"sur une mauvaise voie\".",
+      "sources": [
+        "schwaebische.de — fiabilité 6/10"
+      ],
+      "url": "https://www.schwaebische.de/politik/iran-freilassung-vermeintlicher-terroristen-spricht-baende-4905112",
+      "published_at": "2026-10-01T03:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
