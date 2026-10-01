@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T17:54:18.266951+02:00",
+  "generated_at": "2026-10-01T18:04:36.264727+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -48930,7 +48930,8 @@
       "url": "https://www.thehindubusinessline.com/economy/pngrb-oil-ministry-launches-drive-targeting-50-lakh-dpng-connections-by-march-2027/article71533914.ece",
       "published_at": "2026-10-01T03:55:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -49092,6 +49093,252 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Dette : le taux d'emprunt à dix ans de la France poursuit sa hausse et atteint un niveau inédit depuis 2002. Les investisseurs doutent de plus en plus de la capacité de la France à adopter un budget pour l'année 2027. La défiance des marchés envers la dette française s'accroit, alors que le taux d'emprunt à …",
+      "sources": [
+        "Boursorama — fiabilité 6/10"
+      ],
+      "url": "https://www.boursorama.com/bourse/actualites/dette-le-taux-d-emprunt-a-dix-ans-de-la-france-poursuit-sa-hausse-et-atteint-un-niveau-inedit-depuis-2002-8d945c2805865e17d4f7aab94773e52f",
+      "published_at": "2026-10-01T06:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Les paris sur une hausse des taux américains s’estompent alors que les données révisées sur l’inflation indiquent une pause en octobre. Les révisions à la baisse de l'indice clé des prix soulagent la pression sur la Fed pour qu'elle augmente les taux…",
+      "sources": [
+        "Nikkei Asia — fiabilité 7/10"
+      ],
+      "url": "https://asia.nikkei.com/business/markets/us-rate-hike-bets-fade-as-revised-inflation-data-points-to-october-pause",
+      "published_at": "2026-10-01T10:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Congrès et les partis de gauche organisent une manifestation distincte exigeant la démission de la CEC. Le Congrès et les partis de gauche manifestent à Pondichéry pour exiger la démission du commissaire en chef aux élections, Gyanesh Kumar.",
+      "sources": [
+        "The Hindu — fiabilité 7/10"
+      ],
+      "url": "https://www.thehindu.com/news/cities/puducherry/congress-left-parties-stage-separate-protest-demanding-resignation-of-cec/article71532963.ece",
+      "published_at": "2026-10-01T10:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Kuku, lié à l’introduction en bourse, devient rentable alors que les revenus de l’exercice 26 sont multipliés par six pour atteindre Rs 1 484 crore. La société a déclaré un chiffre d'affaires d'exploitation de Rs 1 484,2 crore, en hausse de 514 % par rapport à Rs 241,6 crore un an plus tôt, selon ses états financiers audités. Le bénéfice net s'est élevé à Rs 182,7 crore par rapport à un…",
+      "sources": [
+        "The Economic Times — fiabilité 6/10"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/technology/ipo-bound-kuku-turns-profitable-as-fy26-revenue-jumps-sixfold-to-rs-1484-crore/articleshow/134622598.cms",
+      "published_at": "2026-10-01T10:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Technologie",
+      "summary": "Tim Miller sur X : \"le président Donald Trump (États-Unis) est interrogé sur la guerre en Iran par le magazine Time. Sa réponse : \"Quel est le but de cette folle Kaitlin Collins ?\" C'est une personne très moyenne. C'est la jeune personne la plus malheureuse que j'ai jamais vue.\" https://t.",
+      "sources": [
+        "X — fiabilité 6/10"
+      ],
+      "url": "https://x.com/Timodc/status/2105644987467940254",
+      "published_at": "2026-10-01T08:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Produits de base du Canada : les prix du pétrole augmentent alors que la Chine suspend ses exportations de pétrole. Les prix du pétrole étaient en hausse jeudi matin alors que les craintes de pénurie de carburant se sont accrues après que la Chine a suspendu les exportations de produits pétroliers pour le mois d'octobre, a rapporté Reuters. L'absence de diplomatie…",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/markets/commodities/articles/canada-commodities-oil-prices-rise-140721569.html",
+      "published_at": "2026-10-01T07:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada",
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Carney donne au pipeline de l'Alberta une désignation d'intérêt spécial, qui s'appellera Pacific Link. FORT MCMURRAY — Un pipeline pour transporter le pétrole de l'Alberta vers des pétroliers sur la route maritime de la Colombie-Britannique (Canada). La côte a fait un grand pas en avant jeudi.",
+      "sources": [
+        "The Canadian Press via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/news/other/carney-gives-alberta-pipeline-special-interest-designation-to-be-called-pacific-link/ar-AA2djQTt",
+      "published_at": "2026-10-01T10:41:27+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le secrétaire du DHS expose les problèmes de frontière et de sécurité. Le secrétaire du DHS, Markwayne Mullin, rejoint « America's Newsroom » pour discuter d'une attaque dans le cockpit d'un vol FlyDubai, d'une caravane de migrants se dirigeant vers la frontière sud des États-Unis et de la sécurité nationale au sens large…",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6406037729112",
+      "published_at": "2026-10-01T10:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La famille d'une femme tuée par un agent d'immigration américain poursuit l'administration Trump. La famille de Renee Good, une citoyenne américaine non armée abattue par un agent d'immigration lors d'une vaste répression fédérale, a poursuivi jeudi l'administration du président Donald Trump (États-Unis), alléguant une mort injustifiée…",
+      "sources": [
+        "Agence France-Presse via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/family-of-woman-killed-by-us-immigration-agent-sues-trump-administration/ar-AA2dmAlG",
+      "published_at": "2026-10-01T10:28:14+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les coûts d’emprunt du gouvernement américain ont atteint leur plus haut niveau depuis 2002. Les coûts d’emprunt du gouvernement augmentent fortement partout dans le monde, entraînés par une vente massive d’obligations d’État américaines. Le rendement du Trésor américain de référence à 10 ans a grimpé au-dessus de 5,3%, son plus haut niveau depuis plus…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/audio/play/p0pdgnk6",
+      "published_at": "2026-10-01T10:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le FMI cherche à établir un bureau au Venezuela, mais aucun programme n'est demandé. Le Fonds monétaire international envisage d'ouvrir un bureau au Venezuela, a-t-il annoncé jeudi, bien que le gouvernement du pays n'ait pas demandé de programme du FMI ou tout autre type de financement…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/americas/imf-looking-set-up-venezuela-office-says-no-programme-requested-2026-10-01/",
+      "published_at": "2026-10-01T10:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Afrique"
+      ],
+      "countries": [
+        "Indonésie",
+        "Rwanda",
+        "Turquie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les invités ont dégusté du café turc lors de la Journée internationale du café organisée à l'ONU. De nombreux invités ont assisté à l'événement, organisé pour la première fois cette année par le Bureau de l'Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO) à Genève et les représentations permanentes de la Turquie, de l'Indonésie et du Rwanda auprès du Bureau des Nations Unies à Genève, sur le thème « Célébrer le café, honorer les personnes derrière chaque tasse ».",
+      "sources": [
+        "haber1.com — fiabilité 6/10"
+      ],
+      "url": "https://www.haber1.com/guncel/bmde-duzenlenen-uluslararasi-kahve-gunu-etkinliginde-davetliler-turk-kahvesinin-tadini-cikardi/",
+      "published_at": "2026-10-01T17:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
