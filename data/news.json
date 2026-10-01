@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T00:35:00.263449+02:00",
+  "generated_at": "2026-10-02T00:45:14.186076+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -25485,12 +25485,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Asie"
       ],
       "countries": [
-        "Pakistan",
-        "États-Unis"
+        "États-Unis",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28893,9 +28893,9 @@
       "countries": [
         "Chine",
         "Iran",
-        "Pakistan",
         "Russie",
-        "États-Unis"
+        "États-Unis",
+        "Pakistan"
       ]
     },
     {
@@ -42269,10 +42269,10 @@
         "Afghanistan",
         "Chine",
         "Malaisie",
-        "Pakistan",
         "Turquie",
         "Vietnam",
-        "États-Unis"
+        "États-Unis",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
