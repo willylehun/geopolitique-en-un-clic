@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:37:09.098678+02:00",
+  "generated_at": "2026-10-01T19:47:28.447675+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -50085,8 +50085,6 @@
     {
       "regions": [
         "Amérique du Nord",
-        "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -50338,10 +50336,11 @@
       "category": "Diplomatie",
       "summary": "Les constructeurs automobiles iraniens à leur tour placés sur la liste noire de Washington. Les États-Unis ont à nouveau durci jeudi 1er octobre leur régime de sanctions contre l'Iran en plaçant sur leur liste noire les principaux constructeurs automobiles du pays, la compagnie …",
       "sources": [
-        "Radio France Internationale — fiabilité 6/10"
+        "Radio France Internationale — fiabilité 6/10",
+        "7sur7.be — fiabilité 6/10"
       ],
       "url": "https://www.rfi.fr/fr/en-bref/20261001-les-constructeurs-automobiles-iraniens-à-leur-tour-placés-sur-la-liste-noire-de-washington",
-      "published_at": "2026-10-01T00:15:00+02:00",
+      "published_at": "2026-10-01T00:27:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -50551,6 +50550,85 @@
       ],
       "url": "https://www.lebrief.ma/attijariwafa-bank-va-prendre-le-controle-de-societe-generale-ghana-100167954/",
       "published_at": "2026-10-01T09:14:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La famille de Renee Good poursuit le gouvernement américain et les agents de l'immigration pour son meurtre à Minneapolis. La famille de Renee Good a poursuivi le gouvernement américain et plusieurs agents de l'immigration, alléguant une mort injustifiée, un complot et d'autres violations dans le meurtre de la femme de 37 ans par un agent de l'immigration.",
+      "sources": [
+        "AP — fiabilité 9/10"
+      ],
+      "url": "https://apnews.com/article/renee-good-lawsuit-6fbc82cd33b6f9f67514b47f138e23c6",
+      "published_at": "2026-10-01T09:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Conflit",
+      "summary": "Atlas Entertainment and Culture Genesis Strike Creator Pacte de développement de contenu pour la télévision, le cinéma et les courts métrages. Atlas Entertainment de Charles Roven a conclu un accord de développement avec Culture Genesis, une société de représentation de pointe qui propose le contenu des stars de l'économie des créateurs à vendre à grande échelle pour…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/entertainment/tv/articles/atlas-entertainment-culture-genesis-strike-170000003.html",
+      "published_at": "2026-10-01T12:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Il nous a appris le courage » : un ami d’un pilote indien salué comme un héros. Le Premier ministre Benjamin Netanyahu (Israël) a qualifié Machchhar de « véritable héros », affirmant qu'il avait sauvé la vie de 174 personnes et évité un « désastre aérien catastrophique ». Pour Gosalia, cependant, l'homme de…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/cq33k36yp01no",
+      "published_at": "2026-10-01T07:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Grèce"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La Grèce demande à l'UE d'assouplir les règles budgétaires face à la crise énergétique. Face à la flambée des prix de l'énergie et aux tensions militaires au Moyen-Orient, Kyriakos Mitsotakis demande à Bruxelles plus de marge budgétaire. View on euronews …",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/fr-be/finance/économie/la-grèce-demande-à-l-ue-d-assouplir-les-règles-budgétaires-face-à-la-crise-énergétique/ar-AA2dmqIr",
+      "published_at": "2026-10-01T10:28:48+02:00",
       "origin": "rss",
       "content_enriched": true
     },
