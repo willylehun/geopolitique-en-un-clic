@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T17:33:45.323375+02:00",
+  "generated_at": "2026-10-01T17:44:05.104098+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -47768,10 +47768,11 @@
       "summary": "Bolivie : enquête pour narcotrafic contre le procureur général arrêté après des sanctions américaines. Le gouvernement bolivien a annoncé jeudi avoir démantelé une organisation criminelle \"infiltrée\" dans la justice, au lendemain de l'arrestation du procureur général Roger Mariaca, intervenue après le …",
       "sources": [
         "TV5MONDE - Informations — fiabilité 6/10",
-        "AFP via MSN — fiabilité 7/10"
+        "AFP via MSN — fiabilité 7/10",
+        "Mediapart — fiabilité 6/10"
       ],
       "url": "https://information.tv5monde.com/international/bolivie-enquete-pour-narcotrafic-contre-le-procureur-general-arrete-apres-des-sanctions-americaines-2839781",
-      "published_at": "2026-10-01T09:08:35+02:00",
+      "published_at": "2026-10-01T09:10:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -48792,6 +48793,226 @@
       "url": "https://politicalwire.com/2026/10/01/trump-says-ramped-up-bombing-of-iran-possible/",
       "published_at": "2026-10-01T17:00:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les nouvelles règles de renvoi de l’UE concernent aussi la Suisse. L'UE a approuvé de nouvelles règles sur le renvoi des demandeurs d'asile déboutés. Elles prévoient des sanctions en cas de non-coopération. Ces mesures s'appliqueront aussi à la Suisse, liée par les a …",
+      "sources": [
+        "Blick via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/actualite/other/les-nouvelles-règles-de-renvoi-de-l-ue-concernent-aussi-la-suisse/ar-AA2dlWh9",
+      "published_at": "2026-10-01T10:09:03+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Suisse"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les craintes les plus sombres de Trump à mi-mandat ont été mises à nu dans une interview extraordinaire du TIME alors qu'il fait un vœu de pardon en cinq mots pour son entourage. Le président Donald Trump (États-Unis) a admis qu'il gracierait les membres de son administration si les démocrates remportaient le Congrès et sondait son entourage dans un aveu stupéfiant.",
+      "sources": [
+        "Daily Mail — fiabilité 6/10"
+      ],
+      "url": "https://www.dailymail.com/news/article-16175763/trump-midterms-fear-time-interview-pardons.html",
+      "published_at": "2026-10-01T10:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "L'oléoduc de la côte Ouest devient le premier projet désigné d'intérêt national. Les gouvernements fédéral et albertain ont annoncé qu'un projet d'oléoduc transportant un million de barils de pétrole par jour de l'Alberta à la Colombie-Britannique (Canada) ne serait pas possible. Coast est devenu le premier projet désigné dans le …",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/politics/west-coast-pipeline-national-interest-9.7365037",
+      "published_at": "2026-10-01T10:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La famille de Renee Good poursuit l’administration du président Donald Trump (États-Unis) et l’agent ICE après une fusillade mortelle. La famille de Renee Good, tuée lors d'une opération d'immigration en janvier à Minneapolis, a déposé jeudi deux plaintes contre le gouvernement fédéral, plusieurs responsables de l'administration Trump et l'agent…",
+      "sources": [
+        "Forbes — fiabilité 6/10"
+      ],
+      "url": "https://www.forbes.com/sites/conormurray/2026/10/01/renee-goods-family-sues-trump-administration-ice-agent-after-fatal-shooting/",
+      "published_at": "2026-10-01T10:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La société minière française Eramet envisage une expansion de 350 millions de dollars dans le secteur du lithium en Argentine. Les entreprises françaises avancent dans leurs projets dans la filière lithium ; Les dirigeants de l'entreprise ont rencontré les membres de la délégation argentine lors d'une tournée d'investissement à Paris.",
+      "sources": [
+        "Buenos Aires Times — fiabilité 6/10"
+      ],
+      "url": "https://www.batimes.com.ar/news/economy/french-miner-eramet-considers-us350-million-lithium-expansion-in-argentina.phtml",
+      "published_at": "2026-10-01T09:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des fonctionnaires valant des millions de dollars : 11 employés du Future Fund australien ont payé beaucoup plus que le Premier ministre. Un cadre a reçu une enveloppe de 1,5 million de dollars l'année dernière, tandis que 10 autres employés ont reçu une rémunération supérieure à 1 million de dollars chacun…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/australia-news/2026/oct/02/public-servants-australia-future-fund-paid-more-than-pm-albanese",
+      "published_at": "2026-10-01T10:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "PNGRB et le ministère du Pétrole lancent une campagne ciblant 50 lakh de connexions DPNG d'ici mars 2027. MoPNG et PNGRB lancent National PNG Drive 3.0 pour ajouter 50 lakh de connexions D-PNG d'ici mars 2027, stimulant ainsi l'adoption du GPL vers PNG dans tout le pays.",
+      "sources": [
+        "The Hindu BusinessLine — fiabilité 7/10"
+      ],
+      "url": "https://www.thehindubusinessline.com/economy/pngrb-oil-ministry-launches-drive-targeting-50-lakh-dpng-connections-by-march-2027/article71533914.ece",
+      "published_at": "2026-10-01T03:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Ed Sheeran a déclaré à U2 qu'il ne voulait pas faire de politique sur la chanson ukrainienne. Ed Sheeran a collaboré avec U2 sur la chanson « Yours Eternally », mais il a dit à Bono qu'il ne voulait pas faire de politique sur le morceau sur la guerre en Ukraine.",
+      "sources": [
+        "variety.com — fiabilité 6/10"
+      ],
+      "url": "https://variety.com/2026/music/news/ed-sheeran-u2-political-ukraine-song-bono-1236894707/",
+      "published_at": "2026-10-01T17:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Tunisie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Tunisie : 14 personnes interpellées lors dune vaste opération sécuritaire. Les agents du poste de sécurité nationale de Jbel Jloud ont mené, mercredi, une vaste opération sécuritaire sous la supervision du chef",
+      "sources": [
+        "directinfo.webmanagercenter.com — fiabilité 6/10"
+      ],
+      "url": "https://directinfo.webmanagercenter.com/2026/10/01/tunisie-14-personnes-interpellees-lors-dune-vaste-operation-securitaire/",
+      "published_at": "2026-10-01T17:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Ottawa revisite la répression de l'immigration alors que le Canada atlantique cherche un accord. Un groupe constitué par le gouvernement Carney a appelé dans son rapport final à un accord « conçu au Canada atlantique » pour maintenir la croissance démographique à 1,8 %",
+      "sources": [
+        "saltwire.com — fiabilité 6/10"
+      ],
+      "url": "https://www.saltwire.com/new-brunswick/ottawa-revisiting-immigration-clampdown-as-atlantic-canada-seeks-deal/wcm/bf231b14-5bde-4345-a673-d5f5901f7421",
+      "published_at": "2026-10-01T17:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Canada : Carney envisage des poursuites contre Cleveland-Cliffs pour trahison. Le Premier ministre canadien Mark Carney menace de poursuivre Cleveland-Cliffs en justice après l'annonce de 500 licenciements chez Stelco, accusant le sidérurgiste américain de violer ses engagements …",
+      "sources": [
+        "Politique Matin via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-be/finance/ressources-humaines/canada-carney-envisage-des-poursuites-contre-cleveland-cliffs-pour-trahison/ar-AA2dkj37",
+      "published_at": "2026-10-01T03:56:52+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
