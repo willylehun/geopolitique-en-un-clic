@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:22:19.822253+02:00",
+  "generated_at": "2026-10-01T10:32:34.596989+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -43950,6 +43950,107 @@
       "published_at": "2026-10-01T03:05:08+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Blocus des lycées : «La France insoumise n'arrête pas de mettre de l'huile sur le feu», dénonce Laure Lavalette. Sanctions de l'UE contre Xenia Fedorova : «Ça me choque de voir ces attaques contre une femme seule», s'indigne Régis Le Sommier …",
+      "sources": [
+        "CNEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.cnews.fr/france/2026-10-01/blocus-des-lycees-la-france-insoumise-narrete-pas-de-mettre-de-lhuile-sur-le-feu",
+      "published_at": "2026-10-01T03:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Klopp sur les sanctions contre City : \"Pas soudainement besoin de titres de champion d’Angleterre\". Interrogé sur les possibles sanctions qui pourraient être infligées à Manchester City après avoir été reconnu coupable de multiples infractions financières en Premier League, Jürgen Klopp a réagi avec …",
+      "sources": [
+        "Dailymotion via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/sport/football/klopp-sur-les-sanctions-contre-city-pas-soudainement-besoin-de-titres-de-champion-d-angleterre/vi-AA2djGln",
+      "published_at": "2026-10-01T02:18:14+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Dette : le taux d’emprunt à dix ans de la France atteint son plus haut niveau depuis 2002. Il s’agit là d’un signe de la défiance croissante des investisseurs envers la dette française, avant la présentation du budget 2027 par le gouvernement, prévue ce jeudi.",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/conjoncture/dette-le-taux-d-emprunt-a-dix-ans-de-la-france-atteint-son-plus-haut-niveau-depuis-2002-20261001",
+      "published_at": "2026-10-01T02:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’Irak entre dans une « nouvelle phase » après le retrait des troupes américaines. Le Premier ministre irakien Ali al-Saidi a décrit le retrait complet d’Irak de la coalition militaire dirigée par les États-Unis comme le début d’une nouvelle phase pour le pays.",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/iraq-enters-a-new-phase-following-the-withdrawal-of-u.s.-troops-li.3620416",
+      "published_at": "2026-10-01T03:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Tallinn Defence EXPO : les systèmes de lutte contre les drones et les robots soldats volent la vedette. Les drones ont changé le visage de la guerre en Ukraine. Au Tallinn Defence EXPO, des entreprises estoniennes ont présenté les systèmes de lutte contre les drones et les robots de combat dont l'Europe aurait désormais besoin, selon elles. Vue sur euronews…",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/tallinn-defence-expo-counter-drone-systems-and-robot-soldiers-steal-the-show/ar-AA2dksJG",
+      "published_at": "2026-10-01T02:57:05+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
     },
     {
       "regions": [
