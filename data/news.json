@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:38:06.312487+02:00",
+  "generated_at": "2026-10-01T07:48:19.935165+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42505,6 +42505,43 @@
       "url": "https://www.i24news.tv/en/news/international/artc-pm-netanyahu-says-it-s-too-early-to-say-if-iran-was-involved-in-the-flight-fz1073-hijacking-live-blog",
       "published_at": "2026-10-01T07:15:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Japon augmente les frais de séjour de 2 000 % en raison de « l’anxiété » suscitée par les étrangers. Le Premier ministre Sanae Takaichi rend plus difficile le séjour des immigrants dans le pays. Les critiques affirment qu’elle nuit à la capacité du Japon à remédier aux pénuries de main-d’œuvre.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/01/world/asia/japan-raises-residency-fees-2000-percent-amid-anxiety-over-foreigners.html",
+      "published_at": "2026-10-01T00:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Japon"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Sensex aujourd'hui | Astucieux 50 | Mises à jour en direct du marché boursier : Sensex se négocie à plat, Nifty en dessous de 22 600 ; les actions automobiles entraînent des pertes. Les indices de référence ont réduit leurs gains par rapport aux plus hauts de la journée et ont terminé près des plus bas de la journée dans un contexte de volatilité accrue au début de la nouvelle série. Incertitude mondiale persistante et pic intrajournalier du Brent…",
+      "sources": [
+        "The Economic Times — fiabilité 6/10"
+      ],
+      "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-infosys-hdfc-bank-share-price-01-october-2026/liveblog/134606042.cms",
+      "published_at": "2026-10-01T00:24:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
