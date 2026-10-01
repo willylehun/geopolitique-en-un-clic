@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:38:18.508882+02:00",
+  "generated_at": "2026-10-01T14:48:33.327001+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -46739,6 +46739,40 @@
       "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-drohnen-treffen-schule-und-atomforschungsanlage-in-kiew-faz-110683325.html",
       "published_at": "2026-10-01T14:15:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Énergie",
+      "summary": "Siemens Energy AG (ENR1n). Divulgation des risques: Négocier des instruments financiers et/ou des crypto-monnaies implique des risques élevés, notamment le risque de perdre tout ou partie de votre investissement, et cela …",
+      "sources": [
+        "Investing — fiabilité 6/10"
+      ],
+      "url": "https://fr.investing.com/equities/siemens-energy-ag",
+      "published_at": "2026-10-01T06:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Nouvelles nominations commerciales senior chez Neuromod. Joe Ghiz rejoint Neuromod en tant que directeur commercial pour diriger la stratégie commerciale mondiale de l'entreprise alors qu'elle élargit l'accès au dispositif révolutionnaire de traitement des acouphènes, Lenire. Joe Ghiz apporte…",
+      "sources": [
+        "BioSpace — fiabilité 6/10"
+      ],
+      "url": "https://www.biospace.com/press-releases/new-senior-commercial-appointments-at-neuromod",
+      "published_at": "2026-10-01T07:07:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
