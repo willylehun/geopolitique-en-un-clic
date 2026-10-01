@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:51:58.288154+02:00",
+  "generated_at": "2026-10-01T17:02:17.909839+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -46863,7 +46863,8 @@
     {
       "regions": [
         "Amérique du Sud",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "International"
       ],
       "countries": [
         "Bolivie",
@@ -46871,15 +46872,16 @@
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 6,
+      "score": 9,
       "category": "Géopolitique",
-      "summary": "Bolivie : arrestation du procureur général dans le collimateur de Washington. Le procureur général de Bolivie a été arrêté mercredi deux jours après la révocation de son visa par le gouvernement américain qui l'accuse de s'être laissé corrompre par des narcotrafiquants, ce que …",
+      "summary": "Bolivie : enquête pour narcotrafic contre le procureur général arrêté après des sanctions américaines. Le procureur général de Bolivie a été arrêté mercredi deux jours après la révocation de son visa par le gouvernement américain qui l'accuse de s'être laissé corrompre par des narcotrafiquants, ce …",
       "sources": [
         "AFP via MSN — fiabilité 7/10",
-        "Yahoo Actualités — fiabilité 6/10"
+        "Yahoo Actualités — fiabilité 6/10",
+        "France 24 (média public) — fiabilité 8/10"
       ],
       "url": "https://www.msn.com/fr-fr/actualite/monde/bolivie-arrestation-du-procureur-général-dans-le-collimateur-de-washington/ar-AA2dk3B0",
-      "published_at": "2026-10-01T03:55:00+02:00",
+      "published_at": "2026-10-01T05:48:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
@@ -47297,6 +47299,7 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -48436,6 +48439,89 @@
       "published_at": "2026-10-01T03:42:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le président Donald Trump (États-Unis) dément avoir offert des concessions à l’Iran. Le président américain a démenti sur son réseau social avoir proposé à Téhéran une levée des sanctions et un dégel de fonds en échange de propositions concrètes sur le programme nucléaire, information …",
+      "sources": [
+        "La Nouvelle Tribune via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/trump-dément-avoir-offert-des-concessions-à-l-iran/ar-AA2dlmwr",
+      "published_at": "2026-10-01T07:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les banques britanniques s'effondrent alors que les rendements des obligations d'Etat atteignent leur plus haut niveau depuis 1998, et la nervosité budgétaire s'accentue. Les actions bancaires britanniques ont fortement chuté jeudi, alors que les coûts d'emprunt britanniques à 30 ans ont atteint leur plus haut niveau depuis 1998, alors que la nervosité grandissait à propos des finances britanniques et de la vulnérabilité aux prix élevés du pétrole et…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/finance/uk-banks-tumble-gilt-yields-hit-highest-sine-1998-budget-jitters-mount-2026-10-01/",
+      "published_at": "2026-10-01T09:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La plupart des centres de données refusent toujours de divulguer la quantité d’eau et d’électricité qu’ils consomment. De nombreux centres de données ne divulguent pas publiquement leur consommation d’énergie et d’eau, et l’UE rend difficile l’accès à ces données.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/science/articles/most-data-centers-still-refusing-123630411.html",
+      "published_at": "2026-10-01T07:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Possible interdiction américaine des exportations de diesel le président Donald Trump (États-Unis) pourrait faire bondir la facture des carburants au Canada. La Chambre de commerce du Canada (CCC) redoute les conséquences qu’aurait sur l’économie canadienne une interdiction américaine des exportations de diesel – une mesure avec laquelle jongle le présiden …",
+      "sources": [
+        "La Presse — fiabilité 6/10"
+      ],
+      "url": "https://www.lapresse.ca/affaires/economie/2026-10-01/possible-interdiction-americaine-des-exportations-de-diesel/trump-pourrait-faire-bondir-la-facture-des-carburants-au-canada.php",
+      "published_at": "2026-10-01T09:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ]
     },
     {
       "regions": [
