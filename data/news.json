@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:12:38.436317+02:00",
+  "generated_at": "2026-10-01T23:22:56.590823+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -53042,7 +53042,7 @@
         "BBC (média public) — fiabilité 8/10"
       ],
       "url": "https://www.bbc.com/audio/play/w3ct8g9w",
-      "published_at": "2026-10-01T15:32:00+02:00",
+      "published_at": "2026-10-01T15:55:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -53700,6 +53700,49 @@
       "published_at": "2026-10-01T22:45:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Poutine qualifie d'absurdes les propositions d'arrêt mutuel des grèves contre les navires et les raffineries de pétrole. Le dirigeant russe le président Vladimir Poutine (Russie) a qualifié d’absurde la proposition de ne pas frapper les navires ukrainiens si l’Ukraine s’abstient de frapper les raffineries de pétrole russes.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/putin-calls-proposals-mutual-halt-180000463.html",
+      "published_at": "2026-10-01T13:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les exportations de pétrole du Venezuela chutent de 9 % à cause des coûts de transport. Les exportations de pétrole du Venezuela ont chuté de près de 9 % en septembre, à 1,08 million de barils par jour, alors que la flambée des prix des pétroliers a obligé les commerçants à exiger des rabais plus importants et à retarder les cargaisons quittant le pays.",
+      "sources": [
+        "OilPrice.com — fiabilité 6/10"
+      ],
+      "url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Exports-Drop-9-as-Freight-Costs-Bite.html",
+      "published_at": "2026-10-01T16:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela"
+      ]
     },
     {
       "regions": [
