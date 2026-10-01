@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:41:54.483710+02:00",
+  "generated_at": "2026-10-01T22:52:07.612086+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -45042,7 +45042,8 @@
     {
       "regions": [
         "Amérique du Nord",
-        "International"
+        "International",
+        "Amérique du Sud"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -45050,12 +45051,14 @@
       "category": "Économie",
       "summary": "Les contrats à terme sur le Dow ont atteint leur plus bas niveau depuis trois mois alors que les rendements augmentent, les bénéfices de Micron offrent un soutien. 1er octobre (Reuters) - Les contrats à terme sur le Dow Jones ont chuté jeudi à leur plus bas niveau depuis plus de trois mois, les inquiétudes concernant l'inflation et la hausse de la dette publique ayant poussé les rendements du Trésor à des sommets de plusieurs décennies, tandis que l'explosion…",
       "sources": [
-        "Reuters via MSN — fiabilité 9/10"
+        "Reuters via MSN — fiabilité 9/10",
+        "Reuters — fiabilité 9/10"
       ],
       "url": "https://www.msn.com/en-us/money/economy/dow-futures-hit-three-month-low-as-yields-surge-micron-earnings-offer-support/ar-AA2dkPK5",
       "published_at": "2026-10-01T04:31:56+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -48878,7 +48881,8 @@
       "sources": [
         "Forbes — fiabilité 6/10",
         "ABC (Australian Broadcasting Corporation) — fiabilité 6/10",
-        "Le Dauphiné Libéré — fiabilité 6/10"
+        "Le Dauphiné Libéré — fiabilité 6/10",
+        "AOL — fiabilité 6/10"
       ],
       "url": "https://www.forbes.com/sites/conormurray/2026/10/01/renee-goods-family-sues-trump-administration-ice-agent-after-fatal-shooting/",
       "published_at": "2026-10-01T11:14:00+02:00",
@@ -50462,8 +50466,7 @@
     {
       "regions": [
         "Asie",
-        "Europe",
-        "International"
+        "Europe"
       ],
       "countries": [
         "Iran",
@@ -50472,7 +50475,7 @@
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 9,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Projet d’attaque contre une base militaire en Angleterre: Netanyahu dit avoir averti Londres. Israël avait averti les autorités britanniques que l’Iran planifiait une attaque contre une base britannique, a déclaré son dirigeant le Premier ministre Benjamin Netanyahu (Israël), s’offusquant que Londres ait malgré tout pris …",
       "sources": [
@@ -52184,7 +52187,7 @@
         "The New York Times — fiabilité 8/10"
       ],
       "url": "https://www.nytimes.com/2026/10/01/business/diesel-prices-us-exports.html",
-      "published_at": "2026-10-01T13:10:00+02:00",
+      "published_at": "2026-10-01T14:58:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -53142,6 +53145,231 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Budget 2027 : le Medef dénonce des hausses de taxes de « près de 20 milliards d'euros » pour les entreprises. Au moment où les taux d'intérêt de la dette française flambent, le gouvernement dévoile ce jeudi son projet de budget de l'Etat (PLF) et celui de la Sécurité sociale (PLFSS) pour 2027. Avec une volont …",
+      "sources": [
+        "Les Echos — fiabilité 6/10"
+      ],
+      "url": "https://www.lesechos.fr/economie-france/budget-fiscalite/direct-budget-2027-le-gouvernement-devoile-sa-copie-ce-jeudi-1er-octobre-sous-la-pression-des-marches-2254447",
+      "published_at": "2026-10-01T15:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Argentine, gouverner à la tronçonneuse. Le président argentin, Javier Milei, surnommé l’homme à la tronçonneuse, a taillé dans les dépenses publiques. Budget en excédent, inflation fortement réduite. Mais derrière ces résultats spectaculair …",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/argentine-gouverner-a-la-tronconneuse_8218639.html",
+      "published_at": "2026-10-01T15:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les rendements obligataires américains ont atteint leur plus haut niveau depuis 2002. Il est peu probable que les tendances à la hausse des rendements, notamment la guerre en Iran et les niveaux élevés de dette publique, se dissipent de sitôt.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/01/business/bond-yields-10-year-treasury.html",
+      "published_at": "2026-10-01T14:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Technologie",
+      "summary": "Le président Donald Trump (États-Unis) s'en prend à ses trois choix à la Cour suprême, affirmant qu'au moins les juges d'Obama et de Biden restent fidèles. Le président Trump a parlé de ses trois candidats à la Cour suprême dans une nouvelle interview, qualifiant leurs décisions sur des questions telles que ses tarifs douaniers de \"très décevantes\" après \"je leur ai donné la position d'un …",
+      "sources": [
+        "New York Post — fiabilité 6/10"
+      ],
+      "url": "https://nypost.com/2026/10/01/us-news/trump-goes-off-on-his-three-supreme-court-picks-says-at-least-obama-and-biden-judges-stay-loyal/",
+      "published_at": "2026-10-01T02:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "« Prêt à faire exploser sa pile » : comment Biden a presque coupé le Premier ministre Benjamin Netanyahu (Israël) à propos de Gaza (Palestine). Brett McGurk, qui était le principal conseiller pour le Moyen-Orient du président Joseph R. Biden Jr., a offert le premier compte rendu en salle des efforts américains pour gérer la guerre à Gaza.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/01/us/politics/mcgurk-biden-netanyahu-gaza.html",
+      "published_at": "2026-10-01T01:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Palestine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Élections : PSPP « ne comprend pas l’économie », dit Fréchette. La cheffe caquiste Christine Fréchette sera à Montréal et répondra aux questions d’Alec Castonguay à l'émission «Midi Info». Pour accéder à notre couverture en direct du jour 35 de la campagne, c'est …",
+      "sources": [
+        "ICI Radio-Canada — fiabilité 6/10"
+      ],
+      "url": "https://ici.radio-canada.ca/info/en-direct/1014522/elections-quebec-jour-36-campagne-1er-octobre-2026",
+      "published_at": "2026-10-01T05:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Canada accélère le transfert de 44 milliards de dollars de l'Alberta vers B . C. Oléoduc. Le premier ministre Carney a cité sa capacité à créer des emplois, à se diversifier en dehors des États-Unis en tant que partenaire commercial et à renforcer la position du Canada dans le secteur énergétique.",
+      "sources": [
+        "theprovince.com — fiabilité 6/10"
+      ],
+      "url": "https://theprovince.com/news/canada-proposed-44-billion-alberta-bc-oil-pipeline-project-national-interest",
+      "published_at": "2026-10-01T22:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Audio en vedette : MVP Dairy Allison Ryan reconnue comme leader émergente par National Dairy Shrine – Ohio (États-Unis) Ag Net. Allison Ryan, directrice du marketing et des communications de MVP Dairy dans l'ouest de l'Ohio, fait partie des i Allison Ryan, directrice du marketing et des communications de MVP Dairy dans l'ouest de l'Ohio, fait partie des premiers récipiendaires du National Dairy Shrine Emerging Leader Award. Elle parle avec Joel Penhorwood, de l'Ohio Ag Net, de sa carrière dans la communication laitière, reliant l'agriculture aux consommateurs, et",
+      "sources": [
+        "ocj.com — fiabilité 6/10"
+      ],
+      "url": "https://ocj.com/2026/10/featured-audio-mvp-dairys-allison-ryan-recognized-as-emerging-leader-by-national-dairy-shrine/",
+      "published_at": "2026-10-01T22:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Estonie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Estonie interdit le transit des céréales russes et bélarusses. Il s'agit d'une mesure préventive dans le sens où Moscou cherche actuellement de nouvelles voies d'exportation de grain après les attaques ukrainiennes contre des cibles le long de la mer Noire.",
+      "sources": [
+        "bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/fr/infos/suisse/l-estonie-interdit-le-transit-des-c-r-ales-russes-et-b-larusses-li.3620883",
+      "published_at": "2026-10-01T09:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Économie",
+      "summary": "Budget 2027 : « Nous n’avons pas été entendus », regrette Armateurs de France, qui insiste sur son poids dans l’économie. Le gouvernement a présenté ce jeudi 1er octobre son projet de loi de finance pour l’année prochaine, et le secteur maritime est mis à contribution. Ce qui n’est pas du goût d’Armateurs de France, une …",
+      "sources": [
+        "Ouest-France — fiabilité 6/10"
+      ],
+      "url": "https://www.ouest-france.fr/mer/budget-2027-nous-navons-pas-ete-entendus-regrette-armateurs-de-france-qui-insiste-sur-son-poids-dans-leconomie-beebc770-bd67-11f1-81a4-4fea3020cab7",
+      "published_at": "2026-10-01T11:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Dette : « La signature de la France est solide » sur les marchés, dit le ministre de l'Économie. La \"signature de la France est solide\", a estimé jeudi le ministre français de l'Économie Roland Lescure, lors de la présentation du projet de budget …",
+      "sources": [
+        "Europe 1 via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/finance/économie/dette-la-signature-de-la-france-est-solide-sur-les-marchés-dit-le-ministre-de-l-économie/ar-AA2dly0a",
+      "published_at": "2026-10-01T06:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
