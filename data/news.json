@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:51:41.005658+02:00",
+  "generated_at": "2026-10-01T10:01:53.282151+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -43688,6 +43688,125 @@
       "url": "https://www.barandbench.com/news/punjab-and-haryana-high-court-asks-punjab-to-take-steps-to-appoint-regular-dgp",
       "published_at": "2026-10-01T02:40:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’économie argentine trébuche. Ses obligations sont toujours attrayantes. Continuez à publier des obligations de Paramount avec un rendement de 9 % avant une vente massive de dettes. Est-il temps d’acheter ? Paramount Skydance vend environ 52 milliards de dollars de dettes pour financer son achat au comptant de Warner pour 81 milliards de dollars…",
+      "sources": [
+        "Barron's — fiabilité 6/10"
+      ],
+      "url": "https://www.barrons.com/articles/argentina-economy-bonds-f6a71569",
+      "published_at": "2026-10-01T02:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Contestation judiciaire du retrait des brumbies du parc national de Kosciuszko. Les tirs ont cessé pour le moment, mais un défenseur des brumby a lancé une action en justice pour interdire leur retrait du parc national de Kosciuszko.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/other/legal-challenge-to-removal-of-brumbies-from-kosciuszko-national-park/ar-AA2dk0nQ",
+      "published_at": "2026-10-01T02:03:24+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Parlement néo-zélandais a été dissous avant le vote serré de novembre. Le Parlement néo-zélandais a été dissous jeudi, marquant le début officiel de la campagne pour les élections nationales du mois prochain, qui s'annoncent comme une lutte serrée entre le parti au pouvoir…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/asia-pacific/new-zealand-parliament-dissolved-ahead-tight-november-vote-2026-10-01/",
+      "published_at": "2026-10-01T02:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Irak",
+        "Syrie",
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre au Moyen-Orient : l’Irak réclame le désarmement des factions pro-Iran ; cinq morts en Syrie. Le premier ministre irakien a annoncé fixer au 30 juin 2027 la date butoir pour le désarmement des factions pro-iraniennes. Cinq personnes ont été tuées lors d’une « attaque contre un bus » de transpo …",
+      "sources": [
+        "La Croix — fiabilité 6/10"
+      ],
+      "url": "https://www.la-croix.com/international/direct-guerre-iran-israel-usa-jour-111-moyen-orient-bilan-resume-aujourdhui-20261001",
+      "published_at": "2026-10-01T02:40:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le programme de migration un entrant, un sortant entre la Grande-Bretagne et la France a été abandonné : rapports. LONDRES, 30 septembre (Xinhua) -- Le gouvernement britannique a annulé l'accord migratoire « un entré, un sorti » avec la France sur la migration dans la Manche, ont rapporté les médias.",
+      "sources": [
+        "theuknews.com — fiabilité 6/10"
+      ],
+      "url": "http://www.theuknews.com/news/279343777/one-in-one-out-migrant-scheme-between-britain-france-scrappedreports",
+      "published_at": "2026-10-01T09:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Émirats arabes unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Vol flydubai: la justice des Émirats arabes unis annonce l’ouverture d’une enquête.",
+      "sources": [
+        "The Times of Israël — fiabilité 6/10"
+      ],
+      "url": "https://fr.timesofisrael.com/liveblog_entry/vol-flydubai-la-justice-des-emirats-arabes-unis-annonce-louverture-dune-enquete/",
+      "published_at": "2026-10-01T09:42:10+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
