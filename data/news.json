@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:38:42.762841+02:00",
+  "generated_at": "2026-10-01T20:48:59.437996+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -50457,8 +50457,7 @@
     {
       "regions": [
         "Asie",
-        "Europe",
-        "International"
+        "Europe"
       ],
       "countries": [
         "Iran",
@@ -50467,7 +50466,7 @@
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 9,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Projet d’attaque contre une base militaire en Angleterre: Netanyahu dit avoir averti Londres. Israël avait averti les autorités britanniques que l’Iran planifiait une attaque contre une base britannique, a déclaré son dirigeant le Premier ministre Benjamin Netanyahu (Israël), s’offusquant que Londres ait malgré tout pris …",
       "sources": [
@@ -51527,6 +51526,50 @@
       "content_enriched": true,
       "countries": [
         "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Argentine, la nouvelle bataille des Malouines. Javier Milei, le président argentin veut reprendre les iles Malouines aux Britanniques. Plus de 40 ans après la guerre entre les deux pays, la souveraineté sur cet archipel reste une cause nationale e …",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/monde/argentine/argentine-la-nouvelle-bataille-des-malouines_8218495.html",
+      "published_at": "2026-10-01T12:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La grève salariale en Libye rassemble les enseignants d'un pays divisé. En Libye, une grève des enseignants pour les salaires a entraîné la fermeture d'écoles et retardé la rentrée scolaire, rassemblant les éducateurs de ce pays riche en pétrole mais politiquement divisé.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20261001-libya-s-pay-strike-rallies-teachers-across-divided-nation",
+      "published_at": "2026-10-01T00:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Libye"
       ]
     },
     {
