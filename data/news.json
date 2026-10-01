@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:36:46.034256+02:00",
+  "generated_at": "2026-10-01T13:46:58.949843+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -45631,12 +45631,12 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "countries": [
-        "Mexique",
-        "Chine"
+        "Chine",
+        "Mexique"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -45648,6 +45648,129 @@
       ],
       "url": "https://www.automobile-magazine.fr/economie-politique/article/53305-pour-ecouler-sa-production-chinoise-excessive-volkswagen-expedie-ses-modeles-vers-le-mexique",
       "published_at": "2026-10-01T13:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Quatre hommes arrêtés dans le cadre d'une enquête sur des abus de marché et libérés sans inculpation. L'enquête du Garda National Economic Crime Bureau fait suite à un renvoi officiel de la Banque centrale d'Irlande…",
+      "sources": [
+        "Irish Examiner via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ie/money/financial-regulation/four-men-arrested-in-market-abuse-investigation-released-without-charge/ar-AA2dlCo9",
+      "published_at": "2026-10-01T05:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irlande"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Cour suprême demande la réponse du Bengale occidental au plaidoyer contestant l'invalidation des certificats OBC délivrés en 2025-2026. La Cour suprême a demandé jeudi au gouvernement du Bengale occidental de déposer sa réponse à un plaidoyer contestant une décision de la Haute Cour de Calcutta déclarant Autres Backw …",
+      "sources": [
+        "Bar and Bench — fiabilité 6/10"
+      ],
+      "url": "https://www.barandbench.com/news/litigation/supreme-court-seeks-west-bengals-reply-on-plea-challenging-invalidation-of-obc-certificates-issued-in-2025-26",
+      "published_at": "2026-10-01T06:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "TotalEnergies va investir 10 milliards de dollars en Argentine, a annoncé son PDG Pouyanne. La société pétrolière française TotalEnergies envisage d'investir 10 milliards de dollars en Argentine, a déclaré son directeur général Patrick Pouyanne jeudi lors d'une conférence à Paris.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/totalenergies-invest-10-billion-argentina-ceo-pouyanne-says-2026-10-01/",
+      "published_at": "2026-10-01T06:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "L’Iran se prépare à des représailles plus sévères en cas d’attaque, alors que la diplomatie fait face à de grandes difficultés. L'Iran prépare une réponse plus large et plus énergique si les États-Unis reprennent leurs attaques militaires à grande échelle, ont indiqué des sources, w… Leggi …",
+      "sources": [
+        "Internazionale — fiabilité 6/10"
+      ],
+      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/01/iran-readies-harder-retaliation-if-attacked-as-diplomacy-faces-long-odds",
+      "published_at": "2026-10-01T06:17:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Tchad"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Tchad : l’étau se resserre sur le club Foullah Edifice FC et son dirigeant Ibrahim Wanglaouna. © (DR) La Fédération tchadienne de football, dans un communiqué du 30 septembre 2026, confirme les sanctions financières et disciplinaires de club Foullah Edifice FC et Ibrahim Wanglaouna Foullah.",
+      "sources": [
+        "Journal du Tchad via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/tchad-l-étau-se-resserre-sur-le-club-foullah-edifice-fc-et-son-dirigeant-ibrahim-wanglaouna/ar-AA2dlbo3",
+      "published_at": "2026-10-01T06:16:37+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Kazakhstan"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Kazakhstan : un colloque à Paris décrypte sa stratégie de puissance moyenne. Au cœur d’une Eurasie traversée par les rivalités entre grandes puissances, le Kazakhstan tente de faire de sa géographie, de ses ressources et de sa diplomatie multivectorielle des instruments d’infl …",
+      "sources": [
+        "La Presse Turquoise via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/kazakhstan-un-colloque-à-paris-décrypte-sa-stratégie-de-puissance-moyenne/ar-AA2dk1TZ",
+      "published_at": "2026-10-01T00:11:05+02:00",
       "origin": "rss",
       "content_enriched": true
     },
