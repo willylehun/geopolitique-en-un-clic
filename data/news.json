@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T03:21:59.773613+02:00",
+  "generated_at": "2026-10-01T03:32:12.392434+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -872,10 +872,10 @@
       ],
       "countries": [
         "Ghana",
-        "Nigeria",
         "Ouganda",
         "Zambie",
-        "Kenya"
+        "Kenya",
+        "Nigeria"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
