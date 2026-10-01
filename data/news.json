@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:26:53.890898+02:00",
+  "generated_at": "2026-10-01T19:37:09.098678+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -49860,7 +49860,8 @@
       "category": "Géopolitique",
       "summary": "La Cour suprême accepte de revoir la politique de l'ICE refusant les audiences aux immigrants. La Cour suprême des États-Unis a annoncé jeudi qu'elle avait accepté de réexaminer une politique de l'administration du président Donald Trump (États-Unis) visant à ce que les autorités américaines de l'immigration et des douanes refusent les audiences de cautionnement pour les immigrants dans le cadre de…",
       "sources": [
-        "Yahoo — fiabilité 6/10"
+        "Yahoo — fiabilité 6/10",
+        "AOL — fiabilité 6/10"
       ],
       "url": "https://www.yahoo.com/news/us/articles/supreme-court-agrees-review-ice-151851636.html",
       "published_at": "2026-10-01T10:18:00+02:00",
@@ -50157,7 +50158,8 @@
       "category": "Économie",
       "summary": "Attijariwafa Bank signe un accord pour acquérir 55, 22 % de Société Générale Ghana. Attijariwafa Bank rachète 55,22% du capital, tandis que l’organisme ghanéen de sécurité sociale SSNIT …",
       "sources": [
-        "atlasinfo.fr — fiabilité 6/10"
+        "atlasinfo.fr — fiabilité 6/10",
+        "Atlasinfo — fiabilité 6/10"
       ],
       "url": "https://atlasinfo.fr/attijariwafa-bank-signe-un-accord-pour-acquerir-5522-de-societe-generale-ghana.html",
       "published_at": "2026-10-01T18:45:00+02:00",
@@ -50321,6 +50323,234 @@
       ],
       "url": "https://www.motherjones.com/politics/2026/10/samuel-alito-supreme-court-recusal-suncor-boulder-climate-fossil-fuel-oil-stocks-ethics/",
       "published_at": "2026-10-01T11:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les constructeurs automobiles iraniens à leur tour placés sur la liste noire de Washington. Les États-Unis ont à nouveau durci jeudi 1er octobre leur régime de sanctions contre l'Iran en plaçant sur leur liste noire les principaux constructeurs automobiles du pays, la compagnie …",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/fr/en-bref/20261001-les-constructeurs-automobiles-iraniens-à-leur-tour-placés-sur-la-liste-noire-de-washington",
+      "published_at": "2026-10-01T00:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "La dette des États flambe sur fond de crise énergétique et d'inflation. La dette des États flambe un peu partout dans le monde. Cette tension sur le marché traduit l'inquiétude des investisseurs quant à la capacité des pays à réduire leurs déficits publics. La France est …",
+      "sources": [
+        "Radio France Internationale via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/finance/économie/la-dette-des-états-flambe-sur-fond-de-crise-énergétique-et-d-inflation/ar-AA2dmeiw",
+      "published_at": "2026-10-01T10:45:44+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Énergie",
+      "summary": "La Corée à Trump : nous ne finançons pas encore votre pipeline en Alaska. Le gouvernement coréen a démenti jeudi matin avoir finalisé un investissement pour un projet de gaz naturel en Alaska, au point mort depuis longtemps, moins de 24 heures après que le président Donald Trump (États-Unis) a tenté d'aider à relancer…",
+      "sources": [
+        "Politico — fiabilité 8/10"
+      ],
+      "url": "https://www.politico.com/news/2026/10/01/korea-to-trump-we-arent-funding-your-alaska-pipeline-yet-01103594",
+      "published_at": "2026-10-01T12:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le centre de contrôle des visiteurs WH de Trump fait face au vote final. L'administration du président Donald Trump (États-Unis) cherche jeudi à obtenir l'approbation finale pour un centre permanent de contrôle des visiteurs à la Maison Blanche qui remplacerait les caravanes et les tentes temporaires, améliorerait la sécurité et…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trumps-wh-visitor-screening-center-165219045.html",
+      "published_at": "2026-10-01T11:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Le secrétaire d'État demande aux fonctionnaires d'envisager des « plans d'urgence » concernant le budget. La semaine dernière, Sir Chris Bryant a déclaré que l'accord de 1,5 milliard de livres sterling sur trois ans était \"l'offre finale\" et avait donné aux parties une date limite de jeudi.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/cw05r58v1zgro",
+      "published_at": "2026-10-01T11:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les exportations de pétrole du Venezuela ont diminué en septembre en raison des taux de fret élevés, selon les données. Les exportations de pétrole du Venezuela ont diminué à 1,08 million de barils par jour (b/j) en septembre, contre 1,19 million de b/j le mois précédent, les commerçants faisant pression sur la société d'État PDVSA pour obtenir des réductions de prix afin de compenser la hausse…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/venezuelas-oil-exports-down-sep-amid-high-freight-rates-data-shows-2026-10-01/",
+      "published_at": "2026-10-01T12:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "countries": [
+        "Iran",
+        "Israël",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Projet d’attaque contre une base militaire en Angleterre: Netanyahu dit avoir averti Londres. Israël avait averti les autorités britanniques que l’Iran planifiait une attaque contre une base britannique, a déclaré son dirigeant le Premier ministre Benjamin Netanyahu (Israël), s’offusquant que Londres ait malgré tout pris …",
+      "sources": [
+        "7sur7.be — fiabilité 6/10"
+      ],
+      "url": "https://www.7sur7.be/monde/projet-dattaque-contre-une-base-militaire-en-angleterre-netanyahu-dit-avoir-averti-londres~a45bc39f/",
+      "published_at": "2026-10-01T00:07:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Burkina Faso"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Défense au Burkina Faso : 250 milliards FCFA collectés en neuf mois par le Fonds de soutien patriotique. Le Fonds de soutien patriotique (FSP) a mobilisé 250 158 437 479 FCFA au 29 septembre 2026, soit 125,08 % de taux de réalisation pour un objectif annuel de 200 milliards FCFA. Ces chiffres ont été présentés le 30 septembre à Ouagadougou par le Premier ministre, Rimtalba Jean Emmanuel Ouédraogo lors",
+      "sources": [
+        "La Nouvelle Tribune — fiabilité 6/10"
+      ],
+      "url": "https://lanouvelletribune.info/2026/10/defense-au-burkina-faso-250-milliards-fcfa-collectes-en-neuf-mois-par-le-fonds-de-soutien-patriotique/",
+      "published_at": "2026-10-01T13:30:12+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Burundi",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "États-Unis : Washington pourra désormais expulser des migrants vers le Burundi. La Cour suprême américaine a autorisé mardi l’administration du président Donald Trump (États-Unis) à reprendre provisoirement les expulsions de migrants vers des pays tiers. Dans le même temps, le Burundi a annoncé rejoindre ce disp …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/etats-unis-washington-pourra-desormais-expulser-des-migrants-vers-le-burundi-20261001",
+      "published_at": "2026-10-01T10:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Ghana"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Société Générale entame le processus de cession de sa filiale au Ghana à Attijariwafa Bank. Société Générale a conclu un accord pour céder sa participation de 60,22 % dans sa filiale ghanéenne. Attijariwafa bank doit acquérir …",
+      "sources": [
+        "Agence Ecofin — fiabilité 6/10"
+      ],
+      "url": "https://www.agenceecofin.com/actualites-finance/0110-142059-societe-generale-entame-le-processus-de-cession-de-sa-filiale-au-ghana-a-attijariwafa-bank",
+      "published_at": "2026-10-01T10:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Ghana"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Économie",
+      "summary": "Attijariwafa Bank va prendre le contrôle de Société Générale Ghana. Attijariwafa Bank va reprendre 55,22% de Société Générale Ghana, tandis que le SSNIT acquerra 5%. Les détails à retenir.",
+      "sources": [
+        "lebrief — fiabilité 6/10"
+      ],
+      "url": "https://www.lebrief.ma/attijariwafa-bank-va-prendre-le-controle-de-societe-generale-ghana-100167954/",
+      "published_at": "2026-10-01T09:14:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
