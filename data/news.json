@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:43:29.050562+02:00",
+  "generated_at": "2026-10-01T23:53:44.321044+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -50350,7 +50350,8 @@
       "sources": [
         "Radio France Internationale — fiabilité 6/10",
         "7sur7.be — fiabilité 6/10",
-        "L'Orient-Le Jour — fiabilité 6/10"
+        "L'Orient-Le Jour — fiabilité 6/10",
+        "DH Les Sports+ — fiabilité 6/10"
       ],
       "url": "https://www.rfi.fr/fr/en-bref/20261001-les-constructeurs-automobiles-iraniens-à-leur-tour-placés-sur-la-liste-noire-de-washington",
       "published_at": "2026-10-01T14:28:00+02:00",
@@ -53386,7 +53387,8 @@
       "category": "Géopolitique",
       "summary": "Lara Trump a déclaré que la guerre en Iran pourrait coûter aux républicains les élections de mi-mandat. Voici comment le président a répondu. Un membre de la famille Trump a évoqué un risque que la Maison Blanche a largement cherché à minimiser : la guerre en Iran pourrait coûter aux Républicains les élections de mi-mandat.",
       "sources": [
-        "Insider — fiabilité 6/10"
+        "Insider — fiabilité 6/10",
+        "Yahoo — fiabilité 6/10"
       ],
       "url": "https://www.businessinsider.com/donald-trump-iran-war-lara-trump-2026-10",
       "published_at": "2026-10-01T15:47:00+02:00",
@@ -53994,6 +53996,190 @@
       "url": "https://www.alwihdainfo.com/fermeture-de-lambassade-dethiopie-en-erythree-sur-fond-de-tensions-diplomatiques/",
       "published_at": "2026-10-01T23:15:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Impôts sur le revenu 2027 : avec le nouveau barème indexé sur l'inflation, allez-vous changer de tranche d'imposition ?. Le barème de l'impôt sur le revenu 2027 devrait être revalorisé de 2,1 %. Si le taux d'imposition de chaque tranche ne change pas, les différents seuils de celles-ci évoluent. Vérifiez votre nouvelle …",
+      "sources": [
+        "Les Echos — fiabilité 6/10"
+      ],
+      "url": "https://www.lesechos.fr/patrimoine/impots/impots-sur-le-revenu-2027-avec-le-nouveau-bareme-indexe-sur-linflation-allez-vous-changer-de-tranche-dimposition-2254581",
+      "published_at": "2026-10-01T11:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Srinivas élu au conseil d'administration de l'Association indienne des agences de publicité – AAAI. Commentant sa réélection, Srinivas a déclaré : « C'est un immense honneur d'être réélu au conseil d'administration de l'AAAI et d'avoir l'opportunité de servir aux côtés de certains des dirigeants expérimentés de…",
+      "sources": [
+        "Deccan Chronicle — fiabilité 6/10"
+      ],
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/srinivas-elected-to-the-board-of-advertising-agencies-association-of-india-aaai-1992420",
+      "published_at": "2026-10-01T16:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Herzog, d’Israël, qualifie les sanctions britanniques de « grave erreur », accusant le Royaume-Uni d’ingérence électorale. Le président israélien a accusé la Grande-Bretagne de s’ingérer dans la politique de son pays à l’approche d’élections au cours desquelles le Premier ministre Benjamin Netanyahu (Israël) brigue un autre mandat.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/israel-herzog-calls-british-sanctions-211544481.html",
+      "published_at": "2026-10-01T16:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le Trésor américain annonce des sanctions contre les industries ferroviaires et automobiles iraniennes. Parmi les entités ajoutées à la liste des ressortissants spécialement désignés du Bureau de contrôle des avoirs étrangers dans le cadre des nouvelles sanctions figure la Compagnie des chemins de fer de la République islamique d’Iran.",
+      "sources": [
+        "The Jerusalem Post via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/us-treasury-announces-sanctions-on-iranian-railway-automotive-industries/ar-AA2dndj6",
+      "published_at": "2026-10-01T16:05:38+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La crise sécuritaire en Bolivie met à l’épreuve le bouclier des Amériques de Trump. La Bolivie déploie des forces policières et militaires dans des zones stratégiques alors que le gouvernement se prépare à une éventuelle reprise des troubles, mettant en jeu le Bouclier des Amériques du président Donald Trump (États-Unis)… — par Andrew Powell …",
+      "sources": [
+        "Independent Journal Review — fiabilité 6/10"
+      ],
+      "url": "https://ijr.com/discover/bolivia-s-security-crisis-puts-trump-s-shield-of-the-americas-to-the-test-f964d89e",
+      "published_at": "2026-10-01T15:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Bolivie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "National dévoile un plan énergétique en neuf points pour lutter contre les factures d'électricité.",
+      "sources": [
+        "RNZ (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.rnz.co.nz/news/politics/1678906/national-unveils-nine-point-energy-plan-to-tackle-power-bills",
+      "published_at": "2026-10-01T16:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Don Farrell propose un investissement dans les retraites dans l'industrie américaine de l'agneau afin d'éviter davantage de droits de douane. Le ministre du Commerce, Don Farrell, demande à l'administration du président Donald Trump (États-Unis) d'envisager d'épargner aux éleveurs de moutons australiens les futurs droits de douane en échange d'investissements australiens dans l'industrie américaine de l'agneau.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+      ],
+      "url": "https://www.abc.net.au/news/2026-10-02/don-farrell-pitches-lamb-investment-to-avoid-tariffs/107219472",
+      "published_at": "2026-10-01T16:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Brésil",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Brésil Financement présumé de campagnes d'extrême droite par les États-Unis : une enquête demandée. Les autorités brésiliennes ont demandé jeudi à la police d'enquêter sur un supposé projet du gouvernement américain de destiner des fonds publics à la promotion d'un « agenda d'extrême droite » au Bré …",
+      "sources": [
+        "Le Dauphiné Libéré — fiabilité 6/10"
+      ],
+      "url": "https://www.ledauphine.com/politique/2026/10/01/financement-presume-de-campagnes-d-extreme-droite-par-les-etats-unis-une-enquete-demandee",
+      "published_at": "2026-10-01T15:40:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "République centrafricaine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "République centrafricaine : le gouvernement procède à une nouvelle hausse du prix des carburants à la pompe. Le litre de super passe de 1 050 à 1 150 Fcfa et le gasoil de 1 250 à 1 400 Fcfa pour les particuliers, tandis que les gros consommateurs paieront respectivement 1 500 et 1 650 Fcfa.",
+      "sources": [
+        "EcoMatin — fiabilité 6/10"
+      ],
+      "url": "https://ecomatin.net/republique-centrafricaine-le-gouvernement-procede-a-une-nouvelle-hausse-du-prix-des-carburants-a-la-pompe",
+      "published_at": "2026-10-01T13:32:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
