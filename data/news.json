@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T01:26:16.775729+02:00",
+  "generated_at": "2026-10-02T01:36:27.214120+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -603,8 +603,8 @@
       ],
       "countries": [
         "Égypte",
-        "Éthiopie",
-        "Afrique du Sud"
+        "Afrique du Sud",
+        "Éthiopie"
       ]
     },
     {
@@ -762,8 +762,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Océanie"
+        "Océanie",
+        "Asie"
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
@@ -774,8 +774,8 @@
         "Reuters"
       ],
       "countries": [
-        "Inde",
-        "Nouvelle-Zélande"
+        "Nouvelle-Zélande",
+        "Inde"
       ]
     },
     {
@@ -1062,8 +1062,8 @@
       ],
       "countries": [
         "Arménie",
-        "Iran",
-        "Russie"
+        "Russie",
+        "Iran"
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
@@ -1103,8 +1103,8 @@
         "International"
       ],
       "countries": [
-        "États-Unis",
-        "Bahamas"
+        "Bahamas",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
@@ -1300,9 +1300,9 @@
         "Asie"
       ],
       "countries": [
-        "Iran",
         "Oman",
-        "Bahreïn"
+        "Bahreïn",
+        "Iran"
       ],
       "period": "day",
       "bucket": "13 septembre 2026",
@@ -4901,8 +4901,8 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
         "Israël",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -6544,8 +6544,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -8524,8 +8524,8 @@
       "origin": "rss",
       "countries": [
         "Chine",
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -9379,8 +9379,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -9394,8 +9394,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
-        "Colombie"
+        "Colombie",
+        "Iran"
       ]
     },
     {
@@ -9648,8 +9648,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
-        "Israël"
+        "Israël",
+        "Iran"
       ]
     },
     {
@@ -14848,8 +14848,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -14866,8 +14866,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -15233,8 +15233,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Europe",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -15249,8 +15249,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "États-Unis",
-        "Bulgarie"
+        "Bulgarie",
+        "États-Unis"
       ]
     },
     {
@@ -15805,8 +15805,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -15821,8 +15821,8 @@
       "published_at": "2026-09-27T18:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ]
     },
     {
@@ -16006,8 +16006,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -16021,8 +16021,8 @@
       "published_at": "2026-09-27T18:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "États-Unis",
-        "Albanie"
+        "Albanie",
+        "États-Unis"
       ]
     },
     {
@@ -20371,8 +20371,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
         "Israël",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -20576,8 +20576,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -21215,8 +21215,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -21231,8 +21231,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -21539,8 +21539,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -21554,8 +21554,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ]
     },
     {
@@ -22575,8 +22575,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Israël"
+        "Israël",
+        "Iran"
       ]
     },
     {
@@ -22729,8 +22729,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Émirats arabes unis",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -25485,12 +25485,12 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "countries": [
-        "États-Unis",
-        "Pakistan"
+        "Pakistan",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -27036,8 +27036,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Qatar",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -27127,8 +27127,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Amérique du Sud",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -27144,8 +27144,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "États-Unis",
-        "Paraguay"
+        "Paraguay",
+        "États-Unis"
       ]
     },
     {
@@ -27983,8 +27983,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Amérique du Sud",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -28000,8 +28000,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "États-Unis",
-        "Paraguay"
+        "Paraguay",
+        "États-Unis"
       ]
     },
     {
@@ -28892,10 +28892,10 @@
       "content_enriched": true,
       "countries": [
         "Chine",
-        "Iran",
         "Russie",
-        "États-Unis",
-        "Pakistan"
+        "Iran",
+        "Pakistan",
+        "États-Unis"
       ]
     },
     {
@@ -29067,8 +29067,8 @@
         "International"
       ],
       "countries": [
-        "Iran",
         "Qatar",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -30199,12 +30199,12 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "countries": [
-        "États-Unis",
-        "Albanie"
+        "Albanie",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -30425,8 +30425,8 @@
         "Asie"
       ],
       "countries": [
-        "Inde",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Inde"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -30448,8 +30448,8 @@
         "International"
       ],
       "countries": [
-        "Iran",
         "Qatar",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -30551,8 +30551,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Océanie",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -30568,8 +30568,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Inde",
-        "Nouvelle-Zélande"
+        "Nouvelle-Zélande",
+        "Inde"
       ]
     },
     {
@@ -31460,9 +31460,9 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Océanie",
         "Amérique du Sud",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -31478,9 +31478,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Canada",
         "Nouvelle-Zélande",
-        "Pérou"
+        "Pérou",
+        "Canada"
       ]
     },
     {
@@ -31506,8 +31506,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Afrique"
+        "Afrique",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -31522,8 +31522,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "États-Unis",
-        "Afrique du Sud"
+        "Afrique du Sud",
+        "États-Unis"
       ]
     },
     {
@@ -31682,9 +31682,9 @@
         "Asie"
       ],
       "countries": [
-        "Iran",
         "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Iran"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -31745,8 +31745,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -31762,8 +31762,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ]
     },
     {
@@ -32008,8 +32008,8 @@
         "International"
       ],
       "countries": [
-        "Iran",
         "Israël",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -32043,9 +32043,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Malaisie",
-        "Bahreïn"
+        "Bahreïn",
+        "Iran"
       ]
     },
     {
@@ -33014,8 +33014,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Océanie"
+        "Océanie",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33031,8 +33031,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "États-Unis",
-        "Nauru"
+        "Nauru",
+        "États-Unis"
       ]
     },
     {
@@ -33605,12 +33605,12 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Afrique"
+        "Afrique",
+        "Amérique du Nord"
       ],
       "countries": [
-        "États-Unis",
-        "Afrique du Sud"
+        "Afrique du Sud",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33828,8 +33828,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "États-Unis",
-        "Panama"
+        "Panama",
+        "États-Unis"
       ]
     },
     {
@@ -34202,8 +34202,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Émirats arabes unis",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -36040,8 +36040,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Afrique"
+        "Afrique",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -36056,8 +36056,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "États-Unis",
-        "Afrique du Sud"
+        "Afrique du Sud",
+        "États-Unis"
       ]
     },
     {
@@ -36546,8 +36546,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -36567,8 +36567,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -36611,8 +36611,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -36627,14 +36627,14 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ]
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -36649,8 +36649,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ]
     },
     {
@@ -36778,8 +36778,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -36794,8 +36794,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ]
     },
     {
@@ -36816,8 +36816,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Venezuela",
-        "Colombie"
+        "Colombie",
+        "Venezuela"
       ]
     },
     {
@@ -37451,8 +37451,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -37467,8 +37467,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ]
     },
     {
@@ -37718,12 +37718,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -37974,8 +37974,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -37992,8 +37992,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -38282,8 +38282,8 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
         "Amérique du Sud",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -38300,8 +38300,8 @@
       "content_enriched": true,
       "countries": [
         "Chine",
-        "États-Unis",
-        "Uruguay"
+        "Uruguay",
+        "États-Unis"
       ]
     },
     {
@@ -38344,11 +38344,11 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Inde",
-        "Iran",
         "Israël",
         "Qatar",
         "Égypte",
+        "Inde",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -38857,8 +38857,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Israël",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -38950,12 +38950,12 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Afrique"
+        "Afrique",
+        "Amérique du Nord"
       ],
       "countries": [
-        "États-Unis",
-        "Libéria"
+        "Libéria",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -39126,8 +39126,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -39142,8 +39142,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ]
     },
     {
@@ -39353,8 +39353,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -39370,8 +39370,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -39393,8 +39393,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Venezuela",
-        "Colombie"
+        "Colombie",
+        "Venezuela"
       ]
     },
     {
@@ -39559,8 +39559,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Israël"
+        "Israël",
+        "Iran"
       ]
     },
     {
@@ -39815,8 +39815,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -39833,8 +39833,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Russie",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -40006,13 +40006,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord"
       ],
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -40154,8 +40154,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -40170,14 +40170,14 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ]
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -40193,8 +40193,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -40554,8 +40554,8 @@
         "International"
       ],
       "countries": [
-        "Iran",
         "Israël",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -41286,8 +41286,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -41303,8 +41303,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -41600,13 +41600,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord"
       ],
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -41708,13 +41708,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord"
       ],
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -41760,14 +41760,14 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -41785,13 +41785,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord"
       ],
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -42003,13 +42003,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord"
       ],
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -42271,8 +42271,8 @@
         "Malaisie",
         "Turquie",
         "Vietnam",
-        "États-Unis",
-        "Pakistan"
+        "Pakistan",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -42371,12 +42371,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -42494,9 +42494,9 @@
         "Asie"
       ],
       "countries": [
+        "Israël",
         "Inde",
-        "Iran",
-        "Israël"
+        "Iran"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -42868,8 +42868,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Inde",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Inde"
       ]
     },
     {
@@ -43765,8 +43765,8 @@
       ],
       "countries": [
         "Irak",
-        "Iran",
-        "Syrie"
+        "Syrie",
+        "Iran"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -44716,8 +44716,8 @@
         "Asie"
       ],
       "countries": [
-        "Iran",
-        "Israël"
+        "Israël",
+        "Iran"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -45627,12 +45627,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -45873,9 +45873,9 @@
       "countries": [
         "Allemagne",
         "Chine",
-        "Inde",
         "Royaume-Uni",
         "Russie",
+        "Inde",
         "États-Unis"
       ]
     },
@@ -46157,9 +46157,9 @@
       "content_enriched": true,
       "countries": [
         "Chine",
+        "Israël",
         "Inde",
         "Iran",
-        "Israël",
         "États-Unis"
       ]
     },
@@ -48133,8 +48133,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Afrique",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -48151,8 +48151,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Égypte",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -49210,8 +49210,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -49227,8 +49227,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Canada",
-        "Chine"
+        "Chine",
+        "Canada"
       ]
     },
     {
@@ -49571,8 +49571,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Afrique",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -49589,8 +49589,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Égypte",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -49798,13 +49798,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord"
       ],
       "countries": [
-        "Iran",
         "Royaume-Uni",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -50472,9 +50472,9 @@
         "Europe"
       ],
       "countries": [
-        "Iran",
         "Israël",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -51504,8 +51504,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -51520,8 +51520,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ]
     },
     {
@@ -51687,8 +51687,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -51704,8 +51704,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Russie"
+        "Russie",
+        "Iran"
       ]
     },
     {
@@ -51731,8 +51731,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -51749,8 +51749,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Russie",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -52423,8 +52423,8 @@
       "content_enriched": true,
       "countries": [
         "Chine",
-        "Iran",
         "Russie",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -52631,8 +52631,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -52647,8 +52647,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ]
     },
     {
@@ -52678,9 +52678,9 @@
         "International"
       ],
       "countries": [
-        "Iran",
         "Oman",
-        "Yémen"
+        "Yémen",
+        "Iran"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -52943,12 +52943,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -52970,9 +52970,9 @@
         "International"
       ],
       "countries": [
-        "Iran",
         "Israël",
         "Palestine",
+        "Iran",
         "États-Unis"
       ],
       "period": "day",
@@ -53527,8 +53527,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran",
         "Israël",
+        "Iran",
         "États-Unis"
       ]
     },
@@ -53662,12 +53662,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
-        "Iran",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Iran"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
