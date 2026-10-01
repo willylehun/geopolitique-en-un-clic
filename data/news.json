@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:33:12.932151+02:00",
+  "generated_at": "2026-10-01T23:43:29.050562+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -50467,8 +50467,7 @@
     {
       "regions": [
         "Asie",
-        "Europe",
-        "International"
+        "Europe"
       ],
       "countries": [
         "Iran",
@@ -50477,7 +50476,7 @@
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 9,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Projet d’attaque contre une base militaire en Angleterre: Netanyahu dit avoir averti Londres. Israël avait averti les autorités britanniques que l’Iran planifiait une attaque contre une base britannique, a déclaré son dirigeant le Premier ministre Benjamin Netanyahu (Israël), s’offusquant que Londres ait malgré tout pris …",
       "sources": [
@@ -53697,10 +53696,11 @@
       "summary": "Environ 9 000 soldats américains se dirigent vers le Moyen-Orient au milieu de la guerre en Iran, selon un responsable. Il s’agirait d’une présence navale américaine inhabituellement élevée de plus de 20 000 marins et Marines et de centaines d’avions.",
       "sources": [
         "hertsad.co.uk — fiabilité 6/10",
-        "sthelensstar.co.uk — fiabilité 6/10"
+        "sthelensstar.co.uk — fiabilité 6/10",
+        "theargus.co.uk — fiabilité 6/10"
       ],
       "url": "https://www.hertsad.co.uk/news/national/26600496.around-9-000-us-troops-heading-middle-east-amid-iran-war-official-says/",
-      "published_at": "2026-10-01T23:00:00+02:00",
+      "published_at": "2026-10-01T23:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -53929,6 +53929,71 @@
       "url": "https://www.leparisien.fr/international/guerre-hybride-paix-hybride-paix-guerre-quelle-est-la-nature-reelle-de-laffrontement-entre-leurope-et-la-russie-aujourdhui-01-10-2026-JJ6INM5WNVG7XC4UJOWDYCRAJ4.php",
       "published_at": "2026-10-01T04:00:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Sénégal"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Accord Sénégal - Eni : Abdourahmane Diouf répond aux critiques : « Une accusation ne signifie rien ». Lors d’un petit-déjeuner de presse organisé ce jeudi au Musée des civilisations noires, le ministre de l’Énergie et du Pétrole, Dr El Hadji Abdourahmane Diouf, a été interpellé sur plusieur…",
+      "sources": [
+        "pressafrik.com — fiabilité 6/10"
+      ],
+      "url": "https://www.pressafrik.com/%E2%80%8BAccord-Senegal-Eni-Abdourahmane-Diouf-repond-aux-critiques-Une-accusation-ne-signifie-rien_a312425.html",
+      "published_at": "2026-10-01T23:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Opinion : Pourquoi U. S. Les démocrates ne peuvent pas empêcher les tarifs douaniers du président Donald Trump (États-Unis) au Canada. Eric Ham soutient que même si les démocrates récupéraient le Congrès au cours des prochains mandats de mi-mandat aux États-Unis, de profondes divisions au sein du caucus, la portée excessive de l’exécutif et l’impasse législative systémique pourraient empêcher un allègement tarifaire rapide pour le Canada.",
+      "sources": [
+        "bnnbloomberg.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/01/eric-ham-would-a-democractic-midterm-win-end-the-canada-us-trade-war/",
+      "published_at": "2026-10-01T23:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Érythrée",
+        "Éthiopie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Fermeture de lambassade d Éthiopie en Érythrée sur fond de tensions diplomatiques. L'Éthiopie a annoncé la fermeture de son ambassade à Asmara et l'expulsion de dix diplomates érythréens, invoquant des menaces directes contre sa sécurité nationale.",
+      "sources": [
+        "alwihdainfo.com — fiabilité 6/10"
+      ],
+      "url": "https://www.alwihdainfo.com/fermeture-de-lambassade-dethiopie-en-erythree-sur-fond-de-tensions-diplomatiques/",
+      "published_at": "2026-10-01T23:15:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
