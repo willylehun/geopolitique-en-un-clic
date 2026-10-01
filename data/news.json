@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:31:09.889499+02:00",
+  "generated_at": "2026-10-01T09:41:25.059467+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42540,7 +42540,7 @@
         "The Economic Times — fiabilité 6/10"
       ],
       "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-infosys-hdfc-bank-share-price-01-october-2026/liveblog/134606042.cms",
-      "published_at": "2026-10-01T01:26:00+02:00",
+      "published_at": "2026-10-01T02:34:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": []
@@ -43218,8 +43218,8 @@
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Russie"
+        "Russie",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -43454,6 +43454,202 @@
       "url": "https://www.msn.com/fr-ch/actualite/other/le-suisse-flashé-à-312-kmh-en-haute-savoie-pourrait-échapper-aux-sanctions/ar-AA2dkhZj",
       "published_at": "2026-10-01T02:03:29+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "« Ce ne serait pas du tout une bonne idée »: la présidente de la Banque centrale européenne Christine Lagarde (Union européenne) n'envisage pas de candidature à l'élection présidentielle. Interrogée sur une éventuelle candidature à l'élection présidentielle, Christine Lagarde a estimé dans le journal La Croix que \"ce ne serait pas du tout une bonne idée\" et qu'il ne s'agit pas du \"même …",
+      "sources": [
+        "BFMTV via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/ce-ne-serait-pas-du-tout-une-bonne-idée-christine-lagarde-n-envisage-pas-de-candidature-à-l-élection-présidentielle/ar-AA2djqLP",
+      "published_at": "2026-10-01T00:46:11+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "\"CNA explique : Pourquoi la Corée du Sud est-elle en colère contre l'Ukraine à propos de deux prisonniers de guerre nord-coréens ? » La Corée du Sud a demandé des excuses à l'Ukraine, affirmant que le président Volodymyr Zelensky (Ukraine)y avait violé un accord de secret en révélant que Kiev avait transféré deux soldats nord-coréens capturés vers …",
+      "sources": [
+        "CNA — fiabilité 7/10"
+      ],
+      "url": "https://www.channelnewsasia.com/east-asia/south-korea-ukraine-north-korea-prisoner-transfer-cna-explains-6420696",
+      "published_at": "2026-10-01T01:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Tempête parfaite » : un chiffre qui devrait terrifier tous les propriétaires, alors que deux experts prédisent une correction nationale des prix de l'immobilier pouvant atteindre 15 pour cent. Les sombres prévisions concernant le marché immobilier australien ont commencé en mai, lorsque Morgan Stanley a annoncé une correction nationale du prix de l’immobilier pouvant atteindre 10 pour cent.",
+      "sources": [
+        "news.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.news.com.au/finance/real-estate/buying/perfect-storm-figure-that-should-terrify-every-homeowner-as-two-experts-tip-a-national-house-price-correction-of-up-to-15-per-cent/news-story/a9c091e0ebe7e1e21ea91074515a41c1",
+      "published_at": "2026-10-01T01:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": []
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les appareils « à économie d'énergie » pourraient exploser et provoquer des incendies.",
+      "sources": [
+        "Oxford Mail — fiabilité 6/10"
+      ],
+      "url": "https://www.oxfordmail.co.uk/news/national/uk-today/26596600.energy-saving-devices-explode-cause-fires/",
+      "published_at": "2026-10-01T02:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Rockhopper Exploration insiste sur le fait que le champ pétrolifère au large des îles Falkland est sur la bonne voie malgré les menaces argentines. L'Argentine a menacé d'imposer des sanctions aux sociétés qui forent au large des îles Falkland. Le président Javier Milei a déclaré que le champ pétrolifère Sea Lion représentait un « danger clair et présent ».",
+      "sources": [
+        "This is Money via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/rockhopper-exploration-insists-oilfield-off-falkland-islands-is-on-track-despite-argentina-threats/ar-AA2djV3N",
+      "published_at": "2026-10-01T01:30:08+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les ménages ont mis en garde contre les gadgets « économes en énergie » à haut risque avant la hausse des prix. Les ménages ont été invités à ne pas acheter d'appareils dangereux prétendant réduire leurs factures d'électricité, car ils sont confrontés à une forte augmentation des coûts de l'énergie cet hiver.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/us/articles/households-warned-over-high-risk-060200099.html",
+      "published_at": "2026-10-01T01:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les entreprises australiennes augmentent leurs prix à mesure que l'interdiction des frais supplémentaires sur les cartes entre en vigueur. Les entreprises australiennes ont déclaré que l'interdiction des frais supplémentaires sur les cartes, entrée en vigueur jeudi, les obligerait à augmenter leurs prix, jetant le doute sur les affirmations du gouvernement selon lesquelles le changement réduirait le coût de la vie de…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/asia-pacific/australian-businesses-raise-prices-card-surcharge-ban-takes-effect-2026-10-01/",
+      "published_at": "2026-10-01T02:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "USA, élections de mi-mandat : le président Donald Trump (États-Unis) fait campagne… à plein régime en Alaska. Le président a également admis que son administration devait faire davantage pour communiquer sur ses réalisations et a annoncé que dans les semaines à venir…",
+      "sources": [
+        "notiziegeopolitiche.net — fiabilité 6/10"
+      ],
+      "url": "https://www.notiziegeopolitiche.net/usa-elezioni-di-midterm-trump-fa-campagna-elettoralea-tutto-gas-in-alaska/",
+      "published_at": "2026-10-01T09:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Espagne",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "En Espagne, Sánchez « demande pardon » au président Emmanuel le président Emmanuel Macron (France) après l’échec du traité d’amitié. La droite espagnole bloque la signature d'un traité d'amitié entre la France et l'Espagne voulu par les deux dirigeants …",
+      "sources": [
+        "20 Minutes — fiabilité 6/10"
+      ],
+      "url": "https://www.20minutes.fr/politique/4250286-20261001-espagne-sanchez-demande-pardon-macron-apres-echec-traite-amitie",
+      "published_at": "2026-10-01T08:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Portugal"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Cristiano Ronaldo : il prend sa retraite avec le Portugal et promet des explications, quelles sanctions ?. La star portugaise Cristiano Ronaldo a décidé de prendre sa retraite internationale avec fracas en raison d'un conflit avec Jorge Jésus, le nouveau sélectionneur.",
+      "sources": [
+        "Linternaute.com — fiabilité 6/10"
+      ],
+      "url": "https://www.linternaute.com/sport/foot/11306517-cristiano-ronaldo-il-prend-sa-retraite-avec-le-portugal-et-promet-des-explications-quelles-sanctions/",
+      "published_at": "2026-10-01T02:10:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
