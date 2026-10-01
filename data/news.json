@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:01:53.282151+02:00",
+  "generated_at": "2026-10-01T10:12:05.671400+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23292,13 +23292,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Afrique",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Irak",
-        "Égypte"
+        "Égypte",
+        "Irak"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -26471,8 +26471,8 @@
         "International"
       ],
       "countries": [
-        "Syrie",
-        "Japon"
+        "Japon",
+        "Syrie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -33960,8 +33960,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -33978,8 +33978,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Irak",
         "France",
+        "Irak",
         "États-Unis"
       ]
     },
@@ -43193,7 +43193,8 @@
       "url": "https://www.msn.com/en-us/news/other/amazon-signs-20-year-nuclear-power-deal-with-constellation-unlocking-3-billion-investment-to-fuel-ai-induced-electricity-demand/ar-AA2dkfaL",
       "published_at": "2026-10-01T00:20:03+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -43751,8 +43752,8 @@
       ],
       "countries": [
         "Irak",
-        "Syrie",
-        "Iran"
+        "Iran",
+        "Syrie"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -43806,6 +43807,67 @@
       ],
       "url": "https://fr.timesofisrael.com/liveblog_entry/vol-flydubai-la-justice-des-emirats-arabes-unis-annonce-louverture-dune-enquete/",
       "published_at": "2026-10-01T09:42:10+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "La France dévoile les contours de son budget 2027 sur fond de dette record. Sans majorité claire à l'Assemblée nationale, Matignon et Bercy s'engagent dans une bataille difficile pour faire adopter le budget. View on euronews …",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/fr-ca/actualites/other/la-france-dévoile-les-contours-de-son-budget-2027-sur-fond-de-dette-record/ar-AA2dkEuT",
+      "published_at": "2026-10-01T02:52:05+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "«America. Gov», la nouvelle plateforme du gouvernement américain qui contredit le président Donald Trump (États-Unis). Le chatbot de l’application, alimenté par l’IA, avait notamment déclaré que l’élection de 2020, que Trump clame avoir remportée, n’avait pas fait l’objet de fraude. Un jour plus tard, il répond ne pas …",
+      "sources": [
+        "Libération — fiabilité 6/10"
+      ],
+      "url": "https://www.liberation.fr/international/amerique/americagov-la-nouvelle-plateforme-du-gouvernement-americain-qui-contredit-donald-trump-20261001_JUC4ZIFO55GWHA2BRD7LYEE5GQ/",
+      "published_at": "2026-10-01T02:49:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Climat: la fonte des glaciers s'accélère, nouvelle année \"catastrophique\" en Suisse. C'est une nouvelle année \"catastrophique\" pour les glaciers suisses, qui ont connu leur deuxième pire bilan annuel après 2022, portant à près de 20% la…",
+      "sources": [
+        "L'Avenir — fiabilité 6/10"
+      ],
+      "url": "https://www.lavenir.net/actu/monde/2026/10/01/climat-la-fonte-des-glaciers-saccelere-nouvelle-annee-catastrophique-en-suisse-3EHQAQ5UQJERPH5M5GEXX2BSU4/",
+      "published_at": "2026-10-01T08:34:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
