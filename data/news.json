@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:00:07.657217+02:00",
+  "generated_at": "2026-10-01T09:10:43.340530+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -43154,6 +43154,102 @@
       "url": "https://www.lorientlejour.com/article/1549299/neufs-civils-tues-dans-des-frappes-pakistanaises-dans-le-sud-de-lafghanistan.html",
       "published_at": "2026-10-01T02:01:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Becerra et Hilton s'embrouillent sur les impôts et le président Donald Trump (États-Unis) dans le débat du gouverneur de Californie. Xavier Becerra, secrétaire de cabinet de l’administration Biden, et Steve Hilton, ancien animateur de Fox News, rivalisent pour diriger l’État le plus peuplé du pays et l’une des plus grandes économies du monde.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/live/2026/09/30/us/california-governor-debate",
+      "published_at": "2026-10-01T00:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Énergie",
+      "summary": "Amazon signe un accord d'énergie nucléaire de 20 ans avec Constellation, débloquant un investissement de 3 milliards de dollars pour alimenter la demande d'électricité induite par l'IA. Mercredi, Amazon. Com, Inc. AMZN a signé un accord d'achat d'électricité de 20 ans avec Constellation Energy Corp. CEG pour obtenir l'énergie nucléaire de la centrale de Calvert Cliffs dans le Maryland, alors que la demande croissante d'IA…",
+      "sources": [
+        "Benzinga via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/amazon-signs-20-year-nuclear-power-deal-with-constellation-unlocking-3-billion-investment-to-fuel-ai-induced-electricity-demand/ar-AA2dkfaL",
+      "published_at": "2026-10-01T00:20:03+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement de Nouvelle-Galles du Sud intensifie la répression illégale des vélos électriques en vertu de nouvelles lois sur les saisies. Un certain nombre de vélos électriques illégaux ont été détruits et transformés en ferraille dans une installation de démolition de l'ouest de Sydney.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/other/nsw-government-ramps-up-illegal-e-bike-crackdown-under-new-seizure-laws/ar-AA2dkksT",
+      "published_at": "2026-10-01T01:53:29+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : des blessés à Kiev et Odessa après une nouvelle nuit d’attaques russes. Dans un bilan provisoire, la défense anti-aérienne ukrainienne affirmait avoir abattu ou neutralisé 254 drones, dont 146 à réaction, entre 6 h 30 et 18 h 30, mercredi.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/10/01/en-direct-guerre-en-ukraine-des-blesses-a-kiev-et-odessa-apres-une-nouvelle-nuit-d-attaques-russes_6783795_3210.html",
+      "published_at": "2026-10-01T01:59:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Intelligence artificielle : le nouveau chatbot du gouvernement américain cesse de contredire Trump sur la présidentielle de 2020. Lancé par l’administration du président Donald Trump (États-Unis), l’outil d’intelligence artificielle America. Gov a rapidement modifié ses réponses après avoir contredit le président américain sur le thème de la fraude éle …",
+      "sources": [
+        "Sud Ouest — fiabilité 6/10"
+      ],
+      "url": "https://www.sudouest.fr/international/intelligence-artificielle-le-nouveau-chatbot-du-gouvernement-americain-cesse-de-contredire-trump-sur-la-presidentielle-de-2020-30862190.php",
+      "published_at": "2026-10-01T01:50:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
