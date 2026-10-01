@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T02:41:00.280389+02:00",
+  "generated_at": "2026-10-01T02:51:15.515608+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -41722,10 +41722,11 @@
       "category": "Géopolitique",
       "summary": "Une forte indication que l'Iran a joué un rôle dans le complot terroriste présumé de Fairford, a déclaré le Premier ministre. Le Royaume-Uni travaille en étroite collaboration avec les États-Unis et les autorités ont la situation sous « la plus forte emprise », a insisté le Premier ministre.",
       "sources": [
-        "lancashiretelegraph.co.uk — fiabilité 6/10"
+        "lancashiretelegraph.co.uk — fiabilité 6/10",
+        "irvinetimes.com — fiabilité 6/10"
       ],
       "url": "https://www.lancashiretelegraph.co.uk/news/national/26596132.strong-indications-iran-played-role-suspected-fairford-terror-plot-pm-says/",
-      "published_at": "2026-10-01T01:00:00+02:00",
+      "published_at": "2026-10-01T02:30:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -41927,6 +41928,48 @@
       ],
       "url": "https://punchng.com/dangote-to-sell-500mw-excess-power-in-kenya/",
       "published_at": "2026-10-01T01:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Dairy Council of California (États-Unis) lance un nouveau produit éducatif Explore Nutrition pour aider les élèves du secondaire supérieur à découvrir l'alimentation, la santé et l'agriculture. De nouvelles leçons éducatives bilingues pour les 9 à 11 ans font leurs débuts pendant le Mois national de la ferme à l'école, incitant les élèves à explorer d'où viennent les aliments et comment ils favorisent une croissance et un apprentissage sains.",
+      "sources": [
+        "manilatimes.net — fiabilité 6/10"
+      ],
+      "url": "https://www.manilatimes.net/2026/10/01/tmt-newswire/globenewswire/dairy-council-of-california-launches-new-explore-nutrition-educational-product-to-help-upper-elementary-students-discover-food-health-and-agriculture/2436684",
+      "published_at": "2026-10-01T02:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Vietnam",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Made in Acadiana : Metal Shark s'apprête à construire 13 bateaux de patrouille pour le Vietnam. Metal Shark a remporté un contrat du gouvernement américain pour la construction de 13 bateaux de patrouille pour le Vietnam, élargissant ainsi un partenariat débuté en 2017.",
+      "sources": [
+        "acadiananewsfirst.com — fiabilité 6/10"
+      ],
+      "url": "https://www.acadiananewsfirst.com/2026/09/30/made-acadiana-metal-shark-set-build-13-patrol-boats-vietnam/",
+      "published_at": "2026-10-01T02:30:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
