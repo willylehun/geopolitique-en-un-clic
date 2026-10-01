@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:17:48.863936+02:00",
+  "generated_at": "2026-10-01T14:28:04.347778+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -368,8 +368,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Asie",
+        "Amérique du Sud",
         "Amérique du Nord",
         "International"
       ],
@@ -382,8 +382,8 @@
         "Reuters"
       ],
       "countries": [
-        "Venezuela",
         "Iran",
+        "Venezuela",
         "États-Unis"
       ]
     },
@@ -2945,12 +2945,12 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "Europe"
+        "Europe",
+        "Amérique du Sud"
       ],
       "countries": [
-        "Venezuela",
-        "Portugal"
+        "Portugal",
+        "Venezuela"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -28621,8 +28621,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Europe",
+        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -28638,8 +28638,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Venezuela",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Venezuela"
       ]
     },
     {
@@ -45730,9 +45730,10 @@
       "bucket": "1 octobre 2026",
       "score": 7,
       "category": "Géopolitique",
-      "summary": "L’Iran se prépare à des représailles plus sévères en cas d’attaque, alors que la diplomatie fait face à de grandes difficultés. L'Iran prépare une réponse plus large et plus énergique si les États-Unis reprennent leurs attaques militaires à grande échelle, ont indiqué des sources, w… Leggi …",
+      "summary": "L’Iran se prépare à des représailles plus sévères en cas d’attaque, alors que la diplomatie fait face à de grandes difficultés. L'Iran prépare une réponse plus large et plus énergique si les États-Unis reprennent leurs attaques militaires à grande échelle, ont indiqué des sources, tout en poursuivant une action diplomatique que les responsables iraniens voient en privé…",
       "sources": [
-        "Internazionale — fiabilité 6/10"
+        "Internazionale — fiabilité 6/10",
+        "Al-Monitor — fiabilité 6/10"
       ],
       "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/01/iran-readies-harder-retaliation-if-attacked-as-diplomacy-faces-long-odds",
       "published_at": "2026-10-01T06:17:00+02:00",
@@ -45874,12 +45875,13 @@
       "bucket": "1 octobre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Le Premier ministre Benjamin Netanyahu (Israël) : Israël a donné au Royaume-Uni des informations sur l’incident de Fairford. ISRAËL a donné à la Grande-Bretagne des renseignements sur un complot terroriste présumé près de la RAF Fairford, a affirmé Benjamin Netanyahu.",
+      "summary": "Le Premier ministre Benjamin Netanyahu (Israël) : Israël a donné au Royaume-Uni des informations sur l'incident de Fairford | Wilts et norme du Gloucestershire. ISRAËL a donné à la Grande-Bretagne des renseignements sur un complot terroriste présumé près de la RAF Fairford, a affirmé Benjamin Netanyahu.",
       "sources": [
-        "Swindon Advertiser — fiabilité 6/10"
+        "Swindon Advertiser — fiabilité 6/10",
+        "wiltsglosstandard.co.uk — fiabilité 6/10"
       ],
       "url": "https://www.swindonadvertiser.co.uk/news/26597814.benjamin-netanyahu-israel-gave-uk-intel-fairford-incident/",
-      "published_at": "2026-10-01T06:03:00+02:00",
+      "published_at": "2026-10-01T14:00:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -45993,6 +45995,7 @@
     {
       "regions": [
         "Afrique",
+        "Europe",
         "International"
       ],
       "countries": [
@@ -46161,7 +46164,7 @@
         "Reuters — fiabilité 9/10"
       ],
       "url": "https://www.reuters.com/world/china/us-sees-chinese-invasion-taiwan-unlikely-next-year-despite-2027-timeline-sources-2026-10-01/",
-      "published_at": "2026-10-01T06:18:00+02:00",
+      "published_at": "2026-10-01T06:49:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -46291,6 +46294,149 @@
       "url": "https://www.sikafinance.com/marches/gabon-7-mois-apres-avoir-accorde-3-permis-auriferes-a-un-prive-letat-rebat-les-cartes-au-profit-de-la-sem_64638",
       "published_at": "2026-10-01T06:03:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Maison Blanche diffuse une nouvelle publicité financée par les contribuables faisant l’éloge de la guerre du président Donald Trump (États-Unis) contre l’Iran. Une nouvelle publicité présente l'audio de la déclaration de guerre de Trump etle secrétaire à la Défense Pete Hegseth (États-Unis) disant \"si vous tuez des Américains… nous vous tuerons\"…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/us-news/2026/oct/01/trump-iran-war-ad-fox-taxpayers",
+      "published_at": "2026-10-01T07:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'événement s'est arrêté après des « abus » concernant les projets de spots de beauté. Un événement de consultation destiné aux résidents pour étudier les plans de restauration des sites de beauté s'est terminé prématurément en raison d'une manifestation et de « propos abusifs et incendiaires » sur les réseaux sociaux, ont indiqué les organisateurs. Étangs Cannop, à …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/event-stopped-abuse-over-beauty-114217205.html",
+      "published_at": "2026-10-01T06:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis demandent à la France et à l’Allemagne de libérer leurs stocks de diesel sous peine d’interdiction d’exportation américaine, selon des sources. L'administration Trump a demandé à « l'Allemagne et à la France de réduire leurs stocks de diesel d'urgence pour aider à abaisser les prix mondiaux du carburant ou à faire face à une éventuelle interdiction d'exportation de diesel par les États-Unis, selon à…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/",
+      "published_at": "2026-10-01T02:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne",
+        "France",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Constellation et Amazon concluent un accord d'achat d'électricité axé sur le nucléaire. Un accord d'achat d'électricité de 20 ans signé par le géant de la technologie Amazon permettra à Constellation d'ajouter 190 MW de capacité et de prolonger la durée d'exploitation de la centrale nucléaire de Calvert Cliffs dans le Maryland…",
+      "sources": [
+        "World Nuclear News — fiabilité 6/10"
+      ],
+      "url": "https://www.world-nuclear-news.org/articles/constellation-amazon-agree-nuclear-focused-power-purchase-deal",
+      "published_at": "2026-10-01T05:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe"
+      ],
+      "countries": [
+        "Sierra Leone"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’Europe suspend son aide à la Sierra Leone en raison du refus d’extrader le trafiquant de drogue néerlandais Bolle Jos. La Commission européenne a suspendu toute aide à la Sierra Leone en raison du refus du pays africain d’extrader le trafiquant de drogue néerlandais Jos Leijdekkers, a déclaré le ministre David van Weel de la Justice et de la Sécurité au Telegraaf.",
+      "sources": [
+        "nltimes.nl — fiabilité 6/10"
+      ],
+      "url": "https://nltimes.nl/2026/10/01/europe-stops-aid-sierra-leone-refusal-extradite-dutch-drug-fugitive-bolle-jos",
+      "published_at": "2026-10-01T14:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Afghanistan"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "AFGHANISTAN - KUNAR - FRAPPES AÉRIENNES PAKISTANIES. (261001) -- KUNAR, 1er octobre 2026 (Xinhua) -- cette photo prise le 1er octobre 2026 montre des personnes nettoyant les débris d'un village après une frappe aérienne à Kunar pro…",
+      "sources": [
+        "afghanistansun.com — fiabilité 6/10"
+      ],
+      "url": "http://www.afghanistansun.com/news/279345193/afghanistan-kunar-pakistani-airstrikes",
+      "published_at": "2026-10-01T14:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Bangladesh"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Bangladesh : loi ou désordre ?. Une affaire très médiatisée portée devant le Tribunal pénal international du Bangladesh a suscité de sérieuses inquiétudes. Le risque ? Que ces procédures apparaissent moins comme une justice impartiale que comme des représailles politiques, préviennent deux défenseurs des droits humains.",
+      "sources": [
+        "justiceinfo.net — fiabilité 6/10"
+      ],
+      "url": "https://www.justiceinfo.net/en/166290-bangladesh-law-or-disorder.html",
+      "published_at": "2026-10-01T14:00:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
