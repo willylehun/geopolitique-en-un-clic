@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:40:02.896631+02:00",
+  "generated_at": "2026-10-01T15:50:15.500265+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -30379,12 +30379,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "countries": [
-        "Finlande",
-        "Qatar"
+        "Qatar",
+        "Finlande"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -47387,6 +47387,63 @@
       ],
       "url": "https://icibeyrouth.com/dernieres-nouvelles/130030/finlande--le-premier-ministre-n-ecarte-pas-une-piste-etrangere-apres-des-intrusions-chez-des-elus",
       "published_at": "2026-10-01T07:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement français convoque une réunion de crise alors que certains blocages scolaires deviennent violents. Le Premier ministre français Sébastien Lecornu a convoqué une réunion d'urgence jeudi pour faire face au nombre croissant de manifestations étudiantes à travers le pays. Ce mouvement, né de la colère face à…",
+      "sources": [
+        "Politico Europe — fiabilité 8/10"
+      ],
+      "url": "https://www.politico.eu/article/france-government-crisis-meeting-student-school-blockade/",
+      "published_at": "2026-10-01T08:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Nourriture de l’arrière-pays, approvisionnement en eau étroitement surveillé – Mustapha. Le ministre de l'Agriculture, Zulfikar Mustapha, a déclaré mercredi que le gouvernement surveillait de près les approvisionnements alimentaires dans les communautés de l'arrière-pays alors que le phénomène El Niño se poursuit. Mustapha a dit une initiative…",
+      "sources": [
+        "News Room Guyana — fiabilité 6/10"
+      ],
+      "url": "https://newsroom.gy/2026/10/01/hinterland-food-water-supply-being-closely-monitored-mustapha/",
+      "published_at": "2026-10-01T08:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Lesotho",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les apprenants du Lesotho reçoivent des repas plus petits après la réduction de l'aide américaine par le président Donald Trump (États-Unis). Le gouvernement du Lesotho a repris le programme d'alimentation scolaire, ce qui a permis de réduire la quantité de nourriture",
+      "sources": [
+        "groundup.org.za — fiabilité 6/10"
+      ],
+      "url": "https://groundup.org.za/article/trumps-funding-cuts-have-shrunk-breakfast-portions-at-lesotho-schools/",
+      "published_at": "2026-10-01T07:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
