@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T17:23:28.747019+02:00",
+  "generated_at": "2026-10-01T17:33:45.323375+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -47767,10 +47767,11 @@
       "category": "Diplomatie",
       "summary": "Bolivie : enquête pour narcotrafic contre le procureur général arrêté après des sanctions américaines. Le gouvernement bolivien a annoncé jeudi avoir démantelé une organisation criminelle \"infiltrée\" dans la justice, au lendemain de l'arrestation du procureur général Roger Mariaca, intervenue après le …",
       "sources": [
-        "TV5MONDE - Informations — fiabilité 6/10"
+        "TV5MONDE - Informations — fiabilité 6/10",
+        "AFP via MSN — fiabilité 7/10"
       ],
       "url": "https://information.tv5monde.com/international/bolivie-enquete-pour-narcotrafic-contre-le-procureur-general-arrete-apres-des-sanctions-americaines-2839781",
-      "published_at": "2026-10-01T03:45:00+02:00",
+      "published_at": "2026-10-01T09:08:35+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -48704,6 +48705,93 @@
       "url": "https://www.msn.com/fr-xl/afrique-de-l-ouest/senegal-actualite/accord-sénégal-fmi-abdoulaye-diop-salue-un-signal-positif-pour-l-économie/ar-AA2dlhmE",
       "published_at": "2026-10-01T07:04:59+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le Canada va accélérer la mise en place d'un oléoduc conçu pour diversifier son économie loin des États-Unis. Le Canada accélérera le processus d'approbation d'un nouveau projet d'oléoduc d'exportation de pétrole brut vers sa côte ouest qui pourrait générer plus de 20 milliards de dollars canadiens (14 milliards de dollars) par an en PIB, a déclaré le Premier ministre Mark …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/canada-fast-track-oil-pipeline-designed-diversify-economy-away-us-2026-10-01/",
+      "published_at": "2026-10-01T10:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Pakistan lance une politique nationale de santé mentale 2026-2035. Le gouvernement affirme que cette politique se concentrera sur l'expansion des services de santé mentale dans les écoles, les soins de santé primaires et les communautés, avec…",
+      "sources": [
+        "arynews.tv — fiabilité 6/10"
+      ],
+      "url": "https://arynews.tv/pakistan-launches-national-mental-health-policy-2026-2035",
+      "published_at": "2026-10-01T17:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'Ukraine serait en train de reconquérir de vastes zones - mais ce n'est pas le point le plus important de « l'opération Vivaldi », selon un expert. La mission a révélé une évolution qui pourrait donner à l’Ukraine un avantage majeur dans la guerre contre la Russie, selon un expert.",
+      "sources": [
+        "jyllands-posten.dk — fiabilité 6/10"
+      ],
+      "url": "https://jyllands-posten.dk/international/ECE19688468/ukraine-er-meldt-i-gang-med-at-generobre-store-omraader-men-det-er-ikke-det-vigtigste-ved-operation-vivaldi-ifoelge-ekspert/?fp-exp=60730012&fp-alg=607300121",
+      "published_at": "2026-10-01T17:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump déclare que l’intensification des bombardements contre l’Iran est possible. \"le président Donald Trump (États-Unis) a déclaré que l'intensification des frappes militaires contre l'Iran était \"possible\" après les élections de mi-mandat de novembre, alors que son administration peine à trouver un plan de sortie d'une guerre actuellement en cours.",
+      "sources": [
+        "politicalwire.com — fiabilité 6/10"
+      ],
+      "url": "https://politicalwire.com/2026/10/01/trump-says-ramped-up-bombing-of-iran-possible/",
+      "published_at": "2026-10-01T17:00:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
