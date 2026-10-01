@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:00:30.813226+02:00",
+  "generated_at": "2026-10-01T16:10:49.308805+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -47295,7 +47295,6 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -47607,6 +47606,104 @@
       "url": "https://www.aa.com.tr/fr/afrique/onu-les-combats-se-poursuivent-en-rdc-malgré-les-accords-de-paix-l-épidémie-d-ebola-aggrave-la-crise/4074512",
       "published_at": "2026-10-01T05:47:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "La Syrie secouée par une explosion de gaz : trois centrales électriques fermées lors d'une deuxième attaque sur un pipeline en seulement 2 jours. L’explosion d’une conduite de gaz à la centrale électrique syrienne de Tishreen a contraint trois centrales électriques majeures – Deir Ali, Al-Nasiriya et Tishreen – à être mises hors service après l’arrêt de l’approvisionnement en gaz. L’électricité en Syrie…",
+      "sources": [
+        "The Times of India via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/syria-rocked-by-gas-blast-three-power-plants-shut-in-second-pipeline-attack-in-just-2-days/vi-AA2dkFTa",
+      "published_at": "2026-10-01T08:58:48+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Syrie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La CEC Gyanesh Kumar doit démissionner, déclare Abhijeet Dipke ; met en garde contre des manifestations à l’échelle nationale. Dipke a déclaré que le CJP organiserait une manifestation au parc Shivaji, dans le quartier de Dadar à Mumbai, le 2 octobre, pour faire pression en faveur de la démission de la CEC.",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/news/india/cec-gyanesh-kumar-must-resign-says-abhijeet-dipke-warns-of-country-wide-protests-14043071.html",
+      "published_at": "2026-10-01T00:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "AAP appelle le public à participer à la manifestation de Jantar Mantar contre Gandhi Jayanti. Le Parti Aam Aadmi (AAP) exhorte le public à se joindre à leur manifestation à Jantar Mantar contre Gandhi Jayanti. Lisez la suite pour plus de détails sur la démonstration, les horaires et les problèmes clés…",
+      "sources": [
+        "Outlook India — fiabilité 6/10"
+      ],
+      "url": "https://www.outlookindia.com/national/aap-appeals-to-public-to-reach-jantar-mantar-protest-on-gandhi-jayanti",
+      "published_at": "2026-10-01T00:14:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Israël",
+        "Palestine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L’isolement diplomatique grandissant d’Israël : le moyen pour l’Occident de freiner la colonisation de la Cisjordanie (Palestine) et l’anéantissement de Gaza. L’opprobre visant la politique de l’Etat hébreu, qui dépasse aujourd’hui largement les frontières du Moyen-Orient, et les menaces de sanctions économiques occidentales inquiètent les milieux économiqu …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/10/01/l-isolement-diplomatique-grandissant-d-israel-le-moyen-pour-l-occident-de-freiner-la-colonisation-de-la-cisjordanie-et-l-aneantissement-de-gaza_6786534_3210.html",
+      "published_at": "2026-10-01T09:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'Ukraine regagne du terrain dans l'Est par une contre-offensive. L'armée ukrainienne a regagné du terrain dans la région de Donetsk (Est) en septembre, selon l'analyse par l'AFP des données de l'Institut pour l'étude de la guerre (ISW).",
+      "sources": [
+        "bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/fr/infos/monde/l-ukraine-regagne-du-terrain-dans-l-est-par-une-contre-offensive-li.3620855",
+      "published_at": "2026-10-01T08:52:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
