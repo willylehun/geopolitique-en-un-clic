@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:45:43.601905+02:00",
+  "generated_at": "2026-10-01T18:55:59.083038+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -49996,6 +49996,87 @@
       "published_at": "2026-10-01T00:16:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Badenoch laisse la porte ouverte au soutien des conservateurs au budget du gouvernement Plaid. Kemi Badenoch s'est entretenu avec BBC Wales avant la conférence conservatrice [PA Media] Le chef conservateur Kemi Badenoch n'a pas exclu que les conservateurs gallois aident les ministres de Plaid Cymru à adopter la loi galloise…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/badenoch-leaves-door-open-tory-155945910.html",
+      "published_at": "2026-10-01T10:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'administration Trump commence à envoyer des chèques de remboursement Obamacare de 500 $ à près d'un million d'Américains. Les inscrits éligibles à HealthCare. Gov dans 30 États reçoivent des remboursements uniques après la collecte des frais excédentaires du marché.",
+      "sources": [
+        "Outlook India — fiabilité 6/10"
+      ],
+      "url": "https://www.outlookindia.com/international/trump-administration-starts-sending-500-obamacare-refund-checks-to-nearly-1-million-americans",
+      "published_at": "2026-10-01T04:14:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le juge met définitivement fin au procès contre l'olympien accusé de vandalisme au Reflecting Pool. Un juge de Washington DC a rejeté les poursuites pénales contre un ancien olympien accusé par l'administration du président Donald Trump (États-Unis) d'avoir vandalisé le Reflecting Pool. Le juge Todd Edelman a ordonné le procès contre…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/c68jdjw7mydeo",
+      "published_at": "2026-10-01T11:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La révision des troupes américaines de l'OTAN pour respecter la politique de « l'Amérique d'abord », a déclaré l'envoyé de l'OTAN. L'examen des troupes stationnées en Europe a été lancé après la montée des tensions à propos du refus de certains pays de l'OTAN aux troupes américaines d'accéder aux bases militaires pour les utiliser dans la guerre en Iran.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/us-nato-troop-review-respect-162951489.html",
+      "published_at": "2026-10-01T11:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
     },
     {
       "regions": [
