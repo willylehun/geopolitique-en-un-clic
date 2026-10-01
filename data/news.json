@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:09:07.316176+02:00",
+  "generated_at": "2026-10-01T15:19:22.544774+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -46981,6 +46981,85 @@
       "published_at": "2026-10-01T14:45:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le système d'approvisionnement en eau est un « désastre », déclare le chef adjoint des Verts. Rachel Millward affirme que son parti nationaliserait les compagnies des eaux pour mettre fin à des années de « sous-investissement radical ».",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/cm9w4wyw9g9yo",
+      "published_at": "2026-10-01T07:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "De retour près du président Donald Trump (États-Unis), Musk va plancher sur les futures guerres. Le patron de Tesla et de SpaceX va participer à un comité sous l'égide du ministère de la Défense.",
+      "sources": [
+        "Le Matin via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/actualite/other/de-retour-près-de-trump-musk-va-plancher-sur-les-futures-guerres/ar-AA2dkoDi",
+      "published_at": "2026-10-01T05:38:43+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Pilote Hero FlyDubai qui a riposté contre un attaquant identifié comme étant le capitaine indien Smit Machchhar. Le Premier ministre Benjamin Netanyahu (Israël) a salué l'héroïsme des passagers et du pilote d'un vol FlyDubai, affirmant que le groupe avait « empêché un autre 11 septembre » lorsque le pilote, le capitaine Machchhar, avait ouvert le …",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/live-news/flydubai-flight-hijacking-israel-tel-aviv-10-1-26",
+      "published_at": "2026-10-01T07:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le copilote de l'attaque au couteau en vol de FlyDubai était un islamiste radical omanais et endoctriné, a déclaré Netanyahu. Le Premier ministre Benjamin Netanyahu (Israël) a déclaré qu’il était prématuré d’identifier qui était responsable de la tentative déjouée d’écrasement d’un vol flydubai reliant Dubaï (Émirats arabes unis) à Tel Aviv. Les enquêtes sont en cours,…",
+      "sources": [
+        "Arab News — fiabilité 6/10"
+      ],
+      "url": "https://www.arabnews.com/middle-east/flydubai-mid-air-knife-attacking-co-pilot-was-omani-and-indoctrinated-radical-islamist-netanyahu-says-3004025",
+      "published_at": "2026-10-01T03:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Émirats arabes unis"
+      ]
     },
     {
       "regions": [
