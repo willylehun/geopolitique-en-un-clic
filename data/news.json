@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T01:49:49.293607+02:00",
+  "generated_at": "2026-10-01T02:00:03.419459+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -287,8 +287,8 @@
         "Reuters"
       ],
       "countries": [
-        "Arabie saoudite",
-        "Yémen"
+        "Yémen",
+        "Arabie saoudite"
       ]
     },
     {
@@ -980,8 +980,8 @@
         "Algérie",
         "Libye",
         "Mali",
-        "Émirats arabes unis",
-        "Soudan"
+        "Soudan",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "10 septembre 2026",
@@ -4900,8 +4900,8 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -6412,8 +6412,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6428,8 +6428,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Arabie saoudite",
-        "France"
+        "France",
+        "Arabie saoudite"
       ]
     },
     {
@@ -9356,8 +9356,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
-        "Liban"
+        "Liban",
+        "Israël"
       ]
     },
     {
@@ -9647,8 +9647,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
-        "Iran"
+        "Iran",
+        "Israël"
       ]
     },
     {
@@ -11693,8 +11693,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -11708,8 +11708,8 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
-        "Égypte"
+        "Égypte",
+        "Israël"
       ]
     },
     {
@@ -20370,8 +20370,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -22574,8 +22574,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
-        "Iran"
+        "Iran",
+        "Israël"
       ]
     },
     {
@@ -22728,8 +22728,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Iran",
+        "Émirats arabes unis",
         "États-Unis"
       ]
     },
@@ -23540,14 +23540,14 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Arabie saoudite",
-        "Israël",
         "Maroc",
         "Qatar",
+        "Arabie saoudite",
+        "Israël",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -29042,8 +29042,8 @@
         "Asie"
       ],
       "countries": [
-        "Arabie saoudite",
         "Pakistan",
+        "Arabie saoudite",
         "Iran"
       ],
       "period": "day",
@@ -31681,9 +31681,9 @@
         "Asie"
       ],
       "countries": [
+        "Iran",
         "Israël",
-        "Émirats arabes unis",
-        "Iran"
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -32007,8 +32007,8 @@
         "International"
       ],
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ],
       "period": "day",
@@ -34201,8 +34201,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Iran",
+        "Émirats arabes unis",
         "États-Unis"
       ]
     },
@@ -38344,10 +38344,10 @@
       "content_enriched": true,
       "countries": [
         "Inde",
-        "Israël",
         "Qatar",
         "Égypte",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -38856,8 +38856,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -39558,8 +39558,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
-        "Iran"
+        "Iran",
+        "Israël"
       ]
     },
     {
@@ -40553,8 +40553,8 @@
         "International"
       ],
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ],
       "period": "day",
