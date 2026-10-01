@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:07:56.334364+02:00",
+  "generated_at": "2026-10-01T20:18:11.918109+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23428,12 +23428,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "countries": [
-        "Italie",
-        "Koweït"
+        "Koweït",
+        "Italie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -30060,8 +30060,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Italie",
-        "France"
+        "France",
+        "Italie"
       ]
     },
     {
@@ -31909,8 +31909,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Italie",
-        "France"
+        "France",
+        "Italie"
       ]
     },
     {
@@ -41906,12 +41906,13 @@
       "bucket": "1 octobre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Lara Trump affirme que la guerre en Iran pourrait coûter à le président Donald Trump (États-Unis) les élections de mi-mandat. Lara Trump a déclaré que la guerre en Iran « pourrait coûter » à son beau-père, le président Donald Trump, les élections de mi-mandat, mais que cela en vaut la peine.",
+      "summary": "Trump a été confronté à la prédiction de Lara Trump selon laquelle l’Iran « pourrait lui coûter » les élections de mi-mandat. Le président Donald Trump (États-Unis) a adopté une position positive concernant l'impact de la guerre en Iran sur les prochaines élections de mi-mandat lorsqu'on l'a interrogé sur les sombres prédictions de sa belle-fille.",
       "sources": [
-        "wset.com — fiabilité 6/10"
+        "wset.com — fiabilité 6/10",
+        "Mediaite — fiabilité 6/10"
       ],
       "url": "https://wset.com/news/nation-world/lara-trump-says-iran-war-could-cost-donald-trump-the-midterms-nuclear-weapons-rnc-house-senate-gas-prices-republicans-strait-of-hormuz",
-      "published_at": "2026-10-01T01:30:00+02:00",
+      "published_at": "2026-10-01T08:59:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -46884,7 +46885,7 @@
         "France 24 (média public) — fiabilité 8/10"
       ],
       "url": "https://www.msn.com/fr-fr/actualite/monde/bolivie-arrestation-du-procureur-général-dans-le-collimateur-de-washington/ar-AA2dk3B0",
-      "published_at": "2026-10-01T05:48:00+02:00",
+      "published_at": "2026-10-01T09:08:35+02:00",
       "origin": "rss",
       "content_enriched": true
     },
@@ -50471,7 +50472,7 @@
         "7sur7.be — fiabilité 6/10"
       ],
       "url": "https://www.7sur7.be/monde/projet-dattaque-contre-une-base-militaire-en-angleterre-netanyahu-dit-avoir-averti-londres~a45bc39f/",
-      "published_at": "2026-10-01T00:07:00+02:00",
+      "published_at": "2026-10-01T05:22:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -50712,7 +50713,8 @@
       "url": "https://www.lesechos.fr/monde/ameriques/vous-allez-voir-un-veritable-miracle-javier-milei-en-operation-seduction-aupres-des-investisseurs-a-paris-2254622",
       "published_at": "2026-10-01T12:54:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -51154,6 +51156,252 @@
       ],
       "url": "https://www.mediapart.fr/journal/fil-dactualites/011026/la-finlande-enquete-sur-d-etranges-signes-d-intrusions-chez-des-deputes",
       "published_at": "2026-10-01T10:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Cristiano Ronaldo risque de lourdes sanctions après l’incident au camp du Portugal. L’attaquant d’Al-Nassr, Cristiano Ronaldo, risque une lourde sanction pour avoir quitté le rassemblement de l’équipe nationale du Portugal sans autorisation. Le footballeur de 41 ans a quitté le lieu …",
+      "sources": [
+        "Tribuna.com — fiabilité 6/10"
+      ],
+      "url": "https://tribuna.com/fr/news/2026-10-01-cristiano-ronaldo-risque-de-lourdes-sanctions-apres-lincident-au-camp-du-portugal/",
+      "published_at": "2026-10-01T01:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Portugal"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le partenaire de Renee Good s'exprime publiquement pour la première fois depuis sa mort. La famille de Renee Good a annoncé deux poursuites civiles contre le gouvernement américain et des membres de l'administration du président Donald Trump (États-Unis).",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/videos/cmd686wyp0pgo",
+      "published_at": "2026-10-01T12:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "De violentes manifestations étudiantes éclatent en France. Les manifestations étudiantes se sont étendues à toute la région parisienne, avec blocages d'écoles, heurts et gaz lacrymogènes. Les responsables affirment que des agitateurs extérieurs ont alimenté les troubles. (Vidéo : Reuters.) …",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6406044731112",
+      "published_at": "2026-10-01T11:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La Chine met en œuvre une loi révisée sur la mobilisation de la défense nationale. La Chine a mis en place une loi révisée sur la mobilisation de la défense nationale qui autorise l'utilisation de ressources civiles à des fins militaires si la sécurité du pays est menacée.",
+      "sources": [
+        "NHK (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www3.nhk.or.jp/nhkworld/news/20261002de53767/",
+      "published_at": "2026-10-01T13:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les États-Unis imposent de nouvelles sanctions aux secteurs iraniens de l’automobile, du rail et de l’acier.",
+      "sources": [
+        "Arab Times — fiabilité 6/10"
+      ],
+      "url": "https://www.arabtimesonline.com/news/us-imposes-new-sanctions-on-irans-auto-rail-and-steel-sectors/",
+      "published_at": "2026-10-01T02:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Énergie",
+      "summary": "Carney espère qu'un oléoduc pourra aider le Canada à mener une guerre commerciale. Un projet de pipeline sur la côte ouest est le premier à être accéléré et constituera un test majeur de la promesse de Carney envers les investisseurs mondiaux.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/cm7505q2v2pqo",
+      "published_at": "2026-10-01T12:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement fédéral inculpe 10 non-citoyens accusés de fraude électorale. WORLD est une organisation de presse produisant une couverture quotidienne bibliquement fondée de l'actualité mondiale, nationale et culturelle.",
+      "sources": [
+        "WORLD — fiabilité 6/10"
+      ],
+      "url": "https://wng.org/sift/feds-indict-10-noncitizens-for-voter-fraud-1790873543",
+      "published_at": "2026-10-01T12:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "« Prochaine étape : la production » : l’Ukraine a tiré son premier missile balistique FP-7 en situation de combat. L’armée ukrainienne a commencé à tirer ses premiers missiles balistiques FP-7. « Missile balistique tactique ukrainien. FP-7. Premier engagement au combat. Merci pour le résultat.",
+      "sources": [
+        "La Voix du Nord — fiabilité 6/10"
+      ],
+      "url": "https://www.lavoixdunord.fr/1742379/article/2026-10-01/prochaine-etape-la-production-l-ukraine-tire-son-premier-missile-balistique-fp-7",
+      "published_at": "2026-10-01T12:28:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Argentine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Argentine TotalEnergies annonce près de 10 milliards de dollars d'investissement dans le pays. Le géant pétrogazier français TotalEnergies va investir près de 10 milliards de dollars en Argentine au cours des prochaines années, sur trois projets déjà existants.",
+      "sources": [
+        "Le Progrès — fiabilité 6/10"
+      ],
+      "url": "https://www.leprogres.fr/economie/2026/10/01/totalenergies-annonce-pres-de-dix-milliards-de-dollars-d-investissement-en-argentine",
+      "published_at": "2026-10-01T10:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Europe"
+      ],
+      "countries": [
+        "Argentine",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Argentine : TotalEnergies donne le ton avant la rencontre de Macron et Milei. Le géant pétrogazier français TotalEnergies a annoncé jeudi un investissement de près de 10 milliards de dollars en Argentine, peu avant une rencontre entre le président Emmanuel Macron (France) et son homologue argentin u …",
+      "sources": [
+        "AFP via MSN — fiabilité 7/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/argentine-totalenergies-donne-le-ton-avant-la-rencontre-de-macron-et-milei/ar-AA2dje4y",
+      "published_at": "2026-10-01T11:03:11+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Bolivie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "En Bolivie, le patron du parquet arrêté pour ses liens présumés avec le narcotrafic. Le gouvernement bolivien affirme avoir démantelé un réseau criminel qui avait infiltré le sommet de la justice du pays. Le procureur général Roger …",
+      "sources": [
+        "lesinguliersete — fiabilité 6/10"
+      ],
+      "url": "https://lesinguliersete.fr/en-bolivie-le-patron-du-parquet-arrete-pour-ses-liens-presumes-avec-le-narcotrafic/",
+      "published_at": "2026-10-01T09:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Au Brésil, Lula et Flavio Bolsonaro éclipsent les autres candidats à l’élection présidentielle. Trois postulants de droite arrivent loin derrière les deux favoris dans la course avant le premier tour, prévu dimanche 4 octobre, mais pourraient peser sur le second tour, trois semaines plus tard.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/10/01/au-bresil-lula-et-flavio-bolsonaro-eclipsent-les-autres-candidats-a-la-presidentielle_6786458_3210.html",
+      "published_at": "2026-10-01T01:53:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
