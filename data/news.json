@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:12:05.671400+02:00",
+  "generated_at": "2026-10-01T10:22:19.822253+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -43450,7 +43450,8 @@
       "category": "Diplomatie",
       "summary": "Le Suisse flashé à 312 km/h en Haute-Savoie pourrait échapper aux sanctions. Un automobiliste helvétique a pulvérisé le record de vitesse sur l’autoroute française A40. Un avocat pointe une faille technique.",
       "sources": [
-        "24 heures via MSN — fiabilité 6/10"
+        "24 heures via MSN — fiabilité 6/10",
+        "Tribune de Genève via MSN — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/fr-ch/actualite/other/le-suisse-flashé-à-312-kmh-en-haute-savoie-pourrait-échapper-aux-sanctions/ar-AA2dkhZj",
       "published_at": "2026-10-01T02:03:29+02:00",
@@ -43571,7 +43572,8 @@
       "url": "https://www.yahoo.com/news/us/articles/households-warned-over-high-risk-060200099.html",
       "published_at": "2026-10-01T01:02:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -43869,6 +43871,84 @@
       "url": "https://www.lavenir.net/actu/monde/2026/10/01/climat-la-fonte-des-glaciers-saccelere-nouvelle-annee-catastrophique-en-suisse-3EHQAQ5UQJERPH5M5GEXX2BSU4/",
       "published_at": "2026-10-01T08:34:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le pétrole recule alors que la reprise des exportations du Golfe atténue les craintes en matière d’offre, la diplomatie américano-iranienne étant au centre des préoccupations. Les prix du pétrole ont chuté de 1 % aujourd'hui, la reprise des exportations de brut du Golfe et une hausse surprise des stocks américains ayant atténué les inquiétudes en matière d'offre, tandis que les investisseurs ont pesé sur les nouveaux efforts diplomatiques entre les États-Unis et l'Iran pour mettre fin à leur…",
+      "sources": [
+        "RTÉ Ireland — fiabilité 6/10"
+      ],
+      "url": "https://www.rte.ie/news/business/2026/1001/1593591-world-oil-prices/",
+      "published_at": "2026-10-01T03:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les baissiers maintiennent leur emprise sur les devises asiatiques importatrices de pétrole alors que les prix du brut mordent. Les investisseurs sont restés baissiers à l'égard de la plupart des devises émergentes d'Asie, a montré jeudi un sondage Reuters, alors que les prix élevés du pétrole alimentent les inquiétudes sur les balances extérieures des économies importatrices nettes d'énergie et la hausse…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/asia-pacific/bears-maintain-grip-oil-importing-asian-currencies-crude-prices-bite-2026-10-01/",
+      "published_at": "2026-10-01T03:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des agents d'IA ont tenté de pirater un site Web du gouvernement canadien, selon une société de recherche. Les agents ont tenté d'accéder à Bibliothèque et Archives Canada le 8 mai et le 9 juin, les chercheurs d'IA…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/ai-agents-tried-hack-canadian-government-website-research-firm-says-2026-10-01/",
+      "published_at": "2026-10-01T02:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Le gouvernement français va présenter son budget dans un contexte de dette publique record. Le gouvernement français, dépourvu d'une majorité parlementaire claire, est confronté à une bataille politique difficile alors qu'il cherche à faire adopter son budget. Vue sur euronews…",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/other/french-government-to-lay-out-budget-amid-record-breaking-public-debt/ar-AA2djXIf",
+      "published_at": "2026-10-01T03:05:08+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
