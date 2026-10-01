@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T21:50:36.345794+02:00",
+  "generated_at": "2026-10-01T22:00:58.457839+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -1300,8 +1300,8 @@
       ],
       "countries": [
         "Bahreïn",
-        "Oman",
-        "Iran"
+        "Iran",
+        "Oman"
       ],
       "period": "day",
       "bucket": "13 septembre 2026",
@@ -41909,10 +41909,11 @@
       "summary": "Trump a été confronté à la prédiction de Lara Trump selon laquelle l’Iran « pourrait lui coûter » les élections de mi-mandat. Le président Donald Trump (États-Unis) a adopté une position positive concernant l'impact de la guerre en Iran sur les prochaines élections de mi-mandat lorsqu'on l'a interrogé sur les sombres prédictions de sa belle-fille.",
       "sources": [
         "wset.com — fiabilité 6/10",
-        "Mediaite — fiabilité 6/10"
+        "Mediaite — fiabilité 6/10",
+        "Yahoo — fiabilité 6/10"
       ],
       "url": "https://wset.com/news/nation-world/lara-trump-says-iran-war-could-cost-donald-trump-the-midterms-nuclear-weapons-rnc-house-senate-gas-prices-republicans-strait-of-hormuz",
-      "published_at": "2026-10-01T08:59:00+02:00",
+      "published_at": "2026-10-01T12:59:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -50626,6 +50627,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
@@ -50919,10 +50921,11 @@
       "category": "Conflit",
       "summary": "L'Ukraine déploie pour la première fois un missile balistique tactique FP-7 au combat, a déclaré Zelenskiy. En savoir plus sur straitstimes. Com.",
       "sources": [
-        "The Straits Times — fiabilité 7/10"
+        "The Straits Times — fiabilité 7/10",
+        "Reuters — fiabilité 9/10"
       ],
       "url": "https://www.straitstimes.com/world/europe/ukraine-deploys-fp-7-tactical-ballistic-missile-in-combat-for-first-time-zelenskiy-says",
-      "published_at": "2026-10-01T06:32:00+02:00",
+      "published_at": "2026-10-01T12:30:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -51934,10 +51937,11 @@
       "category": "Géopolitique",
       "summary": "Manifestations d'étudiants au Chili : heurts avec la police à Santiago. Des heurts ont opposé jeudi à Santiago des étudiants à la police lors d'une manifestation contre de possibles coupes dans l'éducation publique, au lendemain de la présentation par le président chilien …",
       "sources": [
-        "Belga via MSN — fiabilité 6/10"
+        "Belga via MSN — fiabilité 6/10",
+        "bluewin — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/fr-be/actualite/other/manifestations-détudiants-au-chili-heurts-avec-la-police-à-santiago/ar-AA2dmGn2",
-      "published_at": "2026-10-01T12:35:21+02:00",
+      "published_at": "2026-10-01T14:24:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
@@ -52493,7 +52497,8 @@
       "url": "https://finance.yahoo.com/markets/commodities/articles/cotton-starting-off-thursday-losses-123421370.html",
       "published_at": "2026-10-01T07:30:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -52566,7 +52571,7 @@
       "bucket": "1 octobre 2026",
       "score": 9,
       "category": "Conflit",
-      "summary": "L’Ukraine lance de nouveaux missiles balistiques FP-7 de fabrication artisanale lors de frappes contre la Russie : Zelensky. L'Ukraine a déployé pour la première fois son missile balistique tactique FP-7 « au combat », a déclaré jeudi le président Volodymyr Zelensky (Ukraine). \"Missile balistique tactique ukrainien…",
+      "summary": "L’Ukraine lance de nouveaux missiles balistiques FP-7 de fabrication artisanale lors de frappes contre la Russie : Zelensky. L'Ukraine a déployé pour la première fois son missile balistique tactique FP-7 « au combat », a déclaré jeudi le président Volodymyr Zelensky (Ukraine). \"Missile balistique tactique ukrainien FP-7. Première utilisation au combat\", …",
       "sources": [
         "New York Post — fiabilité 6/10"
       ],
@@ -52612,7 +52617,8 @@
       "url": "https://www.ndtv.com/india-news/assam-government-employee-found-dead-inside-departments-headquarters-12127460",
       "published_at": "2026-10-01T12:48:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -52663,8 +52669,8 @@
         "International"
       ],
       "countries": [
-        "Oman",
         "Iran",
+        "Oman",
         "Yémen"
       ],
       "period": "day",
@@ -52699,6 +52705,50 @@
       "published_at": "2026-10-01T07:47:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'acte d'insurrection contre les projets de construction : des BOMBSHELLS tirées de l'interview exclusive du président Donald Trump (États-Unis) au TIME. TIME sort avec une nouvelle interview approfondie du président Trump. La conversation exclusive à la Maison Blanche couvre tout, y compris la guerre en Iran, l'intelligence artificielle et si Trump est…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/videos/insurrection-act-construction-projects-bombshells-145142618.html",
+      "published_at": "2026-10-01T09:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Alarme alors qu'Hegseth donne aux méga donateurs de MAGA leur mot à dire sur l'avenir de la guerre. Le secrétaire à la Défense, le secrétaire à la Défense Pete Hegseth (États-Unis), a alarmé certains analystes jeudi après avoir annoncé qu'il invitait quelques citoyens à collaborer avec le ministère de la Défense sur l'avenir de la guerre. Elon Musk,…",
+      "sources": [
+        "Raw Story via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/alarm-as-hegseth-gives-mega-maga-donors-a-say-in-future-of-warfare/ar-AA2dn3qb",
+      "published_at": "2026-10-01T13:50:09+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
