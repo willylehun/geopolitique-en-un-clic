@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:41:39.846127+02:00",
+  "generated_at": "2026-10-01T16:51:58.288154+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -669,8 +669,8 @@
         "Reuters"
       ],
       "countries": [
-        "Ghana",
         "Ouganda",
+        "Ghana",
         "Zambie"
       ]
     },
@@ -871,8 +871,8 @@
         "Afrique"
       ],
       "countries": [
-        "Ghana",
         "Ouganda",
+        "Ghana",
         "Kenya",
         "Nigeria",
         "Zambie"
@@ -11693,8 +11693,8 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -11708,8 +11708,8 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Égypte",
-        "Israël"
+        "Israël",
+        "Égypte"
       ]
     },
     {
@@ -23292,13 +23292,13 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "International"
       ],
       "countries": [
-        "Égypte",
-        "Irak"
+        "Irak",
+        "Égypte"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -34360,8 +34360,8 @@
         "International"
       ],
       "countries": [
-        "Égypte",
-        "Madagascar"
+        "Madagascar",
+        "Égypte"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38344,10 +38344,10 @@
       "content_enriched": true,
       "countries": [
         "Qatar",
-        "Égypte",
         "Inde",
         "Iran",
         "Israël",
+        "Égypte",
         "États-Unis"
       ]
     },
@@ -38904,12 +38904,12 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Europe"
+        "Europe",
+        "Afrique"
       ],
       "countries": [
-        "Ghana",
-        "Luxembourg"
+        "Luxembourg",
+        "Ghana"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -47297,7 +47297,6 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -47467,7 +47466,8 @@
       "url": "https://www.france24.com/en/live-news/20261001-bosnian-serb-iron-lady-war-crimes-convict-plavsic-dies-aged-96",
       "published_at": "2026-10-01T08:36:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -48116,8 +48116,8 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "Amérique du Nord",
         "International"
       ],
@@ -48134,8 +48134,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Égypte",
         "Iran",
+        "Égypte",
         "États-Unis"
       ]
     },
@@ -48274,6 +48274,166 @@
       ],
       "url": "https://ionnews.mu/residences-pour-seniors-lessor-des-complexes-haut-de-gamme-a-maurice/",
       "published_at": "2026-10-01T09:14:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Budget 2027 : le gel des allocations familiales proposé par le gouvernement. Le budget de l'État et celui de la sécurité sociale pour l'année 2027 ont été présentés ce jeudi 1er octobre en conseil des ministres. Pour faire des économies, le gouvernement envisage de ne pas reva …",
+      "sources": [
+        "Linfo.re — fiabilité 6/10"
+      ],
+      "url": "https://www.linfo.re/france/societe/budget-2027-le-gel-des-allocations-familiales-propose-par-le-gouvernement",
+      "published_at": "2026-10-01T09:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'UE réduit son aide à la Sierra Leone en raison de son aide au baron de la cocaïne condamné, déclarent les Pays-Bas. La Commission européenne a suspendu son aide financière à la Sierra Leone en raison du refus du pays d'arrêter et de remettre le baron européen de la cocaïne Jos Leijdekkers, le ministre néerlandais de la Justice David van …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/eu-cuts-aid-sierra-leone-over-its-help-convicted-cocaine-kingpin-netherlands-2026-10-01/",
+      "published_at": "2026-10-01T03:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pays-Bas",
+        "Sierra Leone"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les appareils frauduleux « économes en énergie » sur TikTok, Amazon et AliExpress échouent aux tests de sécurité. Les appareils « à économie d’énergie » vendus sur TikTok Shop, Amazon Marketplace et AliExpress ont échoué aux tests de sécurité de base, deux d’entre eux ayant effectivement explosé pendant les tests. Sécurité électrique D'abord testé 13 produits…",
+      "sources": [
+        "Stories by SWNS via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/scam-energy-saving-devices-on-tiktok-amazon-and-aliexpress-fail-safety-tests/vi-AA2dmibq",
+      "published_at": "2026-10-01T09:38:35+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Les coûts d'emprunt du Royaume-Uni s'envolent alors que les rendements des gilts atteignent 6 % pour la première fois depuis 1998. Une liquidation mondiale des obligations a vu les rendements des gilts britanniques atteindre 6 % pour la première fois en près de 30 ans, augmentant la pression sur le chancelier avant son budget inaugural plus tard ce mois-ci. Le rendement au Royaume-Uni…",
+      "sources": [
+        "Express & Star — fiabilité 6/10"
+      ],
+      "url": "https://www.expressandstar.com/uk-news/uk-borrowing-costs-soar-as-gilt-yields-hit-6-for-first-time-since-1998-9244587",
+      "published_at": "2026-10-01T08:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Israël"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Israël a averti la Grande-Bretagne d'une attaque iranienne imminente avant de nous imposer des sanctions, affirme le Premier ministre Benjamin Netanyahu (Israël). Le chef conservateur Kemi Badenoch a accusé Ed Miliband de « manque de jugement catastrophique » en serrant la main du ministre iranien des Affaires étrangères lors de l’Assemblée générale de l’ONU.",
+      "sources": [
+        "thejc.com — fiabilité 6/10"
+      ],
+      "url": "https://www.thejc.com/news/politics/israel-warned-britain-iranian-attack-sanctions-netanyahu-u3dnr550",
+      "published_at": "2026-10-01T16:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Pourquoi le traité damitié entre la France et lEspagne na pas ét ratifi ?. Déjà signé par les parlementaires français, ce traité n'attendait plus que la validation du Sénat espagnol. La majorité de droite s'y est opposée",
+      "sources": [
+        "20minutes.fr — fiabilité 6/10"
+      ],
+      "url": "https://www.20minutes.fr/monde/espagne/4250316-20261001-pourquoi-traite-amitie-entre-france-espagne-ratifie",
+      "published_at": "2026-10-01T16:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les quatre femmes qui ont façonné lhistoire politique du Maroc. La nomination de Fatima Ezzahra El Mansouri comme première femme cheffe du gouvernement au Maroc marque un tournant historique pour la scène politique du… La nomination de Fatima Ezzahra El Mansouri comme première femme cheffe du gouvernement au Maroc marque un tournant historique pour la scène politique du…",
+      "sources": [
+        "yabiladi.com — fiabilité 6/10"
+      ],
+      "url": "https://www.yabiladi.com/articles/details/204054/quatre-femmes-faconne-l-histoire-politique.html",
+      "published_at": "2026-10-01T16:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "countries": [
+        "Islande",
+        "Israël"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’Islande annonce qu’elle boycottera l’Eurovision 2027 si Israël participe. L’Islande ne participera pas à l’Eurovision 2027 si Israël reste autorisé à concourir. Le conseil d’administration du diffuseur public RÚV a arrêté cette position mercredi, prolongeant le boycott enga …",
+      "sources": [
+        "Amazon S3 via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/l-islande-annonce-qu-elle-boycottera-l-eurovision-2027-si-israël-participe/vi-AA2dl7D8",
+      "published_at": "2026-10-01T03:42:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
