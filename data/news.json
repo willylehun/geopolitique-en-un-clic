@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T04:23:29.501848+02:00",
+  "generated_at": "2026-10-01T04:33:47.180838+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -761,8 +761,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Océanie"
+        "Océanie",
+        "Asie"
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
@@ -773,8 +773,8 @@
         "Reuters"
       ],
       "countries": [
-        "Inde",
-        "Nouvelle-Zélande"
+        "Nouvelle-Zélande",
+        "Inde"
       ]
     },
     {
@@ -935,8 +935,8 @@
         "Asie"
       ],
       "countries": [
-        "Pakistan",
-        "Afghanistan"
+        "Afghanistan",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "21 septembre 2026",
@@ -3331,8 +3331,8 @@
         "Asie"
       ],
       "countries": [
-        "Pakistan",
-        "Afghanistan"
+        "Afghanistan",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -3507,8 +3507,8 @@
         "Asie"
       ],
       "countries": [
-        "Pakistan",
-        "Iran"
+        "Iran",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -6543,8 +6543,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -8523,8 +8523,8 @@
       "origin": "rss",
       "countries": [
         "Chine",
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -20575,8 +20575,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -28891,8 +28891,8 @@
       "content_enriched": true,
       "countries": [
         "Chine",
-        "Pakistan",
         "Iran",
+        "Pakistan",
         "Russie",
         "États-Unis"
       ]
@@ -29042,9 +29042,9 @@
         "Asie"
       ],
       "countries": [
-        "Pakistan",
         "Arabie saoudite",
-        "Iran"
+        "Iran",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -30550,8 +30550,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Océanie",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -30567,8 +30567,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Inde",
-        "Nouvelle-Zélande"
+        "Nouvelle-Zélande",
+        "Inde"
       ]
     },
     {
@@ -31459,9 +31459,9 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Océanie",
         "Amérique du Sud",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
@@ -31477,9 +31477,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Canada",
         "Nouvelle-Zélande",
-        "Pérou"
+        "Pérou",
+        "Canada"
       ]
     },
     {
@@ -33114,12 +33114,12 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "countries": [
-        "Canada",
         "Allemagne",
+        "Canada",
         "États-Unis"
       ],
       "period": "day",
@@ -38343,9 +38343,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Inde",
         "Qatar",
         "Égypte",
+        "Inde",
         "Iran",
         "Israël",
         "États-Unis"
