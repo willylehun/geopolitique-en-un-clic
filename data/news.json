@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:04:37.053510+02:00",
+  "generated_at": "2026-10-01T12:14:48.257760+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -12439,8 +12439,8 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Grèce",
-        "Allemagne"
+        "Allemagne",
+        "Grèce"
       ]
     },
     {
@@ -18818,8 +18818,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Grèce",
-        "Allemagne"
+        "Allemagne",
+        "Grèce"
       ]
     },
     {
@@ -42714,7 +42714,7 @@
       "bucket": "1 octobre 2026",
       "score": 10,
       "category": "Géopolitique",
-      "summary": "Médailles des soldats de l’Extrême-Nord trouvées à Christchurch. La police tente de retrouver les proches d'un soldat de l'Extrême-Nord après que ses médailles de la Première Guerre mondiale ont été découvertes lors d'une perquisition à Christchurch. Le sergent-détective Jason Hunuki a déclaré que les agents avaient trouvé…",
+      "summary": "Les médailles des soldats du Grand Nord ont été retrouvées bien au sud. La police tente de retrouver les proches d'un soldat de l'Extrême-Nord après que ses médailles de la Première Guerre mondiale ont été découvertes lors d'une perquisition à Christchurch. Le sergent-détective Jason Hunuki a déclaré que les agents avaient trouvé…",
       "sources": [
         "RNZ (média public) — fiabilité 8/10",
         "Otago Daily Times — fiabilité 6/10"
@@ -44858,6 +44858,90 @@
       ],
       "url": "https://www.lemonde.fr/afrique/article/2026/10/01/au-maroc-malgre-la-nomination-d-une-premiere-ministre-le-plafond-de-verre-demeure-pour-les-femmes_6786492_3212.html",
       "published_at": "2026-10-01T04:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump menace de « faire exploser » l’Iran alors que les négociations sont au point mort. Le président Donald Trump (États-Unis) a déclaré mercredi qu'il déciderait \"très bientôt\" de \"faire exploser\" l'Iran, alors que Téhéran a déclaré avoir reçu la réponse officielle de Washington à sa proposition de mettre fin à la guerre de sept mois.",
+      "sources": [
+        "Politico — fiabilité 8/10"
+      ],
+      "url": "https://www.politico.com/news/2026/10/01/trump-threatens-to-blow-up-iran-as-deal-talks-stall",
+      "published_at": "2026-10-01T04:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les troupes du président Vladimir le président Vladimir Poutine (Russie) utilisent des captifs vivants pour « s'entraîner à poignarder une personne ». Les zones de guerre cachent souvent de terribles secrets loin de la vue du public. Mais parfois, un soldat capturé prend la parole et lève le rideau sur une réalité profondément inquiétante. Une nouvelle vidéo a révélé ce qui s'est passé…",
+      "sources": [
+        "Dagens.com via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/putin-s-troops-use-live-captives-to-practise-stabbing-a-person/ar-AA2dkDuh",
+      "published_at": "2026-10-01T04:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le pétrole coule du golfe Persique, mais les prix restent élevés. Pourquoi?. Le pétrole brut coûte près de 100 dollars le baril parce que les commerçants craignent que les hostilités ne reprennent bientôt et que le monde brûle ses stocks d’urgence.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/01/business/energy-environment/oil-prices-iran-war-trump.html",
+      "published_at": "2026-10-01T05:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Asie"
+      ],
+      "countries": [
+        "Gabon",
+        "Chine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Zéro tarif : la Chine ouvre ses portes, le Gabon doit désormais apprendre à produire. La Chine ouvre davantage son marché aux produits africains. Depuis le 1er mai 2026, Pékin applique un tarif douanier zéro sur les importations en provenance de 53 pays africains, une mesure qui, combi …",
+      "sources": [
+        "Gabonreview — fiabilité 6/10"
+      ],
+      "url": "https://www.gabonreview.com/zero-tarif-la-chine-ouvre-ses-portes-le-gabon-doit-desormais-apprendre-a-produire/",
+      "published_at": "2026-10-01T01:42:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
