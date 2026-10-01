@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:49:35.887269+02:00",
+  "generated_at": "2026-10-01T09:00:07.657217+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -22662,8 +22662,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Corée du Sud",
-        "Corée du Nord"
+        "Corée du Nord",
+        "Corée du Sud"
       ]
     },
     {
@@ -33742,8 +33742,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Corée du Sud",
         "Chine",
+        "Corée du Sud",
         "États-Unis"
       ]
     },
@@ -42719,7 +42719,7 @@
         "RNZ (média public) — fiabilité 8/10"
       ],
       "url": "https://www.rnz.co.nz/news/regions/1673512/world-war-i-medals-of-far-north-soldier-uncovered-in-christchurch",
-      "published_at": "2026-10-01T01:39:00+02:00",
+      "published_at": "2026-10-01T02:00:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": []
@@ -43091,6 +43091,69 @@
       "url": "https://naslovi.net/2026-10-01/sputnik/tramp-sad-c-e-uskoro-morati-da-odluce-da-li-c-e-napasti-iran-ili-postic-i-sporazum/42430341",
       "published_at": "2026-10-01T08:30:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les swaps de change RBI de l'Inde permettent aux entreprises d'accéder à des financements en dollars à moindre coût. Des milliards de dollars de swaps de change par la banque centrale ont modifié l'économie du financement multi-devises pour les entreprises indiennes, créant une opportunité d'accéder à un financement en dollars à un prix relativement inférieur…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/india/indias-rbi-fx-swaps-create-opening-firms-tap-dollar-funding-lower-cost-2026-10-01/",
+      "published_at": "2026-10-01T01:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Espagne",
+        "Portugal"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Crise du logement : le Portugal souhaite faciliter les expulsions de locataires en cas d'impayés. A rebours de l'Espagne voisine, le Parlement portugais a approuvé mercredi soir en première lecture une réforme proposée par le gouvernement de droite visant à …",
+      "sources": [
+        "CNEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.cnews.fr/monde/2026-10-01/crise-du-logement-le-portugal-souhaite-faciliter-les-expulsions-de-locataires-en",
+      "published_at": "2026-10-01T01:54:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Afghanistan",
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Neufs civils tués dans des frappes pakistanaises dans le sud de l'Afghanistan. Neuf civils ont été tués dans une série de frappes menées par le Pakistan en Afghanistan dans la nuit de mercredi à jeudi, a affirmé jeudi le gouvernement taliban. Islamabad a confirmé des frappes …",
+      "sources": [
+        "L'Orient-Le Jour — fiabilité 6/10"
+      ],
+      "url": "https://www.lorientlejour.com/article/1549299/neufs-civils-tues-dans-des-frappes-pakistanaises-dans-le-sud-de-lafghanistan.html",
+      "published_at": "2026-10-01T02:01:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
