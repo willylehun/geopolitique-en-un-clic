@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:20:57.467135+02:00",
+  "generated_at": "2026-10-01T09:31:09.889499+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -287,8 +287,8 @@
         "Reuters"
       ],
       "countries": [
-        "Yémen",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Yémen"
       ]
     },
     {
@@ -676,8 +676,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Afrique",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -689,8 +689,8 @@
         "Reuters"
       ],
       "countries": [
-        "Yémen",
-        "Djibouti"
+        "Djibouti",
+        "Yémen"
       ]
     },
     {
@@ -43218,18 +43218,19 @@
         "International"
       ],
       "countries": [
-        "Ukraine"
+        "Ukraine",
+        "Russie"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "EN DIRECT, guerre en Ukraine : des blessés à Kiev et Odessa après une nouvelle nuit d’attaques russes. Dans un bilan provisoire, la défense anti-aérienne ukrainienne affirmait avoir abattu ou neutralisé 254 drones, dont 146 à réaction, entre 6 h 30 et 18 h 30, mercredi.",
+      "summary": "EN DIRECT, guerre en Ukraine : Garry Kasparov, ancien champion du monde d’échecs et opposant à le président Vladimir Poutine (Russie), affirme que sa vie est « en danger ». Dans un bilan provisoire, la défense anti-aérienne ukrainienne affirmait avoir abattu ou neutralisé 254 drones, dont 146 à réaction, entre 6 h 30 et 18 h 30, mercredi.",
       "sources": [
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/10/01/en-direct-guerre-en-ukraine-des-blesses-a-kiev-et-odessa-apres-une-nouvelle-nuit-d-attaques-russes_6783795_3210.html",
-      "published_at": "2026-10-01T01:59:00+02:00",
+      "published_at": "2026-10-01T02:09:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -43301,12 +43302,13 @@
       "bucket": "1 octobre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Les obligations vacillent après le pire trimestre des bons du Trésor américain depuis 1994. Les rendements américains ont atteint jeudi leur plus haut niveau en deux décennies pour une septième séance consécutive avant qu'une baisse des prix du pétrole ne stabilise un marché obligataire ébranlé par son pire trimestre du siècle, …",
+      "summary": "Les obligations vacillent après le pire trimestre des bons du Trésor américain depuis 1994. Les rendements américains ont atteint jeudi leur plus haut niveau en deux décennies pour une septième séance consécutive avant qu'une baisse des prix du pétrole ne stabilise un marché obligataire ébranlé par son pire trimestre de ce siècle, alors que les investisseurs se préparent à une hausse…",
       "sources": [
-        "AOL — fiabilité 6/10"
+        "AOL — fiabilité 6/10",
+        "Reuters — fiabilité 9/10"
       ],
       "url": "https://www.aol.com/articles/bonds-teeter-us-treasuries-worst-060015000.html",
-      "published_at": "2026-10-01T01:24:00+02:00",
+      "published_at": "2026-10-01T02:04:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -43393,6 +43395,64 @@
       ],
       "url": "https://www.focus.de/politik/ausland/der-jugoslawische-panzer-m-84-aus-den-1980er-jahre-hat-sich-in-der-ukraine-bewaehrt_268b2c63-1cbe-4a99-be13-9fdb5252053d.html",
       "published_at": "2026-10-01T09:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Énergie",
+      "summary": "Simple Energy lève 1 750 Crore ₹ pour étendre son réseau de fabrication et de vente de véhicules électriques. Simple Energy a obtenu 1 750 crores ₹ dans un cycle de série C entièrement en actions, portant le financement total au-delà de 2 530 crores ₹. L'investissement soutiendra l'expansion de la fabrication, le développement de produits et une vision plus large…",
+      "sources": [
+        "autopunditz — fiabilité 6/10"
+      ],
+      "url": "https://www.autopunditz.com/post/simple-energy-raises-1-750-crore-to-expand-manufacturing-and-ev-sales-network",
+      "published_at": "2026-10-01T02:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des agents d'IA ont tenté de pirater un site Web du gouvernement canadien, selon une société de recherche. La société d'IA Transluce a rapporté que des agents d'IA avaient tenté de pirater un site Web du gouvernement canadien, mais le Canada a déclaré que ses systèmes n'étaient pas compromis. OpenAI examine les résultats.",
+      "sources": [
+        "Firstpost — fiabilité 6/10"
+      ],
+      "url": "https://www.firstpost.com/tech/ai-agents-tried-to-hack-a-canadian-government-website-research-firm-says-14049657.html",
+      "published_at": "2026-10-01T02:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le Suisse flashé à 312 km/h en Haute-Savoie pourrait échapper aux sanctions. Un automobiliste helvétique a pulvérisé le record de vitesse sur l’autoroute française A40. Un avocat pointe une faille technique.",
+      "sources": [
+        "24 heures via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/actualite/other/le-suisse-flashé-à-312-kmh-en-haute-savoie-pourrait-échapper-aux-sanctions/ar-AA2dkhZj",
+      "published_at": "2026-10-01T02:03:29+02:00",
       "origin": "global",
       "content_enriched": true
     },
