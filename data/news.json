@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:02:26.049458+02:00",
+  "generated_at": "2026-10-01T23:12:38.436317+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -50453,7 +50453,8 @@
       "category": "Géopolitique",
       "summary": "Les exportations de pétrole du Venezuela ont diminué en septembre en raison des taux de fret élevés, selon les données. Les exportations de pétrole du Venezuela ont diminué à 1,08 million de barils par jour (b/j) en septembre, contre 1,19 million de b/j le mois précédent, les commerçants faisant pression sur la société d'État PDVSA pour obtenir des réductions de prix afin de compenser la hausse…",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "Investing.com — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/business/energy/venezuelas-oil-exports-down-sep-amid-high-freight-rates-data-shows-2026-10-01/",
       "published_at": "2026-10-01T12:15:00+02:00",
@@ -50630,6 +50631,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
@@ -52455,10 +52457,11 @@
       "category": "Géopolitique",
       "summary": "L’État du champ de bataille confronté aux conséquences de la guerre commerciale du président Donald Trump (États-Unis) avec le Canada. L'expert en commerce David Clement prévient que les fabricants du Michigan pourraient être confrontés à des coûts plus élevés alors que la lutte contre les droits de douane menée par Trump au Canada menace l'industrie automobile profondément liée de l'État.",
       "sources": [
-        "Fox News — fiabilité 6/10"
+        "Fox News — fiabilité 6/10",
+        "FOX News via MSN — fiabilité 6/10"
       ],
       "url": "https://www.foxnews.com/video/6406047419112",
-      "published_at": "2026-10-01T14:09:00+02:00",
+      "published_at": "2026-10-01T14:09:56+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -52580,7 +52583,7 @@
         "New York Post — fiabilité 6/10"
       ],
       "url": "https://nypost.com/2026/10/01/world-news/ukraine-debuts-new-self-made-fp-7-ballistic-missiles-in-strikes-against-russia-zelensky/",
-      "published_at": "2026-10-01T01:41:00+02:00",
+      "published_at": "2026-10-01T15:40:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -53079,7 +53082,8 @@
       "url": "https://www.wcvb.com/article/department-of-defense-establishes-office-religious-affairs/73983951",
       "published_at": "2026-10-01T15:17:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -53390,6 +53394,312 @@
       "countries": [
         "Iran"
       ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le chef du Kremlin avance un récit absurde selon lequel la Russie n’a jamais frappé les civils ukrainiens en premier. Le président Vladimir Poutine (Russie) a publié une nouvelle série de déclarations délirantes concernant la guerre de la Russie contre l'Ukraine et l'armée humanitaire de la Russie, a déclaré le dirigeant du Kremlin au forum Valdai.",
+      "sources": [
+        "RBC Ukraine via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/kremlin-leader-pushes-absurd-narrative-that-russia-never-struck-ukrainian-civilians-first/ar-AA2dmOK5",
+      "published_at": "2026-10-01T15:16:20+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La taxe allemande sur le sucre déclenche une nouvelle querelle au sein du gouvernement. Un projet de taxe sur le sucre en Allemagne a provoqué jeudi une nouvelle querelle au sein de la coalition gouvernementale instable composée du conservateur CDU/CSU et du SPD de centre-gauche.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20261001-german-sugar-tax-sparks-new-government-row",
+      "published_at": "2026-10-01T13:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) va dévoiler un projet de 54 milliards de dollars de GNL en Alaska comme pièce maîtresse de l'accord commercial avec la Corée du Sud. Le président Trump a annoncé un investissement à l'étranger de 54 milliards de dollars dans l'État du champ de bataille de l'Alaska, dans le cadre d'une série de plans en matière de fabrication et d'emploi que la Maison Blanche dévoile avant le 3 novembre.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/videos/trump-unveil-54b-alaska-lng-120200784.html",
+      "published_at": "2026-10-01T07:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Des milliers de soldats américains se dirigent vers le Moyen-Orient alors que Trump envisage de nouvelles frappes. L'armée américaine déploie environ 9 000 soldats au Moyen-Orient à bord de navires de guerre alors que le président Donald Trump (États-Unis) envisage de nouvelles attaques contre l'Iran. Le groupe de navires se dirigeant vers le Moyen…",
+      "sources": [
+        "nine.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.nine.com.au/world-news/thousands-of-us-troop-head-to-middle-east-as-trump-weighs-new-strikes-20261002-p6127x.html",
+      "published_at": "2026-10-01T15:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L'Iran dément les informations faisant état de l'offre d'Araghchi de rétablir les inspections nucléaires en vue d'alléger les sanctions. Bloomberg a rapporté qu'Araghchi avait évoqué la possibilité de rétablir l'accès des inspecteurs nucléaires lors de réunions privées avec des responsables européens et moyen-orientaux lors de sa visite à New York …",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/world/iran-denies-report-on-araghchi-s-offer-to-restore-nuclear-inspections-for-sanctions-relief-article-14043205.html",
+      "published_at": "2026-10-01T15:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La plupart des Américains estiment que la guerre entre les États-Unis et Israël contre l’Iran ne vaut pas la peine d’être menée : sondage. Près de 70 % des Américains estiment que la guerre entre les États-Unis et Israël ne vaut pas la peine d’être menée, ce qui marque une hausse significative depuis juillet.",
+      "sources": [
+        "Al Jazeera — fiabilité 8/10"
+      ],
+      "url": "https://www.aljazeera.com/news/2026/10/1/most-americans-say-us-israel-war-on-iran-not-worth-fighting-poll",
+      "published_at": "2026-10-01T15:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Israël",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le maire de Green Bay, Eric Genrich, ne cherchera pas à être réélu en 2027. Le maire de Green Bay, Eric Genrich, ne briguera pas un troisième mandat en tant que plus haut dirigeant du gouvernement de la ville. Genrich a fait cette annonce dans une déclaration vidéo publiée jeudi, affirmant qu'il…",
+      "sources": [
+        "Wisconsin Public Radio — fiabilité 6/10"
+      ],
+      "url": "https://www.wpr.org/news/green-bay-mayor-eric-genrich-will-not-seek-reelection-2027",
+      "published_at": "2026-10-01T15:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les actions américaines augmentent après les retournements du marché obligataire dans des échanges instables. Les actions ont terminé une séance de négociation volatile en légère hausse après que les rendements du Trésor se soient retirés de leurs sommets pluriannuels et que les attentes d'une nouvelle hausse des taux ce mois-ci se soient atténuées.",
+      "sources": [
+        "The Wall Street Journal via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/top-stocks/us-stocks-rise-after-bond-market-flips-in-choppy-trading/ar-AA2dn1MM",
+      "published_at": "2026-10-01T15:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Elon Musk récompensé pour la débâcle du DOGE avec le concert « Warfare ». Une petite agence fédérale dirigée par Elon Musk ? Il a fait de grandes déclarations sur la façon dont cela permettrait au gouvernement d'économiser des milliards de dollars, mais s'est avéré être un désastre total qui a coûté de l'argent aux contribuables, …",
+      "sources": [
+        "New York Magazine — fiabilité 6/10"
+      ],
+      "url": "https://nymag.com/intelligencer/article/elon-musk-pete-hegseth-warfare.html",
+      "published_at": "2026-10-01T12:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "OpenAI écarte trois chercheurs en sécurité pour une prétendue mauvaise gestion des « informations sensibles ». OpenAI a rompu les liens avec trois membres de son équipe de sécurité après avoir divulgué des informations confidentielles, a confirmé la société à Gizmodo jeudi. \"Nous nous sommes séparés de trois personnes pour…",
+      "sources": [
+        "Gizmodo — fiabilité 6/10"
+      ],
+      "url": "https://gizmodo.com/openai-ousts-three-safety-researchers-for-allegedly-mishandling-sensitive-information-2000820515",
+      "published_at": "2026-10-01T02:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des agents Rogue OpenAI auraient dissimulé leurs traces. Les agents d'intelligence artificielle développés par OpenAI ont tenté d'effacer les traces de leur activité après avoir obtenu un accès non autorisé au gouvernement…",
+      "sources": [
+        "Daily Sabah — fiabilité 6/10"
+      ],
+      "url": "https://www.dailysabah.com/business/economy/rogue-openai-agents-reportedly-covered-up-their-tracks",
+      "published_at": "2026-10-01T02:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Marque de boulangerie établie à Londres avec de fortes ventes en ligne - Achetez ou vendez une entreprise au Royaume-Uni avec Daltons Business. Jack & Beyond est une entreprise établie de boulangerie et de gâteaux de fête haut de gamme avec une solide activité en ligne à l'échelle de Londres, un site de production de 3 200 pieds carrés récemment ouvert..",
+      "sources": [
+        "daltonsbusiness.com — fiabilité 6/10"
+      ],
+      "url": "https://www.daltonsbusiness.com/listing/established-london-bakery-brand-with-strong-for-sale-DB2612063/",
+      "published_at": "2026-10-01T22:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Arménie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le parquet général dAzerbaïdjan ouvre une enquête contre un de ses militaires après son entrée illégale en Arménie - Nouvelles dArménie en Ligne – Toute lactualité sur le monde arménien. Le militaire azerbaïdjanais Nasimi Rasim oglu Musayev, porté disparu dans la région de Latchine le 26 septembre, a franchi illégalement la frontière arménienne et a été arrêté en Arménie, ont rapporté les médias azerbaïdjanais, citant un communiqué […]",
+      "sources": [
+        "armenews.com — fiabilité 6/10"
+      ],
+      "url": "https://www.armenews.com/le-parquet-general-dazerbaidjan-ouvre-une-enquete-contre-un-de-ses-militaires-apres-son-entree-illegale-en-armenie/",
+      "published_at": "2026-10-01T22:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Double U. K .- Un ressortissant iranien arrêté suite à un incident de sécurité à l'U . S.- gère une base aérienne en Angleterre. Le Premier ministre Andy Burnham a déclaré que le Royaume-Uni voyait de « fortes indications » selon lesquelles l’Iran avait joué un rôle dans l’incident. L’Iran nie toute implication.",
+      "sources": [
+        "nbcnews.com — fiabilité 6/10"
+      ],
+      "url": "https://www.nbcnews.com/world/united-kingdom/dual-uk-iranian-national-arrested-security-incident-us-run-air-base-rcna600979",
+      "published_at": "2026-10-01T22:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Environ 9 000 soldats américains se dirigent vers le Moyen-Orient au milieu de la guerre en Iran, selon un responsable. Il s’agirait d’une présence navale américaine inhabituellement élevée de plus de 20 000 marins et Marines et de centaines d’avions.",
+      "sources": [
+        "hertsad.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://www.hertsad.co.uk/news/national/26600496.around-9-000-us-troops-heading-middle-east-amid-iran-war-official-says/",
+      "published_at": "2026-10-01T22:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
