@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:28:04.347778+02:00",
+  "generated_at": "2026-10-01T14:38:18.508882+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -46375,7 +46375,8 @@
       "url": "https://www.world-nuclear-news.org/articles/constellation-amazon-agree-nuclear-focused-power-purchase-deal",
       "published_at": "2026-10-01T05:33:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -46436,6 +46437,307 @@
       ],
       "url": "https://www.justiceinfo.net/en/166290-bangladesh-law-or-disorder.html",
       "published_at": "2026-10-01T14:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Pretoria veut durcir les sanctions contre l’exploitation minière illégale.",
+      "sources": [
+        "Agence de Presse Africaine via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/pretoria-veut-durcir-les-sanctions-contre-l-exploitation-minière-illégale/ar-AA2dlolz",
+      "published_at": "2026-10-01T06:10:23+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Travelodge a traité une femme agressée dans un hôtel de manière « honteuse », selon une revue. Le traitement réservé par Travelodge à une femme agressée dans un hôtel est « honteux », selon une étude - Le rapport indique que l'affaire a révélé des problèmes de sécurité des chambres dans l'ensemble du secteur hôtelier.",
+      "sources": [
+        "London Evening Standard via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/travelodge-treated-woman-assaulted-in-hotel-in-disgraceful-way-review-finds/ar-AA2dkJkE",
+      "published_at": "2026-10-01T07:15:45+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Budget : la France veut geler les allocations familiales en 2027 pour économiser 500 millions €. En France, les allocations familiales ne seraient pas revalorisées en 2027. Le gouvernement a présenté jeudi 1er octobre, en Conseil des ministres, un projet de budget de la Sécurité sociale qui maint …",
+      "sources": [
+        "La Nouvelle Tribune — fiabilité 6/10"
+      ],
+      "url": "https://lanouvelletribune.info/2026/10/budget-la-france-veut-geler-les-allocations-familiales-en-2027-pour-economiser-500-millions-e/",
+      "published_at": "2026-10-01T06:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Afghanistan affirme que des frappes meurtrières pakistanaises ont frappé le Helmand. L'armée pakistanaise a lancé jeudi de rares frappes meurtrières contre la province afghane de Helmand, ont indiqué à l'AFP le gouvernement taliban et ses habitants.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20261001-afghanistan-says-deadly-pakistani-strikes-hit-helmand",
+      "published_at": "2026-10-01T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Afghanistan"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump dit que la guerre en Iran continue « seulement parce que je voulais aller plus loin ». Dans une interview accordée au magazine Time publiée jeudi, le président Donald Trump (États-Unis) a été invité à expliquer son calendrier changeant pour la guerre en Iran. Alors que Trump avait initialement déclaré que le conflit durerait environ…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-says-iran-war-still-120759956.html",
+      "published_at": "2026-10-01T07:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Andy Burnham annonce un changement affectant tous les A&E en Angleterre. Le Premier ministre a annoncé un nouvel accord pour les personnes âgées sous la forme d'un « service national de soins de haute qualité pour assurer la tranquillité d'esprit plus tard dans la vie ».",
+      "sources": [
+        "Birmingham Live via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/newsbirmingham/andy-burnham-announces-change-affecting-all-a-es-in-england/ar-AA2dl5Ws",
+      "published_at": "2026-10-01T06:18:35+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "American Battery Technology obtient une licence d'exportation américaine pour vendre jusqu'à 100 millions de dollars de masse noire recyclée. American Battery Technology (ABAT) a grimpé de 27,6 % avant la commercialisation jeudi après avoir déclaré avoir reçu l'approbation du ministère américain du Commerce pour la vente d'un montant pouvant atteindre 100 millions de dollars de sa masse noire recyclée…",
+      "sources": [
+        "Seeking Alpha via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/general/american-battery-technology-secures-us-export-license-to-sell-up-to-100m-of-recycled-black-mass/ar-AA2dlpIC",
+      "published_at": "2026-10-01T05:50:52+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "France : Le gouvernement prévoit 43 milliards deuros de nouvelles économies dans le budget 2027 - 01 / 10 / 2026 à 13 : 15. Le gouvernement français a présenté jeudi un projet de budget 2027 incluant de nouvelles économies massives à hauteur de 43 milliards d'euros, alors que l'envolée des taux d'emprunt de la France illu… - 01/10/2026 à 14:36 - Boursorama",
+      "sources": [
+        "boursorama.com — fiabilité 6/10",
+        "Boursorama — fiabilité 6/10"
+      ],
+      "url": "https://www.boursorama.com/bourse/actualites/france-le-gouvernement-prevoit-43-milliards-d-euros-de-nouvelles-economies-dans-le-budget-2027-6ad68134777bbd39183983285e5855f3",
+      "published_at": "2026-10-01T14:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Au Maroc, Fatima Ezzahra El Mansouri devient la première cheffe du gouvernement. Le roi du Maroc Mohammed VI a nommé mardi Fatima Ezzahra El Mansouri cheffe du gouvernement après la victoire de son parti aux élections législatives de la semaine dernière, …",
+      "sources": [
+        "lepetitjournal.com — fiabilité 6/10"
+      ],
+      "url": "https://lepetitjournal.com/au-maroc-fatima-ezzahra-el-mansouri-devient-la-premiere-cheffe-du-gouvernement-454886",
+      "published_at": "2026-10-01T14:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "countries": [
+        "Israël",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre Benjamin Netanyahu (Israël) a déclaré qu'Israël avait averti le Royaume-Uni d'un projet d'attaque iranien présumé sur la base aérienne de la RAF. Après trois jours d'enquête, notamment avec le recours à une équipe de déminage, la police a déclaré mardi n'avoir trouvé aucun explosif dans les véhicules, mais avoir récupéré une \"quantité d'essence\".",
+      "sources": [
+        "euronews.com — fiabilité 8/10"
+      ],
+      "url": "https://www.euronews.com/2026/10/01/pm-netanyahu-says-israel-warned-uk-of-suspected-iran-attack-plot-on-raf-airbase",
+      "published_at": "2026-10-01T14:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Congo - Kinshasa : Suminwa II - Jean - Lucien Bussa dresse un bilan élogieux à lAménagement du Territoire !. Jean-Lucien Bussa Tongba, Ministre de l'Aménagement du territoire, a réaffirmé la nécessité stratégique d'une planification territoriale rigoureuse pour réduire les disparités régionales et stimuler la compétitivité du pays. Intervenant sur les défis majeurs du secteur, le membre du gouvernement a souligné que le déficit d'aménagement constitue la cause principale des déséquilibres",
+      "sources": [
+        "fr.allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://fr.allafrica.com/stories/202610010266.html",
+      "published_at": "2026-10-01T14:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Poussée de crystal meth : le Nigeria et l’Afrique de l’Ouest sont confrontés à un réseau de cartels en expansion. L’Afrique de l’Ouest apparaît comme une frontière majeure pour la production et le trafic de méthamphétamine en cristaux, le Nigeria devenant de plus en plus",
+      "sources": [
+        "tribuneonlineng.com — fiabilité 6/10"
+      ],
+      "url": "https://tribuneonlineng.com/crystal-meth-surge-nigeria-west-africa-confront-expanding-cartel-network/",
+      "published_at": "2026-10-01T14:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Pourquoi le Parti de Gauche à Berlin (Allemagne) est-il accusé d'antisémitisme ?. La victoire électorale de Die Linke à Berlin a été éclipsée par une querelle sur l'antisémitisme. Alors que le parti poursuit ses efforts pour prendre la tête du prochain gouvernement de la capitale, nous examinons les accusations et la réaction de la gauche.",
+      "sources": [
+        "thelocal.de — fiabilité 6/10"
+      ],
+      "url": "https://www.thelocal.de/20261001/why-is-the-left-party-in-berlin-being-accused-of-antisemitism",
+      "published_at": "2026-10-01T14:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Soudan du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les attaques mettent à rude épreuve les églises dans les monts Nouba au Soudan - Mission Network News. Soudan (MNN) — Les dirigeants chrétiens et musulmans des monts Nouba au Soudan appellent à la fin des combats à l'issue d'une consultation de trois jours à Yida, au Soudan du Sud. Des représentants du nouveau Conseil soudanais des Églises et du Conseil islamique des Monts Nouba se sont réunis en début de semaine pour discuter de l’impact du conflit sur les communautés. Apprenez-en davantage ici. Ce printemps, les Monts Nouba sont apparus comme un nouveau front dans la guerre civile au Soudan.",
+      "sources": [
+        "mnnonline.org — fiabilité 6/10"
+      ],
+      "url": "https://www.mnnonline.org/news/attacks-strain-churches-in-sudans-nuba-mountains/",
+      "published_at": "2026-10-01T14:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Ukraine – Téléscripteur en direct : Des drones ont frappé une école et un centre de recherche nucléaire à Kiev. Zelenskyj : « Des salopards russes attaquent la vie de notre pays » +++ La Russie expulse les diplomates hongrois +++ Wadephul veut un « cessez-le-feu partiel » pour les exportations de céréales +++ toutes les actualités sur le blog en direct",
+      "sources": [
+        "faz.net — fiabilité 8/10"
+      ],
+      "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-drohnen-treffen-schule-und-atomforschungsanlage-in-kiew-faz-110683325.html",
+      "published_at": "2026-10-01T14:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
