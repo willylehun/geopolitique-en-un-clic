@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:13:25.987978+02:00",
+  "generated_at": "2026-10-01T11:23:39.684699+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -44472,6 +44472,47 @@
       "published_at": "2026-10-01T03:34:43+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "De la diplomatie à la négociation : une nouvelle route pour le commerce russo-indien. Le pavillon « Made in Russia » a fait ses débuts à Navi Mumbai, renforçant les relations commerciales, comme l'a montré l'exposition INNOPROM à New Delhi.",
+      "sources": [
+        "Hindustan Times — fiabilité 6/10"
+      ],
+      "url": "https://www.hindustantimes.com/genesis/from-diplomacy-to-dealmaking-a-new-route-for-russia-india-trade-101790844861571.html",
+      "published_at": "2026-10-01T03:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump affirme que les États-Unis gagneront rapidement la guerre contre l’Iran et revendique le contrôle du détroit d’Ormuz. Le président Donald Trump (États-Unis) a affirmé que l'armée iranienne était détruite et a prédit une victoire rapide des États-Unis dans le conflit, affirmant un contrôle quasi total sur le détroit d'Ormuz.",
+      "sources": [
+        "IBTimes India — fiabilité 6/10"
+      ],
+      "url": "https://www.ibtimes.co.in/trump-says-us-will-win-war-iran-quickly-claims-control-hormuz-strait-906772",
+      "published_at": "2026-10-01T02:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
     },
     {
       "regions": [
