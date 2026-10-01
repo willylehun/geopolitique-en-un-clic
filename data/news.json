@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:27:49.234459+02:00",
+  "generated_at": "2026-10-01T07:38:06.312487+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42447,6 +42447,65 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement alloue 4,3 millions de dollars pour la location des terrains d'iTaukei. Le gouvernement a alloué 4,327 millions de dollars pour payer le loyer foncier de ses baux fonciers à iTaukei au cours de l'exercice 2026-2027. Le ministre des Terres et des Ressources minérales, Filimoni Vosarogo, déclare que le gouvernement…",
+      "sources": [
+        "FBC News (média public) — fiabilité 7/10"
+      ],
+      "url": "https://www.fbcnews.com.fj/news/government-allocates-4-3m-for-itaukei-land-rent/",
+      "published_at": "2026-10-01T00:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Marcos EO exploite des technologies telles que la blockchain pour assurer la transparence des dépenses publiques. MANILLE, Philippines — Le président Marcos a signé une ordonnance institutionnalisant un système en ligne de surveillance des dépenses publiques dans le cadre de la tentative du gouvernement d'utiliser la blockchain et d'autres émergents…",
+      "sources": [
+        "Inquirer.net via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ph/news/other/marcos-eo-taps-tech-like-blockchain-for-gov-t-spending-transparency/ar-AA2diqi9",
+      "published_at": "2026-10-01T00:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Philippines"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Inde",
+        "Iran",
+        "Israël"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre Benjamin Netanyahu (Israël) dit qu'il est trop tôt pour dire si l'Iran a été impliqué dans le détournement du vol FZ1073 | BLOGUE EN DIRECT. Le Premier ministre indien salue le pilote indien de Flydubai comme un héros pour avoir envoyé des signaux de détresse malgré avoir été poignardé. Dans un article sur X, le Premier ministre Narendra Modi (Inde) a qualifié le capitaine Smit Machchhar de « HÉROS ». Le Premier ministre a ajouté : « Face au danger le plus grave et malgré ses blessures graves, il a fait preuve d'un immense courage et d'une détermination inébranlable à protéger la vie des autres.",
+      "sources": [
+        "i24news.tv — fiabilité 6/10"
+      ],
+      "url": "https://www.i24news.tv/en/news/international/artc-pm-netanyahu-says-it-s-too-early-to-say-if-iran-was-involved-in-the-flight-fz1073-hijacking-live-blog",
+      "published_at": "2026-10-01T07:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
