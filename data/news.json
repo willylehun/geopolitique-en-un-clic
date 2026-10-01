@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T04:13:13.449492+02:00",
+  "generated_at": "2026-10-01T04:23:29.501848+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -41724,10 +41724,11 @@
       "sources": [
         "lancashiretelegraph.co.uk — fiabilité 6/10",
         "irvinetimes.com — fiabilité 6/10",
-        "milfordmercury.co.uk — fiabilité 6/10"
+        "milfordmercury.co.uk — fiabilité 6/10",
+        "gazette-news.co.uk — fiabilité 6/10"
       ],
       "url": "https://www.lancashiretelegraph.co.uk/news/national/26596132.strong-indications-iran-played-role-suspected-fairford-terror-plot-pm-says/",
-      "published_at": "2026-10-01T03:15:00+02:00",
+      "published_at": "2026-10-01T04:00:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -42103,6 +42104,69 @@
       "url": "https://www.greeleytribune.com/2026/09/30/ukraine-russia/",
       "published_at": "2026-10-01T03:30:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Des représentants du gouvernement du Canada tiendront une séance d'information technique sur le processus concernant l'oléoduc de la côte Ouest. OTTAWA, ON, le 30 septembre 2026 /CNW/ -- Des représentants du gouvernement du Canada tiendront une séance d'information technique sous embargo avec les médias pour faire le point sur l'évolution de la situation.",
+      "sources": [
+        "recorder.ca — fiabilité 6/10"
+      ],
+      "url": "https://www.recorder.ca/press-releases/pr-newswire/government-of-canada-officials-to-hold-a-technical-briefing-on-the-west-coast-oil-pipeline-process/",
+      "published_at": "2026-10-01T04:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Inde",
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le ministre pakistanais prévient que les actions unilatérales de l'Inde concernant le Traité sur l'eau de l'Indus pourraient avoir des implications sur la gouvernance de l'eau à l'échelle mondiale – Asia News Network. L’eau et le Traité sur l’eau de l’Indus (IWT) restent une question controversée entre l’Inde et le Pakistan, après la suspension unilatérale de l’accord par New Delhi en avril de l’année dernière – une décision qui a été suivie d’un bref conflit militaire entre les deux parties en mai 2025.",
+      "sources": [
+        "asianews.network — fiabilité 6/10"
+      ],
+      "url": "https://asianews.network/pakistan-minister-warns-indias-unilateral-actions-on-indus-water-treaty-may-have-implications-for-water-governance-globally/",
+      "published_at": "2026-10-01T04:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Niger"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Trois justiciers auraient été tués lors de l'attaque à la frontière entre Kebbi et le Niger.",
+      "sources": [
+        "punchng.com — fiabilité 6/10"
+      ],
+      "url": "https://punchng.com/three-vigilantes-feared-killed-in-kebbi-niger-border-attack/",
+      "published_at": "2026-10-01T03:30:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
