@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:21:25.012559+02:00",
+  "generated_at": "2026-10-01T22:31:37.548707+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -50462,7 +50462,8 @@
     {
       "regions": [
         "Asie",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "countries": [
         "Iran",
@@ -50471,7 +50472,7 @@
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 6,
+      "score": 9,
       "category": "Géopolitique",
       "summary": "Projet d’attaque contre une base militaire en Angleterre: Netanyahu dit avoir averti Londres. Israël avait averti les autorités britanniques que l’Iran planifiait une attaque contre une base britannique, a déclaré son dirigeant le Premier ministre Benjamin Netanyahu (Israël), s’offusquant que Londres ait malgré tout pris …",
       "sources": [
@@ -52914,6 +52915,112 @@
       "url": "https://www.agoravox.fr/tribune-libre/article/estonie-la-chasse-a-la-langue-272527",
       "published_at": "2026-10-01T00:51:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre français Lecornu convoque une réunion de crise au milieu des manifestations nationales dans les lycées. Le cabinet de Sébastien Lecornu a indiqué avoir demandé aux ministres d'annuler tout voyage officiel prévu dans les prochains jours afin que les autorités et la police puissent se concentrer sur les manifestations.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/en/france/article/2026/10/01/french-pm-lecornu-convenes-crisis-meeting-amid-nationwide-high-school-protests_6758143_7.html",
+      "published_at": "2026-10-01T09:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre britannique a déclaré que l'Iran était impliqué dans l'incident de la base aérienne. Un ressortissant iranien du Royaume-Uni a été arrêté. L'homme de 27 ans a été arrêté à Londres. Un autre homme a été interrogé sous caution.",
+      "sources": [
+        "ibtimes.com — fiabilité 6/10"
+      ],
+      "url": "https://www.ibtimes.com/british-prime-minister-said-iran-was-involved-air-base-incident-uk-iranian-national-has-now-3808129",
+      "published_at": "2026-10-01T21:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "Israël",
+        "Palestine",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Sondage : 1 électeur sur 5 détruirait Israël et donnerait le contrôle à la Palestine pour une baisse des prix du gaz * WorldNetDaily * par le personnel de WND. Une nouvelle enquête nationale téléphonique et en ligne a révélé qu’environ 40 % des « électeurs américains probables » pensent que le gouvernement iranien est « le plus responsable » de la guerre en cours. Mais les résultats de Rasmussen confirment de manière surprenante : « Quarante pour cent (40 %) blâment le gouvernement américain pour la guerre, tandis que 10 % blâment le gouvernement israélien ». Rapports Rasmussen : 1 électeur sur 5 détruirait Israël pour mettre fin à la guerre en Iran https://t.",
+      "sources": [
+        "wnd.com — fiabilité 6/10"
+      ],
+      "url": "https://www.wnd.com/2026/10/poll-1-5-voters-would-destroy-israel-put/",
+      "published_at": "2026-10-01T21:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Allemagne",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Secrétaire général de l'OTAN à Münster : Restez calme, continuez et soutenez l'Ukraine. Jeudi (1er octobre 2026), le secrétaire général de l'OTAN, Mark Rutte, s'est rendu à Münster pour visiter le 1er Corps germano-néerlandais en compagnie du chancelier fédéral allemand le chancelier Friedrich Merz (Allemagne) et du Premier ministre néerlandais Rob Jetten.",
+      "sources": [
+        "nato.int — fiabilité 6/10"
+      ],
+      "url": "https://nato.int/en/news-and-events/articles/news/2026/10/01/nato-secretary-general-in-munster-keep-calm-carry-on-and-continue-support-for-ukraine",
+      "published_at": "2026-10-01T21:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les États-Unis ont imposé des sanctions aux constructeurs automobiles iraniens. Le plus grand fabricant iranien de motos, Niroo Motor, fait partie des entreprises sanctionnées.",
+      "sources": [
+        "teraz.sk — fiabilité 6/10"
+      ],
+      "url": "https://www.teraz.sk/zahranicie/usa-uvalili-sankcie-na-iranskych-vyrob/996636-clanok.html",
+      "published_at": "2026-10-01T21:45:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
