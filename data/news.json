@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:14:51.671093+02:00",
+  "generated_at": "2026-10-01T18:25:16.975084+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -48866,12 +48866,13 @@
       "bucket": "1 octobre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "La famille de Renee Good poursuit l’administration du président Donald Trump (États-Unis) et l’agent ICE après une fusillade mortelle. La famille de Renee Good, tuée lors d'une opération d'immigration en janvier à Minneapolis, a déposé jeudi deux plaintes contre le gouvernement fédéral, plusieurs responsables de l'administration Trump et l'agent…",
+      "summary": "La famille de Renee Good poursuit l'administration Trump pour la fusillade mortelle de Minneapolis ICE. Mme Good était l'une des deux personnes abattues par des agents de l'ICE lors d'une opération d'immigration massive dans la ville américaine de Minneapolis, qui a intensifié l'opposition à la politique migratoire du président Donald Trump (États-Unis).",
       "sources": [
-        "Forbes — fiabilité 6/10"
+        "Forbes — fiabilité 6/10",
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
       ],
       "url": "https://www.forbes.com/sites/conormurray/2026/10/01/renee-goods-family-sues-trump-administration-ice-agent-after-fatal-shooting/",
-      "published_at": "2026-10-01T10:04:00+02:00",
+      "published_at": "2026-10-01T10:06:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -49486,6 +49487,160 @@
       ],
       "url": "https://maliactu.net/climat-le-mali-acte-sa-nouvelle-feuille-de-route-verte-avec-la-cdn-3-0/",
       "published_at": "2026-10-01T11:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La lutte contre l’expulsion du chef de la mosquée du Wisconsin prend une tournure dramatique alors que l’administration du président Donald Trump (États-Unis) remporte une victoire majeure. Le secrétaire d’État Marco Rubio (États-Unis) a ordonné l'expulsion du plus grand dirigeant de mosquée de Milwaukee pour des raisons de sécurité nationale, citant des condamnations israéliennes et des liens présumés avec le terrorisme.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/politics/wisconsin-mosque-leader-deportation-fight-takes-dramatic-turn-trump-admin-scores-major-win",
+      "published_at": "2026-10-01T11:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Syrie discute de coopération environnementale avec le Yémen, l'Arabie saoudite et le Qatar. Le ministre syrien de l'Administration locale et de l'Environnement, Mohammad Anjarani, a tenu des réunions séparées avec ses homologues du Yémen, de l'Arabie saoudite …",
+      "sources": [
+        "Syrian Arab News Agency — fiabilité 6/10"
+      ],
+      "url": "https://sana.sy/en/syria/2347375/",
+      "published_at": "2026-10-01T00:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Qatar",
+        "Arabie saoudite",
+        "Syrie",
+        "Yémen"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "\"Un général à la retraite qualifiele secrétaire à la Défense Pete Hegseth (États-Unis) d'\"incompétent\" après la purge des dirigeants\". Hegseth est accusé d'avoir joué à la « roulette russe » avec la sécurité nationale américaine après la dernière purge militaire - « Des généraux incroyablement compétents, et il s'en débarrasse », a déclaré Randy Manner, qui a pris sa retraite en 2 …",
+      "sources": [
+        "The Independent via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-za/news/other/retired-general-slams-incompetent-hegseth-after-leadership-purge/ar-AA2dm1pX",
+      "published_at": "2026-10-01T11:11:47+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Afrique",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis renoncent aux conditions relatives aux droits de l’homme liées à l’aide militaire égyptienne de 320 millions de dollars en raison du rôle de guerre contre l’Iran. Les États-Unis affirment que ce financement est important pour leurs priorités en matière de sécurité nationale, citant le « rôle utile » de l'Égypte après l'opération Epic Fury.",
+      "sources": [
+        "Firstpost — fiabilité 6/10"
+      ],
+      "url": "https://www.firstpost.com/world/us-waives-human-rights-conditions-on-320-million-egypt-military-aid-over-iran-war-role-14049780.html",
+      "published_at": "2026-10-01T10:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Égypte",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Expliquant pourquoi les pilotes de la guerre du Vietnam portaient des gilets pare-balles. Un regard historique sur les tactiques de l'aviation pendant la guerre du Vietnam, expliquant pourquoi les pilotes d'hélicoptère plaçaient leur gilet pare-balles sur leur siège pour se protéger des tirs au sol pénétrant dans le mince…",
+      "sources": [
+        "YouTube via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/explaining-why-vietnam-war-pilots-sat-on-body-armor/vi-AA2dmyep",
+      "published_at": "2026-10-01T11:01:01+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Vietnam"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Luxembourg"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Tokeny relie le Luxembourg aux actifs saoudiens tokenisés. La société luxembourgeoise Tokeny fournira la couche de distribution numérique du «Unified Trust Stack» développé par Apex Group et droppRWA. Le projet veut transformer des actifs saoudiens vérifiés d …",
+      "sources": [
+        "Paperjam — fiabilité 6/10"
+      ],
+      "url": "https://paperjam.lu/article/tokeny-relie-le-luxembourg-aux-actifs-saoudiens-tokenises",
+      "published_at": "2026-10-01T08:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Afrique"
+      ],
+      "countries": [
+        "Israël",
+        "Maurice",
+        "Palestine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Maurice : un vol en provenance d’Israël interdit d’atterrissage sur fond de tensions autour de Gaza (Palestine). Maurice a interdit l’atterrissage d’un vol charter en provenance de Tel-Aviv. Une décision qui serait liée à la crainte d’une manifestation.",
+      "sources": [
+        "Le Quotidien de la Réunion — fiabilité 6/10"
+      ],
+      "url": "https://www.lequotidien.re/article/societe/2026/10/01/maurice-un-vol-en-provenance-disrael-interdit-datterrissage-sur-fond-de-tensions-autour-de-gaza",
+      "published_at": "2026-10-01T06:25:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
