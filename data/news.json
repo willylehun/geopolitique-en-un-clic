@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:19:22.544774+02:00",
+  "generated_at": "2026-10-01T15:29:42.794485+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -46874,10 +46874,11 @@
       "category": "Géopolitique",
       "summary": "Bolivie : arrestation du procureur général dans le collimateur de Washington. Le procureur général de Bolivie a été arrêté mercredi deux jours après la révocation de son visa par le gouvernement américain qui l'accuse de s'être laissé corrompre par des narcotrafiquants, ce que …",
       "sources": [
-        "AFP via MSN — fiabilité 7/10"
+        "AFP via MSN — fiabilité 7/10",
+        "Yahoo Actualités — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/fr-fr/actualite/monde/bolivie-arrestation-du-procureur-général-dans-le-collimateur-de-washington/ar-AA2dk3B0",
-      "published_at": "2026-10-01T03:45:07+02:00",
+      "published_at": "2026-10-01T03:55:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
@@ -47060,6 +47061,137 @@
         "Israël",
         "Émirats arabes unis"
       ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les prix du pétrole augmentent en raison de l’impasse des négociations entre les États-Unis et l’Iran et de la restriction des marchés du carburant. Le brut Brent a augmenté mercredi à plus de 100 dollars le baril après avoir enregistré un gain mensuel d'environ 14 pour cent, son plus important depuis juillet.",
+      "sources": [
+        "Africanews via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-za/news/other/oil-prices-rise-on-stalled-us-iran-talks-and-restrained-fuel-markets/ar-AA2dmfj3",
+      "published_at": "2026-10-01T08:22:58+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "ConocoPhillips étudie la vente de ses activités en Norvège et de ses actifs au Royaume-Uni à Teesside. 1er octobre (Reuters) - ConocoPhillips évalue une vente potentielle de ses activités norvégiennes et de ses actifs de Teesside au Royaume-Uni après avoir reçu une offre non sollicitée, a déclaré le producteur américain de pétrole et de gaz…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/conocophillips-explores-sale-of-norway-business-and-uk-teesside-asset/ar-AA2dkGOL",
+      "published_at": "2026-10-01T05:38:43+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Norvège",
+        "Royaume-Uni",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Le discours politique de 54 milliards de dollars d'Alaska LNG est sa perte. L'annonce faite mercredi par le président Donald Trump (États-Unis) selon laquelle la Corée du Sud investirait 54 milliards de dollars dans un projet géant de gaz naturel liquéfié en Alaska avait une touche miraculeuse – comme dans « merveilleux mais… »",
+      "sources": [
+        "Bloomberg — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberg.com/opinion/articles/2026-10-01/alaska-lng-s-54-billion-political-pitch-is-its-undoing",
+      "published_at": "2026-10-01T08:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "TotalEnergies va investir 10 milliards de dollars en Argentine, a annoncé son PDG Pouyanne. PARIS, 1er octobre (Reuters) - Le groupe pétrolier français TotalEnergies prévoit d'investir 10 milliards de dollars en Argentine, a déclaré jeudi son directeur général Patrick Pouyanne lors d'une conférence à Paris. L'investissement sera…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-gb/money/general/totalenergies-to-invest-10-billion-in-argentina-ceo-pouyanne-says/ar-AA2dlKAG",
+      "published_at": "2026-10-01T06:46:51+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Royaume-Uni répertorie 5 exigences financières pour les résidents parrainant des parents adultes à charge en Grande-Bretagne. Vous envisagez d'amener un adulte à charge au Royaume-Uni ? Le gouvernement a énuméré cinq exigences financières pour les parrains qui souhaitent faire venir des parents adultes à charge en Grande-Bretagne.",
+      "sources": [
+        "Legit.ng — fiabilité 6/10"
+      ],
+      "url": "https://www.legit.ng/people/1733815-uk-lists-5-financial-requirements-residents-sponsoring-adult-dependent-relatives/",
+      "published_at": "2026-10-01T08:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Un drone russe frappe une école de Kiev alors que Moscou poursuit sa campagne aérienne contre l'Ukraine. Un drone russe a frappé une école à Kiev alors que la capitale ukrainienne subissait une nouvelle journée d'attaques aériennes incessantes lors de l'invasion à grande échelle de Moscou, vieille de 4 ans et demi.",
+      "sources": [
+        "wdtimes.com — fiabilité 6/10"
+      ],
+      "url": "http://www.wdtimes.com/news/world/a-russian-drone-hits-a-kyiv-school-as-moscow-presses-its-aerial-campaign-against-ukraine/article_48422b83-2630-5dc2-bff7-05ddd849b475.html",
+      "published_at": "2026-10-01T15:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
