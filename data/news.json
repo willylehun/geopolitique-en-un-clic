@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:31:37.548707+02:00",
+  "generated_at": "2026-10-01T22:41:54.483710+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -53022,6 +53022,126 @@
       "published_at": "2026-10-01T21:45:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Faire le point : Comment l'expulsion d'une femme de 87 ans en Espagne a perturbé le débat sur le logement. Les manifestations en Espagne contre l'expulsion de Mariacarmen Abascal, 87 ans, des logements sociaux ont relancé le débat sur l'accessibilité financière du logement à l'échelle mondiale, alors que l'inflation s'accélère et que les perspectives de carrière des jeunes …",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/audio/play/w3ct8g9w",
+      "published_at": "2026-10-01T15:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Émission du 1er octobre 2026. Didier Braun, vice-président de la chambre de l'Agriculture d'Alsace était l'invité d'Alsace Politiques ce 1 octobre 2026.",
+      "sources": [
+        "BFMTV via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/émission-du-1er-octobre-2026/vi-AA2dn1xQ",
+      "published_at": "2026-10-01T14:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le ministère de la Défense crée un bureau des affaires religieuses.",
+      "sources": [
+        "WCVB Channel 5 — fiabilité 6/10"
+      ],
+      "url": "https://www.wcvb.com/article/department-of-defense-establishes-office-religious-affairs/73983951",
+      "published_at": "2026-10-01T15:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un homme d'Edmonton accusé de menaces de mort présumées contre le premier ministre du Canada : GRC. La police a arrêté un homme d'Edmonton de 44 ans accusé d'avoir menacé de tuer le premier ministre Mark Carney, a indiqué la GRC.",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/canada/edmonton/edmonton-mark-carney-death-threats-9.7365841",
+      "published_at": "2026-10-01T15:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La Bolivie arrête le procureur général Mariaca après les sanctions américaines en matière de visa. La police bolivienne a arrêté le procureur général Roger Mariaca et 13 autres personnes pour protection présumée des trafiquants de drogue. L'affaire renforce l'examen minutieux du système judiciaire et met en lumière le président Rodrigo …",
+      "sources": [
+        "India Today via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/bolivia-arrests-attorney-general-mariaca-after-us-visa-sanctions/ar-AA2dnnGK",
+      "published_at": "2026-10-01T14:32:43+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Bolivie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump a été ridiculisé pour avoir tenté de réécrire l’histoire avec une histoire de guerre. Le président Donald Trump (États-Unis) a fait face à une réaction immédiate jeudi après avoir affirmé qu'il avait toujours déclaré qu'il faudrait quatre à six semaines pour éliminer la menace nucléaire iranienne – et qu'il avait accompli la tâche « en…",
+      "sources": [
+        "Raw Story via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/trump-ridiculed-for-trying-to-rewrite-history-with-war-story/ar-AA2dnsWD",
+      "published_at": "2026-10-01T14:47:08+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
