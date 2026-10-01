@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:10:43.340530+02:00",
+  "generated_at": "2026-10-01T09:20:57.467135+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42714,9 +42714,10 @@
       "bucket": "1 octobre 2026",
       "score": 10,
       "category": "Géopolitique",
-      "summary": "Médailles de la Première Guerre mondiale d'un soldat de l'Extrême-Nord découvertes à Christchurch.",
+      "summary": "Médailles des soldats de l’Extrême-Nord trouvées à Christchurch. La police tente de retrouver les proches d'un soldat de l'Extrême-Nord après que ses médailles de la Première Guerre mondiale ont été découvertes lors d'une perquisition à Christchurch. Le sergent-détective Jason Hunuki a déclaré que les agents avaient trouvé…",
       "sources": [
-        "RNZ (média public) — fiabilité 8/10"
+        "RNZ (média public) — fiabilité 8/10",
+        "Otago Daily Times — fiabilité 6/10"
       ],
       "url": "https://www.rnz.co.nz/news/regions/1673512/world-war-i-medals-of-far-north-soldier-uncovered-in-christchurch",
       "published_at": "2026-10-01T02:00:00+02:00",
@@ -43249,6 +43250,149 @@
       ],
       "url": "https://www.sudouest.fr/international/intelligence-artificielle-le-nouveau-chatbot-du-gouvernement-americain-cesse-de-contredire-trump-sur-la-presidentielle-de-2020-30862190.php",
       "published_at": "2026-10-01T01:50:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Les bourses en direct | Les craintes inflationnistes pèsent sur la tendance en Europe, Colruyt perd 8% à Bruxelles. Les marchés européens ont ouvert en nette baisse ce jeudi, alors que les chiffres d'inflation dans plusieurs pays de la zone euro montrent une accélération de la hausse des prix.",
+      "sources": [
+        "L'Echo — fiabilité 6/10"
+      ],
+      "url": "https://www.lecho.be/les-marches/live-blog/les-bourses-en-direct-les-craintes-inflationnistes-pesent-sur-la-tendance-en-europe-colruyt-perd-8-a-bruxelles/10688128.html",
+      "published_at": "2026-10-01T01:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "De quels missiles et drones disposent les Houthis ? Une offensive rapide des Houthis au Yémen a intensifié la guerre civile dans le pays et provoqué le chaos sur les marchés pétroliers mondiaux. Le groupe, qui contrôle une grande partie du nord du Yémen depuis plus d’une décennie, a…",
+      "sources": [
+        "Middle East Eye — fiabilité 6/10"
+      ],
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/what-missiles-and-drones-do-houthis-have",
+      "published_at": "2026-10-01T01:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Yémen"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les obligations vacillent après le pire trimestre des bons du Trésor américain depuis 1994. Les rendements américains ont atteint jeudi leur plus haut niveau en deux décennies pour une septième séance consécutive avant qu'une baisse des prix du pétrole ne stabilise un marché obligataire ébranlé par son pire trimestre du siècle, …",
+      "sources": [
+        "AOL — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.com/articles/bonds-teeter-us-treasuries-worst-060015000.html",
+      "published_at": "2026-10-01T01:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les règles de résidence permanente plus strictes au Japon et l'augmentation des frais de visa commencent, suscitant des inquiétudes en matière de xénophobie. TOKYO -- Les exigences de résidence permanente beaucoup plus strictes et l'augmentation des frais de visa sont entrées en vigueur le 1er octobre au Japon, mesures que le gouvernement déclare être un objectif･･･…",
+      "sources": [
+        "The Mainichi via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-xl/news/other/japan-s-harsher-permanent-residency-rules-hiked-visa-fees-begin-sparking-xenophobia-worries/ar-AA2dkwKT",
+      "published_at": "2026-10-01T01:43:39+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Japon"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Afghanistan"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "9 tués et 11 blessés lors de frappes aériennes pakistanaises en Afghanistan dans le Helmand. Sur fond d'escalade des actions transfrontalières hostiles entre les deux voisins d'Asie du Sud, de récentes frappes aériennes pakistanaises ont tué neuf personnes et blessé onze autres jeudi sur le territoire afghan, selon le gouvernement afghan. Le bombardement destructeur a ciblé des zones résidentielles, détruisant trois maisons situées dans les provinces de Kunar et Helmand, a confirmé le porte-parole en chef du gouvernement afghan, Zabihullah Mujahid, dans un communiqué partagé sur la plateforme de médias sociaux X.",
+      "sources": [
+        "bignewsnetwork.com — fiabilité 6/10"
+      ],
+      "url": "http://www.bignewsnetwork.com/news/279344746/9-killed-11-injured-in-pakistani-airstrikes-in-afghanistan-helmand",
+      "published_at": "2026-10-01T09:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Le taux annuel de croissance des prix de l'immobilier au Royaume-Uni a diminué de moitié en septembre, indique Nationwide. Le conflit au Moyen-Orient a attisé les inquiétudes concernant l'inflation, a déclaré la société de construction.",
+      "sources": [
+        "eastlondonadvertiser.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://www.eastlondonadvertiser.co.uk/news/national/26596605.annual-rate-uk-house-price-growth-halved-september-says-nationwide/",
+      "published_at": "2026-10-01T09:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le char yougoslave M-84 des années 1980 a fait ses preuves en Ukraine. Un char des années 1980 surprend la guerre en Ukraine. Les équipages apprécient particulièrement la vitesse, la technologie et la facilité d'entretien.",
+      "sources": [
+        "focus.de — fiabilité 6/10"
+      ],
+      "url": "https://www.focus.de/politik/ausland/der-jugoslawische-panzer-m-84-aus-den-1980er-jahre-hat-sich-in-der-ukraine-bewaehrt_268b2c63-1cbe-4a99-be13-9fdb5252053d.html",
+      "published_at": "2026-10-01T09:00:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
