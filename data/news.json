@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:19:00.104043+02:00",
+  "generated_at": "2026-10-01T08:29:11.562350+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -42718,7 +42718,7 @@
         "RNZ (média public) — fiabilité 8/10"
       ],
       "url": "https://www.rnz.co.nz/news/regions/1673512/world-war-i-medals-of-far-north-soldier-uncovered-in-christchurch",
-      "published_at": "2026-10-01T01:19:00+02:00",
+      "published_at": "2026-10-01T01:28:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": []
@@ -42843,6 +42843,47 @@
       "url": "https://www.aol.co.uk/articles/argentine-leader-milei-mission-beef-051232000.html",
       "published_at": "2026-10-01T08:00:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Des missions indiennes fournissent de l'aide » : le Premier ministre Modi s'adresse à la famille du pilote de flydubai Smit Machchhar et loue son courage. Le Premier ministre Narendra Modi (Inde) s'est entretenu avec l'épouse et les parents du capitaine Smit Machchhar, le pilote blessé du vol Flydubai Dubaï (Émirats arabes unis)-Tel Aviv qui a survécu à une apparente tentative de détournement, …",
+      "sources": [
+        "The Times of India — fiabilité 6/10"
+      ],
+      "url": "https://timesofindia.indiatimes.com/india/indian-missions-providing-help-pm-modi-speaks-to-captain-smit-machchhars-family-lauds-his-bravery/articleshow/134608685.cms",
+      "published_at": "2026-10-01T00:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Nigeria : Kano emploie plus de 2 000 agents de santé et modernise les hôpitaux. Le gouvernement de l'État de Kano a employé 2 037 agents de santé supplémentaires pour remédier à la pénurie de main-d'œuvre dans les hôpitaux et autres établissements de santé de l'État.",
+      "sources": [
+        "allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://allafrica.com/stories/202610010060.html",
+      "published_at": "2026-10-01T08:00:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
