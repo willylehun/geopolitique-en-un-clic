@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:41:25.059467+02:00",
+  "generated_at": "2026-10-01T09:51:41.005658+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -43649,6 +43649,44 @@
       ],
       "url": "https://www.linternaute.com/sport/foot/11306517-cristiano-ronaldo-il-prend-sa-retraite-avec-le-portugal-et-promet-des-explications-quelles-sanctions/",
       "published_at": "2026-10-01T02:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le déficit énergétique de l’Inde atteint son pic depuis trois ans malgré une consommation de charbon plus élevée. Les pénuries d'électricité en Inde ont atteint leur plus haut niveau depuis plus de trois ans en septembre, malgré le fonctionnement des centrales au charbon à capacité plus élevée pour le sixième mois consécutif afin de répondre à la demande croissante due au phénomène El Niño.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/india-power-shortfall-hits-three-year-peak-despite-higher-coal-burn-2026-10-01/",
+      "published_at": "2026-10-01T02:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Haute Cour du Pendjab et de l'Haryana demande au Pendjab de prendre des mesures pour nommer un DGP régulier. La Haute Cour du Pendjab et de l'Haryana a demandé jeudi au gouvernement du Pendjab d'accélérer le processus de nomination d'un directeur général régulier de la police (DGP) dans le …",
+      "sources": [
+        "Bar and Bench — fiabilité 6/10"
+      ],
+      "url": "https://www.barandbench.com/news/punjab-and-haryana-high-court-asks-punjab-to-take-steps-to-appoint-regular-dgp",
+      "published_at": "2026-10-01T02:40:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
