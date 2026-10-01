@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T17:02:17.909839+02:00",
+  "generated_at": "2026-10-01T17:12:36.068846+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -48522,6 +48522,188 @@
         "Canada",
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Une attaque contre la démocratie » : la Finlande s’inquiète d’intrusions répétées aux domiciles de ses députés. Le pouvoir finlandais prend très au sérieux des signes d’intrusion au domicile de plusieurs députés. Une enquête a été ouverte, et le Premier ministre n’écarte pas une piste étrangère …",
+      "sources": [
+        "Sud Ouest — fiabilité 6/10"
+      ],
+      "url": "https://www.sudouest.fr/international/europe/une-attaque-contre-la-democratie-la-finlande-s-inquiete-d-intrusions-repetees-aux-domiciles-de-ses-deputes-30867909.php",
+      "published_at": "2026-10-01T07:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Finlande"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Une bénédiction ou une malédiction ? L'industrie du nickel en déclin en Nouvelle-Calédonie. Le gouvernement français organise ce jeudi 1er octobre un sommet visant à attirer les investisseurs et à redynamiser la création de richesses dans les territoires d'outre-mer. Parmi les atouts que Paris souhaite…",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/tv-shows/focus/20261001-a-blessing-or-a-curse-new-caledonia-s-dwindling-nickel-industry",
+      "published_at": "2026-10-01T01:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'or gagne alors que les données d'inflation américaines plus froides contrecarrent la hausse des rendements du Trésor. Par Pablo Sinha, 1er octobre (Reuters) - Les prix de l'or ont augmenté jeudi, aidés par un rapport sur l'inflation américaine plus faible que prévu qui a abaissé les attentes d'une hausse des taux de la Réserve fédérale en octobre, bien qu'en hausse…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-au/money/general/gold-gains-as-cooler-us-inflation-data-counters-higher-treasury-yields/ar-AA2dllRR",
+      "published_at": "2026-10-01T06:58:36+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La Norvège est prête à répondre à la forte demande hivernale de gaz de la part de l’Europe, selon l’opérateur du gazoduc. Le système norvégien d'exportation de gaz naturel est bien équipé pour répondre à la forte demande européenne au cours de l'hiver prochain, a indiqué l'opérateur de gazoducs et d'usines de traitement du pays, Gassco …",
+      "sources": [
+        "AOL — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.com/articles/norway-ready-high-winter-gas-061434000.html",
+      "published_at": "2026-10-01T03:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Norvège"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Mamata Banerjee soutiendra-t-elle Rahul Gandhi comme Premier ministre en 2029 ? Ce qu'elle a dit. Lorsqu'on lui a demandé si elle soutiendrait Rahul Gandhi, du Congrès, en tant que Premier ministre du bloc d'opposition pour les élections générales de 2029, Banerjee a adroitement éludé la question.",
+      "sources": [
+        "NDTV — fiabilité 6/10"
+      ],
+      "url": "https://www.ndtv.com/india-news/will-mamata-banerjee-support-rahul-gandhi-for-prime-minister-in-2029-what-she-said-12126629",
+      "published_at": "2026-10-01T09:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Bolivie a arrêté le procureur général, a annoncé le ministère du gouvernement. Le procureur général bolivien Roger Mariaca a été arrêté deux jours après que les États-Unis l'ont accusé d'avoir reçu des pots-de-vin, a déclaré jeudi le ministre de l'Intérieur du pays, Marco Antonio Oviedo.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/bolivia-detains-attorney-general-government-ministry-says-2026-10-01/",
+      "published_at": "2026-10-01T09:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Bolivie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Iran - La guerre fait grimper les prix du carburant : c'est la part de votre salaire minimum qu'un réservoir d'essence engloutit. Les prix des carburants ont explosé depuis le conflit au Moyen-Orient. En Allemagne, un plein d'essence coûte environ 5 % du salaire minimum – ailleurs dans l'UE, jusqu'à 15 %.",
+      "sources": [
+        "hna.de — fiabilité 6/10"
+      ],
+      "url": "http://www.hna.de/wirtschaft/iran-krieg-treibt-spritpreise-hoch-so-viel-ihres-mindestlohns-frisst-eine-tankfuellung-zr-94520040.html",
+      "published_at": "2026-10-01T16:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Portugal"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Cristiano Ronaldo risque une suspension de six mois et une énorme amende après avoir quitté le Portugal. Cristiano Ronaldo pourrait faire face à de lourdes sanctions pour avoir décidé de quitter le camp international portugais.",
+      "sources": [
+        "aol.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.co.uk/articles/cristiano-ronaldo-faces-six-month-140700000.html",
+      "published_at": "2026-10-01T16:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Sénégal"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Accord Sénégal-FMI : Abdoulaye Diop salue un « signal positif » pour l’économie. Le nouvel accord conclu entre le Sénégal et le Fonds monétaire international (FMI) est accueilli favorablement au niveau sous-régional. Le président de la Commission de l’UEMOA, Abdoulaye DIOP, estime …",
+      "sources": [
+        "Walfnet via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/afrique-de-l-ouest/senegal-actualite/accord-sénégal-fmi-abdoulaye-diop-salue-un-signal-positif-pour-l-économie/ar-AA2dlhmE",
+      "published_at": "2026-10-01T07:04:59+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
