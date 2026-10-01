@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:11:15.188199+02:00",
+  "generated_at": "2026-10-01T22:21:25.012559+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -50462,8 +50462,7 @@
     {
       "regions": [
         "Asie",
-        "Europe",
-        "International"
+        "Europe"
       ],
       "countries": [
         "Iran",
@@ -50472,7 +50471,7 @@
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 9,
+      "score": 6,
       "category": "Géopolitique",
       "summary": "Projet d’attaque contre une base militaire en Angleterre: Netanyahu dit avoir averti Londres. Israël avait averti les autorités britanniques que l’Iran planifiait une attaque contre une base britannique, a déclaré son dirigeant le Premier ministre Benjamin Netanyahu (Israël), s’offusquant que Londres ait malgré tout pris …",
       "sources": [
@@ -51472,7 +51471,8 @@
       "url": "https://www.france24.com/en/live-news/20261001-thousands-rally-as-eu-chief-urges-respect-for-kosovo-war-crimes-court",
       "published_at": "2026-10-01T12:40:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -51761,7 +51761,8 @@
       "category": "Conflit",
       "summary": "Guerre en Ukraine : Merci pour le résultat … Grande première, le président Volodymyr Zelensky (Ukraine) annonce enfin lutilisation du missile balistique tactique FP - 7 dune portée de 300 km. Le président ukrainien Volodymyr Zelensky a annoncé ce jeudi l'utilisation en combat du missile balistique FP-7, développé par la société Fire Point.",
       "sources": [
-        "lindependant.fr — fiabilité 6/10"
+        "lindependant.fr — fiabilité 6/10",
+        "Yahoo — fiabilité 6/10"
       ],
       "url": "https://www.lindependant.fr/2026/10/01/guerre-en-ukraine-merci-pour-le-resultat-grande-premiere-volodymyr-zelensky-annonce-enfin-lutilisation-du-missile-balistique-tactique-fp-7-dune-portee-13579042.php",
       "published_at": "2026-10-01T20:45:00+02:00",
