@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:22:56.590823+02:00",
+  "generated_at": "2026-10-01T23:33:12.932151+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -50467,7 +50467,8 @@
     {
       "regions": [
         "Asie",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "countries": [
         "Iran",
@@ -50476,7 +50477,7 @@
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
-      "score": 6,
+      "score": 9,
       "category": "Géopolitique",
       "summary": "Projet d’attaque contre une base militaire en Angleterre: Netanyahu dit avoir averti Londres. Israël avait averti les autorités britanniques que l’Iran planifiait une attaque contre une base britannique, a déclaré son dirigeant le Premier ministre Benjamin Netanyahu (Israël), s’offusquant que Londres ait malgré tout pris …",
       "sources": [
@@ -53077,7 +53078,8 @@
       "category": "Géopolitique",
       "summary": "Le ministère de la Défense crée un bureau des affaires religieuses.",
       "sources": [
-        "WCVB Channel 5 — fiabilité 6/10"
+        "WCVB Channel 5 — fiabilité 6/10",
+        "WLWT Channel 5 — fiabilité 6/10"
       ],
       "url": "https://www.wcvb.com/article/department-of-defense-establishes-office-religious-affairs/73983951",
       "published_at": "2026-10-01T15:17:00+02:00",
@@ -53694,10 +53696,11 @@
       "category": "Géopolitique",
       "summary": "Environ 9 000 soldats américains se dirigent vers le Moyen-Orient au milieu de la guerre en Iran, selon un responsable. Il s’agirait d’une présence navale américaine inhabituellement élevée de plus de 20 000 marins et Marines et de centaines d’avions.",
       "sources": [
-        "hertsad.co.uk — fiabilité 6/10"
+        "hertsad.co.uk — fiabilité 6/10",
+        "sthelensstar.co.uk — fiabilité 6/10"
       ],
       "url": "https://www.hertsad.co.uk/news/national/26600496.around-9-000-us-troops-heading-middle-east-amid-iran-war-official-says/",
-      "published_at": "2026-10-01T22:45:00+02:00",
+      "published_at": "2026-10-01T23:00:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -53743,6 +53746,190 @@
       "countries": [
         "Venezuela"
       ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le Qatar condamne fermement l’attaque des Houthis contre la station de distribution d’électricité desservant la mosquée du Prophète. L'État du Qatar condamne fermement le ciblage par le groupe Houthi d'une centrale de distribution d'électricité à Médine, dans le royaume frère de …",
+      "sources": [
+        "The Peninsula Qatar — fiabilité 6/10"
+      ],
+      "url": "https://thepeninsulaqatar.com/article/02/10/2026/qatar-strongly-condemns-houthi-attack-on-power-distribution-station-serving-prophets-mosque",
+      "published_at": "2026-10-01T16:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Qatar"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "L’ancien gestionnaire d’Open AI a été nommé à la commission royale travailliste sur l’IA. Sam Altman n'allait jamais se présenter à une commission royale d'État, mais le premier ministre sud-africain, Peter Malinauskas, a toujours un pedigree OpenAI impliqué.",
+      "sources": [
+        "Australian Financial Review — fiabilité 7/10"
+      ],
+      "url": "https://www.afr.com/rear-window/open-ai-s-former-handler-put-on-labor-s-ai-royal-commission-20261002-p6120i",
+      "published_at": "2026-10-01T15:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Quelle vie sous Toi. S. À quoi ressemblent les sanctions pour un juge de la CPI. Kimberly Prost, juge canadienne à la Cour pénale internationale, affirme que les sanctions américaines ont perturbé sa vie quotidienne. Elle entend toujours des affaires et conteste les sanctions devant les tribunaux.",
+      "sources": [
+        "wknofm.org — fiabilité 6/10"
+      ],
+      "url": "https://www.wknofm.org/news-from-npr/2026-10-01/what-life-under-u-s-sanctions-looks-like-for-one-icc-judge",
+      "published_at": "2026-10-01T23:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "L'Ukraine et l'UE déclarent que les besoins de défense pour 2026 sont couverts alors que Kyiv commence à geler les allocations. L'Ukraine et la Commission européenne ont déclaré avoir identifié les moyens nécessaires pour couvrir le budget et les besoins de défense de 2026, sans en divulguer les sources ni les montants.",
+      "sources": [
+        "kyivpost.com — fiabilité 6/10"
+      ],
+      "url": "https://www.kyivpost.com/post/85890",
+      "published_at": "2026-10-01T23:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "RAAG appelle à convoquer le chargé d'affaires du haut-commissariat du Pakistan ; questions J - K Assemblée silence sur PoJK. Le groupe de recherche et de défense (RAAG), basé à Jammu, a exhorté le gouvernement indien à convoquer le chargé d'affaires du haut-commissariat du Pakistan à New Delhi et à déposer une forte protestation diplomatique contre les meurtres, les blessures, les arrestations, les restrictions et les difficultés humanitaires auxquelles sont confrontés les habitants du Jammu-et-Cachemire (PoJK) occupé par le Pakistan.",
+      "sources": [
+        "bignewsnetwork.com — fiabilité 6/10"
+      ],
+      "url": "http://www.bignewsnetwork.com/news/279346417/raag-calls-for-summoning-pakistan-high-commission-charge-daffaires-questions-j-k-assembly-silence-on-pojk",
+      "published_at": "2026-10-01T23:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "Europe"
+      ],
+      "countries": [
+        "Australie",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Hims & Hers nomme des directeurs médicaux au Royaume-Uni et en Australie. SAN FRANCISCO - Hims & Hers Health, Inc. A annoncé aujourd’hui la nomination de deux directeurs médicaux chargés de superviser ses opérations cliniques sur les marchés inte …",
+      "sources": [
+        "Investing.com France — fiabilité 6/10"
+      ],
+      "url": "https://fr.investing.com/news/company-news/hims--hers-nomme-des-directeurs-medicaux-au-royaumeuni-et-en-australie-93CH-3617114",
+      "published_at": "2026-10-01T07:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Royaume-Uni : Andy Burnham rouvre le débat sur l'avenir des relations avec l'UE. [Revue de presse] Plus de dix ans après le référendum sur le Brexit, le Premier ministre britannique Andy Burnham considère que le retrait de l'UE a fait \"plus de mal que de bien\". Mercredi 30 septemb …",
+      "sources": [
+        "Touteleurope.eu — fiabilité 6/10"
+      ],
+      "url": "https://www.touteleurope.eu/l-ue-dans-le-monde/royaume-uni-andy-burnham-rouvre-le-debat-sur-l-avenir-des-relations-avec-l-ue/",
+      "published_at": "2026-10-01T05:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : la Russie prévoit des dépenses militaires maintenues à des niveaux records jusqu’en 2029. Dans un bilan provisoire, la défense antiaérienne ukrainienne affirmait avoir abattu ou neutralisé 254 drones, dont 146 à réaction, entre 6 h 30 et 18 h 30, mercredi. Moscou a également tiré plusieurs …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/09/30/en-direct-guerre-en-ukraine-la-russie-a-lance-285-drones-dans-la-journee-de-mercredi-selon-l-armee-ukrainienne_6783795_3210.html",
+      "published_at": "2026-10-01T08:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre hybride, paix hybride, « paix-guerre »… Quelle est la nature réelle de l’affrontement entre l’Europe et la Russie aujourd’hui ?. En Europe, les actes hostiles attribués à Moscou se multiplient ces dernières semaines et suscitent une inquiétude grandissante parmi les di …",
+      "sources": [
+        "Le Parisien — fiabilité 6/10"
+      ],
+      "url": "https://www.leparisien.fr/international/guerre-hybride-paix-hybride-paix-guerre-quelle-est-la-nature-reelle-de-laffrontement-entre-leurope-et-la-russie-aujourdhui-01-10-2026-JJ6INM5WNVG7XC4UJOWDYCRAJ4.php",
+      "published_at": "2026-10-01T04:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
