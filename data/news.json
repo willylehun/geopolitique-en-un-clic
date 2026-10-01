@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:59:14.915340+02:00",
+  "generated_at": "2026-10-01T21:09:30.090822+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -50418,7 +50418,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -50431,7 +50432,8 @@
       "url": "https://www.bbc.com/news/articles/cw05r58v1zgro",
       "published_at": "2026-10-01T11:44:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -51668,6 +51670,96 @@
       "url": "https://www.straitstimes.com/world/united-states/rogue-openai-agents-covered-up-tracks-after-hacking-government-websites-report-says",
       "published_at": "2026-10-01T07:33:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Poutine défend l'Iran au Valdai : éloge de sa résilience et appel à lever les sanctions. Le président Vladimir Poutine (Russie) a pris la défense de Téhéran le 1er octobre devant le Club Valdai, en saluant le courage de la nation iranienne et en demandant la levée des sanctions qui visent le pays. « Le monde e …",
+      "sources": [
+        "La Nouvelle Tribune — fiabilité 6/10"
+      ],
+      "url": "https://lanouvelletribune.info/2026/10/poutine-defend-liran-au-valdai-eloge-de-sa-resilience-et-appel-a-lever-les-sanctions/",
+      "published_at": "2026-10-01T13:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les Émirats arabes unis condamnent fermement l'attaque des Houthis contre la station de distribution d'électricité à Médine. L'attaque a mis un transformateur hors service mais sans affecter le réseau électrique de la Ville sainte musulmane…",
+      "sources": [
+        "Khaleej Times — fiabilité 6/10"
+      ],
+      "url": "https://www.khaleejtimes.com/uae/uae-condemns-houthi-attack-power-station-madinah",
+      "published_at": "2026-10-01T03:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les États-Unis imposent de nouvelles sanctions contre les secteurs ferroviaire et automobile iraniens. Les États-Unis ont annoncé jeudi une nouvelle série de sanctions contre l'Iran, ciblant les secteurs ferroviaire et automobile ainsi qu'un prétendu réseau bancaire parallèle lié à la Russie, selon le Trésor …",
+      "sources": [
+        "Anadolu Agency — fiabilité 6/10"
+      ],
+      "url": "https://www.aa.com.tr/en/us-israel-iran-war/us-issues-new-sanctions-targeting-iran-s-rail-auto-sectors/4075466",
+      "published_at": "2026-10-01T02:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Russie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Guerre en Ukraine : Merci pour le résultat … Grande première, le président Volodymyr Zelensky (Ukraine) annonce enfin lutilisation du missile balistique tactique FP - 7 dune portée de 300 km. Le président ukrainien Volodymyr Zelensky a annoncé ce jeudi l'utilisation en combat du missile balistique FP-7, développé par la société Fire Point.",
+      "sources": [
+        "lindependant.fr — fiabilité 6/10"
+      ],
+      "url": "https://www.lindependant.fr/2026/10/01/guerre-en-ukraine-merci-pour-le-resultat-grande-premiere-volodymyr-zelensky-annonce-enfin-lutilisation-du-missile-balistique-tactique-fp-7-dune-portee-13579042.php",
+      "published_at": "2026-10-01T20:45:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
