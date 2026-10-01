@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:35:30.471790+02:00",
+  "generated_at": "2026-10-01T18:45:43.601905+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -49719,7 +49719,8 @@
       "url": "https://www.foxnews.com/video/6406042374112",
       "published_at": "2026-10-01T11:09:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -49843,6 +49844,156 @@
       ],
       "url": "https://www.franceinfo.fr/replay-jt/franceinfo/21h-minuit/23-heures/brexit-et-si-le-royaume-uni-revenait-dans-l-union-europeenne_8217730.html",
       "published_at": "2026-10-01T02:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Cour suprême accepte de revoir la politique de l'ICE refusant les audiences aux immigrants. La Cour suprême des États-Unis a annoncé jeudi qu'elle avait accepté de réexaminer une politique de l'administration du président Donald Trump (États-Unis) visant à ce que les autorités américaines de l'immigration et des douanes refusent les audiences de cautionnement pour les immigrants dans le cadre de…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/us/articles/supreme-court-agrees-review-ice-151851636.html",
+      "published_at": "2026-10-01T10:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Un poste de premier rang: le Pentagone fait appel à Elon Musk pour préparer la guerre du futur. Elon Musk va occuper un poste de premier rang au sein d’un nouveau projet du Pentagone qui examinera le futur de la guerre, a indiqué mercredi le ministre américain de la Défense, le secrétaire à la Défense Pete Hegseth (États-Unis), dans une base militaire de l’État de Virginie.",
+      "sources": [
+        "Maliweb — fiabilité 6/10"
+      ],
+      "url": "https://www.maliweb.net/international/un-poste-de-premier-rang-le-pentagone-fait-appel-a-elon-musk-pour-3120297.html",
+      "published_at": "2026-10-01T09:40:28+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Bolivie arrête le principal procureur et 13 autres personnes accusées par les États-Unis de protéger les trafiquants de drogue. La police bolivienne a arrêté le plus haut procureur du pays et 13 autres personnes accusées de protéger des trafiquants de drogue, a annoncé jeudi le gouvernement, quelques jours après que l'administration du président Donald Trump (États-Unis) a imposé des restrictions sur les visas.",
+      "sources": [
+        "WRAL — fiabilité 6/10"
+      ],
+      "url": "https://www.wral.com/news/ap/5c003-bolivia-arrests-top-prosecutor-and-13-others-accused-by-us-of-protecting-drug-traffickers/",
+      "published_at": "2026-10-01T11:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Bolivie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : le président Volodymyr Zelensky (Ukraine) revendique avoir de nouvelles frappes en mer Noire, la Russie dénonce des « actes terroristes ». La Russie veut de consacrer plus de 17 100 milliards de roubles (environ 180 milliards d’euros) à la défense en 2027, puis 16 600 milliards en 2028 et 16 300 milliards en 2029, selon la note explicati …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/10/01/en-direct-guerre-en-ukraine-la-russie-prevoit-des-depenses-militaires-maintenues-a-des-niveaux-records-jusqu-en-2029_6783795_3210.html",
+      "published_at": "2026-10-01T10:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Plus de soldats, plus de pétrole…le président Vladimir Poutine (Russie) s'enfonce dans la guerre en Ukraine. Toujours plus de soldats pour Vladimir Poutine. La Russie veut encore grossir les rangs de son armée. Mais les pertes s’accumulent et trouver de nouveaux hommes devient un défi. Alors jusqu’où Poutine …",
+      "sources": [
+        "BFMTV — fiabilité 6/10"
+      ],
+      "url": "https://www.bfmtv.com/economie/replay-emissions/l-ordre-du-monde/plus-de-soldats-plus-de-petrole-vladimir-poutine-s-enfonce-dans-la-guerre-en-ukraine_EN-202610010684.html",
+      "published_at": "2026-10-01T10:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine Un important pont de Kiev frappé par deux drones russes. « Le trafic des transports publics, métro et surface, sur le pont est désormais interrompu », a annoncé le maire de Kiev.",
+      "sources": [
+        "Le Dauphiné Libéré — fiabilité 6/10"
+      ],
+      "url": "https://www.ledauphine.com/defense-guerre-conflit/2026/10/01/kiev-un-important-pont-frappe-par-deux-drones-russes",
+      "published_at": "2026-10-01T05:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "1 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : Le Kremlin a-t-il trouvé un prétexte pour entrer en guerre contre l’OTAN ?. Dans une lettre transmise aux dirigeants de l’OTAN, la Russie promet un « conflit armé direct » si son enclave de Kaliningrad venait à être isolée de la fédération …",
+      "sources": [
+        "20 Minutes — fiabilité 6/10"
+      ],
+      "url": "https://www.20minutes.fr/monde/ukraine/4250133-20261001-guerre-ukraine-kremlin-trouve-pretexte-entrer-guerre-contre-otan",
+      "published_at": "2026-10-01T00:16:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
