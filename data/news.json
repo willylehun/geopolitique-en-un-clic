@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:52:39.085005+02:00",
+  "generated_at": "2026-10-02T13:02:54.872877+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -653,8 +653,8 @@
       ],
       "countries": [
         "Burkina Faso",
-        "Ghana",
-        "Mali"
+        "Mali",
+        "Ghana"
       ]
     },
     {
@@ -670,8 +670,8 @@
         "Reuters"
       ],
       "countries": [
-        "Ghana",
         "Ouganda",
+        "Ghana",
         "Zambie"
       ]
     },
@@ -872,9 +872,9 @@
         "Afrique"
       ],
       "countries": [
+        "Ouganda",
         "Ghana",
         "Kenya",
-        "Ouganda",
         "Nigeria",
         "Zambie"
       ],
@@ -16243,8 +16243,8 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -16259,8 +16259,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Kenya",
         "Chine",
+        "Kenya",
         "États-Unis"
       ]
     },
@@ -32273,8 +32273,8 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -32289,8 +32289,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Kenya",
-        "Chine"
+        "Chine",
+        "Kenya"
       ]
     },
     {
@@ -38905,12 +38905,12 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Europe"
+        "Europe",
+        "Afrique"
       ],
       "countries": [
-        "Ghana",
-        "Luxembourg"
+        "Luxembourg",
+        "Ghana"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -39253,8 +39253,8 @@
       ],
       "countries": [
         "Zimbabwe",
-        "Afrique du Sud",
-        "Botswana"
+        "Botswana",
+        "Afrique du Sud"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -43764,9 +43764,9 @@
         "International"
       ],
       "countries": [
-        "Syrie",
         "Irak",
-        "Iran"
+        "Iran",
+        "Syrie"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -49542,9 +49542,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Syrie",
         "Arabie saoudite",
         "Qatar",
+        "Syrie",
         "Yémen"
       ]
     },
@@ -57038,7 +57038,8 @@
       "category": "Géopolitique",
       "summary": "Le président sud-coréen menace de prendre des mesures contre l'Ukraine suite aux allégations de transfert de prisonniers de guerre nord-coréens. Le président sud-coréen Lee Jae-myung a menacé de prendre des mesures contre l'Ukraine si Kiev ne respectait pas un accord de confidentialité concernant le transfert de deux prisonniers de guerre nord-coréens …",
       "sources": [
-        "Yahoo — fiabilité 6/10"
+        "Yahoo — fiabilité 6/10",
+        "Ukrainska Pravda via MSN — fiabilité 6/10"
       ],
       "url": "https://www.yahoo.com/news/world/articles/south-korean-president-threatens-action-084200913.html",
       "published_at": "2026-10-02T03:42:00+02:00",
@@ -57148,7 +57149,8 @@
       "url": "https://www.yahoo.com/news/world/articles/no-silver-bullet-energy-crisis-084036216.html",
       "published_at": "2026-10-02T03:39:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -57206,7 +57208,8 @@
       "category": "Géopolitique",
       "summary": "Un État incontournable à mi-mandat est le véritable perdant de la guerre commerciale menée par Trump avec le Canada. Les tarifs douaniers imposés par le président Donald Trump (États-Unis) sur le Canada pourraient faire augmenter les prix des véhicules chez les concessionnaires du Michigan, car les pièces automobiles traversent la frontière à plusieurs reprises.",
       "sources": [
-        "Fox News via MSN — fiabilité 6/10"
+        "Fox News via MSN — fiabilité 6/10",
+        "Fox News — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-us/news/other/a-must-win-midterm-state-is-the-real-loser-of-trump-s-canada-trade-war/ar-AA2dp7oy",
       "published_at": "2026-10-02T04:00:19+02:00",
@@ -57582,8 +57585,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Syrie",
         "Irak",
+        "Syrie",
         "États-Unis"
       ]
     },
@@ -57745,6 +57748,192 @@
       ],
       "url": "https://french.news.cn/20261002/de5b3d88f7694b2ab5066f5329af53db/c.html",
       "published_at": "2026-10-02T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement allemand va relever ses prévisions en raison d'un premier semestre solide, selon une source. Le principal facteur qui explique la hausse des prévisions économiques du gouvernement allemand est la forte performance inattendue de l'économie allemande au cours du premier semestre, a déclaré une source gouvernementale à Reuters.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/german-government-raise-forecasts-due-strong-h1-source-says-2026-10-02/",
+      "published_at": "2026-10-02T05:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le Royaume-Uni « sera confronté à une crise du diesel cet hiver » si Burnham se plie aux demandes de Trump de débloquer ses stocks d’urgence. le président Donald Trump (États-Unis) fait pression sur les pays occidentaux pour qu’ils agissent pour faire baisser les prix de l’énergie, qui augmentent à mesure que la guerre en Iran continue de faire rage.",
+      "sources": [
+        "Daily Mail via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-my/news/other/uk-faces-diesel-crisis-this-winter-if-burnham-bows-to-trump-demands-to-release-emergency-stocks/ar-AA2doveh",
+      "published_at": "2026-10-02T05:08:52+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Comment le vainqueur des élections brésiliennes pourrait remodeler ses institutions à mesure que les postes vacants augmentent. Le prochain président du Brésil devrait hériter d'un nombre inhabituellement élevé de nominations au sein des institutions les plus puissantes du pays, avec des postes vacants à la Cour suprême, à la Banque centrale et …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/americas/how-brazils-election-winner-could-reshape-its-institutions-vacancies-mount-2026-10-02/",
+      "published_at": "2026-10-02T05:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Capita fait l'objet d'une nouvelle enquête sur sa gestion ratée du régime de retraite de la fonction publique. Capita a été frappé par une nouvelle révision du gouvernement concernant ses échecs dans la gestion de son contrat de régime de retraite de la fonction publique.",
+      "sources": [
+        "This is Money via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/money/economy/capita-faces-fresh-probe-over-its-bungled-handling-of-the-civil-service-pension-scheme/ar-AA2dprqh",
+      "published_at": "2026-10-02T03:37:02+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’ombre d’un coup d’État plane sur Kinshasa — La plainte explosive contre la coalition C64. © Média Congo Il y a des points de presse qui passent inaperçus. Et il y a ceux qui, en quelques phrases, font vaciller l'échiquier politique d'un pays tout entier. Ce jeudi 1er octobre 2026, dans une …",
+      "sources": [
+        "Journal de Kinshasa via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/l-ombre-d-un-coup-d-état-plane-sur-kinshasa-la-plainte-explosive-contre-la-coalition-c64/ar-AA2doQfl",
+      "published_at": "2026-10-02T04:26:24+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "France",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis mettent un coup de pression à l’Europe sur ses réserves de gazole. Face à la crise mondiale du diesel, l’administration du président Donald Trump (États-Unis) appelle les pays européens à mettre leurs réserves stratégiques de gazole sur le marché, suscitant une réponse rapide d’le président Emmanuel Macron (France).",
+      "sources": [
+        "Le HuffPost via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/les-états-unis-mettent-un-coup-de-pression-à-l-europe-sur-ses-réserves-de-gazole/ar-AA2dnFrC",
+      "published_at": "2026-10-02T05:33:05+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Togo"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Togo- Kara : 27 milliards s’ajoutent aux autres milliards déjà investis dans la recherche d’eau potable. Le 28 septembre 2026, un nouveau projet d’alimentation en eau potable a été officiellement lancé à Kara, dans le nord du Togo. Porté par la Société togolaise des eaux (SP-EAU), le projet d’alimentatio …",
+      "sources": [
+        "Icilome — fiabilité 6/10"
+      ],
+      "url": "https://icilome.com/2026/10/togo-kara-27-milliards-sajoutent-aux-autres-milliards-deja-investis-dans-la-recherche-deau-potable/",
+      "published_at": "2026-10-02T04:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Togo"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’AED et WIETC s’associent pour rapprocher les formations des IFAD des besoins des chantiers au Togo. Au Togo, l’Agence Éducation-Développement (AED), qui pilote les IFAD, et Weihai International Economic and Technical Cooperation (WIETC) ont signé, …",
+      "sources": [
+        "Togo First — fiabilité 6/10"
+      ],
+      "url": "https://www.togofirst.com/fr/btp/0210-20230-l-aed-et-wietc-s-associent-pour-rapprocher-les-formations-des-ifad-des-besoins-des-chantiers-au-togo",
+      "published_at": "2026-10-02T04:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Zimbabwe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Zimbabwe : La Stanbic Bank Zim va financer le projet de modernisation du poste frontière de Chirundu. Le projet de mise à niveau et de modernisation du poste frontière de Chirundu a atteint le bouclage financier, marquant une étape majeure vers le réaménagement de l'une des principales portes d'entrée du Zimbabwe vers la région.",
+      "sources": [
+        "allafrica.com — fiabilité 6/10"
+      ],
+      "url": "https://allafrica.com/stories/202610020021.html",
+      "published_at": "2026-10-02T07:45:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
