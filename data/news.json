@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:46:21.655321+02:00",
+  "generated_at": "2026-10-02T21:56:36.200125+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58412,6 +58412,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -60721,7 +60722,8 @@
       "summary": "Les vendredis Fuel Up sont de retour | Voici comment les membres d'Amazon Prime peuvent bénéficier d'une réduction de 20 cents par gallon d'essence. Amazon Prime ramène son accord sur le gaz Fuel Up Fridays d'octobre à janvier, aidant ainsi ses membres à économiser 20 cents par gallon d'essence. (Photo AP)…",
       "sources": [
         "ABC10 — fiabilité 6/10",
-        "KARE 11 — fiabilité 6/10"
+        "KARE 11 — fiabilité 6/10",
+        "KING 5 — fiabilité 6/10"
       ],
       "url": "https://www.abc10.com/article/news/nation-world/fuel-up-fridays-save-20-cents-per-gallon-gas-amazon-prime-earnify/507-631f02b4-57a1-4f03-92a9-ada261779a34",
       "published_at": "2026-10-02T12:27:00+02:00",
@@ -61451,10 +61453,11 @@
       "category": "Diplomatie",
       "summary": "Financement du Hamas : pourquoi deux Français sont visés par des sanctions américaines. Les États-Unis ont sanctionné deux Français et leurs associations caritatives, accusés d'avoir collecté plus de deux millions de dollars sous couvert d'aide …",
       "sources": [
-        "Europe 1 — fiabilité 6/10"
+        "Europe 1 — fiabilité 6/10",
+        "Europe 1 via MSN — fiabilité 6/10"
       ],
       "url": "https://www.europe1.fr/international/financement-du-hamas-pourquoi-deux-francais-sont-vises-par-des-sanctions-americaines-1119077",
-      "published_at": "2026-10-02T01:48:00+02:00",
+      "published_at": "2026-10-02T13:49:12+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -61481,7 +61484,6 @@
     {
       "regions": [
         "Amérique du Nord",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -61890,7 +61892,7 @@
         "France 24 (média public) — fiabilité 8/10"
       ],
       "url": "https://www.france24.com/en/live-news/20261002-argentina-unveils-passports-for-investment-scheme",
-      "published_at": "2026-10-02T00:42:00+02:00",
+      "published_at": "2026-10-02T14:42:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -62033,9 +62035,10 @@
       "bucket": "2 octobre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Un ancien membre du Congrès américain condamné à 10 ans de prison pour avoir exercé secrètement des pressions en faveur du Venezuela. L'ancien membre du Congrès américain David Rivera a été condamné vendredi à 10 ans de prison pour avoir fait pression illégalement sur des responsables américains afin d'alléger la pression sur le gouvernement du président vénézuélien déchu Nicolas Maduro.",
+      "summary": "Un ancien membre du Congrès américain condamné à 10 ans de prison pour avoir exercé secrètement des pressions en faveur du Venezuela. L'ancien membre du Congrès américain David Rivera a été condamné vendredi à 10 ans de prison pour avoir exercé illégalement des pressions sur des responsables américains afin d'alléger la pression sur le gouvernement du président vénézuélien déchu Nicolas Maduro.",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "The Sacramento Bee — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/legal/government/former-us-congressman-sentenced-10-years-secretly-lobbying-venezuela-2026-10-02/",
       "published_at": "2026-10-02T14:11:00+02:00",
@@ -62515,6 +62518,147 @@
       ],
       "url": "https://www.rtbf.be/article/apres-le-brexit-le-breturn-vers-un-retour-du-royaume-uni-dans-l-ue-11793867",
       "published_at": "2026-10-02T04:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Un Canadien qui a déménagé sa famille en Russie pour des « valeurs traditionnelles » dit qu’il ne le recommande plus : la résidence permanente nécessiterait la signature d’un contrat avec le ministère de la Défense. L'agriculteur canadien Arend Feenstra, qui s'est installé en Russie grâce à un programme d'immigration simplifié destiné aux citoyens de pays « hostiles » qui partagent des « valeurs traditionnelles », s'est plaint de ne pas pouvoir obtenir de …",
+      "sources": [
+        "Meduza — fiabilité 7/10"
+      ],
+      "url": "https://meduza.io/en/news/2026/10/02/canadian-who-moved-his-family-to-russia-for-traditional-values-says-he-no-longer-recommends-it-permanent-residency-would-require-signing-a-defense-ministry-contract",
+      "published_at": "2026-10-02T14:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le G7 annonce la libération de réserves de diesel et de pétrole brut pour freiner les prix élevés. Le G7 a annoncé vendredi son intention de libérer jusqu'à 100 millions de barils de réserves de diesel et de pétrole brut pour tenter de freiner les prix élevés du carburant.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/g7-announces-release-diesel-crude-180515010.html",
+      "published_at": "2026-10-02T13:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Brésil : Lula da Silva et Flávio Bolsonaro boudent le débat du 1er tour. Au Brésil, le président brésilien Luiz Inácio Lula da Silva et le candidat de l’opposition Flávio Bolsonaro snobent le débat du premier tour de l’élection présidentielle.",
+      "sources": [
+        "Africanews via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/élections-au-brésil-lula-da-silva-et-flávio-bolsonaro-boudent-le-débat-du-1er-tour/ar-AA2dqkIw",
+      "published_at": "2026-10-02T09:06:52+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "« Dieu a créé Trump » et « UFC » : l'administration Trump a davantage de publicités provenant de campagnes financées par les contribuables. L’administration Trump a créé au moins 13 publicités de style campagne dans le cadre de son effort controversé de plusieurs millions de dollars, financé par les contribuables, pour promouvoir le président Donald Trump (États-Unis) et sa politique.",
+      "sources": [
+        "CNN — fiabilité 6/10"
+      ],
+      "url": "https://www.cnn.com/2026/10/02/politics/trump-taxpayer-funded-ads",
+      "published_at": "2026-10-02T14:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les conservateurs préviennent que l'enquête britannique sur les gangs de toilettage doit inclure l'Écosse, car le SNP n'agit pas. L'enquête légale sur les gangs de toilettage doit être étendue à l'Écosse après les retards dans l'enquête du gouvernement SNP sur la question, ont exigé les conservateurs.",
+      "sources": [
+        "Daily Mail via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/australia/tories-warn-uk-grooming-gangs-inquiry-must-include-scotland-as-snp-fails-to-act/ar-AA2drvkh",
+      "published_at": "2026-10-02T14:16:45+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine: Kiev teste pour la première fois au combat le FP-7, sa nouvelle arme balistique. Après avoir augmenté en hâte la production de drones et de missiles de croisière, l’industrie militaire ukrainienne se tourne vers les missiles balistiques dont le petit dernier, le FP-7, vient d’être …",
+      "sources": [
+        "Geo via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/guerre-en-ukraine-kiev-teste-pour-la-première-fois-au-combat-le-fp-7-sa-nouvelle-arme-balistique/ar-AA2dqOAz",
+      "published_at": "2026-10-02T13:23:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suède"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Suède: Magdalena Andersson à nouveau chargée de former un gouvernement. Le président du parlement suédois a annoncé vendredi confier à nouveau à la cheffe des sociaux-démocrates la mission de constituer un gouvernement près de trois […] …",
+      "sources": [
+        "Médias24 — fiabilité 6/10"
+      ],
+      "url": "https://medias24.com/agence-presse/suede-magdalena-andersson-a-nouveau-chargee-de-former-un-gouvernement/",
+      "published_at": "2026-10-02T06:01:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
