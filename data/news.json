@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:36:06.361968+02:00",
+  "generated_at": "2026-10-02T21:46:21.655321+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58192,7 +58192,7 @@
         "CBS News — fiabilité 7/10"
       ],
       "url": "https://www.yahoo.com/news/politics/articles/trump-vows-iran-war-end-103025129.html",
-      "published_at": "2026-10-02T14:04:00+02:00",
+      "published_at": "2026-10-02T14:33:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -58412,7 +58412,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -62210,6 +62209,7 @@
     {
       "regions": [
         "Afrique",
+        "Europe",
         "International"
       ],
       "countries": [
@@ -62348,6 +62348,173 @@
       ],
       "url": "https://fr.allafrica.com/stories/202610020241.html",
       "published_at": "2026-10-02T09:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les pays du G7 vont libérer jusqu’à 100 millions de barils de diesel et pétrole brut, pour soulager le marché mondial. le président Donald Trump (États-Unis) a annoncé ce vendredi 2 octobre que l’Europe a accepté de mettre sur le marché une quantité massive de gazole. « Ils ont du gazole », avait déclaré jeudi le préside …",
+      "sources": [
+        "Ouest-France via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/donald-trump-annonce-que-l-europe-vient-d-accepter-de-mettre-une-quantité-massive-de-gazole-sur-le-marché/ar-AA2dq3JH",
+      "published_at": "2026-10-02T09:59:14+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Mises à jour en direct sur la guerre américano-iranienne : la coalition saoudienne intercepte 3 missiles Houthis ciblant la ville de Khamis Mushait. La guerre en Iran se transforme en une crise de sécurité régionale plus vaste, avec des tensions qui s'étendent du champ de bataille aux routes commerciales et de transport vitales.",
+      "sources": [
+        "The Times of India — fiabilité 6/10"
+      ],
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-trump-iran-strikes-hormuz-middle-east-ceasefire-talks-crude-oil-price-hike-latest-news/liveblog/134645747.cms",
+      "published_at": "2026-10-02T14:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Ce que nous savons et ce que nous ne savons pas sur la manière dont l’Iran utilise la guerre asymétrique. Pas plus tard que la semaine dernière, les responsables iraniens ont ouvertement promu la guerre asymétrique comme stratégie centrale.",
+      "sources": [
+        "Military.com — fiabilité 6/10"
+      ],
+      "url": "https://www.military.com/what-we-know-and-dont-know-about-how-iran-uses-asymmetric-warfare",
+      "published_at": "2026-10-02T14:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Votre remboursement : 0 $ : Apple, Walmart et Ford réclament des milliards de dollars de remboursements de droits de douane, des mois après que le président Donald Trump (États-Unis) ait lancé des contrôles tarifaires de 2 000 $ pour les Américains. Walmart reçoit 2,4 milliards de dollars, Apple 2,2 milliards de dollars. Et toi? Rien.",
+      "sources": [
+        "Moneywise via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/economy/your-refund-0-apple-walmart-and-ford-claim-billions-in-tariff-refunds-months-after-trump-floated-2-000-tariff-checks-for-americans/ar-AA2dqTUw",
+      "published_at": "2026-10-02T13:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le G7 va débloquer 100 millions de barils de pétrole pour lutter contre la flambée des prix du carburant. La décision des dirigeants du G7, notamment une « libération massive et anticipée du diesel », est intervenue après que le président Donald Trump (États-Unis) s’est entretenu avec le président Emmanuel Macron (France).",
+      "sources": [
+        "The Sydney Morning Herald via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/other/g7-to-release-100-million-barrels-of-oil-to-combat-soaring-fuel-prices/ar-AA2dqXjg",
+      "published_at": "2026-10-02T12:49:50+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Dix ans après le Brexit, le premier ministre britannique Andy Burnham rouvre la porte vers l’Union européenne. Adhésion à l’union douanière ou adhésion pleine à l’UE, modèle norvégien ou statut sur mesure: plusieurs pistes se dessinent à Londres pour renouer avec Bruxelles. Chacune exige des concessions majeur …",
+      "sources": [
+        "Le Temps — fiabilité 8/10"
+      ],
+      "url": "https://www.letemps.ch/monde/europe/dix-ans-apres-le-brexit-le-premier-ministre-britannique-andy-burnham-rouvre-la-porte-vers-l-union-europeenne",
+      "published_at": "2026-10-02T07:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'affaire Manchester City prend une tournure politique : les Émirats menacent le Royaume-Uni en cas de sanction trop sévère pour les Citizens. L'État du Golfe est sorti de sa réserve et promet un gros retour de flamme au gouvernement britannique en fonction de la sévérité de la sanction …",
+      "sources": [
+        "DH Les Sports+ — fiabilité 6/10"
+      ],
+      "url": "https://www.dhnet.be/sports/football/europe/championnatsetrangers/2026/10/02/laffaire-manchester-city-prend-une-tournure-politique-les-emirats-menacent-le-royaume-uni-en-cas-de-sanction-trop-severe-pour-les-citizens-BUE2PBAKKBFNBBIEHQX45ASWLE/",
+      "published_at": "2026-10-02T10:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Après le \"Brexit\", le \"Breturn\" : vers un retour du Royaume-Uni dans l’UE ?. Mais aujourd’hui, il est question de se rabibocher, de célébrer éventuellement de nouvelles noces. Car le Premier ministre britannique, le travailliste Andy Burnham n’exclut pas un retour du …",
+      "sources": [
+        "RTBF — fiabilité 6/10"
+      ],
+      "url": "https://www.rtbf.be/article/apres-le-brexit-le-breturn-vers-un-retour-du-royaume-uni-dans-l-ue-11793867",
+      "published_at": "2026-10-02T04:08:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
