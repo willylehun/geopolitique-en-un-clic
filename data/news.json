@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T02:27:33.710011+02:00",
+  "generated_at": "2026-10-02T02:37:50.829685+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54306,6 +54306,68 @@
       ],
       "url": "https://www.police1.com/police-recruitment/calif-governor-vetoes-bill-to-bar-former-ice-officers-from-le-jobs-in-state",
       "published_at": "2026-10-02T01:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Araghchi a déclaré que l'Iran autoriserait l'accès aux inspecteurs nucléaires pour alléger les sanctions. Même si Araghchi n'a pas parlé explicitement de l'état de l'économie iranienne, les diplomates ont déclaré à Bloomberg que cette suggestion témoigne de l'ampleur des difficultés économiques du pays.",
+      "sources": [
+        "jpost.com — fiabilité 6/10"
+      ],
+      "url": "https://www.jpost.com/middle-east/iran-news/article-910387",
+      "published_at": "2026-10-02T02:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Dominique"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Responsable de la conformité environnementale et sociale - Portail Web du gouvernement de la Dominique. Le Centre communautaire des Caraïbes sur le changement climatique (CCCCC) a reçu un financement du « Fonds vert pour le climat » pour financer le projet intitulé « Projet de renforcement de la résilience communautaire de la Dominique (DOMCREP) » et a l'intention d'utiliser une partie des recettes pour recruter un « responsable de la conformité environnementale et sociale ». Le CCCCC invite désormais les consultants individuels dûment qualifiés à soumettre une expression d'intérêt (EOI) pour la consultation.",
+      "sources": [
+        "dominica.gov.dm — fiabilité 6/10"
+      ],
+      "url": "https://www.dominica.gov.dm/notices/environmental-and-social-compliance-officer",
+      "published_at": "2026-10-02T02:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les manifestations étudiantes s'emparent de la France alors que le Premier ministre convoque une réunion de crise. Le cabinet du Premier ministre français Sébastien Lecornu a tenu une réunion de crise sur les manifestations étudiantes qui sont devenues…",
+      "sources": [
+        "newcastleherald.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.newcastleherald.com.au/story/9361354/student-protests-grip-france-as-pm-calls-crisis-meeting/",
+      "published_at": "2026-10-02T02:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
