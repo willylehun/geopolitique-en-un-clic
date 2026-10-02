@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:55:26.021119+02:00",
+  "generated_at": "2026-10-02T08:05:43.125114+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54761,6 +54761,47 @@
       "published_at": "2026-10-02T00:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le candidat arabe israélien se retire de la course aux élections. L'homme politique arabe israélien Sami Abu Shehadeh a retiré jeudi sa candidature aux élections législatives d'octobre après que la Cour suprême d'Israël a indiqué qu'une majorité de ses juges soutenaient l'interdiction …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20261002-arab-israeli-candidate-drops-out-of-election-race",
+      "published_at": "2026-10-02T00:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'organisme de surveillance des médias exige des réponses après que la sécurité du Premier ministre samoan aurait supprimé les photos d'un journaliste. L’Association des journalistes de Samoa exige des réponses sur le retrait de l’appareil photo d’une journaliste et la suppression des photographies prises alors qu’elle couvrait un événement public. Selon les Samoa…",
+      "sources": [
+        "NZ Herald — fiabilité 6/10"
+      ],
+      "url": "https://www.nzherald.co.nz/nz/media-watchdog-demands-answers-after-samoan-pms-security-reportedly-deletes-journalists-photos/GGKZOSLCHZG4TGLCFYJROYZ5MQ/",
+      "published_at": "2026-10-02T00:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Samoa"
+      ]
     },
     {
       "regions": [
