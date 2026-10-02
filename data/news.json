@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:42:25.190371+02:00",
+  "generated_at": "2026-10-02T12:52:39.085005+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -56096,7 +56096,7 @@
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-les-bombardements-russes-nocturnes-sur-kiev-ont-fait-un-mort-et-deux-blesses-un-pont-important-touche_6783795_3210.html",
-      "published_at": "2026-10-02T05:18:00+02:00",
+      "published_at": "2026-10-02T05:31:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -57544,6 +57544,207 @@
       ],
       "url": "https://www.theguardian.com/australia-news/2026/oct/02/bruce-baird-former-federal-liberal-mp-and-nsw-minister-dies-aged-84",
       "published_at": "2026-10-02T04:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le «board» révoqué sur fond de désaccord autour de l’importation de conserves. La révocation du *board* de la State Trading Corporation (STC) a été annoncée mercredi par le ministre du Commerce, Michaël Sik Yuen, sur le plateau d’une radio privée, avant d’être relayée sur les ré …",
+      "sources": [
+        "L'Express — fiabilité 6/10"
+      ],
+      "url": "https://lexpress.mu/s/le-board-revoque-sur-fond-de-desaccord-autour-de-limportation-de-conserves-563169",
+      "published_at": "2026-10-02T04:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Irak tire la sonnette d'alarme face à la menace terroriste venant de Syrie, un jour après le départ des troupes américaines. Le ministre irakien des Affaires étrangères prévient que les combattants de l'Etat islamique pourraient traverser la frontière depuis la Syrie alors que Bagdad prépare ses forces juste un jour après le retrait militaire américain.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/politics/iraq-sounds-alarm-terror-threat-syria-day-after-us-troops-leave",
+      "published_at": "2026-10-02T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Syrie",
+        "Irak",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Pourquoi Washington et Téhéran continuent de se disputer. L’administration Trump et le régime iranien affirment tous deux préférer une solution diplomatique à la guerre, mais un accord semble plus insaisissable que jamais.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/why-washington-tehran-keep-talking-092006011.html",
+      "published_at": "2026-10-02T04:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Je dirige une entreprise d'IA avec un effectif de 34 agents IA. Mes journées sont alimentées par Diet Coke, DoorDash et « Claude walks » – voici ma routine. Allie K. Miller, PDG d'Open Machine, partage sa routine quotidienne, en utilisant des outils d'IA pour la productivité et l'optimisation du style de vie personnel.",
+      "sources": [
+        "AOL — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.com/articles/run-ai-company-workforce-34-090501000.html",
+      "published_at": "2026-10-02T04:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le pétrole du Venezuela coule plus vite que sa démocratie. Lorsque Nicolas Maduro a été capturé, de nombreux Vénézuéliens espéraient que le pays avait tourné une page. La page s’est tournée plus vite pour les investisseurs que pour les citoyens.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/venezuelas-oil-flowing-faster-democracy-090006286.html",
+      "published_at": "2026-10-02T04:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’administration Trump réoriente les fonds destinés aux droits de l’homme vers le soutien à des causes d’extrême droite. Le Département d'État américain a consacré des millions de dollars initialement destinés à la promotion des droits de l'homme à des causes d'extrême droite, notamment les droits des Afrikaners en Afrique du Sud, en protégeant « …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-administration-shifts-funds-human-090045177.html",
+      "published_at": "2026-10-02T04:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Afrique du Sud",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Djibouti"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Hassan Moussa Yacin a été nommé aujourd’hui au poste de Gouverneur de la Banque centrale de Djibouti. Il vient en remplacement de Ahmed Osman ALI appelé à d’autres fonctions. Cadre de cette institutio …",
+      "sources": [
+        "Cameroun-Eco via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/djibouti-hassan-moussa-yacin-nommé-gouverneur-de-la-banque-centrale/ar-AA2doNVM",
+      "published_at": "2026-10-02T05:41:53+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Ghana"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Attijariwafa bank prend le contrôle de Société Générale Ghana. Le groupe bancaire marocain a signé un accord portant sur l’acquisition de 55,22% du capital de la filiale ghanéenne de Société Générale, opération qui lui ouvre pour la première fois le marché de l’A …",
+      "sources": [
+        "La Nouvelle Tribune — fiabilité 6/10"
+      ],
+      "url": "https://lnt.ma/attijariwafa-bank-prend-le-controle-de-societe-generale-ghana/",
+      "published_at": "2026-10-02T05:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Kenya"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Kenya : à Lamu, la raffinerie de Dangote suscite la contestation. Sur l’île kenyane de Lamu, prisée pour ses plages et son patrimoine, l’arrivée d’une gigantesque raffinerie de pétrole suscite inquiétudes et contestations.",
+      "sources": [
+        "Africanews via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/kenya-à-lamu-la-raffinerie-de-dangote-suscite-la-contestation/ar-AA2dpkQm",
+      "published_at": "2026-10-02T05:25:43+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'Allemagne va créer son premier régiment de drones en 2027. BERLIN, 2 octobre (Xinhua) -- La Bundeswehr, l'armée allemande, mettra en place en 2027 son premier régiment dédié aux drones afin de s'adapter à l'évolution de la guerre moderne, a annoncé jeudi le m …",
+      "sources": [
+        "Xinhua - french.news.cn — fiabilité 6/10"
+      ],
+      "url": "https://french.news.cn/20261002/de5b3d88f7694b2ab5066f5329af53db/c.html",
+      "published_at": "2026-10-02T05:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
