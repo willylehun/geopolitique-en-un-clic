@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:44:49.571694+02:00",
+  "generated_at": "2026-10-02T20:55:04.771605+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -45649,12 +45649,12 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Asie"
+        "Asie",
+        "Amérique du Nord"
       ],
       "countries": [
-        "Mexique",
-        "Chine"
+        "Chine",
+        "Mexique"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -58412,7 +58412,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -60719,12 +60718,14 @@
       "category": "Géopolitique",
       "summary": "Les vendredis Fuel Up sont de retour | Voici comment les membres d'Amazon Prime peuvent bénéficier d'une réduction de 20 cents par gallon d'essence. Amazon Prime ramène son accord sur le gaz Fuel Up Fridays d'octobre à janvier, aidant ainsi ses membres à économiser 20 cents par gallon d'essence. (Photo AP)…",
       "sources": [
-        "ABC10 — fiabilité 6/10"
+        "ABC10 — fiabilité 6/10",
+        "KARE 11 — fiabilité 6/10"
       ],
       "url": "https://www.abc10.com/article/news/nation-world/fuel-up-fridays-save-20-cents-per-gallon-gas-amazon-prime-earnify/507-631f02b4-57a1-4f03-92a9-ada261779a34",
       "published_at": "2026-10-02T12:27:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -60959,6 +60960,460 @@
       ],
       "url": "http://courrier.am/le-ssn-dement-linfiltration-de-plusieurs-saboteurs-azerbaidjanais-en-armenie",
       "published_at": "2026-10-02T07:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les contributions navales de l'UE en mer Rouge ne suffisent toujours pas, affirme l'Italie. Le ministre italien de la Défense, Guido Crosetto, a déclaré vendredi que les contributions à la mission navale de l'UE visant à protéger le transport maritime en mer Rouge restaient insuffisantes, alors que Rome presse …",
+      "sources": [
+        "Baird Maritime — fiabilité 6/10"
+      ],
+      "url": "https://www.bairdmaritime.com/security/naval/eus-red-sea-naval-contributions-still-not-enough-italy-says",
+      "published_at": "2026-10-02T13:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Italie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les pays du G7 prévoient de libérer 100 millions de barils de pétrole de leurs réserves. Face à la hausse mondiale des prix du carburant, les dirigeants des pays industrialisés ont uni leurs forces. Ils veulent plus de pétrole sur le marché.",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/g7-countries-plan-to-release-100-million-barrels-of-oil-from-reserves-li.3622420",
+      "published_at": "2026-10-02T10:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’économie de Jersey se contracte à mesure que les bénéfices chutent. Les entreprises et les travailleurs de Jersey ont gagné moins d’argent sur l’île l’année dernière par rapport à l’année précédente, selon un rapport. Le rapport économique de Statistics Jersey pour 2025 a examiné dans quelle mesure l'île…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/cwz0z003pvxmo",
+      "published_at": "2026-10-02T10:14:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis n'ont créé que 29 000 emplois en septembre alors que le taux de chômage augmente. Selon le Bureau of Labor Statistics, l'économie américaine a créé 29 000 emplois en septembre, ce qui est en deçà des attentes alors que le taux de chômage atteint 4,2 %. Brian Cheung de NBC News et…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/videos/u-adds-just-29k-jobs-131151792.html",
+      "published_at": "2026-10-02T08:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Corée du Sud met en garde contre de nouvelles mesures si l'Ukraine ne présente pas ses excuses pour la divulgation des prisonniers de guerre. La Corée du Sud a averti l'Ukraine de \"mesures supplémentaires\" à moins que Kiev ne s'excuse d'avoir révélé publiquement le transfert de deux prisonniers de guerre nord-coréens vers Séoul.",
+      "sources": [
+        "WION — fiabilité 6/10"
+      ],
+      "url": "https://www.wionews.com/world/south-korea-warns-of-further-action-if-ukraine-does-not-apologise-over-pow-disclosure-1790957449565",
+      "published_at": "2026-10-02T11:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Première historique pour J&K : le développement minier commence par une vente aux enchères réussie de deux blocs minéraux. Dans une première historique, deux blocs minéraux du territoire de l'Union du Jammu-et-Cachemire (UT) ont été vendus aux enchères avec succès par l'intermédiaire du ministère des Mines du gouvernement indien, sous l'égide du gouvernement central…",
+      "sources": [
+        "Greater Kashmir — fiabilité 6/10"
+      ],
+      "url": "https://www.greaterkashmir.com/jammu-kashmir/historic-first-for-jk-mining-development-begins-with-successful-auction-of-two-mineral-blocks-12617464",
+      "published_at": "2026-10-02T09:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un rapport surprenant sur l'emploi est bien en deçà des attentes : rapports. Au total, 29 000 emplois ont été créés dans l'économie américaine en septembre, selon un rapport publié vendredi par le ministère du Travail, un chiffre \"bien en deçà des attentes\", selon le Wall Street Journal.",
+      "sources": [
+        "Raw Story via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/money/general/surprising-jobs-report-falls-far-short-of-expectations-reports/ar-AA2dpNza",
+      "published_at": "2026-10-02T08:12:38+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le comité électoral dirigé par le GOP de Géorgie demande une « intervention » du DOJ avant les élections de mi-mandat. Le directeur exécutif du conseil d'administration, James Mills, a demandé au DOJ d'intervenir dans les systèmes de vote de l'État et d'enquêter sur le secrétaire d'État de Géorgie, Brad Raffensperger, s'il empêche l'examen.",
+      "sources": [
+        "ms — fiabilité 6/10"
+      ],
+      "url": "https://www.ms.now/news/georgia-election-board-doj-midterm-elections-2026",
+      "published_at": "2026-10-02T11:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Géorgie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Trésor démantèle le principal réseau de financement du Hamas. Une action coordonnée du gouvernement américain révèle un projet pluriannuel utilisant des œuvres caritatives factices et des crypto-monnaies pour financer le Hamas WASHINGTON—Aujourd'hui, le Bureau de contrôle des avoirs étrangers du Département du Trésor …",
+      "sources": [
+        "U.S. Department of the Treasury — fiabilité 6/10"
+      ],
+      "url": "https://home.treasury.gov/news/press-releases/sb0647/",
+      "published_at": "2026-10-02T10:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La plus haute juridiction israélienne annule l’interdiction des partis arabes lors des prochaines élections. La décision unanime de la Cour suprême ouvre la voie à Raam et à la Liste arabe unie pour qu'ils puissent se présenter et potentiellement faire pencher la balance en cas de parlement sans majorité …",
+      "sources": [
+        "Financial Times — fiabilité 8/10"
+      ],
+      "url": "https://www.ft.com/content/9bbcd715-1417-49b6-bc56-1745f17cd674?syn-25a6b1a6=1",
+      "published_at": "2026-10-02T09:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le boycott canadien des produits américains reste fort, car de plus en plus de gens évitent de voyager aux États-Unis. Le mouvement « Acheter canadien » au Canada reste fort 19 mois après que le président Donald Trump (États-Unis) a lancé sa guerre commerciale, avec un nouveau sondage montrant que les Canadiens continuent d'éviter les produits américains.",
+      "sources": [
+        "The News International — fiabilité 6/10"
+      ],
+      "url": "https://www.thenews.com.pk/latest/1418525-canadian-boycott-of-us-products-remains-strong-as-more-avoid-american-travel",
+      "published_at": "2026-10-02T10:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Amazon va investir 1 milliard de dollars dans les communautés dotées de centres de données. Cet investissement intervient alors que les réactions négatives contre les centres de données compliquent de plus en plus les efforts visant à en construire de nouveaux, conduisant même certains États à imposer des moratoires purs et simples sur les nouvelles installations.",
+      "sources": [
+        "Just The News — fiabilité 6/10"
+      ],
+      "url": "https://justthenews.com/politics-policy/amazon-invest-1-billion-communities-data-centers",
+      "published_at": "2026-10-02T07:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Craint qu'un homme de Melbourne détenu au Vietnam soit accusé de terrorisme. La famille d'un homme de Melbourne détenu au Vietnam craint qu'il ne fasse l'objet d'accusations de terrorisme fabriquées de toutes pièces par le gouvernement communiste.",
+      "sources": [
+        "The Sydney Morning Herald — fiabilité 8/10"
+      ],
+      "url": "https://www.smh.com.au/national/fears-melbourne-man-detained-in-vietnam-is-facing-terror-charges-20261002-p612go.html",
+      "published_at": "2026-10-02T11:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Vietnam"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Portail de données sur le changement climatique dans le Pacifique. Le portail fait partie des contributions du Bureau de météorologie au réseau de centres climatiques régionaux du Pacifique RA-V de l'OMM en tant que membre du consortium pour le nœud de surveillance du climat.",
+      "sources": [
+        "Bureau of Meteorology — fiabilité 6/10"
+      ],
+      "url": "https://www.bom.gov.au/climate/pccsp/",
+      "published_at": "2026-10-02T10:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Pourquoi deux Français ont-ils été placés sur liste noire par les États-Unis ?. Le service du ministère américain des Finances chargé des sanctions (OFAC) a placé, deux Français sur liste noire pour des opérations liées au Hamas …",
+      "sources": [
+        "CNEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.cnews.fr/monde/2026-10-02/pourquoi-deux-francais-ont-ils-ete-places-sur-liste-noire-par-les-etats-unis",
+      "published_at": "2026-10-02T13:47:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Mises à jour EN DIRECT sur la guerre américano-iranienne : de violents affrontements se poursuivent entre les Houthis et les forces yéménites à Taiz ; Les États-Unis envoient 20 000 soldats au Moyen-Orient. le président Donald Trump (États-Unis) affirme que les États-Unis sont confrontés à un choix entre frapper l’Iran ou parvenir à un accord, tandis que le secrétaire à la Défense Pete Hegseth (États-Unis) affirme que les forces américaines ont paralysé les capacités militaires et nucléaires de l’Iran. Téhéran dit…",
+      "sources": [
+        "Times Now — fiabilité 6/10"
+      ],
+      "url": "https://www.timesnownews.com/world/middle-east/iran-war-live-updates-trump-hints-us-could-strike-iran-israel-iran-today-latest-conflict-strait-of-hormuz-tensions-and-middle-east-news-liveblog-156257889",
+      "published_at": "2026-10-02T13:10:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La guerre en Ukraine est « une catastrophe en matière de droits de l’homme » qui doit cesser, dit Türk. La guerre en Ukraine est une catastrophe en matière de droits de l'homme qui « s'aggrave et s'intensifie de semaine en semaine » et menace d'un désastre encore plus grave dans la région, a déclaré le Haut-Commissaire de l'ONU aux droits de l'homme, Volker …",
+      "sources": [
+        "UN News — fiabilité 6/10"
+      ],
+      "url": "https://news.un.org/en/story/2026/10/1168513",
+      "published_at": "2026-10-02T11:22:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Tchad"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Tchad : le gouvernement lance la révision de la Politique nationale de l’emploi et de la formation professionnelle. Le Tchad engage la révision de sa Politique nationale de l’emploi et de la formation professionnelle pour répondre au défi démographique et offrir des opportunités concrètes à sa jeunesse.",
+      "sources": [
+        "Alwihda Info — fiabilité 6/10"
+      ],
+      "url": "https://www.alwihdainfo.com/tchad-le-gouvernement-lance-la-revision-de-la-politique-nationale-de-lemploi-et-de-la-formation-professionnelle/",
+      "published_at": "2026-10-02T08:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "En République démocratique du Congo, l’épidémie d’Ebola dépasse les 4.000 morts. L’épidémie d’Ebola en République démocratique du Congo a franchi le seuil des 4 000 morts. Plus de 8 000 cas ont été recensés, tandis que les violences armées compliquent les opérations de riposte fac …",
+      "sources": [
+        "Atlantico via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/en-république-démocratique-du-congo-l-épidémie-d-ebola-dépasse-les-4000-morts/ar-AA2drfWl",
+      "published_at": "2026-10-02T13:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’épidémie d’Ebola en RDC franchit le cap des 4000 morts. La République démocratique du Congo fait face à la pire épidémie de maladie Ebola qu'elle ait connue. Mais la riposte est entravée par des violences entre groupes armés.",
+      "sources": [
+        "20 Minuten via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ch/actualite/other/l-épidémie-d-ebola-en-rdc-franchit-le-cap-des-4000-morts/ar-AA2dr3kW",
+      "published_at": "2026-10-02T12:37:38+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "RDC : L'épidémie d'Ebola franchit le cap des 4 000 morts. L’épidémie d’Ebola en RDC a franchi le seuil des 4 000 morts, avec 4 018 décès sur 8 300 cas confirmés, selon les derniè… - KOACI l'Info au Coeur de l'Afrique …",
+      "sources": [
+        "KOACI — fiabilité 6/10"
+      ],
+      "url": "https://www.koaci.com/article/2026/10/02/congo-rdc/politique/rdc-lepidemie-debola-franchit-le-cap-des-4-000-morts_201217.html",
+      "published_at": "2026-10-02T12:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Santé Épidémie d'Ebola en RDC : la barre des 4 000 morts franchie. La République démocratique du Congo fait face à la pire flambée d'Ebola de son histoire, avec plus de 8 300 cas recensés et près de 4 000 morts.",
+      "sources": [
+        "Le Dauphiné Libéré — fiabilité 6/10"
+      ],
+      "url": "https://www.ledauphine.com/sante/2026/10/02/epidemie-d-ebola-en-rdc-la-barre-des-4-000-morts-franchie",
+      "published_at": "2026-10-02T11:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'épidémie d'Ebola franchit le cap des 4000 morts en RDC. La RDC a déclaré mi-mai, avec plusieurs semaines de retard, sa 17e épidémie due au virus Ebola, qui progresse dans des régions troublées.",
+      "sources": [
+        "Le Figaro Santé — fiabilité 6/10"
+      ],
+      "url": "https://sante.lefigaro.fr/l-epidemie-d-ebola-franchit-le-cap-des-4000-morts-en-rdc-20261002",
+      "published_at": "2026-10-02T11:01:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
