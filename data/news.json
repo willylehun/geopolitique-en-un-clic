@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:20:28.825217+02:00",
+  "generated_at": "2026-10-02T11:30:49.099734+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -671,8 +671,8 @@
       ],
       "countries": [
         "Ghana",
-        "Zambie",
-        "Ouganda"
+        "Ouganda",
+        "Zambie"
       ]
     },
     {
@@ -874,9 +874,9 @@
       "countries": [
         "Ghana",
         "Kenya",
-        "Zambie",
         "Ouganda",
-        "Nigeria"
+        "Nigeria",
+        "Zambie"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
@@ -33961,8 +33961,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -33979,8 +33979,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Irak",
         "France",
+        "Irak",
         "États-Unis"
       ]
     },
@@ -36160,12 +36160,12 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "countries": [
-        "Tanzanie",
-        "Qatar"
+        "Qatar",
+        "Tanzanie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -43764,8 +43764,8 @@
         "International"
       ],
       "countries": [
-        "Irak",
         "Syrie",
+        "Irak",
         "Iran"
       ],
       "period": "day",
@@ -50199,13 +50199,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Irak",
-        "Allemagne"
+        "Allemagne",
+        "Irak"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -56508,9 +56508,9 @@
         "Afrique"
       ],
       "countries": [
-        "Zambie",
         "Malawi",
-        "Tanzanie"
+        "Tanzanie",
+        "Zambie"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -56541,6 +56541,127 @@
         "stuttgarter-nachrichten.de — fiabilité 6/10"
       ],
       "url": "https://www.stuttgarter-nachrichten.de/baden-wuerttemberg/linke-clan-buergermeisterin-berliner-linke-geht-rechtlich-gegen-innenminister-hagel-vor-79525280.html",
+      "published_at": "2026-10-02T10:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "L’Europe a été frappée par quatre de ses dix pires vagues de chaleur au cours d’un seul été. Selon le service de surveillance du climat Copernicus de l’Union européenne, 52 % de la population européenne a été exposée à un stress thermique intense au cours de l’été exceptionnellement chaud de 2026.",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/en/international/20261002-europe-hit-by-four-of-its-10-worst-heatwaves-in-a-single-summer",
+      "published_at": "2026-10-02T04:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "France-Moody's pessimiste quant à un compromis sur le budget pour 2027. PARIS, 2 octobre (Reuters) - L'agence de notation financière Moody's pose vendredi un diagnostic pessimiste sur la situation politique et économique de la France, estimant qu'il est loin d'être certai …",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/france-moodys-pessimiste-quant-à-un-compromis-sur-le-budget-pour-2027/ar-AA2doSz1",
+      "published_at": "2026-10-02T03:47:53+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le président Volodymyr Zelensky (Ukraine) sur l’importance des sanctions : tout drone russe peut être arrêté sur la chaîne de production. Zelenskyy affirme que la Russie reste extrêmement dépendante des composants étrangers pour ses drones et ses missiles, exhortant les pays à renforcer les sanctions et à perturber les chaînes d'approvisionnement.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/zelenskyy-importance-sanctions-every-russian-080400026.html",
+      "published_at": "2026-10-02T03:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"Je me battais pour ma vie\" : un pilote indien salué comme un héros se souvient de l'attaque du cockpit de Flydubai. Smit Machchhar a déclaré lors d'un appel vidéo avec le Premier ministre indien qu'il avait réalisé que s'il ne se levait pas, \"les passagers perdraient la vie\" …",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/world/2026/oct/02/indian-pilot-smit-machchhar-recalls-flydubai-cockpit-attack",
+      "published_at": "2026-10-02T03:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Pourquoi le pétrole approche-t-il les 100 dollars si Trump gagne la bataille d’Ormuz ? Mais si vous me demandez qui l’emporte dans la bataille pour le détroit d’Ormuz, il est clair que le président Donald Trump (États-Unis) a l’avantage. Même si Téhéran dit le contraire, le détroit est effectivement…",
+      "sources": [
+        "The Japan Times — fiabilité 7/10"
+      ],
+      "url": "https://www.japantimes.co.jp/commentary/2026/10/02/world/iran-war-100-crude-prices/",
+      "published_at": "2026-10-02T02:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Royaume-Uni",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Énergie",
+      "summary": "CareTrust REIT, Inc. : CareTrust annonce un accord de pipeline stratégique SHOP avec LNT Care Developments pour acquérir 45 nouvelles maisons de retraite au Royaume-Uni pour 1 £. 1 milliard. (NYSE : CTRE) (« CareTrust » ou la « Société ») a annoncé aujourd'hui avoir conclu un accord définitif avec LNT Care Developments Holdings Limited (« LNT »), une société américaine prolifique.",
+      "sources": [
+        "finanznachrichten.de — fiabilité 6/10"
+      ],
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69739165-caretrust-reit-inc-caretrust-announces-strategic-shop-pipeline-agreement-with-lnt-care-developments-to-acquire-45-new-uk-care-homes-for-gbp-1-1-billio-004.htm",
       "published_at": "2026-10-02T10:45:00+02:00",
       "origin": "global",
       "content_enriched": true
