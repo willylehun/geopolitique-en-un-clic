@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:39:33.194208+02:00",
+  "generated_at": "2026-10-02T10:49:47.928271+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -55763,7 +55763,8 @@
     },
     {
       "regions": [
-        "International"
+        "International",
+        "Europe"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -55776,7 +55777,8 @@
       "url": "https://www.cnews.fr/france/2026-10-02/blocus-des-lycees-il-faut-garantir-que-tout-acte-violent-sera-suivi-de-sanctions",
       "published_at": "2026-10-02T03:28:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -55974,6 +55976,189 @@
       "countries": [
         "France"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les manifestations scolaires se poursuivent en France – le gouvernement cherche une solution. Après des jours de manifestations scolaires en France, dont certaines ont tourné à la violence, le gouvernement tente de reprendre le contrôle de la situation.",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/school-protests-continue-in-france-government-seeks-a-solution-li.3621790",
+      "published_at": "2026-10-02T03:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "Budget 2027 : la copie du gouvernement laisse institutions et entreprises sceptiques. Le gouvernement a présenté ce jeudi sa copie pour le projet de loi de finances. Alors que la croissance est à 0%, que l’inflation augmente et que les …",
+      "sources": [
+        "Europe 1 via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/budget-2027-la-copie-du-gouvernement-laisse-institutions-et-entreprises-sceptiques/ar-AA2dpoI3",
+      "published_at": "2026-10-02T03:21:10+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L'Arménie ne franchira pas la ligne qui pourrait entraîner des sanctions à son encontre en raison de l'Iran. Le Premier ministre a déclaré que le pays ne pouvait pas franchir la ligne au-delà de laquelle il y aurait un risque que des sanctions soient imposées à l’Arménie elle-même. « Nous étudions le dispositif de sanctions et agissons en toute transparence avec tous nos partenaires. Nous affirmons à nos nations amies que nous ferons […]",
+      "sources": [
+        "Nouvelles d'Arménie en Ligne — fiabilité 6/10"
+      ],
+      "url": "https://www.armenews.com/larmenie-ne-franchira-pas-la-ligne-qui-pourrait-entrainer-des-sanctions-a-son-encontre-en-raison-de-liran/",
+      "published_at": "2026-10-02T08:36:12+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arménie",
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L'ancien chancelier allemand Schroeder rejoint le conseil de surveillance du détaillant russe, rapporte RBC. L'ancien chancelier allemand Gerhard Schroeder a rejoint le conseil de surveillance de la société qui dirige la chaîne de supermarchés russe qui appartenait autrefois au détaillant allemand Globus, selon le média russe …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/former-german-chancellor-schroeder-joins-supervisory-board-russian-retailer-rbc-2026-10-02/",
+      "published_at": "2026-10-02T02:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Égypte annonce de nouveaux frais de visa pour 2027 : découvrez combien les voyageurs paieront. Le gouvernement égyptien augmentera les frais de visa d'entrée à partir de janvier 2027, le visa à entrée unique passant à 33 dollars et le visa numérique à l'arrivée à 39 dollars.",
+      "sources": [
+        "YEN.com.gh via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-xl/news/other/egypt-announces-new-visa-fees-for-2027-see-how-much-travellers-will-pay/ar-AA2dposy",
+      "published_at": "2026-10-02T02:52:08+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Égypte"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : les bombardements russes nocturnes sur Kiev ont fait un mort et deux blessés, un pont important touché. L’attaque russe de la nuit a touché « un immeuble résidentiel de 25 étages », ont annoncé, vendredi, les autorités militaires de la capitale ukrainienne sur Telegram.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-les-bombardements-russes-nocturnes-sur-kiev-ont-fait-un-mort-et-deux-blesses-un-pont-important-touche_6783795_3210.html",
+      "published_at": "2026-10-02T03:18:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Allemagne",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Allemagne s'engage à être un « partenaire » pour le retour de la Grande-Bretagne dans l'UE après qu'Andy Burnham ait fait allusion à une trahison du Brexit. Susanne Baumann, l'ambassadrice d'Allemagne au Royaume-Uni, a déclaré que la Grande-Bretagne « trouvera toujours un partenaire » à Berlin. Cela survient après que le Premier ministre a provoqué mercredi la colère en déclarant que le Royaume-Uni pourrait aller…",
+      "sources": [
+        "Daily Mail — fiabilité 6/10"
+      ],
+      "url": "https://www.dailymail.com/news/article-16177857/Germany-help-Britain-EU-Burnham-Brexit-betrayal.html",
+      "published_at": "2026-10-02T03:18:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Argentine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "TotalEnergies accélère dans le pétrole et le gaz de schiste avec 10 milliards de dollars en Argentine. TotalEnergies va investir près de 10 milliards de dollars en Argentine dans les prochaines années, principalement pour développer sa production de pétrole et de gaz de schiste dans la province de Neuq …",
+      "sources": [
+        "Capital — fiabilité 6/10"
+      ],
+      "url": "https://www.capital.fr/entreprises-marches/totalenergies-accelere-dans-le-petrole-et-le-gaz-de-schiste-avec-10-milliards-de-dollars-en-argentine-1530669",
+      "published_at": "2026-10-02T03:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Royaume-Uni : Andy Burnham ouvre la porte à un retour dans l’Union européenne et évoque un nouveau référendum. Andy Burnham relance la question européenne : Pour la première fois depuis le Brexit, un Premier ministre britannique n'écarte plus publiquement l'hypothèse d'un retour dans l'Union européenne. Andy B …",
+      "sources": [
+        "Epoch Times — fiabilité 6/10"
+      ],
+      "url": "https://www.epochtimes.fr/royaume-uni-andy-burnham-ouvre-la-porte-a-un-retour-dans-lunion-europeenne-et-evoque-un-nouveau-referendum-3360270.html",
+      "published_at": "2026-10-02T00:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
