@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:21:54.604827+02:00",
+  "generated_at": "2026-10-02T12:32:11.914917+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -56090,12 +56090,12 @@
       "bucket": "2 octobre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "EN DIRECT, guerre en Ukraine : la circulation suspendue sur le pont Pivdenny, un important pont de Kiev touché par de nouvelles frappes russes. L’attaque russe de la nuit a touché « un immeuble résidentiel de 25 étages », ont annoncé, vendredi, les autorités militaires de la capitale ukrainienne sur Telegram.",
+      "summary": "EN DIRECT, guerre en Ukraine : la circulation suspendue sur le pont Pivdenny, une importante voie de circulation de Kiev, touchée par de nouvelles frappes russes. L’attaque russe de la nuit a touché « un immeuble résidentiel de 25 étages », ont annoncé, vendredi, les autorités militaires de la capitale ukrainienne sur Telegram.",
       "sources": [
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-les-bombardements-russes-nocturnes-sur-kiev-ont-fait-un-mort-et-deux-blesses-un-pont-important-touche_6783795_3210.html",
-      "published_at": "2026-10-02T04:33:00+02:00",
+      "published_at": "2026-10-02T05:18:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -57255,6 +57255,206 @@
       "url": "https://fr.news.yahoo.com/javier-milei-france-totalenergies-annonce-092213962.html",
       "published_at": "2026-10-02T11:22:13+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La coalition dirigée par l'Arabie saoudite accuse les Houthis d'avoir frappé la centrale électrique de Médine. Les Houthis du Yémen, soutenus par l'Iran, ont frappé une station de distribution d'électricité alimentant la mosquée du Prophète dans la ville sainte de Médine, en Arabie saoudite, a annoncé jeudi la coalition dirigée par l'Arabie saoudite, attirant …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/middle-east/20261002-saudi-led-coalition-houthis-striking-medina-power-station",
+      "published_at": "2026-10-02T02:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite",
+        "Iran",
+        "Yémen"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Les actions de Londres se redressent alors que les ventes d'obligations s'atténuent et que les prix du pétrole chutent. 2 octobre (Reuters) - L'indice FTSE 100 britannique a rebondi vendredi, alors que la détente des rendements pétroliers et obligataires a contribué à apaiser les craintes d'inflation après qu'une vente massive d'obligations mondiales ait ébranlé l'appétit pour le risque en début de semaine. S'inscrire …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/uk/london-shares-recover-bond-sell-off-eases-oil-prices-slip-2026-10-02/",
+      "published_at": "2026-10-02T05:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Andhra CM et Union FM jettent les bases d'un centre horticole mondial de 1 lakh-crore ₹ à Madanapalle. CM Chandrababu Naidu et FM Nirmala Sitharaman ont lancé un centre horticole mondial de 1 lakh-crore et une école indienne d'agriculture dans l'Andhra Pradesh.",
+      "sources": [
+        "CNBCTV18 — fiabilité 6/10"
+      ],
+      "url": "https://www.cnbctv18.com/india/andhra-cm-union-fm-lay-foundation-for-rs-1-lakh-crore-global-horticulture-hub-at-madanapalle-20003635.htm",
+      "published_at": "2026-10-02T04:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Anthropic prévient que les attitudes du gouvernement pourraient nuire aux liens avec les clients, selon le prospectus d'introduction en bourse. Anthropic a averti que l'attitude du gouvernement à l'égard de l'entreprise et de sa technologie pourrait avoir des implications plus larges sur ses activités, y compris ses relations avec les clients commerciaux et les partenaires, …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/media-telecom/anthropic-warns-government-attitudes-may-hurt-customer-ties-ipo-prospectus-shows-2026-10-02/",
+      "published_at": "2026-10-02T05:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La refonte du gouvernement du président Donald Trump (États-Unis) pour la première année apporte des changements que Washington n’a pas vu depuis les années 1960. Les revenus des audits de l'IRS ont chuté de 35 % après le licenciement de près de 10 000 agents, ce qui soulève la question de savoir si les réductions d'effectifs fédéraux permettent d'économiser de l'argent.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/politics/trumps-first-year-government-overhaul-delivers-change-washington-hasnt-seen-since-1960s",
+      "published_at": "2026-10-02T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’économie russe en vue : l’Ukraine frappe des usines pétrolières et chimiques pendant la guerre. Des drones ukrainiens ont frappé la raffinerie Lukoil et l'usine chimique de défense de Volgograd ainsi que le centre pétrolier de Samara, mais les réserves de Moscou sont encore suffisantes.",
+      "sources": [
+        "kreiszeitung.de — fiabilité 6/10"
+      ],
+      "url": "https://www.kreiszeitung.de/politik/russlands-wirtschaft-im-visier-ukraine-trifft-im-krieg-oel-und-chemiewerke-zr-94521710.html",
+      "published_at": "2026-10-02T12:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Vietnam"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Vestas renforce les ambitions du Vietnam en matière d'énergie propre avec deux nouveaux projets dans le cadre du PDP8 totalisant 16 éoliennes. HANOI, Vietnam, 2 octobre 2026 /PRNewswire/ -- Vestas a remporté des contrats pour fournir ses 16 nouvelles éoliennes V163 à partir de la plateforme de 4 MW sur deux nouveaux parcs éoliens dans le centre du Vietnam. En partenariat avec un développeur vietnamien réputé d'énergies renouvelables disposant d'un portefeuille important, Vestas étendra son expérience éprouvée de 1,6 gigawatts au Vietnam et renforcera le rôle de l'entreprise dans la croissance de l'énergie éolienne du pays.",
+      "sources": [
+        "philippinetimes.com — fiabilité 6/10"
+      ],
+      "url": "http://www.philippinetimes.com/news/279347261/vestas-powers-up-vietnam-clean-energy-ambitions-with-two-new-projects-under-pdp8-totaling-16-wind-turbines",
+      "published_at": "2026-10-02T12:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Plus de 4 000 décès enregistrés lors de l'épidémie d'Ebola en RDC. L'épidémie d'Ebola en République démocratique du Congo a enregistré plus de 4 000 décès, ont indiqué les autorités, alors qu'elles luttent pour contenir la propagation du virus. Les derniers chiffres publiés jeudi par le ministère de la Santé montrent que 4 018 personnes sont mortes – près de la moitié des 8 300 cas confirmés – dans ce qui est devenu l’épidémie d’Ebola qui connaît la croissance la plus rapide de l’histoire. Le Congo a annoncé l'apparition d'une épidémie le 15 mai, causée par le rare virus Bundibugyo, pour lequel il n'existe aucun traitement ni vaccin connu.",
+      "sources": [
+        "penarthtimes.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://www.penarthtimes.co.uk/news/national/26601263.4-000-deaths-recorded-dr-congo-ebola-outbreak/",
+      "published_at": "2026-10-02T12:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Gabon"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Gabon : 5 magistrats devenus hors hiérarchie en violation de la loi selon le Synamag. Justice Gabon I Le Synamag réagit vivement au communiqué du CSM sur l'avancement des magistrats, dénonçant une violation du statut.",
+      "sources": [
+        "Gabon Media Time — fiabilité 6/10"
+      ],
+      "url": "https://gabonmediatime.com/gabon-5-magistrats-devenus-hors-hierarchie-en-violation-de-la-loi-selon-le-synamag/",
+      "published_at": "2026-10-02T05:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Gabon"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Africa Risk Forum : Noël Mboumba plaide pour un Gabon qui transforme ses ressources et renforce sa souveraineté économique. Économie Gabon I Noël Mboumba plaide pour une Afrique souveraine aux ressources maîtrisées lors de l'Africa Risk Forum à Paris.",
+      "sources": [
+        "Gabon Media Time — fiabilité 6/10"
+      ],
+      "url": "https://gabonmediatime.com/africa-risk-forum-noel-mboumba-plaide-pour-un-gabon-qui-transforme-ses-ressources-et-renforce-sa-souverainete-economique/",
+      "published_at": "2026-10-02T04:59:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
