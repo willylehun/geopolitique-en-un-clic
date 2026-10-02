@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:49:20.129894+02:00",
+  "generated_at": "2026-10-02T23:59:35.165720+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -59973,7 +59973,7 @@
       "bucket": "2 octobre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Le brésilien Petrobras fait une nouvelle découverte de pétrole au large d'Amapa. La compagnie pétrolière publique brésilienne Petrobras a annoncé vendredi avoir \"fait une nouvelle découverte de pétrole dans les eaux ultra-profondes au large de l'État d'Amapa, une zone connue sous le nom de marge équatoriale qu'elle considère comme la plus …",
+      "summary": "La société brésilienne Petrobras fait une nouvelle découverte de pétrole au large de l'État d'Amapa. La compagnie pétrolière publique brésilienne Petrobras a annoncé vendredi avoir \"fait une nouvelle découverte de pétrole dans les eaux ultra-profondes au large de l'État d'Amapa, une zone connue sous le nom de marge équatoriale qu'elle considère comme la plus …",
       "sources": [
         "Reuters — fiabilité 9/10"
       ],
@@ -60815,10 +60815,11 @@
       "summary": "Le Mexique va proposer un projet de loi visant à lutter contre les contenus violents sur les réseaux sociaux après une attaque dans une école. MEXICO, 2 octobre - Le gouvernement mexicain prévoit de publier la semaine prochaine un projet de loi exigeant que les plateformes de médias sociaux suppriment les contenus incitant à la violence, a déclaré vendredi la présidente Claudia Sheinbaum. Lire …",
       "sources": [
         "The Straits Times — fiabilité 7/10",
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "AOL — fiabilité 6/10"
       ],
       "url": "https://www.straitstimes.com/world/mexico-to-propose-bill-to-curb-violent-social-media-content-after-school-attack",
-      "published_at": "2026-10-02T09:22:00+02:00",
+      "published_at": "2026-10-02T09:53:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -63830,7 +63831,8 @@
       "url": "https://www.smh.com.au/world/french-students-take-to-the-street-to-protest-school-conditions-20261003-p612is.html",
       "published_at": "2026-10-02T12:35:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -63852,6 +63854,89 @@
       ],
       "url": "https://fr.timesofisrael.com/liveblog_entry/lirak-autorise-40-vols-iraniens-par-jour-a-lexception-de-ceux-de-mahan-air-avec-les-sanctions-americaines/",
       "published_at": "2026-10-02T10:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Le DPP préconise des sanctions contre deux policiers. L’enquête entourant les allégations de relations sexuelles impliquant une détenue au poste de police de Sodnac connaît un nouveau développement. À la suite de l’examen d’un rapport intérimaire transmi …",
+      "sources": [
+        "L'Express — fiabilité 6/10"
+      ],
+      "url": "https://lexpress.mu/s/le-dpp-preconise-des-sanctions-contre-deux-policiers-563198",
+      "published_at": "2026-10-02T12:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les données sur l'emploi aux États-Unis stimulent les actions alors que les prix du pétrole baissent. Les principaux indices américains ont passé la majeure partie de la journée en territoire positif suite aux données d'embauche médiocres de septembre. Les actions ont également été soutenues par le repli des prix du pétrole après…",
+      "sources": [
+        "CNA — fiabilité 7/10"
+      ],
+      "url": "https://www.channelnewsasia.com/world/us-jobs-data-boosts-stocks-oil-prices-dip-6428296",
+      "published_at": "2026-10-02T16:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "LePage rompt avec le président Donald Trump (États-Unis) sur l’Iran, les tarifs douaniers du Canada et l’immigration lors du débat à la Maine House. L'ancien gouverneur du Maine, Paul LePage (à droite), s'est séparé de l'administration Trump sur des questions clés, notamment la guerre en Iran, les tarifs douaniers et l'immigration, lors d'un débat jeudi lors de la course ouverte à la Chambre des représentants des États-Unis.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/lepage-breaks-trump-iran-canada-192514450.html",
+      "published_at": "2026-10-02T14:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’Allemagne se prépare à une guerre hybride avec la Russie, met en garde le chancelier Friedrich Merz (Allemagne). Principaux renseignements Le chancelier allemand Friedrich Merz a récemment averti que son pays se préparait à faire face à d’importantes tactiques de guerre hybride lancées par la Russie. Usines d’ar …",
+      "sources": [
+        "Business AM via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-be/actualite/other/l-allemagne-se-prépare-à-une-guerre-hybride-avec-la-russie-met-en-garde-friedrich-merz/ar-AA2dqOBN",
+      "published_at": "2026-10-02T13:32:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
