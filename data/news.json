@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:33:34.005611+02:00",
+  "generated_at": "2026-10-02T13:43:51.512920+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58147,6 +58147,132 @@
       "published_at": "2026-10-02T12:45:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Des compagnies aériennes s’apprêtent à ramener les Israéliens des Émirats arabes unis Après l'attaque du cockpit de FlyDubai. L'attaque, contre un vol Dubaï-Tel Aviv, a interrompu le seul service direct entre les deux villes depuis que la guerre en Iran a perturbé le trafic aérien.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/02/world/middleeast/israel-dubai-uae-flights.html",
+      "published_at": "2026-10-02T06:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) promet que la guerre en Iran prendra fin « très rapidement » alors que davantage de troupes se rendront au Moyen-Orient. Quelque 9 000 soldats américains supplémentaires se dirigent vers le Moyen-Orient alors que Trump promet que la guerre se terminera « juste après les élections », sinon plus tôt.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-vows-iran-war-end-103025129.html",
+      "published_at": "2026-10-02T06:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Comment la Jordanie peut-elle répondre à l’escalade israélienne en Cisjordanie (Palestine) ? Il est de plus en plus difficile de considérer ce qui se passe en Cisjordanie comme une simple série de mesures que le gouvernement israélien justifie par des raisons de sécurité ou dans le cadre de la lutte contre le terrorisme…",
+      "sources": [
+        "Al Jazeera — fiabilité 8/10"
+      ],
+      "url": "https://www.aljazeera.com/opinions/2026/10/2/how-can-jordan-respond-to-israels-escalation-across-the-west-bank",
+      "published_at": "2026-10-02T05:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Jordanie",
+        "Palestine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le président sud-coréen met en garde contre des « mesures supplémentaires » si l'Ukraine ne s'excuse pas pour le conflit avec les prisonniers de guerre. En refusant un accord de confidentialité sur le transfert des prisonniers de guerre nord-coréens, Kiev \"fait passer le chef d'Etat d'un autre pays pour un menteur\", a déclaré le président sud-coréen Lee Jae Myung.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/south-korean-president-warns-additional-092727703.html",
+      "published_at": "2026-10-02T04:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La « carte postale australienne du futur » des grosses batteries. Les projets de stockage sur réseau ont réduit les prix de l’électricité et les émissions, mais « cannibalisent » leurs propres revenus dans le processus…",
+      "sources": [
+        "Financial Times — fiabilité 8/10"
+      ],
+      "url": "https://www.ft.com/content/c77b86cb-a915-412e-89d9-52cfc32cdc80?syn-25a6b1a6=1",
+      "published_at": "2026-10-02T06:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Offre du matin : cédez au pire. Au Japon, le rendement des obligations d'État à 10 ans a augmenté vendredi, se rapprochant du plus haut depuis 30 ans de 3,115 % atteint la semaine dernière, après que les investisseurs ont appris que l'inflation à Tokyo avait augmenté en septembre au rythme le plus rapide…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-10-02/",
+      "published_at": "2026-10-02T05:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Japon"
+      ]
     },
     {
       "regions": [
