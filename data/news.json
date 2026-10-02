@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T03:59:42.829165+02:00",
+  "generated_at": "2026-10-02T04:09:53.824206+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54368,6 +54368,47 @@
       ],
       "url": "https://www.newcastleherald.com.au/story/9361354/student-protests-grip-france-as-pm-calls-crisis-meeting/",
       "published_at": "2026-10-02T02:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Yémen",
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le FBI arrête un employé du ministère de l'Énergie accusé d'avoir tenté de soutenir les Houthis soutenus par l'Iran au Yémen. Le ministère de la Justice a déclaré qu'un ingénieur électricien du ministère de l'Énergie avait été arrêté pour avoir soutenu les rebelles Houthis soutenus par l'Iran au Yémen.",
+      "sources": [
+        "clickondetroit.com — fiabilité 6/10"
+      ],
+      "url": "https://www.clickondetroit.com/news/national/2026/10/01/fbi-arrests-energy-department-employee-on-charge-of-trying-to-support-iran-backed-houthis-in-yemen/",
+      "published_at": "2026-10-02T03:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Technologie",
+      "summary": "BT lance l'IA de BT pour aider les entreprises britanniques à adopter l'IA. BT Business a annoncé AI de BT, un nouveau portefeuille de solutions pratiques et sécurisées conçues pour aider les entreprises britanniques à adopter l'IA en toute confiance et à stimuler la croissance du Royaume-Uni. Cette décision reflète l'ambition de BT d'aider les entreprises à tirer parti des avantages de l'IA, tout en surmontant la complexité, l'incertitude et les problèmes de sécurité qui continuent de freiner de nombreuses organisations.",
+      "sources": [
+        "thefastmode.com — fiabilité 6/10"
+      ],
+      "url": "https://www.thefastmode.com/technology-solutions/50846-bt-launches-ai-from-bt-to-help-uk-businesses-adopt-ai",
+      "published_at": "2026-10-02T03:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
