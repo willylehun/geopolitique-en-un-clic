@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:04:21.532657+02:00",
+  "generated_at": "2026-10-02T07:14:34.852023+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54557,6 +54557,26 @@
       ],
       "url": "https://www.nwemail.co.uk/news/26597221.mayoral-hopeful-says-pms-plans-take-britain-back-1970s/",
       "published_at": "2026-10-02T00:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "countries": [
+        "Vanuatu"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Matthew et Hunter : le courrier sarcastique de Nicolas Metzdorf au Vanuatu fait polémique. Le député de la première circonscription a publié, le jeudi 1er octobre, un courrier qu’il affirme avoir adressé au Premier ministre du Vanuatu, Jotham Napat, après la nouvelle revendication de Port-V …",
+      "sources": [
+        "Les Nouvelles Calédoniennes — fiabilité 6/10"
+      ],
+      "url": "https://www.lnc.nc/article/matthew-et-hunter-le-courrier-sarcastique-de-nicolas-metzdorf-au-vanuatu-fait-polemique",
+      "published_at": "2026-10-02T00:16:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
