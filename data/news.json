@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:02:54.872877+02:00",
+  "generated_at": "2026-10-02T13:13:06.650313+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -39252,9 +39252,9 @@
         "Afrique"
       ],
       "countries": [
-        "Zimbabwe",
         "Botswana",
-        "Afrique du Sud"
+        "Afrique du Sud",
+        "Zimbabwe"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -45983,14 +45983,14 @@
     },
     {
       "regions": [
-        "Afrique",
         "Europe",
+        "Afrique",
         "International"
       ],
       "countries": [
-        "Zimbabwe",
         "Russie",
-        "Ukraine"
+        "Ukraine",
+        "Zimbabwe"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -56085,18 +56085,19 @@
         "International"
       ],
       "countries": [
-        "Ukraine"
+        "Ukraine",
+        "Russie"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "EN DIRECT, guerre en Ukraine : la circulation suspendue sur le pont Pivdenny, une importante voie de circulation de Kiev, touchée par de nouvelles frappes russes. L’attaque russe de la nuit a touché « un immeuble résidentiel de 25 étages », ont annoncé, vendredi, les autorités militaires de la capitale ukrainienne sur Telegram.",
+      "summary": "EN DIRECT, guerre en Ukraine : le président Vladimir Poutine (Russie) a ordonné à son armée de s’affranchir des règles de la guerre, selon le président Volodymyr Zelensky (Ukraine). L’attaque russe de la nuit a touché « un immeuble résidentiel de 25 étages », ont annoncé, vendredi, les autorités militaires de la capitale ukrainienne sur Telegram.",
       "sources": [
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-les-bombardements-russes-nocturnes-sur-kiev-ont-fait-un-mort-et-deux-blesses-un-pont-important-touche_6783795_3210.html",
-      "published_at": "2026-10-02T05:31:00+02:00",
+      "published_at": "2026-10-02T05:39:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -56897,7 +56898,7 @@
         "The Times of Israël — fiabilité 6/10"
       ],
       "url": "https://fr.timesofisrael.com/sanctions-americaines-contre-les-secteurs-automobile-et-ferroviaire-iraniens/",
-      "published_at": "2026-10-02T11:00:13+02:00",
+      "published_at": "2026-10-02T11:12:48+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -57934,6 +57935,43 @@
       ],
       "url": "https://allafrica.com/stories/202610020021.html",
       "published_at": "2026-10-02T07:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Novartis conclut un accord d'ARNm pouvant atteindre 7,8 milliards de dollars avec le chinois Abogen. Par Bhanvi Satija, 2 octobre (Reuters) - La société chinoise de biotechnologie Abogen a annoncé vendredi avoir signé un accord de licence d'une valeur pouvant atteindre 7,8 milliards de dollars avec Novartis pour développer une thérapie basée sur l'ARN messager,…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-ca/money/other/novartis-strikes-up-to-7-8-billion-mrna-deal-with-china-s-abogen/ar-AA2dpMkp",
+      "published_at": "2026-10-02T05:57:05+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Gabon"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Journée nationale du retraité : le Gabon pose les bases d’une nouvelle politique en faveur des aînés. Instituée en septembre dernier, la Journée nationale du retraité et de la personne âgée a été célébrée pour la première fois au Gabon, le 1er octobre 2026. Autour du thème «Le bien-être du retraité et de la personne âgée, à l’ère de la Ve République», le gouvernement a affiché […]",
+      "sources": [
+        "Gabonreview.com — fiabilité 6/10"
+      ],
+      "url": "https://www.gabonreview.com/journee-nationale-du-retraite-le-gabon-pose-les-bases-dune-nouvelle-politique-en-faveur-des-aines/",
+      "published_at": "2026-10-02T12:12:40+02:00",
       "origin": "rss",
       "content_enriched": true
     },
