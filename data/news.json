@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:10:13.543981+02:00",
+  "generated_at": "2026-10-02T11:20:28.825217+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -56415,6 +56415,134 @@
       "url": "https://kapitalis.com/tunisie/2026/10/02/a-lonu-lislande-renvoie-israel-a-sa-lachete-morale/",
       "published_at": "2026-10-02T02:38:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Présidentielle au Brésil : une économie sous tension à lapproche de l élection - Aujourdhui l économie. L’économie s’impose comme l’un des enjeux de l'élection présidentielle du Brésil. Le pays continue de croître, mais à un rythme moins soutenu. La dette publique progresse, les taux d’intérêt restent…",
+      "sources": [
+        "rfi.fr — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/fr/podcasts/aujourd-hui-l-%C3%A9conomie/20261002-bresil-economie-election-presidentielle-dette-taux-interet",
+      "published_at": "2026-10-02T10:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Ukraine - Guerre en direct : +++ 10 : 17 Les entreprises ukrainiennes se plaignent de l'augmentation des exigences fiscales +++. Berlin (Allemagne), Washington, Bruxelles – partout. ntv rend compte de tous les lieux importants de politique intérieure et étrangère.",
+      "sources": [
+        "n-tv.de — fiabilité 6/10"
+      ],
+      "url": "https://www.n-tv.de/politik/10-17-Ukrainische-Firmen-beklagen-steigende-Steuerforderungen-id30859357.html",
+      "published_at": "2026-10-02T10:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Sri Lanka"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Sri Lanka va réviser son cadre fiscal et éliminer progressivement les prélèvements douaniers supplémentaires d'ici 2027. Le gouvernement sri lankais a annoncé son intention d'introduire un système fiscal rationalisé et simplifié à partir de 2027, un élément clé de la réforme étant…",
+      "sources": [
+        "lankanewspapers.com — fiabilité 6/10"
+      ],
+      "url": "https://www.lankanewspapers.com/2026/10/02/sri-lanka-to-overhaul-tax-framework-and-phase-out-additional-customs-levies-by-2027",
+      "published_at": "2026-10-02T10:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Irak",
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Interview : Le ministre irakien des Affaires étrangères exhorte les États-Unis et l'Iran à reprendre les pourparlers. Alors que le conflit entre les États-Unis et l'Iran se répercute dans toute la région, l'Irak est confronté à une pression croissante du fait de la crise économique et sécuritaire de la guerre.",
+      "sources": [
+        "heraldglobe.com — fiabilité 6/10"
+      ],
+      "url": "http://www.heraldglobe.com/news/279347222/interview-iraqs-foreign-minister-urges-us-iran-back-to-talks",
+      "published_at": "2026-10-02T10:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Zambie",
+        "Malawi",
+        "Tanzanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Malawi intensifie ses projets ferroviaires vers le Nord. Le Malawi a intensifié ses projets de construction d'un chemin de fer vers le nord reliant le pays au réseau Tanzanie-Zambie, dans le but de réduire les coûts de transport qui représentent environ 60 pour cent des dépenses d'importation et d'exportation. L'Autorité ferroviaire Tanzanie-Zambie, populairement connue sous le nom de Tazara, est un chemin de fer binational reliant la Zambie enclavée à l'océan Indien tanzanien…",
+      "sources": [
+        "mwnation.com — fiabilité 6/10"
+      ],
+      "url": "https://mwnation.com/malawi-intensifies-north-bound-rail-plans/",
+      "published_at": "2026-10-02T10:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"Clan de la gauche - Maire : la gauche berlinoise intente une action en justice contre le ministre de l'Intérieur Hagel. Après la victoire électorale de la gauche à Berlin (Allemagne), le ministre de l'Intérieur Hagel courtise la police de la capitale. Aujourd'hui, la lettre d'un avocat flotte dans sa maison.",
+      "sources": [
+        "stuttgarter-nachrichten.de — fiabilité 6/10"
+      ],
+      "url": "https://www.stuttgarter-nachrichten.de/baden-wuerttemberg/linke-clan-buergermeisterin-berliner-linke-geht-rechtlich-gegen-innenminister-hagel-vor-79525280.html",
+      "published_at": "2026-10-02T10:45:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
