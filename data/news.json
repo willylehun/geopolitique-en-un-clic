@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:15:36.695812+02:00",
+  "generated_at": "2026-10-02T21:25:52.848818+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58412,7 +58412,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -60504,7 +60503,8 @@
       "url": "https://www.msn.com/fr-fr/actualite/other/emeutes-lycéennes-il-faut-avoir-un-retour-de-sanctions-pour-les-dégradations-lance-baptiste-gili/vi-AA2drzPg",
       "published_at": "2026-10-02T12:56:57+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -60550,7 +60550,6 @@
     {
       "regions": [
         "Amérique du Nord",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -61625,8 +61624,8 @@
       ],
       "countries": [
         "Irak",
-        "États-Unis",
-        "Iran"
+        "Iran",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -61737,10 +61736,11 @@
       "category": "Diplomatie",
       "summary": "« Plus de deux millions de dollars » : Washington place sur liste noire deux Français accusés de financer le Hamas. Les États-Unis ont placé vendredi sous sanctions économiques deux Français et les associations qu’ils ont créées, les accusant d’avoir collecté des fonds sous couvert d’opérations humanitaires pour le …",
       "sources": [
-        "Le Parisien via MSN — fiabilité 6/10"
+        "Le Parisien via MSN — fiabilité 6/10",
+        "Radio France Internationale — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/fr-fr/actualite/other/plus-de-deux-millions-de-dollars-washington-place-sur-liste-noire-deux-français-accusés-de-financer-le-hamas/ar-AA2dqE5e",
-      "published_at": "2026-10-02T09:47:29+02:00",
+      "published_at": "2026-10-02T11:37:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -61943,8 +61943,8 @@
         "International"
       ],
       "countries": [
-        "Bahreïn",
-        "Azerbaïdjan"
+        "Azerbaïdjan",
+        "Bahreïn"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -61956,6 +61956,292 @@
       ],
       "url": "https://www.rtbf.be/article/f1-bahrein-norris-et-colapinto-enterrent-la-hache-de-guerre-je-me-suis-excuse-11794073",
       "published_at": "2026-10-02T10:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Russie prévoit de consacrer 530 milliards d'euros de plus dans le secteur de la défense et pour la guerre. La Russie s’apprête à consacrer près de 530 milliards d’euros à la défense sur trois ans. Cette hausse massive des dépenses militaires intervient alors que Moscou réduit les moyens consacrés à plusieu …",
+      "sources": [
+        "Atlantico — fiabilité 6/10"
+      ],
+      "url": "https://atlantico.fr/article/decryptage/la-russie-prevoit-de-consacrer-530-milliards-d-euros-de-plus-dans-le-secteur-de-la-defense-et-pour-la-guerre",
+      "published_at": "2026-10-02T13:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Arbre généalogique de la diplomatie panda : voici toutes les paires prêtées aux États-Unis par la Chine. Neuf couples de pandas géants ont été introduits dans le pays depuis 1972, et environ 25 petits sont nés sur le sol américain.",
+      "sources": [
+        "KMBC — fiabilité 6/10"
+      ],
+      "url": "https://www.kmbc.com/article/china-giant-panda-loan-us-zoo-atlanta-history/73945345",
+      "published_at": "2026-10-02T13:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'armée yéménite revendique 474 opérations contre les Houthis, faisant 1 540 victimes en 24 heures. Le gouvernement yéménite fait état de 474 opérations militaires contre les Houthis en 24 heures, faisant 1 540 victimes et d'importants dégâts matériels, dans un contexte d'intensification …",
+      "sources": [
+        "Arab Times — fiabilité 6/10"
+      ],
+      "url": "https://www.arabtimesonline.com/news/yemen-army-claims-474-operations-against-houthis-1540-casualties-in-24-hours/",
+      "published_at": "2026-10-02T02:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un ancien membre du Congrès américain condamné à 10 ans de prison pour avoir exercé secrètement des pressions en faveur du Venezuela. L'ancien membre du Congrès américain David Rivera a été condamné vendredi à 10 ans de prison pour avoir fait pression illégalement sur des responsables américains afin d'alléger la pression sur le gouvernement du président vénézuélien déchu Nicolas Maduro.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/legal/government/former-us-congressman-sentenced-10-years-secretly-lobbying-venezuela-2026-10-02/",
+      "published_at": "2026-10-02T14:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Un navire à destination de Cuba transportant du carburant saisi par les garde-côtes américains en raison de l'embargo. Les garde-côtes américains ont annoncé vendredi avoir intercepté un grand cargo transportant du carburant à destination de Cuba, alors que l'embargo pétrolier paralysant imposé par l'administration du président Donald Trump (États-Unis) contrecarre …",
+      "sources": [
+        "Baird Maritime — fiabilité 6/10"
+      ],
+      "url": "https://www.bairdmaritime.com/security/incidents/piracy/cuba-bound-ship-carrying-fuel-seized-by-us-coast-guard-as-embargo-bites",
+      "published_at": "2026-10-02T13:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Cuba",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’auditeur panaméen cible les régulateurs des exportations et les dirigeants d’entreprises de Hong Kong dans le cadre d’une enquête sur le canal. Anel Flores affirme que des éléments supplémentaires concernent d'anciens membres du conseil d'administration de l'autorité maritime, dirigeants de la filiale de CK Hutchison, basée à Hong Kong.",
+      "sources": [
+        "South China Morning Post — fiabilité 6/10"
+      ],
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3369635/panama-auditor-targets-ex-port-regulators-and-hong-kong-firms-executives-canal-probe",
+      "published_at": "2026-10-02T08:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Sécurité",
+      "summary": "Les agents OpenAI ont accédé à 55 sites Web, selon la société de sécuritéPublié le : 2 octobre 2026 18h36. Pakistan, 2 octobre -- Les agents d'OpenAI ont accédé aux données de 55 sites Web gouvernementaux, commerciaux et à but non lucratif, selon une enquête menée par la société d'investigation numérique Ametric Security. Les chercheurs ont dit…",
+      "sources": [
+        "Daily Times via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-xl/asia/pakistan/openai-agents-accessed-55-websites-security-firm-sayspublished-on-october-2-2026-636-pm/ar-AA2dqgIm",
+      "published_at": "2026-10-02T14:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pakistan"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Anthropic engage 100 millions de dollars pour former 10 000 ingénieurs en IA d'entreprise. Anthropic lance la Claude Frontier Academy, un programme de type résidence de 100 millions de dollars pour former 10 000 ingénieurs en IA d'entreprise d'ici fin 2027.",
+      "sources": [
+        "Crypto Briefing — fiabilité 6/10"
+      ],
+      "url": "https://cryptobriefing.com/anthropic-100-million-claude-frontier-academy/",
+      "published_at": "2026-10-02T12:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le Pentagone redouble d'efforts pour nier la zone Pacifique et avoir besoin de munitions haut de gamme. Le Pentagone a redoublé d’efforts pour établir un réseau anti-accès et de déni de zone déployé à l’avant le long de la première chaîne d’îles afin de dissuader la Chine dans la mise à jour 2026 de la sécurité de la défense nationale. Dans un…",
+      "sources": [
+        "USNI News — fiabilité 6/10"
+      ],
+      "url": "https://news.usni.org/2026/10/02/pentagon-doubles-down-on-pacific-area-denial-need-for-high-end-munitions",
+      "published_at": "2026-10-02T10:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suède"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "En Suède, la présidente du parti social-démocrate de nouveau chargée de former un gouvernement. Magdalena Andersson, qui, avec ses alliés, compte désormais au Parlement 176 sièges, contre 173 pour la droite et l’extrême droite, avait pourtant renoncé, lundi, à l’idée de former un gouvernement, f …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/10/02/en-suede-la-presidente-du-parti-social-democrate-de-nouveau-chargee-de-former-un-gouvernement_6787129_3210.html",
+      "published_at": "2026-10-02T05:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suède"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "Suède: Magdalena Andersson à nouveau chargée de former un gouvernement. \"À la lumière des entretiens que j'ai menés, j'ai décidé de confier à Magdalena Andersson, présidente du Parti social-démocrate, la mission de reprendre ses consultations exploratoires\", a indiqué And …",
+      "sources": [
+        "Corse Matin — fiabilité 6/10"
+      ],
+      "url": "https://www.corsematin.com/article/francemonde/16083441003248/suede-magdalena-andersson-a-nouveau-chargee-de-former-un-gouvernement",
+      "published_at": "2026-10-02T06:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Vatican",
+        "France",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : comment le Vatican se réimplique dans la paix. À Paris, devant le président Emmanuel Macron (France), qui le recevait à l’Élysée vendredi 25 septembre, puis lors de son homélie sur la place de la concorde, à l’occasion de sa messe …",
+      "sources": [
+        "Valeurs actuelles — fiabilité 6/10"
+      ],
+      "url": "https://www.valeursactuelles.com/clubvaleurs/monde/guerre-en-ukraine-comment-le-vatican-se-reimplique-dans-la-paix",
+      "published_at": "2026-10-02T14:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Algérie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Algérie : futur grand hub énergétique au sud de l’Europe. L’Algérie veut faire de l’hydrogène vert un nouveau pilier de sa politique énergétique. Elle a pour elle un fort ensoleillement, de vastes espaces disponibles et des infrastructures énergétiques déjà …",
+      "sources": [
+        "TSA via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/algérie-futur-grand-hub-énergétique-au-sud-de-l-europe/ar-AA2drv3U",
+      "published_at": "2026-10-02T13:50:16+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Inde"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "En Inde, une mosquée sacrifiée au nom d’un pèlerinage hindou : « Cela nous fait profondément mal ». La mosquée d’Ujjain, édifice vieux de six cents ans situé dans le centre de l’Inde, a été partiellement démolie pour faire place à une route plus large en direction d’un grand rassemblement spirituel. Un acte reflétant le climat islamophobe qui règne dans un pays dominé par l’ultranationalisme de Narendra…",
+      "sources": [
+        "La Croix — fiabilité 6/10"
+      ],
+      "url": "https://www.la-croix.com/international/en-inde-une-mosquee-sacrifiee-au-nom-d-un-pelerinage-hindou-cela-nous-fait-profondement-mal-20261002",
+      "published_at": "2026-10-02T18:26:17+02:00",
       "origin": "rss",
       "content_enriched": true
     },
