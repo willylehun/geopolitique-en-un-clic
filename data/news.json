@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T08:05:43.125114+02:00",
+  "generated_at": "2026-10-02T08:15:57.636634+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -4901,8 +4901,8 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -9357,8 +9357,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
-        "Liban"
+        "Liban",
+        "Israël"
       ]
     },
     {
@@ -9648,8 +9648,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
-        "Iran"
+        "Iran",
+        "Israël"
       ]
     },
     {
@@ -11694,8 +11694,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -11709,8 +11709,8 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
-        "Égypte"
+        "Égypte",
+        "Israël"
       ]
     },
     {
@@ -20371,8 +20371,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -22575,8 +22575,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
-        "Iran"
+        "Iran",
+        "Israël"
       ]
     },
     {
@@ -23541,15 +23541,15 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Israël",
         "Maroc",
         "Qatar",
         "Émirats arabes unis",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Israël"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -27478,8 +27478,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Israël"
       ]
     },
     {
@@ -27568,8 +27568,8 @@
         "Asie"
       ],
       "countries": [
-        "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Israël"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -29824,8 +29824,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Israël"
       ]
     },
     {
@@ -30018,9 +30018,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
         "Émirats arabes unis",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Israël"
       ]
     },
     {
@@ -31682,9 +31682,9 @@
         "Asie"
       ],
       "countries": [
-        "Israël",
         "Émirats arabes unis",
-        "Iran"
+        "Iran",
+        "Israël"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -32008,8 +32008,8 @@
         "International"
       ],
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ],
       "period": "day",
@@ -33519,9 +33519,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
         "Émirats arabes unis",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Israël"
       ]
     },
     {
@@ -34054,8 +34054,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Israël"
       ]
     },
     {
@@ -34533,8 +34533,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Israël"
       ]
     },
     {
@@ -37152,9 +37152,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
         "Émirats arabes unis",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Israël"
       ]
     },
     {
@@ -38096,9 +38096,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
         "Émirats arabes unis",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Israël"
       ]
     },
     {
@@ -38344,11 +38344,11 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
         "Qatar",
         "Égypte",
         "Inde",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -38857,8 +38857,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -39559,8 +39559,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
-        "Iran"
+        "Iran",
+        "Israël"
       ]
     },
     {
@@ -40554,8 +40554,8 @@
         "International"
       ],
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ],
       "period": "day",
@@ -41856,9 +41856,9 @@
         "Asie"
       ],
       "countries": [
-        "Israël",
         "Émirats arabes unis",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Israël"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -42494,9 +42494,9 @@
         "Asie"
       ],
       "countries": [
-        "Israël",
         "Inde",
-        "Iran"
+        "Iran",
+        "Israël"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -44716,8 +44716,8 @@
         "Asie"
       ],
       "countries": [
-        "Israël",
-        "Iran"
+        "Iran",
+        "Israël"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -46157,9 +46157,9 @@
       "content_enriched": true,
       "countries": [
         "Chine",
-        "Israël",
         "Inde",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -47072,8 +47072,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Israël"
       ]
     },
     {
@@ -49637,12 +49637,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Israël",
         "Maurice",
+        "Israël",
         "Palestine"
       ],
       "period": "day",
@@ -50472,8 +50472,8 @@
         "Europe"
       ],
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "Royaume-Uni"
       ],
       "period": "day",
@@ -52970,8 +52970,8 @@
         "International"
       ],
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "Palestine",
         "États-Unis"
       ],
@@ -53527,8 +53527,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Israël",
         "Iran",
+        "Israël",
         "États-Unis"
       ]
     },
@@ -54802,6 +54802,70 @@
       "countries": [
         "Samoa"
       ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Brésil lance une enquête sur le projet présumé de l’administration du président Donald Trump (États-Unis) de financer des causes d’extrême droite dans le pays. L'enquête intervient alors que Lula et Flavio Bolsonaro se préparent à s'affronter pour ce qui est décrit comme des élections importantes au Brésil, qui pourraient façonner l'avenir de l'économie en développement …",
+      "sources": [
+        "Euronews — fiabilité 8/10"
+      ],
+      "url": "https://www.euronews.com/2026/10/02/brazil-launches-probe-into-alleged-trump-administration-plan-to-fund-far-right-causes-in-t",
+      "published_at": "2026-10-02T00:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La famille Renee Good vous poursuit en justice. S. Responsables de sa mort par balle à Minneapolis. MINNEAPOLIS — La famille de Renée Good a poursuivi jeudi le gouvernement américain et les architectes de la répression de l'immigration du président Donald Trump (États-Unis), affirmant que \"le moment est absolument venu de rendre des comptes\" pour son assassinat en janvier par un agent fédéral à Minneapolis.",
+      "sources": [
+        "texarkanagazette.com — fiabilité 6/10"
+      ],
+      "url": "https://www.texarkanagazette.com/news/2026/oct/01/renee-goods-family-sues-us-officials-over-her/",
+      "published_at": "2026-10-02T07:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Brésil",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Polémique sur Notre - Dame dAparecida et débat TV avorté : dernière ligne droite avant la présidentielle au Brésil. Flavio Bolsonaro a dit jeudi renoncer à participer à un débat télévisé à trois jours du premier tour, dénonçant une «censure» de la justice électorale. De son côté, Brasilia réclame une enquête sur l'utilisation présumée de fonds publics américains pour promouvoir un «agenda d'extrême droite»",
+      "sources": [
+        "letemps.ch — fiabilité 6/10"
+      ],
+      "url": "https://www.letemps.ch/monde/polemique-sur-notre-dame-d-aparecida-et-debat-tv-avorte-derniere-ligne-droite-avant-la-presidentielle-au-bresil",
+      "published_at": "2026-10-02T07:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
