@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:29:05.502261+02:00",
+  "generated_at": "2026-10-02T10:39:33.194208+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23429,12 +23429,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "countries": [
-        "Italie",
-        "Koweït"
+        "Koweït",
+        "Italie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28671,8 +28671,8 @@
       ],
       "countries": [
         "Allemagne",
-        "Espagne",
-        "Chine"
+        "Chine",
+        "Espagne"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -30061,8 +30061,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Italie",
-        "France"
+        "France",
+        "Italie"
       ]
     },
     {
@@ -31910,8 +31910,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Italie",
-        "France"
+        "France",
+        "Italie"
       ]
     },
     {
@@ -55931,6 +55931,49 @@
       "published_at": "2026-10-02T02:57:13+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La plateforme de paiement russe A7 nie tout lien avec l'Iran après les sanctions américaines. La plateforme de paiement russe A7, sanctionnée par les États-Unis pour avoir aidé l'Iran à échapper aux sanctions dans le cadre de l'opération Economic Outcast du président Donald Trump (États-Unis), a nié tout lien avec l'Iran dans un communiqué publié vendredi.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/russias-a7-payment-platform-denies-links-iran-after-us-sanctions-2026-10-02/",
+      "published_at": "2026-10-02T03:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "La France dévoile un budget de réduction des coûts au milieu des manifestations. Le gouvernement français cherche à réaliser 54 milliards d’euros d’économies dans son projet de budget 2027, alors qu’il fait face à des pressions liées à sa dette publique croissante. Mais il risque de se heurter à une opposition, notamment sur…",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/tv-shows/business/20261002-france-unveils-cost-cutting-budget-amid-protests",
+      "published_at": "2026-10-02T01:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
     },
     {
       "regions": [
