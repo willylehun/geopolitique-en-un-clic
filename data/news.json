@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:53:58.690014+02:00",
+  "generated_at": "2026-10-02T16:05:31.426457+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -59315,7 +59315,7 @@
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-kiev-est-paralysee-par-les-embouteillages-apres-les-frappes-russes-sur-le-pont-pivdenny_6783795_3210.html",
-      "published_at": "2026-10-02T08:10:00+02:00",
+      "published_at": "2026-10-02T09:01:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -59394,7 +59394,8 @@
       "category": "Diplomatie",
       "summary": "Washington l'accuse d'aider la Russie à contourner les sanctions et de servir les intérêts de l'Iran: le Trésor américain qualifie le réseau de paiement russe A7 d'organisation criminelle transnationale. L'A7 a été créé en 2024 par l'homme d'affaire moldave IIan Shor pour contourner les sanctions économiques. Son stablecoin, l'A7A5, a déjà permis de transférer 179 milliards de dollars entre février 2025 et juin 2026.",
       "sources": [
-        "BFM — fiabilité 6/10"
+        "BFM — fiabilité 6/10",
+        "BFMTV — fiabilité 6/10"
       ],
       "url": "https://www.bfmtv.com/crypto/washington-l-accuse-d-aider-la-russie-a-contourner-les-sanctions-et-de-servir-les-interets-de-l-iran-le-tresor-americain-qualifie-le-reseau-de-paiement-russe-a7-d-organisation-criminelle-transnationale_AN-202610020574.html",
       "published_at": "2026-10-02T15:23:22+02:00",
@@ -59751,8 +59752,7 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Europe"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -59830,6 +59830,231 @@
       "countries": [
         "Suisse"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les manifestations scolaires font frissonner le gouvernement français. Un mouvement qui a débuté il y a près de deux semaines s'est étendu et, en France, la jeunesse dans la rue est une source de troubles, écrit Hugh Schofield.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/c69wzjjxex8po",
+      "published_at": "2026-10-02T07:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'OPEP+ retarde l'évaluation de sa capacité pétrolière après que la guerre en Iran ait perturbé les plans d'expansion, selon des sources. LONDRES/MOSCOU, 2 octobre - Un examen de l'OPEP+ visant à aider à déterminer les quotas de production pétrolière des membres pour 2027 a été retardé après que la guerre américano-israélienne contre l'Iran a perturbé les projets d'augmentation de la capacité au Moyen-Orient.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/opec-delays-oil-capacity-review-after-iran-war-disrupts-expansion-plans-sources-2026-10-02/",
+      "published_at": "2026-10-02T06:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Inde"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Manifestation du CJP EN DIRECT : Dipke lance la « Saison 2 » depuis le parc Shivaji ; Des troubles anti-CJP éclatent parallèlement à Mumbai. La première manifestation aura lieu à 16 heures à la porte n°6 du parc Chhatrapati Shivaji Maharaj, a indiqué le Cockroach Janta Party dans un communiqué. | Nouvelles de l'Inde…",
+      "sources": [
+        "Hindustan Times — fiabilité 6/10"
+      ],
+      "url": "https://www.hindustantimes.com/india-news/cjp-protest-mumbai-live-cockroach-abhijeet-dipke-shivaji-park-protest-cec-gyanesh-kumar-resignation-gandhi-jayanti-101790904571056.html",
+      "published_at": "2026-10-02T07:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Arabie saoudite",
+        "Yémen"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "La coalition saoudienne accuse les Houthis d'avoir attaqué Médine par des drones. RIYAD : Les Houthis du Yémen ont frappé une station de distribution d'électricité dans la ville sainte de Médine en Arabie saoudite, a annoncé jeudi 1er octobre la coalition dirigée par l'Arabie saoudite, suscitant une ferme condamnation de la part de …",
+      "sources": [
+        "CNA — fiabilité 7/10"
+      ],
+      "url": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-attack-madinah-6425761",
+      "published_at": "2026-10-02T04:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les ruines de l’Ukraine : images d’une guerre sans fin. L'automne en Ukraine sous les bombes. La Russie mène une campagne d’attaques quotidiennes contre l’Ukraine, et les conséquences sont évidentes : morts, blessés et dévastation.",
+      "sources": [
+        "The Daily Digest via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/the-ruins-of-ukraine-images-of-an-endless-war/vi-AA2dleI1",
+      "published_at": "2026-10-02T07:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "countries": [],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Technologie",
+      "summary": "Rapport sur le prix d'encouragement à la recherche 2026 de la Société japonaise pour les technologies éducatives. La conférence nationale d'automne de la Société japonaise pour la technologie éducative s'est tenue à Sapporo. Lors de la séance plénière du premier jour, j'ai reçu le 41e prix d'encouragement à la recherche. Ci-dessous une photo…",
+      "sources": [
+        "note — fiabilité 6/10"
+      ],
+      "url": "https://note.com/lofty_zephyr7788/n/nc23d3b85bb8d?hl=en",
+      "published_at": "2026-10-02T03:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le brésilien Petrobras fait une nouvelle découverte de pétrole au large d'Amapa. La compagnie pétrolière publique brésilienne Petrobras a annoncé vendredi avoir \"fait une nouvelle découverte de pétrole dans les eaux ultra-profondes au large de l'État d'Amapa, une zone connue sous le nom de marge équatoriale qu'elle considère comme la plus …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/brazils-petrobras-makes-new-oil-discovery-off-coast-amapa-2026-10-02/",
+      "published_at": "2026-10-02T07:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Suriname prépare une étude sismique 3D massive sur une superficie d’eau peu profonde. La compagnie pétrolière publique du Suriname et régulateur du marché, Staatsolie, prévoit de mener une vaste étude sismique 3D dans les bassins d'eau peu profonde du pays pour tenter d'avoir un aperçu du sous-sol et …",
+      "sources": [
+        "Upstream Online — fiabilité 6/10"
+      ],
+      "url": "https://www.upstreamonline.com/exploration/suriname-preps-massive-3d-seismic-survey-over-shallow-water-acreage/2-1-2053270",
+      "published_at": "2026-10-02T07:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Suriname"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Un vétéran de la guerre de Corée qui a participé aux essais de bombe atomique se prépare pour le voyage du vol d'honneur à D. C.. Un vétéran de la guerre de Corée de Laughlin s'est mis à l'abri sur son navire après les essais de bombes atomiques américaines alors qu'il servait à bord de l'USS Walker dans l'océan Pacifique central.",
+      "sources": [
+        "FOX5 Vegas — fiabilité 6/10"
+      ],
+      "url": "https://www.fox5vegas.com/2026/10/02/korean-war-veteran-who-participated-atomic-bomb-blast-testing-prepares-honor-flight-trip-dc/",
+      "published_at": "2026-10-02T08:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Économie",
+      "summary": "La croissance de l'emploi aux États-Unis ralentit fortement et le chômage atteint 4,2 %. L'économie américaine a créé 29 000 emplois en septembre alors que l'inflation et les mesures d'immigration pèsent sur le marché du travail.",
+      "sources": [
+        "Australian Financial Review — fiabilité 7/10"
+      ],
+      "url": "https://www.afr.com/world/north-america/us-job-growth-slows-sharply-unemployment-rises-to-4-2pc-20261002-p612id",
+      "published_at": "2026-10-02T04:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Bolivie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Carburants : malgré les recommandations du FMI, le gouvernement centrafricain augmente les prix et adopte, quelques semaines après la Bolivie, un tarif différencié pour les … Malgré les recommandations du FMI, le gouvernement augmente les prix du carburant en Centrafrique et instaure un tarif différencié.",
+      "sources": [
+        "corbeaunews-centrafrique — fiabilité 6/10"
+      ],
+      "url": "https://corbeaunews-centrafrique.org/gouvernement-augmente-prix-carburant-centrafrique/",
+      "published_at": "2026-10-02T06:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
