@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:55:04.771605+02:00",
+  "generated_at": "2026-10-02T21:05:19.416233+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -32956,8 +32956,8 @@
         "International"
       ],
       "countries": [
-        "Tchad",
-        "Cameroun"
+        "Cameroun",
+        "Tchad"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -58412,6 +58412,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -60549,7 +60550,6 @@
     {
       "regions": [
         "Amérique du Nord",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -60731,7 +60731,6 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
-        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -61414,6 +61413,310 @@
       ],
       "url": "https://sante.lefigaro.fr/l-epidemie-d-ebola-franchit-le-cap-des-4000-morts-en-rdc-20261002",
       "published_at": "2026-10-02T11:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Russie prévoit de consacrer 530 milliards d'euros de plus dans le secteur de la défense et pour la guerre. La Russie prévoit d’augmenter fortement ses dépenses militaires dans les prochaines années. Moscou pourrait consacrer près de 530 milliards d’euros à la défense et à l’industrie de l’armement sur troi …",
+      "sources": [
+        "Atlantico via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/la-russie-prévoit-de-consacrer-530-milliards-deuros-de-plus-dans-le-secteur-de-la-défense-et-pour-la-guerre/ar-AA2dqR95",
+      "published_at": "2026-10-02T13:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Financement du Hamas : pourquoi deux Français sont visés par des sanctions américaines. Les États-Unis ont sanctionné deux Français et leurs associations caritatives, accusés d'avoir collecté plus de deux millions de dollars sous couvert d'aide …",
+      "sources": [
+        "Europe 1 — fiabilité 6/10"
+      ],
+      "url": "https://www.europe1.fr/international/financement-du-hamas-pourquoi-deux-francais-sont-vises-par-des-sanctions-americaines-1119077",
+      "published_at": "2026-10-02T01:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre a déclaré à Burnham \"ne sapez pas le Pays de Galles\". Le premier ministre du Pays de Galles s'est exprimé vendredi après-midi lors de la conférence d'automne de Plaid Cymru au Venue Cymru à Llandudno.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/videos/c6gqw28kvd5ko",
+      "published_at": "2026-10-02T10:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Technologie",
+      "summary": "Jared Kushner accuse CNN d’avoir publié une histoire « profondément trompeuse » liant la diplomatie du Moyen-Orient aux entreprises de défense israéliennes. \"Ces dix dernières années, j'ai ignoré les histoires fausses et trompeuses à mon sujet et je me suis concentré sur mon travail\", a déclaré l'envoyé spécial du président Donald Trump (États-Unis) pour la paix.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/jared-kushner-accuses-cnn-deeply-181954002.html",
+      "published_at": "2026-10-02T13:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Delhi modifie les règles de l'école : le certificat d'essentiel est désormais obligatoire pour les attributions de terrains institutionnels. Le gouvernement de Delhi a mis à jour les règles de l'enseignement scolaire, exigeant que les établissements privés obtiennent un certificat d'essentialité du lieutenant-gouverneur avant d'obtenir des terres gouvernementales ou municipales…",
+      "sources": [
+        "Mirror Now via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/money/general/delhi-amends-school-rules-essentiality-certificate-now-mandatory-for-institutional-land-allotments/ar-AA2dr13e",
+      "published_at": "2026-10-02T13:06:51+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les sénateurs américains s'attendent à ce que le vote sur l'accord nucléaire entre le président Donald Trump (États-Unis) et l'Arabie saoudite soit voté avant le 13 décembre. Les sénateurs démocrates américains ont déclaré vendredi qu'ils s'attendaient à un vote avant le 13 décembre sur l'accord de l'administration Trump visant à partager la technologie nucléaire avec l'Arabie saoudite.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/middle-east/us-senators-expect-vote-before-december-13-trumps-nuclear-power-pact-with-saudi-2026-10-02/",
+      "published_at": "2026-10-02T12:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le dernier débat présidentiel au Brésil annulé après des décisions de justice. Le débat présidentiel télévisé le plus important du Brésil a été annulé trois jours avant l'une des élections les plus polarisées de l'histoire récente du pays.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/brazil-final-presidential-debate-canceled-180548298.html",
+      "published_at": "2026-10-02T13:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le G7 va libérer jusqu'à 100 millions de barils de diesel et de pétrole brut pour tenter de freiner la flambée des prix. Un communiqué publié par le groupe, qui comprend la France, le Royaume-Uni et l'Allemagne, indique que les réserves seraient libérées d'ici quatre mois.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/live/cqd0801d2y3vt?page=3",
+      "published_at": "2026-10-02T03:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne",
+        "France",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Poursuite des efforts de nettoyage du cimetière Le Repentir. La ministre du Gouvernement local et du Développement régional, Priya Manickchand, a rencontré jeudi les entrepreneurs chargés du nettoyage du cimetière Le Repentir. Pendant l'engagement, les entrepreneurs…",
+      "sources": [
+        "News Room Guyana — fiabilité 6/10"
+      ],
+      "url": "https://newsroom.gy/2026/10/02/continued-efforts-to-clean-up-le-repentir-cemetery-underway/",
+      "published_at": "2026-10-02T13:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Jared Kushner riposte au rapport de CNN « profondément trompeur » sur les « conflits d’intérêts potentiels ». Jared Kushner s'en est pris à CNN et les a accusés d'avoir publié un rapport \"trompeur\" sur un \"conflit d'intérêts potentiel\" qu'il aurait à travers son entreprise.",
+      "sources": [
+        "Mediaite — fiabilité 6/10"
+      ],
+      "url": "https://www.mediaite.com/media/jared-kushner-fires-back-at-deeply-misleading-cnn-report-about-potential-conflict-of-interest/",
+      "published_at": "2026-10-02T09:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Irak",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions américaines : exception accordée pour les vols iraniens vers la ville sainte de Najaf en Irak L'Orient-Le Jour",
+      "sources": [
+        "L'Orient-Le Jour — fiabilité 6/10"
+      ],
+      "url": "https://www.lorientlejour.com/article/1549502/sanctions-americaines-exception-accordee-pour-les-vols-iraniens-vers-la-ville-sainte-de-najaf-en-irak.html",
+      "published_at": "2026-10-02T18:34:12+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Norvège"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Haakon VIII de Norvège seul aux commandes pour sa 1ère ouverture du Parlement : Mette-Marit rattrapée par ses soucis de santé. EN IMAGES - Haakon VIII a ouvert le parlement norvégien ce vendredi, accompagné de sa fille, Ingrid Alexandra. Celle-ci a eu pour mission de faire oublier l'absence de sa mère, rattrapée par ses probl …",
+      "sources": [
+        "Paris Match — fiabilité 6/10"
+      ],
+      "url": "https://www.parismatch.com/Royal-Blog/haakon-viii-de-norvege-seul-aux-commandes-pour-sa-1ere-ouverture-du-parlement-mette-marit-rattrapee-par-ses-soucis-de-sante-276788",
+      "published_at": "2026-10-02T10:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Norvège"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Ingrid Alexandra de Norvège à l’ouverture du Parlement, son discret clin d’œil à sa mère Mette-Marit. La princesse héritière a accompagné ce vendredi 2 octobre son père, le roi Haakon VIII, qui ouvrait pour la première fois le Parlement à Oslo. Annoncée à l’agenda, la reine n’a finalement pas pu assis …",
+      "sources": [
+        "Point de Vue — fiabilité 6/10"
+      ],
+      "url": "https://www.pointdevue.fr/royal/norvege/ingrid-alexandra-de-norvege-a-louverture-du-parlement-son-discret-clin-doeil-a-sa-mere-mette-marit",
+      "published_at": "2026-10-02T09:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "« On en arrive à la conclusion que le système est intégralement pourri de l'intérieur » : au Brésil, la campagne présidentielle dans un climat délétère. Des dirigeants des trois branches du pouvoir et le principal candidat de l'opposition sont accusés d'avoir été corrompus par un banquier véreux. Pour la première fois, dans un pays habitué aux scandal …",
+      "sources": [
+        "Les Echos — fiabilité 6/10"
+      ],
+      "url": "https://www.lesechos.fr/monde/ameriques/on-en-arrive-a-la-conclusion-que-le-systeme-est-integralement-pourri-de-linterieur-au-bresil-la-campagne-presidentielle-dans-un-climat-deletere-2254909",
+      "published_at": "2026-10-02T12:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Brésil",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Diplomatie. États-Unis : l’ambassade au Brésil suspend ses services avant les élections. Les États-Unis ferment temporairement les services de leur ambassade et de leurs consulats pour des raisons de sécurité avant l’élection présidentielle brésilienne, qui se déroulera le 4 octobre.",
+      "sources": [
+        "Le Dauphiné Libéré — fiabilité 6/10"
+      ],
+      "url": "https://www.ledauphine.com/politique/2026/10/02/etats-unis-l-ambassade-au-bresil-suspend-ses-services-avant-les-elections",
+      "published_at": "2026-10-02T07:53:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
