@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T06:54:06.737348+02:00",
+  "generated_at": "2026-10-02T07:04:21.532657+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54541,6 +54541,23 @@
       "url": "https://www.lankanewspapers.com/2026/10/02/sri-lanka-s-57-4-million-adb-solar-project-undermined-by-government-s-own-policy-reversal",
       "published_at": "2026-10-02T06:15:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"Le candidat à la mairie affirme que le plan du Premier ministre nous ramènerait\" aux années 1970 \". Le candidat conservateur à la mairie de Cumbria, Mike Starkie, a dénoncé le discours du Premier ministre Andy Burnham à la conférence travailliste, affirmant que certaines des propositions ramèneraient la Grande-Bretagne \"aux années 1970\".",
+      "sources": [
+        "The Mail in South Cumbria — fiabilité 6/10"
+      ],
+      "url": "https://www.nwemail.co.uk/news/26597221.mayoral-hopeful-says-pms-plans-take-britain-back-1970s/",
+      "published_at": "2026-10-02T00:00:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
