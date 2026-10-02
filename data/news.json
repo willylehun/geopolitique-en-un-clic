@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:04:17.491357+02:00",
+  "generated_at": "2026-10-02T14:14:31.172148+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -38905,12 +38905,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Afrique"
+        "Afrique",
+        "Europe"
       ],
       "countries": [
-        "Luxembourg",
-        "Ghana"
+        "Ghana",
+        "Luxembourg"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -58584,6 +58584,106 @@
       ],
       "url": "https://www.aciafrique.org/news/23895/zambie-un-pretre-appelle-a-la-justice-dans-lacces-a-leau-et-a-la-conversion-ecologique",
       "published_at": "2026-10-02T03:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les prix alimentaires mondiaux ont atteint leur plus haut niveau depuis près de 4 ans en septembre : ONU. Les craintes d'un phénomène climatique El Niño sévère ont poussé les prix internationaux du sucre à leur plus haut niveau depuis 18 mois, tandis qu'un effondrement du commerce de la mer Noire lié à la guerre a poussé les prix du blé à un sommet de trois ans plus tôt que prévu.",
+      "sources": [
+        "NDTV — fiabilité 6/10"
+      ],
+      "url": "https://www.ndtv.com/world-news/world-food-prices-hit-nearly-4-year-high-in-september-un-12129593",
+      "published_at": "2026-10-02T04:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Ce que l’administration du président Donald Trump (États-Unis) a dit à propos de la sécurité sociale inquiète les retraités. Une vague remarque liée au président Donald Trump (États-Unis) a suscité de nouvelles inquiétudes concernant la sécurité sociale. Voici ce qui a été dit, ce qui n’a pas changé et pourquoi les retraités ont si fortement réagi.",
+      "sources": [
+        "AOL — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.com/articles/trump-administration-said-social-security-100000000.html",
+      "published_at": "2026-10-02T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Qu'est-ce qui est réel et qu'est-ce qui est faux ? Comment l’IA impacte la course électorale au Brésil. A seulement deux jours du premier tour de l'élection présidentielle brésilienne, l'intelligence artificielle occupe le devant de la scène, qu'il s'agisse d'un deepfake avatar de l'ancien président Jair Bolsonaro…",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/tv-shows/focus/20261002-what-s-real-and-what-s-fake-how-ai-is-impacting-brazil-s-election-race",
+      "published_at": "2026-10-02T01:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Investissement : La Banque mondiale exprime son intérêt pour le Forum du Mali Kura lors d'une rencontre avec l'API-Mali. La Banque mondiale exprime son intérêt pour le Forum du Mali Kura, organisé par l'API-Mali les 11 et 12 décembre 2026 au CICB de Bamako, sur l'investissement.",
+      "sources": [
+        "Malijet — fiabilité 6/10"
+      ],
+      "url": "https://malijet.com/actualite_economique_du_mali/312138-investissement-la-banque-mondiale-exprime-son-interet-pour.html",
+      "published_at": "2026-10-02T06:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Mali : un objectif climatique de 25,25 % d’ici 2035. À l’horizon 2035, le Mali vise une baisse de 25,25 % des émissions de gaz à effet de serre dans l’énergie, l’agriculture et les déchets. Sa nouvelle contribution climatique a franchi jeudi l’étape de …",
+      "sources": [
+        "APAnews — fiabilité 6/10"
+      ],
+      "url": "https://fr.apanews.net/mali/mali-un-objectif-climatique-de-2525-dici-2035/",
+      "published_at": "2026-10-02T05:46:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
