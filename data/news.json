@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:14:34.852023+02:00",
+  "generated_at": "2026-10-02T07:24:46.888672+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54578,6 +54578,93 @@
       "url": "https://www.lnc.nc/article/matthew-et-hunter-le-courrier-sarcastique-de-nicolas-metzdorf-au-vanuatu-fait-polemique",
       "published_at": "2026-10-02T00:16:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Corée du Sud",
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le ministre ukrainien espère apaiser les malentendus avec la Corée du Sud, rapportent les médias. L'Ukraine s'efforce d'apaiser un différend avec la Corée du Sud concernant le transfert annoncé publiquement par Kiev de deux militaires nord-coréens faits prisonniers dans la guerre contre la Russie, ont rapporté jeudi les médias ukrainiens citant le ministre des Affaires étrangères Andrii Sybiha.",
+      "sources": [
+        "asiaone.com — fiabilité 6/10"
+      ],
+      "url": "https://www.asiaone.com:443/world/ukrainian-minister-hopes-heal-misunderstanding-south-korea-media-reports",
+      "published_at": "2026-10-02T07:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Canada",
+        "Inde"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les minéraux critiques apparaissent comme une opportunité commerciale clé entre l'Inde et le Canada dans un contexte de diversification de la chaîne d'approvisionnement : Ministre du Commerce Maninder Sidhu. Le Canada voit une opportunité de soutenir la diversification de la chaîne d'approvisionnement de l'Inde grâce à des minéraux essentiels, en particulier pour les secteurs en pleine croissance de l'automobile, des véhicules électriques et des batteries, a déclaré le ministre canadien du Commerce international, Maninder Sidhu.",
+      "sources": [
+        "milwaukeesun.com — fiabilité 6/10"
+      ],
+      "url": "http://www.milwaukeesun.com/news/279346821/critical-minerals-emerge-as-key-india-canada-trade-opportunity-amid-supply-chain-diversification-trade-minister-maninder-sidhu",
+      "published_at": "2026-10-02T06:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Palestine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "NSW Labour soutient l'interdiction du Queensland sur les slogans de liberté en Palestine. Le gouvernement travailliste de Nouvelle-Galles du Sud a annoncé qu’il se joignait à l’affaire de la Haute Cour, achetée par le juge de Palestine Magan-djin, en soutien à la loi du Queensland sur les expressions interdites. Kerry Smith rapporte.",
+      "sources": [
+        "greenleft.org.au — fiabilité 6/10"
+      ],
+      "url": "https://www.greenleft.org.au/2026/1463/news/nsw-labor-backs-qlds-ban-palestine-freedom-slogans",
+      "published_at": "2026-10-02T06:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Underwood Law amène des actions de partage aux propriétaires fonciers de toute la Californie (États-Unis). Underwood Law étend l'accès à ses services juridiques axés sur le partage à travers cinq bureaux californiens, aidant les propriétaires à résoudre les litiges de copropriété impliquant des propriétés résidentielles, commerciales, héritées et d'investissement tout en fournissant un accès régional à des avocats expérimentés dans la résolution de conflits complexes de copropriété.",
+      "sources": [
+        "manilatimes.net — fiabilité 6/10"
+      ],
+      "url": "https://www.manilatimes.net/2026/10/02/tmt-newswire/plentisoft/underwood-law-brings-partition-actions-to-property-owners-across-california/2437741",
+      "published_at": "2026-10-02T06:45:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
