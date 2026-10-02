@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:08:37.140460+02:00",
+  "generated_at": "2026-10-02T10:18:52.142071+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -55634,7 +55634,8 @@
     {
       "regions": [
         "Océanie",
-        "International"
+        "International",
+        "Asie"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -55642,12 +55643,14 @@
       "category": "Énergie",
       "summary": "« Personne n’est autorisé à plafonner les ventes » : le secrétaire au Pétrole Neeraj Mittal à propos des restrictions sur les achats de carburant. Les raffineurs privés Reliance Industries et Nayara Energy ont limité les ventes de carburant dans leurs points de vente au détail afin de limiter les pertes liées à la vente d'essence et de diesel à des prix inférieurs aux prix du marché.",
       "sources": [
-        "Business Today — fiabilité 6/10"
+        "Business Today — fiabilité 6/10",
+        "Business Today via MSN — fiabilité 6/10"
       ],
       "url": "https://www.businesstoday.in/india/story/nobody-is-allowed-to-put-a-cap-on-sales-oil-secretary-neeraj-mittal-on-fuel-purchase-restrictions-559211-2026-10-02",
       "published_at": "2026-10-02T01:37:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -55669,6 +55672,93 @@
       "published_at": "2026-10-02T08:06:02+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Iran : nouvelles sanctions américaines, menace de frappes et pétrole au-dessus de 100 dollars. Washington renforce ses sanctions et son dispositif militaire autour de l’Iran, tandis que le Brent reste au-dessus de 100 dollars et que le choc sur les carburants raffinés s’accentue. Le Brent dépasse 100 dollars et la facture énergétique inquiète la Tunisie.",
+      "sources": [
+        "Tunisie Numerique — fiabilité 6/10"
+      ],
+      "url": "https://www.tunisienumerique.com/iran-sanctions-americaines-menace-frappes-petrole-100-dollars/",
+      "published_at": "2026-10-02T09:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Tunisie",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’essence des Émirats arabes unis au prix le plus élevé depuis le début de la guerre entre les États-Unis et l’Iran. Le prix de l’essence le plus élevé jamais enregistré aux Émirats arabes unis a été fixé en juillet 2022. Les prix de l’essence dans les Émirats arabes unis sont à leur plus haut niveau depuis le début de la guerre entre les États-Unis et l’Iran en février.",
+      "sources": [
+        "Arabian Business — fiabilité 6/10"
+      ],
+      "url": "https://www.arabianbusiness.com/abnews/uae-petrol-at-highest-price-since-us-iran-war-began",
+      "published_at": "2026-10-02T03:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Émirats arabes unis",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Kotak relève ses prévisions de prix du pétrole brut pour l’exercice 27 à 90 $ en raison des risques d’approvisionnement. Kotak Institutional Equities a relevé son hypothèse de prix du pétrole brut pour l’exercice 2027 à 90 $/baril en raison de perturbations de l’approvisionnement. Le rapport suggère que les sociétés indiennes de commercialisation du pétrole (OMC) disposent d'un coussin pour absorber…",
+      "sources": [
+        "Asianet Newsable via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/money/investment/kotak-raises-fy27-crude-oil-price-forecast-to-90-amid-supply-risks/ar-AA2dog3P",
+      "published_at": "2026-10-02T02:31:29+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Nouvelle escalade au Yémen alors que les forces gouvernementales frappent Sanaa. Le gouvernement du Yémen, reconnu internationalement, a déclaré que ses forces avaient mené vendredi matin des frappes contre des cibles dans la capitale contrôlée par les Houthis, Sanaa, dans le cadre de la dernière escalade entre les deux …",
+      "sources": [
+        "P.M. News — fiabilité 6/10"
+      ],
+      "url": "https://pmnewsnigeria.com/2026/10/02/fresh-yemen-escalation-as-government-forces-hit-sanaa/",
+      "published_at": "2026-10-02T02:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Yémen"
+      ]
     },
     {
       "regions": [
