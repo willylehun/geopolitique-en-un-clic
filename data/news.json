@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:54:06.291008+02:00",
+  "generated_at": "2026-10-02T14:04:17.491357+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58290,7 +58290,8 @@
       "url": "https://www.bbc.com/news/videos/cxvgd558vj4vo",
       "published_at": "2026-10-02T06:36:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -58397,6 +58398,193 @@
       "url": "https://www.msn.com/fr-fr/actualite/france/quitter-ou-rejoindre-liran-un-casse-tête-pour-les-voyageurs-après-les-sanctions-américaines/ar-AA2dpDaV",
       "published_at": "2026-10-02T06:21:17+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L’inflation dans la zone euro à un nouveau sommet depuis 3 ans. L’inflation dans la zone euro a grimpé en septembre à un nouveau sommet depuis trois ans, en raison de la flambée des prix de l’énergie provoquée par le conflit au Moyen-Orient, selon des données …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/021026/l-inflation-dans-la-zone-euro-un-nouveau-sommet-depuis-3-ans",
+      "published_at": "2026-10-02T06:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Des milliers de soldats américains se dirigent vers le Moyen-Orient dans un contexte d'incertitude quant à l'orientation de la guerre. le président Donald Trump (États-Unis) a déclaré jeudi aux électeurs que le conflit avec l’Iran prendrait fin rapidement, après avoir suggéré précédemment qu’il pourrait intensifier les grèves après les élections de mi-mandat.",
+      "sources": [
+        "WYFF News 4 — fiabilité 6/10"
+      ],
+      "url": "https://www.wyff4.com/article/thousands-us-troops-heading-mideast-uncertainty-wars-direction/73990897",
+      "published_at": "2026-10-02T06:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La Chine reprend ses restrictions sur les exportations de carburant, resserrant ainsi les marchés mondiaux de l’énergie. La Chine a recommencé à limiter ses exportations de produits raffinés alors que ses propres stocks de pétrole brut et de produits raffinés diminuaient.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/02/business/china-exports-diesel-energy.html",
+      "published_at": "2026-10-02T06:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Énergie",
+      "summary": "Milei discute du projet Argentine LNG avec le PDG d'Eni, selon la société. Le président argentin Javier Milei a discuté vendredi du projet Argentina LNG avec le PDG d'Eni, Claudio Descalzi, a annoncé le groupe énergétique italien.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/energy/milei-discusses-argentina-lng-project-with-eni-ceo-company-says-2026-10-02/",
+      "published_at": "2026-10-02T06:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Luxembourg"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Mineur délinquant au Luxembourg : où placer un enfant lorsque la privation de liberté devient nécessaire ?. Après avoir examiné les principes qui encadrent la justice des mineurs au Luxembourg, ce deuxième volet s’intéresse à leur mise en œuvre concrète lorsqu’une privation de liberté devient nécessaire. En …",
+      "sources": [
+        "Village de la Justice — fiabilité 6/10"
+      ],
+      "url": "https://www.village-justice.com/articles/mineur-delinquant-grand-duche-placer-enfant-lorsque-privation-liberte-devient,59344.html",
+      "published_at": "2026-10-02T06:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Tunisie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Tunisie : les énergies renouvelables atteignent 9% du mix électrique. Le secrétaire d’État chargé de la Transition énergétique, Wael Chouchane a souligné jeudi, l’importance de la transition énergétique, affirmant que le défi principal réside actuellement dans l’accélér …",
+      "sources": [
+        "Webmanagercenter — fiabilité 6/10"
+      ],
+      "url": "https://www.webmanagercenter.com/2026/10/02/573774/tunisie-les-energies-renouvelables-atteignent-9-du-mix-electrique/",
+      "published_at": "2026-10-02T04:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Tunisie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Souilem: la Tunisie doit porter son taux d’investissement à 25 % pour relancer la croissance. L’ancien directeur général de la politique monétaire à la Banque centrale de Tunisie (BCT), Mohamed Salah Souilem, a affirmé que l’économie tunisienne fait face à plusieurs défis internes et externes, …",
+      "sources": [
+        "African Manager via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/finance/économie/souilem-la-tunisie-doit-porter-son-taux-d-investissement-à-25-pour-relancer-la-croissance/ar-AA2dpzP5",
+      "published_at": "2026-10-02T04:31:13+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Asie"
+      ],
+      "countries": [
+        "Zambie",
+        "Émirats arabes unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Zambie : $2,14 milliards d’engagements d’investissement des EAU. La récente visite du président zambien Hakainde Hichilema aux Émirats arabes unis (EAU) a permis de décrocher des engagements d’investissement évalués à 2,14 milliards de dollars, a annoncé le chef de …",
+      "sources": [
+        "APAnews — fiabilité 6/10",
+        "APAnews - Agence de Presse Africaine — fiabilité 6/10"
+      ],
+      "url": "https://fr.apanews.net/business/zambie-214-milliards-de-dollars-dengagements-dinvestissement-des-eau/",
+      "published_at": "2026-10-02T12:09:58+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Zambie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Zambie : un prêtre appelle à la justice dans l’accès à l’eau et à la conversion écologique. Un prêtre catholique zambien a appelé à la justice dans l’accès à l’eau et à un engagement accru en faveur de la conversion écologique, soulignant la nécessité de reconnaître l’eau comme un don porteu …",
+      "sources": [
+        "ACI Afrique — fiabilité 6/10"
+      ],
+      "url": "https://www.aciafrique.org/news/23895/zambie-un-pretre-appelle-a-la-justice-dans-lacces-a-leau-et-a-la-conversion-ecologique",
+      "published_at": "2026-10-02T03:46:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
