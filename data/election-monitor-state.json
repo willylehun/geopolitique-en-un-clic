@@ -1,144 +1,146 @@
 {
-  "cursor": 4,
-  "runs": 47,
+  "cursor": 16,
+  "runs": 48,
   "checked": {
-    "candidate:marine-le-pen": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:eric-zemmour": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:bruno-retailleau": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:gabriel-attal": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:edouard-philippe": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:xavier-bertrand": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:david-lisnard": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:jean-luc-melenchon": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:fabien-roussel": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:marine-tondelier": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:francois-ruffin": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:delphine-batho": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:karim-bouamrane": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:bernard-cazeneuve": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:olivier-faure": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:jerome-guedj": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:segolene-royal": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:raphael-glucksmann": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:emmanuel-maurel": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:anasse-kazib": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:selma-labib": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:florian-philippot": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:jean-lassalle": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:benoit-mathieu": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:juan-branco": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:francis-lalanne": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:lydie-massard": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:nathalie-arthaud": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:nicolas-dupont-aignan": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:francois-asselineau": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:clara-egger": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:olivier-becht": "2026-10-02T08:19:55.449219+02:00",
-    "party:Rassemblement national": "2026-10-02T08:19:55.449219+02:00",
-    "party:Reconquête !": "2026-10-02T08:19:55.449219+02:00",
-    "party:Les Républicains": "2026-10-02T08:19:55.449219+02:00",
-    "party:Renaissance": "2026-10-02T08:19:55.449219+02:00",
-    "party:Horizons": "2026-10-02T08:19:55.449219+02:00",
-    "party:Nouvelle Énergie": "2026-10-02T08:19:55.449219+02:00",
-    "party:La France insoumise": "2026-10-02T08:19:55.449219+02:00",
-    "party:Parti communiste français": "2026-10-02T08:19:55.449219+02:00",
-    "party:Les Écologistes": "2026-10-02T08:19:55.449219+02:00",
-    "party:Debout !": "2026-10-02T08:19:55.449219+02:00",
-    "party:Génération Écologie": "2026-10-02T08:19:55.449219+02:00",
-    "party:Parti socialiste": "2026-10-02T08:19:55.449219+02:00",
-    "party:La Convention": "2026-10-02T08:19:55.449219+02:00",
-    "party:Place publique": "2026-10-02T08:19:55.449219+02:00",
-    "party:Gauche républicaine et socialiste": "2026-10-02T08:19:55.449219+02:00",
-    "party:Révolution permanente": "2026-10-02T08:19:55.449219+02:00",
-    "party:NPA-Révolutionnaires": "2026-10-02T08:19:55.449219+02:00",
-    "party:Les Patriotes": "2026-10-02T08:19:55.449219+02:00",
-    "party:Résistons !": "2026-10-02T08:19:55.449219+02:00",
-    "party:Sans étiquette": "2026-10-02T08:19:55.449219+02:00",
-    "party:Les Ruches": "2026-10-02T08:19:55.449219+02:00",
-    "party:France Libre": "2026-10-02T08:19:55.449219+02:00",
-    "party:Union démocratique bretonne": "2026-10-02T08:19:55.449219+02:00",
-    "party:Lutte ouvrière": "2026-10-02T08:19:55.449219+02:00",
-    "party:Debout la France": "2026-10-02T08:19:55.449219+02:00",
-    "party:Union populaire républicaine": "2026-10-02T08:19:55.449219+02:00",
-    "party:Solution démocratique": "2026-10-02T08:19:55.449219+02:00",
-    "candidate:philippe-brun": "2026-10-02T08:19:55.449219+02:00"
+    "candidate:marine-le-pen": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:eric-zemmour": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:bruno-retailleau": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:gabriel-attal": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:edouard-philippe": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:xavier-bertrand": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:david-lisnard": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:jean-luc-melenchon": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:fabien-roussel": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:marine-tondelier": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:francois-ruffin": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:delphine-batho": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:karim-bouamrane": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:bernard-cazeneuve": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:olivier-faure": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:jerome-guedj": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:segolene-royal": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:raphael-glucksmann": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:emmanuel-maurel": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:anasse-kazib": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:selma-labib": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:florian-philippot": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:jean-lassalle": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:benoit-mathieu": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:juan-branco": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:francis-lalanne": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:lydie-massard": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:nathalie-arthaud": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:nicolas-dupont-aignan": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:francois-asselineau": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:clara-egger": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:olivier-becht": "2026-10-02T14:52:37.825893+02:00",
+    "party:Rassemblement national": "2026-10-02T14:52:37.825893+02:00",
+    "party:Reconquête !": "2026-10-02T14:52:37.825893+02:00",
+    "party:Les Républicains": "2026-10-02T14:52:37.825893+02:00",
+    "party:Renaissance": "2026-10-02T14:52:37.825893+02:00",
+    "party:Horizons": "2026-10-02T14:52:37.825893+02:00",
+    "party:Nouvelle Énergie": "2026-10-02T14:52:37.825893+02:00",
+    "party:La France insoumise": "2026-10-02T14:52:37.825893+02:00",
+    "party:Parti communiste français": "2026-10-02T14:52:37.825893+02:00",
+    "party:Les Écologistes": "2026-10-02T14:52:37.825893+02:00",
+    "party:Debout !": "2026-10-02T14:52:37.825893+02:00",
+    "party:Génération Écologie": "2026-10-02T14:52:37.825893+02:00",
+    "party:Parti socialiste": "2026-10-02T14:52:37.825893+02:00",
+    "party:La Convention": "2026-10-02T14:52:37.825893+02:00",
+    "party:Place publique": "2026-10-02T14:52:37.825893+02:00",
+    "party:Gauche républicaine et socialiste": "2026-10-02T14:52:37.825893+02:00",
+    "party:Révolution permanente": "2026-10-02T14:52:37.825893+02:00",
+    "party:NPA-Révolutionnaires": "2026-10-02T14:52:37.825893+02:00",
+    "party:Les Patriotes": "2026-10-02T14:52:37.825893+02:00",
+    "party:Résistons !": "2026-10-02T14:52:37.825893+02:00",
+    "party:Sans étiquette": "2026-10-02T14:52:37.825893+02:00",
+    "party:Les Ruches": "2026-10-02T14:52:37.825893+02:00",
+    "party:France Libre": "2026-10-02T14:52:37.825893+02:00",
+    "party:Union démocratique bretonne": "2026-10-02T14:52:37.825893+02:00",
+    "party:Lutte ouvrière": "2026-10-02T14:52:37.825893+02:00",
+    "party:Debout la France": "2026-10-02T14:52:37.825893+02:00",
+    "party:Union populaire républicaine": "2026-10-02T14:52:37.825893+02:00",
+    "party:Solution démocratique": "2026-10-02T14:52:37.825893+02:00",
+    "candidate:philippe-brun": "2026-10-02T14:52:37.825893+02:00"
   },
-  "last_run_at": "2026-10-02T08:19:55.449219+02:00",
+  "last_run_at": "2026-10-02T14:52:37.825893+02:00",
   "last_priority_entity_count": 60,
   "last_detailed_batch_count": 12,
-  "background_cursor": 24,
+  "background_cursor": 3,
   "last_background_batch_count": 12,
   "program_source_checks": {
     "marine-le-pen|https://rassemblementnational.fr/lettre-ouverte": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://rassemblementnational.fr/lettre-ouverte",
       "label": "Source officielle",
       "status": "ok",
-      "digest": "25fb84644bbf4fbab2aa7a9ecbb6b0564cb4bcee1ffe742829ecbd14edf316dc",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
-      "document_links": [],
-      "changed_at": "2026-10-02T08:19:55.449219+02:00"
+      "digest": "62e75826deb00ff8292ae17344f3d7615b420bec66508e1708ce4035fe0a319a",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
+      "document_links": [
+        "https://rassemblementnational.fr/programme-patriotes-pour-leurope"
+      ],
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "marine-le-pen|https://www.lemonde.fr/en/politics/article/2026/09/07/2027-french-presidential-election-marine-le-pen-focuses-on-ac-and-sovereignty-to-tackle-climate-change_6757228_5.html": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.lemonde.fr/en/politics/article/2026/09/07/2027-french-presidential-election-marine-le-pen-focuses-on-ac-and-sovereignty-to-tackle-climate-change_6757228_5.html",
       "label": "Entretien ou déclaration rapportée",
       "status": "ok",
       "digest": "9f048dac0f4b9a7f215003e29919161d603234a8c9d32ee8cd48c31bacfacfca",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "eric-zemmour|https://www.parti-reconquete.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.parti-reconquete.fr/",
       "label": "Source officielle",
       "status": "ok",
-      "digest": "e79d93edba58a218ccd3b1c1b797cd3e427d892b04d26e5113d275c589281be5",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "18e3bfbc303799368699fe1e5046c8942c2d0a77ea6f11b0a46034c5412e164b",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://leprogrammepourlafrance.fr/"
       ],
-      "changed_at": "2026-10-02T02:50:36.739180+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "eric-zemmour|https://leprogrammepourlafrance.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://leprogrammepourlafrance.fr/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "ec8d178e504a6de634e3849c58ea90b53229002f07d18e5fff68fdacd4164516",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "bruno-retailleau|https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/",
       "label": "Source officielle",
       "status": "ok",
-      "digest": "e0bbe886ef05505e94d6910dfe520a9a0815e2bf76e2adfb2220420cf71be34b",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "7a7cb730258a1610569ff473928212eb06f69bd06609d59ee2782de20c70152d",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [],
-      "changed_at": "2026-10-02T08:19:55.449219+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "bruno-retailleau|https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
       "label": "Entretien ou déclaration rapportée",
       "status": "ok",
-      "digest": "f7c501f18caddd0e8ccc40614b786d95f6b35ab103db3dc612e3c4a1d0fe106b",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "e304b12d82666993da7157bb884b635ca4e87691120da2ec39a69f6c5d568a2a",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://melenchon2027.fr/programme2025/livre/chapitre5/s3/",
         "https://www.lemonde.fr/societe/article/2026/08/25/gabriel-attal-je-souhaite-une-loi-de-programmation-pour-l-ecole-et-un-ministre-de-l-education-qui-restera-en-poste-cinq-ans_6756157_3224.html"
       ],
-      "changed_at": "2026-10-02T08:19:55.449219+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "gabriel-attal|https://attalpresident.fr/programme/education": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://attalpresident.fr/programme/education",
       "label": "Source officielle",
       "status": "ok",
       "digest": "958c1821059b052be54ebb609dee935ed261989d3fd2f7fe61f1b29c45ae60c4",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://attalpresident.fr/programme"
       ]
@@ -155,43 +157,43 @@
       ]
     },
     "edouard-philippe|https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
       "label": "Source officielle",
       "status": "ok",
       "digest": "d2b37ee31986f9ec86ef0ae67fa641945d162817bd89fc83bf8d77edd8180736",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "edouard-philippe|https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
       "label": "Entretien ou déclaration rapportée",
       "status": "ok",
-      "digest": "f7c501f18caddd0e8ccc40614b786d95f6b35ab103db3dc612e3c4a1d0fe106b",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "e304b12d82666993da7157bb884b635ca4e87691120da2ec39a69f6c5d568a2a",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://melenchon2027.fr/programme2025/livre/chapitre5/s3/",
         "https://www.lemonde.fr/societe/article/2026/08/25/gabriel-attal-je-souhaite-une-loi-de-programmation-pour-l-ecole-et-un-ministre-de-l-education-qui-restera-en-poste-cinq-ans_6756157_3224.html"
       ],
-      "changed_at": "2026-10-02T08:19:55.449219+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "xavier-bertrand|https://www.nousfrance.fr/vision/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.nousfrance.fr/vision/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "54da47428fd84ada9cd53477caf6b7085b49e32b54177efa19d442a8ff1fdd5f",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "xavier-bertrand|https://www.nousfrance.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.nousfrance.fr/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "02b1e413735c893cd26e02588c6ec833d096aecbbd22e4e38d54b035bc97df42",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://www.nousfrance.fr/programme/autorite/",
         "https://www.nousfrance.fr/programme/environnement/",
@@ -237,12 +239,12 @@
       "document_links": []
     },
     "jean-luc-melenchon|https://melenchon2027.fr/programme/decouvrir/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://melenchon2027.fr/programme/decouvrir/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "1d55173a0fd4be650e8a12515519e94aa590ce21517735b1be1c546b0f8b8f5e",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://melenchon2027.fr/auditions-programmatiques/",
         "https://melenchon2027.fr/comment-a-ete-concu-le-programme/",
@@ -250,31 +252,31 @@
       ]
     },
     "jean-luc-melenchon|https://melenchon2027.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://melenchon2027.fr/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "e795a5f005696b515caf2f5a125b1ea880082e68255eed9c771895c20a1773e5",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://melenchon2027.fr/programme/decouvrir/",
         "https://melenchon2027.fr/programme2025/livre/"
       ]
     },
     "fabien-roussel|https://www.fabienroussel2027.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.fabienroussel2027.fr/",
       "label": "Source officielle",
       "status": "error",
       "error": "HTTP Error 403: Forbidden"
     },
     "marine-tondelier|https://marinetondelier.fr/livrets-thematiques": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://marinetondelier.fr/livrets-thematiques",
       "label": "Source officielle",
       "status": "ok",
       "digest": "3a5917515cdb0b24076680e89f8964416b890a8163368a4db0c37e9cc1cee958",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
         "https://marinetondelier.fr/s/Livret-littoraux.pdf",
@@ -302,61 +304,61 @@
       ]
     },
     "francois-ruffin|https://debout.fr/notre-manifeste/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://debout.fr/notre-manifeste/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "44b94aa9d22a3b7d15b447acb66fdaacaa7911b5423f51f5c9dd3df4649ef1b9",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "francois-ruffin|https://nouspresident.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://nouspresident.fr/",
       "label": "Source officielle",
       "status": "ok",
-      "digest": "b1087debef4620a72c3393648891e08f79658d5ee62f434325fcfc6d6a5c5ab3",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "09d98e7bba1274b1fd4f7e5ef54ff164ea5413f165c97973a42c06b2892ab72f",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [],
-      "changed_at": "2026-10-02T08:19:55.449219+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "delphine-batho|https://www.delphinebatho.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.delphinebatho.fr/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "d6fd70f7a2ed4f6ff3fe4f4472a4aee90d085afffb3a22aa2fe80a7c27ca5141",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "delphine-batho|https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "b9b5404816e681ef838289044aa8c1409ca1afdc3ff61472eaf87339fa84d788",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "karim-bouamrane|https://www.karimbouamrane2027.org/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.karimbouamrane2027.org/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "f5ebf6338733475488dd2fc21831a7b0938e4137bcf1e8ba4d51db1addc9c07e",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://www.karimbouamrane2027.org/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf"
       ],
       "changed_at": "2026-10-01T23:12:26.236618+02:00"
     },
     "bernard-cazeneuve|https://bc2027.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://bc2027.fr/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "d5966fb0ae8c58eadc778eed28bc1e5e9005523ae676a184acc19b906ece5ee8",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "bernard-cazeneuve|https://www.la-convention.fr/": {
@@ -367,84 +369,85 @@
       "error": "HTTP Error 403: Forbidden"
     },
     "olivier-faure|https://avecfaure2027.fr/mes-propositions": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://avecfaure2027.fr/mes-propositions",
       "label": "Source officielle",
       "status": "ok",
       "digest": "bb6f62517b5c1fa9253c8eb5288e0da395d60cf58d7e970ad6d9005a467c59b5",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://projet-socialiste.fr/projet/"
       ],
       "changed_at": "2026-10-01T23:12:26.236618+02:00"
     },
     "olivier-faure|https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
       "label": "Entretien ou déclaration rapportée",
       "status": "ok",
-      "digest": "f7c501f18caddd0e8ccc40614b786d95f6b35ab103db3dc612e3c4a1d0fe106b",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "e304b12d82666993da7157bb884b635ca4e87691120da2ec39a69f6c5d568a2a",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://melenchon2027.fr/programme2025/livre/chapitre5/s3/",
         "https://www.lemonde.fr/societe/article/2026/08/25/gabriel-attal-je-souhaite-une-loi-de-programmation-pour-l-ecole-et-un-ministre-de-l-education-qui-restera-en-poste-cinq-ans_6756157_3224.html"
       ],
-      "changed_at": "2026-10-02T08:19:55.449219+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "jerome-guedj|https://www.jeromeguedj2027.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.jeromeguedj2027.fr/",
       "label": "Source officielle",
       "status": "ok",
-      "digest": "017ed6bf4c9d6c8ffaf3b7a90c586d976d7314a425ecefd8dbfcfa4041f0c2be",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "890f081d9568852a6763d3bd14b6e8217981156e335a46a7f0c99b0de4bde53b",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://www.ifop.com/wp-content/uploads/2026/05/122507-le-barometre-de-lambition-presidentielle-%E2%80%93-vague-4-ensemble.pdf"
-      ]
+      ],
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "segolene-royal|https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste",
       "label": "Entretien ou déclaration rapportée",
       "status": "ok",
-      "digest": "d352b9e142baded96f3be65a0f1a3856454447e2de3fe3b748fa91b4ef33ec29",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "3c1bdd622ca47244bbf4974242ecb3157ee1957256fac0f5f76880b12027b79c",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://lcp.fr/programmes/conversation-francaise/conversation-francaise-edouard-philippe-et-olivier-norek-441482"
       ],
-      "changed_at": "2026-10-02T08:19:55.449219+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "raphael-glucksmann|https://place-publique.eu/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://place-publique.eu/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "25aa2fdd19c1812ce83dc5c709dc3d608a6989daf5a07eadeb1fa8bd86ed3d87",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://place-publique.eu/pages/69jA2SKIG5udlNX7wI3dmc/le-projet"
       ]
     },
     "raphael-glucksmann|https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme",
       "label": "Entretien ou déclaration rapportée",
       "status": "ok",
-      "digest": "4586b8a1eefb2b13a77ed9106e8ff7f14601d3700e99a22eb2c0ea4a3f62f1a3",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "af15273ee6ffd980eb2d2036123e3e7942e397a4b475d43c4e550b5a043c1df5",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://lcp.fr/programmes/conversation-francaise/conversation-francaise-edouard-philippe-et-olivier-norek-441482",
         "https://www.addtoany.com/share#url=https%3A%2F%2Flcp.fr%2Factualites%2Fpresidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme&title=Pr%C3%A9sidentielle%3A%20Rapha%C3%ABl%20Glucksmann%20d%C3%A9voile%20les%20premi%C3%A8res%20lignes%20de%20son%20possible%20programme"
       ],
-      "changed_at": "2026-10-02T08:19:55.449219+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "emmanuel-maurel|https://g-r-s.fr/la-gauche-doit-rehabiliter-la-lenteur-lattention-aux-etres-et-la-beaute-emmanuel-maurel-candidat-a-la-primaire-de-la-gauche-socialiste-dans-le-nouvel-obs/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://g-r-s.fr/la-gauche-doit-rehabiliter-la-lenteur-lattention-aux-etres-et-la-beaute-emmanuel-maurel-candidat-a-la-primaire-de-la-gauche-socialiste-dans-le-nouvel-obs/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "edb17c97b146585981700d414295717599cd7a19dfcb1035fa823e94d20c2c7d",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://g-r-s.fr/wp-content/uploads/2023/09/Adopted-Documents-EL-Congress-2022_FR.pdf",
         "https://g-r-s.fr/wp-content/uploads/2023/09/Manifesto-European-Left_FR.pdf",
@@ -453,193 +456,191 @@
       "changed_at": "2026-10-01T23:12:26.236618+02:00"
     },
     "emmanuel-maurel|https://g-r-s.fr/category/en-ce-moment/actualites/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://g-r-s.fr/category/en-ce-moment/actualites/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "aff951f95803cdd0b64508136cd8ed686e1f2d00437fc8f04ff456aab84e3672",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://www.nouvelobs.com/societe/20260102.OBS111137/le-botaniste-francis-halle-est-mort-en-2020-il-nous-avait-raconte-avec-passion-son-projet-de-recreer-une-foret-primaire-en-europe.html"
       ],
       "changed_at": "2026-10-02T02:50:36.739180+02:00"
     },
     "anasse-kazib|https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature",
       "label": "Source officielle",
       "status": "ok",
-      "digest": "ccccf697e90a0731bc216e0c24f0c401a070193463520932dd5ee035de8c7759",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "01ac24226acf7dbda5ae6d4a715deb00da3f878ea30ffc82cf3d717f91f95b8f",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [],
-      "changed_at": "2026-10-02T02:50:36.739180+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "anasse-kazib|https://www.revolutionpermanente.fr/Anasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle",
       "label": "Source officielle",
       "status": "ok",
-      "digest": "dbb7083f62b0c1903b2de4e8c66a3171f6f7d76d4e4b72d7976f1954757a8127",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "1849b6f7689bd5d109fd691feb5c3c8afccf2b0ba60221be7fd5a7f093c3ab80",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://api.whatsapp.com/send?text=*Annonce. Anasse+Kazib+2027+%3A+une+candidature+ouvri%C3%A8re%2C+communiste+et+r%C3%A9volutionnaire+%C3%A0+la+pr%C3%A9sidentielle*%0AAlors+que+le+monde+du+travail+a+%C3%A9t%C3%A9+la+premi%C3%A8re+opposition+%C3%A0+Macron+depuis+2017%2C+il+est+invisible+dans+les+d%C3%A9bats+politiques+et+dans+l%E2%80%99%C3%A9lection+pr%C3%A9sidentielle+%C3%A0+venir.+Pourtant%2C+la+classe+ouvri%C3%A8re+n%E2%80%99a+pas+disparu%2C+au+contraire%2C+elle+est+majoritaire.+Avec+R%C3%A9volution+Permanente%2C+Anasse+Kazib+est+candidat+%C3%A0+la+pr%C3%A9sidentielle+pour+faire+entendre+la+voix+de+la+nouvelle+classe+ouvri%C3%A8re%2C+d%C3%A9fendre+ses+int%C3%A9r%C3%AAts+face+aux+grandes+fortunes+capitalistes%2C+et+porter+un+programme+anticapitaliste+pour+affronter+l%E2%80%99%C3%A8re+de+crise+et+de+guerres+qui+s%E2%80%99est+ouverte.%0Ahttps%3A%2F%2Fwww.revolutionpermanente.fr%2FAnasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle%3Futm_source%3Dlid%26utm_medium%3Dwp%26utm_campaign%3Darticle-social-actions",
         "https://t.me/share/url?url=**Annonce.**+**Anasse+Kazib+2027+%3A+une+candidature+ouvri%C3%A8re%2C+communiste+et+r%C3%A9volutionnaire+%C3%A0+la+pr%C3%A9sidentielle**%0AAlors+que+le+monde+du+travail+a+%C3%A9t%C3%A9+la+premi%C3%A8re+opposition+%C3%A0+Macron+depuis+2017%2C+il+est+invisible+dans+les+d%C3%A9bats+politiques+et+dans+l%E2%80%99%C3%A9lection+pr%C3%A9sidentielle+%C3%A0+venir.+Pourtant%2C+la+classe+ouvri%C3%A8re+n%E2%80%99a+pas+disparu%2C+au+contraire%2C+elle+est+majoritaire.+Avec+R%C3%A9volution+Permanente%2C+Anasse+Kazib+est+candidat+%C3%A0+la+pr%C3%A9sidentielle+pour+faire+entendre+la+voix+de+la+nouvelle+classe+ouvri%C3%A8re%2C+d%C3%A9fendre+ses+int%C3%A9r%C3%AAts+face+aux+grandes+fortunes+capitalistes%2C+et+porter+un+programme+anticapitaliste+pour+affronter+l%E2%80%99%C3%A8re+de+crise+et+de+guerres+qui+s%E2%80%99est+ouverte.%0Ahttps%3A%2F%2Fwww.revolutionpermanente.fr%2FAnasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle%3Futm_source%3Dlid%26utm_medium%3Dtg%26utm_campaign%3Darticle-social-actions",
         "https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://www.revolutionpermanente.fr/Anasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle&p[title]=Anasse+Kazib+2027+%3A+une+candidature+ouvri%C3%A8re%2C+communiste+et+r%C3%A9volutionnaire+%C3%A0+la+pr%C3%A9sidentielle&p[summary]=Annonce - Alors+que+le+monde+du+travail+a+%C3%A9t%C3%A9+la+premi%C3%A8re+opposition+%C3%A0+Macron+depuis+2017%2C+il+est+invisible+dans+les+d%C3%A9bats+politiques+et+dans+l%E2%80%99%C3%A9lection+pr%C3%A9sidentielle+%C3%A0+venir.+Pourtant%2C+la+classe+ouvri%C3%A8re+n%E2%80%99a+pas+disparu%2C+au+contraire%2C+elle+est+majoritaire.+Avec+R%C3%A9volution+Permanente%2C+Anasse+Kazib+est+candidat+%C3%A0+la+pr%C3%A9sidentielle+pour+faire+entendre+la+voix+de+la+nouvelle+classe+ouvri%C3%A8re%2C+d%C3%A9fendre+ses+int%C3%A9r%C3%AAts+face+aux+grandes+fortunes+capitalistes%2C+et+porter+un+programme+anticapitaliste+pour+affronter+l%E2%80%99%C3%A8re+de+crise+et+de+guerres+qui+s%E2%80%99est+ouverte.&p[images][0]=https://www.revolutionpermanente.fr/IMG/logo/signal-2026-06-01-183349_002.jpg?1780331733"
       ],
-      "changed_at": "2026-10-02T08:19:55.449219+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "selma-labib|https://npa-revolutionnaires.org/presidentielles2027/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://npa-revolutionnaires.org/presidentielles2027/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "853120bcfb7f0d5199244c6c505bbdb07bc941337edf7ffa4f7ec566f1a31b45",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [],
       "changed_at": "2026-10-01T04:28:55.626774+02:00"
     },
     "selma-labib|https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante",
       "label": "Source officielle",
       "status": "ok",
       "digest": "e9f0aecb98ed017296315f1f926e07633b1586fc118f399e3ef3191628c9cde6",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://npa-revolutionnaires.org/wp-content/uploads/2026/06/260616_Communique-candidature-pour-site.pdf"
       ],
       "changed_at": "2026-10-01T04:28:55.626774+02:00"
     },
     "florian-philippot|https://les-patriotes.fr/projetpourlafrance/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://les-patriotes.fr/projetpourlafrance/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "83eb639ac47db8bf2e5334435b73d5e4f1b3b6aa3121a34e1fe19e62556095c3",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf"
       ],
       "changed_at": "2026-09-30T10:44:18.573219+02:00"
     },
     "florian-philippot|https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
       "label": "Source officielle",
       "status": "ok",
       "digest": "bf8fa1aa8420d6ec84793f83b9908a9f1f78aca4864235e817b35886802c5b79",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "jean-lassalle|https://resistons-france.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://resistons-france.fr/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "fa24e3272c1c896f7636e9cc61c3f5d00b240a70fc4ca1765b2f0d5cc6a87e06",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://resistons-france.fr/wp-content/uploads/2022/03/Programme-A4-V5-25_02_22.pdf"
       ]
     },
     "benoit-mathieu|https://benoitmathieu2027.fr/programme": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://benoitmathieu2027.fr/programme",
       "label": "Source officielle",
       "status": "ok",
       "digest": "e1275490495452bb1f2c179b09aed7f96729811e8ec36bf9df8b2abd60f59466",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "juan-branco|https://ruches.org/le-projet": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://ruches.org/le-projet",
       "label": "Source officielle",
       "status": "ok",
       "digest": "14f4ee3aa63bb18dc6773e9d3e23c1d1093a8aed09e7d87cba874d2c463fef60",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://ruches.org/projet-1784217879253.pdf"
       ]
     },
     "francis-lalanne|https://dieudolalanne2027.com/programme/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://dieudolalanne2027.com/programme/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "82b92a29d0224ec31e27238f6ed633f20111d1679c29cecad66a84b2dc8c7e21",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "lydie-massard|https://www.udb.bzh/non-classifiee/communiques/lydie-massard-candidate-aux-primaires-de-la-gauche/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.udb.bzh/non-classifiee/communiques/lydie-massard-candidate-aux-primaires-de-la-gauche/",
       "label": "Source officielle",
-      "status": "error",
+      "status": "ok",
       "digest": "ea349103e97854a13af1660c59008e1342d7bf6b20e1fe001d239c7047aca86e",
-      "successful_at": "2026-10-02T02:50:36.739180+02:00",
-      "document_links": [],
-      "error": "Page vide ou protection empêchant la lecture"
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
+      "document_links": []
     },
     "lydie-massard|https://www.udb.bzh/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.udb.bzh/",
       "label": "Source officielle",
-      "status": "error",
+      "status": "ok",
       "digest": "18958865abc4bcc9f0a20ada7d84c1833c43d7733a38eca56d7cfd741abe04ba",
-      "successful_at": "2026-10-02T02:50:36.739180+02:00",
-      "document_links": [],
-      "error": "Page vide ou protection empêchant la lecture"
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
+      "document_links": []
     },
     "nathalie-arthaud|https://www.nathalie-arthaud.info/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.nathalie-arthaud.info/",
       "label": "Source officielle",
       "status": "ok",
-      "digest": "a656f9ec9cd8735634fcab361189c6596ce1efae83eb9d8ade49eace9789eca0",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "2040d68b2ce8d2f8a1b4c2d3f92a57c06249ae47c36968457c8324f70188f1f6",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://www.nathalie-arthaud.info/medias/document/fichiers/2026/06/brochure-ete-2026.pdf"
       ],
-      "changed_at": "2026-09-30T22:11:56.455131+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "nathalie-arthaud|https://portail.lutte-ouvriere.org/portail/brochures/meeting-14-fevrier-2026-discours-nathalie-arthaud-191591.html": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://portail.lutte-ouvriere.org/portail/brochures/meeting-14-fevrier-2026-discours-nathalie-arthaud-191591.html",
       "label": "Source officielle",
       "status": "ok",
       "digest": "1d1ac095a765db1981787beb548086a8c7ba4d0ef1017f17ec670f3f87511055",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "nicolas-dupont-aignan|https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "af4151218816b688f3d988a404e4b01ea9c170875bd2e7a995a530dbb170e40c",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "nicolas-dupont-aignan|https://www.dupontaignan.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.dupontaignan.fr/",
       "label": "Source officielle",
       "status": "ok",
-      "digest": "9ebc277a245972d9e760033073381f677c0f296b9ae084b3c0f141e249c0fcfa",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "digest": "4ace0f69940629334ac613e49f61929453f36a133bb4b2ae528da89deee21ba4",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://www.debout-la-france.fr/notre-projet/"
       ],
-      "changed_at": "2026-10-02T08:19:55.449219+02:00"
+      "changed_at": "2026-10-02T14:52:37.825893+02:00"
     },
     "francois-asselineau|https://upr.fr/notre-programme": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://upr.fr/notre-programme",
       "label": "Source officielle",
       "status": "ok",
       "digest": "f1796c9bf007f65a7dee6ff6dcf06fcef092db9f452dbffd7883c5a318120d39",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://upr.fr/notre-programme/programme-2012",
         "https://upr.fr/notre-programme/programme-2017",
@@ -647,12 +648,12 @@
       ]
     },
     "clara-egger|https://solutiondemocratique.fr/notre-solution/calendrier-president/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://solutiondemocratique.fr/notre-solution/calendrier-president/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "1977c76133bd69fa4f01f48f292aaa49a558c384a9d9a71bb756dbc8cdf733e5",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
         "https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fsolutiondemocratique.fr%2Fnotre-solution%2Fcalendrier-president%2F&linkname=Pr%C3%A9sidentielle%202027%20%3A%20d%C3%A9couvrez%20le%20programme%20de%20notre%20candidat",
@@ -664,88 +665,88 @@
       ]
     },
     "olivier-becht|https://becht2027.fr/wp-content/uploads/2026/09/dossier_presse_4p-A4.pdf": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://becht2027.fr/wp-content/uploads/2026/09/dossier_presse_4p-A4.pdf",
       "label": "Source officielle",
       "status": "ok",
       "digest": "7cdefb73b31d53fd1c6afd412c8e7c5c1bbd64440ddb17719036c1685707aa7e",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "olivier-becht|https://becht2027.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://becht2027.fr/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "8c751523a5c5730a3e9e2b062c785c0ca9951482214814a4ce0c971ee602c9eb",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "philippe-brun|https://philippebrun.fr/Programme-P.Brun-Produire.pdf": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://philippebrun.fr/Programme-P.Brun-Produire.pdf",
       "label": "Source officielle",
       "status": "ok",
       "digest": "6ddf7a589554a0aa4e403480485e8ba584647f28709c735823fd190c15656f5d",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "philippe-brun|https://philippebrun.fr/": {
-      "attempted_at": "2026-10-02T08:19:55.449219+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://philippebrun.fr/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "65545b102fc50d5b0be2f936ac2b0e095ffeba3d33c8b5b43197965c4d009429",
-      "successful_at": "2026-10-02T08:19:55.449219+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "gabriel-attal|https://attalpresident.fr/programme/dette-de-letat": {
-      "attempted_at": "2026-10-02T02:50:36.739180+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat",
       "label": "Source officielle",
       "status": "ok",
       "digest": "ffde49627a29f6ed521b9fa9eb22efda18debdadae3d0113e5a4dcdb9aa57dce",
-      "successful_at": "2026-10-02T02:50:36.739180+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://attalpresident.fr/programme"
       ]
     },
     "david-lisnard|https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/": {
-      "attempted_at": "2026-10-02T02:50:36.739180+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "5feb57872bd24532f49bae7433e9031cf0997cd2192e807fa9170134af9069a7",
-      "successful_at": "2026-10-02T02:50:36.739180+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "david-lisnard|https://www.unenouvelleenergie.fr/notre-programme/sante/": {
-      "attempted_at": "2026-10-02T02:50:36.739180+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
       "label": "Source officielle",
       "status": "ok",
       "digest": "1d4bb8338e9933fe86531cf9e18bb59a8afa5dab82ef982e70ea589e935606a8",
-      "successful_at": "2026-10-02T02:50:36.739180+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": [
         "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/05/Livret-Sante-Nouvelle-Energie.pdf"
       ]
     },
     "marine-tondelier|https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf": {
-      "attempted_at": "2026-10-02T02:50:36.739180+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf",
       "label": "Source officielle",
       "status": "ok",
       "digest": "2fafd160291ff6677207c57ce1504ae6e62608cd19d8310e01a522b95beb50fc",
-      "successful_at": "2026-10-02T02:50:36.739180+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     },
     "bernard-cazeneuve|https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf?1784135398=": {
-      "attempted_at": "2026-10-02T02:50:36.739180+02:00",
+      "attempted_at": "2026-10-02T14:52:37.825893+02:00",
       "url": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf?1784135398=",
       "label": "Source officielle",
       "status": "ok",
       "digest": "86f66a80a7b91f5fa5419344c17543ab08092234797c5ccc2b1d8a8317eda5ce",
-      "successful_at": "2026-10-02T02:50:36.739180+02:00",
+      "successful_at": "2026-10-02T14:52:37.825893+02:00",
       "document_links": []
     }
   },
@@ -753,17 +754,17 @@
     "marine-le-pen": 0,
     "eric-zemmour": 0,
     "bruno-retailleau": 0,
-    "gabriel-attal": 2,
+    "gabriel-attal": 1,
     "edouard-philippe": 0,
     "xavier-bertrand": 0,
-    "david-lisnard": 2,
+    "david-lisnard": 0,
     "jean-luc-melenchon": 0,
     "fabien-roussel": 0,
-    "marine-tondelier": 2,
+    "marine-tondelier": 1,
     "francois-ruffin": 0,
     "delphine-batho": 0,
     "karim-bouamrane": 0,
-    "bernard-cazeneuve": 2,
+    "bernard-cazeneuve": 1,
     "olivier-faure": 0,
     "jerome-guedj": 0,
     "segolene-royal": 0,
@@ -786,5 +787,5 @@
   },
   "last_program_candidate_count": 33,
   "last_program_source_attempt_count": 56,
-  "last_program_source_success_count": 52
+  "last_program_source_success_count": 55
 }
