@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:15:43.956791+02:00",
+  "generated_at": "2026-10-02T16:25:59.120788+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -56050,7 +56050,7 @@
       "bucket": "2 octobre 2026",
       "score": 5,
       "category": "Géopolitique",
-      "summary": "L'ancien chancelier allemand Schroeder rejoint le conseil de surveillance du détaillant russe, rapporte RBC. L'ancien chancelier allemand Gerhard Schroeder a rejoint le conseil de surveillance de la société qui dirige la chaîne de supermarchés russe qui appartenait autrefois au détaillant allemand Globus, selon le média russe …",
+      "summary": "L'Allemand Schroeder, longtemps critiqué pour ses liens avec Poutine, rejoint le conseil d'administration d'un détaillant russe. L'ancien chancelier allemand Gerhard Schroeder, critiqué pour ses liens avec les entreprises russes et le président Vladimir Poutine (Russie), a rejoint le conseil de surveillance du détaillant russe Hyperglobus, …",
       "sources": [
         "Reuters — fiabilité 9/10"
       ],
@@ -56059,7 +56059,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Allemagne"
+        "Allemagne",
+        "Russie"
       ]
     },
     {
@@ -58826,7 +58827,8 @@
       "url": "https://www.bbc.com/news/articles/cmp3gdd1ze47o",
       "published_at": "2026-10-02T07:16:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -59524,9 +59526,10 @@
       "bucket": "2 octobre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "L'Argentine lancera le premier programme de citoyenneté par investissement d'Amérique du Sud, a annoncé vendredi le ministre de l'Économie Luis Caputo.",
+      "summary": "L'Argentine lancera le premier programme de citoyenneté par investissement d'Amérique du Sud, a annoncé le ministre de l'Économie Luis Caputo vendredi. Les candidatures ouvriront au quatrième trimestre 2026 et…",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "U.S. News & World Report — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/world/americas/argentina-announces-citizenship-by-investment-program-2026-10-02/",
       "published_at": "2026-10-02T07:55:00+02:00",
@@ -60133,7 +60136,8 @@
       "category": "Géopolitique",
       "summary": "Trump dévoile un plan de récupération du pétrole de 8,4 milliards de dollars avec la Corée du Sud. le président Donald Trump (États-Unis) a annoncé que l'accord commercial entre les États-Unis et la Corée du Sud prévoyait désormais 8,4 milliards de dollars pour un projet de récupération assistée du pétrole visant à renforcer la domination énergétique américaine et …",
       "sources": [
-        "The News International — fiabilité 6/10"
+        "The News International — fiabilité 6/10",
+        "The Korea Herald — fiabilité 7/10"
       ],
       "url": "https://www.thenews.com.pk/latest/1418515-trump-unveils-84-billion-oil-recovery-plan-with-south-korea",
       "published_at": "2026-10-02T08:43:00+02:00",
@@ -60172,12 +60176,13 @@
       "bucket": "2 octobre 2026",
       "score": 5,
       "category": "Géopolitique",
-      "summary": "La décision discrète de l’administration Trump rend plus difficile le vote de certains citoyens américains à l’étranger, selon le procès. Le Comité national démocrate a déposé jeudi une plainte alléguant que l'administration du président Donald Trump (États-Unis) avait secrètement modifié une carte postale utilisée par des citoyens américains à l'étranger d'une manière qui la rendait…",
+      "summary": "La décision discrète de l’administration Trump rend plus difficile le vote de certains citoyens américains à l’étranger, selon le procès. Par NICHOLAS RICCARDI Le Comité national démocrate a déposé jeudi une plainte alléguant que l'administration du président Donald Trump (États-Unis) avait secrètement modifié une carte postale utilisée par des citoyens américains à l'étranger dans un…",
       "sources": [
-        "The Times-Tribune — fiabilité 6/10"
+        "The Times-Tribune — fiabilité 6/10",
+        "The Denver Post — fiabilité 6/10"
       ],
       "url": "https://www.thetimes-tribune.com/2026/10/02/trump-administration-us-citizens-abroad-voting/",
-      "published_at": "2026-10-02T08:08:00+02:00",
+      "published_at": "2026-10-02T08:21:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -60200,7 +60205,8 @@
       "url": "https://www.upstreamonline.com/exploration/petrobras-strikes-oil-again-at-morpho-well-in-brazil-s-foz-do-amazonas-basin/2-1-2053287",
       "published_at": "2026-10-02T08:10:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -60256,6 +60262,167 @@
       ],
       "url": "https://www.agenceecofin.com/actualites-numerique/0210-142087-haut-debit-l-angola-renforce-son-infrastructure-nationale-pour-etendre-la-couverture",
       "published_at": "2026-10-02T09:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Rhun ap Iorwerth de Plaid prononce le premier discours à la conférence du parti depuis sa victoire aux élections du Senedd. Le premier ministre du Pays de Galles prendra la parole vendredi après-midi lors de la conférence d'automne de Plaid Cymru au Venue Cymru à Llandudno. Les réformistes, les travaillistes et les conservateurs ont tous critiqué l'accord de Rhun ap Iorwerth avec …",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/live/cw1l6le4l57qt",
+      "published_at": "2026-10-02T08:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis signalent une escalade potentielle de la guerre en Iran. Les États-Unis ont envoyé un autre porte-avions et des milliers de soldats supplémentaires au Moyen-Orient, tandis que Téhéran préparerait sa propre réponse à toute attaque américaine.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/us/articles/us-signals-potential-escalation-iran-105329262.html",
+      "published_at": "2026-10-02T05:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le pilote indien qui a arrêté le détournement de l'avion FlyDubai raconte ce qui s'est passé dans le cockpit. Le capitaine Smit Machchhar a déclaré vendredi au Premier ministre indien le Premier ministre Narendra Modi (Inde) qu'il avait été poignardé à plusieurs reprises, mais qu'il avait rampé jusqu'à la porte du cockpit pour ouvrir le loquet, permettant aux Israéliens à bord du vol de…",
+      "sources": [
+        "Just The News — fiabilité 6/10"
+      ],
+      "url": "https://justthenews.com/government/security/indian-pilot-who-stopped-hijacking-flydubai-aircraft-gives-account-what",
+      "published_at": "2026-10-02T04:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Fed envisage de sauter la hausse des taux en octobre alors que le marché du travail se refroidit. Les décideurs de la Réserve fédérale ont plus de raisons d'attendre avant de relever à nouveau les taux d'intérêt, car les données gouvernementales ont montré que le marché du travail se refroidit plus que prévu.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/fed-seen-skipping-october-rate-hike-job-market-cools-2026-10-02/",
+      "published_at": "2026-10-02T07:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La Chine explique son veto au panel des sanctions contre l'Iran à l'Assemblée générale de l'ONU. La Chine a déclaré jeudi que son veto à un projet de résolution du Conseil de sécurité de l'ONU sur les sanctions contre l'Iran visait à préserver les efforts diplomatiques et à résoudre les différends sur la question nucléaire iranienne par …",
+      "sources": [
+        "China Daily — fiabilité 6/10"
+      ],
+      "url": "https://www.chinadaily.com.cn/a/202610/02/WS6abf1716e4b06d4aa056133b.html",
+      "published_at": "2026-10-02T05:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Suriname"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "En tant que nouveau président de la CARICOM, le Suriname doit tenir ses promesses. Le Suriname présidera la CARICOM de janvier à juin 2027. La présidente Jennifer Simons promet une cohésion interne, une voix indépendante et une diplomatie affirmée. En février…",
+      "sources": [
+        "Dagblad Suriname — fiabilité 6/10"
+      ],
+      "url": "https://www.dbsuriname.com/2026/10/02/als-aankomend-caricom-voorzitter-moet-suriname-leveren/",
+      "published_at": "2026-10-02T08:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Exxon et Chevron abordent leurs résultats avec le Venezuela, le GNL et la hausse des prix du pétrole au centre de l’attention. Alors que ExxonMobil Holdings Corp. (NYSE: XOM) et Chevron Corp. (NYSE: CVX) s’apprêtent à dévoiler leurs résultats du troisième trimestre, les …",
+      "sources": [
+        "fr.benzinga — fiabilité 6/10"
+      ],
+      "url": "https://fr.benzinga.com/latest-news/exxon-et-chevron-abordent-leurs-resultats-avec-le-venezuela-le-gnl-et-la-hausse-des-prix-du-petrole-au-centre-de-lattention/",
+      "published_at": "2026-10-02T04:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Venezuela : fin de la procédure de justice contre l’avocate et militante Rocio San Miguel (parquet). L’avocate et militante vénézuélienne Rocío San Miguel, arrêtée en février 2024 et libérée après la capture de Nicolás Maduro en janvier, a été « acquittée » dans le cadre des poursuites engagées …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/021026/venezuela-fin-de-la-procedure-de-justice-contre-l-avocate-et-militante-rocio-san-miguel-parquet",
+      "published_at": "2026-10-02T08:15:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
