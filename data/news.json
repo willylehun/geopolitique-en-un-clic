@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:05:42.240406+02:00",
+  "generated_at": "2026-10-02T15:16:01.950410+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58406,21 +58406,25 @@
     },
     {
       "regions": [
-        "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
       "score": 8,
       "category": "Économie",
-      "summary": "L’inflation dans la zone euro à un nouveau sommet depuis 3 ans. L’inflation dans la zone euro a grimpé en septembre à un nouveau sommet depuis trois ans, en raison de la flambée des prix de l’énergie provoquée par le conflit au Moyen-Orient, selon des données …",
+      "summary": "Inflation : Il n’y a pas qu’en France… Coup de chaud sur les prix dans toute la zone euro. L'inflation dans la zone euro a grimpé en septembre à un nouveau sommet depuis trois ans, en raison de la flambée des prix de l'énergie provoquée par le conflit au Moyen-Orient …",
       "sources": [
-        "Mediapart — fiabilité 6/10"
+        "Mediapart — fiabilité 6/10",
+        "20 Minutes — fiabilité 6/10"
       ],
       "url": "https://www.mediapart.fr/journal/fil-dactualites/021026/l-inflation-dans-la-zone-euro-un-nouveau-sommet-depuis-3-ans",
-      "published_at": "2026-10-02T06:35:00+02:00",
+      "published_at": "2026-10-02T07:51:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
     },
     {
       "regions": [
@@ -59288,6 +59292,89 @@
       ],
       "url": "https://www.fredzone.org/singapour-durcit-la-loi-contre-les-images-fausses-generees-par-ia/",
       "published_at": "2026-10-02T04:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : Kiev est paralysée par les embouteillages après les frappes russes contre le pont Pivdenny. La capitale ukrainienne, qui compte quelque 3 millions d’habitants, est divisée en deux par le fleuve Dniepr et dépend donc fortement de ses huit ponts. Il s’agit des premières attaques importantes co …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-kiev-est-paralysee-par-les-embouteillages-apres-les-frappes-russes-sur-le-pont-pivdenny_6783795_3210.html",
+      "published_at": "2026-10-02T08:10:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Ouganda"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "NEC rafle un contrat télécom en Ouganda et se place sur le marché de la cybersécurité bancaire. L'entreprise technologique NEC Africa étend son empreinte en Afrique de l'Est. La firme a sécurisé un contrat de 75 000 …",
+      "sources": [
+        "AITN — fiabilité 6/10"
+      ],
+      "url": "https://afriqueitnews.com/cybersecurite/nec-rafle-un-contrat-telecom-en-ouganda-et-se-place-sur-le-marche-de-la-cybersecurite-bancaire/",
+      "published_at": "2026-10-02T07:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Syrie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "En Syrie, ces seigneurs de la guerre que le pouvoir peine à contrôler : le récit de l’envoyée spéciale du Figaro. REPORTAGE - Les affrontements survenus dans le sud du pays à la mi-septembre illustrent la complexité des enjeux sécuritaires auxquels font face les autorités syriennes. Par Apolline Convain, envoyée …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/en-syrie-ces-seigneurs-de-la-guerre-que-le-pouvoir-peine-a-controler-le-recit-de-l-envoyee-speciale-du-figaro-20261002",
+      "published_at": "2026-10-02T08:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Thaïlande",
+        "Vietnam"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Après 40 ans de production exclusive en Thaïlande, Pandora se tourne vers le Vietnam pour accélèrer son développement en Asie et séduire les jeunes consommateurs avec des … La première marque mondiale de bijouterie a inauguré jeudi 1er octobre à Hô Chi Minh-Ville, au Vietnam, sa première usine hors de Thaïlande. Cet investissement de 150 millions de dollars doit accroîtr …",
+      "sources": [
+        "BFMTV — fiabilité 6/10"
+      ],
+      "url": "https://www.bfmtv.com/luxe/apres-40-ans-de-production-exclusive-en-thailande-pandora-se-tourne-vers-le-vietnam-pour-accelerer-son-developpement-en-asie-et-seduire-les-jeunes-consommateurs-avec-des-diamants-de-laboratoire_AD-202610020383.html",
+      "published_at": "2026-10-02T04:27:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
