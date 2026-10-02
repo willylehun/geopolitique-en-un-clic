@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:16:01.950410+02:00",
+  "generated_at": "2026-10-02T15:33:13.230277+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -670,8 +670,8 @@
         "Reuters"
       ],
       "countries": [
-        "Ouganda",
         "Ghana",
+        "Ouganda",
         "Zambie"
       ]
     },
@@ -872,10 +872,10 @@
         "Afrique"
       ],
       "countries": [
-        "Ouganda",
         "Ghana",
         "Kenya",
         "Nigeria",
+        "Ouganda",
         "Zambie"
       ],
       "period": "day",
@@ -42915,8 +42915,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -42931,8 +42931,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Thaïlande",
-        "Allemagne"
+        "Allemagne",
+        "Thaïlande"
       ]
     },
     {
@@ -44694,8 +44694,8 @@
       "countries": [
         "Cambodge",
         "Laos",
-        "Thaïlande",
         "Singapour",
+        "Thaïlande",
         "Vietnam"
       ],
       "period": "day",
@@ -59375,6 +59375,114 @@
       ],
       "url": "https://www.bfmtv.com/luxe/apres-40-ans-de-production-exclusive-en-thailande-pandora-se-tourne-vers-le-vietnam-pour-accelerer-son-developpement-en-asie-et-seduire-les-jeunes-consommateurs-avec-des-diamants-de-laboratoire_AD-202610020383.html",
       "published_at": "2026-10-02T04:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Washington l'accuse d'aider la Russie à contourner les sanctions et de servir les intérêts de l'Iran: le Trésor américain qualifie le réseau de paiement russe A7 d'organisation criminelle transnationale. L'A7 a été créé en 2024 par l'homme d'affaire moldave IIan Shor pour contourner les sanctions économiques. Son stablecoin, l'A7A5, a déjà permis de transférer 179 milliards de dollars entre février 2025 et juin 2026.",
+      "sources": [
+        "BFM — fiabilité 6/10"
+      ],
+      "url": "https://www.bfmtv.com/crypto/washington-l-accuse-d-aider-la-russie-a-contourner-les-sanctions-et-de-servir-les-interets-de-l-iran-le-tresor-americain-qualifie-le-reseau-de-paiement-russe-a7-d-organisation-criminelle-transnationale_AN-202610020574.html",
+      "published_at": "2026-10-02T15:23:22+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Russie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : Kiev « dans une situation dramatique » ; circulation suspendue dans la capitale. La maire de Kiev affirme que la capitale se trouve « dans une situation dramatique » en raison des frappes russes. L’Ukraine dément toute paralysie de sa flotte de F-16, fournie par ses alliés occiden …",
+      "sources": [
+        "La Croix — fiabilité 6/10"
+      ],
+      "url": "https://www.la-croix.com/international/ukraine-russie-jour-1678-point-conflit-ukrainien-poutine-aujourdhui-20261002",
+      "published_at": "2026-10-02T08:13:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Suisse : le président de la Confédération annonce son départ du gouvernement en fin d’année. Guy Parmelin a annoncé vendredi à Berne son retrait du Conseil fédéral le 31 décembre, après onze ans au gouvernement. Le représentant de l’UDC, âgé de 66 ans, évoque «une certaine lassitude» et souha …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/suisse-le-president-de-la-confederation-annonce-son-depart-du-gouvernement-en-fin-d-annee-20261002",
+      "published_at": "2026-10-02T08:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Bosnie-Herzégovine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Bosnie-Herzégovine : une élection sous tension, 30 ans après la guerre. Les Bosniens votent dimanche dans un scrutin d’une grande complexité, marqué par les divisions entre Bosniaques, Serbes et Croates, héritées de la guerre des années 1990. Alors que les discours nation …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/vidéo/20261002-bosnie-herzégovine-une-élection-sous-tension-30-ans-après-la-guerre",
+      "published_at": "2026-10-02T08:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Haïti"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Au moins 5 700 morts ou blessés et plus de 1000 femmes et filles violées dans les violences des gangs depuis janvier à Haïti, selon l’ONU. Pays le plus pauvre des Amériques et en proie à une crise politique, sécuritaire et économique, Haïti subit la violence des gangs qui multiplient les meurtres, enlèvements, viols et recrutement d’enfa …",
+      "sources": [
+        "La Voix du Nord — fiabilité 6/10"
+      ],
+      "url": "https://www.lavoixdunord.fr/1742568/article/2026-10-02/au-moins-5-700-morts-ou-blesses-et-plus-de-1000-femmes-et-filles-violees-dans",
+      "published_at": "2026-10-02T05:44:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
