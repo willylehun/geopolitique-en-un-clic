@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T08:57:05.449895+02:00",
+  "generated_at": "2026-10-02T09:07:18.617108+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -55253,6 +55253,26 @@
       "published_at": "2026-10-02T00:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Avis |le président Donald Trump (États-Unis) pourrait aimer les généraux de Pak. Mais ses bureaucrates ont d’autres idées. Alors qu'il parlait des « obstacles » dans les négociations commerciales et des difficultés liées aux relations avec l'administration Trump et autres, il a choisi de s'exprimer lourdement en raison du fait que les États-Unis ignoraient les « primaires…",
+      "sources": [
+        "NDTV — fiabilité 6/10"
+      ],
+      "url": "https://www.ndtv.com/opinion/trump-may-like-paks-generals-but-his-bureaucrats-have-other-ideas-12129013",
+      "published_at": "2026-10-02T01:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
