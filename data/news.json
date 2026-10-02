@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:55:27.947643+02:00",
+  "generated_at": "2026-10-02T15:05:42.240406+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58164,7 +58164,7 @@
         "The New York Times — fiabilité 8/10"
       ],
       "url": "https://www.nytimes.com/2026/10/02/world/middleeast/israel-dubai-uae-flights.html",
-      "published_at": "2026-10-02T06:18:00+02:00",
+      "published_at": "2026-10-02T07:50:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -58253,7 +58253,8 @@
       "url": "https://www.ft.com/content/c77b86cb-a915-412e-89d9-52cfc32cdc80?syn-25a6b1a6=1",
       "published_at": "2026-10-02T06:00:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -58998,7 +58999,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -59221,6 +59223,72 @@
       "url": "https://www.ealingtimes.co.uk/news/national/uk-today/26601180.brits-call-fines-loud-music-buses-across-uk/",
       "published_at": "2026-10-02T12:45:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Ukraine lance le FP-7, missile balistique accroissant son indépendance militaire. Le 2 octobre 2026, l’Ukraine a franchi une étape importante en testant en conditions de combat le FP-7, un missile balistique tactique capable de frapper à 250 km avec une ogive de 200 kg. Le présiden …",
+      "sources": [
+        "Armees.com via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/ukraine-lance-le-fp-7-missile-balistique-accroissant-son-indépendance-militaire/ar-AA2dpGY5",
+      "published_at": "2026-10-02T03:59:57+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "France",
+        "Israël",
+        "Palestine",
+        "Qatar"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Financement du Hamas par le Qatar : le scandale qui peut faire chuter Netanyahou. Netanyahou, le Qatar et le Hamas : une affaire d’États🇮🇱🗳️ Le 27 octobre, les Israéliens sont appelés aux urnes pour la première fois depuis les attaques terroristes du 7 octobre 2023, puis la guerre de destruction totale à Gaza (Palestine). Au cœur des débats ces dernière semaines, il y a une question : Benjamin Netanyahou est-il responsable du pire massacre de la courte histoire de l’État d’Israël ? 🇶🇦💵🇵🇸 La Cellule investigation de Radio France a rencontré des témoins clés qui racontent comment le Qatar a financé le Hamas, avec l'aval du gouvernement Netanyahou.",
+      "sources": [
+        "franceinfo — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/monde/israel/financement-du-hamas-par-le-qatar-le-scandale-qui-peut-faire-chuter-netanyahou_8219584.html",
+      "published_at": "2026-10-02T11:56:27+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Singapour"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Singapour durcit la loi contre les images fausses générées par IA. La frontière entre plaisanterie numérique et infraction pénale se révèle particulièrement floue à Singapour, où une blague basée sur l'intelligence artificielle a déclenché des conséquences judiciaire …",
+      "sources": [
+        "Fredzone — fiabilité 6/10"
+      ],
+      "url": "https://www.fredzone.org/singapour-durcit-la-loi-contre-les-images-fausses-generees-par-ia/",
+      "published_at": "2026-10-02T04:00:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
