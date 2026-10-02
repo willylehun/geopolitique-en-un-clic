@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:25:52.848818+02:00",
+  "generated_at": "2026-10-02T21:36:06.361968+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -27716,9 +27716,9 @@
         "International"
       ],
       "countries": [
-        "Vatican",
         "Allemagne",
-        "France"
+        "France",
+        "Vatican"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -39483,9 +39483,9 @@
         "International"
       ],
       "countries": [
-        "Vatican",
         "Russie",
-        "Ukraine"
+        "Ukraine",
+        "Vatican"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -58412,6 +58412,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -60550,6 +60551,7 @@
     {
       "regions": [
         "Amérique du Nord",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -61601,7 +61603,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Asie"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -61609,12 +61612,14 @@
       "category": "Géopolitique",
       "summary": "Jared Kushner riposte au rapport de CNN « profondément trompeur » sur les « conflits d’intérêts potentiels ». Jared Kushner s'en est pris à CNN et les a accusés d'avoir publié un rapport \"trompeur\" sur un \"conflit d'intérêts potentiel\" qu'il aurait à travers son entreprise.",
       "sources": [
-        "Mediaite — fiabilité 6/10"
+        "Mediaite — fiabilité 6/10",
+        "Yahoo — fiabilité 6/10"
       ],
       "url": "https://www.mediaite.com/media/jared-kushner-fires-back-at-deeply-misleading-cnn-report-about-potential-conflict-of-interest/",
-      "published_at": "2026-10-02T09:51:00+02:00",
+      "published_at": "2026-10-02T13:51:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -62185,9 +62190,9 @@
         "International"
       ],
       "countries": [
-        "Vatican",
         "France",
-        "Ukraine"
+        "Ukraine",
+        "Vatican"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -62205,7 +62210,6 @@
     {
       "regions": [
         "Afrique",
-        "Europe",
         "International"
       ],
       "countries": [
@@ -62242,6 +62246,108 @@
       ],
       "url": "https://www.la-croix.com/international/en-inde-une-mosquee-sacrifiee-au-nom-d-un-pelerinage-hindou-cela-nous-fait-profondement-mal-20261002",
       "published_at": "2026-10-02T18:26:17+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "El-Sayed a accusé Israël de génocide avant le début de la guerre à Gaza (Palestine). Deux semaines après le 7 octobre, avant l’entrée de l’armée israélienne à Gaza, El-Sayed a déclaré qu’un « génocide était perpétré contre des Palestiniens innocents »…",
+      "sources": [
+        "Jewish Insider — fiabilité 6/10"
+      ],
+      "url": "https://jewishinsider.com/2026/10/el-sayed-israel-genocide-before-gaza-war-began/",
+      "published_at": "2026-10-02T14:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Palestine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les pays du G7 vont libérer jusqu’à 100 millions de barils de diesel et de pétrole brut. Les pays du Groupe des Sept ont accepté de libérer jusqu'à 100 millions de barils de pétrole brut et de diesel de leurs réserves stratégiques pour contribuer à faire baisser les prix. Le plan, annoncé vendredi, commencera…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/g7-countries-release-100m-barrels-162744219.html",
+      "published_at": "2026-10-02T11:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Nouvel investissement de 26 millions de dollars pour aider les entreprises de la région du Grand Toronto dans un contexte de tensions tarifaires américaines. Plus de 30 entreprises de la région du Grand Toronto reçoivent une augmentation des investissements du gouvernement fédéral, dans un contexte de guerre tarifaire avec les États-Unis.",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/canada/toronto/gta-investment-us-tariff-rtri-9.7367268",
+      "published_at": "2026-10-02T14:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Comores"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Home»Administration»Comores : le gouvernement atteint 61 % de son plan d’action. Le gouvernement comorien a réalisé 975 des 1 592 actions inscrites dans ses Plans de travail annuels (PTA) au cours du premier semestre 2026, soit un taux d’exécution de 61 %, selon le bilan présenté …",
+      "sources": [
+        "APAnews — fiabilité 6/10",
+        "Agence de Presse Africaine via MSN — fiabilité 6/10"
+      ],
+      "url": "https://fr.apanews.net/governance/comores-le-gouvernement-atteint-61-de-son-plan-daction/",
+      "published_at": "2026-10-02T11:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Burkina Faso"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Burkina Faso: JEPPC 2O26 - Le Prernier rninistre lance la 2e phase et ouvre l'exposition gouvernernentale au SlAO. Le Camarade Premier ministre, Rimtalba Jean Emmanuel Ouédraogo, a procédé, ce vendredi 2 octobre 2026, à Ouagadougou, au lancement officiel de la deuxième phase de la 3e édition des Journées nationale …",
+      "sources": [
+        "AllAfrica.com — fiabilité 6/10"
+      ],
+      "url": "https://fr.allafrica.com/stories/202610020241.html",
+      "published_at": "2026-10-02T09:53:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
