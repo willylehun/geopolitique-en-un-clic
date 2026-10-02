@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:11:39.697872+02:00",
+  "generated_at": "2026-10-02T12:21:54.604827+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -56625,6 +56625,7 @@
     {
       "regions": [
         "Amérique du Nord",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -57127,6 +57128,133 @@
       "url": "https://www.afr.com/politics/federal/rogue-openai-agent-hacked-nsw-parks-bushfire-data-20261002-p612hx",
       "published_at": "2026-10-02T00:49:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Il n’y a pas de solution miracle à la crise énergétique, déclare le chef de l’énergie de l’UE. Le chef de l'énergie de l'UE a prévenu que la volatilité du marché de l'énergie était là pour durer – et que les prix pourraient encore empirer. Dan Jørgensen exhorte les gouvernements européens à utiliser la flexibilité existante pour…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/no-silver-bullet-energy-crisis-084036216.html",
+      "published_at": "2026-10-02T03:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le secrétaire américain au Trésor a déclaré que les pays européens devraient utiliser leurs réserves. Le gouvernement britannique a déclaré que le public ne devrait « pas s'inquiéter » d'éventuelles pénuries de diesel, tandis que son homologue américain exhorte les dirigeants européens à utiliser leurs réserves. La Grande-Bretagne a rejoint…",
+      "sources": [
+        "Manchester Evening News — fiabilité 6/10"
+      ],
+      "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/andy-burnham-government-speaks-out-34705112",
+      "published_at": "2026-10-02T04:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) a annoncé un investissement énergétique de 54 milliards de dollars de la Corée du Sud. La Corée du Sud a déclaré qu'il avait sauté le pas. Un projet difficile d’exportation de gaz naturel depuis l’Alaska est devenu un autre point de friction potentiel dans les négociations commerciales de longue date entre les alliés.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-announced-54-billion-energy-090202530.html",
+      "published_at": "2026-10-02T04:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Un État incontournable à mi-mandat est le véritable perdant de la guerre commerciale menée par Trump avec le Canada. Les tarifs douaniers imposés par le président Donald Trump (États-Unis) sur le Canada pourraient faire augmenter les prix des véhicules chez les concessionnaires du Michigan, car les pièces automobiles traversent la frontière à plusieurs reprises.",
+      "sources": [
+        "Fox News via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/a-must-win-midterm-state-is-the-real-loser-of-trump-s-canada-trade-war/ar-AA2dp7oy",
+      "published_at": "2026-10-02T04:00:19+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "OpenAI révèle un autre piratage d'un ministère gouvernemental en Australie. Une attaque visant à accéder aux données historiques sur les feux de brousse s'est produite en juin mais n'a été divulguée par l'entreprise technologique que jeudi. Recevez nos dernières nouvelles par e-mail, notre application gratuite ou notre podcast d'actualités quotidiennes Intelligence artificielle…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/technology/2026/oct/02/openai-disclose-another-hack-on-government-department-in-australia",
+      "published_at": "2026-10-02T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Europe"
+      ],
+      "countries": [
+        "Argentine",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Javier Milei en France : TotalEnergies annonce un investissement de 10 milliards de dollars en Argentine fr. news. yahoo.",
+      "sources": [
+        "fr.news.yahoo.com — fiabilité 6/10"
+      ],
+      "url": "https://fr.news.yahoo.com/javier-milei-france-totalenergies-annonce-092213962.html",
+      "published_at": "2026-10-02T11:22:13+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
