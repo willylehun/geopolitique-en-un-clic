@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:45:11.849973+02:00",
+  "generated_at": "2026-10-02T07:55:26.021119+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23545,11 +23545,11 @@
         "Afrique"
       ],
       "countries": [
-        "Arabie saoudite",
         "Israël",
         "Maroc",
         "Qatar",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Arabie saoudite"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -29824,8 +29824,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Arabie saoudite",
-        "Israël"
+        "Israël",
+        "Arabie saoudite"
       ]
     },
     {
@@ -30018,9 +30018,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Arabie saoudite",
         "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Arabie saoudite"
       ]
     },
     {
@@ -33519,9 +33519,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Arabie saoudite",
         "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Arabie saoudite"
       ]
     },
     {
@@ -34054,8 +34054,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Arabie saoudite",
-        "Israël"
+        "Israël",
+        "Arabie saoudite"
       ]
     },
     {
@@ -34533,8 +34533,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Arabie saoudite",
-        "Israël"
+        "Israël",
+        "Arabie saoudite"
       ]
     },
     {
@@ -37152,9 +37152,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Arabie saoudite",
         "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Arabie saoudite"
       ]
     },
     {
@@ -37822,8 +37822,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Arabie saoudite",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Arabie saoudite"
       ]
     },
     {
@@ -38096,9 +38096,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Arabie saoudite",
         "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Arabie saoudite"
       ]
     },
     {
@@ -41856,9 +41856,9 @@
         "Asie"
       ],
       "countries": [
-        "Arabie saoudite",
         "Israël",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Arabie saoudite"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -49542,9 +49542,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Arabie saoudite",
         "Qatar",
         "Syrie",
+        "Arabie saoudite",
         "Yémen"
       ]
     },
@@ -54725,6 +54725,40 @@
       ],
       "url": "https://www.msn.com/fr-fr/actualite/other/ryad-accuse-les-houthis-du-yémen-d-avoir-mené-une-attaque-dans-la-ville-sainte-de-à-médine-en-arabie-saoudite/ar-AA2doLAm",
       "published_at": "2026-10-02T00:14:36+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le CJP va lancer une manifestation « Jail Bharo » à Mumbai et demander la destitution de la CEC : détails. Le CJP prévoit de lancer son agitation nationale depuis le parc Shivaji de Mumbai, exigeant la démission de Gyanesh Kumar, l'arrêt du SIR et des modifications à la loi sur la nomination de la Commission électorale…",
+      "sources": [
+        "Business Standard — fiabilité 6/10"
+      ],
+      "url": "https://www.business-standard.com/india-news/cjp-oct-2-protest-cec-gyanesh-kumar-resignation-jantar-mantar-shivaji-park-126100200253_1.html",
+      "published_at": "2026-10-02T00:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le milliardaire de Palantir, Peter Thiel, détient 42 % de son portefeuille dans ces 2 actions d'intelligence artificielle. Thiel Macro de Peter Thiel n'avait aucun investissement au premier trimestre 2026. Soudainement, Thiel a fait le plein de huit actions au deuxième trimestre, avec Amazon comme sa plus grande participation. Cette seule entreprise représentait 28 % du…",
+      "sources": [
+        "The Motley Fool — fiabilité 6/10"
+      ],
+      "url": "https://www.fool.com/investing/2026/10/02/palantir-billionaire-peter-thiel-has-42-of-his-por/",
+      "published_at": "2026-10-02T00:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
