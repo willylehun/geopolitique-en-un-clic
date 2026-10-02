@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T01:56:51.794995+02:00",
+  "generated_at": "2026-10-02T02:07:04.829808+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54286,6 +54286,26 @@
       ],
       "url": "http://www.calcuttanews.net/news/279346502/canada-eyes-70-billion-trade-with-india-in-5-years-says-trade-minister-maninder-sidhu",
       "published_at": "2026-10-02T01:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Newsom oppose son veto au projet de loi interdisant aux anciens officiers de l'ICE d'accéder à des emplois en Californie (États-Unis). Le gouverneur Gavin Newsom a déclaré que ce serait « une erreur » de décourager les personnes qualifiées de travailler au sein du gouvernement fédéral et que les pratiques d'embauche de la police éliminent déjà les candidats ayant des antécédents de mauvaise conduite.",
+      "sources": [
+        "police1.com — fiabilité 6/10"
+      ],
+      "url": "https://www.police1.com/police-recruitment/calif-governor-vetoes-bill-to-bar-former-ice-officers-from-le-jobs-in-state",
+      "published_at": "2026-10-02T01:45:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
