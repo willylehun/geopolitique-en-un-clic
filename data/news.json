@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:43:51.512920+02:00",
+  "generated_at": "2026-10-02T13:54:06.291008+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -123,8 +123,8 @@
         "Reuters"
       ],
       "countries": [
-        "Japon",
         "Chine",
+        "Japon",
         "États-Unis"
       ]
     },
@@ -20279,8 +20279,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Japon",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Japon"
       ]
     },
     {
@@ -21811,8 +21811,8 @@
       "published_at": "2026-09-27T22:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Japon",
         "Chine",
+        "Japon",
         "États-Unis"
       ]
     },
@@ -33834,8 +33834,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Asie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33851,8 +33851,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Japon",
-        "Argentine"
+        "Argentine",
+        "Japon"
       ]
     },
     {
@@ -45560,8 +45560,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -45578,8 +45578,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Japon",
         "Allemagne",
+        "Japon",
         "États-Unis"
       ]
     },
@@ -56783,13 +56783,13 @@
       "bucket": "2 octobre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le président Donald Trump (États-Unis) affirme désormais que les États-Unis ont bombardé l’Iran « parce qu’ils consommaient de la drogue ». Trump prétend maintenant que les États-Unis ont déclenché la guerre avec l’Iran « parce qu’ils faisaient de la drogue » – « Ils faisaient du nucléaire et de la drogue ». Ils consommaient de la drogue, mais ils utilisaient le nucléaire\", a déclaré Trump lors d'un rassemblement au Texas…",
+      "summary": "Le président Donald Trump (États-Unis) affirme désormais que les États-Unis ont bombardé l’Iran « parce qu’ils consommaient de la drogue ». Trump ajoute une nouvelle justification qui fait sourciller à la guerre américaine en Iran : « Ils faisaient de la drogue » - « Ils faisaient du nucléaire et de la drogue ». Ils consommaient de la drogue, mais ils utilisaient le nucléaire\", a déclaré Trump lors d'un rassemblement au Texas.",
       "sources": [
         "Yahoo — fiabilité 6/10",
         "The Independent via MSN — fiabilité 6/10"
       ],
       "url": "https://www.yahoo.com/news/politics/articles/trump-now-claims-us-started-085106111.html",
-      "published_at": "2026-10-02T03:51:06+02:00",
+      "published_at": "2026-10-02T06:44:26+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -58273,6 +58273,131 @@
       "countries": [
         "Japon"
       ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 10,
+      "category": "Géopolitique",
+      "summary": "Une histoire d'amour née pendant la Seconde Guerre mondiale. Un frère et une sœur discutent du stylo que leur père utilisait pour écrire à leur mère lorsqu'il était prisonnier de guerre pendant la Seconde Guerre mondiale.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/videos/cxvgd558vj4vo",
+      "published_at": "2026-10-02T06:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Javier Milei en France : TotalEnergies annonce un investissement de 10 milliards de dollars en Argentine. En quête de nouveaux capitaux pour relancer l'économie de son pays, le président argentin a été reçu à l'Élysée par le président Emmanuel Macron (France). Une visite marquée par l'annonce du développement de plusieurs proj …",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/fr-ca/finances/économie/javier-milei-en-france-totalenergies-annonce-un-investissement-de-10-milliards-de-dollars-en-argentine/ar-AA2dpaIA",
+      "published_at": "2026-10-02T04:22:13+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine",
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trump trouve une nouvelle excuse dingue pour sa guerre. le président Donald Trump (États-Unis) a donné une nouvelle justification bizarre et incohérente pour expliquer pourquoi il a lancé une guerre contre l’Iran. Alors qu'il s'exprimait lors d'un rassemblement de mi-mandat à Durant, Oklahoma, jeudi soir, l'homme de 80 ans…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/videos/trump-comes-bonkers-excuse-war-112505335.html",
+      "published_at": "2026-10-02T06:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement et le ministre de la Défense survivent au vote de confiance sur la politique au Moyen-Orient. Le gouvernement du Premier ministre finlandais Petteri Orpo (NCP) ainsi que le ministre de la Défense Antti Häkkänen (NCP) ont chacun survécu aux votes de confiance vendredi. Häkkänen a gagné la confiance du Parlement par 114 voix contre 61, tandis que …",
+      "sources": [
+        "Yle — fiabilité 6/10"
+      ],
+      "url": "https://yle.fi/a/74-20249557",
+      "published_at": "2026-10-02T06:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Les fonds d’actions américaines affichent un deuxième afflux hebdomadaire alors que l’optimisme de l’IA tempère les inquiétudes sur les rendements. Les fonds d'actions américaines ont enregistré des entrées de capitaux pour la deuxième semaine consécutive jusqu'au 30 septembre, alors que l'enthousiasme persistant pour l'intelligence artificielle et un chiffre d'inflation plus bas que prévu ont tempéré…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/us-equity-funds-post-second-weekly-inflow-ai-optimism-tempers-yield-concerns-2026-10-02/",
+      "published_at": "2026-10-02T06:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Quitter ou rejoindre l'Iran, un casse-tête pour les voyageurs après les sanctions américaines. Ce jeudi 1er octobre, les États-Unis ont renforcé leurs sanctions contre l'Iran, en plaçant sur leur liste noire les principaux constructeurs automobiles iraniens, la compagnie ferroviaire publique na …",
+      "sources": [
+        "Radio France Internationale via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/france/quitter-ou-rejoindre-liran-un-casse-tête-pour-les-voyageurs-après-les-sanctions-américaines/ar-AA2dpDaV",
+      "published_at": "2026-10-02T06:21:17+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
