@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:41:01.506224+02:00",
+  "generated_at": "2026-10-02T11:51:15.602022+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -56090,12 +56090,12 @@
       "bucket": "2 octobre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "EN DIRECT, guerre en Ukraine : les bombardements russes nocturnes sur Kiev ont fait un mort et deux blessés, un pont important touché. L’attaque russe de la nuit a touché « un immeuble résidentiel de 25 étages », ont annoncé, vendredi, les autorités militaires de la capitale ukrainienne sur Telegram.",
+      "summary": "EN DIRECT, guerre en Ukraine : la circulation suspendue sur le pont Pivdenny, un important pont de Kiev touché par de nouvelles frappes russes. L’attaque russe de la nuit a touché « un immeuble résidentiel de 25 étages », ont annoncé, vendredi, les autorités militaires de la capitale ukrainienne sur Telegram.",
       "sources": [
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-les-bombardements-russes-nocturnes-sur-kiev-ont-fait-un-mort-et-deux-blesses-un-pont-important-touche_6783795_3210.html",
-      "published_at": "2026-10-02T03:18:00+02:00",
+      "published_at": "2026-10-02T04:33:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -56625,6 +56625,7 @@
     {
       "regions": [
         "Amérique du Nord",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -56745,6 +56746,177 @@
       "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69739872-usa-sorgen-der-anleger-treiben-die-renditen-fuer-staatsanleihen-nach-oben-349.htm",
       "published_at": "2026-10-02T11:15:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« L'Inde est devenue la voix la plus fiable » : Amit Shah après que Poutine ait loué les efforts de paix mondiaux du Premier ministre Modi. Le ministre de l'Intérieur de l'Union, Amit Shah, a qualifié vendredi les éloges du président russe le président Vladimir Poutine (Russie) pour les efforts de paix du Premier ministre Narendra Modi (Inde) de « moment de fierté » pour chaque citoyen.",
+      "sources": [
+        "News18 via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/india-has-become-most-trusted-voice-amit-shah-after-putin-praises-pm-modi-s-global-peace-efforts/ar-AA2dpu4t",
+      "published_at": "2026-10-02T03:53:58+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) affirme désormais que les États-Unis ont bombardé l’Iran « parce qu’ils consommaient de la drogue ». Trump prétend maintenant que les États-Unis ont déclenché la guerre avec l’Iran « parce qu’ils faisaient de la drogue » – « Ils faisaient du nucléaire et de la drogue ». Ils consommaient de la drogue, mais ils utilisaient le nucléaire\", a déclaré Trump lors d'un rassemblement au Texas…",
+      "sources": [
+        "Yahoo — fiabilité 6/10",
+        "The Independent via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-now-claims-us-started-085106111.html",
+      "published_at": "2026-10-02T03:51:06+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Élections au Brésil : une course serrée met l’accent sur la dette et la politique budgétaire. Les Brésiliens se rendront aux urnes ce dimanche pour le premier tour de l'élection présidentielle, les sondages suggérant qu'il est trop serré pour être convoqué. Chloe Taylor s'est penchée sur ce à quoi on peut s'attendre.",
+      "sources": [
+        "CNBC — fiabilité 6/10"
+      ],
+      "url": "https://www.cnbc.com/video/2026/10/02/whatas-at-stake-for-brazilas-economy-ahead-of-the-presidential-vote.html",
+      "published_at": "2026-10-02T04:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "OpenAI licencie des employés pour mauvaise gestion de données sensibles : rapport. OpenAI, la société de plateforme d'intelligence artificielle de Sam Altman, a licencié un agent de sécurité à la suite de récents incidents de fuite de données. OpenAI a licencié trois chercheurs de son équipe de sécurité à la suite…",
+      "sources": [
+        "The News International — fiabilité 6/10"
+      ],
+      "url": "https://www.thenews.com.pk/latest/1418454-openai-fires-workers-over-mishandling-sensitive-data-report",
+      "published_at": "2026-10-02T04:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Exportation d'aliments surgelés de l'Haryana : les exportations alimentaires dirigées par le FPO de l'Haryana vers le Canada ouvrent de nouvelles opportunités de marché pour les agriculteurs. Un lot de 24 tonnes de produits alimentaires surgelés de l'Haryana a été exporté vers le Canada par Aterna Foods Producer Company Limited, marquant ainsi un effort visant à connecter les organisations de producteurs agricoles (OPP) aux marchés internationaux. L'envoi, d'une valeur de 35 140 CAD, comprend des pois surgelés, un mélange de légumes, du maïs sucré, des pois, des carottes et des samosas. L'APEDA a facilité l'exportation dans le cadre de son programme d'aide financière.",
+      "sources": [
+        "economictimes.indiatimes.com — fiabilité 6/10"
+      ],
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/fpo-led-food-exports-from-haryana-to-canada-open-new-market-opportunities-for-farmers/articleshow/134635691.cms",
+      "published_at": "2026-10-02T11:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Canada",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Hans Zimmer soutient le Canada alors que la guerre commerciale monte en puissance avant sa tournée nord-américaine. Les partitions épiques de Hans Zimmer ont transcendé les frontières, mais alors que le compositeur oscarisé se prépare à présenter son spectacle à travers l’Amérique du Nord, il sait de quel côté il se situe. « S’il s’agissait d’un match de football, je soutiendrais le Canada », dit Zimmer. Le maestro d'origine allemande, qui sillonnera plusieurs villes canadiennes l'année prochaine dans le cadre de son",
+      "sources": [
+        "medicinehatnews.com — fiabilité 6/10"
+      ],
+      "url": "https://medicinehatnews.com/entertainment/entertainment-news/2026/10/02/hans-zimmer-is-rooting-for-canada-as-trade-war-crescendoes-before-north-american-tour/",
+      "published_at": "2026-10-02T11:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Israël",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Sanctions américaines contre les secteurs automobile et ferroviaire iraniens The Times of Israël",
+      "sources": [
+        "The Times of Israël — fiabilité 6/10"
+      ],
+      "url": "https://fr.timesofisrael.com/sanctions-americaines-contre-les-secteurs-automobile-et-ferroviaire-iraniens/",
+      "published_at": "2026-10-02T11:00:13+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Monaco"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Du cyclisme professionnel à l’entrepreneuriat à Monaco, l’échappée familiale de Jakob Fuglsang et sa compagne. Retraité des courses depuis 2025, le coureur danois et résident monégasque Jakob Fuglsang, a lancé avec sa compagne, Loulou, une marque d’équipements destinée aux cyclistes. Avec la même détermination dans le business qu’en selle.",
+      "sources": [
+        "Nice-Matin — fiabilité 6/10"
+      ],
+      "url": "https://www.nicematin.com/economie/du-cyclisme-professionnel-a-l-entrepreneuriat-a-monaco-l-echappee-familiale-de-jakob-fuglsang-et-sa-compagne-10731347",
+      "published_at": "2026-10-02T08:26:05+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
