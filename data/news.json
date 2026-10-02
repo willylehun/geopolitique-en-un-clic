@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:51:15.602022+02:00",
+  "generated_at": "2026-10-02T12:01:27.199427+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -56916,6 +56916,112 @@
       ],
       "url": "https://www.nicematin.com/economie/du-cyclisme-professionnel-a-l-entrepreneuriat-a-monaco-l-echappee-familiale-de-jakob-fuglsang-et-sa-compagne-10731347",
       "published_at": "2026-10-02T08:26:05+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Royaume-Uni",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Grande-Bretagne est en pourparlers avec les pays européens sur la libération des réserves de carburant. Les gens ne devraient pas s'inquiéter d'une pénurie de diesel, a déclaré le gouvernement britannique, alors que les États-Unis font pression pour que les pays européens utilisent leurs réserves.",
+      "sources": [
+        "breakingnews.ie — fiabilité 6/10"
+      ],
+      "url": "https://www.breakingnews.ie/world/britain-in-talks-with-european-countries-over-release-of-fuel-reserves-1951860.html",
+      "published_at": "2026-10-02T11:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Finlande",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "Le géant américain de 35 000 millions d'euros a réalisé en Finlande, à 3 km de la frontière russe, à 1 600 °C, quelque chose que le monde n'avait vu auparavant que dans des films : une vidéo réelle incroyable. Dans le célèbre film Terminator II de 1991, un robot à intelligence artificielle a été détruit en le plongeant dans de l'acier en fusion. Aujourd’hui, la société américaine d’intelligence artificielle Figure AI l’a fait pour ses propres robots en Finlande. Bien sûr, le bouton a été appuyé par Arnold Schwarzenegger, qui jouait lui-même le terminateur.",
+      "sources": [
+        "tekniikkatalous.fi — fiabilité 6/10"
+      ],
+      "url": "https://www.tekniikkatalous.fi/uutiset/a/e6b82023-887b-4acc-aae0-874393c5efd0",
+      "published_at": "2026-10-02T11:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Guinée-Bissau"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Home»Armée»Bissau : l’armée s’oppose au retour d’Umaro Sissoco Embaló. Le Haut commandement militaire chargé de la restauration de la sécurité nationale et de l’ordre public a interdit le retour sur le territoire bissau-guinéen de l’ancien président Umaro Sissoco Embaló, …",
+      "sources": [
+        "APAnews — fiabilité 6/10"
+      ],
+      "url": "https://fr.apanews.net/security/guinee-bissau-les-militaires-interdisent-le-retour-dumaro-sissoco-embalo/",
+      "published_at": "2026-10-02T03:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Ukraine : Fire Point révolutionne l’industrie de défense avec le missile FP-7. le président Volodymyr Zelensky (Ukraine) a annoncé jeudi 2 octobre le premier tir au combat du FP-7, missile balistique tactique développé par l'entreprise ukrainienne Fire Point. Cette frappe propulse l'Ukrai …",
+      "sources": [
+        "Enderi via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/ukraine-fire-point-révolutionne-l-industrie-de-défense-avec-le-missile-fp-7/ar-AA2dpwMb",
+      "published_at": "2026-10-02T04:11:10+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'épidémie d'Ebola en République démocratique du Congo (RDC) a désormais fait plus de 4000 victimes, ont indiqué les autorités, qui peinent à endiguer la propagation du virus.",
+      "sources": [
+        "La Presse Canadienne via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-ca/actualites/monde/lépidémie-debola-en-république-démocratique-du-congo-a-fait-plus-de-4000-victimes/ar-AA2dpEeN",
+      "published_at": "2026-10-02T04:11:33+02:00",
       "origin": "rss",
       "content_enriched": true
     },
