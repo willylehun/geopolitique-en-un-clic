@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:35:00.172343+02:00",
+  "generated_at": "2026-10-02T07:45:11.849973+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54705,6 +54705,27 @@
       "url": "https://www.dailymirror.lk/breaking-news/20-Iranian-oil-tankers-stranded-off-Sri-Lanka-as-supplies-run-short/108-351570",
       "published_at": "2026-10-02T06:45:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Arabie saoudite",
+        "Yémen"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Ryad accuse les Houthis du Yémen d'avoir mené une attaque dans la ville sainte de à Médine en Arabie saoudite. Ryad, allié du gouvernement yéménite, avait déjà accusé à la mi-septembre les Houthis d'avoir mené une attaque de drone contre La Mecque, ce qu'avaient démenti ces combattants pro-iraniens.",
+      "sources": [
+        "BFMTV via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/ryad-accuse-les-houthis-du-yémen-d-avoir-mené-une-attaque-dans-la-ville-sainte-de-à-médine-en-arabie-saoudite/ar-AA2doLAm",
+      "published_at": "2026-10-02T00:14:36+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
