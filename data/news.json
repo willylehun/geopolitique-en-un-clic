@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T08:26:18.866350+02:00",
+  "generated_at": "2026-10-02T08:36:33.766763+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -123,8 +123,8 @@
         "Reuters"
       ],
       "countries": [
-        "Chine",
         "Japon",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -874,9 +874,9 @@
       "countries": [
         "Ghana",
         "Kenya",
-        "Nigeria",
         "Zambie",
-        "Ouganda"
+        "Ouganda",
+        "Nigeria"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
@@ -8523,8 +8523,8 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Népal",
+        "Chine",
         "Inde"
       ]
     },
@@ -16243,8 +16243,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Afrique",
+        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -16259,8 +16259,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Kenya",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -21811,8 +21811,8 @@
       "published_at": "2026-09-27T22:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Japon",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -28671,8 +28671,8 @@
       ],
       "countries": [
         "Allemagne",
-        "Chine",
-        "Espagne"
+        "Espagne",
+        "Chine"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -32273,8 +32273,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -32289,8 +32289,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
-        "Kenya"
+        "Kenya",
+        "Chine"
       ]
     },
     {
@@ -38281,8 +38281,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Sud",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -38299,8 +38299,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
         "Uruguay",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -42266,11 +42266,11 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Chine",
         "Malaisie",
         "Turquie",
         "Vietnam",
         "Afghanistan",
+        "Chine",
         "Pakistan",
         "États-Unis"
       ],
@@ -44939,12 +44939,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Chine",
-        "Gabon"
+        "Gabon",
+        "Chine"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -45649,12 +45649,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Asie"
       ],
       "countries": [
-        "Chine",
-        "Mexique"
+        "Mexique",
+        "Chine"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -49210,8 +49210,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Nord",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -49227,8 +49227,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
-        "Canada"
+        "Canada",
+        "Chine"
       ]
     },
     {
@@ -54953,22 +54953,25 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
+        "Europe",
         "International"
       ],
       "countries": [
         "Iran",
-        "États-Unis"
+        "États-Unis",
+        "Russie"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "Les États-Unis sanctionnent les secteurs automobile et ferroviaire de l’Iran dans le cadre du blocus du détroit d’Ormuz. L'administration Trump a imposé des sanctions aux secteurs ferroviaire et automobile iraniens ainsi qu'à leurs fournisseurs étrangers, a annoncé jeudi le département du Trésor.",
+      "summary": "Les États-Unis ont imposé des sanctions à l’industrie automobile iranienne. L'administration du président Donald Trump (États-Unis) a annoncé jeudi de nouvelles sanctions contre l'Iran dans le cadre de l'opération Economic Outcast. La liste des sanctions comprend un réseau « bancaire parallèle » lié à la Russie, composé d'un oligarque moldave pro-russe et d'entreprises des secteurs ferroviaire et automobile iraniens. Le ministère américain des Finances a annoncé avoir reconnu le réseau bancaire A7 comme une « organisation criminelle transnationale importante ».",
       "sources": [
-        "arynews.tv — fiabilité 6/10"
+        "arynews.tv — fiabilité 6/10",
+        "naszdziennik.pl — fiabilité 6/10"
       ],
       "url": "https://arynews.tv/us-sanctions-target-irans-auto-rail-sectors-as-blockade-chokes-ship-lanes",
-      "published_at": "2026-10-02T08:00:00+02:00",
+      "published_at": "2026-10-02T08:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -55030,6 +55033,74 @@
       ],
       "url": "https://allafrica.com/stories/202610020032.html",
       "published_at": "2026-10-02T08:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Prix du gaz : La guerre entre les États-Unis et l’Iran enrichit l’industrie gazière australienne. La flambée des prix du GNL devrait inverser la baisse prévue des revenus, apportant une augmentation inattendue de 23 milliards de dollars aux plus grands exportateurs de gaz du pays.",
+      "sources": [
+        "smh.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.smh.com.au/business/the-economy/the-iran-war-is-making-australia-s-gas-industry-richer-20261002-p612al.html",
+      "published_at": "2026-10-02T08:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'ONU affirme que les subventions aux carburants pourraient dépasser 1 000 milliards de dollars alors que la guerre en Iran se prolonge. Les interventions politiques mondiales visant à amortir l’impact de la hausse des prix des produits alimentaires et de l’énergie deviendront plus difficiles à maintenir à mesure que les coûts d’emprunt augmentent.",
+      "sources": [
+        "freemalaysiatoday.com — fiabilité 6/10"
+      ],
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/10/02/un-says-fuel-subsidies-may-top-us-1tril-as-iran-war-drags-on",
+      "published_at": "2026-10-02T08:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord",
+        "Corée du Sud",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Lee met en garde contre des mesures supplémentaires si l'Ukraine refuse de s'excuser pour la divulgation du transfert des prisonniers de guerre de la Corée du Nord. Le président Lee Jae Myung a averti vendredi que la Corée du Sud prendrait des « mesures supplémentaires » si l'Ukraine continuait à refuser de s'excuser officiellement…",
+      "sources": [
+        "koreatimes.co.kr — fiabilité 6/10"
+      ],
+      "url": "https://www.koreatimes.co.kr/southkorea/politics/20261002/lee-warns-of-additional-measures-if-ukraine-refuses-to-apologize-for-nk-pow-transfer-disclosure",
+      "published_at": "2026-10-02T08:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
