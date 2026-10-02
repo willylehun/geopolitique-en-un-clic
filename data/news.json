@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:30:49.099734+02:00",
+  "generated_at": "2026-10-02T11:41:01.506224+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -56625,7 +56625,6 @@
     {
       "regions": [
         "Amérique du Nord",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -56663,6 +56662,88 @@
       ],
       "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69739165-caretrust-reit-inc-caretrust-announces-strategic-shop-pipeline-agreement-with-lnt-care-developments-to-acquire-45-new-uk-care-homes-for-gbp-1-1-billio-004.htm",
       "published_at": "2026-10-02T10:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Regarder : Un pilote émotif raconte le moment de l'attaque de Flydubai. Un pilote indien qui a été attaqué par son copilote à bord d'un avion Flydubai à destination d'Israël a reçu un appel dans son lit d'hôpital du Premier ministre indien le Premier ministre Narendra Modi (Inde). Visiblement ému, le Capt Smit Machchhar a déclaré qu'il…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/videos/c914d43y7xn4o",
+      "published_at": "2026-10-02T03:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un pilote indien dit au le Premier ministre Narendra Modi (Inde) qu'il a ouvert la porte du cockpit de Flydubai lors de l'attaque. Smit Machchhar a parlé depuis un lit d'hôpital à Abu Dhabi, rejouant l'attaque dramatique et ses efforts désespérés pour ouvrir la porte du cockpit pour demander de l'aide, lors d'un appel vidéo avec le Premier ministre indien…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/indian-pilot-tells-pm-modi-he-opened-flydubai-cockpit-door-during-attack-2026-10-02/",
+      "published_at": "2026-10-02T03:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le président Vladimir Poutine (Russie) affirme que la Russie utilisera « toutes les armes » de son arsenal si l’un de ses territoires est attaqué. Poutine a accusé l’Occident et l’Europe d’intensifier les tensions en parlant de préparation à une guerre avec Moscou dans les années à venir.",
+      "sources": [
+        "New York Post — fiabilité 6/10"
+      ],
+      "url": "https://nypost.com/2026/10/02/world-news/putin-says-russia-will-use-all-weapons-in-its-arsenal-if-any-of-its-territory-is-attacked/",
+      "published_at": "2026-10-02T04:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "États-Unis : les inquiétudes des investisseurs font grimper les rendements des obligations d’État. Boston (www. anleihencheck. de) - Lorsqu'il s'agit d'obligations d'État américaines, tout le monde s'intéresse aux bons du Trésor à dix ans, selon les experts de MFS Investment Management. Le rendement de ces titres est la seule chose",
+      "sources": [
+        "finanznachrichten.de — fiabilité 6/10"
+      ],
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69739872-usa-sorgen-der-anleger-treiben-die-renditen-fuer-staatsanleihen-nach-oben-349.htm",
+      "published_at": "2026-10-02T11:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
