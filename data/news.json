@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T09:27:46.181090+02:00",
+  "generated_at": "2026-10-02T09:37:56.964564+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -55367,6 +55367,45 @@
       ],
       "url": "https://www.guinee360.com/02/10/2026/guinee-le-gouvernement-interdit-les-animaux-en-liberte-dans-les-villes/",
       "published_at": "2026-10-02T02:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Un parachutiste britannique de 28 ans a été tué dans une explosion en Ukraine, révèle le coroner lors d'une enquête secrète. Le caporal suppléant George Hooley, 28 ans, du Parachute Regiment, est décédé en décembre dernier alors qu'il observait les tests d'une nouvelle capacité défensive dans ce pays déchiré par la guerre.",
+      "sources": [
+        "Daily Mail via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/other/british-paratrooper-28-was-killed-by-an-explosion-in-ukraine-coroner-reveals-in-secret-inquest/ar-AA2doxBj",
+      "published_at": "2026-10-02T01:29:05+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Queensland a dépensé 1,7 million de dollars pour seulement trois familles d'accueil. Le gouvernement a annoncé qu'un programme pilote chercherait à employer jusqu'à 100 soignants, payés jusqu'à 100 000 dollars, dans le sud-est du Queensland et à Townsville.",
+      "sources": [
+        "The Sydney Morning Herald via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/other/queensland-spent-17m-on-just-three-foster-carers/ar-AA2doTjA",
+      "published_at": "2026-10-02T00:32:40+02:00",
       "origin": "rss",
       "content_enriched": true
     },
