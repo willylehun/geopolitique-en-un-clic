@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T06:02:15.998033+02:00",
+  "generated_at": "2026-10-02T06:12:29.049360+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54497,6 +54497,29 @@
       ],
       "url": "https://www.moneycontrol.com/news/business/india-canada-trade-deal-fifth-round-of-talks-begins-october-5-as-sides-chase-c-70-billion-trade-goal-14043249.html",
       "published_at": "2026-10-02T05:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Corée du Sud",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Corée du Sud menace l'Ukraine à propos du transfert des prisonniers de guerre nord-coréens. Séoul et Kiev sont aux prises avec un différend diplomatique depuis que l'Ukraine a transféré deux prisonniers de guerre nord-coréens capturés…",
+      "sources": [
+        "bordermail.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.bordermail.com.au/story/9361618/s-korea-threatens-ukraine-over-n-korea-pows-transfer/",
+      "published_at": "2026-10-02T05:45:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
