@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:56:36.200125+02:00",
+  "generated_at": "2026-10-02T22:06:52.053369+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -61743,7 +61743,8 @@
       "summary": "« Plus de deux millions de dollars » : Washington place sur liste noire deux Français accusés de financer le Hamas. Les États-Unis ont placé vendredi sous sanctions économiques deux Français et les associations qu’ils ont créées, les accusant d’avoir collecté des fonds sous couvert d’opérations humanitaires pour le …",
       "sources": [
         "Le Parisien via MSN — fiabilité 6/10",
-        "Radio France Internationale — fiabilité 6/10"
+        "Radio France Internationale — fiabilité 6/10",
+        "Seneweb — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/fr-fr/actualite/other/plus-de-deux-millions-de-dollars-washington-place-sur-liste-noire-deux-français-accusés-de-financer-le-hamas/ar-AA2dqE5e",
       "published_at": "2026-10-02T11:37:00+02:00",
@@ -62659,6 +62660,92 @@
       ],
       "url": "https://medias24.com/agence-presse/suede-magdalena-andersson-a-nouveau-chargee-de-former-un-gouvernement/",
       "published_at": "2026-10-02T06:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Allemagne pourrait connaître une croissance deux fois plus rapide cette année qu'on le pensait, selon la Bundesbank. L'économie allemande pourrait croître d'environ 1 % cette année, soit environ deux fois plus vite que les projections les plus récentes, stimulée par une forte demande d'exportation et des investissements publics, a déclaré le président de la Bundesbank Joachim …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/europe/germany-may-grow-twice-fast-this-year-earlier-thought-bundesbank-says-2026-10-02/",
+      "published_at": "2026-10-02T14:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis sanctionnent des organisations caritatives basées en France pour un réseau de financement présumé du Hamas d'une valeur de 2 millions de dollars, et six personnes ont été arrêtées. Le ministère américain de la Justice a déclaré que les autorités françaises avaient également arrêté les individus sanctionnés Faouzi Barika et Amel Oualid, qui sont liés aux associations caritatives basées en France, l'Association Baraka et l'Ensemble C …",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/world/us-sanctions-france-based-charities-over-alleged-2-million-hamas-funding-network-six-arrested-article-14043598.html",
+      "published_at": "2026-10-02T14:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Petrobras fait une nouvelle découverte de pétrole au large de la côte brésilienne d'Amapa. M-59, au large d'Amapa, au Brésil, a annoncé vendredi la société dans un dossier réglementaire. Un nouvel intervalle pétrolifère a été découvert dans le puits Morpho à une profondeur d'eau de 2 886 mètres, lors du forage jusqu'à…",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/energy/articles/petrobras-makes-oil-discovery-off-135926993.html",
+      "published_at": "2026-10-02T07:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Corée du Sud",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Transfert de prisonniers : la Corée du Sud menace de « mesures » si l’Ukraine ne s’excuse pas. Séoul menace de prendre des « mesures » contre Kiev après la révélation par le président Volodymyr Zelensky (Ukraine) du transfert en Corée du Sud de deux prisonniers de guerre nord-coréens, un dossier qui a tendu les relat …",
+      "sources": [
+        "Le Soir — fiabilité 6/10"
+      ],
+      "url": "https://www.lesoir.be/774451/article/2026-10-02/transfert-de-prisonniers-la-coree-du-sud-menace-de-mesures-si-lukraine-ne",
+      "published_at": "2026-10-02T05:18:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
