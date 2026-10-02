@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:32:11.914917+02:00",
+  "generated_at": "2026-10-02T12:42:25.190371+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -28566,8 +28566,8 @@
       ],
       "countries": [
         "Cambodge",
-        "Vietnam",
-        "France"
+        "France",
+        "Vietnam"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -42268,10 +42268,10 @@
       "countries": [
         "Malaisie",
         "Turquie",
-        "Vietnam",
         "Afghanistan",
         "Chine",
         "Pakistan",
+        "Vietnam",
         "États-Unis"
       ],
       "period": "day",
@@ -56027,7 +56027,8 @@
       "category": "Diplomatie",
       "summary": "L'Arménie ne franchira pas la ligne qui pourrait entraîner des sanctions à son encontre en raison de l'Iran. Le Premier ministre a déclaré que le pays ne pouvait pas franchir la ligne au-delà de laquelle il y aurait un risque que des sanctions soient imposées à l’Arménie elle-même. « Nous étudions le dispositif de sanctions et agissons en toute transparence avec tous nos partenaires. Nous affirmons à nos nations amies que nous ferons […]",
       "sources": [
-        "Nouvelles d'Arménie en Ligne — fiabilité 6/10"
+        "Nouvelles d'Arménie en Ligne — fiabilité 6/10",
+        "armenews.com — fiabilité 6/10"
       ],
       "url": "https://www.armenews.com/larmenie-ne-franchira-pas-la-ligne-qui-pourrait-entrainer-des-sanctions-a-son-encontre-en-raison-de-liran/",
       "published_at": "2026-10-02T08:36:12+02:00",
@@ -56249,14 +56250,15 @@
       "bucket": "2 octobre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Des centaines de personnes arrêtées par la police de Delhi près de Jantar Mantar lors d'une manifestation contre la CEC Gyanesh Kumar ; sécurité renforcée au parc Shivaji de Mumbai | EN DIRECT. Suivez le blog LIVE de The Hindu pour connaître les dernières mises à jour sur la querelle concernant les demandes de démission de la CEC Gyanesh Kumar, alors que le CJP et l'opposition organisent des manifestations séparées contre l'organisme électoral.",
+      "summary": "Des centaines de personnes arrêtées par la police de Delhi près de Jantar Mantar lors d'une manifestation contre la CEC Gyanesh Kumar ; manifestants se rassemblent au parc Shivaji de Mumbai | EN DIRECT. Suivez le blog LIVE de The Hindu pour connaître les dernières mises à jour sur la querelle concernant les demandes de démission de la CEC Gyanesh Kumar, alors que le CJP et l'opposition organisent des manifestations séparées contre l'organisme électoral.",
       "sources": [
         "The Hindu — fiabilité 7/10"
       ],
       "url": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-row-cjp-opposition-parties-to-organise-separate-protests-live-updates-october-2-2026/article71535655.ece",
-      "published_at": "2026-10-02T03:50:00+02:00",
+      "published_at": "2026-10-02T05:29:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -57454,6 +57456,94 @@
       ],
       "url": "https://gabonmediatime.com/africa-risk-forum-noel-mboumba-plaide-pour-un-gabon-qui-transforme-ses-ressources-et-renforce-sa-souverainete-economique/",
       "published_at": "2026-10-02T04:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Haute Cour autorise les partis arabes à se présenter aux élections, annulant ainsi l'interdiction de la Commission électorale centrale. La Haute Cour de justice rejette à l'unanimité la décision de la Commission électorale centrale d'interdire à l'ensemble de la Liste commune des partis à majorité arabe de se présenter aux prochaines élections, affirmant que …",
+      "sources": [
+        "The Times of Israel — fiabilité 8/10"
+      ],
+      "url": "https://www.timesofisrael.com/liveblog_entry/high-court-lets-arab-parties-run-in-election-reversing-central-election-committee-ban/",
+      "published_at": "2026-10-02T05:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un grand jury a inculpé un ancien responsable de la santé de l'Idaho pour détournement de fonds. Un juge a abandonné l'affaire. Deux jours après qu'un grand jury a inculpé un ancien employé du gouvernement de l'État de l'Idaho pour deux chefs d'accusation de détournement de fonds publics, un juge local a rejeté l'affaire – à la suite d'une demande du procureur.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/us/articles/grand-jury-indicted-ex-idaho-101040402.html",
+      "published_at": "2026-10-02T05:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Ce lycée SC est classé parmi les meilleures écoles publiques des États-Unis. Dans un récent rapport national, un lycée public de Caroline du Sud a été nommé non seulement le meilleur de son État, mais également l'un des meilleurs d'Amérique. Niche. com, une société d'analyse de données, chaque année…",
+      "sources": [
+        "The State — fiabilité 6/10"
+      ],
+      "url": "https://www.thestate.com/news/local/education/article317438306.html",
+      "published_at": "2026-10-02T00:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Bruce Baird, le pilier libéral qui s'est battu pour les réfugiés, est décédé à l'âge de 84 ans. Bruce Baird, qui représentait le Parti libéral en Nouvelle-Galles du Sud et au Parlement fédéral, est resté dans les mémoires comme un « grand ami » par ceux qui l'ont connu.",
+      "sources": [
+        "The Sydney Morning Herald via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/other/bruce-baird-the-liberal-stalwart-who-fought-for-refugees-has-died-aged-84/ar-AA2doACi",
+      "published_at": "2026-10-02T05:12:27+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Bruce Baird, ancien député libéral fédéral et ministre de Nouvelle-Galles du Sud, décède à l'âge de 84 ans. Baird, père de l'ancien premier ministre de Nouvelle-Galles du Sud Mike Baird et de la journaliste Julia Baird, a contribué à remporter les Jeux olympiques de Sydney…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/australia-news/2026/oct/02/bruce-baird-former-federal-liberal-mp-and-nsw-minister-dies-aged-84",
+      "published_at": "2026-10-02T04:32:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
