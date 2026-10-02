@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T05:21:24.775434+02:00",
+  "generated_at": "2026-10-02T05:31:37.796524+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54431,6 +54431,27 @@
       ],
       "url": "https://baomoi.com/tong-thong-putin-bac-kha-nang-ngung-ban-voi-ukraine-c56178783.epi",
       "published_at": "2026-10-02T04:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Sénégal"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Sénégal : 400 milliards de FCFA et de nouvelles infrastructures pour refonder lapprovisionnement électrique. Le Sénégal prévoit d’investir près de 400 milliards de FCFA pour atteindre l’accès universel à l’électricité à l’horizon 2029. L’annonce a été faite jeudi 1er octobre à Dakar par le ministre de l’Énergie et du Pétrole, El Hadji Abdourahmane Diouf, lors d’un petit-déjeuner de presse consacré aux réformes et aux perspectives du secteur énergétique.",
+      "sources": [
+        "financialafrik.com — fiabilité 6/10"
+      ],
+      "url": "https://www.financialafrik.com/2026/10/02/senegal-400-milliards-de-fcfa-et-de-nouvelles-infrastructures-pour-refonder-lapprovisionnement-electrique/",
+      "published_at": "2026-10-02T05:00:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
