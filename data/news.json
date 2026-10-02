@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T09:37:56.964564+02:00",
+  "generated_at": "2026-10-02T09:48:06.912981+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -55406,6 +55406,62 @@
       ],
       "url": "https://www.msn.com/en-au/news/other/queensland-spent-17m-on-just-three-foster-carers/ar-AA2doTjA",
       "published_at": "2026-10-02T00:32:40+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Inflation en France : pourquoi la hausse des prix repart en septembre. Le chiffre repasse au-dessus d’un cap symbolique. En septembre, les prix à la consommation augmentent de 3,0 % sur un an en France, selon l’estimation provisoire publiée par l’Insee. En août, la …",
+      "sources": [
+        "MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/finance/économie/inflation-en-france-pourquoi-la-hausse-des-prix-repart-en-septembre/ar-AA2dp3IN",
+      "published_at": "2026-10-02T01:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L'inflation à Tokyo atteint 2,7% en septembre alors que certaines subventions prennent fin. L'inflation à la consommation à Tokyo s'est élevée à 2,7 % en septembre, dépassant les 2 % pour la première fois depuis décembre 2025, le prix des bento ayant bondi de 28,1 % sur un an. Prix à la consommation hors produits frais — …",
+      "sources": [
+        "The Japan Times — fiabilité 7/10"
+      ],
+      "url": "https://www.japantimes.co.jp/business/2026/10/02/economy/tokyo-inflation-september/",
+      "published_at": "2026-10-02T02:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Tamil Nadu suspend 2 fonctionnaires à cause de l'hindi sur un panneau routier, Staline s'en prend au gouvernement de TVK. Le gouvernement du Tamil Nadu a suspendu deux fonctionnaires pour l'utilisation de l'hindi sur un panneau routier de l'État, au milieu d'un conflit politique sur la politique bilingue établie par l'État. L'action du gouvernement…",
+      "sources": [
+        "ABP News via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/tamil-nadu-suspends-2-officials-over-hindi-on-highway-signboard-stalin-hits-out-at-tvk-govt/ar-AA2dozT5",
+      "published_at": "2026-10-02T01:57:04+02:00",
       "origin": "rss",
       "content_enriched": true
     },
