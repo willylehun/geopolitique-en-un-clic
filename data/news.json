@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:18:39.161580+02:00",
+  "generated_at": "2026-10-02T23:28:50.275814+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -13376,8 +13376,8 @@
       "published_at": "2026-09-27T13:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Pologne",
-        "France"
+        "France",
+        "Pologne"
       ]
     },
     {
@@ -25880,8 +25880,8 @@
         "International"
       ],
       "countries": [
-        "Pologne",
         "France",
+        "Pologne",
         "Ukraine"
       ],
       "period": "day",
@@ -60814,10 +60814,11 @@
       "category": "Géopolitique",
       "summary": "Le Mexique va proposer un projet de loi visant à lutter contre les contenus violents sur les réseaux sociaux après une attaque dans une école. MEXICO, 2 octobre - Le gouvernement mexicain prévoit de publier la semaine prochaine un projet de loi exigeant que les plateformes de médias sociaux suppriment les contenus incitant à la violence, a déclaré vendredi la présidente Claudia Sheinbaum. Lire …",
       "sources": [
-        "The Straits Times — fiabilité 7/10"
+        "The Straits Times — fiabilité 7/10",
+        "Reuters — fiabilité 9/10"
       ],
       "url": "https://www.straitstimes.com/world/mexico-to-propose-bill-to-curb-violent-social-media-content-after-school-attack",
-      "published_at": "2026-10-02T03:53:00+02:00",
+      "published_at": "2026-10-02T09:22:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -63520,6 +63521,101 @@
       ],
       "url": "https://www.bilan.ch/story/castel-romy-castel-remporte-une-victoire-judiciaire-a-singapour-212375124291",
       "published_at": "2026-10-02T13:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L'administration Trump rend la vie pire pour les agents de la TSA. Les agents de la TSA ne pourront plus s'asseoir pendant qu'ils vérifient vos documents de voyage aux postes de sécurité des aéroports après l'entrée en vigueur d'une nouvelle règle. L'agence, qui fait partie du Département de …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-administration-makes-life-worse-204950048.html",
+      "published_at": "2026-10-02T15:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Trump renonce à l'interdiction des exportations de diesel alors que le G7 libère ses réserves. le président Donald Trump (États-Unis) a déclaré vendredi que les États-Unis n'imposeraient pas d'interdiction d'exportation de diesel après que les pays du Groupe des Sept ont convenu de coordonner la libération de 100 millions de barils de pétrole et de produits pétroliers…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-backs-off-diesel-export-201626761.html",
+      "published_at": "2026-10-02T15:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "OpenAI révèle un autre hack du gouvernement australien. La violation récemment révélée fait suite à l'accès non autorisé d'un agent OpenAI au portail de statistiques australien Medicare.",
+      "sources": [
+        "Mashable — fiabilité 6/10"
+      ],
+      "url": "https://mashable.com/tech/openai-ai-agent-australia-government-hack-bushfire-data",
+      "published_at": "2026-10-02T16:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Chili"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Au Chili aussi, la jeunesse est dans la rue. Jeudi Premier octobre, c'était journée de mobilisation, au Chili. À Santiago et plusieurs villes du pays, lycéen. es et étudiant. es sont descendu. es dans la rue pour protester contre les annonces budgétaires du gouvernement d'extrême droite, au pouvoir depuis un an.",
+      "sources": [
+        "Revolution Permanente — fiabilité 6/10"
+      ],
+      "url": "https://www.revolutionpermanente.fr/Au-Chili-aussi-la-jeunesse-est-dans-la-rue",
+      "published_at": "2026-10-02T21:34:41+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Kazakhstan"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Kazakhstan : dans la vallée des data centers, le kWh est à 2,5 cents. Dans l’économie des data centers, le foncier compte, la fibre aussi. Mais depuis que l’intelligence artificielle multiplie les besoins en calcul, la variable décisive est devenue beaucoup plus élément …",
+      "sources": [
+        "L'EnerGeek via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/kazakhstan-dans-la-vallée-des-data-centers-le-kwh-est-à-25-cents/ar-AA2dqMZC",
+      "published_at": "2026-10-02T07:46:26+02:00",
       "origin": "rss",
       "content_enriched": true
     },
