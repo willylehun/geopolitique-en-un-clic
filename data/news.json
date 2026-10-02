@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:18:52.142071+02:00",
+  "generated_at": "2026-10-02T10:29:05.502261+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -981,8 +981,8 @@
         "Libye",
         "Mali",
         "Soudan",
-        "Émirats arabes unis",
-        "Algérie"
+        "Algérie",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "10 septembre 2026",
@@ -22729,8 +22729,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Iran",
+        "Émirats arabes unis",
         "États-Unis"
       ]
     },
@@ -23547,9 +23547,9 @@
       "countries": [
         "Maroc",
         "Qatar",
-        "Émirats arabes unis",
         "Arabie saoudite",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -27478,8 +27478,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -27568,8 +27568,8 @@
         "Asie"
       ],
       "countries": [
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -30018,9 +30018,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Arabie saoudite",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -30425,8 +30425,8 @@
         "Asie"
       ],
       "countries": [
-        "Émirats arabes unis",
-        "Inde"
+        "Inde",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -31682,9 +31682,9 @@
         "Asie"
       ],
       "countries": [
-        "Émirats arabes unis",
         "Iran",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33519,9 +33519,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Arabie saoudite",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -34202,8 +34202,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Iran",
+        "Émirats arabes unis",
         "États-Unis"
       ]
     },
@@ -35626,12 +35626,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Émirats arabes unis",
-        "Malawi"
+        "Malawi",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -37152,9 +37152,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Arabie saoudite",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -37822,8 +37822,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
-        "Arabie saoudite"
+        "Arabie saoudite",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -38096,9 +38096,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Arabie saoudite",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -38975,8 +38975,8 @@
         "Afrique"
       ],
       "countries": [
-        "Tunisie",
-        "Algérie"
+        "Algérie",
+        "Tunisie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -41856,9 +41856,9 @@
         "Asie"
       ],
       "countries": [
-        "Émirats arabes unis",
         "Arabie saoudite",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -42868,8 +42868,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
-        "Inde"
+        "Inde",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -47072,8 +47072,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -55591,7 +55591,8 @@
       "url": "https://guyanachronicle.com/2026/10/02/the-nazi-extermination-machine-was-real/",
       "published_at": "2026-10-02T02:05:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -55634,8 +55635,8 @@
     {
       "regions": [
         "Océanie",
-        "International",
-        "Asie"
+        "Asie",
+        "International"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -55675,8 +55676,8 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "Amérique du Nord",
         "International"
       ],
@@ -55693,8 +55694,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Tunisie",
         "Iran",
+        "Tunisie",
         "États-Unis"
       ]
     },
@@ -55717,8 +55718,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Iran",
+        "Émirats arabes unis",
         "États-Unis"
       ]
     },
@@ -55759,6 +55760,177 @@
       "countries": [
         "Yémen"
       ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Blocus des lycées : «Il faut garantir que tout acte violent sera suivi de sanctions immédiates», souligne François-Xavier Bellamy. «Il faut garantir que tout acte violent sera suivi de sanctions immédiates et visibles», a souligné François-Xavier Bellamy, vice-président des LR et eurodéputé, en …",
+      "sources": [
+        "CNEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.cnews.fr/france/2026-10-02/blocus-des-lycees-il-faut-garantir-que-tout-acte-violent-sera-suivi-de-sanctions",
+      "published_at": "2026-10-02T03:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Sánchez fait face à une sévère défaite dans la crise du logement en Espagne. Le gouvernement minoritaire de gauche espagnol, dirigé par le Premier ministre Pedro Sánchez, se dirige vers une défaite majeure lors du vote de deux décrets visant à résoudre la crise actuelle du logement.",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/sanchez-faces-a-major-defeat-in-spain-s-housing-crisis-li.3621769",
+      "published_at": "2026-10-02T03:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Plus de la moitié de l’Europe a été confrontée à un stress thermique intense en été, selon un observateur de l’UE. Un nombre record de 52 % de la population européenne a été confrontée à un stress thermique intense cet été, a déclaré vendredi l'organisme de surveillance du climat de l'UE, alors que le changement climatique a alimenté des vagues de chaleur généralisées et des dizaines de milliers de décès supplémentaires. L'Europe…",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/environment/20261002-europe-summer-heat-stress-eu-monitor",
+      "published_at": "2026-10-02T02:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les ventes de véhicules électriques en Inde ont presque doublé en septembre. Tata mène alors que VinFast et Maruti gagnent du terrain. Le marché indien des voitures électriques se développe rapidement, mais la montée en puissance de VinFast et Maruti Suzuki commence à remodeler la concurrence autour de Tata Motors et Mahindra…",
+      "sources": [
+        "Firstpost — fiabilité 6/10"
+      ],
+      "url": "https://www.firstpost.com/business/india-ev-sales-september-2026-tata-motors-vinfast-maruti-suzuki-14049902.html",
+      "published_at": "2026-10-02T02:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Marché boursier aujourd'hui : les contrats à terme sur le Dow, le S&P 500 et le Nasdaq augmentent avant le rapport sur les emplois clés alors que le pétrole se stabilise. Le rapport sur l'emploi du ministère du Travail de septembre, les prix du pétrole et les rendements obligataires étaient les principaux éléments à surveiller vendredi sur les marchés.",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-2-dow-sp-500-nasdaq-september-jobs-report-080623878.html",
+      "published_at": "2026-10-02T03:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La mer Noire est la plus dangereuse qu’elle ait été depuis le début de la guerre russe. Et cela étouffe les céréales mondiales. Les grèves contre les ports et les navires ont paralysé les routes maritimes, entraînant une baisse des exportations combinées de blé de la Russie et de l'Ukraine de 60 pour cent par rapport à l'année dernière. Les prix mondiaux du blé sont déjà en hausse depuis un an…",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/world/commercial-shipping-targeted-black-sea-9.7365129",
+      "published_at": "2026-10-02T03:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le constructeur australien de caravanes tombe en liquidation. Une entreprise australienne de caravanes est tombée en liquidation après presque 10 ans d'activité. Maverick Campers, qui opérait sous la société Fetch Business Solutions Pty Ltd, a nommé Yulia Petrenko …",
+      "sources": [
+        "nine.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.nine.com.au/australia-news/australian-caravan-maker-falls-into-liquidation-20261002-p612g4.html",
+      "published_at": "2026-10-02T02:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Jusqu'à présent, OpenAI a envoyé des notifications de comportement fragmentaire de l'IA à plus de 100 organisations. Aucun des cas de ce qu'OpenAI appelle « activité d'agent mal aligné » n'a été aussi grave que l'attaque Hugging Face jusqu'à présent, a déclaré la société dans un article de blog.",
+      "sources": [
+        "Gizmodo — fiabilité 6/10"
+      ],
+      "url": "https://gizmodo.com/openai-has-sent-notices-of-sketchy-ai-behavior-to-over-100-organizations-so-far-2000820702",
+      "published_at": "2026-10-02T00:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Italie",
+        "Portugal"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L’Italie en veut encore à Zidane, le Portugal s’en prend à Ronaldo. Les retrouvailles entre Zidane et l’Italie s’annoncent brûlantes, Ronaldo au cœur des critiques au Portugal et le Real réclame des énormes sanctions contre le Barça, retrouvez dans votre revue de pres …",
+      "sources": [
+        "Dailymotion via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/l-italie-en-veut-encore-à-zidane-le-portugal-s-en-prend-à-ronaldo/vi-AA2dposV",
+      "published_at": "2026-10-02T02:57:13+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
