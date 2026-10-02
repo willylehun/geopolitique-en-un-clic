@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:25:59.120788+02:00",
+  "generated_at": "2026-10-02T20:44:49.571694+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58412,6 +58412,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -60423,6 +60424,541 @@
       ],
       "url": "https://www.mediapart.fr/journal/fil-dactualites/021026/venezuela-fin-de-la-procedure-de-justice-contre-l-avocate-et-militante-rocio-san-miguel-parquet",
       "published_at": "2026-10-02T08:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "« Roulé à la vapeur » : un membre du Congrès prévient que les réactions négatives locales pourraient faire dérailler les efforts de sécurité nationale. La Virginie affirme que Washington a besoin d'un nouveau manuel de stratégie pour gagner l'adhésion de la communauté alors que les États-Unis se battent contre la Chine pour la domination technologique…",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6406056758112",
+      "published_at": "2026-10-02T13:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les États-Unis placent sur liste noire des Français accusés de financer le Hamas. Selon le service du ministère américain des Finances, chargé des sanctions, plusieurs Français ont participé pendant plusieurs années à un système ayant permis de collecter plus de deux millions de do …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/les-etats-unis-placent-sur-liste-noire-des-francais-accuses-de-financer-le-hamas-20261002",
+      "published_at": "2026-10-02T09:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Nouvelles sanctions routières : qu’est-ce que cela change pour vous ?. *Road rage*, téléphone au volant, alcool ou drogue… Les nouvelles mesures soulèvent de nombreuses questions chez les automobilistes. Quelles sont les limites à respecter ? Comment prouver une agressio …",
+      "sources": [
+        "L'Express — fiabilité 6/10"
+      ],
+      "url": "https://lexpress.mu/s/nouvelles-sanctions-routieres-quest-ce-que-cela-change-pour-vous-563202",
+      "published_at": "2026-10-02T00:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Emeutes lycéennes : « Il faut avoir un retour de sanctions pour les dégradations » lance Baptiste Gili. Tous les jours de la semaine, invités et chroniqueurs sont autour du micro d'Hélène Roué pour débattre des actualités du jour.",
+      "sources": [
+        "Dailymotion via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/emeutes-lycéennes-il-faut-avoir-un-retour-de-sanctions-pour-les-dégradations-lance-baptiste-gili/vi-AA2drzPg",
+      "published_at": "2026-10-02T12:56:57+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Ukraine a renvoyé 41 civils des territoires occupés par le poste frontière de Volyn en août et septembre, a indiqué le médiateur. Parmi les personnes renvoyées figuraient des personnes soumises à un traitement médical forcé et risquant d'être mobilisées par la Russie, selon le médiateur ukrainien des droits de l'homme, Dmytro Lubinets.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/ukraine-returned-41-civilians-occupied-172339597.html",
+      "published_at": "2026-10-02T12:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Décès et blessés lors d'une frappe aérienne russe sur Kharkiv. Selon les rapports officiels, au moins deux personnes ont été tuées lors d'une frappe aérienne russe sur la ville de Kharkiv, dans l'est de l'Ukraine. 28 autres personnes ont été blessées par des bombes planantes, selon l'armée régionale…",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/deaths-and-injuries-in-russian-airstrike-on-kharkiv-li.3622467",
+      "published_at": "2026-10-02T11:56:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les pays du G7 vont libérer 100 millions de barils de pétrole face à la flambée des prix du carburant. Cette annonce intervient après que les dirigeants du G7 ont tenu des négociations pour coordonner leur action sur les prix du carburant, après que les États-Unis ont intensifié la pression sur l'Europe pour qu'elle libère ses réserves stratégiques en menaçant d'exporter du diesel…",
+      "sources": [
+        "NDTV — fiabilité 6/10"
+      ],
+      "url": "https://www.ndtv.com/world-news/g7-nations-to-release-100-million-barrels-of-oil-amid-fuel-price-surge-12131779",
+      "published_at": "2026-10-02T13:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Abhijeet Dipke met en garde contre la manifestation du 10 octobre à Jantar Mantar et exige le départ de Gyanesh Kumar. Abhijeet Dipke a annoncé une manifestation le 10 octobre au Jantar Mantar de Delhi si la CEC Gyanesh Kumar ne démissionne pas.",
+      "sources": [
+        "CNBCTV18 — fiabilité 6/10"
+      ],
+      "url": "https://www.cnbctv18.com/india/abhijeet-dipke-warns-of-october-10-jantar-mantar-protest-demands-gyanesh-kumars-exit-20003752.htm",
+      "published_at": "2026-10-02T13:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'ancien CM du Bengale Mamata Banerjee soutient l'agitation du CJP visant à demander le retrait de la CEC Gyanesh Kumar. Banerjee avait également apporté en août son soutien à une manifestation du CJP à Jantar Mantar à Delhi concernant des irrégularités présumées dans l'examen médical d'entrée NEET.",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/news/india/ex-bengal-cm-mamata-banerjee-backs-cjp-agitation-seeking-removal-of-cec-gyanesh-kumar-14043577.html",
+      "published_at": "2026-10-02T12:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les promoteurs se disputent un terrain résidentiel d'une valeur de 2 milliards de dollars de Hong Kong à Ho Man Tin. Le seul site résidentiel inclus dans le dernier programme de vente de terrains du gouvernement de Hong Kong a suscité l'intérêt de nombreux promoteurs majeurs, avec 10 offres soumises avant midi…",
+      "sources": [
+        "South China Morning Post — fiabilité 6/10"
+      ],
+      "url": "https://www.scmp.com/business/companies/article/3369572/developers-vie-land-plum-hk2-billion-residential-site-ho-man-tin",
+      "published_at": "2026-10-02T12:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Irak déclare que 40 vols iraniens quotidiens sont autorisés à voler à destination et en provenance de Najaf. Les compagnies aériennes iraniennes, à l'exception de Mahan Air, sont autorisées à effectuer 40 vols quotidiens à destination et en provenance de l'aéroport international irakien de Najaf, a annoncé vendredi le bureau du Premier ministre irakien, à la suite d'une suspension de …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/middle-east/iraq-says-40-daily-iranian-flights-cleared-fly-najaf-2026-10-02/",
+      "published_at": "2026-10-02T11:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Ce que nous savons et ce que nous ne savons pas sur la manière dont l’Iran utilise la guerre asymétrique. Les dirigeants britanniques et américains ont laissé entendre, sans fournir de preuves, que l'Iran avait joué un rôle dans deux incidents de sécurité majeurs cette semaine, les arrestations près d'une base militaire dirigée par les États-Unis à …",
+      "sources": [
+        "Pioneer Press — fiabilité 6/10"
+      ],
+      "url": "https://www.twincities.com/2026/10/02/iran-asymmetric-warfare-explained/",
+      "published_at": "2026-10-02T13:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement fédéral arrête un employé du ministère de l'Énergie accusé d'avoir fait passer clandestinement des pièces de bombes et des technologies aux rebelles Houthis. Les autorités fédérales ont arrêté jeudi matin un employé du département américain de l'Énergie, l'accusant d'avoir tenté de fournir un soutien matériel aux Houthis, un groupe soutenu par l'Iran et désigné…",
+      "sources": [
+        "Tampa Free Press via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/feds-nab-energy-dept-worker-accused-of-smuggling-bomb-parts-and-tech-to-houthi-rebels/ar-AA2dr3rK",
+      "published_at": "2026-10-02T12:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le G7 va libérer 100 millions de barils de pétrole et de diesel après la menace d’interdiction des exportations du président Donald Trump (États-Unis). Le G7 a convenu de libérer 100 millions de barils de pétrole et de diesel dans le but d'atténuer les pressions sur l'offre qui ont fait monter en flèche les prix. Le groupe des économies avancées, dont les États-Unis, a déclaré que…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo",
+      "published_at": "2026-10-02T12:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les vendredis Fuel Up sont de retour | Voici comment les membres d'Amazon Prime peuvent bénéficier d'une réduction de 20 cents par gallon d'essence. Amazon Prime ramène son accord sur le gaz Fuel Up Fridays d'octobre à janvier, aidant ainsi ses membres à économiser 20 cents par gallon d'essence. (Photo AP)…",
+      "sources": [
+        "ABC10 — fiabilité 6/10"
+      ],
+      "url": "https://www.abc10.com/article/news/nation-world/fuel-up-fridays-save-20-cents-per-gallon-gas-amazon-prime-earnify/507-631f02b4-57a1-4f03-92a9-ada261779a34",
+      "published_at": "2026-10-02T12:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "L’accord commercial Inde-MERCOSUR couvrira probablement les services. L'Inde et le MERCOSUR, bloc sud-américain, devraient inclure les services dans leur accord commercial élargi, tandis que les deux parties envisagent également un cadre de coopération spécial pour les minéraux critiques, …",
+      "sources": [
+        "The New Indian Express via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/money/economy/india-mercosur-trade-deal-likely-to-cover-services/ar-AA2drs5g",
+      "published_at": "2026-10-02T12:21:20+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La Garde côtière américaine intercepte un navire transportant du pétrole en contrebande à destination de Cuba. La Garde côtière américaine affirme avoir arrêté un cargo transportant secrètement du carburant vers Cuba, le dernier navire arrêté en train de tenter de contourner le blocus américain sur l'île. Le cargo \"Grace\" était…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/us/articles/u-coast-guard-intercepts-vessel-165254646.html",
+      "published_at": "2026-10-02T11:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Cuba",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les garde-côtes américains affirment avoir intercepté un navire transportant du carburant vers Cuba. Les États-Unis affirment qu'un navire soupçonné d'utiliser des tactiques courantes de « flotte noire » a été arraisonné et emmené au Mexique alors que l'embargo se poursuit…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/world/2026/oct/02/us-coast-guard-says-it-has-intercepted-ship-carrying-fuel-to-cuba",
+      "published_at": "2026-10-02T10:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Cuba",
+        "Mexique",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Mexique va proposer un projet de loi visant à lutter contre les contenus violents sur les réseaux sociaux après une attaque dans une école. MEXICO, 2 octobre - Le gouvernement mexicain prévoit de publier la semaine prochaine un projet de loi exigeant que les plateformes de médias sociaux suppriment les contenus incitant à la violence, a déclaré vendredi la présidente Claudia Sheinbaum. Lire …",
+      "sources": [
+        "The Straits Times — fiabilité 7/10"
+      ],
+      "url": "https://www.straitstimes.com/world/mexico-to-propose-bill-to-curb-violent-social-media-content-after-school-attack",
+      "published_at": "2026-10-02T03:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Mexique"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Guerre en Ukraine : le pari risqué du président Donald Trump (États-Unis) d’assouplir les sanctions contre la Russie. Le président des États-Unis veut alléger les sanctions pesant sur Moscou contre la libération de prisonniers politiques. Ce marchandage, censé bâtir la paix, pourrait soulever l’hostilité de l’Ukraine …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/10/02/guerre-en-ukraine-le-pari-risque-de-donald-trump-d-assouplir-les-sanctions-contre-la-russie_6787161_3210.html",
+      "published_at": "2026-10-02T09:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : Kiev plongée «dans une situation dramatique» à cause des frappes russes, selon le maire Vitali Klitschko. «La capitale se trouve dans une situation extrêmement dramatique et il n’est plus possible de prétendre que nous pouvons vivre aujourd’hui comme en temps de paix ! L’ennemi saccage Kiev», a écrit Vita …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-kiev-plongee-dans-une-situation-dramatique-a-cause-des-frappes-russes-selon-le-maire-vitali-klitschko-20261002",
+      "published_at": "2026-10-02T07:57:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Espagne: les députés rejettent les textes sur le logement, camouflet pour Pedro Sánchez. Les députés espagnols ont rejeté vendredi les deux textes présentés par le gouvernement pour tenter d'endiguer la crise du logement, infligeant un camouflet au Premier ministre socialiste Pedro Sánche …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/info-en-continu/20261002-espagne-vote-à-haut-risque-sur-le-logement-pour-le-gouvernement-de-pedro-sánchez",
+      "published_at": "2026-10-02T07:42:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "« Notre ambition est d’être souverain sur l’ensemble du cycle technologique » : l’Ukraine se dote d’une capacité de frappe balistique. DÉCRYPTAGE - L’armée ukrainienne a utilisé pour la première fois en opération un missile balistique de courte portée FP-7.",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/notre-ambition-est-d-etre-souverain-sur-l-ensemble-du-cycle-technologique-l-ukraine-se-dote-d-une-capacite-de-frappe-balistique-20261002",
+      "published_at": "2026-10-02T11:36:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Cuba"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les trois devises commencent la journée de vendredi avec des hausses de prix à Cuba. Le dollar atteint 774 CUP, l'euro 875 CUP et la MLC 504 CUP sur le marché informel. Voici les chiffres du vendredi 2 octobre 2026.",
+      "sources": [
+        "fr.cibercuba — fiabilité 6/10"
+      ],
+      "url": "https://fr.cibercuba.com/noticias/2026-10-02-u1-e129488-s27061-nid341704-tres-divisas-arrancan-jornada-viernes-subidas-precio",
+      "published_at": "2026-10-02T05:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Arabie saoudite"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Arabie saoudite accuse les Houthis d'avoir attaqué la ville sainte de Médine. L'Arabie saoudite a accusé jeudi les Houthis d'avoir visé une infrastructure électrique alimentant la mosquée du prophète dans la ville sainte de Médine mardi, deuxième accusation du genre après celle …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/moyen-orient/20261002-l-arabie-saoudite-accuse-les-houthis-d-avoir-attaqué-la-ville-sainte-de-médine",
+      "published_at": "2026-10-02T02:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Arménie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le SSN dément l’infiltration de plusieurs saboteurs azerbaïdjanais en Arménie. Le Service de sécurité nationale (SSN) arménien a qualifié d’« infondées » les informations faisant état de l’infiltration de plusieurs saboteurs azerbaïdjanais sur le territoire de la République. Dan …",
+      "sources": [
+        "courrier — fiabilité 6/10"
+      ],
+      "url": "http://courrier.am/le-ssn-dement-linfiltration-de-plusieurs-saboteurs-azerbaidjanais-en-armenie",
+      "published_at": "2026-10-02T07:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
