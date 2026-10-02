@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:49:47.928271+02:00",
+  "generated_at": "2026-10-02T11:00:00.344993+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -602,8 +602,8 @@
         "Reuters"
       ],
       "countries": [
-        "Égypte",
         "Afrique du Sud",
+        "Égypte",
         "Éthiopie"
       ]
     },
@@ -11694,8 +11694,8 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -11709,8 +11709,8 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Égypte",
-        "Israël"
+        "Israël",
+        "Égypte"
       ]
     },
     {
@@ -12440,8 +12440,8 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Allemagne",
-        "Grèce"
+        "Grèce",
+        "Allemagne"
       ]
     },
     {
@@ -18819,8 +18819,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Allemagne",
-        "Grèce"
+        "Grèce",
+        "Allemagne"
       ]
     },
     {
@@ -23406,13 +23406,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Allemagne",
-        "Kazakhstan"
+        "Kazakhstan",
+        "Allemagne"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -27716,8 +27716,8 @@
         "International"
       ],
       "countries": [
-        "Allemagne",
         "Vatican",
+        "Allemagne",
         "France"
       ],
       "period": "day",
@@ -33834,8 +33834,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "Asie"
+        "Asie",
+        "Amérique du Sud"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33851,8 +33851,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Argentine",
-        "Japon"
+        "Japon",
+        "Argentine"
       ]
     },
     {
@@ -34791,13 +34791,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Allemagne",
-        "Kazakhstan"
+        "Kazakhstan",
+        "Allemagne"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38345,10 +38345,10 @@
       "content_enriched": true,
       "countries": [
         "Qatar",
-        "Égypte",
         "Inde",
         "Iran",
         "Israël",
+        "Égypte",
         "États-Unis"
       ]
     },
@@ -38931,8 +38931,8 @@
         "International"
       ],
       "countries": [
-        "Allemagne",
         "Lituanie",
+        "Allemagne",
         "Ukraine"
       ],
       "period": "day",
@@ -40283,8 +40283,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Afrique"
+        "Afrique",
+        "Europe"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -40299,8 +40299,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Allemagne",
-        "Namibie"
+        "Namibie",
+        "Allemagne"
       ]
     },
     {
@@ -42915,8 +42915,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -42931,8 +42931,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Allemagne",
-        "Thaïlande"
+        "Thaïlande",
+        "Allemagne"
       ]
     },
     {
@@ -45560,8 +45560,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "Amérique du Nord",
         "International"
       ],
@@ -45578,8 +45578,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Allemagne",
         "Japon",
+        "Allemagne",
         "États-Unis"
       ]
     },
@@ -45947,8 +45947,8 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Arménie",
         "Turquie",
+        "Arménie",
         "États-Unis"
       ],
       "period": "day",
@@ -48133,8 +48133,8 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "Amérique du Nord",
         "International"
       ],
@@ -48151,8 +48151,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Égypte",
         "Iran",
+        "Égypte",
         "États-Unis"
       ]
     },
@@ -49571,8 +49571,8 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "Amérique du Nord",
         "International"
       ],
@@ -49589,8 +49589,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Égypte",
         "Iran",
+        "Égypte",
         "États-Unis"
       ]
     },
@@ -50199,13 +50199,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Allemagne",
-        "Irak"
+        "Irak",
+        "Allemagne"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -55763,8 +55763,8 @@
     },
     {
       "regions": [
-        "International",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -56013,7 +56013,8 @@
       "url": "https://www.msn.com/fr-fr/actualite/other/budget-2027-la-copie-du-gouvernement-laisse-institutions-et-entreprises-sceptiques/ar-AA2dpoI3",
       "published_at": "2026-10-02T03:21:10+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -56157,6 +56158,182 @@
       ],
       "url": "https://www.epochtimes.fr/royaume-uni-andy-burnham-ouvre-la-porte-a-un-retour-dans-lunion-europeenne-et-evoque-un-nouveau-referendum-3360270.html",
       "published_at": "2026-10-02T00:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les prix du diesel en NI sont à leur plus haut niveau depuis le début de la guerre en Iran. Les prix du diesel en Irlande du Nord sont à leur plus haut niveau depuis le début du conflit iranien, selon les données du Conseil des consommateurs. Il montre qu'au cours de la semaine dernière, le prix moyen d'un litre de diesel…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/c64g7gn4v99go",
+      "published_at": "2026-10-02T03:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irlande",
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"La règle en matière d'impôt sur les successions du HMRC a été supprimée dans les plans de demi-tour avec frais de 20 %\". Markus Campbell-Savours a exhorté le gouvernement à abandonner les projets visant à supprimer l'aide à la propriété agricole …",
+      "sources": [
+        "YorkshireLive via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/hmrc-inheritance-tax-rule-scrapped-in-20pc-charge-u-turn-plans/ar-AA2dp7ei",
+      "published_at": "2026-10-02T03:35:41+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"Allégations de Palace on Trillanes : 'Acte de trahison' si prouvé\". Claire Castro, attachée de presse du Palais, a déclaré que les accusations de l'ancien sénateur Antonio Trillanes IV contre la vice-présidente Sara Duterte selon lesquelles elle aurait reçu de l'argent du gouvernement chinois étaient un « acte de …",
+      "sources": [
+        "The Manila Times — fiabilité 6/10"
+      ],
+      "url": "https://www.manilatimes.net/2026/10/02/news/palace-on-trillanes-claims-act-of-treason-if-proven/2437838",
+      "published_at": "2026-10-02T03:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le premier acheteur mondial de GNL ne voit pas l'approvisionnement du Qatar revenir bientôt. Alors que les flux de GNL transitant par Ormuz en provenance du Qatar et des Émirats arabes unis ont augmenté en septembre pour atteindre leur plus haut niveau depuis le début de la guerre en Iran, le transit est toujours 80 % inférieur à février, selon Kpler.",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/world/world-s-top-lng-buyer-doesn-t-see-qatar-supply-coming-back-soon-article-14043356.html",
+      "published_at": "2026-10-02T02:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Qatar",
+        "Iran",
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des centaines de personnes arrêtées par la police de Delhi près de Jantar Mantar lors d'une manifestation contre la CEC Gyanesh Kumar ; sécurité renforcée au parc Shivaji de Mumbai | EN DIRECT. Suivez le blog LIVE de The Hindu pour connaître les dernières mises à jour sur la querelle concernant les demandes de démission de la CEC Gyanesh Kumar, alors que le CJP et l'opposition organisent des manifestations séparées contre l'organisme électoral.",
+      "sources": [
+        "The Hindu — fiabilité 7/10"
+      ],
+      "url": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-row-cjp-opposition-parties-to-organise-separate-protests-live-updates-october-2-2026/article71535655.ece",
+      "published_at": "2026-10-02T03:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des militants prévoient d'intenter une action en justice contre l'interdiction faite par la police d'entrer dans la zone de sécurité proche de l'exposition d'armes de Perth. En vertu des nouvelles lois de l'État de Washington, quiconque défie une mesure d'exclusion s'expose à une amende maximale de 36 000 dollars et à trois ans de prison…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/australia-news/2026/oct/02/activists-plan-legal-action-against-police-ban-on-entering-security-zone-near-perth-weapons-expo",
+      "published_at": "2026-10-02T03:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : l’intensité des frappes russes pourrait faire plonger l’économie du pays. Ports, infrastructures énergétiques, aciéries, Internet… les bombardements mettent à mal des pans entiers de l’activité ukrainienne.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/10/02/guerre-en-ukraine-l-intensite-des-frappes-russes-pourrait-faire-plonger-l-economie-du-pays_6787117_3210.html",
+      "published_at": "2026-10-02T03:30:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Congo (RDC)",
+        "Rwanda"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le chef de la diplomatie française en RDC: une visite à triple dimension diplomatique, humanitaire et sanitaire. Après sa dernière visite éclair au lendemain de l’offensive de la rébellion de l’AFC/M23, soutenue par le Rwanda, offensive qui avait conduit à l’occupation de la ville de Goma, chef-lieu de la provin …",
+      "sources": [
+        "Actualite.cd — fiabilité 7/10"
+      ],
+      "url": "https://actualite.cd/2026/10/02/le-chef-de-la-diplomatie-francaise-en-rdc-une-visite-triple-dimension-diplomatique",
+      "published_at": "2026-10-02T02:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Gabon"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Gabon : Fortescue Belinga pose la première pierre de son futur siège provincial à Makokou. Fortescue Belinga renforce son implantation dans l'Ogooué-Ivindo. L'entreprise a procédé, le mardi 29 septembre 2026 à Makokou, à la pose de la première pierre de son futur siège social provincial, an …",
+      "sources": [
+        "Info241 via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/gabon-fortescue-belinga-pose-la-première-pierre-de-son-futur-siège-provincial-à-makokou/ar-AA2dp9pE",
+      "published_at": "2026-10-02T02:13:10+02:00",
       "origin": "rss",
       "content_enriched": true
     },
