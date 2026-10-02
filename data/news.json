@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:28:50.275814+02:00",
+  "generated_at": "2026-10-02T23:39:05.759453+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -63183,7 +63183,8 @@
       "category": "Géopolitique",
       "summary": "La criminalité, les enlèvements et les attaques de drones sont signalés par l'avertissement américain concernant la région frontalière. L'ambassade américaine a signalé des attaques de drones près de la frontière entre la Colombie et le Venezuela, exhortant les Américains à éviter le Norte de Santander en raison des enlèvements et du conflit.",
       "sources": [
-        "Fox News — fiabilité 6/10"
+        "Fox News — fiabilité 6/10",
+        "WFMD-AM — fiabilité 6/10"
       ],
       "url": "https://www.foxnews.com/travel/crime-kidnappings-drone-attacks-flagged-us-warning-border-region",
       "published_at": "2026-10-02T15:36:00+02:00",
@@ -63617,6 +63618,138 @@
       "url": "https://www.msn.com/fr-fr/actualite/other/kazakhstan-dans-la-vallée-des-data-centers-le-kwh-est-à-25-cents/ar-AA2dqMZC",
       "published_at": "2026-10-02T07:46:26+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Une ingérence politique claire : les Emirats menacent l'Angleterre en cas de sanctions pour Manchester City. Alors que Manchester City risque très gros pour ne pas avoir respecté les règles financières de la Premier League. Des sanctions très lourdes allant jusqu'à la relégation du club pourraient être infli …",
+      "sources": [
+        "Walfoot.be via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-be/sport/football/une-ingérence-politique-claire-les-emirats-menacent-l-angleterre-en-cas-de-sanctions-pour-manchester-city/ar-AA2dr8Tw",
+      "published_at": "2026-10-02T13:54:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le leader des sociaux-démocrates suédois va faire une nouvelle tentative pour former un gouvernement. Le président du Parlement suédois a déclaré vendredi qu'il avait demandé à la leader des sociaux-démocrates Magdalena Andersson de tenter une nouvelle fois de former un gouvernement, quelques jours après l'échec d'une première tentative.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20261002-swedish-social-democrats-leader-to-make-new-bid-to-form-government",
+      "published_at": "2026-10-02T11:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Oups ! le président Donald Trump (États-Unis) a amplifié le compte qui l'a traité de pédophile. Le président Trump a amplifié un message sur Truth Social à partir d'un compte X fonctionnant sous le personnage de John F. Kennedy Jr. qui affirmait que « des milliers d'Iraniens » descendaient dans la rue pour « prendre…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/oops-trump-amplified-account-called-172137629.html",
+      "published_at": "2026-10-02T12:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le gendre de Trump, Jared Kushner, critique CNN pour ses « fausses » allégations selon lesquelles il serait lié à des sociétés d'armement israéliennes. Jared Kushner a riposté à CNN après que la chaîne ait soulevé des questions éthiques sur ses activités commerciales à l'étranger et son travail au sein de l'administration du président Donald Trump (États-Unis).",
+      "sources": [
+        "Daily Mail via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/news/australia/trumps-son-in-law-jared-kushner-bashes-cnn-over-false-claims-hes-tied-to-israeli-arms-firms/ar-AA2drtby",
+      "published_at": "2026-10-02T16:15:59+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement du Queensland rejette la pétition visant à remplacer tous les panneaux d'arrêt par des panneaux de passage. La pétition affirmait que « exiger que les véhicules s'arrêtent complètement n'a presque toujours aucune importance en matière de sécurité ».",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/money/markets/queensland-government-rejects-petition-to-change-all-stop-signs-to-give-way-signs/ar-AA2drZP0",
+      "published_at": "2026-10-02T16:07:18+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Irruptive Metals engage un « groupe commercial indépendant » en tant que teneur de marché. Irruptive Metals Corp. (TSXV : IRR) (« Irruptive Metals » ou la « Société »), une société émergente d'exploration de cuivre-or axée sur des projets à fort potentiel au Chili, annonce avoir engagé…",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/irruptive-metals-engages-independent-trading-210000636.html",
+      "published_at": "2026-10-02T07:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chili"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Bull Fire près de la frontière californienne marque le 6ème incendie dans les collines de Reno en 2 mois. RENO, Nevada—Un incendie de forêt près de la frontière entre la Californie (États-Unis) et le Nevada marque le sixième incendie dans les collines au-dessus de Reno au cours des deux derniers mois.",
+      "sources": [
+        "SFGATE — fiabilité 6/10"
+      ],
+      "url": "https://www.sfgate.com/renotahoe/article/bull-fire-reno-verdi-22460140.php",
+      "published_at": "2026-10-02T16:07:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
