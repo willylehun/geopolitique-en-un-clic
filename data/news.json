@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:47:45.302419+02:00",
+  "generated_at": "2026-10-02T22:58:00.266334+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58412,7 +58412,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -60725,7 +60724,8 @@
         "KARE 11 — fiabilité 6/10",
         "KING 5 — fiabilité 6/10",
         "WNEP — fiabilité 6/10",
-        "11Alive — fiabilité 6/10"
+        "11Alive — fiabilité 6/10",
+        "10tv.com — fiabilité 6/10"
       ],
       "url": "https://www.abc10.com/article/news/nation-world/fuel-up-fridays-save-20-cents-per-gallon-gas-amazon-prime-earnify/507-631f02b4-57a1-4f03-92a9-ada261779a34",
       "published_at": "2026-10-02T12:27:00+02:00",
@@ -63091,7 +63091,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -63103,6 +63104,166 @@
       ],
       "url": "https://www.msn.com/en-us/money/economy/amazon-expands-prime-settlement-payouts-do-you-qualify/ar-AA2dr8E9",
       "published_at": "2026-10-02T15:24:24+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le NUJ attire l’attention du gouvernement sur les écoles et les routes déplorables de Cross River. Le Syndicat nigérian des journalistes, NUJ, a exprimé son inquiétude face à l'état manifestement déplorable des écoles publiques de l'État. Attirant l'attention de…",
+      "sources": [
+        "Daily Post Nigeria — fiabilité 6/10"
+      ],
+      "url": "https://dailypost.ng/2026/10/02/nuj-draws-govts-attention-to-deplorable-schools-roads-in-cross-river/",
+      "published_at": "2026-10-02T15:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Un hiver maussade à venir ? Les États de l'UE ont demandé de préparer des économies de gaz et d'électricité. Des sonnettes d’alarme retentissent concernant les prix du carburant dans toute l’UE. Le coût moyen du diesel par litre est bien supérieur à 2 €, alors qu'en octobre de l'année dernière, il était d'environ 1,50 €. Même avant ce dernier pic,…",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/tv-shows/talking-europe/20261002-a-grim-winter-ahead-eu-states-asked-to-prepare-gas-and-electricity-savings",
+      "published_at": "2026-10-02T07:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Nouvelles; Le Japon impose des sanctions à la Russie, ciblant les navires de la flotte fantôme ; Le Japon impose des sanctions à la Russie, ciblant les navires de la flotte fantôme. Des nouvelles du Japon. Politique 2 octobre 2026 22:07 …",
+      "sources": [
+        "Nippon.com — fiabilité 6/10"
+      ],
+      "url": "https://www.nippon.com/en/news/yjj2026100200901/",
+      "published_at": "2026-10-02T03:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Japon",
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La criminalité, les enlèvements et les attaques de drones sont signalés par l'avertissement américain concernant la région frontalière. L'ambassade américaine a signalé des attaques de drones près de la frontière entre la Colombie et le Venezuela, exhortant les Américains à éviter le Norte de Santander en raison des enlèvements et du conflit.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/travel/crime-kidnappings-drone-attacks-flagged-us-warning-border-region",
+      "published_at": "2026-10-02T15:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Colombie",
+        "Venezuela",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Le salaire minimum de l’État de Washington atteindra près de 18 dollars de l’heure en 2027. La loi de l’État oblige le ministère du Travail et de l’Industrie à ajuster chaque année le salaire minimum en fonction de l’inflation. Pour ce faire, il utilise les données de consommation du Bureau fédéral des statistiques du travail…",
+      "sources": [
+        "KUOW — fiabilité 6/10"
+      ],
+      "url": "https://www.kuow.org/economy/2026-10-02/was-nation-high-minimum-wage-rising-to-nearly-18-an-hour-in-2027",
+      "published_at": "2026-10-02T15:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« « Assurez-vous que les républicains gagnent » : tumulte au DOJ alors que les ordres descendants ébranlent les enquêteurs. Les enquêteurs fédéraux sont agités alors que l'administration Trump fait pression sur le FBI et le ministère de la Justice pour qu'ils produisent des actes d'accusation liés aux fausses affirmations du président Donald Trump (États-Unis) selon lesquelles les élections de 2020 ont été…",
+      "sources": [
+        "Raw Story — fiabilité 6/10"
+      ],
+      "url": "https://www.rawstory.com/fbi-kash-patel-election-new/",
+      "published_at": "2026-10-02T12:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Amazon va investir 1 milliard de dollars sur cinq ans dans les communautés de centres de données aux États-Unis. Amazon Web Services a annoncé un investissement d'un milliard de dollars sur cinq ans dans les communautés de centres de données américains afin de répondre aux préoccupations locales en matière d'environnement et de services publics.",
+      "sources": [
+        "Bilyonaryo — fiabilité 6/10"
+      ],
+      "url": "https://bilyonaryo.com/amazon-to-invest-1-billion-over-five-years-in-us-data-center-communities/",
+      "published_at": "2026-10-02T15:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Lettonie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "En Lettonie, la langue russe au cœur des fractures d’une société en crise d’identité. Plus de trente ans après l’implosion du bloc soviétique, le pays continue de se diviser autour de la pratique du letton et du russe. A l’approche des législatives du 3 octobre, le Kremlin tente d'inst …",
+      "sources": [
+        "Libération — fiabilité 6/10"
+      ],
+      "url": "https://www.liberation.fr/international/europe/en-lettonie-la-langue-russe-au-coeur-des-fractures-dune-societe-en-crise-didentite-20261002_6Y2LUHC43VGHJGY67R725AZPH4/",
+      "published_at": "2026-10-02T11:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
