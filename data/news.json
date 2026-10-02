@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:05:19.416233+02:00",
+  "generated_at": "2026-10-02T21:15:36.695812+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58192,7 +58192,7 @@
         "CBS News — fiabilité 7/10"
       ],
       "url": "https://www.yahoo.com/news/politics/articles/trump-vows-iran-war-end-103025129.html",
-      "published_at": "2026-10-02T08:46:00+02:00",
+      "published_at": "2026-10-02T14:04:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -60550,6 +60550,7 @@
     {
       "regions": [
         "Amérique du Nord",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -60652,7 +60653,8 @@
       "category": "Géopolitique",
       "summary": "Ce que nous savons et ce que nous ne savons pas sur la manière dont l’Iran utilise la guerre asymétrique. Les dirigeants britanniques et américains ont laissé entendre, sans fournir de preuves, que l'Iran avait joué un rôle dans deux incidents de sécurité majeurs cette semaine, les arrestations près d'une base militaire dirigée par les États-Unis à …",
       "sources": [
-        "Pioneer Press — fiabilité 6/10"
+        "Pioneer Press — fiabilité 6/10",
+        "Boston Herald — fiabilité 6/10"
       ],
       "url": "https://www.twincities.com/2026/10/02/iran-asymmetric-warfare-explained/",
       "published_at": "2026-10-02T13:05:00+02:00",
@@ -60731,6 +60733,7 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
+        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -61546,7 +61549,8 @@
       "category": "Géopolitique",
       "summary": "Le dernier débat présidentiel au Brésil annulé après des décisions de justice. Le débat présidentiel télévisé le plus important du Brésil a été annulé trois jours avant l'une des élections les plus polarisées de l'histoire récente du pays.",
       "sources": [
-        "Yahoo — fiabilité 6/10"
+        "Yahoo — fiabilité 6/10",
+        "UPI — fiabilité 6/10"
       ],
       "url": "https://www.yahoo.com/news/world/articles/brazil-final-presidential-debate-canceled-180548298.html",
       "published_at": "2026-10-02T13:05:00+02:00",
@@ -61621,15 +61625,17 @@
       ],
       "countries": [
         "Irak",
-        "États-Unis"
+        "États-Unis",
+        "Iran"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "Sanctions américaines : exception accordée pour les vols iraniens vers la ville sainte de Najaf en Irak L'Orient-Le Jour",
+      "summary": "Sanctions américaines: exception accordée pour les vols iraniens vers la ville sainte de Najaf en Irak. Les compagnies aériennes iraniennes, sanctionnées par les États-Unis, vont pouvoir reprendre la liaison entre l’Iran et la ville sainte chiite de Najaf, en Irak, a annoncé vendredi le bureau du …",
       "sources": [
-        "L'Orient-Le Jour — fiabilité 6/10"
+        "L'Orient-Le Jour — fiabilité 6/10",
+        "Mediapart — fiabilité 6/10"
       ],
       "url": "https://www.lorientlejour.com/article/1549502/sanctions-americaines-exception-accordee-pour-les-vols-iraniens-vers-la-ville-sainte-de-najaf-en-irak.html",
       "published_at": "2026-10-02T18:34:12+02:00",
@@ -61717,6 +61723,239 @@
       ],
       "url": "https://www.ledauphine.com/politique/2026/10/02/etats-unis-l-ambassade-au-bresil-suspend-ses-services-avant-les-elections",
       "published_at": "2026-10-02T07:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "« Plus de deux millions de dollars » : Washington place sur liste noire deux Français accusés de financer le Hamas. Les États-Unis ont placé vendredi sous sanctions économiques deux Français et les associations qu’ils ont créées, les accusant d’avoir collecté des fonds sous couvert d’opérations humanitaires pour le …",
+      "sources": [
+        "Le Parisien via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/plus-de-deux-millions-de-dollars-washington-place-sur-liste-noire-deux-français-accusés-de-financer-le-hamas/ar-AA2dqE5e",
+      "published_at": "2026-10-02T09:47:29+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Pétrole : le G7 répond à l'ultimatum du président Donald Trump (États-Unis) par un déblocage coordonné de 100 millions de barils. En réunion à Bruxelles, la France aurait proposé de débloquer 100 millions de barils, conjointement avec l'AIE, pour répondre à la hausse des prix du carburant. Les pays de l'UE mettent en garde Washi …",
+      "sources": [
+        "Les Echos — fiabilité 6/10"
+      ],
+      "url": "https://www.lesechos.fr/monde/europe/petrole-sous-la-pression-de-trump-la-france-a-la-manoeuvre-pour-debloquer-des-stocks-strategiques-de-diesel-et-de-brut-2254817",
+      "published_at": "2026-10-02T13:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Pourquoi y a-t-il tant de fusillades de masse en Afrique du Sud ?. Le pays a été secoué après que près de 30 personnes ont été tuées dans deux fusillades de masse distinctes. Les Sud-Africains exigent une plus grande intervention du gouvernement.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/02/world/africa/south-africa-mass-shootings-guns.html",
+      "published_at": "2026-10-02T00:52:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Afrique du Sud"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les combats s’intensifient au Yémen, suscitant de nouvelles craintes d’une guerre totale. La capitale du Yémen, Sanaa, a été bombardée dans la nuit, après que les forces gouvernementales ont signalé des affrontements parmi les plus intenses depuis des années autour de Taiz, la troisième plus grande ville du pays.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/02/world/middleeast/yemen-houthis-saudi-arabia-sanaa-taiz.html",
+      "published_at": "2026-10-02T14:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Yémen"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Israël courtise l’extrême droite européenne, trouvant des amis mais aussi du malaise. Le gouvernement le Premier ministre Benjamin Netanyahu (Israël) soutient les partis autrefois tenus à l’écart en matière d’antisémitisme ; d'anciens diplomates préviennent que ces liens pourraient nuire à la réputation d'Israël et aux communautés juives locales …",
+      "sources": [
+        "The Times of Israel — fiabilité 8/10"
+      ],
+      "url": "https://www.timesofisrael.com/israel-courts-europes-far-right-finding-friends-but-also-unease/",
+      "published_at": "2026-10-02T12:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les remarques du président Donald Trump (États-Unis) sur la Coupe des Présidents suscitent un examen minutieux des affirmations sur le golf et l’économie. Depositphotos L'apparition de Trump au golf met ses prétentions économiques sous les projecteurs. La Coupe des Présidents 2026 a eu lieu du 24 au 27 septembre au Medinah Country Club, près de Chicago. La biennale…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/donald-trump-presidents-cup-remarks-173000835.html",
+      "published_at": "2026-10-02T12:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'ancien membre du Congrès de Floride, David Rivera, condamné à 10 ans de prison dans une affaire de lobbying au Venezuela. L'ancien représentant américain David Rivera a été reconnu coupable d'accusations fédérales découlant d'une campagne de lobbying secrète liée au gouvernement vénézuélien.",
+      "sources": [
+        "CBS News — fiabilité 7/10"
+      ],
+      "url": "https://www.cbsnews.com/miami/news/david-rivera-sentencing-venezuela-lobbying-case-miami/",
+      "published_at": "2026-10-02T13:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Argentine dévoile un programme de passeports pour l'investissement. Le gouvernement du président argentin Javier Milei a déclaré vendredi que le pays offrirait la citoyenneté aux étrangers qui investissent au moins 350 000 dollars dans le pays.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20261002-argentina-unveils-passports-for-investment-scheme",
+      "published_at": "2026-10-02T00:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le monde évolue rapidement. Albanese doit emboîter le pas. Le gouvernement albanais a été réélu. Mission accomplie. Même la guerre absurdement chimérique du président Donald Trump (États-Unis) contre l’Iran n’a pas perturbé le scénario. Initialement. La « petite excursion » de Trump avec Bibi Netanyahu…",
+      "sources": [
+        "The Sydney Morning Herald — fiabilité 8/10"
+      ],
+      "url": "https://www.smh.com.au/politics/federal/the-world-is-changing-rapidly-albanese-needs-to-follow-suit-20261003-p612e9.html",
+      "published_at": "2026-10-02T14:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Azerbaïdjan"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "«Libérons les prisonniers arméniens détenus en Azerbaïdjan» : l’appel de 25 personnalités politiques. FIGAROVOX/TRIBUNE - 25 personnalités politiques de différents bords politiques dont Bruno Retailleau, Marine Tondelier ou Édouard Philippe, appellent à la libération, sans condition, de tous les prisonniers arméniens retenus en Azerbaïdjan depuis la guerre déclenchée en 2020 dans le Haut-Karabakh.",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/vox/monde/liberons-les-prisonniers-armeniens-detenus-en-azerbaidjan-le-cri-d-alarme-de-25-personnalites-politiques-20261002",
+      "published_at": "2026-10-02T17:44:04+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Bahreïn",
+        "Azerbaïdjan"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "F1 Bahreïn – Norris et Colapinto enterrent la hache de guerre : \"Je me suis excusé\". Franco Colapinto a provoqué les abandons de son coéquipier Pierre Gasly et de Lando Norris à la relance après une voiture de sécurité en Azerbaïdjan. Après le Grand Prix, le champion du monde avait la …",
+      "sources": [
+        "RTBF — fiabilité 6/10"
+      ],
+      "url": "https://www.rtbf.be/article/f1-bahrein-norris-et-colapinto-enterrent-la-hache-de-guerre-je-me-suis-excuse-11794073",
+      "published_at": "2026-10-02T10:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
