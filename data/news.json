@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T09:07:18.617108+02:00",
+  "generated_at": "2026-10-02T09:17:31.872457+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -55273,6 +55273,102 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "François-Xavier Bellamy, vice-président des Républicains et député européen, sur le blocus des lycéens : «Il faut garantir que les sanctions soient immédiates, directement visibles».",
+      "sources": [
+        "Dailymotion via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/françois-xavier-bellamy-il-faut-garantir-que-les-sanctions-soient-immédiates/vi-AA2doxwW",
+      "published_at": "2026-10-02T01:39:01+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Manifestation à 11 heures du matin, Internet coupé à 9 h 40 : l'IFF remet en question la fermeture de Delhi ; Liste 4 revendications. Une manifestation proposée à 11 heures contre la CEC Gyanesh Kumar n'avait pas encore commencé lorsque l'Internet mobile a été coupé à 9 h 40 à Connaught Place. L'IFF a remis en question la fermeture et a énuméré quatre demandes., Delhi News, Ti…",
+      "sources": [
+        "Times Now — fiabilité 6/10"
+      ],
+      "url": "https://www.timesnownews.com/delhi/protest-at-11-am-internet-cut-at-940-iff-questions-delhi-shutdown-lists-4-demands-article-156262545",
+      "published_at": "2026-10-02T01:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le Royal College of Nursing rompt ses liens avec une société pharmaceutique israélienne. Le syndicat britannique des infirmières exclut Teva UK en tant que partenaire commercial en raison de ses liens avec les antécédents militaires et commerciaux d'Israël…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/society/2026/oct/02/royal-college-of-nursing-cuts-ties-with-israeli-drug-company",
+      "published_at": "2026-10-02T01:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Gambie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Faire progresser la justice, la redevabilité et les réformes en Gambie. En Gambie, poursuites, réparations, participation des victimes et réforme institutionnelles doivent avancer de concert pour une justice transitionnelle crédible.",
+      "sources": [
+        "Institute for Security Studies (ISS Africa) — fiabilité 6/10"
+      ],
+      "url": "https://issafrica.org/fr/activites/faire-progresser-la-justice-la-redevabilite-et-les-reformes-en-gambie",
+      "published_at": "2026-10-02T00:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Guinée"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Guinée : le gouvernement interdit les animaux en liberté dans les villes. Face à la récurrence des conflits agropastoraux et aux risques sécuritaires liés à la présence d’animaux en liberté dans les zones urbaines, le gouvernement guinéen franchit un cap …",
+      "sources": [
+        "Guinee360 — fiabilité 6/10"
+      ],
+      "url": "https://www.guinee360.com/02/10/2026/guinee-le-gouvernement-interdit-les-animaux-en-liberte-dans-les-villes/",
+      "published_at": "2026-10-02T02:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
