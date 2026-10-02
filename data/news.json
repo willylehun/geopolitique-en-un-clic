@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:34:57.531703+02:00",
+  "generated_at": "2026-10-02T14:45:12.152183+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23406,13 +23406,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Kazakhstan",
-        "Allemagne"
+        "Allemagne",
+        "Kazakhstan"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -34791,13 +34791,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Kazakhstan",
-        "Allemagne"
+        "Allemagne",
+        "Kazakhstan"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -54921,7 +54921,7 @@
         "Euronews via MSN — fiabilité 8/10"
       ],
       "url": "https://www.msn.com/en-nz/news/other/south-korea-warns-of-further-measures-if-ukraine-refuses-public-apology-over-pow-transfer-disclosure/ar-AA2dnNnc",
-      "published_at": "2026-10-02T00:34:26+02:00",
+      "published_at": "2026-10-02T07:25:56+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -56006,12 +56006,13 @@
       "bucket": "2 octobre 2026",
       "score": 9,
       "category": "Économie",
-      "summary": "Budget 2027 : la copie du gouvernement laisse institutions et entreprises sceptiques. Le gouvernement a présenté ce jeudi sa copie pour le projet de loi de finances. Alors que la croissance est à 0%, que l’inflation augmente et que les …",
+      "summary": "Budget 2027 : la copie du gouvernement laisse institutions et entreprises sceptiques. Le gouvernement a présenté ce jeudi sa copie pour le projet de loi de finances. Alors que la croissance est à 0%, que l’inflation augmente et que les intérêts de la …",
       "sources": [
-        "Europe 1 via MSN — fiabilité 6/10"
+        "Europe 1 via MSN — fiabilité 6/10",
+        "Europe 1 — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/fr-fr/actualite/other/budget-2027-la-copie-du-gouvernement-laisse-institutions-et-entreprises-sceptiques/ar-AA2dpoI3",
-      "published_at": "2026-10-02T03:21:10+02:00",
+      "published_at": "2026-10-02T05:21:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": []
@@ -58783,9 +58784,10 @@
       "bucket": "2 octobre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Les États-Unis suspendent leurs services consulaires avant le vote du Brésil, invoquant la sécurité. Les États-Unis ont suspendu vendredi les services consulaires de leur ambassade et de leurs consulats au Brésil avant l'élection présidentielle de ce pays, invoquant des problèmes de sécurité non précisés.",
+      "summary": "Les États-Unis suspendent leurs services consulaires avant le vote du Brésil, invoquant la sécurité. Les États-Unis ont suspendu vendredi les services consulaires de leur ambassade et de leurs consulats au Brésil avant l'élection présidentielle de ce pays, invoquant des problèmes de sécurité non précisés. L'État…",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "WHBL — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/business/media-telecom/us-suspends-consular-services-before-brazil-vote-citing-security-2026-10-02/",
       "published_at": "2026-10-02T07:19:00+02:00",
@@ -58956,6 +58958,165 @@
       ],
       "url": "https://www.togofirst.com/fr/agro/0210-20234-agriculture-lome-s-appuiera-sur-le-satellite-du-kirghizistan-pour-mieux-surveiller-ses-terres",
       "published_at": "2026-10-02T07:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Salaire des agents publics : le gouvernement propose aux syndicats de relever le minimum de l'indice au 1er janvier. Le ministre des Comptes publics David Amiel a proposé vendredi aux syndicats de la fonction publique une hausse l'indice minimum des fonctionnaires …",
+      "sources": [
+        "Europe 1 via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/salaire-des-agents-publics-le-gouvernement-propose-aux-syndicats-de-relever-le-minimum-de-lindice-au-1er-janvier/ar-AA2dpDsI",
+      "published_at": "2026-10-02T06:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les remboursements des règlements Amazon sont en cours maintenant. Qui obtiendra l'argent. Les clients d'Amazon commencent à recevoir des remboursements automatiques après le règlement de 2,5 milliards de dollars de l'entreprise avec la Federal Trade Commission.",
+      "sources": [
+        "El Paso Times — fiabilité 6/10"
+      ],
+      "url": "https://www.elpasotimes.com/story/money/2026/10/02/amazon-ftc-settlement-payouts-are-going-out-to-customers/92053410007/",
+      "published_at": "2026-10-02T00:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Nous pouvons le faire » : Trump flotte pour couper l'Europe du diesel américain. le président Donald Trump (États-Unis) fait allusion à l'arrêt des exportations américaines de diesel pour maintenir les prix à la pompe bas dans le pays afin de faire baisser les prix mondiaux du pétrole avant les prochaines élections de mi-mandat, rapporte la BBC. On lui a demandé s'il le ferait…",
+      "sources": [
+        "Dagens.com via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/money/general/we-may-do-that-trump-floats-cutting-off-europe-from-us-diesel/ar-AA2dqf80",
+      "published_at": "2026-10-02T07:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Rats des tunnels de la guerre du Vietnam : 5 histoires de l'intérieur des tunnels du Viet Cong. Les rats des tunnels étaient des soldats américains, australiens, néo-zélandais et sud-vietnamiens qui se sont glissés dans des tunnels exigus et sombres pendant la guerre du Vietnam sans aucune idée de ce qui les attendait à chaque virage. Cette vidéo…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/entertainment/videos/vietnam-war-tunnel-rats-5-120808590.html",
+      "published_at": "2026-10-02T07:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Vietnam",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Rwanda"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Derrière le filigrane du 1er octobre, l’évolution du Rwanda d’un sacrifice révolutionnaire à une société de développement. Le Rwanda aujourd'hui et la capacité d'anticipation Alors que le Rwanda vient de marquer le début d'une lutte réussie pour libérer la nation de l'emprise des forces génocidaires, nous …",
+      "sources": [
+        "KT PRESS — fiabilité 6/10"
+      ],
+      "url": "https://www.ktpress.rw/2026/10/behind-the-1st-of-october-watermark-rwandas-evolution-from-a-revolutionary-sacrifice-to-a-developmental-society/",
+      "published_at": "2026-10-02T07:16:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Burkina Faso"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Burkina Faso: Exposition gouvernementale JEPPC 2026. A quelques heures de l'ouverture officielle de l'exposition gouvernementale, le comité d'organisation, conduit par le camarade ministre chargé de la Communication, porte-parole du gouvernement, Pingdw …",
+      "sources": [
+        "AllAfrica.com — fiabilité 6/10"
+      ],
+      "url": "https://fr.allafrica.com/stories/202610020147.html",
+      "published_at": "2026-10-02T04:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Bénin"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Bénin : les frais de mission désormais payés électroniquement. Au Bénin, une circulaire du 25 septembre 2026 institue le paiement électronique des frais de mission intérieure dans l'administration, dans le cadre de la phase 2 du dispositif SEMO. Une preuve de mis …",
+      "sources": [
+        "Maliactu — fiabilité 6/10"
+      ],
+      "url": "https://maliactu.net/benin-frais-de-mission-paiement-electronique-semo-2/",
+      "published_at": "2026-10-02T04:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maurice",
+        "Cameroun"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Cameroun : Justice des mers, un Camerounais prend la tête du Tribunal de Hambourg. Maurice Kamga (Ph)Élu le 1er octobre 2026 par ses pairs, le professeur Maurice Kamga devient le premier Camerounais à pr… - KOACI l'Info au Coeur de l'Afrique …",
+      "sources": [
+        "KOACI — fiabilité 6/10"
+      ],
+      "url": "https://www.koaci.com/article/2026/10/02/cameroun/politique/cameroun-justice-des-mers-un-camerounais-prend-la-tete-du-tribunal-de-hambourg_201191.html",
+      "published_at": "2026-10-02T03:15:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
