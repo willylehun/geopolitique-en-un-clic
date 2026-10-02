@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:05:31.426457+02:00",
+  "generated_at": "2026-10-02T16:15:43.956791+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -55688,7 +55688,8 @@
       "category": "Diplomatie",
       "summary": "Iran : nouvelles sanctions américaines, menace de frappes et pétrole au-dessus de 100 dollars. Washington renforce ses sanctions et son dispositif militaire autour de l’Iran, tandis que le Brent reste au-dessus de 100 dollars et que le choc sur les carburants raffinés s’accentue. Le Brent dépasse 100 dollars et la facture énergétique inquiète la Tunisie.",
       "sources": [
-        "Tunisie Numerique — fiabilité 6/10"
+        "Tunisie Numerique — fiabilité 6/10",
+        "tunisienumerique.com — fiabilité 6/10"
       ],
       "url": "https://www.tunisienumerique.com/iran-sanctions-americaines-menace-frappes-petrole-100-dollars/",
       "published_at": "2026-10-02T09:30:00+02:00",
@@ -57190,10 +57191,11 @@
       "category": "Géopolitique",
       "summary": "Le président Donald Trump (États-Unis) a annoncé un investissement énergétique de 54 milliards de dollars de la Corée du Sud. La Corée du Sud a déclaré qu'il avait sauté le pas. Un projet difficile d’exportation de gaz naturel depuis l’Alaska est devenu un autre point de friction potentiel dans les négociations commerciales de longue date entre les alliés.",
       "sources": [
-        "Yahoo — fiabilité 6/10"
+        "Yahoo — fiabilité 6/10",
+        "Reuters — fiabilité 9/10"
       ],
       "url": "https://www.yahoo.com/news/politics/articles/trump-announced-54-billion-energy-090202530.html",
-      "published_at": "2026-10-02T04:01:00+02:00",
+      "published_at": "2026-10-02T07:49:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -58409,7 +58411,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -58419,10 +58420,11 @@
       "summary": "Inflation : Il n’y a pas qu’en France… Coup de chaud sur les prix dans toute la zone euro. L'inflation dans la zone euro a grimpé en septembre à un nouveau sommet depuis trois ans, en raison de la flambée des prix de l'énergie provoquée par le conflit au Moyen-Orient …",
       "sources": [
         "Mediapart — fiabilité 6/10",
-        "20 Minutes — fiabilité 6/10"
+        "20 Minutes — fiabilité 6/10",
+        "20 Minutes via MSN — fiabilité 6/10"
       ],
       "url": "https://www.mediapart.fr/journal/fil-dactualites/021026/l-inflation-dans-la-zone-euro-un-nouveau-sommet-depuis-3-ans",
-      "published_at": "2026-10-02T07:51:00+02:00",
+      "published_at": "2026-10-02T07:51:45+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -58796,7 +58798,8 @@
       "summary": "Les États-Unis suspendent leurs services consulaires avant le vote du Brésil, invoquant la sécurité. Les États-Unis ont suspendu vendredi les services consulaires de leur ambassade et de leurs consulats au Brésil avant l'élection présidentielle de ce pays, invoquant des problèmes de sécurité non précisés. L'État…",
       "sources": [
         "Reuters — fiabilité 9/10",
-        "WHBL — fiabilité 6/10"
+        "WHBL — fiabilité 6/10",
+        "KFGO — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/business/media-telecom/us-suspends-consular-services-before-brazil-vote-citing-security-2026-10-02/",
       "published_at": "2026-10-02T07:19:00+02:00",
@@ -59752,7 +59755,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -59972,7 +59976,8 @@
       "url": "https://www.reuters.com/business/energy/brazils-petrobras-makes-new-oil-discovery-off-coast-amapa-2026-10-02/",
       "published_at": "2026-10-02T07:57:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -60053,6 +60058,204 @@
       ],
       "url": "https://corbeaunews-centrafrique.org/gouvernement-augmente-prix-carburant-centrafrique/",
       "published_at": "2026-10-02T06:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Gérald Darmanin accuse Jordan Bardella de « mentir éhontément » après les révélations de Mediapart. Le ministre de la Justice met en cause la défense du président du RN face aux messages antisémites que lui attribue Mediapart. Jordan Bardella dénonce des montages et annonce une nouvelle plainte.",
+      "sources": [
+        "i24NEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.i24news.tv/fr/actu/france/artc-gerald-darmanin-accuse-jordan-bardella-de-mentir-ehontement-apres-les-revelations-de-mediapart",
+      "published_at": "2026-10-02T08:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Deux hommes libérés après l'arrestation de suspects de terrorisme en Allemagne. Trois hommes ont été arrêtés en Allemagne, soupçonnés d'avoir fomenté un crime constituant une menace pour la sécurité nationale, a annoncé vendredi la police. Deux des suspects - deux Syriens - ont été libérés au cours de la…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/two-men-released-terrorism-suspects-133326935.html",
+      "published_at": "2026-10-02T08:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Trump revendique un investissement de 8,4 milliards de dollars dans des projets pétroliers en Corée du Sud. le président Donald Trump (États-Unis) a affirmé le 2 octobre (heure locale) que la Corée du Sud investirait 8,4 milliards de dollars (environ 11,3 billions de won coréens) dans un projet pétrolier via…",
+      "sources": [
+        "The Chosun Ilbo via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-xl/news/other/trump-claims-south-koreas-84-billion-oil-project-investment/ar-AA2dpNES",
+      "published_at": "2026-10-02T08:47:09+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Trump dévoile un plan de récupération du pétrole de 8,4 milliards de dollars avec la Corée du Sud. le président Donald Trump (États-Unis) a annoncé que l'accord commercial entre les États-Unis et la Corée du Sud prévoyait désormais 8,4 milliards de dollars pour un projet de récupération assistée du pétrole visant à renforcer la domination énergétique américaine et …",
+      "sources": [
+        "The News International — fiabilité 6/10"
+      ],
+      "url": "https://www.thenews.com.pk/latest/1418515-trump-unveils-84-billion-oil-recovery-plan-with-south-korea",
+      "published_at": "2026-10-02T08:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement finlandais survit au vote de confiance après la dispute sur la visite d'Israël. Après le voyage du ministre finlandais de la Défense, Antti Hakkanen, en Israël, les députés finlandais ont lancé un vote de confiance parlementaire pour contester le gouvernement. Les partis d'opposition ont accusé la droite…",
+      "sources": [
+        "MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-za/news/other/finland-s-government-survives-confidence-vote-after-israel-visit-row/ar-AA2dq87v",
+      "published_at": "2026-10-02T07:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La décision discrète de l’administration Trump rend plus difficile le vote de certains citoyens américains à l’étranger, selon le procès. Le Comité national démocrate a déposé jeudi une plainte alléguant que l'administration du président Donald Trump (États-Unis) avait secrètement modifié une carte postale utilisée par des citoyens américains à l'étranger d'une manière qui la rendait…",
+      "sources": [
+        "The Times-Tribune — fiabilité 6/10"
+      ],
+      "url": "https://www.thetimes-tribune.com/2026/10/02/trump-administration-us-citizens-abroad-voting/",
+      "published_at": "2026-10-02T08:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Petrobras découvre à nouveau du pétrole sur le puits Morpho, dans le bassin brésilien de Foz do Amazonas. L'acteur étatique brésilien Petrobras a découvert un autre intervalle pétrolifère avec le puits d'exploration Morpho dans le bassin de Foz do Amazonas, dans la marge équatoriale nord du pays. La trouvaille…",
+      "sources": [
+        "Upstream Online — fiabilité 6/10"
+      ],
+      "url": "https://www.upstreamonline.com/exploration/petrobras-strikes-oil-again-at-morpho-well-in-brazil-s-foz-do-amazonas-basin/2-1-2053287",
+      "published_at": "2026-10-02T08:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "CWI salue l’initiative du Centre de haute performance de la Barbade. Déclaration de Cricket West Indies Cricket West Indies (CWI) a accueilli le Premier ministre de la Barbade, l'hon. L'appel de Mia Amor Mottley à un investissement accru dans le cricket et son engagement en faveur du développement…",
+      "sources": [
+        "News Room Guyana — fiabilité 6/10"
+      ],
+      "url": "https://newsroom.gy/2026/10/02/cwi-welcomes-barbados-high-performance-centre-initiative/",
+      "published_at": "2026-10-02T07:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Barbade"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Discussion sur le marché : les unités Microsoft et Amazon Cloud font face à un examen minutieux de la loi européenne sur les marchés numériques. AWS sera soumis au champ d'application de la loi sur les marchés numériques de l'Union européenne, a rapporté Bloomberg vendredi, citant des personnes proches du dossier. La décision reste à l'état de projet et devrait…",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/technology/articles/market-chatter-microsoft-amazon-cloud-120526480.html",
+      "published_at": "2026-10-02T07:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Angola"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Haut débit : l’Angola renforce son infrastructure nationale pour étendre la couverture. Malgré les progrès réalisés ces dernières années, l’accès aux services numériques reste encore limité en Afrique. En Angola, environ 40,7 % de …",
+      "sources": [
+        "Agence Ecofin — fiabilité 6/10"
+      ],
+      "url": "https://www.agenceecofin.com/actualites-numerique/0210-142087-haut-debit-l-angola-renforce-son-infrastructure-nationale-pour-etendre-la-couverture",
+      "published_at": "2026-10-02T09:04:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
