@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T05:00:56.370209+02:00",
+  "generated_at": "2026-10-02T05:11:11.282667+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54409,6 +54409,28 @@
       ],
       "url": "https://www.thefastmode.com/technology-solutions/50846-bt-launches-ai-from-bt-to-help-uk-businesses-adopt-ai",
       "published_at": "2026-10-02T03:15:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le président Vladimir Poutine (Russie) a rejeté la possibilité d'un cessez-le-feu avec l'Ukraine.",
+      "sources": [
+        "baomoi.com — fiabilité 6/10"
+      ],
+      "url": "https://baomoi.com/tong-thong-putin-bac-kha-nang-ngung-ban-voi-ukraine-c56178783.epi",
+      "published_at": "2026-10-02T04:45:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
