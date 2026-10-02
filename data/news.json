@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:39:05.759453+02:00",
+  "generated_at": "2026-10-02T23:49:20.129894+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -61463,7 +61463,7 @@
         "Europe 1 via MSN — fiabilité 6/10"
       ],
       "url": "https://www.europe1.fr/international/financement-du-hamas-pourquoi-deux-francais-sont-vises-par-des-sanctions-americaines-1119077",
-      "published_at": "2026-10-02T13:49:12+02:00",
+      "published_at": "2026-10-02T15:49:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -61897,7 +61897,8 @@
       "category": "Géopolitique",
       "summary": "L'Argentine dévoile un programme de passeports pour l'investissement. Le gouvernement du président argentin Javier Milei a déclaré vendredi que le pays offrirait la citoyenneté aux étrangers qui investissent au moins 350 000 dollars dans le pays.",
       "sources": [
-        "France 24 (média public) — fiabilité 8/10"
+        "France 24 (média public) — fiabilité 8/10",
+        "Radio France Internationale — fiabilité 6/10"
       ],
       "url": "https://www.france24.com/en/live-news/20261002-argentina-unveils-passports-for-investment-scheme",
       "published_at": "2026-10-02T14:42:00+02:00",
@@ -63750,6 +63751,108 @@
       "url": "https://www.sfgate.com/renotahoe/article/bull-fire-reno-verdi-22460140.php",
       "published_at": "2026-10-02T16:07:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Trois raisons pour lesquelles l’approvisionnement en pétrole du Moyen-Orient est presque revenu aux niveaux d’avant la guerre en Iran. Les experts affirment que l’aide militaire américaine, notamment l’utilisation de navettes-citernes et de pipelines contournant le détroit d’Ormuz, a permis aux exportations de rebondir.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/cwp8gn13lmygo?shem=aimgspe",
+      "published_at": "2026-10-02T10:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Selon une enquête, 96 % des entreprises déclarent utiliser l’IA. Plus de 96 % des 379 entreprises non financières interrogées par la Banque centrale du Brésil ont déclaré utiliser l’intelligence artificielle dans leurs processus internes. Sur le total, 36,7% ont déclaré utiliser la technologie…",
+      "sources": [
+        "valorinternational — fiabilité 6/10"
+      ],
+      "url": "https://valorinternational.globo.com/business/news/2026/10/02/96percent-of-companies-say-they-use-ai-survey-finds.ghtml",
+      "published_at": "2026-10-02T16:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Amazon investit 1 milliard de dollars dans les communautés de centres de données. Amazon prévoit d'investir 1 milliard de dollars dans les communautés où il construit des centres de données au cours des cinq prochaines années, a annoncé la société vendredi. Le géant du commerce électronique et du cloud computing consacrera les fonds à…",
+      "sources": [
+        "The Hill via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/politics/amazon-investing-1b-in-data-center-communities/ar-AA2dqwcm",
+      "published_at": "2026-10-02T11:02:56+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les étudiants français descendent dans la rue pour protester contre les conditions scolaires. L'escouade anti-émeute française a fait usage de gaz lacrymogènes lors d'affrontements avec des manifestants étudiants dans les rues de Paris, Toulouse et Strasbourg.",
+      "sources": [
+        "The Sydney Morning Herald — fiabilité 8/10"
+      ],
+      "url": "https://www.smh.com.au/world/french-students-take-to-the-street-to-protest-school-conditions-20261003-p612is.html",
+      "published_at": "2026-10-02T12:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Irak",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L’Irak autorise 40 vols iraniens par jour – à l’exception de ceux de Mahan Air – avec les sanctions américaines. Les compagnies aériennes iraniennes, à l’exception de Mahan Air, sont autorisées à effectuer 40 vols quotidiens à destination et en provenance de l’aéroport international de Najaf, en Irak, a indiqué …",
+      "sources": [
+        "The Times of Israël — fiabilité 6/10"
+      ],
+      "url": "https://fr.timesofisrael.com/liveblog_entry/lirak-autorise-40-vols-iraniens-par-jour-a-lexception-de-ceux-de-mahan-air-avec-les-sanctions-americaines/",
+      "published_at": "2026-10-02T10:49:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
