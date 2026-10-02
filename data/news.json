@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:24:43.516689+02:00",
+  "generated_at": "2026-10-02T14:34:57.531703+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -56097,7 +56097,7 @@
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-les-bombardements-russes-nocturnes-sur-kiev-ont-fait-un-mort-et-deux-blesses-un-pont-important-touche_6783795_3210.html",
-      "published_at": "2026-10-02T05:39:00+02:00",
+      "published_at": "2026-10-02T07:16:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -58770,6 +58770,192 @@
       ],
       "url": "https://www.mediapart.fr/journal/fil-dactualites/021026/espagne-vote-haut-risque-sur-le-logement-pour-le-gouvernement-de-pedro-sanchez",
       "published_at": "2026-10-02T05:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis suspendent leurs services consulaires avant le vote du Brésil, invoquant la sécurité. Les États-Unis ont suspendu vendredi les services consulaires de leur ambassade et de leurs consulats au Brésil avant l'élection présidentielle de ce pays, invoquant des problèmes de sécurité non précisés.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/media-telecom/us-suspends-consular-services-before-brazil-vote-citing-security-2026-10-02/",
+      "published_at": "2026-10-02T07:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Une femme « jetée hors du lit » par la force d’un souffle de gaz. Kathy McGinness a aidé à évacuer un autre résident du Haut du Mont après l'explosion, a entendu un tribunal. Une femme qui a été \"jetée du lit\" par la force d'une explosion de gaz dans un immeuble a aidé…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/cmp3gdd1ze47o",
+      "published_at": "2026-10-02T07:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Plus de 700 personnes arrêtées à Jantar Mantar lors d'une manifestation en Inde. Plus de 700 personnes auraient été arrêtées rien qu'à Jantar Mantar, à Delhi. Le Cockroach Janata Party (CJP) a lancé jeudi la manifestation exigeant…",
+      "sources": [
+        "Onlinekhabar English — fiabilité 6/10"
+      ],
+      "url": "https://english.onlinekhabar.com/more-than-700-arrested-at-jantar-mantar-during-protest-in-india.html",
+      "published_at": "2026-10-02T07:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le Japon va ajouter le palais impérial et le bureau du Premier ministre aux installations protégées. Le gouvernement japonais devrait ajouter le palais impérial et le bureau du Premier ministre à la liste des installations nécessitant une protection particulière pour des raisons de sécurité nationale, a-t-on appris …",
+      "sources": [
+        "Nippon.com — fiabilité 6/10"
+      ],
+      "url": "https://www.nippon.com/en/news/yjj2026100200827/",
+      "published_at": "2026-10-02T02:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Japon"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Discussion sur le marché : Anthropic, soutenu par Amazon, prévient que les tensions gouvernementales pourraient menacer les relations commerciales avant l'introduction en bourse. Anthropic, soutenu par Amazon (AMZN), a averti que les relations tendues avec le gouvernement américain pourraient nuire à ses relations avec ses clients commerciaux et ses partenaires, a rapporté vendredi Reuters, citant une introduction en bourse…",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-amazon-backed-anthropic-105530224.html",
+      "published_at": "2026-10-02T07:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Panique alors que le Pentagone s’apprête discrètement à étendre les options nucléaires du président Donald Trump (États-Unis). Elbridge Colby, le sous-secrétaire à la Défense chargé de la politique, a ouvertement admis récemment que le ministère de la Défense travaillait activement à accroître les « options [nucléaires] disponibles » pour le président Donald…",
+      "sources": [
+        "Raw Story via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/panic-as-pentagon-quietly-moves-to-expand-trumps-nuclear-options/ar-AA2dpPJR",
+      "published_at": "2026-10-02T06:54:33+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Virus du Nil occidental : Un troisième décès en Ile-de-France, rapporte l’Etat. Santé publique France fait état de 23 cas humains autochtones d’infection à virus du Nil occidental ou West Nile (VWN), identifiés en Île-de-France …",
+      "sources": [
+        "20 Minutes — fiabilité 6/10"
+      ],
+      "url": "https://www.20minutes.fr/sante/4250732-20261002-virus-nil-occidental-troisieme-deces-ile-france-rapporte-etat",
+      "published_at": "2026-10-02T06:54:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Kazakhstan"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La production de pétrole et de condensats de gaz du Kazakhstan en septembre a baissé de 7 % par rapport au moi. ((Traduction automatisée par Reuters à l'aide de l'apprentissage automatique et de l'IA générative, veuillez vous référer à l'avertissement suivant: https://bit. ly/rtrsauto)) La production de pétrole … - 02/10/2026 à 11:40 - Boursorama",
+      "sources": [
+        "Boursorama — fiabilité 6/10"
+      ],
+      "url": "https://www.boursorama.com/bourse/actualites/la-production-de-petrole-et-de-condensats-de-gaz-du-kazakhstan-en-septembre-a-baisse-de-7-par-rapport-au-mois-d-aout-selon-une-source-61f3431cb786970610c60ef0a86a4007",
+      "published_at": "2026-10-02T11:40:43+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Afrique"
+      ],
+      "countries": [
+        "Kirghizistan",
+        "Togo"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Agriculture : Lomé s’appuiera sur le satellite du Kirghizistan pour mieux surveiller ses terres. Le Togo va renforcer ses capacités d’observation de la Terre grâce à une coopération avec le Kirghizistan dans le domaine spatial. Un …",
+      "sources": [
+        "Togo First — fiabilité 6/10"
+      ],
+      "url": "https://www.togofirst.com/fr/agro/0210-20234-agriculture-lome-s-appuiera-sur-le-satellite-du-kirghizistan-pour-mieux-surveiller-ses-terres",
+      "published_at": "2026-10-02T07:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
