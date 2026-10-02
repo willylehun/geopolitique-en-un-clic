@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:33:13.230277+02:00",
+  "generated_at": "2026-10-02T15:53:58.690014+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -55138,10 +55138,11 @@
       "category": "Géopolitique",
       "summary": "Les États-Unis vont déployer un troisième porte-avions et 10 000 soldats supplémentaires au Moyen-Orient alors que le président Donald Trump (États-Unis) envisage de frapper l’Iran. Le mouvement des troupes, qui comprend un troisième porte-avions, souligne l'évolution rapide de la dynamique de la guerre du président Donald Trump (États-Unis) contre l'Iran alors qu'il réfléchit à sa prochaine décision, avec les élections de mi-mandat aux États-Unis.",
       "sources": [
-        "Daily Mail — fiabilité 6/10"
+        "Daily Mail — fiabilité 6/10",
+        "AOL — fiabilité 6/10"
       ],
       "url": "https://www.dailymail.com/news/article-16177631/Donald-Trump-US-troops-strikes-Middle-East.html",
-      "published_at": "2026-10-02T00:51:00+02:00",
+      "published_at": "2026-10-02T07:23:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -58182,12 +58183,13 @@
       "bucket": "2 octobre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Le président Donald Trump (États-Unis) promet que la guerre en Iran prendra fin « très rapidement » alors que davantage de troupes se rendront au Moyen-Orient. Quelque 9 000 soldats américains supplémentaires se dirigent vers le Moyen-Orient alors que Trump promet que la guerre se terminera « juste après les élections », sinon plus tôt.",
+      "summary": "Mises à jour en direct : le président Donald Trump (États-Unis) promet que la guerre en Iran prendra fin « juste après les élections » ou plus tôt, alors que 9 000 soldats se rendront au Moyen-Orient. Quelque 9 000 soldats américains supplémentaires se dirigent vers le Moyen-Orient alors que Trump promet que la guerre se terminera « juste après les élections », sinon plus tôt.",
       "sources": [
-        "Yahoo — fiabilité 6/10"
+        "Yahoo — fiabilité 6/10",
+        "CBS News — fiabilité 7/10"
       ],
       "url": "https://www.yahoo.com/news/politics/articles/trump-vows-iran-war-end-103025129.html",
-      "published_at": "2026-10-02T06:00:00+02:00",
+      "published_at": "2026-10-02T08:46:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -58407,6 +58409,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -59485,6 +59488,348 @@
       "published_at": "2026-10-02T05:44:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le marché du travail a ralenti en septembre, selon le dernier rapport mensuel sur l'emploi avant les élections de mi-mandat. Le marché du travail américain a ralenti au cours du mois de septembre, selon de nouvelles données vendredi du Bureau of Labor Statistics.",
+      "sources": [
+        "NBC News via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/general/labor-market-slowed-in-september-final-monthly-jobs-report-before-midterms-shows/ar-AA2dpXML",
+      "published_at": "2026-10-02T07:34:26+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Argentine"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Argentine lancera le premier programme de citoyenneté par investissement d'Amérique du Sud, a annoncé vendredi le ministre de l'Économie Luis Caputo.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/americas/argentina-announces-citizenship-by-investment-program-2026-10-02/",
+      "published_at": "2026-10-02T07:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Le F/A-18 Super Hornet repéré avec le secret AIM-260 JATM – et ce n'est pas un avion de chasse américain. Le F/A-18F Super Hornet a été photographié transportant un missile tactique avancé interarmées (JATM) AIM-260 lors d'un événement test américain en Californie (États-Unis). Ce développement intervient quelques semaines après que la RAAF a annoncé qu'il deviendrait le premier…",
+      "sources": [
+        "EurAsian Times — fiabilité 6/10"
+      ],
+      "url": "https://www.eurasiantimes.com/f-a-18-super-hornet-spotted-with-secretive-aim-260-jatm-and-its-not-an-american-fighter-jet/",
+      "published_at": "2026-10-02T07:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Israël"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un pilote de Flydubai raconte sa bataille pour sauver son avion. Le capitaine Smit Machchhar, qui a été attaqué par son copilote sur un vol à destination d'Israël, raconte lors d'un appel vidéo au Premier ministre indien comment il a laissé monter les passagers dans le cockpit…",
+      "sources": [
+        "Financial Times — fiabilité 8/10"
+      ],
+      "url": "https://www.ft.com/content/3f64eed5-586b-4736-8fd2-e4219f822ad6?syn-25a6b1a6=1",
+      "published_at": "2026-10-02T07:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Novartis conclut un accord d'ARNm pouvant atteindre 7,8 milliards de dollars avec le chinois Abogen. La société chinoise de biotechnologie Abogen a annoncé vendredi avoir signé « un accord de licence d'une valeur d'environ 7,8 milliards de dollars avec le fabricant de médicaments suisse Novartis pour faire progresser la thérapie à base d'ARN.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/legal/litigation/novartis-strikes-about-78-billion-mrna-deal-with-chinas-abogen-2026-10-02/",
+      "published_at": "2026-10-02T02:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Vérification des faits : position des candidats du 4e district du Congrès sur la guerre en Iran. Le représentant américain Ron Estes, un républicain, se présente aux élections contre la candidate démocrate Katy Tyndell et le libertaire Drew Cranmer.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/fact-check-where-candidates-4th-090300593.html",
+      "published_at": "2026-10-02T04:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Gates profite de la force de son entreprise dans un contexte de vents contraires persistants. GTES prévoit une demande plus forte, des gains de marge et une croissance des centres de données, mais la faiblesse de l'agriculture et la hausse des coûts restent des obstacles majeurs.",
+      "sources": [
+        "Yahoo Finance — fiabilité 6/10"
+      ],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gates-gains-business-strength-amid-121000250.html",
+      "published_at": "2026-10-02T07:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L'administration Trump prépare « tranquillement » le terrain pour une escalade militaire « majeure » : rapport. L’administration Trump a « discrètement » préparé le terrain ces dernières semaines pour potentiellement « reprendre des opérations de combat majeures contre l’Iran », a rapporté jeudi soir Barak Ravid d’Axios, citant plusieurs États-Unis.",
+      "sources": [
+        "Raw Story via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/trump-admin-quietly-setting-stage-for-major-military-escalation-report/ar-AA2dpLtM",
+      "published_at": "2026-10-02T08:00:05+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Report temporaire des sanctions relatives à l’obligation d’extincteur. Les services de la Gendarmerie nationale ont confirmé, jeudi soir, le report de l’établissement des contraventions relatives à l’obligation d’équiper les véhicules d’un extincteur, conformément au cod …",
+      "sources": [
+        "Echorouk Online via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/afrique-du-nord/algerie-actualite/report-temporaire-des-sanctions-relatives-à-l-obligation-d-extincteur/ar-AA2dpNfq",
+      "published_at": "2026-10-02T06:41:19+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le décret du gouvernement espagnol sur le logement a été rejeté lors du vote du Congrès. Le gouvernement espagnol a perdu un vote critique au Congrès sur ses plans pour lutter contre la crise du logement qui a déclenché des protestations publiques qui se sont intensifiées le mois dernier suite à l'expulsion d'un …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/spanish-government-housing-decree-sunk-congressional-vote-2026-10-02/",
+      "published_at": "2026-10-02T08:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'Ukraine reçoit 2,9 milliards d'euros de soutien économique de l'UE. L'Ukraine a reçu 2,9 milliards d'euros (3,3 milliards de dollars) d'aide budgétaire de l'Union européenne pour maintenir l'administration publique du pays en marche alors que la guerre contre la Russie se prolonge…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/ukraine-receives-2-9bn-economic-133326482.html",
+      "published_at": "2026-10-02T08:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Rhun ap Iorwerth de Plaid prononce le premier discours à la conférence du parti depuis sa victoire aux élections du Senedd. Le Premier ministre gallois Rhun ap Iorwerth s'adresse vendredi après-midi à la conférence d'automne de son parti. C'est la première conférence que le parti tient depuis sa victoire aux élections du Senedd en mai…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/live/cw1l6le4l57qt",
+      "published_at": "2026-10-02T08:17:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": []
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Au Brésil, le business des goodies avant l’élection présidentielle. 🇧🇷 Au #Brésil, la campagne électorale bat son plein. Près de 159 millions d’électeurs sont appelés aux urnes pour élire leurs députés, leurs sénateurs, mais surtout leur président. Si le vote est sec …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/vidéo/20261002-au-brésil-le-business-des-goodies-avant-l-élection-présidentielle",
+      "published_at": "2026-10-02T08:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’UE discute de la libération des stocks de diesel alors que les États-Unis intensifient leurs pressions. L'Union européenne discute de la libération de stocks stratégiques de diesel dans le but de faire baisser les prix mondiaux de l'énergie après que l'administration américaine du président Donald Trump (États-Unis) a déclaré qu'elle envisageait une …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/eu-discusses-diesel-stock-releases-130334088.html",
+      "published_at": "2026-10-02T08:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La Chine et la Russie ont opposé leur veto à la résolution sur le suivi des sanctions contre l'Iran. La mission iranienne auprès des Nations Unies a déclaré que la Chine et la Russie avaient « à juste titre » opposé leur veto au projet de résolution du",
+      "sources": [
+        "African Manager — fiabilité 6/10"
+      ],
+      "url": "https://africanmanager.com/la-chine-et-la-russie-ont-oppose-leur-veto-a-la-resolution-sur-le-suivi-des-sanctions-contre-liran/",
+      "published_at": "2026-10-02T09:49:17+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "Iran",
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Polémique Tour Eiffel-BAPS : une enquête révèle que le message a été déformé, aucune demande explicite d'exclure les femmes. L'enquête a révélé que la communication initiale adressée à l'exploitant de la Tour Eiffel, la Société d'Exploitation de la Tour Eiffel (SETE), visait à éviter tout contact physique entre personnalités religieuses et femmes …",
+      "sources": [
+        "Business Today — fiabilité 6/10"
+      ],
+      "url": "https://www.businesstoday.in/india/story/eiffel-tower-baps-controversy-probe-finds-message-was-distorted-no-explicit-request-to-exclude-women-559244-2026-10-02",
+      "published_at": "2026-10-02T08:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le président suisse va quitter le gouvernement. Le président suisse Guy Parmelin a annoncé vendredi qu'il quitterait le gouvernement à la fin de l'année, dans un geste soudain après plus d'une décennie de service ministériel.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20261002-swiss-president-to-quit-government",
+      "published_at": "2026-10-02T08:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Suisse"
+      ]
     },
     {
       "regions": [
