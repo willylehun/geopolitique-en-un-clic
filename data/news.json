@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:06:52.053369+02:00",
+  "generated_at": "2026-10-02T22:17:04.258310+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58412,7 +58412,6 @@
     {
       "regions": [
         "Europe",
-        "Asie",
         "International"
       ],
       "period": "day",
@@ -61484,6 +61483,7 @@
     {
       "regions": [
         "Amérique du Nord",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -61999,7 +61999,8 @@
       "category": "Géopolitique",
       "summary": "Arbre généalogique de la diplomatie panda : voici toutes les paires prêtées aux États-Unis par la Chine. Neuf couples de pandas géants ont été introduits dans le pays depuis 1972, et environ 25 petits sont nés sur le sol américain.",
       "sources": [
-        "KMBC — fiabilité 6/10"
+        "KMBC — fiabilité 6/10",
+        "WESH — fiabilité 6/10"
       ],
       "url": "https://www.kmbc.com/article/china-giant-panda-loan-us-zoo-atlanta-history/73945345",
       "published_at": "2026-10-02T13:24:00+02:00",
@@ -62213,7 +62214,6 @@
     {
       "regions": [
         "Afrique",
-        "Europe",
         "International"
       ],
       "countries": [
@@ -62746,6 +62746,87 @@
       ],
       "url": "https://www.lesoir.be/774451/article/2026-10-02/transfert-de-prisonniers-la-coree-du-sud-menace-de-mesures-si-lukraine-ne",
       "published_at": "2026-10-02T05:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le G7 va libérer jusqu'à 100 millions de barils de diesel et de pétrole brut. Les dirigeants du bloc des économies avancées du G7 ont convenu de travailler « de manière coordonnée » pour contribuer à faire baisser les prix du diesel. Nos correspondants vous en expliquent davantage. Un pilote indien qui a été attaqué par son…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/audio/play/w1730c6l9tkxb6m",
+      "published_at": "2026-10-02T15:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L’ingérence de Trump dans les élections brésiliennes pourrait se retourner contre lui. L'administration Trump a intensifié ses efforts d'ingérence électorale au Brésil, en utilisant des sanctions, des droits de douane et des discours pour donner à Flávio Bolsonaro, fils d'un extrémiste de droite et condamné …",
+      "sources": [
+        "The New Republic via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/trump-s-meddling-in-brazil-s-elections-may-backfire/ar-AA2drML7",
+      "published_at": "2026-10-02T14:45:33+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Lettonie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Lettonie : pourquoi les élections législatives sont-elles plus intéressantes à suivre qu'il n'y paraît ?. Alors que le pays connaît une crise importante, économiquement comme politiquement, les électeurs espèrent que l'élection apportera une forme de stabilité …",
+      "sources": [
+        "CNEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.cnews.fr/monde/2026-10-02/lettonie-pourquoi-les-elections-legislatives-sont-elles-plus-interessantes-suivre",
+      "published_at": "2026-10-02T02:32:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Croatie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "L’inflation en Croatie atteint 4,6% en septembre, conforme aux prévisions. Investing. com -- Le taux d’inflation de la Croatie pour le mois de septembre s’est établi à 4,6% en glissement annuel, conformément aux attentes du marché. Sur une base me …",
+      "sources": [
+        "Investing.com France — fiabilité 6/10"
+      ],
+      "url": "https://fr.investing.com/news/economic-indicators/linflation-en-croatie-atteint-46-en-septembre-conforme-aux-previsions-93CH-3619141",
+      "published_at": "2026-10-02T07:17:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
