@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:37:29.633070+02:00",
+  "generated_at": "2026-10-02T22:47:45.302419+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -63086,6 +63086,23 @@
       ],
       "url": "https://www.courrierinternational.com/article/politique-crise-du-logement-en-espagne-pedro-sanchez-va-t-il-appuyer-sur-le-bouton-rouge-electoral_275620",
       "published_at": "2026-10-02T10:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Amazon étend les paiements du règlement Prime : êtes-vous admissible ?. Les membres d’Amazon Prime pourraient collecter de l’argent supplémentaire dans le cadre d’une nouvelle ordonnance de règlement de la Federal Trade Commission concernant les inscriptions aux abonnements de l’entreprise. Le recours collectif allègue que…",
+      "sources": [
+        "Washington Examiner via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/money/economy/amazon-expands-prime-settlement-payouts-do-you-qualify/ar-AA2dr8E9",
+      "published_at": "2026-10-02T15:24:24+02:00",
       "origin": "rss",
       "content_enriched": true
     },
