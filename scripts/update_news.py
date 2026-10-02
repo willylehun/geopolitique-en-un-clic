@@ -11,6 +11,10 @@ from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from zoneinfo import ZoneInfo
+try:
+    from scripts.summary_cleanup import dedupe_sentences
+except ModuleNotFoundError:
+    from summary_cleanup import dedupe_sentences
 
 try:
     import httpx
@@ -1570,28 +1574,8 @@ def trim_incomplete_tail(text):
     return value
 
 def dedupe_summary_sentences(text):
-    parts=re.split(r"(?<=[.!?])\s+",clean_summary_text(text))
-    out=[]; seen_keys=set(); seen_sets=[]
-    for part in parts:
-        part=part.strip()
-        if not part: continue
-        part=part[0].upper()+part[1:]
-        k=key_title(part)
-        words=sentence_words(part)
-        if not k or k in seen_keys: continue
-        duplicate=False
-        for prev in seen_sets:
-            if not words or not prev: continue
-            inter=len(words & prev)
-            union=len(words | prev)
-            containment=inter/max(1,min(len(words),len(prev)))
-            jaccard=inter/max(1,union)
-            if containment>=0.82 or jaccard>=0.68:
-                duplicate=True
-                break
-        if duplicate: continue
-        seen_keys.add(k); seen_sets.append(words); out.append(part)
-    return trim_incomplete_tail(" ".join(out))
+    return trim_incomplete_tail(dedupe_sentences(clean_summary_text(text)))
+
 
 def _source_identity(label):
     raw=(label or "").strip()

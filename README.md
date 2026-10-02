@@ -33,3 +33,9 @@ Application mobile/web installable pour afficher une veille géopolitique et éc
 - Une recherche complémentaire sur 365 jours couvre 12 candidats par collecte, avec une rotation indépendante des partis et de leur présence médiatique. Les articles repérés restent des pistes à examiner, distinctes des propositions et controverses validées.
 - La surveillance ne garantit pas l'exhaustivité : pages protégées, programmes en images, nouveaux sites et informations hors des sources suivies peuvent exiger une vérification supplémentaire. L'interface affiche l'état des documents suivis.
 - Vérification : `python -m unittest discover -s scripts -p 'test_election_background.py'` et `node --check app.js`.
+
+## Répétitions dans les résumés
+
+La collecte compare le titre et les phrases du contenu après traduction. Lorsqu’une phrase détaillée reprend le même fait, elle remplace le titre court. Les différences de chiffres, dates, acteurs, négations et qualifications sont conservées. Ce nettoyage s’applique aussi aux résumés historiques à chaque collecte. Les articles, leurs sources et leurs liens restent conservés.
+
+Vérification : `python -m unittest scripts.test_summary_cleanup scripts.test_google_news_decode -v`.

@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - "scripts/update_news.py"
+      - "scripts/summary_cleanup.py"
+      - "scripts/test_summary_cleanup.py"
       - "scripts/test_google_news_decode.py"
       - "scripts/manual_backfill.py"
       - "scripts/build_api.py"
@@ -121,8 +123,8 @@ jobs:
           python -m json.tool api/status.json >/dev/null
           python -m json.tool api/index.json >/dev/null
           python -m json.tool api/latest.json >/dev/null
-          python -m py_compile scripts/update_news.py scripts/build_api.py
-          python -m unittest scripts.test_google_news_decode -v
+          python -m py_compile scripts/update_news.py scripts/build_api.py scripts/summary_cleanup.py
+          python -m unittest scripts.test_google_news_decode scripts.test_summary_cleanup -v
           node --check app.js
       - name: Enregistrer les nouvelles données
         if: steps.cadence.outputs.run == '1'
