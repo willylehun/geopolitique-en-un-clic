@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:13:06.650313+02:00",
+  "generated_at": "2026-10-02T13:23:19.975555+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -56085,8 +56085,8 @@
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Russie"
+        "Russie",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -57973,6 +57973,179 @@
       "url": "https://www.gabonreview.com/journee-nationale-du-retraite-le-gabon-pose-les-bases-dune-nouvelle-politique-en-faveur-des-aines/",
       "published_at": "2026-10-02T12:12:40+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L'héritage de Kevin De Bruyne à Manchester City menacé ? \"Je serais furieux\". L'affaire des infractions financières reprochées à Manchester City pourrait dépasser le cadre du club. En cas de lourdes sanctions, l'héritage de joueurs comme Kevin De Bruyne pourrait être touché.",
+      "sources": [
+        "Walfoot.be — fiabilité 6/10"
+      ],
+      "url": "https://www.walfoot.be/news/2026-10-02/lheritage-de-kevin-de-bruyne-a-manchester-city-menace-je-serais-furieux",
+      "published_at": "2026-10-02T02:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les étudiants syriens sont pris dans le conflit entre les dirigeants druzes et Damas. Les jeunes de la province syrienne de Sweida ne peuvent pas progresser à l'école et à l'université en raison d'un fossé grandissant entre le gouvernement islamiste post-Assad et les dirigeants druzes alignés sur Israël.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/middle-east/syrian-students-get-caught-rift-between-druze-leaders-damascus-2026-10-02/",
+      "published_at": "2026-10-02T06:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le président Trump a déclaré que les États-Unis envisageaient une base militaire au Venezuela ou en Amérique du Sud. Photo : Alamy Trump a déclaré jeudi que son administration envisageait la possibilité d'établir une base militaire américaine au Venezuela ou ailleurs en Amérique du Sud, une décision qui…",
+      "sources": [
+        "Right Side Broadcasting Network — fiabilité 6/10"
+      ],
+      "url": "https://www.rsbnetwork.com/news/president-trump-says-u-s-considering-military-base-in-venezuela-or-south-america/",
+      "published_at": "2026-10-02T06:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Chine suspend ses exportations de carburant pour étouffer les approvisionnements en Asie. Les récentes restrictions chinoises à l'exportation de produits pétroliers ont affecté plusieurs grands importateurs d'Asie du Sud-Est et d'Australie. Singapour a connu cette année une baisse significative des importations d’essence en provenance de Chine…",
+      "sources": [
+        "The Economic Times via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/money/economy/china-fuel-export-suspension-to-choke-supplies-in-asia/ar-AA2dp2Or",
+      "published_at": "2026-10-02T04:39:11+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Singapour",
+        "Australie",
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Haïti"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "En Haïti, les violences des gangs ont tué ou blessé au moins 5 700 personnes depuis janvier, selon l’ONU. Haïti traverse depuis longtemps une crise politique, économique et sécuritaire, mais la situation s’est largement détériorée depuis ces dernières années.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/10/02/en-haiti-les-violences-des-gangs-ont-tue-ou-blesse-au-moins-5-700-personnes-depuis-janvier-selon-l-onu_6787132_3210.html",
+      "published_at": "2026-10-02T06:04:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Technologie",
+      "summary": "Je me suis battu pour investir dans la défense du Canada alors que l’ordre international s’érodait. Lorsque j'étais chef d'état-major de la Défense, j'ai vu les catastrophes naturelles, la technologie et la guerre bouleverser le monde.",
+      "sources": [
+        "theglobeandmail.com — fiabilité 6/10"
+      ],
+      "url": "https://www.theglobeandmail.com/opinion/article-canada-defence-investment-international-order-wayne-eyre/",
+      "published_at": "2026-10-02T12:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Allemagne",
+        "Iran",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Avant les mi-mandats : le président Donald Trump (États-Unis) tente de faire chanter l’Allemagne. Les élections approchent bientôt aux États-Unis. En raison de la guerre en Iran, les prix du carburant ont également fortement augmenté de l’autre côté de l’Atlantique. Le président américain Trump cherche une solution et l’Allemagne est dans sa ligne de mire.",
+      "sources": [
+        "t-online.de — fiabilité 6/10"
+      ],
+      "url": "https://www.t-online.de/finanzen/energie/id_101461260/vor-midterms-trump-versucht-deutschland-zu-erpressen.html",
+      "published_at": "2026-10-02T12:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Iran",
+        "Israël",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L’Iran évalue les options alors que les États-Unis font pression et que l’impasse nucléaire s’aggrave. Un haut responsable israélien de la défense a déclaré que la marge de manœuvre de l'Iran s'était réduite en raison des sanctions américaines, tandis qu'Israël se prépare à la possibilité qu'une décision iranienne échappe à tout contrôle.",
+      "sources": [
+        "jpost.com — fiabilité 6/10"
+      ],
+      "url": "http://www.jpost.com/middle-east/iran-news/article-910402",
+      "published_at": "2026-10-02T12:45:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
