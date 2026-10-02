@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:27:16.197767+02:00",
+  "generated_at": "2026-10-02T22:37:29.633070+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -60724,7 +60724,8 @@
         "ABC10 — fiabilité 6/10",
         "KARE 11 — fiabilité 6/10",
         "KING 5 — fiabilité 6/10",
-        "WNEP — fiabilité 6/10"
+        "WNEP — fiabilité 6/10",
+        "11Alive — fiabilité 6/10"
       ],
       "url": "https://www.abc10.com/article/news/nation-world/fuel-up-fridays-save-20-cents-per-gallon-gas-amazon-prime-earnify/507-631f02b4-57a1-4f03-92a9-ada261779a34",
       "published_at": "2026-10-02T12:27:00+02:00",
@@ -60877,12 +60878,13 @@
       "bucket": "2 octobre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Espagne: les députés rejettent les textes sur le logement, camouflet pour Pedro Sánchez. Les députés espagnols ont rejeté vendredi les deux textes présentés par le gouvernement pour tenter d'endiguer la crise du logement, infligeant un camouflet au Premier ministre socialiste Pedro Sánche …",
+      "summary": "Espagne Crise du logement : les députés rejettent les textes du gouvernement de Pedro Sánchez. Les députés espagnols ont rejeté ce vendredi les deux textes présentés par le gouvernement pour tenter d'endiguer la crise du logement, infligeant un camouflet au Premier ministre socialiste Pedro Sán …",
       "sources": [
-        "France 24 (média public) — fiabilité 8/10"
+        "France 24 (média public) — fiabilité 8/10",
+        "Le Dauphiné Libéré — fiabilité 6/10"
       ],
       "url": "https://www.france24.com/fr/info-en-continu/20261002-espagne-vote-à-haut-risque-sur-le-logement-pour-le-gouvernement-de-pedro-sánchez",
-      "published_at": "2026-10-02T07:42:00+02:00",
+      "published_at": "2026-10-02T12:52:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -62985,6 +62987,105 @@
       ],
       "url": "https://www.msn.com/fr-fr/actualite/other/avant-de-capturer-le-président-du-venezuela-donald-trump-a-demandé-l-avis-de-grok/ar-AA2doWDk",
       "published_at": "2026-10-02T02:00:40+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Contrôles et Sanctions sur un Chantier Public à Castellammare di Stabia. Le personnel du Centre Opérationnel Dia, ainsi que les membres du Groupe Interforces opérant auprès de la Préfecture (composé de représentants des forces de l’ordre, de l’Inspection du Travail …",
+      "sources": [
+        "Il Mattino — fiabilité 6/10"
+      ],
+      "url": "https://www.ilmattino.it/fr/controles_et_sanctions_sur_un_chantier_public_a_castellammare_di_stabia-9799861.html",
+      "published_at": "2026-10-02T08:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Díaz-Canel remet en question les mesures américaines concernant les nouvelles restrictions imposées aux entreprises privées cubaines. Le président cubain Miguel Díaz-Canel accuse les États-Unis d'hypocrisie en promouvant l'entreprise privée à Cuba tout en imposant de nouvelles restrictions aux entreprises cubaines.",
+      "sources": [
+        "The Seattle Times — fiabilité 6/10"
+      ],
+      "url": "https://www.seattletimes.com/business/diaz-canel-questions-us-measures-over-new-restrictions-on-cuban-private-firms/",
+      "published_at": "2026-10-02T07:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Cuba",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France",
+        "Italie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "France-Italie : la vidéo de la lucarne exceptionnelle de Michael Olise après une combinaison sur coup franc avec Rayan Cherki. Au cœur d’un temps fort français, Michael Olise a trouvé la clé d’une frappe merveilleuse depuis l’extérieur de la surface de réparation italienne, ce vendredi au Stade de France. Dans son entreprise, …",
+      "sources": [
+        "Le Parisien — fiabilité 6/10"
+      ],
+      "url": "https://www.leparisien.fr/sports/football/equipe-de-france/france-italie-la-video-de-la-lucarne-exceptionnelle-de-michael-olise-apres-une-combinaison-sur-coup-franc-avec-rayan-cherki-02-10-2026-R7DEFSCJDRBLTNK37VFX4WEO4Y.php",
+      "published_at": "2026-10-02T15:19:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Pourquoi Pedro Sánchez se tâte sur un pari électoral en pleine crise du logement en Espagne. Défait au Parlement sur deux textes pour atténuer la crise du logement, Pedro Sánchez pourrait en profiter pour déclencher des élections anticipées et faire campagne sur un thème qui unit la populatio …",
+      "sources": [
+        "L'Echo — fiabilité 6/10"
+      ],
+      "url": "https://www.lecho.be/economie-politique/europe/elections/pourquoi-pedro-s-nchez-se-tate-sur-un-pari-electoral-sur-fond-de-crise-du-logement-en-espagne/10688525.html",
+      "published_at": "2026-10-02T11:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Crise du logement en Espagne : Pedro Sánchez va-t-il appuyer sur “le bouton rouge” électoral ?. Vendredi 2 octobre, la majorité des députés du Congrès a voté contre les deux décrets présentés par le gouvernement pour répondre à la crise du logement …",
+      "sources": [
+        "Courrier International — fiabilité 6/10"
+      ],
+      "url": "https://www.courrierinternational.com/article/politique-crise-du-logement-en-espagne-pedro-sanchez-va-t-il-appuyer-sur-le-bouton-rouge-electoral_275620",
+      "published_at": "2026-10-02T10:58:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
