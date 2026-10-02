@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:14:31.172148+02:00",
+  "generated_at": "2026-10-02T14:24:43.516689+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -653,8 +653,8 @@
       ],
       "countries": [
         "Burkina Faso",
-        "Mali",
-        "Ghana"
+        "Ghana",
+        "Mali"
       ]
     },
     {
@@ -979,9 +979,9 @@
       ],
       "countries": [
         "Libye",
-        "Mali",
         "Soudan",
         "Algérie",
+        "Mali",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -56786,7 +56786,8 @@
       "summary": "Le président Donald Trump (États-Unis) affirme désormais que les États-Unis ont bombardé l’Iran « parce qu’ils consommaient de la drogue ». Trump ajoute une nouvelle justification qui fait sourciller à la guerre américaine en Iran : « Ils faisaient de la drogue » - « Ils faisaient du nucléaire et de la drogue ». Ils consommaient de la drogue, mais ils utilisaient le nucléaire\", a déclaré Trump lors d'un rassemblement au Texas.",
       "sources": [
         "Yahoo — fiabilité 6/10",
-        "The Independent via MSN — fiabilité 6/10"
+        "The Independent via MSN — fiabilité 6/10",
+        "AOL — fiabilité 6/10"
       ],
       "url": "https://www.yahoo.com/news/politics/articles/trump-now-claims-us-started-085106111.html",
       "published_at": "2026-10-02T06:44:26+02:00",
@@ -58365,12 +58366,13 @@
       "bucket": "2 octobre 2026",
       "score": 8,
       "category": "Économie",
-      "summary": "Les fonds d’actions américaines affichent un deuxième afflux hebdomadaire alors que l’optimisme de l’IA tempère les inquiétudes sur les rendements. Les fonds d'actions américaines ont enregistré des entrées de capitaux pour la deuxième semaine consécutive jusqu'au 30 septembre, alors que l'enthousiasme persistant pour l'intelligence artificielle et un chiffre d'inflation plus bas que prévu ont tempéré…",
+      "summary": "Les fonds d’actions américaines affichent un deuxième afflux hebdomadaire alors que l’optimisme de l’IA tempère les inquiétudes sur les rendements. 2 octobre (Reuters) - Les fonds d'actions américaines ont enregistré des afflux pour la deuxième semaine consécutive jusqu'au 30 septembre, en raison de l'enthousiasme persistant pour l'intelligence artificielle et d'un chiffre d'inflation plus bas que prévu…",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "Reuters via MSN — fiabilité 9/10"
       ],
       "url": "https://www.reuters.com/business/us-equity-funds-post-second-weekly-inflow-ai-optimism-tempers-yield-concerns-2026-10-02/",
-      "published_at": "2026-10-02T06:27:00+02:00",
+      "published_at": "2026-10-02T06:31:23+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -58684,6 +58686,90 @@
       ],
       "url": "https://fr.apanews.net/mali/mali-un-objectif-climatique-de-2525-dici-2035/",
       "published_at": "2026-10-02T05:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Une femme « jetée hors du lit » par la force d’un souffle de gaz. Une femme qui a été \"jetée du lit\" par la force d'une explosion de gaz dans un immeuble a aidé un autre résident à se mettre en sécurité, selon un procès. Dix personnes sont mortes suite à l'explosion près du Haut du Mont…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/cmp3gdd1ze47o",
+      "published_at": "2026-10-02T07:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les combattants étrangers du président Vladimir le président Vladimir Poutine (Russie). La Russie a besoin de plus de soldats. Au moins 250 000 personnes sont déjà mortes dans la guerre en Ukraine. Moscou recherche également de nouvelles recrues à l'étranger – en utilisant parfois des méthodes douteuses.",
+      "sources": [
+        "DW (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.dw.com/en/putins-foreign-fighters-how-russia-is-recruiting-foreign-nationals-to-fight-in-the-war/a-79518751",
+      "published_at": "2026-10-02T07:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le moins mauvais plan diesel d’Europe : en libérer davantage. Les États-Unis souhaitent que les États de l’UE libèrent une partie des 39 millions de tonnes de carburant du bloc afin de freiner les prix élevés. Les risques énergétiques et le rôle de Washington dans la guerre en Iran sont de bonnes raisons de ne pas le faire. Mais l’Europe a…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/commentary/breakingviews/europes-least-bad-diesel-plan-release-more-it-2026-10-02/",
+      "published_at": "2026-10-02T07:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Espagne : vote à haut risque sur le logement pour le gouvernement de Pedro Sánchez. Les députés espagnols se prononcent vendredi à Madrid, en pleine vague de mobilisation, sur deux décrets sur le logement portés par le gouvernement de gauche, dont le probable rejet placerait le …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/021026/espagne-vote-haut-risque-sur-le-logement-pour-le-gouvernement-de-pedro-sanchez",
+      "published_at": "2026-10-02T05:45:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
