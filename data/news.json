@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T08:36:33.766763+02:00",
+  "generated_at": "2026-10-02T08:46:52.268174+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -54902,7 +54902,8 @@
       "url": "https://www.msn.com/en-za/news/other/abu-dhabi-crown-prince-s-300-billion-wealth-empire-eyes-new-trade-corridors-stretching-into-africa/ar-AA2dnNp7",
       "published_at": "2026-10-02T00:22:57+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -54952,14 +54953,14 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
         "Europe",
+        "Amérique du Nord",
         "International"
       ],
       "countries": [
         "Iran",
-        "États-Unis",
-        "Russie"
+        "Russie",
+        "États-Unis"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -55103,6 +55104,49 @@
       "published_at": "2026-10-02T08:15:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Yémen a mené 20 frappes contre des cibles Houthis dans la province de Taiz, a indiqué le porte-parole. Le porte-parole militaire du gouvernement du Yémen, reconnu internationalement, a déclaré vendredi que des avions de combat avaient mené 20 frappes au cours des trois dernières heures, ciblant les mouvements, le personnel et le personnel des Houthis.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/middle-east/yemen-carried-out-20-strikes-houthi-targets-taiz-province-spokesperson-says-2026-10-02/",
+      "published_at": "2026-10-02T01:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Yémen"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis vont déployer un troisième porte-avions et 10 000 soldats supplémentaires au Moyen-Orient alors que le président Donald Trump (États-Unis) envisage de frapper l’Iran. Le mouvement des troupes, qui comprend un troisième porte-avions, souligne l'évolution rapide de la dynamique de la guerre du président Donald Trump (États-Unis) contre l'Iran alors qu'il réfléchit à sa prochaine décision, avec les élections de mi-mandat aux États-Unis.",
+      "sources": [
+        "Daily Mail — fiabilité 6/10"
+      ],
+      "url": "https://www.dailymail.com/news/article-16177631/Donald-Trump-US-troops-strikes-Middle-East.html",
+      "published_at": "2026-10-02T00:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
     },
     {
       "regions": [
