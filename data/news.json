@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:58:00.266334+02:00",
+  "generated_at": "2026-10-02T23:08:15.661063+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -58412,6 +58412,7 @@
     {
       "regions": [
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -60725,7 +60726,8 @@
         "KING 5 — fiabilité 6/10",
         "WNEP — fiabilité 6/10",
         "11Alive — fiabilité 6/10",
-        "10tv.com — fiabilité 6/10"
+        "10tv.com — fiabilité 6/10",
+        "9news.com — fiabilité 6/10"
       ],
       "url": "https://www.abc10.com/article/news/nation-world/fuel-up-fridays-save-20-cents-per-gallon-gas-amazon-prime-earnify/507-631f02b4-57a1-4f03-92a9-ada261779a34",
       "published_at": "2026-10-02T12:27:00+02:00",
@@ -62044,7 +62046,8 @@
       "summary": "Un ancien membre du Congrès américain condamné à 10 ans de prison pour avoir exercé secrètement des pressions en faveur du Venezuela. L'ancien membre du Congrès américain David Rivera a été condamné vendredi à 10 ans de prison pour avoir exercé illégalement des pressions sur des responsables américains afin d'alléger la pression sur le gouvernement du président vénézuélien déchu Nicolas Maduro.",
       "sources": [
         "Reuters — fiabilité 9/10",
-        "The Sacramento Bee — fiabilité 6/10"
+        "The Sacramento Bee — fiabilité 6/10",
+        "WHBL — fiabilité 6/10"
       ],
       "url": "https://www.reuters.com/legal/government/former-us-congressman-sentenced-10-years-secretly-lobbying-venezuela-2026-10-02/",
       "published_at": "2026-10-02T14:11:00+02:00",
@@ -63141,7 +63144,8 @@
       "url": "https://www.france24.com/en/tv-shows/talking-europe/20261002-a-grim-winter-ahead-eu-states-asked-to-prepare-gas-and-electricity-savings",
       "published_at": "2026-10-02T07:05:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -63205,7 +63209,8 @@
       "url": "https://www.kuow.org/economy/2026-10-02/was-nation-high-minimum-wage-rising-to-nearly-18-an-hour-in-2027",
       "published_at": "2026-10-02T15:31:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -63264,6 +63269,113 @@
       ],
       "url": "https://www.liberation.fr/international/europe/en-lettonie-la-langue-russe-au-coeur-des-fractures-dune-societe-en-crise-didentite-20261002_6Y2LUHC43VGHJGY67R725AZPH4/",
       "published_at": "2026-10-02T11:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Poutine lance un avertissement nucléaire à l'OTAN concernant les armes ukrainiennes. Jennifer Griffin, correspondante en chef de Fox News pour la sécurité nationale, rapporte sur \"America Reports\" l'avertissement du président russe le président Vladimir Poutine (Russie) à l'OTAN concernant l'utilisation d'armes à longue portée en Ukraine.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6406132013112",
+      "published_at": "2026-10-02T15:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "L'Italie affirme n'avoir aucun candidat à la tête de la BCE et appelle à des éclaircissements sur la sortie anticipée de Lagarde. L'Italie cherche à clarifier les rumeurs selon lesquelles la présidente de la Banque centrale européenne (BCE), la présidente de la Banque centrale européenne Christine Lagarde (Union européenne), pourrait quitter son poste plus tôt, a déclaré vendredi le ministre de l'Economie Giancarlo Giorgetti.",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/business/italy-says-has-no-candidate-ecb-chief-calls-clarity-early-exit-lagarde-2026-10-02/",
+      "published_at": "2026-10-02T12:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Italie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Liban",
+        "Israël"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le Liban dit qu’il n’a pas les moyens de reconstruire les zones détruites par la guerre avec Israël. Selon le premier ministre libanais, le pays a besoin d’« un important financement » pour la reconstruction, après deux guerres entre le Hezbollah et Israël.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/10/02/le-liban-dit-qu-il-n-a-pas-les-moyens-de-reconstruire-les-zones-detruites-par-la-guerre-avec-israel_6787121_3210.html",
+      "published_at": "2026-10-02T04:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Liban",
+        "Israël"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le Liban n’a pas les moyens de reconstruire les zones détruites par la guerre avec Israël. Des passants observent les secouristes utiliser des pelleteuses pour rechercher des victimes sous les décombres d'un immeuble détruit lors d'une frappe aérienne israélienne dans le village de Kfar Rum …",
+      "sources": [
+        "Noovo Info — fiabilité 6/10"
+      ],
+      "url": "https://www.noovo.info/nouvelles/international/conflit-moyen-orient/article/le-liban-na-pas-les-moyens-de-reconstruire-les-zones-detruites-par-la-guerre-avec-israel/",
+      "published_at": "2026-10-02T05:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Malaisie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Malaisie : MSF appelle à suspendre d’urgence l’expulsion de réfugiés vers le Myanmar. Alors que le gouvernement malaisien a démarré l'expulsion de près de 1 500 réfugiés vers le Myanmar et prévoit d’en renvoyer 3 500 autres, Médecins Sans Frontières (MSF) alerte sur le danger extrême e …",
+      "sources": [
+        "Médecins Sans Frontières — fiabilité 6/10"
+      ],
+      "url": "https://www.msf.fr/communiques-presse/malaisie-msf-appelle-a-suspendre-d-urgence-l-expulsion-de-refugies-vers-le-myanmar",
+      "published_at": "2026-10-02T08:36:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
