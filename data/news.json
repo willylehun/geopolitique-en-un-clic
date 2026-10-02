@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:24:46.888672+02:00",
+  "generated_at": "2026-10-02T07:35:00.172343+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -28789,8 +28789,8 @@
         "International"
       ],
       "countries": [
-        "Palestine",
         "Qatar",
+        "Palestine",
         "Royaume-Uni"
       ],
       "period": "day",
@@ -40902,13 +40902,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Palestine",
-        "Pays-Bas"
+        "Pays-Bas",
+        "Palestine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -41624,12 +41624,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Palestine",
-        "Soudan"
+        "Soudan",
+        "Palestine"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -52971,8 +52971,8 @@
       ],
       "countries": [
         "Israël",
-        "Palestine",
         "Iran",
+        "Palestine",
         "États-Unis"
       ],
       "period": "day",
@@ -54663,6 +54663,46 @@
         "manilatimes.net — fiabilité 6/10"
       ],
       "url": "https://www.manilatimes.net/2026/10/02/tmt-newswire/plentisoft/underwood-law-brings-partition-actions-to-property-owners-across-california/2437741",
+      "published_at": "2026-10-02T06:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Manifestation de Jantar Mantar : Pourquoi les groupes étudiants exigent-ils la démission de la CEC ?. Tous les groupes ne veulent pas la même chose. Les organisations étudiantes demandent la démission de Kumar.",
+      "sources": [
+        "Zee News via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/news/jantar-mantar-protest-why-are-student-groups-demanding-cec-resignation/ar-AA2dnVhW",
+      "published_at": "2026-10-02T00:07:44+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Sri Lanka",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "20 pétroliers iraniens bloqués au large du Sri Lanka alors que les approvisionnements sont à court – Breaking News. Une vingtaine de pétroliers iraniens vides sont bloqués à environ 24 kilomètres au large de la côte sud-ouest du Sri Lanka, avec des pénuries de nourriture, de carburant et d’eau douce, dans le contexte d’une campagne de pression américaine visant le commerce du pétrole iranien, a rapporté mercredi le Wall Street Journal.",
+      "sources": [
+        "dailymirror.lk — fiabilité 6/10"
+      ],
+      "url": "https://www.dailymirror.lk/breaking-news/20-Iranian-oil-tankers-stranded-off-Sri-Lanka-as-supplies-run-short/108-351570",
       "published_at": "2026-10-02T06:45:00+02:00",
       "origin": "global",
       "content_enriched": true
