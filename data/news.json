@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:08:15.661063+02:00",
+  "generated_at": "2026-10-02T23:18:39.161580+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -9357,8 +9357,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Liban",
-        "Israël"
+        "Israël",
+        "Liban"
       ]
     },
     {
@@ -23451,13 +23451,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Liban",
-        "France"
+        "France",
+        "Liban"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -23478,8 +23478,8 @@
         "International"
       ],
       "countries": [
-        "Malaisie",
-        "Birmanie"
+        "Birmanie",
+        "Malaisie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -32043,9 +32043,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Malaisie",
         "Bahreïn",
-        "Iran"
+        "Iran",
+        "Malaisie"
       ]
     },
     {
@@ -42266,10 +42266,10 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Malaisie",
         "Turquie",
         "Afghanistan",
         "Chine",
+        "Malaisie",
         "Pakistan",
         "Vietnam",
         "États-Unis"
@@ -62006,7 +62006,8 @@
       "summary": "Arbre généalogique de la diplomatie panda : voici toutes les paires prêtées aux États-Unis par la Chine. Neuf couples de pandas géants ont été introduits dans le pays depuis 1972, et environ 25 petits sont nés sur le sol américain.",
       "sources": [
         "KMBC — fiabilité 6/10",
-        "WESH — fiabilité 6/10"
+        "WESH — fiabilité 6/10",
+        "WJCL — fiabilité 6/10"
       ],
       "url": "https://www.kmbc.com/article/china-giant-panda-loan-us-zoo-atlanta-history/73945345",
       "published_at": "2026-10-02T13:24:00+02:00",
@@ -63321,8 +63322,8 @@
         "International"
       ],
       "countries": [
-        "Liban",
-        "Israël"
+        "Israël",
+        "Liban"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -63343,8 +63344,8 @@
         "International"
       ],
       "countries": [
-        "Liban",
-        "Israël"
+        "Israël",
+        "Liban"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -63376,6 +63377,149 @@
       ],
       "url": "https://www.msf.fr/communiques-presse/malaisie-msf-appelle-a-suspendre-d-urgence-l-expulsion-de-refugies-vers-le-myanmar",
       "published_at": "2026-10-02T08:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Karine Jean-Pierre admet que l’administrateur de Biden a échoué en matière de messages économiques et liés à l’âge, mais affirme que Trump a commis la même erreur. Karine Jean-Pierre a soutenu que le président Donald Trump (États-Unis) répétait les échecs de l'ancien président Joe Biden sur l'économie, avertissant que les prix de l'épicerie et de l'essence restaient invaincus.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/media/karine-jean-pierre-admits-biden-admin-failed-economic-age-messaging-claims-trump-making-same-mistake",
+      "published_at": "2026-10-02T15:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Cour fédérale bloque temporairement le mur frontalier de l'administration du président Donald Trump (États-Unis) dans la région de Big Bend au Texas. Un tribunal fédéral du Texas a rendu vendredi une décision interdisant temporairement à l'administration Trump de construire un mur frontalier et d'autres infrastructures dans la région de Big Bend, dans l'État.",
+      "sources": [
+        "AP — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/federal-court-temporarily-blocks-trump-administration-border-wall-in-texas-big-bend-region/ar-AA2drX8R",
+      "published_at": "2026-10-02T15:49:36+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Pologne rédige une loi de préparation « d’avant-guerre » pour accélérer le déploiement des troupes alliées. Le projet de loi permettrait un déploiement plus rapide des troupes polonaises et alliées, ainsi que l’alignement des plans de défense sur les systèmes de l’OTAN.",
+      "sources": [
+        "Kyiv Post — fiabilité 6/10"
+      ],
+      "url": "https://www.kyivpost.com/post/85992",
+      "published_at": "2026-10-02T04:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pologne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Singapour"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre chez Castel : à Singapour, la fille du fondateur met le PDG en échec et lance la course contre la montre pour le contrôle de l’empire. La Haute Cour de Singapour confirme la révocation de Gregory Clerc et de son allié Pierre Baer de leurs fonctions d’administrateurs de la holding IBBM (Investment Beverage Business Management), princi …",
+      "sources": [
+        "Challenges — fiabilité 6/10"
+      ],
+      "url": "https://www.challenges.fr/entreprise/guerre-chez-castel-a-singapour-la-fille-du-fondateur-met-le-pdg-en-echec-et-lance-la-course-contre-la-montre-pour-le-controle-de-lempire_646138",
+      "published_at": "2026-10-02T09:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Singapour"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La fille de Pierre Castel remporte une bataille judiciaire à Singapour, la guerre reste déclarée avec son PDG. Le conflit Castel continue de virer au casse-tête à Singapour. S'il y a une victoire revendiquée par les membres de la famille pour sortir la direction …",
+      "sources": [
+        "Vitisphere — fiabilité 6/10"
+      ],
+      "url": "https://www.vitisphere.com/actualite-107438-jugement-castel-a-singapour-fin-du-suspens-mais-pas-des-affaires.html",
+      "published_at": "2026-10-02T03:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Singapour"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Bras de fer chez Castel : la justice de Singapour relance la lutte pour le contrôle du géant de la bière. Alors que le groupe Castel est l’objet d’un conflit entre la fille du fondateur, Romy Castel, et l’actuel directeur général, Gregory Clerc, une décision de justice à Singapour relance les hostilités.",
+      "sources": [
+        "Jeune Afrique — fiabilité 7/10"
+      ],
+      "url": "https://www.jeuneafrique.com/1848866/economie-entreprises/bras-de-fer-chez-castel-la-justice-de-singapour-relance-la-lutte-pour-le-controle-du-geant-de-la-biere/",
+      "published_at": "2026-10-02T11:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Singapour"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Castel: Romy Castel remporte une victoire judiciaire à Singapour. Gregory Clerc, devenu directeur général du groupe fondé par Pierre Castel, 99 ans, vient de perdre sa place au sein du Conseil d’administration d’une holding àa Singapour. Entre plaintes pénales à Gen …",
+      "sources": [
+        "Bilan — fiabilité 6/10"
+      ],
+      "url": "https://www.bilan.ch/story/castel-romy-castel-remporte-une-victoire-judiciaire-a-singapour-212375124291",
+      "published_at": "2026-10-02T13:06:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
