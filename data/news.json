@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:00:00.344993+02:00",
+  "generated_at": "2026-10-02T11:10:13.543981+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23546,9 +23546,9 @@
       ],
       "countries": [
         "Maroc",
-        "Qatar",
         "Arabie saoudite",
         "Israël",
+        "Qatar",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -27036,8 +27036,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "États-Unis"
       ]
     },
@@ -28789,8 +28789,8 @@
         "International"
       ],
       "countries": [
-        "Qatar",
         "Palestine",
+        "Qatar",
         "Royaume-Uni"
       ],
       "period": "day",
@@ -29067,8 +29067,8 @@
         "International"
       ],
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "États-Unis"
       ],
       "period": "day",
@@ -30448,8 +30448,8 @@
         "International"
       ],
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "États-Unis"
       ],
       "period": "day",
@@ -36160,12 +36160,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Qatar",
-        "Tanzanie"
+        "Tanzanie",
+        "Qatar"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38344,10 +38344,10 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Qatar",
         "Inde",
         "Iran",
         "Israël",
+        "Qatar",
         "Égypte",
         "États-Unis"
       ]
@@ -39942,13 +39942,13 @@
     },
     {
       "regions": [
-        "Afrique",
         "Amérique du Sud",
+        "Afrique",
         "International"
       ],
       "countries": [
-        "Congo (RDC)",
-        "Colombie"
+        "Colombie",
+        "Congo (RDC)"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -44939,12 +44939,12 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "countries": [
-        "Gabon",
-        "Chine"
+        "Chine",
+        "Gabon"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -49340,8 +49340,8 @@
       ],
       "countries": [
         "Indonésie",
-        "Rwanda",
-        "Turquie"
+        "Turquie",
+        "Rwanda"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -49542,9 +49542,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Qatar",
         "Syrie",
         "Arabie saoudite",
+        "Qatar",
         "Yémen"
       ]
     },
@@ -56163,8 +56163,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -56180,8 +56180,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Irlande",
-        "Iran"
+        "Iran",
+        "Irlande"
       ]
     },
     {
@@ -56236,8 +56236,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "Émirats arabes unis"
       ]
     },
@@ -56334,6 +56334,86 @@
       ],
       "url": "https://www.msn.com/fr-xl/actualite/other/gabon-fortescue-belinga-pose-la-première-pierre-de-son-futur-siège-provincial-à-makokou/ar-AA2dp9pE",
       "published_at": "2026-10-02T02:13:10+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'anomalie du marché du travail. Le rapport sur l'emploi aux États-Unis présente un large éventail d'estimations autour des données sur la masse salariale. Cela n’est pas surprenant : la précision des données sur le marché du travail est remise en question par les faibles taux de réponse et les changements structurels dans le monde.",
+      "sources": [
+        "UBS — fiabilité 6/10"
+      ],
+      "url": "https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/market-insights/paul-donovan/2026/the-labor-market-anomaly.html",
+      "published_at": "2026-10-02T03:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Bengale occidental augmente les salaires du personnel scolaire contractuel à partir d’octobre 2026. Le gouvernement du Bengale occidental a augmenté le salaire mensuel des employés contractuels du système éducatif scolaire. La rémunération révisée entrera en vigueur le 1er octobre 2026 et vise à offrir…",
+      "sources": [
+        "Asianet Newsable via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/money/general/west-bengal-hikes-pay-for-contractual-school-staff-from-october-2026/ar-AA2dp4ZS",
+      "published_at": "2026-10-02T03:31:10+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 10,
+      "category": "Géopolitique",
+      "summary": "Les troupes britanniques se joignent à leurs alliés pour un exercice majeur face aux menaces russes. Les troupes britanniques se joignent à leurs alliés pour un exercice militaire majeur visant à contrer les menaces russes. Les Royal Marines ont également mené leur premier exercice aux îles Féroé depuis la Seconde Guerre mondiale…",
+      "sources": [
+        "The Independent via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-nz/news/other/british-troops-join-allies-for-major-exercise-amid-russian-threats/ar-AA2doqsH",
+      "published_at": "2026-10-02T03:36:03+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Asie"
+      ],
+      "countries": [
+        "Islande",
+        "Israël"
+      ],
+      "period": "day",
+      "bucket": "2 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "À l’Onu, l’Islande renvoie Israël à sa lâcheté morale. Quand la ministre islandaise des Affaires étrangères recadre le Premier ministre Benjamin Netanyahu (Israël) et Israël qui bafouent les règles internationales.",
+      "sources": [
+        "Kapitalis — fiabilité 6/10"
+      ],
+      "url": "https://kapitalis.com/tunisie/2026/10/02/a-lonu-lislande-renvoie-israel-a-sa-lachete-morale/",
+      "published_at": "2026-10-02T02:38:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
