@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:11:02.882214+02:00",
+  "generated_at": "2026-10-03T08:21:14.078565+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64100,6 +64100,30 @@
       ],
       "url": "https://www.telegraph.co.uk/news/2026/10/03/big-state-britain-back-vengeance/",
       "published_at": "2026-10-03T01:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Irak",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "ENTRETIEN. Irak : 23 ans après l'invasion, quel avenir pour le pays avec le départ des Américains ? \"En déconstruisant la dictature, ils ont déconstruit l'État\". Les derniers soldats américains ont quitté l'Irak le 30 septembre, 23 ans après l'invasion. Que laissent-ils derrière eux ? Interrogée par La Dépêche, Myriam Benraad, politologue spécialiste de l'Irak …",
+      "sources": [
+        "ladepeche.fr — fiabilité 6/10",
+        "La Dépêche — fiabilité 6/10"
+      ],
+      "url": "https://www.ladepeche.fr/2026/10/03/entretien-irak-23-ans-apres-linvasion-quel-avenir-pour-le-pays-avec-le-depart-des-americains-en-deconstruisant-la-dictature-ils-ont-deconstruit-letat-13579979.php",
+      "published_at": "2026-10-03T06:15:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
