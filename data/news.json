@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:34:04.000625+02:00",
+  "generated_at": "2026-10-03T10:44:15.757476+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23430,12 +23430,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "countries": [
-        "Italie",
-        "Koweït"
+        "Koweït",
+        "Italie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -30062,8 +30062,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Italie",
-        "France"
+        "France",
+        "Italie"
       ]
     },
     {
@@ -31911,8 +31911,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Italie",
-        "France"
+        "France",
+        "Italie"
       ]
     },
     {
@@ -55921,8 +55921,8 @@
         "International"
       ],
       "countries": [
-        "Italie",
-        "Portugal"
+        "Portugal",
+        "Italie"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -63041,8 +63041,8 @@
         "Europe"
       ],
       "countries": [
-        "Italie",
-        "France"
+        "France",
+        "Italie"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
