@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:13:25.367020+02:00",
+  "generated_at": "2026-10-03T17:23:38.903164+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -370,8 +370,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Asie",
+        "Amérique du Sud",
         "Amérique du Nord",
         "International"
       ],
@@ -384,8 +384,8 @@
         "Reuters"
       ],
       "countries": [
-        "Venezuela",
         "Iran",
+        "Venezuela",
         "États-Unis"
       ]
     },
@@ -2947,12 +2947,12 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
-        "Europe"
+        "Europe",
+        "Amérique du Sud"
       ],
       "countries": [
-        "Venezuela",
-        "Portugal"
+        "Portugal",
+        "Venezuela"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -28623,8 +28623,8 @@
     },
     {
       "regions": [
-        "Amérique du Sud",
         "Europe",
+        "Amérique du Sud",
         "International"
       ],
       "period": "day",
@@ -28640,8 +28640,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Venezuela",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Venezuela"
       ]
     },
     {
@@ -66353,11 +66353,12 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
-      "score": 5,
+      "score": 9,
       "category": "Géopolitique",
       "summary": "La « Marche de la folie » du président Donald Trump (États-Unis) donne du pouvoir aux extrémistes iraniens. Pourtant, la myopie trumpienne persiste, l’administration continuant de prétendre que sa pression sur l’Iran est un succès retentissant. \"Le blocus fonctionne, il fonctionne comme nous n'en avons jamais vu\"…",
       "sources": [
@@ -67402,6 +67403,47 @@
       "published_at": "2026-10-03T09:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Corée du Nord « tire un missile balistique » après que Séoul a demandé des excuses. Kim Yo Jong, la puissante sœur du dirigeant nord-coréen Kim Jong Un, a déclaré que son pays avait testé un missile stratégique à portée intermédiaire.",
+      "sources": [
+        "Sky News via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-gb/news/other/north-korea-fires-ballistic-missile-after-seoul-demands-apology/ar-AA2dt2Cl",
+      "published_at": "2026-10-03T10:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Nord"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Amazon promet 1 milliard de dollars aux communautés des centres de données et met fin aux NDA du gouvernement. Amazon a promis plus d'un milliard de dollars aux communautés de centres de données américains et a déclaré qu'il n'utilisait plus de NDA avec les agences gouvernementales pour ses projets.",
+      "sources": [
+        "theenergymag — fiabilité 6/10"
+      ],
+      "url": "https://theenergymag.com/news/market-news/amazon-data-center-nda-government-ageny",
+      "published_at": "2026-10-03T08:41:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
