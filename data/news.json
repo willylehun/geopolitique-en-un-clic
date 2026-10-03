@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:35:24.566761+02:00",
+  "generated_at": "2026-10-03T11:45:37.596954+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64216,7 +64216,8 @@
         "International"
       ],
       "countries": [
-        "Ukraine"
+        "Ukraine",
+        "Russie"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -64227,7 +64228,7 @@
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/10/03/en-direct-guerre-en-ukraine-un-nouveau-pont-majeur-de-kiev-touche-par-une-frappe-russe_6783795_3210.html",
-      "published_at": "2026-10-03T02:44:00+02:00",
+      "published_at": "2026-10-03T04:25:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -65187,6 +65188,44 @@
       "url": "https://www.lindependant.fr/2026/10/03/tensions-en-asie-la-coree-du-nord-tire-un-missile-balistique-qui-parcourt-700-km-la-coree-du-sud-en-alerte-13581754.php",
       "published_at": "2026-10-03T04:28:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le G7 va libérer 100 millions de barils de pétrole et de diesel, cela va-t-il freiner les prix ?. Les prix du pétrole ont bondi jeudi et se sont stabilisés à plus de 4 dollars le baril. Les prix mondiaux du diesel ont également atteint un niveau record vendredi dernier, le prix moyen d'un gallon (3,79 litres) de diesel étant de 6,50 dollars, en hausse…",
+      "sources": [
+        "Al Jazeera — fiabilité 8/10"
+      ],
+      "url": "https://www.aljazeera.com/news/2026/10/3/g7-to-release-100-million-barrels-of-oil-and-diesel-will-it-curb-prices",
+      "published_at": "2026-10-03T04:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Fatima Ezzahra El Mansouri : famille, études à Montpellier… Tout savoir sur la première femme à diriger un gouvernement au Maroc ?. Fatima Ezzahra El Mansouri a été nommée cheffe du gouvernement marocain par le roi Mohammed VI ce mardi 29 septembre, après la victoire de son parti aux élections législatives. À 50 ans, elle devient la première femme à accéder à cette fonction au Maroc. Mais qui est-elle ? Éclairage.",
+      "sources": [
+        "Gala — fiabilité 6/10"
+      ],
+      "url": "https://www.gala.fr/politique/fatima-ezzahra-el-mansouri-famille-etudes-a-montpellier-tout-savoir-sur-la-premiere-femme-a-diriger-un-gouvernement-au-maroc-20261003",
+      "published_at": "2026-10-03T11:24:24+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
