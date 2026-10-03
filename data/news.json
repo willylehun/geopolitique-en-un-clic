@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:17:42.069062+02:00",
+  "generated_at": "2026-10-03T13:27:52.540728+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -31461,8 +31461,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Amérique du Sud",
+        "Amérique du Nord",
         "Océanie",
         "International"
       ],
@@ -31479,8 +31479,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Canada",
         "Pérou",
+        "Canada",
         "Nouvelle-Zélande"
       ]
     },
@@ -33116,12 +33116,12 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Europe"
+        "Europe",
+        "Amérique du Nord"
       ],
       "countries": [
-        "Canada",
         "Allemagne",
+        "Canada",
         "États-Unis"
       ],
       "period": "day",
@@ -56863,13 +56863,13 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
         "Europe",
+        "Amérique du Nord",
         "International"
       ],
       "countries": [
-        "Canada",
         "Allemagne",
+        "Canada",
         "États-Unis"
       ],
       "period": "day",
@@ -65679,6 +65679,131 @@
       "countries": [
         "Canada"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement britannique doit lutter contre la dette étudiante, déclare le SNP. Le SNP affirme que le gouvernement britannique doit rendre les prêts étudiants plus abordables après que de nouvelles statistiques indiquent que les étudiants écossais obtiennent leur diplôme avec moins de la moitié de la dette de leurs homologues anglais et gallois.",
+      "sources": [
+        "AOL.co.uk — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.co.uk/articles/uk-government-must-tackle-student-105356000.html",
+      "published_at": "2026-10-03T05:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "L'Irak obtient l'autorisation des États-Unis pour reprendre les vols vers l'Iran, déclare le Premier ministre. Les vols entre les pays voisins ont été interrompus après de larges sanctions américaines contre l’industrie aéronautique iranienne.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/03/world/middleeast/iraq-iran-flights-us-sanctions.html",
+      "published_at": "2026-10-03T06:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Irak",
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Comment une publicité provocatrice sur le président Donald Trump (États-Unis) et l’immigration a déclenché une course aux maisons en Floride. La représentante républicaine María Elvira Salazar a publié une publicité critiquant l’administration Trump. Cela a peut-être secoué d’autres républicains – et attiré l’attention sur son adversaire démocrate.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/03/us/politics/how-a-provocative-ad-on-trump-and-immigration-stirred-a-florida-house-race.html",
+      "published_at": "2026-10-03T05:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Tchad"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Tchad : le gouvernement prend des mesures contre les descentes précoces des transhumants. Par une note circulaire, le vice-Premier ministre, chargé de l’Administration du territoire et de la Décentralisation, Limane Mahamat, demande aux délégués généraux du gouvernement des provinces, préf …",
+      "sources": [
+        "Tchadinfos — fiabilité 6/10"
+      ],
+      "url": "https://tchadinfos.com/2026/10/03/tchad-le-gouvernement-prend-des-mesures-contre-les-descentes-precoces-des-transhumants/",
+      "published_at": "2026-10-03T02:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Un homme condamné à mort en Iran pour avoir participé aux manifestations contre le pouvoir en janvier. La justice iranienne a annoncé ce samedi 3 octobre 2026 la condamnation à mort d’un homme reconnu coupable de « guerre contre Dieu » et d’avoir utilisé une arme contre des policiers lors des manifesta …",
+      "sources": [
+        "Ouest-France via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/un-homme-condamné-à-mort-en-iran-pour-avoir-participé-aux-manifestations-contre-le-pouvoir-en-janvier/ar-AA2dsPsp",
+      "published_at": "2026-10-03T03:34:31+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Iran : exécution d'un homme en lien avec les manifestations de janvier. La justice iranienne a annoncé samedi l'exécution d'un homme reconnu notamment coupable d'avoir fait usage d'une arme contre des policiers …",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/iran-execution-d-un-homme-en-lien-avec-les-manifestations-de-janvier-20261003",
+      "published_at": "2026-10-03T02:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
