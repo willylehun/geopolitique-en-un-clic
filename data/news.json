@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:06:08.094383+02:00",
+  "generated_at": "2026-10-03T12:16:17.105876+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -65287,6 +65287,28 @@
       "published_at": "2026-10-03T11:52:20+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les Lettons votent aux élections législatives dans un contexte d'inquiétudes concernant la hausse du coût de la vie et la Russie. DOSSIER : Les bureaux de vote ont ouvert samedi en Lettonie pour des élections générales, Riga, Lettonie, samedi 1er octobre 2022.",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-sg/news/other/latvians-vote-in-parliamentary-election-amid-concerns-over-rising-cost-of-living-and-russia/vi-AA2dsSd7",
+      "published_at": "2026-10-03T04:01:12+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Lettonie",
+        "Russie"
+      ]
     },
     {
       "regions": [
