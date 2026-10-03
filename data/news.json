@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:14:35.299240+02:00",
+  "generated_at": "2026-10-03T18:24:48.943891+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -981,8 +981,8 @@
       "countries": [
         "Mali",
         "Libye",
-        "Soudan",
         "Algérie",
+        "Soudan",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -41625,12 +41625,12 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "countries": [
-        "Soudan",
-        "Palestine"
+        "Palestine",
+        "Soudan"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -67795,6 +67795,67 @@
       ],
       "url": "https://www.msn.com/fr-xl/actualite/other/soudan-la-crise-du-carburant-pèse-sur-la-population/ar-AA2du4pA",
       "published_at": "2026-10-03T09:43:01+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Une manif à Genève exige des sanctions suisses contre Israël. «La Suisse complice»: à Genève, 1500 manifestants ont exigé samedi la rupture des liens commerciaux, militaires, académiques et culturels avec Israël, accusant Berne d’inaction face à la guerre à Gaza (Palestine) …",
+      "sources": [
+        "Blick — fiabilité 6/10"
+      ],
+      "url": "https://www.blick.ch/fr/suisse/romande/geneve-une-manif-exige-des-sanctions-suisses-contre-israel/d2kxlvz",
+      "published_at": "2026-10-03T11:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Palestine",
+        "Suisse"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des milliers de personnes se rassemblent dans toute l'Espagne contre la crise du logement alors que le Parlement bloque des réformes clés. Environ 70 000 personnes ont manifesté à Madrid, tandis que de fortes pluies ont contraint les organisateurs à annuler les manifestations à Barcelone et à l'Hospitalet de Llobregat voisin.",
+      "sources": [
+        "India Today — fiabilité 6/10"
+      ],
+      "url": "https://www.indiatoday.in/world/story/spain-housing-crisis-protests-madrid-opposition-blocks-measures-3008997-2026-10-03",
+      "published_at": "2026-10-03T11:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Quelques heures après qu'Abhijeet Dipke ait remercié la police, les organisateurs du CJP et 400 à 500 supporters réservés pour la manifestation du parc Shivaji. La police de Mumbai a arrêté le fondateur du CJP, Abhijeet Dipke, d'autres organisateurs et des centaines de partisans non identifiés lors de la manifestation du 2 octobre au parc Shivaji. La police a déclaré que l'autorisation pour le rassemblement avait été…",
+      "sources": [
+        "Free Press Journal — fiabilité 6/10"
+      ],
+      "url": "https://www.freepressjournal.in/mumbai/hours-after-abhijeet-dipke-thanks-police-cjp-organisers-400-500-supporters-booked-over-shivaji-park-protest",
+      "published_at": "2026-10-03T10:12:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
