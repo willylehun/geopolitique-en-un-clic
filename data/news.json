@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:10:10.234592+02:00",
+  "generated_at": "2026-10-03T15:20:22.312799+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66350,11 +66350,12 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
-      "score": 5,
+      "score": 9,
       "category": "Géopolitique",
       "summary": "La « Marche de la folie » du président Donald Trump (États-Unis) donne du pouvoir aux extrémistes iraniens. Pourtant, la myopie trumpienne persiste, l’administration continuant de prétendre que sa pression sur l’Iran est un succès retentissant. \"Le blocus fonctionne, il fonctionne comme nous n'en avons jamais vu\"…",
       "sources": [
@@ -66590,6 +66591,106 @@
       ],
       "url": "https://www.armenews.com/service-de-bus-scolaires-lance-dans-plusieurs-regions-darmenie/",
       "published_at": "2026-10-03T08:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Au Brésil, l'influence du crime organisé sur l'élection présidentielle dans les favelas de Rio. Au Brésil, les électeurs sont appelés aux urnes dimanche pour le premier tour de la présidentielle qui oppose notamment le sortant Lula à Flavio Bolsonaro, fils de l'ex-président d'extrême droite. Une …",
+      "sources": [
+        "Radio France Internationale via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/france/au-brésil-linfluence-du-crime-organisé-sur-lélection-présidentielle-dans-les-favelas-de-rio/ar-AA2dtrSe",
+      "published_at": "2026-10-03T02:41:17+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "FREELANDER présente sa feuille de route internationale avec une expansion progressive depuis le Moyen-Orient. FREELANDER a présenté sa feuille de route d'expansion du marché international lors du lancement de sa marque mondiale à l'Emirates Palace Mandarin Oriental à Abu Dhabi le 29 septembre 2026. Avec le Moyen-Orient comme axe stratégique…",
+      "sources": [
+        "The Manila Times — fiabilité 6/10"
+      ],
+      "url": "https://www.manilatimes.net/2026/10/03/tmt-newswire/globenewswire/freelander-sets-out-its-international-roadmap-with-a-phased-expansion-from-the-middle-east/2438413",
+      "published_at": "2026-10-03T07:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Guerre en Ukraine : comment la Russie s'apprête à sacrifier sa santé et son éducation pour continuer l'invasion. Pour continuer l'invasion de l'Ukraine, Moscou assume de consacrer un tiers de son budget total à son armée en 2027, une facture astronomique qui dépasse à elle seule la santé, l'éducation et l'aide sociale réunies.",
+      "sources": [
+        "Linternaute.com — fiabilité 6/10"
+      ],
+      "url": "https://www.linternaute.com/actualite/monde/11306983-guerre-en-ukraine-comment-la-russie-s-apprete-a-sacrifier-sa-sante-et-son-education-pour-continuer-l-invasion/",
+      "published_at": "2026-10-03T13:15:11+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Luxembourg"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Vous cherchez un boulot ? Profitez de la Journée Découverte Entreprises pour rencontrer ceux qui recrutent en province de Luxembourg. Découvrir les coulisses d’une entreprise… et pourquoi pas y décrocher un emploi ? Plusieurs participants à la Journée Découverte Entreprises recrutent actuellement en province de Luxembourg. L’occasio …",
+      "sources": [
+        "Sudinfo.be — fiabilité 6/10"
+      ],
+      "url": "https://www.sudinfo.be/id1202995/article/2026-10-03/vous-cherchez-un-boulot-profitez-de-la-journee-decouverte-entreprises-pour",
+      "published_at": "2026-10-03T08:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Monaco"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "« Ce n’est plus une transition » : à Monaco, la réorganisation des services numériques de l’État prend forme. La nouvelle Délégation interministérielle au numérique devra notamment plancher sur une stratégie de développement de l’intelligence artificielle pour l’administration monégasque.",
+      "sources": [
+        "Nice-Matin — fiabilité 6/10"
+      ],
+      "url": "https://www.nicematin.com/societe/technologie/ce-n-est-plus-une-transition-a-monaco-la-reorganisation-des-services-numeriques-de-l-etat-prend-forme-10732131",
+      "published_at": "2026-10-03T12:28:02+02:00",
       "origin": "rss",
       "content_enriched": true
     },
