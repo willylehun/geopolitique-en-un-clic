@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T21:49:43.314805+02:00",
+  "generated_at": "2026-10-03T21:59:59.060446+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -63996,12 +63996,13 @@
         "The Times of India — fiabilité 6/10"
       ],
       "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-trump-iran-strikes-hormuz-middle-east-ceasefire-talks-crude-oil-price-hike-latest-news/liveblog/134645747.cms",
-      "published_at": "2026-10-03T11:29:00+02:00",
+      "published_at": "2026-10-03T12:49:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
         "Iran",
-        "États-Unis"
+        "États-Unis",
+        "Yémen"
       ]
     },
     {
@@ -67051,7 +67052,6 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -68752,7 +68752,8 @@
       "summary": "Un ancien membre du Congrès écope de 10 ans de prison pour lobbying secret au Venezuela. L'ancien membre du Congrès David Rivera a été condamné à 10 ans de prison pour avoir exercé secrètement des pressions auprès de responsables américains au nom du gouvernement vénézuélien.",
       "sources": [
         "AOL — fiabilité 6/10",
-        "USA TODAY via MSN — fiabilité 6/10"
+        "USA TODAY via MSN — fiabilité 6/10",
+        "Yahoo — fiabilité 6/10"
       ],
       "url": "https://www.aol.com/articles/former-congressman-gets-10-years-172854000.html",
       "published_at": "2026-10-03T12:29:01+02:00",
@@ -69182,7 +69183,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Océanie"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -69195,7 +69197,8 @@
       "url": "https://www.theguardian.com/australia-news/2026/oct/04/labor-greens-public-housing-battle-2026-victoria-election",
       "published_at": "2026-10-03T14:00:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -69425,6 +69428,172 @@
         "France",
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'affirmation de Book selon laquelle la ponctuation hébraïque est une relique d'un « système colonial brutal » suscite des critiques. Le New Yorker fait face à des réactions négatives après avoir révisé un livre qui relie la ponctuation hébraïque au colonialisme et à l’histoire de la migration juive vers Israël.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/media/new-yorker-sparks-fury-review-book-claiming-hebrew-punctuation-helped-create-artificial-jewish-unity",
+      "published_at": "2026-10-03T14:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’écart de richesse en Australie se creuse, tout comme la colère qui en découle. Comment remédier à cette situation absolument désespérée ? Des prix hors de notre contrôle, le changement climatique, les grandes technologies, la criminalité, le gouvernement lui-même. Ce n’est pas étonnant que les gens soient si furieux…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/04/australia-government-cost-of-living-wealth-gap",
+      "published_at": "2026-10-03T14:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Qui paie pour la domination nucléaire d’Israël ? La guerre contre l’Iran coûte de plus en plus cher aux Américains, tandis que Washington protège la domination nucléaire d’Israël de tout contrôle.",
+      "sources": [
+        "The Daily Star — fiabilité 6/10"
+      ],
+      "url": "https://www.thedailystar.net/slow-reads/geopolitical-insights/news/who-pays-israels-nuclear-dominance-4289486",
+      "published_at": "2026-10-03T05:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Israël",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Voyage secret du Premier ministre Benjamin Netanyahu (Israël) aux Émirats arabes unis : à quoi sert réellement la censure militaire israélienne ? Le voyage secret du Premier ministre aux Émirats arabes unis met en évidence le danger de confondre les intérêts sécuritaires d’Israël avec les intérêts politiques de Netanyahu.",
+      "sources": [
+        "The Jerusalem Post — fiabilité 6/10"
+      ],
+      "url": "https://www.jpost.com/opinion/article-910264",
+      "published_at": "2026-10-03T03:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "180 banlieues de QLD ont laissé moins de 500 000 $. Des acheteurs désespérés envahissent les 180 derniers bastions de moins de 500 000 $ du Queensland - comme le prévient un expert, le temps de l'immobilier bon marché tourne officiellement…",
+      "sources": [
+        "news.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.news.com.au/finance/real-estate/180-qld-suburbs-left-under-500k-and-the-traps-to-avoid/news-story/f7bbdc80e39a88942818a48bfd145684",
+      "published_at": "2026-10-03T09:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'ancien Premier ministre affirme que Poutine ne peut pas admettre ses \"erreurs\" sur l'Ukraine. Malgré les difficultés économiques croissantes et le malaise croissant parmi les Russes ordinaires et l'élite, le président Vladimir Poutine (Russie) n'est pas prêt à négocier la fin de la guerre en Ukraine, a déclaré son ancien Premier ministre …",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/en/international-news/20261003-ex-pm-says-putin-cannot-admit-mistake-over-ukraine",
+      "published_at": "2026-10-03T13:38:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Andy Burnham a exhorté à protéger les ménages les plus pauvres alors que la Grande-Bretagne se prépare à la pire crise énergétique hivernale depuis des années. Energy UK estime que la facture énergétique typique d'un ménage pourrait grimper à environ 2 100 £ par an au début de 2027…",
+      "sources": [
+        "GB News — fiabilité 6/10"
+      ],
+      "url": "https://www.gbnews.com/politics/andy-burnham-protect-poorest-households-britain-worst-winter-energy-crisis-years",
+      "published_at": "2026-10-03T01:18:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Irak",
+        "Iran"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’Irak ne doit pas tomber sous la tutelle de l’Iran. L'Iran cherche à contrôler la décision politique à Bagdad et à dominer des institutions clés comme l'armée et le Parlement Les choix des citoyens irakiens détermineront l'avenir du pays, entre stabili …",
+      "sources": [
+        "Arab News FR — fiabilité 6/10"
+      ],
+      "url": "https://www.arabnews.fr/tribune/lirak-ne-doit-pas-tomber-sous-la-tutelle-de-liran-3000267",
+      "published_at": "2026-10-03T01:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
