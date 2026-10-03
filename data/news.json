@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:57:20.810224+02:00",
+  "generated_at": "2026-10-03T20:07:32.175356+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -32477,12 +32477,12 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Europe"
+        "Europe",
+        "Afrique"
       ],
       "countries": [
-        "Tunisie",
-        "Autriche"
+        "Autriche",
+        "Tunisie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38976,8 +38976,8 @@
         "Afrique"
       ],
       "countries": [
-        "Tunisie",
-        "Algérie"
+        "Algérie",
+        "Tunisie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -55678,8 +55678,8 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "Amérique du Nord",
         "International"
       ],
@@ -55697,8 +55697,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Tunisie",
         "Iran",
+        "Tunisie",
         "États-Unis"
       ]
     },
@@ -68592,12 +68592,12 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "countries": [
-        "Tunisie",
-        "Japon"
+        "Japon",
+        "Tunisie"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -68610,6 +68610,87 @@
       "url": "https://www.challenges.tn/economie/onudi-et-japon-un-dialogue-sur-le-developpement-industriel-durable-en-tunisie/",
       "published_at": "2026-10-03T05:19:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le chef de la F1 ignore l'avertissement de Max Verstappen et confirme les courses du Qatar et d'Abou Dhabi malgré la guerre en Iran. La Formule 1 courra au Qatar et à Abu Dhabi, bien que Max Verstappen ait déclaré que les pilotes ne devraient pas être envoyés dans la région alors qu'une guerre se déroule à proximité. Le directeur général de la F1, Stefano Domenicali, a confirmé…",
+      "sources": [
+        "Geo News — fiabilité 6/10"
+      ],
+      "url": "https://www.geo.tv/latest/684909-f1-chief-ignores-max-verstappens-warning-confirms-qatar-abu-dhabi-races-despite-iran-war",
+      "published_at": "2026-10-03T12:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Qatar",
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Manifestation du CJP au parc Shivaji : FIR enregistré contre les organisateurs, 400 à 500 personnes non identifiées. Mumbai, 3 octobre (PTI) La police de Mumbai a enregistré samedi un FIR contre les organisateurs et 400 à 500 personnes non identifiées dans le cadre de la manifestation du 2 octobre au Shivaji Park du Cockroach Janta Party…",
+      "sources": [
+        "Press Trust of India via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/cjp-protest-at-shivaji-park-fir-registered-against-organisers-400-500-unidentified-persons/ar-AA2dtFeJ",
+      "published_at": "2026-10-03T12:34:54+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre Modi rencontre les députés du Haryana BJP à Delhi ; Gouvernance et bien-être public discutés. le Premier ministre Narendra Modi (Inde) a tenu une réunion avec les députés du parti Bharatiya Janata de l'Haryana à sa résidence officielle, 7 Lok Kalyan Marg, à New Delhi. Visuels et détails de l'interaction révélés…",
+      "sources": [
+        "India Today — fiabilité 6/10"
+      ],
+      "url": "https://www.indiatoday.in/india/video/pm-modi-meets-haryana-bjp-mlas-in-delhi-governance-and-public-welfare-discussed-ytvd-3009014-2026-10-03",
+      "published_at": "2026-10-03T11:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Europe"
+      ],
+      "countries": [
+        "Congo (RDC)",
+        "France"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La France s'engage à apporter davantage de soutien pour lutter contre l'épidémie d'Ebola en RDC, alors que le nombre de décès dépasse les 4 000. La France va intensifier son soutien aux efforts de contrôle d'Ebola dans l'est de la République démocratique du Congo, a déclaré samedi le ministre des Affaires étrangères Jean-Noël Barrot lors d'une visite dans une région touchée par le virus.",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/en/africa/20261003-france-pledges-more-support-to-fight-drc-ebola-outbreak-as-deaths-top-4-000",
+      "published_at": "2026-10-03T12:58:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
