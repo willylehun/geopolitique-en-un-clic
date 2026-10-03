@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:48:20.129338+02:00",
+  "generated_at": "2026-10-03T13:58:36.285266+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64572,7 +64572,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
         "Bulgarie",
@@ -65661,8 +65662,7 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Europe"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -65941,6 +65941,65 @@
       ],
       "url": "https://www.slobodenpecat.mk/fr/nikolovski-najavi-ekspresen-pat-od-radovish-preku-strumica-do-bugarija/",
       "published_at": "2026-10-03T06:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un irano-britannique arrêté à Londres pour le « complot terroriste » de la RAF Fairford et libéré sous caution. Le Premier ministre Andy Burnham a déclaré qu'il y avait de \"fortes indications\" que l'Iran avait joué un rôle dans l'incident près de la base militaire du Gloucestershire …",
+      "sources": [
+        "London Evening Standard — fiabilité 6/10"
+      ],
+      "url": "https://www.standard.co.uk/news/london/raf-fairford-terror-plot-uk-iranian-arrest-bail-b1299403.html",
+      "published_at": "2026-10-03T06:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Trump a déclaré que les États-Unis allaient envoyer un paiement unique de 90 dollars à 20 millions de personnes âgées inscrites à Medicare. le président Donald Trump (États-Unis) a déclaré que le gouvernement américain enverrait un paiement unique de 90 dollars à plus de 20 millions d'Américains inscrits à Medicare, un programme d'assurance maladie pour les personnes âgées, pour aider à compenser le…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/trump-says-us-send-one-time-90-payment-20-million-seniors-enrolled-medicare-2026-10-03/",
+      "published_at": "2026-10-03T06:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le président du Congrès de la jeunesse déplace la Haute Cour de Delhi et conteste l'ordre de la police refusant la manifestation de Jantar Mantar. Selon un communiqué officiel, la pétition remet en cause l'absence d'évaluation individualisée et proportionnée avant le rejet de la demande.",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/news/india/youth-congress-president-moves-delhi-high-court-challenges-police-order-denying-jantar-mantar-protest-14043885.html",
+      "published_at": "2026-10-03T06:38:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
