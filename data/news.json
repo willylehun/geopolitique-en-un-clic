@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:52:59.780349+02:00",
+  "generated_at": "2026-10-03T17:03:13.116729+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64572,8 +64572,7 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Europe"
       ],
       "countries": [
         "Bulgarie",
@@ -65663,7 +65662,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -66337,7 +66337,8 @@
         "WLKY — fiabilité 6/10",
         "KCCI 8 News — fiabilité 6/10",
         "WCVB Channel 5 — fiabilité 6/10",
-        "WMUR Channel 9 — fiabilité 6/10"
+        "WMUR Channel 9 — fiabilité 6/10",
+        "WESH — fiabilité 6/10"
       ],
       "url": "https://www.wxii12.com/article/trump-g7-plan-release-oil-diesel-reserves-address-high-prices/74003451",
       "published_at": "2026-10-03T07:34:00+02:00",
@@ -67040,7 +67041,6 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -67229,6 +67229,67 @@
       "countries": [
         "Palestine"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement d'Andy Burnham brise le silence sur les appels en faveur d'un nouvel âge de la retraite à 60 ans. Le ministère de la Santé et des Affaires sociales a publié une réponse à une pétition soutenue par 19 000 signatures.",
+      "sources": [
+        "Birmingham Live — fiabilité 6/10"
+      ],
+      "url": "https://www.birminghammail.co.uk/news/midlands-news/andy-burnham-government-breaks-silence-34712055",
+      "published_at": "2026-10-03T09:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "\"L'Amérique est énervée\" : Pete Buttigieg fustige la guerre du président Donald Trump (États-Unis) en Iran et appelle secrétaire à la Défense Pete Hegseth (États-Unis) à \"se retirer\". Les Américains sont mécontents de la politique du président Trump, et cela se voit dans sa cote de popularité. L'ancien secrétaire aux Transports Pete Buttigieg rejoint The Weekend pour en discuter, et le secrétaire Pete…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/videos/america-pissed-pete-buttigieg-slams-140128984.html",
+      "published_at": "2026-10-03T09:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "36 ans d'unité allemande: Les Allemands sont-ils unis aujourd'hui ?. De l'Allemagne divisée à l'unité allemande : le 3 octobre 1990, la République démocratique allemande (RDA) rejoint la République fédérale d'Allemagne. Les négociations du traité d'unification durent p …",
+      "sources": [
+        "Euronews — fiabilité 8/10"
+      ],
+      "url": "https://fr.euronews.com/2026/10/03/36-ans-dunite-allemande-les-allemands-sont-ils-unis-aujourdhui",
+      "published_at": "2026-10-03T07:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
