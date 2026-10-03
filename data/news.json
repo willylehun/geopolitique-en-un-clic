@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:20:26.699539+02:00",
+  "generated_at": "2026-10-03T22:30:40.218691+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -69419,10 +69419,11 @@
       "category": "Diplomatie",
       "summary": "Soupçons de financement du Hamas : Trois mis en examen en France visés par des sanctions américaines. Cinq personnes ont été mises en examen à Paris pour financement du Hamas, via deux associations humanitaires. Trois d'entre elles figurent sur une liste noire américaine, accusées d'avoir détourné plu …",
       "sources": [
-        "20 Minutes — fiabilité 6/10"
+        "20 Minutes — fiabilité 6/10",
+        "20 Minutes via MSN — fiabilité 6/10"
       ],
       "url": "https://www.20minutes.fr/societe/4251047-20261003-soupcons-financement-hamas-trois-mis-examen-france-vises-sanctions-americaines",
-      "published_at": "2026-10-03T14:43:00+02:00",
+      "published_at": "2026-10-03T14:43:41+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -69612,6 +69613,27 @@
       "published_at": "2026-10-03T14:53:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 10,
+      "category": "Géopolitique",
+      "summary": "Ted Cruz critique Tucker Carlson pour ses commentaires sur la Seconde Guerre mondiale. Le sénateur Ted Cruz (Républicain du Texas) a critiqué le commentateur conservateur Tucker Carlson pour une récente apparition dans un podcast au cours de laquelle l'ancien animateur de Fox News se demandait si le Royaume-Uni « bénéficiait » de…",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/ted-cruz-slams-tucker-carlson-170958746.html",
+      "published_at": "2026-10-03T12:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
     },
     {
       "regions": [
