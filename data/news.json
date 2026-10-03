@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:22:20.385939+02:00",
+  "generated_at": "2026-10-03T16:32:33.966128+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66351,12 +66351,11 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
-      "score": 9,
+      "score": 5,
       "category": "Géopolitique",
       "summary": "La « Marche de la folie » du président Donald Trump (États-Unis) donne du pouvoir aux extrémistes iraniens. Pourtant, la myopie trumpienne persiste, l’administration continuant de prétendre que sa pression sur l’Iran est un succès retentissant. \"Le blocus fonctionne, il fonctionne comme nous n'en avons jamais vu\"…",
       "sources": [
