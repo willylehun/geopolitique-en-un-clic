@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:20:22.312799+02:00",
+  "generated_at": "2026-10-03T15:30:35.579983+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66336,7 +66336,8 @@
       "sources": [
         "WXII 12 News — fiabilité 6/10",
         "WLKY — fiabilité 6/10",
-        "KCCI 8 News — fiabilité 6/10"
+        "KCCI 8 News — fiabilité 6/10",
+        "WCVB Channel 5 — fiabilité 6/10"
       ],
       "url": "https://www.wxii12.com/article/trump-g7-plan-release-oil-diesel-reserves-address-high-prices/74003451",
       "published_at": "2026-10-03T07:34:00+02:00",
@@ -66350,12 +66351,11 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
-      "score": 9,
+      "score": 5,
       "category": "Géopolitique",
       "summary": "La « Marche de la folie » du président Donald Trump (États-Unis) donne du pouvoir aux extrémistes iraniens. Pourtant, la myopie trumpienne persiste, l’administration continuant de prétendre que sa pression sur l’Iran est un succès retentissant. \"Le blocus fonctionne, il fonctionne comme nous n'en avons jamais vu\"…",
       "sources": [
