@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:25:11.492965+02:00",
+  "generated_at": "2026-10-03T11:35:24.566761+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64216,8 +64216,7 @@
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Russie"
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -64916,8 +64915,8 @@
     {
       "regions": [
         "Asie",
-        "International",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -65067,6 +65066,126 @@
       ],
       "url": "https://www.theguardian.com/australia-news/2026/oct/03/one-nation-victoria-campaign-launch-abolish-first-nations-treaty-legalise-pepper-spray-ntwnfb",
       "published_at": "2026-10-03T04:06:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Pourquoi un film sur un dictateur met la Corée du Sud en guerre contre elle-même. Un blockbuster sur la tentative d'assassinat de l'ancien président Park Chung-hee en 1974 provoque une réaction politique violente.",
+      "sources": [
+        "South China Morning Post — fiabilité 6/10"
+      ],
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3369548/why-film-about-dictator-has-south-korea-war-itself",
+      "published_at": "2026-10-03T04:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Sud"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "5 tués et 10 blessés dans l’explosion d’une chaudière dans une entreprise pharmaceutique d’Andhra. L'explosion dans l'entreprise pharmaceutique TIL Healthcare à Sri City a provoqué la panique, à la suite de laquelle les équipes de secours et d'urgence se sont précipitées sur place.",
+      "sources": [
+        "NDTV — fiabilité 6/10"
+      ],
+      "url": "https://www.ndtv.com/andhra-pradesh-news/andhra-pradesh-sri-city-pharma-complany-blast-news-5-killed-10-injured-in-boiler-explosion-at-pharma-firm-in-andhra-12132724",
+      "published_at": "2026-10-03T00:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement lance un appel d'offres pour la construction du nouveau marché Bush Lot dans la région deux. LE gouvernement, par l'intermédiaire du ministère du Gouvernement local et du Développement régional, a invité les entrepreneurs éligibles à soumettre des offres pour la construction d'un nouveau Bush Lot…",
+      "sources": [
+        "Guyana Chronicle — fiabilité 6/10"
+      ],
+      "url": "https://guyanachronicle.com/2026/10/03/government-invites-bids-for-construction-of-new-bush-lot-market-in-region-two/",
+      "published_at": "2026-10-03T03:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Lettonie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Lettonie vote sur fond de préoccupations liées à la sécurité et au coût de la vie. © Universal Images Group via Getty – Encyclopaedia Britannica / Carte « World Data Locator », Lettonie. L’alliance électorale centriste-conservatrice Liste Unie du Premier ministre Andris Kulbergs est …",
+      "sources": [
+        "RTBF — fiabilité 6/10"
+      ],
+      "url": "https://www.rtbf.be/article/la-lettonie-vote-sur-fond-de-preoccupations-liees-a-la-securite-et-au-cout-de-la-vie-11794383",
+      "published_at": "2026-10-03T03:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Lettonie",
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Entretien. Élections législatives en Lettonie : « Notre système politique est bloqué » entre pro-Lettons et pro-Russes. La Lettonie s’apprête à voter samedi, à l’ombre d’une Russie en guerre. Selon le directeur du centre SKDS, Arnis Kaktins, cela explique la tournure nationaliste de la campagne de ces législatives.",
+      "sources": [
+        "Ouest-France via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/entretien-élections-législatives-en-lettonie-notre-système-politique-est-bloqué-entre-pro-lettons-et-pro-russes/ar-AA2dsWcx",
+      "published_at": "2026-10-03T01:00:22+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord",
+        "Corée du Sud",
+        "Japon"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Tensions en Asie : la Corée du Nord tire un missile balistique qui parcourt 700 km, la Corée du Sud en alerte. La Corée du Nord a tiré samedi 3 octobre un missile balistique vers la mer au large de sa côte est, ont annoncé la Corée du Sud et le Japon.",
+      "sources": [
+        "L'Indépendant — fiabilité 6/10"
+      ],
+      "url": "https://www.lindependant.fr/2026/10/03/tensions-en-asie-la-coree-du-nord-tire-un-missile-balistique-qui-parcourt-700-km-la-coree-du-sud-en-alerte-13581754.php",
+      "published_at": "2026-10-03T04:28:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
