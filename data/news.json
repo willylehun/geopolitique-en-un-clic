@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:31:26.645963+02:00",
+  "generated_at": "2026-10-03T08:41:38.119450+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64125,6 +64125,48 @@
       "url": "https://www.ladepeche.fr/2026/10/03/entretien-irak-23-ans-apres-linvasion-quel-avenir-pour-le-pays-avec-le-depart-des-americains-en-deconstruisant-la-dictature-ils-ont-deconstruit-letat-13579979.php",
       "published_at": "2026-10-03T06:15:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Sécurité",
+      "summary": "Le Pakistan enregistre plus de 1,2k attaques rebelles en 9 mois de 26, la crise sécuritaire s’aggrave. Au cours des neuf premiers mois de 2026, le Pakistan a enregistré 1 232 attaques de groupes rebelles, selon un rapport du groupe de réflexion basé à Islamabad, le Pakistan Institute for Conflict and Security Studies, indiquant…",
+      "sources": [
+        "The Times of India — fiabilité 6/10"
+      ],
+      "url": "https://timesofindia.indiatimes.com/world/pakistan/pakistan-logs-over-1-2k-rebel-attacks-in-9-months-of-26-security-crisis-deepens/articleshow/134653241.cms",
+      "published_at": "2026-10-03T01:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pakistan"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Guerre en Ukraine : une première historique… Un Mirage 2000-5F français aurait abattu un missile S8000 Banderol russe grâce à son canon. Un Mirage 2000-5F aurait abattu un missile russe S8000 Banderol avec son canon, selon des observateurs du conflit en Ukraine. Ce fait, relayé par des blogueurs et spécialistes, marquerait une première …",
+      "sources": [
+        "L'Indépendant — fiabilité 6/10"
+      ],
+      "url": "https://www.lindependant.fr/2026/10/03/guerre-en-ukraine-une-premiere-historique-un-mirage-2000-5f-francais-aurait-abattu-un-missile-s8000-banderol-russe-grace-a-son-canon-13580579.php",
+      "published_at": "2026-10-03T01:01:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
