@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T09:53:07.087415+02:00",
+  "generated_at": "2026-10-03T10:03:19.506973+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64329,6 +64329,7 @@
     {
       "regions": [
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -64423,6 +64424,61 @@
       ],
       "url": "https://www.msn.com/fr-fr/actualite/other/présidentielle-au-brésil-flavio-bolsonaro-l-héritier-qui-le-nom-mais-pas-le-même-charisme-que-son-père/ar-AA2dsR0a",
       "published_at": "2026-10-03T00:32:36+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Grande-Bretagne est devenue un « État voyou » sous Andy Burnham, a affirmé le Premier ministre Benjamin Netanyahu (Israël). Le Premier ministre israélien a déclaré que les relations entre les deux nations s'affaiblissaient parce que …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/netanyahu-burnham-britain-rogue-state-053926909.html",
+      "published_at": "2026-10-03T00:39:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les pouvoirs d'application des lois maritimes se sont élargis. Les agences de contrôle maritime disposeront de pouvoirs juridiques plus clairs pour agir en mer après que le Parlement ait adopté le projet de loi sur les pouvoirs maritimes de 2026. La nouvelle loi fournit un cadre juridique permettant aux agents autorisés de …",
+      "sources": [
+        "FBC News (média public) — fiabilité 7/10"
+      ],
+      "url": "https://www.fbcnews.com.fj/news/maritime-enforcement-powers-expanded/",
+      "published_at": "2026-10-03T03:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "One Nation s’engage à investir dans l’ordre public tout en s’attaquant aux politiques du SRL, du Traité et du climat. Le parti s'engage à augmenter les effectifs de la police et à augmenter les sanctions pour les jeunes contrevenants, affirmant qu'il financerait les changements en supprimant la boucle ferroviaire de banlieue et le traité de Victoria.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+      ],
+      "url": "https://www.abc.net.au/news/2026-10-03/one-nation-launches-victorian-election-campaign/107223676",
+      "published_at": "2026-10-03T02:14:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
