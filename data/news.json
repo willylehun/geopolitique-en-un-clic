@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:41:38.119450+02:00",
+  "generated_at": "2026-10-03T08:51:49.902872+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -3509,8 +3509,8 @@
         "Asie"
       ],
       "countries": [
-        "Pakistan",
-        "Iran"
+        "Iran",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -7500,8 +7500,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -7516,8 +7516,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Ukraine",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Ukraine"
       ]
     },
     {
@@ -15256,8 +15256,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -15272,8 +15272,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Ukraine",
-        "Corée du Nord"
+        "Corée du Nord",
+        "Ukraine"
       ]
     },
     {
@@ -17991,8 +17991,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -18008,8 +18008,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Ukraine",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Ukraine"
       ]
     },
     {
@@ -19486,8 +19486,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Ukraine",
-        "Hongrie"
+        "Hongrie",
+        "Ukraine"
       ]
     },
     {
@@ -23984,8 +23984,8 @@
       ],
       "countries": [
         "Russie",
-        "Ukraine",
         "Estonie",
+        "Ukraine",
         "États-Unis"
       ],
       "period": "day",
@@ -25084,8 +25084,8 @@
       ],
       "countries": [
         "Russie",
-        "Ukraine",
-        "Estonie"
+        "Estonie",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -25838,8 +25838,8 @@
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Belgique"
+        "Belgique",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -26769,8 +26769,8 @@
       "content_enriched": true,
       "countries": [
         "Russie",
-        "Ukraine",
-        "Belgique"
+        "Belgique",
+        "Ukraine"
       ]
     },
     {
@@ -28815,8 +28815,8 @@
       ],
       "countries": [
         "Russie",
-        "Ukraine",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28893,9 +28893,9 @@
       "content_enriched": true,
       "countries": [
         "Chine",
-        "Pakistan",
         "Russie",
         "Iran",
+        "Pakistan",
         "États-Unis"
       ]
     },
@@ -29045,8 +29045,8 @@
       ],
       "countries": [
         "Arabie saoudite",
-        "Pakistan",
-        "Iran"
+        "Iran",
+        "Pakistan"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -29135,8 +29135,8 @@
       ],
       "countries": [
         "Russie",
-        "Ukraine",
-        "Estonie"
+        "Estonie",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -30781,8 +30781,8 @@
       ],
       "countries": [
         "Russie",
-        "Ukraine",
-        "Estonie"
+        "Estonie",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -32503,8 +32503,8 @@
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Belgique"
+        "Belgique",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -32896,8 +32896,8 @@
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Moldavie"
+        "Moldavie",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38933,8 +38933,8 @@
       ],
       "countries": [
         "Allemagne",
-        "Ukraine",
-        "Lituanie"
+        "Lituanie",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -39485,8 +39485,8 @@
       ],
       "countries": [
         "Russie",
-        "Ukraine",
-        "Vatican"
+        "Vatican",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -42270,8 +42270,8 @@
         "Afghanistan",
         "Chine",
         "Malaisie",
-        "Pakistan",
         "Turquie",
+        "Pakistan",
         "Vietnam",
         "États-Unis"
       ],
@@ -43490,8 +43490,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -43507,8 +43507,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Ukraine",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Ukraine"
       ]
     },
     {
@@ -45990,8 +45990,8 @@
       ],
       "countries": [
         "Russie",
-        "Ukraine",
-        "Zimbabwe"
+        "Zimbabwe",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -47246,8 +47246,8 @@
       "content_enriched": true,
       "countries": [
         "Russie",
-        "Ukraine",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Ukraine"
       ]
     },
     {
@@ -54503,13 +54503,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -54590,8 +54590,8 @@
       ],
       "countries": [
         "Russie",
-        "Ukraine",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -54927,8 +54927,8 @@
       "content_enriched": true,
       "countries": [
         "Russie",
-        "Ukraine",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Ukraine"
       ]
     },
     {
@@ -55085,14 +55085,14 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Ukraine",
         "Corée du Nord",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -55390,8 +55390,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Ukraine",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Ukraine"
       ]
     },
     {
@@ -61052,8 +61052,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -61069,8 +61069,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Ukraine",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Ukraine"
       ]
     },
     {
@@ -62207,8 +62207,8 @@
       ],
       "countries": [
         "France",
-        "Ukraine",
-        "Vatican"
+        "Vatican",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -62741,13 +62741,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -64168,6 +64168,28 @@
       "published_at": "2026-10-03T01:01:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Diplomatie",
+      "summary": "Le Sri Lanka affirme que les sanctions américaines sont mondiales et ne visent pas les pétroliers iraniens bloqués. Le Sri Lanka a déclaré que les sanctions secondaires américaines constituent une politique mondiale et ne visent pas spécifiquement le pays. Cette déclaration intervient alors que les pétroliers iraniens restent bloqués au large et que les entreprises locales évaluent les …",
+      "sources": [
+        "India Today — fiabilité 6/10"
+      ],
+      "url": "https://www.indiatoday.in/world/story/sri-lanka-us-sanctions-global-policy-iranian-tankers-off-coast-ptag-3008627-2026-10-03",
+      "published_at": "2026-10-03T01:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Sri Lanka",
+        "États-Unis"
+      ]
     },
     {
       "regions": [
