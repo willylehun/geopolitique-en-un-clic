@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:01:53.570721+02:00",
+  "generated_at": "2026-10-03T16:12:07.819126+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66911,7 +66911,76 @@
       "url": "https://www.lefigaro.fr/actualite-france/penchant-pour-la-revolution-sanctions-rarement-appliquees-la-presse-internationale-cherche-a-comprendre-la-violence-des-blocus-des-lycees-20261003",
       "published_at": "2026-10-03T08:21:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "L’équipe OSINT découvre l’identité de l’homme derrière le Shahed à réaction russe. L'équipe OSINT d'Evocation. info a identifié l'homme russe qui faisait l'éloge des Shahed à réaction produits par sa société auprès du président russe le président Vladimir Poutine (Russie) alors qu'ils attaquaient Kiev, selon …",
+      "sources": [
+        "RBC Ukraine via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/news/other/osint-team-uncovers-identity-of-man-behind-russia-s-jet-powered-shahed/ar-AA2duEk8",
+      "published_at": "2026-10-03T08:17:45+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Zelenskyy dit qu'il a demandé à Trump de sanctionner les entreprises russes et chinoises développant son rival Starlink. le président Volodymyr Zelensky (Ukraine)y a appelé son homologue américain le président Donald Trump (États-Unis) à imposer des sanctions aux entreprises russes et chinoises impliquées dans le développement du réseau satellitaire Rassvet, un …",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/zelenskyy-says-asked-trump-sanction-125700920.html",
+      "published_at": "2026-10-03T07:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les procureurs portugais enquêtent sur la légalité de l’utilisation par les États-Unis de la base de Lajes dans la guerre en Iran. Un accord de longue date avec les États-Unis autorise Washington à utiliser la base sans autorisation préalable en temps de paix, mais exige que le Portugal donne son approbation une fois les hostilités commencées. Le Portugal, contrairement à…",
+      "sources": [
+        "The Straits Times — fiabilité 7/10"
+      ],
+      "url": "https://www.straitstimes.com/world/europe/portugal-prosecutors-probe-legality-of-us-use-of-lajes-base-in-iran-war",
+      "published_at": "2026-10-03T03:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Portugal",
+        "États-Unis"
+      ]
     },
     {
       "regions": [
