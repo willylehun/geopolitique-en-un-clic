@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:41:25.155199+02:00",
+  "generated_at": "2026-10-03T15:51:39.283986+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -604,8 +604,8 @@
       ],
       "countries": [
         "Afrique du Sud",
-        "Égypte",
-        "Éthiopie"
+        "Éthiopie",
+        "Égypte"
       ]
     },
     {
@@ -11695,8 +11695,8 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -11710,8 +11710,8 @@
       "published_at": "2026-09-27T10:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Égypte",
-        "Israël"
+        "Israël",
+        "Égypte"
       ]
     },
     {
@@ -23294,13 +23294,13 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "International"
       ],
       "countries": [
-        "Égypte",
-        "Irak"
+        "Irak",
+        "Égypte"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -34362,8 +34362,8 @@
         "International"
       ],
       "countries": [
-        "Égypte",
-        "Madagascar"
+        "Madagascar",
+        "Égypte"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38346,10 +38346,10 @@
       "content_enriched": true,
       "countries": [
         "Qatar",
-        "Égypte",
         "Inde",
         "Iran",
         "Israël",
+        "Égypte",
         "États-Unis"
       ]
     },
@@ -48134,8 +48134,8 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "Amérique du Nord",
         "International"
       ],
@@ -48152,8 +48152,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Égypte",
         "Iran",
+        "Égypte",
         "États-Unis"
       ]
     },
@@ -49572,8 +49572,8 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "Amérique du Nord",
         "International"
       ],
@@ -49590,8 +49590,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Égypte",
         "Iran",
+        "Égypte",
         "États-Unis"
       ]
     },
@@ -66351,12 +66351,11 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
-      "score": 9,
+      "score": 5,
       "category": "Géopolitique",
       "summary": "La « Marche de la folie » du président Donald Trump (États-Unis) donne du pouvoir aux extrémistes iraniens. Pourtant, la myopie trumpienne persiste, l’administration continuant de prétendre que sa pression sur l’Iran est un succès retentissant. \"Le blocus fonctionne, il fonctionne comme nous n'en avons jamais vu\"…",
       "sources": [
@@ -66832,8 +66831,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Égypte",
-        "Nigeria"
+        "Nigeria",
+        "Égypte"
       ]
     },
     {
@@ -66875,6 +66874,26 @@
       "published_at": "2026-10-03T05:30:00+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Pakistan convoque un diplomate indien après une fusillade meurtrière à la frontière. Le ministère a déclaré que le personnel des forces de sécurité des frontières indiennes avait utilisé vendredi une force meurtrière non provoquée contre des civils non armés dans le secteur de Bedian, à la frontière.",
+      "sources": [
+        "TRT World — fiabilité 6/10"
+      ],
+      "url": "https://www.trtworld.com/article/76b0c39cd72e",
+      "published_at": "2026-10-03T08:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pakistan"
+      ]
     },
     {
       "regions": [
