@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:51:06.137887+02:00",
+  "generated_at": "2026-10-03T23:01:16.605990+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -26473,8 +26473,8 @@
         "International"
       ],
       "countries": [
-        "Syrie",
-        "Japon"
+        "Japon",
+        "Syrie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -43765,9 +43765,9 @@
         "International"
       ],
       "countries": [
-        "Syrie",
         "Irak",
-        "Iran"
+        "Iran",
+        "Syrie"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -49543,9 +49543,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Syrie",
         "Arabie saoudite",
         "Qatar",
+        "Syrie",
         "Yémen"
       ]
     },
@@ -57593,8 +57593,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Syrie",
         "Irak",
+        "Syrie",
         "États-Unis"
       ]
     },
@@ -66982,10 +66982,11 @@
       "category": "Géopolitique",
       "summary": "Les procureurs portugais enquêtent sur la légalité de l’utilisation par les États-Unis de la base de Lajes dans la guerre en Iran. Un accord de longue date avec les États-Unis autorise Washington à utiliser la base sans autorisation préalable en temps de paix, mais exige que le Portugal donne son approbation une fois les hostilités commencées. Le Portugal, contrairement à…",
       "sources": [
-        "The Straits Times — fiabilité 7/10"
+        "The Straits Times — fiabilité 7/10",
+        "Reuters — fiabilité 9/10"
       ],
       "url": "https://www.straitstimes.com/world/europe/portugal-prosecutors-probe-legality-of-us-use-of-lajes-base-in-iran-war",
-      "published_at": "2026-10-03T03:07:00+02:00",
+      "published_at": "2026-10-03T08:10:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -67820,10 +67821,11 @@
       "category": "Diplomatie",
       "summary": "Une manif à Genève exige des sanctions suisses contre Israël. «La Suisse complice»: à Genève, 1500 manifestants ont exigé samedi la rupture des liens commerciaux, militaires, académiques et culturels avec Israël, accusant Berne d’inaction face à la guerre à Gaza (Palestine) …",
       "sources": [
-        "Blick — fiabilité 6/10"
+        "Blick — fiabilité 6/10",
+        "Blick via MSN — fiabilité 6/10"
       ],
       "url": "https://www.blick.ch/fr/suisse/romande/geneve-une-manif-exige-des-sanctions-suisses-contre-israel/d2kxlvz",
-      "published_at": "2026-10-03T11:05:00+02:00",
+      "published_at": "2026-10-03T11:16:30+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -69749,6 +69751,66 @@
       "countries": [
         "Brésil"
       ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les publicités illégales pour le tabac évitent d'être détectées sur les réseaux sociaux, dit Quit. L'organisation de santé publique Quit affirme que la guerre contre les publicités illégales sur le tabac sur les réseaux sociaux ne fait qu'effleurer la surface.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+      ],
+      "url": "https://www.abc.net.au/news/2026-10-04/illegal-tobacco-advertisements-avoid-detection-on-social-media/107026980",
+      "published_at": "2026-10-03T15:12:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Corée du Nord assure avoir lancé un missile balistique dopé à l'IA. Bluff ou nouvelle menace ? La Corée du Nord affirme avoir lancé samedi un missile stratégique utilisant l'intelligence artificielle.",
+      "sources": [
+        "Paris Match — fiabilité 6/10"
+      ],
+      "url": "https://www.parismatch.com/actu/international/la-coree-du-nord-assure-avoir-lance-un-missile-balistique-dope-a-lia-276833",
+      "published_at": "2026-10-03T12:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Corée du Nord déclare avoir effectué un test de missile de portée intermédiaire impliquant l’utilisation de l’IA. Dans un communiqué publié samedi 3 octobre, la sœur du dirigeant Kim Jong Un a affirmé que son pays avait réalisé un test de missile stratégique de portée intermédiaire utilisant l’intelligence artifi …",
+      "sources": [
+        "Ouest-France — fiabilité 6/10"
+      ],
+      "url": "https://www.ouest-france.fr/monde/coree-du-nord/la-coree-du-nord-declare-avoir-effectue-un-test-de-missile-de-portee-intermediaire-impliquant-lutilisation-de-lia-f1628d88-bf1a-11f1-b7db-555e86a524f6",
+      "published_at": "2026-10-03T06:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
