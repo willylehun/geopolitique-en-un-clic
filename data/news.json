@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:29:13.781390+02:00",
+  "generated_at": "2026-10-03T14:39:26.783209+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -875,9 +875,9 @@
       "countries": [
         "Ghana",
         "Kenya",
-        "Nigeria",
         "Ouganda",
-        "Zambie"
+        "Zambie",
+        "Nigeria"
       ],
       "period": "day",
       "bucket": "17 septembre 2026",
@@ -64572,8 +64572,7 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Europe"
       ],
       "countries": [
         "Bulgarie",
@@ -66301,6 +66300,88 @@
       ],
       "url": "https://www.msn.com/fr-fr/actualite/culture/la-corée-du-nord-tire-un-missile-balistique-en-direction-de-la-mer-du-japon/ar-AA2dtovw",
       "published_at": "2026-10-03T06:47:26+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "«Aucune colère ne justifie cela», Teddy Riner demande des sanctions pour les casseurs et lance un appel aux lycéens. Le judoka français a pris la parole pour condamner les violences lors de la mobilisation lycéenne tout en appelant à ne pas faire «le procès de toute une génération».",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/sports/autres-sports/aucune-colere-ne-justifie-cela-teddy-riner-demande-des-sanctions-pour-les-casseurs-et-lance-un-appel-aux-lyceens-20261003",
+      "published_at": "2026-10-03T06:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) vante le projet du G7 de libérer ses réserves de pétrole et de diesel pour faire face aux prix élevés. Le G7 a annoncé un plan visant à libérer 100 millions de barils de pétrole et de produits pétroliers pour lutter contre les prix élevés causés en grande partie par la guerre avec l'Iran.",
+      "sources": [
+        "WXII 12 News — fiabilité 6/10"
+      ],
+      "url": "https://www.wxii12.com/article/trump-g7-plan-release-oil-diesel-reserves-address-high-prices/74003451",
+      "published_at": "2026-10-03T07:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La « Marche de la folie » du président Donald Trump (États-Unis) donne du pouvoir aux extrémistes iraniens. Pourtant, la myopie trumpienne persiste, l’administration continuant de prétendre que sa pression sur l’Iran est un succès retentissant. \"Le blocus fonctionne, il fonctionne comme nous n'en avons jamais vu\"…",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/03/opinion/trump-empowers-iranian-extremists.html",
+      "published_at": "2026-10-03T07:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "countries": [
+        "Argentine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "L'Argentine va offrir la citoyenneté aux étrangers qui y investiront au moins 350.000 dollars. Cette annonce a été faite par le gouvernement argentin à l'occasion d'un voyage à Paris pour l'« Argentina Week ». Elle vise notamment à renflouer le budget de l'Etat.",
+      "sources": [
+        "Les Echos — fiabilité 6/10"
+      ],
+      "url": "https://www.lesechos.fr/monde/ameriques/largentine-va-offrir-la-citoyennete-aux-etrangers-qui-y-investiront-au-moins-310000-euros-2254969",
+      "published_at": "2026-10-03T06:36:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
