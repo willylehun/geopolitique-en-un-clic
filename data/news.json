@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:38:11.975382+02:00",
+  "generated_at": "2026-10-03T20:48:23.792962+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -68749,10 +68749,11 @@
       "category": "Géopolitique",
       "summary": "Un ancien membre du Congrès écope de 10 ans de prison pour lobbying secret au Venezuela. L'ancien membre du Congrès David Rivera a été condamné à 10 ans de prison pour avoir exercé secrètement des pressions auprès de responsables américains au nom du gouvernement vénézuélien.",
       "sources": [
-        "AOL — fiabilité 6/10"
+        "AOL — fiabilité 6/10",
+        "USA TODAY via MSN — fiabilité 6/10"
       ],
       "url": "https://www.aol.com/articles/former-congressman-gets-10-years-172854000.html",
-      "published_at": "2026-10-03T12:28:00+02:00",
+      "published_at": "2026-10-03T12:29:01+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -68876,6 +68877,45 @@
       ],
       "url": "https://www.franceinfo.fr/monde/usa/le-directeur-de-l-administration-penitentiaire-du-tennessee-demissionne-apres-l-echec-de-l-execution-de-la-condamnee-a-mort-christa-pike-annonce-le-gouverneur-d-etat_8221396.html",
       "published_at": "2026-10-03T13:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Amazon répond aux réactions négatives des centres de données et déclare qu'il n'utilise plus de NDA. Le PDG d'Amazon Web Services, Matt Garman, a déclaré que la société avait cessé d'utiliser des accords de non-divulgation (NDA) dans ses relations avec les agences gouvernementales alors qu'elle cherchait l'autorisation de construire de nouveaux centres de données.",
+      "sources": [
+        "TechCrunch — fiabilité 6/10"
+      ],
+      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "published_at": "2026-10-03T13:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "countries": [
+        "Cuba",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis renforcent leurs défenses anti-drones après des rapports sur de possibles menaces en provenance de Cuba. Le mémorandum du Département de la Guerre ne mentionne pas l'île, mais'arrive après des rapports sur des drones russes et iraniens présumément acquis par le régime cubain, des scénarios possibles cont …",
+      "sources": [
+        "fr.cibercuba — fiabilité 6/10"
+      ],
+      "url": "https://fr.cibercuba.com/noticias/2026-10-03-u1-e207888-s27061-nid341824-eeuu-acelera-defensas-antidrones-tras-reportes",
+      "published_at": "2026-10-03T12:59:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
