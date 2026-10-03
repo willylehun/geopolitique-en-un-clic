@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:36:16.909795+02:00",
+  "generated_at": "2026-10-03T19:46:32.721664+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -68549,6 +68549,44 @@
       ],
       "url": "https://www.marianne.net/politique/gauche/souverainete-du-quebec-guerre-en-ukraine-samuel-paty-les-derapages-non-controles-de-segolene-royal",
       "published_at": "2026-10-03T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "World In Frames : la poignée de main kenyane. Nairobi, Kenya, janvier 2008. Alors que le Kenya est au bord de la guerre civile après des élections contestées, deux rivaux se serrent la main. Ils conviennent d’un accord de partage du pouvoir et la crise est évitée. Parfois un…",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/en/video/20261003-world-in-frames-the-kenyan-handshake",
+      "published_at": "2026-10-03T12:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Kenya"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Sebi va revoir les limites non agricoles pour augmenter les liquidités. Le mois dernier, le conseil d'administration de Sebi a approuvé une proposition visant à permettre aux investisseurs de portefeuille étrangers (FPI) de participer à des contrats dérivés sur matières premières non agricoles, réglés physiquement, sous réserve de sauvegardes.",
+      "sources": [
+        "The Financial Express — fiabilité 6/10"
+      ],
+      "url": "https://www.financialexpress.com/market/sebi-to-review-non-agri-limits-for-liquidity-boost-4353054/",
+      "published_at": "2026-10-03T12:14:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
