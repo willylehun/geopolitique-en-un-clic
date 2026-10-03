@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:04:42.849537+02:00",
+  "generated_at": "2026-10-03T11:14:56.743543+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -763,8 +763,8 @@
     },
     {
       "regions": [
-        "Océanie",
-        "Asie"
+        "Asie",
+        "Océanie"
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
@@ -775,8 +775,8 @@
         "Reuters"
       ],
       "countries": [
-        "Nouvelle-Zélande",
-        "Inde"
+        "Inde",
+        "Nouvelle-Zélande"
       ]
     },
     {
@@ -1063,8 +1063,8 @@
       ],
       "countries": [
         "Arménie",
-        "Russie",
-        "Iran"
+        "Iran",
+        "Russie"
       ],
       "period": "day",
       "bucket": "14 septembre 2026",
@@ -1202,9 +1202,9 @@
         "International"
       ],
       "countries": [
-        "Russie",
         "Lituanie",
-        "Biélorussie"
+        "Biélorussie",
+        "Russie"
       ],
       "period": "day",
       "bucket": "21 septembre 2026",
@@ -8394,8 +8394,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Russie",
-        "Moldavie"
+        "Moldavie",
+        "Russie"
       ]
     },
     {
@@ -9192,8 +9192,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -9207,8 +9207,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Russie",
-        "Turquie"
+        "Turquie",
+        "Russie"
       ]
     },
     {
@@ -12150,8 +12150,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -12166,8 +12166,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Russie",
-        "Turquie"
+        "Turquie",
+        "Russie"
       ]
     },
     {
@@ -12683,8 +12683,8 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Russie",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Russie"
       ]
     },
     {
@@ -15073,8 +15073,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Russie",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Russie"
       ]
     },
     {
@@ -21195,8 +21195,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -21210,8 +21210,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Russie",
-        "Chine"
+        "Chine",
+        "Russie"
       ]
     },
     {
@@ -23983,8 +23983,8 @@
         "International"
       ],
       "countries": [
-        "Russie",
         "Estonie",
+        "Russie",
         "Ukraine",
         "États-Unis"
       ],
@@ -24073,8 +24073,8 @@
         "International"
       ],
       "countries": [
-        "Russie",
         "France",
+        "Russie",
         "Ukraine"
       ],
       "period": "day",
@@ -25062,8 +25062,8 @@
         "International"
       ],
       "countries": [
-        "Russie",
-        "Estonie"
+        "Estonie",
+        "Russie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -25083,8 +25083,8 @@
         "Europe"
       ],
       "countries": [
-        "Russie",
         "Estonie",
+        "Russie",
         "Ukraine"
       ],
       "period": "day",
@@ -25105,8 +25105,8 @@
         "Europe"
       ],
       "countries": [
-        "Russie",
-        "Estonie"
+        "Estonie",
+        "Russie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -25126,8 +25126,8 @@
         "Europe"
       ],
       "countries": [
-        "Russie",
-        "Estonie"
+        "Estonie",
+        "Russie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -26768,8 +26768,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
         "Belgique",
+        "Russie",
         "Ukraine"
       ]
     },
@@ -27379,8 +27379,8 @@
         "International"
       ],
       "countries": [
-        "Russie",
-        "France"
+        "France",
+        "Russie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28809,13 +28809,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Russie",
         "Corée du Sud",
+        "Russie",
         "Ukraine"
       ],
       "period": "day",
@@ -28874,8 +28874,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "Amérique du Nord",
         "International"
       ],
@@ -28892,10 +28892,10 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
         "Chine",
         "Iran",
         "Pakistan",
+        "Russie",
         "États-Unis"
       ]
     },
@@ -29134,8 +29134,8 @@
         "Europe"
       ],
       "countries": [
-        "Russie",
         "Estonie",
+        "Russie",
         "Ukraine"
       ],
       "period": "day",
@@ -30552,8 +30552,8 @@
     },
     {
       "regions": [
-        "Océanie",
         "Asie",
+        "Océanie",
         "International"
       ],
       "period": "day",
@@ -30569,8 +30569,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Nouvelle-Zélande",
-        "Inde"
+        "Inde",
+        "Nouvelle-Zélande"
       ]
     },
     {
@@ -30780,8 +30780,8 @@
         "International"
       ],
       "countries": [
-        "Russie",
         "Estonie",
+        "Russie",
         "Ukraine"
       ],
       "period": "day",
@@ -31462,8 +31462,8 @@
     {
       "regions": [
         "Amérique du Nord",
-        "Océanie",
         "Amérique du Sud",
+        "Océanie",
         "International"
       ],
       "period": "day",
@@ -31480,8 +31480,8 @@
       "content_enriched": true,
       "countries": [
         "Canada",
-        "Nouvelle-Zélande",
-        "Pérou"
+        "Pérou",
+        "Nouvelle-Zélande"
       ]
     },
     {
@@ -38166,8 +38166,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Russie"
       ]
     },
     {
@@ -39484,8 +39484,8 @@
         "International"
       ],
       "countries": [
-        "Russie",
         "Vatican",
+        "Russie",
         "Ukraine"
       ],
       "period": "day",
@@ -39816,8 +39816,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "Amérique du Nord",
         "International"
       ],
@@ -39834,8 +39834,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
         "Iran",
+        "Russie",
         "États-Unis"
       ]
     },
@@ -45157,8 +45157,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Russie"
       ]
     },
     {
@@ -45873,10 +45873,10 @@
       "content_enriched": true,
       "countries": [
         "Allemagne",
-        "Russie",
         "Chine",
         "Inde",
         "Royaume-Uni",
+        "Russie",
         "États-Unis"
       ]
     },
@@ -45984,13 +45984,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Afrique",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Russie",
         "Zimbabwe",
+        "Russie",
         "Ukraine"
       ],
       "period": "day",
@@ -47245,8 +47245,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
         "Royaume-Uni",
+        "Russie",
         "Ukraine"
       ]
     },
@@ -51688,8 +51688,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -51705,8 +51705,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
-        "Iran"
+        "Iran",
+        "Russie"
       ]
     },
     {
@@ -51732,8 +51732,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "Amérique du Nord",
         "International"
       ],
@@ -51750,8 +51750,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
         "Iran",
+        "Russie",
         "États-Unis"
       ]
     },
@@ -52405,8 +52405,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "Amérique du Nord",
         "International"
       ],
@@ -52423,9 +52423,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
         "Chine",
         "Iran",
+        "Russie",
         "États-Unis"
       ]
     },
@@ -54584,13 +54584,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Russie",
         "Corée du Sud",
+        "Russie",
         "Ukraine"
       ],
       "period": "day",
@@ -54909,8 +54909,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -54926,8 +54926,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
         "Corée du Sud",
+        "Russie",
         "Ukraine"
       ]
     },
@@ -54954,14 +54954,14 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "Amérique du Nord",
         "International"
       ],
       "countries": [
-        "Russie",
         "Iran",
+        "Russie",
         "États-Unis"
       ],
       "period": "day",
@@ -56758,8 +56758,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -56774,8 +56774,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
-        "Inde"
+        "Inde",
+        "Russie"
       ]
     },
     {
@@ -59390,8 +59390,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "Amérique du Nord",
         "International"
       ],
@@ -59409,8 +59409,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
         "Iran",
+        "Russie",
         "États-Unis"
       ]
     },
@@ -59781,8 +59781,8 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -59798,9 +59798,9 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Russie",
         "Chine",
-        "Iran"
+        "Iran",
+        "Russie"
       ]
     },
     {
@@ -63984,22 +63984,24 @@
     {
       "regions": [
         "Asie",
+        "Amérique du Nord",
         "International"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "Mises à jour en direct sur la guerre américano-iranienne : la coalition saoudienne intercepte 3 missiles Houthis ; des débris blessent un habitant, affirme la défense civile. La guerre en Iran se transforme en une crise de sécurité régionale plus vaste, avec des tensions qui s'étendent du champ de bataille aux routes commerciales et de transport vitales.",
+      "summary": "Mises à jour en direct sur la guerre américano-iranienne : L'Iran affirme que l'infrastructure satellitaire américaine endommagée par la guerre a été restaurée, mais pas encore à pleine capacité. La guerre en Iran se transforme en une crise de sécurité régionale plus vaste, avec des tensions qui s'étendent du champ de bataille aux routes commerciales et de transport vitales.",
       "sources": [
         "The Times of India — fiabilité 6/10"
       ],
       "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-trump-iran-strikes-hormuz-middle-east-ceasefire-talks-crude-oil-price-hike-latest-news/liveblog/134645747.cms",
-      "published_at": "2026-10-03T02:01:00+02:00",
+      "published_at": "2026-10-03T03:55:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Iran"
+        "Iran",
+        "États-Unis"
       ]
     },
     {
@@ -64714,7 +64716,8 @@
     {
       "regions": [
         "Amérique du Nord",
-        "International"
+        "International",
+        "Europe"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -64727,7 +64730,8 @@
       "url": "https://www.bbc.co.uk/news/articles/cmwyqwwq9gnjo",
       "published_at": "2026-10-03T03:57:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -64864,6 +64868,165 @@
       "url": "https://www.bfmtv.com/tech/innovation/moins-de-soldats-plus-de-machines-taiwan-coree-mer-de-chine-comment-l-ia-et-les-drones-redessinent-la-course-aux-armements-en-asie_AN-202610030035.html",
       "published_at": "2026-10-03T02:28:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Culture contre climat : comment le réchauffement climatique met en danger les sites du patrimoine de l'UNESCO. Les sites du patrimoine mondial de l’UNESCO en France et dans le monde sont menacés par la crise climatique. Des villes anciennes aux abbayes médiévales, les inondations, les sécheresses, la montée des eaux et les incendies de forêt mettent …",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/en/environment/20261003-culture-versus-climate-how-global-heating-endangers-unesco-world-heritage-sites",
+      "published_at": "2026-10-03T03:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Les prix des logements grimpent en Europe : quels pays sont les plus touchés et pourquoi ?. Les prix de l'immobilier en Europe continuent d'augmenter, dépassant l'inflation dans de nombreux pays. Les hausses annuelles vont de 0,6 % en Allemagne à 16,5 % au Portugal au deuxième trimestre 2026 …",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/fr-ca/finances/économie/les-prix-des-logements-grimpent-en-europe-quels-pays-sont-les-plus-touchés-et-pourquoi/ar-AA2dtbzX",
+      "published_at": "2026-10-03T00:00:54+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne",
+        "Portugal"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Économie",
+      "summary": "Alors que la hausse des prix du carburant pousse l’Î.-P.-É. l’inflation est plus élevée, l’économiste affirme que certains Insulaires pourraient être confrontés à des « décisions difficiles ». Alors que le taux d’inflation de l’Île-du-Prince-Édouard augmente, en grande partie à cause de la hausse des prix du carburant, certains Insulaires devront peut-être se demander où dépenser leur argent à l’approche de l’hiver.",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-inflation-growth-higher-fuel-prices-9.7367058",
+      "published_at": "2026-10-03T03:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Corée du Nord lance un missile balistique alors que les tensions avec Séoul s'accentuent à cause des explosions de mines à la frontière. La Corée du Nord a lancé samedi matin un missile balistique depuis la région de Wonsan, sur sa côte est, vers la mer du Japon, selon l'armée sud-coréenne. Le lancement intervient dans un contexte de tensions renouvelées entre…",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/asia-pacific/20261003-north-korea-fires-ballistic-missile-after-seoul-s-apology-demand",
+      "published_at": "2026-10-03T02:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Japon",
+        "Corée du Nord"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La doctrinele secrétaire à la Défense Pete Hegseth (États-Unis) dit « Pas de gros, de barbus ou de cinglés » – sauf les VIP. Hegseth a ridiculisé l’apparence des troupes et « réveillé » la culture tout en confiant à Musk, Luckey et Gingrich un rôle dans l’élaboration de la guerre future.",
+      "sources": [
+        "Military.com — fiabilité 6/10"
+      ],
+      "url": "https://www.military.com/hegseths-hypocrisy-no-fatties-beardos-or-weirdosexcept-vips",
+      "published_at": "2026-10-03T03:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Jefferies place 25 % de son portefeuille d'obligations souveraines dans la dette indienne à 15 ans à un rendement de 7,38 %. Le dernier positionnement de Jefferies sur la dette souveraine intervient alors que les marchés obligataires mondiaux sont confrontés à une forte hausse des rendements des marchés développés, la société soulignant la performance relative des marchés émergents…",
+      "sources": [
+        "Business Today — fiabilité 6/10"
+      ],
+      "url": "https://www.businesstoday.in/latest/economy/story/jefferies-puts-25-of-sovereign-bond-portfolio-in-indian-15-year-debt-at-7-38-yield-559309-2026-10-03",
+      "published_at": "2026-10-03T03:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’armée yéménite revendique plus de 1 500 victimes Houthis au cours des dernières 24 heures. Les forces gouvernementales ferment un passage clé reliant al-Houban, tenu par les Houthis, à la ville de Taiz, tenue par le gouvernement.",
+      "sources": [
+        "Al Jazeera via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/world/yemen-s-army-claims-over-1500-houthi-casualties-in-past-24-hours/ar-AA2dtmN8",
+      "published_at": "2026-10-03T03:36:17+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc",
+        "Niger"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La première femme nommée à la tête du gouvernement au Maroc, les juntes sahéliennes à l’ONU, l’après-Orano au Niger… Les 5 infos qu’il ne fallait pas manquer. Cette semaine, le Brief de Jeune Afrique revient sur la nomination de Fatima-Ezzahra El Mansouri, première femme à la tête du gouvernement marocain, décrypte l’entourage de Brice Clotaire Oligui Nguema, analyse la stratégie diplomatique commune des juntes sahéliennes, examine la relance de l’uranium au Niger et s’intéresse au pari des solutions solaires pour électrifier l’Afrique rurale.",
+      "sources": [
+        "Jeune Afrique — fiabilité 7/10"
+      ],
+      "url": "https://www.jeuneafrique.com/1847923/politique/la-premiere-femme-nommee-a-la-tete-du-gouvernement-au-maroc-les-juntes-saheliennes-a-lonu-lapres-orano-au-niger-les-5-infos-quil-ne-fallait-pas-manquer/",
+      "published_at": "2026-10-03T08:34:14+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
