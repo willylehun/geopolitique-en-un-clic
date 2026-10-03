@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:23:48.990475+02:00",
+  "generated_at": "2026-10-03T10:34:04.000625+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -28672,8 +28672,8 @@
       ],
       "countries": [
         "Allemagne",
-        "Espagne",
-        "Chine"
+        "Chine",
+        "Espagne"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -41651,8 +41651,8 @@
         "International"
       ],
       "countries": [
-        "Espagne",
-        "Portugal"
+        "Portugal",
+        "Espagne"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -43130,8 +43130,8 @@
         "Europe"
       ],
       "countries": [
-        "Espagne",
-        "Portugal"
+        "Portugal",
+        "Espagne"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -64629,6 +64629,27 @@
       "published_at": "2026-10-03T03:18:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "L'Italie affirme qu'elle n'a pas de candidat à la tête de la BCE et appelle à la clarté sur Lagarde. L'Italie cherche à obtenir des éclaircissements sur les rumeurs selon lesquelles la présidente de la Banque centrale européenne (BCE), la présidente de la Banque centrale européenne Christine Lagarde (Union européenne), pourrait quitter son poste plus tôt que prévu, a déclaré le ministre de l'Economie Giancarlo Giorgetti …",
+      "sources": [
+        "AOL — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.com/articles/italy-says-no-candidate-ecb-170548000.html",
+      "published_at": "2026-10-03T02:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Italie"
+      ]
     },
     {
       "regions": [
