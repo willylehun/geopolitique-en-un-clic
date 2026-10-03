@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:46:58.229488+02:00",
+  "generated_at": "2026-10-03T12:57:11.617897+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -981,9 +981,9 @@
       "countries": [
         "Algérie",
         "Mali",
-        "Émirats arabes unis",
         "Libye",
-        "Soudan"
+        "Soudan",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "10 septembre 2026",
@@ -22730,8 +22730,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Iran",
+        "Émirats arabes unis",
         "États-Unis"
       ]
     },
@@ -23548,9 +23548,9 @@
       "countries": [
         "Arabie saoudite",
         "Qatar",
-        "Émirats arabes unis",
         "Israël",
-        "Maroc"
+        "Maroc",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -27479,8 +27479,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -27569,8 +27569,8 @@
         "Asie"
       ],
       "countries": [
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -30020,8 +30020,8 @@
       "content_enriched": true,
       "countries": [
         "Arabie saoudite",
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -30426,8 +30426,8 @@
         "Asie"
       ],
       "countries": [
-        "Émirats arabes unis",
-        "Inde"
+        "Inde",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -31683,9 +31683,9 @@
         "Asie"
       ],
       "countries": [
-        "Émirats arabes unis",
         "Iran",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -33521,8 +33521,8 @@
       "content_enriched": true,
       "countries": [
         "Arabie saoudite",
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -34203,8 +34203,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Iran",
+        "Émirats arabes unis",
         "États-Unis"
       ]
     },
@@ -37154,8 +37154,8 @@
       "content_enriched": true,
       "countries": [
         "Arabie saoudite",
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -38098,8 +38098,8 @@
       "content_enriched": true,
       "countries": [
         "Arabie saoudite",
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -41858,8 +41858,8 @@
       ],
       "countries": [
         "Arabie saoudite",
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -42869,8 +42869,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
-        "Inde"
+        "Inde",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -45948,8 +45948,8 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Arménie",
         "Turquie",
+        "Arménie",
         "États-Unis"
       ],
       "period": "day",
@@ -47073,8 +47073,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
-        "Israël"
+        "Israël",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -55721,8 +55721,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
         "Iran",
+        "Émirats arabes unis",
         "États-Unis"
       ]
     },
@@ -56244,8 +56244,8 @@
       "content_enriched": true,
       "countries": [
         "Qatar",
-        "Émirats arabes unis",
-        "Iran"
+        "Iran",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -56309,8 +56309,8 @@
         "Afrique"
       ],
       "countries": [
-        "Congo (RDC)",
-        "Rwanda"
+        "Rwanda",
+        "Congo (RDC)"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -58173,8 +58173,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Émirats arabes unis",
-        "Iran"
+        "Iran",
+        "Émirats arabes unis"
       ]
     },
     {
@@ -64216,8 +64216,7 @@
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Russie"
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -65414,13 +65413,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Émirats arabes unis",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Émirats arabes unis"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -65455,6 +65454,101 @@
       ],
       "url": "https://www.msn.com/fr-fr/finance/général/arménie-la-cop17-biodiversité-sous-haute-tension-à-erevan/ar-AA2dtCGB",
       "published_at": "2026-10-03T03:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Une frappe de drone russe sur le pont du Nord retarde les bus et les trolleybus. À 8 h 47, l'Administration d'État de la ville de Kiev (KMDA) a déclaré que les bus n° 21, 73, 101 et 114 avaient repris leur service sur leurs itinéraires réguliers. Les bus ont continué à circuler avec des retards et des horaires…",
+      "sources": [
+        "The New Voice of Ukraine via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/russian-drone-strike-on-northern-bridge-delays-buses-and-trolleybuses/ar-AA2du0Xq",
+      "published_at": "2026-10-03T05:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "La monnaie iranienne tombe à un niveau record. La monnaie nationale iranienne est en chute libre au milieu de la guerre et des sanctions économiques. Sur le marché libre, le taux de change d'un euro a atteint pour la première fois la barre historique des trois millions de rials, …",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/iran-s-currency-falls-to-a-record-low-li.3623054",
+      "published_at": "2026-10-03T05:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Rapports : Israël cible le haut dirigeant du Hamas, Ali al-Amoudi, à Gaza (Palestine). Israël a ciblé le haut dirigeant du Hamas, Ali al-Amoudi, lors d'une frappe aérienne dans la ville de Gaza, selon une source de sécurité israélienne citée par plusieurs médias. Il n'était pas immédiatement clair s'il l'était…",
+      "sources": [
+        "i24NEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.i24news.tv/en/news/israel-at-war/artc-reports-israel-targets-senior-hamas-leader-ali-al-amoudi-in-gaza",
+      "published_at": "2026-10-03T05:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Palestine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Sécurité",
+      "summary": "La Malaisie envisage de jouer un rôle dans la chaîne d’approvisionnement mondiale du constructeur aéronautique brésilien Embraer. La Malaisie envisage une coopération avec Embraer Defence & Security du Brésil pour rejoindre la chaîne d'approvisionnement régionale et mondiale de l'entreprise. Le ministre de la Défense …",
+      "sources": [
+        "Malay Mail — fiabilité 6/10"
+      ],
+      "url": "https://www.malaymail.com/news/malaysia/2026/10/03/malaysia-eyes-role-in-brazilian-aircraft-maker-embraers-global-supply-chain/237484",
+      "published_at": "2026-10-03T05:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Malaisie",
+        "Brésil"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le ministre Indar félicite l'équipe de Leonora Mall pour sa demande d'identification électronique « transparente » et son expérience de renouvellement de permis de conduire. LE MINISTRE des Services publics et de l'Aviation, Deodat Indar, a décrit jeudi comme une journée spéciale, alors qu'il demandait sa carte d'identité électronique au bureau du gouvernement au …",
+      "sources": [
+        "Guyana Chronicle — fiabilité 6/10"
+      ],
+      "url": "https://guyanachronicle.com/2026/10/03/minister-indar-praises-leonora-mall-team-for-seamless-e-id-application-drivers-licence-renewal-experience/",
+      "published_at": "2026-10-03T03:25:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
