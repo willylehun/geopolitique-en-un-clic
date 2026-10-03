@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:27:52.540728+02:00",
+  "generated_at": "2026-10-03T13:38:07.113901+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -65802,6 +65802,65 @@
       ],
       "url": "https://www.lefigaro.fr/international/iran-execution-d-un-homme-en-lien-avec-les-manifestations-de-janvier-20261003",
       "published_at": "2026-10-03T02:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Pourquoi les importations de pétrole de l’Inde augmentent-elles ?. Les pays du G7 coordonneront la libération de 100 millions de barils de pétrole et de produits raffinés par l’intermédiaire de l’AIE dans un contexte de pressions sur le marché de l’énergie. Cette décision intervient alors que l'Inde ajuste son mix d'importations de brut, avec l'Occident…",
+      "sources": [
+        "Jagran Josh — fiabilité 6/10"
+      ],
+      "url": "https://www.jagranjosh.com/general-knowledge/g7-to-release-100-million-oil-barrels-amid-crisis-who-owns-worlds-emergency-oil-how-indias-crude-imports-rising-1820012745-1",
+      "published_at": "2026-10-03T06:09:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le Japon prévoit six satellites « gardes du corps » d’ici l’exercice 2035. TOKYO ; Le ministère de la Défense a entamé des discussions sur l'introduction de six satellites « gardes du corps » qui pourraient protéger les satellites japonais des attaques des satellites « tueurs » d'autres pays d'ici l'exercice 2035, …",
+      "sources": [
+        "The Star — fiabilité 6/10"
+      ],
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/03/japan-plans-six-bodyguard-satellites-by-fiscal-2035",
+      "published_at": "2026-10-03T00:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Japon"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Justice d'ici 3 ans : Amit Shah sur les nouvelles lois pénales, FIR devant la Cour suprême. A Bhopal, Amit Shah a déclaré que les nouvelles lois pénales réduiraient considérablement les délais de justice. Il les a présentés comme une refonte moderne tout en liant le discours aux objectifs de la lutte contre la drogue et du secteur laitier.",
+      "sources": [
+        "India Today — fiabilité 6/10"
+      ],
+      "url": "https://www.indiatoday.in/india/story/amit-shah-new-criminal-laws-justice-within-three-years-fir-to-supreme-court-ptag-3008745-2026-10-03",
+      "published_at": "2026-10-03T06:05:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
