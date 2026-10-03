@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:42:47.718228+02:00",
+  "generated_at": "2026-10-03T16:52:59.780349+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -979,10 +979,10 @@
         "Asie"
       ],
       "countries": [
-        "Algérie",
         "Mali",
         "Libye",
         "Soudan",
+        "Algérie",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -38976,8 +38976,8 @@
         "Afrique"
       ],
       "countries": [
-        "Algérie",
-        "Tunisie"
+        "Tunisie",
+        "Algérie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -65663,8 +65663,7 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Europe"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -67190,6 +67189,46 @@
       "published_at": "2026-10-03T07:25:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des dizaines de milliers de personnes manifestent dans toute l'Espagne contre la crise du logement. Environ 70 000 manifestants ont pris part à la manifestation de samedi à Madrid, a annoncé le gouvernement espagnol. Les manifestations prévues à Barcelone et dans la ville voisine d'Hospitalet de Llobregat ont été annulées…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/tens-thousands-protest-across-spain-over-housing-crisis-2026-10-03/",
+      "published_at": "2026-10-03T08:08:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Cinq morts dans une frappe israélienne contre un immeuble à Gaza (Palestine). L'agence de défense civile de Gaza et un hôpital ont déclaré qu'une frappe aérienne israélienne nocturne sur un appartement de la ville de Gaza a tué cinq Palestiniens, dont quatre femmes.",
+      "sources": [
+        "RTÉ Ireland — fiabilité 6/10"
+      ],
+      "url": "https://www.rte.ie/news/2026/1003/1593893-israeli-strike/",
+      "published_at": "2026-10-03T09:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Palestine"
+      ]
     },
     {
       "regions": [
