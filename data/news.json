@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T23:01:16.605990+02:00",
+  "generated_at": "2026-10-03T23:11:31.634346+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -67053,6 +67053,7 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -68330,9 +68331,10 @@
         "CNN via MSN — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-us/news/other/governor-rebukes-da-s-handling-of-cornell-sex-assault-case-as-records-reportedly-show-prosecutor-declined-more-evidence/ar-AA2dsEDU",
-      "published_at": "2026-10-03T12:03:53+02:00",
+      "published_at": "2026-10-03T15:29:45+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -69810,6 +69812,130 @@
       "url": "https://www.ouest-france.fr/monde/coree-du-nord/la-coree-du-nord-declare-avoir-effectue-un-test-de-missile-de-portee-intermediaire-impliquant-lutilisation-de-lia-f1628d88-bf1a-11f1-b7db-555e86a524f6",
       "published_at": "2026-10-03T06:21:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Israël cible le plus haut dirigeant du Hamas dans une frappe meurtrière à Gaza (Palestine) à l'occasion de cet anniversaire. Israël a déclaré samedi avoir tenté de tuer le plus haut dirigeant du Hamas dans la bande de Gaza lors d'une frappe aérienne contre un appartement qui, selon les autorités locales, a tué cinq personnes, dont quatre femmes.",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/live-news/20261003-israel-targets-top-hamas-leader-in-deadly-gaza-strike-on-anniversary",
+      "published_at": "2026-10-03T03:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Palestine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Alors que le MI5 prévient que les universités britanniques ont été infiltrées par les espions de Pékin, des sources de sécurité déclarent au MoS que, d'un simple coup de bouton, la Chine pourrait désactiver nos voitures de police, nos bus et… La capacité potentielle de la Chine à contrôler les véhicules d'un simple clic est apparue au milieu des inquiétudes croissantes des agences de renseignement concernant l'approche douce et douce du gouvernement à l'égard de Pékin.",
+      "sources": [
+        "Daily Mail — fiabilité 6/10"
+      ],
+      "url": "https://www.dailymail.com/news/article-16180887/sources-China-disable-police-cars-buses-ambulances.html",
+      "published_at": "2026-10-03T15:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine",
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Technologie",
+      "summary": "Le leader d'OpenAI qui a démissionné affirme qu'il peut faire davantage pour la sécurité en dehors de l'entreprise. David Robinson a déclaré avoir embauché une société de relations publiques, Spitfire Strategies, après avoir démissionné d'Open AI.",
+      "sources": [
+        "Insider via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-au/technology/tech-companies/openai-leader-who-quit-says-he-can-do-more-for-safety-from-outside-the-company/ar-AA2du5JW",
+      "published_at": "2026-10-03T14:01:53+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Les pourparlers sur la modernisation des sucreries se poursuivent. Le gouvernement est en pourparlers avec les partenaires de développement et le secteur privé sur les moyens de soutenir la modernisation des sucreries des Fidji. Le ministre de l'Agriculture, Tomasi Tunabuna, déclare que les discussions ne se limitent pas à…",
+      "sources": [
+        "FBC News (média public) — fiabilité 7/10"
+      ],
+      "url": "https://www.fbcnews.com.fj/news/sugar-mill-upgrade-talks-continue/",
+      "published_at": "2026-10-03T13:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Fidji"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "L'élimination progressive des combustibles fossiles et les fonds pour le climat sont en tête de l'agenda pré-COP. Julie-Anne Richards, responsable stratégique de la campagne Make Big Polluters Pay, a déclaré que l'Australie devrait saisir l'opportunité d'investir davantage dans l'action climatique. \"Cet événement pré-COP est l'occasion de montrer…",
+      "sources": [
+        "Newcastle Herald — fiabilité 6/10"
+      ],
+      "url": "https://www.newcastleherald.com.au/story/9362070/fossil-fuel-phase-out-climate-funds-top-pre-cop-agenda/",
+      "published_at": "2026-10-03T12:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine: un nouveau grand pont de Kiev touché par une frappe russe. Il s’agit du deuxième grand pont de Kiev à être attaqué ces derniers jours. Jeudi et vendredi, le pont Sud avait été touché par des drones russes, entraînant sa fermeture à la circulation.",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-un-nouveau-grand-pont-de-kiev-touche-par-une-frappe-russe-20261003",
+      "published_at": "2026-10-03T00:25:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
