@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:36:44.059377+02:00",
+  "generated_at": "2026-10-03T12:46:58.229488+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -27272,8 +27272,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Palestine",
-        "Israël"
+        "Israël",
+        "Palestine"
       ]
     },
     {
@@ -28790,8 +28790,8 @@
         "International"
       ],
       "countries": [
-        "Palestine",
         "Qatar",
+        "Palestine",
         "Royaume-Uni"
       ],
       "period": "day",
@@ -29985,8 +29985,8 @@
         "Asie"
       ],
       "countries": [
-        "Palestine",
-        "Israël"
+        "Israël",
+        "Palestine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -35695,8 +35695,8 @@
         "International"
       ],
       "countries": [
-        "Palestine",
-        "Israël"
+        "Israël",
+        "Palestine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38144,8 +38144,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Palestine",
-        "Israël"
+        "Israël",
+        "Palestine"
       ]
     },
     {
@@ -40903,13 +40903,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Palestine",
-        "Pays-Bas"
+        "Pays-Bas",
+        "Palestine"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -41625,12 +41625,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Palestine",
-        "Soudan"
+        "Soudan",
+        "Palestine"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -44158,8 +44158,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Palestine",
         "Israël",
+        "Palestine",
         "États-Unis"
       ]
     },
@@ -47687,8 +47687,8 @@
         "International"
       ],
       "countries": [
-        "Palestine",
-        "Israël"
+        "Israël",
+        "Palestine"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -47742,8 +47742,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Palestine",
-        "Israël"
+        "Israël",
+        "Palestine"
       ]
     },
     {
@@ -49643,8 +49643,8 @@
       ],
       "countries": [
         "Maurice",
-        "Palestine",
-        "Israël"
+        "Israël",
+        "Palestine"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -52971,9 +52971,9 @@
         "International"
       ],
       "countries": [
-        "Palestine",
         "Iran",
         "Israël",
+        "Palestine",
         "États-Unis"
       ],
       "period": "day",
@@ -53254,8 +53254,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Palestine",
         "Israël",
+        "Palestine",
         "États-Unis"
       ]
     },
@@ -59267,10 +59267,10 @@
         "International"
       ],
       "countries": [
-        "Palestine",
         "Qatar",
         "France",
-        "Israël"
+        "Israël",
+        "Palestine"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -62284,8 +62284,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Palestine",
-        "Israël"
+        "Israël",
+        "Palestine"
       ]
     },
     {
@@ -64216,7 +64216,8 @@
         "International"
       ],
       "countries": [
-        "Ukraine"
+        "Ukraine",
+        "Russie"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -65368,6 +65369,94 @@
       "countries": [
         "Palestine"
       ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "À bord de l'USS George Washington, de jeunes marins s'adaptent à la guerre contre l'Iran. Une alerte d'urgence retentit dans un haut-parleur, et Damon Dennard et d'autres marins sur le pont du porte-avions USS George Washington se précipitent. Dennard, 23 ans, prépare des bombes à charger…",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/middle-east/aboard-uss-george-washington-young-sailors-adjust-war-with-iran-2026-10-03/",
+      "published_at": "2026-10-03T05:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "« Pas à vendre » : Mark Carney riposte aux menaces d’invasion du président Donald Trump (États-Unis). M. Carney a répondu en affirmant que son pays n’était « pas à vendre », ignorant le côté militariste des fanfaronnades de M. Trump. Cela a maintenant changé.",
+      "sources": [
+        "news.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.news.com.au/world/north-america/us-politics/not-for-sale-mark-carney-fights-back-against-donald-trump-invasion-threats/news-story/7d2db75a21d07c34967aee2817428e5c",
+      "published_at": "2026-10-03T01:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Émirats arabes unis",
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les Émirats arabes unis menacent le Royaume-Uni en cas de sanctions contre Manchester City. Le pire contre-attaque. Les craintes d’Andy Burnham seraient-elles fondées ? Alors que le Premier ministre britannique et ancien…",
+      "sources": [
+        "SO FOOT.com — fiabilité 6/10"
+      ],
+      "url": "https://www.sofoot.com/breves/angleterre-les-emirats-arabes-unis-menacent-de-retirer-leurs-investissements-financiers-au-royaume-uni-en-cas-de-sanctions-contre-manchester-city",
+      "published_at": "2026-10-03T10:16:39+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Arménie",
+        "Congo (RDC)"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Arménie : la COP17 biodiversité sous haute tension à Erevan. La COP17 se tiendra du 18 au 30 octobre à Erevan en Arménie. © Climat RDC Du 19 au 30 octobre, la COP17 sur la biodiversité réunira à Erevan les Parties à la Convention sur la diversité biologique. Qu …",
+      "sources": [
+        "L'Info Durable via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/finance/général/arménie-la-cop17-biodiversité-sous-haute-tension-à-erevan/ar-AA2dtCGB",
+      "published_at": "2026-10-03T03:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
