@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T09:42:55.069314+02:00",
+  "generated_at": "2026-10-03T09:53:07.087415+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -124,8 +124,8 @@
         "Reuters"
       ],
       "countries": [
-        "Chine",
         "Japon",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -8524,8 +8524,8 @@
       "published_at": "2026-09-25T11:45:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Népal",
+        "Chine",
         "Inde"
       ]
     },
@@ -16244,8 +16244,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Afrique",
+        "Asie",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -16260,8 +16260,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Kenya",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -21195,8 +21195,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -21210,8 +21210,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
-        "Russie"
+        "Russie",
+        "Chine"
       ]
     },
     {
@@ -21812,8 +21812,8 @@
       "published_at": "2026-09-27T22:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Chine",
         "Japon",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -28672,8 +28672,8 @@
       ],
       "countries": [
         "Allemagne",
-        "Chine",
-        "Espagne"
+        "Espagne",
+        "Chine"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -28874,8 +28874,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -28892,8 +28892,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
         "Russie",
+        "Chine",
         "Iran",
         "Pakistan",
         "États-Unis"
@@ -32274,8 +32274,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -32290,8 +32290,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
-        "Kenya"
+        "Kenya",
+        "Chine"
       ]
     },
     {
@@ -38282,8 +38282,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Amérique du Sud",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -38300,8 +38300,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
         "Uruguay",
+        "Chine",
         "États-Unis"
       ]
     },
@@ -42268,9 +42268,9 @@
       ],
       "countries": [
         "Afghanistan",
-        "Chine",
         "Malaisie",
         "Turquie",
+        "Chine",
         "Pakistan",
         "Vietnam",
         "États-Unis"
@@ -44940,12 +44940,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Chine",
-        "Gabon"
+        "Gabon",
+        "Chine"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -45650,12 +45650,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Asie"
       ],
       "countries": [
-        "Chine",
-        "Mexique"
+        "Mexique",
+        "Chine"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -45873,8 +45873,8 @@
       "content_enriched": true,
       "countries": [
         "Allemagne",
-        "Chine",
         "Russie",
+        "Chine",
         "Inde",
         "Royaume-Uni",
         "États-Unis"
@@ -46157,8 +46157,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
         "Israël",
+        "Chine",
         "Inde",
         "Iran",
         "États-Unis"
@@ -52405,8 +52405,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "Amérique du Nord",
         "International"
       ],
@@ -52423,8 +52423,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
         "Russie",
+        "Chine",
         "Iran",
         "États-Unis"
       ]
@@ -58060,8 +58060,8 @@
       "content_enriched": true,
       "countries": [
         "Australie",
-        "Chine",
-        "Singapour"
+        "Singapour",
+        "Chine"
       ]
     },
     {
@@ -59781,8 +59781,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -59798,8 +59798,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Chine",
         "Russie",
+        "Chine",
         "Iran"
       ]
     },
@@ -64323,12 +64323,12 @@
       "url": "https://seekingalpha.com/article/4951732-thoughts-from-municipal-bond-desk",
       "published_at": "2026-10-03T02:10:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
         "Asie",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -64346,6 +64346,85 @@
       "countries": [
         "Chine"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Musée de la Migration dispose de moins d'espace sur son nouveau site. Le Migration Museum de Londres bénéficiera d'un tiers d'espace en moins que prévu initialement dans un nouvel immeuble de 21 étages, afin de permettre davantage de logements étudiants.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/cr93e3k11vpjo",
+      "published_at": "2026-10-03T01:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Entrepreneurs avertis : respectez la date limite du Repentir sous peine de pénalités. La ministre du gouvernement LOCAL, Priya Manickchand, a averti les entrepreneurs engagés pour nettoyer le cimetière Le Repentir que le non-respect de ces mesures …",
+      "sources": [
+        "Guyana Chronicle — fiabilité 6/10"
+      ],
+      "url": "https://guyanachronicle.com/2026/10/03/contractors-warned-meet-le-repentir-deadline-or-face-penalties/",
+      "published_at": "2026-10-03T02:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Corée du Nord lance un nouveau missile balistique, selon Séoul. Le projectile s'est écrasé en mer sans faire de dégât, selon l'armée sud-coréenne. Ce nouveau tir intervient en plein regain de tension entre Pyongyang et Séoul.",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/monde/coree-du-nord/la-coree-du-nord-lance-un-nouveau-missile-balistique-selon-seoul_8220829.html",
+      "published_at": "2026-10-03T02:35:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Présidentielle au Brésil : Flavio Bolsonaro, l’héritier « qui le nom mais pas le même charisme que son père ». Fils de l’ancien président, Flavio Bolsonaro défie Lula ce dimanche pour le premier tour de l’élection présidentielle au Brésil, avec l’espoir de ramener son clan au pouvoir …",
+      "sources": [
+        "20 Minutes via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/présidentielle-au-brésil-flavio-bolsonaro-l-héritier-qui-le-nom-mais-pas-le-même-charisme-que-son-père/ar-AA2dsR0a",
+      "published_at": "2026-10-03T00:32:36+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
