@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T21:08:48.270770+02:00",
+  "generated_at": "2026-10-03T21:19:00.590298+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -9192,8 +9192,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -9207,8 +9207,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Turquie",
-        "Russie"
+        "Russie",
+        "Turquie"
       ]
     },
     {
@@ -12150,8 +12150,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "27 septembre 2026",
@@ -12166,8 +12166,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Turquie",
-        "Russie"
+        "Russie",
+        "Turquie"
       ]
     },
     {
@@ -42268,10 +42268,10 @@
       ],
       "countries": [
         "Afghanistan",
-        "Turquie",
         "Chine",
         "Malaisie",
         "Pakistan",
+        "Turquie",
         "Vietnam",
         "États-Unis"
       ],
@@ -45948,8 +45948,8 @@
         "Amérique du Nord"
       ],
       "countries": [
-        "Turquie",
         "Arménie",
+        "Turquie",
         "États-Unis"
       ],
       "period": "day",
@@ -69122,9 +69122,9 @@
         "International"
       ],
       "countries": [
-        "Turquie",
         "Arabie saoudite",
-        "Pakistan"
+        "Pakistan",
+        "Turquie"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -69144,9 +69144,9 @@
         "Asie"
       ],
       "countries": [
-        "Turquie",
         "Arabie saoudite",
-        "Pakistan"
+        "Pakistan",
+        "Turquie"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -69159,6 +69159,84 @@
       "url": "https://french.xinhuanet.com/20261003/4648c30f2b7842c9b5cd3320dbc3ed2e/c.html",
       "published_at": "2026-10-03T01:20:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Jagan accuse Naidu d'avoir trahi les agriculteurs de Rayalaseema suite à une réclamation pour investissement dans l'horticulture. Dans un article sur X, Jagan Mohan Reddy a affirmé que le gouvernement n'avait pas alloué de fonds ni dépensé d'argent pour l'investissement proposé. Il a également critiqué la manière dont le gouvernement gère les problèmes…",
+      "sources": [
+        "Deccan Chronicle — fiabilité 6/10"
+      ],
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/jagan-accuses-naidu-of-betraying-rayalaseema-farmers-over-horticulture-investment-claim-1992941",
+      "published_at": "2026-10-03T14:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les travaillistes sont peut-être aux avant-postes dans le centre de Melbourne en ce qui concerne les logements sociaux – mais ils mènent la lutte contre les Verts. Le gouvernement voit une opportunité de regagner des sièges dans les villes grâce à des politiques ciblées telles que l'autorisation des chiens dans les pubs et l'extension des heures d'ouverture des magasins…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/australia-news/2026/oct/04/labor-greens-public-housing-battle-2026-victoria-election",
+      "published_at": "2026-10-03T14:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le secrétaire à la Défense Pete Hegseth (États-Unis) qualifie les sous-marins nucléaires de construction américaine de « prédateur suprême » des mers. Mais sont-ils adaptés à l'Australie ? Certains experts affirment que les sous-marins de classe Virginia que le gouvernement achète d'occasion sont bons pour mener les guerres américaines, mais pas pour défendre l'Australie…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/australia-news/2026/oct/04/hegseth-apex-predator-nuclear-submarines-right-for-australia-aukus-ntwnfb",
+      "published_at": "2026-10-03T14:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : l’Ukraine prévoit d’intensifier ses frappes sur les raffineries russes en réponse à la « nouvelle doctrine » menée par Moscou. Les services de renseignement ukrainiens ont obtenu des documents montrant que le président russe, le président Vladimir Poutine (Russie), a défini une « nouvelle doctrine » prévoyant des attaques militaires contre un éven …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/10/03/en-direct-guerre-en-ukraine-l-ukraine-prevoit-d-intensifier-ses-frappes-sur-les-raffineries-russes-en-reponse-a-la-nouvelle-doctrine-menee-par-moscou_6783795_3210.html",
+      "published_at": "2026-10-03T13:30:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
