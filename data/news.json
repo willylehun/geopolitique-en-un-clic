@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:10:12.600341+02:00",
+  "generated_at": "2026-10-03T22:20:26.699539+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -65358,12 +65358,13 @@
       "bucket": "3 octobre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Au moins cinq morts et cinq blessés dans la ville de Gaza (Palestine) par une frappe aérienne israélienne. Au moins cinq personnes ont été tuées dans la ville de Gaza par une frappe aérienne israélienne, ont annoncé samedi les services d'urgence palestiniens. Des sources médicales à l’hôpital al-Shifa ont déclaré qu’au moins cinq autres personnes…",
+      "summary": "Au moins cinq morts et cinq blessés dans la ville de Gaza (Palestine) par une frappe aérienne israélienne. Au moins cinq personnes ont été tuées dans une frappe aérienne israélienne dans la ville de Gaza, ont annoncé samedi les services d'urgence palestiniens. Des sources médicales à l’hôpital al-Shifa ont indiqué qu’au moins cinq autres personnes avaient été blessées…",
       "sources": [
-        "Yahoo — fiabilité 6/10"
+        "Yahoo — fiabilité 6/10",
+        "DPA International via MSN — fiabilité 6/10"
       ],
       "url": "https://www.yahoo.com/news/world/articles/least-five-killed-five-injured-093338907.html",
-      "published_at": "2026-10-03T04:32:00+02:00",
+      "published_at": "2026-10-03T15:03:30+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -67051,6 +67052,7 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -69591,6 +69593,23 @@
       ],
       "url": "https://www.arabnews.fr/tribune/lirak-ne-doit-pas-tomber-sous-la-tutelle-de-liran-3000267",
       "published_at": "2026-10-03T01:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des milliers de personnes se rassemblent à Belgrade alors que le dirigeant serbe Vucic lance sa candidature au poste de Premier ministre. Des milliers de partisans du leader populiste serbe Aleksandar Vucic ont rempli samedi la plus grande arène couverte de Belgrade pour le lancement de facto de sa campagne pour le poste de Premier ministre qui …",
+      "sources": [
+        "WRAL — fiabilité 6/10"
+      ],
+      "url": "https://www.wral.com/news/ap/12260-thousands-pack-arena-in-belgrade-as-serbias-leader-vucic-launches-prime-minister-bid/",
+      "published_at": "2026-10-03T14:53:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
