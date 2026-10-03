@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:19:02.462964+02:00",
+  "generated_at": "2026-10-03T14:29:13.781390+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66207,6 +66207,100 @@
       ],
       "url": "https://www.20minutes.fr/monde/royaume-uni/4250424-20261003-faudra-recommencer-zero-retour-rapide-royaume-uni-union-europeenne-credible",
       "published_at": "2026-10-03T03:33:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "\"Une manifestation du CJP de Mumbai réservée pour manque d'autorisation, examen de la NHRC et Jantar Mantar Row\". Une plainte a été enregistrée par le commissariat de police de Shivaji Park à Mumbai contre les organisateurs et 400 à 500 partisans du CJP à la suite d'une manifestation non autorisée le 2 octobre.",
+      "sources": [
+        "India Today — fiabilité 6/10"
+      ],
+      "url": "https://www.indiatoday.in/india/video/mumbai-cjp-protest-booked-over-lack-of-permission-nhrc-scrutiny-and-jantar-mantar-row-ytvd-3008845-2026-10-03",
+      "published_at": "2026-10-03T06:58:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La résilience n’est pas gratuite, mais elle peut valoir le prix : PK Mishra. S'exprimant lors du conclave économique de Kautilya, PK Mishra a souligné comment les perturbations géopolitiques et les risques liés à la chaîne d'approvisionnement justifient les investissements du gouvernement dans les réserves stratégiques, les capacités nationales et…",
+      "sources": [
+        "The Financial Express — fiabilité 6/10"
+      ],
+      "url": "https://www.financialexpress.com/policy/economy/resilience-is-not-free-but-it-can-be-worth-the-premium-pk-mishra/4352929/",
+      "published_at": "2026-10-03T06:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Sécheresse de Kharif : le Karnataka estime la perte à Rs 46 324 cr et demande une aide centrale. Le gouvernement du Karnataka estime une perte stupéfiante de Rs 46 324,50 crores suite à la sécheresse de Kharif 2026 affectant 177 taluks. Il a officiellement demandé Rs 7 142,64 crore au NDRF du Centre pour un allègement en tant que…",
+      "sources": [
+        "Asianet Newsable via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/kharif-drought-karnataka-estimates-rs-46-324-cr-loss-seeks-central-aid/ar-AA2dtERs",
+      "published_at": "2026-10-03T06:00:41+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le Nigeria vise une production de gaz de 10 milliards de pieds cubes par jour d’ici 2030. Le Nigeria entend accélérer le développement de son industrie gazière pour porter sa production à 10 milliards de pieds cubes par jour d'ici 2030, co …",
+      "sources": [
+        "sikafinance — fiabilité 6/10"
+      ],
+      "url": "https://www.sikafinance.com/marches/le-nigeria-vise-une-production-de-gaz-de-10-milliards-de-pieds-cubes-par-jour-dici-2030_64691",
+      "published_at": "2026-10-03T06:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord",
+        "Japon"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Corée du Nord tire un missile balistique en direction de la mer du Japon. La Corée du Nord a effectué samedi matin un nouveau tir de missile depuis la région de Wonsan, sur sa côte est. Selon Séoul et Tokyo, le projectile, qui est tombé en mer à environ 700 km de son point …",
+      "sources": [
+        "France 24 via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/culture/la-corée-du-nord-tire-un-missile-balistique-en-direction-de-la-mer-du-japon/ar-AA2dtovw",
+      "published_at": "2026-10-03T06:47:26+02:00",
       "origin": "rss",
       "content_enriched": true
     },
