@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:30:40.218691+02:00",
+  "generated_at": "2026-10-03T22:40:52.042520+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -67052,7 +67052,6 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -69634,6 +69633,61 @@
       "countries": [
         "Royaume-Uni"
       ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Tom Cruise défend \"Digger\" alors qu'il bombarde le week-end d'ouverture du box-office. Alejandro G. Iñárritu a dirigé la sortie à gros budget de Warner Bros. qui connaît des difficultés lors de son week-end d'ouverture.",
+      "sources": [
+        "The Hollywood Reporter via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/entertainment/movies/tom-cruise-defends-digger-as-it-bombs-in-box-office-opening-weekend/ar-AA2dvm9p",
+      "published_at": "2026-10-03T14:24:13+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Kuridrani servi avec humilité : PM. Pour ceux qui se sont réunis à Namatakula, les adieux ont rassemblé les différentes parties de la vie de M. Kuridrani : sa famille et son village, ses collègues du gouvernement et du Parlement, et les gens qu'il …",
+      "sources": [
+        "Fiji Sun — fiabilité 6/10"
+      ],
+      "url": "https://fijisun.com.fj/news/nation/kuridrani-served-with-humility-pm",
+      "published_at": "2026-10-03T02:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Turquie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Turquie : « Les gens sont éprouvés par toutes ces années qui ont placé la résolution de la question kurde sur le terrain de la guerre et du terrorisme ». Spécialiste des dynamiques sociales dans le Sud-Est turc, Roj Girasun estime que le processus en cours sur le désarmement du Parti des travailleurs du Kurdistan a fait baisser le sentiment d’inquiétud …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/article/2026/10/03/turquie-les-gens-sont-eprouves-par-toutes-ces-annees-qui-ont-place-la-resolution-de-la-question-kurde-sur-le-terrain-de-la-guerre-et-du-terrorisme_6787805_3210.html",
+      "published_at": "2026-10-03T09:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
