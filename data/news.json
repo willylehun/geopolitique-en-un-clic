@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:39:26.783209+02:00",
+  "generated_at": "2026-10-03T14:49:41.153431+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64572,7 +64572,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
         "Bulgarie",
@@ -65662,8 +65663,7 @@
     },
     {
       "regions": [
-        "Amérique du Nord",
-        "Europe"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -66332,7 +66332,8 @@
       "category": "Géopolitique",
       "summary": "Le président Donald Trump (États-Unis) vante le projet du G7 de libérer ses réserves de pétrole et de diesel pour faire face aux prix élevés. Le G7 a annoncé un plan visant à libérer 100 millions de barils de pétrole et de produits pétroliers pour lutter contre les prix élevés causés en grande partie par la guerre avec l'Iran.",
       "sources": [
-        "WXII 12 News — fiabilité 6/10"
+        "WXII 12 News — fiabilité 6/10",
+        "WLKY — fiabilité 6/10"
       ],
       "url": "https://www.wxii12.com/article/trump-g7-plan-release-oil-diesel-reserves-address-high-prices/74003451",
       "published_at": "2026-10-03T07:34:00+02:00",
@@ -66383,6 +66384,66 @@
       "url": "https://www.lesechos.fr/monde/ameriques/largentine-va-offrir-la-citoyennete-aux-etrangers-qui-y-investiront-au-moins-310000-euros-2254969",
       "published_at": "2026-10-03T06:36:00+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Les pays du G7 vont libérer 100 millions de barils de pétrole et de diesel après la flambée des prix. Le G7 a annoncé son intention de libérer 100 millions de barils de pétrole et de produits pétroliers dans les semaines à venir, en commençant par des quantités « substantielles » de diesel. (Photo AP)…",
+      "sources": [
+        "WWL-TV — fiabilité 6/10"
+      ],
+      "url": "https://www.wwltv.com/article/news/nation-world/group-seven-g7-oil-barrel-release-reserve-diesel-gas-prices/507-82aec489-07bf-462f-821e-97b17f6f9acd",
+      "published_at": "2026-10-03T07:29:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les frappes israéliennes font 5 morts, dont 4 femmes, à Gaza (Palestine), selon les autorités sanitaires. Une frappe aérienne israélienne a tué au moins cinq Palestiniens, dont quatre femmes, dans un immeuble de la ville de Gaza tôt samedi, ont indiqué des responsables des services de santé et de la défense civile.",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/world/israel-gaza-city-strikes-women-9.7368133",
+      "published_at": "2026-10-03T07:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Palestine"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : la Russie appelle une nouvelle fois les diplomates et étrangers à quitter Kiev. La capitale ukrainienne est particulièrement prise pour cible ces dernières semaines par des frappes russes. Le maire de Kiev a estimé que Moscou était en train de « saccager » la ville.",
+      "sources": [
+        "Ouest-France via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/guerre-en-ukraine-la-russie-appelle-une-nouvelle-fois-les-diplomates-et-étrangers-à-quitter-kiev/ar-AA2dtYMm",
+      "published_at": "2026-10-03T06:16:54+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
