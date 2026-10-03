@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:30:35.579983+02:00",
+  "generated_at": "2026-10-03T15:41:25.155199+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66351,11 +66351,12 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
-      "score": 5,
+      "score": 9,
       "category": "Géopolitique",
       "summary": "La « Marche de la folie » du président Donald Trump (États-Unis) donne du pouvoir aux extrémistes iraniens. Pourtant, la myopie trumpienne persiste, l’administration continuant de prétendre que sa pression sur l’Iran est un succès retentissant. \"Le blocus fonctionne, il fonctionne comme nous n'en avons jamais vu\"…",
       "sources": [
@@ -66630,7 +66631,8 @@
       "url": "https://www.manilatimes.net/2026/10/03/tmt-newswire/globenewswire/freelander-sets-out-its-international-roadmap-with-a-phased-expansion-from-the-middle-east/2438413",
       "published_at": "2026-10-03T07:32:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -66692,6 +66694,186 @@
       "url": "https://www.nicematin.com/societe/technologie/ce-n-est-plus-une-transition-a-monaco-la-reorganisation-des-services-numeriques-de-l-etat-prend-forme-10732131",
       "published_at": "2026-10-03T12:28:02+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Infraction routière en France : quelles sanctions pour un étranger ?. Vous êtes étranger et avez commis une infraction routière en France ? Découvrez les règles concernant l’amende, la consignation et la retenue du véhicule.",
+      "sources": [
+        "Démarches Administratives — fiabilité 6/10"
+      ],
+      "url": "https://demarchesadministratives.fr/actualites/infraction-routiere-en-france-quelles-sanctions-pour-un-etranger",
+      "published_at": "2026-10-03T03:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’Ukraine réduit son déficit budgétaire de 7 milliards de dollars, mais a encore besoin d’alliés pour combler ce déficit. Kiev se tourne vers ses partenaires internationaux pour l’aider à couvrir ses besoins en matière de dépenses de guerre, et Bruxelles s’apprête à réunir mardi les pays donateurs et les institutions financières. Vue sur euronews…",
+      "sources": [
+        "Euronews via MSN — fiabilité 8/10"
+      ],
+      "url": "https://www.msn.com/en-xl/news/other/ukraine-cuts-budget-hole-by-7bn-but-still-needs-allies-to-bridge-gap/ar-AA2d7JNd",
+      "published_at": "2026-10-03T08:34:27+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Trump promet à certaines personnes âgées un chèque de près de 100 dollars dans une déclaration électorale de fin de soirée. Cinq semaines avant les élections de mi-mandat, le président Donald Trump (États-Unis) a annoncé que son administration commencerait à envoyer de petits chèques à des millions de personnes âgées. Dans un article de Truth Social vendredi soir, Trump a déclaré que…",
+      "sources": [
+        "Raw Story via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/trump-promises-some-seniors-nearly-100-check-in-late-night-election-statement/ar-AA2dtF80",
+      "published_at": "2026-10-03T06:15:11+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Tamil Nadu demande l'approbation du projet d'aéroport de Rameswaram à Manikaneri. CHENNAI ; Le gouvernement du Tamil Nadu demande l'approbation du Centre pour aller de l'avant avec le projet d'aéroport de Manikaneri dans le district de Ramanathapuram, un projet visant à améliorer la connectivité aérienne vers …",
+      "sources": [
+        "The Star — fiabilité 6/10"
+      ],
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/03/tamil-nadu-seeks-approval-for-proposed-rameswaram-airport-at-manikaneri",
+      "published_at": "2026-10-03T01:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La marine américaine a choisi qui construira ses avions de combat de nouvelle génération. La marine américaine a choisi une entreprise pour construire ses nouveaux avions de combat, et bien que cela représente une étape majeure, on ne sait pas quand les avions seront prêts.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/us-navy-picked-wholl-build-114500129.html",
+      "published_at": "2026-10-03T06:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les États-Unis et leurs alliés conviennent de libérer leurs réserves de diesel à mesure que les prix augmentent. L’administration Trump s’efforce de réduire les coûts du carburant, l’essence s’établissant en moyenne à 4,36 dollars le gallon et le diesel à 6,36 dollars, les États-Unis et leurs alliés du G7 acceptant de libérer certaines réserves de carburant.",
+      "sources": [
+        "ABC News via MSN — fiabilité 7/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/us-and-allies-agree-to-release-diesel-reserves-as-prices-rise/vi-AA2durIC",
+      "published_at": "2026-10-03T08:19:21+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Nigeria et l’Égypte cherchent à renforcer leurs liens économiques alors que le commerce bilatéral atteint 223 millions de dollars. Le Nigeria et l’Égypte cherchent à renforcer leurs liens économiques et à développer leurs échanges bilatéraux, qui s’élevaient à 223 millions de dollars en 2025, alors que les deux pays explorent de nouvelles opportunités d’investissement et une coopération plus approfondie.",
+      "sources": [
+        "Tribune Online via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-xl/money/economy/nigeria-egypt-seek-stronger-economic-ties-as-bilateral-trade-hits-223m/ar-AA2dtP4T",
+      "published_at": "2026-10-03T07:01:54+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Égypte",
+        "Nigeria"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Manifestations massives en Espagne pour le droit au logement. Des dizaines de milliers de personnes ont manifesté samedi pour le logement à Madrid et dans d’autres villes espagnoles, après le rejet des mesures du gouvernement Sanchez. Le Premier ministre pourrai …",
+      "sources": [
+        "bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/fr/infos/manifestations-massives-en-espagne-pour-le-droit-au-logement-li.3623128",
+      "published_at": "2026-10-03T08:26:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un vignoble de Sonoma, en Californie (États-Unis), vient de déposer le chapitre 11 avec un passif de 39 millions de dollars. À 63 ans, la perte de son vignoble peut compenser son salaire selon le test de revenus de la sécurité sociale. La région viticole de Sonoma souffre, et un homme de 63 ans bénéficiant d'une sécurité sociale anticipée tout en dirigeant un vignoble perdant de l'argent pourrait remettre au gouvernement une part plus importante de son chèque de prestations que les règles en réalité…",
+      "sources": [
+        "24/7 Wall St. — fiabilité 6/10"
+      ],
+      "url": "https://247wallst.com/personal-finance/social-security/2026/10/03/a-sonoma-california-winery-just-filed-chapter-11-with-39m-in-liabilities-at-63-his-vineyard-loss-can-offset-his-wages-in-social-securitys-earnings-test/",
+      "published_at": "2026-10-03T05:30:00+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
