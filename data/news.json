@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:38:07.113901+02:00",
+  "generated_at": "2026-10-03T13:48:20.129338+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64572,8 +64572,7 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Europe"
       ],
       "countries": [
         "Bulgarie",
@@ -64585,7 +64584,8 @@
       "category": "Géopolitique",
       "summary": "Carburants : Comment la Bulgarie réussit à maintenir le litre d’essence à 1,66 euro. Les prix du carburant n’ont jamais été aussi élevés en Europe et continuent de flamber à cause des tensions dans le détroit d’Ormuz. Chaque Etat-membre met en place ses mesures d’aide à la population et à l’économie, mais quelle doit être la stratégie de l’Union européenne pour calmer cette crise ? On en débat cette semaine dans Ici l’Europe, émission diffusée sur France 24, LCP et Public Sénat.",
       "sources": [
-        "Public Sénat — fiabilité 6/10"
+        "Public Sénat — fiabilité 6/10",
+        "publicsenat.fr — fiabilité 6/10"
       ],
       "url": "https://www.publicsenat.fr/actualites/international/carburants-comment-la-bulgarie-reussit-a-maintenir-le-litre-dessence-a-166-euro",
       "published_at": "2026-10-03T06:56:57+02:00",
@@ -65861,6 +65861,86 @@
       ],
       "url": "https://www.indiatoday.in/india/story/amit-shah-new-criminal-laws-justice-within-three-years-fir-to-supreme-court-ptag-3008745-2026-10-03",
       "published_at": "2026-10-03T06:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement de Manipur est « sérieux » au sujet du CNRC avant le recensement et lance un appel aux manifestants pour gagner du temps. Manipur a réaffirmé son soutien à la réalisation du NRC avant l'exercice de recensement. Cette prise de position intervient au milieu de manifestations, d’un ultimatum du 30 septembre et de tensions ethniques persistantes.",
+      "sources": [
+        "India Today — fiabilité 6/10"
+      ],
+      "url": "https://www.indiatoday.in/india/story/manipur-nrc-before-census-state-govt-backs-demand-amid-protests-ptag-3008750-2026-10-03",
+      "published_at": "2026-10-03T06:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Pakistan convoque un diplomate indien pour le meurtre à la frontière de deux Pakistanais. Le ministère des Affaires étrangères a déclaré avoir convoqué le chargé d’affaires indien pour qu’il dépose une « vive protestation » contre le meurtre de deux civils.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/world/articles/pakistan-summons-indian-diplomat-over-104620810.html",
+      "published_at": "2026-10-03T05:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pakistan"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Allemagne",
+        "France",
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le président Donald Trump (États-Unis) menace de couper le diesel américain à la France et l’Allemagne : « Puisez dans vos stocks ou je ferme le robinet ». Trois personnes proches des discussions ont indiqué à l’agence Reuters que l’administration Trump a demandé à la France et à l’Allemagne de puiser dans leurs stocks de diesel pour faire baisser les pr …",
+      "sources": [
+        "L'EnerGeek via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/trump-menace-de-couper-le-diesel-américain-à-la-france-et-l-allemagne-puisez-dans-vos-stocks-ou-je-ferme-le-robinet/ar-AA2dt9re",
+      "published_at": "2026-10-03T00:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Bulgarie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Nikolovski a annoncé une autoroute reliant Radovish à la Bulgarie via Strumica. Le vice-Premier ministre et ministre des Transports, Aleksandar Nikoloski, était en visite de travail à Strumica aujourd'hui, où il s'est entretenu avec le maire Petar Jankov des projets d'infrastruct …",
+      "sources": [
+        "Sloboden Pechat — fiabilité 6/10"
+      ],
+      "url": "https://www.slobodenpecat.mk/fr/nikolovski-najavi-ekspresen-pat-od-radovish-preku-strumica-do-bugarija/",
+      "published_at": "2026-10-03T06:03:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
