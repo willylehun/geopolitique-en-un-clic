@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-10-03T07:30:13.047409+02:00",
+  "generated_at": "2026-10-03T07:40:22.996891+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
   "buckets": {
     "day": [
+      "3 octobre 2026",
       "2 octobre 2026",
       "1 octobre 2026",
       "30 septembre 2026",
@@ -63937,6 +63938,24 @@
       ],
       "url": "https://www.msn.com/fr-be/actualite/other/l-allemagne-se-prépare-à-une-guerre-hybride-avec-la-russie-met-en-garde-friedrich-merz/ar-AA2dqOBN",
       "published_at": "2026-10-02T13:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Huit semaines de travaux pour l'usine à gaz de Cambridge. Plusieurs routes de Cambridge seront fermées ou seront perturbées en raison des travaux sur le gaz qui devraient durer environ huit semaines. Cadent Gas, qui réalisera les travaux, a déclaré que 650 m (2132 pieds) de conduites de gaz sur Hills…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/c670l00vggd4o",
+      "published_at": "2026-10-03T00:25:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
