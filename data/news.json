@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:27:58.694076+02:00",
+  "generated_at": "2026-10-03T20:38:11.975382+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66345,7 +66345,8 @@
         "WMUR Channel 9 — fiabilité 6/10",
         "WESH — fiabilité 6/10",
         "WBAL-TV — fiabilité 6/10",
-        "KOAT Channel 7 — fiabilité 6/10"
+        "KOAT Channel 7 — fiabilité 6/10",
+        "KCRA Channel 3 — fiabilité 6/10"
       ],
       "url": "https://www.wxii12.com/article/trump-g7-plan-release-oil-diesel-reserves-address-high-prices/74003451",
       "published_at": "2026-10-03T07:34:00+02:00",
@@ -67617,10 +67618,11 @@
       "sources": [
         "bluewin — fiabilité 6/10",
         "Keystone-ATS via MSN — fiabilité 6/10",
-        "La Liberté — fiabilité 6/10"
+        "La Liberté — fiabilité 6/10",
+        "RFJ — fiabilité 6/10"
       ],
       "url": "https://www.bluewin.ch/fr/sport/une-manif-gen-ve-exige-de-la-suisse-des-sanctions-contre-isra-l-li.3623199",
-      "published_at": "2026-10-03T11:23:00+02:00",
+      "published_at": "2026-10-03T12:28:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -68183,7 +68185,8 @@
       "url": "https://www.outlookindia.com/national/cjp-announces-october-10-jantar-mantar-protest-if-gyanesh-kumar-does-not-resign",
       "published_at": "2026-10-03T05:24:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -68818,6 +68821,61 @@
       ],
       "url": "https://www.sudinfo.be/id1203034/article/2026-10-03/la-guerre-se-rapproche-dangereusement-des-missiles-et-des-drones-russes",
       "published_at": "2026-10-03T09:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le tribunal accorde une libération sous caution à six membres du Cong accusés d'avoir dégradé la porte de la maison d'Agra du CEC Gyanesh Kumar. Un tribunal local a accordé samedi la libération sous caution à six membres du Congrès arrêtés pour avoir prétendument dégradé le mur extérieur de la maison ancestrale du commissaire en chef aux élections, Gyanesh Kumar, à Agra, lors d'une manifestation.",
+      "sources": [
+        "The Times of India via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/court-grants-bail-to-six-cong-members-accused-of-defacing-gate-of-cec-gyanesh-kumar-s-agra-house/ar-AA2duOyU",
+      "published_at": "2026-10-03T11:42:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La guerre en Iran stimule l’électrification, mais il manque les « artères de l’ère de l’énergie propre ». La guerre en Iran stimule l’électrification mondiale. Mais les experts affirment que la taille du réseau mondial doit doubler, car les goulots d’étranglement des infrastructures empêchent une révolution des énergies propres.",
+      "sources": [
+        "ABC (Australian Broadcasting Corporation) — fiabilité 6/10"
+      ],
+      "url": "https://www.abc.net.au/news/2026-10-04/iran-war-electrification-climate-goals/107213828",
+      "published_at": "2026-10-03T13:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Le directeur de l'administration pénitentiaire du Tennessee démissionne après l'échec de l'exécution de la condamnée à mort Christa Pike, annonce le gouverneur d'Etat. Mercredi, cette femme de 50 ans détenue dans une prison du Tennessee a reçu deux injections létales auxquelles elle a survécu.",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/monde/usa/le-directeur-de-l-administration-penitentiaire-du-tennessee-demissionne-apres-l-echec-de-l-execution-de-la-condamnee-a-mort-christa-pike-annonce-le-gouverneur-d-etat_8221396.html",
+      "published_at": "2026-10-03T13:10:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
