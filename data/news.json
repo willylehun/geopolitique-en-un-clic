@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:07:26.773061+02:00",
+  "generated_at": "2026-10-03T13:17:42.069062+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -7817,8 +7817,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Singapour",
-        "Indonésie"
+        "Indonésie",
+        "Singapour"
       ]
     },
     {
@@ -44693,10 +44693,10 @@
         "Asie"
       ],
       "countries": [
-        "Singapour",
         "Thaïlande",
         "Cambodge",
         "Laos",
+        "Singapour",
         "Vietnam"
       ],
       "period": "day",
@@ -58060,8 +58060,8 @@
       "content_enriched": true,
       "countries": [
         "Australie",
-        "Singapour",
-        "Chine"
+        "Chine",
+        "Singapour"
       ]
     },
     {
@@ -59218,13 +59218,13 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Singapour",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "Singapour"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -61960,8 +61960,8 @@
         "International"
       ],
       "countries": [
-        "Azerbaïdjan",
-        "Bahreïn"
+        "Bahreïn",
+        "Azerbaïdjan"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -65623,8 +65623,8 @@
         "Asie"
       ],
       "countries": [
-        "Azerbaïdjan",
-        "Arménie"
+        "Arménie",
+        "Azerbaïdjan"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -65658,6 +65658,27 @@
       "published_at": "2026-10-03T00:30:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Comprendre le pivot européen du Canada. Vous nous avez envoyé vos questions sur le projet du Premier ministre de nouer des relations plus étroites avec l’Union européenne. Notre chef du bureau Canada y répond.",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/2026/10/03/world/canada/carney-canada-european-union-trade-currency.html",
+      "published_at": "2026-10-03T06:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Canada"
+      ]
     },
     {
       "regions": [
