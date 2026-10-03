@@ -2,8 +2,8 @@
   "date": "3 octobre 2026",
   "timezone": "Europe/Paris",
   "target_countries": 195,
-  "covered_count": 66,
-  "missing_count": 129,
+  "covered_count": 67,
+  "missing_count": 128,
   "covered_countries": [
     "Afrique du Sud",
     "Algérie",
@@ -15,6 +15,7 @@
     "Australie",
     "Azerbaïdjan",
     "Bahamas",
+    "Bangladesh",
     "Bolivie",
     "Brésil",
     "Bulgarie",
@@ -119,7 +120,6 @@
     "Érythrée",
     "Éthiopie",
     "Autriche",
-    "Bangladesh",
     "Belgique",
     "Burundi",
     "Cambodge",
@@ -204,7 +204,7 @@
     "Îles Salomon"
   ],
   "rule": "Couverture cumulative sur la journée civile Europe/Paris : les 195 pays restent dans la rotation ; covered = au moins une actualité du jour publiée ; missing = pays sans actualité publiée à cet instant. Plusieurs articles distincts par pays sont autorisés.",
-  "updated_at": "2026-10-03T20:17:43.642178+02:00",
+  "updated_at": "2026-10-03T20:27:58.694076+02:00",
   "checked_count": 195,
   "checked_countries": [
     "Afghanistan",

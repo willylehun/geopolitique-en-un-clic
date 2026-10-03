@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:17:43.642178+02:00",
+  "generated_at": "2026-10-03T20:27:58.694076+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -67613,10 +67613,11 @@
       "bucket": "3 octobre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "Une manif à Genève exige de la Suisse des sanctions contre Israël. La Suisse doit établir un embargo militaire, énergétique et commercial avec Israël, selon des manifestants à Genève. Samedi, ils étaient 1500 personnes à se rassembler, trois ans après le massacre du …",
+      "summary": "Proche-Orient. Une manif à Genève exige de la Suisse des sanctions contre Israël. La Suisse doit établir un embargo militaire, énergétique et commercial avec Israël, selon des manifestants à Genève. Samedi, ils étaient 1500 personnes à se rassembler, trois ans après le massacre du …",
       "sources": [
         "bluewin — fiabilité 6/10",
-        "Keystone-ATS via MSN — fiabilité 6/10"
+        "Keystone-ATS via MSN — fiabilité 6/10",
+        "La Liberté — fiabilité 6/10"
       ],
       "url": "https://www.bluewin.ch/fr/sport/une-manif-gen-ve-exige-de-la-suisse-des-sanctions-contre-isra-l-li.3623199",
       "published_at": "2026-10-03T11:23:00+02:00",
@@ -68691,6 +68692,133 @@
       "url": "https://www.rfi.fr/en/africa/20261003-france-pledges-more-support-to-fight-drc-ebola-outbreak-as-deaths-top-4-000",
       "published_at": "2026-10-03T12:58:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Netanyahu invite le capitaine indien de flydubai, le « vrai héros », en Israël. le Premier ministre Benjamin Netanyahu (Israël) a invité samedi en Israël comme invité d'honneur le capitaine indien d'un vol flydubai à destination de Tel Aviv qui a sauvé l'avion en ouvrant le cockpit après avoir été…",
+      "sources": [
+        "Firstpost — fiabilité 6/10"
+      ],
+      "url": "https://www.firstpost.com/world/netanyahu-invites-true-hero-indian-flydubai-captain-to-israel-14050213.html",
+      "published_at": "2026-10-03T13:23:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Nous n’avions pas le choix : Dinesh Trivedi sur l’Inde ayant hébergé Sheikh Hasina en 2024. Ses remarques interviennent au milieu de la demande renouvelée du Bangladesh pour l’extradition de Hasina et des discussions sur la visite proposée du Premier ministre Tarique Rahman à New Delhi.",
+      "sources": [
+        "India Today — fiabilité 6/10"
+      ],
+      "url": "https://www.indiatoday.in/india/story/sheikh-hasina-extradition-bangladesh-india-envoy-awami-bnp-dinesh-trivedi-3009039-2026-10-03",
+      "published_at": "2026-10-03T12:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Bangladesh",
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un ancien membre du Congrès écope de 10 ans de prison pour lobbying secret au Venezuela. L'ancien membre du Congrès David Rivera a été condamné à 10 ans de prison pour avoir exercé secrètement des pressions auprès de responsables américains au nom du gouvernement vénézuélien.",
+      "sources": [
+        "AOL — fiabilité 6/10"
+      ],
+      "url": "https://www.aol.com/articles/former-congressman-gets-10-years-172854000.html",
+      "published_at": "2026-10-03T12:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Lettonie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Lettonie-La \" Liste unie\" du Premier ministre en tête des élections- sondage sortie des urnes. RIGA, 3 octobre (Reuters) - La \" Liste unie\", formation centriste du Premier ministre letton Andris Kulbergs, semble, sans surprise, en passe de remporter les élections législatives organisées samedi, …",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/lettonie-la-liste-unie-du-premier-ministre-en-tête-des-élections-sondage-sortie-des-urnes/ar-AA2dul91",
+      "published_at": "2026-10-03T12:32:32+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Lettonie",
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La Lettonie vote sous tension, avec la sécurité face à la Russie au cœur du scrutin. Les Lettons votent samedi 3 octobre pour renouveler les 100 sièges de la Saeima, leur Parlement. Quatorze listes participent à ces élections législatives, dont les bureaux de vote doivent fermer à 20 …",
+      "sources": [
+        "Entrevue — fiabilité 6/10"
+      ],
+      "url": "https://entrevue.fr/europe/la-lettonie-vote-sous-tension-avec-la-securite-face-a-la-russie-au-coeur-du-scrutin/",
+      "published_at": "2026-10-03T04:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Moldavie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "« La guerre se rapproche dangereusement » : des missiles et des drones russes s’écrasent en Moldavie. Des missiles et des drones russes se sont écrasés samedi en Moldavie, après avoir franchi l’espace aérien du pays, a annoncé la présidente Maia Sandu.",
+      "sources": [
+        "Sudinfo.be — fiabilité 6/10"
+      ],
+      "url": "https://www.sudinfo.be/id1203034/article/2026-10-03/la-guerre-se-rapproche-dangereusement-des-missiles-et-des-drones-russes",
+      "published_at": "2026-10-03T09:57:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
