@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T23:32:01.713424+02:00",
+  "generated_at": "2026-10-03T23:42:16.325637+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -70260,6 +70260,26 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Antigua-et-Barbuda"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Antigua-et-Barbuda durcit le ton : la prison à vie est désormais possible pour les crimes sexuels sur mineurs. \" Face à la multiplication des abus et à des peines jugées dérisoires, le Parlement a adopté, le 30 septembre 2026, un arsenal pénal d'une sévérité inédite. La mesure phare : les actes sexuels sur mineurs de moins de 16 ans sont désormais passibles de la réclusion à perpétuité. C'est une refonte radicale du code pénal. Portée par le procureur général et ministre de la Justice, Steadroy Benjamin, cette législation détruit les zones grises juridiques souvent exploitées par la défense.",
+      "sources": [
+        "guadeloupe.franceantilles.fr — fiabilité 6/10"
+      ],
+      "url": "https://www.guadeloupe.franceantilles.fr/actualite/justice/antigua-et-barbuda-durcit-le-ton-la-prison-a-vie-est-desormais-possible-pour-les-crimes-sexuels-sur-mineurs-1095034.php",
+      "published_at": "2026-10-03T22:26:15+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
