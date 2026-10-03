@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:46:32.721664+02:00",
+  "generated_at": "2026-10-03T19:57:20.810224+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -874,9 +874,9 @@
       ],
       "countries": [
         "Ghana",
-        "Kenya",
         "Ouganda",
         "Zambie",
+        "Kenya",
         "Nigeria"
       ],
       "period": "day",
@@ -16244,8 +16244,8 @@
     },
     {
       "regions": [
-        "Afrique",
         "Asie",
+        "Afrique",
         "Amérique du Nord"
       ],
       "period": "day",
@@ -16260,8 +16260,8 @@
       "published_at": "2026-09-27T18:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Kenya",
         "Chine",
+        "Kenya",
         "États-Unis"
       ]
     },
@@ -32274,8 +32274,8 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -32290,8 +32290,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Kenya",
-        "Chine"
+        "Chine",
+        "Kenya"
       ]
     },
     {
@@ -41459,8 +41459,8 @@
         "International"
       ],
       "countries": [
-        "Kenya",
-        "Rwanda"
+        "Rwanda",
+        "Kenya"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -41743,8 +41743,8 @@
         "International"
       ],
       "countries": [
-        "Kenya",
-        "Rwanda"
+        "Rwanda",
+        "Kenya"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -47793,8 +47793,8 @@
         "Afrique"
       ],
       "countries": [
-        "Kenya",
-        "Éthiopie"
+        "Éthiopie",
+        "Kenya"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -68587,6 +68587,28 @@
       ],
       "url": "https://www.financialexpress.com/market/sebi-to-review-non-agri-limits-for-liquidity-boost-4353054/",
       "published_at": "2026-10-03T12:14:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "Asie"
+      ],
+      "countries": [
+        "Tunisie",
+        "Japon"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "ONUDI et Japon : un dialogue sur le développement industriel durable en Tunisie. Rencontre entre l'ambassadeur du Japon et le représentant de l'ONUDI en Tunisie : compétitivité des PME, innovation, transition énergétique, économie circulaire et compétences structurent le futur PCP …",
+      "sources": [
+        "Challenges TN — fiabilité 6/10"
+      ],
+      "url": "https://www.challenges.tn/economie/onudi-et-japon-un-dialogue-sur-le-developpement-industriel-durable-en-tunisie/",
+      "published_at": "2026-10-03T05:19:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
