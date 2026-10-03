@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:49:41.153431+02:00",
+  "generated_at": "2026-10-03T14:59:55.645183+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -65663,7 +65663,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -66040,7 +66041,8 @@
       "url": "https://www.bbc.com/news/articles/c8p3gd4x4e6go",
       "published_at": "2026-10-03T06:04:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -66443,6 +66445,49 @@
       ],
       "url": "https://www.msn.com/fr-fr/actualite/other/guerre-en-ukraine-la-russie-appelle-une-nouvelle-fois-les-diplomates-et-étrangers-à-quitter-kiev/ar-AA2dtYMm",
       "published_at": "2026-10-03T06:16:54+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : la Russie promet de continuer ses « frappes de représailles massives » sur Kiev et appelle « les diplomates à quitter la ville ». Des bombardements russes ont touché, samedi, l’important pont Pivnitchny deux jours après l’attaque du pont Pivdenny, a annoncé le maire de la capitale ukrainienne. On dénombre deux blessés.",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/10/03/en-direct-guerre-en-ukraine-la-russie-annonce-de-nouvelles-frappes-de-represailles-massives-sur-kiev-et-appelle-les-diplomates-a-quitter-la-ville_6783795_3210.html",
+      "published_at": "2026-10-03T07:00:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "\"Aucun pays au monde ne pourrait avoir accès à une telle technologie avant plusieurs années\": la Corée du Nord affirme avoir lancé un missile balistique utilisant l'IA. Selon Kim Yo Jong, la puissante sœur du dirigeant Kim Jong Un et considérée comme une porte-parole officieuse de la Corée du Nord, \"il n'existe aucun moyen d'éviter\" l'attaque de ce type de missile balistique utilisant l'intelligence artificielle.",
+      "sources": [
+        "BFM — fiabilité 6/10"
+      ],
+      "url": "https://www.bfmtv.com/economie/entreprises/defense/aucun-pays-au-monde-ne-pourrait-avoir-acces-a-une-telle-technologie-avant-plusieurs-annees-la-coree-du-nord-affirme-avoir-lance-un-missile-balistique-utilisant-l-ia_AD-202610030241.html",
+      "published_at": "2026-10-03T14:51:53+02:00",
       "origin": "global",
       "content_enriched": true
     },
