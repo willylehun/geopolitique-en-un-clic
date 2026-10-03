@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:14:56.743543+02:00",
+  "generated_at": "2026-10-03T11:25:11.492965+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -124,8 +124,8 @@
         "Reuters"
       ],
       "countries": [
-        "Japon",
         "Chine",
+        "Japon",
         "États-Unis"
       ]
     },
@@ -2947,12 +2947,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Europe"
       ],
       "countries": [
-        "Portugal",
-        "Venezuela"
+        "Venezuela",
+        "Portugal"
       ],
       "period": "day",
       "bucket": "25 septembre 2026",
@@ -12441,8 +12441,8 @@
       "published_at": "2026-09-27T13:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Allemagne",
-        "Grèce"
+        "Grèce",
+        "Allemagne"
       ]
     },
     {
@@ -18820,8 +18820,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Allemagne",
-        "Grèce"
+        "Grèce",
+        "Allemagne"
       ]
     },
     {
@@ -20280,8 +20280,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Japon",
-        "Corée du Sud"
+        "Corée du Sud",
+        "Japon"
       ]
     },
     {
@@ -21812,8 +21812,8 @@
       "published_at": "2026-09-27T22:00:00+02:00",
       "origin": "rss",
       "countries": [
-        "Japon",
         "Chine",
+        "Japon",
         "États-Unis"
       ]
     },
@@ -23407,13 +23407,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Allemagne",
-        "Kazakhstan"
+        "Kazakhstan",
+        "Allemagne"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -23549,8 +23549,8 @@
         "Arabie saoudite",
         "Qatar",
         "Émirats arabes unis",
-        "Maroc",
-        "Israël"
+        "Israël",
+        "Maroc"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -26473,8 +26473,8 @@
         "International"
       ],
       "countries": [
-        "Japon",
-        "Syrie"
+        "Syrie",
+        "Japon"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -27717,8 +27717,8 @@
         "International"
       ],
       "countries": [
-        "Allemagne",
         "Vatican",
+        "Allemagne",
         "France"
       ],
       "period": "day",
@@ -33116,12 +33116,12 @@
     },
     {
       "regions": [
-        "Europe",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "countries": [
-        "Allemagne",
         "Canada",
+        "Allemagne",
         "États-Unis"
       ],
       "period": "day",
@@ -34792,13 +34792,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Asie",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Allemagne",
-        "Kazakhstan"
+        "Kazakhstan",
+        "Allemagne"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38932,8 +38932,8 @@
         "International"
       ],
       "countries": [
-        "Allemagne",
         "Lituanie",
+        "Allemagne",
         "Ukraine"
       ],
       "period": "day",
@@ -40284,8 +40284,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Afrique"
+        "Afrique",
+        "Europe"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -40300,8 +40300,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Allemagne",
-        "Namibie"
+        "Namibie",
+        "Allemagne"
       ]
     },
     {
@@ -41651,8 +41651,8 @@
         "International"
       ],
       "countries": [
-        "Portugal",
-        "Espagne"
+        "Espagne",
+        "Portugal"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -42916,8 +42916,8 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Asie",
+        "Europe"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -42932,8 +42932,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Allemagne",
-        "Thaïlande"
+        "Thaïlande",
+        "Allemagne"
       ]
     },
     {
@@ -43130,8 +43130,8 @@
         "Europe"
       ],
       "countries": [
-        "Portugal",
-        "Espagne"
+        "Espagne",
+        "Portugal"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -55921,8 +55921,8 @@
         "International"
       ],
       "countries": [
-        "Portugal",
-        "Italie"
+        "Italie",
+        "Portugal"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -56863,13 +56863,13 @@
     },
     {
       "regions": [
-        "Europe",
         "Amérique du Nord",
+        "Europe",
         "International"
       ],
       "countries": [
-        "Allemagne",
         "Canada",
+        "Allemagne",
         "États-Unis"
       ],
       "period": "day",
@@ -64716,8 +64716,8 @@
     {
       "regions": [
         "Amérique du Nord",
-        "International",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -64916,7 +64916,8 @@
     {
       "regions": [
         "Asie",
-        "International"
+        "International",
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -64929,7 +64930,8 @@
       "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-inflation-growth-higher-fuel-prices-9.7367058",
       "published_at": "2026-10-03T03:59:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -64949,8 +64951,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Japon",
-        "Corée du Nord"
+        "Corée du Nord",
+        "Japon"
       ]
     },
     {
@@ -65027,6 +65029,45 @@
       "url": "https://www.jeuneafrique.com/1847923/politique/la-premiere-femme-nommee-a-la-tete-du-gouvernement-au-maroc-les-juntes-saheliennes-a-lonu-lapres-orano-au-niger-les-5-infos-quil-ne-fallait-pas-manquer/",
       "published_at": "2026-10-03T08:34:14+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Avec le lancement du rouble numérique, Moscou espère contourner un peu plus les sanctions occidentales. DÉCRYPTAGE - La présidente de la Banque centrale de Russie, Elvira Nabioullina, a supervisé le lancement du rouble numérique et doit désormais en démocratiser l’usage auprès des citoyens.",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/international/avec-le-lancement-du-rouble-numerique-moscou-espere-contourner-un-peu-plus-les-sanctions-occidentales-20261003",
+      "published_at": "2026-10-03T03:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "One Nation s'engage à abolir le traité des Premières Nations et à légaliser le gaz poivré lors du lancement de la campagne victorienne. Le candidat Mark Nicholson a déclaré que les anciens premiers ministres Daniel Andrews et Jacinta Allan seraient « en prison d'ici Noël » si One Nation remportait les élections…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/australia-news/2026/oct/03/one-nation-victoria-campaign-launch-abolish-first-nations-treaty-legalise-pepper-spray-ntwnfb",
+      "published_at": "2026-10-03T04:06:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
