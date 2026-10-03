@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T09:12:13.904188+02:00",
+  "generated_at": "2026-10-03T09:22:26.183015+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64227,6 +64227,43 @@
       "url": "https://www.lemonde.fr/international/live/2026/10/03/en-direct-guerre-en-ukraine-un-nouveau-pont-majeur-de-kiev-touche-par-une-frappe-russe_6783795_3210.html",
       "published_at": "2026-10-03T01:52:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Une mise à jour du gouvernement d'Andy Burnham est attendue pour appeler à abaisser l'âge de la retraite dans l'État. Une pétition demandant que l'âge de la retraite au Royaume-Uni soit abaissé à 65 ans a recueilli 10 000 signatures, ce qui signifie que le gouvernement doit répondre. Aucune réduction n'a été convenue, et la pétition ne change pas…",
+      "sources": [
+        "Leicester Mercury — fiabilité 6/10"
+      ],
+      "url": "https://www.leicestermercury.co.uk/news/uk-world-news/andy-burnham-government-update-expected-11182831",
+      "published_at": "2026-10-03T02:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le gouvernement gallois fera une mise à jour majeure sur les traversées du détroit de Menai la semaine prochaine. Le gouvernement gallois publiera la semaine prochaine une mise à jour majeure sur les passages du détroit de Menai. Le Premier ministre Rhun ap Iorwerth a déclaré à North Wales Live que le ministre des Transports Mark Hooper ferait une annonce…",
+      "sources": [
+        "North Wales Live — fiabilité 6/10"
+      ],
+      "url": "https://www.dailypost.co.uk/news/north-wales-news/welsh-government-making-major-update-34710313",
+      "published_at": "2026-10-03T01:45:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
