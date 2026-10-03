@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:26:02.060426+02:00",
+  "generated_at": "2026-10-03T19:36:16.909795+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66344,7 +66344,8 @@
         "WCVB Channel 5 — fiabilité 6/10",
         "WMUR Channel 9 — fiabilité 6/10",
         "WESH — fiabilité 6/10",
-        "WBAL-TV — fiabilité 6/10"
+        "WBAL-TV — fiabilité 6/10",
+        "KOAT Channel 7 — fiabilité 6/10"
       ],
       "url": "https://www.wxii12.com/article/trump-g7-plan-release-oil-diesel-reserves-address-high-prices/74003451",
       "published_at": "2026-10-03T07:34:00+02:00",
@@ -68220,7 +68221,7 @@
         "letemps.ch — fiabilité 6/10"
       ],
       "url": "https://www.letemps.ch/suisse/geneve/1500-manifestants-rassembles-a-geneve-en-soutien-aux-palestiniens-exigent-des-sanctions-suisses-contre-israel",
-      "published_at": "2026-10-03T17:55:11+02:00",
+      "published_at": "2026-10-03T19:03:21+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -68424,6 +68425,130 @@
       ],
       "url": "https://www.franceinfo.fr/monde/europe/la-grande-bretagne-et-l-ue/plus-de-la-moitie-des-britanniques-sont-favorables-a-un-retour-du-royaume-uni-dans-l-union-europeenne-selon-un-sondage_8221126.html",
       "published_at": "2026-10-03T08:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Chhattisgarh CM Vishnu Deo Sai arrive à Singapour pour le SING Forum 2026. Le ministre en chef du Chhattisgarh, Vishnu Deo Sai, est arrivé samedi à Singapour pour explorer de nouvelles opportunités d'investissement pour l'État, alors que le Chhattisgarh intensifie ses efforts pour renforcer sa position sur le…",
+      "sources": [
+        "ABP News via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/money/economy/chhattisgarh-cm-vishnu-deo-sai-reaches-singapore-for-sing-forum-2026/ar-AA2duaL6",
+      "published_at": "2026-10-03T12:16:40+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Singapour"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Trump défend les publicités financées par les contribuables malgré les critiques. le président Donald Trump (États-Unis) a défendu les publicités financées par les contribuables alors que les questions persistent sur l'utilisation de l'argent du gouvernement pour la campagne publicitaire.",
+      "sources": [
+        "WHAS11 via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/trump-defends-taxpayer-funded-ads-amid-criticism/vi-AA2duJUz",
+      "published_at": "2026-10-03T12:02:30+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "OpenAI révèle un autre piratage d'une agence gouvernementale en Australie. Le Premier ministre australien Anthony Albanese s'exprime lors de la 81e session de l'Assemblée générale des Nations Unies (ONU) au siège de l'ONU le 24 septembre 2026 à New York. (Ryan…",
+      "sources": [
+        "Southern Illinois Now — fiabilité 6/10"
+      ],
+      "url": "https://southernillinoisnow.com/2026/10/03/openai-reveals-another-hack-into-a-government-agency-in-australia/",
+      "published_at": "2026-10-03T06:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Moldavie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : L’ambassadeur russe convoqué en Moldavie, un important pont de Kiev frappé. « 20 Minutes » fait le point pour vous tous les soirs sur le conflit en Ukraine. Ce samedi 3 octobre 2026, l’ambassadeur russe convoqué après des incursions de drone en Moldavie, et Moscou qui appelle …",
+      "sources": [
+        "20 Minutes via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/news/guerre-en-ukraine-l-ambassadeur-russe-convoqué-en-moldavie-un-important-pont-de-kiev-frappé/ar-AA2dul5q",
+      "published_at": "2026-10-03T12:18:47+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Guerre en Ukraine : \"On coupe le robinet\"… Ce que les associations perpignanaises de soutien aux Ukrainiens pensent des propos du maire RN Louis Aliot. Après sa déclaration choc du 3 septembre dernier, lors de laquelle il avait annoncé que si le RN arrivait au pouvoir, il \"couperait le robinet\" à l’Ukraine, le maire de Perpignan, Louis Aliot, a récem …",
+      "sources": [
+        "L'Indépendant — fiabilité 6/10"
+      ],
+      "url": "https://www.lindependant.fr/2026/10/03/guerre-en-ukraine-on-coupe-le-robinet-ce-que-les-associations-perpignanaises-de-soutien-aux-ukrainiens-pensent-des-propos-du-maire-rn-louis-aliot-13576236.php",
+      "published_at": "2026-10-03T11:07:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Souveraineté du Québec, guerre en Ukraine, Samuel Paty… Les dérapages (non contrôlés) de Ségolène Royal. Parfois louée pour son caractère imprévisible, l'ex-ministre s'est aussi distinguée par des sorties à l'emporte-pièce et une ligne politique difficilement lisible.",
+      "sources": [
+        "Marianne — fiabilité 6/10"
+      ],
+      "url": "https://www.marianne.net/politique/gauche/souverainete-du-quebec-guerre-en-ukraine-samuel-paty-les-derapages-non-controles-de-segolene-royal",
+      "published_at": "2026-10-03T05:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
