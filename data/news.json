@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:54:30.190302+02:00",
+  "generated_at": "2026-10-03T11:04:42.849537+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64214,7 +64214,8 @@
         "International"
       ],
       "countries": [
-        "Ukraine"
+        "Ukraine",
+        "Russie"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -64225,7 +64226,7 @@
         "Le Monde — fiabilité 8/10"
       ],
       "url": "https://www.lemonde.fr/international/live/2026/10/03/en-direct-guerre-en-ukraine-un-nouveau-pont-majeur-de-kiev-touche-par-une-frappe-russe_6783795_3210.html",
-      "published_at": "2026-10-03T01:52:00+02:00",
+      "published_at": "2026-10-03T02:44:00+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -64665,6 +64666,203 @@
       ],
       "url": "https://www.wral.com/news/ap/6026b-latvians-vote-for-a-new-parliament-as-fears-of-russian-hybrid-attacks-loom/",
       "published_at": "2026-10-03T03:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Pakistan dépose une « vive protestation » auprès de l'Inde contre la mort de civils lors de tirs non provoqués. Le Pakistan a convoqué samedi le chargé d'affaires indien pour protester vigoureusement contre le martyre de deux civils pakistanais par les forces de sécurité des frontières indiennes dans le secteur de Bedian, le long de la frontière.",
+      "sources": [
+        "Geo News — fiabilité 6/10"
+      ],
+      "url": "https://www.geo.tv/latest/684840-pakistan-lodges-strong-protest-with-india-over-civilians-killing-in-unprovoked-firing",
+      "published_at": "2026-10-03T03:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "Pakistan"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les Philippines expriment leur inquiétude concernant les morts et les blessés lors des frappes aériennes au Myanmar. La frappe aérienne de Kyauktaw, la plus meurtrière de ce type dans l'État de Rakhine depuis l'attentat contre un hôpital en décembre, a tué 50 personnes et en a blessé des dizaines d'autres.",
+      "sources": [
+        "CNA — fiabilité 7/10"
+      ],
+      "url": "https://www.channelnewsasia.com/asia/philippines-voices-concern-over-myanmar-airstrike-deaths-injuries-6428901",
+      "published_at": "2026-10-03T03:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Philippines"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 10,
+      "category": "Géopolitique",
+      "summary": "Cinq soldats de la Seconde Guerre mondiale nommés et honorés. Les soldats George Chapman et Vincent Coia, le L/Cpl Reginald Dewey, le Cpl Henry Read et le Sjt Frederick Albert Harrison ont été enterrés en tant que soldats inconnus après avoir été tués à des endroits différents au cours de la…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/cmwyqwwq9gnjo",
+      "published_at": "2026-10-03T03:57:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La FDA conclut son enquête sur l'épidémie de Cyclospora liée au rappel de laitue iceberg de Taylor Farms. La FDA a conclu son enquête sur l'épidémie de Cyclospora, trouvant des preuves solides reliant la laitue iceberg rappelée de Taylor Farms de Mexico à plus de 12 800 cas.",
+      "sources": [
+        "Fox Business — fiabilité 6/10"
+      ],
+      "url": "https://www.foxbusiness.com/lifestyle/fda-concludes-investigation-cyclospora-outbreak-tied-recalled-taylor-farms-iceberg-lettuce",
+      "published_at": "2026-10-03T01:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La subvention « Parce que nous nous soucions » se poursuit pour les étudiants du CAPE. La DISTRIBUTION du programme de soutien à l'éducation de 85 000 $ du gouvernement « Parce que nous nous soucions » s'est poursuivie vendredi pour les étudiants inscrits au Caribbean Advanced…",
+      "sources": [
+        "Guyana Chronicle — fiabilité 6/10"
+      ],
+      "url": "https://guyanachronicle.com/2026/10/03/because-we-care-grant-continues-for-cape-students/",
+      "published_at": "2026-10-03T02:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Nouvelle-Zélande répertorie 5 sites d'emploi pour les étrangers cherchant du travail dans des secteurs clés. Le gouvernement néo-zélandais a lancé cinq sites Web permettant aux étrangers de trouver un emploi dans différents secteurs. Les secteurs comprenaient des domaines liés à l’éducation et à la santé.",
+      "sources": [
+        "Tuko News via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-xl/news/other/new-zealand-lists-5-job-websites-for-foreigners-seeking-work-in-key-sectors/ar-AA2dsF6w",
+      "published_at": "2026-10-03T03:32:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Nouvelle-Zélande"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Infraction routière en France : quelles sanctions pour un étranger ?. Rouler en France avec un véhicule immatriculé à l’étranger ne dispense pas de respecter le Code de la route. En cas d’infraction routière, un conducteur étranger peut en effet être contraint de régler …",
+      "sources": [
+        "Démarches Administratives via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/infraction-routière-en-france-quelles-sanctions-pour-un-étranger/ar-AA2dtmS2",
+      "published_at": "2026-10-03T03:45:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Bolivie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Face à la crise du diesel, la Bolivie convertit massivement ses bus au gaz naturel. Face aux pénuries et à la hausse du diesel, la Bolivie lance la conversion de centaines de bus au GNV. Plus de 400 bus vont être convertis au GNV à Santa Cruz, mais la demande va déjà bien au-delà.",
+      "sources": [
+        "Gaz-mobilité — fiabilité 6/10"
+      ],
+      "url": "https://www.gaz-mobilite.fr/actus/bolivie-conversion-bus-gnv-crise-diesel-4575.html",
+      "published_at": "2026-10-03T11:00:04+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Premier ministre britannique rouvre le débat sur le Brexit: le Royaume-Uni peut-il faire marche arrière et réintégrer l'Union européenne?. Six ans après sa rupture avec Bruxelles, le Royaume-Uni questionne sa réintégration dans l'Union européenne, les effets négatifs du Brexit étant largement reconnus, notamment sur l'économie. Un scénario qui semble \"politiquement irréalisable\".",
+      "sources": [
+        "BFM — fiabilité 6/10"
+      ],
+      "url": "https://www.bfmtv.com/international/europe/angleterre/le-premier-ministre-britannique-rouvre-le-debat-sur-le-brexit-le-royaume-uni-peut-il-faire-marche-arriere-et-reintegrer-l-union-europeenne_AN-202610030036.html",
+      "published_at": "2026-10-03T09:03:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Chine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "\"Moins de soldats, plus de machines\": Taïwan, Corée, mer de Chine… comment l'IA et les drones redessinent la course aux armements en Asie, et précipitent peut-être la guerre. Face aux tensions croissantes en mer de Chine méridionale, autour de Taïwan et entre les deux Corées, les armées asiatiques accélèrent leur modernisation. Elles misent notamment sur l'intelligence art …",
+      "sources": [
+        "BFMTV — fiabilité 6/10"
+      ],
+      "url": "https://www.bfmtv.com/tech/innovation/moins-de-soldats-plus-de-machines-taiwan-coree-mer-de-chine-comment-l-ia-et-les-drones-redessinent-la-course-aux-armements-en-asie_AN-202610030035.html",
+      "published_at": "2026-10-03T02:28:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
