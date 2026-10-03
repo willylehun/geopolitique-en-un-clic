@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:23:38.903164+02:00",
+  "generated_at": "2026-10-03T17:33:50.319251+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -67311,7 +67311,7 @@
         "Times Now — fiabilité 6/10"
       ],
       "url": "https://www.timesnownews.com/world/ukraine-ready-to-consider-indias-ceasefire-proposal-calls-it-broadest-of-4-plans-article-156269446",
-      "published_at": "2026-10-03T10:01:00+02:00",
+      "published_at": "2026-10-03T10:22:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -67444,6 +67444,115 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La sœur de Kim Jong-un affirme que Pyongyang a testé un missile ayant impliqué l'utilisation de l'IA. La Corée du Nord a effectué samedi matin un nouveau tir de missile depuis la région de Wonsan, sur sa côte est. Selon Séoul et Tokyo, le projectile, qui est tombé en mer à environ 700 km de son …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/asie-pacifique/20261003-la-corée-du-nord-tire-un-missile-balistique-en-direction-de-la-mer-du-japon",
+      "published_at": "2026-10-03T09:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Nord"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’Ukraine décrit la proposition de cessez-le-feu de l’Inde comme la plus large des quatre offres reçues par Kyiv. L'Ukraine a décrit la proposition de l'Inde concernant un éventuel cessez-le-feu avec la Russie comme la plus large des quatre offres reçues par Kiev, le ministre ukrainien des Affaires étrangères Andrii Sybiha se disant prêt à …",
+      "sources": [
+        "News On AIR — fiabilité 6/10"
+      ],
+      "url": "https://newsonair.gov.in/ukraine-describes-indias-ceasefire-proposal-as-broadest-among-four-offers-received-by-kyiv/",
+      "published_at": "2026-10-03T01:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Corée du Nord assure avoir tiré un dangereux missile doté d'intelligence artificielle samedi. La Corée du Nord dit avoir testé samedi un missile stratégique à portée intermédiaire intégrant de l'intelligence artificielle. Une affirmation de Kim Yo Jong, sœur de Kim Jong Un, que les experts se …",
+      "sources": [
+        "Clubic — fiabilité 6/10"
+      ],
+      "url": "https://www.clubic.com/actualite-632479-la-coree-du-nord-assure-avoir-tire-un-dangereux-missile-dote-d-intelligence-artificielle-samedi.html",
+      "published_at": "2026-10-03T08:22:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Suisse",
+        "Russie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Suisse est-elle en guerre?. CHRONIQUE. La Russie est derrière plusieurs opérations de déstabilisation en Europe, une guerre hybride qui n’épargne pas la Suisse, écrit le président du Mouvement européen Suisse (section Genève), A …",
+      "sources": [
+        "Le Temps — fiabilité 8/10"
+      ],
+      "url": "https://www.letemps.ch/opinions/chroniques/la-suisse-est-elle-en-guerre",
+      "published_at": "2026-10-03T00:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Angola",
+        "Égypte"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Angola: Partenariat commercial entre l'Angola et l'Égypte dans le secteur des transports. - Le président du Conseil d'administration de l'Agence de promotion des investissements privés et des exportations, Arlindo Rangel, a déclaré ce vendredi à El Alamein qu'il existe un partenariat comme …",
+      "sources": [
+        "AllAfrica.com — fiabilité 6/10"
+      ],
+      "url": "https://fr.allafrica.com/stories/202610030073.html",
+      "published_at": "2026-10-03T10:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
