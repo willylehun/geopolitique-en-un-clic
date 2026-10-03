@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:07:32.175356+02:00",
+  "generated_at": "2026-10-03T20:17:43.642178+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23547,9 +23547,9 @@
       ],
       "countries": [
         "Arabie saoudite",
-        "Qatar",
         "Israël",
         "Maroc",
+        "Qatar",
         "Émirats arabes unis"
       ],
       "period": "day",
@@ -27037,8 +27037,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "États-Unis"
       ]
     },
@@ -28790,8 +28790,8 @@
         "International"
       ],
       "countries": [
-        "Qatar",
         "Palestine",
+        "Qatar",
         "Royaume-Uni"
       ],
       "period": "day",
@@ -29068,8 +29068,8 @@
         "International"
       ],
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "États-Unis"
       ],
       "period": "day",
@@ -30449,8 +30449,8 @@
         "International"
       ],
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "États-Unis"
       ],
       "period": "day",
@@ -33632,8 +33632,8 @@
         "International"
       ],
       "countries": [
-        "Qatar",
-        "Malaisie"
+        "Malaisie",
+        "Qatar"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -36161,12 +36161,12 @@
     },
     {
       "regions": [
-        "Asie",
-        "Afrique"
+        "Afrique",
+        "Asie"
       ],
       "countries": [
-        "Qatar",
-        "Tanzanie"
+        "Tanzanie",
+        "Qatar"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -38345,10 +38345,10 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Qatar",
         "Inde",
         "Iran",
         "Israël",
+        "Qatar",
         "Égypte",
         "États-Unis"
       ]
@@ -49544,8 +49544,8 @@
       "content_enriched": true,
       "countries": [
         "Arabie saoudite",
-        "Qatar",
         "Syrie",
+        "Qatar",
         "Yémen"
       ]
     },
@@ -56243,8 +56243,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Qatar",
         "Iran",
+        "Qatar",
         "Émirats arabes unis"
       ]
     },
@@ -59262,15 +59262,15 @@
     },
     {
       "regions": [
-        "Asie",
         "Europe",
+        "Asie",
         "International"
       ],
       "countries": [
-        "Qatar",
         "France",
         "Israël",
-        "Palestine"
+        "Palestine",
+        "Qatar"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -68630,8 +68630,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Qatar",
-        "Iran"
+        "Iran",
+        "Qatar"
       ]
     },
     {
