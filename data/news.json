@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:16:17.105876+02:00",
+  "generated_at": "2026-10-03T12:26:30.024114+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -65308,6 +65308,27 @@
       "countries": [
         "Lettonie",
         "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Brésil : J-1 avant l'élection présidentielle. Les Brésiliens votent dimanche pour le premier tour de l'élection présidentielle. Le président de gauche Luiz Inacio Lula da Silva, 80 ans, brigue un quatrième mandat non consécutif. Il a pour princip …",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/fr/vidéo/20261003-brésil-j-1-avant-l-élection-présidentielle",
+      "published_at": "2026-10-03T05:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
       ]
     },
     {
