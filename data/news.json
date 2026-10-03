@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T09:02:01.760889+02:00",
+  "generated_at": "2026-10-03T09:12:13.904188+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64190,6 +64190,44 @@
         "Sri Lanka",
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Deux civils pakistanais tués près de la frontière indienne, selon des sources pakistanaises. 3 octobre -- Deux civils pakistanais ont été tués et un autre blessé après que des membres des Forces de sécurité des frontières indiennes (BSF) auraient ouvert le feu près de la frontière indo-pakistanaise, dans le district de Kasur à Pun…",
+      "sources": [
+        "United News of Bangladesh via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-xl/news/other/two-pakistani-civilians-killed-near-indian-border-pakistani-sources-say/ar-AA2dsMlk",
+      "published_at": "2026-10-03T01:50:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "EN DIRECT, guerre en Ukraine : un autre pont majeur de Kiev touché par une frappe russe. Après le pont Pivdenny, sur lequel la circulation a été suspendue vendredi après des bombardements russes, c’est le pont Pivnichny, plus au nord de la capitale ukrainienne, sur le fleuve Dniepr, qui a …",
+      "sources": [
+        "Le Monde — fiabilité 8/10"
+      ],
+      "url": "https://www.lemonde.fr/international/live/2026/10/03/en-direct-guerre-en-ukraine-un-nouveau-pont-majeur-de-kiev-touche-par-une-frappe-russe_6783795_3210.html",
+      "published_at": "2026-10-03T01:52:00+02:00",
+      "origin": "global",
+      "content_enriched": true
     },
     {
       "regions": [
