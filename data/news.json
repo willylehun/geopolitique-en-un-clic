@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:59:55.645183+02:00",
+  "generated_at": "2026-10-03T15:10:10.234592+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66335,7 +66335,8 @@
       "summary": "Le président Donald Trump (États-Unis) vante le projet du G7 de libérer ses réserves de pétrole et de diesel pour faire face aux prix élevés. Le G7 a annoncé un plan visant à libérer 100 millions de barils de pétrole et de produits pétroliers pour lutter contre les prix élevés causés en grande partie par la guerre avec l'Iran.",
       "sources": [
         "WXII 12 News — fiabilité 6/10",
-        "WLKY — fiabilité 6/10"
+        "WLKY — fiabilité 6/10",
+        "KCCI 8 News — fiabilité 6/10"
       ],
       "url": "https://www.wxii12.com/article/trump-g7-plan-release-oil-diesel-reserves-address-high-prices/74003451",
       "published_at": "2026-10-03T07:34:00+02:00",
@@ -66489,6 +66490,107 @@
       "url": "https://www.bfmtv.com/economie/entreprises/defense/aucun-pays-au-monde-ne-pourrait-avoir-acces-a-une-telle-technologie-avant-plusieurs-annees-la-coree-du-nord-affirme-avoir-lance-un-missile-balistique-utilisant-l-ia_AD-202610030241.html",
       "published_at": "2026-10-03T14:51:53+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Flavio Bolsonaro : Au nom du père, des fils et de la sainte idéologie. Le premier tour de l’élection présidentielle brésilienne opposera dimanche deux noms bien connus du monde politique : Lula contre Bolsonaro. Mais ce n’est pas l’ancien président Jair Bolsonaro qui affronte le…",
+      "sources": [
+        "France 24 (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.france24.com/en/americas/20261003-flavio-bolsonaro-in-the-name-of-the-father-sons-and-holy-ideology",
+      "published_at": "2026-10-03T07:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Économie&Vie | Pet Source Expo ouvre ses portes à Anshan, dans le Liaoning, dans le nord-est de la Chine. ANSHAN, 3 octobre (Xinhua) -- La première exposition Pet Source a débuté samedi à Anshan, dans la province chinoise du Liaoning (nord-est). Anshan, ville traditionnelle de l'acier, affiche un nouveau charme avec ses …",
+      "sources": [
+        "Xinhua — fiabilité 6/10"
+      ],
+      "url": "https://english.news.cn/20261003/c570ba53a3f141d5b74d6a610365096a/c.html",
+      "published_at": "2026-10-03T01:35:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Corée du Nord affirme avoir lancé un missile balistique utilisant l’IA. La Corée du Nord a déclaré samedi avoir testé un missile stratégique de portée intermédiaire intégrant l’utilisation de l’IA, quelques heures après que Séoul a annoncé que Pyongyang avait lancé un …",
+      "sources": [
+        "Mediapart — fiabilité 6/10"
+      ],
+      "url": "https://www.mediapart.fr/journal/fil-dactualites/031026/la-coree-du-nord-affirme-avoir-lance-un-missile-balistique-utilisant-l-ia",
+      "published_at": "2026-10-03T07:36:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Présidentielle au Brésil: géopolitique, commerce, climat, démocratie… les enjeux d'une élection cruciale. Un Brésil profondément polarisé se rend aux urnes dimanche 4 octobre pour choisir entre deux projets incarnés par les favoris, le président sortant de gauche, Luiz Inacio Lula da Silva, et le candidat …",
+      "sources": [
+        "TV5MONDE - Informations — fiabilité 6/10"
+      ],
+      "url": "https://information.tv5monde.com/international/presidentielle-au-bresil-geopolitique-commerce-climat-democratie-les-enjeux-dune-election-cruciale-2840026",
+      "published_at": "2026-10-03T05:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Arménie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Service de bus scolaires lancé dans plusieurs régions d’Arménie. De nouveaux bus scolaires, destinés au transport des élèves vers les nouveaux établissements scolaires en Arménie, ont été présentés sur la place de la République à Erevan. Le Premier ministre arménie …",
+      "sources": [
+        "Nouvelles d'Arménie en Ligne — fiabilité 6/10"
+      ],
+      "url": "https://www.armenews.com/service-de-bus-scolaires-lance-dans-plusieurs-regions-darmenie/",
+      "published_at": "2026-10-03T08:04:00+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
