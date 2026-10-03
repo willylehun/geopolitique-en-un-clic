@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:44:15.757476+02:00",
+  "generated_at": "2026-10-03T10:54:30.190302+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64650,6 +64650,23 @@
       "countries": [
         "Italie"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les Lettons votent pour un nouveau Parlement alors que les craintes d’attaques hybrides russes se profilent. Les Lettons éliront samedi un nouveau parlement alors que le Premier ministre pro-ukrainien Andris Kulbergs brigue un mandat complet. Ce vote intervient alors que la petite république située sur le flanc oriental de l'OTAN est aux prises avec une croissance …",
+      "sources": [
+        "WRAL — fiabilité 6/10"
+      ],
+      "url": "https://www.wral.com/news/ap/6026b-latvians-vote-for-a-new-parliament-as-fears-of-russian-hybrid-attacks-loom/",
+      "published_at": "2026-10-03T03:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
