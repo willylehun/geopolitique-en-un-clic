@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:34:58.655774+02:00",
+  "generated_at": "2026-10-03T18:45:11.072736+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -60800,8 +60800,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Cuba",
         "Mexique",
+        "Cuba",
         "États-Unis"
       ]
     },
@@ -67997,6 +67997,168 @@
       ],
       "url": "https://www.i24news.tv/fr/actu/international/moyen-orient/artc-trump-reunit-ses-principaux-responsables-de-la-securite-a-camp-david-pour-discuter-de-l-iran-et-du-yemen",
       "published_at": "2026-10-03T10:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'AfD atteint pour la première fois 30 pour cent en Allemagne – l'Union dirigée par le chancelier Friedrich Merz (Allemagne) tombe à 18. Selon une enquête de l'Institut Insa, le mécontentement à l'égard de la chancelière et du gouvernement en Allemagne est extrêmement élevé. Quelles sont les implications pour le paysage politique allemand ?",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/international/afd-hits-30-percent-for-the-first-time-in-germany-merz-led-union-drops-to-18-li.3623275",
+      "published_at": "2026-10-03T11:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le Bihar obtient un investissement industriel de 132,60 crores ₹, la BIADA alloue 9,14 acres à 12 unités. Bihar BIADA approuve 9,14 acres de terrain et des hangars Plug & Play pour 12 unités, dans le but d'attirer 132,60 crores ₹ et de créer environ 2 500 emplois dans neuf districts.",
+      "sources": [
+        "Oneindia — fiabilité 6/10"
+      ],
+      "url": "https://www.oneindia.com/india/bihar-biada-plug-and-play-plots-12-units-investment-012-8224189.html",
+      "published_at": "2026-10-03T03:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Corée du Nord affirme avoir testé un missile à portée intermédiaire alors que les tensions augmentent suite aux explosions de mines. Ce lancement intervient un jour après que Kim Yo Jong ait ridiculisé les demandes sud-coréennes demandant au Nord de s'excuser pour les explosions de mines terrestres du 21 septembre.",
+      "sources": [
+        "Military.com — fiabilité 6/10"
+      ],
+      "url": "https://www.military.com/north-korea-test-fired-intermediate-range-missile-tensions-grow-over-mine-blasts",
+      "published_at": "2026-10-03T11:16:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Corée du Nord"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Visa de protection permanente en Australie : liste complète des 9 conditions que les étrangers doivent remplir pour se qualifier. Le visa de protection australien permet aux demandeurs d'asile de vivre indéfiniment dans le pays s'ils satisfont aux exigences légales. Le gouvernement précise les conditions.",
+      "sources": [
+        "Legit.ng — fiabilité 6/10"
+      ],
+      "url": "https://www.legit.ng/people/1734132-australia-permanent-protection-visa-full-list-9-conditions-foreigners-meet-qualify/",
+      "published_at": "2026-10-03T10:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Financement régional : le Mali mobilise près de 944 milliards de FCFA sur le marché de l’UMOA-Titres. Le Mali poursuit sa mobilisation de ressources sur le marché financier régional. Selon les données officielles de l’UMOA-Titres, le pays …",
+      "sources": [
+        "mali24 — fiabilité 6/10"
+      ],
+      "url": "https://mali24.info/financement-regional-le-mali-mobilise-pres-de-944-milliards-de-fcfa-sur-le-marche-de-lumoa-titres/",
+      "published_at": "2026-10-03T10:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Mali : la société minière Barrick Mining recrute – 03 octobre 2026. Barrick est un chef de file mondial dans les domaines de l’exploitation minière, de l’exploration et du développement.",
+      "sources": [
+        "YOP L-FRII — fiabilité 6/10"
+      ],
+      "url": "https://yop.l-frii.com/mali-la-societe-miniere-barrick-mining-recrute-03-octobre-2026/",
+      "published_at": "2026-10-03T06:36:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Mali"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Mali - Egypte : Alhamdou Ag Ilyène au Caire pour renforcer la coopération numérique. En visite de travail au Caire du 24 au 30 septembre 2026, le ministre de la Communication, de l'Economie numérique et de la Modernisation de l'administration, Alhamdou Ag Ilyène, a échangé avec son ho …",
+      "sources": [
+        "maliweb.net — fiabilité 6/10"
+      ],
+      "url": "https://www.maliweb.net/economie/cooperation/mali-egypte-alhamdou-ag-ilyene-au-caire-pour-renforcer-la-cooperation-3120347.html",
+      "published_at": "2026-10-03T05:05:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Cameroun",
+        "Mali",
+        "Sénégal",
+        "Mauritanie",
+        "Niger"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Expansion énergétique : Après le Mali, le Niger et le Cameroun, le groupe Sonelgaz part à l'assaut du Sénégal. Le groupe algérien Sonelgaz poursuit son expansion en Afrique. Après le Mali, le Niger ou encore la Mauritanie, l'entreprise publique vient de signer deux accords historiques avec la Senelec au Sénégal.",
+      "sources": [
+        "Just-InfoDZ — fiabilité 6/10"
+      ],
+      "url": "https://just-infodz.com/sonelgaz-expansion-senegal-senelec/",
+      "published_at": "2026-10-03T17:55:34+02:00",
       "origin": "rss",
       "content_enriched": true
     },
