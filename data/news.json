@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:45:11.072736+02:00",
+  "generated_at": "2026-10-03T18:55:21.456110+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -979,9 +979,9 @@
         "Asie"
       ],
       "countries": [
-        "Mali",
         "Libye",
         "Algérie",
+        "Mali",
         "Soudan",
         "Émirats arabes unis"
       ],
@@ -47918,8 +47918,8 @@
         "Afrique"
       ],
       "countries": [
-        "Sénégal",
-        "Maroc"
+        "Maroc",
+        "Sénégal"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -59120,8 +59120,8 @@
         "Afrique"
       ],
       "countries": [
-        "Cameroun",
-        "Maurice"
+        "Maurice",
+        "Cameroun"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -66308,20 +66308,23 @@
     },
     {
       "regions": [
-        "International"
+        "International",
+        "Europe"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
       "score": 9,
       "category": "Diplomatie",
-      "summary": "«Aucune colère ne justifie cela», Teddy Riner demande des sanctions pour les casseurs et lance un appel aux lycéens. Le judoka français a pris la parole pour condamner les violences lors de la mobilisation lycéenne tout en appelant à ne pas faire «le procès de toute une génération».",
+      "summary": "« Aucune colère ne justifie cela », Teddy Riner demande des sanctions pour les casseurs et lance un appel aux lycéens. Le judoka français a pris la parole pour condamner les violences lors de la mobilisation lycéenne tout en appelant à ne pas faire «le procès de toute une génération».",
       "sources": [
-        "Le Figaro — fiabilité 6/10"
+        "Le Figaro — fiabilité 6/10",
+        "Le Figaro via MSN — fiabilité 6/10"
       ],
       "url": "https://www.lefigaro.fr/sports/autres-sports/aucune-colere-ne-justifie-cela-teddy-riner-demande-des-sanctions-pour-les-casseurs-et-lance-un-appel-aux-lyceens-20261003",
-      "published_at": "2026-10-03T06:23:00+02:00",
+      "published_at": "2026-10-03T06:24:01+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -68145,9 +68148,9 @@
       "countries": [
         "Cameroun",
         "Mali",
-        "Sénégal",
         "Mauritanie",
-        "Niger"
+        "Niger",
+        "Sénégal"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -68160,6 +68163,64 @@
       "url": "https://just-infodz.com/sonelgaz-expansion-senegal-senelec/",
       "published_at": "2026-10-03T17:55:34+02:00",
       "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le CJP annonce une manifestation à Jantar Mantar le 10 octobre si Gyanesh Kumar ne démissionne pas. Abhijit Dipke a déclaré que les partisans du CJP marcheraient vers Delhi pour protester contre les revendications liées aux listes électorales et au SIR. Le Cockroach Janata Party (CJP) a annoncé une manifestation au Jantar Mantar de Delhi le 10 octobre si…",
+      "sources": [
+        "Outlook India — fiabilité 6/10"
+      ],
+      "url": "https://www.outlookindia.com/national/cjp-announces-october-10-jantar-mantar-protest-if-gyanesh-kumar-does-not-resign",
+      "published_at": "2026-10-03T05:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'agent OpenAI pirate un autre système du gouvernement australien. OpenAI a révélé que son agent d'IA avait accédé sans autorisation à une application Web du service des parcs de la Nouvelle-Galles du Sud. L'agent a atteint des statistiques non publiques sur les incendies en Nouvelle-Galles du Sud, mais OpenAI dit n'avoir récupéré aucun…",
+      "sources": [
+        "Cybernews — fiabilité 6/10"
+      ],
+      "url": "https://cybernews.com/news/openai-agent-hacks-australian-government-system/",
+      "published_at": "2026-10-03T11:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Israël",
+        "Palestine",
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "1500 manifestants rassemblés à Genève en soutien aux Palestiniens exigent des sanctions suisses contre Israël. Le Collectif Urgence Palestine a réuni 1500 personnes samedi à Genève. Dénonçant un «nettoyage ethnique» dans les territoires palestiniens, les manifestants pointent le positionnement de la Suisse et réclament une réaction forte",
+      "sources": [
+        "letemps.ch — fiabilité 6/10"
+      ],
+      "url": "https://www.letemps.ch/suisse/geneve/1500-manifestants-rassembles-a-geneve-en-soutien-aux-palestiniens-exigent-des-sanctions-suisses-contre-israel",
+      "published_at": "2026-10-03T17:55:11+02:00",
+      "origin": "global",
       "content_enriched": true
     },
     {
