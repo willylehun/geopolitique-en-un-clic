@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T23:11:31.634346+02:00",
+  "generated_at": "2026-10-03T23:21:46.099044+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -67053,7 +67053,6 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -69262,7 +69261,7 @@
         "The Telegraph — fiabilité 6/10"
       ],
       "url": "https://www.telegraph.co.uk/politics/2026/10/03/green-party-conference-polanski-zionism-vote-brighton/",
-      "published_at": "2026-10-03T00:55:00+02:00",
+      "published_at": "2026-10-03T14:55:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": []
@@ -69936,6 +69935,248 @@
       "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-un-nouveau-grand-pont-de-kiev-touche-par-une-frappe-russe-20261003",
       "published_at": "2026-10-03T00:25:00+02:00",
       "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'Ukraine frappe des équipages de missiles russes Iskander dans la région de Briansk. Au cours de la dernière journée, les forces de défense ukrainiennes ont mené avec succès plusieurs opérations visant à affaiblir la machine de guerre russe, a déclaré le président Volodymyr Zelensky (Ukraine). Selon le président,…",
+      "sources": [
+        "RBC Ukraine via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/news/other/ukraine-strikes-russian-iskander-missile-crews-in-bryansk-region-zelenskyy/ar-AA2dvtMo",
+      "published_at": "2026-10-03T14:37:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les jeunes marins de l’USS George Washington s’adaptent à la vie en guerre – en images. La vie à bord du porte-avions près du détroit d'Ormuz alors qu'il mène des opérations militaires contre des cibles iraniennes…",
+      "sources": [
+        "The Guardian — fiabilité 8/10"
+      ],
+      "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/03/uss-george-washington-strait-of-hormuz-in-pictures",
+      "published_at": "2026-10-03T13:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les négociations américano-russes sur l’Ukraine s’étendent à un accord pétrolier de plusieurs milliards de dollars. Les pourparlers américano-russes sur la fin de la guerre en Ukraine se sont étendus au-delà du processus de paix lui-même. Un éventuel accord de plusieurs milliards de dollars portant sur les actifs de la compagnie pétrolière russe Lukoil est également en discussion, …",
+      "sources": [
+        "RBC Ukraine via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/money/economy/us-russia-talks-on-ukraine-expand-to-multibillion-dollar-oil-deal/ar-AA2duFy7",
+      "published_at": "2026-10-03T12:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le chef du pouvoir judiciaire iranien affirme que les forces militaires sont en meilleur état que lors des guerres précédentes. Le chef du pouvoir judiciaire iranien, Gholamhossein Mohseni-Ejei, a déclaré que les forces armées du pays étaient en meilleure condition que lors des deux guerres précédentes. Ses commentaires font référence à la guerre des 12 jours de juin 2025 et au…",
+      "sources": [
+        "Roya News English — fiabilité 6/10"
+      ],
+      "url": "https://en.royanews.tv/news/74499/Iran’s-judiciary-chief-says-military-forces-are-in-better-condition-than-in-previous-wars",
+      "published_at": "2026-10-03T16:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 7,
+      "category": "Climat",
+      "summary": "Ce que nous lisons aujourd’hui : les lignes de failles climatiques. Le changement climatique n’est plus une abstraction, alors que le monde connaît des chaleurs extrêmes, une élévation du niveau de la mer et des incendies de forêt. Dans « Climate Fault Lines », Alexander Gazmararian et Helen Milner montrent que le…",
+      "sources": [
+        "Arab News — fiabilité 6/10"
+      ],
+      "url": "https://www.arabnews.com/books-gaming/what-we-are-reading-today-climate-fault-lines-3004469",
+      "published_at": "2026-10-03T08:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L’équipe de guerre en Iran du président Donald Trump (États-Unis) se réunit en secret alors que le G7 draine 100 millions de barils. Alors que JD Vance présidait une réunion à huis clos à Camp David sur la guerre en Iran et au Yémen, les gouvernements du G7 ont engagé des réserves pétrolières d’urgence tandis que Trump a caché la prochaine action militaire.",
+      "sources": [
+        "Yahoo — fiabilité 6/10"
+      ],
+      "url": "https://www.yahoo.com/news/politics/articles/trump-iran-war-team-huddles-174714849.html",
+      "published_at": "2026-10-03T12:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "Yémen",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "États-Unis : Le chef de l’administration pénitentiaire du Tennessee démissionne après l’exécution ratée de Christa Pike. Le patron des prisons du Tennessee a démissionné après l'exécution ratée de Christa Pike, qui a survécu à deux injections létales. Le gouverneur a suspendu toutes les exécutions et ordonné une enquête …",
+      "sources": [
+        "20 Minutes — fiabilité 6/10"
+      ],
+      "url": "https://www.20minutes.fr/monde/etats-unis/4251051-20261003-etats-unis-chef-administration-penitentiaire-tennessee-demissionne-apres-execution-ratee-christa-pike",
+      "published_at": "2026-10-03T15:32:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique",
+        "International"
+      ],
+      "countries": [
+        "Libye"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Énergie",
+      "summary": "Libye : la NOC maintient ses objectifs de production pétrolière. La National Oil Corporation (NOC) en Libye a annoncé, mardi, le maintien de ses objectifs de production pétrolière au-delà de 1,2 million de barils par jour … La National Oil Corporation (NOC) en Libye a annoncé, mardi, le maintien de ses objectifs de production pétrolière au-delà de 1,2 million de barils par jour pour le mois de septembre, sécurisant ainsi les rentrées de devises de l'État. Cette annonce intervient dans un contexte de relative accalmi",
+      "sources": [
+        "APAnews — fiabilité 6/10",
+        "fr.apanews.net — fiabilité 6/10"
+      ],
+      "url": "https://fr.apanews.net/society/libye-la-noc-maintient-ses-objectifs-de-production-petroliere/",
+      "published_at": "2026-10-03T15:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maurice"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Accueil Faits-divers - Justice Saint-Maurice-sur-Moselle : un homme secouru lors d’une randonnée à hauteur du Rouge … Ce samedi vers 15 h, le Peloton de Gendarmerie de Haute Montagne (PGHM) des Vosges est intervenu avec l’hélicoptère Dragon 67 de la sécurité …",
+      "sources": [
+        "Vosges Matin — fiabilité 6/10"
+      ],
+      "url": "https://www.vosgesmatin.fr/faits-divers-justice/2026/10/03/saint-maurice-sur-moselle-un-homme-secouru-lors-d-une-randonnee-a-hauteur-du-rouge-gazon-et-heliporte-a-mulhouse",
+      "published_at": "2026-10-03T12:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maurice"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Ile Maurice: Mare-aux-Vacoas. Le taux de remplissage du principal réservoir du pays pourrait tomber à 20 % d'ici fin novembre et le gouvernement met en avant le manque de pluie. Le professeur Prem Saddul, consultant en hydrogéolog …",
+      "sources": [
+        "AllAfrica.com — fiabilité 6/10"
+      ],
+      "url": "https://fr.allafrica.com/stories/202610030129.html",
+      "published_at": "2026-10-03T13:30:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Tenace et autoritaire: qui est vraiment Fatima Zahra Mansouri, la nouvelle cheffe de gouvernement du Maroc?. Fatima Zahra Mansouri est devenue la première cheffe de gouvernement de l’histoire du Maroc après la récente victoire de son parti aux élections législatives. Elle a été chargée par le roi de former l …",
+      "sources": [
+        "Le Temps — fiabilité 8/10"
+      ],
+      "url": "https://www.letemps.ch/monde/afrique/tenace-et-autoritaire-qui-est-vraiment-fatima-zahra-mansouri-la-nouvelle-cheffe-de-gouvernement-du-maroc",
+      "published_at": "2026-10-03T01:44:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Mauritanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": ": 324354 Mauritanie : un avant-projet de loi contre les jeux de hasard ( 03/10/2026 08:54 — Mis à jour le 03/10/2026 09:02 par FRS ) Le gouvernement mauritanien planche sur un avant-projet de loi dest …",
+      "sources": [
+        "Agence de Presse Africaine via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/mauritanie-un-avant-projet-de-loi-contre-les-jeux-de-hasard/ar-AA2dunfM",
+      "published_at": "2026-10-03T09:10:17+02:00",
+      "origin": "rss",
       "content_enriched": true
     },
     {
