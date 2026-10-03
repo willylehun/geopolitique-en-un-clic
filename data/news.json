@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:05:36.233737+02:00",
+  "generated_at": "2026-10-03T19:15:49.233930+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -63996,12 +63996,13 @@
         "The Times of India — fiabilité 6/10"
       ],
       "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-trump-iran-strikes-hormuz-middle-east-ceasefire-talks-crude-oil-price-hike-latest-news/liveblog/134645747.cms",
-      "published_at": "2026-10-03T06:45:00+02:00",
+      "published_at": "2026-10-03T11:29:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
         "Iran",
-        "États-Unis"
+        "États-Unis",
+        "Yémen"
       ]
     },
     {
@@ -67614,7 +67615,8 @@
       "category": "Diplomatie",
       "summary": "Une manif à Genève exige de la Suisse des sanctions contre Israël. La Suisse doit établir un embargo militaire, énergétique et commercial avec Israël, selon des manifestants à Genève. Samedi, ils étaient 1500 personnes à se rassembler, trois ans après le massacre du …",
       "sources": [
-        "bluewin — fiabilité 6/10"
+        "bluewin — fiabilité 6/10",
+        "Keystone-ATS via MSN — fiabilité 6/10"
       ],
       "url": "https://www.bluewin.ch/fr/sport/une-manif-gen-ve-exige-de-la-suisse-des-sanctions-contre-isra-l-li.3623199",
       "published_at": "2026-10-03T11:23:00+02:00",
@@ -68263,6 +68265,107 @@
       "countries": [
         "Argentine"
       ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Inde convoque un haut diplomate pakistanais pour protester contre l'infiltration transfrontalière. L'Inde a convoqué samedi le plus haut diplomate du Haut-commissariat du Pakistan et a protesté contre \"la facilitation continue des infiltrations transfrontalières illégales\" depuis l'autre côté de la frontière. L'action de New Delhi…",
+      "sources": [
+        "NDTV — fiabilité 6/10"
+      ],
+      "url": "https://www.ndtv.com/india-news/india-summons-top-pakistan-diplomat-to-protest-cross-border-infiltration-12135075",
+      "published_at": "2026-10-03T11:49:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "Pakistan"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Pourquoi la victoire de l’Inde sur le Pakistan aux Jeux asiatiques était bien plus qu’une rivalité au cricket. L'attitude de la BCCI quant à la place qu'occupe le cricket dans le monde entier correspond aux ambitions olympiques du gouvernement indien…",
+      "sources": [
+        "The New York Times — fiabilité 8/10"
+      ],
+      "url": "https://www.nytimes.com/athletic/7652037/2026/10/03/india-pakistan-asian-games-cricket-olympics/",
+      "published_at": "2026-10-03T07:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "Pakistan"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Le gouverneur réprimande la manière dont le procureur a traité l'affaire d'agression sexuelle à Cornell, car les dossiers auraient montré que le procureur avait refusé davantage de preuves. L'indignation grandit alors que l'affaire impliquant un étudiant de l'Université Cornell qui aurait été victime d'un viol collectif dans une maison de fraternité en octobre 2024 continue de retenir l'attention nationale, selon le procureur de l'État.",
+      "sources": [
+        "CNN via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/governor-rebukes-da-s-handling-of-cornell-sex-assault-case-as-records-reportedly-show-prosecutor-declined-more-evidence/ar-AA2dsEDU",
+      "published_at": "2026-10-03T12:03:53+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les conducteurs font la queue à partir de minuit pour obtenir une offre de carburant bon marché, dans un nouvel espoir de réduction des prix de l'essence. Les conducteurs d’Afrique du Sud n’attendaient pas des prix d’essence moins chers, ils recherchaient plutôt les réductions, certains faisant même la queue à partir de minuit pour profiter de leur frénésie de carburant.",
+      "sources": [
+        "nine.com.au — fiabilité 6/10"
+      ],
+      "url": "https://www.nine.com.au/australia-news/drivers-queue-from-midnight-for-cheap-fuel-offer-amid-fresh-hope-for-petrol-price-relief-20261003-p612m1.html",
+      "published_at": "2026-10-03T01:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Afrique du Sud"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Corée du Nord annonce avoir testé un missile stratégique doté d'intelligence artificielle. La Corée du Nord affirme avoir tiré ce samedi 3 octobre 2026 un missile stratégique de portée intermédiaire intégrant l'intelligence artificielle, capable de modifier sa trajectoire à basse altitude.",
+      "sources": [
+        "La Nouvelle Tribune — fiabilité 6/10"
+      ],
+      "url": "https://lanouvelletribune.info/2026/10/la-coree-du-nord-annonce-avoir-teste-un-missile-strategique-dote-dintelligence-artificielle/",
+      "published_at": "2026-10-03T10:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
