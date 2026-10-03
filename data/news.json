@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:57:11.617897+02:00",
+  "generated_at": "2026-10-03T13:07:26.773061+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -23479,8 +23479,8 @@
         "International"
       ],
       "countries": [
-        "Malaisie",
-        "Birmanie"
+        "Birmanie",
+        "Malaisie"
       ],
       "period": "day",
       "bucket": "29 septembre 2026",
@@ -23501,9 +23501,9 @@
         "Europe"
       ],
       "countries": [
-        "Malaisie",
         "Thaïlande",
         "Cambodge",
+        "Malaisie",
         "Vietnam"
       ],
       "period": "day",
@@ -32045,8 +32045,8 @@
       "content_enriched": true,
       "countries": [
         "Bahreïn",
-        "Malaisie",
-        "Iran"
+        "Iran",
+        "Malaisie"
       ]
     },
     {
@@ -33632,8 +33632,8 @@
         "International"
       ],
       "countries": [
-        "Malaisie",
-        "Qatar"
+        "Qatar",
+        "Malaisie"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -42268,9 +42268,9 @@
       ],
       "countries": [
         "Afghanistan",
-        "Malaisie",
         "Turquie",
         "Chine",
+        "Malaisie",
         "Pakistan",
         "Vietnam",
         "États-Unis"
@@ -65490,7 +65490,8 @@
       "url": "https://www.bluewin.ch/en/news/iran-s-currency-falls-to-a-record-low-li.3623054",
       "published_at": "2026-10-03T05:51:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -65515,8 +65516,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Amérique du Sud"
+        "Amérique du Sud",
+        "Asie"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -65531,8 +65532,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Malaisie",
-        "Brésil"
+        "Brésil",
+        "Malaisie"
       ]
     },
     {
@@ -65549,6 +65550,112 @@
       ],
       "url": "https://guyanachronicle.com/2026/10/03/minister-indar-praises-leonora-mall-team-for-seamless-e-id-application-drivers-licence-renewal-experience/",
       "published_at": "2026-10-03T03:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "La Russie heurte un navire battant pavillon libérien dans le port ukrainien d'Odessa et fait un mort. La Russie a attaqué un cargo battant pavillon libérien dans l'un des ports ukrainiens de la mer Noire, dans la région d'Odessa, tuant une personne et en blessant trois, a déclaré l'administration des ports maritimes ukrainiens le …",
+      "sources": [
+        "Reuters — fiabilité 9/10"
+      ],
+      "url": "https://www.reuters.com/world/russia-hits-liberian-flagged-ship-ukraines-odesa-port-kills-one-2026-10-03/",
+      "published_at": "2026-10-03T05:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Russie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La guerre en Iran va se terminer très rapidement : le président Donald Trump (États-Unis). Le président américain Donald Trump a déclaré que la guerre avec l’Iran se terminerait « très rapidement » et a prédit que les prix du pétrole « chuteraient comme un roc » une fois les hostilités terminées. Dépeignant l’Iran comme étant économiquement dévasté…",
+      "sources": [
+        "Mid-Day via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/iran-war-set-to-end-very-quickly-donald-trump/ar-AA2dt8G2",
+      "published_at": "2026-10-03T04:57:03+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord",
+        "Japon"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "La Corée du Nord tire un missile vers la mer du Japon, confirme le test de la sœur de Kim Jong Un. La Corée du Nord a organisé plusieurs démonstrations militaires ces dernières semaines, notamment des tests d'un prétendu système de missile hypersonique, des exercices de tir réel et la mise en service d'un nouveau navire de guerre.",
+      "sources": [
+        "India Today — fiabilité 6/10"
+      ],
+      "url": "https://www.indiatoday.in/world/story/north-korea-missile-test-japan-kim-yo-jong-south-korea-border-tensions-3008766-2026-10-03",
+      "published_at": "2026-10-03T05:49:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Azerbaïdjan",
+        "Arménie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Économie",
+      "summary": "Le budget de la défense de l’Azerbaïdjan dépassera 5,2 milliards de dollars en 2027 Nouvelles d'Arménie en Ligne",
+      "sources": [
+        "Nouvelles d'Arménie en Ligne — fiabilité 6/10"
+      ],
+      "url": "https://www.armenews.com/le-budget-de-la-defense-de-lazerbaidjan-depassera-52-milliards-de-dollars-en-2027/",
+      "published_at": "2026-10-03T12:20:45+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Singapour"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Affaire Castel : la fille du fondateur du géant du vin et de la bière remporte une victoire à Singapour. Romy Castel, fille unique du fondateur du groupe Castel, a remporté vendredi devant la justice singapourienne une victoire dans la bataille pour le contrôle de ce géant du vin français et de la bière …",
+      "sources": [
+        "Le Figaro Vin via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/finance/leadership-exécutif-et-management/affaire-castel-la-fille-du-fondateur-du-géant-du-vin-et-de-la-bière-remporte-une-victoire-à-singapour/ar-AA2dsGAW",
+      "published_at": "2026-10-03T00:30:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
