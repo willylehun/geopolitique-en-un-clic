@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:44:02.978211+02:00",
+  "generated_at": "2026-10-03T17:54:13.176467+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66339,7 +66339,8 @@
         "KCCI 8 News — fiabilité 6/10",
         "WCVB Channel 5 — fiabilité 6/10",
         "WMUR Channel 9 — fiabilité 6/10",
-        "WESH — fiabilité 6/10"
+        "WESH — fiabilité 6/10",
+        "WBAL-TV — fiabilité 6/10"
       ],
       "url": "https://www.wxii12.com/article/trump-g7-plan-release-oil-diesel-reserves-address-high-prices/74003451",
       "published_at": "2026-10-03T07:34:00+02:00",
@@ -67573,6 +67574,71 @@
       "countries": [
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Australie annonce un visa de protection et répertorie 3 catégories d'étrangers pouvant en faire la demande. L'Australie offre des visas de protection aux étrangers qui risquent d'être persécutés ou gravement blessés s'ils retournent dans leur pays. Le gouvernement a défini les conditions.",
+      "sources": [
+        "Legit.ng — fiabilité 6/10"
+      ],
+      "url": "https://www.legit.ng/people/1734120-australia-announces-protection-visa-lists-3-categories-foreigners-apply/",
+      "published_at": "2026-10-03T09:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Australie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Israël",
+        "Suisse"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Une manif à Genève exige de la Suisse des sanctions contre Israël. La Suisse doit établir un embargo militaire, énergétique et commercial avec Israël, selon des manifestants à Genève. Samedi, ils étaient 1500 personnes à se rassembler, trois ans après le massacre du …",
+      "sources": [
+        "bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/fr/sport/une-manif-gen-ve-exige-de-la-suisse-des-sanctions-contre-isra-l-li.3623199",
+      "published_at": "2026-10-03T10:22:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord",
+        "Corée du Sud"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Corée du Nord : Kim Jong Un aurait testé un missile stratégique de portée intermédiaire « intégrant l'IA ». Ce nouveau tir intervient en plein regain de tension entre la Corée du Nord et la Corée du Sud, laquelle a accusé son voisin d'avoir posé des mines antipersonnel dans sa partie de la Zone démilitarisé …",
+      "sources": [
+        "20 Minutes — fiabilité 6/10"
+      ],
+      "url": "https://www.20minutes.fr/monde/coree_du_nord/4250951-20261003-coree-nord-seoul-accuse-pyongyang-avoir-procede-nouveau-tir-missile-balistique",
+      "published_at": "2026-10-03T02:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
