@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:58:35.057503+02:00",
+  "generated_at": "2026-10-03T21:08:48.270770+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -49543,8 +49543,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Arabie saoudite",
         "Syrie",
+        "Arabie saoudite",
         "Qatar",
         "Yémen"
       ]
@@ -65320,12 +65320,12 @@
       "bucket": "3 octobre 2026",
       "score": 8,
       "category": "Géopolitique",
-      "summary": "Brésil : J-1 avant l'élection présidentielle. Les Brésiliens votent dimanche pour le premier tour de l'élection présidentielle. Le président de gauche Luiz Inacio Lula da Silva, 80 ans, brigue un quatrième mandat non consécutif. Il a pour princip …",
+      "summary": "Présidentielle au Brésil : Lula et Bolsonaro au coude-à-coude. Les Brésiliens votent dimanche pour le premier tour de l'élection présidentielle. Le président de gauche Luiz Inacio Lula da Silva, 80 ans, brigue un quatrième mandat non consécutif. Il a pour princip …",
       "sources": [
         "France 24 (média public) — fiabilité 8/10"
       ],
       "url": "https://www.france24.com/fr/vidéo/20261003-brésil-j-1-avant-l-élection-présidentielle",
-      "published_at": "2026-10-03T05:19:00+02:00",
+      "published_at": "2026-10-03T06:34:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -67050,7 +67050,6 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
-        "Europe",
         "International"
       ],
       "period": "day",
@@ -67062,7 +67061,7 @@
         "Euronews via MSN — fiabilité 8/10"
       ],
       "url": "https://www.msn.com/en-us/news/other/iea-says-325-million-barrels-of-emergency-oil-released-with-75-million-still-to-come/ar-AA2du7qp",
-      "published_at": "2026-10-03T09:04:34+02:00",
+      "published_at": "2026-10-03T13:52:58+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -68203,7 +68202,8 @@
       "url": "https://cybernews.com/news/openai-agent-hacks-australian-government-system/",
       "published_at": "2026-10-03T11:38:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -69037,6 +69037,127 @@
       ],
       "url": "https://www.msn.com/en-in/news/other/openai-ai-agent-hacks-another-australian-govt-department-accesses-non-public-data-report/ar-AA2dtmpI",
       "published_at": "2026-10-03T01:18:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Nayara augmente l'essence de Rs 5, le diesel de Rs 3. Nayara a été le premier détaillant de carburant à répercuter la flambée des prix mondiaux du pétrole après que le conflit iranien ait perturbé les approvisionnements énergétiques plus tôt cette année. Le 26 mars, il a augmenté l'essence de Rs 5 et le diesel…",
+      "sources": [
+        "The Financial Express — fiabilité 6/10"
+      ],
+      "url": "https://www.financialexpress.com/policy/economy/nayara-hikes-petrol-by-rs-5-diesel-by-rs-3/4353110/",
+      "published_at": "2026-10-03T13:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le bilan des morts à Gaza (Palestine) du fait de la guerre israélienne s'élève à 74 228. Le bilan des morts de la guerre israélienne dans la bande de Gaza depuis le 7 octobre 2023 s'élève à 74 228 Palestiniens, avec 175 188 autres…",
+      "sources": [
+        "Syrian Arab News Agency — fiabilité 6/10"
+      ],
+      "url": "https://sana.sy/en/middle-east/2347740/",
+      "published_at": "2026-10-03T10:31:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Palestine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'enquête sur l'attaque du copilote FlyDubai révèle des signes avant-coureurs de radicalisation. Le correspondant étranger de Fox News, Jeff Paul, rend compte de l'attaque du copilote de FlyDubai et de la réaction du Premier ministre israélien. Hugh Hewitt, contributeur de Fox News, analyse la radicalisation du copilote.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/video/6406174463112",
+      "published_at": "2026-10-03T03:20:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Pakistan. Islamabad transformée en “dock pour porte-conteneurs” pour bloquer une manifestation. Les autorités pakistanaises déploient les grands moyens pour sécuriser Islamabad et empêcher la tenue d’une grande marche, prévue dimanche 4 octobre, en …",
+      "sources": [
+        "Courrier International — fiabilité 6/10"
+      ],
+      "url": "https://www.courrierinternational.com/article/pakistan-islamabad-transformee-en-dock-pour-porte-conteneurs-pour-bloquer-une-manifestation_275553",
+      "published_at": "2026-10-03T09:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Turquie",
+        "Arabie saoudite",
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "Le Pakistan, la Turquie et l'Arabie saoudite vont discuter d'un éventuel contact avec les Houthis (MAE pakistanais). ISLAMABAD, 3 octobre (Xinhua) -- Le chef de la diplomatie pakistanaise, Mohammad Ishaq Dar, a annoncé vendredi que le comité stratégique politique et de défense de l'Accord de défense conjointe de La …",
+      "sources": [
+        "Xinhua - french.news.cn — fiabilité 6/10"
+      ],
+      "url": "https://french.news.cn/20261003/1f8e39fb4aed46d5a5832a6145554e7e/c.html",
+      "published_at": "2026-10-03T09:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Turquie",
+        "Arabie saoudite",
+        "Pakistan"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "(Multimédia) Le Pakistan, la Turquie et l'Arabie saoudite vont discuter d'un éventuel contact avec les Houthis (MAE pakistanais). Le prince héritier et Premier ministre saoudien Mohammed ben Salmane ben Abdelaziz al-Saoud (au centre), le président turc Recep Tayyip Erdogan (à gauche) et le Premier ministre pakistanais Muhammad S …",
+      "sources": [
+        "Xinhua - french.news.cn — fiabilité 6/10"
+      ],
+      "url": "https://french.xinhuanet.com/20261003/4648c30f2b7842c9b5cd3320dbc3ed2e/c.html",
+      "published_at": "2026-10-03T01:20:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
