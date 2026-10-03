@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:54:13.176467+02:00",
+  "generated_at": "2026-10-03T18:04:23.511016+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64572,8 +64572,7 @@
     },
     {
       "regions": [
-        "Europe",
-        "Asie"
+        "Europe"
       ],
       "countries": [
         "Bulgarie",
@@ -67637,6 +67636,87 @@
       ],
       "url": "https://www.20minutes.fr/monde/coree_du_nord/4250951-20261003-coree-nord-seoul-accuse-pyongyang-avoir-procede-nouveau-tir-missile-balistique",
       "published_at": "2026-10-03T02:28:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'heure des femmes du week-end : les uniformes scolaires dans le porno, La femme du fermier, \"Les nids vides\". Un groupe d'écoliers a lancé une pétition appelant le gouvernement à interdire l'utilisation d'uniformes scolaires dans la pornographie. Ils disent vouloir abolir la sexualisation des enfants à travers le…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/audio/play/m0032h66",
+      "published_at": "2026-10-03T11:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Les manifestants à Genève réclament des sanctions contre Israël. Lors d'une manifestation à Genève, environ 1 500 personnes ont dénoncé les actions d'Israël dans les territoires palestiniens. Ils ont exigé que la Suisse impose un embargo militaire, énergétique et commercial contre Israël.",
+      "sources": [
+        "Bluewin — fiabilité 6/10"
+      ],
+      "url": "https://www.bluewin.ch/en/news/protesters-in-geneva-are-calling-for-sanctions-against-israel-li.3623227",
+      "published_at": "2026-10-03T10:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "Suisse"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "countries": [
+        "Haïti",
+        "République dominicaine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Nous ne tolérons pas l’indiscipline » : pourquoi la République dominicaine interdit à Haïti de venir jouer sur son territoire. Le gouvernement dominicain a refusé que la sélection haïtienne revienne jouer sur son sol un match de Ligue des nations de la Concacaf, suit …",
+      "sources": [
+        "Le Parisien — fiabilité 6/10"
+      ],
+      "url": "https://www.leparisien.fr/sports/football/nous-ne-tolerons-pas-lindiscipline-pourquoi-la-republique-dominicaine-interdit-a-haiti-de-venir-jouer-sur-son-territoire-03-10-2026-I7PABVOVIRCHZI5PQPVQUVNLEM.php",
+      "published_at": "2026-10-03T04:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les stocks de pétrole, ce levier stratégique activé par la France pour tenter d’amortir la crise. Pour faire face aux tensions sur le marché de l’or noir, les nations possèdent une arme méconnue : leurs stocks stratégiques. Un mécanisme complexe qui peut influencer les prix à la pompe.",
+      "sources": [
+        "La Nouvelle République — fiabilité 6/10"
+      ],
+      "url": "https://www.lanouvellerepublique.fr/a-la-une/les-stocks-de-petrole-ce-levier-strategique-active-par-la-france-pour-tenter-d-amortir-la-crise-1791035260",
+      "published_at": "2026-10-03T10:47:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
