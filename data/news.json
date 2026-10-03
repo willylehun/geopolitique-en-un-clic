@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:04:23.511016+02:00",
+  "generated_at": "2026-10-03T18:14:35.299240+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64572,7 +64572,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
         "Bulgarie",
@@ -66353,12 +66354,11 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord",
-        "International"
+        "Amérique du Nord"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
-      "score": 9,
+      "score": 5,
       "category": "Géopolitique",
       "summary": "La « Marche de la folie » du président Donald Trump (États-Unis) donne du pouvoir aux extrémistes iraniens. Pourtant, la myopie trumpienne persiste, l’administration continuant de prétendre que sa pression sur l’Iran est un succès retentissant. \"Le blocus fonctionne, il fonctionne comme nous n'en avons jamais vu\"…",
       "sources": [
@@ -67717,6 +67717,84 @@
       ],
       "url": "https://www.lanouvellerepublique.fr/a-la-une/les-stocks-de-petrole-ce-levier-strategique-active-par-la-france-pour-tenter-d-amortir-la-crise-1791035260",
       "published_at": "2026-10-03T10:47:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La police indienne arrête des manifestants du mouvement Cafards. Les manifestants affirment que les changements de vote profitent au parti au pouvoir du Premier ministre Narendra Modi (Inde) et exigent la démission du chef des élections indiennes.",
+      "sources": [
+        "Sky News — fiabilité 6/10"
+      ],
+      "url": "https://news.sky.com/video/indias-police-detain-cockroach-movement-protesters-13594699",
+      "published_at": "2026-10-03T10:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L’économie de l’Allemagne de l’Est reste à la traîne de celle de l’Ouest 36 ans après la réunification. Plus de trois décennies après la réunification allemande, l'économie de l'est du pays reste à la traîne par rapport à l'ouest, l'écart ne montrant que peu de signes de réduction ces dernières années, selon un éminent penseur …",
+      "sources": [
+        "DPA International via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-ca/news/other/east-german-economy-still-trails-west-36-years-after-reunification/ar-AA2dud8q",
+      "published_at": "2026-10-03T10:33:28+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Allemagne"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Nouveau système de missile présenté aux résidents de la base GSDF à Kumamoto. Le bureau japonais de la défense a présenté pour la première fois le nouveau système de missile sol-navire à longue portée de type 25 aux résidents d'une base militaire de Kumamoto.",
+      "sources": [
+        "Nation Thailand — fiabilité 6/10"
+      ],
+      "url": "https://www.nationthailand.com/news/world/40071837",
+      "published_at": "2026-10-03T10:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Afrique"
+      ],
+      "countries": [
+        "Soudan"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Soudan : la crise du carburant pèse sur la population. Le Soudan fait face à une pénurie de carburant qui impacte les transports et l’activité économique. Entre perturbations du marché pétrolier mondial et difficultés d’approvisionnement au niveau nationa …",
+      "sources": [
+        "Africanews via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-xl/actualite/other/soudan-la-crise-du-carburant-pèse-sur-la-population/ar-AA2du4pA",
+      "published_at": "2026-10-03T09:43:01+02:00",
       "origin": "rss",
       "content_enriched": true
     },
