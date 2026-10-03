@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:55:21.456110+02:00",
+  "generated_at": "2026-10-03T19:05:36.233737+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66308,8 +66308,8 @@
     },
     {
       "regions": [
-        "International",
-        "Europe"
+        "Europe",
+        "International"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -68222,6 +68222,47 @@
       "published_at": "2026-10-03T17:55:11+02:00",
       "origin": "global",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Eni et Repsol envisageraient une vente partielle du principal gisement gazier du Venezuela. Eni (E) et Repsol (REPYY) envisagent de vendre une partie de leurs participations dans le champ de gaz naturel Perla, au large des côtes du Venezuela. En savoir plus ici.",
+      "sources": [
+        "Seeking Alpha — fiabilité 6/10"
+      ],
+      "url": "https://seekingalpha.com/news/4650018-eni-repsol-seeking-partial-sale-venezuela-gas-field",
+      "published_at": "2026-10-03T11:24:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "L'Argentine dévoile un programme de passeports pour l'investissement. Le gouvernement du président argentin Javier Milei a déclaré vendredi que le pays offrirait la citoyenneté aux étrangers qui investissent au moins 350 000 dollars dans le pays.",
+      "sources": [
+        "Taipei Times — fiabilité 7/10"
+      ],
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/10/04/2003865380",
+      "published_at": "2026-10-03T05:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Argentine"
+      ]
     },
     {
       "regions": [
