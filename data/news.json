@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:58:36.285266+02:00",
+  "generated_at": "2026-10-03T14:08:48.008266+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -63996,12 +63996,13 @@
         "The Times of India — fiabilité 6/10"
       ],
       "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-trump-iran-strikes-hormuz-middle-east-ceasefire-talks-crude-oil-price-hike-latest-news/liveblog/134645747.cms",
-      "published_at": "2026-10-03T03:55:00+02:00",
+      "published_at": "2026-10-03T06:45:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
         "Iran",
-        "États-Unis"
+        "États-Unis",
+        "Yémen"
       ]
     },
     {
@@ -65379,12 +65380,13 @@
       "bucket": "3 octobre 2026",
       "score": 9,
       "category": "Géopolitique",
-      "summary": "À bord de l'USS George Washington, de jeunes marins s'adaptent à la guerre contre l'Iran. Une alerte d'urgence retentit dans un haut-parleur, et Damon Dennard et d'autres marins sur le pont du porte-avions USS George Washington se précipitent. Dennard, 23 ans, prépare des bombes à charger…",
+      "summary": "À bord de l'USS George Washington, de jeunes marins s'adaptent à la guerre contre l'Iran. Par Ed Ou À BORD DE L'USS GEORGE WASHINGTON, 3 octobre (Reuters) - Une alerte d'urgence retentit depuis un haut-parleur, et Damon Dennard et d'autres marins sur le pont du porte-avions USS George Washington sont…",
       "sources": [
-        "Reuters — fiabilité 9/10"
+        "Reuters — fiabilité 9/10",
+        "Reuters via MSN — fiabilité 9/10"
       ],
       "url": "https://www.reuters.com/world/middle-east/aboard-uss-george-washington-young-sailors-adjust-war-with-iran-2026-10-03/",
-      "published_at": "2026-10-03T05:27:00+02:00",
+      "published_at": "2026-10-03T06:27:31+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -65662,7 +65664,8 @@
     },
     {
       "regions": [
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "Europe"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -66000,6 +66003,211 @@
       ],
       "url": "https://www.moneycontrol.com/news/india/youth-congress-president-moves-delhi-high-court-challenges-police-order-denying-jantar-mantar-protest-14043885.html",
       "published_at": "2026-10-03T06:38:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les manifestants dans toute l’Espagne exigent des mesures face à la crise du logement. Plus de 50 manifestations sont prévues samedi après que le gouvernement n'a pas réussi à faire adopter une loi d'urgence par le Parlement.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no",
+      "published_at": "2026-10-03T06:34:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 7,
+      "category": "Géopolitique",
+      "summary": "L'extension de la zone de restriction contre la fièvre catarrhale est une « chose positive » pour les agriculteurs. L'ensemble de l'Écosse est désormais une zone réglementée, mais le ministre de l'Agriculture affirme que cela facilitera l'acheminement du bétail vers le marché.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/news/articles/c8p3gd4x4e6go",
+      "published_at": "2026-10-03T06:04:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "BIAIS DE DIFFUSION : De FlyDubai à Benghazi, les médias luttent pour maintenir la politique à l’écart du terrorisme. La couverture des violences dans le cockpit de FlyDubai a suscité des critiques, les réseaux craignant que le président Donald Trump (États-Unis) et le Premier ministre Benjamin Netanyahu (Israël) ne détournent l'incident terroriste à des fins politiques.",
+      "sources": [
+        "Fox News — fiabilité 6/10"
+      ],
+      "url": "https://www.foxnews.com/opinion/broadcast-bias-flydubai-benghazi-media-struggle-keep-politics-out-terrorism",
+      "published_at": "2026-10-03T07:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Israël",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "countries": [
+        "Oman",
+        "Israël"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le copilote de Flydubai s'est vu interdire de voler à Oman après avoir affiché des opinions idéologiques radicales. Le rapport fait suite aux commentaires du Premier ministre Benjamin Netanyahu (Israël) après la tentative de détournement, affirmant que le pirate de l'air avait subi un endoctrinement islamiste radical et qu'il était clairement suicidaire.",
+      "sources": [
+        "The Jerusalem Post via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/omani-pilot-cooperating-with-authorities-as-flydubai-investigation-continues/ar-AA2drKBq",
+      "published_at": "2026-10-03T06:46:59+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Lettonie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La guerre en Ukraine s'immisce dans les élections législatives en Lettonie. Les citoyens lettons sont appelés aux urnes samedi pour renouveler les cent députés de la Saiema, la chambre unique du Parlement. Parmi les enjeux majeurs de cette élection : la sécurité. La Lettonie …",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/monde/europe/la-guerre-en-ukraine-s-immisce-dans-les-elections-legislatives-en-lettonie_8220853.html",
+      "published_at": "2026-10-03T03:19:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "countries": [
+        "Lettonie",
+        "Ukraine"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Législatives en Lettonie : un scrutin entre menace russe, émergence de formations populistes et préoccupations économiques. Les Lettons votent ce samedi pour renouveler leur Parlement dans un climat marqué par la guerre en Ukraine et la hausse du coût de la vie …",
+      "sources": [
+        "Sud Ouest — fiabilité 6/10"
+      ],
+      "url": "https://www.sudouest.fr/international/legislatives-en-lettonie-un-scrutin-entre-menace-russe-emergence-de-formations-populistes-et-preoccupations-economiques-30897280.php",
+      "published_at": "2026-10-03T04:10:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Lettonie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Lettonie: qui sortira vainqueur des législatives, entre menace russe et tensions économiques?. Ce samedi, c'est jour d'élection en Lettonie. Le scrutin pour composer le Parlement se déroule alors que la menace russe est palpable dans ce pays balte. La Lettonie, qui accueille des dizaines de mil …",
+      "sources": [
+        "Radio France Internationale — fiabilité 6/10"
+      ],
+      "url": "https://www.rfi.fr/fr/europe/20261003-lettonie-qui-sortira-vainqueur-des-législatives-entre-menace-russe-et-tensions-économiques",
+      "published_at": "2026-10-03T01:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Un retour du Royaume-Uni dans l'Union européenne ? La moitié des Britanniques seraient favorables. [VIDÉO] Le Premier ministre britannique Andy Burnham a ouvert la voie à un retour de son pays dans l'Union européenne. Une hypothèse qui séduit plus qu'elle ne déçoit, selon un sondage. - Un retour du …",
+      "sources": [
+        "TF1 INFO — fiabilité 6/10"
+      ],
+      "url": "https://www.tf1info.fr/international/brexit-breturn-un-retour-du-royaume-uni-dans-l-union-europeenne-la-moitie-des-britanniques-favorables-2467808.html",
+      "published_at": "2026-10-03T05:46:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Royaume-Uni : les Britanniques bientôt de retour dans l'Union européenne?. Dix ans après le Brexit, le Premier ministre britannique, Andy Burnham, a ouvert la voie à un nouveau rapprochement entre le Royaume-Uni et l'Union européenne.",
+      "sources": [
+        "BFMTV via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/royaume-uni-les-britanniques-bientôt-de-retour-dans-l-union-européenne/vi-AA2dtExo",
+      "published_at": "2026-10-03T05:20:14+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "« Il faudra recommencer à zéro »… Un retour rapide du Royaume-Uni dans l’Union européenne est-il crédible ?. C'est la première fois, dix ans après le référendum en faveur du Brexit, qu'un Premier ministre britannique en exercice invite à un rapprochement avec l'Union européenne. Décryptage …",
+      "sources": [
+        "20 Minutes — fiabilité 6/10"
+      ],
+      "url": "https://www.20minutes.fr/monde/royaume-uni/4250424-20261003-faudra-recommencer-zero-retour-rapide-royaume-uni-union-europeenne-credible",
+      "published_at": "2026-10-03T03:33:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
