@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T23:21:46.099044+02:00",
+  "generated_at": "2026-10-03T23:32:01.713424+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -979,8 +979,8 @@
         "Asie"
       ],
       "countries": [
-        "Libye",
         "Algérie",
+        "Libye",
         "Mali",
         "Soudan",
         "Émirats arabes unis"
@@ -49638,12 +49638,12 @@
     },
     {
       "regions": [
-        "Afrique",
-        "Asie"
+        "Asie",
+        "Afrique"
       ],
       "countries": [
-        "Maurice",
         "Israël",
+        "Maurice",
         "Palestine"
       ],
       "period": "day",
@@ -59120,8 +59120,8 @@
         "Afrique"
       ],
       "countries": [
-        "Maurice",
-        "Cameroun"
+        "Cameroun",
+        "Maurice"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -67053,6 +67053,7 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -67109,10 +67110,11 @@
       "category": "Géopolitique",
       "summary": "Les procureurs portugais enquêtent sur la légalité de l’utilisation par les États-Unis de la base de Lajes dans la guerre en Iran. LISBONNE, 3 octobre (Reuters) - Les procureurs portugais ont annoncé samedi avoir ouvert une enquête sur la légalité de l'autorisation accordée par le gouvernement de centre-droit à l'utilisation par les États-Unis du vol Lajes Air.",
       "sources": [
-        "Reuters via MSN — fiabilité 9/10"
+        "Reuters via MSN — fiabilité 9/10",
+        "The New Arab — fiabilité 6/10"
       ],
       "url": "https://www.msn.com/en-gb/news/other/portugal-prosecutors-probe-legality-of-us-use-of-lajes-base-in-iran-war/ar-AA2dtUJ7",
-      "published_at": "2026-10-03T08:33:33+02:00",
+      "published_at": "2026-10-03T12:13:00+02:00",
       "origin": "rss",
       "content_enriched": true,
       "countries": [
@@ -69769,7 +69771,8 @@
       "url": "https://www.abc.net.au/news/2026-10-04/illegal-tobacco-advertisements-avoid-detection-on-social-media/107026980",
       "published_at": "2026-10-03T15:12:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
@@ -70178,6 +70181,85 @@
       "published_at": "2026-10-03T09:10:17+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "Canicule à Paris : remonté contre des agents municipaux, il saisit la justice et réclame des sanctions. Sans réponse sur son inscription au dispositif canicule, un Parisien réclamait des sanctions contre des agents municipaux.",
+      "sources": [
+        "Actu.fr — fiabilité 6/10"
+      ],
+      "url": "https://actu.fr/ile-de-france/paris_75056/canicule-a-paris-remonte-contre-des-agents-municipaux-il-saisit-la-justice-et-reclame-des-sanctions_64873209.html",
+      "published_at": "2026-10-03T11:26:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Le Pentagone augmente les soldes de combat alors que la guerre avec l'Iran se poursuit. Les troupes peuvent désormais gagner 450 dollars par mois en indemnité de tir hostile et jusqu'à 275 dollars par mois en indemnité de danger imminent, la première augmentation depuis 2002.",
+      "sources": [
+        "Task & Purpose — fiabilité 6/10"
+      ],
+      "url": "https://taskandpurpose.com/news/pentagon-combat-pay-raise-iran-war/",
+      "published_at": "2026-10-03T16:27:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Iran"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Î.-P.-É. les artisans de la fibre comptent sur les locaux au milieu des règles commerciales américaines. Les Insulaires ont pu découvrir de petites entreprises et en apprendre davantage sur l’industrie de la fibre lors du P. E. I. Festival de la fibre où les vendeurs affirment que le soutien local est essentiel dans l’économie d’aujourd’hui. Le …",
+      "sources": [
+        "CBC.ca — fiabilité 8/10"
+      ],
+      "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-fibre-festival-small-business-local-economy-9.7368364",
+      "published_at": "2026-10-03T16:03:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Élections québécoises St-Pierre Plamondon dénonce une « manœuvre » pour l’associer au le président Donald Trump (États-Unis). Paul St-Pierre Plamondon nie avoir planifié une rencontre avec l’administration Trump en mars comme l’affirme un reportage du quotidien The Gazette qui l’a placé sur la défensive samedi. Le chef péqui …",
+      "sources": [
+        "La Presse — fiabilité 6/10"
+      ],
+      "url": "https://www.lapresse.ca/elections-quebecoises/2026-10-03/elections-quebecoises/st-pierre-plamondon-denonce-une-manoeuvre-pour-l-associer-a-trump.php",
+      "published_at": "2026-10-03T12:02:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
     },
     {
       "regions": [
