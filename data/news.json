@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T09:32:40.763879+02:00",
+  "generated_at": "2026-10-03T09:42:55.069314+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -763,8 +763,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Océanie"
+        "Océanie",
+        "Asie"
       ],
       "period": "day",
       "bucket": "16 septembre 2026",
@@ -775,8 +775,8 @@
         "Reuters"
       ],
       "countries": [
-        "Inde",
-        "Nouvelle-Zélande"
+        "Nouvelle-Zélande",
+        "Inde"
       ]
     },
     {
@@ -6545,8 +6545,8 @@
       "published_at": "2026-09-25T11:30:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -8525,8 +8525,8 @@
       "origin": "rss",
       "countries": [
         "Chine",
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -20577,8 +20577,8 @@
       "published_at": "2026-09-27T22:15:00+02:00",
       "origin": "rss",
       "countries": [
-        "Inde",
-        "Népal"
+        "Népal",
+        "Inde"
       ]
     },
     {
@@ -30426,8 +30426,8 @@
         "Asie"
       ],
       "countries": [
-        "Inde",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Inde"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -30552,8 +30552,8 @@
     },
     {
       "regions": [
-        "Asie",
         "Océanie",
+        "Asie",
         "International"
       ],
       "period": "day",
@@ -30569,8 +30569,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Inde",
-        "Nouvelle-Zélande"
+        "Nouvelle-Zélande",
+        "Inde"
       ]
     },
     {
@@ -38345,10 +38345,10 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Inde",
         "Israël",
         "Qatar",
         "Égypte",
+        "Inde",
         "Iran",
         "États-Unis"
       ]
@@ -42495,8 +42495,8 @@
         "Asie"
       ],
       "countries": [
-        "Inde",
         "Israël",
+        "Inde",
         "Iran"
       ],
       "period": "day",
@@ -42869,8 +42869,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Inde",
-        "Émirats arabes unis"
+        "Émirats arabes unis",
+        "Inde"
       ]
     },
     {
@@ -45874,8 +45874,8 @@
       "countries": [
         "Allemagne",
         "Chine",
-        "Inde",
         "Russie",
+        "Inde",
         "Royaume-Uni",
         "États-Unis"
       ]
@@ -46158,8 +46158,8 @@
       "content_enriched": true,
       "countries": [
         "Chine",
-        "Inde",
         "Israël",
+        "Inde",
         "Iran",
         "États-Unis"
       ]
@@ -56691,8 +56691,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Inde",
-        "Israël"
+        "Israël",
+        "Inde"
       ]
     },
     {
@@ -56758,8 +56758,8 @@
     },
     {
       "regions": [
-        "Asie",
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -56774,8 +56774,8 @@
       "origin": "rss",
       "content_enriched": true,
       "countries": [
-        "Inde",
-        "Russie"
+        "Russie",
+        "Inde"
       ]
     },
     {
@@ -64324,6 +64324,28 @@
       "published_at": "2026-10-03T02:10:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Chine lance une enquête antidumping sur les importations de produits chimiques de l’UE avant les négociations commerciales. Les tensions commerciales latentes entre Pékin et Bruxelles menacent de se transformer en une véritable guerre commerciale alors que le bloc de 27 pays se démène pour défendre ses industries contre un flot d'exportations chinoises…",
+      "sources": [
+        "The Jakarta Post — fiabilité 7/10"
+      ],
+      "url": "https://www.thejakartapost.com/business/2026/10/03/china-launches-anti-dumping-probe-into-eu-chemical-imports-ahead-of-trade-talks",
+      "published_at": "2026-10-03T00:40:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Chine"
+      ]
     },
     {
       "regions": [
