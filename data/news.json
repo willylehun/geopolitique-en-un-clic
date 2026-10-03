@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:40:52.042520+02:00",
+  "generated_at": "2026-10-03T22:51:06.137887+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -69688,6 +69688,67 @@
       "published_at": "2026-10-03T09:27:00+02:00",
       "origin": "rss",
       "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "La Syrie et Mastercard discutent de l'expansion des paiements numériques et des services financiers gouvernementaux. Le ministre syrien des Finances Mohammed Yisr Barnieh et le gouverneur de la Banque centrale syrienne Mohammad Safwat Raslan ont rencontré le directeur général de Mastercard …",
+      "sources": [
+        "Syrian Arab News Agency — fiabilité 6/10"
+      ],
+      "url": "https://sana.sy/en/economic/2347787/",
+      "published_at": "2026-10-03T14:13:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Syrie"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "AIQ, soutenu par ADNOC, conclut un accord pour entrer sur les marchés indiens de l'énergie. (Corrige le deuxième point de l'article du 30 septembre pour montrer qu'AIQ a été créée en 2020 et non en 2023) Par Vallari Srivastava DUBAI, 30 septembre (Reuters) - La société technologique basée aux Émirats arabes unis, AIQ, a signé un…",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/adnoc-backed-aiq-secures-deal-to-enter-indian-energy-markets/ar-AA2dvrlP",
+      "published_at": "2026-10-03T15:10:08+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Émirats arabes unis"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Le procès des paris au Brésil place les coûts du SUS au centre du différend. Le procès du Brésil en matière de paris réclame 1 milliard de BRL de dommages et intérêts et le remboursement du SUS, alors que le gouvernement cible 17 opérateurs pour leurs coûts de santé.",
+      "sources": [
+        "GamesHub — fiabilité 6/10"
+      ],
+      "url": "https://www.gameshub.com/news/article/brazil-betting-lawsuit-sus-costs-2911756/",
+      "published_at": "2026-10-03T15:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Brésil"
+      ]
     },
     {
       "regions": [
