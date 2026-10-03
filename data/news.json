@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:51:39.283986+02:00",
+  "generated_at": "2026-10-03T16:01:53.570721+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66894,6 +66894,24 @@
       "countries": [
         "Pakistan"
       ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Diplomatie",
+      "summary": "«Penchant pour la révolution», «sanctions rarement appliquées»… La presse internationale cherche à comprendre la violence des blocus des lycées français. La mobilisation lycéenne qui dégénère interpelle les journaux du monde entier. Ils pointent l’impréparation du gouvernement face aux nombreuses revendications de la jeunesse.",
+      "sources": [
+        "Le Figaro — fiabilité 6/10"
+      ],
+      "url": "https://www.lefigaro.fr/actualite-france/penchant-pour-la-revolution-sanctions-rarement-appliquees-la-presse-internationale-cherche-a-comprendre-la-violence-des-blocus-des-lycees-20261003",
+      "published_at": "2026-10-03T08:21:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
