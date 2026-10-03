@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:55:47.492097+02:00",
+  "generated_at": "2026-10-03T12:06:08.094383+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -65225,6 +65225,66 @@
       ],
       "url": "https://www.gala.fr/politique/fatima-ezzahra-el-mansouri-famille-etudes-a-montpellier-tout-savoir-sur-la-premiere-femme-a-diriger-un-gouvernement-au-maroc-20261003",
       "published_at": "2026-10-03T11:24:24+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "La Lettonie vote alors que les incursions de drones et la guerre en Ukraine façonnent les élections législatives. Les Lettons votent lors d'élections parlementaires marquées par les incursions de drones, les problèmes de sécurité de la Russie, la guerre en Ukraine et les pressions liées au coût de la vie.",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/world/latvia-votes-as-drone-incursions-ukraine-war-shape-parliamentary-election-article-14043827.html",
+      "published_at": "2026-10-03T04:45:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Lettonie",
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Allez-y, dit Trillanes à propos des menaces judiciaires de Duterte. C'est la réponse de l'ancien sénateur Antonio Trillanes IV au Manila Times, interrogé sur sa réaction aux menaces du camp de la vice-présidente Sara Duterte de le poursuivre en justice pour ses allégations …",
+      "sources": [
+        "The Manila Times — fiabilité 6/10"
+      ],
+      "url": "https://www.manilatimes.net/2026/10/03/news/bring-it-on-says-trillanes-on-duterte-court-threats/2438379",
+      "published_at": "2026-10-03T04:25:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Justice. Surpopulation carcérale : la France passe la barre des 90 000 détenus. Plus de 90 000 personnes étaient incarcérées en France à la date du 1er septembre dernier, selon les derniers chiffres du ministère de la Justice.",
+      "sources": [
+        "Le Dauphiné Libéré — fiabilité 6/10"
+      ],
+      "url": "https://www.ledauphine.com/faits-divers-justice/2026/10/03/surpopulation-carcerale-la-france-passe-la-barre-des-90-000-detenus",
+      "published_at": "2026-10-03T11:52:20+02:00",
       "origin": "global",
       "content_enriched": true
     },
