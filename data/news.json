@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:12:07.819126+02:00",
+  "generated_at": "2026-10-03T16:22:20.385939+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -66351,11 +66351,12 @@
     {
       "regions": [
         "Asie",
-        "Amérique du Nord"
+        "Amérique du Nord",
+        "International"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
-      "score": 5,
+      "score": 9,
       "category": "Géopolitique",
       "summary": "La « Marche de la folie » du président Donald Trump (États-Unis) donne du pouvoir aux extrémistes iraniens. Pourtant, la myopie trumpienne persiste, l’administration continuant de prétendre que sa pression sur l’Iran est un succès retentissant. \"Le blocus fonctionne, il fonctionne comme nous n'en avons jamais vu\"…",
       "sources": [
@@ -66981,6 +66982,60 @@
         "Portugal",
         "États-Unis"
       ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des dizaines de milliers de personnes protestent contre la crise du logement en Espagne. Des manifestations ont lieu en Espagne contre la crise nationale du logement, après que le parlement a rejeté les propositions du gouvernement visant à protéger les locataires. Au programme également, un chercheur scientifique a…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/audio/play/w1730bn7ctz9whh",
+      "published_at": "2026-10-03T08:22:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 5,
+      "category": "Géopolitique",
+      "summary": "Les trains suédois offriront une connectivité par satellite. L'opérateur ferroviaire suédois SJ a choisi la société technologique Icomera pour fournir une connectivité par satellite sur sa flotte de trains SJ 3000.",
+      "sources": [
+        "RailAdvent — fiabilité 6/10"
+      ],
+      "url": "https://www.railadvent.co.uk/2026/10/swedens-trains-to-offer-satellite-connectivity.html",
+      "published_at": "2026-10-03T06:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Amérique du Sud"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Les entreprises artisanales ont un nouveau marché. Exactement trois ans après le lancement de son test bêta, la Coopérative des Artisans a ouvert cette semaine sa plateforme de marché en ligne pour …",
+      "sources": [
+        "PRWeb — fiabilité 6/10"
+      ],
+      "url": "https://www.prweb.com/releases/handmade-businesses-have-a-new-marketplace---and-they-own-it-302896862.html",
+      "published_at": "2026-10-03T09:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
     },
     {
       "regions": [
