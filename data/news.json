@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:45:37.596954+02:00",
+  "generated_at": "2026-10-03T11:55:47.492097+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64216,8 +64216,7 @@
         "International"
       ],
       "countries": [
-        "Ukraine",
-        "Russie"
+        "Ukraine"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
@@ -65206,7 +65205,8 @@
       "url": "https://www.aljazeera.com/news/2026/10/3/g7-to-release-100-million-barrels-of-oil-and-diesel-will-it-curb-prices",
       "published_at": "2026-10-03T04:28:00+02:00",
       "origin": "rss",
-      "content_enriched": true
+      "content_enriched": true,
+      "countries": []
     },
     {
       "regions": [
