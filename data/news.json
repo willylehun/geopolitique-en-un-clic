@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:15:49.233930+02:00",
+  "generated_at": "2026-10-03T19:26:02.060426+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -603,8 +603,8 @@
         "Reuters"
       ],
       "countries": [
-        "Afrique du Sud",
         "Éthiopie",
+        "Afrique du Sud",
         "Égypte"
       ]
     },
@@ -39253,9 +39253,9 @@
         "Afrique"
       ],
       "countries": [
-        "Afrique du Sud",
         "Zimbabwe",
-        "Botswana"
+        "Botswana",
+        "Afrique du Sud"
       ],
       "period": "day",
       "bucket": "30 septembre 2026",
@@ -64001,8 +64001,7 @@
       "content_enriched": true,
       "countries": [
         "Iran",
-        "États-Unis",
-        "Yémen"
+        "États-Unis"
       ]
     },
     {
@@ -68364,6 +68363,67 @@
       ],
       "url": "https://lanouvelletribune.info/2026/10/la-coree-du-nord-annonce-avoir-teste-un-missile-strategique-dote-dintelligence-artificielle/",
       "published_at": "2026-10-03T10:48:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La MEA convoque un diplomate pakistanais pour infiltration et qualifie les allégations sur l'incident à la frontière du Pendjab de « sans fondement et motivées ». Dans un communiqué, le MEA a déclaré que trois individus avaient infiltré le territoire indien et avaient continué à se diriger vers la barrière frontalière malgré les avertissements répétés du personnel du BSF de retourner au Pakistan.",
+      "sources": [
+        "Moneycontrol — fiabilité 6/10"
+      ],
+      "url": "https://www.moneycontrol.com/news/india/mea-summons-pakistani-diplomat-after-bsf-kills-two-suspected-intruders-in-punjab-14043990.html",
+      "published_at": "2026-10-03T12:11:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Pakistan"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "countries": [
+        "Corée du Nord"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Corée du Nord : un missile utilisant l'IA et capable de modifier sa trajectoire aurait été testé. La Corée du Nord a annoncé samedi 3 octobre avoir tiré un missile stratégique de portée intermédiaire intégrant l’utilisation d’IA …",
+      "sources": [
+        "CNEWS — fiabilité 6/10"
+      ],
+      "url": "https://www.cnews.fr/monde/2026-10-03/coree-du-nord-un-missile-utilisant-lia-et-capable-de-modifier-sa-trajectoire",
+      "published_at": "2026-10-03T12:24:00+02:00",
+      "origin": "global",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Plus de la moitié des Britanniques sont favorables à un retour du Royaume-Uni dans l'Union européenne, selon un sondage. Le Premier ministre, Andy Burnham, a évoqué cette possibilité lors d'un discours au congrès annuel du Parti travailliste. Différents scénarios, où Londres et Bruxelles renforcent leurs relations, sont …",
+      "sources": [
+        "France Info — fiabilité 6/10"
+      ],
+      "url": "https://www.franceinfo.fr/monde/europe/la-grande-bretagne-et-l-ue/plus-de-la-moitie-des-britanniques-sont-favorables-a-un-retour-du-royaume-uni-dans-l-union-europeenne-selon-un-sondage_8221126.html",
+      "published_at": "2026-10-03T08:26:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
