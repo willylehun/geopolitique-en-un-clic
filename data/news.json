@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:08:48.008266+02:00",
+  "generated_at": "2026-10-03T14:19:02.462964+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -1302,8 +1302,8 @@
       ],
       "countries": [
         "Bahreïn",
-        "Oman",
-        "Iran"
+        "Iran",
+        "Oman"
       ],
       "period": "day",
       "bucket": "13 septembre 2026",
@@ -52679,9 +52679,9 @@
         "International"
       ],
       "countries": [
-        "Yémen",
+        "Iran",
         "Oman",
-        "Iran"
+        "Yémen"
       ],
       "period": "day",
       "bucket": "1 octobre 2026",
@@ -54377,8 +54377,8 @@
         "Asie"
       ],
       "countries": [
-        "Yémen",
-        "Iran"
+        "Iran",
+        "Yémen"
       ],
       "period": "day",
       "bucket": "2 octobre 2026",
@@ -57289,8 +57289,8 @@
       "content_enriched": true,
       "countries": [
         "Arabie saoudite",
-        "Yémen",
-        "Iran"
+        "Iran",
+        "Yémen"
       ]
     },
     {
@@ -64001,8 +64001,7 @@
       "content_enriched": true,
       "countries": [
         "Iran",
-        "États-Unis",
-        "Yémen"
+        "États-Unis"
       ]
     },
     {
@@ -64400,7 +64399,7 @@
       "bucket": "3 octobre 2026",
       "score": 9,
       "category": "Conflit",
-      "summary": "La Corée du Nord lance un nouveau missile balistique, selon Séoul. Le projectile s'est écrasé en mer sans faire de dégât, selon l'armée sud-coréenne. Ce nouveau tir intervient en plein regain de tension entre Pyongyang et Séoul.",
+      "summary": "La Corée du Nord a lancé un nouveau missile balistique, selon Séoul. Le projectile s'est écrasé en mer sans faire de dégât, selon l'armée sud-coréenne. Ce nouveau tir intervient en plein regain de tension entre Pyongyang et Séoul.",
       "sources": [
         "France Info — fiabilité 6/10"
       ],
@@ -66071,8 +66070,8 @@
         "Asie"
       ],
       "countries": [
-        "Oman",
-        "Israël"
+        "Israël",
+        "Oman"
       ],
       "period": "day",
       "bucket": "3 octobre 2026",
