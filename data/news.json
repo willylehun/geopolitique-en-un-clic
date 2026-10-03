@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:48:23.792962+02:00",
+  "generated_at": "2026-10-03T20:58:35.057503+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -68225,7 +68225,7 @@
         "letemps.ch — fiabilité 6/10"
       ],
       "url": "https://www.letemps.ch/suisse/geneve/1500-manifestants-rassembles-a-geneve-en-soutien-aux-palestiniens-exigent-des-sanctions-suisses-contre-israel",
-      "published_at": "2026-10-03T19:03:21+02:00",
+      "published_at": "2026-10-03T20:31:57+02:00",
       "origin": "global",
       "content_enriched": true
     },
@@ -68916,6 +68916,127 @@
       ],
       "url": "https://fr.cibercuba.com/noticias/2026-10-03-u1-e207888-s27061-nid341824-eeuu-acelera-defensas-antidrones-tras-reportes",
       "published_at": "2026-10-03T12:59:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "Les pourparlers américano-russes pour mettre fin à la guerre en Ukraine impliquent désormais un accord pétrolier massif : rapport. L'accord, qui dépend de l'approbation du gouvernement américain et du Kremlin, concerne un vaste ensemble de gisements de pétrole, de raffineries et de stations-service à travers le monde appartenant au groupe énergétique russe Luk …",
+      "sources": [
+        "NDTV — fiabilité 6/10"
+      ],
+      "url": "https://www.ndtv.com/world-news/us-russia-talks-to-end-ukraine-war-now-involves-a-massive-oil-deal-report-12135373",
+      "published_at": "2026-10-03T13:53:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La Liste unie du Premier ministre letton est en tête des élections, selon les résultats des sondages à la sortie des urnes. RIGA, 3 octobre (Reuters) - La Liste unie centriste du Premier ministre letton Andris Kulbergs semble prête à remporter les élections parlementaires de samedi, comme largement attendu, mais doit former une coalition avec d'autres …",
+      "sources": [
+        "Reuters via MSN — fiabilité 9/10"
+      ],
+      "url": "https://www.msn.com/en-us/news/other/latvia-pm-s-united-list-ahead-in-election-exit-poll-shows/ar-AA2duHLq",
+      "published_at": "2026-10-03T12:02:44+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Des dizaines de milliers de personnes manifestent dans toute l'Espagne contre la crise du logement. Des rumeurs courent selon lesquelles le Premier ministre Pedro Sánchez pourrait convoquer des élections anticipées.",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/audio/play/m0032h68",
+      "published_at": "2026-10-03T11:43:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Espagne"
+      ]
+    },
+    {
+      "regions": [
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Conflit",
+      "summary": "Guerre en Ukraine : Kiev déploie son missile balistique tactique FP-7 pour la première fois. L’armée ukrainienne a déployé pour la première fois en situation de combat son missile balistique tactique FP-7, lors d’une frappe probablement menée dans la nuit du 30 septembre au 1er octobre, a ann …",
+      "sources": [
+        "Dailymotion via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/fr-fr/actualite/other/guerre-en-ukraine-kiev-déploie-son-missile-balistique-tactique-fp-7-pour-la-première-fois/vi-AA2dthbz",
+      "published_at": "2026-10-03T01:24:47+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Asie",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Une raffinerie de pétrole saoudienne touchée par les Houthis alors qu'ils lancent une contre-attaque. De grands panaches de fumée peuvent être vus s'élever des environs de la raffinerie de pétrole à Riyad, samedi 3 octobre. L'incendie survient dans un contexte d'escalade des hostilités entre l'Arabie saoudite et le Yémen, aligné sur l'Iran.",
+      "sources": [
+        "Daily Mail via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-xl/news/other/saudi-oil-refinery-hit-by-houthis-as-they-fire-counter-strike/vi-AA2duTPj",
+      "published_at": "2026-10-03T11:52:06+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Arabie saoudite",
+        "Iran",
+        "Yémen"
+      ]
+    },
+    {
+      "regions": [
+        "Océanie"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Technologie",
+      "summary": "L'agent OpenAI AI pirate un autre département du gouvernement australien et accède à des données non publiques : rapport. OpenAI a révélé un autre cas dans lequel son agent d'IA a accédé à un département du gouvernement australien sans autorisation. Tout ce que vous devez savoir.",
+      "sources": [
+        "Digit via MSN — fiabilité 6/10"
+      ],
+      "url": "https://www.msn.com/en-in/news/other/openai-ai-agent-hacks-another-australian-govt-department-accesses-non-public-data-report/ar-AA2dtmpI",
+      "published_at": "2026-10-03T01:18:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
