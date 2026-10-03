@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:03:13.116729+02:00",
+  "generated_at": "2026-10-03T17:13:25.367020+02:00",
   "timezone": "Europe/Paris",
   "window_rule": "Une date couvre de 00h00 à 23h59 heure de Paris.",
   "target_per_region_per_day": 60,
@@ -64572,7 +64572,8 @@
     },
     {
       "regions": [
-        "Europe"
+        "Europe",
+        "Asie"
       ],
       "countries": [
         "Bulgarie",
@@ -66847,9 +66848,10 @@
       "bucket": "3 octobre 2026",
       "score": 6,
       "category": "Géopolitique",
-      "summary": "Manifestations massives en Espagne pour le droit au logement. Des dizaines de milliers de personnes ont manifesté samedi pour le logement à Madrid et dans d’autres villes espagnoles, après le rejet des mesures du gouvernement Sanchez. Le Premier ministre pourrai …",
+      "summary": "Espagne : après le rejet des mesures du gouvernement, des manifestations monstres pour le droit au logement. Des manifestations monstres pour le logement ont rassemblé samedi des dizaines de milliers de personnes à Madrid et dans de nombreuses villes espagnoles, après le rejet des mesures du gouvernement de …",
       "sources": [
-        "bluewin — fiabilité 6/10"
+        "bluewin — fiabilité 6/10",
+        "AFP via MSN — fiabilité 7/10"
       ],
       "url": "https://www.bluewin.ch/fr/infos/manifestations-massives-en-espagne-pour-le-droit-au-logement-li.3623128",
       "published_at": "2026-10-03T08:26:00+02:00",
@@ -67041,6 +67043,7 @@
       "regions": [
         "Asie",
         "Amérique du Nord",
+        "Europe",
         "International"
       ],
       "period": "day",
@@ -67288,6 +67291,115 @@
       ],
       "url": "https://fr.euronews.com/2026/10/03/36-ans-dunite-allemande-les-allemands-sont-ils-unis-aujourdhui",
       "published_at": "2026-10-03T07:51:00+02:00",
+      "origin": "rss",
+      "content_enriched": true
+    },
+    {
+      "regions": [
+        "Asie",
+        "Europe",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 9,
+      "category": "Géopolitique",
+      "summary": "L'Ukraine est prête à examiner la proposition de cessez-le-feu de l'Inde, la qualifiant de « plus large » des quatre plans. L'Ukraine a reçu quatre offres de paix avec la Russie, la proposition de cessez-le-feu de l'Inde étant la « plus large », selon le ministre ukrainien des Affaires étrangères Andrii Sybiha. Sybiha a déclaré que Kyiv était prête à…",
+      "sources": [
+        "timesnownews — fiabilité 6/10",
+        "Times Now — fiabilité 6/10"
+      ],
+      "url": "https://www.timesnownews.com/world/ukraine-ready-to-consider-indias-ceasefire-proposal-calls-it-broadest-of-4-plans-article-156269446",
+      "published_at": "2026-10-03T10:01:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Inde",
+        "Russie",
+        "Ukraine"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Tom Cruise pense-t-il que Digger est un chef-d'œuvre – ou sait-il que c'est une dinde ? Je connais la raison pour laquelle le héros américain est présent dans ce film maniaque sur un baron du pétrole tyrannique et un président idiot (même s'il n'en est pas sûr)…",
+      "sources": [
+        "The Times — fiabilité 6/10"
+      ],
+      "url": "https://www.thetimes.com/culture/film/article/tom-cruise-believe-digger-a-masterpiece-or-know-a-turkey-jlj9n7g28",
+      "published_at": "2026-10-03T10:00:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "La police anti-émeute affronte des étudiants lors de manifestations en France. Le gouvernement français affirme que le nombre de personnes arrêtées au cours d'une semaine de manifestations étudiantes a dépassé les cinq mille. La plupart des personnes détenues sont des adolescents. Il y a eu des scènes de violence devant les écoles…",
+      "sources": [
+        "BBC (média public) — fiabilité 8/10"
+      ],
+      "url": "https://www.bbc.com/audio/play/w1730c5rw2z8lh0",
+      "published_at": "2026-10-03T08:55:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "France"
+      ]
+    },
+    {
+      "regions": [
+        "Amérique du Sud",
+        "Amérique du Nord",
+        "International"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 8,
+      "category": "Géopolitique",
+      "summary": "Eni et Repsol envisagent de vendre une partie du principal gisement gazier du Venezuela. Eni SpA et Repsol SA envisagent d'attirer des investisseurs extérieurs dans le champ géant de gaz naturel Perla, au large des côtes du Venezuela, alors que l'administration du président Donald Trump (États-Unis) s'efforce de débloquer le pétrole sud-américain …",
+      "sources": [
+        "Bloomberg — fiabilité 8/10"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-10-03/eni-repsol-consider-selling-part-of-top-venezuela-gas-field",
+      "published_at": "2026-10-03T08:15:00+02:00",
+      "origin": "rss",
+      "content_enriched": true,
+      "countries": [
+        "Venezuela",
+        "États-Unis"
+      ]
+    },
+    {
+      "regions": [
+        "Europe"
+      ],
+      "countries": [
+        "Espagne"
+      ],
+      "period": "day",
+      "bucket": "3 octobre 2026",
+      "score": 6,
+      "category": "Géopolitique",
+      "summary": "Droit au logement en Espagne : des manifestations monstres dans tout le pays ce samedi. Plusieurs dizaines de milliers de personnes ont défilé à Madrid et dans d’autres villes au lendemain du rejet par les députés de mesures du gouvernement de Pedro Sánchez.",
+      "sources": [
+        "Libération — fiabilité 6/10"
+      ],
+      "url": "https://www.liberation.fr/international/europe/droit-au-logement-en-espagne-des-manifestations-monstres-dans-tout-le-pays-ce-samedi-20261003_5QVJOUZ5INBHVIEXNIZNU272OA/",
+      "published_at": "2026-10-03T09:00:00+02:00",
       "origin": "rss",
       "content_enriched": true
     },
